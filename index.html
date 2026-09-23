@@ -47,4 +47,10 @@ async function load(){
   n.items.forEach(x=>{const c=document.createElement("article");c.className="news";const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";c.innerHTML=`<div class="nh"><div><div class="t">${x.ticker}</div><div class="n">${x.group}</div></div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" href="${x.url}">來源 ↗</a>`:""}</div>`;ng.appendChild(c)});
 }
 load().catch(e=>{document.getElementById("stamp").textContent="資料載入失敗，請稍後重新整理"});
+setInterval(()=>{
+  document.getElementById("groups").innerHTML="";
+  document.getElementById("heatgrid").innerHTML="";
+  document.getElementById("newsgrid").innerHTML="";
+  load().catch(()=>{});
+},300000);
 </script></body></html>
