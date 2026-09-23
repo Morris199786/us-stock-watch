@@ -44,6 +44,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data.json news.json congress.json
-          git diff --cached --quiet || git commit -m "Auto update market data"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto update market data"
+          fi
+
+          git pull --rebase origin main
+          git push origin main
