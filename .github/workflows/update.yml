@@ -12,15 +12,12 @@ on:
       - "requirements.txt"
       - ".github/workflows/update.yml"
 
-  schedule:
-    - cron: "*/5 * * * *"
-
 permissions:
   contents: write
 
 concurrency:
   group: us-stock-watch-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
