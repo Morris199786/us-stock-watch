@@ -2,8 +2,19 @@ name: Update US Stock Watch
 
 on:
   workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "updater.py"
+      - "config.json"
+      - "requirements.txt"
+      - ".github/workflows/update.yml"
+
   schedule:
-    - cron: "*/5 * * * *"
+    # 每 5 分鐘一次，但避開 GitHub 最容易壅塞的 00/05/10... 分鐘
+    - cron: "3-58/5 * * * *"
 
 permissions:
   contents: write
@@ -23,6 +34,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Show trigger
+        run: echo "Triggered by ${{ github.event_name }}"
 
       - run: pip install -r requirements.txt
 
