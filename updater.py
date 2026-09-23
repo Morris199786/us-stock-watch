@@ -204,24 +204,27 @@ def get_quote(symbol):
 
     return chg, mc, mc_source
 
-# Reuse translations from the prior news.json so we don't translate the same item every 5 minutes
+# Reuse translations/history from prior news.json.
 translation_cache = {}
+old_news_items = []
+old_history_date = ""
 
 def has_cjk(text):
     return bool(re.search(r"[\u3400-\u9fff]", text or ""))
 
 try:
     old = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
-    for x in old.get("items", []):
+    old_news_items = old.get("items", []) or []
+    old_history_date = (old.get("historyUpdatedDate") or "").strip()
+    for x in old_news_items:
         ot = (x.get("originalTitle") or "").strip()
         translated_title = (x.get("title") or "").strip()
         translated_summary = (x.get("summary") or "").strip()
-        # Only cache a prior result if it was actually translated to Chinese.
-        # This avoids permanently reusing the old English output.
         if ot and has_cjk(translated_title):
             translation_cache[ot] = (translated_title, translated_summary)
 except Exception:
-    pass
+    old_news_items = []
+    old_history_date = ""
 
 translator = GoogleTranslator(source="auto", target="zh-TW")
 
@@ -281,6 +284,146 @@ def zh(text):
 
     return text
 
+
+
+BROKER_NAMES = [
+    "Evercore ISI", "Citi", "Citigroup", "JPMorgan", "JP Morgan", "Morgan Stanley",
+    "Goldman Sachs", "Bank of America", "BofA", "UBS", "Jefferies", "Barclays",
+    "Wells Fargo", "Bernstein", "Mizuho", "Needham", "Raymond James", "TD Cowen",
+    "Cowen", "Stifel", "Susquehanna", "Rosenblatt", "KeyBanc", "Piper Sandler",
+    "Truist", "Deutsche Bank", "Cantor Fitzgerald", "Baird", "Oppenheimer",
+    "Loop Capital", "Wedbush", "Benchmark", "HSBC", "BMO Capital", "Scotiabank",
+    "DA Davidson", "William Blair", "Craig-Hallum"
+]
+
+def _fmt_target(v):
+    try:
+        f = float(v.replace(",", ""))
+        if f.is_integer():
+            return f"${int(f):,}"
+        return f"${f:,.2f}".rstrip("0").rstrip(".")
+    except Exception:
+        return f"${v}"
+
+def normalize_analyst_title(x):
+    """
+    Turn analyst/broker headlines into investor-friendly Traditional Chinese.
+    Examples:
+      Evercore ISI 上修 CIEN 目標價至 $550（原 $375）
+      Citi 下修 MU 目標價至 $120（原 $135）
+      JPMorgan 升評 AMD 至 Overweight，目標價上修至 $250
+    Falls back to the translated/original title if key fields cannot be extracted.
+    """
+    if not x.get("analystPriority"):
+        return x.get("title") or x.get("originalTitle") or ""
+
+    raw_title = (x.get("originalTitle") or "").strip()
+    raw_summary = (x.get("originalSummary") or "").strip()
+    text = f"{raw_title} {raw_summary}"
+    low = text.lower()
+    ticker = (x.get("ticker") or "").strip()
+
+    broker = ""
+    for name in BROKER_NAMES:
+        if name.lower() in low:
+            broker = name
+            break
+
+    # Detect rating action
+    rating_action = ""
+    rating = ""
+    upgrade_words = [
+        "upgraded to", "upgrade to", "raised to", "initiated with", "initiates with",
+        "initiated at", "initiates at"
+    ]
+    downgrade_words = ["downgraded to", "downgrade to", "lowered to", "cut to"]
+
+    for p in upgrade_words:
+        m = re.search(re.escape(p) + r"\s+([A-Za-z][A-Za-z \-/]+?)(?:[,.]| from | with | and |$)", text, re.I)
+        if m:
+            rating_action = "升評"
+            rating = m.group(1).strip()
+            break
+    if not rating_action:
+        for p in downgrade_words:
+            m = re.search(re.escape(p) + r"\s+([A-Za-z][A-Za-z \-/]+?)(?:[,.]| from | with | and |$)", text, re.I)
+            if m:
+                rating_action = "降評"
+                rating = m.group(1).strip()
+                break
+
+    # Detect target price patterns
+    old_target = ""
+    new_target = ""
+
+    patterns = [
+        r"(?:price target|target price|target)\s+(?:was\s+)?(?:raised|increased|boosted|lifted)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:price target|target price|target)\s+(?:was\s+)?(?:cut|lowered|reduced)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:raised|increased|boosted|lifted)\s+(?:its\s+)?(?:price target|target price|target)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:cut|lowered|reduced)\s+(?:its\s+)?(?:price target|target price|target)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:price target|target price|target)\s+(?:from\s+)?\$?([\d,.]+)\s+(?:to|→)\s+\$?([\d,.]+)",
+        r"from\s+\$?([\d,.]+)\s+(?:to|→)\s+\$?([\d,.]+)"
+    ]
+
+    for idx, pat in enumerate(patterns):
+        m = re.search(pat, text, re.I)
+        if not m:
+            continue
+        a, b = m.group(1), m.group(2)
+        if idx in (0,1,2,3):
+            new_target, old_target = a, b
+        else:
+            old_target, new_target = a, b
+        break
+
+    # Single "to $X" pattern if old target isn't available
+    if not new_target:
+        m = re.search(
+            r"(?:price target|target price|target)\s+(?:raised|increased|boosted|lifted|cut|lowered|reduced)?\s*(?:to|at)\s+\$?([\d,.]+)",
+            text, re.I
+        )
+        if m:
+            new_target = m.group(1)
+
+    # Determine target direction
+    target_action = ""
+    if any(k in low for k in ["price target raised", "raises price target", "raised its price target",
+                               "target raised", "boosts price target", "increases price target",
+                               "lifted its price target", "price target increased"]):
+        target_action = "上修"
+    elif any(k in low for k in ["price target cut", "cuts price target", "cut its price target",
+                                 "target cut", "lowers price target", "lowered its price target",
+                                 "reduced price target", "price target lowered"]):
+        target_action = "下修"
+    elif old_target and new_target:
+        try:
+            target_action = "上修" if float(new_target.replace(",","")) > float(old_target.replace(",","")) else "下修"
+        except Exception:
+            pass
+
+    # Build concise investor-style headline
+    if broker and ticker and new_target:
+        newp = _fmt_target(new_target)
+        oldp = _fmt_target(old_target) if old_target else ""
+
+        if rating_action and rating:
+            rating = re.sub(r"\s+", " ", rating).strip()
+            if target_action:
+                title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價{target_action}至 {newp}"
+            else:
+                title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價至 {newp}"
+        else:
+            verb = target_action or "調整"
+            title = f"{broker} {verb} {ticker} 目標價至 {newp}"
+
+        if oldp:
+            title += f"（原 {oldp}）"
+        return title
+
+    if broker and ticker and rating_action:
+        return f"{broker} {rating_action} {ticker}" + (f" 至 {rating}" if rating else "")
+
+    return x.get("title") or raw_title
 
 def target_relevance(text, display_ticker, company_name):
     """
@@ -418,6 +561,78 @@ def broker_news_search(display_ticker, company_name, symbol, group):
             "ts": pub.isoformat() if pub else "",
             "sourceType": "broker_search",
             "analystPriority": True
+        })
+    return out
+
+
+def history_news_search(display_ticker, company_name, symbol, group):
+    """
+    Daily 30-day backfill for ticker search.
+    It is intentionally NOT run every 5 minutes; the normal 48h feed handles freshness.
+    """
+    catalyst_terms = (
+        'earnings OR guidance OR outlook OR order OR contract OR partnership OR customer '
+        'OR launch OR acquisition OR merger OR approval OR capacity OR demand OR AI '
+        'OR upgrade OR downgrade OR "price target"'
+    )
+    q = f'("{company_name}" OR {display_ticker}) ({catalyst_terms}) when:30d'
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en"
+    })
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=6) as r:
+            xml = r.read()
+        root = ET.fromstring(xml)
+    except Exception:
+        return []
+
+    now = datetime.now(timezone.utc)
+    out = []
+    for item in root.findall(".//item")[:cfg.get("history_max_results_per_ticker", 5)]:
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = parse_rss_date(item.findtext("pubDate"))
+        if pub and now - pub > timedelta(days=30):
+            continue
+
+        clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", title).strip() or title
+        blob = clean_title.lower()
+
+        if not target_relevance(clean_title, display_ticker, company_name):
+            continue
+
+        # Keep investment-relevant company events, not generic market chatter.
+        event_hit = any(k in blob for k in CAT + BROKER_ACTION + [
+            "outlook", "forecast", "analyst", "target", "deal", "license", "licensing"
+        ])
+        if not event_hit:
+            continue
+
+        tag = "題材"
+        if any(k in blob for k in NEG + BROKER_NEG):
+            tag = "利空"
+        elif any(k in blob for k in POS + BROKER_POS):
+            tag = "利多"
+
+        analyst_priority = any(k in blob for k in BROKER_ACTION)
+
+        out.append({
+            "ticker": display_ticker,
+            "group": group,
+            "tag": tag,
+            "title": clean_title,
+            "summary": "",
+            "originalTitle": clean_title,
+            "originalSummary": "",
+            "url": link,
+            "ts": pub.isoformat() if pub else "",
+            "sourceType": "history_search",
+            "analystPriority": analyst_priority
         })
     return out
 
@@ -571,12 +786,14 @@ groups = []
 all_news = []
 active_search_candidates = []
 broker_scan_candidates = []
+history_scan_candidates = []
 
 for group, arr in cfg["groups"].items():
     stocks = []
     for ticker, name, symbol in arr:
         chg, mc, mc_source = get_quote(symbol)
         broker_scan_candidates.append((ticker, name, symbol, group))
+        history_scan_candidates.append((ticker, name, symbol, group))
         stocks.append({
             "ticker": ticker,
             "name": name,
@@ -624,6 +841,19 @@ for group, arr in cfg["groups"].items():
         "stocks": stocks
     })
 
+# Retain prior searchable news for up to 30 days.
+# This lets ticker search keep history without re-fetching the whole month every 5 minutes.
+now_utc = datetime.now(timezone.utc)
+for x in old_news_items:
+    try:
+        dt = datetime.fromisoformat((x.get("ts") or "").replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if now_utc - dt <= timedelta(days=30):
+            all_news.append(x)
+    except Exception:
+        pass
+
 # Dedicated broker/analyst scan across the full watchlist.
 # Run concurrently so upgrades/downgrades/target changes are checked every cycle.
 broker_items = []
@@ -638,6 +868,24 @@ with ThreadPoolExecutor(max_workers=14) as ex:
         except Exception:
             pass
 all_news.extend(broker_items)
+
+# Once per Taiwan calendar day, refresh a 30-day searchable history pool.
+today_tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
+history_refreshed_today = old_history_date == today_tw
+if not history_refreshed_today:
+    history_items = []
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futures = {
+            ex.submit(history_news_search, ticker, name, symbol, group): ticker
+            for ticker, name, symbol, group in history_scan_candidates
+        }
+        for fut in as_completed(futures):
+            try:
+                history_items.extend(fut.result())
+            except Exception:
+                pass
+    all_news.extend(history_items)
+    old_history_date = today_tw
 
 # Second-layer active search: only the biggest movers each run.
 # This keeps the 5-minute workflow fast while still targeting the names most likely to have a fresh catalyst.
@@ -719,26 +967,47 @@ for x in sorted(all_news, key=lambda z: z.get("ts", ""), reverse=True):
     x["score"] = importance_score(x)
     news.append(x)
 
-# Keep a broader searchable pool, but mark the strongest stories for the default homepage.
+# Keep a broad 30-day searchable pool. Homepage featured stories are selected separately.
 news.sort(key=lambda z: (1 if z.get("analystPriority") else 0, z.get("score", 0), z.get("ts", "")), reverse=True)
-per_ticker = {}
-ranked = []
-for x in news:
-    t = x.get("ticker","")
-    # Analyst/broker actions are first priority and are not dropped by the normal 3-story cap.
-    if not x.get("analystPriority") and per_ticker.get(t, 0) >= 3:
-        continue
-    per_ticker[t] = per_ticker.get(t, 0) + 1
-    ranked.append(x)
 
-search_pool = ranked[:cfg.get("search_news_pool", 80)]
-for i, x in enumerate(search_pool):
-    x["featured"] = i < cfg.get("featured_news", 18)
+search_pool = news[:cfg.get("search_news_pool", 500)]
+
+featured_count = cfg.get("featured_news", 18)
+featured_per_ticker = {}
+featured_ids = set()
+for x in news:
+    t = x.get("ticker", "")
+    if not x.get("analystPriority") and featured_per_ticker.get(t, 0) >= 3:
+        continue
+    featured_per_ticker[t] = featured_per_ticker.get(t, 0) + 1
+    featured_ids.add(id(x))
+    if len(featured_ids) >= featured_count:
+        break
+
+for x in search_pool:
+    x["featured"] = id(x) in featured_ids
 
 news = search_pool
 
-# Translate only the final selected pool. This is much faster than translating every raw candidate.
-for i, x in enumerate(news):
+# Translate final pool. Titles are parallelized because the 30-day pool can be larger.
+uncached_titles = {}
+for x in news:
+    raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
+    if raw_title and raw_title not in translation_cache:
+        uncached_titles[raw_title] = None
+
+if uncached_titles:
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs = {ex.submit(zh, title): title for title in uncached_titles}
+        for fut in as_completed(futs):
+            title = futs[fut]
+            try:
+                translated = fut.result() or title
+            except Exception:
+                translated = title
+            uncached_titles[title] = translated
+
+for x in news:
     raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
     raw_summary = (x.get("originalSummary") or x.get("summary") or "").strip()
 
@@ -746,22 +1015,27 @@ for i, x in enumerate(news):
         cached_title, cached_summary = translation_cache[raw_title]
         x["title"] = cached_title or raw_title
         x["translated"] = has_cjk(x["title"])
-        if i < cfg.get("featured_news", 18):
+        if x.get("featured") and raw_summary:
             x["summary"] = (cached_summary or raw_summary)[:320]
         else:
             x["summary"] = ""
         continue
 
-    translated_title = zh(raw_title)
-    x["title"] = translated_title or raw_title
+    translated_title = uncached_titles.get(raw_title) or raw_title
+    x["title"] = translated_title
     x["translated"] = has_cjk(x["title"])
 
-    # Only translate summaries for the featured homepage stories.
-    if i < cfg.get("featured_news", 18) and raw_summary:
+    # Only featured homepage stories get translated summaries.
+    if x.get("featured") and raw_summary:
         translated_summary = zh(raw_summary[:420])
         x["summary"] = (translated_summary or raw_summary)[:320]
     else:
         x["summary"] = ""
+
+# Normalize broker/analyst headlines after translation so key investment facts are visible at a glance.
+for x in news:
+    if x.get("analystPriority"):
+        x["title"] = normalize_analyst_title(x)
 
 tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
 (ROOT / "data.json").write_text(
@@ -770,7 +1044,7 @@ tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
     encoding="utf-8"
 )
 (ROOT / "news.json").write_text(
-    json.dumps({"updatedAt": tw + " 台灣時間", "items": news},
+    json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "items": news},
                ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
