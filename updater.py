@@ -280,6 +280,39 @@ def zh(text):
 
     return text
 
+
+def target_relevance(text, display_ticker, company_name):
+    """
+    Keep only stories that clearly mention the target company or ticker.
+    This avoids loose Yahoo/Google cross-stock matches.
+    """
+    text = (text or "").lower()
+    ticker = (display_ticker or "").strip().lower()
+    company = (company_name or "").strip().lower()
+
+    if company and company in text:
+        return True
+
+    roots = []
+    for token in re.findall(r"[a-z0-9]+", company):
+        if len(token) >= 5 and token not in {
+            "holdings","technologies","technology","systems","semiconductor",
+            "semiconductors","solutions","devices","materials","electronics",
+            "international","corporation","company","inc"
+        }:
+            roots.append(token)
+
+    if any(root in text for root in roots):
+        return True
+
+    if len(ticker) >= 3 and re.search(
+        rf"(?<![a-z0-9]){re.escape(ticker)}(?![a-z0-9])",
+        text
+    ):
+        return True
+
+    return False
+
 def parse_rss_date(text):
     if not text:
         return None
