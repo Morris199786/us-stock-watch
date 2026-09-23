@@ -116,12 +116,20 @@ def get_quote(symbol):
 
 # Reuse translations from the prior news.json so we don't translate the same item every 5 minutes
 translation_cache = {}
+
+def has_cjk(text):
+    return bool(re.search(r"[\u3400-\u9fff]", text or ""))
+
 try:
     old = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
     for x in old.get("items", []):
         ot = (x.get("originalTitle") or "").strip()
-        if ot:
-            translation_cache[ot] = (x.get("title") or ot, x.get("summary") or "")
+        translated_title = (x.get("title") or "").strip()
+        translated_summary = (x.get("summary") or "").strip()
+        # Only cache a prior result if it was actually translated to Chinese.
+        # This avoids permanently reusing the old English output.
+        if ot and has_cjk(translated_title):
+            translation_cache[ot] = (translated_title, translated_summary)
 except Exception:
     pass
 
@@ -131,11 +139,49 @@ def zh(text):
     text = (text or "").strip()
     if not text:
         return ""
-    try:
-        return translator.translate(text)
-    except Exception:
-        return text
+    for attempt in range(2):
+        try:
+            result = translator.translate(text)
+            if result:
+                return result
+        except Exception:
+            if attempt == 0:
+                time.sleep(0.15)
+    return text
 
+
+
+def target_relevance(text, display_ticker, company_name):
+    """
+    Prevent Yahoo/Google from attaching loosely related stories to the wrong stock.
+    Require the target company name or a standalone ticker mention.
+    """
+    text = (text or "").lower()
+    ticker = (display_ticker or "").strip().lower()
+    company = (company_name or "").strip().lower()
+
+    # Company-name match is strongest.
+    if company and company in text:
+        return True
+
+    # Also allow distinctive company-name root(s).
+    roots = []
+    for token in re.findall(r"[a-z0-9]+", company):
+        if len(token) >= 5 and token not in {
+            "holdings","technologies","technology","systems","semiconductor",
+            "semiconductors","solutions","devices","materials","electronics",
+            "international","corporation","company","inc"
+        }:
+            roots.append(token)
+    if any(r in text for r in roots):
+        return True
+
+    # Standalone ticker match. Avoid very short ambiguous tickers such as ON.
+    if len(ticker) >= 3:
+        if re.search(rf"(?<![a-z0-9]){re.escape(ticker)}(?![a-z0-9])", text):
+            return True
+
+    return False
 
 def parse_rss_date(text):
     if not text:
@@ -194,6 +240,10 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
         clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", title).strip() or title
         blob = clean_title.lower()
 
+        # Reject stories that don't explicitly reference the stock/company.
+        if not target_relevance(clean_title, display_ticker, company_name):
+            continue
+
         # Keep only event-oriented results. Avoid generic price-only stories.
         event_hit = any(k in blob for k in CAT + [
             "license","licensing","outlook","forecast","analyst","target","surges","jumps","rallies",
@@ -223,7 +273,7 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
         })
     return out
 
-def item_news(display_ticker, symbol, group):
+def item_news(display_ticker, company_name, symbol, group):
     out = []
     try:
         raw = yf.Ticker(symbol).news or []
@@ -257,7 +307,14 @@ def item_news(display_ticker, symbol, group):
         if dt and now - dt > timedelta(hours=cfg.get("news_lookback_hours", 36)):
             continue
 
-        blob = (title + " " + summary).lower()
+        full_text = title + " " + summary
+        blob = full_text.lower()
+
+        # Yahoo's ticker feed can contain cross-stock comparison/portfolio stories.
+        # Only keep stories that clearly mention the target stock/company.
+        if not target_relevance(full_text, display_ticker, company_name):
+            continue
+
         if not any(k in blob for k in CAT):
             continue
 
@@ -297,7 +354,7 @@ for group, arr in cfg["groups"].items():
             "marketCap": mc,
             "marketCapSource": mc_source
         })
-        feed_items = item_news(ticker, symbol, group)
+        feed_items = item_news(ticker, name, symbol, group)
         for x in feed_items:
             x["movePct"] = chg
         all_news.extend(feed_items)
@@ -378,6 +435,9 @@ def importance_score(x):
 
     if x.get("sourceType") == "active_search":
         score += 1.5
+
+    # Explicit target-company relevance gets a small bonus.
+    score += 1.0
 
     # Time decay
     try:
