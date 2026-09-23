@@ -208,12 +208,11 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
         elif any(k in blob for k in POS) or any(k in blob for k in ["licensing","license agreement","raises outlook","raises forecast"]):
             tag = "利多"
 
-        ztitle = zh(clean_title)
         out.append({
             "ticker": display_ticker,
             "group": group,
             "tag": tag,
-            "title": ztitle or clean_title,
+            "title": clean_title,
             "summary": "",
             "originalTitle": clean_title,
             "originalSummary": "",
@@ -222,8 +221,6 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
             "sourceType": "active_search",
             "movePct": move_pct
         })
-        time.sleep(0.05)
-
     return out
 
 def item_news(display_ticker, symbol, group):
@@ -270,21 +267,12 @@ def item_news(display_ticker, symbol, group):
         elif any(k in blob for k in POS):
             tag = "利多"
 
-        # Traditional-Chinese presentation, while preserving original source
-        if title in translation_cache:
-            ztitle, zsummary = translation_cache[title]
-        else:
-            ztitle = zh(title)
-            zsummary = zh(summary[:500]) if summary else ""
-            # Small pause helps avoid public translator throttling on a burst of new stories
-            time.sleep(0.08)
-
         out.append({
             "ticker": display_ticker,
             "group": group,
             "tag": tag,
-            "title": ztitle or title,
-            "summary": (zsummary or summary)[:320],
+            "title": title,
+            "summary": summary[:320],
             "originalTitle": title,
             "originalSummary": summary[:500],
             "url": url,
@@ -295,6 +283,7 @@ def item_news(display_ticker, symbol, group):
 
 groups = []
 all_news = []
+active_search_candidates = []
 
 for group, arr in cfg["groups"].items():
     stocks = []
@@ -313,9 +302,9 @@ for group, arr in cfg["groups"].items():
             x["movePct"] = chg
         all_news.extend(feed_items)
 
-        # Deep-search sharp movers so important catalysts are not missed by the ticker feed.
+        # Queue sharp movers for a second-layer active search.
         if chg is not None and abs(chg) >= cfg.get("active_search_move_threshold", 4.0):
-            all_news.extend(google_news_search(ticker, name, symbol, group, chg))
+            active_search_candidates.append((abs(chg), ticker, name, symbol, group, chg))
 
     changeable = [s for s in stocks if s["changePct"] is not None]
     weighted = [
@@ -346,6 +335,12 @@ for group, arr in cfg["groups"].items():
         "marketCapCoverage": coverage,
         "stocks": stocks
     })
+
+# Second-layer active search: only the biggest movers each run.
+# This keeps the 5-minute workflow fast while still targeting the names most likely to have a fresh catalyst.
+active_search_candidates.sort(reverse=True, key=lambda x: x[0])
+for _, ticker, name, symbol, group, chg in active_search_candidates[:cfg.get("active_search_top_movers", 10)]:
+    all_news.extend(google_news_search(ticker, name, symbol, group, chg))
 
 # Score + deduplicate news.
 # Goal: "latest + important", rather than simply newest.
@@ -430,6 +425,27 @@ for i, x in enumerate(search_pool):
     x["featured"] = i < cfg.get("featured_news", 18)
 
 news = search_pool
+
+# Translate only the final selected pool. This is much faster than translating every raw candidate.
+for i, x in enumerate(news):
+    raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
+    raw_summary = (x.get("originalSummary") or x.get("summary") or "").strip()
+
+    if raw_title in translation_cache:
+        cached_title, cached_summary = translation_cache[raw_title]
+        x["title"] = cached_title or raw_title
+        if i < cfg.get("featured_news", 18):
+            x["summary"] = (cached_summary or raw_summary)[:320]
+        else:
+            x["summary"] = ""
+        continue
+
+    x["title"] = zh(raw_title) or raw_title
+    # Only translate summaries for the featured homepage stories.
+    if i < cfg.get("featured_news", 18) and raw_summary:
+        x["summary"] = zh(raw_summary[:420])[:320]
+    else:
+        x["summary"] = ""
 
 tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
 (ROOT / "data.json").write_text(
