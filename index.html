@@ -21,9 +21,9 @@
 .kpi{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.kpi .k{font-size:11px;color:var(--muted)}.kpi .v{font-size:23px;font-weight:900;margin-top:5px}
 .cfilters{display:grid;grid-template-columns:1fr 1fr .7fr .7fr auto;gap:8px;margin:12px 0}
 .cfilters input,.cfilters select{min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px 12px;font-size:14px}
-.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
+.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.backtestBox{display:none;background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px;margin:10px 0}.backtestBox.on{display:block}.btgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.btcell{background:var(--p2);border-radius:11px;padding:10px}.btk{font-size:10px;color:var(--muted)}.btv{font-size:18px;font-weight:900;margin-top:4px}.doclink{color:var(--acc);text-decoration:none;font-size:11px}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
 
-@media(max-width:720px){.congressCards{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
+@media(max-width:720px){.congressCards{grid-template-columns:repeat(2,1fr)}.btgrid{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
 </style>
 </head><body><div class="wrap">
 <div class="top"><h1>美股觀察</h1><p>依投資題材分組｜紅漲綠跌</p><div id="stamp" class="stamp">載入中…</div></div>
@@ -37,7 +37,7 @@
 <div id="newsgrid" class="newsgrid"></div></section>
 <section id="congress" class="page">
   <div class="title">國會交易</div>
-  <div class="sub">美國 House／Senate STOCK Act 公開申報資料｜可搜尋全部 Ticker 與特定國會議員，不限你的自選股</div>
+  <div class="sub">美國 House／Senate STOCK Act 公開申報資料｜歷史回溯至 2024｜可搜尋全部 Ticker 與特定國會議員</div>
   <div id="congressCards" class="congressCards"></div>
   <div class="cfilters">
     <input id="memberSearch" type="search" placeholder="搜尋議員，例如 Nancy Pelosi">
@@ -46,16 +46,17 @@
     <select id="chamberFilter"><option value="">House + Senate</option><option value="house">眾議院</option><option value="senate">參議院</option></select>
     <button id="clearCongress" class="clearbtn full">清除</button>
   </div>
+  <div id="memberBacktest" class="backtestBox"></div>
   <div id="congressInfo" class="resultinfo">點開此分頁後載入國會交易資料</div>
   <div id="congressTable" class="ctable"></div>
   <button id="moreCongress" class="morebtn" style="display:none">顯示更多</button>
-  <div class="csource">資料來源：InsiderWatch 開放資料（CC BY 4.0），整理自美國 House／Senate STOCK Act 公開申報。金額為官方申報區間，不代表精確成交金額</div>
+  <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
 </section>
 </div><script>
 const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%"; const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
-let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={};
+let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={};
 
 async function loadCongress(){
  if(__congressLoaded){renderCongress();return;}
@@ -65,6 +66,7 @@ async function loadCongress(){
    const d=await fetch("congress.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error("no congress.json");return r.json()});
    __congressItems=d.items||[];
    __congressSummary=d.summary||{};
+   __memberBacktests=d.memberBacktests||{};
    __congressLoaded=true;
    const cards=document.getElementById("congressCards");
    if(cards)cards.innerHTML=`
@@ -77,6 +79,28 @@ async function loadCongress(){
    if(info)info.textContent="國會交易資料暫時無法載入";
  }
 }
+
+function fmtPct(v){
+ if(v==null||Number.isNaN(Number(v)))return"--";
+ const n=Number(v);return (n>0?"+":"")+n.toFixed(2)+"%";
+}
+function renderMemberBacktest(rows){
+ const box=document.getElementById("memberBacktest");if(!box)return;
+ const names=[...new Set(rows.map(x=>x.member).filter(Boolean))];
+ if(names.length!==1){box.classList.remove("on");box.innerHTML="";return;}
+ const name=names[0],b=__memberBacktests[name];
+ if(!b){box.classList.remove("on");box.innerHTML="";return;}
+ box.classList.add("on");
+ box.innerHTML=`<div style="font-weight:900;margin-bottom:8px">${name}｜買進後歷史回測（2024–現在）</div>
+ <div class="btgrid">
+  <div class="btcell"><div class="btk">買進筆數</div><div class="btv">${b.buyCount??"--"}</div></div>
+  <div class="btcell"><div class="btk">30日平均報酬</div><div class="btv ${Number(b.avg30d)>=0?"pos":"neg"}">${fmtPct(b.avg30d)}</div></div>
+  <div class="btcell"><div class="btk">30日勝率</div><div class="btv">${b.winRate30d==null?"--":Number(b.winRate30d).toFixed(1)+"%"}</div></div>
+  <div class="btcell"><div class="btk">1年平均報酬</div><div class="btv ${Number(b.avg1y)>=0?"pos":"neg"}">${fmtPct(b.avg1y)}</div></div>
+ </div>
+ <div class="csmall" style="margin-top:8px">30日樣本 ${b.sample30d??0}｜1年樣本 ${b.sample1y??0}｜基準：議員交易日後股票報酬</div>`;
+}
+
 function renderCongress(){
  const member=(document.getElementById("memberSearch")?.value||"").trim().toLowerCase();
  const ticker=(document.getElementById("tickerSearch")?.value||"").trim().toUpperCase();
@@ -90,6 +114,7 @@ function renderCongress(){
    return true;
  });
  rows.sort((a,b)=>String(b.filedDate||"").localeCompare(String(a.filedDate||"")));
+ renderMemberBacktest(rows);
  const info=document.getElementById("congressInfo");
  if(info)info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜以申報日期新 → 舊排序`;
  const table=document.getElementById("congressTable");
@@ -107,7 +132,7 @@ function renderCongress(){
      <div>${x.amountRange||"--"}</div>
      <div>交易：${x.transactionDate||"--"}</div>
      <div>申報：${x.filedDate||"--"}</div>
-     <div>${x.disclosureLagDays==null?"--":x.disclosureLagDays+" 天"}</div>
+     <div>${x.disclosureLagDays==null?"--":x.disclosureLagDays+" 天"}${x.sourceDoc?`<br><a class="doclink" target="_blank" rel="noopener" href="${x.sourceDoc}">原始申報 ↗</a>`:""}</div>
    </div>`;
  }).join("");
  const more=document.getElementById("moreCongress");
@@ -123,6 +148,8 @@ async function load(){
  [...d.groups].sort((a,b)=>(b.returnPct??-999)-(a.returnPct??-999)).forEach(x=>{const q=document.createElement("details");q.className="heat "+tone(x.returnPct);const ss=[...x.stocks].sort((a,b)=>(b.changePct??-999)-(a.changePct??-999));let mode=x.weightMode==="market_cap"?"市值加權":x.weightMode==="equal_fallback"?"市值暫缺｜等權備援":"資料不足";if(x.weightMode==="market_cap" && x.marketCapCoverage<1) mode+=`｜覆蓋 ${Math.round(x.marketCapCoverage*100)}%`;q.innerHTML=`<summary><div class="hn">${x.name}</div><div class="hr">${fmt(x.returnPct)}</div><div class="hm">${mode}<br>點擊查看個股｜漲幅高 → 低</div></summary><div class="inner">`+ss.map((z,i)=>`<div class="ir"><div class="rank">${i+1}</div><div><div class="t">${z.ticker}</div><div class="n">${z.name}</div></div><div class="ic ${cls(z.changePct)}">${fmt(z.changePct)}</div></div>`).join("")+"</div>";h.appendChild(q)});
  const ng=document.getElementById("newsgrid"); ng.innerHTML="";
  window.__newsItems=n.items||[];
+ window.__historyItems=n.historyItems||[];
+ window.__historyItemCount=n.historyItemCount||0;
  renderNews();
 }
 function renderNews(){
@@ -136,14 +163,21 @@ function renderNews(){
  if(!q){
    items=all.filter(x=>x.featured!==false).slice(0,18);
  }else{
-   // 僅依股票 Ticker 搜尋，不分大小寫；搜尋池保留最近 30 天
-   items=all
-     .filter(x=>(x.ticker||"").trim().toUpperCase()===q)
-     .sort((a,b)=>{
-       const ap=(a.analystPriority?1:0), bp=(b.analystPriority?1:0);
-       if(bp!==ap) return bp-ap;
-       return String(b.ts||"").localeCompare(String(a.ts||""));
-     });
+   // Ticker 搜尋會合併即時新聞 + 獨立 30 天歷史資料庫
+   const history=window.__historyItems||[];
+   const merged=[...all,...history]
+     .filter(x=>(x.ticker||"").trim().toUpperCase()===q);
+
+   const seen=new Set();
+   items=merged.filter(x=>{
+     const k=((x.originalTitle||x.title||"")+"").toLowerCase().replace(/\W+/g,"");
+     if(!k||seen.has(k))return false;
+     seen.add(k);return true;
+   }).sort((a,b)=>{
+     const ap=(a.analystPriority?1:0), bp=(b.analystPriority?1:0);
+     if(bp!==ap) return bp-ap;
+     return String(b.ts||"").localeCompare(String(a.ts||""));
+   });
  }
 
  ng.innerHTML="";
@@ -161,7 +195,7 @@ function renderNews(){
    ng.appendChild(c);
  });
 
- if(info) info.textContent=q?`${q}：找到 ${items.length} 則新聞`:`顯示 ${items.length} 則最新重要新聞`;
+ if(info) info.textContent=q?`${q}：找到 ${items.length} 則｜30天資料庫 ${window.__historyItemCount||0} 則`:`顯示 ${items.length} 則最新重要新聞`;
 }
 load().catch(()=>{document.getElementById("stamp").textContent="資料載入失敗，請稍後重新整理"});
 document.getElementById("newsSearch")?.addEventListener("input",renderNews);

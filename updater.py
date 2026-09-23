@@ -207,6 +207,7 @@ def get_quote(symbol):
 # Reuse translations/history from prior news.json.
 translation_cache = {}
 old_news_items = []
+old_history_items = []
 old_history_date = ""
 old_history_last_attempt = ""
 
@@ -216,9 +217,10 @@ def has_cjk(text):
 try:
     old = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
     old_news_items = old.get("items", []) or []
+    old_history_items = old.get("historyItems", []) or []
     old_history_date = (old.get("historyUpdatedDate") or "").strip()
     old_history_last_attempt = (old.get("historyLastAttemptAt") or "").strip()
-    for x in old_news_items:
+    for x in (old_news_items + old_history_items):
         ot = (x.get("originalTitle") or "").strip()
         translated_title = (x.get("title") or "").strip()
         translated_summary = (x.get("summary") or "").strip()
@@ -226,6 +228,7 @@ try:
             translation_cache[ot] = (translated_title, translated_summary)
 except Exception:
     old_news_items = []
+    old_history_items = []
     old_history_date = ""
     old_history_last_attempt = ""
 
@@ -863,7 +866,7 @@ all_news.extend(broker_items)
 # Refresh the 30-day searchable history pool once per day.
 # IMPORTANT: only mark the day complete when history items were actually fetched.
 today_tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
-existing_history_count = sum(1 for x in old_news_items if x.get("sourceType") == "history_search")
+existing_history_count = len(old_history_items) + sum(1 for x in old_news_items if x.get("sourceType") == "history_search")
 
 def _history_retry_allowed():
     if old_history_date != today_tw:
@@ -881,6 +884,7 @@ def _history_retry_allowed():
 
 history_attempted = False
 history_new_count = 0
+history_items = []
 if _history_retry_allowed():
     history_attempted = True
     old_history_last_attempt = datetime.now(timezone.utc).isoformat()
@@ -1007,6 +1011,78 @@ for x in search_pool:
 
 news = search_pool
 
+
+# Build an INDEPENDENT 30-day ticker-search database.
+# It is not ranked against homepage news, so it cannot be squeezed out by the homepage cap.
+history_candidates = []
+history_candidates.extend(old_history_items)
+history_candidates.extend(history_items)
+history_candidates.extend([x for x in all_news if x.get("sourceType") == "history_search"])
+
+history_seen = set()
+history_db = []
+history_cutoff = datetime.now(timezone.utc) - timedelta(days=30)
+
+for x in sorted(history_candidates, key=lambda z: z.get("ts", ""), reverse=True):
+    try:
+        dt = datetime.fromisoformat((x.get("ts") or "").replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if dt < history_cutoff:
+            continue
+    except Exception:
+        continue
+
+    raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
+    ticker_key = (x.get("ticker") or "").strip().upper()
+    key = ticker_key + "|" + re.sub(r"\W+", "", raw_title.lower())
+    if not ticker_key or not raw_title or key in history_seen:
+        continue
+    history_seen.add(key)
+    x["featured"] = False
+    history_db.append(x)
+
+# Cap only the database size, not per-ticker history.
+history_db = history_db[:cfg.get("history_news_pool", 800)]
+
+# Translate historical titles only when they are not already cached.
+history_uncached = {}
+for x in history_db:
+    raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
+    if raw_title and raw_title not in translation_cache:
+        history_uncached[raw_title] = None
+
+if history_uncached:
+    with ThreadPoolExecutor(max_workers=10) as ex:
+        futs = {ex.submit(zh, title): title for title in history_uncached}
+        for fut in as_completed(futs):
+            title = futs[fut]
+            try:
+                translated = fut.result() or title
+            except Exception:
+                translated = title
+            history_uncached[title] = translated
+
+for x in history_db:
+    raw_title = (x.get("originalTitle") or x.get("title") or "").strip()
+    if raw_title in translation_cache:
+        cached_title, _ = translation_cache[raw_title]
+        x["title"] = cached_title or raw_title
+    else:
+        x["title"] = history_uncached.get(raw_title) or raw_title
+    x["translated"] = has_cjk(x.get("title", ""))
+    x["summary"] = ""
+    if x.get("analystPriority"):
+        x["title"] = normalize_analyst_title(x)
+
+# A daily backfill is considered complete only if the actually retained DB is meaningful.
+history_min_items = cfg.get("history_min_items", 20)
+if len(history_db) >= history_min_items:
+    old_history_date = today_tw
+elif old_history_date == today_tw:
+    # Do not falsely mark today as successful if the stored DB is still too small.
+    old_history_date = ""
+
 # Translate final pool. Titles are parallelized because the 30-day pool can be larger.
 uncached_titles = {}
 for x in news:
@@ -1057,9 +1133,11 @@ for x in news:
 
 
 # ---------- U.S. Congress trades ----------
-# Source: InsiderWatch open dataset (CC BY 4.0), built from House/Senate STOCK Act filings.
+# Historical source: Kadoa open Congress Trading Monitor (official House/Senate filings normalized)
+# We keep records from 2024-01-01 onward so member searches can reach back to 2024.
 CONGRESS_FILE = ROOT / "congress.json"
-CONGRESS_SOURCE = "https://insiderwatch.ai/api/data/congress-trades.csv"
+CONGRESS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/trades.json"
+CONGRESS_START_DATE = datetime(2024, 1, 1).date()
 
 def _parse_date(s):
     s = (s or "").strip()
@@ -1084,9 +1162,58 @@ def _owner_label(owner):
         "SELF": "本人",
     }.get(o, owner.strip() if owner else "本人")
 
+def _trade_action(raw):
+    t = (raw or "").strip().lower()
+    if "purchase" in t or t in {"buy", "p"}:
+        return "buy", "買進"
+    if "sale" in t or "sell" in t or t.startswith("s"):
+        return "sell", "賣出"
+    if "exchange" in t:
+        return "exchange", "交換"
+    return "other", (raw or "其他")
+
+def _member_backtest(items):
+    """
+    Descriptive historical stats from the source's per-trade return fields.
+    Uses BUY transactions only, beginning 2024.
+    ret_30d / ret_1y are source-computed stock returns after the transaction date.
+    """
+    by_member = {}
+    for x in items:
+        if x.get("action") != "buy":
+            continue
+        m = x.get("member") or ""
+        if not m:
+            continue
+        box = by_member.setdefault(m, {
+            "buyCount": 0,
+            "ret30Values": [],
+            "ret1yValues": [],
+        })
+        box["buyCount"] += 1
+        r30 = safe_float(x.get("backtest30d"))
+        r1y = safe_float(x.get("backtest1y"))
+        if r30 is not None:
+            box["ret30Values"].append(r30)
+        if r1y is not None:
+            box["ret1yValues"].append(r1y)
+
+    out = {}
+    for m, b in by_member.items():
+        r30 = b["ret30Values"]
+        r1y = b["ret1yValues"]
+        out[m] = {
+            "buyCount": b["buyCount"],
+            "sample30d": len(r30),
+            "avg30d": (sum(r30) / len(r30)) if r30 else None,
+            "winRate30d": (sum(1 for v in r30 if v > 0) / len(r30) * 100) if r30 else None,
+            "sample1y": len(r1y),
+            "avg1y": (sum(r1y) / len(r1y)) if r1y else None,
+        }
+    return out
+
 def refresh_congress_data():
     today = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
-    previous = {}
     try:
         previous = json.loads(CONGRESS_FILE.read_text(encoding="utf-8"))
         if previous.get("updatedDate") == today and previous.get("items"):
@@ -1097,64 +1224,92 @@ def refresh_congress_data():
     try:
         req = urllib.request.Request(
             CONGRESS_SOURCE,
-            headers={"User-Agent": "Mozilla/5.0", "Accept": "text/csv,*/*"}
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json,*/*"}
         )
-        with urllib.request.urlopen(req, timeout=25) as r:
-            raw = r.read().decode("utf-8-sig", errors="replace")
+        with urllib.request.urlopen(req, timeout=35) as r:
+            raw = json.loads(r.read().decode("utf-8"))
     except Exception:
-        # Keep last good dataset if the upstream source has a temporary outage.
+        # Keep last good file on source outage.
         return
 
-    reader = csv.DictReader(io.StringIO(raw))
-    cutoff = datetime.now(timezone.utc).date() - timedelta(days=3*365 + 5)
-    items = []
+    # Kadoa exports a list of normalized trades.
+    if isinstance(raw, dict):
+        raw = raw.get("trades") or raw.get("items") or []
+    if not isinstance(raw, list):
+        return
 
-    for row in reader:
-        traded = _parse_date(row.get("transaction_date"))
-        filed = _parse_date(row.get("filed_date"))
-        if traded and traded < cutoff:
+    items = []
+    seen = set()
+
+    for row in raw:
+        if not isinstance(row, dict):
             continue
 
+        # Congress only; exclude executive-branch disclosure rows.
+        if (row.get("branch") or "").lower() not in ("", "congress"):
+            continue
+
+        traded = _parse_date(row.get("transaction_date"))
+        filed = _parse_date(row.get("filing_date"))
+        if not traded or traded < CONGRESS_START_DATE:
+            continue
+
+        member = (row.get("filer_name") or row.get("member") or "").strip()
         ticker = (row.get("ticker") or "").strip().upper()
-        member = (row.get("member") or "").strip()
         if not member:
             continue
 
-        action = (row.get("action") or "").strip().lower()
-        action_zh = {
-            "buy": "買進",
-            "purchase": "買進",
-            "sell": "賣出",
-            "sale": "賣出",
-            "exchange": "交換",
-            "other": "其他"
-        }.get(action, action or "其他")
-
+        action, action_zh = _trade_action(row.get("transaction_type") or row.get("action"))
         chamber = (row.get("chamber") or "").strip().lower()
         chamber_zh = "參議院" if chamber == "senate" else "眾議院" if chamber == "house" else chamber
 
-        lag = row.get("disclosure_lag_days")
+        amount_label = (row.get("amount_range_label") or row.get("amount_range") or "").strip()
+        owner = _owner_label(row.get("owner"))
+
+        key = "|".join([
+            member.lower(),
+            ticker,
+            action,
+            traded.isoformat(),
+            amount_label,
+            owner
+        ])
+        if key in seen:
+            continue
+        seen.add(key)
+
+        days_to_file = row.get("days_to_file")
         try:
-            lag = int(float(lag)) if str(lag).strip() else None
+            days_to_file = int(float(days_to_file)) if days_to_file is not None else (
+                (filed - traded).days if filed else None
+            )
         except Exception:
-            lag = None
+            days_to_file = (filed - traded).days if filed else None
 
         items.append({
             "member": member,
-            "memberSlug": (row.get("member_slug") or "").strip(),
+            "memberId": (row.get("filer_id") or "").strip(),
             "chamber": chamber,
             "chamberZh": chamber_zh,
+            "party": row.get("party"),
+            "state": row.get("state"),
             "ticker": ticker,
-            "asset": (row.get("asset") or "").strip(),
+            "asset": (row.get("asset_name") or row.get("asset") or "").strip(),
+            "assetType": row.get("asset_type"),
             "action": action,
             "actionZh": action_zh,
-            "amountRange": (row.get("amount_range") or "").strip(),
-            "amountMinUsd": safe_float(row.get("amount_min_usd")),
-            "transactionDate": traded.isoformat() if traded else (row.get("transaction_date") or "").strip(),
-            "filedDate": filed.isoformat() if filed else (row.get("filed_date") or "").strip(),
-            "disclosureLagDays": lag,
-            "owner": _owner_label(row.get("owner")),
+            "amountRange": amount_label,
+            "amountMinUsd": safe_float(row.get("amount_range_low") or row.get("amount_min_usd")),
+            "amountMaxUsd": safe_float(row.get("amount_range_high")),
+            "transactionDate": traded.isoformat(),
+            "filedDate": filed.isoformat() if filed else "",
+            "disclosureLagDays": days_to_file,
+            "owner": owner,
             "filingId": (row.get("filing_id") or "").strip(),
+            "sourceDoc": (row.get("doc_url") or "").strip(),
+            # Source-computed historical return fields, used for backtest summary.
+            "backtest30d": safe_float(row.get("ret_30d")),
+            "backtest1y": safe_float(row.get("ret_1y")),
         })
 
     if not items:
@@ -1162,29 +1317,31 @@ def refresh_congress_data():
 
     items.sort(key=lambda x: (x.get("filedDate") or "", x.get("transactionDate") or ""), reverse=True)
 
-    # Pre-compute simple summary values used by the page.
     today_date = datetime.now(timezone.utc).date()
     seven_days = today_date - timedelta(days=7)
-    recent7 = 0
-    buys7 = 0
-    sells7 = 0
+    recent7 = buys7 = sells7 = 0
     members = set()
     for x in items:
         members.add(x["member"])
         fd = _parse_date(x.get("filedDate"))
         if fd and fd >= seven_days:
             recent7 += 1
-            if x.get("actionZh") == "買進":
+            if x.get("action") == "buy":
                 buys7 += 1
-            elif x.get("actionZh") == "賣出":
+            elif x.get("action") == "sell":
                 sells7 += 1
+
+    member_backtests = _member_backtest(items)
 
     payload = {
         "updatedAt": datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M 台灣時間"),
         "updatedDate": today,
-        "source": "InsiderWatch open Congress STOCK Act dataset",
-        "sourceUrl": "https://insiderwatch.ai/congress-trading",
-        "license": "CC BY 4.0",
+        "historyStart": "2024-01-01",
+        "source": "Kadoa Congress Trading Monitor open dataset",
+        "sourceUrl": "https://github.com/kadoa-org/congress-trading-monitor",
+        "sourceNote": "Normalized from official House Clerk and Senate financial disclosure filings",
+        "backtestBasis": "transaction_date",
+        "backtestNote": "回測欄位為來源資料提供的交易日後股票報酬；不是申報日後報酬",
         "summary": {
             "recent7": recent7,
             "buys7": buys7,
@@ -1192,6 +1349,7 @@ def refresh_congress_data():
             "members": len(members),
             "total": len(items)
         },
+        "memberBacktests": member_backtests,
         "items": items
     }
     CONGRESS_FILE.write_text(
@@ -1208,7 +1366,7 @@ tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
     encoding="utf-8"
 )
 (ROOT / "news.json").write_text(
-    json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "historyLastAttemptAt": old_history_last_attempt, "historyItemCount": sum(1 for x in news if x.get("sourceType") == "history_search"), "items": news},
+    json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "historyLastAttemptAt": old_history_last_attempt, "historyItemCount": len(history_db), "items": news, "historyItems": history_db},
                ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
