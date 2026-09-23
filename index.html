@@ -50,13 +50,13 @@
   <div id="congressInfo" class="resultinfo">點開此分頁後載入國會交易資料</div>
   <div id="congressTable" class="ctable"></div>
   <button id="moreCongress" class="morebtn" style="display:none">顯示更多</button>
-  <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
+  <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
 </section>
 </div><script>
 const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%"; const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
-let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={};
+let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={};
 
 async function loadCongress(){
  if(__congressLoaded){renderCongress();return;}
@@ -67,6 +67,7 @@ async function loadCongress(){
    __congressItems=d.items||[];
    __congressSummary=d.summary||{};
    __memberBacktests=d.memberBacktests||{};
+   __congressFilers=d.filers||[];
    __congressLoaded=true;
    const cards=document.getElementById("congressCards");
    if(cards)cards.innerHTML=`
@@ -77,6 +78,68 @@ async function loadCongress(){
    renderCongress();
  }catch(e){
    if(info)info.textContent="國會交易資料暫時無法載入";
+ }
+}
+
+
+function normalizeCongressTrade(row,filer){
+ const t=String(row.transaction_type||row.action||"").toLowerCase();
+ let action="other",actionZh="其他";
+ if(t.includes("purchase")||t==="buy"||t==="p"){action="buy";actionZh="買進";}
+ else if(t.includes("sale")||t.includes("sell")||t.startsWith("s")){action="sell";actionZh="賣出";}
+ else if(t.includes("exchange")){action="exchange";actionZh="交換";}
+ const chamber=String(row.chamber||filer.chamber||"").toLowerCase();
+ const chamberZh=chamber==="house"?"眾議院":chamber==="senate"?"參議院":chamber;
+ const ownerMap={SP:"配偶",JT:"共同",DC:"子女",SELF:"本人"};
+ const owner=ownerMap[String(row.owner||"").toUpperCase()]||row.owner||"本人";
+ return {
+  member:row.filer_name||filer.name||"",
+  memberId:row.filer_id||filer.id||"",
+  chamber,chamberZh,party:row.party||filer.party||null,state:row.state||filer.state||null,
+  ticker:String(row.ticker||"").toUpperCase(),
+  asset:row.asset_name||row.asset||"",assetType:row.asset_type||null,
+  action,actionZh,amountRange:row.amount_range_label||row.amount_range||"",
+  amountMinUsd:row.amount_range_low??row.amount_min_usd??null,
+  amountMaxUsd:row.amount_range_high??null,
+  transactionDate:row.transaction_date||"",
+  filedDate:row.filing_date||row.filed_date||"",
+  disclosureLagDays:row.days_to_file??row.disclosure_lag_days??null,
+  owner,filingId:row.filing_id||"",sourceDoc:row.doc_url||"",
+  backtest30d:row.ret_30d??null,backtest1y:row.ret_1y??null
+ };
+}
+function computeMemberBacktest(rows){
+ const buys=rows.filter(x=>x.action==="buy");
+ const r30=buys.map(x=>Number(x.backtest30d)).filter(Number.isFinite);
+ const r1y=buys.map(x=>Number(x.backtest1y)).filter(Number.isFinite);
+ return {
+  buyCount:buys.length,sample30d:r30.length,
+  avg30d:r30.length?r30.reduce((a,b)=>a+b,0)/r30.length:null,
+  winRate30d:r30.length?r30.filter(v=>v>0).length/r30.length*100:null,
+  sample1y:r1y.length,avg1y:r1y.length?r1y.reduce((a,b)=>a+b,0)/r1y.length:null
+ };
+}
+function findCongressFiler(q){
+ q=(q||"").trim().toLowerCase(); if(!q)return null;
+ const hits=(__congressFilers||[]).filter(f=>(f.name||"").toLowerCase().includes(q));
+ return hits.length===1?hits[0]:null;
+}
+async function loadMemberHistory(filer){
+ if(!filer||!filer.id||__memberHistoryCache[filer.id]||__memberHistoryLoading[filer.id])return;
+ __memberHistoryLoading[filer.id]=true;
+ try{
+  const url=`https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/filer/${encodeURIComponent(filer.id)}.json`;
+  const r=await fetch(url,{cache:"no-store"}); if(!r.ok)throw new Error(`HTTP ${r.status}`);
+  const d=await r.json();
+  const rows=(d.trades||[]).map(x=>normalizeCongressTrade(x,filer)).filter(x=>String(x.transactionDate||"")>="2024-01-01");
+  __memberHistoryCache[filer.id]=rows;
+  __memberBacktests[filer.name]=computeMemberBacktest(rows);
+ }catch(e){
+  console.error("member history load failed",e);
+  __memberHistoryCache[filer.id]=[];
+ }finally{
+  delete __memberHistoryLoading[filer.id];
+  renderCongress();
  }
 }
 
@@ -91,7 +154,7 @@ function renderMemberBacktest(rows){
  const name=names[0],b=__memberBacktests[name];
  if(!b){box.classList.remove("on");box.innerHTML="";return;}
  box.classList.add("on");
- box.innerHTML=`<div style="font-weight:900;margin-bottom:8px">${name}｜買進後歷史回測（2024–現在）</div>
+ box.innerHTML=`<div style="font-weight:900;margin-bottom:8px">${name}｜買進後歷史回測（2024–現在完整紀錄）</div>
  <div class="btgrid">
   <div class="btcell"><div class="btk">買進筆數</div><div class="btv">${b.buyCount??"--"}</div></div>
   <div class="btcell"><div class="btk">30日平均報酬</div><div class="btv ${Number(b.avg30d)>=0?"pos":"neg"}">${fmtPct(b.avg30d)}</div></div>
@@ -106,7 +169,15 @@ function renderCongress(){
  const ticker=(document.getElementById("tickerSearch")?.value||"").trim().toUpperCase();
  const action=document.getElementById("actionFilter")?.value||"";
  const chamber=document.getElementById("chamberFilter")?.value||"";
- let rows=__congressItems.filter(x=>{
+
+ let base=__congressItems;
+ const filer=findCongressFiler(member);
+ if(member && filer){
+   if(__memberHistoryCache[filer.id])base=__memberHistoryCache[filer.id];
+   else loadMemberHistory(filer);
+ }
+
+ let rows=base.filter(x=>{
    if(member && !(x.member||"").toLowerCase().includes(member))return false;
    if(ticker && (x.ticker||"").toUpperCase()!==ticker)return false;
    if(action && (x.action||"")!==action)return false;
@@ -116,7 +187,10 @@ function renderCongress(){
  rows.sort((a,b)=>String(b.filedDate||"").localeCompare(String(a.filedDate||"")));
  renderMemberBacktest(rows);
  const info=document.getElementById("congressInfo");
- if(info)info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜以申報日期新 → 舊排序`;
+ if(info){
+   if(member && filer && __memberHistoryLoading[filer.id])info.textContent=`正在載入 ${filer.name} 的 2024～現在完整歷史…`;
+   else info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜以申報日期新 → 舊排序`;
+ }
  const table=document.getElementById("congressTable");
  if(!table)return;
  if(!rows.length){table.innerHTML='<div class="empty">沒有符合條件的國會交易</div>';document.getElementById("moreCongress").style.display="none";return;}

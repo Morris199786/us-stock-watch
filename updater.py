@@ -1137,6 +1137,7 @@ for x in news:
 # We keep records from 2024-01-01 onward so member searches can reach back to 2024.
 CONGRESS_FILE = ROOT / "congress.json"
 CONGRESS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/trades.json"
+CONGRESS_FILERS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/filers.json"
 CONGRESS_START_DATE = datetime(2024, 1, 1).date()
 
 def _parse_date(s):
@@ -1248,6 +1249,32 @@ def refresh_congress_data():
     if not isinstance(raw, list):
         return
 
+    # Full Congress filer directory. Global trades.json is capped to recent rows,
+    # so the webpage loads a member-specific history file on demand.
+    filers = []
+    try:
+        freq = urllib.request.Request(
+            CONGRESS_FILERS_SOURCE,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json,*/*"}
+        )
+        with urllib.request.urlopen(freq, timeout=20) as r:
+            fraw = json.loads(r.read().decode("utf-8"))
+        if isinstance(fraw, list):
+            for f in fraw:
+                if not isinstance(f, dict) or (f.get("branch") or "").lower() != "congress":
+                    continue
+                filers.append({
+                    "id": (f.get("id") or "").strip(),
+                    "name": (f.get("full_name") or "").strip(),
+                    "chamber": (f.get("chamber") or "").strip().lower(),
+                    "party": f.get("party"),
+                    "state": f.get("state"),
+                    "office": f.get("office"),
+                    "tradeCount": f.get("trade_count"),
+                })
+    except Exception:
+        filers = previous.get("filers", []) if isinstance(previous, dict) else []
+
     items = []
     seen = set()
 
@@ -1356,9 +1383,10 @@ def refresh_congress_data():
             "recent7": recent7,
             "buys7": buys7,
             "sells7": sells7,
-            "members": len(members),
+            "members": len(filers) if filers else len(members),
             "total": len(items)
         },
+        "filers": filers,
         "memberBacktests": member_backtests,
         "items": items
     }
