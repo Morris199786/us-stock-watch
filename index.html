@@ -7,7 +7,7 @@
 :root{--bg:#07111f;--p:#0d1828;--p2:#112139;--line:#22324a;--txt:#f6fbff;--muted:#8ea1b9;--up:#ff4d75;--dn:#29d39a;--acc:#58d9ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
 .wrap{max-width:1024px;margin:auto;padding:16px 12px 48px}.top h1{margin:0;font-size:30px}.top p{margin:6px 0 10px;color:var(--muted);font-size:13px}.stamp{font-size:12px;color:var(--muted);margin-bottom:10px}
-.tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;background:rgba(7,17,31,.96);padding:8px 0 12px}.tab{background:var(--p2);border:1px solid var(--line);border-radius:13px;color:var(--muted);padding:12px 6px;font-weight:800}.tab.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+.tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;background:rgba(7,17,31,.96);padding:8px 0 12px}.tab{background:var(--p2);border:1px solid var(--line);border-radius:13px;color:var(--muted);padding:12px 6px;font-weight:800}.tab.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
 .page{display:none}.page.on{display:block}.title{font-size:23px;font-weight:900;margin:4px 0}.sub{font-size:13px;color:var(--muted);margin-bottom:13px;line-height:1.5}.grid,.newsgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.group,.news{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 .gh{display:flex;justify-content:space-between;gap:8px;padding:13px 14px;background:var(--p2);border-bottom:1px solid var(--line)}.gh b{font-size:16px}.count{font-size:12px;color:var(--muted)}
 .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.07)}.row:last-child{border-bottom:0}.t{font-weight:900;font-size:16px}.n{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.c{font-weight:900;font-size:17px;white-space:nowrap}.pos{color:var(--up)}.neg{color:var(--dn)}.na{color:#cbd6e2}
@@ -16,10 +16,18 @@
 .nh{display:flex;justify-content:space-between;gap:10px;padding:13px 14px;background:var(--p2);border-bottom:1px solid var(--line)}.badge{font-size:11px;font-weight:900;border-radius:999px;padding:5px 8px;height:max-content}.move{font-size:11px;font-weight:900;margin-top:5px;color:#dbe9f6}.good{color:var(--up);border:1px solid #ff4d7560;background:#ff4d751a}.bad{color:var(--dn);border:1px solid #29d39a60;background:#29d39a1a}.theme{color:#a9ebff;border:1px solid #58d9ff60;background:#58d9ff18}.nb{padding:14px}.head{font-weight:900;font-size:16px;line-height:1.45}.desc{margin-top:8px;color:#dce7f3;font-size:14px;line-height:1.6}.src{display:inline-block;margin-top:10px;color:var(--acc);text-decoration:none;font-size:13px}.newsdate{font-size:11px;color:var(--muted);margin-top:4px}.empty{padding:24px;text-align:center;color:var(--muted);background:var(--p);border:1px solid var(--line);border-radius:14px}
 .searchbar{display:flex;gap:8px;margin:12px 0}.searchbar input{flex:1;min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;outline:none}.searchbar input:focus{border-color:var(--acc)}.clearbtn{background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:0 14px;font-weight:800}.resultinfo{font-size:12px;color:var(--muted);margin:-3px 0 10px}
 @media(max-width:720px){.grid,.newsgrid{grid-template-columns:1fr}}
+
+.congressCards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
+.kpi{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.kpi .k{font-size:11px;color:var(--muted)}.kpi .v{font-size:23px;font-weight:900;margin-top:5px}
+.cfilters{display:grid;grid-template-columns:1fr 1fr .7fr .7fr auto;gap:8px;margin:12px 0}
+.cfilters input,.cfilters select{min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px 12px;font-size:14px}
+.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
+
+@media(max-width:720px){.congressCards{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
 </style>
 </head><body><div class="wrap">
 <div class="top"><h1>美股觀察</h1><p>依投資題材分組｜紅漲綠跌</p><div id="stamp" class="stamp">載入中…</div></div>
-<nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button></nav>
+<nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button><button class="tab" data-p="congress">國會交易</button></nav>
 <section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">個股依題材分類，顯示最新漲跌幅</div><div id="groups" class="grid"></div></section>
 <section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">優先使用族群內個股市值加權；若行情來源暫時無法取得市值，會自動以等權備援，不再出現空白。點擊族群可展開個股</div><div id="heatgrid" class="heatgrid"></div></section>
 <section id="news" class="page"><div class="title">市場新聞</div>
@@ -27,9 +35,85 @@
 <div class="searchbar"><input id="newsSearch" type="search" placeholder="輸入 Ticker，例如 MU、NVDA、VICR"><button id="clearSearch" class="clearbtn">清除</button></div>
 <div id="resultInfo" class="resultinfo">顯示最新重要新聞</div>
 <div id="newsgrid" class="newsgrid"></div></section>
+<section id="congress" class="page">
+  <div class="title">國會交易</div>
+  <div class="sub">美國 House／Senate STOCK Act 公開申報資料｜可搜尋全部 Ticker 與特定國會議員，不限你的自選股</div>
+  <div id="congressCards" class="congressCards"></div>
+  <div class="cfilters">
+    <input id="memberSearch" type="search" placeholder="搜尋議員，例如 Nancy Pelosi">
+    <input id="tickerSearch" type="search" placeholder="搜尋 Ticker，例如 NVDA">
+    <select id="actionFilter"><option value="">全部交易</option><option value="buy">只看買進</option><option value="sell">只看賣出</option></select>
+    <select id="chamberFilter"><option value="">House + Senate</option><option value="house">眾議院</option><option value="senate">參議院</option></select>
+    <button id="clearCongress" class="clearbtn full">清除</button>
+  </div>
+  <div id="congressInfo" class="resultinfo">點開此分頁後載入國會交易資料</div>
+  <div id="congressTable" class="ctable"></div>
+  <button id="moreCongress" class="morebtn" style="display:none">顯示更多</button>
+  <div class="csource">資料來源：InsiderWatch 開放資料（CC BY 4.0），整理自美國 House／Senate STOCK Act 公開申報。金額為官方申報區間，不代表精確成交金額</div>
+</section>
 </div><script>
 const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%"; const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
-document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on")});
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
+
+let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={};
+
+async function loadCongress(){
+ if(__congressLoaded){renderCongress();return;}
+ const info=document.getElementById("congressInfo");
+ if(info)info.textContent="載入國會交易資料中…";
+ try{
+   const d=await fetch("congress.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error("no congress.json");return r.json()});
+   __congressItems=d.items||[];
+   __congressSummary=d.summary||{};
+   __congressLoaded=true;
+   const cards=document.getElementById("congressCards");
+   if(cards)cards.innerHTML=`
+     <div class="kpi"><div class="k">近 7 日申報</div><div class="v">${__congressSummary.recent7??"--"}</div></div>
+     <div class="kpi"><div class="k">近 7 日買進</div><div class="v pos">${__congressSummary.buys7??"--"}</div></div>
+     <div class="kpi"><div class="k">近 7 日賣出</div><div class="v neg">${__congressSummary.sells7??"--"}</div></div>
+     <div class="kpi"><div class="k">可搜尋議員</div><div class="v">${__congressSummary.members??"--"}</div></div>`;
+   renderCongress();
+ }catch(e){
+   if(info)info.textContent="國會交易資料暫時無法載入";
+ }
+}
+function renderCongress(){
+ const member=(document.getElementById("memberSearch")?.value||"").trim().toLowerCase();
+ const ticker=(document.getElementById("tickerSearch")?.value||"").trim().toUpperCase();
+ const action=document.getElementById("actionFilter")?.value||"";
+ const chamber=document.getElementById("chamberFilter")?.value||"";
+ let rows=__congressItems.filter(x=>{
+   if(member && !(x.member||"").toLowerCase().includes(member))return false;
+   if(ticker && (x.ticker||"").toUpperCase()!==ticker)return false;
+   if(action && (x.action||"")!==action)return false;
+   if(chamber && (x.chamber||"")!==chamber)return false;
+   return true;
+ });
+ rows.sort((a,b)=>String(b.filedDate||"").localeCompare(String(a.filedDate||"")));
+ const info=document.getElementById("congressInfo");
+ if(info)info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜以申報日期新 → 舊排序`;
+ const table=document.getElementById("congressTable");
+ if(!table)return;
+ if(!rows.length){table.innerHTML='<div class="empty">沒有符合條件的國會交易</div>';document.getElementById("moreCongress").style.display="none";return;}
+ const show=rows.slice(0,__congressLimit);
+ table.innerHTML=`<div class="crow headrow"><div>Ticker</div><div>議員</div><div>方向</div><div>金額區間</div><div>交易日期</div><div>申報日期</div><div>延遲</div></div>`+
+ show.map(x=>{
+   const actClass=x.action==="buy"?"cbuy":x.action==="sell"?"csell":"";
+   const tickerLabel=x.ticker||"N/A";
+   return `<div class="crow">
+     <div><div class="ticker">${tickerLabel}</div><div class="csmall">${x.asset||""}</div></div>
+     <div><div class="cmember">${x.member}</div><div class="csmall">${x.chamberZh||x.chamber||""}｜${x.owner||""}</div></div>
+     <div class="${actClass}">${x.actionZh||x.action||""}</div>
+     <div>${x.amountRange||"--"}</div>
+     <div>交易：${x.transactionDate||"--"}</div>
+     <div>申報：${x.filedDate||"--"}</div>
+     <div>${x.disclosureLagDays==null?"--":x.disclosureLagDays+" 天"}</div>
+   </div>`;
+ }).join("");
+ const more=document.getElementById("moreCongress");
+ if(more)more.style.display=rows.length>__congressLimit?"block":"none";
+}
+
 async function load(){
  const [d,n]=await Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("news.json?"+Date.now()).then(r=>r.json())]);
  document.getElementById("stamp").textContent="資料更新："+d.updatedAt;
@@ -82,5 +166,15 @@ function renderNews(){
 load().catch(()=>{document.getElementById("stamp").textContent="資料載入失敗，請稍後重新整理"});
 document.getElementById("newsSearch")?.addEventListener("input",renderNews);
 document.getElementById("clearSearch")?.addEventListener("click",()=>{const i=document.getElementById("newsSearch");if(i){i.value="";renderNews();i.focus();}});
+
+["memberSearch","tickerSearch"].forEach(id=>document.getElementById(id)?.addEventListener("input",()=>{__congressLimit=50;renderCongress();}));
+["actionFilter","chamberFilter"].forEach(id=>document.getElementById(id)?.addEventListener("change",()=>{__congressLimit=50;renderCongress();}));
+document.getElementById("clearCongress")?.addEventListener("click",()=>{
+ ["memberSearch","tickerSearch"].forEach(id=>{const el=document.getElementById(id);if(el)el.value="";});
+ const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter");if(a)a.value="";if(c)c.value="";
+ __congressLimit=50;renderCongress();
+});
+document.getElementById("moreCongress")?.addEventListener("click",()=>{__congressLimit+=50;renderCongress();});
+
 setInterval(()=>load().catch(()=>{}),300000);
 </script></body></html>
