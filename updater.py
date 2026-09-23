@@ -1,4 +1,5 @@
 import json, math, os, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
@@ -325,6 +326,101 @@ def parse_rss_date(text):
     except Exception:
         return None
 
+
+BROKER_POS = [
+    "price target raised", "raises price target", "raised price target", "target raised",
+    "price target increased", "increases price target", "boosts price target",
+    "upgraded to buy", "upgraded to outperform", "upgraded to overweight",
+    "upgrade to buy", "upgrade to outperform", "upgrade to overweight",
+    "initiates with buy", "initiates at buy", "initiates with outperform",
+    "initiates with overweight", "reiterates buy", "reiterates outperform",
+    "reiterates overweight"
+]
+BROKER_NEG = [
+    "price target cut", "cuts price target", "cut price target", "target cut",
+    "price target lowered", "lowers price target", "reduced price target",
+    "downgraded to sell", "downgraded to underperform", "downgraded to underweight",
+    "downgrade to sell", "downgrade to underperform", "downgrade to underweight",
+    "initiates with sell", "initiates at sell", "initiates with underperform",
+    "initiates with underweight", "reiterates sell", "reiterates underperform",
+    "reiterates underweight"
+]
+BROKER_ACTION = [
+    "price target", "target price", "upgraded", "downgraded", "upgrade", "downgrade",
+    "initiates coverage", "initiates with", "initiates at", "reiterates",
+    "rating raised", "rating cut", "raises target", "cuts target",
+    "lowers target", "boosts target"
+]
+
+def broker_news_search(display_ticker, company_name, symbol, group):
+    """
+    Dedicated analyst/broker scan for every watchlist stock.
+    These stories get first priority regardless of the stock's price move.
+    """
+    q = (
+        f'("{company_name}" OR {display_ticker}) '
+        '("price target" OR "target price" OR upgraded OR downgraded OR '
+        '"initiates coverage" OR "initiates with" OR reiterates OR '
+        '"raises target" OR "cuts target" OR "lowers target" OR "boosts target") when:2d'
+    )
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en"
+    })
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=5) as r:
+            xml = r.read()
+        root = ET.fromstring(xml)
+    except Exception:
+        return []
+
+    now = datetime.now(timezone.utc)
+    out = []
+    for item in root.findall(".//item")[:6]:
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = parse_rss_date(item.findtext("pubDate"))
+        if pub and now - pub > timedelta(hours=cfg.get("news_lookback_hours", 48)):
+            continue
+
+        clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", title).strip() or title
+        blob = clean_title.lower()
+
+        if not target_relevance(clean_title, display_ticker, company_name):
+            continue
+        if not any(k in blob for k in BROKER_ACTION):
+            continue
+
+        tag = "題材"
+        if any(k in blob for k in BROKER_NEG):
+            tag = "利空"
+        elif any(k in blob for k in BROKER_POS):
+            tag = "利多"
+        else:
+            if "downgrad" in blob or "cuts target" in blob or "lowers target" in blob:
+                tag = "利空"
+            elif "upgrad" in blob or "raises target" in blob or "boosts target" in blob:
+                tag = "利多"
+
+        out.append({
+            "ticker": display_ticker,
+            "group": group,
+            "tag": tag,
+            "title": clean_title,
+            "summary": "",
+            "originalTitle": clean_title,
+            "originalSummary": "",
+            "url": link,
+            "ts": pub.isoformat() if pub else "",
+            "sourceType": "broker_search",
+            "analystPriority": True
+        })
+    return out
+
 def google_news_search(display_ticker, company_name, symbol, group, move_pct):
     """
     Active event search used for large movers.
@@ -454,6 +550,8 @@ def item_news(display_ticker, company_name, symbol, group):
         elif any(k in blob for k in POS):
             tag = "利多"
 
+        analyst_priority = any(k in blob for k in BROKER_ACTION)
+
         out.append({
             "ticker": display_ticker,
             "group": group,
@@ -464,18 +562,21 @@ def item_news(display_ticker, company_name, symbol, group):
             "originalSummary": summary[:500],
             "url": url,
             "ts": dt.isoformat() if dt else "",
-            "sourceType": "ticker_feed"
+            "sourceType": "ticker_feed",
+            "analystPriority": analyst_priority
         })
     return out
 
 groups = []
 all_news = []
 active_search_candidates = []
+broker_scan_candidates = []
 
 for group, arr in cfg["groups"].items():
     stocks = []
     for ticker, name, symbol in arr:
         chg, mc, mc_source = get_quote(symbol)
+        broker_scan_candidates.append((ticker, name, symbol, group))
         stocks.append({
             "ticker": ticker,
             "name": name,
@@ -523,6 +624,21 @@ for group, arr in cfg["groups"].items():
         "stocks": stocks
     })
 
+# Dedicated broker/analyst scan across the full watchlist.
+# Run concurrently so upgrades/downgrades/target changes are checked every cycle.
+broker_items = []
+with ThreadPoolExecutor(max_workers=14) as ex:
+    futures = {
+        ex.submit(broker_news_search, ticker, name, symbol, group): ticker
+        for ticker, name, symbol, group in broker_scan_candidates
+    }
+    for fut in as_completed(futures):
+        try:
+            broker_items.extend(fut.result())
+        except Exception:
+            pass
+all_news.extend(broker_items)
+
 # Second-layer active search: only the biggest movers each run.
 # This keeps the 5-minute workflow fast while still targeting the names most likely to have a fresh catalyst.
 active_search_candidates.sort(reverse=True, key=lambda x: x[0])
@@ -566,6 +682,10 @@ def importance_score(x):
     if x.get("sourceType") == "active_search":
         score += 1.5
 
+    # Broker upgrades/downgrades/price-target changes are always first priority.
+    if x.get("analystPriority"):
+        score += 100
+
     # Explicit target-company relevance gets a small bonus.
     score += 1.0
 
@@ -600,12 +720,13 @@ for x in sorted(all_news, key=lambda z: z.get("ts", ""), reverse=True):
     news.append(x)
 
 # Keep a broader searchable pool, but mark the strongest stories for the default homepage.
-news.sort(key=lambda z: (z.get("score", 0), z.get("ts", "")), reverse=True)
+news.sort(key=lambda z: (1 if z.get("analystPriority") else 0, z.get("score", 0), z.get("ts", "")), reverse=True)
 per_ticker = {}
 ranked = []
 for x in news:
     t = x.get("ticker","")
-    if per_ticker.get(t, 0) >= 3:
+    # Analyst/broker actions are first priority and are not dropped by the normal 3-story cap.
+    if not x.get("analystPriority") and per_ticker.get(t, 0) >= 3:
         continue
     per_ticker[t] = per_ticker.get(t, 0) + 1
     ranked.append(x)

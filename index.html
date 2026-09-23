@@ -23,8 +23,8 @@
 <section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">個股依題材分類，顯示最新漲跌幅</div><div id="groups" class="grid"></div></section>
 <section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">優先使用族群內個股市值加權；若行情來源暫時無法取得市值，會自動以等權備援，不再出現空白。點擊族群可展開個股</div><div id="heatgrid" class="heatgrid"></div></section>
 <section id="news" class="page"><div class="title">市場新聞</div>
-<div class="sub">預設顯示最新且重要的新聞；可搜尋股票代號、公司名稱或關鍵字查看更完整新聞池</div>
-<div class="searchbar"><input id="newsSearch" type="search" placeholder="搜尋個股，例如 VICR、NVDA、MU"><button id="clearSearch" class="clearbtn">清除</button></div>
+<div class="sub">預設顯示最新且重要的新聞；搜尋僅支援股票 Ticker，不分大小寫</div>
+<div class="searchbar"><input id="newsSearch" type="search" placeholder="輸入 Ticker，例如 MU、NVDA、VICR"><button id="clearSearch" class="clearbtn">清除</button></div>
 <div id="resultInfo" class="resultinfo">顯示最新重要新聞</div>
 <div id="newsgrid" class="newsgrid"></div></section>
 </div><script>
@@ -43,15 +43,36 @@ async function load(){
 }
 function renderNews(){
  const ng=document.getElementById("newsgrid"); if(!ng)return;
- const q=(document.getElementById("newsSearch")?.value||"").trim().toLowerCase();
+ const raw=(document.getElementById("newsSearch")?.value||"").trim();
+ const q=raw.toUpperCase();
  const info=document.getElementById("resultInfo");
  const all=window.__newsItems||[];
- let items=q ? all.filter(x=>`${x.ticker} ${x.group} ${x.title} ${x.summary||""}`.toLowerCase().includes(q)) : all.filter(x=>x.featured!==false);
- if(!q) items=items.slice(0,18);
+
+ let items;
+ if(!q){
+   items=all.filter(x=>x.featured!==false).slice(0,18);
+ }else{
+   // 僅依股票 Ticker 搜尋，不分大小寫
+   // MU / mu / Mu 都只會回傳 ticker === MU
+   items=all.filter(x=>(x.ticker||"").trim().toUpperCase()===q);
+ }
+
  ng.innerHTML="";
- if(!items.length){ng.innerHTML='<div class="empty">沒有找到相關新聞</div>'; if(info) info.textContent="沒有符合結果"; return;}
- items.forEach(x=>{const c=document.createElement("article");c.className="news";const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";c.innerHTML=`<div class="nh"><div><div class="t">${x.ticker}</div><div class="n">${x.group}</div>${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;ng.appendChild(c)});
- if(info) info.textContent=q?`找到 ${items.length} 則相關新聞`:`顯示 ${items.length} 則最新重要新聞`;
+ if(!items.length){
+   ng.innerHTML='<div class="empty">沒有找到此股票的新聞</div>';
+   if(info) info.textContent=`沒有找到 ${q || raw} 的新聞`;
+   return;
+ }
+
+ items.forEach(x=>{
+   const c=document.createElement("article");
+   c.className="news";
+   const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";
+   c.innerHTML=`<div class="nh"><div><div class="t">${x.ticker}</div><div class="n">${x.group}</div>${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
+   ng.appendChild(c);
+ });
+
+ if(info) info.textContent=q?`${q}：找到 ${items.length} 則新聞`:`顯示 ${items.length} 則最新重要新聞`;
 }
 load().catch(()=>{document.getElementById("stamp").textContent="資料載入失敗，請稍後重新整理"});
 document.getElementById("newsSearch")?.addEventListener("input",renderNews);
