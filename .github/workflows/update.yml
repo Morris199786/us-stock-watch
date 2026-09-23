@@ -13,15 +13,14 @@ on:
       - ".github/workflows/update.yml"
 
   schedule:
-    # 每 5 分鐘一次，但避開 GitHub 最容易壅塞的 00/05/10... 分鐘
-    - cron: "3-58/5 * * * *"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: us-stock-watch-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
