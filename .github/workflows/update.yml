@@ -40,16 +40,25 @@ jobs:
       - name: Update market, news, and congress data
         run: python updater.py
 
-      - name: Commit updated data
+      - name: Commit updated data safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          cp data.json /tmp/data.json
+          cp news.json /tmp/news.json
+          cp congress.json /tmp/congress.json
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/data.json data.json
+          cp /tmp/news.json news.json
+          cp /tmp/congress.json congress.json
 
           git add data.json news.json congress.json
 
           if ! git diff --cached --quiet; then
             git commit -m "Auto update market data"
+            git push origin main
           fi
-
-          git pull --rebase origin main
-          git push origin main
