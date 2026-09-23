@@ -3,16 +3,20 @@ name: Update US Stock Watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 13 * * 1-5"
-    - cron: "30 20 * * 1-5"
-    - cron: "30 21 * * 1-5"
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: us-stock-watch-update
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 4
+
     steps:
       - uses: actions/checkout@v4
 
@@ -22,28 +26,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Decide whether this close-time run should execute
-        id: gate
-        shell: python
-        run: |
-          from datetime import datetime, timezone
-          from zoneinfo import ZoneInfo
-          import os
+      - run: python updater.py
 
-          utc = datetime.now(timezone.utc)
-          tw = utc.astimezone(ZoneInfo("Asia/Taipei"))
-          ny = utc.astimezone(ZoneInfo("America/New_York"))
-
-          ok = (tw.hour == 21) or (ny.hour == 16)
-
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"run={'yes' if ok else 'no'}\n")
-
-      - if: steps.gate.outputs.run == 'yes'
-        run: python updater.py
-
-      - if: steps.gate.outputs.run == 'yes'
-        run: |
+      - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.json news.json
