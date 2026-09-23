@@ -557,6 +557,10 @@
       ]
     ]
   },
-  "max_news": 24,
-  "news_lookback_hours": 36
+  "max_news": 100,
+  "news_lookback_hours": 48,
+  "search_news_pool": 100,
+  "featured_news": 18,
+  "active_search_move_threshold": 4.0,
+  "active_search_max_results": 8
 }
