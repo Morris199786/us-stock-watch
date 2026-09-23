@@ -10,12 +10,12 @@ permissions:
 
 concurrency:
   group: us-stock-watch-update
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 10
 
     steps:
       - uses: actions/checkout@v4
