@@ -93,26 +93,115 @@ def robust_market_cap(t, hist):
 
     return None, None
 
+def _fi_value(fi, key):
+    """Read yfinance FastInfo robustly across mapping/property variants."""
+    try:
+        v = getattr(fi, key, None)
+        v = safe_float(v)
+        if v is not None:
+            return v
+    except Exception:
+        pass
+    try:
+        v = safe_float(fi[key])
+        if v is not None:
+            return v
+    except Exception:
+        pass
+    try:
+        if hasattr(fi, "get"):
+            v = safe_float(fi.get(key))
+            if v is not None:
+                return v
+    except Exception:
+        pass
+    return None
+
 def get_quote(symbol):
+    """
+    Latest change = latest available price / previous regular close - 1.
+
+    Important:
+    We no longer derive the displayed change from the last two daily candles,
+    because Yahoo can expose a stale/incomplete final daily candle in Actions.
+    """
     t = yf.Ticker(symbol)
     chg = mc = None
-    source = None
+    mc_source = None
     hist = None
+    last_price = prev_close = None
+
+    # Primary source: FastInfo latest price + previous close
+    try:
+        fi = t.fast_info
+        last_price = _fi_value(fi, "last_price")
+        prev_close = _fi_value(fi, "previous_close")
+
+        # Some yfinance versions expose these aliases.
+        if last_price is None:
+            last_price = _fi_value(fi, "lastPrice")
+        if prev_close is None:
+            prev_close = _fi_value(fi, "previousClose")
+
+        if last_price is not None and prev_close not in (None, 0):
+            chg = (last_price / prev_close - 1) * 100
+    except Exception:
+        pass
+
+    # Secondary source: quote info. This also helps during Yahoo FastInfo hiccups.
+    info = {}
+    if chg is None:
+        try:
+            info = t.info or {}
+            last_price = safe_float(
+                info.get("currentPrice")
+                or info.get("regularMarketPrice")
+                or info.get("postMarketPrice")
+                or info.get("preMarketPrice")
+            )
+            prev_close = safe_float(
+                info.get("regularMarketPreviousClose")
+                or info.get("previousClose")
+            )
+            if last_price is not None and prev_close not in (None, 0):
+                chg = (last_price / prev_close - 1) * 100
+        except Exception:
+            info = {}
+
+    # Final fallback only: use recent daily candles.
+    # This path is deliberately last because it can lag one session.
     try:
         hist = t.history(period="5d", interval="1d", auto_adjust=False)
-        closes = [safe_float(x) for x in hist["Close"].tolist()]
-        closes = [x for x in closes if x is not None]
-        if len(closes) >= 2 and closes[-2]:
-            chg = (closes[-1] / closes[-2] - 1) * 100
     except Exception:
-        pass
+        hist = None
 
+    if chg is None and hist is not None:
+        try:
+            closes = [safe_float(x) for x in hist["Close"].tolist()]
+            closes = [x for x in closes if x is not None]
+            if len(closes) >= 2 and closes[-2]:
+                chg = (closes[-1] / closes[-2] - 1) * 100
+        except Exception:
+            pass
+
+    # Market cap: prefer FastInfo, then robust fallbacks.
     try:
-        mc, source = robust_market_cap(t, hist)
+        fi = t.fast_info
+        mc = _fi_value(fi, "market_cap") or _fi_value(fi, "marketCap")
+        if mc and mc > 0:
+            mc_source = "fast_info"
+        else:
+            mc = None
     except Exception:
-        pass
+        mc = None
 
-    return chg, mc, source
+    if mc is None:
+        try:
+            mc, mc_source = robust_market_cap(t, hist)
+        except Exception:
+            pass
+
+    return chg, mc, mc_source
 
 # Reuse translations from the prior news.json so we don't translate the same item every 5 minutes
 translation_cache = {}
@@ -135,53 +224,61 @@ except Exception:
 
 translator = GoogleTranslator(source="auto", target="zh-TW")
 
+def zh_http(text):
+    """
+    Primary translation path.
+    Uses Google's lightweight translate endpoint directly.
+    """
+    text = (text or "").strip()
+    if not text:
+        return ""
+    try:
+        params = urllib.parse.urlencode({
+            "client": "gtx",
+            "sl": "auto",
+            "tl": "zh-TW",
+            "dt": "t",
+            "q": text
+        })
+        url = "https://translate.googleapis.com/translate_a/single?" + params
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=8) as r:
+            data = json.loads(r.read().decode("utf-8"))
+        translated = "".join(
+            part[0] for part in (data[0] or [])
+            if isinstance(part, list) and part and isinstance(part[0], str)
+        ).strip()
+        if translated and translated != text:
+            return translated
+    except Exception:
+        pass
+    return ""
+
 def zh(text):
     text = (text or "").strip()
     if not text:
         return ""
+
+    result = zh_http(text)
+    if result and has_cjk(result):
+        return result
+
     for attempt in range(2):
         try:
             result = translator.translate(text)
-            if result:
+            if result and has_cjk(result):
                 return result
         except Exception:
             if attempt == 0:
                 time.sleep(0.15)
+
     return text
-
-
-
-def target_relevance(text, display_ticker, company_name):
-    """
-    Prevent Yahoo/Google from attaching loosely related stories to the wrong stock.
-    Require the target company name or a standalone ticker mention.
-    """
-    text = (text or "").lower()
-    ticker = (display_ticker or "").strip().lower()
-    company = (company_name or "").strip().lower()
-
-    # Company-name match is strongest.
-    if company and company in text:
-        return True
-
-    # Also allow distinctive company-name root(s).
-    roots = []
-    for token in re.findall(r"[a-z0-9]+", company):
-        if len(token) >= 5 and token not in {
-            "holdings","technologies","technology","systems","semiconductor",
-            "semiconductors","solutions","devices","materials","electronics",
-            "international","corporation","company","inc"
-        }:
-            roots.append(token)
-    if any(r in text for r in roots):
-        return True
-
-    # Standalone ticker match. Avoid very short ambiguous tickers such as ON.
-    if len(ticker) >= 3:
-        if re.search(rf"(?<![a-z0-9]){re.escape(ticker)}(?![a-z0-9])", text):
-            return True
-
-    return False
 
 def parse_rss_date(text):
     if not text:
@@ -494,16 +591,21 @@ for i, x in enumerate(news):
     if raw_title in translation_cache:
         cached_title, cached_summary = translation_cache[raw_title]
         x["title"] = cached_title or raw_title
+        x["translated"] = has_cjk(x["title"])
         if i < cfg.get("featured_news", 18):
             x["summary"] = (cached_summary or raw_summary)[:320]
         else:
             x["summary"] = ""
         continue
 
-    x["title"] = zh(raw_title) or raw_title
+    translated_title = zh(raw_title)
+    x["title"] = translated_title or raw_title
+    x["translated"] = has_cjk(x["title"])
+
     # Only translate summaries for the featured homepage stories.
     if i < cfg.get("featured_news", 18) and raw_summary:
-        x["summary"] = zh(raw_summary[:420])[:320]
+        translated_summary = zh(raw_summary[:420])
+        x["summary"] = (translated_summary or raw_summary)[:320]
     else:
         x["summary"] = ""
 
