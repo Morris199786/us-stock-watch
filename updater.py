@@ -1216,7 +1216,17 @@ def refresh_congress_data():
     today = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
     try:
         previous = json.loads(CONGRESS_FILE.read_text(encoding="utf-8"))
-        if previous.get("updatedDate") == today and previous.get("items"):
+        # Skip only when today's file is already the NEW 2024+ Kadoa/backtest format.
+        # This forces migration away from the old InsiderWatch file even if it was
+        # already refreshed earlier on the same day.
+        is_new_format = (
+            previous.get("updatedDate") == today
+            and previous.get("items")
+            and previous.get("source") == "Kadoa Congress Trading Monitor open dataset"
+            and previous.get("historyStart") == "2024-01-01"
+            and isinstance(previous.get("memberBacktests"), dict)
+        )
+        if is_new_format:
             return
     except Exception:
         previous = {}
