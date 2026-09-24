@@ -78,8 +78,12 @@
   <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。單一議員頁面同時顯示申報公開日後可跟單回測與交易日後參考報酬</div>
   </div>
   <div id="cperformance" class="csubpage">
-    <div class="sub">顯示各國會議員 2024～現在已完成樣本的買入後 30 日／60 日平均報酬與勝率。預設按姓名排列，可搜尋議員；不做政治人物名次排序</div>
+    <div class="sub">顯示各國會議員 2024～現在已完成樣本的買入後績效。30 日與 60 日分開查看，預設按姓名排列，可搜尋議員</div>
     <div class="perfcontrols"><input id="perfSearch" type="search" placeholder="搜尋議員，例如 Pelosi"></div>
+    <div class="csubtabs" style="margin-top:8px">
+      <button id="perf30Btn" class="csubtab on" data-perf="30">30 日績效</button>
+      <button id="perf60Btn" class="csubtab" data-perf="60">60 日績效</button>
+    </div>
     <div id="perfInfo" class="resultinfo"></div>
     <div id="perfGrid" class="perfgrid"></div>
   </div>
@@ -116,6 +120,7 @@ function extMove(z){
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
 let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={},__filerBacktests={},__memberPerformance=[];
+let __perfMode=30;
 
 async function loadCongress(){
  if(__congressLoaded){renderCongress();return;}
@@ -261,23 +266,35 @@ function renderMemberBacktest(rows,filer){
 function renderCongressPerformance(){
  const grid=document.getElementById("perfGrid");if(!grid)return;
  const q=(document.getElementById("perfSearch")?.value||"").trim().toLowerCase();
+ const h=__perfMode===60?60:30;
  let rows=(__memberPerformance||[]).filter(x=>{
    if(q && !(x.member||"").toLowerCase().includes(q))return false;
-   return (x.sample30||0)>0 || (x.sample60||0)>0;
+   return (x[`sample${h}`]||0)>0;
  });
  rows.sort((a,b)=>(a.member||"").localeCompare(b.member||""));
+
  const info=document.getElementById("perfInfo");
- if(info)info.textContent=`可計算 ${rows.length} 位議員｜按姓名排列｜30日/60日皆顯示平均報酬、勝率與樣本數`;
- if(!rows.length){grid.innerHTML='<div class="empty">沒有符合條件的績效資料</div>';return;}
- grid.innerHTML=rows.map(x=>`
-  <div class="perfcard">
-   <div class="perfname">${x.member||""}</div>
-   <div class="perfmeta">${x.chamber==="house"?"眾議院":x.chamber==="senate"?"參議院":x.chamber||""}${x.state?`｜${x.state}`:""}${x.party?`｜${x.party}`:""}</div>
-   <div class="perfvals">
-    <div class="perfmetric"><div class="pk">買入後 30 日</div><div class="pv ${x.avg30==null?"na":Number(x.avg30)>=0?"pos":"neg"}">${fmtPct(x.avg30)}</div><div class="csmall">${x.win30==null?"勝率 --":"勝率 "+Number(x.win30).toFixed(1)+"%"}｜樣本 ${x.sample30??0}</div></div>
-    <div class="perfmetric"><div class="pk">買入後 60 日</div><div class="pv ${x.avg60==null?"na":Number(x.avg60)>=0?"pos":"neg"}">${fmtPct(x.avg60)}</div><div class="csmall">${x.win60==null?"勝率 --":"勝率 "+Number(x.win60).toFixed(1)+"%"}｜樣本 ${x.sample60??0}</div></div>
-   </div>
-  </div>`).join("");
+ if(info)info.textContent=`${h} 日績效｜可計算 ${rows.length} 位議員｜按姓名排列｜顯示平均報酬、勝率與樣本數`;
+
+ if(!rows.length){
+   grid.innerHTML='<div class="empty">沒有符合條件的績效資料</div>';
+   return;
+ }
+
+ grid.innerHTML=rows.map(x=>{
+   const avg=x[`avg${h}`],win=x[`win${h}`],sample=x[`sample${h}`];
+   return `<div class="perfcard">
+    <div class="perfname">${x.member||""}</div>
+    <div class="perfmeta">${x.chamber==="house"?"眾議院":x.chamber==="senate"?"參議院":x.chamber||""}${x.state?`｜${x.state}`:""}${x.party?`｜${x.party}`:""}</div>
+    <div class="perfvals" style="grid-template-columns:1fr">
+      <div class="perfmetric">
+        <div class="pk">買入後 ${h} 日</div>
+        <div class="pv ${avg==null?"na":Number(avg)>=0?"pos":"neg"}">${fmtPct(avg)}</div>
+        <div class="csmall">${win==null?"勝率 --":"勝率 "+Number(win).toFixed(1)+"%"}｜樣本 ${sample??0}</div>
+      </div>
+    </div>
+   </div>`;
+ }).join("");
 }
 
 function renderCongress(){
@@ -448,6 +465,11 @@ document.querySelectorAll(".csubtab").forEach(b=>b.addEventListener("click",()=>
  if(b.dataset.csub==="cperformance")renderCongressPerformance();
 }));
 document.getElementById("perfSearch")?.addEventListener("input",renderCongressPerformance);
+document.querySelectorAll("[data-perf]").forEach(b=>b.addEventListener("click",()=>{
+ __perfMode=Number(b.dataset.perf)||30;
+ document.querySelectorAll("[data-perf]").forEach(x=>x.classList.toggle("on",x===b));
+ renderCongressPerformance();
+}));
 
 ["memberSearch","tickerSearch"].forEach(id=>document.getElementById(id)?.addEventListener("input",()=>{__congressLimit=50;renderCongress();}));
 ["actionFilter","chamberFilter"].forEach(id=>document.getElementById(id)?.addEventListener("change",()=>{__congressLimit=50;renderCongress();}));
