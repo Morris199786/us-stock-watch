@@ -8,6 +8,7 @@ from deep_translator import GoogleTranslator
 
 ROOT = Path(__file__).resolve().parent
 cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+PUSH_STATE_FILE = ROOT / "push_state.json"
 
 POS = [
     "raises guidance","raise guidance","boosts outlook","beats estimates","beats expectations",
@@ -120,72 +121,68 @@ def _fi_value(fi, key):
 
 def get_quote(symbol):
     """
-    Latest change = latest available price / previous regular close - 1.
-
-    Important:
-    We no longer derive the displayed change from the last two daily candles,
-    because Yahoo can expose a stale/incomplete final daily candle in Actions.
+    Main displayed change = regular-session change only.
+    Pre-market and post-market moves are stored separately and never overwrite it.
     """
     t = yf.Ticker(symbol)
-    chg = mc = None
+
+    regular_chg = None
+    pre_chg = None
+    post_chg = None
+    market_state = ""
+    regular_price = prev_close = None
+    pre_price = post_price = None
+    mc = None
     mc_source = None
     hist = None
-    last_price = prev_close = None
-
-    # Primary source: FastInfo latest price + previous close
-    try:
-        fi = t.fast_info
-        last_price = _fi_value(fi, "last_price")
-        prev_close = _fi_value(fi, "previous_close")
-
-        # Some yfinance versions expose these aliases.
-        if last_price is None:
-            last_price = _fi_value(fi, "lastPrice")
-        if prev_close is None:
-            prev_close = _fi_value(fi, "previousClose")
-
-        if last_price is not None and prev_close not in (None, 0):
-            chg = (last_price / prev_close - 1) * 100
-    except Exception:
-        pass
-
-    # Secondary source: quote info. This also helps during Yahoo FastInfo hiccups.
     info = {}
-    if chg is None:
-        try:
-            info = t.info or {}
-            last_price = safe_float(
-                info.get("currentPrice")
-                or info.get("regularMarketPrice")
-                or info.get("postMarketPrice")
-                or info.get("preMarketPrice")
-            )
-            prev_close = safe_float(
-                info.get("regularMarketPreviousClose")
-                or info.get("previousClose")
-            )
-            if last_price is not None and prev_close not in (None, 0):
-                chg = (last_price / prev_close - 1) * 100
-        except Exception:
-            info = {}
 
-    # Final fallback only: use recent daily candles.
-    # This path is deliberately last because it can lag one session.
+    # Session-aware Yahoo quote fields
+    try:
+        info = t.info or {}
+        market_state = str(info.get("marketState") or "").upper()
+
+        regular_price = safe_float(info.get("regularMarketPrice"))
+        prev_close = safe_float(
+            info.get("regularMarketPreviousClose")
+            or info.get("previousClose")
+        )
+        pre_price = safe_float(info.get("preMarketPrice"))
+        post_price = safe_float(info.get("postMarketPrice"))
+
+        # Main number: regular session only
+        if regular_price is not None and prev_close not in (None, 0):
+            regular_chg = (regular_price / prev_close - 1) * 100
+
+        # Extended sessions are separate
+        if pre_price is not None:
+            pre_base = regular_price or prev_close
+            if pre_base not in (None, 0):
+                pre_chg = (pre_price / pre_base - 1) * 100
+
+        if post_price is not None and regular_price not in (None, 0):
+            post_chg = (post_price / regular_price - 1) * 100
+    except Exception:
+        info = {}
+
+    # Fallback for the main regular-session change only
     try:
         hist = t.history(period="5d", interval="1d", auto_adjust=False)
     except Exception:
         hist = None
 
-    if chg is None and hist is not None:
+    if regular_chg is None and hist is not None:
         try:
             closes = [safe_float(x) for x in hist["Close"].tolist()]
-            closes = [x for x in closes if x is not None]
+            closes = [x for x in closes if x is not None and x > 0]
             if len(closes) >= 2 and closes[-2]:
-                chg = (closes[-1] / closes[-2] - 1) * 100
+                regular_price = closes[-1]
+                prev_close = closes[-2]
+                regular_chg = (regular_price / prev_close - 1) * 100
         except Exception:
             pass
 
-    # Market cap: prefer FastInfo, then robust fallbacks.
+    # Market cap only; FastInfo.last_price is intentionally NOT used for changePct.
     try:
         fi = t.fast_info
         mc = _fi_value(fi, "market_cap") or _fi_value(fi, "marketCap")
@@ -202,7 +199,18 @@ def get_quote(symbol):
         except Exception:
             pass
 
-    return chg, mc, mc_source
+    return {
+        "changePct": regular_chg,
+        "regularPrice": regular_price,
+        "previousClose": prev_close,
+        "preMarketChangePct": pre_chg,
+        "preMarketPrice": pre_price,
+        "postMarketChangePct": post_chg,
+        "postMarketPrice": post_price,
+        "marketState": market_state,
+        "marketCap": mc,
+        "marketCapSource": mc_source,
+    }
 
 # Reuse translations/history from prior news.json.
 translation_cache = {}
@@ -708,6 +716,81 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
         })
     return out
 
+
+def market_news_search():
+    """
+    Broad U.S. market scan for the daily Top 10.
+    This intentionally goes beyond the watchlist so macro/Fed/index/mega-cap
+    stories can compete with stock-specific catalysts.
+    """
+    queries = [
+        '("Wall Street" OR "U.S. stocks" OR "US stocks" OR "S&P 500" OR Nasdaq) '
+        '(Fed OR "Federal Reserve" OR CPI OR inflation OR jobs OR payrolls OR Treasury OR yields OR tariffs OR oil OR recession) when:1d',
+        '(Nvidia OR Microsoft OR Apple OR Amazon OR Alphabet OR Meta OR Tesla OR Broadcom) '
+        '(earnings OR guidance OR outlook OR AI OR antitrust OR acquisition OR deal OR launch) when:1d',
+        '("S&P 500" OR Nasdaq OR Dow) (futures OR rally OR selloff OR surge OR plunge OR record OR volatility) when:1d'
+    ]
+
+    now = datetime.now(timezone.utc)
+    out = []
+    seen = set()
+
+    for q in queries:
+        url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+            "q": q,
+            "hl": "en-US",
+            "gl": "US",
+            "ceid": "US:en"
+        })
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=8) as r:
+                root = ET.fromstring(r.read())
+        except Exception:
+            continue
+
+        for item in root.findall(".//item")[:10]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            pub = parse_rss_date(item.findtext("pubDate"))
+
+            if pub and now - pub > timedelta(hours=30):
+                continue
+
+            clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", title).strip() or title
+            key = re.sub(r"\W+", "", clean_title.lower())
+            if not key or key in seen:
+                continue
+            seen.add(key)
+
+            blob = clean_title.lower()
+            tag = "題材"
+            if any(k in blob for k in NEG) or any(k in blob for k in [
+                "selloff","plunge","slump","tariff","recession","hawkish","yields jump","inflation accelerates"
+            ]):
+                tag = "利空"
+            elif any(k in blob for k in POS) or any(k in blob for k in [
+                "rally","surge","record high","rate cut","dovish","inflation cools","jobs beat"
+            ]):
+                tag = "利多"
+
+            out.append({
+                "ticker": "MARKET",
+                "group": "市場重點",
+                "tag": tag,
+                "title": clean_title,
+                "summary": "",
+                "originalTitle": clean_title,
+                "originalSummary": "",
+                "url": link,
+                "ts": pub.isoformat() if pub else "",
+                "sourceType": "market_search",
+                "marketWide": True,
+                "analystPriority": False
+            })
+
+    return out
+
 def item_news(display_ticker, company_name, symbol, group):
     out = []
     try:
@@ -785,7 +868,8 @@ history_scan_candidates = []
 for group, arr in cfg["groups"].items():
     stocks = []
     for ticker, name, symbol in arr:
-        chg, mc, mc_source = get_quote(symbol)
+        quote = get_quote(symbol)
+        chg = quote.get("changePct")
         broker_scan_candidates.append((ticker, name, symbol, group))
         history_scan_candidates.append((ticker, name, symbol, group))
         stocks.append({
@@ -793,8 +877,15 @@ for group, arr in cfg["groups"].items():
             "name": name,
             "symbol": symbol,
             "changePct": chg,
-            "marketCap": mc,
-            "marketCapSource": mc_source
+            "regularPrice": quote.get("regularPrice"),
+            "previousClose": quote.get("previousClose"),
+            "preMarketChangePct": quote.get("preMarketChangePct"),
+            "preMarketPrice": quote.get("preMarketPrice"),
+            "postMarketChangePct": quote.get("postMarketChangePct"),
+            "postMarketPrice": quote.get("postMarketPrice"),
+            "marketState": quote.get("marketState"),
+            "marketCap": quote.get("marketCap"),
+            "marketCapSource": quote.get("marketCapSource")
         })
         feed_items = item_news(ticker, name, symbol, group)
         for x in feed_items:
@@ -847,6 +938,10 @@ for x in old_news_items:
             all_news.append(x)
     except Exception:
         pass
+
+# Broad U.S. market scan for the daily Top 10.
+# Includes macro/Fed/index/mega-cap stories that may not map neatly to one watchlist ticker.
+all_news.extend(market_news_search())
 
 # Dedicated broker/analyst scan across the full watchlist.
 # Run concurrently so upgrades/downgrades/target changes are checked every cycle.
@@ -921,6 +1016,20 @@ def importance_score(x):
     blob = ((x.get("originalTitle") or "") + " " + (x.get("originalSummary") or "")).lower()
 
     score = 1.0
+
+    # Broad market-moving events get extra weight for the daily Top 10.
+    if x.get("marketWide") or x.get("sourceType") == "market_search":
+        score += 2.5
+    if any(k in blob for k in [
+        "federal reserve","fed ","interest rate","rate cut","rate hike","cpi","inflation",
+        "nonfarm payroll","payrolls","jobs report","treasury yield","treasury yields",
+        "tariff","recession","government shutdown"
+    ]):
+        score += 7
+    if any(k in blob for k in [
+        "nvidia","microsoft","apple","amazon","alphabet","google","meta","tesla","broadcom"
+    ]) and any(k in blob for k in ["earnings","guidance","outlook","acquisition","antitrust","ai"]):
+        score += 4
     # Highest-impact company events
     if any(k in blob for k in ["raises guidance","raise guidance","cuts guidance","lower guidance"]):
         score += 5
@@ -1130,6 +1239,280 @@ for x in news:
 for x in news:
     if x.get("analystPriority"):
         x["title"] = normalize_analyst_title(x)
+
+
+# ---------- Daily U.S. market Top 10 ----------
+# "Today" follows New York calendar date, so Taiwan morning still maps to the
+# just-finished U.S. trading day. This naturally covers pre-market, regular
+# session, and after-hours news within the same U.S. date.
+market_day_et = datetime.now(ZoneInfo("America/New_York")).date()
+
+for x in news:
+    x["top10"] = False
+    x["top10Rank"] = None
+
+top10_candidates = []
+for x in news:
+    try:
+        dt = datetime.fromisoformat((x.get("ts") or "").replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if dt.astimezone(ZoneInfo("America/New_York")).date() != market_day_et:
+            continue
+    except Exception:
+        continue
+    top10_candidates.append(x)
+
+# Rank by our importance score, then freshness. Analyst changes remain high
+# priority, but market-wide macro events can also rank at the top.
+top10_candidates.sort(
+    key=lambda z: (
+        1 if z.get("analystPriority") else 0,
+        z.get("score", 0),
+        z.get("ts", "")
+    ),
+    reverse=True
+)
+
+# Prevent one ticker from monopolizing the Top 10 unless the event flow is very sparse.
+top10 = []
+ticker_counts = {}
+for x in top10_candidates:
+    t = (x.get("ticker") or "MARKET").upper()
+    if ticker_counts.get(t, 0) >= 2 and len(top10_candidates) > 12:
+        continue
+    ticker_counts[t] = ticker_counts.get(t, 0) + 1
+    top10.append(x)
+    if len(top10) >= 10:
+        break
+
+for i, x in enumerate(top10, 1):
+    x["top10"] = True
+    x["top10Rank"] = i
+
+
+
+# ---------- Tier 1 iPhone push notifications ----------
+# Secrets are supplied by GitHub Actions:
+#   PUSHOVER_APP_TOKEN
+#   PUSHOVER_USER_KEY
+# Never hard-code them in the repository.
+
+def _push_key(x):
+    raw = "|".join([
+        (x.get("ticker") or "").upper(),
+        (x.get("originalTitle") or x.get("title") or "").strip().lower(),
+        (x.get("url") or "").strip(),
+    ])
+    return re.sub(r"\s+", " ", raw)[:1200]
+
+def _tier1_reason(x):
+    """
+    Return (is_tier1, category, reason).
+    Deliberately strict to avoid noisy notifications.
+    """
+    blob = " ".join([
+        x.get("originalTitle") or "",
+        x.get("originalSummary") or "",
+        x.get("title") or "",
+    ]).lower()
+
+    # 1) Broker rating / price-target actions
+    if x.get("analystPriority"):
+        if any(k in blob for k in [
+            "price target raised","raises price target","raised price target",
+            "price target increased","boosts price target","target raised",
+            "upgraded","upgrade","initiates coverage","initiates with","initiates at"
+        ]):
+            return True, "券商", "升評／目標價上修／初評"
+        if any(k in blob for k in [
+            "price target cut","cuts price target","cut price target",
+            "price target lowered","target cut","downgraded","downgrade"
+        ]):
+            return True, "券商", "降評／目標價下修"
+        return True, "券商", "重大券商評級變動"
+
+    # 2) Company guidance / outlook
+    if any(k in blob for k in [
+        "raises guidance","raise guidance","raised guidance","boosts outlook",
+        "raises outlook","increases guidance","guidance raised"
+    ]):
+        return True, "公司展望", "上調財測／展望"
+    if any(k in blob for k in [
+        "cuts guidance","cut guidance","lowers guidance","lower guidance",
+        "guidance cut","cuts outlook","lowers outlook"
+    ]):
+        return True, "公司展望", "下調財測／展望"
+
+    # 3) Short / activist / large stake disclosures
+    if any(k in blob for k in [
+        "short report","short seller","short-seller","short thesis",
+        "activist stake","activist investor","takes stake","builds stake",
+        "discloses stake","13d filing","13g filing"
+    ]):
+        return True, "重大持倉", "放空報告／重大持股揭露"
+
+    # 4) Material contracts / customers / M&A / regulatory decisions
+    if any(k in blob for k in [
+        "major contract","wins contract","contract win","multi-year contract",
+        "strategic partnership","acquisition","acquire","merger",
+        "fda approval","regulatory approval","antitrust approval",
+        "government contract","hyperscaler customer","new customer"
+    ]):
+        return True, "重大事件", "重大訂單／客戶／併購／核准"
+
+    # 5) Product launches only if material enough by wording
+    if any(k in blob for k in [
+        "unveils","launches","announces new","introduces new"
+    ]) and any(k in blob for k in [
+        "chip","gpu","cpu","accelerator","ai model","platform","data center",
+        "datacenter","server","optical","transceiver","networking","robot",
+        "vehicle","product"
+    ]):
+        return True, "新產品", "重大新產品／平台發布"
+
+    # 6) Very large stock move with an explicit identified catalyst
+    mv = safe_float(x.get("movePct"))
+    if mv is not None and abs(mv) >= 8 and x.get("sourceType") in ("active_search","ticker_feed","broker_search"):
+        return True, "股價異動", f"股價異動 {mv:+.1f}% 且有明確新聞"
+
+    return False, "", ""
+
+def _push_title(x, category):
+    ticker = (x.get("ticker") or "MARKET").upper()
+    if ticker == "MARKET":
+        ticker = "美股市場"
+    return f"{ticker}｜{category}"
+
+def _push_message(x, reason):
+    title = (x.get("title") or x.get("originalTitle") or "").strip()
+    if not title:
+        title = reason
+    # Keep lock-screen copy compact.
+    msg = title
+    if reason and reason not in title:
+        msg += f"\n{reason}"
+    return msg[:900]
+
+def _send_pushover(title, message, url=None):
+    token = (os.environ.get("PUSHOVER_APP_TOKEN") or "").strip()
+    user = (os.environ.get("PUSHOVER_USER_KEY") or "").strip()
+    if not token or not user:
+        return False, "missing_secrets"
+
+    payload = {
+        "token": token,
+        "user": user,
+        "title": title,
+        "message": message,
+        "priority": "0",
+    }
+    if url:
+        payload["url"] = url
+        payload["url_title"] = "開啟美股觀察"
+
+    try:
+        data = urllib.parse.urlencode(payload).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.pushover.net/1/messages.json",
+            data=data,
+            headers={
+                "Content-Type": "application/x-www-form-urlencoded",
+                "User-Agent": "us-stock-watch/1.0",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            ok = 200 <= getattr(r, "status", 200) < 300
+        return ok, "ok" if ok else "http_error"
+    except Exception as e:
+        return False, type(e).__name__
+
+def process_tier1_pushes(news_items):
+    """
+    First run only seeds history and sends nothing, preventing an old-news flood.
+    Later runs push only unseen Tier 1 stories from the last 18 hours.
+    """
+    try:
+        state = json.loads(PUSH_STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        state = {"initialized": False, "seen": []}
+
+    seen = set(state.get("seen") or [])
+    initialized = bool(state.get("initialized"))
+    now = datetime.now(timezone.utc)
+    tier1_now = []
+
+    for x in news_items:
+        is_t1, category, reason = _tier1_reason(x)
+        if not is_t1:
+            continue
+
+        try:
+            dt = datetime.fromisoformat((x.get("ts") or "").replace("Z","+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            if now - dt > timedelta(hours=18):
+                continue
+        except Exception:
+            continue
+
+        key = _push_key(x)
+        tier1_now.append((x, key, category, reason))
+
+    # First deployment: mark current Tier 1 stories as seen, send nothing.
+    if not initialized:
+        for _, key, _, _ in tier1_now:
+            seen.add(key)
+        state = {
+            "initialized": True,
+            "updatedAt": now.isoformat(),
+            "seen": list(seen)[-800:],
+            "lastPushes": [],
+        }
+        PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+        return
+
+    sent = []
+    # Oldest first so multiple truly new stories arrive in chronological order.
+    tier1_now.sort(key=lambda z: z[0].get("ts",""))
+    for x, key, category, reason in tier1_now:
+        if key in seen:
+            continue
+
+        title = _push_title(x, category)
+        message = _push_message(x, reason)
+        ok, status = _send_pushover(
+            title,
+            message,
+            url="https://morris199786.github.io/us-stock-watch/"
+        )
+
+        # Mark as seen only after a successful push.
+        if ok:
+            seen.add(key)
+            sent.append({
+                "ticker": x.get("ticker"),
+                "title": x.get("title"),
+                "category": category,
+                "ts": x.get("ts"),
+            })
+
+        # Avoid notification storms in a single 5-minute run.
+        if len(sent) >= 6:
+            break
+
+    state = {
+        "initialized": True,
+        "updatedAt": now.isoformat(),
+        "seen": list(seen)[-800:],
+        "lastPushes": sent[-20:],
+    }
+    PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+# Evaluate Tier 1 only after titles have been translated / normalized.
+process_tier1_pushes(news)
+
 
 
 # ---------- U.S. Congress trades ----------
@@ -1404,7 +1787,7 @@ tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
     encoding="utf-8"
 )
 (ROOT / "news.json").write_text(
-    json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "historyLastAttemptAt": old_history_last_attempt, "historyItemCount": len(history_db), "items": news, "historyItems": history_db},
+    json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "historyLastAttemptAt": old_history_last_attempt, "historyItemCount": len(history_db), "top10Date": str(market_day_et), "top10Count": len(top10), "items": news, "historyItems": history_db},
                ensure_ascii=False, indent=2),
     encoding="utf-8"
 )

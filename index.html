@@ -10,11 +10,13 @@
 .tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;background:rgba(7,17,31,.96);padding:8px 0 12px}.tab{background:var(--p2);border:1px solid var(--line);border-radius:13px;color:var(--muted);padding:12px 6px;font-weight:800}.tab.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
 .page{display:none}.page.on{display:block}.title{font-size:23px;font-weight:900;margin:4px 0}.sub{font-size:13px;color:var(--muted);margin-bottom:13px;line-height:1.5}.grid,.newsgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.group,.news{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 .gh{display:flex;justify-content:space-between;gap:8px;padding:13px 14px;background:var(--p2);border-bottom:1px solid var(--line)}.gh b{font-size:16px}.count{font-size:12px;color:var(--muted)}
-.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.07)}.row:last-child{border-bottom:0}.t{font-weight:900;font-size:16px}.n{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.c{font-weight:900;font-size:17px;white-space:nowrap}.pos{color:var(--up)}.neg{color:var(--dn)}.na{color:#cbd6e2}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.07)}.row:last-child{border-bottom:0}.t{font-weight:900;font-size:16px}.n{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.c{font-weight:900;font-size:17px;white-space:nowrap}.ext{font-size:11px;font-weight:800;margin-top:4px;white-space:nowrap}.pos{color:var(--up)}.neg{color:var(--dn)}.na{color:#cbd6e2}
 .heatgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}.heat{border:1px solid rgba(255,255,255,.12);border-radius:15px;overflow:hidden;color:#fff}.heat summary{list-style:none;cursor:pointer;min-height:145px;padding:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.heat summary::-webkit-details-marker{display:none}.heat[open]{grid-column:1/-1}.heat[open] summary{min-height:90px;border-bottom:1px solid rgba(255,255,255,.16)}.hn{font-size:18px;font-weight:900}.hr{font-size:30px;font-weight:900;margin-top:8px}.hm{font-size:12px;opacity:.76;margin-top:7px;line-height:1.45}.up3{background:#ca3138}.up2{background:#a83339}.up1{background:#74383d}.dn1{background:#174f45}.dn2{background:#0d6550}.dn3{background:#0a7e5e}.flat{background:#3a4658}
 .inner{background:var(--p);padding:4px 12px 8px}.ir{display:grid;grid-template-columns:28px minmax(0,1fr) 88px;gap:8px;align-items:center;padding:11px 2px;border-bottom:1px solid rgba(255,255,255,.08)}.ir:last-child{border-bottom:0}.rank{font-size:12px;color:var(--muted)}.ic{text-align:right;font-weight:900;white-space:nowrap}
 .nh{display:flex;justify-content:space-between;gap:10px;padding:13px 14px;background:var(--p2);border-bottom:1px solid var(--line)}.badge{font-size:11px;font-weight:900;border-radius:999px;padding:5px 8px;height:max-content}.move{font-size:11px;font-weight:900;margin-top:5px;color:#dbe9f6}.good{color:var(--up);border:1px solid #ff4d7560;background:#ff4d751a}.bad{color:var(--dn);border:1px solid #29d39a60;background:#29d39a1a}.theme{color:#a9ebff;border:1px solid #58d9ff60;background:#58d9ff18}.nb{padding:14px}.head{font-weight:900;font-size:16px;line-height:1.45}.desc{margin-top:8px;color:#dce7f3;font-size:14px;line-height:1.6}.src{display:inline-block;margin-top:10px;color:var(--acc);text-decoration:none;font-size:13px}.newsdate{font-size:11px;color:var(--muted);margin-top:4px}.empty{padding:24px;text-align:center;color:var(--muted);background:var(--p);border:1px solid var(--line);border-radius:14px}
 .searchbar{display:flex;gap:8px;margin:12px 0}.searchbar input{flex:1;min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;outline:none}.searchbar input:focus{border-color:var(--acc)}.clearbtn{background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:0 14px;font-weight:800}.resultinfo{font-size:12px;color:var(--muted);margin:-3px 0 10px}
+
+.topnewsbar{display:flex;gap:9px;align-items:center;margin:12px 0}.top10btn{background:linear-gradient(135deg,#172b49,#102238);color:#dff9ff;border:1px solid #2c5273;border-radius:12px;padding:10px 14px;font-weight:900;cursor:pointer}.top10btn.on{border-color:#5bdcff;box-shadow:0 0 0 1px rgba(91,220,255,.18) inset}.top10note{font-size:11px;color:var(--muted)}.toprank{display:inline-flex;align-items:center;justify-content:center;min-width:48px;padding:4px 8px;border-radius:999px;background:#2a2032;border:1px solid rgba(255,89,142,.35);color:#ff6b9a;font-size:11px;font-weight:900;margin-bottom:8px}
 @media(max-width:720px){.grid,.newsgrid{grid-template-columns:1fr}}
 
 .congressCards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
@@ -28,10 +30,11 @@
 </head><body><div class="wrap">
 <div class="top"><h1>美股觀察</h1><p>依投資題材分組｜紅漲綠跌</p><div id="stamp" class="stamp">載入中…</div></div>
 <nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button><button class="tab" data-p="congress">國會交易</button></nav>
-<section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">個股依題材分類，顯示最新漲跌幅</div><div id="groups" class="grid"></div></section>
-<section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">優先使用族群內個股市值加權；若行情來源暫時無法取得市值，會自動以等權備援，不再出現空白。點擊族群可展開個股</div><div id="heatgrid" class="heatgrid"></div></section>
+<section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">主數字固定顯示正常交易時段漲跌幅｜盤前、盤後另外標示</div><div id="groups" class="grid"></div></section>
+<section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">族群漲跌固定使用正常交易時段漲跌幅計算｜盤前、盤後只在個股旁另外標示，不影響族群報酬</div><div id="heatgrid" class="heatgrid"></div></section>
 <section id="news" class="page"><div class="title">市場新聞</div>
 <div class="sub">預設顯示最新且重要的新聞；輸入股票 Ticker 可搜尋最近 30 天新聞，不分大小寫</div>
+<div class="topnewsbar"><button id="top10Toggle" class="top10btn">今日十大重要新聞</button><span id="top10Note" class="top10note">盤前＋盤中＋盤後</span></div>
 <div class="searchbar"><input id="newsSearch" type="search" placeholder="輸入 Ticker，例如 MU、NVDA、VICR"><button id="clearSearch" class="clearbtn">清除</button></div>
 <div id="resultInfo" class="resultinfo">顯示最新重要新聞</div>
 <div id="newsgrid" class="newsgrid"></div></section>
@@ -53,7 +56,15 @@
   <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
 </section>
 </div><script>
-const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%"; const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
+const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%";
+function extMove(z){
+ const st=String(z.marketState||"").toUpperCase();
+ if(st==="PRE" && z.preMarketChangePct!=null)
+   return `<div class="ext ${cls(z.preMarketChangePct)}">盤前 ${fmt(z.preMarketChangePct)}</div>`;
+ if((st==="POST"||st==="POSTPOST") && z.postMarketChangePct!=null)
+   return `<div class="ext ${cls(z.postMarketChangePct)}">盤後 ${fmt(z.postMarketChangePct)}</div>`;
+ return "";
+} const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
 let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={};
@@ -217,15 +228,18 @@ async function load(){
  const [d,n]=await Promise.all([fetch("data.json?"+Date.now()).then(r=>r.json()),fetch("news.json?"+Date.now()).then(r=>r.json())]);
  document.getElementById("stamp").textContent="資料更新："+d.updatedAt;
  const g=document.getElementById("groups"); g.innerHTML="";
- d.groups.forEach(x=>{const s=document.createElement("section");s.className="group";s.innerHTML=`<div class="gh"><b>${x.name}</b><span class="count">${x.stocks.length} 檔</span></div>`+x.stocks.map(z=>`<div class="row"><div><div class="t">${z.ticker}</div><div class="n">${z.name}</div></div><div class="c ${cls(z.changePct)}">${fmt(z.changePct)}</div></div>`).join("");g.appendChild(s)});
+ d.groups.forEach(x=>{const s=document.createElement("section");s.className="group";s.innerHTML=`<div class="gh"><b>${x.name}</b><span class="count">${x.stocks.length} 檔</span></div>`+x.stocks.map(z=>`<div class="row"><div><div class="t">${z.ticker}</div><div class="n">${z.name}</div></div><div style="text-align:right"><div class="c ${cls(z.changePct)}">${fmt(z.changePct)}</div>${extMove(z)}</div></div>`).join("");g.appendChild(s)});
  const h=document.getElementById("heatgrid"); h.innerHTML="";
- [...d.groups].sort((a,b)=>(b.returnPct??-999)-(a.returnPct??-999)).forEach(x=>{const q=document.createElement("details");q.className="heat "+tone(x.returnPct);const ss=[...x.stocks].sort((a,b)=>(b.changePct??-999)-(a.changePct??-999));let mode=x.weightMode==="market_cap"?"市值加權":x.weightMode==="equal_fallback"?"市值暫缺｜等權備援":"資料不足";if(x.weightMode==="market_cap" && x.marketCapCoverage<1) mode+=`｜覆蓋 ${Math.round(x.marketCapCoverage*100)}%`;q.innerHTML=`<summary><div class="hn">${x.name}</div><div class="hr">${fmt(x.returnPct)}</div><div class="hm">${mode}<br>點擊查看個股｜漲幅高 → 低</div></summary><div class="inner">`+ss.map((z,i)=>`<div class="ir"><div class="rank">${i+1}</div><div><div class="t">${z.ticker}</div><div class="n">${z.name}</div></div><div class="ic ${cls(z.changePct)}">${fmt(z.changePct)}</div></div>`).join("")+"</div>";h.appendChild(q)});
+ [...d.groups].sort((a,b)=>(b.returnPct??-999)-(a.returnPct??-999)).forEach(x=>{const q=document.createElement("details");q.className="heat "+tone(x.returnPct);const ss=[...x.stocks].sort((a,b)=>(b.changePct??-999)-(a.changePct??-999));let mode=x.weightMode==="market_cap"?"市值加權":x.weightMode==="equal_fallback"?"市值暫缺｜等權備援":"資料不足";if(x.weightMode==="market_cap" && x.marketCapCoverage<1) mode+=`｜覆蓋 ${Math.round(x.marketCapCoverage*100)}%`;q.innerHTML=`<summary><div class="hn">${x.name}</div><div class="hr">${fmt(x.returnPct)}</div><div class="hm">${mode}<br>點擊查看個股｜漲幅高 → 低</div></summary><div class="inner">`+ss.map((z,i)=>`<div class="ir"><div class="rank">${i+1}</div><div><div class="t">${z.ticker}</div><div class="n">${z.name}</div></div><div style="text-align:right"><div class="ic ${cls(z.changePct)}">${fmt(z.changePct)}</div>${extMove(z)}</div></div>`).join("")+"</div>";h.appendChild(q)});
  const ng=document.getElementById("newsgrid"); ng.innerHTML="";
  window.__newsItems=n.items||[];
  window.__historyItems=n.historyItems||[];
  window.__historyItemCount=n.historyItemCount||0;
+ window.__top10Date=n.top10Date||"";
+ window.__top10Count=n.top10Count||0;
  renderNews();
 }
+window.__top10Mode=false;
 function renderNews(){
  const ng=document.getElementById("newsgrid"); if(!ng)return;
  const raw=(document.getElementById("newsSearch")?.value||"").trim();
@@ -234,7 +248,9 @@ function renderNews(){
  const all=window.__newsItems||[];
 
  let items;
- if(!q){
+ if(window.__top10Mode && !q){
+   items=all.filter(x=>x.top10===true).sort((a,b)=>(a.top10Rank||99)-(b.top10Rank||99)).slice(0,10);
+ }else if(!q){
    items=all.filter(x=>x.featured!==false).slice(0,18);
  }else{
    // Ticker 搜尋會合併即時新聞 + 獨立 30 天歷史資料庫
@@ -265,14 +281,29 @@ function renderNews(){
    const c=document.createElement("article");
    c.className="news";
    const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";
-   c.innerHTML=`<div class="nh"><div><div class="t">${x.ticker}</div><div class="n">${x.group}</div>${newsDate(x.ts)?`<div class="newsdate">${newsDate(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
+   c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${newsDate(x.ts)?`<div class="newsdate">${newsDate(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
    ng.appendChild(c);
  });
 
- if(info) info.textContent=q?`${q}：找到 ${items.length} 則｜30天資料庫 ${window.__historyItemCount||0} 則`:`顯示 ${items.length} 則最新重要新聞`;
+ if(info){
+   if(window.__top10Mode&&!q) info.textContent=`${window.__top10Date||"今日"} 美股十大重要新聞｜盤前＋盤中＋盤後｜共 ${items.length} 則`;
+   else info.textContent=q?`${q}：找到 ${items.length} 則｜30天資料庫 ${window.__historyItemCount||0} 則`:`顯示 ${items.length} 則最新重要新聞`;
+ }
 }
 load().catch(()=>{document.getElementById("stamp").textContent="資料載入失敗，請稍後重新整理"});
-document.getElementById("newsSearch")?.addEventListener("input",renderNews);
+document.getElementById("top10Toggle")?.addEventListener("click",()=>{
+ window.__top10Mode=!window.__top10Mode;
+ const b=document.getElementById("top10Toggle");if(b)b.classList.toggle("on",window.__top10Mode);
+ const s=document.getElementById("newsSearch");if(window.__top10Mode&&s)s.value="";
+ renderNews();
+});
+document.getElementById("newsSearch")?.addEventListener("input",()=>{
+ if((document.getElementById("newsSearch")?.value||"").trim()){
+   window.__top10Mode=false;
+   document.getElementById("top10Toggle")?.classList.remove("on");
+ }
+ renderNews();
+});
 document.getElementById("clearSearch")?.addEventListener("click",()=>{const i=document.getElementById("newsSearch");if(i){i.value="";renderNews();i.focus();}});
 
 ["memberSearch","tickerSearch"].forEach(id=>document.getElementById(id)?.addEventListener("input",()=>{__congressLimit=50;renderCongress();}));
