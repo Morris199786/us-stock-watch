@@ -1299,52 +1299,107 @@ for i, x in enumerate(top10, 1):
 # Never hard-code them in the repository.
 
 def _push_key(x):
-    raw = "|".join([
-        (x.get("ticker") or "").upper(),
-        (x.get("originalTitle") or x.get("title") or "").strip().lower(),
-        (x.get("url") or "").strip(),
-    ])
-    return re.sub(r"\s+", " ", raw)[:1200]
+    """
+    Stable event key for push dedupe.
+
+    IMPORTANT:
+    Do NOT include the URL. The same story is often syndicated through Yahoo,
+    Google News, Investing.com, etc. with different URLs. We dedupe primarily
+    by ticker + normalized original headline.
+    """
+    ticker = (x.get("ticker") or "MARKET").upper().strip()
+    title = (x.get("originalTitle") or x.get("title") or "").lower().strip()
+
+    # Remove source suffixes and punctuation/noise that commonly differ between feeds.
+    title = re.sub(r"\s+-\s+(reuters|bloomberg|benzinga|investing\.com|yahoo finance|marketwatch|barron's|thefly|seeking alpha)\s*$", "", title, flags=re.I)
+    title = re.sub(r"\b(by investing\.com|via reuters|via bloomberg)\b", "", title, flags=re.I)
+    title = re.sub(r"[^a-z0-9\u3400-\u9fff]+", " ", title)
+    title = re.sub(r"\s+", " ", title).strip()
+
+    return f"{ticker}|{title}"[:900]
+
 
 def _tier1_reason(x):
     """
     Return (is_tier1, category, reason).
-    Deliberately strict to avoid noisy notifications.
+
+    Tier 1 is event-based, not keyword-label-based.
+    A story can be important even if it is NOT a broker story.
     """
     blob = " ".join([
         x.get("originalTitle") or "",
         x.get("originalSummary") or "",
         x.get("title") or "",
+        x.get("summary") or "",
     ]).lower()
 
-    # 1) Broker rating / price-target actions
-    if x.get("analystPriority"):
-        if any(k in blob for k in [
+    # --- A. Broker / analyst actions ---
+    broker_terms = [
+        "price target", "target price", "price-target", "pt raised", "pt cut",
+        "upgrade", "upgraded", "downgrade", "downgraded",
+        "initiates coverage", "initiated coverage", "initiates with", "initiated with",
+        "reiterates", "reiterated", "rating raised", "rating cut",
+        "raises target", "raised target", "cuts target", "cut target",
+        "lowers target", "lowered target", "boosts target", "boosted target"
+    ]
+    if any(k in blob for k in broker_terms):
+        positive = any(k in blob for k in [
             "price target raised","raises price target","raised price target",
             "price target increased","boosts price target","target raised",
-            "upgraded","upgrade","initiates coverage","initiates with","initiates at"
-        ]):
-            return True, "券商", "升評／目標價上修／初評"
-        if any(k in blob for k in [
+            "upgrade","upgraded","initiates with buy","initiated with buy",
+            "initiates at buy","initiated at buy","outperform","overweight"
+        ])
+        negative = any(k in blob for k in [
             "price target cut","cuts price target","cut price target",
-            "price target lowered","target cut","downgraded","downgrade"
-        ]):
+            "price target lowered","target cut","downgrade","downgraded",
+            "underperform","underweight","sell rating"
+        ])
+        if negative and not positive:
             return True, "券商", "降評／目標價下修"
-        return True, "券商", "重大券商評級變動"
+        if positive and not negative:
+            return True, "券商", "升評／目標價上修／初評"
+        return True, "券商", "重大券商評級／目標價變動"
 
-    # 2) Company guidance / outlook
+    # --- B. Company guidance / financial outlook ---
     if any(k in blob for k in [
         "raises guidance","raise guidance","raised guidance","boosts outlook",
-        "raises outlook","increases guidance","guidance raised"
+        "raises outlook","increases guidance","guidance raised",
+        "raises revenue outlook","raises eps outlook","raises margin outlook",
+        "raises capex","increases capex"
     ]):
-        return True, "公司展望", "上調財測／展望"
+        return True, "公司財測", "上調財測／展望"
+
     if any(k in blob for k in [
         "cuts guidance","cut guidance","lowers guidance","lower guidance",
-        "guidance cut","cuts outlook","lowers outlook"
+        "guidance cut","cuts outlook","lowers outlook",
+        "cuts revenue outlook","cuts eps outlook","cuts margin outlook",
+        "cuts capex","reduces capex"
     ]):
-        return True, "公司展望", "下調財測／展望"
+        return True, "公司財測", "下調財測／展望"
 
-    # 3) Short / activist / large stake disclosures
+    # --- C. Supply / demand / capacity statements that can change earnings expectations ---
+    # This is where the earlier INTC story belongs.
+    supply_terms = [
+        "supply shortage","supply shortages","shortage could last","shortages could last",
+        "supply constraint","supply constraints","constrained supply",
+        "capacity shortage","capacity constraint","capacity constraints",
+        "sold out through","supply sold out","undersupply","under-supply",
+        "demand exceeds supply","supply bottleneck","supply bottlenecks",
+        "component shortage","component shortages"
+    ]
+    if any(k in blob for k in supply_terms):
+        return True, "供應鏈／展望", "供給瓶頸／供需變化可能影響出貨與獲利"
+
+    demand_terms = [
+        "demand accelerates","demand surges","demand remains strong",
+        "weak demand","demand weakens","demand slowdown","demand slows",
+        "order slowdown","orders slow","order growth accelerates",
+        "bookings surge","backlog jumps","backlog grows"
+    ]
+    if any(k in blob for k in demand_terms):
+        return True, "需求／訂單", "需求、訂單或 backlog 出現重大變化"
+
+    # --- D. Short / activist / significant stake disclosures ---
     if any(k in blob for k in [
         "short report","short seller","short-seller","short thesis",
         "activist stake","activist investor","takes stake","builds stake",
@@ -1352,31 +1407,42 @@ def _tier1_reason(x):
     ]):
         return True, "重大持倉", "放空報告／重大持股揭露"
 
-    # 4) Material contracts / customers / M&A / regulatory decisions
+    # --- E. Material contracts / customers / M&A / regulatory decisions ---
     if any(k in blob for k in [
         "major contract","wins contract","contract win","multi-year contract",
         "strategic partnership","acquisition","acquire","merger",
         "fda approval","regulatory approval","antitrust approval",
-        "government contract","hyperscaler customer","new customer"
+        "government contract","hyperscaler customer","new hyperscaler",
+        "new customer","design win","design-win"
     ]):
         return True, "重大事件", "重大訂單／客戶／併購／核准"
 
-    # 5) Product launches only if material enough by wording
-    if any(k in blob for k in [
-        "unveils","launches","announces new","introduces new"
-    ]) and any(k in blob for k in [
+    # --- F. Material product/platform launches ---
+    product_action = any(k in blob for k in [
+        "unveils","launches","announces new","introduces new","debuts"
+    ])
+    product_object = any(k in blob for k in [
         "chip","gpu","cpu","accelerator","ai model","platform","data center",
-        "datacenter","server","optical","transceiver","networking","robot",
-        "vehicle","product"
-    ]):
+        "datacenter","server","optical","transceiver","networking",
+        "robot","vehicle","processor","architecture"
+    ])
+    materiality = any(k in blob for k in [
+        "next-generation","next generation","flagship","new architecture",
+        "mass production","volume production","commercial launch",
+        "major launch","first-of-its-kind","industry first"
+    ])
+    if product_action and product_object and materiality:
         return True, "新產品", "重大新產品／平台發布"
 
-    # 6) Very large stock move with an explicit identified catalyst
+    # --- G. Very large move + identified catalyst ---
     mv = safe_float(x.get("movePct"))
-    if mv is not None and abs(mv) >= 8 and x.get("sourceType") in ("active_search","ticker_feed","broker_search"):
-        return True, "股價異動", f"股價異動 {mv:+.1f}% 且有明確新聞"
+    if mv is not None and abs(mv) >= 8 and x.get("sourceType") in (
+        "active_search","ticker_feed","broker_search","market_search"
+    ):
+        return True, "股價異動", f"股價異動 {mv:+.1f}% 且有明確催化劑"
 
     return False, "", ""
+
 
 def _push_title(x, category):
     ticker = (x.get("ticker") or "MARKET").upper()
@@ -1388,11 +1454,17 @@ def _push_message(x, reason):
     title = (x.get("title") or x.get("originalTitle") or "").strip()
     if not title:
         title = reason
-    # Keep lock-screen copy compact.
+
+    # Prefer the normalized translated headline, because analyst headlines may
+    # already contain new/old PT values and rating changes.
     msg = title
+
+    # Add a second line only when it adds information rather than repeating the title.
     if reason and reason not in title:
         msg += f"\n{reason}"
+
     return msg[:900]
+
 
 def _send_pushover(title, message, url=None):
     token = (os.environ.get("PUSHOVER_APP_TOKEN") or "").strip()
@@ -1430,8 +1502,12 @@ def _send_pushover(title, message, url=None):
 
 def process_tier1_pushes(news_items):
     """
-    First run only seeds history and sends nothing, preventing an old-news flood.
-    Later runs push only unseen Tier 1 stories from the last 18 hours.
+    First run only seeds history and sends nothing.
+
+    Dedupe layers:
+      1) persistent seen-state from push_state.json
+      2) same-run event-key dedupe
+      3) stable key ignores syndication URL differences
     """
     try:
         state = json.loads(PUSH_STATE_FILE.read_text(encoding="utf-8"))
@@ -1441,7 +1517,9 @@ def process_tier1_pushes(news_items):
     seen = set(state.get("seen") or [])
     initialized = bool(state.get("initialized"))
     now = datetime.now(timezone.utc)
-    tier1_now = []
+
+    # Build one candidate per stable event key.
+    by_key = {}
 
     for x in news_items:
         is_t1, category, reason = _tier1_reason(x)
@@ -1458,7 +1536,24 @@ def process_tier1_pushes(news_items):
             continue
 
         key = _push_key(x)
-        tier1_now.append((x, key, category, reason))
+        if not key:
+            continue
+
+        # Prefer a candidate with more explicit analyst data / higher score / newer ts.
+        rank = (
+            1 if x.get("analystPriority") else 0,
+            safe_float(x.get("score")) or 0,
+            x.get("ts") or "",
+            len(x.get("title") or ""),
+        )
+        prev = by_key.get(key)
+        if prev is None or rank > prev[0]:
+            by_key[key] = (rank, x, category, reason)
+
+    tier1_now = [
+        (x, key, category, reason)
+        for key, (_, x, category, reason) in by_key.items()
+    ]
 
     # First deployment: mark current Tier 1 stories as seen, send nothing.
     if not initialized:
@@ -1467,48 +1562,56 @@ def process_tier1_pushes(news_items):
         state = {
             "initialized": True,
             "updatedAt": now.isoformat(),
-            "seen": list(seen)[-800:],
+            "seen": list(seen)[-1200:],
             "lastPushes": [],
         }
-        PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+        PUSH_STATE_FILE.write_text(
+            json.dumps(state, ensure_ascii=False, indent=2),
+            encoding="utf-8"
+        )
         return
 
     sent = []
-    # Oldest first so multiple truly new stories arrive in chronological order.
     tier1_now.sort(key=lambda z: z[0].get("ts",""))
+
     for x, key, category, reason in tier1_now:
         if key in seen:
             continue
 
-        title = _push_title(x, category)
-        message = _push_message(x, reason)
         ok, status = _send_pushover(
-            title,
-            message,
+            _push_title(x, category),
+            _push_message(x, reason),
             url="https://morris199786.github.io/us-stock-watch/"
         )
 
-        # Mark as seen only after a successful push.
         if ok:
+            # Update memory immediately in this process so a second syndicated copy
+            # cannot be pushed during the same run.
             seen.add(key)
             sent.append({
                 "ticker": x.get("ticker"),
                 "title": x.get("title"),
                 "category": category,
+                "reason": reason,
                 "ts": x.get("ts"),
+                "eventKey": key,
             })
 
-        # Avoid notification storms in a single 5-minute run.
+        # Prevent notification storms.
         if len(sent) >= 6:
             break
 
     state = {
         "initialized": True,
         "updatedAt": now.isoformat(),
-        "seen": list(seen)[-800:],
+        "seen": list(seen)[-1200:],
         "lastPushes": sent[-20:],
     }
-    PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    PUSH_STATE_FILE.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
 
 # Evaluate Tier 1 only after titles have been translated / normalized.
 process_tier1_pushes(news)
