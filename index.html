@@ -42,7 +42,7 @@
 .kpi{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.kpi .k{font-size:11px;color:var(--muted)}.kpi .v{font-size:23px;font-weight:900;margin-top:5px}
 .cfilters{display:grid;grid-template-columns:1fr 1fr .7fr .7fr auto;gap:8px;margin:12px 0}
 .cfilters input,.cfilters select{min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px 12px;font-size:14px}
-.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.backtestBox{display:none;background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px;margin:10px 0}.backtestBox.on{display:block}.btgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.btcell{background:var(--p2);border-radius:11px;padding:10px}.btk{font-size:10px;color:var(--muted)}.btv{font-size:18px;font-weight:900;margin-top:4px}
+.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.crow.deepHighlight{outline:2px solid var(--acc);outline-offset:-2px;background:rgba(83,215,255,.08);border-radius:12px}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.backtestBox{display:none;background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px;margin:10px 0}.backtestBox.on{display:block}.btgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.btcell{background:var(--p2);border-radius:11px;padding:10px}.btk{font-size:10px;color:var(--muted)}.btv{font-size:18px;font-weight:900;margin-top:4px}
 .btsection{margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.08)}.btsection:first-child{margin-top:0;padding-top:0;border-top:0}.btlabel{font-size:13px;font-weight:900;margin-bottom:8px}.btstatus{font-size:11px;color:var(--muted);margin-top:8px}.doclink{color:var(--acc);text-decoration:none;font-size:11px}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
 .csubtabs{display:flex;gap:8px;margin:12px 0}.csubtab{flex:1;background:var(--p2);color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:10px 8px;font-weight:850}.csubtab.on{color:#c9f6ff;border-color:var(--acc)}
 .csubpage{display:none}.csubpage.on{display:block}.perfcontrols{display:flex;gap:8px;margin:10px 0}.perfcontrols input{flex:1;min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px 12px}
@@ -194,6 +194,73 @@ async function loadCongress(){
  }
 }
 
+
+function congressDeepKey(x){
+ return [
+  String(x.memberId||x.member||"").trim().toLowerCase(),
+  String(x.ticker||"").trim().toUpperCase(),
+  String(x.action||"").trim().toLowerCase(),
+  String(x.transactionDate||"").trim(),
+  String(x.amountRange||"").trim(),
+  String(x.owner||"").trim(),
+  String(x.filingId||"").trim()
+ ].join("|");
+}
+
+async function openDeepLinkedCongress(){
+ const params=new URLSearchParams(location.search);
+ const wanted=(params.get("congress")||"").trim();
+ if(!wanted)return false;
+
+ document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+ document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));
+ document.querySelector('.tab[data-p="congress"]')?.classList.add("on");
+ document.getElementById("congress")?.classList.add("on");
+
+ await loadCongress();
+
+ let item=(__congressItems||[]).find(x=>congressDeepKey(x)===wanted);
+
+ if(!item){
+   const memberKey=(wanted.split("|")[0]||"").trim();
+   const filer=(__congressFilers||[]).find(f=>
+     String(f.id||"").trim().toLowerCase()===memberKey ||
+     String(f.name||"").trim().toLowerCase()===memberKey
+   );
+   if(filer){
+     await loadMemberHistory(filer);
+     item=(__memberHistoryCache[filer.id]||[]).find(x=>congressDeepKey(x)===wanted);
+   }
+ }
+
+ if(!item)return false;
+
+ document.querySelectorAll("[data-csub]").forEach(x=>x.classList.toggle("on",x.dataset.csub==="ctrades"));
+ document.querySelectorAll(".csubpage").forEach(x=>x.classList.remove("on"));
+ document.getElementById("ctrades")?.classList.add("on");
+
+ const ms=document.getElementById("memberSearch"); if(ms)ms.value=item.member||"";
+ const ts=document.getElementById("tickerSearch"); if(ts)ts.value=item.ticker||"";
+ const af=document.getElementById("actionFilter"); if(af)af.value=item.action||"";
+ const cf=document.getElementById("chamberFilter"); if(cf)cf.value="";
+ __congressLimit=50;
+ window.__congressDeepKey=wanted;
+
+ renderCongress();
+
+ setTimeout(()=>{
+   const rows=[...document.querySelectorAll("[data-congress-key]")];
+   const row=rows.find(el=>el.dataset.congressKey===wanted);
+   if(row){
+     row.classList.add("deepHighlight");
+     row.scrollIntoView({behavior:"smooth",block:"center"});
+   }else{
+     document.getElementById("congressTable")?.scrollIntoView({behavior:"smooth",block:"start"});
+   }
+ },150);
+
+ return true;
+}
 
 function normalizeCongressTrade(row,filer){
  const t=String(row.transaction_type||row.action||"").toLowerCase();
@@ -407,7 +474,8 @@ function renderCongress(){
  show.map(x=>{
    const actClass=x.action==="buy"?"cbuy":x.action==="sell"?"csell":"";
    const tickerLabel=x.ticker||"N/A";
-   return `<div class="crow">
+   const ckey=congressDeepKey(x);
+   return `<div class="crow" data-congress-key="${escapeHtml(ckey)}">
      <div><div class="ticker">${tickerLabel}</div><div class="csmall">${x.asset||""}</div></div>
      <div><div class="cmember">${x.member}</div><div class="csmall">${x.chamberZh||x.chamber||""}｜${x.owner||""}</div></div>
      <div class="${actClass}">${x.actionZh||x.action||""}</div>
@@ -439,7 +507,11 @@ async function load(){
  // Pushover deep link: open the exact matching news item once data is loaded.
  if(!window.__deepLinkHandled){
    window.__deepLinkHandled=true;
-   openDeepLinkedNews();
+   if(new URLSearchParams(location.search).has("congress")){
+     openDeepLinkedCongress();
+   }else{
+     openDeepLinkedNews();
+   }
  }
 }
 window.__top10Mode=false;
@@ -648,7 +720,7 @@ document.querySelectorAll("[data-perf]").forEach(b=>b.addEventListener("click",(
 
 ["memberSearch","tickerSearch"].forEach(id=>document.getElementById(id)?.addEventListener("input",()=>{__congressLimit=50;renderCongress();}));
 ["actionFilter","chamberFilter"].forEach(id=>document.getElementById(id)?.addEventListener("change",()=>{__congressLimit=50;renderCongress();}));
-document.getElementById("clearCongress")?.addEventListener("click",()=>{
+document.getElementById("clearCongress")?.addEventListener("click",()=>{const u=new URL(location.href);if(u.searchParams.has("congress")){u.searchParams.delete("congress");history.replaceState(null,"",u.pathname+(u.search?u.search:"")+(u.hash||""));}
  ["memberSearch","tickerSearch"].forEach(id=>{const el=document.getElementById(id);if(el)el.value="";});
  const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter");if(a)a.value="";if(c)c.value="";
  __congressLimit=50;renderCongress();

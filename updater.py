@@ -2808,10 +2808,16 @@ def _push_new_congress_trades(new_items):
             f"交易日 {td}｜申報日 {fd}｜延遲 {lag_text}"
         )
 
+        congress_key = _congress_event_key(x)
+        deep_url = (
+            "https://morris199786.github.io/us-stock-watch/?congress="
+            + urllib.parse.quote(congress_key, safe="")
+        )
+
         ok, _ = _send_pushover(
             title,
             message,
-            url="https://morris199786.github.io/us-stock-watch/"
+            url=deep_url
         )
         if ok:
             sent.append({
