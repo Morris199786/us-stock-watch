@@ -78,7 +78,7 @@
   <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。單一議員頁面同時顯示申報公開日後可跟單回測與交易日後參考報酬</div>
   </div>
   <div id="cperformance" class="csubpage">
-    <div class="sub">顯示各國會議員 2024～現在已完成樣本的買入後績效。30 日與 60 日分開查看，預設按姓名排列，可搜尋議員</div>
+    <div class="sub">30 日與 60 日分開查看，每個分頁只顯示 10 位已有完成樣本的議員，依姓名排列，可搜尋議員</div>
     <div class="perfcontrols"><input id="perfSearch" type="search" placeholder="搜尋議員，例如 Pelosi"></div>
     <div class="csubtabs" style="margin-top:8px">
       <button id="perf30Btn" class="csubtab on" data-perf="30">30 日績效</button>
@@ -267,14 +267,18 @@ function renderCongressPerformance(){
  const grid=document.getElementById("perfGrid");if(!grid)return;
  const q=(document.getElementById("perfSearch")?.value||"").trim().toLowerCase();
  const h=__perfMode===60?60:30;
+
  let rows=(__memberPerformance||[]).filter(x=>{
    if(q && !(x.member||"").toLowerCase().includes(q))return false;
    return (x[`sample${h}`]||0)>0;
  });
+
  rows.sort((a,b)=>(a.member||"").localeCompare(b.member||""));
+ const total=rows.length;
+ rows=rows.slice(0,10);
 
  const info=document.getElementById("perfInfo");
- if(info)info.textContent=`${h} 日績效｜可計算 ${rows.length} 位議員｜按姓名排列｜顯示平均報酬、勝率與樣本數`;
+ if(info)info.textContent=`${h} 日績效｜顯示 10 位已有完成樣本的議員｜依姓名排列｜可搜尋全部 ${total} 位可計算議員`;
 
  if(!rows.length){
    grid.innerHTML='<div class="empty">沒有符合條件的績效資料</div>';
