@@ -514,32 +514,56 @@ def normalize_analyst_title(x):
 
 def target_relevance(text, display_ticker, company_name):
     """
-    Keep only stories that clearly mention the target company or ticker.
-    This avoids loose Yahoo/Google cross-stock matches.
+    Strictly map a news headline to the intended watchlist company.
+
+    Rules:
+      1) Exact ticker mention always wins.
+      2) Exact company name is accepted.
+      3) Otherwise require at least TWO meaningful company-name tokens.
+         This prevents:
+           United Microelectronics (UMC)
+         from falsely matching:
+           United Therapeutics
     """
-    text = (text or "").lower()
+    raw = text or ""
+    low = raw.lower()
     ticker = (display_ticker or "").strip().lower()
     company = (company_name or "").strip().lower()
 
-    if company and company in text:
+    # Exact ticker is the safest signal.
+    if len(ticker) >= 2 and re.search(
+        rf"(?<![a-z0-9]){re.escape(ticker)}(?![a-z0-9])",
+        low
+    ):
         return True
+
+    # Exact company phrase.
+    if company and company in low:
+        return True
+
+    stop = {
+        "holdings","holding","technologies","technology","systems","system",
+        "semiconductor","semiconductors","solutions","solution","devices",
+        "materials","electronics","international","corporation","company",
+        "inc","limited","ltd","group","plc","common","stock",
+        # Generic geographic/legal words are too weak alone.
+        "united","american","global","advanced","general"
+    }
 
     roots = []
     for token in re.findall(r"[a-z0-9]+", company):
-        if len(token) >= 5 and token not in {
-            "holdings","technologies","technology","systems","semiconductor",
-            "semiconductors","solutions","devices","materials","electronics",
-            "international","corporation","company","inc"
-        }:
+        if len(token) >= 4 and token not in stop:
             roots.append(token)
 
-    if any(root in text for root in roots):
+    matched = [r for r in roots if re.search(rf"(?<![a-z0-9]){re.escape(r)}(?![a-z0-9])", low)]
+
+    # Require at least 2 meaningful roots when the exact ticker/company isn't present.
+    if len(matched) >= 2:
         return True
 
-    if len(ticker) >= 3 and re.search(
-        rf"(?<![a-z0-9]){re.escape(ticker)}(?![a-z0-9])",
-        text
-    ):
+    # One very distinctive long token can be enough (e.g. "microelectronics"),
+    # but not generic words.
+    if len(matched) == 1 and len(matched[0]) >= 12:
         return True
 
     return False
@@ -1950,9 +1974,50 @@ def _best_summary_sentences(text, max_sentences=4, max_chars=520):
     out = " ".join(chosen)
     return out[:max_chars].rstrip()
 
+def _analyst_specific_reason(x):
+    """
+    Return the analyst's actual stated rationale from the available translated
+    summary when possible, rather than a generic explanation.
+    """
+    summary = (x.get("summary") or "").strip()
+    original = (x.get("originalSummary") or "").strip()
+
+    # Prefer the translated summary because this text is shown to the user.
+    source = summary or (zh(original[:700]) if original else "")
+    if not source:
+        return ""
+
+    sents = _split_sentences(source)
+    if not sents:
+        return source[:420]
+
+    reason_words = [
+        "因為","由於","理由","看好","認為","預期","受惠","需求","成長",
+        "毛利","營收","訂單","定價","市占","雲端","AI","人工智慧",
+        "because","citing","expects","growth","demand","margin","revenue",
+        "pricing","orders","cloud","artificial intelligence"
+    ]
+
+    picked = []
+    for s in sents:
+        low = s.lower()
+        if any(k.lower() in low for k in reason_words):
+            picked.append(s)
+        if len(picked) >= 3:
+            break
+
+    if not picked:
+        picked = sents[:2]
+
+    return " ".join(picked)[:520].strip()
+
+
 def _news_why_it_matters(x, blob):
     if x.get("analystPriority"):
-        return "券商正在重新調整對公司未來獲利與估值的預期。最重要的是看評級有沒有改變、新舊目標價，以及調整理由是否來自營收／需求／毛利改善，還是單純估值倍數變化。"
+        specific = _analyst_specific_reason(x)
+        if specific:
+            return "券商調整理由：" + specific
+        return "目前來源只確認券商評級／目標價有變動，但沒有提供足夠理由；不要把缺少依據的評級變動直接解讀成基本面改善。"
 
     if any(k in blob for k in ["guidance","outlook","forecast","earnings","revenue","eps"]):
         return "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。"
@@ -1975,6 +2040,62 @@ def _news_why_it_matters(x, blob):
         return "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。"
 
     return "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。"
+
+
+def _news_stated_view(x):
+    """
+    Build the '公司／券商怎麼說' field from what the source actually says.
+
+    Important:
+    - Do NOT output generic boilerplate such as "這是券商觀點..."
+    - Prefer a concise summary of the analyst/company's actual thesis.
+    - If the source doesn't contain enough information, say so explicitly.
+    """
+    summary = (x.get("summary") or "").strip()
+    original = (x.get("originalSummary") or "").strip()
+    source = summary or (zh(original[:900]) if original else "")
+
+    if not source:
+        if x.get("analystPriority"):
+            return "目前來源只確認券商有評級／目標價動作，但沒有提供足夠的分析師論點。"
+        return "目前來源沒有提供足夠的公司／管理層說法。"
+
+    sents = _split_sentences(source)
+    if not sents:
+        return source[:520]
+
+    if x.get("analystPriority"):
+        # Analyst thesis / rationale.
+        keys = [
+            "認為","看好","預期","指出","表示","理由","因為","由於","受惠",
+            "成長","需求","毛利","營收","訂單","定價","市占","AI","人工智慧",
+            "cloud","雲端","because","citing","expects","believes","sees",
+            "growth","demand","margin","revenue","pricing","orders"
+        ]
+    else:
+        # Company / management commentary.
+        keys = [
+            "公司表示","公司指出","管理層","執行長","財務長","CEO","CFO",
+            "預期","預計","展望","guidance","expects","said","management",
+            "demand","需求","capacity","產能","orders","訂單","margin","毛利"
+        ]
+
+    picked = []
+    for s in sents:
+        low = s.lower()
+        if any(k.lower() in low for k in keys):
+            picked.append(s)
+        if len(picked) >= 3:
+            break
+
+    # If nothing specific is found, use the first 1-2 source sentences rather
+    # than a generic template.
+    if not picked:
+        picked = sents[:2]
+
+    out = " ".join(picked).strip()
+    return out[:560]
+
 
 def _news_watch_items(blob):
     items = []
@@ -2015,14 +2136,9 @@ def build_investor_brief(x):
     why = _news_why_it_matters(x, blob)
     watch = _news_watch_items(blob)
 
-    # What management / analysts are actually saying.
-    stance = ""
-    if x.get("analystPriority"):
-        stance = "這是券商觀點，重點看分析師給出的評級、目標價與核心假設。"
-    elif any(k in blob for k in ["ceo","cfo","management","company said","company expects","expects"]):
-        stance = "這段屬於公司／管理層說法，後續要用實際營收、訂單與財測驗證。"
-    else:
-        stance = "這則消息以外部新聞／產業資訊為主，仍要搭配公司後續公告確認實際財務影響。"
+    # What the company / analyst actually says.
+    # Never use generic boilerplate here.
+    stance = _news_stated_view(x)
 
     return {
         "event": event,
