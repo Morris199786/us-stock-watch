@@ -386,9 +386,9 @@ def normalize_analyst_title(x):
     new_target = ""
 
     patterns = [
-        r"(?:price target|target price|target)\s+(?:was\s+)?(?:raised|increased|boosted|lifted)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:price target|target price|target)\s+(?:was\s+)?(?:raised|increased|boosted|lifted|hiked)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
         r"(?:price target|target price|target)\s+(?:was\s+)?(?:cut|lowered|reduced)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
-        r"(?:raised|increased|boosted|lifted)\s+(?:its\s+)?(?:price target|target price|target)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
+        r"(?:raised|increased|boosted|lifted|hiked)\s+(?:its\s+)?(?:price target|target price|target)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
         r"(?:cut|lowered|reduced)\s+(?:its\s+)?(?:price target|target price|target)\s+(?:to\s+)?\$?([\d,.]+)\s+(?:from|vs\.?|versus)\s+\$?([\d,.]+)",
         r"(?:price target|target price|target)\s+(?:from\s+)?\$?([\d,.]+)\s+(?:to|→)\s+\$?([\d,.]+)",
         r"from\s+\$?([\d,.]+)\s+(?:to|→)\s+\$?([\d,.]+)"
@@ -418,7 +418,7 @@ def normalize_analyst_title(x):
     target_action = ""
     if any(k in low for k in ["price target raised", "raises price target", "raised its price target",
                                "target raised", "boosts price target", "increases price target",
-                               "lifted its price target", "price target increased"]):
+                               "lifted its price target", "hiked its price target", "price target increased"]):
         target_action = "上修"
     elif any(k in low for k in ["price target cut", "cuts price target", "cut its price target",
                                  "target cut", "lowers price target", "lowered its price target",
@@ -523,6 +523,38 @@ BROKER_ACTION = [
     "rating raised", "rating cut", "raises target", "cuts target",
     "lowers target", "boosts target"
 ]
+
+def is_broker_action_text(text):
+    blob = (text or "").lower()
+
+    if any(k in blob for k in [
+        "price target", "target price",
+        "initiates coverage", "initiated coverage",
+        "initiates with", "initiated with",
+        "initiates at", "initiated at",
+        "rating raised", "rating cut",
+        "raises target", "raised target",
+        "cuts target", "cut target",
+        "lowers target", "lowered target",
+        "boosts target", "boosted target",
+        "hikes target", "hiked target",
+    ]):
+        return True
+
+    if re.search(r"\bupgrad(?:e|ed|es|ing)\b", blob):
+        return True
+    if re.search(r"\bdowngrad(?:e|ed|es|ing)\b", blob):
+        return True
+
+    if "reiterat" in blob and any(r in blob for r in [
+        " buy", " outperform", " overweight", " neutral",
+        " equal weight", " equal-weight", " hold",
+        " underperform", " underweight", " sell"
+    ]):
+        return True
+
+    return False
+
 
 
 def _clean_html_text(s):
@@ -646,6 +678,72 @@ def _title_similarity(a, b):
     jac = len(sa & sb) / max(1, len(sa | sb))
     return max(seq, jac)
 
+
+def _yahoo_search_context(title, ticker=""):
+    """
+    Search Yahoo Finance news by headline. This is a fallback for Google News
+    RSS stories that only contain a redirect URL and no summary.
+    """
+    title = (title or "").strip()
+    if not title:
+        return "", ""
+
+    try:
+        search = yf.Search(
+            title,
+            max_results=5,
+            news_count=8,
+            lists_count=0,
+            include_cb=False,
+            include_nav_links=False,
+            include_research=False,
+            enable_fuzzy_query=False,
+        )
+        rows = getattr(search, "news", None) or []
+    except Exception:
+        rows = []
+
+    best = None
+    best_score = 0.0
+    wanted_ticker = (ticker or "").upper().strip()
+
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+
+        rt = (row.get("title") or "").strip()
+        if not rt:
+            continue
+
+        score = _title_similarity(title, rt)
+
+        related = row.get("relatedTickers") or row.get("related_tickers") or []
+        related = [str(x).upper() for x in related if x]
+        if wanted_ticker and wanted_ticker in related:
+            score += 0.15
+
+        if score > best_score:
+            best_score = score
+            best = row
+
+    if not best or best_score < 0.48:
+        return "", ""
+
+    direct = best.get("link") or best.get("url") or best.get("clickThroughUrl") or ""
+    if isinstance(direct, dict):
+        direct = direct.get("url") or ""
+
+    desc = _clean_html_text(best.get("summary") or best.get("description") or "")
+    if desc:
+        return desc[:1200], direct
+
+    if direct:
+        fetched, resolved = _fetch_article_context(direct)
+        if fetched:
+            return fetched[:1200], resolved or direct
+
+    return "", direct
+
 def enrich_analyst_details(items):
     """
     Fill missing analyst summaries in two stages:
@@ -693,7 +791,16 @@ def enrich_analyst_details(items):
     targets = targets[:40]
 
     def one(x):
-        desc, resolved = _fetch_article_context(x.get("url") or "")
+        desc, resolved = _yahoo_search_context(
+            x.get("originalTitle") or x.get("title") or "",
+            x.get("ticker") or ""
+        )
+
+        if not desc:
+            desc2, resolved2 = _fetch_article_context(x.get("url") or "")
+            desc = desc2 or desc
+            resolved = resolved2 or resolved
+
         return x, desc, resolved
 
     if targets:
@@ -707,7 +814,7 @@ def enrich_analyst_details(items):
                 if desc:
                     x["originalSummary"] = desc[:1200]
                     x["summary"] = desc[:500]
-                    x["detailSource"] = "article_metadata"
+                    x["detailSource"] = "yahoo_or_article_metadata"
                 if resolved and "news.google." not in resolved:
                     x["url"] = resolved
 
@@ -753,7 +860,7 @@ def broker_news_search(display_ticker, company_name, symbol, group):
 
         if not target_relevance(clean_title, display_ticker, company_name):
             continue
-        if not any(k in blob for k in BROKER_ACTION):
+        if not is_broker_action_text(blob):
             continue
 
         tag = "題材"
@@ -825,7 +932,7 @@ def history_news_search(display_ticker, company_name, symbol, group):
         elif any(k in blob for k in POS + BROKER_POS):
             tag = "利多"
 
-        analyst_priority = any(k in blob for k in BROKER_ACTION)
+        analyst_priority = is_broker_action_text(blob)
 
         out.append({
             "ticker": display_ticker,
@@ -1046,7 +1153,7 @@ def item_news(display_ticker, company_name, symbol, group):
         elif any(k in blob for k in POS):
             tag = "利多"
 
-        analyst_priority = any(k in blob for k in BROKER_ACTION)
+        analyst_priority = is_broker_action_text(blob)
 
         out.append({
             "ticker": display_ticker,
