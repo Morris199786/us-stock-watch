@@ -1502,12 +1502,15 @@ def _send_pushover(title, message, url=None):
 
 def process_tier1_pushes(news_items):
     """
-    First run only seeds history and sends nothing.
+    Tier 1 monitor mode:
+      - Only push genuinely NEW stories from the latest scan.
+      - Old stories remain searchable on the website but are never backfilled to push.
+      - Persistent seen-state prevents repeat alerts.
+      - Stable event-key dedupe prevents syndicated duplicates.
 
-    Dedupe layers:
-      1) persistent seen-state from push_state.json
-      2) same-run event-key dedupe
-      3) stable key ignores syndication URL differences
+    Freshness policy:
+      - Story timestamp must be within the last 12 minutes.
+      - This matches the 5-minute monitoring cadence while allowing for feed delays.
     """
     try:
         state = json.loads(PUSH_STATE_FILE.read_text(encoding="utf-8"))
@@ -1526,11 +1529,16 @@ def process_tier1_pushes(news_items):
         if not is_t1:
             continue
 
+        # MUST be genuinely fresh. Historical/recent-but-old stories stay on site only.
         try:
             dt = datetime.fromisoformat((x.get("ts") or "").replace("Z","+00:00"))
             if dt.tzinfo is None:
                 dt = dt.replace(tzinfo=timezone.utc)
-            if now - dt > timedelta(hours=18):
+            age = now - dt
+            if age < timedelta(minutes=-2):
+                # Ignore bad future timestamps.
+                continue
+            if age > timedelta(minutes=12):
                 continue
         except Exception:
             continue
@@ -1539,7 +1547,6 @@ def process_tier1_pushes(news_items):
         if not key:
             continue
 
-        # Prefer a candidate with more explicit analyst data / higher score / newer ts.
         rank = (
             1 if x.get("analystPriority") else 0,
             safe_float(x.get("score")) or 0,
@@ -1555,14 +1562,20 @@ def process_tier1_pushes(news_items):
         for key, (_, x, category, reason) in by_key.items()
     ]
 
-    # First deployment: mark current Tier 1 stories as seen, send nothing.
+    # First deployment / reset:
+    # seed all currently-known Tier 1 events and send NOTHING.
+    # This guarantees no historical flood.
     if not initialized:
-        for _, key, _, _ in tier1_now:
-            seen.add(key)
+        for x in news_items:
+            is_t1, _, _ = _tier1_reason(x)
+            if is_t1:
+                key = _push_key(x)
+                if key:
+                    seen.add(key)
         state = {
             "initialized": True,
             "updatedAt": now.isoformat(),
-            "seen": list(seen)[-1200:],
+            "seen": list(seen)[-2000:],
             "lastPushes": [],
         }
         PUSH_STATE_FILE.write_text(
@@ -1585,8 +1598,6 @@ def process_tier1_pushes(news_items):
         )
 
         if ok:
-            # Update memory immediately in this process so a second syndicated copy
-            # cannot be pushed during the same run.
             seen.add(key)
             sent.append({
                 "ticker": x.get("ticker"),
@@ -1597,14 +1608,13 @@ def process_tier1_pushes(news_items):
                 "eventKey": key,
             })
 
-        # Prevent notification storms.
         if len(sent) >= 6:
             break
 
     state = {
         "initialized": True,
         "updatedAt": now.isoformat(),
-        "seen": list(seen)[-1200:],
+        "seen": list(seen)[-2000:],
         "lastPushes": sent[-20:],
     }
     PUSH_STATE_FILE.write_text(
