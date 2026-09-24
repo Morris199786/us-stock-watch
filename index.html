@@ -17,6 +17,18 @@
 .searchbar{display:flex;gap:8px;margin:12px 0}.searchbar input{flex:1;min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:15px;outline:none}.searchbar input:focus{border-color:var(--acc)}.clearbtn{background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:0 14px;font-weight:800}.resultinfo{font-size:12px;color:var(--muted);margin:-3px 0 10px}
 
 .topnewsbar{display:flex;gap:9px;align-items:center;margin:12px 0}.top10btn{background:linear-gradient(135deg,#172b49,#102238);color:#dff9ff;border:1px solid #2c5273;border-radius:12px;padding:10px 14px;font-weight:900;cursor:pointer}.top10btn.on{border-color:#5bdcff;box-shadow:0 0 0 1px rgba(91,220,255,.18) inset}.top10note{font-size:11px;color:var(--muted)}.toprank{display:inline-flex;align-items:center;justify-content:center;min-width:48px;padding:4px 8px;border-radius:999px;background:#2a2032;border:1px solid rgba(255,89,142,.35);color:#ff6b9a;font-size:11px;font-weight:900;margin-bottom:8px}
+
+.news{cursor:pointer}.news:hover{border-color:#365071}
+.newsdetail{position:fixed;inset:0;z-index:1000;display:none;background:rgba(2,8,18,.82);backdrop-filter:blur(8px);padding:18px;overflow:auto}
+.newsdetail.on{display:flex;align-items:flex-start;justify-content:center}
+.newsdetailCard{width:min(720px,100%);margin:40px auto;background:var(--p);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.45)}
+.newsdetailTop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:18px;background:var(--p2);border-bottom:1px solid var(--line)}
+.newsdetailTicker{font-size:18px;font-weight:900}.newsdetailMeta{font-size:12px;color:var(--muted);margin-top:5px}
+.newsdetailClose{width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--p);color:var(--txt);font-size:22px}
+.newsdetailBody{padding:20px}.newsdetailTitle{font-size:24px;line-height:1.42;font-weight:900}
+.newsdetailBox{margin-top:16px;background:#111d2e;border:1px solid var(--line);border-radius:14px;padding:15px;font-size:15px;line-height:1.7;color:#e5edf7}
+.newsdetailOriginal{margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:var(--muted);line-height:1.6}
+.newsdetailActions{display:flex;gap:10px;margin-top:18px}.newsdetailActions a{display:inline-block;padding:11px 14px;border-radius:11px;background:var(--p2);border:1px solid var(--line);color:var(--acc);text-decoration:none;font-weight:800}
 @media(max-width:720px){.grid,.newsgrid{grid-template-columns:1fr}}
 
 .congressCards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
@@ -55,6 +67,25 @@
   <button id="moreCongress" class="morebtn" style="display:none">顯示更多</button>
   <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
 </section>
+<div id="newsDetail" class="newsdetail" aria-hidden="true">
+  <div class="newsdetailCard">
+    <div class="newsdetailTop">
+      <div>
+        <div id="newsDetailTicker" class="newsdetailTicker"></div>
+        <div id="newsDetailMeta" class="newsdetailMeta"></div>
+      </div>
+      <button id="newsDetailClose" class="newsdetailClose" aria-label="關閉">×</button>
+    </div>
+    <div class="newsdetailBody">
+      <div id="newsDetailTitle" class="newsdetailTitle"></div>
+      <div id="newsDetailSummary" class="newsdetailBox"></div>
+      <div id="newsDetailOriginal" class="newsdetailOriginal"></div>
+      <div class="newsdetailActions">
+        <a id="newsDetailSource" target="_blank" rel="noopener">查看原始來源 ↗</a>
+      </div>
+    </div>
+  </div>
+</div>
 </div><script>
 const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%";
 function extMove(z){
@@ -240,6 +271,31 @@ async function load(){
  renderNews();
 }
 window.__top10Mode=false;
+
+function openNewsDetail(x){
+ const modal=document.getElementById("newsDetail");
+ if(!modal)return;
+ const ticker=x.ticker==="MARKET"?"美股市場":(x.ticker||"");
+ document.getElementById("newsDetailTicker").textContent=ticker+(x.group?`｜${x.group}`:"");
+ document.getElementById("newsDetailMeta").textContent=[newsDate(x.ts),x.tag].filter(Boolean).join("｜");
+ document.getElementById("newsDetailTitle").textContent=x.title||x.originalTitle||"";
+ const summary=(x.summary||"").trim();
+ document.getElementById("newsDetailSummary").textContent=summary||"目前來源只提供標題，尚無可用的中文摘要。";
+ const original=(x.originalTitle||"").trim();
+ document.getElementById("newsDetailOriginal").textContent=original&&original!==(x.title||"")?`原始英文標題：${original}`:"";
+ const a=document.getElementById("newsDetailSource");
+ if(x.url){a.href=x.url;a.style.display="inline-block"}else{a.removeAttribute("href");a.style.display="none"}
+ modal.classList.add("on");
+ modal.setAttribute("aria-hidden","false");
+ document.body.style.overflow="hidden";
+}
+function closeNewsDetail(){
+ const modal=document.getElementById("newsDetail");
+ if(!modal)return;
+ modal.classList.remove("on");
+ modal.setAttribute("aria-hidden","true");
+ document.body.style.overflow="";
+}
 function renderNews(){
  const ng=document.getElementById("newsgrid"); if(!ng)return;
  const raw=(document.getElementById("newsSearch")?.value||"").trim();
@@ -282,6 +338,10 @@ function renderNews(){
    c.className="news";
    const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";
    c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${newsDate(x.ts)?`<div class="newsdate">${newsDate(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
+   c.addEventListener("click",(e)=>{
+     if(e.target.closest("a"))return;
+     openNewsDetail(x);
+   });
    ng.appendChild(c);
  });
 
@@ -315,5 +375,8 @@ document.getElementById("clearCongress")?.addEventListener("click",()=>{
 });
 document.getElementById("moreCongress")?.addEventListener("click",()=>{__congressLimit+=50;renderCongress();});
 
+document.getElementById("newsDetailClose")?.addEventListener("click",closeNewsDetail);
+document.getElementById("newsDetail")?.addEventListener("click",(e)=>{if(e.target.id==="newsDetail")closeNewsDetail();});
+document.addEventListener("keydown",(e)=>{if(e.key==="Escape")closeNewsDetail();});
 setInterval(()=>load().catch(()=>{}),300000);
 </script></body></html>
