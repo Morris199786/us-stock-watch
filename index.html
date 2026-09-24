@@ -35,7 +35,8 @@
 .kpi{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.kpi .k{font-size:11px;color:var(--muted)}.kpi .v{font-size:23px;font-weight:900;margin-top:5px}
 .cfilters{display:grid;grid-template-columns:1fr 1fr .7fr .7fr auto;gap:8px;margin:12px 0}
 .cfilters input,.cfilters select{min-width:0;background:var(--p);color:var(--txt);border:1px solid var(--line);border-radius:12px;padding:11px 12px;font-size:14px}
-.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.backtestBox{display:none;background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px;margin:10px 0}.backtestBox.on{display:block}.btgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.btcell{background:var(--p2);border-radius:11px;padding:10px}.btk{font-size:10px;color:var(--muted)}.btv{font-size:18px;font-weight:900;margin-top:4px}.doclink{color:var(--acc);text-decoration:none;font-size:11px}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
+.ctable{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.crow{display:grid;grid-template-columns:90px 1.25fr 85px 125px 105px 105px 75px;gap:8px;align-items:center;padding:12px 14px;border-top:1px solid rgba(255,255,255,.07)}.crow.headrow{background:var(--p2);border-top:0;color:var(--muted);font-size:11px;font-weight:800}.cmember{font-weight:850}.cbuy{color:var(--up);font-weight:900}.csell{color:var(--dn);font-weight:900}.csmall{font-size:11px;color:var(--muted)}.csource{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55}.backtestBox{display:none;background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px;margin:10px 0}.backtestBox.on{display:block}.btgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.btcell{background:var(--p2);border-radius:11px;padding:10px}.btk{font-size:10px;color:var(--muted)}.btv{font-size:18px;font-weight:900;margin-top:4px}
+.btsection{margin-top:12px;padding-top:12px;border-top:1px solid rgba(255,255,255,.08)}.btsection:first-child{margin-top:0;padding-top:0;border-top:0}.btlabel{font-size:13px;font-weight:900;margin-bottom:8px}.btstatus{font-size:11px;color:var(--muted);margin-top:8px}.doclink{color:var(--acc);text-decoration:none;font-size:11px}.morebtn{display:block;margin:12px auto 0;background:var(--p2);color:#c9f6ff;border:1px solid var(--line);border-radius:12px;padding:10px 16px;font-weight:800}
 
 @media(max-width:720px){.congressCards{grid-template-columns:repeat(2,1fr)}.btgrid{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
 </style>
@@ -65,7 +66,7 @@
   <div id="congressInfo" class="resultinfo">點開此分頁後載入國會交易資料</div>
   <div id="congressTable" class="ctable"></div>
   <button id="moreCongress" class="morebtn" style="display:none">顯示更多</button>
-  <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。回測使用來源提供的「交易日後」報酬，不是申報日後報酬</div>
+  <div class="csource">資料來源：Kadoa Congress Trading Monitor 開放資料，底層為 House Clerk／Senate 公開申報。首頁顯示近期交易；搜尋單一議員時會即時載入該議員 2024～現在完整歷史。金額為官方申報區間。單一議員頁面同時顯示「申報公開日後」可跟單回測與來源提供的「交易日後」參考報酬</div>
 </section>
 <div id="newsDetail" class="newsdetail" aria-hidden="true">
   <div class="newsdetailCard">
@@ -98,7 +99,7 @@ function extMove(z){
 } const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
-let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={};
+let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={},__filingBacktests={},__filingBacktestLoading={};
 
 async function loadCongress(){
  if(__congressLoaded){renderCongress();return;}
@@ -152,8 +153,9 @@ function normalizeCongressTrade(row,filer){
 }
 function computeMemberBacktest(rows){
  const buys=rows.filter(x=>x.action==="buy");
- const r30=buys.map(x=>Number(x.backtest30d)).filter(Number.isFinite);
- const r1y=buys.map(x=>Number(x.backtest1y)).filter(Number.isFinite);
+ const clean=v=>v===null||v===undefined||v===""?null:Number(v);
+ const r30=buys.map(x=>clean(x.backtest30d)).filter(v=>v!==null&&Number.isFinite(v));
+ const r1y=buys.map(x=>clean(x.backtest1y)).filter(v=>v!==null&&Number.isFinite(v));
  return {
   buyCount:buys.length,sample30d:r30.length,
   avg30d:r30.length?r30.reduce((a,b)=>a+b,0)/r30.length:null,
@@ -176,6 +178,7 @@ async function loadMemberHistory(filer){
   const rows=(d.trades||[]).map(x=>normalizeCongressTrade(x,filer)).filter(x=>String(x.transactionDate||"")>="2024-01-01");
   __memberHistoryCache[filer.id]=rows;
   __memberBacktests[filer.name]=computeMemberBacktest(rows);
+  computeFilingDateBacktest(rows,filer);
  }catch(e){
   console.error("member history load failed",e);
   __memberHistoryCache[filer.id]=[];
@@ -185,25 +188,159 @@ async function loadMemberHistory(filer){
  }
 }
 
+
+function ymdUTC(d){return d.toISOString().slice(0,10);}
+function addDaysYmd(ymd,days){
+ const d=new Date(ymd+"T00:00:00Z");d.setUTCDate(d.getUTCDate()+days);return ymdUTC(d);
+}
+function unixDay(ymd){return Math.floor(new Date(ymd+"T00:00:00Z").getTime()/1000);}
+function firstPriceOnOrAfter(points,targetYmd){
+ for(const p of points){if(p.date>=targetYmd && p.close!=null)return p.close;}
+ return null;
+}
+async function fetchTickerDailyHistory(ticker,startYmd,endYmd){
+ const p1=unixDay(addDaysYmd(startYmd,-7));
+ const p2=unixDay(addDaysYmd(endYmd,7))+86400;
+ const url=`https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?period1=${p1}&period2=${p2}&interval=1d&events=history&includeAdjustedClose=true`;
+ const r=await fetch(url,{cache:"no-store"});
+ if(!r.ok)throw new Error(`Yahoo ${ticker} HTTP ${r.status}`);
+ const d=await r.json();
+ const result=d?.chart?.result?.[0];
+ if(!result)throw new Error(`Yahoo ${ticker} no result`);
+ const ts=result.timestamp||[];
+ const adj=result.indicators?.adjclose?.[0]?.adjclose||[];
+ const close=result.indicators?.quote?.[0]?.close||[];
+ const pts=[];
+ for(let i=0;i<ts.length;i++){
+   const px=Number.isFinite(Number(adj[i]))?Number(adj[i]):Number(close[i]);
+   if(!Number.isFinite(px))continue;
+   pts.push({date:new Date(ts[i]*1000).toISOString().slice(0,10),close:px});
+ }
+ return pts;
+}
+function avgVals(a){return a.length?a.reduce((x,y)=>x+y,0)/a.length:null;}
+function winVals(a){return a.length?a.filter(v=>v>0).length/a.length*100:null;}
+
+async function computeFilingDateBacktest(rows,filer){
+ if(!filer?.id || __filingBacktests[filer.id] || __filingBacktestLoading[filer.id])return;
+ __filingBacktestLoading[filer.id]=true;
+ renderCongress();
+
+ try{
+   const buys=rows.filter(x=>x.action==="buy" && x.ticker && x.filedDate);
+   if(!buys.length){
+     __filingBacktests[filer.id]={buyCount:0,error:"沒有可計算的買進紀錄"};
+     return;
+   }
+
+   const dates=buys.map(x=>x.filedDate).filter(Boolean).sort();
+   const minDate=dates[0], maxDate=dates[dates.length-1];
+   const endDate=addDaysYmd(maxDate,190);
+   const tickers=[...new Set(buys.map(x=>x.ticker).filter(t=>t && t!=="N/A"))];
+
+   const priceMap={};
+   let cursor=0;
+   async function worker(){
+     while(cursor<tickers.length){
+       const idx=cursor++;
+       const t=tickers[idx];
+       try{priceMap[t]=await fetchTickerDailyHistory(t,minDate,endDate);}
+       catch(e){priceMap[t]=[];}
+     }
+   }
+   await Promise.all(Array.from({length:Math.min(8,tickers.length)},()=>worker()));
+
+   const horizons=[7,30,90,180];
+   const vals={7:[],30:[],90:[],180:[]};
+   let lagSum=0,lagN=0,usableBuys=0;
+
+   for(const x of buys){
+     const pts=priceMap[x.ticker]||[];
+     const base=firstPriceOnOrAfter(pts,x.filedDate);
+     if(base==null||base===0)continue;
+     usableBuys++;
+     if(x.disclosureLagDays!=null && Number.isFinite(Number(x.disclosureLagDays))){
+       lagSum+=Number(x.disclosureLagDays);lagN++;
+     }
+     for(const h of horizons){
+       const px=firstPriceOnOrAfter(pts,addDaysYmd(x.filedDate,h));
+       if(px!=null)vals[h].push((px/base-1)*100);
+     }
+   }
+
+   const out={
+     buyCount:buys.length,
+     usableBuys,
+     avgLagDays:lagN?lagSum/lagN:null,
+     tickerCount:tickers.length
+   };
+   for(const h of horizons){
+     out[`sample${h}`]=vals[h].length;
+     out[`avg${h}`]=avgVals(vals[h]);
+     out[`win${h}`]=winVals(vals[h]);
+   }
+   __filingBacktests[filer.id]=out;
+ }catch(e){
+   console.error("filing-date backtest failed",e);
+   __filingBacktests[filer.id]={error:"申報日回測暫時無法計算"};
+ }finally{
+   delete __filingBacktestLoading[filer.id];
+   renderCongress();
+ }
+}
+
 function fmtPct(v){
  if(v==null||Number.isNaN(Number(v)))return"--";
  const n=Number(v);return (n>0?"+":"")+n.toFixed(2)+"%";
 }
-function renderMemberBacktest(rows){
+function renderMemberBacktest(rows,filer){
  const box=document.getElementById("memberBacktest");if(!box)return;
  const names=[...new Set(rows.map(x=>x.member).filter(Boolean))];
  if(names.length!==1){box.classList.remove("on");box.innerHTML="";return;}
- const name=names[0],b=__memberBacktests[name];
- if(!b){box.classList.remove("on");box.innerHTML="";return;}
+ const name=names[0],tradeBt=__memberBacktests[name];
+ const filingBt=filer?__filingBacktests[filer.id]:null;
+ const filingLoading=filer?__filingBacktestLoading[filer.id]:false;
+
  box.classList.add("on");
- box.innerHTML=`<div style="font-weight:900;margin-bottom:8px">${name}｜買進後歷史回測（2024–現在完整紀錄）</div>
- <div class="btgrid">
-  <div class="btcell"><div class="btk">買進筆數</div><div class="btv">${b.buyCount??"--"}</div></div>
-  <div class="btcell"><div class="btk">30日平均報酬</div><div class="btv ${Number(b.avg30d)>=0?"pos":"neg"}">${fmtPct(b.avg30d)}</div></div>
-  <div class="btcell"><div class="btk">30日勝率</div><div class="btv">${b.winRate30d==null?"--":Number(b.winRate30d).toFixed(1)+"%"}</div></div>
-  <div class="btcell"><div class="btk">1年平均報酬</div><div class="btv ${Number(b.avg1y)>=0?"pos":"neg"}">${fmtPct(b.avg1y)}</div></div>
- </div>
- <div class="csmall" style="margin-top:8px">30日樣本 ${b.sample30d??0}｜1年樣本 ${b.sample1y??0}｜基準：議員交易日後股票報酬</div>`;
+
+ const metric=(label,avg,win,sample)=>`
+  <div class="btcell">
+   <div class="btk">${label}</div>
+   <div class="btv ${avg==null?"na":Number(avg)>=0?"pos":"neg"}">${fmtPct(avg)}</div>
+   <div class="csmall">${win==null?"勝率 --":"勝率 "+Number(win).toFixed(1)+"%"}｜樣本 ${sample??0}</div>
+  </div>`;
+
+ let filingHtml="";
+ if(filingLoading){
+   filingHtml=`<div class="btsection"><div class="btlabel">可跟單回測｜以申報公開日為起點</div><div class="btstatus">正在下載歷史股價並計算 1週／1月／3月／6月報酬…</div></div>`;
+ }else if(filingBt?.error){
+   filingHtml=`<div class="btsection"><div class="btlabel">可跟單回測｜以申報公開日為起點</div><div class="btstatus">${filingBt.error}</div></div>`;
+ }else if(filingBt){
+   filingHtml=`<div class="btsection">
+    <div class="btlabel">可跟單回測｜以申報公開日為起點</div>
+    <div class="btgrid">
+      ${metric("申報後 1 週",filingBt.avg7,filingBt.win7,filingBt.sample7)}
+      ${metric("申報後 1 個月",filingBt.avg30,filingBt.win30,filingBt.sample30)}
+      ${metric("申報後 3 個月",filingBt.avg90,filingBt.win90,filingBt.sample90)}
+      ${metric("申報後 6 個月",filingBt.avg180,filingBt.win180,filingBt.sample180)}
+    </div>
+    <div class="btstatus">買進紀錄 ${filingBt.buyCount??0}｜可計算 ${filingBt.usableBuys??0}｜平均申報延遲 ${filingBt.avgLagDays==null?"--":Number(filingBt.avgLagDays).toFixed(1)+" 天"}｜以標的股票報酬計算</div>
+   </div>`;
+ }
+
+ let tradeHtml="";
+ if(tradeBt){
+   tradeHtml=`<div class="btsection">
+    <div class="btlabel">交易日後參考｜來源提供</div>
+    <div class="btgrid">
+      <div class="btcell"><div class="btk">買進筆數</div><div class="btv">${tradeBt.buyCount??"--"}</div></div>
+      <div class="btcell"><div class="btk">30 日平均報酬</div><div class="btv ${tradeBt.avg30d==null?"na":Number(tradeBt.avg30d)>=0?"pos":"neg"}">${fmtPct(tradeBt.avg30d)}</div><div class="csmall">${tradeBt.winRate30d==null?"勝率 --":"勝率 "+Number(tradeBt.winRate30d).toFixed(1)+"%"}｜樣本 ${tradeBt.sample30d??0}</div></div>
+      <div class="btcell"><div class="btk">1 年平均報酬</div><div class="btv ${tradeBt.avg1y==null?"na":Number(tradeBt.avg1y)>=0?"pos":"neg"}">${fmtPct(tradeBt.avg1y)}</div><div class="csmall">樣本 ${tradeBt.sample1y??0}</div></div>
+    </div>
+   </div>`;
+ }
+
+ box.innerHTML=`<div style="font-weight:900;margin-bottom:8px">${name}｜2024～現在歷史回測</div>${filingHtml}${tradeHtml}<div class="btstatus">注意：若申報標的是期權，這裡仍以標的股票價格回測，不代表期權本身損益</div>`;
 }
 
 function renderCongress(){
@@ -215,8 +352,10 @@ function renderCongress(){
  let base=__congressItems;
  const filer=findCongressFiler(member);
  if(member && filer){
-   if(__memberHistoryCache[filer.id])base=__memberHistoryCache[filer.id];
-   else loadMemberHistory(filer);
+   if(__memberHistoryCache[filer.id]){
+     base=__memberHistoryCache[filer.id];
+     if(!__filingBacktests[filer.id]&&!__filingBacktestLoading[filer.id])computeFilingDateBacktest(base,filer);
+   }else loadMemberHistory(filer);
  }
 
  let rows=base.filter(x=>{
@@ -227,11 +366,11 @@ function renderCongress(){
    return true;
  });
  rows.sort((a,b)=>String(b.filedDate||"").localeCompare(String(a.filedDate||"")));
- renderMemberBacktest(rows);
+ renderMemberBacktest(rows,filer);
  const info=document.getElementById("congressInfo");
  if(info){
    if(member && filer && __memberHistoryLoading[filer.id])info.textContent=`正在載入 ${filer.name} 的 2024～現在完整歷史…`;
-   else info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜以申報日期新 → 舊排序`;
+   else info.textContent=`找到 ${rows.length.toLocaleString()} 筆｜${member&&filer?"單一議員完整 2024～現在歷史｜":""}以申報日期新 → 舊排序`;
  }
  const table=document.getElementById("congressTable");
  if(!table)return;

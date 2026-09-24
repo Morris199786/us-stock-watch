@@ -1711,7 +1711,10 @@ def refresh_congress_data():
             and previous.get("items")
             and previous.get("source") == "Kadoa Congress Trading Monitor open dataset"
             and previous.get("historyStart") == "2024-01-01"
+            and previous.get("schemaVersion") == 3
             and isinstance(previous.get("memberBacktests"), dict)
+            and isinstance(previous.get("filers"), list)
+            and len(previous.get("filers") or []) >= 100
         )
         if is_new_format:
             return
@@ -1857,14 +1860,15 @@ def refresh_congress_data():
     member_backtests = _member_backtest(items)
 
     payload = {
+        "schemaVersion": 3,
         "updatedAt": datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M 台灣時間"),
         "updatedDate": today,
         "historyStart": "2024-01-01",
         "source": "Kadoa Congress Trading Monitor open dataset",
         "sourceUrl": "https://github.com/kadoa-org/congress-trading-monitor",
         "sourceNote": "Normalized from official House Clerk and Senate financial disclosure filings",
-        "backtestBasis": "transaction_date",
-        "backtestNote": "回測欄位為來源資料提供的交易日後股票報酬；不是申報日後報酬",
+        "backtestBasis": "transaction_date_source_plus_frontend_filing_date",
+        "backtestNote": "交易日後報酬使用來源欄位；網站搜尋單一議員時另以申報公開日為基準計算可跟單回測。期權交易回測使用標的股票報酬，不代表期權本身損益",
         "summary": {
             "recent7": recent7,
             "buys7": buys7,
