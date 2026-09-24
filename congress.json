@@ -1,19 +1,3298 @@
 {
-  "updatedAt": "2026-09-24 00:46 台灣時間",
+  "schemaVersion": 3,
+  "updatedAt": "2026-09-24 09:15 台灣時間",
   "updatedDate": "2026-09-24",
   "historyStart": "2024-01-01",
   "source": "Kadoa Congress Trading Monitor open dataset",
   "sourceUrl": "https://github.com/kadoa-org/congress-trading-monitor",
   "sourceNote": "Normalized from official House Clerk and Senate financial disclosure filings",
-  "backtestBasis": "transaction_date",
-  "backtestNote": "回測欄位為來源資料提供的交易日後股票報酬；不是申報日後報酬",
+  "backtestBasis": "transaction_date_source_plus_frontend_filing_date",
+  "backtestNote": "交易日後報酬使用來源欄位；網站搜尋單一議員時另以申報公開日為基準計算可跟單回測。期權交易回測使用標的股票報酬，不代表期權本身損益",
   "summary": {
     "recent7": 21,
     "buys7": 12,
     "sells7": 8,
-    "members": 87,
+    "members": 364,
     "total": 2138
   },
+  "filers": [
+    {
+      "id": "house_josh_gottheimer",
+      "name": "Josh Gottheimer",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-05",
+      "tradeCount": 3502
+    },
+    {
+      "id": "house_gilbert_cisneros",
+      "name": "Gilbert Cisneros",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-39",
+      "tradeCount": 2749
+    },
+    {
+      "id": "senate_thomash_tuberville",
+      "name": "Thomas H Tuberville",
+      "chamber": "senate",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Senator · AL",
+      "tradeCount": 1499
+    },
+    {
+      "id": "house_lisa_mcclain",
+      "name": "Lisa McClain",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-09",
+      "tradeCount": 1426
+    },
+    {
+      "id": "house_susie_lee",
+      "name": "Susie Lee",
+      "chamber": "house",
+      "party": "D",
+      "state": "NV",
+      "office": "U.S. Representative · NV-03",
+      "tradeCount": 1283
+    },
+    {
+      "id": "house_daniel_goldman",
+      "name": "Daniel Goldman",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-10",
+      "tradeCount": 1269
+    },
+    {
+      "id": "house_greg_gianforte",
+      "name": "Greg Gianforte",
+      "chamber": "house",
+      "party": "R",
+      "state": "MT",
+      "office": "U.S. Representative · MT-00",
+      "tradeCount": 1252
+    },
+    {
+      "id": "house_rohit_khanna",
+      "name": "Rohit Khanna",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-17",
+      "tradeCount": 1100
+    },
+    {
+      "id": "senate_sheldon_whitehouse",
+      "name": "Sheldon Whitehouse",
+      "chamber": "senate",
+      "party": "D",
+      "state": "RI",
+      "office": "U.S. Senator · RI",
+      "tradeCount": 1030
+    },
+    {
+      "id": "house_donaldsternoff_beyer_jr",
+      "name": "Donald Sternoff Beyer Jr",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-08",
+      "tradeCount": 965
+    },
+    {
+      "id": "house_lois_frankel",
+      "name": "Lois Frankel",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-22",
+      "tradeCount": 955
+    },
+    {
+      "id": "house_kmichael_conaway",
+      "name": "K. Michael Conaway",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-11",
+      "tradeCount": 913
+    },
+    {
+      "id": "house_alans_lowenthal",
+      "name": "Alan S. Lowenthal",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-47",
+      "tradeCount": 887
+    },
+    {
+      "id": "house_kevin_hern",
+      "name": "Kevin Hern",
+      "chamber": "house",
+      "party": "R",
+      "state": "OK",
+      "office": "U.S. Representative · OK-01",
+      "tradeCount": 887
+    },
+    {
+      "id": "house_virginia_foxx",
+      "name": "Virginia Foxx",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-05",
+      "tradeCount": 848
+    },
+    {
+      "id": "senate_shelleym_capito",
+      "name": "Shelley M Capito",
+      "chamber": "senate",
+      "party": "R",
+      "state": "WV",
+      "office": "U.S. Senator · WV",
+      "tradeCount": 746
+    },
+    {
+      "id": "house_thomas_suozzi",
+      "name": "Thomas Suozzi",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-03",
+      "tradeCount": 741
+    },
+    {
+      "id": "senate_alan_armstrong",
+      "name": "Alan Armstrong",
+      "chamber": "senate",
+      "party": null,
+      "state": null,
+      "office": null,
+      "tradeCount": 707
+    },
+    {
+      "id": "house_kathy_manning",
+      "name": "Kathy Manning",
+      "chamber": "house",
+      "party": "D",
+      "state": "NC",
+      "office": "U.S. Representative · NC-06",
+      "tradeCount": 705
+    },
+    {
+      "id": "house_scotth_peters",
+      "name": "Scott H. Peters",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-52",
+      "tradeCount": 690
+    },
+    {
+      "id": "house_suzank_delbene",
+      "name": "Suzan K. DelBene",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-01",
+      "tradeCount": 672
+    },
+    {
+      "id": "house_markdr_green",
+      "name": "Mark Green",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-07",
+      "tradeCount": 647
+    },
+    {
+      "id": "house_dean_phillips",
+      "name": "Dean Phillips",
+      "chamber": "house",
+      "party": "D",
+      "state": "MN",
+      "office": "U.S. Representative · MN-03",
+      "tradeCount": 641
+    },
+    {
+      "id": "house_jefferson_shreve",
+      "name": "Jefferson Shreve",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-06",
+      "tradeCount": 630
+    },
+    {
+      "id": "house_rob_bresnahan",
+      "name": "Rob Bresnahan",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-08",
+      "tradeCount": 618
+    },
+    {
+      "id": "senate_susanm_collins",
+      "name": "Susan M Collins",
+      "chamber": "senate",
+      "party": "R",
+      "state": "ME",
+      "office": "U.S. Senator · ME",
+      "tradeCount": 603
+    },
+    {
+      "id": "house_julie_johnson",
+      "name": "Julie Johnson",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-32",
+      "tradeCount": 586
+    },
+    {
+      "id": "house_thomas_macarthur",
+      "name": "Thomas MacArthur",
+      "chamber": "house",
+      "party": "R",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-03",
+      "tradeCount": 578
+    },
+    {
+      "id": "house_donna_shalala",
+      "name": "Donna Shalala",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-27",
+      "tradeCount": 559
+    },
+    {
+      "id": "senate_markwayne_mullin",
+      "name": "Markwayne Mullin",
+      "chamber": "senate",
+      "party": "R",
+      "state": "OK",
+      "office": "U.S. Senator · OK",
+      "tradeCount": 559
+    },
+    {
+      "id": "house_marjorietaylor_greene",
+      "name": "Marjorie Taylor Greene",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-14",
+      "tradeCount": 533
+    },
+    {
+      "id": "house_davida_trott",
+      "name": "David A. Trott",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-11",
+      "tradeCount": 491
+    },
+    {
+      "id": "house_aprilmcclain_delaney",
+      "name": "April McClain Delaney",
+      "chamber": "house",
+      "party": "D",
+      "state": "MD",
+      "office": "U.S. Representative · MD-06",
+      "tradeCount": 485
+    },
+    {
+      "id": "senate_john_boozman",
+      "name": "John Boozman",
+      "chamber": "senate",
+      "party": "R",
+      "state": "AR",
+      "office": "U.S. Senator · AR",
+      "tradeCount": 482
+    },
+    {
+      "id": "house_zoe_lofgren",
+      "name": "Zoe Lofgren",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-19",
+      "tradeCount": 462
+    },
+    {
+      "id": "house_earl_blumenauer",
+      "name": "Earl Blumenauer",
+      "chamber": "house",
+      "party": "D",
+      "state": "OR",
+      "office": "U.S. Representative · OR-03",
+      "tradeCount": 458
+    },
+    {
+      "id": "house_katherinem_clark",
+      "name": "Katherine M. Clark",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-05",
+      "tradeCount": 431
+    },
+    {
+      "id": "house_michaelt_mccaul",
+      "name": "Michael T. McCaul",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-10",
+      "tradeCount": 418
+    },
+    {
+      "id": "house_nicholasvan_taylor",
+      "name": "Nicholas Van Taylor",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-03",
+      "tradeCount": 409
+    },
+    {
+      "id": "senate_davidh_mccormick",
+      "name": "David H McCormick",
+      "chamber": "senate",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Senator · PA",
+      "tradeCount": 406
+    },
+    {
+      "id": "house_valerie_hoyle",
+      "name": "Valerie Hoyle",
+      "chamber": "house",
+      "party": "D",
+      "state": "OR",
+      "office": "U.S. Representative · OR-04",
+      "tradeCount": 392
+    },
+    {
+      "id": "house_jared_moskowitz",
+      "name": "Jared Moskowitz",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-23",
+      "tradeCount": 391
+    },
+    {
+      "id": "house_tom_malinowski",
+      "name": "Tom Malinowski",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-07",
+      "tradeCount": 390
+    },
+    {
+      "id": "house_pete_sessions",
+      "name": "Pete Sessions",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-32",
+      "tradeCount": 377
+    },
+    {
+      "id": "senate_rick_scott",
+      "name": "Rick Scott",
+      "chamber": "senate",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Senator · FL",
+      "tradeCount": 358
+    },
+    {
+      "id": "house_john_rutherford",
+      "name": "John Rutherford",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-04",
+      "tradeCount": 346
+    },
+    {
+      "id": "house_davidb_mckinley",
+      "name": "David B. McKinley",
+      "chamber": "house",
+      "party": "R",
+      "state": "WV",
+      "office": "U.S. Representative · WV-01",
+      "tradeCount": 341
+    },
+    {
+      "id": "house_jamesr_langevin",
+      "name": "James R. Langevin",
+      "chamber": "house",
+      "party": "D",
+      "state": "RI",
+      "office": "U.S. Representative · RI-02",
+      "tradeCount": 339
+    },
+    {
+      "id": "house_john_curtis",
+      "name": "John Curtis",
+      "chamber": "house",
+      "party": "R",
+      "state": "UT",
+      "office": "U.S. Representative · UT-03",
+      "tradeCount": 327
+    },
+    {
+      "id": "senate_ronl_wyden",
+      "name": "Ron L Wyden",
+      "chamber": "senate",
+      "party": "D",
+      "state": "OR",
+      "office": "U.S. Senator · OR",
+      "tradeCount": 303
+    },
+    {
+      "id": "house_richardw_allen",
+      "name": "Richard W. Allen",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-12",
+      "tradeCount": 301
+    },
+    {
+      "id": "house_marie_newman",
+      "name": "Marie Newman",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-03",
+      "tradeCount": 293
+    },
+    {
+      "id": "house_christopherl_jacobs",
+      "name": "Christopher L. Jacobs",
+      "chamber": "house",
+      "party": "R",
+      "state": "NY",
+      "office": "U.S. Representative · NY-27",
+      "tradeCount": 291
+    },
+    {
+      "id": "house_patrick_fallon",
+      "name": "Patrick Fallon",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-04",
+      "tradeCount": 290
+    },
+    {
+      "id": "senate_jerry_moran",
+      "name": "Jerry Moran,",
+      "chamber": "senate",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Senator · KS",
+      "tradeCount": 281
+    },
+    {
+      "id": "house_thomasj_rooney",
+      "name": "Thomas J. Rooney",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-17",
+      "tradeCount": 280
+    },
+    {
+      "id": "house_john_james",
+      "name": "John James",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-10",
+      "tradeCount": 274
+    },
+    {
+      "id": "house_robertj_wittman",
+      "name": "Robert J. Wittman",
+      "chamber": "house",
+      "party": "R",
+      "state": "VA",
+      "office": "U.S. Representative · VA-01",
+      "tradeCount": 274
+    },
+    {
+      "id": "house_peter_meijer",
+      "name": "Peter Meijer",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-03",
+      "tradeCount": 271
+    },
+    {
+      "id": "house_carlos_curbelo",
+      "name": "Carlos Curbelo",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-26",
+      "tradeCount": 259
+    },
+    {
+      "id": "house_sheri_biggs",
+      "name": "Sheri Biggs",
+      "chamber": "house",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Representative · SC-03",
+      "tradeCount": 258
+    },
+    {
+      "id": "house_gary_palmer",
+      "name": "Gary Palmer",
+      "chamber": "house",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Representative · AL-06",
+      "tradeCount": 256
+    },
+    {
+      "id": "house_julia_letlow",
+      "name": "Julia Letlow",
+      "chamber": "house",
+      "party": "R",
+      "state": "LA",
+      "office": "U.S. Representative · LA-05",
+      "tradeCount": 256
+    },
+    {
+      "id": "house_mikie_sherrill",
+      "name": "Mikie Sherrill",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-11",
+      "tradeCount": 255
+    },
+    {
+      "id": "senate_johnf_reed",
+      "name": "John F Reed",
+      "chamber": "senate",
+      "party": "D",
+      "state": "RI",
+      "office": "U.S. Senator · RI",
+      "tradeCount": 240
+    },
+    {
+      "id": "house_tim_moore",
+      "name": "Tim Moore",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-14",
+      "tradeCount": 237
+    },
+    {
+      "id": "senate_john_hoeven",
+      "name": "John Hoeven",
+      "chamber": "senate",
+      "party": "R",
+      "state": "ND",
+      "office": "U.S. Senator · ND",
+      "tradeCount": 222
+    },
+    {
+      "id": "house_bruce_westerman",
+      "name": "Bruce Westerman",
+      "chamber": "house",
+      "party": "R",
+      "state": "AR",
+      "office": "U.S. Representative · AR-04",
+      "tradeCount": 213
+    },
+    {
+      "id": "senate_william_cassidy",
+      "name": "William Cassidy",
+      "chamber": "senate",
+      "party": "R",
+      "state": "LA",
+      "office": "U.S. Senator · LA",
+      "tradeCount": 208
+    },
+    {
+      "id": "house_cleo_fields",
+      "name": "Cleo Fields",
+      "chamber": "house",
+      "party": "D",
+      "state": "LA",
+      "office": "U.S. Representative · LA-06",
+      "tradeCount": 196
+    },
+    {
+      "id": "house_debbie_dingell",
+      "name": "Debbie Dingell",
+      "chamber": "house",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Representative · MI-12",
+      "tradeCount": 196
+    },
+    {
+      "id": "house_jonathan_jackson",
+      "name": "Jonathan Jackson",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-01",
+      "tradeCount": 194
+    },
+    {
+      "id": "house_greg_stanton",
+      "name": "Greg Stanton",
+      "chamber": "house",
+      "party": "D",
+      "state": "AZ",
+      "office": "U.S. Representative · AZ-09",
+      "tradeCount": 191
+    },
+    {
+      "id": "house_williamr_keating",
+      "name": "William R. Keating",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-09",
+      "tradeCount": 191
+    },
+    {
+      "id": "house_davidj_taylor",
+      "name": "David J. Taylor",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-02",
+      "tradeCount": 189
+    },
+    {
+      "id": "house_nancy_pelosi",
+      "name": "Nancy Pelosi",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-12",
+      "tradeCount": 185
+    },
+    {
+      "id": "senate_garyc_peters",
+      "name": "Gary C Peters",
+      "chamber": "senate",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Senator · MI",
+      "tradeCount": 184
+    },
+    {
+      "id": "house_dan_newhouse",
+      "name": "Dan Newhouse",
+      "chamber": "house",
+      "party": "R",
+      "state": "WA",
+      "office": "U.S. Representative · WA-04",
+      "tradeCount": 181
+    },
+    {
+      "id": "house_cindy_axne",
+      "name": "Cindy Axne",
+      "chamber": "house",
+      "party": "D",
+      "state": "IA",
+      "office": "U.S. Representative · IA-03",
+      "tradeCount": 178
+    },
+    {
+      "id": "house_lloyd_doggett",
+      "name": "Lloyd Doggett",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-35",
+      "tradeCount": 176
+    },
+    {
+      "id": "house_byron_donalds",
+      "name": "Byron Donalds",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-19",
+      "tradeCount": 174
+    },
+    {
+      "id": "house_dwight_evans",
+      "name": "Dwight Evans",
+      "chamber": "house",
+      "party": "D",
+      "state": "PA",
+      "office": "U.S. Representative · PA-02",
+      "tradeCount": 173
+    },
+    {
+      "id": "house_greg_landsman",
+      "name": "Greg Landsman",
+      "chamber": "house",
+      "party": "D",
+      "state": "OH",
+      "office": "U.S. Representative · OH-01",
+      "tradeCount": 169
+    },
+    {
+      "id": "house_thomash_kean_jr",
+      "name": "Thomas H. Kean Jr",
+      "chamber": "house",
+      "party": "R",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-07",
+      "tradeCount": 166
+    },
+    {
+      "id": "house_joe_courtney",
+      "name": "Joe Courtney",
+      "chamber": "house",
+      "party": "D",
+      "state": "CT",
+      "office": "U.S. Representative · CT-02",
+      "tradeCount": 162
+    },
+    {
+      "id": "house_scottscott_franklin",
+      "name": "Scott Scott Franklin",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-15",
+      "tradeCount": 161
+    },
+    {
+      "id": "senate_patty_murray",
+      "name": "Patty Murray",
+      "chamber": "senate",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Senator · WA",
+      "tradeCount": 161
+    },
+    {
+      "id": "house_judy_chu",
+      "name": "Judy Chu",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-27",
+      "tradeCount": 159
+    },
+    {
+      "id": "house_davidp_joyce",
+      "name": "David P. Joyce",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-14",
+      "tradeCount": 155
+    },
+    {
+      "id": "house_ritchiejohn_torres",
+      "name": "Ritchie John Torres",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-15",
+      "tradeCount": 155
+    },
+    {
+      "id": "house_bill_flores",
+      "name": "Bill Flores",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-17",
+      "tradeCount": 154
+    },
+    {
+      "id": "senate_daniels_sullivan",
+      "name": "Daniel S Sullivan",
+      "chamber": "senate",
+      "party": "R",
+      "state": "AK",
+      "office": "U.S. Senator · AK",
+      "tradeCount": 154
+    },
+    {
+      "id": "house_johna_yarmuth",
+      "name": "John A. Yarmuth",
+      "chamber": "house",
+      "party": "D",
+      "state": "KY",
+      "office": "U.S. Representative · KY-03",
+      "tradeCount": 151
+    },
+    {
+      "id": "house_steve_cohen",
+      "name": "Steve Cohen",
+      "chamber": "house",
+      "party": "D",
+      "state": "TN",
+      "office": "U.S. Representative · TN-09",
+      "tradeCount": 145
+    },
+    {
+      "id": "house_carolynb_maloney",
+      "name": "Carolyn B. Maloney",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-12",
+      "tradeCount": 138
+    },
+    {
+      "id": "house_lamar_smith",
+      "name": "Lamar Smith",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-21",
+      "tradeCount": 135
+    },
+    {
+      "id": "house_bob_gibbs",
+      "name": "Bob Gibbs",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-18",
+      "tradeCount": 134
+    },
+    {
+      "id": "house_blake_moore",
+      "name": "Blake Moore",
+      "chamber": "house",
+      "party": "R",
+      "state": "UT",
+      "office": "U.S. Representative · UT-01",
+      "tradeCount": 132
+    },
+    {
+      "id": "house_michaelc_burgess",
+      "name": "Michael C. Burgess",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-26",
+      "tradeCount": 128
+    },
+    {
+      "id": "senate_anguss_kingjr",
+      "name": "Angus S King",
+      "chamber": "senate",
+      "party": "I",
+      "state": "ME",
+      "office": "U.S. Senator · ME",
+      "tradeCount": 126
+    },
+    {
+      "id": "senate_johnw_hickenlooper",
+      "name": "John W Hickenlooper",
+      "chamber": "senate",
+      "party": "D",
+      "state": "CO",
+      "office": "U.S. Senator · CO",
+      "tradeCount": 124
+    },
+    {
+      "id": "house_bradleys_schneider",
+      "name": "Bradley S. Schneider",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-10",
+      "tradeCount": 122
+    },
+    {
+      "id": "house_vern_buchanan",
+      "name": "Vern Buchanan",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-16",
+      "tradeCount": 121
+    },
+    {
+      "id": "house_caroldevine_miller",
+      "name": "Carol Devine Miller",
+      "chamber": "house",
+      "party": "R",
+      "state": "WV",
+      "office": "U.S. Representative · WV-01",
+      "tradeCount": 120
+    },
+    {
+      "id": "senate_markr_warner",
+      "name": "Mark R Warner",
+      "chamber": "senate",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Senator · VA",
+      "tradeCount": 118
+    },
+    {
+      "id": "house_peter_welch",
+      "name": "Peter Welch",
+      "chamber": "house",
+      "party": "D",
+      "state": "VT",
+      "office": "U.S. Representative · VT-00",
+      "tradeCount": 117
+    },
+    {
+      "id": "house_richarddeandr_mccormick",
+      "name": "Richard Dean McCormick",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · NY-01",
+      "tradeCount": 113
+    },
+    {
+      "id": "house_richardl_hanna",
+      "name": "Richard L. Hanna",
+      "chamber": "house",
+      "party": "R",
+      "state": "NY",
+      "office": "U.S. Representative · NY-22",
+      "tradeCount": 113
+    },
+    {
+      "id": "house_elizabeth_fletcher",
+      "name": "Elizabeth Fletcher",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · KY-06",
+      "tradeCount": 111
+    },
+    {
+      "id": "house_michaelk_simpson",
+      "name": "Michael K. Simpson",
+      "chamber": "house",
+      "party": "R",
+      "state": "ID",
+      "office": "U.S. Representative · ID-02",
+      "tradeCount": 106
+    },
+    {
+      "id": "house_mariaelvira_salazar",
+      "name": "Maria Elvira Salazar",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-27",
+      "tradeCount": 105
+    },
+    {
+      "id": "house_cscott_franklin",
+      "name": "C. Scott Franklin",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-15",
+      "tradeCount": 104
+    },
+    {
+      "id": "senate_thomasr_tillis",
+      "name": "Thomas R Tillis",
+      "chamber": "senate",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Senator · NC",
+      "tradeCount": 102
+    },
+    {
+      "id": "house_austin_scott",
+      "name": "Austin Scott",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-08",
+      "tradeCount": 99
+    },
+    {
+      "id": "senate_john_fetterman",
+      "name": "John Fetterman",
+      "chamber": "senate",
+      "party": "D",
+      "state": "PA",
+      "office": "U.S. Senator · PA",
+      "tradeCount": 94
+    },
+    {
+      "id": "house_kellylouise_morrison",
+      "name": "Kelly Louise Morrison",
+      "chamber": "house",
+      "party": "D",
+      "state": "MN",
+      "office": "U.S. Representative · MN-03",
+      "tradeCount": 90
+    },
+    {
+      "id": "house_rick_larsen",
+      "name": "Rick Larsen",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-02",
+      "tradeCount": 90
+    },
+    {
+      "id": "house_michaelpatrick_guest",
+      "name": "Michael Patrick Guest",
+      "chamber": "house",
+      "party": "R",
+      "state": "MS",
+      "office": "U.S. Representative · MS-03",
+      "tradeCount": 89
+    },
+    {
+      "id": "house_nealpatrickmdfacs_dunn",
+      "name": "Neal Patrick MD, Facs Dunn",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-02",
+      "tradeCount": 85
+    },
+    {
+      "id": "house_rogerw_marshall",
+      "name": "Roger W. Marshall",
+      "chamber": "house",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Representative · KS-01",
+      "tradeCount": 83
+    },
+    {
+      "id": "house_rubn_hinojosa",
+      "name": "Rubén Hinojosa",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-15",
+      "tradeCount": 82
+    },
+    {
+      "id": "house_lou_barletta",
+      "name": "Lou Barletta",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-11",
+      "tradeCount": 81
+    },
+    {
+      "id": "house_mo_brooks",
+      "name": "Mo Brooks",
+      "chamber": "house",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Representative · AL-05",
+      "tradeCount": 78
+    },
+    {
+      "id": "house_debbie_wassermanschultz",
+      "name": "Debbie Wasserman Schultz",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-23",
+      "tradeCount": 76
+    },
+    {
+      "id": "house_mike_kelly",
+      "name": "Mike Kelly",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-16",
+      "tradeCount": 74
+    },
+    {
+      "id": "house_brian_mast",
+      "name": "Brian Mast",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-18",
+      "tradeCount": 73
+    },
+    {
+      "id": "house_davide_price",
+      "name": "David E. Price",
+      "chamber": "house",
+      "party": "D",
+      "state": "NC",
+      "office": "U.S. Representative · NC-04",
+      "tradeCount": 73
+    },
+    {
+      "id": "house_ed_perlmutter",
+      "name": "Ed Perlmutter",
+      "chamber": "house",
+      "party": "D",
+      "state": "CO",
+      "office": "U.S. Representative · CO-07",
+      "tradeCount": 68
+    },
+    {
+      "id": "house_daniel_meuser",
+      "name": "Daniel Meuser",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-09",
+      "tradeCount": 66
+    },
+    {
+      "id": "house_diana_harshbarger",
+      "name": "Diana Harshbarger",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-01",
+      "tradeCount": 65
+    },
+    {
+      "id": "house_sara_jacobs",
+      "name": "Sara Jacobs",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-53",
+      "tradeCount": 65
+    },
+    {
+      "id": "house_ed_whitfield",
+      "name": "Ed Whitfield",
+      "chamber": "house",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Representative · KY-01",
+      "tradeCount": 61
+    },
+    {
+      "id": "house_jamesfrench_hill",
+      "name": "James French Hill",
+      "chamber": "house",
+      "party": "R",
+      "state": "AR",
+      "office": "U.S. Representative · AR-02",
+      "tradeCount": 61
+    },
+    {
+      "id": "house_geralde_connolly",
+      "name": "Gerald E. Connolly",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-11",
+      "tradeCount": 59
+    },
+    {
+      "id": "house_kathy_castor",
+      "name": "Kathy Castor",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-14",
+      "tradeCount": 58
+    },
+    {
+      "id": "house_michael_garcia",
+      "name": "Michael Garcia",
+      "chamber": "house",
+      "party": "R",
+      "state": "CA",
+      "office": "U.S. Representative · CA-25",
+      "tradeCount": 56
+    },
+    {
+      "id": "house_lisa_bluntrochester",
+      "name": "Lisa Blunt Rochester",
+      "chamber": "house",
+      "party": "D",
+      "state": "DE",
+      "office": "U.S. Representative · DE-00",
+      "tradeCount": 55
+    },
+    {
+      "id": "house_jamesehon_banks",
+      "name": "James E Banks",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-03",
+      "tradeCount": 54
+    },
+    {
+      "id": "senate_ashley_moody",
+      "name": "Ashley Moody",
+      "chamber": "senate",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Senator · FL",
+      "tradeCount": 53
+    },
+    {
+      "id": "house_max_miller",
+      "name": "Max Miller",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-07",
+      "tradeCount": 51
+    },
+    {
+      "id": "senate_williamf_hagertyiv",
+      "name": "William F Hagerty",
+      "chamber": "senate",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Senator · TN",
+      "tradeCount": 50
+    },
+    {
+      "id": "house_tony_wied",
+      "name": "Tony Wied",
+      "chamber": "house",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Representative · WI-08",
+      "tradeCount": 49
+    },
+    {
+      "id": "house_susana_davis",
+      "name": "Susan A. Davis",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-53",
+      "tradeCount": 48
+    },
+    {
+      "id": "house_david_trone",
+      "name": "David Trone",
+      "chamber": "house",
+      "party": "D",
+      "state": "MD",
+      "office": "U.S. Representative · MD-06",
+      "tradeCount": 47
+    },
+    {
+      "id": "house_escott_rigell",
+      "name": "E. Scott Rigell",
+      "chamber": "house",
+      "party": "R",
+      "state": "VA",
+      "office": "U.S. Representative · VA-02",
+      "tradeCount": 46
+    },
+    {
+      "id": "senate_tina_smith",
+      "name": "Tina Smith",
+      "chamber": "senate",
+      "party": "D",
+      "state": "MN",
+      "office": "U.S. Senator · MN",
+      "tradeCount": 46
+    },
+    {
+      "id": "senate_amitchell_mcconnelljr",
+      "name": "A. Mitchell McConnell",
+      "chamber": "senate",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Senator · KY",
+      "tradeCount": 44
+    },
+    {
+      "id": "house_daniel_crenshaw",
+      "name": "Daniel Crenshaw",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-02",
+      "tradeCount": 41
+    },
+    {
+      "id": "house_james_comer",
+      "name": "James Comer",
+      "chamber": "house",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Representative · KY-01",
+      "tradeCount": 41
+    },
+    {
+      "id": "house_kimdr_schrier",
+      "name": "Kim Schrier",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-08",
+      "tradeCount": 41
+    },
+    {
+      "id": "house_shri_thanedar",
+      "name": "Shri Thanedar",
+      "chamber": "house",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Representative · MI-13",
+      "tradeCount": 40
+    },
+    {
+      "id": "house_augustlee_pfluger_ii",
+      "name": "August Lee Pfluger II",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-11",
+      "tradeCount": 38
+    },
+    {
+      "id": "house_earlleroy_carter",
+      "name": "Earl Leroy Carter",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-01",
+      "tradeCount": 35
+    },
+    {
+      "id": "house_george_whitesides",
+      "name": "George Whitesides",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-27",
+      "tradeCount": 35
+    },
+    {
+      "id": "house_michael_rulli",
+      "name": "Michael Rulli",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-06",
+      "tradeCount": 35
+    },
+    {
+      "id": "house_randy_neugebauer",
+      "name": "Randy Neugebauer",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-19",
+      "tradeCount": 35
+    },
+    {
+      "id": "house_barbarajhonorable_comstock",
+      "name": "Barbara J Comstock",
+      "chamber": "house",
+      "party": "R",
+      "state": "VA",
+      "office": "U.S. Representative · VA-10",
+      "tradeCount": 34
+    },
+    {
+      "id": "house_johnb_larson",
+      "name": "John B. Larson",
+      "chamber": "house",
+      "party": "D",
+      "state": "CT",
+      "office": "U.S. Representative · CT-01",
+      "tradeCount": 34
+    },
+    {
+      "id": "house_charlesjchuck_fleischmann",
+      "name": "Charles J. \"Chuck\" Fleischmann",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-03",
+      "tradeCount": 31
+    },
+    {
+      "id": "house_davidmadison_cawthorn",
+      "name": "David Madison Cawthorn",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-11",
+      "tradeCount": 31
+    },
+    {
+      "id": "senate_johnp_ricketts",
+      "name": "John P Ricketts",
+      "chamber": "senate",
+      "party": "R",
+      "state": "NE",
+      "office": "U.S. Senator · NE",
+      "tradeCount": 30
+    },
+    {
+      "id": "house_franka_lobiondo",
+      "name": "Frank A. LoBiondo",
+      "chamber": "house",
+      "party": "R",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-02",
+      "tradeCount": 29
+    },
+    {
+      "id": "house_deborahk_ross",
+      "name": "Deborah K. Ross",
+      "chamber": "house",
+      "party": "D",
+      "state": "NC",
+      "office": "U.S. Representative · NC-02",
+      "tradeCount": 28
+    },
+    {
+      "id": "house_rudy_yakym_iii",
+      "name": "Rudy Yakym III",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-02",
+      "tradeCount": 28
+    },
+    {
+      "id": "house_victoria_spartz",
+      "name": "Victoria Spartz",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-05",
+      "tradeCount": 28
+    },
+    {
+      "id": "senate_johnr_curtis",
+      "name": "John R Curtis",
+      "chamber": "senate",
+      "party": "R",
+      "state": "UT",
+      "office": "U.S. Senator · UT",
+      "tradeCount": 28
+    },
+    {
+      "id": "house_cheri_bustos",
+      "name": "Cheri Bustos",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-17",
+      "tradeCount": 27
+    },
+    {
+      "id": "house_roger_williams",
+      "name": "Roger Williams",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-25",
+      "tradeCount": 27
+    },
+    {
+      "id": "senate_christophera_coons",
+      "name": "Christopher A Coons",
+      "chamber": "senate",
+      "party": "D",
+      "state": "DE",
+      "office": "U.S. Senator · DE",
+      "tradeCount": 27
+    },
+    {
+      "id": "house_adam_kinzinger",
+      "name": "Adam Kinzinger",
+      "chamber": "house",
+      "party": "R",
+      "state": "IL",
+      "office": "U.S. Representative · IL-16",
+      "tradeCount": 26
+    },
+    {
+      "id": "house_lloydk_smucker",
+      "name": "Lloyd K. Smucker",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-16",
+      "tradeCount": 26
+    },
+    {
+      "id": "senate_katie_britt",
+      "name": "Katie Britt",
+      "chamber": "senate",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Senator · AL",
+      "tradeCount": 26
+    },
+    {
+      "id": "house_nealpatrick_dunnmdfacs",
+      "name": "Neal Patrick Dunn",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-02",
+      "tradeCount": 25
+    },
+    {
+      "id": "house_chellie_pingree",
+      "name": "Chellie Pingree",
+      "chamber": "house",
+      "party": "D",
+      "state": "ME",
+      "office": "U.S. Representative · ME-01",
+      "tradeCount": 24
+    },
+    {
+      "id": "house_morgan_mcgarvey",
+      "name": "Morgan McGarvey",
+      "chamber": "house",
+      "party": "D",
+      "state": "KY",
+      "office": "U.S. Representative · KY-03",
+      "tradeCount": 24
+    },
+    {
+      "id": "house_susanw_brooks",
+      "name": "Susan W. Brooks",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-05",
+      "tradeCount": 24
+    },
+    {
+      "id": "house_brandon_gill",
+      "name": "Brandon Gill",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-26",
+      "tradeCount": 23
+    },
+    {
+      "id": "house_michaela_collins",
+      "name": "Michael A. Collins",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-08",
+      "tradeCount": 23
+    },
+    {
+      "id": "house_mick_mulvaney",
+      "name": "Mick Mulvaney",
+      "chamber": "house",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Representative · SC-05",
+      "tradeCount": 23
+    },
+    {
+      "id": "house_roberte_latta",
+      "name": "Robert E. Latta",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-05",
+      "tradeCount": 23
+    },
+    {
+      "id": "house_brad_ashford",
+      "name": "Brad Ashford",
+      "chamber": "house",
+      "party": "D",
+      "state": "NE",
+      "office": "U.S. Representative · NE-02",
+      "tradeCount": 22
+    },
+    {
+      "id": "house_ralm_grijalva",
+      "name": "Raúl M. Grijalva",
+      "chamber": "house",
+      "party": "D",
+      "state": "AZ",
+      "office": "U.S. Representative · AZ-03",
+      "tradeCount": 22
+    },
+    {
+      "id": "house_robertcbobby_scott",
+      "name": "Robert C. \"Bobby\" Scott",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-03",
+      "tradeCount": 22
+    },
+    {
+      "id": "house_eleanorholmes_norton",
+      "name": "Eleanor Holmes Norton",
+      "chamber": "house",
+      "party": "D",
+      "state": "DC",
+      "office": "U.S. Representative · DC-00",
+      "tradeCount": 21
+    },
+    {
+      "id": "house_johna_boehner",
+      "name": "John A. Boehner",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-08",
+      "tradeCount": 21
+    },
+    {
+      "id": "house_laurel_lee",
+      "name": "Laurel Lee",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-15",
+      "tradeCount": 21
+    },
+    {
+      "id": "house_brendalulenar_lawrence",
+      "name": "Brenda Lulenar Lawrence",
+      "chamber": "house",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Representative · MI-14",
+      "tradeCount": 20
+    },
+    {
+      "id": "house_ed_case",
+      "name": "Ed Case",
+      "chamber": "house",
+      "party": "D",
+      "state": "HI",
+      "office": "U.S. Representative · HI-01",
+      "tradeCount": 20
+    },
+    {
+      "id": "house_seth_moulton",
+      "name": "Seth Moulton",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-06",
+      "tradeCount": 20
+    },
+    {
+      "id": "house_williamr_timmons_iv",
+      "name": "William R. Timmons IV",
+      "chamber": "house",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Representative · SC-04",
+      "tradeCount": 20
+    },
+    {
+      "id": "house_josephd_morelle",
+      "name": "Joseph D. Morelle",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-25",
+      "tradeCount": 19
+    },
+    {
+      "id": "house_michaela_collins_jr",
+      "name": "Michael A. Collins Jr",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-08",
+      "tradeCount": 19
+    },
+    {
+      "id": "senate_corya_booker",
+      "name": "Cory A Booker",
+      "chamber": "senate",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Senator · NJ",
+      "tradeCount": 19
+    },
+    {
+      "id": "senate_lindsey_graham",
+      "name": "Lindsey Graham",
+      "chamber": "senate",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Senator · SC",
+      "tradeCount": 19
+    },
+    {
+      "id": "house_adam_smith",
+      "name": "Adam Smith",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-09",
+      "tradeCount": 18
+    },
+    {
+      "id": "house_davidcheston_rouzer",
+      "name": "David Cheston Rouzer",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-07",
+      "tradeCount": 18
+    },
+    {
+      "id": "house_greg_steube",
+      "name": "Greg Steube",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-17",
+      "tradeCount": 18
+    },
+    {
+      "id": "house_hakeems_jeffries",
+      "name": "Hakeem S. Jeffries",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-08",
+      "tradeCount": 18
+    },
+    {
+      "id": "house_nickj_rahall_ii",
+      "name": "Nick J. Rahall II",
+      "chamber": "house",
+      "party": "D",
+      "state": "WV",
+      "office": "U.S. Representative · WV-03",
+      "tradeCount": 18
+    },
+    {
+      "id": "house_brian_babin",
+      "name": "Brian Babin",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-36",
+      "tradeCount": 17
+    },
+    {
+      "id": "house_andrew_garbarino",
+      "name": "Andrew Garbarino",
+      "chamber": "house",
+      "party": "R",
+      "state": "NY",
+      "office": "U.S. Representative · NY-02",
+      "tradeCount": 16
+    },
+    {
+      "id": "house_john_mcguire",
+      "name": "John McGuire",
+      "chamber": "house",
+      "party": "R",
+      "state": "VA",
+      "office": "U.S. Representative · VA-05",
+      "tradeCount": 16
+    },
+    {
+      "id": "house_michaelr_turner",
+      "name": "Michael R. Turner",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-10",
+      "tradeCount": 16
+    },
+    {
+      "id": "house_tim_walberg",
+      "name": "Tim Walberg",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-05",
+      "tradeCount": 16
+    },
+    {
+      "id": "senate_rafaele_cruz",
+      "name": "Rafael E Cruz",
+      "chamber": "senate",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Senator · TX",
+      "tradeCount": 16
+    },
+    {
+      "id": "house_johnw_rose",
+      "name": "John W. Rose",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-06",
+      "tradeCount": 15
+    },
+    {
+      "id": "house_ron_estes",
+      "name": "Ron Estes",
+      "chamber": "house",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Representative · KS-04",
+      "tradeCount": 15
+    },
+    {
+      "id": "house_steve_chabot",
+      "name": "Steve Chabot",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-01",
+      "tradeCount": 15
+    },
+    {
+      "id": "senate_tammy_duckworth",
+      "name": "Tammy Duckworth",
+      "chamber": "senate",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Senator · IL",
+      "tradeCount": 15
+    },
+    {
+      "id": "house_bryangeorge_steil",
+      "name": "Bryan George Steil",
+      "chamber": "house",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Representative · WI-01",
+      "tradeCount": 14
+    },
+    {
+      "id": "house_thomash_kean",
+      "name": "Thomas H. Kean",
+      "chamber": "house",
+      "party": "R",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-07",
+      "tradeCount": 14
+    },
+    {
+      "id": "house_ashley_hinsonarenholz",
+      "name": "Ashley Hinson Arenholz",
+      "chamber": "house",
+      "party": "R",
+      "state": "IA",
+      "office": "U.S. Representative · IA-01",
+      "tradeCount": 13
+    },
+    {
+      "id": "house_justin_amash",
+      "name": "Justin Amash",
+      "chamber": "house",
+      "party": "R",
+      "state": "MI",
+      "office": "U.S. Representative · MI-03",
+      "tradeCount": 13
+    },
+    {
+      "id": "house_matthewrobert_vanepps",
+      "name": "Matthew Robert Van Epps",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-07",
+      "tradeCount": 13
+    },
+    {
+      "id": "house_stephenf_lynch",
+      "name": "Stephen F. Lynch",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-08",
+      "tradeCount": 13
+    },
+    {
+      "id": "house_grace_meng",
+      "name": "Grace Meng",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-06",
+      "tradeCount": 12
+    },
+    {
+      "id": "house_lori_trahan",
+      "name": "Lori Trahan",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-03",
+      "tradeCount": 12
+    },
+    {
+      "id": "house_traceyrobert_mann",
+      "name": "Tracey Robert Mann",
+      "chamber": "house",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Representative · KS-01",
+      "tradeCount": 12
+    },
+    {
+      "id": "house_brad_sherman",
+      "name": "Brad Sherman",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-30",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_chip_roy",
+      "name": "Chip Roy",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-21",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_dandaniel_bishop",
+      "name": "Dan Daniel Bishop",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-09",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_emily_randall",
+      "name": "Emily Randall",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-06",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_frank_pallone_jr",
+      "name": "Frank Pallone Jr.",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-06",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_lindat_sanchez",
+      "name": "Linda T. Sanchez",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-38",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_tammy_duckworth",
+      "name": "Tammy Duckworth",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-08",
+      "tradeCount": 11
+    },
+    {
+      "id": "house_ann_wagner",
+      "name": "Ann Wagner",
+      "chamber": "house",
+      "party": "R",
+      "state": "MO",
+      "office": "U.S. Representative · MO-02",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_garret_graves",
+      "name": "Garret Graves",
+      "chamber": "house",
+      "party": "R",
+      "state": "LA",
+      "office": "U.S. Representative · LA-06",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_garyc_peters",
+      "name": "Gary C. Peters",
+      "chamber": "house",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Representative · MI-14",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_jim_mcdermott",
+      "name": "Jim McDermott",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-07",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_nicholasv_taylor",
+      "name": "Nicholas V. Taylor",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-03",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_sean_casten",
+      "name": "Sean Casten",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-06",
+      "tradeCount": 10
+    },
+    {
+      "id": "senate_jacklyns_rosen",
+      "name": "Jacklyn S Rosen",
+      "chamber": "senate",
+      "party": "D",
+      "state": "NV",
+      "office": "U.S. Senator · NV",
+      "tradeCount": 10
+    },
+    {
+      "id": "senate_michaelf_bennet",
+      "name": "Michael F Bennet",
+      "chamber": "senate",
+      "party": "D",
+      "state": "CO",
+      "office": "U.S. Senator · CO",
+      "tradeCount": 10
+    },
+    {
+      "id": "senate_mike_rounds",
+      "name": "Mike Rounds",
+      "chamber": "senate",
+      "party": "R",
+      "state": "SD",
+      "office": "U.S. Senator · SD",
+      "tradeCount": 10
+    },
+    {
+      "id": "senate_rogerf_wicker",
+      "name": "Roger F Wicker",
+      "chamber": "senate",
+      "party": "R",
+      "state": "MS",
+      "office": "U.S. Senator · MS",
+      "tradeCount": 10
+    },
+    {
+      "id": "house_harleye_rouda_jr",
+      "name": "Harley E. Rouda Jr",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-48",
+      "tradeCount": 9
+    },
+    {
+      "id": "house_jackie_speier",
+      "name": "Jackie Speier",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-14",
+      "tradeCount": 9
+    },
+    {
+      "id": "house_jake_auchincloss",
+      "name": "Jake Auchincloss",
+      "chamber": "house",
+      "party": "D",
+      "state": "MA",
+      "office": "U.S. Representative · MA-04",
+      "tradeCount": 9
+    },
+    {
+      "id": "house_kevin_yoder",
+      "name": "Kevin Yoder",
+      "chamber": "house",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Representative · KS-03",
+      "tradeCount": 9
+    },
+    {
+      "id": "house_theodoree_deutch",
+      "name": "Theodore E. Deutch",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-22",
+      "tradeCount": 9
+    },
+    {
+      "id": "senate_bernie_moreno",
+      "name": "Bernie Moreno",
+      "chamber": "senate",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Senator · OH",
+      "tradeCount": 9
+    },
+    {
+      "id": "senate_laddatammy_duckworth",
+      "name": "Ladda Tammy Duckworth",
+      "chamber": "senate",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Senator · IL",
+      "tradeCount": 9
+    },
+    {
+      "id": "house_christiand_menefee",
+      "name": "Christian D. Menefee",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-18",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_felixbarry_moore",
+      "name": "Felix Barry Moore",
+      "chamber": "house",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Representative · AL-02",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_mark_alford",
+      "name": "Mark Alford",
+      "chamber": "house",
+      "party": "R",
+      "state": "MO",
+      "office": "U.S. Representative · MO-04",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_markr_meadows",
+      "name": "Mark R Meadows",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-11",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_marygay_scanlon",
+      "name": "Mary Gay Scanlon",
+      "chamber": "house",
+      "party": "D",
+      "state": "PA",
+      "office": "U.S. Representative · PA-05",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_seanpatrick_maloney",
+      "name": "Sean Patrick Maloney",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-18",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_warren_davidson",
+      "name": "Warren Davidson",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-08",
+      "tradeCount": 8
+    },
+    {
+      "id": "house_adrian_smith",
+      "name": "Adrian Smith",
+      "chamber": "house",
+      "party": "R",
+      "state": "NE",
+      "office": "U.S. Representative · NE-03",
+      "tradeCount": 7
+    },
+    {
+      "id": "house_anthonye_gonzalez",
+      "name": "Anthony E. Gonzalez",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-16",
+      "tradeCount": 7
+    },
+    {
+      "id": "house_tom_rice",
+      "name": "Tom Rice",
+      "chamber": "house",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Representative · SC-07",
+      "tradeCount": 7
+    },
+    {
+      "id": "house_williamm_cassidy",
+      "name": "William M. Cassidy",
+      "chamber": "house",
+      "party": "R",
+      "state": "LA",
+      "office": "U.S. Representative · LA-06",
+      "tradeCount": 7
+    },
+    {
+      "id": "senate_chris_vanhollen",
+      "name": "Chris Van Hollen",
+      "chamber": "senate",
+      "party": "D",
+      "state": "MD",
+      "office": "U.S. Senator · MD",
+      "tradeCount": 7
+    },
+    {
+      "id": "house_abigail_spanberger",
+      "name": "Abigail Spanberger",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-07",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_astondonald_mceachin",
+      "name": "Aston Donald McEachin",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-04",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_beto_orourke",
+      "name": "Beto O'Rourke",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-16",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_cliff_bentz",
+      "name": "Cliff Bentz",
+      "chamber": "house",
+      "party": "R",
+      "state": "OR",
+      "office": "U.S. Representative · OR-02",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_doriso_matsui",
+      "name": "Doris O. Matsui",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-06",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_guymr_reschenthaler",
+      "name": "Guy Reschenthaler",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-14",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_jacky_rosen",
+      "name": "Jacky Rosen",
+      "chamber": "house",
+      "party": "D",
+      "state": "NV",
+      "office": "U.S. Representative · NV-03",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_johnjmr_mcguire_iii",
+      "name": "John J McGuire III",
+      "chamber": "house",
+      "party": null,
+      "state": "VA",
+      "office": null,
+      "tradeCount": 6
+    },
+    {
+      "id": "house_laura_friedman",
+      "name": "Laura Friedman",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-30",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_luisv_gutierrez",
+      "name": "Luis V. Gutierrez",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-04",
+      "tradeCount": 6
+    },
+    {
+      "id": "house_darrelle_issa",
+      "name": "Darrell E. Issa",
+      "chamber": "house",
+      "party": "R",
+      "state": "CA",
+      "office": "U.S. Representative · CA-50",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_glenns_grothman",
+      "name": "Glenn S. Grothman",
+      "chamber": "house",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Representative · WI-06",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_jamesa_himes",
+      "name": "James A. Himes",
+      "chamber": "house",
+      "party": "D",
+      "state": "CT",
+      "office": "U.S. Representative · CT-04",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_keithalan_self",
+      "name": "Keith Alan Self",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-03",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_michael_waltz",
+      "name": "Michael Waltz",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-06",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_nanette_barragan",
+      "name": "Nanette Barragan",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-44",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_steve_knight",
+      "name": "Steve Knight",
+      "chamber": "house",
+      "party": "R",
+      "state": "CA",
+      "office": "U.S. Representative · CA-25",
+      "tradeCount": 5
+    },
+    {
+      "id": "house_tom_ohalleran",
+      "name": "Tom O'Halleran",
+      "chamber": "house",
+      "party": "D",
+      "state": "AZ",
+      "office": "U.S. Representative · AZ-01",
+      "tradeCount": 5
+    },
+    {
+      "id": "senate_cynthiam_lummis",
+      "name": "Cynthia M Lummis",
+      "chamber": "senate",
+      "party": "R",
+      "state": "WY",
+      "office": "U.S. Senator · WY",
+      "tradeCount": 5
+    },
+    {
+      "id": "senate_james_banks",
+      "name": "James Banks",
+      "chamber": "senate",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Senator · IN",
+      "tradeCount": 5
+    },
+    {
+      "id": "senate_timothyp_sheehy",
+      "name": "Timothy P Sheehy",
+      "chamber": "senate",
+      "party": null,
+      "state": null,
+      "office": null,
+      "tradeCount": 5
+    },
+    {
+      "id": "house_daniel_webster",
+      "name": "Daniel Webster",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-11",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_elaine_luria",
+      "name": "Elaine Luria",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-02",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_john_garamendi",
+      "name": "John Garamendi",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-03",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_louisemcintosh_slaughter",
+      "name": "Louise McIntosh Slaughter",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-25",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_michaeljohn_gallagher",
+      "name": "Michael John Gallagher",
+      "chamber": "house",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Representative · WI-08",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_rodneyleland_blum",
+      "name": "Rodney Leland Blum",
+      "chamber": "house",
+      "party": "R",
+      "state": "IA",
+      "office": "U.S. Representative · IA-01",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_stephanie_bice",
+      "name": "Stephanie Bice",
+      "chamber": "house",
+      "party": "R",
+      "state": "OK",
+      "office": "U.S. Representative · OK-05",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_terria_sewell",
+      "name": "Terri A. Sewell",
+      "chamber": "house",
+      "party": "D",
+      "state": "AL",
+      "office": "U.S. Representative · AL-07",
+      "tradeCount": 4
+    },
+    {
+      "id": "senate_debras_fischer",
+      "name": "Debra S Fischer",
+      "chamber": "senate",
+      "party": "R",
+      "state": "NE",
+      "office": "U.S. Senator · NE",
+      "tradeCount": 4
+    },
+    {
+      "id": "house_anna_paulinaluna",
+      "name": "Anna Paulina Luna",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-13",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_bill_pascrell_jr",
+      "name": "Bill Pascrell Jr.",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-09",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_brad_knott",
+      "name": "Brad Knott",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-13",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_brandonmcdonald_williams",
+      "name": "Brandon McDonald Williams",
+      "chamber": "house",
+      "party": "R",
+      "state": "NY",
+      "office": "U.S. Representative · NY-22",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_brian_higgins",
+      "name": "Brian Higgins",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-26",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_gregfrancis_murphy",
+      "name": "Greg Francis Murphy",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-03",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_jeff_fortenberry",
+      "name": "Jeff Fortenberry",
+      "chamber": "house",
+      "party": "R",
+      "state": "NE",
+      "office": "U.S. Representative · NE-01",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_lance_gooden",
+      "name": "Lance Gooden",
+      "chamber": "house",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Representative · TX-05",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_matt_gaetz",
+      "name": "Matt Gaetz",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-01",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_michaelg_fitzpatrick",
+      "name": "Michael G. Fitzpatrick",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-08",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_robertb_aderholt",
+      "name": "Robert B. Aderholt",
+      "chamber": "house",
+      "party": "R",
+      "state": "AL",
+      "office": "U.S. Representative · AL-04",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_stephanie_murphy",
+      "name": "Stephanie Murphy",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-07",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_wgreg_steube",
+      "name": "W. Greg Steube",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-17",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_williaml_owens",
+      "name": "William L. Owens",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-21",
+      "tradeCount": 3
+    },
+    {
+      "id": "senate_jeanne_shaheen",
+      "name": "Jeanne Shaheen",
+      "chamber": "senate",
+      "party": "D",
+      "state": "NH",
+      "office": "U.S. Senator · NH",
+      "tradeCount": 3
+    },
+    {
+      "id": "senate_johnn_kennedy",
+      "name": "John N Kennedy",
+      "chamber": "senate",
+      "party": "R",
+      "state": "LA",
+      "office": "U.S. Senator · LA",
+      "tradeCount": 3
+    },
+    {
+      "id": "senate_maria_cantwell",
+      "name": "Maria Cantwell",
+      "chamber": "senate",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Senator · WA",
+      "tradeCount": 3
+    },
+    {
+      "id": "senate_timothym_kaine",
+      "name": "Timothy M Kaine",
+      "chamber": "senate",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Senator · VA",
+      "tradeCount": 3
+    },
+    {
+      "id": "house_adamb_schiff",
+      "name": "Adam B. Schiff",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-28",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_cathymcmorris_rodgers",
+      "name": "Cathy McMorris Rodgers",
+      "chamber": "house",
+      "party": "R",
+      "state": "PA",
+      "office": "U.S. Representative · PA-28",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_dave_min",
+      "name": "Dave Min",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-47",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_debbie_lesko",
+      "name": "Debbie Lesko",
+      "chamber": "house",
+      "party": "R",
+      "state": "AZ",
+      "office": "U.S. Representative · AZ-08",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_eric_cantor",
+      "name": "Eric Cantor",
+      "chamber": "house",
+      "party": "R",
+      "state": "VA",
+      "office": "U.S. Representative · VA-07",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_george_holding",
+      "name": "George Holding",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-13",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_harolddallas_rogers",
+      "name": "Harold Dallas Rogers",
+      "chamber": "house",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Representative · KY-05",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_jamie_raskin",
+      "name": "Jamie Raskin",
+      "chamber": "house",
+      "party": "D",
+      "state": "MD",
+      "office": "U.S. Representative · MD-08",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_jeff_duncan",
+      "name": "Jeff Duncan",
+      "chamber": "house",
+      "party": "R",
+      "state": "SC",
+      "office": "U.S. Representative · SC-03",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_jeff_jackson",
+      "name": "Jeff Jackson",
+      "chamber": "house",
+      "party": "D",
+      "state": "NC",
+      "office": "U.S. Representative · NC-14",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_jennifer_mcclellan",
+      "name": "Jennifer McClellan",
+      "chamber": "house",
+      "party": "D",
+      "state": "VA",
+      "office": "U.S. Representative · VA-04",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_mark_pocan",
+      "name": "Mark Pocan",
+      "chamber": "house",
+      "party": "D",
+      "state": "WI",
+      "office": "U.S. Representative · WI-02",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_nealp_dunn",
+      "name": "Neal P. Dunn",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-02",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_nicholas_begich_iii",
+      "name": "Nicholas Begich III",
+      "chamber": "house",
+      "party": "R",
+      "state": "AK",
+      "office": "U.S. Representative · AK-00",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_paul_ryan",
+      "name": "Paul Ryan",
+      "chamber": "house",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Representative · WI-01",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_peterj_visclosky",
+      "name": "Peter J. Visclosky",
+      "chamber": "house",
+      "party": "D",
+      "state": "IN",
+      "office": "U.S. Representative · IN-01",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_ruben_gallego",
+      "name": "Ruben Gallego",
+      "chamber": "house",
+      "party": "D",
+      "state": "AZ",
+      "office": "U.S. Representative · AZ-07",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_sam_farr",
+      "name": "Sam Farr",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-20",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_scott_desjarlais",
+      "name": "Scott DesJarlais",
+      "chamber": "house",
+      "party": "R",
+      "state": "TN",
+      "office": "U.S. Representative · TN-04",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_steve_womack",
+      "name": "Steve Womack",
+      "chamber": "house",
+      "party": "R",
+      "state": "AR",
+      "office": "U.S. Representative · AR-03",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_tjjohntj_cox",
+      "name": "TJ John (Tj) Cox",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-21",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_tom_cole",
+      "name": "Tom Cole",
+      "chamber": "house",
+      "party": "R",
+      "state": "OK",
+      "office": "U.S. Representative · OK-04",
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_a_mitchell",
+      "name": "A. Mitchell",
+      "chamber": "senate",
+      "party": null,
+      "state": null,
+      "office": null,
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_john_cornyn",
+      "name": "John Cornyn",
+      "chamber": "senate",
+      "party": "R",
+      "state": "TX",
+      "office": "U.S. Senator · TX",
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_johnr_thune",
+      "name": "John R Thune",
+      "chamber": "senate",
+      "party": "R",
+      "state": "SD",
+      "office": "U.S. Senator · SD",
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_rogerw_marshall",
+      "name": "Roger W Marshall",
+      "chamber": "senate",
+      "party": "R",
+      "state": "KS",
+      "office": "U.S. Senator · KS",
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_ron_johnson",
+      "name": "Ron Johnson",
+      "chamber": "senate",
+      "party": "R",
+      "state": "WI",
+      "office": "U.S. Senator · WI",
+      "tradeCount": 2
+    },
+    {
+      "id": "senate_steve_daines",
+      "name": "Steve Daines",
+      "chamber": "senate",
+      "party": "R",
+      "state": "MT",
+      "office": "U.S. Senator · MT",
+      "tradeCount": 2
+    },
+    {
+      "id": "house_al_green",
+      "name": "Al Green",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-09",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_charliejoseph_crist",
+      "name": "Charlie Joseph Crist",
+      "chamber": "house",
+      "party": "D",
+      "state": "FL",
+      "office": "U.S. Representative · FL-13",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_darinmckay_lahood",
+      "name": "Darin McKay LaHood",
+      "chamber": "house",
+      "party": "R",
+      "state": "IL",
+      "office": "U.S. Representative · IL-18",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_derek_tran",
+      "name": "Derek Tran",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-45",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_donaldw_norcross",
+      "name": "Donald W. Norcross",
+      "chamber": "house",
+      "party": "D",
+      "state": "NJ",
+      "office": "U.S. Representative · NJ-01",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_jamesd_jordan",
+      "name": "James D Jordan",
+      "chamber": "house",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Representative · OH-04",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_johnd_dingell",
+      "name": "John D. Dingell",
+      "chamber": "house",
+      "party": "D",
+      "state": "MI",
+      "office": "U.S. Representative · MI-15",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_kennethr_buck",
+      "name": "Kenneth R. Buck",
+      "chamber": "house",
+      "party": "R",
+      "state": "CO",
+      "office": "U.S. Representative · CO-04",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_larry_bucshon",
+      "name": "Larry Bucshon",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-08",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_marca_veasey",
+      "name": "Marc A. Veasey",
+      "chamber": "house",
+      "party": "D",
+      "state": "TX",
+      "office": "U.S. Representative · TX-33",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_mario_diazbalart",
+      "name": "Mario Diaz-Balart",
+      "chamber": "house",
+      "party": "R",
+      "state": "FL",
+      "office": "U.S. Representative · FL-25",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_mike_flood",
+      "name": "Mike Flood",
+      "chamber": "house",
+      "party": "R",
+      "state": "NE",
+      "office": "U.S. Representative · NE-01",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_mike_kennedy",
+      "name": "Mike Kennedy",
+      "chamber": "house",
+      "party": "R",
+      "state": "UT",
+      "office": "U.S. Representative · UT-03",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_nicole_malliotakis",
+      "name": "Nicole Malliotakis",
+      "chamber": "house",
+      "party": "R",
+      "state": "NY",
+      "office": "U.S. Representative · NY-11",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_patrick_ryan",
+      "name": "Patrick Ryan",
+      "chamber": "house",
+      "party": "D",
+      "state": "NY",
+      "office": "U.S. Representative · NY-18",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_patrickt_mchenry",
+      "name": "Patrick T. McHenry",
+      "chamber": "house",
+      "party": "R",
+      "state": "NC",
+      "office": "U.S. Representative · NC-10",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_peterallen_stauber",
+      "name": "Peter Allen Stauber",
+      "chamber": "house",
+      "party": "R",
+      "state": "MN",
+      "office": "U.S. Representative · MN-08",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_pramila_jayapal",
+      "name": "Pramila Jayapal",
+      "chamber": "house",
+      "party": "D",
+      "state": "WA",
+      "office": "U.S. Representative · WA-07",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_rudyc_yakym_iii",
+      "name": "Rudy C. Yakym III",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-02",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_russ_fulcher",
+      "name": "Russ Fulcher",
+      "chamber": "house",
+      "party": "R",
+      "state": "ID",
+      "office": "U.S. Representative · ID-01",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_samt_liccardo",
+      "name": "Sam T. Liccardo",
+      "chamber": "house",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Representative · CA-16",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_seth_magaziner",
+      "name": "Seth Magaziner",
+      "chamber": "house",
+      "party": "D",
+      "state": "RI",
+      "office": "U.S. Representative · RI-02",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_sraja_krishnamoorthi",
+      "name": "S. Raja Krishnamoorthi",
+      "chamber": "house",
+      "party": "D",
+      "state": "IL",
+      "office": "U.S. Representative · IL-08",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_teresa_legerfernandez",
+      "name": "Teresa Leger Fernandez",
+      "chamber": "house",
+      "party": "D",
+      "state": "NM",
+      "office": "U.S. Representative · NM-03",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_thomas_massie",
+      "name": "Thomas Massie",
+      "chamber": "house",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Representative · KY-04",
+      "tradeCount": 1
+    },
+    {
+      "id": "house_tomthomas_graves_jr",
+      "name": "Tom Thomas Graves Jr.",
+      "chamber": "house",
+      "party": "R",
+      "state": "GA",
+      "office": "U.S. Representative · GA-14",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_adamb_schiff",
+      "name": "Adam B Schiff",
+      "chamber": "senate",
+      "party": "D",
+      "state": "CA",
+      "office": "U.S. Senator · CA",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_jamesconley_justiceii",
+      "name": "James Conley Justice",
+      "chamber": "senate",
+      "party": "R",
+      "state": "WV",
+      "office": "U.S. Senator · WV",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_johna_barrasso",
+      "name": "John A Barrasso",
+      "chamber": "senate",
+      "party": "R",
+      "state": "WY",
+      "office": "U.S. Senator · WY",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_jona_husted",
+      "name": "Jon A Husted",
+      "chamber": "senate",
+      "party": "R",
+      "state": "OH",
+      "office": "U.S. Senator · OH",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_marke_kelly",
+      "name": "Mark E Kelly",
+      "chamber": "senate",
+      "party": "D",
+      "state": "AZ",
+      "office": "U.S. Senator · AZ",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_michaeld_crapo",
+      "name": "Michael D Crapo",
+      "chamber": "senate",
+      "party": "R",
+      "state": "ID",
+      "office": "U.S. Senator · ID",
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_mmichael_rounds",
+      "name": "M. Michael Rounds",
+      "chamber": "senate",
+      "party": null,
+      "state": null,
+      "office": null,
+      "tradeCount": 1
+    },
+    {
+      "id": "senate_rand_paul",
+      "name": "Rand Paul",
+      "chamber": "senate",
+      "party": "R",
+      "state": "KY",
+      "office": "U.S. Senator · KY",
+      "tradeCount": 1
+    }
+  ],
   "memberBacktests": {
     "A. Mitchell": {
       "buyCount": 1,
