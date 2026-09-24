@@ -1,5 +1,6 @@
-import csv, io, json, math, os, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET
+import csv, io, json, math, os, re, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET, html as html_lib
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from difflib import SequenceMatcher
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
@@ -339,7 +340,10 @@ def normalize_analyst_title(x):
 
     broker = ""
     for name in BROKER_NAMES:
-        if name.lower() in low:
+        # Match broker names as standalone words/phrases.
+        # This prevents false matches such as "Citi" inside "citing".
+        pat = r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])"
+        if re.search(pat, text, re.I):
             broker = name
             break
 
@@ -359,12 +363,23 @@ def normalize_analyst_title(x):
             rating = m.group(1).strip()
             break
     if not rating_action:
+        # e.g. "JPMorgan upgraded Tesla to Neutral from Underweight"
+        m = re.search(r"\bupgraded\b\s+(?:\S+\s+){0,4}?to\s+([A-Za-z][A-Za-z \-/]+?)\s+from\s+[A-Za-z]", text, re.I)
+        if m:
+            rating_action = "升評"
+            rating = m.group(1).strip()
+    if not rating_action:
         for p in downgrade_words:
             m = re.search(re.escape(p) + r"\s+([A-Za-z][A-Za-z \-/]+?)(?:[,.]| from | with | and |$)", text, re.I)
             if m:
                 rating_action = "降評"
                 rating = m.group(1).strip()
                 break
+    if not rating_action:
+        m = re.search(r"\bdowngraded\b\s+(?:\S+\s+){0,4}?to\s+([A-Za-z][A-Za-z \-/]+?)\s+from\s+[A-Za-z]", text, re.I)
+        if m:
+            rating_action = "降評"
+            rating = m.group(1).strip()
 
     # Detect target price patterns
     old_target = ""
@@ -508,6 +523,195 @@ BROKER_ACTION = [
     "rating raised", "rating cut", "raises target", "cuts target",
     "lowers target", "boosts target"
 ]
+
+
+def _clean_html_text(s):
+    s = html_lib.unescape(s or "")
+    s = re.sub(r"<script\b[^>]*>.*?</script>", " ", s, flags=re.I|re.S)
+    s = re.sub(r"<style\b[^>]*>.*?</style>", " ", s, flags=re.I|re.S)
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def _extract_meta_description(page_html):
+    """
+    Extract a short publisher-supplied description from HTML.
+    We intentionally do NOT copy full article bodies.
+    """
+    if not page_html:
+        return ""
+
+    candidates = []
+
+    meta_patterns = [
+        r'<meta[^>]+(?:property|name)\s*=\s*["\']og:description["\'][^>]+content\s*=\s*["\']([^"\']+)["\']',
+        r'<meta[^>]+content\s*=\s*["\']([^"\']+)["\'][^>]+(?:property|name)\s*=\s*["\']og:description["\']',
+        r'<meta[^>]+(?:property|name)\s*=\s*["\']twitter:description["\'][^>]+content\s*=\s*["\']([^"\']+)["\']',
+        r'<meta[^>]+content\s*=\s*["\']([^"\']+)["\'][^>]+(?:property|name)\s*=\s*["\']twitter:description["\']',
+        r'<meta[^>]+name\s*=\s*["\']description["\'][^>]+content\s*=\s*["\']([^"\']+)["\']',
+        r'<meta[^>]+content\s*=\s*["\']([^"\']+)["\'][^>]+name\s*=\s*["\']description["\']',
+    ]
+    for pat in meta_patterns:
+        m = re.search(pat, page_html, flags=re.I|re.S)
+        if m:
+            candidates.append(_clean_html_text(m.group(1)))
+
+    # JSON-LD "description" is another common source.
+    for m in re.finditer(r'"description"\s*:\s*"((?:\\.|[^"\\])*)"', page_html, flags=re.I|re.S):
+        try:
+            val = bytes(m.group(1), "utf-8").decode("unicode_escape")
+        except Exception:
+            val = m.group(1)
+        candidates.append(_clean_html_text(val))
+
+    bad = (
+        "google news", "latest news", "breaking news", "read the latest",
+        "your source for", "sign in", "enable javascript"
+    )
+    for c in candidates:
+        if len(c) < 70:
+            continue
+        low = c.lower()
+        if any(b in low for b in bad):
+            continue
+        return c[:1200]
+
+    return ""
+
+def _fetch_article_context(url):
+    """
+    Follow the article URL and extract a short metadata description.
+    If Google News exposes an external publisher link in the returned HTML,
+    follow that once and try again.
+    """
+    if not url:
+        return "", url
+
+    def fetch(u):
+        req = urllib.request.Request(
+            u,
+            headers={
+                "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            }
+        )
+        with urllib.request.urlopen(req, timeout=6) as r:
+            final = r.geturl()
+            raw = r.read(650_000)
+            charset = "utf-8"
+            try:
+                charset = r.headers.get_content_charset() or "utf-8"
+            except Exception:
+                pass
+        return raw.decode(charset, "ignore"), final
+
+    try:
+        page, final = fetch(url)
+    except Exception:
+        return "", url
+
+    desc = _extract_meta_description(page)
+    if desc:
+        return desc, final
+
+    # Google News pages sometimes contain a direct publisher URL.
+    if "news.google." in (final or ""):
+        links = re.findall(r'href=["\'](https?://[^"\']+)["\']', page, flags=re.I)
+        for candidate in links[:80]:
+            candidate = html_lib.unescape(candidate)
+            low = candidate.lower()
+            if any(d in low for d in [
+                "google.com", "googleusercontent.com", "gstatic.com",
+                "youtube.com", "policies.google", "accounts.google"
+            ]):
+                continue
+            try:
+                p2, f2 = fetch(candidate)
+                d2 = _extract_meta_description(p2)
+                if d2:
+                    return d2, f2
+            except Exception:
+                continue
+
+    return "", final
+
+def _title_similarity(a, b):
+    a = re.sub(r"[^a-z0-9]+", " ", (a or "").lower()).strip()
+    b = re.sub(r"[^a-z0-9]+", " ", (b or "").lower()).strip()
+    if not a or not b:
+        return 0.0
+    seq = SequenceMatcher(None, a, b).ratio()
+    sa, sb = set(a.split()), set(b.split())
+    jac = len(sa & sb) / max(1, len(sa | sb))
+    return max(seq, jac)
+
+def enrich_analyst_details(items):
+    """
+    Fill missing analyst summaries in two stages:
+      1) match the Google broker-search headline to Yahoo/yfinance ticker-feed content
+      2) if still blank, fetch only the article metadata description
+
+    This makes the detail modal useful without copying full articles.
+    """
+    ticker_feed = {}
+    for x in items:
+        if x.get("sourceType") != "ticker_feed":
+            continue
+        if not (x.get("originalSummary") or "").strip():
+            continue
+        ticker_feed.setdefault((x.get("ticker") or "").upper(), []).append(x)
+
+    targets = []
+    for x in items:
+        if not x.get("analystPriority"):
+            continue
+        if (x.get("originalSummary") or "").strip():
+            continue
+
+        # First: fuzzy-match same-ticker Yahoo feed.
+        best = None
+        best_score = 0.0
+        for y in ticker_feed.get((x.get("ticker") or "").upper(), []):
+            s = _title_similarity(x.get("originalTitle"), y.get("originalTitle"))
+            if s > best_score:
+                best_score, best = s, y
+
+        if best is not None and best_score >= 0.52:
+            x["originalSummary"] = (best.get("originalSummary") or "")[:1200]
+            x["summary"] = (best.get("summary") or "")[:500]
+            # Prefer the direct publisher/Yahoo URL over a Google News redirect.
+            if best.get("url"):
+                x["url"] = best["url"]
+            x["detailSource"] = "ticker_feed_match"
+            continue
+
+        targets.append(x)
+
+    # Keep every 5-minute run bounded.
+    targets.sort(key=lambda z: z.get("ts", ""), reverse=True)
+    targets = targets[:40]
+
+    def one(x):
+        desc, resolved = _fetch_article_context(x.get("url") or "")
+        return x, desc, resolved
+
+    if targets:
+        with ThreadPoolExecutor(max_workers=10) as ex:
+            futs = [ex.submit(one, x) for x in targets]
+            for fut in as_completed(futs):
+                try:
+                    x, desc, resolved = fut.result()
+                except Exception:
+                    continue
+                if desc:
+                    x["originalSummary"] = desc[:1200]
+                    x["summary"] = desc[:500]
+                    x["detailSource"] = "article_metadata"
+                if resolved and "news.google." not in resolved:
+                    x["url"] = resolved
+
+    return items
 
 def broker_news_search(display_ticker, company_name, symbol, group):
     """
@@ -1010,6 +1214,10 @@ active_search_candidates.sort(reverse=True, key=lambda x: x[0])
 for _, ticker, name, symbol, group, chg in active_search_candidates[:cfg.get("active_search_top_movers", 10)]:
     all_news.extend(google_news_search(ticker, name, symbol, group, chg))
 
+# Enrich broker/analyst stories so the detail modal has useful context and
+# normalize_analyst_title can see exact old/new target values when available.
+all_news = enrich_analyst_details(all_news)
+
 # Score + deduplicate news.
 # Goal: "latest + important", rather than simply newest.
 def importance_score(x):
@@ -1218,7 +1426,7 @@ for x in news:
         cached_title, cached_summary = translation_cache[raw_title]
         x["title"] = cached_title or raw_title
         x["translated"] = has_cjk(x["title"])
-        if x.get("featured") and raw_summary:
+        if (x.get("featured") or x.get("analystPriority")) and raw_summary:
             x["summary"] = (cached_summary or raw_summary)[:320]
         else:
             x["summary"] = ""
@@ -1229,7 +1437,7 @@ for x in news:
     x["translated"] = has_cjk(x["title"])
 
     # Only featured homepage stories get translated summaries.
-    if x.get("featured") and raw_summary:
+    if (x.get("featured") or x.get("analystPriority")) and raw_summary:
         translated_summary = zh(raw_summary[:420])
         x["summary"] = (translated_summary or raw_summary)[:320]
     else:
@@ -1935,25 +2143,85 @@ def _compute_full_member_backtests(filers):
     performance.sort(key=lambda x: (x.get("member") or "").lower())
     return filing_bt, performance
 
+
+def _congress_event_key(x):
+    """
+    Stable key for one disclosed trade.
+    Used to detect newly published records between 5-minute scans.
+    """
+    return "|".join([
+        (x.get("memberId") or x.get("member") or "").strip().lower(),
+        (x.get("ticker") or "").strip().upper(),
+        (x.get("action") or "").strip().lower(),
+        (x.get("transactionDate") or "").strip(),
+        (x.get("amountRange") or "").strip(),
+        (x.get("owner") or "").strip(),
+        (x.get("filingId") or "").strip(),
+    ])
+
+def _push_new_congress_trades(new_items):
+    """
+    Push only genuinely NEW public disclosures discovered in this scan.
+    No historical backfill. Very old/corrected records are kept on the website
+    but not pushed to the phone.
+    """
+    if not new_items:
+        return []
+
+    today = datetime.now(timezone.utc).date()
+    fresh = []
+    for x in new_items:
+        fd = _parse_date(x.get("filedDate"))
+        # Public-disclosure monitor: allow a small source-ingestion delay.
+        if fd and (today - fd).days <= 3:
+            fresh.append(x)
+
+    # Oldest -> newest so phone notifications read naturally.
+    fresh.sort(key=lambda x: (
+        x.get("filedDate") or "",
+        x.get("transactionDate") or "",
+        x.get("member") or ""
+    ))
+
+    sent = []
+    for x in fresh[:8]:
+        member = x.get("member") or "國會議員"
+        ticker = x.get("ticker") or "N/A"
+        action = x.get("actionZh") or x.get("action") or "交易"
+        amount = x.get("amountRange") or "金額未標示"
+        td = x.get("transactionDate") or "--"
+        fd = x.get("filedDate") or "--"
+        lag = x.get("disclosureLagDays")
+        lag_text = f"{lag} 天" if lag is not None else "--"
+
+        title = f"{member}｜國會新申報"
+        message = (
+            f"{action} {ticker}｜{amount}\n"
+            f"交易日 {td}｜申報日 {fd}｜延遲 {lag_text}"
+        )
+
+        ok, _ = _send_pushover(
+            title,
+            message,
+            url="https://morris199786.github.io/us-stock-watch/"
+        )
+        if ok:
+            sent.append({
+                "member": member,
+                "ticker": ticker,
+                "action": x.get("action"),
+                "filedDate": fd,
+                "transactionDate": td,
+            })
+
+    return sent
+
 def refresh_congress_data():
     today = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
     try:
         previous = json.loads(CONGRESS_FILE.read_text(encoding="utf-8"))
-        # Skip only when today's file is already the NEW 2024+ Kadoa/backtest format.
-        # This forces migration away from the old InsiderWatch file even if it was
-        # already refreshed earlier on the same day.
-        is_new_format = (
-            previous.get("updatedDate") == today
-            and previous.get("items")
-            and previous.get("source") == "Kadoa Congress Trading Monitor open dataset"
-            and previous.get("historyStart") == "2024-01-01"
-            and previous.get("schemaVersion") == 4
-            and isinstance(previous.get("memberBacktests"), dict)
-            and isinstance(previous.get("filers"), list)
-            and len(previous.get("filers") or []) >= 100
-        )
-        if is_new_format:
-            return
+        # Always poll the latest public Congress disclosures every run.
+        # Heavy historical backtests are reused unless genuinely new trades appear.
     except Exception:
         previous = {}
 
@@ -2079,6 +2347,28 @@ def refresh_congress_data():
 
     items.sort(key=lambda x: (x.get("filedDate") or "", x.get("transactionDate") or ""), reverse=True)
 
+    previous_items = previous.get("items", []) if isinstance(previous, dict) else []
+    previous_keys = {
+        _congress_event_key(x)
+        for x in previous_items
+        if isinstance(x, dict)
+    }
+    current_keys = {_congress_event_key(x) for x in items}
+
+    previous_is_live_schema = (
+        isinstance(previous, dict)
+        and previous.get("schemaVersion") in (4, 5)
+        and bool(previous_items)
+    )
+
+    # First migration only seeds the state; it must NOT backfill old Congress alerts.
+    new_disclosures = []
+    if previous_is_live_schema:
+        new_disclosures = [
+            x for x in items
+            if _congress_event_key(x) not in previous_keys
+        ]
+
     today_date = datetime.now(timezone.utc).date()
     seven_days = today_date - timedelta(days=7)
     recent7 = buys7 = sells7 = 0
@@ -2095,16 +2385,32 @@ def refresh_congress_data():
 
     member_backtests = _member_backtest(items)
 
-    # Complete-history backtests are computed in GitHub Actions, not in Safari.
-    # This avoids CORS failures and also powers the Congress 30/60-day statistics page.
-    try:
-        filer_backtests, member_performance = _compute_full_member_backtests(filers)
-    except Exception:
+    # Complete-history backtests are expensive.
+    # Recompute only when:
+    #   1) migrating/initializing this schema, or
+    #   2) a genuinely new disclosed trade appears.
+    should_recompute_backtests = (
+        previous.get("schemaVersion") != 5
+        or not isinstance(previous.get("filerBacktests"), dict)
+        or not isinstance(previous.get("memberPerformance"), list)
+        or bool(new_disclosures)
+    )
+
+    if should_recompute_backtests:
+        try:
+            filer_backtests, member_performance = _compute_full_member_backtests(filers)
+        except Exception:
+            filer_backtests = previous.get("filerBacktests", {}) if isinstance(previous, dict) else {}
+            member_performance = previous.get("memberPerformance", []) if isinstance(previous, dict) else []
+    else:
         filer_backtests = previous.get("filerBacktests", {}) if isinstance(previous, dict) else {}
         member_performance = previous.get("memberPerformance", []) if isinstance(previous, dict) else []
 
+    # Congress alerts are independent from news Tier 1 alerts.
+    congress_pushes = _push_new_congress_trades(new_disclosures) if previous_is_live_schema else []
+
     payload = {
-        "schemaVersion": 4,
+        "schemaVersion": 5,
         "updatedAt": datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M 台灣時間"),
         "updatedDate": today,
         "historyStart": "2024-01-01",
@@ -2113,6 +2419,12 @@ def refresh_congress_data():
         "sourceNote": "Normalized from official House Clerk and Senate financial disclosure filings",
         "backtestBasis": "server_side_transaction_and_filing_date",
         "backtestNote": "GitHub Actions 端計算：申報公開日後 7/30/90/180 日可跟單回測，以及交易日後 30/60 日績效統計。期權交易使用標的股票報酬，不代表期權本身損益",
+        "monitor": {
+            "mode": "every_run_new_disclosure_check",
+            "newDisclosuresThisRun": len(new_disclosures),
+            "pushesSentThisRun": len(congress_pushes),
+            "backtestsRecomputedThisRun": bool(should_recompute_backtests)
+        },
         "summary": {
             "recent7": recent7,
             "buys7": buys7,
