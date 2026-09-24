@@ -1699,6 +1699,232 @@ def _member_backtest(items):
         }
     return out
 
+
+def _fetch_json_url(url, timeout=25):
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json,*/*"}
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+def _yf_symbol(ticker):
+    t = (ticker or "").strip().upper()
+    # Yahoo uses dash for common U.S. class-share symbols such as BRK.B -> BRK-B.
+    if re.fullmatch(r"[A-Z]{1,6}\.[A-Z]", t):
+        t = t.replace(".", "-")
+    return t
+
+def _first_px_on_or_after(points, target_date):
+    if not points or not target_date:
+        return None
+    td = target_date.isoformat() if hasattr(target_date, "isoformat") else str(target_date)
+    for ds, px in points:
+        if ds >= td and px is not None:
+            return px
+    return None
+
+def _load_full_congress_buys(filers):
+    """
+    Load each Congress member's member-specific Kadoa history and retain BUY trades
+    from 2024 onward. This is the complete-history input for server-side backtests.
+    """
+    base = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/filer/"
+    out = {}
+    filers = [f for f in (filers or []) if f.get("id")]
+
+    def one(f):
+        fid = f["id"]
+        try:
+            d = _fetch_json_url(base + urllib.parse.quote(fid) + ".json", timeout=20)
+            rows = d.get("trades") or []
+            buys = []
+            for row in rows:
+                if not isinstance(row, dict):
+                    continue
+                td = _parse_date(row.get("transaction_date"))
+                fd = _parse_date(row.get("filing_date"))
+                if not td or td < CONGRESS_START_DATE:
+                    continue
+                action, _ = _trade_action(row.get("transaction_type"))
+                if action != "buy":
+                    continue
+                ticker = (row.get("ticker") or "").strip().upper()
+                if not ticker:
+                    continue
+                buys.append({
+                    "ticker": ticker,
+                    "transactionDate": td,
+                    "filedDate": fd,
+                    "daysToFile": row.get("days_to_file"),
+                    "ret30Source": safe_float(row.get("ret_30d")),
+                })
+            return fid, buys
+        except Exception:
+            return fid, []
+
+    with ThreadPoolExecutor(max_workers=18) as ex:
+        futs = [ex.submit(one, f) for f in filers]
+        for fut in as_completed(futs):
+            fid, buys = fut.result()
+            out[fid] = buys
+    return out
+
+def _download_congress_prices(tickers):
+    """
+    Daily adjusted stock history used only by GitHub Actions.
+    Moving this calculation off the browser avoids Safari/CORS failures.
+    """
+    tickers = sorted({_yf_symbol(t) for t in tickers if _yf_symbol(t)})
+    if not tickers:
+        return {}
+
+    start = (CONGRESS_START_DATE - timedelta(days=10)).isoformat()
+    end = (datetime.now(timezone.utc).date() + timedelta(days=2)).isoformat()
+    out = {}
+
+    def one(t):
+        try:
+            h = yf.Ticker(t).history(
+                start=start,
+                end=end,
+                interval="1d",
+                auto_adjust=True,
+                actions=False,
+                timeout=18
+            )
+            pts = []
+            if h is not None and len(h):
+                for idx, val in h["Close"].items():
+                    px = safe_float(val)
+                    if px is None or px <= 0:
+                        continue
+                    try:
+                        ds = idx.date().isoformat()
+                    except Exception:
+                        ds = str(idx)[:10]
+                    pts.append((ds, px))
+            return t, pts
+        except Exception:
+            return t, []
+
+    with ThreadPoolExecutor(max_workers=14) as ex:
+        futs = [ex.submit(one, t) for t in tickers]
+        for fut in as_completed(futs):
+            t, pts = fut.result()
+            out[t] = pts
+    return out
+
+def _avg(vals):
+    return (sum(vals) / len(vals)) if vals else None
+
+def _win(vals):
+    return (sum(1 for v in vals if v > 0) / len(vals) * 100) if vals else None
+
+def _compute_full_member_backtests(filers):
+    """
+    Computes two neutral descriptive datasets:
+      - filing-date backtest: 7/30/90/180 days after public filing
+      - transaction-date performance: 30/60 days after reported purchase
+
+    Returns complete per-member statistics. Results are not ranked.
+    """
+    buys_by_filer = _load_full_congress_buys(filers)
+    all_tickers = set()
+    for buys in buys_by_filer.values():
+        for x in buys:
+            all_tickers.add(x["ticker"])
+
+    price_map = _download_congress_prices(all_tickers)
+    filer_map = {f.get("id"): f for f in (filers or [])}
+
+    filing_bt = {}
+    performance = []
+
+    for fid, buys in buys_by_filer.items():
+        f = filer_map.get(fid) or {}
+        name = f.get("name") or fid
+        chamber = f.get("chamber") or ""
+        party = f.get("party")
+        state = f.get("state")
+
+        file_vals = {7: [], 30: [], 90: [], 180: []}
+        tx_vals = {30: [], 60: []}
+        lags = []
+        usable_filing = 0
+
+        for x in buys:
+            ticker = x["ticker"]
+            pts = price_map.get(_yf_symbol(ticker), [])
+            td = x["transactionDate"]
+            fd = x.get("filedDate")
+
+            # Transaction-date performance
+            tx0 = _first_px_on_or_after(pts, td)
+            if tx0 not in (None, 0):
+                for h in (30, 60):
+                    px = _first_px_on_or_after(pts, td + timedelta(days=h))
+                    if px is not None:
+                        tx_vals[h].append((px / tx0 - 1) * 100)
+            elif x.get("ret30Source") is not None:
+                tx_vals[30].append(x["ret30Source"])
+
+            # Filing-date "followable" backtest
+            if fd:
+                f0 = _first_px_on_or_after(pts, fd)
+                if f0 not in (None, 0):
+                    usable_filing += 1
+                    for h in (7, 30, 90, 180):
+                        px = _first_px_on_or_after(pts, fd + timedelta(days=h))
+                        if px is not None:
+                            file_vals[h].append((px / f0 - 1) * 100)
+
+                lag = x.get("daysToFile")
+                try:
+                    lag = float(lag)
+                    if math.isfinite(lag):
+                        lags.append(lag)
+                except Exception:
+                    if td and fd:
+                        lags.append((fd - td).days)
+
+        filing_bt[fid] = {
+            "member": name,
+            "buyCount": len(buys),
+            "usableBuys": usable_filing,
+            "avgLagDays": _avg(lags),
+            "sample7": len(file_vals[7]),
+            "avg7": _avg(file_vals[7]),
+            "win7": _win(file_vals[7]),
+            "sample30": len(file_vals[30]),
+            "avg30": _avg(file_vals[30]),
+            "win30": _win(file_vals[30]),
+            "sample90": len(file_vals[90]),
+            "avg90": _avg(file_vals[90]),
+            "win90": _win(file_vals[90]),
+            "sample180": len(file_vals[180]),
+            "avg180": _avg(file_vals[180]),
+            "win180": _win(file_vals[180]),
+        }
+
+        performance.append({
+            "memberId": fid,
+            "member": name,
+            "chamber": chamber,
+            "party": party,
+            "state": state,
+            "buyCount": len(buys),
+            "sample30": len(tx_vals[30]),
+            "avg30": _avg(tx_vals[30]),
+            "win30": _win(tx_vals[30]),
+            "sample60": len(tx_vals[60]),
+            "avg60": _avg(tx_vals[60]),
+            "win60": _win(tx_vals[60]),
+        })
+
+    performance.sort(key=lambda x: (x.get("member") or "").lower())
+    return filing_bt, performance
+
 def refresh_congress_data():
     today = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
     try:
@@ -1711,7 +1937,7 @@ def refresh_congress_data():
             and previous.get("items")
             and previous.get("source") == "Kadoa Congress Trading Monitor open dataset"
             and previous.get("historyStart") == "2024-01-01"
-            and previous.get("schemaVersion") == 3
+            and previous.get("schemaVersion") == 4
             and isinstance(previous.get("memberBacktests"), dict)
             and isinstance(previous.get("filers"), list)
             and len(previous.get("filers") or []) >= 100
@@ -1859,16 +2085,24 @@ def refresh_congress_data():
 
     member_backtests = _member_backtest(items)
 
+    # Complete-history backtests are computed in GitHub Actions, not in Safari.
+    # This avoids CORS failures and also powers the Congress 30/60-day statistics page.
+    try:
+        filer_backtests, member_performance = _compute_full_member_backtests(filers)
+    except Exception:
+        filer_backtests = previous.get("filerBacktests", {}) if isinstance(previous, dict) else {}
+        member_performance = previous.get("memberPerformance", []) if isinstance(previous, dict) else []
+
     payload = {
-        "schemaVersion": 3,
+        "schemaVersion": 4,
         "updatedAt": datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M 台灣時間"),
         "updatedDate": today,
         "historyStart": "2024-01-01",
         "source": "Kadoa Congress Trading Monitor open dataset",
         "sourceUrl": "https://github.com/kadoa-org/congress-trading-monitor",
         "sourceNote": "Normalized from official House Clerk and Senate financial disclosure filings",
-        "backtestBasis": "transaction_date_source_plus_frontend_filing_date",
-        "backtestNote": "交易日後報酬使用來源欄位；網站搜尋單一議員時另以申報公開日為基準計算可跟單回測。期權交易回測使用標的股票報酬，不代表期權本身損益",
+        "backtestBasis": "server_side_transaction_and_filing_date",
+        "backtestNote": "GitHub Actions 端計算：申報公開日後 7/30/90/180 日可跟單回測，以及交易日後 30/60 日績效統計。期權交易使用標的股票報酬，不代表期權本身損益",
         "summary": {
             "recent7": recent7,
             "buys7": buys7,
@@ -1878,6 +2112,8 @@ def refresh_congress_data():
         },
         "filers": filers,
         "memberBacktests": member_backtests,
+        "filerBacktests": filer_backtests,
+        "memberPerformance": member_performance,
         "items": items
     }
     CONGRESS_FILE.write_text(
