@@ -42,6 +42,29 @@
 .perfgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.perfcard{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.perfname{font-size:16px;font-weight:900}.perfname.link{cursor:pointer;color:#f6fbff;text-decoration:underline;text-decoration-color:#58d9ff55;text-underline-offset:3px}.perfmeta{font-size:11px;color:var(--muted);margin-top:3px}.perfvals{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.perfmetric{background:var(--p2);border-radius:10px;padding:9px}.perfmetric .pk{font-size:10px;color:var(--muted)}.perfmetric .pv{font-size:17px;font-weight:900;margin-top:3px}
 
 
+
+.scrollTopBtn{
+ position:fixed;
+ right:18px;
+ bottom:calc(22px + env(safe-area-inset-bottom));
+ z-index:999;
+ width:52px;
+ height:52px;
+ border-radius:999px;
+ border:1px solid #58d9ff88;
+ background:rgba(17,33,57,.96);
+ color:#dff9ff;
+ font-size:24px;
+ font-weight:900;
+ display:none;
+ align-items:center;
+ justify-content:center;
+ box-shadow:0 8px 28px rgba(0,0,0,.35);
+ backdrop-filter:blur(10px);
+ cursor:pointer;
+}
+.scrollTopBtn.show{display:flex}
+.scrollTopBtn:active{transform:scale(.96)}
 @media(max-width:720px){.perfgrid{grid-template-columns:1fr}.congressCards{grid-template-columns:repeat(2,1fr)}.btgrid{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
 </style>
 </head><body><div class="wrap">
@@ -107,6 +130,7 @@
     </div>
   </div>
 </div>
+<button id="scrollTopBtn" class="scrollTopBtn" aria-label="回到最上方" title="回到最上方">↑</button>
 </div><script>
 const fmt=v=>v==null?"--":(v>0?"+":"")+v.toFixed(2)+"%";
 function extMove(z){
@@ -512,5 +536,17 @@ document.getElementById("moreCongress")?.addEventListener("click",()=>{__congres
 document.getElementById("newsDetailClose")?.addEventListener("click",closeNewsDetail);
 document.getElementById("newsDetail")?.addEventListener("click",(e)=>{if(e.target.id==="newsDetail")closeNewsDetail();});
 document.addEventListener("keydown",(e)=>{if(e.key==="Escape")closeNewsDetail();});
+
+const scrollTopBtn=document.getElementById("scrollTopBtn");
+function updateScrollTopBtn(){
+ if(!scrollTopBtn)return;
+ scrollTopBtn.classList.toggle("show",window.scrollY>500);
+}
+window.addEventListener("scroll",updateScrollTopBtn,{passive:true});
+scrollTopBtn?.addEventListener("click",()=>{
+ window.scrollTo({top:0,behavior:"smooth"});
+});
+updateScrollTopBtn();
+
 setInterval(()=>load().catch(()=>{}),300000);
 </script></body></html>
