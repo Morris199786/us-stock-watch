@@ -869,6 +869,32 @@ def _broker_from_text(text):
             return name
     return ""
 
+
+def _broker_names_compatible(source_text, candidate_text, title_similarity=0.0):
+    """
+    Avoid cross-wiring one broker's article to another broker's summary.
+
+    Example of a BAD match this blocks:
+      JPMorgan META $920 headline  <-  Cantor META +26% summary
+    """
+    a = _broker_from_text(source_text or "")
+    b = _broker_from_text(candidate_text or "")
+
+    if a and b:
+        return a.lower() == b.lower()
+
+    # If the source explicitly names a broker but the candidate doesn't,
+    # require a very high headline similarity before accepting it.
+    if a and not b:
+        return title_similarity >= 0.82
+
+    # If candidate names a broker while source doesn't, be conservative.
+    if b and not a:
+        return title_similarity >= 0.82
+
+    return title_similarity >= 0.68
+
+
 def enrich_analyst_details(items):
     """
     Fill missing analyst summaries in two stages:
@@ -902,8 +928,18 @@ def enrich_analyst_details(items):
         # First: fuzzy-match same-ticker Yahoo feed.
         best = None
         best_score = 0.0
+        source_blob = " ".join([
+            x.get("originalTitle") or "",
+            x.get("originalSummary") or "",
+        ])
         for y in ticker_feed.get((x.get("ticker") or "").upper(), []):
             s = _title_similarity(x.get("originalTitle"), y.get("originalTitle"))
+            candidate_blob = " ".join([
+                y.get("originalTitle") or "",
+                y.get("originalSummary") or "",
+            ])
+            if not _broker_names_compatible(source_blob, candidate_blob, s):
+                continue
             if s > best_score:
                 best_score, best = s, y
 
@@ -942,16 +978,21 @@ def enrich_analyst_details(items):
 
         desc1, url1 = _yahoo_search_context(title, ticker)
         if desc1:
-            candidates.append((desc1, url1))
+            sim1 = _title_similarity(title, desc1)
+            if _broker_names_compatible(original_blob, desc1, sim1):
+                candidates.append((desc1, url1))
 
         # Second query is intentionally more factual than the media headline.
-        # It helps resolve vague titles such as "Analyst Resets Meta Target".
+        # If the original story names a broker, the returned text must name the same broker.
         if broker and ticker:
             q2 = f"{ticker} {broker} price target"
             desc2, url2 = _yahoo_search_context(q2, ticker)
             if desc2:
-                candidates.append((desc2, url2))
+                b2 = _broker_from_text(desc2)
+                if b2 and b2.lower() == broker.lower():
+                    candidates.append((desc2, url2))
 
+        # Direct article metadata is safe to use because it comes from the story URL itself.
         desc3, url3 = _fetch_article_context(x.get("url") or "")
         if desc3:
             candidates.append((desc3, url3))
@@ -1012,7 +1053,7 @@ def broker_news_search(display_ticker, company_name, symbol, group):
 
     now = datetime.now(timezone.utc)
     out = []
-    for item in root.findall(".//item")[:15]:
+    for item in root.findall(".//item")[:30]:
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub = parse_rss_date(item.findtext("pubDate"))
@@ -1257,6 +1298,128 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
         })
     return out
 
+
+
+
+MAJOR_BROKER_QUERY_GROUPS = [
+    ['"BofA Securities"', '"Bank of America"', 'JPMorgan', '"JP Morgan"'],
+    ['"Morgan Stanley"', '"Goldman Sachs"', 'Citi', 'Citigroup'],
+    ['UBS', 'Jefferies', '"Wells Fargo"', 'Barclays'],
+    ['Evercore', '"Evercore ISI"', 'Bernstein', 'Mizuho'],
+    ['Cantor', '"Cantor Fitzgerald"', 'Wedbush', '"Tigress Financial"'],
+    ['KeyBanc', '"Piper Sandler"', 'Needham', 'Oppenheimer'],
+]
+
+def _broker_priority_scan_one(brokers, targets):
+    """
+    High-recall scan dedicated to analyst actions.
+    One RSS request covers several major brokers and the full watchlist.
+    """
+    broker_terms = " OR ".join(brokers)
+    action_terms = (
+        '"price target" OR "target price" OR upgraded OR downgraded OR '
+        '"initiates coverage" OR "initiated coverage" OR reiterates OR reiterated OR '
+        'maintains OR maintained OR "raises target" OR "raised target" OR '
+        '"cuts target" OR "cut target" OR "lowers target" OR "lowered target" OR '
+        '"boosts target" OR "boosted target"'
+    )
+    q = f'({broker_terms}) ({action_terms}) when:2d'
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en"
+    })
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            root = ET.fromstring(r.read())
+    except Exception:
+        return []
+
+    now = datetime.now(timezone.utc)
+    out = []
+    seen = set()
+
+    for item in root.findall(".//item")[:100]:
+        raw_title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = parse_rss_date(item.findtext("pubDate"))
+
+        if pub and now - pub > timedelta(hours=52):
+            continue
+
+        clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", raw_title).strip() or raw_title
+        blob = clean_title.lower()
+
+        if not is_broker_action_text(blob):
+            continue
+
+        best = None
+        for display_ticker, company_name, symbol, group in targets:
+            if not target_relevance(clean_title, display_ticker, company_name):
+                continue
+
+            explicit_ticker = bool(re.search(
+                rf"(?<![A-Za-z0-9]){re.escape(display_ticker)}(?![A-Za-z0-9])",
+                clean_title, re.I
+            ))
+            exact_company = (company_name or "").lower() in clean_title.lower()
+            score = (3 if explicit_ticker else 0) + (2 if exact_company else 0)
+
+            if best is None or score > best[0]:
+                best = (score, display_ticker, company_name, symbol, group)
+
+        if best is None:
+            continue
+
+        _, display_ticker, company_name, symbol, group = best
+        k = display_ticker + "|" + re.sub(r"\W+", "", clean_title.lower())
+        if k in seen:
+            continue
+        seen.add(k)
+
+        tag = "題材"
+        if any(k in blob for k in BROKER_NEG):
+            tag = "利空"
+        elif any(k in blob for k in BROKER_POS) or any(k in blob for k in [
+            "reiterates buy", "reiterated buy", "maintains buy", "maintained buy",
+            "reiterates outperform", "reiterates overweight",
+        ]):
+            tag = "利多"
+
+        out.append({
+            "ticker": display_ticker,
+            "group": group,
+            "tag": tag,
+            "title": clean_title,
+            "summary": "",
+            "originalTitle": clean_title,
+            "originalSummary": "",
+            "url": link,
+            "ts": pub.isoformat() if pub else "",
+            "sourceType": "broker_priority_scan",
+            "analystPriority": True,
+        })
+
+    return out
+
+def major_broker_priority_scans(targets):
+    """
+    Run a small number of broker-focused searches in parallel.
+    This specifically protects against missing high-value PT/rating news such as
+    BofA / JPMorgan / Morgan Stanley notes that may rank low in a ticker RSS query.
+    """
+    out = []
+    with ThreadPoolExecutor(max_workers=min(6, len(MAJOR_BROKER_QUERY_GROUPS))) as ex:
+        futs = [ex.submit(_broker_priority_scan_one, g, targets) for g in MAJOR_BROKER_QUERY_GROUPS]
+        for fut in as_completed(futs):
+            try:
+                out.extend(fut.result())
+            except Exception:
+                pass
+    return out
 
 
 def major_broker_market_scan(targets):
@@ -1610,6 +1773,9 @@ all_news.extend(broker_items)
 # This catches stories that can be missed by the per-ticker RSS ranking,
 # without issuing another request for every stock.
 all_news.extend(major_broker_market_scan(broker_scan_candidates))
+
+# Extra high-recall scan for major broker rating / target-price actions.
+all_news.extend(major_broker_priority_scans(broker_scan_candidates))
 
 # Refresh the 30-day searchable history pool once per day.
 # IMPORTANT: only mark the day complete when history items were actually fetched.
@@ -2351,7 +2517,7 @@ def _tier1_reason(x):
     # --- G. Very large move + identified catalyst ---
     mv = safe_float(x.get("movePct"))
     if mv is not None and abs(mv) >= 8 and x.get("sourceType") in (
-        "active_search","ticker_feed","broker_search","major_broker_global","market_search"
+        "active_search","ticker_feed","broker_search","major_broker_global","broker_priority_scan","market_search"
     ):
         return True, "股價異動", f"股價異動 {mv:+.1f}% 且有明確催化劑"
 
