@@ -430,6 +430,16 @@ def normalize_analyst_title(x):
         except Exception:
             pass
 
+    # Reiterated / maintained rating without upgrade/downgrade.
+    if not rating_action:
+        m = re.search(
+            r"\b(?:reiterat(?:es|ed|ing)?|maintain(?:s|ed|ing)?)\b(?:\s+\w+){0,5}?\s+(?:a\s+)?(Buy|Outperform|Overweight|Neutral|Equal[- ]Weight|Hold|Underperform|Underweight|Sell)\b",
+            text, re.I
+        )
+        if m:
+            rating_action = "重申"
+            rating = m.group(1).strip()
+
     # Build concise investor-style headline
     if broker and ticker and new_target:
         newp = _fmt_target(new_target)
@@ -437,7 +447,13 @@ def normalize_analyst_title(x):
 
         if rating_action and rating:
             rating = re.sub(r"\s+", " ", rating).strip()
-            if target_action:
+            if rating_action == "重申":
+                title = f"{broker} 重申 {ticker} {rating}"
+                if target_action:
+                    title += f"，目標價{target_action}至 {newp}"
+                else:
+                    title += f"，目標價 {newp}"
+            elif target_action:
                 title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價{target_action}至 {newp}"
             else:
                 title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價至 {newp}"
@@ -550,6 +566,13 @@ def is_broker_action_text(text):
         " buy", " outperform", " overweight", " neutral",
         " equal weight", " equal-weight", " hold",
         " underperform", " underweight", " sell"
+    ]):
+        return True
+
+    if ("maintain" in blob or "maintained" in blob) and any(r in blob for r in [
+        " buy", " outperform", " overweight", " neutral",
+        " equal weight", " equal-weight", " hold",
+        " underperform", " underweight", " sell", "price target", "target price"
     ]):
         return True
 
@@ -828,7 +851,7 @@ def broker_news_search(display_ticker, company_name, symbol, group):
     q = (
         f'("{company_name}" OR {display_ticker}) '
         '("price target" OR "target price" OR upgraded OR downgraded OR '
-        '"initiates coverage" OR "initiates with" OR reiterates OR '
+        '"initiates coverage" OR "initiates with" OR reiterates OR maintained OR maintains OR '
         '"raises target" OR "cuts target" OR "lowers target" OR "boosts target") when:2d'
     )
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
@@ -848,7 +871,7 @@ def broker_news_search(display_ticker, company_name, symbol, group):
 
     now = datetime.now(timezone.utc)
     out = []
-    for item in root.findall(".//item")[:6]:
+    for item in root.findall(".//item")[:15]:
         title = (item.findtext("title") or "").strip()
         link = (item.findtext("link") or "").strip()
         pub = parse_rss_date(item.findtext("pubDate"))
@@ -1325,6 +1348,14 @@ for _, ticker, name, symbol, group, chg in active_search_candidates[:cfg.get("ac
 # normalize_analyst_title can see exact old/new target values when available.
 all_news = enrich_analyst_details(all_news)
 
+# Re-evaluate analyst classification on every run, including retained old news.
+for x in all_news:
+    blob = " ".join([
+        x.get("originalTitle") or "",
+        x.get("originalSummary") or "",
+    ]).lower()
+    x["analystPriority"] = is_broker_action_text(blob)
+
 # Score + deduplicate news.
 # Goal: "latest + important", rather than simply newest.
 def importance_score(x):
@@ -1758,7 +1789,7 @@ def _tier1_reason(x):
         "raises target", "raised target", "cuts target", "cut target",
         "lowers target", "lowered target", "boosts target", "boosted target"
     ]
-    if any(k in blob for k in broker_terms):
+    if is_broker_action_text(blob):
         positive = any(k in blob for k in [
             "price target raised","raises price target","raised price target",
             "price target increased","boosts price target","target raised",
@@ -1864,22 +1895,34 @@ def _push_title(x, category):
     ticker = (x.get("ticker") or "MARKET").upper()
     if ticker == "MARKET":
         ticker = "美股市場"
+
+    headline = (x.get("title") or x.get("originalTitle") or "").strip()
+    if category == "券商" and headline:
+        compact = headline.replace(ticker, "").strip(" ｜-—")
+        return f"{ticker}｜{compact}"[:120]
+
     return f"{ticker}｜{category}"
 
 def _push_message(x, reason):
     title = (x.get("title") or x.get("originalTitle") or "").strip()
-    if not title:
-        title = reason
+    summary = (x.get("summary") or x.get("originalSummary") or "").strip()
 
-    # Prefer the normalized translated headline, because analyst headlines may
-    # already contain new/old PT values and rating changes.
-    msg = title
+    lines = []
+    if title:
+        lines.append(f"事件：{title}")
 
-    # Add a second line only when it adds information rather than repeating the title.
-    if reason and reason not in title:
-        msg += f"\n{reason}"
+    if summary:
+        clean = re.sub(r"\s+", " ", summary).strip()
+        lines.append(f"重點：{clean[:320]}")
+    elif reason:
+        lines.append(f"重點：{reason}")
 
-    return msg[:900]
+    brief = x.get("investorBrief") or {}
+    takeaway = (brief.get("takeaway") or "").strip() if isinstance(brief, dict) else ""
+    if takeaway:
+        lines.append(f"投資意義：{takeaway[:240]}")
+
+    return "\n".join(lines)[:900]
 
 
 def _send_pushover(title, message, url=None):

@@ -148,7 +148,21 @@ function extMove(z){
  if((st==="POST"||st==="POSTPOST") && z.postMarketChangePct!=null)
    return `<div class="ext ${cls(z.postMarketChangePct)}">盤後 ${fmt(z.postMarketChangePct)}</div>`;
  return "";
-} const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});}; const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
+} const newsDate=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleDateString("zh-TW",{timeZone:"Asia/Taipei",year:"numeric",month:"2-digit",day:"2-digit"});};
+const newsExactTime=ts=>{if(!ts)return"";const d=new Date(ts);if(Number.isNaN(d.getTime()))return"";return d.toLocaleString("zh-TW",{timeZone:"Asia/Taipei",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false});};
+function newsAge(ts){
+ if(!ts)return"";
+ const d=new Date(ts); if(Number.isNaN(d.getTime()))return"";
+ const sec=Math.max(0,Math.floor((Date.now()-d.getTime())/1000));
+ if(sec<60)return"剛剛";
+ const min=Math.floor(sec/60);
+ if(min<60)return`${min} 分鐘前`;
+ const hr=Math.floor(min/60);
+ if(hr<24)return`${hr} 小時前`;
+ const day=Math.floor(hr/24);
+ if(day<7)return`${day} 天前`;
+ return newsDate(ts);
+} const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
 document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
 
 let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={},__filerBacktests={},__memberPerformance=[];
@@ -441,7 +455,7 @@ function openNewsDetail(x){
  if(!modal)return;
  const ticker=x.ticker==="MARKET"?"美股市場":(x.ticker||"");
  document.getElementById("newsDetailTicker").textContent=ticker+(x.group?`｜${x.group}`:"");
- document.getElementById("newsDetailMeta").textContent=[newsDate(x.ts),x.tag].filter(Boolean).join("｜");
+ document.getElementById("newsDetailMeta").textContent=[newsAge(x.ts),newsExactTime(x.ts),x.tag].filter(Boolean).join("｜");
  document.getElementById("newsDetailTitle").textContent=x.title||x.originalTitle||"";
  const summary=(x.summary||"").trim();
  const brief=x.investorBrief||{event:(summary||x.title||""),numbers:[],takeaway:fallbackInvestorTakeaway(x)};
@@ -528,7 +542,7 @@ function renderNews(){
    const c=document.createElement("article");
    c.className="news";
    const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";
-   c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${newsDate(x.ts)?`<div class="newsdate">${newsDate(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
+   c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${x.ts?`<div class="newsdate">${newsAge(x.ts)}｜${newsExactTime(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
    c.addEventListener("click",(e)=>{
      if(e.target.closest("a"))return;
      openNewsDetail(x);
@@ -595,5 +609,5 @@ scrollTopBtn?.addEventListener("click",()=>{
 });
 updateScrollTopBtn();
 
-setInterval(()=>load().catch(()=>{}),300000);
+setInterval(()=>load().catch(()=>{}),300000);\nsetInterval(()=>{if(document.getElementById("news")?.classList.contains("on"))renderNews();},60000);
 </script></body></html>
