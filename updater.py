@@ -308,7 +308,7 @@ BROKER_NAMES = [
     "Cowen", "Stifel", "Susquehanna", "Rosenblatt", "KeyBanc", "Piper Sandler",
     "Truist", "Deutsche Bank", "Cantor Fitzgerald", "Baird", "Oppenheimer",
     "Loop Capital", "Wedbush", "Benchmark", "HSBC", "BMO Capital", "Scotiabank",
-    "DA Davidson", "William Blair", "Craig-Hallum"
+    "DA Davidson", "William Blair", "Craig-Hallum", "Tigress Financial", "Tigress"
 ]
 
 def _fmt_target(v):
@@ -1554,6 +1554,107 @@ for x in news:
 for x in news:
     if x.get("analystPriority"):
         x["title"] = normalize_analyst_title(x)
+
+
+def _first_sentences(text, n=2, max_chars=260):
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    if not text:
+        return ""
+    parts = re.split(r"(?<=[。！？.!?])\s+", text)
+    parts = [p.strip() for p in parts if p.strip()]
+    out = " ".join(parts[:n]) if parts else text
+    return out[:max_chars].rstrip()
+
+def _extract_key_numbers(text):
+    text = text or ""
+    patterns = [
+        r"\$[\d,.]+\s*(?:billion|million|B|M)?",
+        r"\b\d+(?:\.\d+)?\s*%",
+        r"\b\d+(?:\.\d+)?\s*(?:MW|GW|TB|GB|Gbps|Tbps)\b",
+        r"\b\d+(?:\.\d+)?\s*(?:billion|million)\b",
+    ]
+    vals = []
+    for pat in patterns:
+        for m in re.finditer(pat, text, re.I):
+            v = m.group(0).strip()
+            if v not in vals:
+                vals.append(v)
+            if len(vals) >= 4:
+                return vals
+    return vals
+
+def build_investor_brief(x):
+    title = (x.get("title") or "").strip()
+    zh_summary = (x.get("summary") or "").strip()
+    original = " ".join([
+        x.get("originalTitle") or "",
+        x.get("originalSummary") or "",
+    ]).strip()
+    blob = original.lower()
+
+    event = _first_sentences(zh_summary, n=2, max_chars=260) or title
+    numbers = _extract_key_numbers(original)
+
+    if x.get("analystPriority"):
+        return {
+            "event": title,
+            "numbers": numbers,
+            "takeaway": "券商正在調整對公司未來獲利／估值的預期；重點看評級是否改變、新舊目標價，以及新目標價相對目前股價還有多少空間"
+        }
+
+    if any(k in blob for k in ["nuclear", "power plant", "electricity", "megawatt", " mw", "gigawatt", " gw"]) and any(
+        k in blob for k in ["ai", "data center", "datacenter", "google", "microsoft", "amazon", "meta"]
+    ):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "這不是單純綠電新聞，重點是 AI 算力正在把「電力供給」變成擴張瓶頸；大型科技公司開始直接參與新增或升級發電能力，對核電、電網與資料中心電力設備需求是偏正面的產業訊號"
+        }
+
+    if any(k in blob for k in ["guidance", "outlook", "forecast", "earnings", "revenue", "eps"]):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "這類消息會直接改變市場對未來營收、EPS 與估值的預期；比單季已公布數字更重要的是公司是否上修／下修後續展望"
+        }
+
+    if any(k in blob for k in ["order", "contract", "customer", "agreement", "deal", "partnership"]):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "投資重點是這項合作／訂單能否轉成實際營收，以及金額、出貨時程與客戶是否具有延續性；若能提高訂單能見度，通常比單純題材更有意義"
+        }
+
+    if any(k in blob for k in ["shortage", "undersupply", "capacity", "supply constraint", "tight supply", "pricing"]):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "供需緊張通常有利價格與毛利，但也可能限制出貨量；要進一步看公司是「受惠漲價」還是「被缺料卡住營收」"
+        }
+
+    if any(k in blob for k in ["launch", "unveil", "approval", "approved", "product"]):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "先看這項產品／核准是否會帶來新的營收來源，再看量產時間、客戶採用與市場規模；只有發布產品本身不一定等於短期財務貢獻"
+        }
+
+    if any(k in blob for k in ["artificial intelligence", " ai ", "data center", "datacenter"]):
+        return {
+            "event": event,
+            "numbers": numbers,
+            "takeaway": "核心在於這則消息是否增加 AI 基礎建設需求、算力使用量或相關資本支出；如果只是概念性合作，仍要等訂單與財測確認"
+        }
+
+    return {
+        "event": event,
+        "numbers": numbers,
+        "takeaway": "先看這件事是否會影響公司的營收、毛利、訂單能見度或市場預期；目前來源若沒有提供財務量化資訊，應視為題材性訊號而不是直接等同獲利成長"
+    }
+
+for x in news:
+    x["investorBrief"] = build_investor_brief(x)
+
 
 
 # ---------- Daily U.S. market Top 10 ----------

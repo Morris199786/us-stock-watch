@@ -27,6 +27,13 @@
 .newsdetailClose{width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--p);color:var(--txt);font-size:22px}
 .newsdetailBody{padding:20px}.newsdetailTitle{font-size:24px;line-height:1.42;font-weight:900}
 .newsdetailBox{margin-top:16px;background:#111d2e;border:1px solid var(--line);border-radius:14px;padding:15px;font-size:15px;line-height:1.7;color:#e5edf7}
+
+.newsbrief{margin-top:16px;display:grid;gap:10px}
+.newsbriefRow{background:#111d2e;border:1px solid var(--line);border-radius:14px;padding:14px 15px}
+.newsbriefLabel{font-size:12px;font-weight:900;color:var(--acc);margin-bottom:6px}
+.newsbriefText{font-size:15px;line-height:1.65;color:#e5edf7}
+.newsbriefNums{display:flex;flex-wrap:wrap;gap:7px}
+.newsbriefNum{display:inline-block;padding:5px 9px;border-radius:999px;background:var(--p2);border:1px solid var(--line);font-size:13px;font-weight:850;color:#f6fbff}
 .newsdetailOriginal{margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:var(--muted);line-height:1.6}
 .newsdetailActions{display:flex;gap:10px;margin-top:18px}.newsdetailActions a{display:inline-block;padding:11px 14px;border-radius:11px;background:var(--p2);border:1px solid var(--line);color:var(--acc);text-decoration:none;font-weight:800}
 @media(max-width:720px){.grid,.newsgrid{grid-template-columns:1fr}}
@@ -122,6 +129,7 @@
     </div>
     <div class="newsdetailBody">
       <div id="newsDetailTitle" class="newsdetailTitle"></div>
+      <div id="newsDetailBrief" class="newsbrief"></div>
       <div id="newsDetailSummary" class="newsdetailBox"></div>
       <div id="newsDetailOriginal" class="newsdetailOriginal"></div>
       <div class="newsdetailActions">
@@ -416,6 +424,18 @@ async function load(){
 }
 window.__top10Mode=false;
 
+function escapeHtml(s){
+ return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function fallbackInvestorTakeaway(x){
+ const blob=((x.originalTitle||"")+" "+(x.originalSummary||"")).toLowerCase();
+ if(x.analystPriority)return "券商調整重點看評級、新舊目標價與調整理由，以及新目標價相對目前股價的空間";
+ if((/nuclear|power plant|electricity|megawatt|\bmw\b|gigawatt|\bgw\b/.test(blob))&&(/\bai\b|data center|datacenter|google|microsoft|amazon|meta/.test(blob)))return "重點不是單純綠電，而是 AI 算力正在把電力供給變成擴張瓶頸；大型科技公司直接參與發電能力擴張，對核電、電網與資料中心電力設備需求偏正面";
+ if(/guidance|outlook|forecast|earnings|revenue|eps/.test(blob))return "重點看這則消息是否改變未來營收、EPS 與公司財測，而不是只看已公布的單季數字";
+ if(/order|contract|customer|agreement|deal|partnership/.test(blob))return "重點看合作或訂單能否轉成實際營收，以及金額、時程與客戶是否具有延續性";
+ if(/shortage|undersupply|capacity|supply constraint|tight supply|pricing/.test(blob))return "供需緊張可能有利價格與毛利，也可能限制出貨；要判斷公司究竟是受惠漲價還是被缺料卡住營收";
+ return "先看這件事是否會影響營收、毛利、訂單能見度或公司展望；若沒有量化財務資訊，先視為題材訊號";
+}
 function openNewsDetail(x){
  const modal=document.getElementById("newsDetail");
  if(!modal)return;
@@ -424,7 +444,34 @@ function openNewsDetail(x){
  document.getElementById("newsDetailMeta").textContent=[newsDate(x.ts),x.tag].filter(Boolean).join("｜");
  document.getElementById("newsDetailTitle").textContent=x.title||x.originalTitle||"";
  const summary=(x.summary||"").trim();
- document.getElementById("newsDetailSummary").textContent=summary||"目前來源只提供標題，尚無可用的中文摘要。";
+ const brief=x.investorBrief||{event:(summary||x.title||""),numbers:[],takeaway:fallbackInvestorTakeaway(x)};
+ const eventText=(brief.event||summary||x.title||"").trim();
+ const takeaway=(brief.takeaway||fallbackInvestorTakeaway(x)).trim();
+ const nums=Array.isArray(brief.numbers)?brief.numbers.filter(Boolean):[];
+
+ const briefEl=document.getElementById("newsDetailBrief");
+ if(briefEl){
+   briefEl.innerHTML=`
+     <div class="newsbriefRow">
+       <div class="newsbriefLabel">新聞重點</div>
+       <div class="newsbriefText">${escapeHtml(eventText)}</div>
+     </div>
+     ${nums.length?`<div class="newsbriefRow">
+       <div class="newsbriefLabel">關鍵數字</div>
+       <div class="newsbriefNums">${nums.map(v=>`<span class="newsbriefNum">${escapeHtml(v)}</span>`).join("")}</div>
+     </div>`:""}
+     <div class="newsbriefRow">
+       <div class="newsbriefLabel">投資上怎麼看</div>
+       <div class="newsbriefText">${escapeHtml(takeaway)}</div>
+     </div>
+   `;
+ }
+
+ const sumEl=document.getElementById("newsDetailSummary");
+ if(sumEl){
+   sumEl.style.display=summary?"block":"none";
+   sumEl.textContent=summary?`來源摘要：${summary}`:"";
+ }
  const original=(x.originalTitle||"").trim();
  document.getElementById("newsDetailOriginal").textContent=original&&original!==(x.title||"")?`原始英文標題：${original}`:"";
  const a=document.getElementById("newsDetailSource");
