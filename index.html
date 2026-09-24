@@ -435,6 +435,12 @@ async function load(){
  window.__top10Date=n.top10Date||"";
  window.__top10Count=n.top10Count||0;
  renderNews();
+
+ // Pushover deep link: open the exact matching news item once data is loaded.
+ if(!window.__deepLinkHandled){
+   window.__deepLinkHandled=true;
+   openDeepLinkedNews();
+ }
 }
 window.__top10Mode=false;
 
@@ -450,6 +456,39 @@ function fallbackInvestorTakeaway(x){
  if(/shortage|undersupply|capacity|supply constraint|tight supply|pricing/.test(blob))return "供需緊張可能有利價格與毛利，也可能限制出貨；要判斷公司究竟是受惠漲價還是被缺料卡住營收";
  return "先看這件事是否會影響營收、毛利、訂單能見度或公司展望；若沒有量化財務資訊，先視為題材訊號";
 }
+function newsDeepKey(x){
+ let ticker=String(x.ticker||"MARKET").toUpperCase().trim();
+ let title=String(x.originalTitle||x.title||"").toLowerCase().trim();
+
+ // Mirror updater.py _push_key normalization.
+ title=title.replace(/\s+-\s+(reuters|bloomberg|benzinga|investing\.com|yahoo finance|marketwatch|barron's|thefly|seeking alpha)\s*$/i,"");
+ title=title.replace(/\b(by investing\.com|via reuters|via bloomberg)\b/gi,"");
+ title=title.replace(/[^a-z0-9\u3400-\u9fff]+/g," ");
+ title=title.replace(/\s+/g," ").trim();
+
+ return `${ticker}|${title}`.slice(0,900);
+}
+
+function openDeepLinkedNews(){
+ const params=new URLSearchParams(location.search);
+ const wanted=(params.get("news")||"").trim();
+ if(!wanted)return false;
+
+ const all=[...(window.__newsItems||[]),...(window.__historyItems||[])];
+ const item=all.find(x=>newsDeepKey(x)===wanted);
+ if(!item)return false;
+
+ // Switch to 市場新聞 so closing the modal leaves the user in the right tab.
+ document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+ document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));
+ document.querySelector('.tab[data-p="news"]')?.classList.add("on");
+ document.getElementById("news")?.classList.add("on");
+
+ // Show the exact article inside 美股觀察.
+ setTimeout(()=>openNewsDetail(item),60);
+ return true;
+}
+
 function openNewsDetail(x){
  const modal=document.getElementById("newsDetail");
  if(!modal)return;
@@ -500,6 +539,12 @@ function closeNewsDetail(){
  modal.classList.remove("on");
  modal.setAttribute("aria-hidden","true");
  document.body.style.overflow="";
+
+ const u=new URL(location.href);
+ if(u.searchParams.has("news")){
+   u.searchParams.delete("news");
+   history.replaceState(null,"",u.pathname+(u.search?u.search:"")+(u.hash||""));
+ }
 }
 function renderNews(){
  const ng=document.getElementById("newsgrid"); if(!ng)return;

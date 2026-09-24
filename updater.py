@@ -2050,10 +2050,16 @@ def process_tier1_pushes(news_items):
         if key in seen:
             continue
 
+        deep_key = _push_key(x)
+        deep_url = (
+            "https://morris199786.github.io/us-stock-watch/?news="
+            + urllib.parse.quote(deep_key, safe="")
+        )
+
         ok, status = _send_pushover(
             _push_title(x, category),
             _push_message(x, reason),
-            url="https://morris199786.github.io/us-stock-watch/"
+            url=deep_url
         )
 
         if ok:
