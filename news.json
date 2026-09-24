@@ -1,8 +1,10 @@
 {
-  "updatedAt": "2026-09-24 08:16 台灣時間",
+  "updatedAt": "2026-09-24 08:19 台灣時間",
   "historyUpdatedDate": "2026-09-24",
   "historyLastAttemptAt": "2026-09-23T16:21:56.248912+00:00",
   "historyItemCount": 780,
+  "top10Date": "2026-09-23",
+  "top10Count": 10,
   "items": [
     {
       "ticker": "GOOGL",
@@ -17,9 +19,11 @@
       "sourceType": "ticker_feed",
       "analystPriority": true,
       "movePct": -3.998298785943266,
-      "score": 166.5,
+      "score": 172.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 1
     },
     {
       "ticker": "MSFT",
@@ -33,9 +37,11 @@
       "ts": "2026-09-23T18:46:47+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "score": 160.5,
+      "score": 166.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "MSFT",
@@ -49,27 +55,12 @@
       "ts": "2026-09-23T20:14:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 0.01196731225554526,
+      "movePct": 0.5200803212851435,
       "score": 157.5,
       "featured": true,
-      "translated": true
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SanDisk 2,400 美元的目標價點燃了每隻內存股的熱情",
-      "summary": "One analyst's initiation on SanDisk sent shockwaves through every memory stock at once, and the reason why suggests this may be a very different kind of NAND cycle than anything the market has seen before.",
-      "originalTitle": "A $2,400 Price Target on SanDisk Just Lit a Fire Under Every Memory Stock",
-      "originalSummary": "One analyst's initiation on SanDisk sent shockwaves through every memory stock at once, and the reason why suggests this may be a very different kind of NAND cycle than anything the market has seen before.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-400-price-target-sandisk-183305916.html",
-      "ts": "2026-09-23T18:33:05+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": -4.325087297031116,
-      "score": 157.5,
-      "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 3
     },
     {
       "ticker": "CRM",
@@ -83,10 +74,12 @@
       "ts": "2026-09-23T21:59:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 2.002351060166707,
+      "movePct": 1.8432784636488453,
       "score": 156.0,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 4
     },
     {
       "ticker": "SK Hynix",
@@ -102,7 +95,66 @@
       "analystPriority": true,
       "score": 156.0,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 5
+    },
+    {
+      "ticker": "SNDK",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "SanDisk 2,400 美元的目標價點燃了每隻內存股的熱情",
+      "summary": "One analyst's initiation on SanDisk sent shockwaves through every memory stock at once, and the reason why suggests this may be a very different kind of NAND cycle than anything the market has seen before.",
+      "originalTitle": "A $2,400 Price Target on SanDisk Just Lit a Fire Under Every Memory Stock",
+      "originalSummary": "One analyst's initiation on SanDisk sent shockwaves through every memory stock at once, and the reason why suggests this may be a very different kind of NAND cycle than anything the market has seen before.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-400-price-target-sandisk-183305916.html",
+      "ts": "2026-09-23T18:33:05+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -3.734420044090214,
+      "score": 153.0,
+      "featured": true,
+      "translated": true,
+      "top10": true,
+      "top10Rank": 6
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "微軟股票贏得升級。為什麼這位分析師認為有 15% 的上漲空間。",
+      "summary": "隨著 OpenAI 對微軟營收貢獻的加速，微軟股票動能預計將持續。",
+      "originalTitle": "Microsoft Stock Wins Upgrade. Why This Analyst Sees 15% Upside.",
+      "originalSummary": "Microsoft stock momentum is expected to continue as OpenAI revenue contribution to Microsoft accelerates.",
+      "url": "https://www.barrons.com/articles/microsoft-stock-upgrade-azure-copilot-78193401?siteid=yhoof2&yptr=yahoo",
+      "ts": "2026-09-23T15:25:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -0.4495436379756468,
+      "score": 144.3,
+      "featured": true,
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "META",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "納斯達克攀升，麥當勞投資者日更新",
+      "summary": "8:30 主持人 Julie Hyman、Jake Conley 和 Pras Subramanian 詳細介紹了當天的頭條新聞，包括人工智能交易推高納斯達克指數 (^IXIC)、Meta 的 (META) Muse AI 引發新的人工智能顛覆擔憂，以及麥當勞 (MCD) 下跌 5%，因為這家快餐巨頭計劃在 2036 億美元升級餐廳和投資商。",
+      "originalTitle": "Nasdaq climbs higher, McDonald's investor day updates",
+      "originalSummary": "The 8:30 Hosts Julie Hyman, Jake Conley, and Pras Subramanian break down the day's biggest headlines, including the AI trade sending the Nasdaq (^IXIC) higher, Meta's (META) Muse AI sparking fresh AI-disruption fears, and McDonald's (MCD) dipping 5% as the fast-food giant plans to invest $8.5 billion in restaurant upgrades and franchisee support through 2036.",
+      "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
+      "ts": "2026-09-23T14:14:49+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 1.0188774021002045,
+      "score": 144.3,
+      "featured": true,
+      "translated": true,
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "SNOW",
@@ -116,10 +168,12 @@
       "ts": "2026-09-23T16:00:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.6498516320474823,
+      "movePct": -0.5288332986719713,
       "score": 141.7,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 8
     },
     {
       "ticker": "TEL",
@@ -136,7 +190,28 @@
       "movePct": 0.42626943976016296,
       "score": 141.7,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": true,
+      "top10Rank": 9
+    },
+    {
+      "ticker": "META",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "分析師引用 AI 勢頭和收入成長路徑，Meta 目標價升至 900 美元",
+      "summary": "Two major Wall Street firms just handed Meta dramatically higher price targets, and the reasoning goes well beyond advertising. The real question is whether Meta's AI spending spree is finally opening doors that could redefine its growth story.",
+      "originalTitle": "Meta Price Targets Hiked to $900 as Analyst Cite AI Momentum, Revenue Growth Paths",
+      "originalSummary": "Two major Wall Street firms just handed Meta dramatically higher price targets, and the reasoning goes well beyond advertising. The real question is whether Meta's AI spending spree is finally opening doors that could redefine its growth story.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-price-targets-hiked-900-164509771.html",
+      "ts": "2026-09-23T16:45:09+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 1.5053691169028438,
+      "score": 140.4,
+      "featured": true,
+      "translated": true,
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MU",
@@ -153,7 +228,9 @@
       "movePct": -2.3054061953311944,
       "score": 139.1,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CRWV",
@@ -167,44 +244,12 @@
       "ts": "2026-09-23T16:10:29+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.6288171856114078,
+      "movePct": 0.16136468418626038,
       "score": 139.1,
       "featured": true,
-      "translated": true
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "微軟股票贏得升級。為什麼這位分析師認為有 15% 的上漲空間。",
-      "summary": "隨著 OpenAI 對微軟營收貢獻的加速，微軟股票動能預計將持續。",
-      "originalTitle": "Microsoft Stock Wins Upgrade. Why This Analyst Sees 15% Upside.",
-      "originalSummary": "Microsoft stock momentum is expected to continue as OpenAI revenue contribution to Microsoft accelerates.",
-      "url": "https://www.barrons.com/articles/microsoft-stock-upgrade-azure-copilot-78193401?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-09-23T15:25:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": -0.4495436379756468,
-      "score": 139.1,
-      "featured": true,
-      "translated": true
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "納斯達克攀升，麥當勞投資者日更新",
-      "summary": "8:30 主持人 Julie Hyman、Jake Conley 和 Pras Subramanian 詳細介紹了當天的頭條新聞，包括人工智能交易推高納斯達克指數 (^IXIC)、Meta 的 (META) Muse AI 引發新的人工智能顛覆擔憂，以及麥當勞 (MCD) 下跌 5%，因為這家快餐巨頭計劃在 2036 億美元升級餐廳和投資商。",
-      "originalTitle": "Nasdaq climbs higher, McDonald's investor day updates",
-      "originalSummary": "The 8:30 Hosts Julie Hyman, Jake Conley, and Pras Subramanian break down the day's biggest headlines, including the AI trade sending the Nasdaq (^IXIC) higher, Meta's (META) Muse AI sparking fresh AI-disruption fears, and McDonald's (MCD) dipping 5% as the fast-food giant plans to invest $8.5 billion in restaurant upgrades and franchisee support through 2036.",
-      "url": "https://finance.yahoo.com/video/nasdaq-climbs-higher-mcdonalds-investor-day-updates-141449878.html",
-      "ts": "2026-09-23T14:14:49+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 0.41835357624830927,
-      "score": 139.1,
-      "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CIEN",
@@ -218,10 +263,12 @@
       "ts": "2026-09-23T12:38:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -3.6987932247415922,
+      "movePct": -3.4322769698285183,
       "score": 139.1,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -237,7 +284,9 @@
       "analystPriority": true,
       "score": 136.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -253,7 +302,9 @@
       "analystPriority": true,
       "score": 136.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MXL",
@@ -269,7 +320,9 @@
       "analystPriority": true,
       "score": 136.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MXL",
@@ -285,24 +338,28 @@
       "analystPriority": true,
       "score": 136.5,
       "featured": true,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CRWV",
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "隨著人工智慧運算需求的增強，CoreWeave 獲得瑞銀「買入」評級",
-      "summary": "CoreWeave (NASDAQ:CRWV) shares received an initial 'Buy' rating and a $120 price target from UBS, implying about 40% upside, as the bank said strong artificial intelligence (AI) compute demand could support further growth. UBS said Street sentiment towards CoreWeave remained cautious,...",
+      "summary": "",
       "originalTitle": "CoreWeave gets 'buy' rating from UBS as AI compute demand strengthens",
       "originalSummary": "CoreWeave (NASDAQ:CRWV) shares received an initial 'Buy' rating and a $120 price target from UBS, implying about 40% upside, as the bank said strong artificial intelligence (AI) compute demand could support further growth. UBS said Street sentiment towards CoreWeave remained cautious,...",
       "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-gets-buy-rating-ubs-173000644.html",
       "ts": "2026-09-23T17:30:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.6288171856114078,
+      "movePct": 0.16136468418626038,
       "score": 135.2,
-      "featured": true,
-      "translated": true
+      "featured": false,
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SK Hynix",
@@ -319,24 +376,9 @@
       "movePct": 1.1956521739130421,
       "score": 135.2,
       "featured": false,
-      "translated": true
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "分析師引用 AI 勢頭和收入成長路徑，Meta 目標價升至 900 美元",
-      "summary": "",
-      "originalTitle": "Meta Price Targets Hiked to $900 as Analyst Cite AI Momentum, Revenue Growth Paths",
-      "originalSummary": "Two major Wall Street firms just handed Meta dramatically higher price targets, and the reasoning goes well beyond advertising. The real question is whether Meta's AI spending spree is finally opening doors that could redefine its growth story.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-price-targets-hiked-900-164509771.html",
-      "ts": "2026-09-23T16:45:09+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 1.5053691169028438,
-      "score": 135.2,
-      "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MU",
@@ -353,7 +395,9 @@
       "movePct": -2.9265162211296714,
       "score": 135.2,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MU",
@@ -370,7 +414,9 @@
       "movePct": -2.2633567941325317,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMD",
@@ -387,7 +433,9 @@
       "movePct": -1.566749963024383,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CSCO",
@@ -403,7 +451,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "INTC",
@@ -420,7 +470,9 @@
       "movePct": -2.318499109807992,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "INTC",
@@ -437,7 +489,9 @@
       "movePct": -2.564001040156172,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "VIAV",
@@ -453,7 +507,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CSCO",
@@ -469,7 +525,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -485,7 +543,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "VIAV",
@@ -501,7 +561,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -518,7 +580,9 @@
       "movePct": 0.2132180132380146,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "ON",
@@ -534,7 +598,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TEL",
@@ -550,7 +616,9 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "APH",
@@ -566,24 +634,28 @@
       "analystPriority": true,
       "score": 132.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
+      "ticker": "BE",
+      "group": "電力／儲能／資料中心能源",
       "tag": "利多",
-      "title": "瑞銀 (UBS) 在非共識電話會議中將 CoreWeave 評級定為“買入”，預計將上漲 40%",
+      "title": "2026 年 9 月值得關注的 3 檔電網股票",
       "summary": "",
-      "originalTitle": "UBS starts CoreWeave at Buy in non-consensus call, sees 40% upside",
-      "originalSummary": "Investing.com -- UBS launched coverage of CoreWeave with a Buy rating and a $120 price target this week, implying about 40% upside, making a \"non-consensus positive call\" on the AI infrastructure provider.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-starts-coreweave-buy-non-121226655.html",
-      "ts": "2026-09-23T12:12:26+00:00",
+      "originalTitle": "Top 3 Grid Stocks To Watch In September 2026",
+      "originalSummary": "The Federal Reserve’s latest rate hike has pushed borrowing costs higher, which puts even more pressure on aging energy infrastructure that cannot be upgraded cheaply. Capital is getting pricier while demand for electricity from AI data centers and electrification keeps building. That mix creates a potential opening for investors looking at the specialists that build and equip the power network. This article walks through three grid technology stocks from our curated list. The three stocks...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-grid-stocks-watch-081746937.html",
+      "ts": "2026-09-23T08:17:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.6288171856114078,
-      "score": 117.7,
+      "movePct": -0.4845767186200334,
+      "score": 125.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AAPL",
@@ -598,9 +670,30 @@
       "sourceType": "ticker_feed",
       "analystPriority": true,
       "movePct": -1.01823386141624,
+      "score": 122.1,
+      "featured": false,
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "利多",
+      "title": "瑞銀 (UBS) 在非共識電話會議中將 CoreWeave 評級定為“買入”，預計將上漲 40%",
+      "summary": "",
+      "originalTitle": "UBS starts CoreWeave at Buy in non-consensus call, sees 40% upside",
+      "originalSummary": "Investing.com -- UBS launched coverage of CoreWeave with a Buy rating and a $120 price target this week, implying about 40% upside, making a \"non-consensus positive call\" on the AI infrastructure provider.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-starts-coreweave-buy-non-121226655.html",
+      "ts": "2026-09-23T12:12:26+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 0.16136468418626038,
       "score": 117.7,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "VIAV",
@@ -616,7 +709,9 @@
       "analystPriority": true,
       "score": 117.7,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "LITE",
@@ -632,7 +727,9 @@
       "analystPriority": true,
       "score": 117.7,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "PLTR",
@@ -648,24 +745,9 @@
       "analystPriority": true,
       "score": 117.7,
       "featured": false,
-      "translated": true
-    },
-    {
-      "ticker": "BE",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "利多",
-      "title": "2026 年 9 月值得關注的 3 檔電網股票",
-      "summary": "",
-      "originalTitle": "Top 3 Grid Stocks To Watch In September 2026",
-      "originalSummary": "The Federal Reserve’s latest rate hike has pushed borrowing costs higher, which puts even more pressure on aging energy infrastructure that cannot be upgraded cheaply. Capital is getting pricier while demand for electricity from AI data centers and electrification keeps building. That mix creates a potential opening for investors looking at the specialists that build and equip the power network. This article walks through three grid technology stocks from our curated list. The three stocks...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-grid-stocks-watch-081746937.html",
-      "ts": "2026-09-23T08:17:46+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": -0.7895306078304132,
-      "score": 117.7,
-      "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -681,7 +763,9 @@
       "analystPriority": true,
       "score": 115.5,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -697,7 +781,9 @@
       "analystPriority": true,
       "score": 115.5,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CSCO",
@@ -713,7 +799,9 @@
       "analystPriority": true,
       "score": 115.5,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "LITE",
@@ -729,7 +817,9 @@
       "analystPriority": true,
       "score": 114.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SNDK",
@@ -745,7 +835,9 @@
       "analystPriority": true,
       "score": 114.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "VICR",
@@ -761,7 +853,9 @@
       "analystPriority": true,
       "score": 114.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "PLTR",
@@ -777,7 +871,9 @@
       "analystPriority": true,
       "score": 114.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "PLTR",
@@ -793,7 +889,9 @@
       "analystPriority": true,
       "score": 114.4,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "META",
@@ -809,7 +907,9 @@
       "analystPriority": true,
       "score": 112.2,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "VICR",
@@ -825,7 +925,9 @@
       "analystPriority": true,
       "score": 89.6,
       "featured": false,
-      "translated": true
+      "translated": true,
+      "top10": false,
+      "top10Rank": null
     }
   ],
   "historyItems": [
