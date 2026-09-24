@@ -497,16 +497,24 @@ function openNewsDetail(x){
  document.getElementById("newsDetailMeta").textContent=[newsAge(x.ts),newsExactTime(x.ts),x.tag].filter(Boolean).join("｜");
  document.getElementById("newsDetailTitle").textContent=x.title||x.originalTitle||"";
  const summary=(x.summary||"").trim();
- const brief=x.investorBrief||{event:(summary||x.title||""),numbers:[],takeaway:fallbackInvestorTakeaway(x)};
+ const brief=x.investorBrief||{
+   event:(summary||x.title||""),
+   numbers:[],
+   why:fallbackInvestorTakeaway(x),
+   stance:"",
+   watch:[]
+ };
  const eventText=(brief.event||summary||x.title||"").trim();
- const takeaway=(brief.takeaway||fallbackInvestorTakeaway(x)).trim();
+ const why=(brief.why||brief.takeaway||fallbackInvestorTakeaway(x)).trim();
+ const stance=(brief.stance||"").trim();
  const nums=Array.isArray(brief.numbers)?brief.numbers.filter(Boolean):[];
+ const watch=Array.isArray(brief.watch)?brief.watch.filter(Boolean):[];
 
  const briefEl=document.getElementById("newsDetailBrief");
  if(briefEl){
    briefEl.innerHTML=`
      <div class="newsbriefRow">
-       <div class="newsbriefLabel">新聞重點</div>
+       <div class="newsbriefLabel">發生什麼事</div>
        <div class="newsbriefText">${escapeHtml(eventText)}</div>
      </div>
      ${nums.length?`<div class="newsbriefRow">
@@ -514,9 +522,17 @@ function openNewsDetail(x){
        <div class="newsbriefNums">${nums.map(v=>`<span class="newsbriefNum">${escapeHtml(v)}</span>`).join("")}</div>
      </div>`:""}
      <div class="newsbriefRow">
-       <div class="newsbriefLabel">投資上怎麼看</div>
-       <div class="newsbriefText">${escapeHtml(takeaway)}</div>
+       <div class="newsbriefLabel">為什麼重要</div>
+       <div class="newsbriefText">${escapeHtml(why)}</div>
      </div>
+     ${stance?`<div class="newsbriefRow">
+       <div class="newsbriefLabel">公司／券商怎麼說</div>
+       <div class="newsbriefText">${escapeHtml(stance)}</div>
+     </div>`:""}
+     ${watch.length?`<div class="newsbriefRow">
+       <div class="newsbriefLabel">還要觀察什麼</div>
+       <div class="newsbriefText">${watch.map(v=>"• "+escapeHtml(v)).join("<br>")}</div>
+     </div>`:""}
    `;
  }
 
@@ -587,7 +603,7 @@ function renderNews(){
    const c=document.createElement("article");
    c.className="news";
    const b=x.tag==="利多"?"good":x.tag==="利空"?"bad":"theme";
-   c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${x.ts?`<div class="newsdate">${newsAge(x.ts)}｜${newsExactTime(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
+   c.innerHTML=`<div class="nh"><div>${window.__top10Mode&&x.top10Rank?`<div class="toprank">TOP ${x.top10Rank}</div>`:""}<div class="t">${x.ticker==="MARKET"?"美股市場":x.ticker}</div><div class="n">${x.group}</div>${x.ts?`<div class="newsdate">${newsAge(x.ts)}｜${newsExactTime(x.ts)}</div>`:""}${x.movePct!=null&&Math.abs(x.movePct)>=4?`<div class="move">股價異動 ${fmt(x.movePct)}</div>`:""}${x.sourceType==="moomoo_public"?`<div class="newsdate">來源：moomoo 公開網頁</div>`:""}</div><span class="badge ${b}">${x.tag}</span></div><div class="nb"><div class="head">${x.title}</div>${x.summary?`<div class="desc">${x.summary}</div>`:""}${x.url?`<a class="src" target="_blank" rel="noopener" href="${x.url}">查看原始來源 ↗</a>`:""}</div>`;
    c.addEventListener("click",(e)=>{
      if(e.target.closest("a"))return;
      openNewsDetail(x);

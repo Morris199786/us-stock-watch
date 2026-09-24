@@ -414,6 +414,29 @@ def normalize_analyst_title(x):
         if m:
             new_target = m.group(1)
 
+    # Reverse wording used by many Investing.com headlines:
+    # "$810 price target" / "$810.00 target price"
+    if not new_target:
+        m = re.search(r"\$([\d,.]+)\s+(?:price target|target price)", text, re.I)
+        if m:
+            new_target = m.group(1)
+
+    # Additional target-price wordings used by finance sites.
+    if not new_target:
+        # "$860 price target" / "$860.00 target price"
+        m = re.search(r"\$([\d,.]+)\s+(?:price target|target price)", text, re.I)
+        if m:
+            new_target = m.group(1)
+
+    if not new_target:
+        # "target to $860" / "price target at $860"
+        m = re.search(
+            r"(?:price target|target price|target)\s+(?:is\s+)?(?:now\s+)?(?:to|at)\s+\$?([\d,.]+)",
+            text, re.I
+        )
+        if m:
+            new_target = m.group(1)
+
     # Determine target direction
     target_action = ""
     if any(k in low for k in ["price target raised", "raises price target", "raised its price target",
@@ -440,6 +463,18 @@ def normalize_analyst_title(x):
             rating_action = "重申"
             rating = m.group(1).strip()
 
+    # Reiterated / maintained rating without upgrade or downgrade.
+    if not rating_action:
+        m = re.search(
+            r"\b(?:reiterat(?:e|es|ed|ing)|maintain(?:s|ed|ing)?)\b"
+            r"(?:\s+\w+){0,6}?\s+(?:a\s+)?"
+            r"(Buy|Outperform|Overweight|Neutral|Equal[- ]Weight|Hold|Underperform|Underweight|Sell)\b",
+            text, re.I
+        )
+        if m:
+            rating_action = "重申"
+            rating = m.group(1).strip()
+
     # Build concise investor-style headline
     if broker and ticker and new_target:
         newp = _fmt_target(new_target)
@@ -447,13 +482,18 @@ def normalize_analyst_title(x):
 
         if rating_action and rating:
             rating = re.sub(r"\s+", " ", rating).strip()
+
             if rating_action == "重申":
-                title = f"{broker} 重申 {ticker} {rating}"
-                if target_action:
-                    title += f"，目標價{target_action}至 {newp}"
-                else:
-                    title += f"，目標價 {newp}"
-            elif target_action:
+                # Put the actual target-price change first because that is what
+                # the investor needs to know at a glance.
+                verb = target_action or "調整"
+                title = f"{broker} {verb} {ticker} 目標價至 {newp}"
+                if oldp:
+                    title += f"（原 {oldp}）"
+                title += f"，維持 {rating}"
+                return title
+
+            if target_action:
                 title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價{target_action}至 {newp}"
             else:
                 title = f"{broker} {rating_action} {ticker} 至 {rating}，目標價至 {newp}"
@@ -466,6 +506,8 @@ def normalize_analyst_title(x):
         return title
 
     if broker and ticker and rating_action:
+        if rating_action == "重申":
+            return f"{broker} 重申 {ticker}" + (f" {rating}" if rating else "")
         return f"{broker} {rating_action} {ticker}" + (f" 至 {rating}" if rating else "")
 
     return x.get("title") or raw_title
@@ -767,6 +809,42 @@ def _yahoo_search_context(title, ticker=""):
 
     return "", direct
 
+
+def _has_exact_analyst_target(text):
+    """
+    Whether the available text contains an actual numeric analyst target,
+    not just a percentage change such as 'target raised 26%'.
+    """
+    t = text or ""
+    pats = [
+        r"(?:price target|target price|target)[^$]{0,35}\$[\d,.]+",
+        r"\$[\d,.]+\s+(?:price target|target price)",
+        r"from\s+\$[\d,.]+\s+(?:to|→)\s+\$[\d,.]+",
+    ]
+    return any(re.search(p, t, re.I) for p in pats)
+
+def _analyst_detail_richness(text):
+    """
+    Higher means the snippet contains more useful analyst facts.
+    """
+    t = text or ""
+    score = 0
+    if _has_exact_analyst_target(t):
+        score += 5
+    if re.search(r"from\s+\$[\d,.]+\s+(?:to|→)\s+\$[\d,.]+", t, re.I):
+        score += 4
+    if re.search(r"\b(Buy|Outperform|Overweight|Neutral|Equal[- ]Weight|Hold|Underperform|Underweight|Sell)\b", t, re.I):
+        score += 2
+    score += min(2, len(t) // 180)
+    return score
+
+def _broker_from_text(text):
+    for name in BROKER_NAMES:
+        pat = r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])"
+        if re.search(pat, text or "", re.I):
+            return name
+    return ""
+
 def enrich_analyst_details(items):
     """
     Fill missing analyst summaries in two stages:
@@ -787,7 +865,14 @@ def enrich_analyst_details(items):
     for x in items:
         if not x.get("analystPriority"):
             continue
-        if (x.get("originalSummary") or "").strip():
+        existing_blob = " ".join([
+            x.get("originalTitle") or "",
+            x.get("originalSummary") or "",
+        ]).strip()
+
+        # If the current item already contains an exact target price, no need to
+        # spend another request enriching it.
+        if (x.get("originalSummary") or "").strip() and _has_exact_analyst_target(existing_blob):
             continue
 
         # First: fuzzy-match same-ticker Yahoo feed.
@@ -799,13 +884,20 @@ def enrich_analyst_details(items):
                 best_score, best = s, y
 
         if best is not None and best_score >= 0.52:
-            x["originalSummary"] = (best.get("originalSummary") or "")[:1200]
-            x["summary"] = (best.get("summary") or "")[:500]
-            # Prefer the direct publisher/Yahoo URL over a Google News redirect.
-            if best.get("url"):
-                x["url"] = best["url"]
-            x["detailSource"] = "ticker_feed_match"
-            continue
+            candidate = (best.get("originalSummary") or "").strip()
+            current = (x.get("originalSummary") or "").strip()
+
+            if _analyst_detail_richness(candidate) > _analyst_detail_richness(current):
+                x["originalSummary"] = candidate[:1200]
+                x["summary"] = (best.get("summary") or candidate)[:500]
+                if best.get("url"):
+                    x["url"] = best["url"]
+                x["detailSource"] = "ticker_feed_match"
+
+            if _has_exact_analyst_target(
+                " ".join([x.get("originalTitle") or "", x.get("originalSummary") or ""])
+            ):
+                continue
 
         targets.append(x)
 
@@ -814,17 +906,40 @@ def enrich_analyst_details(items):
     targets = targets[:40]
 
     def one(x):
-        desc, resolved = _yahoo_search_context(
-            x.get("originalTitle") or x.get("title") or "",
-            x.get("ticker") or ""
+        title = x.get("originalTitle") or x.get("title") or ""
+        ticker = x.get("ticker") or ""
+        original_blob = " ".join([
+            x.get("originalTitle") or "",
+            x.get("originalSummary") or "",
+        ])
+        broker = _broker_from_text(original_blob)
+
+        candidates = []
+
+        desc1, url1 = _yahoo_search_context(title, ticker)
+        if desc1:
+            candidates.append((desc1, url1))
+
+        # Second query is intentionally more factual than the media headline.
+        # It helps resolve vague titles such as "Analyst Resets Meta Target".
+        if broker and ticker:
+            q2 = f"{ticker} {broker} price target"
+            desc2, url2 = _yahoo_search_context(q2, ticker)
+            if desc2:
+                candidates.append((desc2, url2))
+
+        desc3, url3 = _fetch_article_context(x.get("url") or "")
+        if desc3:
+            candidates.append((desc3, url3))
+
+        if not candidates:
+            return x, "", ""
+
+        candidates.sort(
+            key=lambda z: _analyst_detail_richness(z[0]),
+            reverse=True
         )
-
-        if not desc:
-            desc2, resolved2 = _fetch_article_context(x.get("url") or "")
-            desc = desc2 or desc
-            resolved = resolved2 or resolved
-
-        return x, desc, resolved
+        return x, candidates[0][0], candidates[0][1]
 
     if targets:
         with ThreadPoolExecutor(max_workers=10) as ex:
@@ -835,9 +950,11 @@ def enrich_analyst_details(items):
                 except Exception:
                     continue
                 if desc:
-                    x["originalSummary"] = desc[:1200]
-                    x["summary"] = desc[:500]
-                    x["detailSource"] = "yahoo_or_article_metadata"
+                    current = (x.get("originalSummary") or "").strip()
+                    if _analyst_detail_richness(desc) > _analyst_detail_richness(current):
+                        x["originalSummary"] = desc[:1200]
+                        x["summary"] = desc[:500]
+                        x["detailSource"] = "yahoo_or_article_metadata"
                 if resolved and "news.google." not in resolved:
                     x["url"] = resolved
 
@@ -972,6 +1089,72 @@ def history_news_search(display_ticker, company_name, symbol, group):
         })
     return out
 
+
+def moomoo_news_search(display_ticker, company_name, symbol, group, move_pct=None):
+    """
+    Search recent public moomoo/Futu web articles via Google News RSS.
+    This does NOT depend on private app APIs or login-only content.
+    It is used as an extra source for the biggest movers each cycle.
+    """
+    q = (
+        f'("{display_ticker}" OR "{company_name}") '
+        f'(site:moomoo.com OR site:futunn.com) when:2d'
+    )
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    })
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            root = ET.fromstring(r.read())
+    except Exception:
+        return []
+
+    out = []
+    now = datetime.now(timezone.utc)
+
+    for item in root.findall(".//item")[:10]:
+        raw_title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = parse_rss_date(item.findtext("pubDate"))
+
+        if pub and now - pub > timedelta(hours=52):
+            continue
+
+        title = re.sub(r"\s+-\s+[^-]{2,80}$", "", raw_title).strip() or raw_title
+
+        if not target_relevance(title, display_ticker, company_name):
+            continue
+
+        blob = title.lower()
+        tag = "題材"
+        if any(k in blob for k in NEG):
+            tag = "利空"
+        elif any(k in blob for k in POS):
+            tag = "利多"
+
+        out.append({
+            "ticker": display_ticker,
+            "group": group,
+            "tag": tag,
+            "title": title,
+            "summary": "",
+            "originalTitle": title,
+            "originalSummary": "",
+            "url": link,
+            "ts": pub.isoformat() if pub else "",
+            "sourceType": "moomoo_public",
+            "analystPriority": is_broker_action_text(blob),
+            "movePct": move_pct,
+        })
+
+    return out
+
+
 def google_news_search(display_ticker, company_name, symbol, group, move_pct):
     """
     Active event search used for large movers.
@@ -1048,6 +1231,113 @@ def google_news_search(display_ticker, company_name, symbol, group, move_pct):
             "sourceType": "active_search",
             "movePct": move_pct
         })
+    return out
+
+
+
+def major_broker_market_scan(targets):
+    """
+    One extra Google News RSS request per cycle for major broker actions.
+    This is deliberately global (not one request per ticker), so it improves
+    recall without doubling request volume across the entire watchlist.
+
+    Example event this is meant to catch:
+      BofA Securities reiterates Buy on Meta stock, $810 price target
+    """
+    broker_terms = (
+        '"BofA Securities" OR "Bank of America" OR JPMorgan OR "JP Morgan" OR Citi OR Citigroup OR '
+        '"Morgan Stanley" OR "Goldman Sachs" OR UBS OR Jefferies OR "Wells Fargo" OR '
+        'Barclays OR Bernstein OR Mizuho OR Evercore OR "Piper Sandler" OR KeyBanc OR '
+        'Wedbush OR "Tigress Financial"'
+    )
+    action_terms = (
+        '"price target" OR "target price" OR upgraded OR downgraded OR '
+        '"initiates coverage" OR "initiated coverage" OR reiterates OR reiterated OR '
+        'maintains OR maintained OR "raises target" OR "cuts target" OR '
+        '"lowers target" OR "boosts target"'
+    )
+
+    q = f'({broker_terms}) ({action_terms}) when:2d'
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q,
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en"
+    })
+
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            root = ET.fromstring(r.read())
+    except Exception:
+        return []
+
+    now = datetime.now(timezone.utc)
+    out = []
+    seen = set()
+
+    # Google News can return a large result set; inspect more than the normal
+    # per-ticker scan, then map each headline back onto the watchlist.
+    for item in root.findall(".//item")[:100]:
+        raw_title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = parse_rss_date(item.findtext("pubDate"))
+
+        if pub and now - pub > timedelta(hours=52):
+            continue
+
+        clean_title = re.sub(r"\s+-\s+[^-]{2,80}$", "", raw_title).strip() or raw_title
+        blob = clean_title.lower()
+
+        if not is_broker_action_text(blob):
+            continue
+
+        # Map one article to the most specific watchlist target.
+        best = None
+        for display_ticker, company_name, symbol, group in targets:
+            if target_relevance(clean_title, display_ticker, company_name):
+                # Prefer explicit ticker mention when several companies might match.
+                explicit = bool(re.search(
+                    rf"(?<![A-Za-z0-9]){re.escape(display_ticker)}(?![A-Za-z0-9])",
+                    clean_title,
+                    re.I
+                ))
+                score = 2 if explicit else 1
+                if best is None or score > best[0]:
+                    best = (score, display_ticker, company_name, symbol, group)
+
+        if best is None:
+            continue
+
+        _, display_ticker, company_name, symbol, group = best
+        dedupe = display_ticker + "|" + re.sub(r"\W+", "", clean_title.lower())
+        if dedupe in seen:
+            continue
+        seen.add(dedupe)
+
+        tag = "題材"
+        if any(k in blob for k in BROKER_NEG):
+            tag = "利空"
+        elif any(k in blob for k in BROKER_POS) or any(k in blob for k in [
+            "reiterates buy", "reiterated buy", "maintains buy", "maintained buy",
+            "reiterates outperform", "reiterates overweight"
+        ]):
+            tag = "利多"
+
+        out.append({
+            "ticker": display_ticker,
+            "group": group,
+            "tag": tag,
+            "title": clean_title,
+            "summary": "",
+            "originalTitle": clean_title,
+            "originalSummary": "",
+            "url": link,
+            "ts": pub.isoformat() if pub else "",
+            "sourceType": "major_broker_global",
+            "analystPriority": True
+        })
+
     return out
 
 
@@ -1292,6 +1582,11 @@ with ThreadPoolExecutor(max_workers=14) as ex:
             pass
 all_news.extend(broker_items)
 
+# One global major-broker pass per cycle.
+# This catches stories that can be missed by the per-ticker RSS ranking,
+# without issuing another request for every stock.
+all_news.extend(major_broker_market_scan(broker_scan_candidates))
+
 # Refresh the 30-day searchable history pool once per day.
 # IMPORTANT: only mark the day complete when history items were actually fetched.
 today_tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d")
@@ -1343,6 +1638,7 @@ if _history_retry_allowed():
 active_search_candidates.sort(reverse=True, key=lambda x: x[0])
 for _, ticker, name, symbol, group, chg in active_search_candidates[:cfg.get("active_search_top_movers", 10)]:
     all_news.extend(google_news_search(ticker, name, symbol, group, chg))
+    all_news.extend(moomoo_news_search(ticker, name, symbol, group, chg))
 
 # Enrich broker/analyst stories so the detail modal has useful context and
 # normalize_analyst_title can see exact old/new target values when available.
@@ -1565,7 +1861,7 @@ for x in news:
         x["title"] = cached_title or raw_title
         x["translated"] = has_cjk(x["title"])
         if (x.get("featured") or x.get("analystPriority")) and raw_summary:
-            x["summary"] = (cached_summary or raw_summary)[:320]
+            x["summary"] = (cached_summary or raw_summary)[:520]
         else:
             x["summary"] = ""
         continue
@@ -1577,7 +1873,7 @@ for x in news:
     # Only featured homepage stories get translated summaries.
     if (x.get("featured") or x.get("analystPriority")) and raw_summary:
         translated_summary = zh(raw_summary[:420])
-        x["summary"] = (translated_summary or raw_summary)[:320]
+        x["summary"] = (translated_summary or raw_summary)[:520]
     else:
         x["summary"] = ""
 
@@ -1614,73 +1910,128 @@ def _extract_key_numbers(text):
                 return vals
     return vals
 
+
+def _split_sentences(text):
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    if not text:
+        return []
+    parts = re.split(r"(?<=[。！？.!?])\s+", text)
+    return [p.strip() for p in parts if p.strip()]
+
+def _best_summary_sentences(text, max_sentences=4, max_chars=520):
+    """
+    Select the most information-dense sentences from the available source snippet.
+    This is not a full-article copy: it keeps a short set of sentences only.
+    """
+    sents = _split_sentences(text)
+    if not sents:
+        return ""
+
+    keywords = [
+        "revenue","eps","margin","guidance","outlook","price target","rating",
+        "customer","order","contract","capacity","demand","supply","backlog",
+        "ai","data center","datacenter","cloud","launch","approval",
+        "partnership","investment","capex","mw","gw","billion","million","%"
+    ]
+
+    scored = []
+    for i, s in enumerate(sents):
+        low = s.lower()
+        score = sum(1 for k in keywords if k in low)
+        if re.search(r"\$[\d,.]+|\b\d+(?:\.\d+)?%", s):
+            score += 2
+        # Earlier sentences are often more important.
+        score += max(0, 2 - i * 0.25)
+        scored.append((score, i, s))
+
+    chosen = sorted(scored, reverse=True)[:max_sentences]
+    chosen = [x[2] for x in sorted(chosen, key=lambda z: z[1])]
+
+    out = " ".join(chosen)
+    return out[:max_chars].rstrip()
+
+def _news_why_it_matters(x, blob):
+    if x.get("analystPriority"):
+        return "券商正在重新調整對公司未來獲利與估值的預期。最重要的是看評級有沒有改變、新舊目標價，以及調整理由是否來自營收／需求／毛利改善，還是單純估值倍數變化。"
+
+    if any(k in blob for k in ["guidance","outlook","forecast","earnings","revenue","eps"]):
+        return "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。"
+
+    if any(k in blob for k in ["order","contract","customer","agreement","deal","partnership"]):
+        return "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。"
+
+    if any(k in blob for k in ["shortage","undersupply","capacity","supply constraint","tight supply","pricing"]):
+        return "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。"
+
+    if any(k in blob for k in ["nuclear","electricity","power plant","megawatt"," mw","gigawatt"," gw"]) and any(
+        k in blob for k in ["ai","data center","datacenter","google","microsoft","amazon","meta"]
+    ):
+        return "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。"
+
+    if any(k in blob for k in ["launch","unveil","approval","approved","product"]):
+        return "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。"
+
+    if any(k in blob for k in ["artificial intelligence"," ai ","data center","datacenter"]):
+        return "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。"
+
+    return "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。"
+
+def _news_watch_items(blob):
+    items = []
+    if "price target" in blob or "rating" in blob or "upgrade" in blob or "downgrade" in blob:
+        items.append("評級是否持續，以及後續是否有其他大型券商跟進")
+    if any(k in blob for k in ["guidance","outlook","forecast"]):
+        items.append("下一季／全年財測是否再次上修或下修")
+    if any(k in blob for k in ["customer","contract","order","partnership"]):
+        items.append("合作金額、出貨時程與實際營收貢獻")
+    if any(k in blob for k in ["capacity","shortage","supply","demand"]):
+        items.append("供需是否持續，以及價格／毛利是否同步改善")
+    if any(k in blob for k in ["ai","data center","datacenter"]):
+        items.append("AI 需求是否能轉成實際訂單、使用量或資本支出")
+    if not items:
+        items.append("後續是否出現可量化的營收、毛利或訂單數據")
+    return items[:3]
+
 def build_investor_brief(x):
     title = (x.get("title") or "").strip()
     zh_summary = (x.get("summary") or "").strip()
-    original = " ".join([
-        x.get("originalTitle") or "",
-        x.get("originalSummary") or "",
-    ]).strip()
-    blob = original.lower()
+    original_title = (x.get("originalTitle") or "").strip()
+    original_summary = (x.get("originalSummary") or "").strip()
 
-    event = _first_sentences(zh_summary, n=2, max_chars=260) or title
-    numbers = _extract_key_numbers(original)
+    source_blob = " ".join([original_title, original_summary]).strip()
+    blob = source_blob.lower()
 
+    # Use the translated summary if available; otherwise translate a compact,
+    # information-dense source excerpt.
+    event = _best_summary_sentences(zh_summary, max_sentences=4, max_chars=520)
+    if not event and original_summary:
+        compact_source = _best_summary_sentences(original_summary, max_sentences=4, max_chars=520)
+        translated = zh(compact_source) if compact_source else ""
+        event = translated or title
+    if not event:
+        event = title
+
+    numbers = _extract_key_numbers(source_blob)
+    why = _news_why_it_matters(x, blob)
+    watch = _news_watch_items(blob)
+
+    # What management / analysts are actually saying.
+    stance = ""
     if x.get("analystPriority"):
-        return {
-            "event": title,
-            "numbers": numbers,
-            "takeaway": "券商正在調整對公司未來獲利／估值的預期；重點看評級是否改變、新舊目標價，以及新目標價相對目前股價還有多少空間"
-        }
-
-    if any(k in blob for k in ["nuclear", "power plant", "electricity", "megawatt", " mw", "gigawatt", " gw"]) and any(
-        k in blob for k in ["ai", "data center", "datacenter", "google", "microsoft", "amazon", "meta"]
-    ):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "這不是單純綠電新聞，重點是 AI 算力正在把「電力供給」變成擴張瓶頸；大型科技公司開始直接參與新增或升級發電能力，對核電、電網與資料中心電力設備需求是偏正面的產業訊號"
-        }
-
-    if any(k in blob for k in ["guidance", "outlook", "forecast", "earnings", "revenue", "eps"]):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "這類消息會直接改變市場對未來營收、EPS 與估值的預期；比單季已公布數字更重要的是公司是否上修／下修後續展望"
-        }
-
-    if any(k in blob for k in ["order", "contract", "customer", "agreement", "deal", "partnership"]):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "投資重點是這項合作／訂單能否轉成實際營收，以及金額、出貨時程與客戶是否具有延續性；若能提高訂單能見度，通常比單純題材更有意義"
-        }
-
-    if any(k in blob for k in ["shortage", "undersupply", "capacity", "supply constraint", "tight supply", "pricing"]):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "供需緊張通常有利價格與毛利，但也可能限制出貨量；要進一步看公司是「受惠漲價」還是「被缺料卡住營收」"
-        }
-
-    if any(k in blob for k in ["launch", "unveil", "approval", "approved", "product"]):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "先看這項產品／核准是否會帶來新的營收來源，再看量產時間、客戶採用與市場規模；只有發布產品本身不一定等於短期財務貢獻"
-        }
-
-    if any(k in blob for k in ["artificial intelligence", " ai ", "data center", "datacenter"]):
-        return {
-            "event": event,
-            "numbers": numbers,
-            "takeaway": "核心在於這則消息是否增加 AI 基礎建設需求、算力使用量或相關資本支出；如果只是概念性合作，仍要等訂單與財測確認"
-        }
+        stance = "這是券商觀點，重點看分析師給出的評級、目標價與核心假設。"
+    elif any(k in blob for k in ["ceo","cfo","management","company said","company expects","expects"]):
+        stance = "這段屬於公司／管理層說法，後續要用實際營收、訂單與財測驗證。"
+    else:
+        stance = "這則消息以外部新聞／產業資訊為主，仍要搭配公司後續公告確認實際財務影響。"
 
     return {
         "event": event,
         "numbers": numbers,
-        "takeaway": "先看這件事是否會影響公司的營收、毛利、訂單能見度或市場預期；目前來源若沒有提供財務量化資訊，應視為題材性訊號而不是直接等同獲利成長"
+        "why": why,
+        "stance": stance,
+        "watch": watch,
+        # Keep old key for backward compatibility with push/UI.
+        "takeaway": why,
     }
 
 for x in news:
@@ -1884,7 +2235,7 @@ def _tier1_reason(x):
     # --- G. Very large move + identified catalyst ---
     mv = safe_float(x.get("movePct"))
     if mv is not None and abs(mv) >= 8 and x.get("sourceType") in (
-        "active_search","ticker_feed","broker_search","market_search"
+        "active_search","ticker_feed","broker_search","major_broker_global","market_search"
     ):
         return True, "股價異動", f"股價異動 {mv:+.1f}% 且有明確催化劑"
 
