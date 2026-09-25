@@ -678,7 +678,7 @@ function fallbackInvestorTakeaway(x){
  if(/guidance|outlook|forecast|earnings|revenue|eps/.test(blob))return "重點看這則消息是否改變未來營收、EPS 與公司財測，而不是只看已公布的單季數字";
  if(/order|contract|customer|agreement|deal|partnership/.test(blob))return "重點看合作或訂單能否轉成實際營收，以及金額、時程與客戶是否具有延續性";
  if(/shortage|undersupply|capacity|supply constraint|tight supply|pricing/.test(blob))return "供需緊張可能有利價格與毛利，也可能限制出貨；要判斷公司究竟是受惠漲價還是被缺料卡住營收";
- return "先看這件事是否會影響營收、毛利、訂單能見度或公司展望；若沒有量化財務資訊，先視為題材訊號";
+ return "目前來源若沒有提供足夠事件細節或量化資訊，就不先推論對營收、毛利、訂單或公司展望的實際影響";
 }
 function newsDeepKey(x){
  let ticker=String(x.ticker||"MARKET").toUpperCase().trim();
@@ -717,16 +717,19 @@ function openNewsDetail(x){
  const modal=document.getElementById("newsDetail");
  if(!modal)return;
  const ticker=x.ticker==="MARKET"?"美股市場":(x.ticker||"");
- document.getElementById("newsDetailTicker").textContent=ticker+(x.group?`｜${x.group}`:"");
- document.getElementById("newsDetailMeta").textContent=[newsAge(x.ts),newsExactTime(x.ts),x.tag].filter(Boolean).join("｜");
+ const related=(Array.isArray(x.relatedTickers)?x.relatedTickers:[]).filter(Boolean);
+ const tickerLabel=related.length>1?related.join(" / "):ticker;
+ document.getElementById("newsDetailTicker").textContent=tickerLabel+(x.group?`｜${x.group}`:"");
+ document.getElementById("newsDetailMeta").textContent=[newsAge(x.ts),newsExactTime(x.ts),x.eventType,x.tag].filter(Boolean).join("｜");
  document.getElementById("newsDetailTitle").textContent=x.title||x.originalTitle||"";
  const summary=(x.summary||"").trim();
  const brief=x.investorBrief||{
-   event:(summary||x.title||""),
+   event:summary||"目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
    numbers:[],
-   why:fallbackInvestorTakeaway(x),
+   why:summary?fallbackInvestorTakeaway(x):"目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
    stance:"",
-   watch:[]
+   watch:[],
+   sourceQuality:summary?"snippet":"headline_only"
  };
  const eventText=(brief.event||summary||x.title||"").trim();
  const why=(brief.why||brief.takeaway||fallbackInvestorTakeaway(x)).trim();
@@ -800,7 +803,7 @@ function closeNewsDetail(){
 function renderNews(){
  const ng=document.getElementById("newsgrid"); if(!ng)return;
  const raw=(document.getElementById("newsSearch")?.value||"").trim();
- const q=raw.toUpperCase();
+ const q=(raw.toUpperCase()==="GOOG"?"GOOGL":raw.toUpperCase());
  const info=document.getElementById("resultInfo");
  const all=window.__newsItems||[];
 
@@ -813,7 +816,11 @@ function renderNews(){
    // Ticker 搜尋會合併即時新聞 + 獨立 30 天歷史資料庫
    const history=window.__historyItems||[];
    const merged=[...all,...history]
-     .filter(x=>(x.ticker||"").trim().toUpperCase()===q);
+     .filter(x=>{
+       const primary=(x.ticker||"").trim().toUpperCase();
+       const related=(Array.isArray(x.relatedTickers)?x.relatedTickers:[]).map(t=>String(t).toUpperCase());
+       return primary===q||related.includes(q);
+     });
 
    const seen=new Set();
    items=merged.filter(x=>{
