@@ -260,6 +260,25 @@ def _v11_event_type(x):
         return "新題材"
     return ""
 
+def _v11_compact_summary(text,max_chars=760):
+    text=re.sub(r"\s+"," ",(text or "")).strip()
+    if not text:
+        return ""
+    parts=re.split(r"(?<=[.!?])\s+",text)
+    parts=[p.strip() for p in parts if p.strip()]
+    if not parts:
+        return text[:max_chars]
+    picked=[]
+    chars=0
+    for p in parts:
+        if chars+len(p)>max_chars and picked:
+            break
+        picked.append(p)
+        chars+=len(p)+1
+        if len(picked)>=4:
+            break
+    return " ".join(picked)[:max_chars].strip()
+
 def _v11_cross_company_event_search():
     queries=[
         '("Google" OR "Microsoft" OR "Amazon" OR "Meta" OR "Oracle" OR "Nvidia") '
@@ -331,10 +350,10 @@ def patch_parser(src):
     return src
 
 def patch_news(src):
-    anchor="# Score + deduplicate news."
-    if anchor not in src:
-        raise RuntimeError("score anchor missing")
-    src=src.replace(anchor,NEWS_HELPERS+"\n"+anchor,1)
+    helper_anchor="# Enrich broker/analyst stories so the detail modal has useful context and"
+    if helper_anchor not in src:
+        raise RuntimeError("news helper anchor missing")
+    src=src.replace(helper_anchor,NEWS_HELPERS+"\n"+helper_anchor,1)
 
     old="# Enrich broker/analyst stories so the detail modal has useful context and\\n# normalize_analyst_title can see exact old/new target values when available.\\nall_news = enrich_analyst_details(all_news)"
     new=old+"\\nall_news = [x for x in all_news if not _v11_false_alphabet_story(x)]\\nall_news = _v11_enrich_context(all_news, direct_limit=26, fallback_limit=10)\\nall_news.extend(_v11_cross_company_event_search())\\nfor x in all_news:\\n    x['relatedTickers']=_v11_related_tickers(x)\\n    x['eventType']=_v11_event_type(x)"
@@ -353,7 +372,7 @@ def patch_news(src):
     src=rep(src,old,new,"history enrich")
 
     old='    x["translated"] = has_cjk(x.get("title", ""))\\n    x["summary"] = ""\\n    if x.get("analystPriority"):'
-    new='    x["translated"] = has_cjk(x.get("title", ""))\\n    raw_summary=(x.get("originalSummary") or "").strip()\\n    if _v11_article_body_good(raw_summary):\\n        compact=_best_summary_sentences(raw_summary,max_sentences=4,max_chars=760)\\n        x["summary"]=(zh(compact) or compact)[:820] if compact else ""\\n    else:\\n        x["summary"]=""\\n    if x.get("analystPriority"):'
+    new='    x["translated"] = has_cjk(x.get("title", ""))\\n    raw_summary=(x.get("originalSummary") or "").strip()\\n    if _v11_article_body_good(raw_summary):\\n        compact=_v11_compact_summary(raw_summary,max_chars=760)\\n        x["summary"]=(zh(compact) or compact)[:820] if compact else ""\\n    else:\\n        x["summary"]=""\\n    if x.get("analystPriority"):'
     src=rep(src,old,new,"history summary")
 
     old='    source_blob = " ".join([original_title, original_summary]).strip()\\n    blob = source_blob.lower()\\n\\n    # Use the translated summary if available; otherwise translate a compact,\\n    # information-dense source excerpt.\\n    event = _best_summary_sentences(zh_summary, max_sentences=4, max_chars=520)'
@@ -406,6 +425,19 @@ def self_test(src):
     if "\\n# Score + deduplicate news." in src:
         raise RuntimeError("literal escaped newline leaked into final updater")
     compile(src,"updater.py","exec")
+
+    checks_order=[
+        ("def _v11_false_alphabet_story", "all_news = [x for x in all_news if not _v11_false_alphabet_story(x)]"),
+        ("def _v11_enrich_context", "all_news = _v11_enrich_context(all_news"),
+        ("def _v11_cross_company_event_search", "all_news.extend(_v11_cross_company_event_search())"),
+        ("def _v11_related_tickers", 'x["relatedTickers"]=_v11_related_tickers(x)'),
+        ("def _v11_compact_summary", "compact=_v11_compact_summary(raw_summary"),
+    ]
+    for definition,use in checks_order:
+        di=src.find(definition)
+        ui=src.find(use)
+        if di<0 or ui<0 or di>ui:
+            raise RuntimeError(f"helper ordering invalid: {definition}")
     for token in [
         "payload={'parserVersion':11",
         "_v11_same_event_context",
