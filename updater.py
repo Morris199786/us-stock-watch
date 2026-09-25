@@ -400,7 +400,7 @@ def patch_index():
 def patch_config():
     d=json.loads(CONFIG.read_text(encoding="utf-8"))
     d["earnings_parser_version"]=TARGET_VERSION
-    CONFIG.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    CONFIG.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 def self_test(src):
     if "\\n# Score + deduplicate news." in src:
@@ -431,6 +431,10 @@ def main():
     UPDATER.write_text(src,encoding="utf-8")
     patch_index()
     patch_config()
+
+    # Guard against malformed config.json before the full updater imports it.
+    json.loads(CONFIG.read_text(encoding="utf-8"))
+
     print(f"Final updater installed: {len(src)} bytes, parserVersion={TARGET_VERSION}")
     code=compile(src,str(UPDATER),"exec")
     g={"__name__":"__main__","__file__":str(UPDATER),"__package__":None}
