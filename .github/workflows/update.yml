@@ -2,6 +2,8 @@ name: Update US Stock Watch
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
   push:
     branches:
       - main
@@ -11,6 +13,7 @@ on:
       - "requirements.txt"
       - "index.html"
       - ".github/workflows/update.yml"
+      - ".github/workflows/earnings.yml"
 
 permissions:
   contents: write
@@ -27,23 +30,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Sync latest main
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Show trigger
-        run: echo "Triggered by ${{ github.event_name }}"
-
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Update market, news, earnings, macro, congress, and Tier 1 pushes
+      - name: Update fast data only
         env:
+          SKIP_EARNINGS: "1"
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
         run: python updater.py
 
-      - name: Commit updated data and parser fixes safely
+      - name: Commit fast data safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -52,12 +58,8 @@ jobs:
           cp news.json /tmp/news.json
           cp congress.json /tmp/congress.json
           cp updater.py /tmp/updater.py
-          cp index.html /tmp/index.html
           cp config.json /tmp/config.json
-
-          if [ -f earnings.json ]; then
-            cp earnings.json /tmp/earnings.json
-          fi
+          cp index.html /tmp/index.html
 
           if [ -f macro.json ]; then
             cp macro.json /tmp/macro.json
@@ -74,12 +76,8 @@ jobs:
           cp /tmp/news.json news.json
           cp /tmp/congress.json congress.json
           cp /tmp/updater.py updater.py
-          cp /tmp/index.html index.html
           cp /tmp/config.json config.json
-
-          if [ -f /tmp/earnings.json ]; then
-            cp /tmp/earnings.json earnings.json
-          fi
+          cp /tmp/index.html index.html
 
           if [ -f /tmp/macro.json ]; then
             cp /tmp/macro.json macro.json
@@ -89,11 +87,7 @@ jobs:
             cp /tmp/push_state.json push_state.json
           fi
 
-          git add data.json news.json congress.json updater.py index.html config.json
-
-          if [ -f earnings.json ]; then
-            git add earnings.json
-          fi
+          git add data.json news.json congress.json updater.py config.json index.html
 
           if [ -f macro.json ]; then
             git add macro.json
@@ -104,6 +98,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Fix earnings parser and analyst matching"
+            git commit -m "Auto update market data"
             git push origin main
           fi
