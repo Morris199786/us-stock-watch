@@ -229,6 +229,15 @@ document.querySelectorAll("[data-market]").forEach(b=>b.onclick=()=>openMainPage
 let __earningsLoaded=false,__earnReports=[],__earnUpcoming=[],__earnMode="latest";
 function moneyFmt(v){if(v==null||Number.isNaN(Number(v)))return"--";v=Number(v);const a=Math.abs(v);if(a>=1e12)return"$"+(v/1e12).toFixed(2)+"T";if(a>=1e9)return"$"+(v/1e9).toFixed(2)+"B";if(a>=1e6)return"$"+(v/1e6).toFixed(1)+"M";return"$"+v.toFixed(2)}
 function metricStatus(a,e){if(a==null||e==null||Number(e)===0)return{txt:"--",cl:"inline"};const d=(Number(a)/Number(e)-1)*100;return{txt:(d>=0?"Beat +":"Miss ")+d.toFixed(1)+"%",cl:d>=0?"beat":"miss"}}
+function earnGuideLabel(metric){
+ const m=String(metric||"財測").toLowerCase();
+ if(m==="revenue")return"營收財測";
+ if(m==="eps")return"EPS 財測";
+ if(m==="gross margin")return"毛利率財測";
+ if(m==="operating margin")return"營業利益率財測";
+ if(m==="capex")return"資本支出財測";
+ return"公司財測";
+}
 function renderEarnings(){
  const q=(document.getElementById("earnSearch")?.value||"").trim().toUpperCase();
  const info=document.getElementById("earnInfo");
@@ -259,12 +268,12 @@ function renderEarnings(){
  g.innerHTML=rows.map(x=>{
    const rev=metricStatus(x.revenueActual,x.revenueEstimate),eps=metricStatus(x.epsActual,x.epsEstimate);
    const mrows=[
-     ['Revenue',moneyFmt(x.revenueActual),moneyFmt(x.revenueEstimate),rev],
-     ['EPS',x.epsActual==null?'--':'$'+Number(x.epsActual).toFixed(2),x.epsEstimate==null?'--':'$'+Number(x.epsEstimate).toFixed(2),eps]
+     ['本季營收',moneyFmt(x.revenueActual),moneyFmt(x.revenueEstimate),rev],
+     ['本季 EPS',x.epsActual==null?'--':'$'+Number(x.epsActual).toFixed(2),x.epsEstimate==null?'--':'$'+Number(x.epsEstimate).toFixed(2),eps]
    ];
    const guides=Array.isArray(x.guidance)?x.guidance:[],mgmt=Array.isArray(x.management)?x.management:[],sources=Array.isArray(x.sources)?x.sources:[];
    const first=x.firstReactionPct==null?'--':fmt(Number(x.firstReactionPct)),close=x.nextClosePct==null?'--':fmt(Number(x.nextClosePct));
-   return `<details class="earnCard"><summary class="earnSummary"><div class="earnTop"><div><div class="earnName">${escapeHtml(x.ticker||'')}｜${escapeHtml(x.name||'')}</div><div class="earnMeta">${escapeHtml(x.group||'')}｜${escapeHtml(x.reportDate||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div><div class="earnBadges"><span class="earnBadge ${eps.cl}">EPS ${eps.txt}</span><span class="earnBadge ${rev.cl}">Revenue ${rev.txt}</span><span class="earnBadge">第一反應 ${first}</span><span class="earnBadge">隔日收盤 ${close}</span></div></summary><div class="earnBody"><div class="earnSection"><h4>財報數字 vs 市場預期</h4><table class="earnTable"><thead><tr><th>項目</th><th>實際</th><th>預期</th><th>結果</th></tr></thead><tbody>${mrows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td class="${r[3].cl}">${r[3].txt}</td></tr>`).join('')}</tbody></table></div><div class="earnSection"><h4>財測 vs 市場預期</h4>${guides.length?`<table class="earnTable"><tbody>${guides.map(z=>`<tr><td>${escapeHtml(z.metric||'財測')}</td><td style="text-align:left">${escapeHtml(z.companyGuide||'--')}</td><td>${escapeHtml(z.estimate||'')}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">目前尚未取得可交叉驗證的量化財測；若公司只提供定性展望，會整理在管理層重點</div>'}</div><div class="earnSection"><h4>管理層說了什麼重要的</h4>${mgmt.length?`<ul class="earnBullets">${mgmt.map(z=>`<li>${escapeHtml(z)}</li>`).join('')}</ul>`:'<div class="sub">目前尚未取得可驗證的管理層重點</div>'}</div><div class="earnSection"><h4>公布後股價反應</h4><div class="earnBadges"><span class="earnBadge">盤後／盤前第一反應 ${first}</span><span class="earnBadge">下一正常交易日收盤 ${close}</span></div></div>${sources.length?`<div class="earnSection earnSources"><h4>交叉比對來源（${x.sourceCount||sources.length}）</h4>${sources.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||'#')}">${escapeHtml(s.title||'來源')}</a>`).join('')}</div>`:''}</div></details>`
+   return `<details class="earnCard"><summary class="earnSummary"><div class="earnTop"><div><div class="earnName">${escapeHtml(x.ticker||'')}｜${escapeHtml(x.name||'')}</div><div class="earnMeta">${escapeHtml(x.group||'')}｜${escapeHtml(x.reportDate||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div><div class="earnBadges"><span class="earnBadge ${eps.cl}">EPS ${eps.txt}</span><span class="earnBadge ${rev.cl}">營收 ${rev.txt}</span><span class="earnBadge">第一反應 ${first}</span><span class="earnBadge">隔日收盤 ${close}</span></div></summary><div class="earnBody"><div class="earnSection"><h4>財報數字 vs 市場預期</h4><table class="earnTable"><thead><tr><th>項目</th><th>實際</th><th>預期</th><th>結果</th></tr></thead><tbody>${mrows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td class="${r[3].cl}">${r[3].txt}</td></tr>`).join('')}</tbody></table></div><div class="earnSection"><h4>財測 vs 市場預期</h4>${guides.length?`<table class="earnTable"><tbody>${guides.map(z=>`<tr><td>${escapeHtml(earnGuideLabel(z.metric))}</td><td style="text-align:left">${escapeHtml(z.companyGuide||'--')}</td><td>${escapeHtml(z.estimate||'')}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">目前尚未取得可交叉驗證的量化財測；若公司只提供定性展望，會整理在管理層重點</div>'}</div><div class="earnSection"><h4>管理層說了什麼重要的</h4>${mgmt.length?`<ul class="earnBullets">${mgmt.map(z=>`<li>${escapeHtml(z)}</li>`).join('')}</ul>`:'<div class="sub">目前尚未取得可驗證的管理層重點</div>'}</div><div class="earnSection"><h4>公布後股價反應</h4><div class="earnBadges"><span class="earnBadge">盤後／盤前第一反應 ${first}</span><span class="earnBadge">下一正常交易日收盤 ${close}</span></div></div>${sources.length?`<div class="earnSection earnSources"><h4>交叉比對來源（${x.sourceCount||sources.length}）</h4>${sources.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||'#')}">${escapeHtml(s.title||'來源')}</a>`).join('')}</div>`:''}</div></details>`
  }).join('');
 }
 async function loadEarnings(){
@@ -724,10 +733,21 @@ function openNewsDetail(x){
  const stance=(brief.stance||"").trim();
  const nums=Array.isArray(brief.numbers)?brief.numbers.filter(Boolean):[];
  const watch=Array.isArray(brief.watch)?brief.watch.filter(Boolean):[];
+ const analystDetails=Array.isArray(x.analystDetails)?x.analystDetails:[];
 
  const briefEl=document.getElementById("newsDetailBrief");
  if(briefEl){
    briefEl.innerHTML=`
+     ${analystDetails.length?`<div class="newsbriefRow">
+       <div class="newsbriefLabel">券商調整明細</div>
+       <div class="newsbriefText">${analystDetails.map(d=>{
+         const target=d.oldTarget&&d.newTarget?`${escapeHtml(d.oldTarget)} → ${escapeHtml(d.newTarget)}`:(d.newTarget?escapeHtml(d.newTarget):"");
+         const head=[escapeHtml(d.broker||""),escapeHtml(d.rating||""),target].filter(Boolean).join("｜");
+         const who=d.analyst?`<br>分析師：${escapeHtml(d.analyst)}`:"";
+         const why=d.reason?`<br><span style="color:#cbd8e6">${escapeHtml(d.reason)}</span>`:"";
+         return `<div style="padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)"><b>${head}</b>${who}${why}</div>`;
+       }).join("")}</div>
+     </div>`:""}
      <div class="newsbriefRow">
        <div class="newsbriefLabel">發生什麼事</div>
        <div class="newsbriefText">${escapeHtml(eventText)}</div>

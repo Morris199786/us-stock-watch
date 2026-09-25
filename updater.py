@@ -1061,6 +1061,191 @@ def _fetch_article_context(url):
     return "", final
 
 
+
+def _slugify_news_title(title):
+    s = (title or "").strip().lower()
+    s = s.replace("’", "").replace("'", "")
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return re.sub(r"-+", "-", s).strip("-")
+
+def _reader_text_for_url(url, timeout=12):
+    """
+    Read public article text through the normal page first, then Jina Reader.
+    Returns a bounded plain-text excerpt for summarization/parsing only.
+    """
+    if not url:
+        return "", url
+
+    # Normal publisher HTML first.
+    try:
+        body, resolved = _fetch_article_context(url)
+        if body and not _is_polluted_text(body):
+            return body[:5000], resolved or url
+    except Exception:
+        pass
+
+    # Jina Reader is useful for JS-heavy public article pages.
+    jina = url
+    if url.startswith("https://"):
+        jina = "https://r.jina.ai/http://" + url[len("https://"):]
+    elif url.startswith("http://"):
+        jina = "https://r.jina.ai/http://" + url[len("http://"):]
+
+    try:
+        req = urllib.request.Request(
+            jina,
+            headers={"User-Agent":"Mozilla/5.0","Accept":"text/plain,text/markdown,*/*"}
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            raw = r.read(1_000_000).decode("utf-8","ignore")
+        txt = _plain_text_from_markdown(raw)
+        if txt and len(txt) >= 140 and not _is_polluted_text(txt):
+            return txt[:5000], url
+    except Exception:
+        pass
+
+    return "", url
+
+def _tipranks_direct_context(title):
+    """
+    TipRanks /news/ URLs commonly use a slug matching the article title.
+    Try that deterministic public URL before giving up on a Google News redirect.
+    """
+    slug = _slugify_news_title(title)
+    if not slug:
+        return "", ""
+    direct = "https://www.tipranks.com/news/" + slug
+    txt, resolved = _reader_text_for_url(direct, timeout=14)
+    if txt:
+        return txt, resolved or direct
+    return "", ""
+
+def _extract_analyst_details(text):
+    """
+    Parse only facts explicitly present in source text.
+    Each detail may include broker, analyst, rating, new target, old target, reason.
+    Nothing is inferred when the source does not state it.
+    """
+    src = re.sub(r"\s+", " ", text or "").strip()
+    if not src:
+        return []
+
+    # Split conservatively so the reason stays attached to the broker statement.
+    sents = re.split(r"(?<=[.!?])\s+|[\u2022•]\s*", src)
+    out = []
+
+    for i, sent in enumerate(sents):
+        if not sent:
+            continue
+        broker = _broker_from_text(sent)
+        if not broker:
+            continue
+
+        low = sent.lower()
+        if not any(k in low for k in [
+            "price target","target price","target to","target at",
+            "raised its target","raised the target","raises its target",
+            "upgrade","upgraded","downgrade","downgraded",
+            "maintain","maintained","reiterate","reiterated",
+            "buy","outperform","overweight","neutral","hold",
+            "underperform","underweight","sell"
+        ]):
+            continue
+
+        old_target = ""
+        new_target = ""
+
+        # "$780 to $900"
+        m = re.search(r"\$([\d,.]+)\s*(?:to|→)\s*\$([\d,.]+)", sent, re.I)
+        if m:
+            old_target, new_target = m.group(1), m.group(2)
+
+        # "to $900 from $780"
+        if not new_target:
+            m = re.search(r"(?:target|price target|target price)[^$]{0,45}(?:to|at)\s*\$([\d,.]+)[^$]{0,40}from\s*\$([\d,.]+)", sent, re.I)
+            if m:
+                new_target, old_target = m.group(1), m.group(2)
+
+        # "raised its price target to $900 from $780"
+        if not new_target:
+            m = re.search(r"(?:raised|boosted|lifted|increased|hiked|cut|lowered|reduced)[^$]{0,60}(?:target|price target|target price)[^$]{0,30}to\s*\$([\d,.]+)(?:[^$]{0,35}from\s*\$([\d,.]+))?", sent, re.I)
+            if m:
+                new_target = m.group(1)
+                old_target = m.group(2) or ""
+
+        # "$900 price target"
+        if not new_target:
+            m = re.search(r"\$([\d,.]+)\s+(?:price target|target price)", sent, re.I)
+            if m:
+                new_target = m.group(1)
+
+        rating = ""
+        rm = re.search(r"\b(Buy|Strong Buy|Outperform|Overweight|Neutral|Equal[- ]Weight|Hold|Market Perform|Underperform|Underweight|Sell)\b", sent, re.I)
+        if rm:
+            rating = rm.group(1)
+
+        analyst = ""
+        am = re.search(r"\banalyst\s+([A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+){1,3})", sent)
+        if am:
+            analyst = am.group(1).strip()
+
+        action = ""
+        if any(k in low for k in ["raised","raises","boosted","lifted","increased","hiked"]):
+            action = "上修"
+        elif any(k in low for k in ["cut","cuts","lowered","reduced"]):
+            action = "下修"
+        elif any(k in low for k in ["upgraded","upgrade"]):
+            action = "升評"
+        elif any(k in low for k in ["downgraded","downgrade"]):
+            action = "降評"
+        elif any(k in low for k in ["maintained","maintains","reiterated","reiterates"]):
+            action = "重申"
+
+        # Use the source sentence itself as reason, but remove mechanical target/rating clause.
+        reason = sent.strip()
+        reason = re.sub(r"^\s*[-–—:;,\s]+", "", reason)
+        if len(reason) > 420:
+            reason = reason[:420].rsplit(" ",1)[0] + "…"
+
+        if not (new_target or rating or action):
+            continue
+
+        d = {
+            "broker": broker,
+            "analyst": analyst,
+            "rating": rating,
+            "action": action,
+            "newTarget": _fmt_target(new_target) if new_target else "",
+            "oldTarget": _fmt_target(old_target) if old_target else "",
+            "reason": reason,
+        }
+        sig = "|".join([d["broker"].lower(), d["newTarget"], d["oldTarget"], d["rating"].lower(), d["action"]])
+        if sig and not any(x.get("_sig")==sig for x in out):
+            d["_sig"] = sig
+            out.append(d)
+
+    for x in out:
+        x.pop("_sig", None)
+    return out[:8]
+
+def _analyst_details_summary(details):
+    if not details:
+        return ""
+    lines = []
+    for d in details[:5]:
+        bits = [d.get("broker","")]
+        if d.get("rating"):
+            bits.append(d["rating"])
+        if d.get("oldTarget") and d.get("newTarget"):
+            bits.append(f'{d["oldTarget"]} → {d["newTarget"]}')
+        elif d.get("newTarget"):
+            bits.append(d["newTarget"])
+        line = "｜".join([b for b in bits if b])
+        if d.get("reason"):
+            line += "｜" + d["reason"]
+        lines.append(line)
+    return "\n".join(lines)
+
 def _title_similarity(a, b):
     a = re.sub(r"[^a-z0-9]+", " ", (a or "").lower()).strip()
     b = re.sub(r"[^a-z0-9]+", " ", (b or "").lower()).strip()
@@ -1280,6 +1465,13 @@ def enrich_analyst_details(items):
 
         candidates = []
 
+        # TipRanks: when the RSS URL is only a Google redirect, the public
+        # /news/<headline-slug> page is often directly readable and much richer.
+        if x.get("sourceType") == "tipranks_broker" or "tipranks" in (x.get("url") or "").lower():
+            tr_text, tr_url = _tipranks_direct_context(title)
+            if tr_text:
+                candidates.append((tr_text, tr_url))
+
         desc1, url1 = _yahoo_search_context(title, ticker)
         if desc1:
             sim1 = _title_similarity(title, desc1)
@@ -1326,6 +1518,18 @@ def enrich_analyst_details(items):
                         x["detailSource"] = "yahoo_or_article_metadata"
                 if resolved and "news.google." not in resolved:
                     x["url"] = resolved
+
+    # Parse structured broker facts from the richest source text available.
+    for x in items:
+        if not x.get("analystPriority"):
+            continue
+        source_text = " ".join([
+            x.get("originalTitle") or "",
+            x.get("originalSummary") or "",
+        ]).strip()
+        details = _extract_analyst_details(source_text)
+        if details:
+            x["analystDetails"] = details
 
     return items
 
@@ -2808,6 +3012,20 @@ def _news_watch_items(blob):
 
 def build_investor_brief(x):
     title = (x.get("title") or "").strip()
+
+    details = x.get("analystDetails") or []
+    if x.get("analystPriority") and details:
+        summary = _analyst_details_summary(details)
+        watch = ["後續是否有其他大型券商跟進，以及目標價／評級是否持續調整"]
+        return {
+            "event": summary,
+            "numbers": [z for d in details for z in [d.get("oldTarget"), d.get("newTarget")] if z][:8],
+            "why": "這是可識別券商的實際評級／目標價動作；重點應看各券商的新舊目標價、評級與明確理由，而不是只看媒體標題。",
+            "stance": summary,
+            "watch": watch,
+            "takeaway": "多家券商若同步調整目標價，需進一步確認共同理由是否來自獲利預估、產品採用、需求或估值假設的改變。"
+        }
+
     zh_summary = (x.get("summary") or "").strip()
     original_title = (x.get("originalTitle") or "").strip()
     original_summary = (x.get("originalSummary") or "").strip()
@@ -2950,6 +3168,11 @@ def _tier1_reason(x):
         "lowers target", "lowered target", "boosts target", "boosted target"
     ]
     if is_broker_action_text(blob):
+        details = x.get("analystDetails") or []
+        if details:
+            brokers = "、".join(dict.fromkeys(d.get("broker","") for d in details if d.get("broker")))[:80]
+            return True, "券商", f"{brokers} 評級／目標價更新"
+
         # Pushover is intentionally stricter than website inclusion.
         # Generic media headlines such as "Meta Stock Price Target Increased"
         # are NOT enough. We need to know which broker made the call.
@@ -3077,14 +3300,46 @@ def _push_title(x, category):
         ticker = "美股市場"
 
     if category == "券商":
+        details = x.get("analystDetails") or []
+        if details:
+            top = details[:2]
+            parts = []
+            for d in top:
+                s = d.get("broker","")
+                if d.get("newTarget"):
+                    s += f' {d["newTarget"]}'
+                elif d.get("rating"):
+                    s += f' {d["rating"]}'
+                if s:
+                    parts.append(s)
+            if parts:
+                more = "＋多家券商" if len(details) > 2 else ""
+                return f'{ticker}｜' + "、".join(parts) + more
+
         normalized = normalize_analyst_title(x).strip()
-        # Avoid translated nonsense / vague media titles in the notification title.
         if normalized:
             return f"{ticker}｜{normalized.replace(ticker, '').strip(' ｜-—')}"[:120]
 
     return f"{ticker}｜{category}"
 
 def _push_message(x, reason):
+    details = x.get("analystDetails") or []
+    if x.get("analystPriority") and details:
+        lines = []
+        for d in details[:4]:
+            head = d.get("broker","")
+            if d.get("rating"):
+                head += f'｜{d["rating"]}'
+            if d.get("oldTarget") and d.get("newTarget"):
+                head += f'｜{d["oldTarget"]}→{d["newTarget"]}'
+            elif d.get("newTarget"):
+                head += f'｜{d["newTarget"]}'
+            lines.append(head)
+            reason_text = (d.get("reason") or "").strip()
+            if reason_text:
+                lines.append("理由：" + reason_text[:220])
+        return "\n".join(lines)[:900]
+
     title = (x.get("title") or x.get("originalTitle") or "").strip()
     summary = (x.get("summary") or x.get("originalSummary") or "").strip()
 
@@ -3100,7 +3355,6 @@ def _push_message(x, reason):
 
     if summary:
         clean = re.sub(r"\s+", " ", summary).strip()
-        # Never send junk/generic translation in broker alerts.
         if not _is_polluted_text(clean):
             lines.append(f"重點：{clean[:320]}")
     elif reason:
@@ -3662,7 +3916,10 @@ def refresh_earnings_data(targets):
     try:
         old_dt=datetime.fromisoformat((old.get('updatedAtUtc') or '').replace('Z','+00:00'))
         if old_dt.tzinfo is None:old_dt=old_dt.replace(tzinfo=timezone.utc)
-        if now-old_dt<timedelta(minutes=int(cfg.get('earnings_refresh_minutes',30))):return
+        # Force refresh when the parser version changes, so old low-quality
+        # guidance/management text is replaced immediately.
+        if old.get('parserVersion') == 3 and now-old_dt<timedelta(minutes=int(cfg.get('earnings_refresh_minutes',30))):
+            return
     except Exception:pass
 
     calendars=[]
@@ -3738,6 +3995,8 @@ def refresh_earnings_data(targets):
             if item['epsActual'] is None and eps_act2 is not None:item['epsActual']=eps_act2
             if item['epsEstimate'] is None and eps_est2 is not None:item['epsEstimate']=eps_est2
             gs=_extract_guidance_rows(body_joined or joined)
+            # Safety: only keep short, single-thesis guidance rows.
+            gs=[z for z in gs if len((z.get('companyGuide') or '')) <= 430 and (z.get('companyGuide') or '').count(' - ') < 2]
             if gs:item['guidance']=gs
             mb=_management_bullets(body_joined)
             if mb:item['management']=mb
@@ -3753,7 +4012,7 @@ def refresh_earnings_data(targets):
 
     reports.sort(key=lambda x:x.get('reportDateTime',''),reverse=True)
     upcoming.sort(key=lambda x:x.get('date',''))
-    payload={'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
+    payload={'parserVersion':3,'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
     EARNINGS_FILE.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
 
 
