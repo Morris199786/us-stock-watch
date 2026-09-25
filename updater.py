@@ -241,6 +241,36 @@ except Exception:
     old_history_date = ""
     old_history_last_attempt = ""
 
+
+# Drop cached bad resolver results from older builds so they do not keep
+# re-entering the 30-day history / translation cache.
+def _clean_cached_news(items):
+    out = []
+    for x in items or []:
+        if not isinstance(x, dict):
+            continue
+        blob = " ".join([
+            str(x.get("url") or ""),
+            str(x.get("summary") or ""),
+            str(x.get("originalSummary") or ""),
+        ])
+        if _is_polluted_text(blob):
+            continue
+        if x.get("url") and not _is_valid_article_url(x.get("url")):
+            # Keep Google News redirect links, but reject known asset/schema URLs.
+            host = (urllib.parse.urlparse(x.get("url")).hostname or "").lower()
+            if host in BAD_ARTICLE_HOSTS:
+                continue
+        out.append(x)
+    return out
+
+old_news_items = _clean_cached_news(old_news_items)
+old_history_items = _clean_cached_news(old_history_items)
+translation_cache = {
+    k: v for k, v in translation_cache.items()
+    if not _is_polluted_text(" ".join(str(z or "") for z in v))
+}
+
 translator = GoogleTranslator(source="auto", target="zh-TW")
 
 def zh_http(text):
@@ -802,6 +832,44 @@ def _extract_public_article_text(page_html, final_url=""):
     # Enough for a high-quality summary, but nowhere near a full article copy.
     return best[:3200].strip()
 
+
+BAD_ARTICLE_HOSTS = {
+    "www.w3.org", "w3.org", "schema.org", "www.schema.org",
+    "fonts.googleapis.com", "fonts.gstatic.com", "www.google-analytics.com",
+    "google-analytics.com", "googletagmanager.com", "www.googletagmanager.com",
+}
+BAD_ARTICLE_PATH_BITS = (
+    "/2000/svg", "/svg", ".svg", ".png", ".jpg", ".jpeg", ".webp", ".gif",
+    ".css", ".js", ".woff", ".woff2", ".ico", "/favicon"
+)
+
+def _is_valid_article_url(url):
+    try:
+        p = urllib.parse.urlparse(url or "")
+        host = (p.hostname or "").lower()
+        path = (p.path or "").lower()
+        if p.scheme not in ("http", "https") or not host:
+            return False
+        if host in BAD_ARTICLE_HOSTS:
+            return False
+        if any(bit in path for bit in BAD_ARTICLE_PATH_BITS):
+            return False
+        return True
+    except Exception:
+        return False
+
+def _is_polluted_text(text):
+    low = (text or "").lower()
+    bad = [
+        "http://www.w3.org/2000/svg",
+        "https://www.w3.org/2000/svg",
+        "svg is an xml namespace",
+        "svg namespace is mutable",
+        "scalable vector graphics (svg)",
+        "namespaces in xml specification",
+    ]
+    return any(x in low for x in bad)
+
 def _extract_external_urls(page_html):
     """
     Find publisher URLs embedded in Google News HTML, including URL-encoded forms.
@@ -832,6 +900,8 @@ def _extract_external_urls(page_html):
         u = u.replace("\\u0026", "&").replace("\\/", "/")
         u = html_lib.unescape(u)
         if not u.startswith(("http://", "https://")):
+            continue
+        if not _is_valid_article_url(u):
             continue
         if u in seen:
             continue
@@ -882,7 +952,7 @@ def _fetch_article_context(url):
     # If already on the publisher, prefer article body before metadata.
     if "investing.com/" in final_low:
         body = _extract_public_article_text(page, final)
-        if body:
+        if body and not _is_polluted_text(body) and _is_valid_article_url(final):
             return body, final
 
         desc = _extract_meta_description(page)
@@ -892,7 +962,7 @@ def _fetch_article_context(url):
     # For non-Google publisher pages, use body where available, then metadata.
     if "news.google." not in final_low:
         body = _extract_public_article_text(page, final)
-        if body:
+        if body and not _is_polluted_text(body) and _is_valid_article_url(final):
             return body, final
 
         desc = _extract_meta_description(page)
@@ -917,6 +987,8 @@ def _fetch_article_context(url):
             return 2
 
         for candidate in sorted(candidates, key=rank_url)[:120]:
+            if not _is_valid_article_url(candidate):
+                continue
             low = candidate.lower()
             if any(d in low for d in [
                 "google.com", "googleusercontent.com", "gstatic.com",
@@ -931,16 +1003,16 @@ def _fetch_article_context(url):
 
             if "investing.com/" in (f2 or "").lower():
                 body = _extract_public_article_text(p2, f2)
-                if body:
+                if body and not _is_polluted_text(body) and _is_valid_article_url(f2):
                     return body, f2
 
             # Generic publisher body is also useful for analyst rationale.
             body2 = _extract_public_article_text(p2, f2)
-            if body2:
+            if body2 and not _is_polluted_text(body2) and _is_valid_article_url(f2):
                 return body2, f2
 
             d2 = _extract_meta_description(p2)
-            if d2:
+            if d2 and not _is_polluted_text(d2) and _is_valid_article_url(f2):
                 return d2, f2
 
         # Last resort: Google page metadata.
@@ -3086,6 +3158,9 @@ def process_tier1_pushes(news_items):
             "updatedAt": now.isoformat(),
             "seen": list(seen)[-2000:],
             "lastPushes": [],
+            "macroReminderDays": state.get("macroReminderDays", []),
+            "macroResultKeys": state.get("macroResultKeys", []),
+            "macroUpdatedAt": state.get("macroUpdatedAt", ""),
         }
         PUSH_STATE_FILE.write_text(
             json.dumps(state, ensure_ascii=False, indent=2),
@@ -3131,6 +3206,9 @@ def process_tier1_pushes(news_items):
         "updatedAt": now.isoformat(),
         "seen": list(seen)[-2000:],
         "lastPushes": sent[-20:],
+        "macroReminderDays": state.get("macroReminderDays", []),
+        "macroResultKeys": state.get("macroResultKeys", []),
+        "macroUpdatedAt": state.get("macroUpdatedAt", ""),
     }
     PUSH_STATE_FILE.write_text(
         json.dumps(state, ensure_ascii=False, indent=2),
@@ -3166,21 +3244,75 @@ def _num_with_unit(s):
     v=float(m.group(1)); u=m.group(2).lower()
     return v*({'t':1e12,'b':1e9,'m':1e6,'k':1e3}.get(u,1))
 
-def _earnings_news_context(ticker,name,report_date):
-    q=f'("{ticker}" OR "{name}") earnings revenue EPS guidance {report_date} when:14d'
-    url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':q,'hl':'en-US','gl':'US','ceid':'US:en'})
-    rows=[]
-    try:
-        req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
-        with urllib.request.urlopen(req,timeout=10) as r: root=ET.fromstring(r.read())
-    except Exception:return []
-    for item in root.findall('.//item')[:8]:
-        title=(item.findtext('title') or '').strip(); link=(item.findtext('link') or '').strip(); pub=parse_rss_date(item.findtext('pubDate'))
-        if not target_relevance(title,ticker,name):continue
-        body,resolved=_fetch_article_context(link)
-        rows.append({'title':title,'text':body or title,'url':resolved or link,'ts':pub.isoformat() if pub else ''})
-        if len(rows)>=5:break
-    return rows
+def _earnings_news_context(ticker, name, report_date):
+    """
+    Cross-source earnings research:
+      - result / estimate comparisons
+      - guidance / outlook
+      - earnings-call / transcript / management comments
+      - after-hours / premarket reaction
+    """
+    queries = [
+        f'("{ticker}" OR "{name}") earnings revenue EPS estimate guidance {report_date} when:21d',
+        f'("{ticker}" OR "{name}") "earnings call" transcript guidance outlook {report_date} when:21d',
+        f'("{ticker}" OR "{name}") earnings after-hours premarket shares {report_date} when:21d',
+        f'("{ticker}" OR "{name}") results outlook forecast revenue EPS {report_date} when:21d',
+    ]
+
+    seen = set()
+    rows = []
+
+    for q in queries:
+        url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({
+            'q': q, 'hl': 'en-US', 'gl': 'US', 'ceid': 'US:en'
+        })
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=10) as r:
+                root = ET.fromstring(r.read())
+        except Exception:
+            continue
+
+        for item in root.findall('.//item')[:14]:
+            title = (item.findtext('title') or '').strip()
+            link = (item.findtext('link') or '').strip()
+            pub = parse_rss_date(item.findtext('pubDate'))
+            if not target_relevance(title, ticker, name):
+                continue
+
+            key = re.sub(r'\W+', '', title.lower())
+            if not key or key in seen:
+                continue
+            seen.add(key)
+
+            body, resolved = _fetch_article_context(link)
+            body = (body or '').strip()
+            resolved = resolved or link
+
+            if _is_polluted_text(body) or (resolved and not _is_valid_article_url(resolved) and "news.google." not in resolved):
+                body = ''
+                resolved = link
+
+            rows.append({
+                'title': title,
+                'text': body or title,
+                'url': resolved,
+                'ts': pub.isoformat() if pub else ''
+            })
+
+    # Rank useful pieces first: transcript/guidance and estimate/reaction stories.
+    def score(a):
+        b = (a.get('title','') + ' ' + a.get('text','')).lower()
+        s = 0
+        if any(k in b for k in ['earnings call','transcript','prepared remarks']): s += 5
+        if any(k in b for k in ['guidance','outlook','forecast','expects','projects']): s += 4
+        if any(k in b for k in ['estimate','consensus','expected','vs.','versus']): s += 3
+        if any(k in b for k in ['after-hours','after hours','premarket','pre-market']): s += 2
+        if len(a.get('text','')) > 500: s += 2
+        return s
+
+    rows.sort(key=lambda a: (score(a), a.get('ts','')), reverse=True)
+    return rows[:12]
 
 def _extract_estimate(text, metric):
     t=re.sub(r'\s+',' ',text or '')
@@ -3200,28 +3332,67 @@ def _extract_estimate(text, metric):
     return None,None
 
 def _extract_guidance_rows(text):
-    out=[]
-    sents=_split_sentences(text or '')
+    out = []
+    sents = _split_sentences(text or '')
+    guide_terms = ['guidance','outlook','forecast','expects','expect','sees','projects','projects to','guided','guides']
+    metrics = ['revenue','sales','eps','earnings per share','gross margin','operating margin','margin','growth','capex','capital expenditure']
+
     for s in sents:
-        low=s.lower()
-        if not any(k in low for k in ['guidance','expects','forecast','outlook','sees','projects']):continue
-        if not any(k in low for k in ['revenue','sales','eps','gross margin','margin']):continue
-        est=''
-        m=re.search(r'(?:est\.?|estimate|consensus|expected by analysts)[^$\d]{0,20}(\$?[\d,.]+\s*[TBMK]?|\d+(?:\.\d+)?%)',s,re.I)
-        if m:est=m.group(1)
-        out.append({'metric':'財測','companyGuide':s[:360],'estimate':est})
-        if len(out)>=4:break
+        low = s.lower()
+        if not any(k in low for k in guide_terms):
+            continue
+        if not any(k in low for k in metrics):
+            continue
+
+        # A useful guidance sentence should contain a number/range/percentage.
+        if not re.search(r'\$?\d+(?:\.\d+)?(?:\s*(?:-|–|to)\s*\$?\d+(?:\.\d+)?)?\s*(?:%|[TBMK])?', s, re.I):
+            continue
+
+        est = ''
+        m = re.search(
+            r'(?:est\.?|estimate|consensus|expected by analysts|analysts expected|street expected)'
+            r'[^$\d]{0,30}(\$?[\d,.]+\s*[TBMK]?|\d+(?:\.\d+)?%)',
+            s, re.I
+        )
+        if m:
+            est = m.group(1)
+
+        metric = '財測'
+        if 'revenue' in low or 'sales' in low: metric = 'Revenue'
+        elif 'eps' in low or 'earnings per share' in low: metric = 'EPS'
+        elif 'gross margin' in low: metric = 'Gross Margin'
+        elif 'operating margin' in low: metric = 'Operating Margin'
+        elif 'capex' in low or 'capital expenditure' in low: metric = 'CapEx'
+
+        row = {
+            'metric': metric,
+            'companyGuide': (zh(s[:520]) or s[:520]),
+            'estimate': est
+        }
+        sig = metric + '|' + row['companyGuide']
+        if not any((z['metric'] + '|' + z['companyGuide']) == sig for z in out):
+            out.append(row)
+        if len(out) >= 6:
+            break
     return out
 
 def _management_bullets(text):
-    keys=['ceo','cfo','management','said','expects','demand','backlog','capacity','margin','pricing','customer','ai','data center','cloud','supply','order','guidance']
-    picks=[]
+    keys = [
+        'ceo','cfo','management','said','expects','expect','demand','backlog','capacity',
+        'margin','pricing','customer','ai','data center','cloud','supply','order','guidance',
+        'capex','capital expenditure','shipments','production','bookings','rpo'
+    ]
+    picks = []
     for s in _split_sentences(text or ''):
-        low=s.lower()
-        if any(k in low for k in keys) and len(s)>55:
-            z=zh(s[:520]) or s[:520]
-            if z not in picks:picks.append(z)
-        if len(picks)>=5:break
+        low = s.lower()
+        if _is_polluted_text(s):
+            continue
+        if any(k in low for k in keys) and len(s) > 55:
+            z = zh(s[:650]) or s[:650]
+            if z not in picks:
+                picks.append(z)
+        if len(picks) >= 7:
+            break
     return picks
 
 def _first_reaction(text):
@@ -3235,20 +3406,90 @@ def _first_reaction(text):
             return v
     return None
 
-def _next_close_reaction(symbol,report_dt):
+def _extended_reaction_from_prices(symbol, report_dt):
+    """
+    Recent-report fallback using Yahoo extended-hours bars.
+    Returns the first observable extended-session move after the earnings time.
+    """
     try:
-        d=report_dt.date() if hasattr(report_dt,'date') else report_dt
-        start=(d-timedelta(days=5)).isoformat(); end=(d+timedelta(days=8)).isoformat()
-        h=yf.Ticker(symbol).history(start=start,end=end,auto_adjust=False)
-        if h is None or len(h)<2:return None
-        days=[(idx.date(),float(row['Close'])) for idx,row in h.iterrows() if safe_float(row.get('Close'))]
-        prev=[x for x in days if x[0]<d]; aft=[x for x in days if x[0]>=d]
-        if not prev or not aft:return None
-        # If report was after market, first normal close may be report date; use next trading date when possible.
-        base=prev[-1][1]
-        target=aft[0][1]
-        return (target/base-1)*100 if base else None
-    except Exception:return None
+        now = datetime.now(timezone.utc)
+        if now - report_dt > timedelta(days=55):
+            return None
+
+        et = report_dt.astimezone(ZoneInfo("America/New_York"))
+        t = yf.Ticker(symbol)
+        start = (et.date() - timedelta(days=2)).isoformat()
+        end = (et.date() + timedelta(days=3)).isoformat()
+
+        daily = t.history(start=start, end=end, interval="1d", auto_adjust=False)
+        intr = t.history(start=start, end=end, interval="5m", prepost=True, auto_adjust=False)
+
+        if daily is None or daily.empty or intr is None or intr.empty:
+            return None
+
+        drows = [(idx.date(), safe_float(row.get('Close'))) for idx, row in daily.iterrows()]
+        drows = [(d, p) for d, p in drows if p not in (None, 0)]
+
+        if et.hour >= 16:
+            bases = [p for d,p in drows if d == et.date()]
+            if not bases:
+                bases = [p for d,p in drows if d < et.date()]
+            base = bases[-1] if bases else None
+        else:
+            bases = [p for d,p in drows if d < et.date()]
+            base = bases[-1] if bases else None
+
+        if not base:
+            return None
+
+        candidates = []
+        for ix, row in intr.iterrows():
+            try:
+                ix_et = ix.tz_convert("America/New_York") if getattr(ix, "tzinfo", None) else ix.tz_localize("UTC").tz_convert("America/New_York")
+            except Exception:
+                continue
+            p = safe_float(row.get('Close'))
+            if p in (None, 0):
+                continue
+            if ix_et.to_pydatetime() >= et and ix_et.to_pydatetime() <= et + timedelta(hours=8):
+                candidates.append(p)
+
+        if not candidates:
+            return None
+        return (candidates[0] / base - 1) * 100
+    except Exception:
+        return None
+
+def _next_close_reaction(symbol, report_dt):
+    try:
+        et = report_dt.astimezone(ZoneInfo("America/New_York"))
+        d = et.date()
+        start = (d - timedelta(days=5)).isoformat()
+        end = (d + timedelta(days=8)).isoformat()
+        h = yf.Ticker(symbol).history(start=start, end=end, auto_adjust=False)
+        if h is None or len(h) < 2:
+            return None
+
+        days = [(idx.date(), safe_float(row.get('Close'))) for idx,row in h.iterrows()]
+        days = [(day, p) for day,p in days if p not in (None,0)]
+
+        if et.hour >= 16:
+            base_rows = [x for x in days if x[0] == d]
+            if not base_rows:
+                base_rows = [x for x in days if x[0] < d]
+            after = [x for x in days if x[0] > d]
+        else:
+            base_rows = [x for x in days if x[0] < d]
+            after = [x for x in days if x[0] >= d]
+
+        if not base_rows or not after:
+            return None
+
+        base = base_rows[-1][1]
+        target = after[0][1]
+        return (target / base - 1) * 100 if base else None
+    except Exception:
+        return None
 
 def _quarterly_revenue_actual(t,report_dt):
     try:
@@ -3303,6 +3544,25 @@ def refresh_earnings_data(targets):
             try:calendars.append(fut.result())
             except Exception:pass
 
+    # Remove resolver-polluted cached earnings enrichment before re-use.
+    clean_old_reports = []
+    for r in (old.get('reports') or []):
+        if not isinstance(r, dict):
+            continue
+        blob = json.dumps({
+            'guidance': r.get('guidance'),
+            'management': r.get('management'),
+            'sources': r.get('sources')
+        }, ensure_ascii=False)
+        if _is_polluted_text(blob):
+            r = dict(r)
+            r['guidance'] = []
+            r['management'] = []
+            r['sources'] = []
+            r['sourceCount'] = 0
+        clean_old_reports.append(r)
+    old['reports'] = clean_old_reports
+
     old_map={(x.get('symbol'),x.get('reportDate')):x for x in (old.get('reports') or []) if isinstance(x,dict)}
     reports=[]; upcoming=[]
     raw_reports=[]
@@ -3346,6 +3606,8 @@ def refresh_earnings_data(targets):
             mb=_management_bullets(joined)
             if mb:item['management']=mb
             fr=_first_reaction(joined)
+            if fr is None:
+                fr=_extended_reaction_from_prices(c['symbol'],dt)
             if fr is not None:item['firstReactionPct']=fr
             nc=_next_close_reaction(c['symbol'],dt)
             if nc is not None:item['nextClosePct']=nc
@@ -3357,6 +3619,234 @@ def refresh_earnings_data(targets):
     upcoming.sort(key=lambda x:x.get('date',''))
     payload={'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
     EARNINGS_FILE.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+
+
+# ---------- U.S. macro data: Forex Factory ----------
+MACRO_FILE = ROOT / "macro.json"
+FF_THIS_WEEK_JSON = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+FF_NEXT_WEEK_JSON = "https://nfs.faireconomy.media/ff_calendar_nextweek.json"
+
+def _ff_fetch(url):
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent":"Mozilla/5.0",
+                "Accept":"application/json,text/plain,*/*",
+                "Referer":"https://www.forexfactory.com/calendar"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data = json.loads(r.read().decode("utf-8", "ignore"))
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+def _ff_dt(row):
+    raw = str(row.get("date") or "").strip()
+    if not raw:
+        return None
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z","+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=ZoneInfo("America/New_York"))
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+def _macro_event_key(x):
+    return "|".join([
+        str(x.get("title") or "").strip().lower(),
+        str(x.get("eventTimeUtc") or "").strip(),
+        str(x.get("impact") or "").strip().lower(),
+    ])
+
+def _impact_zh(impact):
+    x = (impact or "").lower()
+    if x == "high": return "紅燈"
+    if x == "medium": return "橘燈"
+    return impact or ""
+
+def _macro_push_state():
+    try:
+        s = json.loads(PUSH_STATE_FILE.read_text(encoding="utf-8"))
+        return s if isinstance(s, dict) else {}
+    except Exception:
+        return {}
+
+def _save_macro_push_state(state):
+    PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def refresh_macro_data():
+    """
+    U.S. macro data policy:
+      - Start collecting from the moment this version is first run.
+      - Do NOT backfill older releases that happened before collection began.
+      - Once an eligible USD Medium/High event is collected, keep it permanently
+        in macro.json instead of deleting it after the day passes.
+      - Upcoming events are added when they become visible in the Forex Factory feed.
+      - Actual / Forecast / Previous are refreshed in-place after release.
+    """
+    now_utc = datetime.now(timezone.utc)
+    tw_now = now_utc.astimezone(ZoneInfo("Asia/Taipei"))
+
+    # Load existing persistent macro database.
+    old = {}
+    try:
+        old = json.loads(MACRO_FILE.read_text(encoding="utf-8"))
+        if not isinstance(old, dict):
+            old = {}
+    except Exception:
+        old = {}
+
+    collection_started_at = old.get("collectionStartedAtUtc")
+    if collection_started_at:
+        try:
+            start_dt = datetime.fromisoformat(str(collection_started_at).replace("Z","+00:00"))
+            if start_dt.tzinfo is None:
+                start_dt = start_dt.replace(tzinfo=timezone.utc)
+            else:
+                start_dt = start_dt.astimezone(timezone.utc)
+        except Exception:
+            start_dt = now_utc
+            collection_started_at = now_utc.isoformat()
+    else:
+        # First run of this version: this is the hard boundary.
+        start_dt = now_utc
+        collection_started_at = now_utc.isoformat()
+
+    # Keep all previously stored events.
+    existing = {}
+    for x in (old.get("events") or []):
+        if not isinstance(x, dict):
+            continue
+        k = _macro_event_key(x)
+        if k:
+            existing[k] = x
+
+    raw = _ff_fetch(FF_THIS_WEEK_JSON)
+    raw += _ff_fetch(FF_NEXT_WEEK_JSON)
+
+    for row in raw:
+        if str(row.get("country") or row.get("currency") or "").upper() != "USD":
+            continue
+
+        impact = str(row.get("impact") or "").strip().title()
+        if impact not in ("High", "Medium"):
+            continue
+
+        dt = _ff_dt(row)
+        if not dt:
+            continue
+
+        tw = dt.astimezone(ZoneInfo("Asia/Taipei"))
+        event = {
+            "title": str(row.get("title") or "").strip(),
+            "impact": impact,
+            "impactZh": _impact_zh(impact),
+            "actual": str(row.get("actual") or "").strip(),
+            "forecast": str(row.get("forecast") or "").strip(),
+            "previous": str(row.get("previous") or "").strip(),
+            "eventTimeUtc": dt.isoformat(),
+            "eventTimeTw": tw.isoformat(),
+            "dateTw": tw.date().isoformat(),
+            "timeTw": tw.strftime("%H:%M"),
+            "sourceUrl": "https://www.forexfactory.com/calendar",
+        }
+        if not event["title"]:
+            continue
+
+        k = _macro_event_key(event)
+
+        # Never backfill an event that was already in the past before collection began.
+        # Existing events are exempt because they were already collected by this system.
+        if k not in existing and dt < start_dt:
+            continue
+
+        if k in existing:
+            # Refresh released values without losing stored metadata.
+            old_event = existing[k]
+            old_event.update({
+                "title": event["title"],
+                "impact": event["impact"],
+                "impactZh": event["impactZh"],
+                "actual": event["actual"] or old_event.get("actual",""),
+                "forecast": event["forecast"] or old_event.get("forecast",""),
+                "previous": event["previous"] or old_event.get("previous",""),
+                "eventTimeUtc": event["eventTimeUtc"],
+                "eventTimeTw": event["eventTimeTw"],
+                "dateTw": event["dateTw"],
+                "timeTw": event["timeTw"],
+                "sourceUrl": event["sourceUrl"],
+            })
+        else:
+            event["capturedAtUtc"] = now_utc.isoformat()
+            existing[k] = event
+
+    events = sorted(
+        existing.values(),
+        key=lambda x: x.get("eventTimeUtc",""),
+        reverse=True
+    )
+
+    payload = {
+        "updatedAt": tw_now.strftime("%Y-%m-%d %H:%M 台灣時間"),
+        "collectionStartedAtUtc": collection_started_at,
+        "collectionStartedAtTw": start_dt.astimezone(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M 台灣時間"),
+        "events": events,
+        "source": "Forex Factory",
+        "sourceUrl": "https://www.forexfactory.com/calendar",
+    }
+    MACRO_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # ----- Pushover -----
+    state = _macro_push_state()
+    reminder_days = set(state.get("macroReminderDays") or [])
+    result_keys = set(state.get("macroResultKeys") or [])
+
+    today = tw_now.date().isoformat()
+    today_events = [x for x in events if x.get("dateTw") == today]
+
+    # Taiwan 08:30 reminder, once per day.
+    # Only events already captured by the system are included.
+    if today_events and tw_now.hour == 8 and tw_now.minute >= 30 and today not in reminder_days:
+        lines = []
+        for x in sorted(today_events, key=lambda z: z.get("eventTimeUtc","")):
+            lines.append(f'{x["timeTw"]}｜{x["impactZh"]}｜{x["title"]}')
+        ok, _ = _send_pushover(
+            "今日美國重要數據",
+            "\n".join(lines[:12]),
+            url="https://morris199786.github.io/us-stock-watch/?page=macro"
+        )
+        if ok:
+            reminder_days.add(today)
+
+    # Result push: once when Actual first becomes available.
+    for x in today_events:
+        if not x.get("actual"):
+            continue
+        k = _macro_event_key(x) + "|" + x.get("actual","")
+        if k in result_keys:
+            continue
+        msg = (
+            f'{x["impactZh"]}｜{x["title"]}\n'
+            f'實際 {x.get("actual") or "--"}｜預期 {x.get("forecast") or "--"}'
+        )
+        if x.get("previous"):
+            msg += f'｜前值 {x["previous"]}'
+        ok, _ = _send_pushover(
+            "美國數據公布",
+            msg,
+            url="https://morris199786.github.io/us-stock-watch/?page=macro"
+        )
+        if ok:
+            result_keys.add(k)
+
+    state["macroReminderDays"] = sorted(reminder_days)[-90:]
+    state["macroResultKeys"] = list(result_keys)[-1000:]
+    state["macroUpdatedAt"] = now_utc.isoformat()
+    _save_macro_push_state(state)
+
 
 CONGRESS_FILE = ROOT / "congress.json"
 CONGRESS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/trades.json"
@@ -3969,6 +4459,7 @@ def refresh_congress_data():
     )
 
 refresh_earnings_data(broker_scan_candidates)
+refresh_macro_data()
 refresh_congress_data()
 
 tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
@@ -3977,6 +4468,9 @@ tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
                ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
+news = _clean_cached_news(news)
+history_db = _clean_cached_news(history_db)
+
 (ROOT / "news.json").write_text(
     json.dumps({"updatedAt": tw + " 台灣時間", "historyUpdatedDate": old_history_date, "historyLastAttemptAt": old_history_last_attempt, "historyItemCount": len(history_db), "top10Date": str(market_day_et), "top10Count": len(top10), "items": news, "historyItems": history_db},
                ensure_ascii=False, indent=2),

@@ -566,6 +566,13 @@
     }
   },
   "earnings_history_per_stock": 4,
-  "earnings_enrich_recent_reports": 18,
-  "earnings_refresh_minutes": 30
+  "earnings_enrich_recent_reports": 24,
+  "earnings_refresh_minutes": 30,
+  "macro_source": "Forex Factory",
+  "macro_impacts": [
+    "High",
+    "Medium"
+  ],
+  "macro_currency": "USD",
+  "macro_reminder_time_tw": "08:30"
 }

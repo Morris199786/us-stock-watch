@@ -77,12 +77,35 @@
 .scrollTopBtn.show{display:flex}
 .scrollTopBtn:active{transform:scale(.96)}
 @media(max-width:720px){.perfgrid{grid-template-columns:1fr}.congressCards{grid-template-columns:repeat(2,1fr)}.btgrid{grid-template-columns:repeat(2,1fr)}.cfilters{grid-template-columns:1fr 1fr}.cfilters .full{grid-column:1/-1}.crow.headrow{display:none}.crow{grid-template-columns:1fr auto;padding:13px}.crow>div:nth-child(n+3){grid-column:1/-1;font-size:12px}}
+
+/* compact 5-button primary navigation + nested selectors */
+.tabs{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:8px!important;overflow:visible!important}
+.tab{min-width:0!important;padding:11px 5px!important;font-size:13px!important}
+.marketSwitch,.earnSwitch{display:flex;gap:8px;margin:12px 0}
+.marketSwitch button,.earnSwitch button{flex:1;background:var(--p2);color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:11px 8px;font-weight:900}
+.marketSwitch button.on,.earnSwitch button.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px #58d9ff44 inset}
+.macroGrid{display:grid;gap:10px;margin-top:12px}
+.macroCard{background:var(--p);border:1px solid var(--line);border-radius:16px;padding:14px}
+.macroTop{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.macroName{font-size:17px;font-weight:900;line-height:1.35}
+.macroTime{font-size:13px;color:var(--muted);white-space:nowrap}
+.impactPill{display:inline-flex;margin-top:8px;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:900}
+.impactPill.high{color:#ff6986;border:1px solid #ff416b77;background:#ff416b12}
+.impactPill.medium{color:#ffb14a;border:1px solid #ff9b2f77;background:#ff9b2f12}
+.macroVals{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.macroVal{background:var(--p2);border-radius:11px;padding:10px}
+.macroVal .k{font-size:10px;color:var(--muted)}
+.macroVal .v{font-size:17px;font-weight:900;margin-top:4px}
+.macroSource{margin-top:12px;color:var(--muted);font-size:11px}
+.macroSource a{color:var(--acc);text-decoration:none}
+@media(max-width:560px){.tabs{gap:5px!important}.tab{font-size:12px!important;padding:10px 3px!important}.macroVals{grid-template-columns:repeat(3,1fr)}}
+
 </style>
 </head><body><div class="wrap">
 <div class="top"><h1>美股觀察</h1><p>依投資題材分組｜紅漲綠跌</p><div id="stamp" class="stamp">載入中…</div></div>
-<nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button><button class="tab" data-p="earnings">財報會議</button><button class="tab" data-p="congress">國會交易</button></nav>
-<section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">主數字固定顯示正常交易時段漲跌幅｜盤前、盤後另外標示</div><div id="groups" class="grid"></div></section>
-<section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">族群漲跌固定使用正常交易時段漲跌幅計算｜盤前、盤後只在個股旁另外標示，不影響族群報酬</div><div id="heatgrid" class="heatgrid"></div></section>
+<nav class="tabs"><button class="tab on" data-p="stocks">市場</button><button class="tab" data-p="news">新聞</button><button class="tab" data-p="earnings">財報</button><button class="tab" data-p="macro">數據</button><button class="tab" data-p="congress">更多</button></nav>
+<section id="stocks" class="page on"><div class="title">市場</div><div class="marketSwitch"><button class="on" data-market="stocks">族群漲跌</button><button data-market="heat">市場熱力圖</button></div><div class="title" style="font-size:21px">族群漲跌</div><div class="sub">主數字固定顯示正常交易時段漲跌幅｜盤前、盤後另外標示</div><div id="groups" class="grid"></div></section>
+<section id="heat" class="page"><div class="title">市場</div><div class="marketSwitch"><button data-market="stocks">族群漲跌</button><button class="on" data-market="heat">市場熱力圖</button></div><div class="title" style="font-size:21px">市場熱力圖</div><div class="sub">族群漲跌固定使用正常交易時段漲跌幅計算｜盤前、盤後只在個股旁另外標示，不影響族群報酬</div><div id="heatgrid" class="heatgrid"></div></section>
 <section id="news" class="page"><div class="title">市場新聞</div>
 <div class="sub">預設顯示最新且重要的新聞；輸入股票 Ticker 可搜尋最近 30 天新聞，不分大小寫</div>
 <div class="topnewsbar"><button id="top10Toggle" class="top10btn">今日十大重要新聞</button><span id="top10Note" class="top10note">盤前＋盤中＋盤後</span></div>
@@ -92,14 +115,24 @@
 <section id="earnings" class="page">
   <div class="title">財報會議</div>
   <div class="sub">只追蹤美股觀察自選股｜最新到最舊｜財報／財測 vs 市場預期＋管理層重點＋公布後股價反應</div>
-  <div class="earnHeroGrid">
-    <div class="earnPanel"><div class="earnPanelTitle">最新財報</div><div id="earnLatest"></div></div>
-    <div class="earnPanel"><div class="earnPanelTitle">即將公布財報</div><div id="earnUpcoming"></div></div>
+  <div class="earnSwitch">
+    <button id="earnLatestBtn" class="on" data-emode="latest">最新財報</button>
+    <button id="earnUpcomingBtn" data-emode="upcoming">即將公布</button>
   </div>
+  <div id="earnUpcomingList" class="earnPanel" style="display:none"></div>
   <div class="searchbar"><input id="earnSearch" type="search" placeholder="輸入 Ticker，例如 NVDA、MU、LITE"><button id="clearEarnSearch" class="clearbtn">清除</button></div>
   <div id="earnInfo" class="resultinfo">依財報公布時間由新到舊</div>
   <div id="earnGrid" class="earnGrid"></div>
 </section>
+
+<section id="macro" class="page">
+  <div class="title">美國數據</div>
+  <div class="sub">Forex Factory｜只顯示 USD 橘燈／紅燈最新數據｜實際 vs 預期｜公布後自動推播</div>
+  <div id="macroInfo" class="resultinfo">載入最新美國重要數據中…</div>
+  <div id="macroGrid" class="macroGrid"></div>
+  <div class="macroSource">來源：<a href="https://www.forexfactory.com/calendar" target="_blank" rel="noopener">Forex Factory Calendar ↗</a>｜時間轉為台灣時間</div>
+</section>
+
 <section id="congress" class="page">
   <div class="title">國會交易</div>
   <div class="sub">美國 House／Senate STOCK Act 公開申報資料｜歷史回溯至 2024｜可搜尋全部 Ticker 與特定國會議員</div>
@@ -178,18 +211,50 @@ function newsAge(ts){
  if(day<7)return`${day} 天前`;
  return newsDate(ts);
 } const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
-document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();if(b.dataset.p==="earnings")loadEarnings();});
+function openMainPage(p){
+ document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));
+ document.getElementById(p)?.classList.add("on");
+ document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));
+ const main=(p==="heat")?"stocks":p;
+ document.querySelector(`.tab[data-p="${main}"]`)?.classList.add("on");
+ if(p==="congress")loadCongress();
+ if(p==="earnings")loadEarnings();
+ if(p==="macro")loadMacro();
+}
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>openMainPage(b.dataset.p));
+document.querySelectorAll("[data-market]").forEach(b=>b.onclick=()=>openMainPage(b.dataset.market));
 
 
-let __earningsLoaded=false,__earnReports=[],__earnUpcoming=[];
+
+let __earningsLoaded=false,__earnReports=[],__earnUpcoming=[],__earnMode="latest";
 function moneyFmt(v){if(v==null||Number.isNaN(Number(v)))return"--";v=Number(v);const a=Math.abs(v);if(a>=1e12)return"$"+(v/1e12).toFixed(2)+"T";if(a>=1e9)return"$"+(v/1e9).toFixed(2)+"B";if(a>=1e6)return"$"+(v/1e6).toFixed(1)+"M";return"$"+v.toFixed(2)}
 function metricStatus(a,e){if(a==null||e==null||Number(e)===0)return{txt:"--",cl:"inline"};const d=(Number(a)/Number(e)-1)*100;return{txt:(d>=0?"Beat +":"Miss ")+d.toFixed(1)+"%",cl:d>=0?"beat":"miss"}}
 function renderEarnings(){
  const q=(document.getElementById("earnSearch")?.value||"").trim().toUpperCase();
+ const info=document.getElementById("earnInfo");
+ const g=document.getElementById("earnGrid");
+ const upBox=document.getElementById("earnUpcomingList");
+ if(!g)return;
+
+ document.querySelectorAll("[data-emode]").forEach(b=>b.classList.toggle("on",b.dataset.emode===__earnMode));
+
+ if(__earnMode==="upcoming"){
+   let rows=[...__earnUpcoming].sort((a,b)=>String(a.date||"").localeCompare(String(b.date||"")));
+   if(q)rows=rows.filter(x=>String(x.ticker||"").toUpperCase()===q||String(x.name||"").toUpperCase().includes(q));
+   if(info)info.textContent=q?`${q}｜${rows.length} 筆即將公布財報`:`${rows.length} 筆即將公布財報｜依時間排序`;
+   g.innerHTML="";
+   if(upBox){
+     upBox.style.display="block";
+     upBox.innerHTML=rows.length?rows.map(x=>`<div class="earnMini"><div><div class="earnTicker">${escapeHtml(x.ticker||"")}</div><div class="newsdate">${escapeHtml(x.name||"")}｜${escapeHtml(x.group||"")}</div></div><div class="earnDate">${newsExactTime(x.date)||escapeHtml(x.date||"")}</div></div>`).join(""):'<div class="empty">近期沒有已確認的財報日期</div>';
+   }
+   return;
+ }
+
+ if(upBox){upBox.style.display="none";upBox.innerHTML=""}
  let rows=[...__earnReports].sort((a,b)=>String(b.reportDateTime||b.reportDate||"").localeCompare(String(a.reportDateTime||a.reportDate||"")));
  if(q)rows=rows.filter(x=>String(x.ticker||"").toUpperCase()===q||String(x.name||"").toUpperCase().includes(q));
- const info=document.getElementById("earnInfo");if(info)info.textContent=q?`${q}｜${rows.length} 季財報｜最新到最舊`:`${rows.length} 季財報｜最新到最舊`;
- const g=document.getElementById("earnGrid");if(!g)return;
+ if(info)info.textContent=q?`${q}｜${rows.length} 季財報｜最新到最舊`:`${rows.length} 季財報｜最新到最舊`;
+
  if(!rows.length){g.innerHTML='<div class="empty">目前沒有符合條件的財報資料</div>';return}
  g.innerHTML=rows.map(x=>{
    const rev=metricStatus(x.revenueActual,x.revenueEstimate),eps=metricStatus(x.epsActual,x.epsEstimate);
@@ -199,7 +264,7 @@ function renderEarnings(){
    ];
    const guides=Array.isArray(x.guidance)?x.guidance:[],mgmt=Array.isArray(x.management)?x.management:[],sources=Array.isArray(x.sources)?x.sources:[];
    const first=x.firstReactionPct==null?'--':fmt(Number(x.firstReactionPct)),close=x.nextClosePct==null?'--':fmt(Number(x.nextClosePct));
-   return `<details class="earnCard"><summary class="earnSummary"><div class="earnTop"><div><div class="earnName">${escapeHtml(x.ticker||'')}｜${escapeHtml(x.name||'')}</div><div class="earnMeta">${escapeHtml(x.group||'')}｜${escapeHtml(x.reportDate||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div><div class="earnBadges"><span class="earnBadge ${eps.cl}">EPS ${eps.txt}</span><span class="earnBadge ${rev.cl}">Revenue ${rev.txt}</span><span class="earnBadge">第一反應 ${first}</span><span class="earnBadge">隔日收盤 ${close}</span></div></summary><div class="earnBody"><div class="earnSection"><h4>財報數字 vs 市場預期</h4><table class="earnTable"><thead><tr><th>項目</th><th>實際</th><th>預期</th><th>結果</th></tr></thead><tbody>${mrows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td class="${r[3].cl}">${r[3].txt}</td></tr>`).join('')}</tbody></table></div><div class="earnSection"><h4>財測 vs 市場預期</h4>${guides.length?`<table class="earnTable"><tbody>${guides.map(z=>`<tr><td>${escapeHtml(z.metric||'財測')}</td><td style="text-align:left">${escapeHtml(z.companyGuide||'--')}</td><td>${escapeHtml(z.estimate||'')}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">目前公開來源沒有足夠的數字型財測資料</div>'}</div><div class="earnSection"><h4>管理層說了什麼重要的</h4>${mgmt.length?`<ul class="earnBullets">${mgmt.map(z=>`<li>${escapeHtml(z)}</li>`).join('')}</ul>`:'<div class="sub">目前來源尚未取得足夠的管理層逐字／摘要資訊</div>'}</div><div class="earnSection"><h4>公布後股價反應</h4><div class="earnBadges"><span class="earnBadge">盤後／盤前第一反應 ${first}</span><span class="earnBadge">下一正常交易日收盤 ${close}</span></div></div>${sources.length?`<div class="earnSection earnSources"><h4>交叉比對來源（${x.sourceCount||sources.length}）</h4>${sources.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||'#')}">${escapeHtml(s.title||'來源')}</a>`).join('')}</div>`:''}</div></details>`
+   return `<details class="earnCard"><summary class="earnSummary"><div class="earnTop"><div><div class="earnName">${escapeHtml(x.ticker||'')}｜${escapeHtml(x.name||'')}</div><div class="earnMeta">${escapeHtml(x.group||'')}｜${escapeHtml(x.reportDate||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div><div class="earnBadges"><span class="earnBadge ${eps.cl}">EPS ${eps.txt}</span><span class="earnBadge ${rev.cl}">Revenue ${rev.txt}</span><span class="earnBadge">第一反應 ${first}</span><span class="earnBadge">隔日收盤 ${close}</span></div></summary><div class="earnBody"><div class="earnSection"><h4>財報數字 vs 市場預期</h4><table class="earnTable"><thead><tr><th>項目</th><th>實際</th><th>預期</th><th>結果</th></tr></thead><tbody>${mrows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td class="${r[3].cl}">${r[3].txt}</td></tr>`).join('')}</tbody></table></div><div class="earnSection"><h4>財測 vs 市場預期</h4>${guides.length?`<table class="earnTable"><tbody>${guides.map(z=>`<tr><td>${escapeHtml(z.metric||'財測')}</td><td style="text-align:left">${escapeHtml(z.companyGuide||'--')}</td><td>${escapeHtml(z.estimate||'')}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">公司可能未提供量化財測，或目前公開來源尚未取得足夠資料；管理層定性展望請看下一欄</div>'}</div><div class="earnSection"><h4>管理層說了什麼重要的</h4>${mgmt.length?`<ul class="earnBullets">${mgmt.map(z=>`<li>${escapeHtml(z)}</li>`).join('')}</ul>`:'<div class="sub">目前仍在補抓官方財報稿／電話會議／新聞交叉來源</div>'}</div><div class="earnSection"><h4>公布後股價反應</h4><div class="earnBadges"><span class="earnBadge">盤後／盤前第一反應 ${first}</span><span class="earnBadge">下一正常交易日收盤 ${close}</span></div></div>${sources.length?`<div class="earnSection earnSources"><h4>交叉比對來源（${x.sourceCount||sources.length}）</h4>${sources.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||'#')}">${escapeHtml(s.title||'來源')}</a>`).join('')}</div>`:''}</div></details>`
  }).join('');
 }
 async function loadEarnings(){
@@ -207,10 +272,37 @@ async function loadEarnings(){
  try{
    const d=await fetch('earnings.json?'+Date.now()).then(r=>{if(!r.ok)throw new Error('no earnings');return r.json()});
    __earnReports=d.reports||[];__earnUpcoming=d.upcoming||[];__earningsLoaded=true;
-   const latest=document.getElementById('earnLatest');if(latest)latest.innerHTML=__earnReports.slice(0,6).map(x=>`<div class="earnMini"><div><div class="earnTicker">${escapeHtml(x.ticker)}</div><div class="newsdate">${escapeHtml(x.name||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div>`).join('')||'<div class="sub">尚無資料</div>';
-   const upc=document.getElementById('earnUpcoming');if(upc)upc.innerHTML=__earnUpcoming.slice(0,8).map(x=>`<div class="earnMini"><div><div class="earnTicker">${escapeHtml(x.ticker)}</div><div class="newsdate">${escapeHtml(x.name||'')}</div></div><div class="earnDate">${newsExactTime(x.date)||escapeHtml(x.date||'')}</div></div>`).join('')||'<div class="sub">近期沒有已確認日期</div>';
    renderEarnings();
  }catch(e){const g=document.getElementById('earnGrid');if(g)g.innerHTML='<div class="empty">earnings.json 尚未建立，先手動執行一次 Update workflow</div>'}
+}
+document.querySelectorAll("[data-emode]").forEach(b=>b.onclick=()=>{__earnMode=b.dataset.emode;renderEarnings()});
+
+
+let __macroLoaded=false,__macroData=null;
+async function loadMacro(){
+ if(__macroLoaded){renderMacro();return}
+ const info=document.getElementById("macroInfo");
+ if(info)info.textContent="載入最新美國重要數據中…";
+ try{
+   __macroData=await fetch("macro.json?"+Date.now()).then(r=>{if(!r.ok)throw new Error("no macro");return r.json()});
+   __macroLoaded=true;
+   renderMacro();
+ }catch(e){
+   if(info)info.textContent="macro.json 尚未建立，先手動執行一次 Update workflow";
+   const g=document.getElementById("macroGrid");if(g)g.innerHTML="";
+ }
+}
+function renderMacro(){
+ const d=__macroData||{}, rows=Array.isArray(d.events)?d.events:[];
+ const info=document.getElementById("macroInfo");
+ if(info)info.textContent=`${d.displayLabel||"最新"}｜${rows.length} 項橘燈／紅燈 USD 數據｜更新 ${d.updatedAt||"--"}`;
+ const g=document.getElementById("macroGrid");if(!g)return;
+ if(!rows.length){g.innerHTML='<div class="empty">目前沒有橘燈／紅燈的美國重要數據</div>';return}
+ g.innerHTML=rows.map(x=>{
+   const high=String(x.impact||"").toLowerCase()==="high";
+   const released=String(x.actual||"").trim()!=="";
+   return `<div class="macroCard"><div class="macroTop"><div><div class="macroName">${escapeHtml(x.title||"")}</div><span class="impactPill ${high?"high":"medium"}">${escapeHtml(x.impactZh||x.impact||"")}</span></div><div class="macroTime">${escapeHtml(x.dateTw||"")}<br>${escapeHtml(x.timeTw||"")} 台灣</div></div><div class="macroVals"><div class="macroVal"><div class="k">實際</div><div class="v">${escapeHtml(x.actual|| (released?"--":"待公布"))}</div></div><div class="macroVal"><div class="k">預期</div><div class="v">${escapeHtml(x.forecast||"--")}</div></div><div class="macroVal"><div class="k">前值</div><div class="v">${escapeHtml(x.previous||"--")}</div></div></div></div>`;
+ }).join("");
 }
 
 let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={},__filerBacktests={},__memberPerformance=[];
@@ -555,7 +647,10 @@ async function load(){
  // Pushover deep link: open the exact matching news item once data is loaded.
  if(!window.__deepLinkHandled){
    window.__deepLinkHandled=true;
-   if(new URLSearchParams(location.search).has("congress")){
+   const params=new URLSearchParams(location.search);
+   if(params.get("page")==="macro"){
+     openMainPage("macro");
+   }else if(params.has("congress")){
      openDeepLinkedCongress();
    }else{
      openDeepLinkedNews();
