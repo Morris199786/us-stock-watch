@@ -605,8 +605,8 @@ def target_relevance(text, display_ticker, company_name):
     ):
         return True
 
-    # Exact company phrase.
-    if company and company in low:
+    # Exact company phrase with token boundaries; Meta must not match Metallurgical.
+    if company and re.search(rf"(?<![a-z0-9]){re.escape(company)}(?![a-z0-9])", low):
         return True
 
     stop = {
@@ -1190,16 +1190,37 @@ def _extract_analyst_details(text):
             analyst = am.group(1).strip()
 
         action = ""
-        if any(k in low for k in ["raised","raises","boosted","lifted","increased","hiked"]):
-            action = "上修"
-        elif any(k in low for k in ["cut","cuts","lowered","reduced"]):
+        target_up = bool(re.search(
+            r"(?:price target|target price|target).{0,35}\\b(?:raised|raises|increased|boosted|lifted|hiked)\\b|"
+            r"\\b(?:raised|raises|increased|boosted|lifted|hiked)\\b.{0,35}(?:price target|target price|target)",
+            low, re.I
+        ))
+        target_down = bool(re.search(
+            r"(?:price target|target price|target).{0,35}\\b(?:cut|cuts|lowered|reduced)\\b|"
+            r"\\b(?:cut|cuts|lowered|reduced)\\b.{0,35}(?:price target|target price|target)",
+            low, re.I
+        ))
+        if target_down:
             action = "下修"
-        elif any(k in low for k in ["upgraded","upgrade"]):
-            action = "升評"
-        elif any(k in low for k in ["downgraded","downgrade"]):
-            action = "降評"
-        elif any(k in low for k in ["maintained","maintains","reiterated","reiterates"]):
-            action = "重申"
+        elif target_up:
+            action = "上修"
+        elif old_target and new_target:
+            try:
+                ov = float(str(old_target).replace(",",""))
+                nv = float(str(new_target).replace(",",""))
+                if nv > ov:
+                    action = "上修"
+                elif nv < ov:
+                    action = "下修"
+            except Exception:
+                pass
+        if not action:
+            if re.search(r"\\bupgrad(?:e|ed|es|ing)\\b", low):
+                action = "升評"
+            elif re.search(r"\\bdowngrad(?:e|ed|es|ing)\\b", low):
+                action = "降評"
+            elif any(k in low for k in ["maintained","maintains","reiterated","reiterates"]):
+                action = "重申"
 
         # Use the source sentence itself as reason, but remove mechanical target/rating clause.
         reason = sent.strip()
@@ -3670,24 +3691,36 @@ def _earnings_news_context(ticker, name, report_date):
     return rows[:14]
 
 def _extract_estimate(text, metric):
-    t = re.sub(r'\s+', ' ', text or '')
+    t = re.sub(r'\\s+', ' ', text or '')
     if metric == 'revenue':
         pats = [
             r'(?:revenue|sales)\s+(?:of\s+)?\$?([\d,.]+\s*[TBMK]?).{0,90}?(?:estimate|est\.?|consensus|expected|analysts expected|wall street expected)\s+(?:of\s+)?\$?([\d,.]+\s*[TBMK]?)',
             r'(?:revenue|sales).{0,55}?\$?([\d,.]+\s*[TBMK]?).{0,55}?(?:vs\.?|versus)\s+\$?([\d,.]+\s*[TBMK]?)',
             r'\$?([\d,.]+\s*[TBMK]?)\s+(?:in\s+)?(?:revenue|sales).{0,80}?(?:estimate|consensus|expected).{0,25}?\$?([\d,.]+\s*[TBMK]?)',
-            r'(?:revenue|sales).{0,80}?(?:beat|above|topped).{0,40}?\$?([\d,.]+\s*[TBMK]?).{0,60}?\$?([\d,.]+\s*[TBMK]?)',
         ]
     else:
         pats = [
             r'(?:adjusted\s+)?EPS\s+(?:of\s+)?\$?([\d.]+).{0,80}?(?:estimate|est\.?|consensus|expected|analysts expected)\s+(?:of\s+)?\$?([\d.]+)',
             r'(?:adjusted\s+)?EPS.{0,35}?\$?([\d.]+).{0,40}?(?:vs\.?|versus)\s+\$?([\d.]+)',
-            r'\$?([\d.]+)\s+(?:adjusted\s+)?EPS.{0,80}?(?:estimate|consensus|expected).{0,20}?\$?([\d.]+)',
         ]
     for p in pats:
         m = re.search(p, t, re.I)
-        if m:
-            return _num_with_unit(m.group(1)), _num_with_unit(m.group(2))
+        if not m:
+            continue
+        raw_a, raw_e = m.group(1).strip(), m.group(2).strip()
+        a, e = _num_with_unit(raw_a), _num_with_unit(raw_e)
+        if a is None or e is None or e == 0:
+            continue
+        if metric == 'revenue':
+            scaled_a = bool(re.search(r'[TBMK]\b', raw_a, re.I)) or abs(a) >= 1_000_000
+            scaled_e = bool(re.search(r'[TBMK]\b', raw_e, re.I)) or abs(e) >= 1_000_000
+            if not scaled_a or not scaled_e:
+                continue
+            if abs(a) < 1_000_000 or abs(e) < 1_000_000:
+                continue
+            if abs((a / e - 1) * 100) > 50:
+                continue
+        return a, e
     return None, None
 
 def _extract_guidance_rows(text):
@@ -3883,7 +3916,7 @@ def _quarterly_revenue_actual(t,report_dt):
         for col in q.columns:
             cd=col.date() if hasattr(col,'date') else col
             diff=(report_dt.date()-cd).days
-            if 15<=diff<=120:
+            if 0<=diff<=120:
                 candidates.append((diff,safe_float(q.loc[rows[0],col])))
         candidates=[x for x in candidates if x[1] is not None]
         if not candidates:return None
@@ -3918,7 +3951,7 @@ def refresh_earnings_data(targets):
         if old_dt.tzinfo is None:old_dt=old_dt.replace(tzinfo=timezone.utc)
         # Force refresh when the parser version changes, so old low-quality
         # guidance/management text is replaced immediately.
-        if old.get('parserVersion') == 3 and now-old_dt<timedelta(minutes=int(cfg.get('earnings_refresh_minutes',30))):
+        if old.get('parserVersion') == 4 and now-old_dt<timedelta(minutes=int(cfg.get('earnings_refresh_minutes',30))):
             return
     except Exception:pass
 
@@ -3947,6 +3980,7 @@ def refresh_earnings_data(targets):
             r['sourceCount'] = 0
         clean_old_reports.append(r)
     old['reports'] = clean_old_reports
+    same_parser = old.get('parserVersion') == 4
 
     old_map={(x.get('symbol'),x.get('reportDate')):x for x in (old.get('reports') or []) if isinstance(x,dict)}
     reports=[]; upcoming=[]
@@ -3969,7 +4003,8 @@ def refresh_earnings_data(targets):
             'ticker':c['ticker'],'name':c['name'],'symbol':c['symbol'],'group':c['group'],
             'reportDate':rdate,'reportDateTime':dt.isoformat(),
             'epsActual':x.get('epsActual'),'epsEstimate':x.get('epsEstimate'),'epsSurprisePct':x.get('epsSurprisePct'),
-            'revenueActual':prior.get('revenueActual'),'revenueEstimate':prior.get('revenueEstimate'),
+            'revenueActual':prior.get('revenueActual') if same_parser else None,
+            'revenueEstimate':prior.get('revenueEstimate') if same_parser else None,
             'guidance':prior.get('guidance') or [],'management':prior.get('management') or [],
             'firstReactionPct':prior.get('firstReactionPct'),'nextClosePct':prior.get('nextClosePct'),
             'sources':prior.get('sources') or [],'sourceCount':prior.get('sourceCount',0)
@@ -3985,13 +4020,30 @@ def refresh_earnings_data(targets):
             arts=_earnings_news_context(c['ticker'],c['name'],rdate)
             joined=' '.join((a.get('title','')+' '+a.get('text','')) for a in arts)
             body_joined=' '.join(a.get('text','') for a in arts if a.get('hasBody') and a.get('text'))
-            rev_act,rev_est=_extract_estimate(joined,'revenue')
-            eps_act2,eps_est2=_extract_estimate(joined,'eps')
+            rev_act = rev_est = None
+            eps_act2 = eps_est2 = None
+            for a in arts:
+                one = (a.get('title','') + ' ' + a.get('text','')).strip()
+                if rev_act is None or rev_est is None:
+                    ra, re_ = _extract_estimate(one, 'revenue')
+                    if ra is not None and re_ is not None:
+                        rev_act, rev_est = ra, re_
+                if eps_act2 is None or eps_est2 is None:
+                    ea, ee = _extract_estimate(one, 'eps')
+                    if ea is not None and ee is not None:
+                        eps_act2, eps_est2 = ea, ee
+                if rev_act is not None and rev_est is not None and eps_act2 is not None and eps_est2 is not None:
+                    break
             try:t=yf.Ticker(c['symbol'])
             except Exception:t=None
-            if item['revenueActual'] is None and t is not None:item['revenueActual']=_quarterly_revenue_actual(t,dt)
-            if rev_act is not None:item['revenueActual']=rev_act
-            if rev_est is not None:item['revenueEstimate']=rev_est
+            yf_rev = _quarterly_revenue_actual(t,dt) if t is not None else None
+            if yf_rev is not None:item['revenueActual']=yf_rev
+            if rev_act is not None:
+                if item['revenueActual'] is None:item['revenueActual']=rev_act
+                elif item['revenueActual'] and abs(rev_act/item['revenueActual']-1)<=0.15:item['revenueActual']=rev_act
+            if rev_est is not None:
+                anchor=item.get('revenueActual')
+                if anchor is None or (anchor and abs(rev_est/anchor-1)<=0.50):item['revenueEstimate']=rev_est
             if item['epsActual'] is None and eps_act2 is not None:item['epsActual']=eps_act2
             if item['epsEstimate'] is None and eps_est2 is not None:item['epsEstimate']=eps_est2
             gs=_extract_guidance_rows(body_joined or joined)
@@ -4012,7 +4064,7 @@ def refresh_earnings_data(targets):
 
     reports.sort(key=lambda x:x.get('reportDateTime',''),reverse=True)
     upcoming.sort(key=lambda x:x.get('date',''))
-    payload={'parserVersion':3,'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
+    payload={'parserVersion':4,'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
     EARNINGS_FILE.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
 
 

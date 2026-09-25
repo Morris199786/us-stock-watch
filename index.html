@@ -228,7 +228,7 @@ document.querySelectorAll("[data-market]").forEach(b=>b.onclick=()=>openMainPage
 
 let __earningsLoaded=false,__earnReports=[],__earnUpcoming=[],__earnMode="latest";
 function moneyFmt(v){if(v==null||Number.isNaN(Number(v)))return"--";v=Number(v);const a=Math.abs(v);if(a>=1e12)return"$"+(v/1e12).toFixed(2)+"T";if(a>=1e9)return"$"+(v/1e9).toFixed(2)+"B";if(a>=1e6)return"$"+(v/1e6).toFixed(1)+"M";return"$"+v.toFixed(2)}
-function metricStatus(a,e){if(a==null||e==null||Number(e)===0)return{txt:"--",cl:"inline"};const d=(Number(a)/Number(e)-1)*100;return{txt:(d>=0?"Beat +":"Miss ")+d.toFixed(1)+"%",cl:d>=0?"beat":"miss"}}
+function metricStatus(a,e,maxAbs=500){if(a==null||e==null||Number(e)===0)return{txt:"--",cl:"inline",valid:false};const d=(Number(a)/Number(e)-1)*100;if(!Number.isFinite(d)||Math.abs(d)>maxAbs)return{txt:"--",cl:"inline",valid:false};return{txt:(d>=0?"Beat +":"Miss ")+d.toFixed(1)+"%",cl:d>=0?"beat":"miss",valid:true}}
 function earnGuideLabel(metric){
  const m=String(metric||"財測").toLowerCase();
  if(m==="revenue")return"營收財測";
@@ -266,9 +266,9 @@ function renderEarnings(){
 
  if(!rows.length){g.innerHTML='<div class="empty">目前沒有符合條件的財報資料</div>';return}
  g.innerHTML=rows.map(x=>{
-   const rev=metricStatus(x.revenueActual,x.revenueEstimate),eps=metricStatus(x.epsActual,x.epsEstimate);
+   const rev=metricStatus(x.revenueActual,x.revenueEstimate,50),eps=metricStatus(x.epsActual,x.epsEstimate,500);
    const mrows=[
-     ['本季營收',moneyFmt(x.revenueActual),moneyFmt(x.revenueEstimate),rev],
+     ['本季營收',moneyFmt(x.revenueActual),rev.valid?moneyFmt(x.revenueEstimate):'--',rev],
      ['本季 EPS',x.epsActual==null?'--':'$'+Number(x.epsActual).toFixed(2),x.epsEstimate==null?'--':'$'+Number(x.epsEstimate).toFixed(2),eps]
    ];
    const guides=Array.isArray(x.guidance)?x.guidance:[],mgmt=Array.isArray(x.management)?x.management:[],sources=Array.isArray(x.sources)?x.sources:[];
