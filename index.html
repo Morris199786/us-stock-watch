@@ -7,7 +7,7 @@
 :root{--bg:#07111f;--p:#0d1828;--p2:#112139;--line:#22324a;--txt:#f6fbff;--muted:#8ea1b9;--up:#ff4d75;--dn:#29d39a;--acc:#58d9ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
 .wrap{max-width:1024px;margin:auto;padding:16px 12px 48px}.top h1{margin:0;font-size:30px}.top p{margin:6px 0 10px;color:var(--muted);font-size:13px}.stamp{font-size:12px;color:var(--muted);margin-bottom:10px}
-.tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(4,1fr);gap:8px;background:rgba(7,17,31,.96);padding:8px 0 12px}.tab{background:var(--p2);border:1px solid var(--line);border-radius:13px;color:var(--muted);padding:12px 6px;font-weight:800}.tab.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+.tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(5,1fr);gap:8px;background:rgba(7,17,31,.96);padding:8px 0 12px}.tab{background:var(--p2);border:1px solid var(--line);border-radius:13px;color:var(--muted);padding:12px 6px;font-weight:800}.tab.on{color:#c9f6ff;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
 .page{display:none}.page.on{display:block}.title{font-size:23px;font-weight:900;margin:4px 0}.sub{font-size:13px;color:var(--muted);margin-bottom:13px;line-height:1.5}.grid,.newsgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.group,.news{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}
 .gh{display:flex;justify-content:space-between;gap:8px;padding:13px 14px;background:var(--p2);border-bottom:1px solid var(--line)}.gh b{font-size:16px}.count{font-size:12px;color:var(--muted)}
 .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 14px;border-bottom:1px solid rgba(255,255,255,.07)}.row:last-child{border-bottom:0}.t{font-weight:900;font-size:16px}.n{font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.c{font-weight:900;font-size:17px;white-space:nowrap}.ext{font-size:11px;font-weight:800;margin-top:4px;white-space:nowrap}.pos{color:var(--up)}.neg{color:var(--dn)}.na{color:#cbd6e2}
@@ -37,6 +37,10 @@
 .newsdetailOriginal{margin-top:16px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:var(--muted);line-height:1.6}
 .newsdetailActions{display:flex;gap:10px;margin-top:18px}.newsdetailActions a{display:inline-block;padding:11px 14px;border-radius:11px;background:var(--p2);border:1px solid var(--line);color:var(--acc);text-decoration:none;font-weight:800}
 @media(max-width:720px){.grid,.newsgrid{grid-template-columns:1fr}}
+
+
+.earnHeroGrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0 18px}.earnPanel{background:var(--p);border:1px solid var(--line);border-radius:16px;padding:13px}.earnPanelTitle{font-weight:900;font-size:16px;margin-bottom:9px}.earnMini{display:flex;justify-content:space-between;gap:8px;padding:9px 0;border-top:1px solid rgba(255,255,255,.07)}.earnMini:first-of-type{border-top:0}.earnTicker{font-weight:900}.earnDate{font-size:12px;color:var(--muted);white-space:nowrap}.earnGrid{display:grid;grid-template-columns:1fr;gap:10px}.earnCard{background:var(--p);border:1px solid var(--line);border-radius:16px;overflow:hidden}.earnSummary{list-style:none;cursor:pointer;padding:14px}.earnSummary::-webkit-details-marker{display:none}.earnTop{display:flex;justify-content:space-between;gap:10px}.earnName{font-weight:900;font-size:18px}.earnMeta{font-size:12px;color:var(--muted);margin-top:4px}.earnBadges{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.earnBadge{padding:5px 8px;border:1px solid var(--line);background:var(--p2);border-radius:999px;font-size:11px;font-weight:850}.earnBody{padding:0 14px 14px;border-top:1px solid var(--line)}.earnSection{margin-top:13px}.earnSection h4{margin:0 0 8px;font-size:14px;color:var(--acc)}.earnTable{width:100%;border-collapse:collapse;font-size:13px}.earnTable th,.earnTable td{padding:9px 7px;border-top:1px solid rgba(255,255,255,.07);text-align:right}.earnTable th:first-child,.earnTable td:first-child{text-align:left}.earnBullets{margin:0;padding-left:20px;color:#e5edf7;line-height:1.7;font-size:14px}.earnSources a{display:block;color:var(--acc);text-decoration:none;font-size:12px;margin-top:6px}.beat{color:var(--up)}.miss{color:var(--dn)}.inline{color:#d7e2ee}
+@media(max-width:720px){.earnHeroGrid{grid-template-columns:1fr}.tabs{overflow-x:auto}.tab{font-size:12px;padding:11px 4px}}
 
 .congressCards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
 .kpi{background:var(--p);border:1px solid var(--line);border-radius:15px;padding:13px}.kpi .k{font-size:11px;color:var(--muted)}.kpi .v{font-size:23px;font-weight:900;margin-top:5px}
@@ -76,7 +80,7 @@
 </style>
 </head><body><div class="wrap">
 <div class="top"><h1>美股觀察</h1><p>依投資題材分組｜紅漲綠跌</p><div id="stamp" class="stamp">載入中…</div></div>
-<nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button><button class="tab" data-p="congress">國會交易</button></nav>
+<nav class="tabs"><button class="tab on" data-p="stocks">族群漲跌</button><button class="tab" data-p="heat">市場熱力圖</button><button class="tab" data-p="news">市場新聞</button><button class="tab" data-p="earnings">財報會議</button><button class="tab" data-p="congress">國會交易</button></nav>
 <section id="stocks" class="page on"><div class="title">族群漲跌</div><div class="sub">主數字固定顯示正常交易時段漲跌幅｜盤前、盤後另外標示</div><div id="groups" class="grid"></div></section>
 <section id="heat" class="page"><div class="title">市場熱力圖</div><div class="sub">族群漲跌固定使用正常交易時段漲跌幅計算｜盤前、盤後只在個股旁另外標示，不影響族群報酬</div><div id="heatgrid" class="heatgrid"></div></section>
 <section id="news" class="page"><div class="title">市場新聞</div>
@@ -85,6 +89,17 @@
 <div class="searchbar"><input id="newsSearch" type="search" placeholder="輸入 Ticker，例如 MU、NVDA、VICR"><button id="clearSearch" class="clearbtn">清除</button></div>
 <div id="resultInfo" class="resultinfo">顯示最新重要新聞</div>
 <div id="newsgrid" class="newsgrid"></div></section>
+<section id="earnings" class="page">
+  <div class="title">財報會議</div>
+  <div class="sub">只追蹤美股觀察自選股｜最新到最舊｜財報／財測 vs 市場預期＋管理層重點＋公布後股價反應</div>
+  <div class="earnHeroGrid">
+    <div class="earnPanel"><div class="earnPanelTitle">最新財報</div><div id="earnLatest"></div></div>
+    <div class="earnPanel"><div class="earnPanelTitle">即將公布財報</div><div id="earnUpcoming"></div></div>
+  </div>
+  <div class="searchbar"><input id="earnSearch" type="search" placeholder="輸入 Ticker，例如 NVDA、MU、LITE"><button id="clearEarnSearch" class="clearbtn">清除</button></div>
+  <div id="earnInfo" class="resultinfo">依財報公布時間由新到舊</div>
+  <div id="earnGrid" class="earnGrid"></div>
+</section>
 <section id="congress" class="page">
   <div class="title">國會交易</div>
   <div class="sub">美國 House／Senate STOCK Act 公開申報資料｜歷史回溯至 2024｜可搜尋全部 Ticker 與特定國會議員</div>
@@ -163,7 +178,40 @@ function newsAge(ts){
  if(day<7)return`${day} 天前`;
  return newsDate(ts);
 } const cls=v=>v==null?"na":v>=0?"pos":"neg"; const tone=v=>v==null?"flat":v>=3?"up3":v>=1?"up2":v>0.1?"up1":v<=-3?"dn3":v<=-1?"dn2":v<-0.1?"dn1":"flat";
-document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();});
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.remove("on"));document.querySelectorAll(".page").forEach(x=>x.classList.remove("on"));b.classList.add("on");document.getElementById(b.dataset.p).classList.add("on");if(b.dataset.p==="congress")loadCongress();if(b.dataset.p==="earnings")loadEarnings();});
+
+
+let __earningsLoaded=false,__earnReports=[],__earnUpcoming=[];
+function moneyFmt(v){if(v==null||Number.isNaN(Number(v)))return"--";v=Number(v);const a=Math.abs(v);if(a>=1e12)return"$"+(v/1e12).toFixed(2)+"T";if(a>=1e9)return"$"+(v/1e9).toFixed(2)+"B";if(a>=1e6)return"$"+(v/1e6).toFixed(1)+"M";return"$"+v.toFixed(2)}
+function metricStatus(a,e){if(a==null||e==null||Number(e)===0)return{txt:"--",cl:"inline"};const d=(Number(a)/Number(e)-1)*100;return{txt:(d>=0?"Beat +":"Miss ")+d.toFixed(1)+"%",cl:d>=0?"beat":"miss"}}
+function renderEarnings(){
+ const q=(document.getElementById("earnSearch")?.value||"").trim().toUpperCase();
+ let rows=[...__earnReports].sort((a,b)=>String(b.reportDateTime||b.reportDate||"").localeCompare(String(a.reportDateTime||a.reportDate||"")));
+ if(q)rows=rows.filter(x=>String(x.ticker||"").toUpperCase()===q||String(x.name||"").toUpperCase().includes(q));
+ const info=document.getElementById("earnInfo");if(info)info.textContent=q?`${q}｜${rows.length} 季財報｜最新到最舊`:`${rows.length} 季財報｜最新到最舊`;
+ const g=document.getElementById("earnGrid");if(!g)return;
+ if(!rows.length){g.innerHTML='<div class="empty">目前沒有符合條件的財報資料</div>';return}
+ g.innerHTML=rows.map(x=>{
+   const rev=metricStatus(x.revenueActual,x.revenueEstimate),eps=metricStatus(x.epsActual,x.epsEstimate);
+   const mrows=[
+     ['Revenue',moneyFmt(x.revenueActual),moneyFmt(x.revenueEstimate),rev],
+     ['EPS',x.epsActual==null?'--':'$'+Number(x.epsActual).toFixed(2),x.epsEstimate==null?'--':'$'+Number(x.epsEstimate).toFixed(2),eps]
+   ];
+   const guides=Array.isArray(x.guidance)?x.guidance:[],mgmt=Array.isArray(x.management)?x.management:[],sources=Array.isArray(x.sources)?x.sources:[];
+   const first=x.firstReactionPct==null?'--':fmt(Number(x.firstReactionPct)),close=x.nextClosePct==null?'--':fmt(Number(x.nextClosePct));
+   return `<details class="earnCard"><summary class="earnSummary"><div class="earnTop"><div><div class="earnName">${escapeHtml(x.ticker||'')}｜${escapeHtml(x.name||'')}</div><div class="earnMeta">${escapeHtml(x.group||'')}｜${escapeHtml(x.reportDate||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div><div class="earnBadges"><span class="earnBadge ${eps.cl}">EPS ${eps.txt}</span><span class="earnBadge ${rev.cl}">Revenue ${rev.txt}</span><span class="earnBadge">第一反應 ${first}</span><span class="earnBadge">隔日收盤 ${close}</span></div></summary><div class="earnBody"><div class="earnSection"><h4>財報數字 vs 市場預期</h4><table class="earnTable"><thead><tr><th>項目</th><th>實際</th><th>預期</th><th>結果</th></tr></thead><tbody>${mrows.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td class="${r[3].cl}">${r[3].txt}</td></tr>`).join('')}</tbody></table></div><div class="earnSection"><h4>財測 vs 市場預期</h4>${guides.length?`<table class="earnTable"><tbody>${guides.map(z=>`<tr><td>${escapeHtml(z.metric||'財測')}</td><td style="text-align:left">${escapeHtml(z.companyGuide||'--')}</td><td>${escapeHtml(z.estimate||'')}</td></tr>`).join('')}</tbody></table>`:'<div class="sub">目前公開來源沒有足夠的數字型財測資料</div>'}</div><div class="earnSection"><h4>管理層說了什麼重要的</h4>${mgmt.length?`<ul class="earnBullets">${mgmt.map(z=>`<li>${escapeHtml(z)}</li>`).join('')}</ul>`:'<div class="sub">目前來源尚未取得足夠的管理層逐字／摘要資訊</div>'}</div><div class="earnSection"><h4>公布後股價反應</h4><div class="earnBadges"><span class="earnBadge">盤後／盤前第一反應 ${first}</span><span class="earnBadge">下一正常交易日收盤 ${close}</span></div></div>${sources.length?`<div class="earnSection earnSources"><h4>交叉比對來源（${x.sourceCount||sources.length}）</h4>${sources.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||'#')}">${escapeHtml(s.title||'來源')}</a>`).join('')}</div>`:''}</div></details>`
+ }).join('');
+}
+async function loadEarnings(){
+ if(__earningsLoaded){renderEarnings();return}
+ try{
+   const d=await fetch('earnings.json?'+Date.now()).then(r=>{if(!r.ok)throw new Error('no earnings');return r.json()});
+   __earnReports=d.reports||[];__earnUpcoming=d.upcoming||[];__earningsLoaded=true;
+   const latest=document.getElementById('earnLatest');if(latest)latest.innerHTML=__earnReports.slice(0,6).map(x=>`<div class="earnMini"><div><div class="earnTicker">${escapeHtml(x.ticker)}</div><div class="newsdate">${escapeHtml(x.name||'')}</div></div><div class="earnDate">${escapeHtml(x.reportDate||'')}</div></div>`).join('')||'<div class="sub">尚無資料</div>';
+   const upc=document.getElementById('earnUpcoming');if(upc)upc.innerHTML=__earnUpcoming.slice(0,8).map(x=>`<div class="earnMini"><div><div class="earnTicker">${escapeHtml(x.ticker)}</div><div class="newsdate">${escapeHtml(x.name||'')}</div></div><div class="earnDate">${newsExactTime(x.date)||escapeHtml(x.date||'')}</div></div>`).join('')||'<div class="sub">近期沒有已確認日期</div>';
+   renderEarnings();
+ }catch(e){const g=document.getElementById('earnGrid');if(g)g.innerHTML='<div class="empty">earnings.json 尚未建立，先手動執行一次 Update workflow</div>'}
+}
 
 let __congressLoaded=false,__congressItems=[],__congressLimit=50,__congressSummary={},__memberBacktests={},__congressFilers=[],__memberHistoryCache={},__memberHistoryLoading={},__filerBacktests={},__memberPerformance=[];
 let __perfMode=30;
@@ -741,6 +789,10 @@ scrollTopBtn?.addEventListener("click",()=>{
  window.scrollTo({top:0,behavior:"smooth"});
 });
 updateScrollTopBtn();
+
+
+document.getElementById('earnSearch')?.addEventListener('input',()=>renderEarnings());
+document.getElementById('clearEarnSearch')?.addEventListener('click',()=>{const e=document.getElementById('earnSearch');if(e)e.value='';renderEarnings();});
 
 setInterval(()=>load().catch(()=>{}),300000);
 setInterval(()=>{if(document.getElementById("news")?.classList.contains("on"))renderNews();},60000);

@@ -699,11 +699,156 @@ def _extract_meta_description(page_html):
 
     return ""
 
+
+def _decode_json_string(s):
+    if not s:
+        return ""
+    try:
+        return json.loads('"' + s.replace('"', '\\"') + '"')
+    except Exception:
+        try:
+            return bytes(s, "utf-8").decode("unicode_escape")
+        except Exception:
+            return s
+
+def _extract_public_article_text(page_html, final_url=""):
+    """
+    Extract a concise public article excerpt from publisher HTML.
+    This is used only to create our own short Chinese summary; we do not
+    reproduce the full article.
+
+    Priority:
+      1) JSON-LD articleBody
+      2) Investing.com article-content blocks / paragraphs
+      3) Generic article paragraphs
+    """
+    if not page_html:
+        return ""
+
+    candidates = []
+
+    # JSON-LD / embedded schema is the cleanest source when available.
+    for m in re.finditer(r'"articleBody"\s*:\s*"((?:\\.|[^"\\])*)"', page_html, re.I | re.S):
+        raw = m.group(1)
+        try:
+            val = json.loads('"' + raw + '"')
+        except Exception:
+            val = raw.replace(r'\"', '"').replace(r'\n', ' ')
+        val = _clean_html_text(val)
+        if len(val) >= 140:
+            candidates.append(val)
+
+    # Some publishers use "text" rather than articleBody in NewsArticle JSON.
+    if not candidates:
+        for m in re.finditer(r'"text"\s*:\s*"((?:\\.|[^"\\])*)"', page_html, re.I | re.S):
+            raw = m.group(1)
+            try:
+                val = json.loads('"' + raw + '"')
+            except Exception:
+                val = raw.replace(r'\"', '"').replace(r'\n', ' ')
+            val = _clean_html_text(val)
+            if len(val) >= 180:
+                candidates.append(val)
+
+    # Prefer paragraphs from likely article containers.
+    container_chunks = []
+    for pat in [
+        r'<(?:div|section|article)[^>]+(?:data-test|data-testid)=["\'][^"\']*(?:article|content)[^"\']*["\'][^>]*>(.*?)</(?:div|section|article)>',
+        r'<(?:div|section|article)[^>]+class=["\'][^"\']*(?:article|wysiwyg|content)[^"\']*["\'][^>]*>(.*?)</(?:div|section|article)>',
+    ]:
+        container_chunks.extend(re.findall(pat, page_html, re.I | re.S))
+
+    search_spaces = container_chunks if container_chunks else [page_html]
+
+    paras = []
+    for chunk in search_spaces[:8]:
+        for p in re.findall(r'<p\b[^>]*>(.*?)</p>', chunk, re.I | re.S):
+            t = _clean_html_text(p)
+            low = t.lower()
+
+            if len(t) < 45:
+                continue
+            if any(bad in low for bad in [
+                "sign up", "subscribe", "advertisement", "cookie",
+                "download the app", "investingpro", "terms and conditions",
+                "for more information see our", "unlock", "read more"
+            ]):
+                continue
+
+            paras.append(t)
+
+    # De-duplicate while preserving order.
+    unique = []
+    seen = set()
+    for p in paras:
+        key = re.sub(r"\W+", "", p.lower())[:180]
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        unique.append(p)
+
+    if unique:
+        joined = " ".join(unique[:10]).strip()
+        if len(joined) >= 140:
+            candidates.append(joined)
+
+    if not candidates:
+        return ""
+
+    # Prefer the richest candidate, but keep it bounded.
+    candidates.sort(key=len, reverse=True)
+    best = candidates[0]
+
+    # Enough for a high-quality summary, but nowhere near a full article copy.
+    return best[:3200].strip()
+
+def _extract_external_urls(page_html):
+    """
+    Find publisher URLs embedded in Google News HTML, including URL-encoded forms.
+    """
+    if not page_html:
+        return []
+
+    out = []
+
+    # Plain URLs anywhere in the page, not only href attributes.
+    for m in re.findall(r'https?://[^"\'<>\s\\]+', page_html, re.I):
+        out.append(html_lib.unescape(m))
+
+    # Percent-encoded publisher URLs.
+    for m in re.findall(r'https?%3A%2F%2F[^"\'<>\s&]+', page_html, re.I):
+        try:
+            out.append(urllib.parse.unquote(html_lib.unescape(m)))
+        except Exception:
+            pass
+
+    # JS-escaped URLs such as https:\/\/www.investing.com\/...
+    for m in re.findall(r'https?:\\?/\\?/[^"\'<>\s]+', page_html, re.I):
+        out.append(m.replace(r'\/', '/'))
+
+    cleaned = []
+    seen = set()
+    for u in out:
+        u = u.replace("\\u0026", "&").replace("\\/", "/")
+        u = html_lib.unescape(u)
+        if not u.startswith(("http://", "https://")):
+            continue
+        if u in seen:
+            continue
+        seen.add(u)
+        cleaned.append(u)
+
+    return cleaned
+
 def _fetch_article_context(url):
     """
-    Follow the article URL and extract a short metadata description.
-    If Google News exposes an external publisher link in the returned HTML,
-    follow that once and try again.
+    Resolve Google News -> publisher when possible, then extract:
+      - a concise public article excerpt for supported/open publisher pages
+      - otherwise metadata description
+
+    Investing.com is treated as a high-priority enrichment source because
+    analyst-rating articles often expose the actual PT, rating, and rationale
+    in the public article body while RSS contains only the headline.
     """
     if not url:
         return "", url
@@ -717,9 +862,9 @@ def _fetch_article_context(url):
                 "Accept-Language": "en-US,en;q=0.9",
             }
         )
-        with urllib.request.urlopen(req, timeout=6) as r:
+        with urllib.request.urlopen(req, timeout=8) as r:
             final = r.geturl()
-            raw = r.read(650_000)
+            raw = r.read(1_200_000)
             charset = "utf-8"
             try:
                 charset = r.headers.get_content_charset() or "utf-8"
@@ -732,30 +877,79 @@ def _fetch_article_context(url):
     except Exception:
         return "", url
 
-    desc = _extract_meta_description(page)
-    if desc:
-        return desc, final
+    final_low = (final or "").lower()
 
-    # Google News pages sometimes contain a direct publisher URL.
-    if "news.google." in (final or ""):
-        links = re.findall(r'href=["\'](https?://[^"\']+)["\']', page, flags=re.I)
-        for candidate in links[:80]:
-            candidate = html_lib.unescape(candidate)
+    # If already on the publisher, prefer article body before metadata.
+    if "investing.com/" in final_low:
+        body = _extract_public_article_text(page, final)
+        if body:
+            return body, final
+
+        desc = _extract_meta_description(page)
+        if desc:
+            return desc, final
+
+    # For non-Google publisher pages, use body where available, then metadata.
+    if "news.google." not in final_low:
+        body = _extract_public_article_text(page, final)
+        if body:
+            return body, final
+
+        desc = _extract_meta_description(page)
+        if desc:
+            return desc, final
+
+    # Google News: resolve embedded publisher URL BEFORE accepting a generic
+    # Google meta description.
+    if "news.google." in final_low:
+        candidates = _extract_external_urls(page)
+
+        # Prefer Investing.com / known finance publishers first.
+        def rank_url(u):
+            low = u.lower()
+            if "investing.com/" in low:
+                return 0
+            if any(d in low for d in [
+                "finance.yahoo.com/", "reuters.com/", "marketwatch.com/",
+                "benzinga.com/", "barrons.com/", "seekingalpha.com/"
+            ]):
+                return 1
+            return 2
+
+        for candidate in sorted(candidates, key=rank_url)[:120]:
             low = candidate.lower()
             if any(d in low for d in [
                 "google.com", "googleusercontent.com", "gstatic.com",
                 "youtube.com", "policies.google", "accounts.google"
             ]):
                 continue
+
             try:
                 p2, f2 = fetch(candidate)
-                d2 = _extract_meta_description(p2)
-                if d2:
-                    return d2, f2
             except Exception:
                 continue
 
+            if "investing.com/" in (f2 or "").lower():
+                body = _extract_public_article_text(p2, f2)
+                if body:
+                    return body, f2
+
+            # Generic publisher body is also useful for analyst rationale.
+            body2 = _extract_public_article_text(p2, f2)
+            if body2:
+                return body2, f2
+
+            d2 = _extract_meta_description(p2)
+            if d2:
+                return d2, f2
+
+        # Last resort: Google page metadata.
+        desc = _extract_meta_description(page)
+        if desc:
+            return desc, final
+
     return "", final
+
 
 def _title_similarity(a, b):
     a = re.sub(r"[^a-z0-9]+", " ", (a or "").lower()).strip()
@@ -948,7 +1142,7 @@ def enrich_analyst_details(items):
             current = (x.get("originalSummary") or "").strip()
 
             if _analyst_detail_richness(candidate) > _analyst_detail_richness(current):
-                x["originalSummary"] = candidate[:1200]
+                x["originalSummary"] = candidate[:2600]
                 x["summary"] = (best.get("summary") or candidate)[:500]
                 if best.get("url"):
                     x["url"] = best["url"]
@@ -1017,8 +1211,8 @@ def enrich_analyst_details(items):
                 if desc:
                     current = (x.get("originalSummary") or "").strip()
                     if _analyst_detail_richness(desc) > _analyst_detail_richness(current):
-                        x["originalSummary"] = desc[:1200]
-                        x["summary"] = desc[:500]
+                        x["originalSummary"] = desc[:2600]
+                        x["summary"] = zh(desc[:1800])[:1200] if desc else ""
                         x["detailSource"] = "yahoo_or_article_metadata"
                 if resolved and "news.google." not in resolved:
                     x["url"] = resolved
@@ -1528,6 +1722,207 @@ def major_broker_market_scan(targets):
     return out
 
 
+
+def tipranks_broker_search(display_ticker, company_name, symbol, group):
+    """Extra high-priority analyst-rating discovery from TipRanks-indexed pages."""
+    q = (
+        f'("{display_ticker}" OR "{company_name}") '
+        f'(site:tipranks.com) '
+        f'("price target" OR upgrade OR upgraded OR downgrade OR downgraded OR '
+        f'reiterate OR reiterated OR maintain OR maintained OR initiate OR initiated) when:3d'
+    )
+    url = "https://news.google.com/rss/search?" + urllib.parse.urlencode({
+        "q": q, "hl":"en-US", "gl":"US", "ceid":"US:en"
+    })
+    try:
+        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req,timeout=10) as r:
+            root=ET.fromstring(r.read())
+    except Exception:
+        return []
+    now=datetime.now(timezone.utc); out=[]
+    for item in root.findall('.//item')[:20]:
+        raw=(item.findtext('title') or '').strip()
+        link=(item.findtext('link') or '').strip()
+        pub=parse_rss_date(item.findtext('pubDate'))
+        if pub and now-pub>timedelta(hours=76):
+            continue
+        title=re.sub(r'\s+-\s+[^-]{2,80}$','',raw).strip() or raw
+        if not target_relevance(title,display_ticker,company_name):
+            continue
+        blob=title.lower()
+        if not is_broker_action_text(blob):
+            continue
+        tag='題材'
+        if any(k in blob for k in BROKER_NEG): tag='利空'
+        elif any(k in blob for k in BROKER_POS) or any(k in blob for k in ['maintains buy','reiterates buy','maintains overweight','reiterates overweight']): tag='利多'
+        out.append({
+            'ticker':display_ticker,'group':group,'tag':tag,'title':title,'summary':'',
+            'originalTitle':title,'originalSummary':'','url':link,
+            'ts':pub.isoformat() if pub else '', 'sourceType':'tipranks_broker',
+            'analystPriority':True
+        })
+    return out
+
+SOCIAL_THEME_WORDS = [
+    'ai','人工智慧','agent','muse','semiconductor','半導體','chip','晶片','data center','datacenter','資料中心',
+    'power','electricity','電力','nuclear','核能','memory','記憶體','hbm','optical','光通訊','cpo','npo',
+    'cloud','雲端','robot','機器人','robotaxi','太空','space','defense','國防','drone','無人機',
+    'earnings','財報','guidance','財測','revenue','營收','margin','毛利','order','訂單','capacity','產能',
+    'price target','目標價','upgrade','downgrade','升評','降評','demand','需求','supply','供應'
+]
+
+def _plain_text_from_markdown(s):
+    s=s or ''
+    s=re.sub(r'!\[[^\]]*\]\([^)]*\)',' ',s)
+    s=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',s)
+    s=re.sub(r'^[#>*\-]+\s*','',s,flags=re.M)
+    s=re.sub(r'\s+',' ',s).strip()
+    return s
+
+def _fetch_reader(url, timeout=12):
+    candidates=[url]
+    if url.startswith('https://'):
+        candidates.append('https://r.jina.ai/http://'+url[len('https://'):])
+    elif url.startswith('http://'):
+        candidates.append('https://r.jina.ai/http://'+url[len('http://'):])
+    for u in candidates:
+        try:
+            req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0','Accept':'text/html,text/plain,*/*'})
+            with urllib.request.urlopen(req,timeout=timeout) as r:
+                raw=r.read(900000).decode('utf-8','ignore')
+            if len(raw)>120:
+                return raw,u
+        except Exception:
+            pass
+    return '',url
+
+def _social_post_time(text):
+    now=datetime.now(timezone.utc)
+    pats=[
+        (r'(20\d{2})[/-](\d{1,2})[/-](\d{1,2})',lambda m: datetime(int(m.group(1)),int(m.group(2)),int(m.group(3)),tzinfo=timezone.utc)),
+        (r'(Sep|Oct|Nov|Dec|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug)\s+(\d{1,2}),\s*(20\d{2})',lambda m: datetime.strptime(' '.join(m.groups()),'%b %d %Y').replace(tzinfo=timezone.utc)),
+    ]
+    for p,fn in pats:
+        m=re.search(p,text or '',re.I)
+        if m:
+            try:return fn(m)
+            except Exception:pass
+    return now
+
+def _social_relevance_and_target(text, targets):
+    raw=text or ''; low=raw.lower()
+    best=None
+    for ticker,name,symbol,group in targets:
+        explicit=bool(re.search(rf'(?<![A-Za-z0-9]){re.escape(ticker)}(?![A-Za-z0-9])',raw,re.I))
+        company=(name or '').lower() in low and len(name or '')>=3
+        if explicit or company:
+            score=3 if explicit else 2
+            if best is None or score>best[0]: best=(score,ticker,group)
+    theme_hits=sum(1 for k in SOCIAL_THEME_WORDS if k.lower() in low)
+    if best:
+        return True,best[1],best[2],theme_hits+best[0]
+    if theme_hits>=2:
+        return True,'MARKET','專欄／市場觀點',theme_hits
+    return False,'','',theme_hits
+
+def _social_title(text,label):
+    t=_plain_text_from_markdown(text)
+    # remove common UI boilerplate
+    t=re.sub(r'^(Title:\s*[^|]{0,80}\|\s*)','',t,flags=re.I)
+    for sep in ['  All reactions:',' All reactions:',' Like Comment',' Most relevant replies']:
+        if sep in t:t=t.split(sep,1)[0]
+    # Prefer first sentence / line-like chunk
+    parts=re.split(r'(?<=[。！？!?])\s+',t)
+    cand=(parts[0] if parts else t).strip()
+    return cand[:110] if cand else label
+
+
+def _search_public_social_links(query, domain='facebook.com'):
+    """Fallback discovery for public social posts when a stable page slug is unavailable."""
+    urls=[]
+    q=f'site:{domain} "{query}"'
+    engines=[
+        'https://www.google.com/search?num=20&'+urllib.parse.urlencode({'q':q}),
+        'https://www.bing.com/search?count=20&'+urllib.parse.urlencode({'q':q}),
+    ]
+    for surl in engines:
+        try:
+            req=urllib.request.Request(surl,headers={'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 Safari/604.1'})
+            with urllib.request.urlopen(req,timeout=10) as r: raw=r.read(700000).decode('utf-8','ignore')
+        except Exception:
+            continue
+        for u in re.findall(r'https?://[^"\'<> ]+',html_lib.unescape(raw),re.I):
+            u=urllib.parse.unquote(u)
+            if domain not in u: continue
+            if 'google.' in u or 'bing.com' in u: continue
+            # strip search tracking suffixes
+            u=u.split('&')[0]
+            if '/posts/' in u or '/status/' in u or 'photo.php' in u:
+                urls.append(u)
+        if urls: break
+    seen=set(); out=[]
+    for u in urls:
+        if u not in seen:
+            seen.add(u);out.append(u)
+    return out[:15]
+
+def _discover_social_posts(source, targets):
+    stype=source.get('type'); label=source.get('label','專欄')
+    if stype=='facebook':
+        slug=source.get('slug','')
+        links=[]
+        if slug:
+            page=f'https://www.facebook.com/{slug}'
+            raw,_=_fetch_reader(page)
+            patterns=[
+                rf'https?://(?:www\.)?facebook\.com/{re.escape(slug)}/posts/[^\s"<>]+',
+                rf'https?://(?:www\.)?facebook\.com/{re.escape(slug)}/posts/pfbid[^\s"<>]+'
+            ]
+            for p in patterns: links+=re.findall(p,raw,re.I)
+            for m in re.findall(rf'/{re.escape(slug)}/posts/[^\s)"<>]+',raw,re.I):
+                links.append('https://www.facebook.com'+m)
+        # Some pages (e.g. 美股追夢路) don't expose a reliable custom slug publicly.
+        # In that case, discover indexed public post URLs by the page's exact display name.
+        if not links and source.get('search_name'):
+            links.extend(_search_public_social_links(source.get('search_name'),'facebook.com'))
+    else:
+        handle=source.get('handle','')
+        links=[]
+        # Direct X page + public mirror fallback improves freshness without needing an X API key.
+        for page in [f'https://x.com/{handle}',f'https://site.twstalker.com/{handle}']:
+            raw,_=_fetch_reader(page)
+            links+=re.findall(rf'https?://(?:x\.com|twitter\.com)/{re.escape(handle)}/status/\d+',raw,re.I)
+            for m in re.findall(rf'/{re.escape(handle)}/status/\d+',raw,re.I):
+                links.append('https://x.com'+m)
+        if not links:
+            links.extend(_search_public_social_links(handle,'x.com'))
+    # de-dup / newest-looking first; cap requests
+    uniq=[]; seen=set()
+    for u in links:
+        u=html_lib.unescape(u).split('?')[0]
+        if u not in seen:
+            seen.add(u);uniq.append(u)
+    out=[]
+    for u in uniq[:10]:
+        body,_=_fetch_reader(u)
+        plain=_plain_text_from_markdown(body)
+        if len(plain)<80: continue
+        ok,ticker,group,score=_social_relevance_and_target(plain,targets)
+        if not ok: continue
+        # Avoid comments / unrelated page chrome by trimming
+        for marker in ['All reactions:','Most relevant replies','Post your reply','View more comments']:
+            if marker in plain: plain=plain.split(marker,1)[0].strip()
+        title=_social_title(plain,label)
+        dt=_social_post_time(plain)
+        out.append({
+            'ticker':ticker,'group':group,'tag':'專欄' if stype=='facebook' else '快訊',
+            'title':title,'summary':plain[:900],'originalTitle':title,'originalSummary':plain[:2200],
+            'url':u,'ts':dt.isoformat(),'sourceType':'column_'+source.get('slug','') if stype=='facebook' else 'wallstengine_x',
+            'analystPriority':is_broker_action_text(plain.lower()),'socialSource':label,'socialScore':score
+        })
+    return out
+
 def market_news_search():
     """
     Broad U.S. market scan for the daily Top 10.
@@ -1769,6 +2164,15 @@ with ThreadPoolExecutor(max_workers=14) as ex:
             pass
 all_news.extend(broker_items)
 
+# TipRanks is an important analyst-rating data pool; the EVENT (rating/PT change) remains first priority.
+tipranks_items=[]
+with ThreadPoolExecutor(max_workers=12) as ex:
+    futs=[ex.submit(tipranks_broker_search,ticker,name,symbol,group) for ticker,name,symbol,group in broker_scan_candidates]
+    for fut in as_completed(futs):
+        try: tipranks_items.extend(fut.result())
+        except Exception: pass
+all_news.extend(tipranks_items)
+
 # One global major-broker pass per cycle.
 # This catches stories that can be missed by the per-ticker RSS ranking,
 # without issuing another request for every stock.
@@ -1829,6 +2233,13 @@ active_search_candidates.sort(reverse=True, key=lambda x: x[0])
 for _, ticker, name, symbol, group, chg in active_search_candidates[:cfg.get("active_search_top_movers", 10)]:
     all_news.extend(google_news_search(ticker, name, symbol, group, chg))
     all_news.extend(moomoo_news_search(ticker, name, symbol, group, chg))
+
+# Selected public columns / fast feeds. Not every post is included: the same watchlist/theme relevance filter applies.
+for _src in (cfg.get("social_sources") or {}).values():
+    try:
+        all_news.extend(_discover_social_posts(_src, broker_scan_candidates))
+    except Exception:
+        pass
 
 # Enrich broker/analyst stories so the detail modal has useful context and
 # normalize_analyst_title can see exact old/new target values when available.
@@ -1895,7 +2306,13 @@ def importance_score(x):
 
     # Broker upgrades/downgrades/price-target changes are always first priority.
     if x.get("analystPriority"):
-        score += 100
+        score += 130
+    if x.get("sourceType") == "tipranks_broker":
+        score += 35
+    if x.get("sourceType") == "wallstengine_x":
+        score += 14
+    if str(x.get("sourceType") or "").startswith("column_"):
+        score += 8
 
     # Explicit target-company relevance gets a small bonus.
     score += 1.0
@@ -2729,6 +3146,218 @@ process_tier1_pushes(news)
 # ---------- U.S. Congress trades ----------
 # Historical source: Kadoa open Congress Trading Monitor (official House/Senate filings normalized)
 # We keep records from 2024-01-01 onward so member searches can reach back to 2024.
+
+EARNINGS_FILE = ROOT / "earnings.json"
+
+def _fmt_money(v):
+    try:v=float(v)
+    except Exception:return None
+    a=abs(v)
+    if a>=1e12:return f"${v/1e12:.2f}T"
+    if a>=1e9:return f"${v/1e9:.2f}B"
+    if a>=1e6:return f"${v/1e6:.1f}M"
+    return f"${v:,.0f}"
+
+def _num_with_unit(s):
+    if s is None:return None
+    s=str(s).replace(',','').strip()
+    m=re.match(r'\$?([+-]?\d+(?:\.\d+)?)\s*([TtBbMmKk]?)',s)
+    if not m:return None
+    v=float(m.group(1)); u=m.group(2).lower()
+    return v*({'t':1e12,'b':1e9,'m':1e6,'k':1e3}.get(u,1))
+
+def _earnings_news_context(ticker,name,report_date):
+    q=f'("{ticker}" OR "{name}") earnings revenue EPS guidance {report_date} when:14d'
+    url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':q,'hl':'en-US','gl':'US','ceid':'US:en'})
+    rows=[]
+    try:
+        req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+        with urllib.request.urlopen(req,timeout=10) as r: root=ET.fromstring(r.read())
+    except Exception:return []
+    for item in root.findall('.//item')[:8]:
+        title=(item.findtext('title') or '').strip(); link=(item.findtext('link') or '').strip(); pub=parse_rss_date(item.findtext('pubDate'))
+        if not target_relevance(title,ticker,name):continue
+        body,resolved=_fetch_article_context(link)
+        rows.append({'title':title,'text':body or title,'url':resolved or link,'ts':pub.isoformat() if pub else ''})
+        if len(rows)>=5:break
+    return rows
+
+def _extract_estimate(text, metric):
+    t=re.sub(r'\s+',' ',text or '')
+    if metric=='revenue':
+        pats=[
+            r'(?:revenue|sales)[^.$]{0,45}\$([\d,.]+\s*[TBMK]?)[^.$]{0,60}(?:est\.?|estimate|expected|consensus)[^.$]{0,20}\$([\d,.]+\s*[TBMK]?)',
+            r'\$([\d,.]+\s*[TBMK]?)\s+(?:revenue|sales)[^.$]{0,60}(?:vs\.?|versus)[^.$]{0,20}\$([\d,.]+\s*[TBMK]?)'
+        ]
+    else:
+        pats=[
+            r'(?:adjusted\s+)?EPS[^\d$]{0,25}\$?([\d.]+)[^\d$]{0,55}(?:est\.?|estimate|expected|consensus)[^\d$]{0,20}\$?([\d.]+)',
+            r'EPS[^\d$]{0,20}\$?([\d.]+)[^\d$]{0,30}(?:vs\.?|versus)[^\d$]{0,15}\$?([\d.]+)'
+        ]
+    for p in pats:
+        m=re.search(p,t,re.I)
+        if m:return _num_with_unit(m.group(1)),_num_with_unit(m.group(2))
+    return None,None
+
+def _extract_guidance_rows(text):
+    out=[]
+    sents=_split_sentences(text or '')
+    for s in sents:
+        low=s.lower()
+        if not any(k in low for k in ['guidance','expects','forecast','outlook','sees','projects']):continue
+        if not any(k in low for k in ['revenue','sales','eps','gross margin','margin']):continue
+        est=''
+        m=re.search(r'(?:est\.?|estimate|consensus|expected by analysts)[^$\d]{0,20}(\$?[\d,.]+\s*[TBMK]?|\d+(?:\.\d+)?%)',s,re.I)
+        if m:est=m.group(1)
+        out.append({'metric':'財測','companyGuide':s[:360],'estimate':est})
+        if len(out)>=4:break
+    return out
+
+def _management_bullets(text):
+    keys=['ceo','cfo','management','said','expects','demand','backlog','capacity','margin','pricing','customer','ai','data center','cloud','supply','order','guidance']
+    picks=[]
+    for s in _split_sentences(text or ''):
+        low=s.lower()
+        if any(k in low for k in keys) and len(s)>55:
+            z=zh(s[:520]) or s[:520]
+            if z not in picks:picks.append(z)
+        if len(picks)>=5:break
+    return picks
+
+def _first_reaction(text):
+    for s in _split_sentences(text or ''):
+        low=s.lower()
+        if not any(k in low for k in ['after hours','after-hours','premarket','pre-market','extended trading']):continue
+        m=re.search(r'(rose|gained|jumped|surged|rallied|fell|dropped|slid|declined|tumbled)\s+(?:as much as\s+)?([\d.]+)%',s,re.I)
+        if m:
+            v=float(m.group(2));
+            if m.group(1).lower() in ['fell','dropped','slid','declined','tumbled']:v=-v
+            return v
+    return None
+
+def _next_close_reaction(symbol,report_dt):
+    try:
+        d=report_dt.date() if hasattr(report_dt,'date') else report_dt
+        start=(d-timedelta(days=5)).isoformat(); end=(d+timedelta(days=8)).isoformat()
+        h=yf.Ticker(symbol).history(start=start,end=end,auto_adjust=False)
+        if h is None or len(h)<2:return None
+        days=[(idx.date(),float(row['Close'])) for idx,row in h.iterrows() if safe_float(row.get('Close'))]
+        prev=[x for x in days if x[0]<d]; aft=[x for x in days if x[0]>=d]
+        if not prev or not aft:return None
+        # If report was after market, first normal close may be report date; use next trading date when possible.
+        base=prev[-1][1]
+        target=aft[0][1]
+        return (target/base-1)*100 if base else None
+    except Exception:return None
+
+def _quarterly_revenue_actual(t,report_dt):
+    try:
+        q=t.quarterly_financials
+        if q is None or q.empty:return None
+        rows=[r for r in ['Total Revenue','Operating Revenue'] if r in q.index]
+        if not rows:return None
+        candidates=[]
+        for col in q.columns:
+            cd=col.date() if hasattr(col,'date') else col
+            diff=(report_dt.date()-cd).days
+            if 15<=diff<=120:
+                candidates.append((diff,safe_float(q.loc[rows[0],col])))
+        candidates=[x for x in candidates if x[1] is not None]
+        if not candidates:return None
+        candidates.sort(key=lambda x:x[0]);return candidates[0][1]
+    except Exception:return None
+
+def _earnings_dates_one(ticker,name,symbol,group):
+    try:
+        t=yf.Ticker(symbol); df=t.get_earnings_dates(limit=max(6,int(cfg.get('earnings_history_per_stock',4))+2))
+        if df is None or df.empty:return {'ticker':ticker,'name':name,'symbol':symbol,'group':group,'dates':[]}
+        out=[]
+        now=datetime.now(timezone.utc)
+        for idx,row in df.iterrows():
+            try:dt=idx.to_pydatetime() if hasattr(idx,'to_pydatetime') else idx
+            except Exception:continue
+            if dt.tzinfo is None:dt=dt.replace(tzinfo=timezone.utc)
+            else:dt=dt.astimezone(timezone.utc)
+            if dt<now-timedelta(days=430) or dt>now+timedelta(days=120):continue
+            eps_est=safe_float(row.get('EPS Estimate')); eps_act=safe_float(row.get('Reported EPS')); surprise=safe_float(row.get('Surprise(%)'))
+            out.append({'date':dt.isoformat(),'epsEstimate':eps_est,'epsActual':eps_act,'epsSurprisePct':surprise})
+        return {'ticker':ticker,'name':name,'symbol':symbol,'group':group,'dates':out}
+    except Exception:return {'ticker':ticker,'name':name,'symbol':symbol,'group':group,'dates':[]}
+
+def refresh_earnings_data(targets):
+    now=datetime.now(timezone.utc)
+    old={}
+    try:old=json.loads(EARNINGS_FILE.read_text(encoding='utf-8'))
+    except Exception:old={}
+    # keep the 5-minute workflow sane; refresh this heavier dataset about every 30 minutes
+    try:
+        old_dt=datetime.fromisoformat((old.get('updatedAtUtc') or '').replace('Z','+00:00'))
+        if old_dt.tzinfo is None:old_dt=old_dt.replace(tzinfo=timezone.utc)
+        if now-old_dt<timedelta(minutes=int(cfg.get('earnings_refresh_minutes',30))):return
+    except Exception:pass
+
+    calendars=[]
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futs=[ex.submit(_earnings_dates_one,*x) for x in targets]
+        for fut in as_completed(futs):
+            try:calendars.append(fut.result())
+            except Exception:pass
+
+    old_map={(x.get('symbol'),x.get('reportDate')):x for x in (old.get('reports') or []) if isinstance(x,dict)}
+    reports=[]; upcoming=[]
+    raw_reports=[]
+    for c in calendars:
+        ds=sorted(c['dates'],key=lambda x:x['date'],reverse=True)
+        past=[x for x in ds if datetime.fromisoformat(x['date'].replace('Z','+00:00'))<=now+timedelta(hours=6)]
+        future=[x for x in ds if datetime.fromisoformat(x['date'].replace('Z','+00:00'))>now+timedelta(hours=6)]
+        for x in future[:1]:
+            upcoming.append({'ticker':c['ticker'],'name':c['name'],'symbol':c['symbol'],'group':c['group'],'date':x['date']})
+        for x in past[:int(cfg.get('earnings_history_per_stock',4))]:
+            raw_reports.append((datetime.fromisoformat(x['date'].replace('Z','+00:00')),c,x))
+    raw_reports.sort(key=lambda z:z[0],reverse=True)
+    enrich_keys={(c['symbol'],dt.date().isoformat()) for dt,c,x in raw_reports[:int(cfg.get('earnings_enrich_recent_reports',18))]}
+
+    for dt,c,x in raw_reports:
+        rdate=dt.date().isoformat(); key=(c['symbol'],rdate)
+        prior=old_map.get(key,{})
+        item={
+            'ticker':c['ticker'],'name':c['name'],'symbol':c['symbol'],'group':c['group'],
+            'reportDate':rdate,'reportDateTime':dt.isoformat(),
+            'epsActual':x.get('epsActual'),'epsEstimate':x.get('epsEstimate'),'epsSurprisePct':x.get('epsSurprisePct'),
+            'revenueActual':prior.get('revenueActual'),'revenueEstimate':prior.get('revenueEstimate'),
+            'guidance':prior.get('guidance') or [],'management':prior.get('management') or [],
+            'firstReactionPct':prior.get('firstReactionPct'),'nextClosePct':prior.get('nextClosePct'),
+            'sources':prior.get('sources') or [],'sourceCount':prior.get('sourceCount',0)
+        }
+        if key in enrich_keys:
+            arts=_earnings_news_context(c['ticker'],c['name'],rdate)
+            joined=' '.join((a.get('title','')+' '+a.get('text','')) for a in arts)
+            rev_act,rev_est=_extract_estimate(joined,'revenue')
+            eps_act2,eps_est2=_extract_estimate(joined,'eps')
+            try:t=yf.Ticker(c['symbol'])
+            except Exception:t=None
+            if item['revenueActual'] is None and t is not None:item['revenueActual']=_quarterly_revenue_actual(t,dt)
+            if rev_act is not None:item['revenueActual']=rev_act
+            if rev_est is not None:item['revenueEstimate']=rev_est
+            if item['epsActual'] is None and eps_act2 is not None:item['epsActual']=eps_act2
+            if item['epsEstimate'] is None and eps_est2 is not None:item['epsEstimate']=eps_est2
+            gs=_extract_guidance_rows(joined)
+            if gs:item['guidance']=gs
+            mb=_management_bullets(joined)
+            if mb:item['management']=mb
+            fr=_first_reaction(joined)
+            if fr is not None:item['firstReactionPct']=fr
+            nc=_next_close_reaction(c['symbol'],dt)
+            if nc is not None:item['nextClosePct']=nc
+            item['sources']=[{'title':a.get('title'),'url':a.get('url')} for a in arts[:5] if a.get('url')]
+            item['sourceCount']=len(item['sources'])
+        reports.append(item)
+
+    reports.sort(key=lambda x:x.get('reportDateTime',''),reverse=True)
+    upcoming.sort(key=lambda x:x.get('date',''))
+    payload={'updatedAtUtc':now.isoformat(),'updatedAt':datetime.now(ZoneInfo('Asia/Taipei')).strftime('%Y-%m-%d %H:%M 台灣時間'),'reports':reports,'upcoming':upcoming}
+    EARNINGS_FILE.write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
+
 CONGRESS_FILE = ROOT / "congress.json"
 CONGRESS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/trades.json"
 CONGRESS_FILERS_SOURCE = "https://raw.githubusercontent.com/kadoa-org/congress-trading-monitor/main/public/data/filers.json"
@@ -3339,6 +3968,7 @@ def refresh_congress_data():
         encoding="utf-8"
     )
 
+refresh_earnings_data(broker_scan_candidates)
 refresh_congress_data()
 
 tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
@@ -3352,4 +3982,4 @@ tw = datetime.now(ZoneInfo("Asia/Taipei")).strftime("%Y-%m-%d %H:%M")
                ensure_ascii=False, indent=2),
     encoding="utf-8"
 )
-print(f"updated {len(groups)} groups, {len(news)} news items")
+print(f"updated {len(groups)} groups, {len(news)} news items + earnings")

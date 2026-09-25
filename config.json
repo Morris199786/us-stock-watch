@@ -543,11 +543,29 @@
       ]
     ]
   },
-  "max_news": 50,
+  "max_news": 80,
   "news_lookback_hours": 48,
-  "search_news_pool": 50,
+  "search_news_pool": 80,
   "featured_news": 18,
-  "active_search_move_threshold": 4,
-  "active_search_max_results": 5,
-  "active_search_top_movers": 10
+  "social_sources": {
+    "ieobserve": {
+      "type": "facebook",
+      "label": "IEObserve 國際經濟觀察",
+      "slug": "intleconobserve"
+    },
+    "us_dream": {
+      "type": "facebook",
+      "label": "美股追夢路",
+      "slug": "",
+      "search_name": "美股追夢路"
+    },
+    "wallstengine": {
+      "type": "x",
+      "label": "Wall St Engine",
+      "handle": "wallstengine"
+    }
+  },
+  "earnings_history_per_stock": 4,
+  "earnings_enrich_recent_reports": 18,
+  "earnings_refresh_minutes": 30
 }
