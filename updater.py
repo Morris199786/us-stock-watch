@@ -25,6 +25,8 @@ def fetch_full():
     return src
 
 def rep(src,old,new,label,required=True):
+    old=old.replace("\\n","\n")
+    new=new.replace("\\n","\n")
     if old not in src:
         if required:
             raise RuntimeError(f"{label}: expected block not found")
@@ -365,7 +367,7 @@ def patch_news(src):
     marker='    if any(k in blob for k in ["guidance","outlook","forecast","earnings","revenue","eps"]):'
     if marker not in src:
         raise RuntimeError("why marker missing")
-    force='    if "force majeure" in blob and any(k in blob for k in ["data center","datacenter"]):\\n        return "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。"\\n\\n'
+    force='    if "force majeure" in blob and any(k in blob for k in ["data center","datacenter"]):\\n        return "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。"\\n\\n'.replace("\\n","\n")
     src=src.replace(marker,force+marker,1)
     return src
 
