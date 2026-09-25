@@ -1,7 +1,7 @@
 {
   "parserVersion": 3,
-  "updatedAtUtc": "2026-09-25T01:45:21.415992+00:00",
-  "updatedAt": "2026-09-25 09:48 台灣時間",
+  "updatedAtUtc": "2026-09-25T01:50:28.833756+00:00",
+  "updatedAt": "2026-09-25 09:52 台灣時間",
   "reports": [
     {
       "ticker": "ORCL",
@@ -101,7 +101,7 @@
       "nextClosePct": -10.362551340508041,
       "sources": [
         {
-          "title": "Ciena Tumbles 10% as In-Line Guidance Overshadows Earnings Beat, Arista Edges Higher - 24/7 Wall St.",
+          "title": "Ciena Tumbles 10% as In-Line Guidance Overshadows Earnings Beat, Arista Edges Higher - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUE5uSFhwX25keklNaVhCNUQ0eTRaRU1FMkwxeDJuVlVFUVpQZlRDZHJjRjRpcDB4UldqanZ3QWhDMUI1eXJYXzhFTTNHSTRfTkt0RDVyYjVvZWVXQ3ZyNWR1Vy1yeHU5b1dWbDJncWtOaHMxTDF6UHNkZHY5SnZFbnQ1RjJkb1dIcUZQZDFIbmVSb0w5WW1Nc043ZzZSQnBIMDFuQjdqckdyQVFrLVdpR0hIRW5FQ01yV2ZCdU9vMllHZVJzNW45bFJZM3RwdTk4YTJsbw?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
@@ -130,9 +130,9 @@
       "group": "AI 運算／AI 晶片",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 3.32,
+      "epsActual": null,
       "epsEstimate": 3.24,
-      "epsSurprisePct": 2.53,
+      "epsSurprisePct": null,
       "revenueActual": 29591000000.0,
       "revenueEstimate": null,
       "guidance": [
@@ -170,15 +170,55 @@
       "sourceCount": 5
     },
     {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "symbol": "SNOW",
+      "group": "Cloud／Software／AI 應用",
+      "reportDate": "2026-09-02",
+      "reportDateTime": "2026-09-02T20:00:00+00:00",
+      "epsActual": null,
+      "epsEstimate": 0.45,
+      "epsSurprisePct": null,
+      "revenueActual": 1546793000.0,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 22.806043845570102,
+      "nextClosePct": 16.554409328097396,
+      "sources": [
+        {
+          "title": "Snowflake lifts annual revenue forecast on cloud and AI demand, shares soar - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJ2U1c4RFI3aWwtQVNXOW1KaHFMSVpxc2RFc1BiUnNYdnBTaUJ5eWZpc3BxRWUzcnhiNURoRXlwY0VqU2M1NEYtX01XMlhLeF9zRkZncnEzYVFMSDJ0c182LWtNbUpHYy1NUXNET0NTZnZJMkxWOXVBa2ZvVVF2NTJDRHhpRjJOblRvRzJzZ1ZDN08yZnZ1UGpfQUdWRnc5Zm1fU0V5Vlc3SmIwdHUwbGNubEM4ZUQxbHdz?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTN3eDFYZ05aWEVjNnRGVG9sRy1kYTQ0QTA1SUlLQk9MZ19GUDZ5dE81QTQzck9scHFOYmJ4TTFJYWgyMGRCZ0lrVWtZcHJ2a2ZqYUIzSlhWdFpsVm1PZ3dsYkhqdjRQb2dWajdVbjE5UVJNNWg3endubDFoT3BEX080ZE04dFVpaHVvY2x6ZDJqbmpUMW9WRHZ0ZURrZjBBZzZpSjFKMFJTMzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[Snowflake Q2 2027 Earnings Call] Snowflake Accelerates Again, Hikes Full-Year Forecast to $6.07B as AI Products Drive Half of Growth - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1adzZWMmhpWVdwNExtQU5Tb2xvRnVkRThxWVQ2Y0NhYXpnSmhpYjhHUkowcjgzNHFaOEthczhaOFBkOEVQUEVpSGlCTkJKRVR0UjlkTUZjd0NLckR4a1E?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "SNOW Stock Price Today: Why Snowflake Stock Up? Soars 21% After Q2 AI Growth Beats, Guidance Raised to $6.07B – Check Financial Indicators, Revenue Performance, Market Analysis & More - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxOYV93Z2VnY1NOYmdRbV9HaTVDbTlxZFNrdUJpcnlta1VBendwcFBZV2tDS25pQnYtV1VzZUZ2Y0JuQ1g2MUE1Y0VTaU1DZ1hFOU1KZ0JtSTVJZ0l2MEcwd1hLOE1jOGlIeWtrUk0tTDl4ZHhFYkJPeEhkejNGbTNRZ0w4d2NyYko2YVRGc2FIRzNXeXJtZ2szUE9pSk41N1pCVWlKT0o5SHdpUnpkU01fUk02YW5xNWpjUmZOMFZFaXJhSFhGSWZCUjNrRng5YWM4bEdadFZZaW0xdUlyUkpsOUxHUlR2ZXFjQVpVcm1PRVh6RmMzcHlHQjVaUUh2cmJjdWJoX3Yxb251OGhLYjBtRmFxb240dXRYOVpYY3ZES0F5eEpRVzJ0bU5oUFFEN05wNmlpSHJJQk9FQ05qaUtUWNIBxgJBVV95cUxNZDdndXVhcWRkd1ZCVm45SkpudlZCRGVGb3QwSlVqYWdlMENJR18wblpMSDh5VFl5WVE4RlhPdG5EZWp3bDZuZkNEekV3TzRBTWpYMnBpU2Jqb2FfenRBTnl5UENGZUloZ01CTDVXNDVKTG5walc0cDkxSy0yLTVLQzVWakNQdjZNYmI3UTlFbjNmTnpQR3Bpa1NqMlg5TFFOZzhYaHlqbEY2cFBWaWN6czBjRWRYNGFmelFZRE9UZmNDbHI0eW16R1l1OFJ0bk5RWjllZ1NWVjhkUUtpQy1OQUNndkhzbDZGYjJqN28wb2NoWENPT2NtWk4zam5nM3o1dW5GT0xDRXg1WmtvaTFreGI4b2hWcEVrM2hoZXBJTGlSQ3dPdFFrRkxEanR4Y0dlQ1ZSQnhaNHFQTDA5T2N1V2hZdUgxUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Snowflake Lifts Fiscal 2027 Product Revenue Guidance to $6.07 Billion as AI Demand Accelerates - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40MEx0aG9WaHpaNC1mMVlBOFd0MW02UDhmRE1QbGxpR0JidHQ1MXl4UFJTQ2VJNUNqUzd4WVJjWGVTMTd1ZWFPMjZBc3lXQTZDSVVYSmMyNGFYVVBZa3EzX0gwRHFGVmxmSTVyRXJCWUFpd1o3YlE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5
+    },
+    {
       "ticker": "HPE",
       "name": "HPE",
       "symbol": "HPE",
       "group": "AI Server／資料中心硬體",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 1.11,
-      "epsEstimate": 0.94,
-      "epsSurprisePct": 18.41,
+      "epsActual": null,
+      "epsEstimate": 0.93,
+      "epsSurprisePct": null,
       "revenueActual": 12213000000.0,
       "revenueEstimate": null,
       "guidance": [],
@@ -205,46 +245,6 @@
         {
           "title": "HP Enterprise slides even as it boosts full-year outlook, aided by AI (HPE:NYSE) - Seeking Alpha",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa0NxQzFqNFRNek9ORi1GSFVGNFZVWEFhYTRSQ3FxX1NDdC10UlRMOUVTS1lHZklQQ1pfQlI1cUxQZEtKbEQ4SWlzZHJxRVc0b0ZramNJRmUxVkFkN3dXRnk1VGc5b2J5WnBOSlNrTE1PdWtxT1JxNUhrQ2s0eFFLRkVWaFdrWVhYeDU1QnRZYXJHMVd4WEV3bE5kSk9VcTVJcVRUX3VmaHNVZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5
-    },
-    {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "symbol": "SNOW",
-      "group": "Cloud／Software／AI 應用",
-      "reportDate": "2026-09-02",
-      "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 0.62,
-      "epsEstimate": 0.45,
-      "epsSurprisePct": 38.71,
-      "revenueActual": 1546793000.0,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 22.806043845570102,
-      "nextClosePct": 16.554409328097396,
-      "sources": [
-        {
-          "title": "Snowflake lifts annual revenue forecast on cloud and AI demand, shares soar - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJ2U1c4RFI3aWwtQVNXOW1KaHFMSVpxc2RFc1BiUnNYdnBTaUJ5eWZpc3BxRWUzcnhiNURoRXlwY0VqU2M1NEYtX01XMlhLeF9zRkZncnEzYVFMSDJ0c182LWtNbUpHYy1NUXNET0NTZnZJMkxWOXVBa2ZvVVF2NTJDRHhpRjJOblRvRzJzZ1ZDN08yZnZ1UGpfQUdWRnc5Zm1fU0V5Vlc3SmIwdHUwbGNubEM4ZUQxbHdz?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTN3eDFYZ05aWEVjNnRGVG9sRy1kYTQ0QTA1SUlLQk9MZ19GUDZ5dE81QTQzck9scHFOYmJ4TTFJYWgyMGRCZ0lrVWtZcHJ2a2ZqYUIzSlhWdFpsVm1PZ3dsYkhqdjRQb2dWajdVbjE5UVJNNWg3endubDFoT3BEX080ZE04dFVpaHVvY2x6ZDJqbmpUMW9WRHZ0ZURrZjBBZzZpSjFKMFJTMzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "[Snowflake Q2 2027 Earnings Call] Snowflake Accelerates Again, Hikes Full-Year Forecast to $6.07B as AI Products Drive Half of Growth - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1adzZWMmhpWVdwNExtQU5Tb2xvRnVkRThxWVQ2Y0NhYXpnSmhpYjhHUkowcjgzNHFaOEthczhaOFBkOEVQUEVpSGlCTkJKRVR0UjlkTUZjd0NLckR4a1E?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake Lifts Fiscal 2027 Product Revenue Guidance to $6.07 Billion as AI Demand Accelerates - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40MEx0aG9WaHpaNC1mMVlBOFd0MW02UDhmRE1QbGxpR0JidHQ1MXl4UFJTQ2VJNUNqUzd4WVJjWGVTMTd1ZWFPMjZBc3lXQTZDSVVYSmMyNGFYVVBZa3EzX0gwRHFGVmxmSTVyRXJCWUFpd1o3YlE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake Q2 2027: AI Surge Lifts EPS Past Estimates - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM0luR3hwaDF1NXdlZjQwcmdPS2Z5dmlHazJoVEF2N0xSTXlLaERkRy1XTzJ4SVBCSWhpSEJRRVVpcjdyQ1ZGUjhNUU05c2NhLWRuX1p2dlFFczFiaUJLUFVESG1kT2FsR0hhOTBVV1lKNDEyb3VvVGtkanZwTXAxZDNuUDA0VkRWaTNHc0toQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
       "sourceCount": 5
@@ -341,7 +341,13 @@
       "epsSurprisePct": 0.99,
       "revenueActual": 2739300000.0,
       "revenueEstimate": null,
-      "guidance": [],
+      "guidance": [
+        {
+          "metric": "Revenue",
+          "companyGuide": "- TradingKey Marvell Tech 第三季 GAAP EPS 指引 0.48-0.58 美元 vs 預計 0.52 美元 - scanx.trade Marvell Technology Inc (MRVL)（2027 年第 2 季）財報電話會議亮點：創紀錄的收入和大規模...",
+          "estimate": ".t"
+        }
+      ],
       "management": [],
       "firstReactionPct": -7.579207777817865,
       "nextClosePct": -10.283703518280563,
@@ -410,46 +416,6 @@
       "sourceCount": 5
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "symbol": "CRWD",
-      "group": "Cloud／Software／AI 應用",
-      "reportDate": "2026-08-26",
-      "reportDateTime": "2026-08-26T20:00:00+00:00",
-      "epsActual": 0.31,
-      "epsEstimate": 0.29,
-      "epsSurprisePct": 6.38,
-      "revenueActual": 1470897000.0,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 11.956870810850063,
-      "nextClosePct": 20.49900387962671,
-      "sources": [
-        {
-          "title": "CrowdStrike raises annual revenue forecast on strong cybersecurity demand - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb21wcWlqdWgwUmh0blFmSWdkLVRJeUdwZzVMX1d3MmhCMmYzT1pyVDBQcldLV1dwS2k5LWFpRmxXWklxWktjU2hmMzExSjBmNnNIdW5fSUlVOWNsc3RiSWh1R0RWX1ZyRjRSRktJd3gtRlFZdU1zZV9qWTZpQW01YjR2TnBXdkQ4N0dtV1U5MnRlaFh0Mmg2ZHJSOFQ3anNXVVc3THVxV21iU2h5NEozNXZ4cDdXWTFh?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike Beats Annual Revenue Forecasts as AI Threats Rise - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWlXSnljRFdkaGMyRWRPYWJhQXB6V2tUdXdoRUNaWnRESnBEQ1cycEcwZnNrcHVjX2xRdUlCcDMzNjJCX2s1VHk4MnZuUEtKUlBRM1c1Vm0wejJYdDViQmRtZDVZLXg2b2N0MzM3MzZ0d3d6TVpPTmthVnpLTWdCVlU5QVFFbko4UVc1Sy1ZNlp0eHlvNE9Kdlp6c2xPdnAwZGdKRXFGT1pSaThVTGJFRk9B?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike Jumps 12% After Record Quarter, Lifts FY27 Outlook on AI Security Boom - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02UGQ4dHJ6ZEN1eWFHazZkNGtBVjRfYjB1ZUZITG1Ec1k3WHlDczRQbTVRRUtjeGlpQW9aSzZBeWppcTY0VG1ETEVsbFRERDdYRmxGa2lCMDIyemlIZnpENWpGdnhiTVVWUGNnWlpuUzNpdjB5ZFE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Stock Movers: Nvidia, Crowdstrike, Salesforce - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGJVR3BnQThEd0VyOFVNalhoVnF5YWY3R0hYZVdwWFJSRkhxdjI1Y0pqVV9JbnJUbjFBZnRaZDE5U3V0MllFY0dMczdRV3ZQYnpyaFBrWXNaVlRTbzl4UUZSQWhaMG92bEROVDBGR3ltTUdyQ05rdUNTbDhEeWM4Z09HQnF1V2hHSUR2LVlldnFaaURJMl9rbVZUUWY1UE0?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike (CRWD) Q2 2027 Earnings Call Transcript - The Globe and Mail",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRlEtSVBmWmpDbEJQNWhmMEx0Ny1UYXgyV0Ruc0hxVHRoVmZUMnJZbGY1dGNLazdSSWNBby1CTzZMMFJUam5qMHU4c2xFN25MOC1QblE3Yy03YU80Y3dfbnNZbDRmYkVJWW1uc0VlY05fY1pCMXc5X1Jhckw1WnJFdXFYVHprd2pvMGhhWXhBOTh5cG1PcDk0WFZtUHZlUmd3eUhtWTBmUF80bGVKNFRCLWd0c2RyNUJnN2gxa0FKLU1XMVZydTBfLUIxLUZqZzQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5
-    },
-    {
       "ticker": "CRM",
       "name": "Salesforce",
       "symbol": "CRM",
@@ -485,6 +451,46 @@
         {
           "title": "Watch Nvidia’s AI Boom, Salesforce’s Anthropic Bet | Bloomberg Tech 8/27/2026 - Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS1lDUkppYTZCakNra1JxT1lKWElJeUVyUlIyOWlNUXh5OFVCNzBhRHg3aVdjaDEzSUtrbC1RRDh6RVVsR29XVDNRLV81MEVaUTIzX1YyNzY3VURUZjRQXzRyLUk0cEh0TFZueTBCRmRIeEd5bHQzaFhqNGxUQ1RmWURCdGNkUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "symbol": "CRWD",
+      "group": "Cloud／Software／AI 應用",
+      "reportDate": "2026-08-26",
+      "reportDateTime": "2026-08-26T20:00:00+00:00",
+      "epsActual": 0.31,
+      "epsEstimate": 0.29,
+      "epsSurprisePct": 6.38,
+      "revenueActual": 1470897000.0,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 11.956870810850063,
+      "nextClosePct": 20.49900387962671,
+      "sources": [
+        {
+          "title": "CrowdStrike raises annual revenue forecast on strong cybersecurity demand - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb21wcWlqdWgwUmh0blFmSWdkLVRJeUdwZzVMX1d3MmhCMmYzT1pyVDBQcldLV1dwS2k5LWFpRmxXWklxWktjU2hmMzExSjBmNnNIdW5fSUlVOWNsc3RiSWh1R0RWX1ZyRjRSRktJd3gtRlFZdU1zZV9qWTZpQW01YjR2TnBXdkQ4N0dtV1U5MnRlaFh0Mmg2ZHJSOFQ3anNXVVc3THVxV21iU2h5NEozNXZ4cDdXWTFh?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "CrowdStrike Beats Annual Revenue Forecasts as AI Threats Rise - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWlXSnljRFdkaGMyRWRPYWJhQXB6V2tUdXdoRUNaWnRESnBEQ1cycEcwZnNrcHVjX2xRdUlCcDMzNjJCX2s1VHk4MnZuUEtKUlBRM1c1Vm0wejJYdDViQmRtZDVZLXg2b2N0MzM3MzZ0d3d6TVpPTmthVnpLTWdCVlU5QVFFbko4UVc1Sy1ZNlp0eHlvNE9Kdlp6c2xPdnAwZGdKRXFGT1pSaThVTGJFRk9B?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "CrowdStrike Jumps 12% After Record Quarter, Lifts FY27 Outlook on AI Security Boom - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02UGQ4dHJ6ZEN1eWFHazZkNGtBVjRfYjB1ZUZITG1Ec1k3WHlDczRQbTVRRUtjeGlpQW9aSzZBeWppcTY0VG1ETEVsbFRERDdYRmxGa2lCMDIyemlIZnpENWpGdnhiTVVWUGNnWlpuUzNpdjB5ZFE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Stocks making the biggest moves after hours: Nvidia, Salesforce, CrowdStrike, Urban Outfitters and more - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU1F5c2hfOTV6djVaTFhLWGI2X2EwbXFheVhzcGNOODIxZlNqM21OeDVsT3F5bEtVbHlkQVdBQlBnS21jQ3c4V0xoYlM1R0wwVldEdWNLaDFsRWdPRUlYVEYxYVVmUzJ3WC0zSzN6aEpEeXlsaS1HcnF4c05zTmNvNFpFTUx4ekg1cjlSYWV5YUg5OTBIWHdJa0d2d3lWNTF3ZTU4VVBWZUM0RDF0?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Stock Movers: Nvidia, Crowdstrike, Salesforce - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGJVR3BnQThEd0VyOFVNalhoVnF5YWY3R0hYZVdwWFJSRkhxdjI1Y0pqVV9JbnJUbjFBZnRaZDE5U3V0MllFY0dMczdRV3ZQYnpyaFBrWXNaVlRTbzl4UUZSQWhaMG92bEROVDBGR3ltTUdyQ05rdUNTbDhEeWM4Z09HQnF1V2hHSUR2LVlldnFaaURJMl9rbVZUUWY1UE0?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
       "sourceCount": 5
@@ -615,10 +621,6 @@
       "nextClosePct": -19.377529727081356,
       "sources": [
         {
-          "title": "Fabrinet (FN) (Q4 2026) Earnings Call Highlights: Record Revenue and EPS, Data Center Growth ... - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUDJkdnppZGlObWI5STBpdnRpaUxOWS00Y0tBMERGc2t5dXI5WENGOU53VVAxWUk5OElqT054aTBPS1FrVjMxX2ttaTg5YVFoazRZZTI4NF9USkx0UnVMaDBnT3RRTnpBRzJfLTRtMmVDcGpkaXFwX2tOTHZIUEV2ZGUwR0Z1QmZ5am1XVEVOc0NDSzBBckZ6OA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
           "title": "Fabrinet shares drop over 11% during pre-market hours as margins shrink despite Q4 earnings growth - Upstox",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNHJRM19iZFhlR29jYURjM0hsdGQ1Z0k3SElUZHNFRGtudjcyLVdPWkVyRHVJQ1pwZWQ0UWp5N3NycFh1NmNXNXgwSXdpTjhQQXY5V3g5V01NV1A5RWxxMWJrYnM5b3ZjQUhJQUxNTDhLZTZjUTVteTNEc1lwVmgycnpXV3Z1WkpDM2E4dG1ZSVdtc2RjUENqV1Q2dHZ1OFlsemgzTFZibDhFMDVoZUxRUXFieWpLd1p3a3BWY1Z5aUxxTk90VG9KLXFZUkFZMDRseFRJZ1plb0NhNkZac1pjR29LaG90bTV5X0E5eXY0Nmk?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
@@ -627,11 +629,11 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGphQmhuSDZrLURoZFhDUFRNU1NoRS1DaVRHWmpnUGUyVF8weE9VTjB0S1Y5d3JMMWNqR2pscEF6RklIcU5kcHdMMDUybktGN01LYmhNb0V6ZGlCSWtWZFJzWUtkbkVhRmZhSHFEZnVmWU1hSzFocGc4UmFtRGtxTU5fQXZ2WFUtZHlTMXVB?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Fabrinet Announces Fourth Quarter and Fiscal Year 2026 Financial Results - The Manila Times",
+          "title": "Fabrinet Announces Fourth Quarter and Fiscal Year 2026 Financial Results - manilatimes.net",
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTC1WU081YzZtVTdWSk8xUG51TWVtS3QxZXBJOXFjQWpyMmxfY2VjZkFVYzNIUUlEdk41Qm5ieDd5X2pKc3NURjNVcmZQT3hpNENXTkg4aFhrWW80akNMMGtoTUFHNXd2YUlFZ1hvdEFIS21seFI0REZyNDY1SHZFc1FFQ0stanNXYzJFOXlQanNCTTM2cndGdnZUcUNPZ3owY0VPeUZBOTNqc0xGMVRZR2Mtaml4Um05cTNmMDhGNTNHemxuUEw2eVZSR0NiT3pmUVlnQ18yNUxVQV9EMks40gHkAUFVX3lxTE41M2p2WUF1ZjFFSFMwNXAwMzJ1dWFEWVBnMG5Ua0E3RERjMWtrNWw3MllJRjduTW11SC1WQVNFaWRyN2ZTNW83M0JSeDU5WjdmQ3BEQ2h6RzBaUFhrMktDdEltSU1ybGo0ZmxvZjhwWXJpYURfSmxLUnFtcWVuRGVyX1pZVHlHdGxsaXB4d2NOeXl5ZFQ2Y1Nmcm83RnhFYjBLNEhQcnRyVmVCcVZ5RjVaaDh3dDlERGd5MUpUUjRzTS1wSlhwY0REODRYQ1dDWE5nYTJNVlJhQkwyRWZrU3djS2pOZg?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "sourceCount": 4
+      "sourceCount": 3
     },
     {
       "ticker": "AMAT",
@@ -667,7 +669,7 @@
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kc3FwQnp0aGJCTERVc2FYc0h1QThGLWhBOTNEWDRPV202YVVpOVc3dE5qVjdaOTVfVjNXTnRVN2FwN1RfUmtOaXBnRU1pc1NiWF9UZWVQSFNMbGh6Mm14cXZMcGxfWWI5aC1aRkVRZkZFT1J4bGc?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Applied Materials Q3 2026: Record Revenue With a $10.25B Q4 Outlook - 24/7 Wall St.",
+          "title": "Applied Materials Q3 2026: Record Revenue With a $10.25B Q4 Outlook - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcEhKNXJzVVRpTFlZV2t5Ry1vV1gwempVdTRKNFB2S1VDRl9YZVNtWGFSN01qX1ZCdGVHMFhJZ05pWGxGVDZBQXkwSDlfZ2ttd19tUnNMTWhaVWVHOWpBSFRqeE1sbGlRNDRBNldhZlJXckhQZUZ4V00yak5YUDVHRFBGQlFMMjBjYVh1SmVXbzl3UTVXaVFIT19R?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
@@ -699,11 +701,11 @@
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNdjdSSkdjbzNsU1ItMnFUMUlFT3Jwdmc3M0pyQmZvZGFwQnlmcVFDdTZ2YzN6Qm1RbF9aQU5MZEs4bmJuMDd1RnJWSXM4bWNMY3hKRElVVXBJTk5EM0N5RnlCUHlzVndEWUxzOUg3ZVRsOHlZQ3ZDb0dSQ2pFUWxBN1R5U2lXNDV4SWNVQm9uVTk2dkhydTFsTi14OFV1ZXBZYlpQN3JKNzdyQXQ1c3lIdnBYX1NiYkxqbVVSUWR4Y0VjZGFiTHZ0cThMTUtiVTFKbC1FYTBlcFFRNmJ2UURYQlFYNmVTWHBjYk1nQVZZQ3NoR2pZakc0cQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "POET Technologies Reports Second Quarter 2026 Results: Revenue Up 112% Year-Over-Year in Sixth Consecutive Quarter of Sequential Growth - The Manila Times",
+          "title": "POET Technologies Reports Second Quarter 2026 Results: Revenue Up 112% Year-Over-Year in Sixth Consecutive Quarter of Sequential Growth - manilatimes.net",
           "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPX1NrUDFYTW9pOGZwN01IQVJFSm5mR294cl8zZVNucEpjcFRUUGJMbTIyMUtKYTctYXlxU2Rnblo5NDFKR0ZHVnBpMmxBVDJBRWlYd1pjODlZdldDQ2tNRnRJMFdveDM4UE1jZDR5SldqREpBeXM5djRFUzN4YkRvMThHaU16cDdNNzd6OTFMTzdVWkIyaXk0QVlhWWV0Z2I1VlgwdEsyYk5yeGtYSmNyQXdOeWFCakhjcUItVXg5UTdYNVpCQ25vaHRCMXRPdjdiRUJITkdEMVRZQWIwNk8wRVBxaE9fOHM0XzN1elJvVXBzNVFic2FaQml5NVBqNjNmYTBhWTIwZWpQS3dXb1Y1ZWFqeEZRSjdCSEZjSXBiS2ZQSHk2VFVETzc1R0oya0xL0gG2AkFVX3lxTE1neGw5LUFOdkpaVFlsMDEwVEIxNHBTZmo0VjBsV3RUR2VsRUxTRVFMYlFoR0puNW9NcHQ0VElranAxMDVSRjA2YUVUWUFIbVBqNHhtZUNhZlhsZ2VDMURUUk95eTIwUHljQTZBNmdCVXdCWl9fRndXSWNTa0V1SU5LRTQ4WXRqYTc3YU12d241TEN6Q0Jwc2tXMVdaR0w1TnIzaHU5RGtHMjNaOERBRU1qSTdrM1d0MS1Qd2J0ZjVqX2lFdmN3d2VyeVYzU1FGcjJYSHc5cmtrZnFpcWhJQ1FISGNUMzhQajlnQk1xYTdWcUd2TkxKYjFVVTJva2R0c3VoX0lSc3Bya0ZMaE4wQkxkOW5mNmZRVWlFXzJvbE1XME04aDJSX3dkQ0RUNVVaWTVFb2RPQVE?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Jim Cramer Says Skip Poet and Buy These 2 Proven Photonics Stocks for AI Data Centers in August - 24/7 Wall St.",
+          "title": "Jim Cramer Says Skip Poet and Buy These 2 Proven Photonics Stocks for AI Data Centers in August - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRk5pWXpMMlVEb29JNkFWaHhQT256NlpJZTJKdHdVbVhOSHRzcGgzbmw2YXNyV2dWQzJxc2M0VzE4aXlmdzluY2xibENTTWJLRDdXN01jejFHZzlZUWxwenI5MkFUOGNFY1VsVjhLV3d5ZEJObVVtU1FCOTJ1U3M2SGRlSXBKWDQwWG9pcVVRcFJlWkozSzBfQ19XcEJZYjZvb29WbmJRTjhPWDZhVVZlUnJDMDFTWklzZ2U4bG1sU0xHX0tpemlOTURudzU2VGNqYkFESkpn?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
@@ -743,7 +745,7 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hZjhOV2c1cEIxdEdjVEtzNjRLUWVjaGtGTmVaWGpxUjJWdDNaTC03bWx5N1JrNzVkdUVvVWNhaXhzOVRrc0liYWdiVlNCTWI4YWV0NkRDT1dFZ3NVeW82N0M4MS0?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Ondas Drops 7% After Earnings. Is Their Post-Earnings Drop Impacting Other Drone Stocks? - 24/7 Wall St.",
+          "title": "Ondas Drops 7% After Earnings. Is Their Post-Earnings Drop Impacting Other Drone Stocks? - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWkw5dTUybDczbTFBeUxWUUhCRDItVm9WQ0E5ZlBCYTBzMk10VjZDcEtOUUFjUkZlRmE0TG1vUk55M3lFdWVrSG0wV1RTQU9GU0d2UEhxYWh4emtGUndJdTlSU0tySkdVV2pYMkM1OFl0TThoOFk3enJMcFlTOV8zWmVTMXBJeFBGVURzbmFaZl80ZTZ6c0xFZUdxbHIxRkJScWhqcGpOejhmbE52SjA1bEVIMncwNnRoRkFscUYwRXlwdHRoaG5hTA?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
@@ -807,7 +809,7 @@
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ZTTdDSDQySlJIMy0xZ1A4T2hFS0Q3OGZwTngxd2Q5bkVFUXFiQldRZkNqcjZ0YnVubHJ1ampDYVJRckpPSWFad3owOGQ4YUhRS0lDSUREZTQwVG9kUVY0ajhaTQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Lumentum Rockets 15% on Blowout Earnings, Coherent Climbs 9%, Corning Gains 5% on Optics Earnings and CoreWeave, Super Micro Read-Through - 24/7 Wall St.",
+          "title": "Lumentum Rockets 15% on Blowout Earnings, Coherent Climbs 9%, Corning Gains 5% on Optics Earnings and CoreWeave, Super Micro Read-Through - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTDNKdmVHVDFnbHBlcWs0bXlNakNYUF9oNVlrT2ZiZTc3QjZkYU1RM1p6TXpWMWcyOFlmd0JsNUp4c2lKZzZSeWwtUzJfamU1ZzVCdEFPVXVYUHlMc0ZENnEzek43b1ozY2hEZlMtY2wtbWpZa0txckxRUHUtN3lNd1p0NlRCY1VUcEJCZ1Q5Sy0wT0JZTE9fOU9VeF9iX3AtTWY5QTdGOTU1Z05paW1jQTJvUENGUjh3QjRIQjZ3RU12YnE2S0Nra2lLNGdjeTZSUFNLU1VKZUh2U0VyZ3ZPNkJ4M2FXWlVhcGVITG1qOGh4QkUxdF9YMFlmckphbTZkU2ZmRWJn?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
@@ -915,11 +917,11 @@
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94NVIxRUFra3ktZmxWVjZMS2VHYXNFaXpHa0pyb3JRcGJVdFZfaGlrM3ZPaXpRbzlQYk1vWUx2LU5Sc2hpWllhYTlRM1R0MmptTGtGV2NNN0lJVWptNjI2MnVLRkx1RU9LeVBzeUNRWE9IcHNPcjAyRkhHRFQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Lumentum Shares (LITE) Swing 13% After Earnings, With AI Margins in Focus - ts2.tech",
+          "title": "Lumentum Shares (LITE) Swing 13% After Earnings, With AI Margins in Focus - TechStock²",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU3FENFhIY3NkYlJKNVJud3ZjNERSVl9QelFVWEV0QldHX2ZyQ3ZteEw0UktkaDhhUG0tZkwtQ1dqX0Vfb2tVVHZnWnNNM2xaU2xqbHVTb09aUlVqZS1XVlQxM25ZNnkyQ0tqTEp6c1A5bHZOa1Z2V0ppcldWQUVoV0lOMWVTRGJuZVo4dEF3UHp3d2RrTktXSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "AXT Slides Before Lumentum and Coherent Report Earnings This Week. - 24/7 Wall St.",
+          "title": "AXT Slides Before Lumentum and Coherent Report Earnings This Week. - 247wallst.com",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmt0M3E1dmVJWXZHUXRYU3RDT0FoWnZyazV3VzNXN0lPRWY2WFBabzdEMDVxOFFYVDdIemVDUXpKSjYzcUVBZXlOY2FXRlpIeXA2NFdzbzctTHRzNGV5aE5yLXZXNVotRVl0TWJvaFItY2pMcl9OS3p1a1p6N1V2MlN3aXpHOC1fTnhDN0Y4c2hXYkVUQmc2TG1maTY3bmRTNmplMHlRMXAwcFhaNlE?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
@@ -1009,8 +1011,8 @@
       "reportDate": "2026-08-10",
       "reportDateTime": "2026-08-10T10:00:00+00:00",
       "epsActual": 0.76,
-      "epsEstimate": 1.66,
-      "epsSurprisePct": -54.2,
+      "epsEstimate": 1.63,
+      "epsSurprisePct": -53.4,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -1314,7 +1316,7 @@
       "reportDateTime": "2026-08-05T20:00:00+00:00",
       "epsActual": 0.41,
       "epsEstimate": 0.13,
-      "epsSurprisePct": 220.63,
+      "epsSurprisePct": 218.5,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -1762,25 +1764,6 @@
       "sourceCount": 0
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "symbol": "MSFT",
-      "group": "CSP",
-      "reportDate": "2026-07-29",
-      "reportDateTime": "2026-07-29T20:00:00+00:00",
-      "epsActual": 4.74,
-      "epsEstimate": 4.24,
-      "epsSurprisePct": 11.81,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
       "ticker": "META",
       "name": "Meta",
       "symbol": "META",
@@ -1800,14 +1783,33 @@
       "sourceCount": 0
     },
     {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "symbol": "MSFT",
+      "group": "CSP",
+      "reportDate": "2026-07-29",
+      "reportDateTime": "2026-07-29T20:00:00+00:00",
+      "epsActual": 4.74,
+      "epsEstimate": 4.24,
+      "epsSurprisePct": 11.81,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
       "ticker": "APH",
       "name": "Amphenol",
       "symbol": "APH",
       "group": "高速傳輸",
       "reportDate": "2026-07-29",
       "reportDateTime": "2026-07-29T12:00:00+00:00",
-      "epsActual": 0.68,
-      "epsEstimate": 0.6,
+      "epsActual": 1.35,
+      "epsEstimate": 1.19,
       "epsSurprisePct": 13.19,
       "revenueActual": null,
       "revenueEstimate": null,
@@ -1914,15 +1916,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
+      "ticker": "KLAC",
+      "name": "KLA",
+      "symbol": "KLAC",
       "group": "半導體設備／測試",
       "reportDate": "2026-07-28",
       "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 2.47,
-      "epsEstimate": 2.05,
-      "epsSurprisePct": 20.28,
+      "epsActual": 1.05,
+      "epsEstimate": 1.0,
+      "epsSurprisePct": 5.14,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -1933,15 +1935,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "symbol": "KLAC",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
       "group": "半導體設備／測試",
       "reportDate": "2026-07-28",
       "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 1.05,
-      "epsEstimate": 1.0,
-      "epsSurprisePct": 5.14,
+      "epsActual": 2.47,
+      "epsEstimate": 2.05,
+      "epsSurprisePct": 20.28,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -2047,6 +2049,25 @@
       "sourceCount": 0
     },
     {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "symbol": "CLS",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2026-07-27",
+      "reportDateTime": "2026-07-27T20:00:00+00:00",
+      "epsActual": 2.54,
+      "epsEstimate": 2.31,
+      "epsSurprisePct": 10.04,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
       "ticker": "AMKR",
       "name": "Amkor",
       "symbol": "AMKR",
@@ -2075,25 +2096,6 @@
       "epsActual": 3.31,
       "epsEstimate": 2.79,
       "epsSurprisePct": 18.5,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "symbol": "CLS",
-      "group": "晶圓代工／封測／EMS",
-      "reportDate": "2026-07-27",
-      "reportDateTime": "2026-07-27T20:00:00+00:00",
-      "epsActual": 2.54,
-      "epsEstimate": 2.31,
-      "epsSurprisePct": 10.04,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -2984,9 +2986,9 @@
       "group": "NeoCloud／AI 算力",
       "reportDate": "2026-05-07",
       "reportDateTime": "2026-05-07T20:00:00+00:00",
-      "epsActual": -1.4,
-      "epsEstimate": -1.2,
-      "epsSurprisePct": -16.26,
+      "epsActual": -1.12,
+      "epsEstimate": -0.91,
+      "epsSurprisePct": -22.36,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3003,9 +3005,9 @@
       "group": "太空／國防／無人系統",
       "reportDate": "2026-05-07",
       "reportDateTime": "2026-05-07T20:00:00+00:00",
-      "epsActual": -0.07,
-      "epsEstimate": -0.08,
-      "epsSurprisePct": 11.03,
+      "epsActual": -0.02,
+      "epsEstimate": -0.04,
+      "epsSurprisePct": 58.2,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3079,28 +3081,9 @@
       "group": "Cloud／Software／AI 應用",
       "reportDate": "2026-05-06",
       "reportDateTime": "2026-05-06T20:00:00+00:00",
-      "epsActual": 3.56,
-      "epsEstimate": 3.44,
-      "epsSurprisePct": 3.39,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
-      "ticker": "KTOS",
-      "name": "Kratos",
-      "symbol": "KTOS",
-      "group": "太空／國防／無人系統",
-      "reportDate": "2026-05-06",
-      "reportDateTime": "2026-05-06T20:00:00+00:00",
-      "epsActual": 0.16,
-      "epsEstimate": 0.13,
-      "epsSurprisePct": 19.26,
+      "epsActual": 3.76,
+      "epsEstimate": 3.64,
+      "epsSurprisePct": 3.49,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3120,6 +3103,25 @@
       "epsActual": 0.45,
       "epsEstimate": 0.11,
       "epsSurprisePct": 294.08,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos",
+      "symbol": "KTOS",
+      "group": "太空／國防／無人系統",
+      "reportDate": "2026-05-06",
+      "reportDateTime": "2026-05-06T20:00:00+00:00",
+      "epsActual": 0.16,
+      "epsEstimate": 0.13,
+      "epsSurprisePct": 19.26,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3282,15 +3284,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "SWKS",
-      "name": "Skyworks",
-      "symbol": "SWKS",
+      "ticker": "WOLF",
+      "name": "Wolfspeed",
+      "symbol": "WOLF",
       "group": "類比／電源／功率／RF",
       "reportDate": "2026-05-05",
       "reportDateTime": "2026-05-05T20:00:00+00:00",
-      "epsActual": 1.15,
-      "epsEstimate": 1.04,
-      "epsSurprisePct": 10.1,
+      "epsActual": -3.26,
+      "epsEstimate": -3.78,
+      "epsSurprisePct": 13.76,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3301,15 +3303,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "WOLF",
-      "name": "Wolfspeed",
-      "symbol": "WOLF",
+      "ticker": "SWKS",
+      "name": "Skyworks",
+      "symbol": "SWKS",
       "group": "類比／電源／功率／RF",
       "reportDate": "2026-05-05",
       "reportDateTime": "2026-05-05T20:00:00+00:00",
-      "epsActual": -3.26,
-      "epsEstimate": -3.78,
-      "epsSurprisePct": 13.76,
+      "epsActual": 1.15,
+      "epsEstimate": 1.04,
+      "epsSurprisePct": 10.1,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3643,25 +3645,6 @@
       "sourceCount": 0
     },
     {
-      "ticker": "TTMI",
-      "name": "TTM Technologies",
-      "symbol": "TTMI",
-      "group": "晶圓代工／封測／EMS",
-      "reportDate": "2026-04-29",
-      "reportDateTime": "2026-04-29T20:00:00+00:00",
-      "epsActual": 0.75,
-      "epsEstimate": 0.67,
-      "epsSurprisePct": 12.36,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
       "ticker": "FORM",
       "name": "FormFactor",
       "symbol": "FORM",
@@ -3681,15 +3664,34 @@
       "sourceCount": 0
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "symbol": "AMZN",
+      "ticker": "TTMI",
+      "name": "TTM Technologies",
+      "symbol": "TTMI",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2026-04-29",
+      "reportDateTime": "2026-04-29T20:00:00+00:00",
+      "epsActual": 0.75,
+      "epsEstimate": 0.67,
+      "epsSurprisePct": 12.36,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "symbol": "META",
       "group": "CSP",
       "reportDate": "2026-04-29",
       "reportDateTime": "2026-04-29T20:00:00+00:00",
-      "epsActual": 2.78,
-      "epsEstimate": 1.65,
-      "epsSurprisePct": 68.18,
+      "epsActual": 7.31,
+      "epsEstimate": 6.82,
+      "epsSurprisePct": 7.2,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3719,15 +3721,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "symbol": "GOOGL",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "symbol": "AMZN",
       "group": "CSP",
       "reportDate": "2026-04-29",
       "reportDateTime": "2026-04-29T20:00:00+00:00",
-      "epsActual": 5.11,
-      "epsEstimate": 2.67,
-      "epsSurprisePct": 91.59,
+      "epsActual": 2.78,
+      "epsEstimate": 1.64,
+      "epsSurprisePct": 69.02,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3738,15 +3740,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "symbol": "META",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "symbol": "GOOGL",
       "group": "CSP",
       "reportDate": "2026-04-29",
       "reportDateTime": "2026-04-29T20:00:00+00:00",
-      "epsActual": 10.44,
-      "epsEstimate": 6.66,
-      "epsSurprisePct": 56.79,
+      "epsActual": 5.11,
+      "epsEstimate": 2.63,
+      "epsSurprisePct": 94.3,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -3763,8 +3765,8 @@
       "group": "高速傳輸",
       "reportDate": "2026-04-29",
       "reportDateTime": "2026-04-29T12:00:00+00:00",
-      "epsActual": 0.53,
-      "epsEstimate": 0.47,
+      "epsActual": 1.06,
+      "epsEstimate": 0.95,
       "epsSurprisePct": 11.96,
       "revenueActual": null,
       "revenueEstimate": null,
@@ -3909,6 +3911,25 @@
       "sourceCount": 0
     },
     {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "symbol": "CLS",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2026-04-27",
+      "reportDateTime": "2026-04-27T20:00:00+00:00",
+      "epsActual": 2.16,
+      "epsEstimate": 2.07,
+      "epsSurprisePct": 4.39,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
       "ticker": "AMKR",
       "name": "Amkor",
       "symbol": "AMKR",
@@ -3937,25 +3958,6 @@
       "epsActual": 3.16,
       "epsEstimate": 2.4,
       "epsSurprisePct": 31.8,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "symbol": "CLS",
-      "group": "晶圓代工／封測／EMS",
-      "reportDate": "2026-04-27",
-      "reportDateTime": "2026-04-27T20:00:00+00:00",
-      "epsActual": 2.16,
-      "epsEstimate": 2.07,
-      "epsSurprisePct": 4.39,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -4181,9 +4183,9 @@
       "group": "電力／儲能／資料中心能源",
       "reportDate": "2026-04-22",
       "reportDateTime": "2026-04-22T10:00:00+00:00",
-      "epsActual": 17.44,
-      "epsEstimate": 2.0,
-      "epsSurprisePct": 771.56,
+      "epsActual": 2.01,
+      "epsEstimate": 1.67,
+      "epsSurprisePct": 20.38,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -4372,8 +4374,8 @@
       "reportDate": "2026-03-17",
       "reportDateTime": "2026-03-17T20:00:00+00:00",
       "epsActual": -0.27,
-      "epsEstimate": -0.16,
-      "epsSurprisePct": -65.05,
+      "epsEstimate": -0.17,
+      "epsSurprisePct": -63.24,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -4637,9 +4639,9 @@
       "group": "太空／國防／無人系統",
       "reportDate": "2026-02-26",
       "reportDateTime": "2026-02-26T21:00:00+00:00",
-      "epsActual": -0.09,
-      "epsEstimate": -0.1,
-      "epsSurprisePct": 8.19,
+      "epsActual": -0.05,
+      "epsEstimate": -0.05,
+      "epsSurprisePct": 10.0,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -4878,6 +4880,25 @@
       "sourceCount": 0
     },
     {
+      "ticker": "COHU",
+      "name": "Cohu",
+      "symbol": "COHU",
+      "group": "半導體設備／測試",
+      "reportDate": "2026-02-12",
+      "reportDateTime": "2026-02-12T21:00:00+00:00",
+      "epsActual": -0.15,
+      "epsEstimate": 0.06,
+      "epsSurprisePct": -341.94,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
       "ticker": "ANET",
       "name": "Arista Networks",
       "symbol": "ANET",
@@ -4906,25 +4927,6 @@
       "epsActual": 2.38,
       "epsEstimate": 2.21,
       "epsSurprisePct": 7.89,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
-      "ticker": "COHU",
-      "name": "Cohu",
-      "symbol": "COHU",
-      "group": "半導體設備／測試",
-      "reportDate": "2026-02-12",
-      "reportDateTime": "2026-02-12T21:00:00+00:00",
-      "epsActual": -0.15,
-      "epsEstimate": 0.06,
-      "epsSurprisePct": -341.94,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -4998,9 +5000,9 @@
       "group": "Cloud／Software／AI 應用",
       "reportDate": "2026-02-11",
       "reportDateTime": "2026-02-11T21:00:00+00:00",
-      "epsActual": 3.24,
-      "epsEstimate": 2.94,
-      "epsSurprisePct": 10.05,
+      "epsActual": 3.48,
+      "epsEstimate": 3.11,
+      "epsSurprisePct": 11.87,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5144,15 +5146,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "AMKR",
-      "name": "Amkor",
-      "symbol": "AMKR",
-      "group": "晶圓代工／封測／EMS",
+      "ticker": "ICHR",
+      "name": "Ichor Holdings",
+      "symbol": "ICHR",
+      "group": "半導體設備／測試",
       "reportDate": "2026-02-09",
       "reportDateTime": "2026-02-09T21:00:00+00:00",
-      "epsActual": 0.69,
-      "epsEstimate": 0.44,
-      "epsSurprisePct": 56.45,
+      "epsActual": 0.01,
+      "epsEstimate": -0.06,
+      "epsSurprisePct": 117.5,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5163,15 +5165,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "ICHR",
-      "name": "Ichor Holdings",
-      "symbol": "ICHR",
-      "group": "半導體設備／測試",
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "symbol": "AMKR",
+      "group": "晶圓代工／封測／EMS",
       "reportDate": "2026-02-09",
       "reportDateTime": "2026-02-09T21:00:00+00:00",
-      "epsActual": 0.01,
-      "epsEstimate": -0.06,
-      "epsSurprisePct": 117.5,
+      "epsActual": 0.69,
+      "epsEstimate": 0.44,
+      "epsSurprisePct": 56.45,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5315,15 +5317,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "TTMI",
-      "name": "TTM Technologies",
-      "symbol": "TTMI",
-      "group": "晶圓代工／封測／EMS",
+      "ticker": "FORM",
+      "name": "FormFactor",
+      "symbol": "FORM",
+      "group": "半導體設備／測試",
       "reportDate": "2026-02-04",
       "reportDateTime": "2026-02-04T21:00:00+00:00",
-      "epsActual": 0.7,
-      "epsEstimate": 0.68,
-      "epsSurprisePct": 2.56,
+      "epsActual": 0.46,
+      "epsEstimate": 0.35,
+      "epsSurprisePct": 30.6,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5334,15 +5336,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "FORM",
-      "name": "FormFactor",
-      "symbol": "FORM",
-      "group": "半導體設備／測試",
+      "ticker": "TTMI",
+      "name": "TTM Technologies",
+      "symbol": "TTMI",
+      "group": "晶圓代工／封測／EMS",
       "reportDate": "2026-02-04",
       "reportDateTime": "2026-02-04T21:00:00+00:00",
-      "epsActual": 0.46,
-      "epsEstimate": 0.35,
-      "epsSurprisePct": 30.6,
+      "epsActual": 0.7,
+      "epsEstimate": 0.68,
+      "epsSurprisePct": 2.56,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5581,15 +5583,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
-      "group": "半導體設備／測試",
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "symbol": "FN",
+      "group": "光通訊／網通",
       "reportDate": "2026-02-02",
       "reportDateTime": "2026-02-02T21:00:00+00:00",
-      "epsActual": 1.8,
-      "epsEstimate": 1.38,
-      "epsSurprisePct": 30.11,
+      "epsActual": 3.36,
+      "epsEstimate": 3.25,
+      "epsSurprisePct": 3.37,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5600,15 +5602,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "FN",
-      "name": "Fabrinet",
-      "symbol": "FN",
-      "group": "光通訊／網通",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
+      "group": "半導體設備／測試",
       "reportDate": "2026-02-02",
       "reportDateTime": "2026-02-02T21:00:00+00:00",
-      "epsActual": 3.36,
-      "epsEstimate": 3.25,
-      "epsSurprisePct": 3.37,
+      "epsActual": 1.8,
+      "epsEstimate": 1.38,
+      "epsSurprisePct": 30.11,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5695,15 +5697,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "MXL",
-      "name": "MaxLinear",
-      "symbol": "MXL",
-      "group": "光通訊／網通",
+      "ticker": "KLAC",
+      "name": "KLA",
+      "symbol": "KLAC",
+      "group": "半導體設備／測試",
       "reportDate": "2026-01-29",
       "reportDateTime": "2026-01-29T21:00:00+00:00",
-      "epsActual": 0.19,
-      "epsEstimate": 0.18,
-      "epsSurprisePct": 6.29,
+      "epsActual": 0.89,
+      "epsEstimate": 0.88,
+      "epsSurprisePct": 0.59,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5714,15 +5716,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "symbol": "KLAC",
-      "group": "半導體設備／測試",
+      "ticker": "MXL",
+      "name": "MaxLinear",
+      "symbol": "MXL",
+      "group": "光通訊／網通",
       "reportDate": "2026-01-29",
       "reportDateTime": "2026-01-29T21:00:00+00:00",
-      "epsActual": 0.89,
-      "epsEstimate": 0.88,
-      "epsSurprisePct": 0.59,
+      "epsActual": 0.19,
+      "epsEstimate": 0.18,
+      "epsSurprisePct": 6.29,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5866,15 +5868,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "symbol": "MSFT",
+      "ticker": "META",
+      "name": "Meta",
+      "symbol": "META",
       "group": "CSP",
       "reportDate": "2026-01-28",
       "reportDateTime": "2026-01-28T21:00:00+00:00",
-      "epsActual": 4.14,
-      "epsEstimate": 3.92,
-      "epsSurprisePct": 5.69,
+      "epsActual": 8.88,
+      "epsEstimate": 8.22,
+      "epsSurprisePct": 8.0,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5885,15 +5887,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "symbol": "META",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "symbol": "MSFT",
       "group": "CSP",
       "reportDate": "2026-01-28",
       "reportDateTime": "2026-01-28T21:00:00+00:00",
-      "epsActual": 8.88,
-      "epsEstimate": 8.22,
-      "epsSurprisePct": 8.0,
+      "epsActual": 4.14,
+      "epsEstimate": 3.92,
+      "epsSurprisePct": 5.69,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -5948,8 +5950,8 @@
       "group": "高速傳輸",
       "reportDate": "2026-01-28",
       "reportDateTime": "2026-01-28T13:00:00+00:00",
-      "epsActual": 0.49,
-      "epsEstimate": 0.47,
+      "epsActual": 0.97,
+      "epsEstimate": 0.94,
       "epsSurprisePct": 3.07,
       "revenueActual": null,
       "revenueEstimate": null,
@@ -5986,9 +5988,9 @@
       "group": "電力／儲能／資料中心能源",
       "reportDate": "2026-01-28",
       "reportDateTime": "2026-01-28T11:00:00+00:00",
-      "epsActual": 13.39,
-      "epsEstimate": 3.22,
-      "epsSurprisePct": 316.08,
+      "epsActual": 12.91,
+      "epsEstimate": 3.14,
+      "epsSurprisePct": 310.91,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -6632,9 +6634,9 @@
       "group": "NeoCloud／AI 算力",
       "reportDate": "2025-11-11",
       "reportDateTime": "2025-11-11T13:00:00+00:00",
-      "epsActual": -0.47,
-      "epsEstimate": -0.39,
-      "epsSurprisePct": -20.25,
+      "epsActual": -0.4,
+      "epsEstimate": -0.52,
+      "epsSurprisePct": 23.33,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -6689,9 +6691,9 @@
       "group": "太空／國防／無人系統",
       "reportDate": "2025-11-10",
       "reportDateTime": "2025-11-10T21:00:00+00:00",
-      "epsActual": -0.03,
-      "epsEstimate": -0.1,
-      "epsSurprisePct": 71.3,
+      "epsActual": -0.02,
+      "epsEstimate": -0.06,
+      "epsSurprisePct": 66.75,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -6727,9 +6729,9 @@
       "group": "電力／儲能／資料中心能源",
       "reportDate": "2025-11-07",
       "reportDateTime": "2025-11-07T11:00:00+00:00",
-      "epsActual": 1.75,
-      "epsEstimate": 1.96,
-      "epsSurprisePct": -10.54,
+      "epsActual": 1.38,
+      "epsEstimate": 1.4,
+      "epsSurprisePct": -1.32,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -6974,9 +6976,9 @@
       "group": "Cloud／Software／AI 應用",
       "reportDate": "2025-11-05",
       "reportDateTime": "2025-11-05T21:00:00+00:00",
-      "epsActual": 2.45,
-      "epsEstimate": 2.39,
-      "epsSurprisePct": 2.61,
+      "epsActual": 2.55,
+      "epsEstimate": 2.53,
+      "epsSurprisePct": 0.64,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7177,15 +7179,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "SANM",
-      "name": "Sanmina",
-      "symbol": "SANM",
-      "group": "晶圓代工／封測／EMS",
+      "ticker": "ICHR",
+      "name": "Ichor Holdings",
+      "symbol": "ICHR",
+      "group": "半導體設備／測試",
       "reportDate": "2025-11-03",
       "reportDateTime": "2025-11-03T21:00:00+00:00",
-      "epsActual": 1.67,
-      "epsEstimate": 1.57,
-      "epsSurprisePct": 6.71,
+      "epsActual": 0.07,
+      "epsEstimate": 0.12,
+      "epsSurprisePct": -40.96,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7196,15 +7198,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "ICHR",
-      "name": "Ichor Holdings",
-      "symbol": "ICHR",
-      "group": "半導體設備／測試",
+      "ticker": "SANM",
+      "name": "Sanmina",
+      "symbol": "SANM",
+      "group": "晶圓代工／封測／EMS",
       "reportDate": "2025-11-03",
       "reportDateTime": "2025-11-03T21:00:00+00:00",
-      "epsActual": 0.07,
-      "epsEstimate": 0.12,
-      "epsSurprisePct": -40.96,
+      "epsActual": 1.67,
+      "epsEstimate": 1.57,
+      "epsSurprisePct": 6.71,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7329,15 +7331,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "symbol": "AMZN",
-      "group": "CSP",
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "symbol": "NET",
+      "group": "Cloud／Software／AI 應用",
       "reportDate": "2025-10-30",
       "reportDateTime": "2025-10-30T20:00:00+00:00",
-      "epsActual": 1.95,
-      "epsEstimate": 1.56,
-      "epsSurprisePct": 25.2,
+      "epsActual": 0.27,
+      "epsEstimate": 0.23,
+      "epsSurprisePct": 15.36,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7348,15 +7350,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "NET",
-      "name": "Cloudflare",
-      "symbol": "NET",
-      "group": "Cloud／Software／AI 應用",
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "group": "CSP",
       "reportDate": "2025-10-30",
       "reportDateTime": "2025-10-30T20:00:00+00:00",
-      "epsActual": 0.27,
-      "epsEstimate": 0.23,
-      "epsSurprisePct": 15.36,
+      "epsActual": 1.95,
+      "epsEstimate": 1.56,
+      "epsSurprisePct": 25.2,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7386,25 +7388,6 @@
       "sourceCount": 0
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "symbol": "KLAC",
-      "group": "半導體設備／測試",
-      "reportDate": "2025-10-29",
-      "reportDateTime": "2025-10-29T20:00:00+00:00",
-      "epsActual": 0.88,
-      "epsEstimate": 0.86,
-      "epsSurprisePct": 2.24,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
       "ticker": "COHU",
       "name": "Cohu",
       "symbol": "COHU",
@@ -7424,15 +7407,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "TTMI",
-      "name": "TTM Technologies",
-      "symbol": "TTMI",
-      "group": "晶圓代工／封測／EMS",
+      "ticker": "KLAC",
+      "name": "KLA",
+      "symbol": "KLAC",
+      "group": "半導體設備／測試",
       "reportDate": "2025-10-29",
       "reportDateTime": "2025-10-29T20:00:00+00:00",
-      "epsActual": 0.67,
-      "epsEstimate": 0.6,
-      "epsSurprisePct": 11.2,
+      "epsActual": 0.88,
+      "epsEstimate": 0.86,
+      "epsSurprisePct": 2.24,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7462,6 +7445,25 @@
       "sourceCount": 0
     },
     {
+      "ticker": "TTMI",
+      "name": "TTM Technologies",
+      "symbol": "TTMI",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2025-10-29",
+      "reportDateTime": "2025-10-29T20:00:00+00:00",
+      "epsActual": 0.67,
+      "epsEstimate": 0.6,
+      "epsSurprisePct": 11.2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
       "ticker": "WOLF",
       "name": "Wolfspeed",
       "symbol": "WOLF",
@@ -7471,6 +7473,25 @@
       "epsActual": -0.55,
       "epsEstimate": -0.75,
       "epsSurprisePct": 26.67,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": null,
+      "sources": [],
+      "sourceCount": 0
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "symbol": "META",
+      "group": "CSP",
+      "reportDate": "2025-10-29",
+      "reportDateTime": "2025-10-29T20:00:00+00:00",
+      "epsActual": 7.25,
+      "epsEstimate": 6.67,
+      "epsSurprisePct": 8.66,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7509,25 +7530,6 @@
       "epsActual": 2.87,
       "epsEstimate": 2.26,
       "epsSurprisePct": 26.88,
-      "revenueActual": null,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": null,
-      "sources": [],
-      "sourceCount": 0
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "symbol": "META",
-      "group": "CSP",
-      "reportDate": "2025-10-29",
-      "reportDateTime": "2025-10-29T20:00:00+00:00",
-      "epsActual": 1.05,
-      "epsEstimate": 6.71,
-      "epsSurprisePct": -84.34,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7747,15 +7749,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "AMKR",
-      "name": "Amkor",
-      "symbol": "AMKR",
+      "ticker": "CLS",
+      "name": "Celestica",
+      "symbol": "CLS",
       "group": "晶圓代工／封測／EMS",
       "reportDate": "2025-10-27",
       "reportDateTime": "2025-10-27T20:00:00+00:00",
-      "epsActual": 0.51,
-      "epsEstimate": 0.43,
-      "epsSurprisePct": 19.64,
+      "epsActual": 1.58,
+      "epsEstimate": 1.49,
+      "epsSurprisePct": 6.03,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7766,15 +7768,15 @@
       "sourceCount": 0
     },
     {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "symbol": "CLS",
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "symbol": "AMKR",
       "group": "晶圓代工／封測／EMS",
       "reportDate": "2025-10-27",
       "reportDateTime": "2025-10-27T20:00:00+00:00",
-      "epsActual": 1.58,
-      "epsEstimate": 1.49,
-      "epsSurprisePct": 6.03,
+      "epsActual": 0.51,
+      "epsEstimate": 0.43,
+      "epsSurprisePct": 19.64,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -7943,9 +7945,9 @@
       "group": "高速傳輸",
       "reportDate": "2025-10-22",
       "reportDateTime": "2025-10-22T12:00:00+00:00",
-      "epsActual": 0.47,
-      "epsEstimate": 0.4,
-      "epsSurprisePct": 16.49,
+      "epsActual": 0.93,
+      "epsEstimate": 0.8,
+      "epsSurprisePct": 16.48,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -8116,7 +8118,7 @@
       "reportDateTime": "2025-08-11T20:00:00+00:00",
       "epsActual": -0.18,
       "epsEstimate": -0.11,
-      "epsSurprisePct": -63.64,
+      "epsSurprisePct": -70.16,
       "revenueActual": null,
       "revenueEstimate": null,
       "guidance": [],
@@ -8213,16 +8215,16 @@
       "date": "2026-10-22T20:00:00+00:00"
     },
     {
-      "ticker": "AMKR",
-      "name": "Amkor",
-      "symbol": "AMKR",
+      "ticker": "CLS",
+      "name": "Celestica",
+      "symbol": "CLS",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-26T20:00:00+00:00"
     },
     {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "symbol": "CLS",
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "symbol": "AMKR",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-26T20:00:00+00:00"
     },
@@ -8332,6 +8334,13 @@
       "date": "2026-10-28T20:00:00+00:00"
     },
     {
+      "ticker": "META",
+      "name": "Meta",
+      "symbol": "META",
+      "group": "CSP",
+      "date": "2026-10-28T20:00:00+00:00"
+    },
+    {
       "ticker": "MSFT",
       "name": "Microsoft",
       "symbol": "MSFT",
@@ -8342,13 +8351,6 @@
       "ticker": "GOOGL",
       "name": "Alphabet",
       "symbol": "GOOGL",
-      "group": "CSP",
-      "date": "2026-10-28T20:00:00+00:00"
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "symbol": "META",
       "group": "CSP",
       "date": "2026-10-28T20:00:00+00:00"
     },
@@ -8395,17 +8397,17 @@
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "symbol": "AMZN",
-      "group": "CSP",
-      "date": "2026-10-29T20:00:00+00:00"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "symbol": "NET",
       "group": "Cloud／Software／AI 應用",
+      "date": "2026-10-29T20:00:00+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "group": "CSP",
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
@@ -8416,6 +8418,13 @@
       "date": "2026-11-02T12:00:00+00:00"
     },
     {
+      "ticker": "AEHR",
+      "name": "Aehr Test Systems",
+      "symbol": "AEHR",
+      "group": "半導體設備／測試",
+      "date": "2026-11-02T20:00:00+00:00"
+    },
+    {
       "ticker": "FN",
       "name": "Fabrinet",
       "symbol": "FN",
@@ -8423,9 +8432,9 @@
       "date": "2026-11-02T20:00:00+00:00"
     },
     {
-      "ticker": "AEHR",
-      "name": "Aehr Test Systems",
-      "symbol": "AEHR",
+      "ticker": "ICHR",
+      "name": "Ichor Holdings",
+      "symbol": "ICHR",
       "group": "半導體設備／測試",
       "date": "2026-11-02T20:00:00+00:00"
     },
@@ -8434,13 +8443,6 @@
       "name": "Sanmina",
       "symbol": "SANM",
       "group": "晶圓代工／封測／EMS",
-      "date": "2026-11-02T20:00:00+00:00"
-    },
-    {
-      "ticker": "ICHR",
-      "name": "Ichor Holdings",
-      "symbol": "ICHR",
-      "group": "半導體設備／測試",
       "date": "2026-11-02T20:00:00+00:00"
     },
     {
@@ -8605,16 +8607,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "symbol": "LITE",
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics",
+      "symbol": "AAOI",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics",
-      "symbol": "AAOI",
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "symbol": "LITE",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
