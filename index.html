@@ -922,6 +922,17 @@ updateScrollTopBtn();
 document.getElementById('earnSearch')?.addEventListener('input',()=>renderEarnings());
 document.getElementById('clearEarnSearch')?.addEventListener('click',()=>{const e=document.getElementById('earnSearch');if(e)e.value='';renderEarnings();});
 
-setInterval(()=>load().catch(()=>{}),300000);
+async function refreshWhenActive(){
+  if(document.visibilityState!=="visible")return;
+  try{await load();}catch(e){console.error("foreground refresh failed",e);}
+}
+
+window.addEventListener("pageshow",()=>refreshWhenActive());
+window.addEventListener("focus",()=>refreshWhenActive());
+document.addEventListener("visibilitychange",()=>{
+  if(document.visibilityState==="visible")refreshWhenActive();
+});
+
+setInterval(()=>refreshWhenActive(),300000);
 setInterval(()=>{if(document.getElementById("news")?.classList.contains("on"))renderNews();},60000);
 </script></body></html>
