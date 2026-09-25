@@ -334,7 +334,7 @@ def patch_news(src):
     anchor="# Score + deduplicate news."
     if anchor not in src:
         raise RuntimeError("score anchor missing")
-    src=src.replace(anchor,NEWS_HELPERS+"\\n"+anchor,1)
+    src=src.replace(anchor,NEWS_HELPERS+"\n"+anchor,1)
 
     old="# Enrich broker/analyst stories so the detail modal has useful context and\\n# normalize_analyst_title can see exact old/new target values when available.\\nall_news = enrich_analyst_details(all_news)"
     new=old+"\\nall_news = [x for x in all_news if not _v11_false_alphabet_story(x)]\\nall_news = _v11_enrich_context(all_news, direct_limit=26, fallback_limit=10)\\nall_news.extend(_v11_cross_company_event_search())\\nfor x in all_news:\\n    x['relatedTickers']=_v11_related_tickers(x)\\n    x['eventType']=_v11_event_type(x)"
@@ -403,6 +403,8 @@ def patch_config():
     CONFIG.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
 
 def self_test(src):
+    if "\\n# Score + deduplicate news." in src:
+        raise RuntimeError("literal escaped newline leaked into final updater")
     compile(src,"updater.py","exec")
     for token in [
         "payload={'parserVersion':11",
