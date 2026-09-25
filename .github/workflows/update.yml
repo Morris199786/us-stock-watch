@@ -10,7 +10,6 @@ on:
       - "config.json"
       - "requirements.txt"
       - "index.html"
-      - "apply_us_stock_watch_fix.py"
       - ".github/workflows/update.yml"
 
 permissions:
@@ -35,9 +34,6 @@ jobs:
       - name: Show trigger
         run: echo "Triggered by ${{ github.event_name }}"
 
-      - name: Apply validated parser hotfix
-        run: python apply_us_stock_watch_fix.py
-
       - name: Install dependencies
         run: pip install -r requirements.txt
 
@@ -47,7 +43,7 @@ jobs:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
         run: python updater.py
 
-      - name: Commit updated data and permanent parser fix safely
+      - name: Commit updated data and parser fixes safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
