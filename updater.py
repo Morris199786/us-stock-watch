@@ -2950,6 +2950,26 @@ def _tier1_reason(x):
         "lowers target", "lowered target", "boosts target", "boosted target"
     ]
     if is_broker_action_text(blob):
+        # Pushover is intentionally stricter than website inclusion.
+        # Generic media headlines such as "Meta Stock Price Target Increased"
+        # are NOT enough. We need to know which broker made the call.
+        broker = ""
+        full_text = " ".join([
+            x.get("originalTitle") or "",
+            x.get("originalSummary") or "",
+            x.get("title") or "",
+            x.get("summary") or "",
+        ])
+        for name in BROKER_NAMES:
+            pat = r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])"
+            if re.search(pat, full_text, re.I):
+                broker = name
+                break
+
+        if not broker:
+            # Keep the story on the website, but do not disturb Pushover.
+            return False, "", ""
+
         positive = any(k in blob for k in [
             "price target raised","raises price target","raised price target",
             "price target increased","boosts price target","target raised",
@@ -2962,10 +2982,10 @@ def _tier1_reason(x):
             "underperform","underweight","sell rating"
         ])
         if negative and not positive:
-            return True, "券商", "降評／目標價下修"
+            return True, "券商", f"{broker} 降評／目標價下修"
         if positive and not negative:
-            return True, "券商", "升評／目標價上修／初評"
-        return True, "券商", "重大券商評級／目標價變動"
+            return True, "券商", f"{broker} 升評／目標價上修／初評"
+        return True, "券商", f"{broker} 評級／目標價變動"
 
     # --- B. Company guidance / financial outlook ---
     if any(k in blob for k in [
@@ -3056,10 +3076,11 @@ def _push_title(x, category):
     if ticker == "MARKET":
         ticker = "美股市場"
 
-    headline = (x.get("title") or x.get("originalTitle") or "").strip()
-    if category == "券商" and headline:
-        compact = headline.replace(ticker, "").strip(" ｜-—")
-        return f"{ticker}｜{compact}"[:120]
+    if category == "券商":
+        normalized = normalize_analyst_title(x).strip()
+        # Avoid translated nonsense / vague media titles in the notification title.
+        if normalized:
+            return f"{ticker}｜{normalized.replace(ticker, '').strip(' ｜-—')}"[:120]
 
     return f"{ticker}｜{category}"
 
@@ -3068,22 +3089,32 @@ def _push_message(x, reason):
     summary = (x.get("summary") or x.get("originalSummary") or "").strip()
 
     lines = []
-    if title:
+    if x.get("analystPriority"):
+        normalized = normalize_analyst_title(x).strip()
+        if normalized:
+            lines.append(f"事件：{normalized}")
+        elif title:
+            lines.append(f"事件：{title}")
+    elif title:
         lines.append(f"事件：{title}")
 
     if summary:
         clean = re.sub(r"\s+", " ", summary).strip()
-        lines.append(f"重點：{clean[:320]}")
+        # Never send junk/generic translation in broker alerts.
+        if not _is_polluted_text(clean):
+            lines.append(f"重點：{clean[:320]}")
     elif reason:
         lines.append(f"重點：{reason}")
 
     brief = x.get("investorBrief") or {}
+    stance = (brief.get("stance") or "").strip() if isinstance(brief, dict) else ""
     takeaway = (brief.get("takeaway") or "").strip() if isinstance(brief, dict) else ""
-    if takeaway:
+    if stance and "目前來源只確認" not in stance:
+        lines.append(f"券商說法：{stance[:240]}")
+    elif takeaway and "目前來源只確認" not in takeaway:
         lines.append(f"投資意義：{takeaway[:240]}")
 
     return "\n".join(lines)[:900]
-
 
 def _send_pushover(title, message, url=None):
     token = (os.environ.get("PUSHOVER_APP_TOKEN") or "").strip()
@@ -3284,17 +3315,28 @@ def _num_with_unit(s):
 
 def _earnings_news_context(ticker, name, report_date):
     """
-    Cross-source earnings research:
-      - result / estimate comparisons
-      - guidance / outlook
-      - earnings-call / transcript / management comments
-      - after-hours / premarket reaction
+    Earnings research with source discipline.
+
+    Preferred uses:
+      official/IR/SEC  -> actual reported numbers and formal guidance
+      Reuters/Bloomberg -> consensus comparison, market reaction, concise context
+      transcripts -> management commentary and Q&A
+
+    Search results are restricted to the report-date window so Q2/Q4 transcripts
+    cannot leak into a Q3 report.
     """
+    try:
+        rd = datetime.fromisoformat(report_date).date()
+    except Exception:
+        rd = None
+
     queries = [
-        f'("{ticker}" OR "{name}") earnings revenue EPS estimate guidance {report_date} when:21d',
-        f'("{ticker}" OR "{name}") "earnings call" transcript guidance outlook {report_date} when:21d',
-        f'("{ticker}" OR "{name}") earnings after-hours premarket shares {report_date} when:21d',
-        f'("{ticker}" OR "{name}") results outlook forecast revenue EPS {report_date} when:21d',
+        f'("{ticker}" OR "{name}") earnings revenue EPS estimate guidance {report_date}',
+        f'("{ticker}" OR "{name}") "earnings call" transcript guidance outlook {report_date}',
+        f'("{ticker}" OR "{name}") earnings after-hours premarket shares {report_date}',
+        f'("{ticker}" OR "{name}") results outlook forecast consensus {report_date}',
+        f'("{ticker}" OR "{name}") earnings {report_date} site:reuters.com',
+        f'("{ticker}" OR "{name}") earnings {report_date} site:bloomberg.com',
     ]
 
     seen = set()
@@ -3311,12 +3353,20 @@ def _earnings_news_context(ticker, name, report_date):
         except Exception:
             continue
 
-        for item in root.findall('.//item')[:14]:
+        for item in root.findall('.//item')[:18]:
             title = (item.findtext('title') or '').strip()
             link = (item.findtext('link') or '').strip()
             pub = parse_rss_date(item.findtext('pubDate'))
+
             if not target_relevance(title, ticker, name):
                 continue
+
+            # Reject other-quarter articles. For a report on Sep 3, source article
+            # should normally be Sep 2-8, not a Q2/Q4 transcript months away.
+            if rd and pub:
+                pd = pub.astimezone(ZoneInfo("America/New_York")).date()
+                if abs((pd - rd).days) > 5:
+                    continue
 
             key = re.sub(r'\W+', '', title.lower())
             if not key or key in seen:
@@ -3326,63 +3376,85 @@ def _earnings_news_context(ticker, name, report_date):
             body, resolved = _fetch_article_context(link)
             body = (body or '').strip()
             resolved = resolved or link
+            has_body = bool(body and body != title and len(body) >= 120)
 
-            if _is_polluted_text(body) or (resolved and not _is_valid_article_url(resolved) and "news.google." not in resolved):
+            if _is_polluted_text(body) or (
+                resolved and not _is_valid_article_url(resolved)
+                and "news.google." not in resolved
+            ):
                 body = ''
+                has_body = False
                 resolved = link
 
             rows.append({
                 'title': title,
-                'text': body or title,
+                'text': body if has_body else '',
                 'url': resolved,
-                'ts': pub.isoformat() if pub else ''
+                'ts': pub.isoformat() if pub else '',
+                'hasBody': has_body,
             })
 
-    # Rank useful pieces first: transcript/guidance and estimate/reaction stories.
+    def source_rank(a):
+        blob = ((a.get('url') or '') + ' ' + (a.get('title') or '')).lower()
+        if 'reuters' in blob: return 6
+        if 'bloomberg' in blob: return 5
+        if any(k in blob for k in ['investor relations','investors.','sec.gov','earnings release']): return 5
+        if any(k in blob for k in ['earnings call','transcript']): return 4
+        if any(k in blob for k in ['marketwatch','barron','cnbc','investing.com','yahoo']): return 3
+        return 1
+
     def score(a):
         b = (a.get('title','') + ' ' + a.get('text','')).lower()
-        s = 0
-        if any(k in b for k in ['earnings call','transcript','prepared remarks']): s += 5
+        s = source_rank(a)
+        if a.get('hasBody'): s += 4
         if any(k in b for k in ['guidance','outlook','forecast','expects','projects']): s += 4
         if any(k in b for k in ['estimate','consensus','expected','vs.','versus']): s += 3
         if any(k in b for k in ['after-hours','after hours','premarket','pre-market']): s += 2
-        if len(a.get('text','')) > 500: s += 2
         return s
 
     rows.sort(key=lambda a: (score(a), a.get('ts','')), reverse=True)
-    return rows[:12]
+    return rows[:14]
 
 def _extract_estimate(text, metric):
-    t=re.sub(r'\s+',' ',text or '')
-    if metric=='revenue':
-        pats=[
-            r'(?:revenue|sales)[^.$]{0,45}\$([\d,.]+\s*[TBMK]?)[^.$]{0,60}(?:est\.?|estimate|expected|consensus)[^.$]{0,20}\$([\d,.]+\s*[TBMK]?)',
-            r'\$([\d,.]+\s*[TBMK]?)\s+(?:revenue|sales)[^.$]{0,60}(?:vs\.?|versus)[^.$]{0,20}\$([\d,.]+\s*[TBMK]?)'
+    t = re.sub(r'\s+', ' ', text or '')
+    if metric == 'revenue':
+        pats = [
+            r'(?:revenue|sales)\s+(?:of\s+)?\$?([\d,.]+\s*[TBMK]?).{0,90}?(?:estimate|est\.?|consensus|expected|analysts expected|wall street expected)\s+(?:of\s+)?\$?([\d,.]+\s*[TBMK]?)',
+            r'(?:revenue|sales).{0,55}?\$?([\d,.]+\s*[TBMK]?).{0,55}?(?:vs\.?|versus)\s+\$?([\d,.]+\s*[TBMK]?)',
+            r'\$?([\d,.]+\s*[TBMK]?)\s+(?:in\s+)?(?:revenue|sales).{0,80}?(?:estimate|consensus|expected).{0,25}?\$?([\d,.]+\s*[TBMK]?)',
+            r'(?:revenue|sales).{0,80}?(?:beat|above|topped).{0,40}?\$?([\d,.]+\s*[TBMK]?).{0,60}?\$?([\d,.]+\s*[TBMK]?)',
         ]
     else:
-        pats=[
-            r'(?:adjusted\s+)?EPS[^\d$]{0,25}\$?([\d.]+)[^\d$]{0,55}(?:est\.?|estimate|expected|consensus)[^\d$]{0,20}\$?([\d.]+)',
-            r'EPS[^\d$]{0,20}\$?([\d.]+)[^\d$]{0,30}(?:vs\.?|versus)[^\d$]{0,15}\$?([\d.]+)'
+        pats = [
+            r'(?:adjusted\s+)?EPS\s+(?:of\s+)?\$?([\d.]+).{0,80}?(?:estimate|est\.?|consensus|expected|analysts expected)\s+(?:of\s+)?\$?([\d.]+)',
+            r'(?:adjusted\s+)?EPS.{0,35}?\$?([\d.]+).{0,40}?(?:vs\.?|versus)\s+\$?([\d.]+)',
+            r'\$?([\d.]+)\s+(?:adjusted\s+)?EPS.{0,80}?(?:estimate|consensus|expected).{0,20}?\$?([\d.]+)',
         ]
     for p in pats:
-        m=re.search(p,t,re.I)
-        if m:return _num_with_unit(m.group(1)),_num_with_unit(m.group(2))
-    return None,None
+        m = re.search(p, t, re.I)
+        if m:
+            return _num_with_unit(m.group(1)), _num_with_unit(m.group(2))
+    return None, None
 
 def _extract_guidance_rows(text):
     out = []
     sents = _split_sentences(text or '')
-    guide_terms = ['guidance','outlook','forecast','expects','expect','sees','projects','projects to','guided','guides']
+    guide_terms = ['guidance','outlook','forecast','expects','expect','sees','projects','guided','guides']
     metrics = ['revenue','sales','eps','earnings per share','gross margin','operating margin','margin','growth','capex','capital expenditure']
 
     for s in sents:
+        s = re.sub(r'\s+', ' ', s).strip()
         low = s.lower()
+        if len(s) < 35 or len(s) > 420:
+            continue
+        if any(k in low for k in ['earnings call transcript -', 'stock price prediction', 'price target', 'bull case', 'bear case']):
+            continue
+        if low.count('earnings call') > 1 or low.count('transcript') > 1:
+            continue
         if not any(k in low for k in guide_terms):
             continue
         if not any(k in low for k in metrics):
             continue
-
-        # A useful guidance sentence should contain a number/range/percentage.
         if not re.search(r'\$?\d+(?:\.\d+)?(?:\s*(?:-|–|to)\s*\$?\d+(?:\.\d+)?)?\s*(?:%|[TBMK])?', s, re.I):
             continue
 
@@ -3402,15 +3474,13 @@ def _extract_guidance_rows(text):
         elif 'operating margin' in low: metric = 'Operating Margin'
         elif 'capex' in low or 'capital expenditure' in low: metric = 'CapEx'
 
-        row = {
-            'metric': metric,
-            'companyGuide': (zh(s[:520]) or s[:520]),
-            'estimate': est
-        }
-        sig = metric + '|' + row['companyGuide']
-        if not any((z['metric'] + '|' + z['companyGuide']) == sig for z in out):
+        z = zh(s[:420]) or s[:420]
+        if _is_polluted_text(z):
+            continue
+        row = {'metric': metric, 'companyGuide': z, 'estimate': est}
+        if not any(r['metric'] == metric and r['companyGuide'] == z for r in out):
             out.append(row)
-        if len(out) >= 6:
+        if len(out) >= 5:
             break
     return out
 
@@ -3418,18 +3488,34 @@ def _management_bullets(text):
     keys = [
         'ceo','cfo','management','said','expects','expect','demand','backlog','capacity',
         'margin','pricing','customer','ai','data center','cloud','supply','order','guidance',
-        'capex','capital expenditure','shipments','production','bookings','rpo'
+        'capex','capital expenditure','shipments','production','bookings','rpo',
+        'we expect','we see','we believe','we are seeing'
     ]
     picks = []
     for s in _split_sentences(text or ''):
+        s = re.sub(r'\s+', ' ', s).strip()
         low = s.lower()
+        if len(s) < 55 or len(s) > 430:
+            continue
         if _is_polluted_text(s):
             continue
-        if any(k in low for k in keys) and len(s) > 55:
-            z = zh(s[:650]) or s[:650]
-            if z not in picks:
-                picks.append(z)
-        if len(picks) >= 7:
+        if any(k in low for k in [
+            'earnings call transcript -', 'earnings call highlights -',
+            'stock price prediction', 'price target', 'the motley fool',
+            'fortune ', 'globe and mail ', 'marketbeat '
+        ]):
+            continue
+        if low.count('transcript') or low.count('earnings call transcript'):
+            continue
+        # Avoid stitched search-result/title dumps.
+        if s.count(' - ') >= 2 or low.count('earnings call') >= 2:
+            continue
+        if not any(k in low for k in keys):
+            continue
+        z = zh(s[:430]) or s[:430]
+        if z not in picks:
+            picks.append(z)
+        if len(picks) >= 6:
             break
     return picks
 
@@ -3446,8 +3532,10 @@ def _first_reaction(text):
 
 def _extended_reaction_from_prices(symbol, report_dt):
     """
-    Recent-report fallback using Yahoo extended-hours bars.
-    Returns the first observable extended-session move after the earnings time.
+    Recent report fallback using Yahoo extended-hours bars.
+    Use the largest absolute move in the immediate post-release window rather
+    than the very first 5-minute bar, because many releases hit a few minutes
+    after the nominal 16:00 timestamp.
     """
     try:
         now = datetime.now(timezone.utc)
@@ -3461,7 +3549,6 @@ def _extended_reaction_from_prices(symbol, report_dt):
 
         daily = t.history(start=start, end=end, interval="1d", auto_adjust=False)
         intr = t.history(start=start, end=end, interval="5m", prepost=True, auto_adjust=False)
-
         if daily is None or daily.empty or intr is None or intr.empty:
             return None
 
@@ -3473,28 +3560,31 @@ def _extended_reaction_from_prices(symbol, report_dt):
             if not bases:
                 bases = [p for d,p in drows if d < et.date()]
             base = bases[-1] if bases else None
+            window_end = et + timedelta(hours=3)
         else:
             bases = [p for d,p in drows if d < et.date()]
             base = bases[-1] if bases else None
+            window_end = min(et + timedelta(hours=6), et.replace(hour=9, minute=30, second=0, microsecond=0))
 
         if not base:
             return None
 
-        candidates = []
+        moves = []
         for ix, row in intr.iterrows():
             try:
                 ix_et = ix.tz_convert("America/New_York") if getattr(ix, "tzinfo", None) else ix.tz_localize("UTC").tz_convert("America/New_York")
+                dtx = ix_et.to_pydatetime()
             except Exception:
                 continue
             p = safe_float(row.get('Close'))
             if p in (None, 0):
                 continue
-            if ix_et.to_pydatetime() >= et and ix_et.to_pydatetime() <= et + timedelta(hours=8):
-                candidates.append(p)
+            if et <= dtx <= window_end:
+                moves.append((p / base - 1) * 100)
 
-        if not candidates:
+        if not moves:
             return None
-        return (candidates[0] / base - 1) * 100
+        return max(moves, key=lambda v: abs(v))
     except Exception:
         return None
 
@@ -3628,8 +3718,16 @@ def refresh_earnings_data(targets):
             'sources':prior.get('sources') or [],'sourceCount':prior.get('sourceCount',0)
         }
         if key in enrich_keys:
+            # Do not keep low-quality enrichment from prior parser versions.
+            item['guidance'] = []
+            item['management'] = []
+            item['sources'] = []
+            item['sourceCount'] = 0
+            item['firstReactionPct'] = None
+
             arts=_earnings_news_context(c['ticker'],c['name'],rdate)
             joined=' '.join((a.get('title','')+' '+a.get('text','')) for a in arts)
+            body_joined=' '.join(a.get('text','') for a in arts if a.get('hasBody') and a.get('text'))
             rev_act,rev_est=_extract_estimate(joined,'revenue')
             eps_act2,eps_est2=_extract_estimate(joined,'eps')
             try:t=yf.Ticker(c['symbol'])
@@ -3639,9 +3737,9 @@ def refresh_earnings_data(targets):
             if rev_est is not None:item['revenueEstimate']=rev_est
             if item['epsActual'] is None and eps_act2 is not None:item['epsActual']=eps_act2
             if item['epsEstimate'] is None and eps_est2 is not None:item['epsEstimate']=eps_est2
-            gs=_extract_guidance_rows(joined)
+            gs=_extract_guidance_rows(body_joined or joined)
             if gs:item['guidance']=gs
-            mb=_management_bullets(joined)
+            mb=_management_bullets(body_joined)
             if mb:item['management']=mb
             fr=_first_reaction(joined)
             if fr is None:
