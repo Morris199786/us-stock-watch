@@ -744,11 +744,21 @@ function openNewsDetail(x){
      ${analystDetails.length?`<div class="newsbriefRow">
        <div class="newsbriefLabel">券商調整明細</div>
        <div class="newsbriefText">${analystDetails.map(d=>{
-         const target=d.oldTarget&&d.newTarget?`${escapeHtml(d.oldTarget)} → ${escapeHtml(d.newTarget)}`:(d.newTarget?escapeHtml(d.newTarget):"");
-         const head=[escapeHtml(d.broker||""),escapeHtml(d.rating||""),target].filter(Boolean).join("｜");
+         const company=(d.targetCompany||"").trim();
+         const ticker=(d.targetTicker||x.ticker||"").trim();
+         const targetName=company?(ticker?`${escapeHtml(company)}（${escapeHtml(ticker)}）`:escapeHtml(company)):escapeHtml(ticker);
+         const target=d.oldTarget&&d.newTarget?`${escapeHtml(d.newTarget)}（原 ${escapeHtml(d.oldTarget)}）`:(d.newTarget?escapeHtml(d.newTarget):"未提供");
+         const broker=escapeHtml(d.broker||"未辨識");
+         const action=escapeHtml(d.action||"未提供");
+         const rating=escapeHtml(d.rating||"未提供");
          const who=d.analyst?`<br>分析師：${escapeHtml(d.analyst)}`:"";
-         const why=d.reason?`<br><span style="color:#cbd8e6">${escapeHtml(d.reason)}</span>`:"";
-         return `<div style="padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)"><b>${head}</b>${who}${why}</div>`;
+         const reason=escapeHtml((d.reason||"").trim()||"來源未提供具體理由");
+         return `<div style="padding:9px 0;border-bottom:1px solid rgba(255,255,255,.08)">
+           <b>被評級公司：${targetName}</b><br>
+           券商：${broker}｜動作：${action}｜評等：${rating}<br>
+           目標價：${target}<br>
+           <span style="color:#cbd8e6">調整原因：${reason}</span>${who}
+         </div>`;
        }).join("")}</div>
      </div>`:""}
      <div class="newsbriefRow">
@@ -760,7 +770,7 @@ function openNewsDetail(x){
        <div class="newsbriefNums">${nums.map(v=>`<span class="newsbriefNum">${escapeHtml(v)}</span>`).join("")}</div>
      </div>`:""}
      <div class="newsbriefRow">
-       <div class="newsbriefLabel">為什麼重要</div>
+       <div class="newsbriefLabel">${x.analystPriority?"為什麼調整":"為什麼重要"}</div>
        <div class="newsbriefText">${escapeHtml(why)}</div>
      </div>
      ${stance?`<div class="newsbriefRow">
