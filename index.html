@@ -821,7 +821,7 @@ function renderNews(){
  if(window.__top10Mode && !q){
    items=all.filter(x=>x.top10===true).sort((a,b)=>(a.top10Rank||99)-(b.top10Rank||99)).slice(0,10);
  }else if(!q){
-   items=all.filter(x=>x.featured!==false).slice(0,18);
+   items=all.filter(x=>x.featured!==false).sort((a,b)=>String(b.ts||"").localeCompare(String(a.ts||""))).slice(0,18);
  }else{
    // Ticker 搜尋會合併即時新聞 + 獨立 30 天歷史資料庫
    const history=window.__historyItems||[];
@@ -837,11 +837,7 @@ function renderNews(){
      const k=((x.originalTitle||x.title||"")+"").toLowerCase().replace(/\W+/g,"");
      if(!k||seen.has(k))return false;
      seen.add(k);return true;
-   }).sort((a,b)=>{
-     const ap=(a.analystPriority?1:0), bp=(b.analystPriority?1:0);
-     if(bp!==ap) return bp-ap;
-     return String(b.ts||"").localeCompare(String(a.ts||""));
-   });
+   }).sort((a,b)=>String(b.ts||"").localeCompare(String(a.ts||"")));
  }
 
  ng.innerHTML="";
