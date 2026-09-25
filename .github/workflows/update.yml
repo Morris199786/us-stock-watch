@@ -25,7 +25,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - uses: actions/checkout@v4
@@ -49,7 +49,7 @@ jobs:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
         run: python updater.py
 
-      - name: Commit generated fast data only
+      - name: Commit generated data and installed parser safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -57,6 +57,9 @@ jobs:
           cp data.json /tmp/data.json
           cp news.json /tmp/news.json
           cp congress.json /tmp/congress.json
+          cp updater.py /tmp/updater.py
+          cp index.html /tmp/index.html
+          cp config.json /tmp/config.json
 
           if [ -f macro.json ]; then
             cp macro.json /tmp/macro.json
@@ -72,6 +75,9 @@ jobs:
           cp /tmp/data.json data.json
           cp /tmp/news.json news.json
           cp /tmp/congress.json congress.json
+          cp /tmp/updater.py updater.py
+          cp /tmp/index.html index.html
+          cp /tmp/config.json config.json
 
           if [ -f /tmp/macro.json ]; then
             cp /tmp/macro.json macro.json
@@ -81,7 +87,7 @@ jobs:
             cp /tmp/push_state.json push_state.json
           fi
 
-          git add data.json news.json congress.json
+          git add data.json news.json congress.json updater.py index.html config.json
 
           if [ -f macro.json ]; then
             git add macro.json
@@ -92,6 +98,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto update market data"
+            git commit -m "Install news parser v11 and update market data"
             git push origin main
           fi
