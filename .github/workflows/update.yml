@@ -10,6 +10,7 @@ on:
       - "config.json"
       - "requirements.txt"
       - "index.html"
+      - "apply_us_stock_watch_fix.py"
       - ".github/workflows/update.yml"
 
 permissions:
@@ -34,6 +35,9 @@ jobs:
       - name: Show trigger
         run: echo "Triggered by ${{ github.event_name }}"
 
+      - name: Apply validated parser hotfix
+        run: python apply_us_stock_watch_fix.py
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
@@ -43,7 +47,7 @@ jobs:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
         run: python updater.py
 
-      - name: Commit updated data safely
+      - name: Commit updated data and permanent parser fix safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -51,6 +55,9 @@ jobs:
           cp data.json /tmp/data.json
           cp news.json /tmp/news.json
           cp congress.json /tmp/congress.json
+          cp updater.py /tmp/updater.py
+          cp index.html /tmp/index.html
+          cp config.json /tmp/config.json
 
           if [ -f earnings.json ]; then
             cp earnings.json /tmp/earnings.json
@@ -70,6 +77,9 @@ jobs:
           cp /tmp/data.json data.json
           cp /tmp/news.json news.json
           cp /tmp/congress.json congress.json
+          cp /tmp/updater.py updater.py
+          cp /tmp/index.html index.html
+          cp /tmp/config.json config.json
 
           if [ -f /tmp/earnings.json ]; then
             cp /tmp/earnings.json earnings.json
@@ -83,7 +93,7 @@ jobs:
             cp /tmp/push_state.json push_state.json
           fi
 
-          git add data.json news.json congress.json
+          git add data.json news.json congress.json updater.py index.html config.json
 
           if [ -f earnings.json ]; then
             git add earnings.json
@@ -98,6 +108,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto update market data"
+            git commit -m "Fix earnings parser and analyst matching"
             git push origin main
           fi
