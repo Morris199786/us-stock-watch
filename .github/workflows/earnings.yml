@@ -39,67 +39,27 @@ jobs:
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
         run: python updater.py
 
-      - name: Commit earnings and generated data safely
+      - name: Commit earnings and v7 parser safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          cp data.json /tmp/data.json
-          cp news.json /tmp/news.json
-          cp congress.json /tmp/congress.json
+          cp earnings.json /tmp/earnings.json
           cp updater.py /tmp/updater.py
           cp config.json /tmp/config.json
           cp index.html /tmp/index.html
 
-          if [ -f earnings.json ]; then
-            cp earnings.json /tmp/earnings.json
-          fi
-
-          if [ -f macro.json ]; then
-            cp macro.json /tmp/macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            cp push_state.json /tmp/push_state.json
-          fi
-
           git fetch origin main
           git reset --hard origin/main
 
-          cp /tmp/data.json data.json
-          cp /tmp/news.json news.json
-          cp /tmp/congress.json congress.json
+          cp /tmp/earnings.json earnings.json
           cp /tmp/updater.py updater.py
           cp /tmp/config.json config.json
           cp /tmp/index.html index.html
 
-          if [ -f /tmp/earnings.json ]; then
-            cp /tmp/earnings.json earnings.json
-          fi
-
-          if [ -f /tmp/macro.json ]; then
-            cp /tmp/macro.json macro.json
-          fi
-
-          if [ -f /tmp/push_state.json ]; then
-            cp /tmp/push_state.json push_state.json
-          fi
-
-          git add data.json news.json congress.json updater.py config.json index.html
-
-          if [ -f earnings.json ]; then
-            git add earnings.json
-          fi
-
-          if [ -f macro.json ]; then
-            git add macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            git add push_state.json
-          fi
+          git add earnings.json updater.py config.json index.html
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update latest earnings"
+            git commit -m "Install earnings parser v7 and update latest earnings"
             git push origin main
           fi
