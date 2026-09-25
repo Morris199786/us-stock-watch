@@ -242,6 +242,44 @@ except Exception:
     old_history_last_attempt = ""
 
 
+# URL/content guards must be defined before cached-news cleanup runs.
+BAD_ARTICLE_HOSTS = {
+    "www.w3.org", "w3.org", "schema.org", "www.schema.org",
+    "fonts.googleapis.com", "fonts.gstatic.com", "www.google-analytics.com",
+    "google-analytics.com", "googletagmanager.com", "www.googletagmanager.com",
+}
+BAD_ARTICLE_PATH_BITS = (
+    "/2000/svg", "/svg", ".svg", ".png", ".jpg", ".jpeg", ".webp", ".gif",
+    ".css", ".js", ".woff", ".woff2", ".ico", "/favicon"
+)
+
+def _is_valid_article_url(url):
+    try:
+        p = urllib.parse.urlparse(url or "")
+        host = (p.hostname or "").lower()
+        path = (p.path or "").lower()
+        if p.scheme not in ("http", "https") or not host:
+            return False
+        if host in BAD_ARTICLE_HOSTS:
+            return False
+        if any(bit in path for bit in BAD_ARTICLE_PATH_BITS):
+            return False
+        return True
+    except Exception:
+        return False
+
+def _is_polluted_text(text):
+    low = (text or "").lower()
+    bad = [
+        "http://www.w3.org/2000/svg",
+        "https://www.w3.org/2000/svg",
+        "svg is an xml namespace",
+        "svg namespace is mutable",
+        "scalable vector graphics (svg)",
+        "namespaces in xml specification",
+    ]
+    return any(x in low for x in bad)
+
 # Drop cached bad resolver results from older builds so they do not keep
 # re-entering the 30-day history / translation cache.
 def _clean_cached_news(items):
