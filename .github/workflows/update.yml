@@ -37,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Update market, news, congress, and Tier 1 pushes
+      - name: Update market, news, earnings, congress, and Tier 1 pushes
         env:
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
@@ -51,10 +51,8 @@ jobs:
           cp data.json /tmp/data.json
           cp news.json /tmp/news.json
           cp congress.json /tmp/congress.json
-
-          if [ -f push_state.json ]; then
-            cp push_state.json /tmp/push_state.json
-          fi
+          if [ -f earnings.json ]; then cp earnings.json /tmp/earnings.json; fi
+          if [ -f push_state.json ]; then cp push_state.json /tmp/push_state.json; fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -62,16 +60,12 @@ jobs:
           cp /tmp/data.json data.json
           cp /tmp/news.json news.json
           cp /tmp/congress.json congress.json
-
-          if [ -f /tmp/push_state.json ]; then
-            cp /tmp/push_state.json push_state.json
-          fi
+          if [ -f /tmp/earnings.json ]; then cp /tmp/earnings.json earnings.json; fi
+          if [ -f /tmp/push_state.json ]; then cp /tmp/push_state.json push_state.json; fi
 
           git add data.json news.json congress.json
-
-          if [ -f push_state.json ]; then
-            git add push_state.json
-          fi
+          if [ -f earnings.json ]; then git add earnings.json; fi
+          if [ -f push_state.json ]; then git add push_state.json; fi
 
           if ! git diff --cached --quiet; then
             git commit -m "Auto update market data"
