@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25 20:46 台灣時間",
+  "updatedAt": "2026-09-25 20:49 台灣時間",
   "historyUpdatedDate": "2026-09-25",
   "historyLastAttemptAt": "2026-09-24T16:02:01.597601+00:00",
   "historyItemCount": 798,
@@ -1107,6 +1107,51 @@
       "top10Rank": null
     },
     {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "TD Cowen 維持英特爾持有評級，並密切關注其代工業務的進展！",
+      "summary": "",
+      "originalTitle": "TD Cowen Maintains Intel's Hold Rating And Is Keeping An Eye On Progress In Its Foundry Business!",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONS1MNm9SaFVweVByT3BoV1RWeEdXLU8zS0NLMExJcnFGQ21Ra2ZVUGpVR0ZTeVluMjdueGNWa2NUamJEU3dZZ3RkWTdnYTJMcFFwS3BJRnd0TFVJTXloNXFGeE1YRm5KVmpwZDc0enhrSFZJWEhMaUx2aEhxM1VRdklZOGM?oc=5",
+      "ts": "2026-09-25T05:09:39+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "TD Cowen",
+          "analyst": "",
+          "rating": "Hold",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "TD Cowen 維持英特爾持有評級，並密切關注其代工業務的進展！",
+          "reasonConfidence": "medium",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 174.2,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：TD Cowen｜動作：重申｜評等：Hold｜調整原因：TD Cowen 維持英特爾持有評級，並密切關注其代工業務的進展！",
+        "numbers": [],
+        "why": "調整原因：TD Cowen 維持英特爾持有評級，並密切關注其代工業務的進展！",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：TD Cowen 維持英特爾持有評級，並密切關注其代工業務的進展！",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CIEN",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -1210,6 +1255,45 @@
       "eventType": "",
       "hasArticleBody": false,
       "analystDetails": []
+    },
+    {
+      "ticker": "NBIS",
+      "group": "NeoCloud／AI 算力",
+      "tag": "利多",
+      "title": "JPMorgan 初評 NBIS 至 Neutral",
+      "summary": "Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
+      "originalTitle": "CoreWeave and Nebius Score Upgrades",
+      "originalSummary": "CoreWeave ( CRWV ) was in the spotlight on Thursday as J.P. Morgan upgraded the neocloud firm to Overweight from Neutral, citing its “favorable” contracts that should boost revenue growth.",
+      "url": "https://seekingalpha.com/news/4646572-coreweave-in-spotlight-as-jp-morgan-upgrades-citing-favorable-contracts",
+      "ts": "2026-09-24T18:47:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 7.444508185869991,
+      "analystDetails": [],
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NBIS",
+        "CRWV"
+      ],
+      "eventType": "跨公司事件",
+      "score": 165.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
+        "numbers": [],
+        "why": "券商調整理由：Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
+        "stance": "Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "券商調整理由：Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMD",
@@ -1325,41 +1409,6 @@
       "eventType": "",
       "hasArticleBody": false,
       "analystDetails": []
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "利多",
-      "title": "JPMorgan 初評 NBIS 至 Neutral",
-      "summary": "Nebius 和 CoreWeave 獲得升級，因為華爾街認為強勁的人工智慧需求正在支持有利的合約定價。",
-      "originalTitle": "CoreWeave and Nebius Score Upgrades",
-      "originalSummary": "",
-      "url": "https://www.barrons.com/articles/coreweave-nebius-stock-price-ai-neocloud-7ac06efb?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-09-24T18:47:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 7.444508185869991,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NBIS",
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 159.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "CRWV",
@@ -2452,40 +2501,6 @@
       ],
       "eventType": "",
       "hasArticleBody": false
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "資深分析師重設 Meta 2027 年股價目標",
-      "summary": "AI 代理開啟 1 兆美元市場，Cantor 將 Meta 股價目標上調 26%",
-      "originalTitle": "Veteran Analyst Resets Meta Stock Price Target For 2027",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/veteran-analyst-resets-meta-stock-124558772.html",
-      "ts": "2026-09-24T12:45:58+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 1.0188774021002045,
-      "score": 145.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "relatedTickers": [
-        "META"
-      ],
-      "eventType": "",
-      "hasArticleBody": false,
-      "analystDetails": []
     },
     {
       "ticker": "MU",
@@ -7067,7 +7082,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Microchip Technology 完成對 Hailo 的收購",
-      "summary": "將 AI 加速度此次收购推进了 Microc",
+      "summary": "將 AI 加速度此次收購推進了 Microc",
       "originalTitle": "Microchip Technology Completes Acquisition of Hailo",
       "originalSummary": "Adds AI accelerators and vision processors to existing product portfolioCHANDLER, Ariz., Sept. 21, 2026 (GLOBE NEWSWIRE) -- Microchip Technology Incorporated (Nasdaq: MCHP), a broadline supplier of semiconductors committed to making innovative design easier through total system solutions, today announced that it has completed its acquisition of Hailo, a provider of accelerated edge AI processors, vision processors, robotics processors and AI software technologies. The acquisition advances Microc",
       "url": "https://finance.yahoo.com/technology/ai/articles/microchip-technology-completes-acquisition-hailo-130000257.html",
@@ -7082,10 +7097,10 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "將 AI 加速度此次收购推进了 Microc",
+        "event": "將 AI 加速度此次收購推進了 Microc",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "將 AI 加速度此次收购推进了 Microc",
+        "stance": "將 AI 加速度此次收購推進了 Microc",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -8006,10 +8021,10 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "更好的人工智慧股票：Aehr Test Systems 與 KLA Corporation",
-      "summary": "",
+      "summary": "在利基設備提供商和多元化行業巨頭之間進行選擇需要平衡高成長潛力與既定的穩定性。以下是投資者對 Aehr Test Systems（納斯達克股票代碼：AEHR）和 KLA（納斯達克股票代碼：KLAC）的比較。 Aehr Test Systems 專注於功率半導體和記憶體的特定壓力測試解決方案，而 KLA 則提供在整個晶片製造業中使用的廣泛製程控制工具。雖然它們都在同一行業中運營，但它們的規模和風險狀況差異很大，這使得它們對不同類型的投資組合具有吸引力。",
       "originalTitle": "Better Artificial Intelligence Stock: Aehr Test Systems vs. KLA Corporation",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcG9zNm5takkzVmlwVG1KemN1WUtfcUR1SFFnNW03Y2hZazlYY1U1SURJeEl1aUlFcGcxcTg4RjdGek9vX2JqNnJZakQxT0NLbFFZZFdwY2NBeUhHQTBSbU5HbVIya3c2LWVOYksxYWJIRk9xWjZrQW03Qm1iSHlSTzBMaHZfUU9SZ1ZTcDNzaDMtWGo3LXZFdEVXck5KX1d0SW9BNlR4YjZ4bFpNeWZJdks4WFBaT0sydlhLUE9nY2w5Sm5T?oc=5",
+      "originalSummary": "Choosing between a niche equipment provider and a diversified industry titan requires balancing high growth potential against established stability. Here is how Aehr Test Systems (NASDAQ:AEHR) and KLA (NASDAQ:KLAC) compare for investors. Aehr Test Systems focuses on specific stress-testing solutions for power semiconductors and memory, while KLA provides broad process control tools used across the entire chip-making industry . While they both operate in the same sector, their scale and risk profiles differ significantly, making them attractive to different types of portfolios.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/better-artificial-intelligence-stock-aehr-162316240.html",
       "ts": "2026-09-19T17:03:00+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
@@ -8022,15 +8037,18 @@
       ],
       "eventType": "跨公司事件",
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "在利基設備提供商和多元化行業巨頭之間進行選擇需要平衡高成長潛力與既定的穩定性。以下是投資者對 Aehr Test Systems（納斯達克股票代碼：AEHR）和 KLA（納斯達克股票代碼：KLAC）的比較。 Aehr Test Systems 專注於功率半導體和記憶體的特定壓力測試解決方案，而 KLA 則提供在整個晶片製造業中使用的廣泛製程控制工具。雖然它們都在同一行業中運營，但它們的規模和風險狀況差異很大，這使得它們對不同類型的投資組合具有吸引力。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "在利基設備提供商和多元化行業巨頭之間進行選擇需要平衡高成長潛力與既定的穩定性。以下是投資者對 Aehr Test Systems（納斯達克股票代碼：AEHR）和 KLA（納斯達克股票代碼：KLAC）的比較。 Aehr Test Systems 專注於功率半導體和記憶體的特定壓力測試解決方案，而 KLA 則提供在整個晶片製造業中使用的廣泛製程控制工具。雖然它們都在同一行業中運營，但它們的規模和風險狀況差異很大，這使得它們對不同類型的投資組合具有吸引力。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
       },
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AEHR",
@@ -8274,10 +8292,10 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 透過 Synspective 發射繼續保持 Electron 的高節奏",
-      "summary": "",
+      "summary": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
       "originalTitle": "Rocket Lab continues high Electron cadence with Synspective launch",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd1lwNjNScjJDUXdtdzhNc3JRbi11NWpxVEE1M3lrYl8yWFowZHZCT01TNWs2NU9FS3E1bVRwU1FkMDJLNGd2M3o0TTZjQV9qaHJUWk5mcjdqYlhPVlZ3RjNmVUpuMzBZWElva1h2aTEwSXdqTzI3X0otd3NqVTRScm9JQmcyYTB4OVEzSzc1SUZZWGM?oc=5",
+      "originalSummary": "PARIS — Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on Sept. 18 on the fifth flight of its Electron rocket in a month and a half.",
+      "url": "https://spacenews.com/rocket-lab-continues-high-electron-cadence-with-synspective-launch/",
       "ts": "2026-09-19T09:47:52+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
@@ -8289,15 +8307,18 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "KLAC",
@@ -8478,10 +8499,10 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "抗議者在關閉的甘迺迪中心周圍形成人鏈",
-      "summary": "",
+      "summary": "週五，數千名抗議者在華盛頓約翰·F·肯尼迪表演藝術中心外舉行集會，並在該建築群的部分區域周圍形成人鏈，抗議唐納德·特朗普總統威脅要關閉並可能拆除這一地標性場館。在川普威脅稱，如果他的政府對該設施的貢獻不得到認可，他將「拆毀」甘迺迪中心，「放手藝術」組織了一場抗議活動。一名聯邦法官命令該中心在進行重大的物理改造（包括拆除）之前提前 30 天通知。",
       "originalTitle": "Protesters form human chain around shuttered Kennedy Center",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOLW1iQVlZWjZQVXMxWWMtNXVHMHNycGU2M29kcGpzNjgyaVp0SjZRRzZfRmxMM182MUpTbVlfOFBSRDB5V2lkNGFuMVpTUFh6SUoycmV0akVjcmNVY09HRkU2aWIyTWlfVU5pbWZNS05YM1lERVFIaFE0d3VHSml1UU14ODljRXMtcTZscF80ZWs5ZnkwcEE2Y0kyNTVtb2ZiSnFlZDdZX3J1N0cwN3fSAbYBQVVfeXFMUHRyaVJIaUd5Sjh4WkdleDZGcmxzTGlZbmtvUGd0Q0NEOE83VUNLTDFCV3JBSWx0US1JY0FIWHhYR2dpTFFPS2xhaEF6bExBZTcxRHNoMm5QNXpKYzJuZnNxQTk3OXNLTnhZbDd0NW5Ec1JweWsxeUd3MGNRY3RhTV9UWlQzbURrMW9mQzdMbS10U0lZS2tnNjJOeG9MeUlQeU9yekpidlJUdm9HRjlkS2hPNzZjdEE?oc=5",
+      "originalSummary": "Thousands of protesters held a rally outside the John F. Kennedy Centre for the Performing Arts in Washington on Friday and formed a human chain around parts of the complex to protest President Donald Trump’s threats to close and possibly demolish the landmark venue. Hands Off the Arts organized a protest after Trump threatened to have the Kennedy Centre “ripped down” if his administration was not recognized for its contribution to the facility. A federal judge has ordered the centre to give 30 days’ notice before making major physical changes, including demolition. Trump has also tried to get his name on the building, but a judge ruled the centre cannot be renamed without congressional approval. The Trump-aligned board voted this week to shutter the venue indefinitely for repairs. Chris Raleigh, co-founder of Hands Off the Arts, said the protest was intended to show that people were willing to oppose Trump’s plans. “This may be the line that no one expected, but this is where the line is going to be,” he said, according to The Associated Press. The United States has acknowledged publicly for the first time that it has put... A difficult mediation case showed how family conflict can be shaped by trauma, emotional... Saudi Arabia is offering more crude oil to Asian refiners through ship-to-ship transfers off... The future does not arrive overnight. It begins with one curious student, one bold... The caravans are gone, but Leh remains a crossroads where cultures, cuisines, languages and... A decline in registered cases raises questions about stigma, access to justice and the...",
+      "url": "https://freepresskashmir.news/2026/09/19/protesters-form-human-chain-around-kennedy-center-after-trump-demolition-threat/",
       "ts": "2026-09-19T03:06:19+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
@@ -8493,15 +8514,19 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "週五，數千名抗議者在華盛頓約翰·F·肯尼迪表演藝術中心外舉行集會，並在該建築群的部分區域周圍形成人鏈，抗議唐納德·特朗普總統威脅要關閉並可能拆除這一地標性場館。在川普威脅稱，如果他的政府對該設施的貢獻不得到認可，他將「拆毀」甘迺迪中心，「放手藝術」組織了一場抗議活動。一名聯邦法官命令該中心在進行重大的物理改造（包括拆除）之前提前 30 天通知。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "週五，數千名抗議者在華盛頓約翰·F·肯尼迪表演藝術中心外舉行集會，並在該建築群的部分區域周圍形成人鏈，抗議唐納德·特朗普總統威脅要關閉並可能拆除這一地標性場館。在川普威脅稱，如果他的政府對該設施的貢獻不得到認可，他將「拆毀」甘迺迪中心，「放手藝術」組織了一場抗議活動。一名聯邦法官命令該中心在進行重大的物理改造（包括拆除）之前提前 30 天通知。",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
       },
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "FORM",
