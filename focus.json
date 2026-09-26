@@ -1,0 +1,463 @@
+{
+  "updatedAt": "2026-09-26 09:12 台灣時間",
+  "schedule": {
+    "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
+    "post": "台灣 08:00"
+  },
+  "priority": [
+    "1 券商升降評／目標價大改",
+    "2 財報／財測",
+    "3 大訂單／新客戶／合作",
+    "4 公司明確展望變化",
+    "5 新產品／政府標案／監管",
+    "6 明顯異動＋公司催化",
+    "7 超大異動但催化待確認"
+  ],
+  "sessions": [
+    {
+      "key": "2026-09-25:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-09-25",
+      "generatedAt": "2026-09-26 09:12 台灣時間",
+      "generatedAtIso": "2026-09-26T01:12:43.876852+00:00",
+      "items": [
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "group": "CPU 概念股",
+          "priority": 1,
+          "category": "券商調整",
+          "headline": "美國銀行剛剛上調了 AMD 股票的目標價格",
+          "highlights": [
+            "美國銀行剛剛上調了 AMD 股票的目標價格",
+            "微軟、Meta、Akamai、Zscaler、康卡斯特以及更多解釋當今市場的股票",
+            "Nvidia、AMD 喜歡這個高科技促進者。華爾街也是如此。"
+          ],
+          "reason": "券商調整理由：BofA said it expects the server CPU market to expand from $61 billion in 2026 to $211 billion by 2030. The firm also raised its AMD estimates for calendar 2027 and 2028 by 2% and 3%, respectively.",
+          "judgement": "券商調整理由：BofA said it expects the server CPU market to expand from $61 billion in 2026 to $211 billion by 2030. The firm also raised its AMD estimates for calendar 2027 and 2028 by 2% and 3%, respectively.",
+          "moveLabel": "收盤",
+          "movePct": 0.21771604742077955,
+          "movePrice": 630.63,
+          "regularChangePct": 0.21771604742077955,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.05708577137149007,
+          "sources": [
+            {
+              "title": "美國銀行剛剛上調了 AMD 股票的目標價格",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-gets-price-target-124417243.html"
+            },
+            {
+              "title": "微軟、Meta、Akamai、Zscaler、康卡斯特以及更多解釋當今市場的股票",
+              "url": "https://www.barrons.com/articles/stock-movers-4d9aad60?siteid=yhoof2&yptr=yahoo"
+            },
+            {
+              "title": "Nvidia、AMD 喜歡這個高科技促進者。華爾街也是如此。",
+              "url": "https://www.investors.com/research/ibd-stock-analysis/ase-technology-rides-ai-boom-alongside-amd-apple-nvidia-tsmc/?src=A00220&yptr=yahoo"
+            }
+          ],
+          "score": 929.9
+        },
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "group": "EV／AI／機器人",
+          "priority": 1,
+          "category": "券商調整",
+          "headline": "9 月 25 日今日股市：儘管計劃提高半卡車產量，但特斯拉股價仍面臨壓力",
+          "highlights": [
+            "9 月 25 日今日股市：儘管計劃提高半卡車產量，但特斯拉股價仍面臨壓力",
+            "特斯拉 (TSLA)、福特 (F) 和通用汽车 (GM) 面临电动汽车市场疲软的局面。誰能保護利潤？"
+          ],
+          "reason": "來源不足，等待可驗證內文。",
+          "judgement": "券商觀點出現明確變化，重點看目標價／評級調整背後的基本面理由，以及後續是否有其他大型券商跟進",
+          "moveLabel": "收盤",
+          "movePct": -1.542572895168537,
+          "movePrice": 372.11,
+          "regularChangePct": -1.542572895168537,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.1289941146435103,
+          "sources": [
+            {
+              "title": "9 月 25 日今日股市：儘管計劃提高半卡車產量，但特斯拉股價仍面臨壓力",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-211738071.html"
+            },
+            {
+              "title": "特斯拉 (TSLA)、福特 (F) 和通用汽车 (GM) 面临电动汽车市场疲软的局面。誰能保護利潤？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-ford-f-gm-234737136.html"
+            }
+          ],
+          "score": 928.38
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "group": "NeoCloud／AI 算力",
+          "priority": 1,
+          "category": "券商調整",
+          "headline": "隨著行業拋售和不同觀點測試其人工智慧建設，IREN (IREN) 便宜嗎？",
+          "highlights": [
+            "隨著行業拋售和不同觀點測試其人工智慧建設，IREN (IREN) 便宜嗎？"
+          ],
+          "reason": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+          "judgement": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+          "moveLabel": "收盤",
+          "movePct": -2.525874815179885,
+          "movePrice": 237.33,
+          "regularChangePct": -2.525874815179885,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.37500526692790803,
+          "sources": [
+            {
+              "title": "隨著行業拋售和不同觀點測試其人工智慧建設，IREN (IREN) 便宜嗎？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-cheap-sector-selling-201202280.html"
+            }
+          ],
+          "score": 917.64
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "group": "太空／國防／無人系統",
+          "priority": 2,
+          "category": "財報／財測",
+          "headline": "SpaceX 為「里程碑」星艦 14 號航班做準備；美國太空總署更新國際太空站任務時間",
+          "highlights": [
+            "SpaceX 為「里程碑」星艦 14 號航班做準備；美國太空總署更新國際太空站任務時間",
+            "SpaceX (SPCX) 從 NASA 獲得了 9.46 億美元的額外收入。太空站之後會發生什麼事？"
+          ],
+          "reason": "來源不足，等待可驗證內文。",
+          "judgement": "核心在財報與財測是否改變未來營收、EPS、毛利率或需求預期，而不是只看單日股價反應",
+          "moveLabel": "收盤",
+          "movePct": 0.43910018239545767,
+          "movePrice": 148.68,
+          "regularChangePct": 0.43910018239545767,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.06725854183480262,
+          "sources": [
+            {
+              "title": "SpaceX 為「里程碑」星艦 14 號航班做準備；美國太空總署更新國際太空站任務時間",
+              "url": "https://www.investors.com/news/spacex-stock-starship-flight-14-launch-plans-elon-musk-nasa-update-spcx-stock/?src=A00220&yptr=yahoo"
+            },
+            {
+              "title": "SpaceX (SPCX) 從 NASA 獲得了 9.46 億美元的額外收入。太空站之後會發生什麼事？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-wins-946-million-235804734.html"
+            }
+          ],
+          "score": 795.36
+        },
+        {
+          "ticker": "MU",
+          "name": "Micron",
+          "group": "記憶體／儲存",
+          "priority": 2,
+          "category": "財報／財測",
+          "headline": "美光科技股票在第四季財報公佈前波動",
+          "highlights": [
+            "美光科技股票在第四季財報公佈前波動"
+          ],
+          "reason": "來源不足，等待可驗證內文。",
+          "judgement": "核心在財報與財測是否改變未來營收、EPS、毛利率或需求預期，而不是只看單日股價反應",
+          "moveLabel": "收盤",
+          "movePct": 0.16195755786512223,
+          "movePrice": 1082.28,
+          "regularChangePct": 0.16195755786512223,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.25316923531804036,
+          "sources": [
+            {
+              "title": "美光科技股票在第四季財報公佈前波動",
+              "url": "https://www.investors.com/news/technology/micron-technology-mu-stock-fiscal-q4-earnings-preview/?src=A00220&yptr=yahoo"
+            }
+          ],
+          "score": 793.68
+        },
+        {
+          "ticker": "CRDO",
+          "name": "Credo",
+          "group": "高速傳輸",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "headline": "Credo Technology 選擇權現貨：9 月 25 日，成交合約 79,454 份，未平倉合約 295,250 份",
+          "highlights": [
+            "Credo Technology 選擇權現貨：9 月 25 日，成交合約 79,454 份，未平倉合約 295,250 份",
+            "$Credo Technology (CRDO.US)$ CRDO：人工智慧連接需求正在推動另一項重大舉措",
+            "Credo Technology(CRDO.US) 高階主管出售 531 萬美元普通股"
+          ],
+          "reason": "來源不足，等待可驗證內文。",
+          "judgement": "重點看訂單／客戶／合作能否轉成可量化營收，以及金額、出貨時程與延續性",
+          "moveLabel": "收盤",
+          "movePct": 7.654232790733273,
+          "movePrice": 210.97,
+          "regularChangePct": 7.654232790733273,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.41276010807224095,
+          "sources": [
+            {
+              "title": "Credo Technology 選擇權現貨：9 月 25 日，成交合約 79,454 份，未平倉合約 295,250 份",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM1BLUS1nYXVPQnlRdWtad0tscTcxNVh5VU1qakVHNnFDWDBBS3YyQ1ppN0EtMzBpaTk0S1FVd1VxUGs4R1RUckg3OFlvdFozeDJVVDVfUzBOVVNXUGFjbXVxRmNxOWJjNm9qQkVBUnlTYllpYTU0VnF6TXc3d2VVQUxfaG8yek93Z0pTN3I1Q2pBZzlzNmcwSjJORTl4NE1HWWVaSmxScXF0VlpKako4?oc=5"
+            },
+            {
+              "title": "$Credo Technology (CRDO.US)$ CRDO：人工智慧連接需求正在推動另一項重大舉措",
+              "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPckNwUFNpYkJ5QXVTTkQzeF9kSlpRQXoyT3d5S1d3NFpheThudjFFZW1TV3AwZG0zSWlUdnlPSWlRTnVfZVVzSnFlQkVHT0xVbFUyMWMtaTBBLTEwRDFYeWN4QWttS0N2TzcwM3RBZ3FLTnFuU0h4TFN2Y2xhTW03eGhfenJXWm5veDNENzNNa1gyb29fQW4zYUtjWUc4OHRWa1Jrb01jUU4tci04NDRqRzVjaEVtWHR4?oc=5"
+            },
+            {
+              "title": "Credo Technology(CRDO.US) 高階主管出售 531 萬美元普通股",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVlyNldjMVVoUVpucjhmZ0tEWnF2YmlpVlBJVGRHY1FvdEJTRDJidzFzaS1hTmN2Q3NVdWJaZWNWZ015UWVJcGtYN0s0UjRFV2QwV3NuZ3JQTUppb0t5aEItcndRbzRyaDZjbHBoTE0yNnEwZzhNQy1KUG5zMmxTVjhsbkVqMXMxTmRGR1l5RXVmaU1UMVp6T285NjNzQ3RkRnc?oc=5"
+            }
+          ],
+          "score": 739.38
+        },
+        {
+          "ticker": "QCOM",
+          "name": "Qualcomm",
+          "group": "AI 運算／AI 晶片",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "headline": "高通 (QCOM) 與蘋果 (AAPL) 續簽全球專利許可",
+          "highlights": [
+            "高通 (QCOM) 與蘋果 (AAPL) 續簽全球專利許可"
+          ],
+          "reason": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "judgement": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "moveLabel": "收盤",
+          "movePct": 3.968907649541853,
+          "movePrice": 201.97,
+          "regularChangePct": 3.968907649541853,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.36143981779470646,
+          "sources": [
+            {
+              "title": "高通 (QCOM) 與蘋果 (AAPL) 續簽全球專利許可",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-qcom-renews-global-patent-005320827.html"
+            }
+          ],
+          "score": 733.33
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "group": "CPU 概念股",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "headline": "英特爾 (INTC) 在邊緣人工智慧和類腦運算方面正在做什麼？",
+          "highlights": [
+            "英特爾 (INTC) 在邊緣人工智慧和類腦運算方面正在做什麼？",
+            "現在是押注英特爾 (INTC) 伺服器 CPU 捲土重來和人工智慧野心的時候了嗎？"
+          ],
+          "reason": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "judgement": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "moveLabel": "收盤",
+          "movePct": -3.4461103697307482,
+          "movePrice": 123.0,
+          "regularChangePct": -3.4461103697307482,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.0424390243902395,
+          "sources": [
+            {
+              "title": "英特爾 (INTC) 在邊緣人工智慧和類腦運算方面正在做什麼？",
+              "url": "https://finance.yahoo.com/technology/ai/articles/intel-intc-doing-edge-ai-210701740.html"
+            },
+            {
+              "title": "現在是押注英特爾 (INTC) 伺服器 CPU 捲土重來和人工智慧野心的時候了嗎？",
+              "url": "https://finance.yahoo.com/technology/ai/articles/now-time-bet-intel-intc-221124800.html"
+            }
+          ],
+          "score": 724.53
+        },
+        {
+          "ticker": "ORCL",
+          "name": "Oracle",
+          "group": "Cloud／Software／AI 應用",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "headline": "甲骨文重申 2.4 吉瓦人工智慧燃料電池交易承諾後，Bloom Energy (BE) 上漲 8.7% – 牛市情況有變化嗎？",
+          "highlights": [
+            "甲骨文重申 2.4 吉瓦人工智慧燃料電池交易承諾後，Bloom Energy (BE) 上漲 8.7% – 牛市情況有變化嗎？"
+          ],
+          "reason": "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。",
+          "judgement": "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。",
+          "moveLabel": "收盤",
+          "movePct": -1.7486025512397863,
+          "movePrice": 137.1,
+          "regularChangePct": -1.7486025512397863,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.04376367614880028,
+          "sources": [
+            {
+              "title": "甲骨文重申 2.4 吉瓦人工智慧燃料電池交易承諾後，Bloom Energy (BE) 上漲 8.7% – 牛市情況有變化嗎？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-8-7-oracle-220801648.html"
+            }
+          ],
+          "score": 715.87
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "group": "CSP",
+          "priority": 5,
+          "category": "產品／政府／監管",
+          "headline": "微軟 Copilot AI 重啟有何不同",
+          "highlights": [
+            "微軟 Copilot AI 重啟有何不同",
+            "9 月 25 日今日股市：透過代碼產生和 Agentic AI 工具改造 Copilot 後，微軟股價上漲 4%",
+            "軟體巨擘推出人工智慧超級應用程序，今日 IBD 股票微軟看漲"
+          ],
+          "reason": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+          "judgement": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+          "moveLabel": "收盤",
+          "movePct": 3.663165505191479,
+          "movePrice": 516.17,
+          "regularChangePct": 3.663165505191479,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.3332235503807013,
+          "sources": [
+            {
+              "title": "微軟 Copilot AI 重啟有何不同",
+              "url": "https://finance.yahoo.com/video/whats-different-microsofts-copilot-ai-195423063.html"
+            },
+            {
+              "title": "9 月 25 日今日股市：透過代碼產生和 Agentic AI 工具改造 Copilot 後，微軟股價上漲 4%",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-214549821.html"
+            },
+            {
+              "title": "軟體巨擘推出人工智慧超級應用程序，今日 IBD 股票微軟看漲",
+              "url": "https://www.investors.com/research/ibd-stock-of-the-day/microsoft-stock-software-giant-launches-ai-super-app/?src=A00220&yptr=yahoo"
+            }
+          ],
+          "score": 524.02
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir",
+          "group": "Cloud／Software／AI 應用",
+          "priority": 5,
+          "category": "產品／政府／監管",
+          "headline": "商業人工智慧動能遇到估值風險：Palantir (PLTR) 下一步會怎麼樣？",
+          "highlights": [
+            "商業人工智慧動能遇到估值風險：Palantir (PLTR) 下一步會怎麼樣？"
+          ],
+          "reason": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+          "judgement": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+          "moveLabel": "收盤",
+          "movePct": -1.5161742561919156,
+          "movePrice": 189.67,
+          "regularChangePct": -1.5161742561919156,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.008910212474289025,
+          "sources": [
+            {
+              "title": "商業人工智慧動能遇到估值風險：Palantir (PLTR) 下一步會怎麼樣？",
+              "url": "https://finance.yahoo.com/technology/ai/articles/commercial-ai-momentum-meets-valuation-225152271.html"
+            }
+          ],
+          "score": 515.58
+        },
+        {
+          "ticker": "IBM",
+          "name": "IBM",
+          "group": "Cloud／Software／AI 應用",
+          "priority": 5,
+          "category": "產品／政府／監管",
+          "headline": "國際商業機器公司 (IBM) 面臨 Z 大型主機揭露風險調查",
+          "highlights": [
+            "國際商業機器公司 (IBM) 面臨 Z 大型主機揭露風險調查"
+          ],
+          "reason": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+          "judgement": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+          "moveLabel": "收盤",
+          "movePct": -0.6826389500572572,
+          "movePrice": 225.51,
+          "regularChangePct": -0.6826389500572572,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.03995388231121666,
+          "sources": [
+            {
+              "title": "國際商業機器公司 (IBM) 面臨 Z 大型主機揭露風險調查",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/international-business-machines-ibm-faces-210812743.html"
+            }
+          ],
+          "score": 507.98
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "group": "AI 運算／AI 晶片",
+          "priority": 5,
+          "category": "產品／政府／監管",
+          "headline": "IonQ 的 NVIDIA 量子合作是否會重塑 Rigetti 運算 (RGTI) 的長期硬體機會？",
+          "highlights": [
+            "IonQ 的 NVIDIA 量子合作是否會重塑 Rigetti 運算 (RGTI) 的長期硬體機會？"
+          ],
+          "reason": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+          "judgement": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+          "moveLabel": "收盤",
+          "movePct": 0.2181850565500021,
+          "movePrice": 225.07,
+          "regularChangePct": 0.2181850565500021,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.03110143510907104,
+          "sources": [
+            {
+              "title": "IonQ 的 NVIDIA 量子合作是否會重塑 Rigetti 運算 (RGTI) 的長期硬體機會？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/does-ionqs-nvidia-quantum-tie-210735580.html"
+            }
+          ],
+          "score": 505.18
+        },
+        {
+          "ticker": "BE",
+          "name": "Bloom Energy",
+          "group": "電力／儲能／資料中心能源",
+          "priority": 6,
+          "category": "異動／公司催化",
+          "headline": "布魯姆能源股的下跌是買進機會嗎？",
+          "highlights": [
+            "布魯姆能源股的下跌是買進機會嗎？"
+          ],
+          "reason": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "judgement": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+          "moveLabel": "收盤",
+          "movePct": 8.269266829176836,
+          "movePrice": 288.7,
+          "regularChangePct": 8.269266829176836,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.10391409767924742,
+          "sources": [
+            {
+              "title": "布魯姆能源股的下跌是買進機會嗎？",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stocks-drop-chance-215506654.html"
+            }
+          ],
+          "score": 454.67
+        },
+        {
+          "ticker": "ON",
+          "name": "ON Semiconductor",
+          "group": "類比／電源／功率／RF",
+          "priority": 6,
+          "category": "異動／公司催化",
+          "headline": "隨著產品動能增強，安森美半導體 (ON) 的股價可能比公允價值低 28%",
+          "highlights": [
+            "隨著產品動能增強，安森美半導體 (ON) 的股價可能比公允價值低 28%"
+          ],
+          "reason": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+          "judgement": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+          "moveLabel": "收盤",
+          "movePct": 5.536568694463417,
+          "movePrice": 77.2,
+          "regularChangePct": 5.536568694463417,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.5164507772020599,
+          "sources": [
+            {
+              "title": "隨著產品動能增強，安森美半導體 (ON) 的股價可能比公允價值低 28%",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-could-28-below-fair-230830511.html"
+            }
+          ],
+          "score": 440.11
+        }
+      ]
+    }
+  ]
+}
