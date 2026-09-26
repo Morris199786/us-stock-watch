@@ -61,6 +61,10 @@ jobs:
           cp index.html /tmp/index.html
           cp config.json /tmp/config.json
 
+          if [ -f focus.json ]; then
+            cp focus.json /tmp/focus.json
+          fi
+
           if [ -f macro.json ]; then
             cp macro.json /tmp/macro.json
           fi
@@ -79,6 +83,10 @@ jobs:
           cp /tmp/index.html index.html
           cp /tmp/config.json config.json
 
+          if [ -f /tmp/focus.json ]; then
+            cp /tmp/focus.json focus.json
+          fi
+
           if [ -f /tmp/macro.json ]; then
             cp /tmp/macro.json macro.json
           fi
@@ -89,6 +97,10 @@ jobs:
 
           git add data.json news.json congress.json updater.py index.html config.json
 
+          if [ -f focus.json ]; then
+            git add focus.json
+          fi
+
           if [ -f macro.json ]; then
             git add macro.json
           fi
@@ -98,6 +110,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Install news parser v11 and update market data"
+            git commit -m "Update market data and focus stocks"
             git push origin main
           fi
