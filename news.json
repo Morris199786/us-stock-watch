@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26 21:24 台灣時間",
+  "updatedAt": "2026-09-26 21:28 台灣時間",
   "historyUpdatedDate": "2026-09-26",
   "historyLastAttemptAt": "2026-09-25T16:07:01.888760+00:00",
   "historyItemCount": 800,
@@ -11,10 +11,10 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌計劃在太空進行 Project Suncatcher TPU 測試",
-      "summary": "",
+      "summary": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
       "originalTitle": "Google plans Project Suncatcher TPU test in space",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLXBfbXNNN1pka2dkYm5jWl9WZTQ4VmgxajhxOGllbWFPaEVRMHcxUzNRdHNJSkRoZm55V2V3QmFseUxlSXRtTTY2VDNVRlFxbXo1R3g0VHpYV1FIemlVeXVuQlRxZWVYd0U2Z0U2VU9sWTg4ODUyM291eUt6a2hlUg?oc=5",
+      "originalSummary": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+      "url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week/",
       "ts": "2026-09-26T13:18:02+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
@@ -22,20 +22,24 @@
         "GOOGL"
       ],
       "eventType": "新題材",
-      "score": 16.5,
+      "score": 25.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 8,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -97,8 +101,8 @@
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 8,
+      "top10": false,
+      "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
