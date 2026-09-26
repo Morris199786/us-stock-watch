@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 03:04 台灣時間",
+  "updatedAt": "2026-09-27 03:08 台灣時間",
   "historyUpdatedDate": "2026-09-27",
   "historyLastAttemptAt": "2026-09-26T16:00:50.550486+00:00",
   "historyItemCount": 800,
@@ -266,31 +266,41 @@
       "title": "SpaceX 股票能幫助你百萬富翁退休嗎？",
       "summary": "特斯拉（納斯達克股票代碼：TSLA）於 2010 年上市，此後帶來了改變生活的回報。鑑於特斯拉自進入股市以來的平均年化回報率為 40.11%（截至撰寫本文時），16 年前投資特斯拉的 5,000 美元在今天的價值將超過 100 萬美元。特斯拉聯合創始人兼執行長馬斯克最近將他的另一家公司上市：太空探索技術公司（納斯達克股票代碼：SPCX），許多投資者",
       "originalTitle": "Could SpaceX Stock Help You Retire a Millionaire?",
-      "originalSummary": "",
+      "originalSummary": "Tesla (NASDAQ: TSLA) went public in 2010 and has delivered life-changing returns since. Given its average annualized returns of 40.11% (as of writing) since it hit equity markets, $5,000 invested in Tesla 16 years ago would be worth more than $1 million today. Tesla's co-founder and CEO, Elon Musk, recently took another one of his companies public: Space Exploration Technologies (NASDAQ: SPCX), and many investors have high hopes for the rocket company. Could SpaceX follow in Tesla's footsteps and deliver millionaire-maker-level returns? Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/could-spacex-stock-help-retire-170500336.html",
       "ts": "2026-09-26T17:05:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": 0.43910018239545767,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
-        "SPCX"
+        "SPCX",
+        "NVDA",
+        "TSLA"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 21.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "特斯拉（納斯達克股票代碼：TSLA）於 2010 年上市，此後帶來了改變生活的回報。鑑於特斯拉自進入股市以來的平均年化回報率為 40.11%（截至撰寫本文時），16 年前投資特斯拉的 5,000 美元在今天的價值將超過 100 萬美元。特斯拉聯合創始人兼執行長馬斯克最近將他的另一家公司上市：太空探索技術公司（納斯達克股票代碼：SPCX），許多投資者",
+        "numbers": [
+          "$5,000",
+          "$1 million",
+          "40.11%",
+          "1 million"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "特斯拉（納斯達克股票代碼：TSLA）於 2010 年上市，此後帶來了改變生活的回報。鑑於特斯拉自進入股市以來的平均年化回報率為 40.11%（截至撰寫本文時），16 年前投資特斯拉的 5,000 美元在今天的價值將超過 100 萬美元。特斯拉聯合創始人兼執行長馬斯克最近將他的另一家公司上市：太空探索技術公司（納斯達克股票代碼：SPCX），許多投資者",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1485,8 +1495,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
