@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 10:34 台灣時間",
+  "updatedAt": "2026-09-27 10:37 台灣時間",
   "historyUpdatedDate": "2026-09-27",
   "historyLastAttemptAt": "2026-09-26T16:00:50.550486+00:00",
   "historyItemCount": 800,
@@ -114,7 +114,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -554,7 +554,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -680,7 +680,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -834,7 +834,7 @@
         "BA"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 5.2,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -1282,8 +1282,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2151,6 +2151,52 @@
       "top10Rank": 2
     },
     {
+      "ticker": "KTOS",
+      "group": "太空／國防／無人系統",
+      "tag": "利多",
+      "title": "由於明確的成長前景刺激 Piper Sandler 評級升級，KTOS 股價觸及兩個月高點",
+      "summary": "",
+      "originalTitle": "KTOS Stock Hits Two-Month High As Clear Growth Prospects Spur Piper Sandler Ratings Upgrade",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNXzE5YXJmZzN3dF9VRjJnRzJxTmw5U3lIMDlWdXJMbTRKblZEZjBvc1dzMEJOTTNoWjFEZzhxZERmeUFhdmlsTDR4UHhUNDJmTlRsbmgzaUdiNXdiM3RocWVpT2g5R280ZHBUTUhmZWxLUVlCVHhzMEJIYmdVWXNSRjRhZ2dxR2o1VVNORkRzTGpDbVM0em5yRE9pWmhTUndlR3c3QmdKODZ4VDdyQmhuMUxqXzdTeFBXRHN3NGpfS054dTF2azIzUUM3WXh2b3VacFkzRGpCbENwTGVlVlJ3LXJZWFRZRkpzY1k4?oc=5",
+      "ts": "2026-09-26T16:09:17+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Piper Sandler",
+          "analyst": "",
+          "rating": "",
+          "action": "升評",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "KTOS",
+          "targetCompany": "Kratos"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "KTOS"
+      ],
+      "eventType": "",
+      "score": 175.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Kratos（KTOS）｜券商：Piper Sandler｜動作：升評｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 5
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2579,7 +2625,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "ORCL",
@@ -2614,7 +2660,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "AMD",
@@ -2650,38 +2696,6 @@
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "特斯拉即將實現無人監理全自動駕駛？以及與 Ara（Grok AI 機器人）的進一步對話",
-      "summary": "",
-      "originalTitle": "Tesla Full Self Driving Unsupervised Soon? And Further Conversations with Ara (the Grok AI Bot)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOamcxSlJGUEM1T1VPbmdBNTJXLXJkNmZ2SlhScnRQdDAtdjBwZ0tfOFN2ZGstSFM4QUZETlp2UGdndXVfbUM4VkRaMXJreXE3TkhjMWJfS291TFNZOGxhNGtVYzQ5Umh5OXhkTVlrQlpmNnFzQk1WaWJDQXFsZ21yRFRMZUtCZktjTkhOeDF0RktYeVJYRldEZHUyVGYtWXFmb1huYlZPYXVOdHZuSjVvSmRvTjhaTE1PNzFjUjliMGJvdV9NdkVxaW5R?oc=5",
-      "ts": "2026-09-26T13:51:54+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 11.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
