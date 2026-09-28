@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28 23:04 台灣時間",
+  "updatedAt": "2026-09-28 23:08 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
@@ -18,7 +18,7 @@
       "ts": "2026-09-28T14:58:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "hasArticleBody": false,
       "relatedTickers": [
         "SPCX"
@@ -51,7 +51,7 @@
       "ts": "2026-09-28T14:58:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8438707957524336,
+      "movePct": 1.9416181632381013,
       "relatedTickers": [
         "NVDA",
         "AMD"
@@ -69,8 +69,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "META",
@@ -84,7 +84,7 @@
       "ts": "2026-09-28T14:57:10+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META",
         "MSFT"
@@ -120,7 +120,7 @@
       "ts": "2026-09-28T14:56:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META"
       ],
@@ -152,7 +152,7 @@
       "ts": "2026-09-28T14:54:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -1.8123873917507693,
+      "movePct": -1.722300792374598,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -180,6 +180,103 @@
       "top10Rank": 4
     },
     {
+      "ticker": "MRVL",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Cantor Fitzgerald 調整 MRVL 目標價至 $330",
+      "summary": "Cantor Fitzgerald 在晶片製造商 10 月 6 日投資者日之前將 Marvell 目標股價提高至 330 美元，預計該公司將在 AI 運算和網路領域概述更大的機會。",
+      "originalTitle": "Marvell’s AI Opportunity Could Expand To $625B By 2030, Says Cantor — Sees Up To 45% Revenue CAGR",
+      "originalSummary": "Cantor Fitzgerald raised its Marvell price target to $330 ahead of the chipmaker’s Oct. 6 Investor Day, where it expects the company to outline a much larger opportunity across AI compute and networking.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/marvell-ai-opportunity-could-expand-145429633.html",
+      "ts": "2026-09-28T14:54:29+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -4.285414320346648,
+      "analystDetails": [
+        {
+          "broker": "Cantor Fitzgerald",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$330",
+          "oldTarget": "",
+          "reason": "Cantor 表示，到 2030 年，Marvell 的 AI 機會可能會擴大到 625B 美元——預計收入複合年增長率將高達 45% Cantor Fitzgerald 在該晶片製造商 10 月 10 日發布的 10 月 12 日發布之前，將 Marvell 的目標價格提高至 330 美元。",
+          "reasonConfidence": "high",
+          "targetTicker": "MRVL",
+          "targetCompany": "Marvell"
+        }
+      ],
+      "relatedTickers": [
+        "MRVL"
+      ],
+      "eventType": "",
+      "score": 205.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Marvell（MRVL）｜券商：Cantor Fitzgerald｜目標價：$330｜調整原因：Cantor 表示，到 2030 年，Marvell 的 AI 機會可能會擴大到 625B 美元——預計收入複合年增長率將高達 45% Cantor Fitzgerald 在該晶片製造商 10 月 10 日發布的 10 月 12 日發布之前，將 Marvell 的目標價格提高至 330 美元。",
+        "numbers": [
+          "$330"
+        ],
+        "why": "調整原因：Cantor 表示，到 2030 年，Marvell 的 AI 機會可能會擴大到 625B 美元——預計收入複合年增長率將高達 45% Cantor Fitzgerald 在該晶片製造商 10 月 10 日發布的 10 月 12 日發布之前，將 Marvell 的目標價格提高至 330 美元。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Cantor 表示，到 2030 年，Marvell 的 AI 機會可能會擴大到 625B 美元——預計收入複合年增長率將高達 45% Cantor Fitzgerald 在該晶片製造商 10 月 10 日發布的 10 月 12 日發布之前，將 Marvell 的目標價格提高至 330 美元。",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 6
+    },
+    {
+      "ticker": "MU",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "Baird 因 DRAM 定價假設較高而上調美光股票目標",
+      "summary": "Investing.com—貝爾德週一將美光科技的目標價從 1,280 美元上調至 1,520 美元，並維持該股優於大盤的評級。",
+      "originalTitle": "Micron stock target raised at Baird on higher DRAM pricing assumptions",
+      "originalSummary": "Investing.com -- Baird lifted its price target on Micron Technology to $1,520 from $1,280 on Monday and kept an Outperform rating on the stock.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-target-raised-baird-145153912.html",
+      "ts": "2026-09-28T14:51:53+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -3.748567838267358,
+      "analystDetails": [
+        {
+          "broker": "Baird",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "上修",
+          "newTarget": "$1,520",
+          "oldTarget": "$1,280",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "MU",
+          "targetCompany": "Micron"
+        }
+      ],
+      "relatedTickers": [
+        "MU"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Micron（MU）｜券商：Baird｜動作：上修｜評等：Outperform｜目標價：$1,520（原 $1,280）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$1,280",
+          "$1,520"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 7
+    },
+    {
       "ticker": "META",
       "group": "CSP",
       "tag": "題材",
@@ -191,7 +288,7 @@
       "ts": "2026-09-28T14:48:12+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META"
       ],
@@ -223,7 +320,7 @@
       "ts": "2026-09-28T14:48:10+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "relatedTickers": [
         "SPCX"
       ],
@@ -259,7 +356,7 @@
       "ts": "2026-09-28T14:47:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.9666260117529717,
+      "movePct": -3.748567838267358,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -298,7 +395,7 @@
       "ts": "2026-09-28T14:46:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META"
       ],
@@ -330,7 +427,7 @@
       "ts": "2026-09-28T14:45:55+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -366,7 +463,7 @@
       "ts": "2026-09-28T14:45:23+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -402,7 +499,7 @@
       "ts": "2026-09-28T14:45:22+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.930702598652558,
+      "movePct": -3.897978825794046,
       "relatedTickers": [
         "NOK"
       ],
@@ -470,7 +567,7 @@
       "ts": "2026-09-28T14:45:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "analystDetails": [],
       "relatedTickers": [
         "SPCX"
@@ -505,7 +602,7 @@
       "ts": "2026-09-28T14:44:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.5994345433432615,
+      "movePct": -4.877063664361081,
       "relatedTickers": [
         "BA"
       ],
@@ -537,7 +634,7 @@
       "ts": "2026-09-28T14:43:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META"
       ],
@@ -607,7 +704,7 @@
       "ts": "2026-09-28T14:40:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.113561982811376,
+      "movePct": -4.132187425165624,
       "relatedTickers": [
         "META"
       ],
@@ -672,7 +769,7 @@
       "ts": "2026-09-28T14:33:20+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.329268292682921,
+      "movePct": -6.14634146341464,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -704,23 +801,23 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "這個數字能否推高特斯拉股價？",
-      "summary": "近 150 萬特斯拉 (TSLA) 客戶已付費購買該公司的駕駛輔助軟體全自動駕駛 (FSD)。您可能認為 Cyber​​cab 或新型半卡車對該股更重要。 FSD 已應用於特斯拉銷售的汽車。然而，該股已經下跌：一年前購買的價值 10,000 美元的股票如今價值約為 8,400 美元。現在有多少特斯拉新買家開始使用這款軟體。",
+      "summary": "",
       "originalTitle": "Can This Number Push Tesla Stock Higher?",
       "originalSummary": "Nearly 1.5 million Tesla (TSLA) customers have paid for Full Self-Driving (FSD), the company's driver-assistance software. You might expect the Cybercab or the new Semi truck to matter more for the stock. FSD already reaches the cars Tesla sells. Yet the stock has lost ground: a $10,000 holding bought a year ago is worth about $8,400 today. How many new Tesla buyers now start with this software.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/number-push-tesla-stock-higher-142740248.html",
       "ts": "2026-09-28T14:27:40+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.2302276208648117,
+      "movePct": -3.22216548869958,
       "relatedTickers": [
         "TSLA"
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "近 150 萬特斯拉 (TSLA) 客戶已付費購買該公司的駕駛輔助軟體全自動駕駛 (FSD)。您可能認為 Cyber​​cab 或新型半卡車對該股更重要。 FSD 已應用於特斯拉銷售的汽車。然而，該股已經下跌：一年前購買的價值 10,000 美元的股票如今價值約為 8,400 美元。現在有多少特斯拉新買家開始使用這款軟體。",
+        "event": "近 150 萬特斯拉 (TSLA) 客戶已付費購買該公司的駕駛輔助軟體全自動駕駛 (FSD)。您可能認為 Cyber​​cab 或新型半卡車對該股更重要。 FSD 已應用於特斯拉銷售的汽車。然而，該股已經下跌：一年前購買的價值 10,000 美元的股票如今價值約為 8,400 美元。",
         "numbers": [
           "$10,000",
           "$8,400",
@@ -756,7 +853,7 @@
       ],
       "eventType": "",
       "score": 7.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -782,7 +879,7 @@
       "ts": "2026-09-28T14:23:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9449825127791245,
+      "movePct": -0.4607210115684657,
       "relatedTickers": [
         "SPCX"
       ],
@@ -936,7 +1033,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "META",
@@ -1053,7 +1150,7 @@
       "ts": "2026-09-28T14:10:31+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5890052356020914,
+      "movePct": -0.7853403141361182,
       "relatedTickers": [
         "ONDS"
       ],
@@ -1124,7 +1221,7 @@
       "ts": "2026-09-28T14:07:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.2302276208648117,
+      "movePct": -3.22216548869958,
       "relatedTickers": [
         "TSLA",
         "SPCX"
@@ -1145,7 +1242,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1225,7 +1322,7 @@
       "ts": "2026-09-28T14:00:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.7339782345828265,
+      "movePct": -5.702539298669884,
       "relatedTickers": [
         "CBRS"
       ],
@@ -1260,7 +1357,7 @@
       "ts": "2026-09-28T14:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.428499136750606,
+      "movePct": -2.293564326963149,
       "relatedTickers": [
         "SNOW"
       ],
@@ -1329,7 +1426,7 @@
       "ts": "2026-09-28T13:58:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9915096534077739,
+      "movePct": -0.8170504768550857,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -1368,13 +1465,45 @@
       "ts": "2026-09-28T13:58:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.499207818733653,
+      "movePct": -4.285414320346648,
       "relatedTickers": [
         "MRVL",
         "SNDK"
       ],
       "eventType": "跨公司事件",
       "score": 27.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "英特爾股價一個月內上漲近 40%，押注這些 ETF",
+      "summary": "",
+      "originalTitle": "Bet on These ETFs as Intel Stock Jumps Nearly 40% in a Month",
+      "originalSummary": "Intel soars as AI and data center growth fuel its rally, putting Intel-heavy ETFs in focus.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bet-etfs-intel-stock-jumps-135800314.html",
+      "ts": "2026-09-28T13:58:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -6.14634146341464,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 10.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1401,7 +1530,7 @@
       "ts": "2026-09-28T13:57:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.5994345433432615,
+      "movePct": -4.877063664361081,
       "relatedTickers": [
         "BA"
       ],
@@ -1554,7 +1683,7 @@
       "ts": "2026-09-28T13:53:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.9666260117529717,
+      "movePct": -3.748567838267358,
       "relatedTickers": [
         "MU"
       ],
@@ -1609,6 +1738,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "ORCL vs. DELL：哪隻人工智慧基礎設施股票現在有更好的上漲空間？",
+      "summary": "",
+      "originalTitle": "ORCL vs. DELL: Which AI Infrastructure Stock Has Better Upside Now?",
+      "originalSummary": "Dell's record AI backlog, raised fiscal 2027 guidance and capital-light model contrast with Oracle's costly AI data center buildout.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/orcl-vs-dell-ai-infrastructure-135100849.html",
+      "ts": "2026-09-28T13:51:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -3.7835811615058113,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
       "tag": "題材",
@@ -1620,7 +1781,7 @@
       "ts": "2026-09-28T13:50:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.2302276208648117,
+      "movePct": -3.22216548869958,
       "hasArticleBody": false,
       "relatedTickers": [
         "TSLA"
@@ -1653,7 +1814,7 @@
       "ts": "2026-09-28T13:45:51+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.406272793581322,
+      "movePct": -3.574033552151723,
       "relatedTickers": [
         "ORCL",
         "SNOW"
@@ -1724,7 +1885,7 @@
       "ts": "2026-09-28T13:45:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8438707957524336,
+      "movePct": 1.9416181632381013,
       "relatedTickers": [
         "NVDA"
       ],
@@ -2024,7 +2185,7 @@
       "ts": "2026-09-28T13:41:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.329268292682921,
+      "movePct": -6.14634146341464,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2049,7 +2210,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 8
     },
     {
       "ticker": "SPCX",
@@ -2197,7 +2358,7 @@
       "ts": "2026-09-28T13:34:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.42731575388776,
+      "movePct": -2.2109533468559928,
       "relatedTickers": [
         "RKLB",
         "BA"
@@ -2268,7 +2429,7 @@
       "ts": "2026-09-28T13:33:23+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.329268292682921,
+      "movePct": -6.14634146341464,
       "relatedTickers": [
         "INTC",
         "AMD"
@@ -2331,7 +2492,7 @@
       "ts": "2026-09-28T13:31:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.9666260117529717,
+      "movePct": -3.748567838267358,
       "relatedTickers": [
         "MU"
       ],
@@ -2363,7 +2524,7 @@
       "ts": "2026-09-28T13:30:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.513789176610385,
+      "movePct": -6.302916274694259,
       "relatedTickers": [
         "QCOM"
       ],
@@ -2397,7 +2558,7 @@
       "ts": "2026-09-28T13:29:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.8123873917507693,
+      "movePct": -1.722300792374598,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2431,7 +2592,7 @@
       "ts": "2026-09-28T13:29:10+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9915096534077739,
+      "movePct": -0.8170504768550857,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -2574,8 +2735,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "META",
@@ -2595,134 +2756,6 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "BE",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "VALLEY NATIONAL BANCORP - 考慮 75% 現金和 25% VALLEY 普通股",
-      "summary": "",
-      "originalTitle": "VALLEY NATIONAL BANCORP - CONSIDERATION TO BE 75% CASH AND 25% VALLEY COMMON STOCK",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWVpZDV2ZkdEMVNMY0NuQU1xaEdPTVRoQ1lvYkNDT1pPaDkxay1wOFVleGJFbXVhbFdnRWFjdHZEZ1A1QkNwbUtDTTlqQmxjQTg2N1VaWGZLbmJKekJzVzBKWjB4Ykh6WjZBc0pfNmNBRzd0Vk9yb1JWV01qYkZsOTJKaUNzWHY5akI1SEdRRlhmZ21ZM2Z0NnU0VlkyZ2M5S014a2Zn?oc=5",
-      "ts": "2026-09-28T13:20:13+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -7.4367855905784435,
-      "relatedTickers": [
-        "BE"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "2026 年 10 月值得關注的 4 檔儲存半導體股票",
-      "summary": "",
-      "originalTitle": "4 Memory Semiconductor Stocks to Watch in October 2026",
-      "originalSummary": "AI demand is reshaping the memory market, with Seagate, Western Digital, Micron and Sandisk expanding high-performance storage.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/4-memory-semiconductor-stocks-watch-131800867.html",
-      "ts": "2026-09-28T13:18:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.9666260117529717,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "SpaceX 發射 Starship 14，這是該營運商的首次軌道飛行",
-      "summary": "",
-      "originalTitle": "SpaceX launches Starship 14, the operator's first orbital flight",
-      "originalSummary": "SpaceX (SPCX) launched its Starship test flight 14 on Monday, the first flight that will send a SpaceX spacecraft into low-Earth orbit. The 8:30 Hosts Julie Hyman, Pras Subramanian, and Jake Conley react to the live footage of SpaceX's latest launch.",
-      "url": "https://finance.yahoo.com/video/spacex-launches-starship-14-operators-131745576.html",
-      "ts": "2026-09-28T13:17:45+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.9449825127791245,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "新題材",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "SpaceX (SPCX) 週一啟動了 Starship 14 號試飛，這是 SpaceX 太空船首次進入近地軌道的飛行。 8:30 節目主持人 Julie Hyman、Pras Subramanian 和 Jake Conley 對 SpaceX 最新發射的現場錄影做出反應。",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "SpaceX (SPCX) 週一啟動了 Starship 14 號試飛，這是 SpaceX 太空船首次進入近地軌道的飛行。 8:30 節目主持人 Julie Hyman、Pras Subramanian 和 Jake Conley 對 SpaceX 最新發射的現場錄影做出反應。",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著原油價格反彈，美國股指期貨走低：道瓊斯、標準普爾、納斯達克、華爾街",
-      "summary": "",
-      "originalTitle": "US Stock Futures Point Lower as Crude Oil Prices Rebound: Dow Jones, S&P, Nasdaq, Wall Street",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTEtlczZFRVpya3h2NlVYZmhWai10RGFLZk1oTE9FOTNOZjdab2ZOR0lzaTdSR2lQaGhyajJwcnZxRUZCci1YSHYwQkNYSWFodmFUQllfRkI4WU1OUWxLVWdLRGtoWmVaYnBuSzNaV0g3T29pa05OYzEwX3ZoUWFPSjFqTy1uM1F5aHc5M1M3NEJQOFNMRWNCTg?oc=5",
-      "ts": "2026-09-28T13:16:38+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
