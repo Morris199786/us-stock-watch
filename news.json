@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28 16:08 台灣時間",
+  "updatedAt": "2026-09-28 16:13 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
@@ -7,22 +7,21 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "題材",
-      "title": "谷歌透過 Suncatcher 專案測試 TPU 在太空中的可靠性",
+      "title": "道瓊期貨下跌，因油價上漲、美國公債殖利率加劇聯準會升息擔憂",
       "summary": "",
-      "originalTitle": "Google Tests TPU Reliability In Space With Project Suncatcher",
+      "originalTitle": "Dow Jones futures drop as rising oil, US Treasury yields fuel Fed rate hike fears",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdjZqUFBKY2lOTmpHb09JWE5jMkp1RVpEeWlWdWpvQlZGX1AxSWdyd3ZJV2RHbmR5Y1RsTHdBVHZFeVpCOWM4U1BTZWdKTHpRLTI5RWtOMXRoam9iZ2UxZ1NfLXNsaUlwaDcwbHAtdGpFT0JhRlRlVTI5aXdJbmF5Z0Q3cXpDV0NwVElwc0RLUkpyTHpwWXpfS01NaUg1VXBEY1BqSm1NN2dGOWpSR2ZR?oc=5",
-      "ts": "2026-09-28T07:54:48+00:00",
-      "sourceType": "cross_event_search",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzVSOW5Hbm50bW5GTlJ6cWlwMkRrbl9HQWJfQmhOZ2t6ZTBZY3ByQWdqaUhLc1h6bFJmczNGVElYQXFPOWs5ejlNUmNKTHBGVEI1S0RLdnM0TDRuSzJSNlRteWhjTl9qTmhEdXc4dHd4anRNdjhIVDBTbWhXbXlIOTg0blcza1lPTl9FZ1RLYUp0UzVMTUFzUnlMMWlpTlM5SjlrdVN2NFQzb29GaGNIUFA5VG9Nd183ajhqN2pUXzc?oc=5",
+      "ts": "2026-09-28T08:07:41+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
       "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "新題材",
-      "score": 16.5,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -34,9 +33,40 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 7,
-      "hasArticleBody": false
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "MeetKai 將基於 NVIDIA 構建的主權 AI 帶到六個國家",
+      "summary": "",
+      "originalTitle": "MeetKai Takes Sovereign AI built on NVIDIA to Six Countries",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPenczbzhXTldyaVdWOUlRNy14cmJlelF1UFRFV1g1cW9PdFlUOXBhc3NySGVCd19VQ0NhbTlqZTQxZmx5c1c1QWc5aVVFUTFLNmo1NjRFUEd3VXFQRFdNSmROVUk2bDFrYmdaSjNqTUN6djlPck1pNWI3R3piRVRWMUEtVzlBNVo3M2VKWXhNRWdtc1gwNEhiVUw2cTVGd2lV?oc=5",
+      "ts": "2026-09-28T08:05:45+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -46,8 +76,8 @@
       "summary": "",
       "originalTitle": "The 10-Year Treasury Pays 5.2%. The S&P 500 Only Needs 4% Earnings Growth to Keep Up.",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdm10M2diUFBQaGMtanpFaldZZUVjM3BUNjZ0VFFCeXZvSVBSa20wVTVPeEh6NWZqeFpZZEhnMHRuT3lIc2w4b2laY0ZfZU9HbzJOcjhBVGpfTDRFMmIyaDdfWkRLSVFPdHZUT0xaQ1RaM0FBRTBRRkdGMTFfbl9XTUl2NENJYUYwZmFsSzdVdUxlYm5XREdsdzBVbzBEYTl4MER6SERVT0F3ZDFPTWhtN2x0cG83c00xd1g0alYzcldscEpQSHZv?oc=5",
-      "ts": "2026-09-28T07:52:36+00:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU2xPc1d2OWo2X1VOdUlDNkdqLTNPa1pOT0RMd0xINnhyc0FpNDZqb19jRkt0dXpVOVY3aFYyQURSOEV2MlZra3pmZk1wbE9rLVpfWGhYcnE0d01GZVowVldZbGV1NnQzdDZieDZOOTV5TDRiTmlnUmNvYlBoTUQ5cS1RVW9SZTBFQWE4U25n?oc=5",
+      "ts": "2026-09-28T07:57:01+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -67,6 +97,41 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌透過 Suncatcher 專案測試 TPU 在太空中的可靠性",
+      "summary": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+      "originalTitle": "Google Tests TPU Reliability In Space With Project Suncatcher",
+      "originalSummary": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+      "url": "https://www.datacenterdynamics.com/en/news/project-suncatcher-google-to-launch-first-space-data-center-test-in-orbit-next-week/",
+      "ts": "2026-09-28T07:54:48+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 25.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "TPUs are ready to catch some rays, hyperscaler claims Google will launch its AI chips into orbit for the first time next week as its Project Suncatcher space data center program takes another step forward. The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+        "numbers": [],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "The hyperscaler said it will conduct its first test in orbit, launching a prototype satellite to evaluate how its Tensor Processing Unit (TPU) AI hardware performs in space.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 4,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "NOK",
@@ -119,7 +184,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -153,7 +218,7 @@
       ],
       "eventType": "",
       "score": 27.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -198,7 +263,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -269,7 +334,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "RKLB",
@@ -1039,7 +1104,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -1396,7 +1461,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "道瓊斯指數在經歷了三週的下跌之後，上週上漲了 0.3%，上週五上漲了近 500 點。標準普爾 500 指數和納斯達克指數創下了自 8 月初以來最好的一周，每週分別上漲 1.2% 和 2.1%。 美國總統川普拒絕了伊朗重新開放霍爾木茲海峽的最新提議，儘管他確實告訴 Axios，他預計本週將繼續進行談判。在《華爾街日報》的另一篇報導中，該媒體報道稱，川普預計會發生爆炸事件",
+        "event": "道瓊斯指數在經歷了三週的下跌之後，每週上漲了 0.3%，上週五上漲了近 500 點。標準普爾 500 指數和納斯達克指數創下了自 8 月初以來最好的一周，每週分別上漲 1.2% 和 2.1%。 美國總統川普拒絕了伊朗重新開放霍爾木茲海峽的最新提議，儘管他確實告訴 Axios，他預計本週將繼續進行談判。在《華爾街日報》的另一篇報導中，該媒體報道稱，川普預計會發生爆炸事件",
         "numbers": [
           "$106.29",
           "$94",
@@ -1404,7 +1469,7 @@
           "1.2%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "美國總統川普拒絕了伊朗重新開放霍爾木茲海峽的最新提議，儘管他確實告訴 Axios，他預計本週將繼續進行談判。在《華爾街日報》的另一篇報導中，該媒體報導稱，川普預計轟炸營",
+        "stance": "美國總統川普拒絕了伊朗重新開放霍爾木茲海峽的最新提議，儘管他確實告訴 Axios，他預計本週將繼續進行談判。在《華爾街日報》的另一篇報導中，該媒體報道稱，川普預計轟炸營將被炸毀。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1776,7 +1841,7 @@
         "AMD"
       ],
       "eventType": "新題材",
-      "score": 19.5,
+      "score": 16.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2114,12 +2179,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "2026 年 9 月一個月的管道運輸在 30 天內運送的代理商業基礎設施數量比前兩年的總和還要多。 Stripe 在 780 萬家企業中開啟了 WebMCP 開關。 OCC 有條件批准 Catena Labs 獲得專門為人工智慧代理商建立的國家信託銀行執照。 Meta 推出了 Stripe 驅動的 Link 結帳功能的 Muse [...]",
+        "event": "2026 年 9 月一個月的管道運輸在 30 天內運送的代理商業基礎設施數量比前兩年的總和還要多。 Stripe 在 780 萬家企業中開啟了 WebMCP。 OCC 有條件批准 Catena Labs 獲得專門為人工智慧代理商建立的國家信託銀行執照。 Meta 推出了具有 Stripe 驅動的 Link 結帳功能的 Muse [...]",
         "numbers": [
           "7.8 million"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "2026 年 9 月一個月的管道運輸在 30 天內運送的代理商業基礎設施數量比前兩年的總和還要多。 Stripe 在 780 萬家企業中開啟了 WebMCP 開關。",
+        "stance": "2026 年 9 月一個月的管道運輸在 30 天內運送的代理商業基礎設施數量比前兩年的總和還要多。 Stripe 在 780 萬家企業中開啟了 WebMCP。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2180,10 +2245,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "人工智慧的繁榮正在重塑債券市場，隨著人工智慧基礎設施的大量支出與更高的利率相結合，長期收益率達到了 2000 年代中期的水平。這種組合正在從投機中抽走廉價資本，並促使人們關注將人工智慧需求轉化為現金的企業。本文重點介紹了從我們的人工智慧基礎設施篩選器中提取的為實體骨幹提供動力的三隻精選股和鏟股。以下介紹的三隻股票只是其中的一小部分...",
+        "event": "人工智慧的繁榮正在重塑債券市場，隨著人工智慧基礎設施的大量支出與更高的利率相結合，長期收益率達到了 2000 年代中期的水平。這種組合正在從投機中抽走廉價資本，並促使人們關注將人工智慧需求轉化為現金的企業。本文重點介紹了從我們的人工智慧基礎設施篩選器中提取的三支為實體骨幹提供動力的精選股和鏟股。以下介紹的三隻股票只是其中的一小部分...",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "人工智慧的繁榮正在重塑債券市場，隨著人工智慧基礎設施的大量支出與更高的利率相結合，長期收益率達到了 2000 年代中期的水平。這種組合正在從投機中抽走廉價資本，並促使人們關注將人工智慧需求轉化為現金的企業。本文重點介紹了從我們的人工智慧基礎設施篩選器中提取的為實體骨幹提供動力的三隻精選股和鏟股。以下介紹的三隻股票只是其中的一小部分...",
+        "stance": "人工智慧的繁榮正在重塑債券市場，隨著人工智慧基礎設施的大量支出與更高的利率相結合，長期收益率達到了 2000 年代中期的水平。這種組合正在從投機中抽走廉價資本，並促使人們關注將人工智慧需求轉化為現金的企業。本文重點介紹了從我們的人工智慧基礎設施篩選器中提取的三支為實體骨幹提供動力的精選股和鏟股。以下介紹的三隻股票只是其中的一小部分...",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2345,10 +2410,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "2026 年 9 月 17 日，路透社報道稱，GE 航空航天公司（NYSE：GE）首席財務官 Rahul Ghai 表示相信，GE9X 發動機中密封件的耐久性問題不會推遲波音公司（NYSE：BA）的波音 777X 計劃於 2027 年投入使用。 Ghai 在摩根士丹利會議上發表講話時表示，GE 開始運送帶有 [...]",
+        "event": "2026 年 9 月 17 日，路透社報道稱，GE 航空航天公司 (NYSE:GE) 首席財務官 Rahul Ghai 表示相信，GE9X 發動機中密封件的耐久性問題不會推遲波音公司 (NYSE:BA) 的波音 777X 計劃於 2027 年投入使用。 Ghai 在摩根士丹利會議上發表講話時表示，GE 開始運送帶有 [...] 的 GE9X 引擎。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "2026 年 9 月 17 日，路透社報道稱，GE 航空航天公司（NYSE：GE）首席財務官 Rahul Ghai 表示相信，GE9X 發動機中密封件的耐久性問題不會推遲波音公司（NYSE：BA）的波音 777X 計劃於 2027 年投入使用。 Ghai 在摩根士丹利會議上發表講話時表示，GE 開始運送帶有 [...]",
+        "stance": "2026 年 9 月 17 日，路透社報道稱，GE 航空航天公司 (NYSE:GE) 首席財務官 Rahul Ghai 表示相信，GE9X 發動機中密封件的耐久性問題不會推遲波音公司 (NYSE:BA) 的波音 777X 計劃於 2027 年投入使用。 Ghai 在摩根士丹利會議上發表講話時表示，GE 開始運送帶有 [...] 的 GE9X 引擎。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2551,86 +2616,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "FLEX",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "快訊",
-      "title": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"fa35e48ab0c432d7278f4428f5fce8e",
-      "summary": "",
-      "originalTitle": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"fa35e48ab0c432d7278f4428f5fce8e",
-      "originalSummary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"fa35e48ab0c432d7278f4428f5fce8e533bffa1f\"><head><meta charSet=\"utf-8\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><link rel=\"preload\" as=\"image\" href=\"https://pbs.twimg.com/amplify_video_thumb/2104380651944165376/img/7zBdRgP2KYCIvsvZ?format=webp&amp;name=medium\"/><script type=\"module\" async=\"\" src=\"https://abs.twimg.com/x-web/x-web/entry-client-logged-out-DS-cFmDJ.js\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"></script><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: dark)\" content=\"#000000\"/><meta property=\"csp-nonce\" content=\"tlKbRlV1CWwCllQfq2oByg==\"/><title>Wall St Engine on X: &quot;TRUMP IS HAVING DINNER TONIGHT WITH ANTHROPIC CEO DARIO AT 10PM&quot; / X</title><meta name=\"robots\" content=\"index, follow\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"fb:app_id\" content=\"2231777543\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"og:site_name\" content=\"X (formerly Twitter)\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"og:locale\" content=\"en_US\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"application-name\" content=\"X (formerly Twitter)\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"google-site-verification\" content=\"reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"facebook-domain-verification\" content=\"x6sdcc8b5ju3bh8nbm59eswogvg6t1\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta http-equiv=\"onion-location\" content=\"https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"al:ios:app_store_id\" content=\"333903271\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"al:ios:app_name\" content=\"X\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"al:android:package\" content=\"com.twitter.android\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta property=\"al:android:app_name\" content=\"X\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><met",
-      "url": "http://x.com/wallstengine/status/2104381410777928038",
-      "ts": "2026-09-28T00:00:00+00:00",
-      "sourceType": "wallstengine_x",
-      "analystPriority": false,
-      "socialSource": "Wall St Engine",
-      "socialScore": 10,
-      "relatedTickers": [
-        "FLEX",
-        "GOOGL",
-        "META"
-      ],
-      "eventType": "",
-      "score": 36.4,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"fa35e48ab0c432d7278f4428f5fce8e533bffa1f\"><head><meta charSet=\"utf-8\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><link rel=\"preload\" as=\"image\" href=\"https://pbs.twimg.com/amplify_video_thumb/2104380651944165376/img/7zBdRgP2KYCIvsvZ?format=webp&amp;name=medium\"/><script type=\"module\" async=\"\" src=",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"fa35e48ab0c432d7278f4428f5fce8e533bffa1f\"><head><meta charSet=\"utf-8\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"tlKbRlV1CWwCllQfq2oByg==\"/><link rel=\"preload\" as=\"image\" href=\"https://pbs.twimg.com/amplify_video_thumb/2104380651944165376/img/7zBdRgP2KYCIvsvZ?format=webp&amp;name=medium\"/><script type=\"module\" async=\"\" src=\"https://abs.twimg.com/x-web/x-web/entry",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "Nebius 將於 10 月 1 日提高其人工智慧運算的價格。以下是關於短缺的情況。",
-      "summary": "",
-      "originalTitle": "Nebius Is Raising the Price of Its AI Compute on Oct. 1. Here's What That Says About the Shortage.",
-      "originalSummary": "Nebius Group (NASDAQ:NBIS) is about to charge more for the computing power it rents out by the hour. On Thursday, Oct. 1, the artificial intelligence (AI) cloud company's on-demand rate for an Nvidia B300 graphics processing unit (GPU) climbs 21%, from $7.85 per hour to $9.50. Nebius expects to spend $20 billion to $25 billion on capital expenditures this year, versus guided revenue of $3 billion to $3.4 billion. A company building capacity so fast normally needs to work to fill it, not raise prices on it.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nebius-raising-price-ai-compute-235801614.html",
-      "ts": "2026-09-27T23:58:01+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.525874815179885,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NBIS",
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 18.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Nebius Group（納斯達克股票代碼：NBIS）即將對其按小時出租的運算能力收取更高的費用。 1 月 1 日，這家人工智慧 (AI) 雲端公司 Nvidia B300 圖形處理單元 (GPU) 的按需費率上漲了 21%，從每小時 7.85 美元增加到 9.50 美元。 Nebius 預計今年資本支出為 200 億至 250 億美元，而指導收入為 30 億至 34 億美元。一家公司的產能建設速度如此之快，通常需要努力填補產能，而不是提高價格。",
-        "numbers": [
-          "$7.85",
-          "$9.50.",
-          "$20 billion",
-          "$25 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Nebius 預計今年資本支出為 200 億至 250 億美元，而指導收入為 30 億至 34 億美元。一家公司的產能建設速度如此之快，通常需要努力填補產能，而不是提高價格。",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -4448,7 +4433,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票通常會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -4466,13 +4451,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票通常會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票通常會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -7343,7 +7328,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 將商業發射延後到 2027 年。以下是其現金能持續多久",
-      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
+      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
       "originalTitle": "AST SpaceMobile Pushed Commercial Launch to 2027. Here's How Long Its Cash Lasts Until Then",
       "originalSummary": "The space industry could be entering a new growth phase, and AST SpaceMobile (NASDAQ: ASTS) is one of the most interesting companies to watch. With its satellite network expanding and direct-to-device service increasingly a reality, AST has several major catalysts ahead. If those catalysts play out, the stock could distinguish itself as one of the sector's top performers heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ast-spacemobile-best-performing-103000605.html",
@@ -7359,10 +7344,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
+        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
+        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -9886,7 +9871,7 @@
       "group": "光通訊／網通",
       "tag": "利空",
       "title": "Piper Sandler 因成長擔憂而下調目標股價後，思科股價下跌 5%",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":n ull,\"additionalSectionContentFormatted\":\"人工智慧|軟體|電信\",\"additionalSectionContentFormattedFull\":\"人工智慧情報|軟體|電信\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"\",\"dateFirstPublished \":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000 \",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"思科股票在夏季創下歷史新高，但 Piper Sandler 分析师对该行业的增长已达到顶峰表示担忧",
+      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":n ull,\"additionalSectionContentFormatted\":\"人工智慧|軟體|電信\",\"additionalSectionContentFormattedFull\":\"人工智慧情報|軟體|電信\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"\",\"dateFirstPublished \":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000 \",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"思科股票在夏季創下歷史新高，但Piper Sandler 分析師對該行業的成長已達到頂峰表示擔憂",
       "originalTitle": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"ai artificial i|software|telecom\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|software|telecom\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel obrien\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000\",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"Cisco stock hit a record over the summer, but Piper Sandler analysts expressed concerns that growth is peaking in the industry.\",\"expires\":null,\"headline\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"id\":108366295,\"liveURL\":\"/2026/09/22/cisco-stock-piper-sandler-price-target.html\",\"native\":false,\"pageName\":\"108366295|2026/09/22/cisco-stock-piper-sandler-price-target\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|software|telecommunicati|cisco systems i|piper sandler c|earnings|technology sele|invesco qqq tru|alphabet class |microsoft corp|first trust nas|ishares expande|spdr sp 500 etf|ishares us tech\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|software|telecommunications|cisco systems inc|piper sandler companies|earnings|technology select sector spdr fund|invesco qqq trust|alphabet class a|microsoft corp|first trust nasdaq cybersecurity etf|ishares expanded techsoftware sector etf|spdr sp 500 etf trust|ishares us technology etf\",\"sectionHierarchyFormatted\":\"technology\",\"sectionHierarchyFormattedFull\":\"technology\",\"seoTitle\":\"Cisco stock sinks 5% after Piper Sandler cuts price target\",\"shortDateFirstPublished\":\"9/22/2026\",\"shortDateLastPublished\":\"9/22/2026\",\"shortDatePublished\":\"9/22/2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https://cnb.cx/4yQMGSn\"},{\"shareName\":\"Twitter\",\"url\":\"https://cnb.cx/4AzaxrB\"},{\"shareName\":\"Linkedin\",\"url\":\"https://cnb.cx/4AtAubW\"},{\"shareName\":\"Email\",\"url\":\"https://cnb.cx/4d2z7Hc\"},{\"shareName\":\"SMS\",\"url\":\"https://cnb.cx/4hFpwZk\"},{\"shareName\":\"AppleTV\",\"url\":\"https://cnb.cx/4At0FiW\"}],\"slug\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https://www.cnbc.com\",\"subType\":null,\"tagName\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"tagNameFormatted\":\"cisco stock sin\",\"tagNameFormattedFull\":\"cisco stock sinks 5 after piper sandler cuts price target on growth concerns\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"title\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"shortestHeadline\":null,\"type\":\"cnbcnewsstory\",\"url\":\"https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html\",\"canonicalUrlOverride\":null,\"vcpsId\":null",
       "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
@@ -10827,7 +10812,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "預測：AST SpaceMobile 將成為 2027 年表現最佳的太空股票",
-      "summary": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得購買的十隻股票，但 AST SpaceMobile 並未上榜。",
+      "summary": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
       "originalTitle": "Prediction: AST SpaceMobile Will Be the Best-Performing Space Stock of 2027",
       "originalSummary": "ASTS targets $89 with 53% upside, backed by 2,627% year-over-year revenue growth and $3.7B in liquidity to fund its 45-satellite buildout. Globalstar's pending Amazon takeover and Rocket Lab's $38B market cap validate ASTS's $18B valuation despite generating just $32M in Q2 revenue. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AST SpaceMobile didn't make the cut. Enter your email to see the names that beat ASTS. The report is free. Enter your email and see if any of your stocks made the cut. AST SpaceMobile ( NASDAQ:ASTS ) is attempting something no one else on Earth has done: build a cellular broadband network in space that talks directly to unmodified smartphones.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-building-something-world-170016499.html",
@@ -10844,7 +10829,7 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得購買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "event": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "numbers": [
           "$89",
           "$3.7B",
@@ -10852,7 +10837,7 @@
           "$18B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得購買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "stance": "ASTS 的目標價為 89 美元，上漲 53%，這得益於 2,627% 的同比收入增長和 3.7B 美元的流動性，為其 45 顆衛星的建設提供資金。 Globalstar 即將被亞馬遜收購，Rocket Lab 的 38B 市值證實了 ASTS 的 18B 估值，儘管第二季營收僅為 3,200 萬美元。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11496,7 +11481,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室看起來越來越像 SpaceX 的競爭對手。股票上漲了。",
-      "summary": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
+      "summary": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
       "originalTitle": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
       "originalSummary": "Cantor Fitzgerald kept its $122 Overweight target on RKLB, calling Neutron the only credible commercial rival to SpaceX's Falcon 9. SpaceX (SPCX) commands somewhere between 80 and 90 percent of total Earth mass to orbit annually, making RKLB the only listed pure-play building a scaled second source. RKLB's backlog surged 137% to $2.4 billion, and the U.S. Space Force named it an NSSL prime contractor in its FY2027 budget. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Rocket Lab didn't make the cut. Enter your email to see the names that beat RKLB. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-poised-become-only-190102545.html",
@@ -11512,7 +11497,7 @@
       ],
       "eventType": "跨公司事件",
       "investorBrief": {
-        "event": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
+        "event": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
         "numbers": [
           "$122",
           "$2.4 billion",
@@ -11520,7 +11505,7 @@
           "2.4 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
+        "stance": "RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -12853,7 +12838,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "德州儀器 (TXN) 2026 年股票預測與目標價 $TXN",
-      "summary": "投資管理公司 Heartland Advisors 發布了 2026 年第二季度「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+      "summary": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
       "originalTitle": "Texas Instruments (TXN) Stock Forecast and Price Target 2026 $TXN",
       "originalSummary": "Heartland Advisors , an investment management company, released its second-quarter 2026 investor letter for \"Heartland Opportunistic Value Equity Strategy\". The letter can be downloaded here . Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain. While security selection was positive in nine out of eleven sectors, led by Communications, Materials, and Industrials, negative selection within the Technology sector offset these benefits. In this volatile market, the firm focuses on businesses with significant upside potential and downside protection, rather than predicting the duration of AI infrastructure developments. Please review the Fund's top five holdings to learn more about its key selections for 2026.",
       "url": "https://finance.yahoo.com/technology/articles/ai-infrastructure-boom-fuels-texas-141812824.html",
@@ -12868,19 +12853,19 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "投資管理公司 Heartland Advisors 發布了 2026 年第二季度「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+        "event": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "numbers": [
           "12.32%",
           "14.02%"
         ],
-        "why": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季度「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
-        "stance": "投資管理公司 Heartland Advisors 發布了 2026 年第二季度「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+        "why": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+        "stance": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季度「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+        "takeaway": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -12931,7 +12916,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "美國電力 (AEP) 2026 年股票預測與目標價 $AEP",
-      "summary": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+      "summary": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
       "originalTitle": "American Electric Power (AEP) Stock Forecast and Price Target 2026 $AEP",
       "originalSummary": "American Electric Power stock posted adjusted EPS of USD 1.36 in Q2 2026, below the USD 1.48 consensus. Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/american-electric-power-stock-reports-7-percent-revenue-growth/70183717",
@@ -12946,17 +12931,17 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "event": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "numbers": [
           "5.45 billion"
         ],
-        "why": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
-        "stance": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "why": "券商調整理由：美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "stance": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修"
         ],
-        "takeaway": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "takeaway": "券商調整理由：美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
