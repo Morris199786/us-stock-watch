@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28 18:42 台灣時間",
+  "updatedAt": "2026-09-28 18:51 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
@@ -7,13 +7,92 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "LITE",
+      "group": "光通訊／網通",
+      "tag": "利多",
+      "title": "Citi 上修 LITE 目標價至 $1,400（原 $1,200）",
+      "summary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/lumentum-price-target-raised-to-1-400-from-1-200-at-citi Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are",
+      "originalTitle": "Lumentum price target raised to $1,400 from $1,200 at Citi",
+      "originalSummary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/lumentum-price-target-raised-to-1-400-from-1-200-at-citi Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "url": "https://www.tipranks.com/news/lumentum-price-target-raised-to-1-400-from-1-200-at-citi",
+      "ts": "2026-09-28T10:43:08+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [
+        {
+          "broker": "Citi",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$1,400",
+          "oldTarget": "$1,200",
+          "reason": "Lumentum price target raised to $1,400 from $1,200 at Citi Title: Just a moment...",
+          "reasonConfidence": "medium",
+          "targetTicker": "LITE",
+          "targetCompany": "Lumentum"
+        }
+      ],
+      "relatedTickers": [
+        "LITE"
+      ],
+      "eventType": "",
+      "score": 258.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Lumentum（LITE）｜券商：Citi｜動作：上修｜目標價：$1,400（原 $1,200）｜調整原因：Lumentum price target raised to $1,400 from $1,200 at Citi Title: Just a moment...",
+        "numbers": [
+          "$1,200",
+          "$1,400"
+        ],
+        "why": "調整原因：Lumentum price target raised to $1,400 from $1,200 at Citi Title: Just a moment...",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Lumentum price target raised to $1,400 from $1,200 at Citi Title: Just a moment...",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Stock Market Today: S&P 500, Dow Jones Futures Fall as Rising Yields and Trump’s Hormuz Deal Rejection Sp",
+      "summary": "",
+      "originalTitle": "Stock Market Today: S&P 500, Dow Jones Futures Fall as Rising Yields and Trump’s Hormuz Deal Rejection Sp",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQTHYtNHZSakdwYzNPNUJ0NXd2WHA5bi1TRjY1VWVKVV8yMk5LWTJ4dnl0ZVd5eDlzdkozcUtQTVNGUTJrSldNTjVENHhEUlN1QmdhNnNUTmkwVHNUWnlINllMdGtzWkFMaG1GamtnRnZWa0ZsQ1hHQzFkc2p6XzdwdjNmUnFCUXI0UVYyOVBGdkt3NHBQZEl4NXpWZG8zTERXQlFISXFLcWwzTXZKM1gxdFJjb3lUXzdydGRJMWYxMDc4Nkp2NGhGSl9obDJvVEdNMmJPcWNkdUdJMFJGRWlWRTJPNzR0WGpVSXhyeGgzeXBLaHFYQVVWRlo3UlAybWcxQVpCRGlxR0ZvZ1dXVmdGY0dCYUY3YXcyWEVWSg?oc=5",
+      "ts": "2026-09-28T10:33:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Nvidia launches AI safety platform after Jensen Huang calls Anthropic, OpenAI warnings 'odd'",
-      "summary": "Nvidia ( NVDA ) has released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier o",
+      "summary": "Nvidia ( NVDA ) released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier of AI",
       "originalTitle": "Nvidia launches AI safety platform after Jensen Huang calls Anthropic, OpenAI warnings 'odd'",
-      "originalSummary": "Nvidia ( NVDA ) has released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety. Safety and security require full-stack engineering.\"",
+      "originalSummary": "Nvidia ( NVDA ) released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier of AI capabilities, we must accelerate discovery at the frontier of AI safety. Safety and security require full-stack engineering.\"",
       "url": "https://finance.yahoo.com/technology/article/nvidia-launches-ai-safety-platform-after-jensen-huang-calls-anthropic-openai-warnings-odd-103135599.html",
       "ts": "2026-09-28T10:31:35+00:00",
       "sourceType": "ticker_feed",
@@ -29,10 +108,10 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "Nvidia ( NVDA ) has released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier o",
+        "event": "Nvidia ( NVDA ) released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release. \"As we continue to discover the frontier of AI",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Nvidia ( NVDA ) has released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release.",
+        "stance": "Nvidia ( NVDA ) released the Open Agent Safety Platform, which is aimed at helping AI developers to enforce safeguards on agents, a few days after the AI hardware giant's CEO questioned the security approaches of Anthropic and OpenAI. \"AI's extraordinary potential for society will only be realized if we solve AI safety,\" Nvidia CEO Jensen Huang stated in a press release.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -40,7 +119,41 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "利空",
+      "title": "Apple and Amazon Face UK Consumer Lawsuit Over Marketplace Sales",
+      "summary": "Apple (NASDAQ:AAPL) and Amazon (NASDAQ:AMZN) will face part of a UK consumer lawsuit alleging that restrictions on sellers of Apple products on Amazon’s UK marketplace reduced competition and increased prices. Britain’s Competition Appeal Tribunal on Monday allowed claims concerning Apple products purchased through Amazon’s marketplace to proceed, while rejecting broader claims covering products bought directly from",
+      "originalTitle": "Apple and Amazon Face UK Consumer Lawsuit Over Marketplace Sales",
+      "originalSummary": "Apple (NASDAQ:AAPL) and Amazon (NASDAQ:AMZN) will face part of a UK consumer lawsuit alleging that restrictions on sellers of Apple products on Amazon’s UK marketplace reduced competition and increased prices. Britain’s Competition Appeal Tribunal on Monday allowed claims concerning Apple products purchased through Amazon’s marketplace to proceed, while rejecting broader claims covering products bought directly from Apple and other retailers.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-amazon-face-uk-consumer-103044833.html",
+      "ts": "2026-09-28T10:30:44+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.11628839522013212,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Apple (NASDAQ:AAPL) and Amazon (NASDAQ:AMZN) will face part of a UK consumer lawsuit alleging that restrictions on sellers of Apple products on Amazon’s UK marketplace reduced competition and increased prices. Britain’s Competition Appeal Tribunal on Monday allowed claims concerning Apple products purchased through Amazon’s marketplace to proceed, while rejecting broader claims covering products bought directly from",
+        "numbers": [],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Apple (NASDAQ:AAPL) and Amazon (NASDAQ:AMZN) will face part of a UK consumer lawsuit alleging that restrictions on sellers of Apple products on Amazon’s UK marketplace reduced competition and increased prices. Britain’s Competition Appeal Tribunal on Monday allowed claims concerning Apple products purchased through Amazon’s marketplace to proceed, while rejecting broader claims covering products bought directly from",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -252,7 +365,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -403,7 +516,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "NVDA",
@@ -440,28 +553,28 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "INTC",
+      "group": "CPU 概念股",
       "tag": "題材",
       "title": "Stocks to Watch: Intel, Meta, Oracle",
-      "summary": "",
+      "summary": "↘️ Intel (INTC), Nvidia (NVDA), Micron Technology (MU): Chip stocks fell premarket and were the most actively traded shares before the opening bell. ↘️ Meta Platforms (META): The Facebook owner slipped around 3% premarket, after recent gains fueled by the popularity of its Muse AI agent.",
       "originalTitle": "Stocks to Watch: Intel, Meta, Oracle",
       "originalSummary": "↘️ Intel (INTC), Nvidia (NVDA), Micron Technology (MU): Chip stocks fell premarket and were the most actively traded shares before the opening bell. ↘️ Meta Platforms (META): The Facebook owner slipped around 3% premarket, after recent gains fueled by the popularity of its Muse AI agent.",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026/card/stocks-to-watch-intel-meta-oracle-xDbPWFTyOj0RjkaIT9a7?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-09-28T09:48:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.2181850565500021,
+      "movePct": -3.4461103697307482,
       "relatedTickers": [
-        "NVDA",
+        "INTC",
         "ORCL",
         "META",
-        "MU",
-        "INTC"
+        "NVDA",
+        "MU"
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": false,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "↘️ Intel (INTC), Nvidia (NVDA), Micron Technology (MU): Chip stocks fell premarket and were the most actively traded shares before the opening bell. ↘️ Meta Platforms (META): The Facebook owner slipped around 3% premarket, after recent gains fueled by the popularity of its Muse AI agent.",
@@ -547,7 +660,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "ORCL",
@@ -661,7 +774,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "AMD",
@@ -731,7 +844,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "更新：市場熱議：人工智慧晶片新創公司 DensityAI 正在洽談數億美元融資",
-      "summary": "（更新了亞馬遜在最後一段中的回應）DensityAI 正處於後期討論中",
+      "summary": "",
       "originalTitle": "Update: Market Chatter: AI Chip Startup DensityAI in Talks to Raise Hundreds of Millions of Dollars in Funding Round",
       "originalSummary": "(Updates with Amazon's response in the last paragraph) DensityAI is in late-stage discussions to",
       "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-ai-chip-startup-091733300.html",
@@ -744,7 +857,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -823,11 +936,41 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "HSBC Unifies OTC and Futures Clearing on Nasdaq Calypso",
+      "summary": "",
+      "originalTitle": "HSBC Unifies OTC and Futures Clearing on Nasdaq Calypso",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMlBqOExVdGp5RGVhb1F3MDJFZmQweWw0ZENncTdJXzMtbVJaV0hZT0FfeHFEQ1NNcVZ2QThOR0JvMnk5TTBySzRYcmk5Vl9XQndpbGlQbWRMRzhVSUVWMU83SFpkTlJIamhWaWlocEpBd212clZxVGV2R2tiVEFmSnRVekNVX2hxWEVmanZXNy1NLVI2R1NMeQ?oc=5",
+      "ts": "2026-09-28T09:12:17+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AVGO",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "INTC、AMD、AVGO：隨著美伊關係再度緊張，科技股受到重創，晶片股領跌",
-      "summary": "石油危機使人工智慧產業面臨新的宏觀考驗。",
+      "summary": "",
       "originalTitle": "INTC, AMD, AVGO: Chip Stocks Lead Slide As Tech Gets Hammered Amid Renewed U.S.-Iran Tensions",
       "originalSummary": "Oil shock has put the AI trade under a fresh macro test.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/intc-amd-avgo-chip-stocks-090819892.html",
@@ -841,7 +984,7 @@
       ],
       "eventType": "跨公司事件",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -889,14 +1032,14 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MU",
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "Jobs Report, Micron Earnings: What to Watch This Week",
-      "summary": "Monday  Earnings: Jefferies Financial, Vail Resorts   Federal Reserve speakers: Vice Chair for Supervision Michelle Bowman, Fed governor Lisa Cook   Economic data: Texas manufacturing outlook survey   Tuesday   Fed speakers: Fed governors Michael Barr, Christopher Waller and Michelle Bowman; New York Fed President John Williams.",
+      "summary": "",
       "originalTitle": "Jobs Report, Micron Earnings: What to Watch This Week",
       "originalSummary": "Monday  Earnings: Jefferies Financial, Vail Resorts   Federal Reserve speakers: Vice Chair for Supervision Michelle Bowman, Fed governor Lisa Cook   Economic data: Texas manufacturing outlook survey   Tuesday   Fed speakers: Fed governors Michael Barr, Christopher Waller and Michelle Bowman; New York Fed President John Williams.",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-28-2026/card/jobs-report-micron-earnings-what-to-watch-this-week-sFloTXzrAvibHuV0jEFv?siteid=yhoof2&yptr=yahoo",
@@ -909,7 +1052,7 @@
       ],
       "eventType": "",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Monday Earnings: Jefferies Financial, Vail Resorts Federal Reserve speakers: Vice Chair for Supervision Michelle Bowman, Fed governor Lisa Cook Economic data: Texas manufacturing outlook survey Tuesday Fed speakers: Fed governors Michael Barr, Christopher Waller and Michelle Bowman; New York Fed President John Williams.",
@@ -1485,7 +1628,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -1701,8 +1844,8 @@
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -1810,7 +1953,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1844,7 +1987,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "GOOGL",
@@ -2495,135 +2638,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "川普暗示比特幣和納斯達剋期貨下跌",
-      "summary": "",
-      "originalTitle": "Bitcoin and Nasdaq futures dip as Trump hints a...",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS1Nrdlk5YUgwZHFMV3BFV0RmdjhiXzVjRi04eURZbUtJcEU3T28xalVLVmhyMmc0NVZyVURZaVc5XzMxTUNMT3VrYVhtWWIxenJid0FLMFVrY0JjM3NDQUYwdzk1blMwX25id3ctRGtrV2N5cF85VGw4b1FQUFR1RlphekRhR1pxZmJ5YlBfN2hWNEt5b0FVWQ?oc=5",
-      "ts": "2026-09-28T04:24:17+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美伊外交希望推動油價下跌",
-      "summary": "",
-      "originalTitle": "Oil Prices Fall on U.S.-Iran Diplomacy Hopes",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV0dWcVNNMlhnbkxPYlRmRnlNblltd1JsbHNab0pINjBpTGFPYlR0aTdiZ1ZfRzNXMlJTRXhMeTF1S0xxY29pUk84UzFxQ3dmZy11S0VEWFZjMmczOXE3cjRBTFFQMDF1NlFERTJaYkZHSURES0JySlNQWHhOSGV4SC1yWGdlSXJLaE1TNjc0a1Y2YXdKR1hieEd4cw?oc=5",
-      "ts": "2026-09-28T04:21:06+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著油價上漲，亞洲股市漲跌互現 - 新聞時報",
-      "summary": "",
-      "originalTitle": "Asian shares trade mixed as oil prices rise - News-Times",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ2UxOGljT1JaT2pWNHNPN2hIajR1OEZ3Ym16V2Q2dWJLOHE1M1BKcWx4a0ZoZG5aRmNVUUJrLXZSclZzcmp1QXg5VTRXVWRrcHBtOWRocUxWejF6dEgxM05OUTNRX3FXREhZdzJMXy1mUDFDMWNKazI5VlB0dUZKTHREMERaZDFKR2tQOHNSQVhtdFF3YTFQaTRGb1o4aDF3MG9n?oc=5",
-      "ts": "2026-09-28T04:18:34+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SK 海力士 (SKHY)：Solidigm 能否成為故事中更重要的一部分？",
-      "summary": "",
-      "originalTitle": "SK Hynix (SKHY): Can Solidigm Become a Bigger Part of the Story?",
-      "originalSummary": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S. NAND flash subsidiary, Solidigm, targeting a 2027 U.S. listing that could value the business at $150 billion and raise up to $15 billion, according to Reuters. Solidigm held initial pitch meetings with investment banks this […]",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-solidigm-become-041729365.html",
-      "ts": "2026-09-28T04:17:29+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -5.0483351235230955,
-      "relatedTickers": [
-        "SK HYNIX"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S. listing that could value the business at $150 billion and raise up to $15 billion, according to Reuters. Solidigm held initial pitch meetings with investment banks this […]",
-        "numbers": [
-          "$150 billion",
-          "$15 billion",
-          "150 billion",
-          "15 billion"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
