@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-09-28 17:34 台灣時間",
+  "updatedAt": "2026-09-28 17:37 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-09-28",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "摩根大通將特斯拉目標價從 445 美元調整至 415 美元，維持中性評級",
+      "summary": "",
+      "originalTitle": "JPMorgan Adjusts Price Target on Tesla to $415 From $445, Keeps Neutral Rating",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSjQ5YkV2LVV5cWtOMDZCeGtTWmczSGNxZWZXeVo1aWZkTzhWb0lNbkowRDFOcmtMZXB3cHdTQy12SGlTZDJGeVlpQ0hIQkpTTzZwcVY5RXZBRzVJTkVUYThYMnVVWmF3dGJfR2prbWk5dUlUZU1TQUN1MDdSUk5kandLY1BuN25EMjJvTXJTNWVYSVZORXNfSW5XRGVzTWhpbGhUUEpLUGVKbFp1SkFJd01VTnpvVmUwSlItb29kVDR2YmVTTEhv?oc=5",
+      "ts": "2026-09-28T09:31:37+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "JPMorgan",
+          "analyst": "",
+          "rating": "Neutral",
+          "action": "下修",
+          "newTarget": "$415",
+          "oldTarget": "$445",
+          "reason": "摩根大通將特斯拉目標價從 445 美元調整至 415 美元，維持中性評級",
+          "reasonConfidence": "medium",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：JPMorgan｜動作：下修｜評等：Neutral｜目標價：$415（原 $445）｜調整原因：摩根大通將特斯拉目標價從 445 美元調整至 415 美元，維持中性評級",
+        "numbers": [
+          "$445",
+          "$415"
+        ],
+        "why": "調整原因：摩根大通將特斯拉目標價從 445 美元調整至 415 美元，維持中性評級",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：摩根大通將特斯拉目標價從 445 美元調整至 415 美元，維持中性評級",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "AMZN",
       "group": "CSP",
@@ -100,8 +149,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -137,7 +186,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -234,6 +283,40 @@
       "top10Rank": null
     },
     {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Nvidia 推出旨在阻止人工智慧代理出錯的系統",
+      "summary": "Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would’ve prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.",
+      "originalTitle": "Nvidia Debuts System Designed to Stop AI Agents From Going Awry",
+      "originalSummary": "Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would’ve prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-debuts-system-designed-stop-090000908.html",
+      "ts": "2026-09-28T09:00:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.2181850565500021,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would’ve prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Nvidia Corp. introduced a new double-layered artificial intelligence security system that it says would’ve prevented the recent high-profile breach of Hugging Face by OpenAI’s AI models.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "META",
       "group": "CSP",
       "tag": "題材",
@@ -306,38 +389,6 @@
       "originalTitle": "Nvidia debuts enhanced safety controls to rein in rogue AI agents",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb3FuNTczVG9sd0FLNzlzbHRBSFRLYnBrb1Jyc0hnSEl3Tmd2MzJDWktlc0FjMWhfbVF5allBRTBOOFpnVzl0cHpvOC1UUThJYU9mTjZMT3RZTVJWeDA0LXBEcC1KZVJuNldiSnFEc0hmQmwxNThrTnAtMFRSZllrVGJ6QnRpM0ZweDJBd2dlTThuNjZ2czRKZVAybkttNTNEeHJIZg?oc=5",
-      "ts": "2026-09-28T09:00:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Nvidia 推出旨在阻止人工智慧代理出錯的系統",
-      "summary": "",
-      "originalTitle": "Nvidia Debuts System Designed to Stop AI Agents From Going Awry",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNXp5U1NScVBhb29ldkZHSmNLS1pYVHBvRGhXTHNuSDh2QXpkY2hUeDBqTjBFekpaOVA4YW9vcEo0endNWjhDb2dSQ0V1NVJGNTZUMEowT0dlX2liaEE3VmV0UGtpdHRHNGhvSUlERTkyY3BaU0o3cUhCdlktdUxOcHljY21yTUY3ekJoclh2SWJQd0kwV05ua0ItdzNkTklTS25YWUU2ZkZ5RFRNUC03bEp5Wko?oc=5",
       "ts": "2026-09-28T09:00:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
@@ -634,7 +685,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -851,7 +902,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -959,7 +1010,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -993,7 +1044,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "GOOGL",
@@ -1026,7 +1077,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -1097,14 +1148,14 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "RKLB",
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Stocktwits 併購觀察：PSKY、WBD、BP、DVN、RKLB、IRDM 股票成為焦點",
-      "summary": "派拉蒙 Skydance 收購華納兄弟探索公司、英國石油公司報導的對 Devon Energy 南德克薩斯業務的興趣，以及股東批准 Rocket Lab 收購 Iridium Communications 都是本週關注的主要交易。",
+      "summary": "",
       "originalTitle": "Stocktwits M&A Watch: PSKY, WBD, BP, DVN, RKLB, IRDM Stocks In Focus",
       "originalSummary": "Paramount Skydance’s acquisition of Warner Bros. Discovery, BP's reported interest in Devon Energy’s South Texas operations, and a shareholder approval of Iridium Communications’ acquisition by Rocket Lab are among the major deals in focus this week.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stocktwits-m-watch-psky-wbd-064039438.html",
@@ -1117,7 +1168,7 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "派拉蒙 Skydance 收購華納兄弟探索公司、英國石油公司報導的對 Devon Energy 南德克薩斯業務的興趣，以及股東批准 Rocket Lab 收購 Iridium Communications 都是本週關注的主要交易。",
@@ -1168,7 +1219,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "根據報道，北京方面正在考慮允許英偉達出售，中國晶片製造股暴跌",
-      "summary": "Investing.com—有報告指出北京正在考慮允許一些本土公司購買 NVIDIA 公司（納斯達克股票代碼：NVDA）的先進晶片，週一中國晶片製造股大幅下跌。",
+      "summary": "",
       "originalTitle": "China chipmaking stocks tumble as Beijing reportedly mulls allowing Nvidia sales",
       "originalSummary": "Investing.com-- Chinese chipmaking stocks fell sharply on Monday after a report said Beijing was considering allowing some local firms to buy NVIDIA Corp’s (NASDAQ:NVDA) advanced chips.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/china-chipmaking-stocks-tumble-beijing-062228002.html",
@@ -1181,7 +1232,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Investing.com—有報告指出北京正在考慮允許一些本土公司購買 NVIDIA 公司（納斯達克股票代碼：NVDA）的先進晶片，週一中國晶片製造股大幅下跌。",
@@ -2543,38 +2594,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光獲利預測：分析師預計營收將成長 350% 以上，零售多頭押注新的回購",
-      "summary": "",
-      "originalTitle": "Micron Earnings Preview: Analysts See Over 350% Revenue Jump As Retail Bulls Bet On Fresh Buyback",
-      "originalSummary": "Micron stock regained momentum heading into the Sept. 30 earnings report.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-earnings-preview-analysts-see-022234081.html",
-      "ts": "2026-09-28T02:22:34+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.16195755786512223,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 10.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
