@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-09-28 15:43 台灣時間",
+  "updatedAt": "2026-09-28 15:48 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-09-28",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "10年期公債利率為5.2%。標普 500 指數只需要 4% 的獲利成長就能跟上。",
+      "summary": "",
+      "originalTitle": "The 10-Year Treasury Pays 5.2%. The S&P 500 Only Needs 4% Earnings Growth to Keep Up.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdm10M2diUFBQaGMtanpFaldZZUVjM3BUNjZ0VFFCeXZvSVBSa20wVTVPeEh6NWZqeFpZZEhnMHRuT3lIc2w4b2laY0ZfZU9HbzJOcjhBVGpfTDRFMmIyaDdfWkRLSVFPdHZUT0xaQ1RaM0FBRTBRRkdGMTFfbl9XTUl2NENJYUYwZmFsSzdVdUxlYm5XREdsdzBVbzBEYTl4MER6SERVT0F3ZDFPTWhtN2x0cG83c00xd1g0alYzcldscEpQSHZv?oc=5",
+      "ts": "2026-09-28T07:45:33+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 12.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -359,7 +389,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1047,8 +1077,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "PL",
+      "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Planet Labs (PL) 與 SpaceX：新太空探索 (SPCX) 能否支援長期成長？",
       "summary": "Planet Labs PBC（NYSE：PL）於 9 月 25 日宣布，其 Pelican-12 衛星已抵達佛羅裡達州卡納維拉爾角太空部隊站，隨後將在太空探索技術公司（納斯達克股票代碼：SPCX）即將執行的 Bandwagon-5 乘車共享任務中發射升空。第二代高分辨率卫星的光学分辨率升级至 30 厘米，并通过 NVIDIA 在轨人工智能边缘计算 [...]",
@@ -1058,12 +1088,12 @@
       "ts": "2026-09-28T03:56:31+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 0.2181850565500021,
+      "movePct": -1.0783200908059065,
       "analystDetails": [],
       "relatedTickers": [
-        "NVDA",
         "PL",
-        "SPCX"
+        "SPCX",
+        "NVDA"
       ],
       "eventType": "跨公司事件",
       "score": 228.0,
@@ -2606,41 +2636,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "亞馬遜利用普睿司曼和力拓提供低碳資料中心電纜。這對投資者意味著什麼？",
-      "summary": "",
-      "originalTitle": "Amazon Taps Prysmian and Rio Tinto for Low-Carbon Data Center Cables. What Does it Mean for Investors?",
-      "originalSummary": "Prysmian is finding another way into the data-center buildout, and this time the story isn’t about fiber. The Italian cable maker has partnered with Rio Tinto (NYSE:RIO) to supply electrical cables made with low-carbon aluminum for an Amazon (NASDAQ:AMZN) data center in Ohio. The cables will use aluminum produced with ELYSIS inert-anode technology, which Prysmian […]",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-taps-prysmian-rio-tinto-233642318.html",
-      "ts": "2026-09-27T23:36:42+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.11628839522013212,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "普睿司曼正在尋找另一種方式進行資料中心擴建，這次的故事與光纖無關。這家義大利電纜製造商與力拓（NYSE：RIO）合作，為俄亥俄州的亞馬遜（納斯達克股票代碼：AMZN）資料中心供應低碳鋁電纜。這些電纜將使用採用 ELYSIS 惰性陽極技術生產的鋁，普睿司曼 [...]",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "普睿司曼正在尋找另一種方式進行資料中心擴建，這次的故事與光纖無關。這家義大利電纜製造商與力拓（NYSE：RIO）合作，為俄亥俄州的亞馬遜（納斯達克股票代碼：AMZN）資料中心供應低碳鋁電纜。這些電纜將使用採用 ELYSIS 惰性陽極技術生產的鋁，普睿司曼 [...]",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
       "top10": false,
