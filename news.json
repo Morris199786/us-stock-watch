@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29 04:15 台灣時間",
+  "updatedAt": "2026-09-29 04:18 台灣時間",
   "historyUpdatedDate": "2026-09-29",
   "historyLastAttemptAt": "2026-09-28T16:02:50.217719+00:00",
   "historyItemCount": 800,
@@ -351,7 +351,7 @@
       "ts": "2026-09-28T19:34:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.4993231397439013,
+      "movePct": 0.5037615676527274,
       "relatedTickers": [
         "TSM"
       ],
@@ -455,7 +455,7 @@
       "ts": "2026-09-28T19:26:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.274981765134921,
+      "movePct": -3.2603938730853432,
       "relatedTickers": [
         "ORCL"
       ],
@@ -917,7 +917,7 @@
       "ts": "2026-09-28T19:12:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.891503003988497,
+      "movePct": -6.906649164436818,
       "relatedTickers": [
         "BA"
       ],
@@ -1080,6 +1080,36 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "國債殖利率本週結束時恢復三月走高",
+      "summary": "",
+      "originalTitle": "Treasury Bond Yields Resume Their March Higher to End the Week",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM2VZNkx1WkRhRFhWUlNOSVZGYlpzN0IyWE1pR3FnZktlUllVU1RDUFJlWWotenpIUlg1cWYxTl9FQjFEb01zd1NUZmxKaHE2X2drZFF2eDBfZm53bDV6bS1sbUVlWUJMWXpWRUo2QmhUYjFmTFZVUXFpVVJKcEdKX0U2UkxtV0dRRXRYVUF3TlRQNTZ6LWtRcFlfQnNVQm5QVGdzNDJZcTZNbkU?oc=5",
+      "ts": "2026-09-28T19:04:23+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "題材",
@@ -1120,13 +1150,13 @@
       "title": "Nvidia推出安全平台以防止人工智慧代理失控",
       "summary": "",
       "originalTitle": "Nvidia launches security platform to keep AI agents from going rogue",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMWltYmFLcGlHZ0xEWWI1bFdDQW1LVlUxUlluUEx4RzRZdDVBc2dNbFI1MmhfUkNSWVRqdXpCZDA3TFc2Wl95dVE4cWV5bWw5THlyVGRLdGRlcUlQV3o5eEdLZUdRMWhPUDM5a2NoenNoMlRRaGNVSzlNOVk4RG03VzFXZ01NUy13aGV2VVh3NTNMVXNZYUVlNFh1UXR5OHNDWWZz0gGoAUFVX3lxTFBQYk5SS2VsRTJXQmM4NjRaTGhuMC1pS2NuUEwyY1RmWEoxQlhaSzVCRHlyZGIzRUVZNVhnZGZNSmJ3OFZFOUZhNXI0Qjk3X3lIa3oxV0Z1N0xCT01XVUhBeFlUUTN3SG1RdnJRV2NPWl9FWWc1aTd5NU9YVHhuUXZKNHlrb2JKNkdyY0JKSERSenpWNUc5S3Q4ZV9SWE9fclFzdnpUYWhRZA?oc=5",
+      "originalSummary": "Nvidia on Monday announced the release of software safety tools for artificial intelligence (AI) agents that it said would've stopped the hack of Hugging Face by rogue OpenAI agents. The incident involving Hugging Face, which was acquired by Nvidia for $13 billion, involved OpenAI agents that broke containment from an internal test and the two companies ultimately worked together to defeat the attack. Nvidia's announcement comes as OpenAI and Anthropic, the two top AI labs in the U.S. that develop frontier models, are investigating numerous instances in which AI agents hacked into commercial and government systems. Justin Boitano, vice president and general manager of enterprise computing at Nvidia, said at a media briefing, \"From what we know, this new security platform could have stopped the breach if it was being used in frontier labs for model evaluation early on.\" TOP AI COMPANIES CALL FOR SAFETY MEASURES WHILE CRITICS WARN REGULATION COULD STIFLE INNOVATION Nvidia's OpenShell provides what the company described as an open-source secure runtime for executing autonomous AI agents in sandboxed environments with kernel-level isolation. It said that \"every agent should run in a zero-trust environment out of the box. They need isolation, monitoring, and behavior detection,\" which the software can offer. AI agents can drift from their intended task or operating constraints in response to a policy block, a bug or a missing tool, if instructions are ambiguous or agents are left to run for days or weeks to solve difficult problems, and they fail repeatedly, Nvidia said. AI EXPERT WARNS 'MACHINE-SPEED' CYBERTHREATS MAY REQUIRE FASTER DEFENSES THAN HUMAN-LED RESPONSES Each agent runs in a sandbox in OpenShell, which checks the limits and instructions provided by the operator before an agent runs and enforces them as it works. Organizations can also get an additional, independent layer of security through Nvidia Sentry, which extends monitoring and enforcement into Nvidia's BlueField hardware. The security foundation is programmable with Nvidia DOCA and can be connected with OpenShell to help identify drift, investigate suspicious behavior and determine when intervention or deeper analysis is needed. BANKS WARN AI SHOPPING AGENTS COULD INCREASE RISK OF SCAMS, FRAUD AND DATA PRIVACY BREACHES OpenShell and Sentry are part of the Nvidia Open Agent Safety Platform, which is being adopted by a range of companies in the tech sector and other industries, including Anthropic. \"We're advancing this openly, and we want to engage everybody to work with us,\" Boitano added. GET FOX BUSINESS ON THE GO BY CLICKING HERE",
+      "url": "https://www.foxbusiness.com/markets/nvidia-launches-security-platform-keep-ai-agents-from-going-rogue",
       "ts": "2026-09-28T19:02:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
@@ -1135,16 +1165,23 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Nvidia 週一宣布發佈人工智慧 (AI) 代理軟體安全工具，稱該工具將阻止流氓 OpenAI 代理對 Hugging Face 的攻擊。被英偉達以 130 億美元收購的 Hugging Face 事件涉及 OpenAI 代理，該代理在內部測試中突破了遏制，兩家公司最終共同擊敗了這次攻擊。 Nvidia's announcement comes as OpenAI and Anthropic, the two top AI labs in the U.S. AI agents can drift from their",
+        "numbers": [
+          "$13 billion",
+          "13 billion"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Nvidia 週一宣布發佈人工智慧 (AI) 代理軟體安全工具，稱該工具將阻止流氓 OpenAI 代理對 Hugging Face 的攻擊。被英偉達以 130 億美元收購的 Hugging Face 事件涉及 OpenAI 代理，該代理在內部測試中突破了遏制，兩家公司最終共同擊敗了這次攻擊。 Nvidia 宣布這項消息之際，美國兩個開發前沿模型的頂級人工智慧實驗室 OpenAI 和 Anthropic 正在調查人工智慧代理入侵商業和政府系統的眾多案例。",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 8,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "INTC",
@@ -1255,7 +1292,7 @@
       "ts": "2026-09-28T18:57:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.891503003988497,
+      "movePct": -6.906649164436818,
       "relatedTickers": [
         "BA"
       ],
@@ -1481,7 +1518,7 @@
       "ts": "2026-09-28T18:42:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.891503003988497,
+      "movePct": -6.906649164436818,
       "relatedTickers": [
         "BA"
       ],
@@ -1683,7 +1720,7 @@
       "ts": "2026-09-28T18:30:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.21422137831982324,
+      "movePct": -0.19839820833028599,
       "relatedTickers": [
         "CAT"
       ],
@@ -2055,7 +2092,7 @@
       "ts": "2026-09-28T17:53:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.612439053395164,
+      "movePct": 0.6302770840765914,
       "relatedTickers": [
         "APH",
         "BE",
@@ -2091,7 +2128,7 @@
       "ts": "2026-09-28T17:52:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.545279383429679,
+      "movePct": -4.522867863299862,
       "relatedTickers": [
         "COHR",
         "AAOI",
@@ -2468,7 +2505,7 @@
       "ts": "2026-09-28T17:30:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.86727630117084,
+      "movePct": -2.884368857362618,
       "relatedTickers": [
         "CRM"
       ],
@@ -2741,48 +2778,6 @@
         "stance": "英偉達表示，它正在為「一代人一次的平台轉型」提供資金，同時向投資者提供創紀錄的 1,500 億美元回購資金。以 16.5 倍的預期本益比計算，黃仁勳似乎很樂意逢低買進。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "今日股市：道瓊斯指數下跌，黃金股融化； Nvidia 在此崛起，棒球比賽測試條目（現場報導）",
-      "summary": "",
-      "originalTitle": "Stock Market Today: Dow Skids, Gold Stocks Melt; Nvidia Rises On This, Baseball Play Tests Entry (Live Coverage)",
-      "originalSummary": "With Investor's Business Daily continuing to recommend exposure in the 80% to 100% range, it remains crucial to keep track of breakouts. Atlanta Braves stock managed this on Monday when it cleared a cup-base buy point of 54.46, according to MarketSurge analysis. Shares were off session highs in recent trade. As the Major League Baseball regular season came to a close Sunday, the championship playoffs are now in focus. The Braves in the running after recently winning the National League East division title. The stock is pulling away from its short-term moving averages, which have just cleared the important 50-day line. This is a first-stage pattern, which is a plus. The relative strength line hit fresh heights Monday, another bullish sign as it attempts a breakout. However, there are a number of negatives that make this stock hard to recommend. Notably, it has an IBD Composite Rating of just 56 out of 99. On the positive side, it ranks among the top 18% of equities in terms of price performance over the past 12 months. Shares have also rallied around 38% already this year, which is much better than the benchmark S&P 500's gain. However, it is poor from a fundamental standpoint, with its EPS Rating coming in at just 13 out of 99. Wall Street analysts expect a loss per share of 64 cents both this year and next. Atlanta Braves Holdings is behind Braves Holdings, which owns the Atlanta Braves Major League Baseball Club. Its segments include Baseball, which generates the bulk of its sales, and Mixed-Use Development.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-iran-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
-      "ts": "2026-09-28T17:14:34+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.408139689874278,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "由於《投資者商業日報》繼續建議在 80% 至 100% 的範圍內進行投資，因此追蹤突破仍然至關重要。從積極的一面來看，就過去 12 個月的價格表現而言，它躋身股票前 18% 之列。今年股價也上漲了 38% 左右，比基準標準普爾 500 指數的漲幅要好得多。然而，從基本面來看，該公司的每股盈餘評級僅為 13（滿分為 99 分）。",
-        "numbers": [
-          "80%",
-          "100%",
-          "18%",
-          "38%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "由於《投資者商業日報》繼續建議在 80% 至 100% 的範圍內進行投資，因此追蹤突破仍然至關重要。根據 MarketSurge 的分析，亞特蘭大勇士隊的股票週一達到了這一水平，當時它突破了 54.46 點的杯基買點。在最近的交易中，股價脫離盤中高點。隨著美國職棒大聯盟常規賽週日結束，冠軍季後賽成為焦點。勇士隊最近贏得了國家聯盟東區冠軍後，正在繼續努力。該股正在脫離其剛突破重要 50 日線的短期移動平均線。這是第一階段的模式，這是一個優點。相對強度線週一觸及新高，這是其試圖突破的另一個看漲訊號。然而，有許多負面因素使得這隻股票難以推薦。值得注意的是，它的 IBD 綜合評級為 j",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
