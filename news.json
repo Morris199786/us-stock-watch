@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28 16:03 台灣時間",
+  "updatedAt": "2026-09-28 16:08 台灣時間",
   "historyUpdatedDate": "2026-09-28",
   "historyLastAttemptAt": "2026-09-27T16:01:55.119064+00:00",
   "historyItemCount": 800,
@@ -35,7 +35,8 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 7,
+      "hasArticleBody": false
     },
     {
       "ticker": "MARKET",
@@ -129,8 +130,42 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nvidia、Micron、Alphabet、Oracle 和 Adob​​e 是 Zacks 收益預覽的一部分",
+      "summary": "",
+      "originalTitle": "Nvidia, Micron, Alphabet, Oracle and Adobe are part of Zacks Earnings Preview",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQ01DZENhZERZYWxfSnVjd01fekprLThYaVR2ekVIZ1Z2QmhOenhtNTRKNmNWSkFEdHNreHliTkZySUhBNFUtN1V4blFpZXhmX0ttb29jZWRxcEUwUWtrTzZxNEZHRHhyZDk5NVFkbm5kX2tRRk1rU2NET0VBdVMtV1E5RVNaVjQ5Q3AybFcyX1hHRWJySWNBOGp0ODdQMVpRUldmXzNfVjlxdGJVYVBuUmg2NTNlTlVZUnFGMkpXYmtWQ1VZRlNac2djSXNtcmE5bTFZaklJdWRuRHRUa0VESnpieENFNkoxNXJtdkln?oc=5",
+      "ts": "2026-09-28T07:19:54+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "ORCL",
+        "NVDA",
+        "MU"
+      ],
+      "eventType": "",
+      "score": 27.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 3
     },
     {
       "ticker": "GOOGL",
@@ -163,7 +198,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 4,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -234,7 +269,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "RKLB",
@@ -320,7 +355,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -398,8 +433,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "PL",
@@ -658,40 +693,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Nvidia、Micron、Alphabet、Oracle 和 Adob​​e 是 Zacks 收益預覽的一部分",
-      "summary": "Nvidia、Micron 和 Alphabet 公佈了廣泛的第三季度盈利前景，而 Oracle 和 Adob​​e 則以早期業績拉開了本季的序幕。",
-      "originalTitle": "Nvidia, Micron, Alphabet, Oracle and Adobe are part of Zacks Earnings Preview",
-      "originalSummary": "Nvidia, Micron and Alphabet headline a broad-based Q3 earnings outlook, while Oracle and Adobe kick off the season with early results.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-micron-alphabet-oracle-adobe-050100697.html",
-      "ts": "2026-09-28T05:01:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.2181850565500021,
-      "relatedTickers": [
-        "NVDA",
-        "ORCL",
-        "MU"
-      ],
-      "eventType": "",
-      "score": 24.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 5
-    },
-    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -880,7 +881,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "SK 海力士 (SKHY)：Solidigm 能否成為故事中更重要的一部分？",
-      "summary": "",
+      "summary": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S. NAND flash subsidiary, Solidigm, targeting a 2027 U.S. listing that could value the business at $150 billion and raise up to $15 billion, according to Reuters. Solidigm held initial pitch meetings with investment banks this […]",
       "originalTitle": "SK Hynix (SKHY): Can Solidigm Become a Bigger Part of the Story?",
       "originalSummary": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S. NAND flash subsidiary, Solidigm, targeting a 2027 U.S. listing that could value the business at $150 billion and raise up to $15 billion, according to Reuters. Solidigm held initial pitch meetings with investment banks this […]",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-skhy-solidigm-become-041729365.html",
@@ -893,10 +894,10 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": false,
+      "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "據路透社報道，9 月 25 日有報道稱，SK 海力士公司（納斯達克股票代碼：SKHY）正在評估其在美國上市的首次公開募股，該公司的估值可能達到 1500 億美元，並籌集最多 150 億美元資金。 Solidigm 今年與投資銀行舉行了初步推廣會議 [...]",
+        "event": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S. listing that could value the business at $150 billion and raise up to $15 billion, according to Reuters. Solidigm held initial pitch meetings with investment banks this […]",
         "numbers": [
           "$150 billion",
           "$15 billion",
@@ -904,7 +905,7 @@
           "15 billion"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "根據路透社 9 月 25 日報道，SK 海力士公司（納斯達克股票代碼：SKHY）正在評估其美國 NAND 閃存子公司 Solidigm 的首次公開募股，目標是 2027 年在美國上市，預計該業務估值將達到 1500 億美元，融資至多 150 億美元。",
+        "stance": "It was reported on September 25 that SK Hynix Inc. (NASDAQ:SKHY) is evaluating an initial public offering for its U.S.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -9885,7 +9886,7 @@
       "group": "光通訊／網通",
       "tag": "利空",
       "title": "Piper Sandler 因成長擔憂而下調目標股價後，思科股價下跌 5%",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":n ull,\"additionalSectionContentFormatted\":\"人工智慧|軟體|電信\",\"additionalSectionContentFormattedFull\":\"人工智慧情報|軟體|電信\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"\",\"dateFirstPublished \":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000 \",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"思科股票在夏季創下歷史新高，但Piper Sandler 分析師對該行業的成長已達到頂峰表示擔憂",
+      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":n ull,\"additionalSectionContentFormatted\":\"人工智慧|軟體|電信\",\"additionalSectionContentFormattedFull\":\"人工智慧情報|軟體|電信\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"\",\"dateFirstPublished \":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000 \",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"思科股票在夏季創下歷史新高，但 Piper Sandler 分析师对该行业的增长已达到顶峰表示担忧",
       "originalTitle": "Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"ai artificial i|software|telecom\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|software|telecom\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel obrien\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-09-22T19:21:11+0000\",\"dateLastPublished\":\"2026-09-22T20:49:25+0000\",\"datePublished\":\"2026-09-22T19:21:11+0000\",\"description\":\"Cisco stock hit a record over the summer, but Piper Sandler analysts expressed concerns that growth is peaking in the industry.\",\"expires\":null,\"headline\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"id\":108366295,\"liveURL\":\"/2026/09/22/cisco-stock-piper-sandler-price-target.html\",\"native\":false,\"pageName\":\"108366295|2026/09/22/cisco-stock-piper-sandler-price-target\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|software|telecommunicati|cisco systems i|piper sandler c|earnings|technology sele|invesco qqq tru|alphabet class |microsoft corp|first trust nas|ishares expande|spdr sp 500 etf|ishares us tech\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|software|telecommunications|cisco systems inc|piper sandler companies|earnings|technology select sector spdr fund|invesco qqq trust|alphabet class a|microsoft corp|first trust nasdaq cybersecurity etf|ishares expanded techsoftware sector etf|spdr sp 500 etf trust|ishares us technology etf\",\"sectionHierarchyFormatted\":\"technology\",\"sectionHierarchyFormattedFull\":\"technology\",\"seoTitle\":\"Cisco stock sinks 5% after Piper Sandler cuts price target\",\"shortDateFirstPublished\":\"9/22/2026\",\"shortDateLastPublished\":\"9/22/2026\",\"shortDatePublished\":\"9/22/2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https://cnb.cx/4yQMGSn\"},{\"shareName\":\"Twitter\",\"url\":\"https://cnb.cx/4AzaxrB\"},{\"shareName\":\"Linkedin\",\"url\":\"https://cnb.cx/4AtAubW\"},{\"shareName\":\"Email\",\"url\":\"https://cnb.cx/4d2z7Hc\"},{\"shareName\":\"SMS\",\"url\":\"https://cnb.cx/4hFpwZk\"},{\"shareName\":\"AppleTV\",\"url\":\"https://cnb.cx/4At0FiW\"}],\"slug\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https://www.cnbc.com\",\"subType\":null,\"tagName\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"tagNameFormatted\":\"cisco stock sin\",\"tagNameFormattedFull\":\"cisco stock sinks 5 after piper sandler cuts price target on growth concerns\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"title\":\"Cisco stock sinks 5% after Piper Sandler cuts price target on growth concerns\",\"shortestHeadline\":null,\"type\":\"cnbcnewsstory\",\"url\":\"https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html\",\"canonicalUrlOverride\":null,\"vcpsId\":null",
       "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
