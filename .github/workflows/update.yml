@@ -43,129 +43,571 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install integrated fixes
-        env:
-          PATCH_B64: >-
-            ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmltcG9ydCByZQoKcm9vdCA9IFBhdGgoJy4nKQp1cGRhdGVyX2ZpbGUgPSByb290IC8gJ3VwZGF0ZXIucHknCmlu
-            ZGV4X2ZpbGUgPSByb290IC8gJ2luZGV4Lmh0bWwnCgpzID0gdXBkYXRlcl9maWxlLnJlYWRfdGV4dChlbmNvZGluZz0ndXRmLTgnKQoKaWYgJ2RlZiBfc2Vu
-            ZF90ZWxlZ3JhbSgnIG5vdCBpbiBzOgogICAgbWFya2VyID0gJ2RlZiByZWZyZXNoX21hY3JvX2RhdGEoKTonCiAgICBpZiBtYXJrZXIgbm90IGluIHM6CiAg
-            ICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdyZWZyZXNoX21hY3JvX2RhdGEgbWFya2VyIG1pc3NpbmcnKQoKICAgIGhlbHBlcnMgPSByJycnCmRlZiBfc2Vu
-            ZF90ZWxlZ3JhbSh0aXRsZSwgbWVzc2FnZSwgdXJsPU5vbmUpOgogICAgdG9rZW4gPSAob3MuZW52aXJvbi5nZXQoIlRFTEVHUkFNX0JPVF9UT0tFTiIpIG9y
-            ICIiKS5zdHJpcCgpCiAgICBjaGF0X2lkID0gKG9zLmVudmlyb24uZ2V0KCJURUxFR1JBTV9DSEFUX0lEIikgb3IgIiIpLnN0cmlwKCkKICAgIGlmIG5vdCB0
-            b2tlbiBvciBub3QgY2hhdF9pZDoKICAgICAgICByZXR1cm4gRmFsc2UsICJtaXNzaW5nX3RlbGVncmFtX3NlY3JldHMiCgogICAgdGV4dCA9IGYie3RpdGxl
-            fVxue21lc3NhZ2V9Ii5zdHJpcCgpCiAgICBpZiB1cmw6CiAgICAgICAgdGV4dCArPSBmIlxue3VybH0iCgogICAgdHJ5OgogICAgICAgIHBheWxvYWQgPSBq
-            c29uLmR1bXBzKHsKICAgICAgICAgICAgImNoYXRfaWQiOiBjaGF0X2lkLAogICAgICAgICAgICAidGV4dCI6IHRleHRbOjM5MDBdLAogICAgICAgICAgICAi
-            ZGlzYWJsZV93ZWJfcGFnZV9wcmV2aWV3IjogVHJ1ZSwKICAgICAgICB9LCBlbnN1cmVfYXNjaWk9RmFsc2UpLmVuY29kZSgidXRmLTgiKQogICAgICAgIHJl
-            cSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3QoCiAgICAgICAgICAgIGYiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdHt0b2tlbn0vc2VuZE1lc3NhZ2Ui
-            LAogICAgICAgICAgICBkYXRhPXBheWxvYWQsCiAgICAgICAgICAgIGhlYWRlcnM9eyJDb250ZW50LVR5cGUiOiJhcHBsaWNhdGlvbi9qc29uIiwiVXNlci1B
-            Z2VudCI6InVzLXN0b2NrLXdhdGNoLzEuMCJ9LAogICAgICAgICAgICBtZXRob2Q9IlBPU1QiLAogICAgICAgICkKICAgICAgICB3aXRoIHVybGxpYi5yZXF1
-            ZXN0LnVybG9wZW4ocmVxLCB0aW1lb3V0PTEyKSBhcyByOgogICAgICAgICAgICBvayA9IDIwMCA8PSBnZXRhdHRyKHIsICJzdGF0dXMiLCAyMDApIDwgMzAw
-            CiAgICAgICAgcmV0dXJuIG9rLCAib2siIGlmIG9rIGVsc2UgImh0dHBfZXJyb3IiCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcmV0dXJu
-            IEZhbHNlLCB0eXBlKGUpLl9fbmFtZV9fCgoKZGVmIF9mZl9jbGVhbl9odG1sX3RleHQodmFsdWUpOgogICAgdGV4dCA9IHJlLnN1YihyIjxbXj5dKz4iLCAi
-            ICIsIHN0cih2YWx1ZSBvciAiIikpCiAgICB0ZXh0ID0gcmUuc3ViKHIiXHMrIiwgIiAiLCB0ZXh0KQogICAgcmV0dXJuIGh0bWxfbGliLnVuZXNjYXBlKHRl
-            eHQpLnN0cmlwKCkKCgpkZWYgX2ZmX3dlYl9jYWxlbmRhcl90b2RheSgpOgogICAgdHJ5OgogICAgICAgIHJlcSA9IHVybGxpYi5yZXF1ZXN0LlJlcXVlc3Qo
-            CiAgICAgICAgICAgICJodHRwczovL3d3dy5mb3JleGZhY3RvcnkuY29tL2NhbGVuZGFyP2RheT10b2RheSIsCiAgICAgICAgICAgIGhlYWRlcnM9ewogICAg
-            ICAgICAgICAgICAgIlVzZXItQWdlbnQiOiJNb3ppbGxhLzUuMCIsCiAgICAgICAgICAgICAgICAiQWNjZXB0IjoidGV4dC9odG1sLGFwcGxpY2F0aW9uL3ho
-            dG1sK3htbCIsCiAgICAgICAgICAgICAgICAiQWNjZXB0LUxhbmd1YWdlIjoiZW4tVVMsZW47cT0wLjkiLAogICAgICAgICAgICAgICAgIlJlZmVyZXIiOiJo
-            dHRwczovL3d3dy5mb3JleGZhY3RvcnkuY29tL2NhbGVuZGFyIiwKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICAgICAgd2l0aCB1cmxsaWIucmVxdWVz
-            dC51cmxvcGVuKHJlcSwgdGltZW91dD0xNSkgYXMgcjoKICAgICAgICAgICAgaHRtbF90ZXh0ID0gci5yZWFkKCkuZGVjb2RlKCJ1dGYtOCIsICJpZ25vcmUi
-            KQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICByZXR1cm4ge30KCiAgICByb3dzID0gcmUuZmluZGFsbCgKICAgICAgICByJyg8dHJbXj5dKmNsYXNz
-            PSJbXiJdKmNhbGVuZGFyX19yb3dbXiJdKiJbXj5dKj4uKj88L3RyPiknLAogICAgICAgIGh0bWxfdGV4dCwKICAgICAgICBmbGFncz1yZS5JIHwgcmUuUywK
-            ICAgICkKICAgIG91dCA9IHt9CiAgICBmb3Igcm93IGluIHJvd3M6CiAgICAgICAgbSA9IHJlLnNlYXJjaCgKICAgICAgICAgICAgcidjbGFzcz0iW14iXSpj
-            YWxlbmRhcl9fZXZlbnRbXiJdKiJbXj5dKj4oLio/KTwvdGQ+JywKICAgICAgICAgICAgcm93LAogICAgICAgICAgICBmbGFncz1yZS5JIHwgcmUuUywKICAg
-            ICAgICApCiAgICAgICAgaWYgbm90IG06CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgdGl0bGUgPSBfZmZfY2xlYW5faHRtbF90ZXh0KG0uZ3JvdXAo
-            MSkpCiAgICAgICAgaWYgbm90IHRpdGxlOgogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICBkZWYgY2VsbChjbHMpOgogICAgICAgICAgICBtbSA9IHJl
-            LnNlYXJjaCgKICAgICAgICAgICAgICAgIHJmJ2NsYXNzPSJbXiJdKntyZS5lc2NhcGUoY2xzKX1bXiJdKiJbXj5dKj4oLio/KTwvdGQ+JywKICAgICAgICAg
-            ICAgICAgIHJvdywKICAgICAgICAgICAgICAgIGZsYWdzPXJlLkkgfCByZS5TLAogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBfZmZfY2xlYW5f
-            aHRtbF90ZXh0KG1tLmdyb3VwKDEpKSBpZiBtbSBlbHNlICIiCgogICAgICAgIG91dFt0aXRsZS5sb3dlcigpXSA9IHsKICAgICAgICAgICAgImFjdHVhbCI6
-            IGNlbGwoImNhbGVuZGFyX19hY3R1YWwiKSwKICAgICAgICAgICAgImZvcmVjYXN0IjogY2VsbCgiY2FsZW5kYXJfX2ZvcmVjYXN0IiksCiAgICAgICAgICAg
-            ICJwcmV2aW91cyI6IGNlbGwoImNhbGVuZGFyX19wcmV2aW91cyIpLAogICAgICAgIH0KICAgIHJldHVybiBvdXQKCgpkZWYgX2ZmX2FwcGx5X3dlYl9mYWxs
-            YmFjayhyYXdfcm93cywgbm93X3V0Yyk6CiAgICBuZWVkID0gRmFsc2UKICAgIGZvciByb3cgaW4gcmF3X3Jvd3M6CiAgICAgICAgaWYgc3RyKHJvdy5nZXQo
-            ImNvdW50cnkiKSBvciByb3cuZ2V0KCJjdXJyZW5jeSIpIG9yICIiKS51cHBlcigpICE9ICJVU0QiOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlt
-            cGFjdCA9IHN0cihyb3cuZ2V0KCJpbXBhY3QiKSBvciAiIikuc3RyaXAoKS50aXRsZSgpCiAgICAgICAgaWYgaW1wYWN0IG5vdCBpbiAoIkhpZ2giLCAiTWVk
-            aXVtIik6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgZHQgPSBfZmZfZHQocm93KQogICAgICAgIGlmIGR0IGFuZCBkdCA8PSBub3dfdXRjICsgdGlt
-            ZWRlbHRhKG1pbnV0ZXM9MSkgYW5kIG5vdCBzdHIocm93LmdldCgiYWN0dWFsIikgb3IgIiIpLnN0cmlwKCk6CiAgICAgICAgICAgIG5lZWQgPSBUcnVlCiAg
-            ICAgICAgICAgIGJyZWFrCgogICAgaWYgbm90IG5lZWQ6CiAgICAgICAgcmV0dXJuIHJhd19yb3dzCgogICAgd2ViID0gX2ZmX3dlYl9jYWxlbmRhcl90b2Rh
-            eSgpCiAgICBpZiBub3Qgd2ViOgogICAgICAgIHJldHVybiByYXdfcm93cwoKICAgIGZvciByb3cgaW4gcmF3X3Jvd3M6CiAgICAgICAgdGl0bGUgPSBzdHIo
-            cm93LmdldCgidGl0bGUiKSBvciAiIikuc3RyaXAoKQogICAgICAgIGlmIG5vdCB0aXRsZToKICAgICAgICAgICAgY29udGludWUKICAgICAgICB3ID0gd2Vi
-            LmdldCh0aXRsZS5sb3dlcigpKQogICAgICAgIGlmIG5vdCB3OgogICAgICAgICAgICB3YW50ZWQgPSByZS5zdWIociJbXmEtejAtOV0rIiwgIiAiLCB0aXRs
-            ZS5sb3dlcigpKS5zdHJpcCgpCiAgICAgICAgICAgIGZvciBrLCB2IGluIHdlYi5pdGVtcygpOgogICAgICAgICAgICAgICAgaWYgcmUuc3ViKHIiW15hLXow
-            LTldKyIsICIgIiwgaykuc3RyaXAoKSA9PSB3YW50ZWQ6CiAgICAgICAgICAgICAgICAgICAgdyA9IHYKICAgICAgICAgICAgICAgICAgICBicmVhawogICAg
-            ICAgIGlmIG5vdCB3OgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGlmIHcuZ2V0KCJhY3R1YWwiKToKICAgICAgICAgICAgcm93WyJhY3R1YWwiXSA9
-            IHdbImFjdHVhbCJdCiAgICAgICAgaWYgdy5nZXQoImZvcmVjYXN0Iik6CiAgICAgICAgICAgIHJvd1siZm9yZWNhc3QiXSA9IHdbImZvcmVjYXN0Il0KICAg
-            ICAgICBpZiB3LmdldCgicHJldmlvdXMiKToKICAgICAgICAgICAgcm93WyJwcmV2aW91cyJdID0gd1sicHJldmlvdXMiXQogICAgcmV0dXJuIHJhd19yb3dz
-            CgoKJycnCiAgICBzID0gcy5yZXBsYWNlKG1hcmtlciwgaGVscGVycyArIG1hcmtlciwgMSkKCmZldGNoX29sZCA9ICcgICAgcmF3ID0gX2ZmX2ZldGNoKEZG
-            X1RISVNfV0VFS19KU09OKVxuICAgIHJhdyArPSBfZmZfZmV0Y2goRkZfTkVYVF9XRUVLX0pTT04pJwppZiAnX2ZmX2FwcGx5X3dlYl9mYWxsYmFjayhyYXcs
-            IG5vd191dGMpJyBub3QgaW4gczoKICAgIGlmIGZldGNoX29sZCBub3QgaW4gczoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ0ZvcmV4IEZhY3Rvcnkg
-            ZmV0Y2ggbWFya2VyIG1pc3NpbmcnKQogICAgcyA9IHMucmVwbGFjZShmZXRjaF9vbGQsIGZldGNoX29sZCArICdcbiAgICByYXcgPSBfZmZfYXBwbHlfd2Vi
-            X2ZhbGxiYWNrKHJhdywgbm93X3V0YyknLCAxKQoKbW9ybmluZ19vbGQgPSAnJycgICAgICAgIG9rLCBfID0gX3NlbmRfcHVzaG92ZXIoCiAgICAgICAgICAg
-            ICLku4rml6Xnvo7lnIvph43opoHmlbjmk5oiLAogICAgICAgICAgICAiXFxuIi5qb2luKGxpbmVzWzoxMl0pLAogICAgICAgICAgICB1cmw9Imh0dHBzOi8v
-            bW9ycmlzMTk5Nzg2LmdpdGh1Yi5pby91cy1zdG9jay13YXRjaC8/cGFnZT1tYWNybyIKICAgICAgICApJycnCm1vcm5pbmdfbmV3ID0gbW9ybmluZ19vbGQu
-            cmVwbGFjZSgnX3NlbmRfcHVzaG92ZXInLCdfc2VuZF90ZWxlZ3JhbScpCmlmIG1vcm5pbmdfb2xkIGluIHM6CiAgICBzID0gcy5yZXBsYWNlKG1vcm5pbmdf
-            b2xkLCBtb3JuaW5nX25ldywgMSkKCnJlc3VsdF9vbGQgPSAnJycgICAgICAgIG9rLCBfID0gX3NlbmRfcHVzaG92ZXIoCiAgICAgICAgICAgICLnvo7lnIvm
-            lbjmk5rlhazluIMiLAogICAgICAgICAgICBtc2csCiAgICAgICAgICAgIHVybD0iaHR0cHM6Ly9tb3JyaXMxOTk3ODYuZ2l0aHViLmlvL3VzLXN0b2NrLXdh
-            dGNoLz9wYWdlPW1hY3JvIgogICAgICAgICknJycKcmVzdWx0X25ldyA9IHJlc3VsdF9vbGQucmVwbGFjZSgnX3NlbmRfcHVzaG92ZXInLCdfc2VuZF90ZWxl
-            Z3JhbScpCmlmIHJlc3VsdF9vbGQgaW4gczoKICAgIHMgPSBzLnJlcGxhY2UocmVzdWx0X29sZCwgcmVzdWx0X25ldywgMSkKCmZvciB0b2tlbiBpbiAoCiAg
-            ICAnZGVmIF9zZW5kX3RlbGVncmFtKCcsCiAgICAnZGVmIF9mZl93ZWJfY2FsZW5kYXJfdG9kYXkoJywKICAgICdfZmZfYXBwbHlfd2ViX2ZhbGxiYWNrKHJh
-            dywgbm93X3V0YyknLAogICAgJ19zZW5kX3RlbGVncmFtKFxuICAgICAgICAgICAgIuS7iuaXpee+juWci+mHjeimgeaVuOaTmiInLAogICAgJ19zZW5kX3Rl
-            bGVncmFtKFxuICAgICAgICAgICAgIue+juWci+aVuOaTmuWFrOW4gyInLAopOgogICAgaWYgdG9rZW4gbm90IGluIHM6CiAgICAgICAgcmFpc2UgUnVudGlt
-            ZUVycm9yKCdtYWNybyBjaGVjayBmYWlsZWQ6ICcgKyB0b2tlbikKCmNvbXBpbGUocywgJ3VwZGF0ZXIucHknLCAnZXhlYycpCnVwZGF0ZXJfZmlsZS53cml0
-            ZV90ZXh0KHMsIGVuY29kaW5nPSd1dGYtOCcpCgpoID0gaW5kZXhfZmlsZS5yZWFkX3RleHQoZW5jb2Rpbmc9J3V0Zi04JykKCmlmICdpZD0iYXNzZXRGaWx0
-            ZXIiJyBub3QgaW4gaDoKICAgIG0gPSByZS5zZWFyY2gocicoPHNlbGVjdCBpZD0iY2hhbWJlckZpbHRlciI+Lio/PC9zZWxlY3Q+KScsIGgsIGZsYWdzPXJl
-            LlMpCiAgICBpZiBub3QgbToKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ0NvbmdyZXNzIGNoYW1iZXJGaWx0ZXIgbm90IGZvdW5kJykKICAgIGFzc2V0
-            X3NlbGVjdCA9ICdcbiAgICA8c2VsZWN0IGlkPSJhc3NldEZpbHRlciI+PG9wdGlvbiB2YWx1ZT0ibGlzdGVkIiBzZWxlY3RlZD7kuIrluILogqHnpajvvI9F
-            VEY8L29wdGlvbj48b3B0aW9uIHZhbHVlPSJvdGhlciI+5YW25LuW6LOH55SiPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iIj7lhajpg6jos4fnlKI8L29wdGlv
-            bj48L3NlbGVjdD4nCiAgICBoID0gaFs6bS5lbmQoKV0gKyBhc3NldF9zZWxlY3QgKyBoW20uZW5kKCk6XQoKaWYgJ2Z1bmN0aW9uIGNvbmdyZXNzQXNzZXRO
-            YW1lKHgpJyBub3QgaW4gaDoKICAgIG1hcmtlciA9ICdmdW5jdGlvbiByZW5kZXJDb25ncmVzcygpeycKICAgIGlmIG1hcmtlciBub3QgaW4gaDoKICAgICAg
-            ICByYWlzZSBSdW50aW1lRXJyb3IoJ3JlbmRlckNvbmdyZXNzIG1hcmtlciBtaXNzaW5nJykKICAgIGhlbHBlcnMgPSByJycnZnVuY3Rpb24gY29uZ3Jlc3NB
-            c3NldE5hbWUoeCl7CiAgY29uc3QgdGlja2VyPVN0cmluZyh4LnRpY2tlcnx8IiIpLnRyaW0oKS50b1VwcGVyQ2FzZSgpOwogIGlmKHRpY2tlcilyZXR1cm4g
-            dGlja2VyOwogIGxldCBhc3NldD1TdHJpbmcoeC5hc3NldHx8IiIpLnJlcGxhY2UoL1xzKy9nLCIgIikudHJpbSgpOwogIGlmKCFhc3NldClyZXR1cm4gIuWF
-            tuS7luizh+eUoiI7CiAgY29uc3QgY29tcGFueT1hc3NldC5tYXRjaCgvQ29tcGFueTpccyooLis/KSg/OlxzKlwoW14pXSpcKXxccypEZXNjcmlwdGlvbjp8
-            JCkvaSk7CiAgaWYoY29tcGFueSYmY29tcGFueVsxXSlyZXR1cm4gY29tcGFueVsxXS50cmltKCk7CiAgYXNzZXQ9YXNzZXQucmVwbGFjZSgvXHMqRGVzY3Jp
-            cHRpb246LiokL2ksIiIpLnRyaW0oKTsKICByZXR1cm4gYXNzZXR8fCLlhbbku5bos4fnlKIiOwp9CmZ1bmN0aW9uIGNvbmdyZXNzQXNzZXRTdWJMYWJlbCh4
-            KXsKICBjb25zdCB0aWNrZXI9U3RyaW5nKHgudGlja2VyfHwiIikudHJpbSgpLnRvVXBwZXJDYXNlKCk7CiAgaWYodGlja2VyKXJldHVybiBTdHJpbmcoeC5h
-            c3NldHx8IiIpLnJlcGxhY2UoL1xzKy9nLCIgIikudHJpbSgpOwogIGNvbnN0IGFzc2V0PVN0cmluZyh4LmFzc2V0fHwiIikucmVwbGFjZSgvXHMrL2csIiAi
-            KS50cmltKCk7CiAgY29uc3QgZGVzYz1hc3NldC5tYXRjaCgvRGVzY3JpcHRpb246XHMqKC4rKSQvaSk7CiAgaWYoZGVzYyYmZGVzY1sxXSlyZXR1cm4gZGVz
-            Y1sxXS50cmltKCk7CiAgcmV0dXJuIFN0cmluZyh4LmFzc2V0VHlwZXx8IiIpLnRyaW0oKXx8IumdnuS4iuW4guizh+eUoiI7Cn0KCicnJwogICAgaCA9IGgu
-            cmVwbGFjZShtYXJrZXIsIGhlbHBlcnMgKyBtYXJrZXIsIDEpCgppZiAnY29uc3QgYXNzZXRNb2RlPScgbm90IGluIGg6CiAgICBhbmNob3IgPSAnICBjb25z
-            dCBjaGFtYmVyPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJjaGFtYmVyRmlsdGVyIik/LnZhbHVlfHwiIjsnCiAgICBpZiBhbmNob3Igbm90IGluIGg6CiAg
-            ICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdDb25ncmVzcyBjaGFtYmVyIHZhcmlhYmxlIG5vdCBmb3VuZCcpCiAgICBoID0gaC5yZXBsYWNlKGFuY2hvciwg
-            YW5jaG9yICsgJ1xuICBjb25zdCBhc3NldE1vZGU9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImFzc2V0RmlsdGVyIik/LnZhbHVlPz8ibGlzdGVkIjsnLCAx
-            KQoKaWYgJ2Fzc2V0TW9kZT09PSJsaXN0ZWQiJyBub3QgaW4gaDoKICAgIGFuY2hvciA9ICcgICAgaWYoY2hhbWJlciAmJiAoeC5jaGFtYmVyfHwiIikhPT1j
-            aGFtYmVyKXJldHVybiBmYWxzZTsnCiAgICBpZiBhbmNob3Igbm90IGluIGg6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdDb25ncmVzcyBmaWx0ZXIg
-            YW5jaG9yIG5vdCBmb3VuZCcpCiAgICBoID0gaC5yZXBsYWNlKGFuY2hvciwgYW5jaG9yICsgJ1xuICAgIGNvbnN0IGhhc1RpY2tlcj0hIVN0cmluZyh4LnRp
-            Y2tlcnx8IiIpLnRyaW0oKTtcbiAgICBpZihhc3NldE1vZGU9PT0ibGlzdGVkIiAmJiAhaGFzVGlja2VyKXJldHVybiBmYWxzZTtcbiAgICBpZihhc3NldE1v
-            ZGU9PT0ib3RoZXIiICYmIGhhc1RpY2tlcilyZXR1cm4gZmFsc2U7JywgMSkKCmlmICdjb25zdCB0aWNrZXJMYWJlbD14LnRpY2tlcnx8Ik4vQSInIGluIGg6
-            CiAgICBoID0gaC5yZXBsYWNlKCcgICAgY29uc3QgdGlja2VyTGFiZWw9eC50aWNrZXJ8fCJOL0EiOycsICcgICAgY29uc3QgdGlja2VyTGFiZWw9Y29uZ3Jl
-            c3NBc3NldE5hbWUoeCk7XG4gICAgY29uc3QgYXNzZXRTdWI9Y29uZ3Jlc3NBc3NldFN1YkxhYmVsKHgpOycsIDEpCiAgICBoID0gaC5yZXBsYWNlKCc8ZGl2
-            PjxkaXYgY2xhc3M9InRpY2tlciI+JHt0aWNrZXJMYWJlbH08L2Rpdj48ZGl2IGNsYXNzPSJjc21hbGwiPiR7eC5hc3NldHx8IiJ9PC9kaXY+PC9kaXY+Jywg
-            JzxkaXY+PGRpdiBjbGFzcz0idGlja2VyIj4ke2VzY2FwZUh0bWwodGlja2VyTGFiZWwpfTwvZGl2PjxkaXYgY2xhc3M9ImNzbWFsbCI+JHtlc2NhcGVIdG1s
-            KGFzc2V0U3ViKX08L2Rpdj48L2Rpdj4nLCAxKQoKaCA9IGgucmVwbGFjZSgnWyJhY3Rpb25GaWx0ZXIiLCJjaGFtYmVyRmlsdGVyIl0uZm9yRWFjaChpZD0+
-            ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpPy5hZGRFdmVudExpc3RlbmVyKCJjaGFuZ2UiLCgpPT57X19jb25ncmVzc0xpbWl0PTUwO3JlbmRlckNvbmdy
-            ZXNzKCk7fSkpOycsICdbImFjdGlvbkZpbHRlciIsImNoYW1iZXJGaWx0ZXIiLCJhc3NldEZpbHRlciJdLmZvckVhY2goaWQ9PmRvY3VtZW50LmdldEVsZW1l
-            bnRCeUlkKGlkKT8uYWRkRXZlbnRMaXN0ZW5lcigiY2hhbmdlIiwoKT0+e19fY29uZ3Jlc3NMaW1pdD01MDtyZW5kZXJDb25ncmVzcygpO30pKTsnLCAxKQoK
-            Y2xlYXJfb2xkID0gJyBjb25zdCBhPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJhY3Rpb25GaWx0ZXIiKSxjPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJj
-            aGFtYmVyRmlsdGVyIik7aWYoYSlhLnZhbHVlPSIiO2lmKGMpYy52YWx1ZT0iIjsnCmNsZWFyX25ldyA9ICcgY29uc3QgYT1kb2N1bWVudC5nZXRFbGVtZW50
-            QnlJZCgiYWN0aW9uRmlsdGVyIiksYz1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiY2hhbWJlckZpbHRlciIpLGFmPWRvY3VtZW50LmdldEVsZW1lbnRCeUlk
-            KCJhc3NldEZpbHRlciIpO2lmKGEpYS52YWx1ZT0iIjtpZihjKWMudmFsdWU9IiI7aWYoYWYpYWYudmFsdWU9Imxpc3RlZCI7JwppZiBjbGVhcl9vbGQgaW4g
-            aDoKICAgIGggPSBoLnJlcGxhY2UoY2xlYXJfb2xkLCBjbGVhcl9uZXcsIDEpCgpmb3IgdG9rZW4gaW4gKAogICAgJ2lkPSJhc3NldEZpbHRlciInLAogICAg
-            J29wdGlvbiB2YWx1ZT0ibGlzdGVkIiBzZWxlY3RlZCcsCiAgICAnZnVuY3Rpb24gY29uZ3Jlc3NBc3NldE5hbWUoeCknLAogICAgJ2Z1bmN0aW9uIGNvbmdy
-            ZXNzQXNzZXRTdWJMYWJlbCh4KScsCiAgICAnYXNzZXRNb2RlPT09Imxpc3RlZCInLAogICAgJ1siYWN0aW9uRmlsdGVyIiwiY2hhbWJlckZpbHRlciIsImFz
-            c2V0RmlsdGVyIl0nLAopOgogICAgaWYgdG9rZW4gbm90IGluIGg6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdDb25ncmVzcyBjaGVjayBmYWlsZWQ6
-            ICcgKyB0b2tlbikKCmlmICdjb25zdCB0aWNrZXJMYWJlbD14LnRpY2tlcnx8Ik4vQSInIGluIGg6CiAgICByYWlzZSBSdW50aW1lRXJyb3IoJ09sZCBOL0Eg
-            bG9naWMgc3RpbGwgZXhpc3RzJykKCmluZGV4X2ZpbGUud3JpdGVfdGV4dChoLCBlbmNvZGluZz0ndXRmLTgnKQpwcmludCgnSW50ZWdyYXRlZCBmaXhlcyBp
-            bnN0YWxsZWQgc3VjY2Vzc2Z1bGx5JykK
         run: |
-          printf '%s' "$PATCH_B64" | tr -d '[:space:]' | base64 -d > /tmp/install_fixes.py
+          cat > /tmp/install_fixes.py <<'PY'
+          from pathlib import Path
+
+          updater_file = Path("updater.py")
+          index_file = Path("index.html")
+
+          # ===== updater.py: macro Telegram + Forex Factory visible-page fallback =====
+          s = updater_file.read_text(encoding="utf-8")
+
+          if "def _send_telegram(" not in s:
+              marker = "def refresh_macro_data():"
+              if marker not in s:
+                  raise RuntimeError("refresh_macro_data marker missing")
+
+              helpers = """
+          def _send_telegram(title, message, url=None):
+              token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+              chat_id = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+              if not token or not chat_id:
+                  return False, "missing_telegram_secrets"
+
+              text = f"{title}\\n{message}".strip()
+              if url:
+                  text += f"\\n{url}"
+
+              try:
+                  payload = json.dumps({
+                      "chat_id": chat_id,
+                      "text": text[:3900],
+                      "disable_web_page_preview": True,
+                  }, ensure_ascii=False).encode("utf-8")
+                  req = urllib.request.Request(
+                      f"https://api.telegram.org/bot{token}/sendMessage",
+                      data=payload,
+                      headers={"Content-Type":"application/json","User-Agent":"us-stock-watch/1.0"},
+                      method="POST",
+                  )
+                  with urllib.request.urlopen(req, timeout=12) as r:
+                      ok = 200 <= getattr(r, "status", 200) < 300
+                  return ok, "ok" if ok else "http_error"
+              except Exception as e:
+                  return False, type(e).__name__
+
+
+          def _ff_clean_html_text(value):
+              text = re.sub(r"<[^>]+>", " ", str(value or ""))
+              text = re.sub(r"\\s+", " ", text)
+              return html_lib.unescape(text).strip()
+
+
+          def _ff_web_calendar_today():
+              try:
+                  req = urllib.request.Request(
+                      "https://www.forexfactory.com/calendar?day=today",
+                      headers={
+                          "User-Agent":"Mozilla/5.0",
+                          "Accept":"text/html,application/xhtml+xml",
+                          "Accept-Language":"en-US,en;q=0.9",
+                          "Referer":"https://www.forexfactory.com/calendar",
+                      },
+                  )
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      html_text = r.read().decode("utf-8", "ignore")
+              except Exception:
+                  return {}
+
+              rows = re.findall(
+                  r'(<tr[^>]*class="[^"]*calendar__row[^"]*"[^>]*>.*?</tr>)',
+                  html_text,
+                  flags=re.I | re.S,
+              )
+
+              out = {}
+
+              for row in rows:
+                  m = re.search(
+                      r'class="[^"]*calendar__event[^"]*"[^>]*>(.*?)</td>',
+                      row,
+                      flags=re.I | re.S,
+                  )
+
+                  if not m:
+                      continue
+
+                  title = _ff_clean_html_text(m.group(1))
+
+                  if not title:
+                      continue
+
+                  def cell(cls):
+                      mm = re.search(
+                          rf'class="[^"]*{re.escape(cls)}[^"]*"[^>]*>(.*?)</td>',
+                          row,
+                          flags=re.I | re.S,
+                      )
+
+                      return _ff_clean_html_text(
+                          mm.group(1)
+                      ) if mm else ""
+
+                  out[title.lower()] = {
+                      "actual": cell("calendar__actual"),
+                      "forecast": cell("calendar__forecast"),
+                      "previous": cell("calendar__previous"),
+                  }
+
+              return out
+
+
+          def _ff_apply_web_fallback(raw_rows, now_utc):
+              need = False
+
+              for row in raw_rows:
+                  if str(
+                      row.get("country")
+                      or row.get("currency")
+                      or ""
+                  ).upper() != "USD":
+                      continue
+
+                  impact = str(
+                      row.get("impact")
+                      or ""
+                  ).strip().title()
+
+                  if impact not in (
+                      "High",
+                      "Medium"
+                  ):
+                      continue
+
+                  dt = _ff_dt(row)
+
+                  if (
+                      dt
+                      and dt <= now_utc + timedelta(minutes=1)
+                      and not str(
+                          row.get("actual")
+                          or ""
+                      ).strip()
+                  ):
+                      need = True
+                      break
+
+              if not need:
+                  return raw_rows
+
+              web = _ff_web_calendar_today()
+
+              if not web:
+                  return raw_rows
+
+              for row in raw_rows:
+                  title = str(
+                      row.get("title")
+                      or ""
+                  ).strip()
+
+                  if not title:
+                      continue
+
+                  w = web.get(
+                      title.lower()
+                  )
+
+                  if not w:
+                      wanted = re.sub(
+                          r"[^a-z0-9]+",
+                          " ",
+                          title.lower()
+                      ).strip()
+
+                      for k, v in web.items():
+                          if re.sub(
+                              r"[^a-z0-9]+",
+                              " ",
+                              k
+                          ).strip() == wanted:
+                              w = v
+                              break
+
+                  if not w:
+                      continue
+
+                  if w.get("actual"):
+                      row["actual"] = w["actual"]
+
+                  if w.get("forecast"):
+                      row["forecast"] = w["forecast"]
+
+                  if w.get("previous"):
+                      row["previous"] = w["previous"]
+
+              return raw_rows
+
+
+          """
+
+              s = s.replace(
+                  marker,
+                  helpers + marker,
+                  1
+              )
+
+          fetch_anchor = (
+              "    raw = _ff_fetch(FF_THIS_WEEK_JSON)\\n"
+              "    raw += _ff_fetch(FF_NEXT_WEEK_JSON)"
+          )
+
+          fallback_line = (
+              "    raw = "
+              "_ff_apply_web_fallback(raw, now_utc)"
+          )
+
+          if fallback_line not in s:
+              if fetch_anchor not in s:
+                  raise RuntimeError(
+                      "Forex Factory fetch marker missing"
+                  )
+
+              s = s.replace(
+                  fetch_anchor,
+                  fetch_anchor
+                  + "\\n"
+                  + fallback_line,
+                  1
+              )
+
+          morning_old = """        ok, _ = _send_pushover(
+                      "今日美國重要數據",
+                      "\\n".join(lines[:12]),
+                      url="https://morris199786.github.io/us-stock-watch/?page=macro"
+                  )"""
+
+          morning_new = morning_old.replace(
+              "_send_pushover",
+              "_send_telegram"
+          )
+
+          if morning_old in s:
+              s = s.replace(
+                  morning_old,
+                  morning_new,
+                  1
+              )
+
+          result_old = """        ok, _ = _send_pushover(
+                      "美國數據公布",
+                      msg,
+                      url="https://morris199786.github.io/us-stock-watch/?page=macro"
+                  )"""
+
+          result_new = result_old.replace(
+              "_send_pushover",
+              "_send_telegram"
+          )
+
+          if result_old in s:
+              s = s.replace(
+                  result_old,
+                  result_new,
+                  1
+              )
+
+          for token in (
+              "def _send_telegram(",
+              "def _ff_web_calendar_today(",
+              "_ff_apply_web_fallback(raw, now_utc)",
+              '_send_telegram(\\n            "今日美國重要數據"',
+              '_send_telegram(\\n            "美國數據公布"',
+          ):
+              if token not in s:
+                  raise RuntimeError(
+                      "macro check failed: "
+                      + token
+                  )
+
+          compile(
+              s,
+              "updater.py",
+              "exec"
+          )
+
+          updater_file.write_text(
+              s,
+              encoding="utf-8"
+          )
+
+          # ===== index.html: Congress UI =====
+          h = index_file.read_text(
+              encoding="utf-8"
+          )
+
+          if 'id="assetFilter"' not in h:
+              chamber_select = (
+                  '<select id="chamberFilter">'
+                  '<option value="">House + Senate</option>'
+                  '<option value="house">眾議院</option>'
+                  '<option value="senate">參議院</option>'
+                  '</select>'
+              )
+
+              if chamber_select not in h:
+                  raise RuntimeError(
+                      "Congress chamber select missing"
+                  )
+
+              asset_select = (
+                  '<select id="assetFilter">'
+                  '<option value="listed" selected>'
+                  '上市股票／ETF'
+                  '</option>'
+                  '<option value="other">'
+                  '其他資產'
+                  '</option>'
+                  '<option value="">'
+                  '全部資產'
+                  '</option>'
+                  '</select>'
+              )
+
+              h = h.replace(
+                  chamber_select,
+                  chamber_select
+                  + "\\n    "
+                  + asset_select,
+                  1
+              )
+
+          if (
+              "function congressAssetName(x)"
+              not in h
+          ):
+              marker = "function renderCongress(){"
+
+              if marker not in h:
+                  raise RuntimeError(
+                      "renderCongress marker missing"
+                  )
+
+              helpers = """function congressAssetName(x){
+           const ticker=String(x.ticker||"").trim().toUpperCase();
+           if(ticker)return ticker;
+
+           let asset=String(x.asset||"").replace(/\\\\s+/g," ").trim();
+           if(!asset)return "其他資產";
+
+           const company=asset.match(/Company:\\\\s*(.+?)(?:\\\\s*\\\\([^)]*\\\\)|\\\\s*Description:|$)/i);
+           if(company&&company[1])return company[1].trim();
+
+           asset=asset.replace(/\\\\s*Description:.*$/i,"").trim();
+           return asset||"其他資產";
+          }
+
+          function congressAssetSubLabel(x){
+           const ticker=String(x.ticker||"").trim().toUpperCase();
+           if(ticker)return String(x.asset||"").replace(/\\\\s+/g," ").trim();
+
+           const asset=String(x.asset||"").replace(/\\\\s+/g," ").trim();
+           const desc=asset.match(/Description:\\\\s*(.+)$/i);
+           if(desc&&desc[1])return desc[1].trim();
+
+           return String(x.assetType||"").trim()||"非上市資產";
+          }
+
+          """
+
+              h = h.replace(
+                  marker,
+                  helpers
+                  + marker,
+                  1
+              )
+
+          if "const assetMode=" not in h:
+              anchor = (
+                  ' const chamber='
+                  'document.getElementById('
+                  '"chamberFilter")?.value||"";'
+              )
+
+              if anchor not in h:
+                  raise RuntimeError(
+                      "Congress chamber variable missing"
+                  )
+
+              h = h.replace(
+                  anchor,
+                  anchor
+                  + '\\n const assetMode='
+                  'document.getElementById('
+                  '"assetFilter")?.value??'
+                  '"listed";',
+                  1
+              )
+
+          if 'assetMode==="listed"' not in h:
+              anchor = (
+                  '   if(chamber && '
+                  '(x.chamber||"")!==chamber)'
+                  'return false;'
+              )
+
+              if anchor not in h:
+                  raise RuntimeError(
+                      "Congress filter anchor missing"
+                  )
+
+              h = h.replace(
+                  anchor,
+                  anchor
+                  + '\\n   const hasTicker='
+                  '!!String(x.ticker||"").trim();'
+                  + '\\n   if(assetMode==="listed" '
+                  '&& !hasTicker)return false;'
+                  + '\\n   if(assetMode==="other" '
+                  '&& hasTicker)return false;',
+                  1
+              )
+
+          if (
+              'const tickerLabel='
+              'x.ticker||"N/A";'
+              in h
+          ):
+              h = h.replace(
+                  '   const tickerLabel='
+                  'x.ticker||"N/A";',
+                  '   const tickerLabel='
+                  'congressAssetName(x);\\n'
+                  '   const assetSub='
+                  'congressAssetSubLabel(x);',
+                  1
+              )
+
+              old_row = (
+                  '<div><div class="ticker">'
+                  '${tickerLabel}</div>'
+                  '<div class="csmall">'
+                  '${x.asset||""}</div></div>'
+              )
+
+              new_row = (
+                  '<div><div class="ticker">'
+                  '${escapeHtml(tickerLabel)}</div>'
+                  '<div class="csmall">'
+                  '${escapeHtml(assetSub)}</div>'
+                  '</div>'
+              )
+
+              if old_row not in h:
+                  raise RuntimeError(
+                      "Congress row marker missing"
+                  )
+
+              h = h.replace(
+                  old_row,
+                  new_row,
+                  1
+              )
+
+          old_listener = (
+              '["actionFilter","chamberFilter"]'
+              '.forEach(id=>'
+              'document.getElementById(id)?'
+              '.addEventListener('
+              '"change",()=>{'
+              '__congressLimit=50;'
+              'renderCongress();}));'
+          )
+
+          new_listener = (
+              '["actionFilter","chamberFilter",'
+              '"assetFilter"]'
+              '.forEach(id=>'
+              'document.getElementById(id)?'
+              '.addEventListener('
+              '"change",()=>{'
+              '__congressLimit=50;'
+              'renderCongress();}));'
+          )
+
+          if old_listener in h:
+              h = h.replace(
+                  old_listener,
+                  new_listener,
+                  1
+              )
+
+          clear_old = (
+              ' const a=document.getElementById('
+              '"actionFilter"),'
+              'c=document.getElementById('
+              '"chamberFilter");'
+              'if(a)a.value="";'
+              'if(c)c.value="";'
+          )
+
+          clear_new = (
+              ' const a=document.getElementById('
+              '"actionFilter"),'
+              'c=document.getElementById('
+              '"chamberFilter"),'
+              'af=document.getElementById('
+              '"assetFilter");'
+              'if(a)a.value="";'
+              'if(c)c.value="";'
+              'if(af)af.value="listed";'
+          )
+
+          if clear_old in h:
+              h = h.replace(
+                  clear_old,
+                  clear_new,
+                  1
+              )
+
+          for token in (
+              'id="assetFilter"',
+              'option value="listed" selected',
+              "function congressAssetName(x)",
+              "function congressAssetSubLabel(x)",
+              'assetMode==="listed"',
+              '["actionFilter","chamberFilter","assetFilter"]',
+          ):
+              if token not in h:
+                  raise RuntimeError(
+                      "Congress check failed: "
+                      + token
+                  )
+
+          if (
+              'const tickerLabel='
+              'x.ticker||"N/A"'
+              in h
+          ):
+              raise RuntimeError(
+                  "Old N/A logic still exists"
+              )
+
+          index_file.write_text(
+              h,
+              encoding="utf-8"
+          )
+
+          print(
+              "Integrated fixes installed successfully"
+          )
+
+          PY
+
           python -m py_compile /tmp/install_fixes.py
           python /tmp/install_fixes.py
 
       - name: Update fast data only
         env:
           SKIP_EARNINGS: "1"
+
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
         run: python updater.py
 
       - name: Commit generated data and integrated fixes safely
@@ -180,9 +622,17 @@ jobs:
           cp index.html /tmp/index.html
           cp config.json /tmp/config.json
 
-          if [ -f focus.json ]; then cp focus.json /tmp/focus.json; fi
-          if [ -f macro.json ]; then cp macro.json /tmp/macro.json; fi
-          if [ -f push_state.json ]; then cp push_state.json /tmp/push_state.json; fi
+          if [ -f focus.json ]; then
+            cp focus.json /tmp/focus.json
+          fi
+
+          if [ -f macro.json ]; then
+            cp macro.json /tmp/macro.json
+          fi
+
+          if [ -f push_state.json ]; then
+            cp push_state.json /tmp/push_state.json
+          fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -194,14 +644,37 @@ jobs:
           cp /tmp/index.html index.html
           cp /tmp/config.json config.json
 
-          if [ -f /tmp/focus.json ]; then cp /tmp/focus.json focus.json; fi
-          if [ -f /tmp/macro.json ]; then cp /tmp/macro.json macro.json; fi
-          if [ -f /tmp/push_state.json ]; then cp /tmp/push_state.json push_state.json; fi
+          if [ -f /tmp/focus.json ]; then
+            cp /tmp/focus.json focus.json
+          fi
 
-          git add data.json news.json congress.json updater.py index.html config.json
-          if [ -f focus.json ]; then git add focus.json; fi
-          if [ -f macro.json ]; then git add macro.json; fi
-          if [ -f push_state.json ]; then git add push_state.json; fi
+          if [ -f /tmp/macro.json ]; then
+            cp /tmp/macro.json macro.json
+          fi
+
+          if [ -f /tmp/push_state.json ]; then
+            cp /tmp/push_state.json push_state.json
+          fi
+
+          git add \
+            data.json \
+            news.json \
+            congress.json \
+            updater.py \
+            index.html \
+            config.json
+
+          if [ -f focus.json ]; then
+            git add focus.json
+          fi
+
+          if [ -f macro.json ]; then
+            git add macro.json
+          fi
+
+          if [ -f push_state.json ]; then
+            git add push_state.json
+          fi
 
           if ! git diff --cached --quiet; then
             git commit -m "Install integrated macro and Congress fixes"
