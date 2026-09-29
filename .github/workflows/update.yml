@@ -45,8 +45,13 @@ jobs:
       - name: Update fast data only
         env:
           SKIP_EARNINGS: "1"
+
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
         run: python updater.py
 
       - name: Commit generated data and installed parser safely
