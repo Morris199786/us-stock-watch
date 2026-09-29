@@ -42,19 +42,642 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install integrated macro and Congress fixes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path(".")
+          updater_file = root / "updater.py"
+          index_file = root / "index.html"
+
+          # ============================================================
+          # 1. updater.py
+          #    - Forex Factory visible-page fallback
+          #    - Macro notifications -> Telegram
+          # ============================================================
+
+          s = updater_file.read_text(encoding="utf-8")
+
+          if "def _send_telegram(" not in s:
+              marker = "def refresh_macro_data():"
+
+              if marker not in s:
+                  raise RuntimeError("refresh_macro_data marker missing")
+
+              helpers = """
+          def _send_telegram(title, message, url=None):
+              token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+              chat_id = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+
+              if not token or not chat_id:
+                  return False, "missing_telegram_secrets"
+
+              text = f"{title}\\n{message}".strip()
+
+              if url:
+                  text += f"\\n{url}"
+
+              try:
+                  payload = json.dumps({
+                      "chat_id": chat_id,
+                      "text": text[:3900],
+                      "disable_web_page_preview": True,
+                  }, ensure_ascii=False).encode("utf-8")
+
+                  req = urllib.request.Request(
+                      f"https://api.telegram.org/bot{token}/sendMessage",
+                      data=payload,
+                      headers={
+                          "Content-Type": "application/json",
+                          "User-Agent": "us-stock-watch/1.0",
+                      },
+                      method="POST",
+                  )
+
+                  with urllib.request.urlopen(req, timeout=12) as r:
+                      ok = 200 <= getattr(r, "status", 200) < 300
+
+                  return ok, "ok" if ok else "http_error"
+
+              except Exception as e:
+                  return False, type(e).__name__
+
+
+          def _ff_clean_html_text(value):
+              text = re.sub(r"<[^>]+>", " ", str(value or ""))
+              text = re.sub(r"\\s+", " ", text)
+              return html_lib.unescape(text).strip()
+
+
+          def _ff_web_calendar_today():
+              try:
+                  req = urllib.request.Request(
+                      "https://www.forexfactory.com/calendar?day=today",
+                      headers={
+                          "User-Agent": (
+                              "Mozilla/5.0 "
+                              "(iPhone; CPU iPhone OS 18_0 like Mac OS X) "
+                              "AppleWebKit/605.1.15 "
+                              "Version/18.0 Mobile/15E148 Safari/604.1"
+                          ),
+                          "Accept": "text/html,application/xhtml+xml",
+                          "Accept-Language": "en-US,en;q=0.9",
+                          "Referer": "https://www.forexfactory.com/calendar",
+                      },
+                  )
+
+                  with urllib.request.urlopen(req, timeout=15) as r:
+                      html_text = r.read().decode("utf-8", "ignore")
+
+              except Exception:
+                  return {}
+
+              rows = re.findall(
+                  r'(<tr[^>]*class="[^"]*calendar__row[^"]*"[^>]*>.*?</tr>)',
+                  html_text,
+                  flags=re.I | re.S,
+              )
+
+              out = {}
+
+              for row in rows:
+                  event_match = re.search(
+                      r'class="[^"]*calendar__event[^"]*"[^>]*>(.*?)</td>',
+                      row,
+                      flags=re.I | re.S,
+                  )
+
+                  if not event_match:
+                      continue
+
+                  title = _ff_clean_html_text(event_match.group(1))
+
+                  if not title:
+                      continue
+
+                  def cell(class_name):
+                      m = re.search(
+                          rf'class="[^"]*{re.escape(class_name)}[^"]*"[^>]*>(.*?)</td>',
+                          row,
+                          flags=re.I | re.S,
+                      )
+                      return _ff_clean_html_text(m.group(1)) if m else ""
+
+                  out[title.lower()] = {
+                      "actual": cell("calendar__actual"),
+                      "forecast": cell("calendar__forecast"),
+                      "previous": cell("calendar__previous"),
+                  }
+
+              return out
+
+
+          def _ff_apply_web_fallback(raw_rows, now_utc):
+              need_fallback = False
+
+              for row in raw_rows:
+                  currency = str(
+                      row.get("country")
+                      or row.get("currency")
+                      or ""
+                  ).upper()
+
+                  if currency != "USD":
+                      continue
+
+                  impact = str(
+                      row.get("impact") or ""
+                  ).strip().title()
+
+                  if impact not in ("High", "Medium"):
+                      continue
+
+                  dt = _ff_dt(row)
+
+                  if (
+                      dt
+                      and dt <= now_utc + timedelta(minutes=1)
+                      and not str(row.get("actual") or "").strip()
+                  ):
+                      need_fallback = True
+                      break
+
+              if not need_fallback:
+                  return raw_rows
+
+              web_rows = _ff_web_calendar_today()
+
+              if not web_rows:
+                  return raw_rows
+
+              for row in raw_rows:
+                  title = str(row.get("title") or "").strip()
+
+                  if not title:
+                      continue
+
+                  web_row = web_rows.get(title.lower())
+
+                  if not web_row:
+                      wanted = re.sub(
+                          r"[^a-z0-9]+",
+                          " ",
+                          title.lower(),
+                      ).strip()
+
+                      for candidate_title, candidate in web_rows.items():
+                          normalized = re.sub(
+                              r"[^a-z0-9]+",
+                              " ",
+                              candidate_title,
+                          ).strip()
+
+                          if normalized == wanted:
+                              web_row = candidate
+                              break
+
+                  if not web_row:
+                      continue
+
+                  if web_row.get("actual"):
+                      row["actual"] = web_row["actual"]
+
+                  if web_row.get("forecast"):
+                      row["forecast"] = web_row["forecast"]
+
+                  if web_row.get("previous"):
+                      row["previous"] = web_row["previous"]
+
+              return raw_rows
+
+
+          """
+
+              helpers = "\n".join(
+                  line[10:] if line.startswith("          ") else line
+                  for line in helpers.splitlines()
+              )
+
+              s = s.replace(
+                  marker,
+                  helpers + "\n" + marker,
+                  1,
+              )
+
+          old_fetch = (
+              '    raw = _ff_fetch(FF_THIS_WEEK_JSON)\n'
+              '    raw += _ff_fetch(FF_NEXT_WEEK_JSON)'
+          )
+
+          new_fetch = (
+              '    raw = _ff_fetch(FF_THIS_WEEK_JSON)\n'
+              '    raw += _ff_fetch(FF_NEXT_WEEK_JSON)\n'
+              '    raw = _ff_apply_web_fallback(raw, now_utc)'
+          )
+
+          if "_ff_apply_web_fallback(raw, now_utc)" not in s:
+              if old_fetch not in s:
+                  raise RuntimeError(
+                      "Forex Factory fetch marker missing"
+                  )
+
+              s = s.replace(
+                  old_fetch,
+                  new_fetch,
+                  1,
+              )
+
+          morning_old = (
+              '        ok, _ = _send_pushover(\n'
+              '            "今日美國重要數據",\n'
+              '            "\\n".join(lines[:12]),\n'
+              '            url="https://morris199786.github.io/'
+              'us-stock-watch/?page=macro"\n'
+              '        )'
+          )
+
+          morning_new = morning_old.replace(
+              "_send_pushover",
+              "_send_telegram",
+          )
+
+          if morning_old in s:
+              s = s.replace(
+                  morning_old,
+                  morning_new,
+                  1,
+              )
+
+          result_old = (
+              '        ok, _ = _send_pushover(\n'
+              '            "美國數據公布",\n'
+              '            msg,\n'
+              '            url="https://morris199786.github.io/'
+              'us-stock-watch/?page=macro"\n'
+              '        )'
+          )
+
+          result_new = result_old.replace(
+              "_send_pushover",
+              "_send_telegram",
+          )
+
+          if result_old in s:
+              s = s.replace(
+                  result_old,
+                  result_new,
+                  1,
+              )
+
+          updater_checks = [
+              "def _send_telegram(",
+              "def _ff_web_calendar_today(",
+              "_ff_apply_web_fallback(raw, now_utc)",
+              '"今日美國重要數據"',
+              '"美國數據公布"',
+          ]
+
+          for token in updater_checks:
+              if token not in s:
+                  raise RuntimeError(
+                      f"updater install check failed: {token}"
+                  )
+
+          compile(
+              s,
+              "updater.py",
+              "exec",
+          )
+
+          updater_file.write_text(
+              s,
+              encoding="utf-8",
+          )
+
+          # ============================================================
+          # 2. index.html
+          #    Congress:
+          #    - Default listed stocks / ETFs
+          #    - Other assets selectable
+          #    - Remove N/A
+          # ============================================================
+
+          h = index_file.read_text(
+              encoding="utf-8"
+          )
+
+          old_filters = (
+              '    <select id="actionFilter">'
+              '<option value="">全部交易</option>'
+              '<option value="buy">只看買進</option>'
+              '<option value="sell">只看賣出</option>'
+              '</select>\n'
+              '    <select id="chamberFilter">'
+              '<option value="">House + Senate</option>'
+              '<option value="house">眾議院</option>'
+              '<option value="senate">參議院</option>'
+              '</select>\n'
+              '    <button id="clearCongress" '
+              'class="clearbtn full">清除</button>'
+          )
+
+          new_filters = (
+              '    <select id="actionFilter">'
+              '<option value="">全部交易</option>'
+              '<option value="buy">只看買進</option>'
+              '<option value="sell">只看賣出</option>'
+              '</select>\n'
+              '    <select id="chamberFilter">'
+              '<option value="">House + Senate</option>'
+              '<option value="house">眾議院</option>'
+              '<option value="senate">參議院</option>'
+              '</select>\n'
+              '    <select id="assetFilter">'
+              '<option value="listed" selected>'
+              '上市股票／ETF'
+              '</option>'
+              '<option value="other">其他資產</option>'
+              '<option value="">全部資產</option>'
+              '</select>\n'
+              '    <button id="clearCongress" '
+              'class="clearbtn full">清除</button>'
+          )
+
+          if 'id="assetFilter"' not in h:
+              if old_filters not in h:
+                  raise RuntimeError(
+                      "Congress filters marker missing"
+                  )
+
+              h = h.replace(
+                  old_filters,
+                  new_filters,
+                  1,
+              )
+
+          if "function congressAssetName(x)" not in h:
+              marker = "function renderCongress(){"
+
+              if marker not in h:
+                  raise RuntimeError(
+                      "renderCongress marker missing"
+                  )
+
+              helpers = r'''
+function congressAssetName(x){
+  const ticker=String(x.ticker||"").trim().toUpperCase();
+
+  if(ticker)return ticker;
+
+  let asset=String(x.asset||"")
+    .replace(/\s+/g," ")
+    .trim();
+
+  if(!asset)return "其他資產";
+
+  const company=asset.match(
+    /Company:\s*(.+?)(?:\s*\([^)]*\)|\s*Description:|$)/i
+  );
+
+  if(company&&company[1]){
+    return company[1].trim();
+  }
+
+  asset=asset
+    .replace(/\s*Description:.*$/i,"")
+    .trim();
+
+  return asset||"其他資產";
+}
+
+function congressAssetSubLabel(x){
+  const ticker=String(x.ticker||"")
+    .trim()
+    .toUpperCase();
+
+  if(ticker){
+    return String(x.asset||"")
+      .replace(/\s+/g," ")
+      .trim();
+  }
+
+  const asset=String(x.asset||"")
+    .replace(/\s+/g," ")
+    .trim();
+
+  const desc=asset.match(
+    /Description:\s*(.+)$/i
+  );
+
+  if(desc&&desc[1]){
+    return desc[1].trim();
+  }
+
+  return String(x.assetType||"").trim()
+    ||"非上市資產";
+}
+
+'''
+
+              h = h.replace(
+                  marker,
+                  helpers + marker,
+                  1,
+              )
+
+          old = (
+              '  const action=document.getElementById('
+              '"actionFilter")?.value||"";\n'
+              '  const chamber=document.getElementById('
+              '"chamberFilter")?.value||"";'
+          )
+
+          new = (
+              '  const action=document.getElementById('
+              '"actionFilter")?.value||"";\n'
+              '  const chamber=document.getElementById('
+              '"chamberFilter")?.value||"";\n'
+              '  const assetMode=document.getElementById('
+              '"assetFilter")?.value??"listed";'
+          )
+
+          if "const assetMode=" not in h:
+              if old not in h:
+                  raise RuntimeError(
+                      "Congress assetMode marker missing"
+                  )
+
+              h = h.replace(
+                  old,
+                  new,
+                  1,
+              )
+
+          old = (
+              '    if(action && '
+              '(x.action||"")!==action)return false;\n'
+              '    if(chamber && '
+              '(x.chamber||"")!==chamber)return false;\n'
+              '    return true;'
+          )
+
+          new = (
+              '    if(action && '
+              '(x.action||"")!==action)return false;\n'
+              '    if(chamber && '
+              '(x.chamber||"")!==chamber)return false;\n'
+              '    const hasTicker=!!String('
+              'x.ticker||"").trim();\n'
+              '    if(assetMode==="listed" '
+              '&& !hasTicker)return false;\n'
+              '    if(assetMode==="other" '
+              '&& hasTicker)return false;\n'
+              '    return true;'
+          )
+
+          if 'assetMode==="listed"' not in h:
+              if old not in h:
+                  raise RuntimeError(
+                      "Congress filtering marker missing"
+                  )
+
+              h = h.replace(
+                  old,
+                  new,
+                  1,
+              )
+
+          old = (
+              '    const actClass=x.action==="buy"'
+              '?"cbuy":x.action==="sell"?"csell":"";\n'
+              '    const tickerLabel=x.ticker||"N/A";\n'
+              '    const ckey=congressDeepKey(x);\n'
+              '    return `<div class="crow" '
+              'data-congress-key="${escapeHtml(ckey)}">\n'
+              '      <div><div class="ticker">'
+              '${tickerLabel}</div><div class="csmall">'
+              '${x.asset||""}</div></div>'
+          )
+
+          new = (
+              '    const actClass=x.action==="buy"'
+              '?"cbuy":x.action==="sell"?"csell":"";\n'
+              '    const tickerLabel=congressAssetName(x);\n'
+              '    const assetSub=congressAssetSubLabel(x);\n'
+              '    const ckey=congressDeepKey(x);\n'
+              '    return `<div class="crow" '
+              'data-congress-key="${escapeHtml(ckey)}">\n'
+              '      <div><div class="ticker">'
+              '${escapeHtml(tickerLabel)}</div>'
+              '<div class="csmall">'
+              '${escapeHtml(assetSub)}</div></div>'
+          )
+
+          if 'const tickerLabel=x.ticker||"N/A"' in h:
+              if old not in h:
+                  raise RuntimeError(
+                      "Congress N/A marker missing"
+                  )
+
+              h = h.replace(
+                  old,
+                  new,
+                  1,
+              )
+
+          old = (
+              '["actionFilter","chamberFilter"].forEach('
+              'id=>document.getElementById(id)?'
+              '.addEventListener("change",()=>{'
+              '__congressLimit=50;renderCongress();}));'
+          )
+
+          new = (
+              '["actionFilter","chamberFilter","assetFilter"]'
+              '.forEach(id=>document.getElementById(id)?'
+              '.addEventListener("change",()=>{'
+              '__congressLimit=50;renderCongress();}));'
+          )
+
+          if old in h:
+              h = h.replace(
+                  old,
+                  new,
+                  1,
+              )
+
+          old = (
+              ' const a=document.getElementById("actionFilter"),'
+              'c=document.getElementById("chamberFilter");'
+              'if(a)a.value="";if(c)c.value="";\n'
+              ' __congressLimit=50;renderCongress();'
+          )
+
+          new = (
+              ' const a=document.getElementById("actionFilter"),'
+              'c=document.getElementById("chamberFilter"),'
+              'af=document.getElementById("assetFilter");\n'
+              ' if(a)a.value="";'
+              'if(c)c.value="";'
+              'if(af)af.value="listed";\n'
+              ' __congressLimit=50;renderCongress();'
+          )
+
+          if old in h:
+              h = h.replace(
+                  old,
+                  new,
+                  1,
+              )
+
+          index_checks = [
+              'id="assetFilter"',
+              'option value="listed" selected',
+              "function congressAssetName(x)",
+              "function congressAssetSubLabel(x)",
+              'assetMode==="listed"',
+              '["actionFilter","chamberFilter","assetFilter"]',
+              "美股焦點股",
+              'document.addEventListener("visibilitychange"',
+          ]
+
+          for token in index_checks:
+              if token not in h:
+                  raise RuntimeError(
+                      f"index install check failed: {token}"
+                  )
+
+          if 'const tickerLabel=x.ticker||"N/A"' in h:
+              raise RuntimeError(
+                  "Old Congress N/A code still exists"
+              )
+
+          index_file.write_text(
+              h,
+              encoding="utf-8",
+          )
+
+          print(
+              "Integrated macro + Telegram + Congress fixes installed"
+          )
+          PY
+
       - name: Update fast data only
         env:
           SKIP_EARNINGS: "1"
 
+          # 原本非巨觀通知繼續使用 Pushover
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
 
+          # 美國數據通知改用 Telegram
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
         run: python updater.py
 
-      - name: Commit generated data and installed parser safely
+      - name: Commit generated data and integrated fixes safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -100,7 +723,13 @@ jobs:
             cp /tmp/push_state.json push_state.json
           fi
 
-          git add data.json news.json congress.json updater.py index.html config.json
+          git add \
+            data.json \
+            news.json \
+            congress.json \
+            updater.py \
+            index.html \
+            config.json
 
           if [ -f focus.json ]; then
             git add focus.json
@@ -115,6 +744,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update market data and focus stocks"
+            git commit -m "Install integrated macro and Congress fixes"
             git push origin main
           fi
