@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29 19:58 台灣時間",
+  "updatedAt": "2026-09-29 20:05 台灣時間",
   "historyUpdatedDate": "2026-09-29",
   "historyLastAttemptAt": "2026-09-28T16:02:50.217719+00:00",
   "historyItemCount": 800,
@@ -262,10 +262,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "人工智慧的輕鬆情緒、石油、債券前景限制了華爾街開盤前的情緒；亞洲休市，歐洲上行 週二盤前，華爾街期貨表現平靜，交易員等待人工智慧產業的明朗，並權衡高油價和債券殖利率。期貨方面，標普500指數持穩，那斯達克指數傾向...",
+        "event": "人工智慧的不安、石油、債券前景限制了華爾街開盤前的情緒；亞洲休市，歐洲上行 週二盤前，華爾街期貨表現平靜，交易員等待人工智慧產業的明朗，並權衡高油價和債券殖利率。期貨方面，標普500指數持穩，那斯達克指數傾向...",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "人工智慧的輕鬆情緒、石油、債券前景限制了華爾街開盤前的情緒；亞洲休市，歐洲上行 週二盤前，華爾街期貨表現平靜，交易員等待人工智慧產業的明朗，並權衡高油價和債券殖利率。期貨方面，標普500指數持穩，那斯達克指數傾向...",
+        "stance": "人工智慧的不安、石油、債券前景限制了華爾街開盤前的情緒；亞洲休市，歐洲上行 週二盤前，華爾街期貨表現平靜，交易員等待人工智慧產業的明朗，並權衡高油價和債券殖利率。期貨方面，標普500指數持穩，那斯達克指數傾向...",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -946,6 +946,37 @@
       "top10Rank": 7,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google Project Suncatcher 測試張量處理單元 - geeky-gadgets.com",
+      "summary": "",
+      "originalTitle": "Google Project Suncatcher Tests Tensor Processing Units - geeky-gadgets.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OZE5oT2NOa1U3TkpEeTZnR0JMazFFMEZwQzFENFVXNVlfb3JKYW1hbXJEV3c3bnM2dmlLbEw5eEdMRTRUbkZRYmpQMUZ5LXJrYUlHNm9PVWNnWmc3NFNtcXRRZXUwNGc?oc=5",
+      "ts": "2026-09-29T09:15:43+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 16.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1789,7 +1820,7 @@
       ],
       "eventType": "新題材",
       "score": 219.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Space Exploration Technologies Corp. put its Starship rocket into orbit for the first time today on the vehicle’s 14th test flight. Liftoff came at 8:49 a.m. EDT from Starbase in South Texas.",
@@ -1860,7 +1891,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1890,7 +1921,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2666,41 +2697,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "谷歌準備進行三次發射中的第一次，以組成軌道資料中心",
-      "summary": "",
-      "originalTitle": "Google readies for first of three launches to form orbital data centre",
-      "originalSummary": "Google plans to launch its first experimental satellite next week Thursday, marking a first technical test of the Project Suncatcher programme that should ultimately result in a constellation of satellites that together form a data centre in space. Together with the German company Planet, a test installation has been developed in which four TPU chips are placed in orbit around the Earth. The technical tests will examine whether the chips can survive a launch and then withstand the extreme conditions in Earth orbit for a long period of time. “In our preliminary research we haven’t been able to find any theoretical reasons why this wouldn’t work,” said Jessica Bloom of Google.",
-      "url": "https://www.techcentral.ie/google-readies-for-first-of-three-launches-to-form-orbital-data-centre/",
-      "ts": "2026-09-29T03:20:00+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "detailSource": "cross_event_article",
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "新題材",
-      "score": 27.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "谷歌計畫於下週四發射第一顆實驗衛星，標誌著「陽光捕手計畫」的首次技術測試，最終將形成一個衛星群，共同形成太空資料中心。與德國公司 Planet 合作開發了一個測試裝置，將四個 TPU 晶片放置在繞地球軌道上。技術測試將檢查晶片是否能夠在發射後倖存下來，然後承受地球軌道上的極端條件",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "谷歌計畫於下週四發射第一顆實驗衛星，標誌著「陽光捕手計畫」的首次技術測試，最終將形成一個衛星群，共同形成太空資料中心。與德國公司 Planet 合作開發了一個測試裝置，將四個 TPU 晶片放置在繞地球軌道上。技術測試將檢查這些晶片是否能夠在發射後倖存下來，然後在地球軌道上長期承受極端條件。谷歌的傑西卡·布魯姆 (Jessica Bloom) 表示：“在我們的初步研究中，我們無法找到任何理論原因來解釋為什麼這行不通。”",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -4704,7 +4700,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "MCHP：Microchip Technology, Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了新的先進數位電源監視器系列，該公司股價繼續上漲。",
+      "summary": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了先進數位功率監視器的新系列，該公司股價繼續上漲。",
       "originalTitle": "MCHP: Microchip Technology, Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Shares of analog chipmaker Microchip Technology (NASDAQ:MCHP) jumped 4.3% in the afternoon session after the stock continued to rally as the company introduced a new line of advanced digital power monitors the previous day.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-mchp-stock-know-034437241.html",
@@ -4720,12 +4716,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了新的先進數位電源監視器系列，該公司股價繼續上漲。",
+        "event": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了先進數位功率監視器的新系列，該公司股價繼續上漲。",
         "numbers": [
           "4.3%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了新的先進數位電源監視器系列，該公司股價繼續上漲。",
+        "stance": "類比晶片製造商 Microchip Technology（納斯達克股票代碼：MCHP）的股價在下午交易中上漲 4.3%，此前該公司前一天推出了先進數位功率監視器的新系列，該公司股價繼續上漲。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -8079,7 +8075,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利空",
       "title": "訴訟和融資問題考驗著 AST SpaceMobile (ASTS) 的估值，AST SpaceMobile (ASTS) 是否划算？",
-      "summary": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+      "summary": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
       "originalTitle": "Is AST SpaceMobile (ASTS) A Bargain As Lawsuit And Financing Questions Test Its Valuation?",
       "originalSummary": "AST SpaceMobile (ASTS) moved into the legal spotlight after Robbins LLP announced a securities class action related to disclosures about its satellite direct to cellular position and financing during the March 2025 to July 2026 period. For context, AST SpaceMobile shares have retreated over the shorter term, with a 1-day share price return of 5.83% down and a 30-day share price return of 3.8% down. The 1-year total shareholder return is 10.05%, and the 3-year total shareholder return is very large, indicating notable longer-term momentum despite recent legal and financing headlines.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-bargain-lawsuit-141458439.html",
@@ -8094,14 +8090,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+        "event": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
         "numbers": [
           "5.83%",
           "3.8%",
           "10.05%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+        "stance": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -8261,7 +8257,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems：如果第一季報告可靠，勢頭將再次推高它（納斯達克：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Aehr Test Systems: Momentum Will Push It Up Once Again If Q1 Report Is Solid (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4949465-aehr-test-systems-strong-growth-potential-but-the-valuation-demands-execution",
@@ -8276,10 +8272,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -10232,7 +10228,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr 測試系統：人工智慧相關成長與估值之間的真正緊張關係（納斯達克股票代碼：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Aehr Test Systems: A Real Tension Between AI-Related Growth And Valuation (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4949045-aehr-test-systems-a-real-tension-between-ai-related-growth-and-valuation",
@@ -10248,10 +10244,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -12176,7 +12172,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "應用材料公司：機會再次醞釀（評級升級）（納斯達克股票代碼：AMAT）",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4948687-applied-materials-opportunity-is-brewing-again-rating-upgrade",
@@ -12191,15 +12187,15 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -12920,7 +12916,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "利多",
       "title": "Peloton 推出可折疊 Peloton Tread Flex——有史以來最實惠的跑步機——以及針對跑步者、步行者和徒步旅行者的全新人工智慧輔導功能",
-      "summary": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+      "summary": "NEW YORK, September 22, 2026--Today, Peloton Interactive, Inc. (NASDAQ: PTON) is deepening its commitment to running, walking, and hiking while strengthening its position in the treadmill market with the launch of a new, accessibly priced, space-saving model and exciting new features for runners through its AI-powered coaching platform, Peloton IQ. Three new treadmills — Peloton Tread Flex, its first folding treadmill, Peloton Tread Vision, and Peloton Tread+ Vision — combine next-generation equ",
       "originalTitle": "Peloton Launches Foldable Peloton Tread Flex – Its Most Affordable Treadmill Ever – and New AI-Powered Coaching Features for Runners, Walkers and Hikers",
       "originalSummary": "NEW YORK, September 22, 2026--Today, Peloton Interactive, Inc. (NASDAQ: PTON) is deepening its commitment to running, walking, and hiking while strengthening its position in the treadmill market with the launch of a new, accessibly priced, space-saving model and exciting new features for runners through its AI-powered coaching platform, Peloton IQ. Three new treadmills — Peloton Tread Flex, its first folding treadmill, Peloton Tread Vision, and Peloton Tread+ Vision — combine next-generation equ",
       "url": "https://finance.yahoo.com/technology/ai/articles/peloton-launches-foldable-peloton-tread-110000279.html",
@@ -12935,10 +12931,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+        "event": "NEW YORK, September 22, 2026--Today, Peloton Interactive, Inc. (NASDAQ: PTON) is deepening its commitment to running, walking, and hiking while strengthening its position in the treadmill market with the launch of a new, accessibly priced, space-saving model and exciting new features for runners through its AI-powered coaching platform, Peloton IQ. Three new treadmills — Peloton Tread Flex, its first folding treadmill, Peloton Tread Vision, and Peloton Tread+ Vision — combine next-generation equ",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+        "stance": "NEW YORK, September 22, 2026--Today, Peloton Interactive, Inc. (NASDAQ: PTON) is deepening its commitment to running, walking, and hiking while strengthening its position in the treadmill market with the launch of a new, accessibly priced, space-saving model and exciting new features for runners through its AI-powered coaching platform, Peloton IQ.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -13398,7 +13394,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "波音工會將於週四開始對最新合約報價進行投票",
-      "summary": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+      "summary": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
       "originalTitle": "Boeing unions to begin voting Thursday on latest contract offer",
       "originalSummary": "The Society of Professional Engineering Employees in Aerospace (SPEEA) is encouraging its members to accept Boeing's latest contract proposal when they vote on the latest offer. On September 22, 2026, SPEEA's Bargaining Unit Councils (BUC) for professional and technical units said members should vote 'yes' to the agreement when the ballot opens on September 24, 2026, The two Bargaining Unit Councils said that the offers “meet most of the needs of the members”. Boeing presented its final proposal to SPEEA on September 11, 2026, following the conclusion of the latest round of negotiations. Boeing The new contract promises to increase wages and improve work lives and rebuild relationships between Boeing leadership and union members. \"The union has won from Boeing gains for most priorities outlined at the outset of negotiations: market-leading compensation, benefits that matter, time to work and time to live, fairness and accountability, and workforce development,\" the BUC professional unit said. The BUC professional technical unit added: \"Members are encouraged to examine both the advantages and limitations of the proposed agreement and determine whether it meets their expectations and priorities.\" On August 21, 2026, the majority of its SPEEA's Boeing union members rejected a new contract offer from the employer. Additionally voting members overwhelmingly supported SPEEA calling strike action if there were not “significant improvements to the offer”. The rejected four-year proposal was presented to around 13,000 engineers and scientists, as well as around 4,000 technical staff. Union members will have until October 4, 2026, to vote in the latest ballot. Highlighted improvements in Boeing's latest offer: A 10% Guaranteed Wage Increase (GWI) for all Prof and Tech unit-represented workers effective Oct. 16. Boeing will address concerns related to wage compression. The funds spent to address these concerns will be in addition to those identified in the contract offers. A 4% GWI for all Prof and Tech unit-represented workers during the annual compensation review in March 2027. 6% annual wage pools for 2028, 2029 and 2030, with each year having a 4% guaranteed increase for all. Revised language regarding work-from-home, overtime limits for Prof unit members and a new process for communicating Boeing’s future workforce needs to help SPEEA members plan their careers with the company A move back to our current three-bucket retention rating system. Carrying forward the gains from the first Boeing offer.",
       "url": "https://www.aerotime.aero/articles/boeing-workers-union-members-accept-new-offer-strike",
@@ -13413,14 +13409,14 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+        "event": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
         "numbers": [
           "10%",
           "4%",
           "6%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+        "stance": "2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -13437,7 +13433,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "波音工會週四開始對最新合約報價進行投票",
-      "summary": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+      "summary": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
       "originalTitle": "Boeing union to begin voting Thursday on latest contract offer",
       "originalSummary": "The Society of Professional Engineering Employees in Aerospace (SPEEA) is encouraging its members to accept Boeing's latest contract proposal when they vote on the latest offer. On September 22, 2026, SPEEA's Bargaining Unit Councils (BUC) for professional and technical units said members should vote 'yes' to the agreement when the ballot opens on September 24, 2026, The two Bargaining Unit Councils said that the offers “meet most of the needs of the members”. Boeing presented its final proposal to SPEEA on September 11, 2026, following the conclusion of the latest round of negotiations. Boeing The new contract promises to increase wages and improve work lives and rebuild relationships between Boeing leadership and union members. \"The union has won from Boeing gains for most priorities outlined at the outset of negotiations: market-leading compensation, benefits that matter, time to work and time to live, fairness and accountability, and workforce development,\" the BUC professional unit said. The BUC professional technical unit added: \"Members are encouraged to examine both the advantages and limitations of the proposed agreement and determine whether it meets their expectations and priorities.\" On August 21, 2026, the majority of its SPEEA's Boeing union members rejected a new contract offer from the employer. Additionally voting members overwhelmingly supported SPEEA calling strike action if there were not “significant improvements to the offer”. The rejected four-year proposal was presented to around 13,000 engineers and scientists, as well as around 4,000 technical staff. Union members will have until October 4, 2026, to vote in the latest ballot. Highlighted improvements in Boeing's latest offer: A 10% Guaranteed Wage Increase (GWI) for all Prof and Tech unit-represented workers effective Oct. 16. Boeing will address concerns related to wage compression. The funds spent to address these concerns will be in addition to those identified in the contract offers. A 4% GWI for all Prof and Tech unit-represented workers during the annual compensation review in March 2027. 6% annual wage pools for 2028, 2029 and 2030, with each year having a 4% guaranteed increase for all. Revised language regarding work-from-home, overtime limits for Prof unit members and a new process for communicating Boeing’s future workforce needs to help SPEEA members plan their careers with the company A move back to our current three-bucket retention rating system. Carrying forward the gains from the first Boeing offer.",
       "url": "https://www.aerotime.aero/articles/boeing-workers-union-members-accept-new-offer-strike",
@@ -13453,14 +13449,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+        "event": "航空航天專業工程員工協會（SPEEA）鼓勵其成員在對最新報價進行投票時接受波音公司的最新合約提案。 2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
         "numbers": [
           "10%",
           "4%",
           "6%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層與工會成員之間的關係。",
+        "stance": "2026年9月22日，SPEEA專業和技術單位的談判單位理事會（BUC）表示，成員應在2026年9月24日投票開始時對該協議投「贊成」票，兩個談判單位理事會表示，這些報價「滿足了成員的大部分需求」。在最新一輪談判結束後，波音公司於 2026 年 9 月 11 日向 SPEEA 提交了最終提案。波音公司的新合約承諾提高薪資、改善工作生活並重建波音領導層和工會成員之間的關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -13577,7 +13573,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室看起來越來越像 SpaceX 的競爭對手。股票上漲了。",
-      "summary": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
+      "summary": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
       "originalTitle": "Rocket Lab Looks More and More Like a SpaceX Competitor. The Stock Is Up.",
       "originalSummary": "Cantor Fitzgerald kept its $122 Overweight target on RKLB, calling Neutron the only credible commercial rival to SpaceX's Falcon 9. SpaceX (SPCX) commands somewhere between 80 and 90 percent of total Earth mass to orbit annually, making RKLB the only listed pure-play building a scaled second source. RKLB's backlog surged 137% to $2.4 billion, and the U.S. Space Force named it an NSSL prime contractor in its FY2027 budget. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Rocket Lab didn't make the cut. Enter your email to see the names that beat RKLB. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-poised-become-only-190102545.html",
@@ -13593,7 +13589,7 @@
       ],
       "eventType": "跨公司事件",
       "investorBrief": {
-        "event": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
+        "event": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持了 RKLB 122 美元的超重目標，稱 Neutron 是 SpaceX 獵鷹 9 號唯一可信的商業競爭對手。 SpaceX (SPCX) 每年將地球總質量的 80% 至 90% 送入軌道，這使得 RKLB 成為唯一一家上市的規模化第二來源的純營運公司。 RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
         "numbers": [
           "$122",
           "$2.4 billion",
@@ -13601,7 +13597,7 @@
           "2.4 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其指定為 NSSL 主承包商。",
+        "stance": "RKLB 的積壓訂單激增 137%，達到 24 億美元，美國太空軍在 2027 財年預算中將其命名為 NSSL 主承包商。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17487,7 +17483,7 @@
       "group": "其他大型科技",
       "tag": "題材",
       "title": "最新 iPhone、Apple Watch 和 AirPods 系列已登陸全球各地商店",
-      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
       "originalTitle": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide",
       "originalSummary": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus. Ternus, Joswiak, and senior vice president of retail Deirdre O’Brien led one of Friday’s launches at the Apple store on Fifth Avenue in New York City. The iPhone 18 Pro and iPhone 18 Pro Max are priced at $1,199 and $1,299, respectively, which is $100 more than the previous generation. The phones are available in the colors black, silver, glacier, and burgundy. Pre-orders began on Sept. 12.",
       "url": "https://www.theepochtimes.com/business/apple-releases-iphone-18-in-stores-under-new-ceo-ternuss-first-product-launch-6092501",
@@ -17502,14 +17498,14 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "numbers": [
           "$1,199",
           "$1,299,",
           "$100 m"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
