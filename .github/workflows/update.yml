@@ -42,639 +42,149 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install integrated macro and Congress fixes
+      - name: Install integrated fixes
+        env:
+          PATCH_B64: >-
+            ZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpyb290ID0gUGF0aCgnLicpCnVwZGF0ZXJfZmlsZSA9IHJvb3QgLyAndXBkYXRlci5weScKaW5kZXhfZmlsZSA9
+            IHJvb3QgLyAnaW5kZXguaHRtbCcKCnMgPSB1cGRhdGVyX2ZpbGUucmVhZF90ZXh0KGVuY29kaW5nPSd1dGYtOCcpCgppZiAnZGVmIF9zZW5kX3RlbGVncmFt
+            KCcgbm90IGluIHM6CiAgICBtYXJrZXIgPSAnZGVmIHJlZnJlc2hfbWFjcm9fZGF0YSgpOicKICAgIGlmIG1hcmtlciBub3QgaW4gczoKICAgICAgICByYWlz
+            ZSBSdW50aW1lRXJyb3IoJ3JlZnJlc2hfbWFjcm9fZGF0YSBtYXJrZXIgbWlzc2luZycpCgogICAgaGVscGVycyA9IHInJycKZGVmIF9zZW5kX3RlbGVncmFt
+            KHRpdGxlLCBtZXNzYWdlLCB1cmw9Tm9uZSk6CiAgICB0b2tlbiA9IChvcy5lbnZpcm9uLmdldCgiVEVMRUdSQU1fQk9UX1RPS0VOIikgb3IgIiIpLnN0cmlw
+            KCkKICAgIGNoYXRfaWQgPSAob3MuZW52aXJvbi5nZXQoIlRFTEVHUkFNX0NIQVRfSUQiKSBvciAiIikuc3RyaXAoKQogICAgaWYgbm90IHRva2VuIG9yIG5v
+            dCBjaGF0X2lkOgogICAgICAgIHJldHVybiBGYWxzZSwgIm1pc3NpbmdfdGVsZWdyYW1fc2VjcmV0cyIKCiAgICB0ZXh0ID0gZiJ7dGl0bGV9XG57bWVzc2Fn
+            ZX0iLnN0cmlwKCkKICAgIGlmIHVybDoKICAgICAgICB0ZXh0ICs9IGYiXG57dXJsfSIKCiAgICB0cnk6CiAgICAgICAgcGF5bG9hZCA9IGpzb24uZHVtcHMo
+            ewogICAgICAgICAgICAiY2hhdF9pZCI6IGNoYXRfaWQsCiAgICAgICAgICAgICJ0ZXh0IjogdGV4dFs6MzkwMF0sCiAgICAgICAgICAgICJkaXNhYmxlX3dl
+            Yl9wYWdlX3ByZXZpZXciOiBUcnVlLAogICAgICAgIH0sIGVuc3VyZV9hc2NpaT1GYWxzZSkuZW5jb2RlKCJ1dGYtOCIpCiAgICAgICAgcmVxID0gdXJsbGli
+            LnJlcXVlc3QuUmVxdWVzdCgKICAgICAgICAgICAgZiJodHRwczovL2FwaS50ZWxlZ3JhbS5vcmcvYm90e3Rva2VufS9zZW5kTWVzc2FnZSIsCiAgICAgICAg
+            ICAgIGRhdGE9cGF5bG9hZCwKICAgICAgICAgICAgaGVhZGVycz17IkNvbnRlbnQtVHlwZSI6ImFwcGxpY2F0aW9uL2pzb24iLCJVc2VyLUFnZW50IjoidXMt
+            c3RvY2std2F0Y2gvMS4wIn0sCiAgICAgICAgICAgIG1ldGhvZD0iUE9TVCIsCiAgICAgICAgKQogICAgICAgIHdpdGggdXJsbGliLnJlcXVlc3QudXJsb3Bl
+            bihyZXEsIHRpbWVvdXQ9MTIpIGFzIHI6CiAgICAgICAgICAgIG9rID0gMjAwIDw9IGdldGF0dHIociwgInN0YXR1cyIsIDIwMCkgPCAzMDAKICAgICAgICBy
+            ZXR1cm4gb2ssICJvayIgaWYgb2sgZWxzZSAiaHR0cF9lcnJvciIKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICByZXR1cm4gRmFsc2UsIHR5
+            cGUoZSkuX19uYW1lX18KCgpkZWYgX2ZmX2NsZWFuX2h0bWxfdGV4dCh2YWx1ZSk6CiAgICB0ZXh0ID0gcmUuc3ViKHIiPFtePl0rPiIsICIgIiwgc3RyKHZh
+            bHVlIG9yICIiKSkKICAgIHRleHQgPSByZS5zdWIociJccysiLCAiICIsIHRleHQpCiAgICByZXR1cm4gaHRtbF9saWIudW5lc2NhcGUodGV4dCkuc3RyaXAo
+            KQoKCmRlZiBfZmZfd2ViX2NhbGVuZGFyX3RvZGF5KCk6CiAgICB0cnk6CiAgICAgICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCgKICAgICAgICAg
+            ICAgImh0dHBzOi8vd3d3LmZvcmV4ZmFjdG9yeS5jb20vY2FsZW5kYXI/ZGF5PXRvZGF5IiwKICAgICAgICAgICAgaGVhZGVycz17CiAgICAgICAgICAgICAg
+            ICAiVXNlci1BZ2VudCI6Ik1vemlsbGEvNS4wIiwKICAgICAgICAgICAgICAgICJBY2NlcHQiOiJ0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sIiwK
+            ICAgICAgICAgICAgICAgICJBY2NlcHQtTGFuZ3VhZ2UiOiJlbi1VUyxlbjtxPTAuOSIsCiAgICAgICAgICAgICAgICAiUmVmZXJlciI6Imh0dHBzOi8vd3d3
+            LmZvcmV4ZmFjdG9yeS5jb20vY2FsZW5kYXIiLAogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4o
+            cmVxLCB0aW1lb3V0PTE1KSBhcyByOgogICAgICAgICAgICBodG1sX3RleHQgPSByLnJlYWQoKS5kZWNvZGUoInV0Zi04IiwgImlnbm9yZSIpCiAgICBleGNl
+            cHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiB7fQoKICAgIHJvd3MgPSByZS5maW5kYWxsKAogICAgICAgIHInKDx0cltePl0qY2xhc3M9IlteIl0qY2Fs
+            ZW5kYXJfX3Jvd1teIl0qIltePl0qPi4qPzwvdHI+KScsCiAgICAgICAgaHRtbF90ZXh0LAogICAgICAgIGZsYWdzPXJlLkkgfCByZS5TLAogICAgKQogICAg
+            b3V0ID0ge30KICAgIGZvciByb3cgaW4gcm93czoKICAgICAgICBldmVudF9tYXRjaCA9IHJlLnNlYXJjaCgKICAgICAgICAgICAgcidjbGFzcz0iW14iXSpj
+            YWxlbmRhcl9fZXZlbnRbXiJdKiJbXj5dKj4oLio/KTwvdGQ+JywKICAgICAgICAgICAgcm93LAogICAgICAgICAgICBmbGFncz1yZS5JIHwgcmUuUywKICAg
+            ICAgICApCiAgICAgICAgaWYgbm90IGV2ZW50X21hdGNoOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRpdGxlID0gX2ZmX2NsZWFuX2h0bWxfdGV4
+            dChldmVudF9tYXRjaC5ncm91cCgxKSkKICAgICAgICBpZiBub3QgdGl0bGU6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGRlZiBjZWxsKGNsYXNz
+            X25hbWUpOgogICAgICAgICAgICBtID0gcmUuc2VhcmNoKAogICAgICAgICAgICAgICAgcmYnY2xhc3M9IlteIl0qe3JlLmVzY2FwZShjbGFzc19uYW1lKX1b
+            XiJdKiJbXj5dKj4oLio/KTwvdGQ+JywKICAgICAgICAgICAgICAgIHJvdywKICAgICAgICAgICAgICAgIGZsYWdzPXJlLkkgfCByZS5TLAogICAgICAgICAg
+            ICApCiAgICAgICAgICAgIHJldHVybiBfZmZfY2xlYW5faHRtbF90ZXh0KG0uZ3JvdXAoMSkpIGlmIG0gZWxzZSAiIgoKICAgICAgICBvdXRbdGl0bGUubG93
+            ZXIoKV0gPSB7CiAgICAgICAgICAgICJhY3R1YWwiOiBjZWxsKCJjYWxlbmRhcl9fYWN0dWFsIiksCiAgICAgICAgICAgICJmb3JlY2FzdCI6IGNlbGwoImNh
+            bGVuZGFyX19mb3JlY2FzdCIpLAogICAgICAgICAgICAicHJldmlvdXMiOiBjZWxsKCJjYWxlbmRhcl9fcHJldmlvdXMiKSwKICAgICAgICB9CiAgICByZXR1
+            cm4gb3V0CgoKZGVmIF9mZl9hcHBseV93ZWJfZmFsbGJhY2socmF3X3Jvd3MsIG5vd191dGMpOgogICAgbmVlZCA9IEZhbHNlCiAgICBmb3Igcm93IGluIHJh
+            d19yb3dzOgogICAgICAgIGlmIHN0cihyb3cuZ2V0KCJjb3VudHJ5Iikgb3Igcm93LmdldCgiY3VycmVuY3kiKSBvciAiIikudXBwZXIoKSAhPSAiVVNEIjoK
+            ICAgICAgICAgICAgY29udGludWUKICAgICAgICBpbXBhY3QgPSBzdHIocm93LmdldCgiaW1wYWN0Iikgb3IgIiIpLnN0cmlwKCkudGl0bGUoKQogICAgICAg
+            IGlmIGltcGFjdCBub3QgaW4gKCJIaWdoIiwgIk1lZGl1bSIpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGR0ID0gX2ZmX2R0KHJvdykKICAgICAg
+            ICBpZiBkdCBhbmQgZHQgPD0gbm93X3V0YyArIHRpbWVkZWx0YShtaW51dGVzPTEpIGFuZCBub3Qgc3RyKHJvdy5nZXQoImFjdHVhbCIpIG9yICIiKS5zdHJp
+            cCgpOgogICAgICAgICAgICBuZWVkID0gVHJ1ZQogICAgICAgICAgICBicmVhawoKICAgIGlmIG5vdCBuZWVkOgogICAgICAgIHJldHVybiByYXdfcm93cwoK
+            ICAgIHdlYl9yb3dzID0gX2ZmX3dlYl9jYWxlbmRhcl90b2RheSgpCiAgICBpZiBub3Qgd2ViX3Jvd3M6CiAgICAgICAgcmV0dXJuIHJhd19yb3dzCgogICAg
+            Zm9yIHJvdyBpbiByYXdfcm93czoKICAgICAgICB0aXRsZSA9IHN0cihyb3cuZ2V0KCJ0aXRsZSIpIG9yICIiKS5zdHJpcCgpCiAgICAgICAgaWYgbm90IHRp
+            dGxlOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHdlYl9yb3cgPSB3ZWJfcm93cy5nZXQodGl0bGUubG93ZXIoKSkKICAgICAgICBpZiBub3Qgd2Vi
+            X3JvdzoKICAgICAgICAgICAgd2FudGVkID0gcmUuc3ViKHIiW15hLXowLTldKyIsICIgIiwgdGl0bGUubG93ZXIoKSkuc3RyaXAoKQogICAgICAgICAgICBm
+            b3IgY2FuZGlkYXRlX3RpdGxlLCBjYW5kaWRhdGUgaW4gd2ViX3Jvd3MuaXRlbXMoKToKICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWQgPSByZS5zdWIociJb
+            XmEtejAtOV0rIiwgIiAiLCBjYW5kaWRhdGVfdGl0bGUpLnN0cmlwKCkKICAgICAgICAgICAgICAgIGlmIG5vcm1hbGl6ZWQgPT0gd2FudGVkOgogICAgICAg
+            ICAgICAgICAgICAgIHdlYl9yb3cgPSBjYW5kaWRhdGUKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgIGlmIG5vdCB3ZWJfcm93OgogICAgICAg
+            ICAgICBjb250aW51ZQogICAgICAgIGlmIHdlYl9yb3cuZ2V0KCJhY3R1YWwiKToKICAgICAgICAgICAgcm93WyJhY3R1YWwiXSA9IHdlYl9yb3dbImFjdHVh
+            bCJdCiAgICAgICAgaWYgd2ViX3Jvdy5nZXQoImZvcmVjYXN0Iik6CiAgICAgICAgICAgIHJvd1siZm9yZWNhc3QiXSA9IHdlYl9yb3dbImZvcmVjYXN0Il0K
+            ICAgICAgICBpZiB3ZWJfcm93LmdldCgicHJldmlvdXMiKToKICAgICAgICAgICAgcm93WyJwcmV2aW91cyJdID0gd2ViX3Jvd1sicHJldmlvdXMiXQogICAg
+            cmV0dXJuIHJhd19yb3dzCgoKJycnCiAgICBzID0gcy5yZXBsYWNlKG1hcmtlciwgaGVscGVycyArIG1hcmtlciwgMSkKCm9sZF9mZXRjaCA9ICcgICAgcmF3
+            ID0gX2ZmX2ZldGNoKEZGX1RISVNfV0VFS19KU09OKVxuICAgIHJhdyArPSBfZmZfZmV0Y2goRkZfTkVYVF9XRUVLX0pTT04pJwpuZXdfZmV0Y2ggPSBvbGRf
+            ZmV0Y2ggKyAnXG4gICAgcmF3ID0gX2ZmX2FwcGx5X3dlYl9mYWxsYmFjayhyYXcsIG5vd191dGMpJwppZiAnX2ZmX2FwcGx5X3dlYl9mYWxsYmFjayhyYXcs
+            IG5vd191dGMpJyBub3QgaW4gczoKICAgIGlmIG9sZF9mZXRjaCBub3QgaW4gczoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ0ZvcmV4IEZhY3Rvcnkg
+            ZmV0Y2ggbWFya2VyIG1pc3NpbmcnKQogICAgcyA9IHMucmVwbGFjZShvbGRfZmV0Y2gsIG5ld19mZXRjaCwgMSkKCm1vcm5pbmdfb2xkID0gJycnICAgICAg
+            ICBvaywgXyA9IF9zZW5kX3B1c2hvdmVyKAogICAgICAgICAgICAi5LuK5pel576O5ZyL6YeN6KaB5pW45pOaIiwKICAgICAgICAgICAgIlxcbiIuam9pbihs
+            aW5lc1s6MTJdKSwKICAgICAgICAgICAgdXJsPSJodHRwczovL21vcnJpczE5OTc4Ni5naXRodWIuaW8vdXMtc3RvY2std2F0Y2gvP3BhZ2U9bWFjcm8iCiAg
+            ICAgICAgKScnJwppZiBtb3JuaW5nX29sZCBpbiBzOgogICAgcyA9IHMucmVwbGFjZShtb3JuaW5nX29sZCwgbW9ybmluZ19vbGQucmVwbGFjZSgnX3NlbmRf
+            cHVzaG92ZXInLCdfc2VuZF90ZWxlZ3JhbScpLCAxKQoKcmVzdWx0X29sZCA9ICcnJyAgICAgICAgb2ssIF8gPSBfc2VuZF9wdXNob3ZlcigKICAgICAgICAg
+            ICAgIue+juWci+aVuOaTmuWFrOW4gyIsCiAgICAgICAgICAgIG1zZywKICAgICAgICAgICAgdXJsPSJodHRwczovL21vcnJpczE5OTc4Ni5naXRodWIuaW8v
+            dXMtc3RvY2std2F0Y2gvP3BhZ2U9bWFjcm8iCiAgICAgICAgKScnJwppZiByZXN1bHRfb2xkIGluIHM6CiAgICBzID0gcy5yZXBsYWNlKHJlc3VsdF9vbGQs
+            IHJlc3VsdF9vbGQucmVwbGFjZSgnX3NlbmRfcHVzaG92ZXInLCdfc2VuZF90ZWxlZ3JhbScpLCAxKQoKZm9yIHRva2VuIGluIFsKICAgICdkZWYgX3NlbmRf
+            dGVsZWdyYW0oJywKICAgICdkZWYgX2ZmX3dlYl9jYWxlbmRhcl90b2RheSgnLAogICAgJ19mZl9hcHBseV93ZWJfZmFsbGJhY2socmF3LCBub3dfdXRjKScs
+            CiAgICAnX3NlbmRfdGVsZWdyYW0oXG4gICAgICAgICAgICAi5LuK5pel576O5ZyL6YeN6KaB5pW45pOaIicsCiAgICAnX3NlbmRfdGVsZWdyYW0oXG4gICAg
+            ICAgICAgICAi576O5ZyL5pW45pOa5YWs5biDIicsCl06CiAgICBpZiB0b2tlbiBub3QgaW4gczoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZidtYWNy
+            byBpbnN0YWxsIGNoZWNrIGZhaWxlZDoge3Rva2VufScpCgpjb21waWxlKHMsICd1cGRhdGVyLnB5JywgJ2V4ZWMnKQp1cGRhdGVyX2ZpbGUud3JpdGVfdGV4
+            dChzLCBlbmNvZGluZz0ndXRmLTgnKQoKaCA9IGluZGV4X2ZpbGUucmVhZF90ZXh0KGVuY29kaW5nPSd1dGYtOCcpCgpvbGRfZmlsdGVycyA9ICcnJyAgICA8
+            c2VsZWN0IGlkPSJhY3Rpb25GaWx0ZXIiPjxvcHRpb24gdmFsdWU9IiI+5YWo6YOo5Lqk5piTPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iYnV5Ij7lj6rnnIvo
+            srfpgLI8L29wdGlvbj48b3B0aW9uIHZhbHVlPSJzZWxsIj7lj6rnnIvos6jlh7o8L29wdGlvbj48L3NlbGVjdD4KICAgIDxzZWxlY3QgaWQ9ImNoYW1iZXJG
+            aWx0ZXIiPjxvcHRpb24gdmFsdWU9IiI+SG91c2UgKyBTZW5hdGU8L29wdGlvbj48b3B0aW9uIHZhbHVlPSJob3VzZSI+55y+6K2w6ZmiPC9vcHRpb24+PG9w
+            dGlvbiB2YWx1ZT0ic2VuYXRlIj7lj4PorbDpmaI8L29wdGlvbj48L3NlbGVjdD4KICAgIDxidXR0b24gaWQ9ImNsZWFyQ29uZ3Jlc3MiIGNsYXNzPSJjbGVh
+            cmJ0biBmdWxsIj7muIXpmaQ8L2J1dHRvbj4nJycKbmV3X2ZpbHRlcnMgPSAnJycgICAgPHNlbGVjdCBpZD0iYWN0aW9uRmlsdGVyIj48b3B0aW9uIHZhbHVl
+            PSIiPuWFqOmDqOS6pOaYkzwvb3B0aW9uPjxvcHRpb24gdmFsdWU9ImJ1eSI+5Y+q55yL6LK36YCyPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0ic2VsbCI+5Y+q
+            55yL6LOj5Ye6PC9vcHRpb24+PC9zZWxlY3Q+CiAgICA8c2VsZWN0IGlkPSJjaGFtYmVyRmlsdGVyIj48b3B0aW9uIHZhbHVlPSIiPkhvdXNlICsgU2VuYXRl
+            PC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iaG91c2UiPuecvuitsOmZojwvb3B0aW9uPjxvcHRpb24gdmFsdWU9InNlbmF0ZSI+5Y+D6K2w6ZmiPC9vcHRpb24+
+            PC9zZWxlY3Q+CiAgICA8c2VsZWN0IGlkPSJhc3NldEZpbHRlciI+PG9wdGlvbiB2YWx1ZT0ibGlzdGVkIiBzZWxlY3RlZD7kuIrluILogqHnpajvvI9FVEY8
+            L29wdGlvbj48b3B0aW9uIHZhbHVlPSJvdGhlciI+5YW25LuW6LOH55SiPC9vcHRpb24+PG9wdGlvbiB2YWx1ZT0iIj7lhajpg6jos4fnlKI8L29wdGlvbj48
+            L3NlbGVjdD4KICAgIDxidXR0b24gaWQ9ImNsZWFyQ29uZ3Jlc3MiIGNsYXNzPSJjbGVhcmJ0biBmdWxsIj7muIXpmaQ8L2J1dHRvbj4nJycKaWYgJ2lkPSJh
+            c3NldEZpbHRlciInIG5vdCBpbiBoOgogICAgaWYgb2xkX2ZpbHRlcnMgbm90IGluIGg6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdDb25ncmVzcyBm
+            aWx0ZXJzIG1hcmtlciBtaXNzaW5nJykKICAgIGggPSBoLnJlcGxhY2Uob2xkX2ZpbHRlcnMsIG5ld19maWx0ZXJzLCAxKQoKaWYgJ2Z1bmN0aW9uIGNvbmdy
+            ZXNzQXNzZXROYW1lKHgpJyBub3QgaW4gaDoKICAgIG1hcmtlciA9ICdmdW5jdGlvbiByZW5kZXJDb25ncmVzcygpeycKICAgIGlmIG1hcmtlciBub3QgaW4g
+            aDoKICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoJ3JlbmRlckNvbmdyZXNzIG1hcmtlciBtaXNzaW5nJykKICAgIGhlbHBlcnMgPSByJycnZnVuY3Rpb24g
+            Y29uZ3Jlc3NBc3NldE5hbWUoeCl7CiAgY29uc3QgdGlja2VyPVN0cmluZyh4LnRpY2tlcnx8IiIpLnRyaW0oKS50b1VwcGVyQ2FzZSgpOwogIGlmKHRpY2tl
+            cilyZXR1cm4gdGlja2VyOwogIGxldCBhc3NldD1TdHJpbmcoeC5hc3NldHx8IiIpLnJlcGxhY2UoL1xzKy9nLCIgIikudHJpbSgpOwogIGlmKCFhc3NldCly
+            ZXR1cm4gIuWFtuS7luizh+eUoiI7CiAgY29uc3QgY29tcGFueT1hc3NldC5tYXRjaCgvQ29tcGFueTpccyooLis/KSg/OlxzKlwoW14pXSpcKXxccypEZXNj
+            cmlwdGlvbjp8JCkvaSk7CiAgaWYoY29tcGFueSYmY29tcGFueVsxXSlyZXR1cm4gY29tcGFueVsxXS50cmltKCk7CiAgYXNzZXQ9YXNzZXQucmVwbGFjZSgv
+            XHMqRGVzY3JpcHRpb246LiokL2ksIiIpLnRyaW0oKTsKICByZXR1cm4gYXNzZXR8fCLlhbbku5bos4fnlKIiOwp9CmZ1bmN0aW9uIGNvbmdyZXNzQXNzZXRT
+            dWJMYWJlbCh4KXsKICBjb25zdCB0aWNrZXI9U3RyaW5nKHgudGlja2VyfHwiIikudHJpbSgpLnRvVXBwZXJDYXNlKCk7CiAgaWYodGlja2VyKXJldHVybiBT
+            dHJpbmcoeC5hc3NldHx8IiIpLnJlcGxhY2UoL1xzKy9nLCIgIikudHJpbSgpOwogIGNvbnN0IGFzc2V0PVN0cmluZyh4LmFzc2V0fHwiIikucmVwbGFjZSgv
+            XHMrL2csIiAiKS50cmltKCk7CiAgY29uc3QgZGVzYz1hc3NldC5tYXRjaCgvRGVzY3JpcHRpb246XHMqKC4rKSQvaSk7CiAgaWYoZGVzYyYmZGVzY1sxXSly
+            ZXR1cm4gZGVzY1sxXS50cmltKCk7CiAgcmV0dXJuIFN0cmluZyh4LmFzc2V0VHlwZXx8IiIpLnRyaW0oKXx8IumdnuS4iuW4guizh+eUoiI7Cn0KCicnJwog
+            ICAgaCA9IGgucmVwbGFjZShtYXJrZXIsIGhlbHBlcnMgKyBtYXJrZXIsIDEpCgpvbGQgPSAnICBjb25zdCBhY3Rpb249ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5
+            SWQoImFjdGlvbkZpbHRlciIpPy52YWx1ZXx8IiI7XG4gIGNvbnN0IGNoYW1iZXI9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNoYW1iZXJGaWx0ZXIiKT8u
+            dmFsdWV8fCIiOycKbmV3ID0gb2xkICsgJ1xuICBjb25zdCBhc3NldE1vZGU9ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImFzc2V0RmlsdGVyIik/LnZhbHVl
+            Pz8ibGlzdGVkIjsnCmlmICdjb25zdCBhc3NldE1vZGU9JyBub3QgaW4gaDoKICAgIGlmIG9sZCBub3QgaW4gaDoKICAgICAgICByYWlzZSBSdW50aW1lRXJy
+            b3IoJ0NvbmdyZXNzIG1vZGUgbWFya2VyIG1pc3NpbmcnKQogICAgaCA9IGgucmVwbGFjZShvbGQsIG5ldywgMSkKCm9sZCA9ICcgICAgaWYoYWN0aW9uICYm
+            ICh4LmFjdGlvbnx8IiIpIT09YWN0aW9uKXJldHVybiBmYWxzZTtcbiAgICBpZihjaGFtYmVyICYmICh4LmNoYW1iZXJ8fCIiKSE9PWNoYW1iZXIpcmV0dXJu
+            IGZhbHNlO1xuICAgIHJldHVybiB0cnVlOycKbmV3ID0gJyAgICBpZihhY3Rpb24gJiYgKHguYWN0aW9ufHwiIikhPT1hY3Rpb24pcmV0dXJuIGZhbHNlO1xu
+            ICAgIGlmKGNoYW1iZXIgJiYgKHguY2hhbWJlcnx8IiIpIT09Y2hhbWJlcilyZXR1cm4gZmFsc2U7XG4gICAgY29uc3QgaGFzVGlja2VyPSEhU3RyaW5nKHgu
+            dGlja2VyfHwiIikudHJpbSgpO1xuICAgIGlmKGFzc2V0TW9kZT09PSJsaXN0ZWQiICYmICFoYXNUaWNrZXIpcmV0dXJuIGZhbHNlO1xuICAgIGlmKGFzc2V0
+            TW9kZT09PSJvdGhlciIgJiYgaGFzVGlja2VyKXJldHVybiBmYWxzZTtcbiAgICByZXR1cm4gdHJ1ZTsnCmlmICdhc3NldE1vZGU9PT0ibGlzdGVkIicgbm90
+            IGluIGg6CiAgICBpZiBvbGQgbm90IGluIGg6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCdDb25ncmVzcyBmaWx0ZXIgbG9naWMgbWFya2VyIG1pc3Np
+            bmcnKQogICAgaCA9IGgucmVwbGFjZShvbGQsIG5ldywgMSkKCm9sZCA9ICcnJyAgICBjb25zdCBhY3RDbGFzcz14LmFjdGlvbj09PSJidXkiPyJjYnV5Ijp4
+            LmFjdGlvbj09PSJzZWxsIj8iY3NlbGwiOiIiOwogICAgY29uc3QgdGlja2VyTGFiZWw9eC50aWNrZXJ8fCJOL0EiOwogICAgY29uc3QgY2tleT1jb25ncmVz
+            c0RlZXBLZXkoeCk7CiAgICByZXR1cm4gYDxkaXYgY2xhc3M9ImNyb3ciIGRhdGEtY29uZ3Jlc3Mta2V5PSIke2VzY2FwZUh0bWwoY2tleSl9Ij4KICAgICAg
+            PGRpdj48ZGl2IGNsYXNzPSJ0aWNrZXIiPiR7dGlja2VyTGFiZWx9PC9kaXY+PGRpdiBjbGFzcz0iY3NtYWxsIj4ke3guYXNzZXR8fCIifTwvZGl2PjwvZGl2
+            PicnJwpuZXcgPSAnJycgICAgY29uc3QgYWN0Q2xhc3M9eC5hY3Rpb249PT0iYnV5Ij8iY2J1eSI6eC5hY3Rpb249PT0ic2VsbCI/ImNzZWxsIjoiIjsKICAg
+            IGNvbnN0IHRpY2tlckxhYmVsPWNvbmdyZXNzQXNzZXROYW1lKHgpOwogICAgY29uc3QgYXNzZXRTdWI9Y29uZ3Jlc3NBc3NldFN1YkxhYmVsKHgpOwogICAg
+            Y29uc3QgY2tleT1jb25ncmVzc0RlZXBLZXkoeCk7CiAgICByZXR1cm4gYDxkaXYgY2xhc3M9ImNyb3ciIGRhdGEtY29uZ3Jlc3Mta2V5PSIke2VzY2FwZUh0
+            bWwoY2tleSl9Ij4KICAgICAgPGRpdj48ZGl2IGNsYXNzPSJ0aWNrZXIiPiR7ZXNjYXBlSHRtbCh0aWNrZXJMYWJlbCl9PC9kaXY+PGRpdiBjbGFzcz0iY3Nt
+            YWxsIj4ke2VzY2FwZUh0bWwoYXNzZXRTdWIpfTwvZGl2PjwvZGl2PicnJwppZiAnY29uc3QgdGlja2VyTGFiZWw9eC50aWNrZXJ8fCJOL0EiJyBpbiBoOgog
+            ICAgaWYgb2xkIG5vdCBpbiBoOgogICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcignQ29uZ3Jlc3MgTi9BIG1hcmtlciBtaXNzaW5nJykKICAgIGggPSBoLnJl
+            cGxhY2Uob2xkLCBuZXcsIDEpCgpvbGQgPSAnWyJhY3Rpb25GaWx0ZXIiLCJjaGFtYmVyRmlsdGVyIl0uZm9yRWFjaChpZD0+ZG9jdW1lbnQuZ2V0RWxlbWVu
+            dEJ5SWQoaWQpPy5hZGRFdmVudExpc3RlbmVyKCJjaGFuZ2UiLCgpPT57X19jb25ncmVzc0xpbWl0PTUwO3JlbmRlckNvbmdyZXNzKCk7fSkpOycKbmV3ID0g
+            J1siYWN0aW9uRmlsdGVyIiwiY2hhbWJlckZpbHRlciIsImFzc2V0RmlsdGVyIl0uZm9yRWFjaChpZD0+ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoaWQpPy5h
+            ZGRFdmVudExpc3RlbmVyKCJjaGFuZ2UiLCgpPT57X19jb25ncmVzc0xpbWl0PTUwO3JlbmRlckNvbmdyZXNzKCk7fSkpOycKaWYgb2xkIGluIGg6CiAgICBo
+            ID0gaC5yZXBsYWNlKG9sZCwgbmV3LCAxKQoKb2xkID0gJyBjb25zdCBhPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJhY3Rpb25GaWx0ZXIiKSxjPWRvY3Vt
+            ZW50LmdldEVsZW1lbnRCeUlkKCJjaGFtYmVyRmlsdGVyIik7aWYoYSlhLnZhbHVlPSIiO2lmKGMpYy52YWx1ZT0iIjtcbiBfX2NvbmdyZXNzTGltaXQ9NTA7
+            cmVuZGVyQ29uZ3Jlc3MoKTsnCm5ldyA9ICcgY29uc3QgYT1kb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiYWN0aW9uRmlsdGVyIiksYz1kb2N1bWVudC5nZXRF
+            bGVtZW50QnlJZCgiY2hhbWJlckZpbHRlciIpLGFmPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJhc3NldEZpbHRlciIpO1xuIGlmKGEpYS52YWx1ZT0iIjtp
+            ZihjKWMudmFsdWU9IiI7aWYoYWYpYWYudmFsdWU9Imxpc3RlZCI7XG4gX19jb25ncmVzc0xpbWl0PTUwO3JlbmRlckNvbmdyZXNzKCk7JwppZiBvbGQgaW4g
+            aDoKICAgIGggPSBoLnJlcGxhY2Uob2xkLCBuZXcsIDEpCgpmb3IgdG9rZW4gaW4gWwogICAgJ2lkPSJhc3NldEZpbHRlciInLAogICAgJ29wdGlvbiB2YWx1
+            ZT0ibGlzdGVkIiBzZWxlY3RlZCcsCiAgICAnZnVuY3Rpb24gY29uZ3Jlc3NBc3NldE5hbWUoeCknLAogICAgJ2Z1bmN0aW9uIGNvbmdyZXNzQXNzZXRTdWJM
+            YWJlbCh4KScsCiAgICAnYXNzZXRNb2RlPT09Imxpc3RlZCInLAogICAgJ1siYWN0aW9uRmlsdGVyIiwiY2hhbWJlckZpbHRlciIsImFzc2V0RmlsdGVyIl0n
+            LAogICAgJ+e+juiCoeeEpum7nuiCoScsCiAgICAnZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigidmlzaWJpbGl0eWNoYW5nZSInLApdOgogICAgaWYgdG9r
+            ZW4gbm90IGluIGg6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYnaW5kZXggaW5zdGFsbCBjaGVjayBmYWlsZWQ6IHt0b2tlbn0nKQoKaWYgJ2NvbnN0
+            IHRpY2tlckxhYmVsPXgudGlja2VyfHwiTi9BIicgaW4gaDoKICAgIHJhaXNlIFJ1bnRpbWVFcnJvcignT2xkIENvbmdyZXNzIE4vQSBjb2RlIHN0aWxsIGV4
+            aXN0cycpCgppbmRleF9maWxlLndyaXRlX3RleHQoaCwgZW5jb2Rpbmc9J3V0Zi04JykKcHJpbnQoJ0ludGVncmF0ZWQgZml4ZXMgaW5zdGFsbGVkIHN1Y2Nl
+            c3NmdWxseScpCg==
         run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          root = Path(".")
-          updater_file = root / "updater.py"
-          index_file = root / "index.html"
-
-          # ============================================================
-          # 1. updater.py
-          #    - Forex Factory visible-page fallback
-          #    - Macro notifications -> Telegram
-          # ============================================================
-
-          s = updater_file.read_text(encoding="utf-8")
-
-          if "def _send_telegram(" not in s:
-              marker = "def refresh_macro_data():"
-
-              if marker not in s:
-                  raise RuntimeError("refresh_macro_data marker missing")
-
-              helpers = """
-          def _send_telegram(title, message, url=None):
-              token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
-              chat_id = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
-
-              if not token or not chat_id:
-                  return False, "missing_telegram_secrets"
-
-              text = f"{title}\\n{message}".strip()
-
-              if url:
-                  text += f"\\n{url}"
-
-              try:
-                  payload = json.dumps({
-                      "chat_id": chat_id,
-                      "text": text[:3900],
-                      "disable_web_page_preview": True,
-                  }, ensure_ascii=False).encode("utf-8")
-
-                  req = urllib.request.Request(
-                      f"https://api.telegram.org/bot{token}/sendMessage",
-                      data=payload,
-                      headers={
-                          "Content-Type": "application/json",
-                          "User-Agent": "us-stock-watch/1.0",
-                      },
-                      method="POST",
-                  )
-
-                  with urllib.request.urlopen(req, timeout=12) as r:
-                      ok = 200 <= getattr(r, "status", 200) < 300
-
-                  return ok, "ok" if ok else "http_error"
-
-              except Exception as e:
-                  return False, type(e).__name__
-
-
-          def _ff_clean_html_text(value):
-              text = re.sub(r"<[^>]+>", " ", str(value or ""))
-              text = re.sub(r"\\s+", " ", text)
-              return html_lib.unescape(text).strip()
-
-
-          def _ff_web_calendar_today():
-              try:
-                  req = urllib.request.Request(
-                      "https://www.forexfactory.com/calendar?day=today",
-                      headers={
-                          "User-Agent": (
-                              "Mozilla/5.0 "
-                              "(iPhone; CPU iPhone OS 18_0 like Mac OS X) "
-                              "AppleWebKit/605.1.15 "
-                              "Version/18.0 Mobile/15E148 Safari/604.1"
-                          ),
-                          "Accept": "text/html,application/xhtml+xml",
-                          "Accept-Language": "en-US,en;q=0.9",
-                          "Referer": "https://www.forexfactory.com/calendar",
-                      },
-                  )
-
-                  with urllib.request.urlopen(req, timeout=15) as r:
-                      html_text = r.read().decode("utf-8", "ignore")
-
-              except Exception:
-                  return {}
-
-              rows = re.findall(
-                  r'(<tr[^>]*class="[^"]*calendar__row[^"]*"[^>]*>.*?</tr>)',
-                  html_text,
-                  flags=re.I | re.S,
-              )
-
-              out = {}
-
-              for row in rows:
-                  event_match = re.search(
-                      r'class="[^"]*calendar__event[^"]*"[^>]*>(.*?)</td>',
-                      row,
-                      flags=re.I | re.S,
-                  )
-
-                  if not event_match:
-                      continue
-
-                  title = _ff_clean_html_text(event_match.group(1))
-
-                  if not title:
-                      continue
-
-                  def cell(class_name):
-                      m = re.search(
-                          rf'class="[^"]*{re.escape(class_name)}[^"]*"[^>]*>(.*?)</td>',
-                          row,
-                          flags=re.I | re.S,
-                      )
-                      return _ff_clean_html_text(m.group(1)) if m else ""
-
-                  out[title.lower()] = {
-                      "actual": cell("calendar__actual"),
-                      "forecast": cell("calendar__forecast"),
-                      "previous": cell("calendar__previous"),
-                  }
-
-              return out
-
-
-          def _ff_apply_web_fallback(raw_rows, now_utc):
-              need_fallback = False
-
-              for row in raw_rows:
-                  currency = str(
-                      row.get("country")
-                      or row.get("currency")
-                      or ""
-                  ).upper()
-
-                  if currency != "USD":
-                      continue
-
-                  impact = str(
-                      row.get("impact") or ""
-                  ).strip().title()
-
-                  if impact not in ("High", "Medium"):
-                      continue
-
-                  dt = _ff_dt(row)
-
-                  if (
-                      dt
-                      and dt <= now_utc + timedelta(minutes=1)
-                      and not str(row.get("actual") or "").strip()
-                  ):
-                      need_fallback = True
-                      break
-
-              if not need_fallback:
-                  return raw_rows
-
-              web_rows = _ff_web_calendar_today()
-
-              if not web_rows:
-                  return raw_rows
-
-              for row in raw_rows:
-                  title = str(row.get("title") or "").strip()
-
-                  if not title:
-                      continue
-
-                  web_row = web_rows.get(title.lower())
-
-                  if not web_row:
-                      wanted = re.sub(
-                          r"[^a-z0-9]+",
-                          " ",
-                          title.lower(),
-                      ).strip()
-
-                      for candidate_title, candidate in web_rows.items():
-                          normalized = re.sub(
-                              r"[^a-z0-9]+",
-                              " ",
-                              candidate_title,
-                          ).strip()
-
-                          if normalized == wanted:
-                              web_row = candidate
-                              break
-
-                  if not web_row:
-                      continue
-
-                  if web_row.get("actual"):
-                      row["actual"] = web_row["actual"]
-
-                  if web_row.get("forecast"):
-                      row["forecast"] = web_row["forecast"]
-
-                  if web_row.get("previous"):
-                      row["previous"] = web_row["previous"]
-
-              return raw_rows
-
-
-          """
-
-              helpers = "\n".join(
-                  line[10:] if line.startswith("          ") else line
-                  for line in helpers.splitlines()
-              )
-
-              s = s.replace(
-                  marker,
-                  helpers + "\n" + marker,
-                  1,
-              )
-
-          old_fetch = (
-              '    raw = _ff_fetch(FF_THIS_WEEK_JSON)\n'
-              '    raw += _ff_fetch(FF_NEXT_WEEK_JSON)'
-          )
-
-          new_fetch = (
-              '    raw = _ff_fetch(FF_THIS_WEEK_JSON)\n'
-              '    raw += _ff_fetch(FF_NEXT_WEEK_JSON)\n'
-              '    raw = _ff_apply_web_fallback(raw, now_utc)'
-          )
-
-          if "_ff_apply_web_fallback(raw, now_utc)" not in s:
-              if old_fetch not in s:
-                  raise RuntimeError(
-                      "Forex Factory fetch marker missing"
-                  )
-
-              s = s.replace(
-                  old_fetch,
-                  new_fetch,
-                  1,
-              )
-
-          morning_old = (
-              '        ok, _ = _send_pushover(\n'
-              '            "今日美國重要數據",\n'
-              '            "\\n".join(lines[:12]),\n'
-              '            url="https://morris199786.github.io/'
-              'us-stock-watch/?page=macro"\n'
-              '        )'
-          )
-
-          morning_new = morning_old.replace(
-              "_send_pushover",
-              "_send_telegram",
-          )
-
-          if morning_old in s:
-              s = s.replace(
-                  morning_old,
-                  morning_new,
-                  1,
-              )
-
-          result_old = (
-              '        ok, _ = _send_pushover(\n'
-              '            "美國數據公布",\n'
-              '            msg,\n'
-              '            url="https://morris199786.github.io/'
-              'us-stock-watch/?page=macro"\n'
-              '        )'
-          )
-
-          result_new = result_old.replace(
-              "_send_pushover",
-              "_send_telegram",
-          )
-
-          if result_old in s:
-              s = s.replace(
-                  result_old,
-                  result_new,
-                  1,
-              )
-
-          updater_checks = [
-              "def _send_telegram(",
-              "def _ff_web_calendar_today(",
-              "_ff_apply_web_fallback(raw, now_utc)",
-              '"今日美國重要數據"',
-              '"美國數據公布"',
-          ]
-
-          for token in updater_checks:
-              if token not in s:
-                  raise RuntimeError(
-                      f"updater install check failed: {token}"
-                  )
-
-          compile(
-              s,
-              "updater.py",
-              "exec",
-          )
-
-          updater_file.write_text(
-              s,
-              encoding="utf-8",
-          )
-
-          # ============================================================
-          # 2. index.html
-          #    Congress:
-          #    - Default listed stocks / ETFs
-          #    - Other assets selectable
-          #    - Remove N/A
-          # ============================================================
-
-          h = index_file.read_text(
-              encoding="utf-8"
-          )
-
-          old_filters = (
-              '    <select id="actionFilter">'
-              '<option value="">全部交易</option>'
-              '<option value="buy">只看買進</option>'
-              '<option value="sell">只看賣出</option>'
-              '</select>\n'
-              '    <select id="chamberFilter">'
-              '<option value="">House + Senate</option>'
-              '<option value="house">眾議院</option>'
-              '<option value="senate">參議院</option>'
-              '</select>\n'
-              '    <button id="clearCongress" '
-              'class="clearbtn full">清除</button>'
-          )
-
-          new_filters = (
-              '    <select id="actionFilter">'
-              '<option value="">全部交易</option>'
-              '<option value="buy">只看買進</option>'
-              '<option value="sell">只看賣出</option>'
-              '</select>\n'
-              '    <select id="chamberFilter">'
-              '<option value="">House + Senate</option>'
-              '<option value="house">眾議院</option>'
-              '<option value="senate">參議院</option>'
-              '</select>\n'
-              '    <select id="assetFilter">'
-              '<option value="listed" selected>'
-              '上市股票／ETF'
-              '</option>'
-              '<option value="other">其他資產</option>'
-              '<option value="">全部資產</option>'
-              '</select>\n'
-              '    <button id="clearCongress" '
-              'class="clearbtn full">清除</button>'
-          )
-
-          if 'id="assetFilter"' not in h:
-              if old_filters not in h:
-                  raise RuntimeError(
-                      "Congress filters marker missing"
-                  )
-
-              h = h.replace(
-                  old_filters,
-                  new_filters,
-                  1,
-              )
-
-          if "function congressAssetName(x)" not in h:
-              marker = "function renderCongress(){"
-
-              if marker not in h:
-                  raise RuntimeError(
-                      "renderCongress marker missing"
-                  )
-
-              helpers = r'''
-function congressAssetName(x){
-  const ticker=String(x.ticker||"").trim().toUpperCase();
-
-  if(ticker)return ticker;
-
-  let asset=String(x.asset||"")
-    .replace(/\s+/g," ")
-    .trim();
-
-  if(!asset)return "其他資產";
-
-  const company=asset.match(
-    /Company:\s*(.+?)(?:\s*\([^)]*\)|\s*Description:|$)/i
-  );
-
-  if(company&&company[1]){
-    return company[1].trim();
-  }
-
-  asset=asset
-    .replace(/\s*Description:.*$/i,"")
-    .trim();
-
-  return asset||"其他資產";
-}
-
-function congressAssetSubLabel(x){
-  const ticker=String(x.ticker||"")
-    .trim()
-    .toUpperCase();
-
-  if(ticker){
-    return String(x.asset||"")
-      .replace(/\s+/g," ")
-      .trim();
-  }
-
-  const asset=String(x.asset||"")
-    .replace(/\s+/g," ")
-    .trim();
-
-  const desc=asset.match(
-    /Description:\s*(.+)$/i
-  );
-
-  if(desc&&desc[1]){
-    return desc[1].trim();
-  }
-
-  return String(x.assetType||"").trim()
-    ||"非上市資產";
-}
-
-'''
-
-              h = h.replace(
-                  marker,
-                  helpers + marker,
-                  1,
-              )
-
-          old = (
-              '  const action=document.getElementById('
-              '"actionFilter")?.value||"";\n'
-              '  const chamber=document.getElementById('
-              '"chamberFilter")?.value||"";'
-          )
-
-          new = (
-              '  const action=document.getElementById('
-              '"actionFilter")?.value||"";\n'
-              '  const chamber=document.getElementById('
-              '"chamberFilter")?.value||"";\n'
-              '  const assetMode=document.getElementById('
-              '"assetFilter")?.value??"listed";'
-          )
-
-          if "const assetMode=" not in h:
-              if old not in h:
-                  raise RuntimeError(
-                      "Congress assetMode marker missing"
-                  )
-
-              h = h.replace(
-                  old,
-                  new,
-                  1,
-              )
-
-          old = (
-              '    if(action && '
-              '(x.action||"")!==action)return false;\n'
-              '    if(chamber && '
-              '(x.chamber||"")!==chamber)return false;\n'
-              '    return true;'
-          )
-
-          new = (
-              '    if(action && '
-              '(x.action||"")!==action)return false;\n'
-              '    if(chamber && '
-              '(x.chamber||"")!==chamber)return false;\n'
-              '    const hasTicker=!!String('
-              'x.ticker||"").trim();\n'
-              '    if(assetMode==="listed" '
-              '&& !hasTicker)return false;\n'
-              '    if(assetMode==="other" '
-              '&& hasTicker)return false;\n'
-              '    return true;'
-          )
-
-          if 'assetMode==="listed"' not in h:
-              if old not in h:
-                  raise RuntimeError(
-                      "Congress filtering marker missing"
-                  )
-
-              h = h.replace(
-                  old,
-                  new,
-                  1,
-              )
-
-          old = (
-              '    const actClass=x.action==="buy"'
-              '?"cbuy":x.action==="sell"?"csell":"";\n'
-              '    const tickerLabel=x.ticker||"N/A";\n'
-              '    const ckey=congressDeepKey(x);\n'
-              '    return `<div class="crow" '
-              'data-congress-key="${escapeHtml(ckey)}">\n'
-              '      <div><div class="ticker">'
-              '${tickerLabel}</div><div class="csmall">'
-              '${x.asset||""}</div></div>'
-          )
-
-          new = (
-              '    const actClass=x.action==="buy"'
-              '?"cbuy":x.action==="sell"?"csell":"";\n'
-              '    const tickerLabel=congressAssetName(x);\n'
-              '    const assetSub=congressAssetSubLabel(x);\n'
-              '    const ckey=congressDeepKey(x);\n'
-              '    return `<div class="crow" '
-              'data-congress-key="${escapeHtml(ckey)}">\n'
-              '      <div><div class="ticker">'
-              '${escapeHtml(tickerLabel)}</div>'
-              '<div class="csmall">'
-              '${escapeHtml(assetSub)}</div></div>'
-          )
-
-          if 'const tickerLabel=x.ticker||"N/A"' in h:
-              if old not in h:
-                  raise RuntimeError(
-                      "Congress N/A marker missing"
-                  )
-
-              h = h.replace(
-                  old,
-                  new,
-                  1,
-              )
-
-          old = (
-              '["actionFilter","chamberFilter"].forEach('
-              'id=>document.getElementById(id)?'
-              '.addEventListener("change",()=>{'
-              '__congressLimit=50;renderCongress();}));'
-          )
-
-          new = (
-              '["actionFilter","chamberFilter","assetFilter"]'
-              '.forEach(id=>document.getElementById(id)?'
-              '.addEventListener("change",()=>{'
-              '__congressLimit=50;renderCongress();}));'
-          )
-
-          if old in h:
-              h = h.replace(
-                  old,
-                  new,
-                  1,
-              )
-
-          old = (
-              ' const a=document.getElementById("actionFilter"),'
-              'c=document.getElementById("chamberFilter");'
-              'if(a)a.value="";if(c)c.value="";\n'
-              ' __congressLimit=50;renderCongress();'
-          )
-
-          new = (
-              ' const a=document.getElementById("actionFilter"),'
-              'c=document.getElementById("chamberFilter"),'
-              'af=document.getElementById("assetFilter");\n'
-              ' if(a)a.value="";'
-              'if(c)c.value="";'
-              'if(af)af.value="listed";\n'
-              ' __congressLimit=50;renderCongress();'
-          )
-
-          if old in h:
-              h = h.replace(
-                  old,
-                  new,
-                  1,
-              )
-
-          index_checks = [
-              'id="assetFilter"',
-              'option value="listed" selected',
-              "function congressAssetName(x)",
-              "function congressAssetSubLabel(x)",
-              'assetMode==="listed"',
-              '["actionFilter","chamberFilter","assetFilter"]',
-              "美股焦點股",
-              'document.addEventListener("visibilitychange"',
-          ]
-
-          for token in index_checks:
-              if token not in h:
-                  raise RuntimeError(
-                      f"index install check failed: {token}"
-                  )
-
-          if 'const tickerLabel=x.ticker||"N/A"' in h:
-              raise RuntimeError(
-                  "Old Congress N/A code still exists"
-              )
-
-          index_file.write_text(
-              h,
-              encoding="utf-8",
-          )
-
-          print(
-              "Integrated macro + Telegram + Congress fixes installed"
-          )
-          PY
+          printf '%s' "$PATCH_B64" | tr -d '[:space:]' | base64 -d > /tmp/install_fixes.py
+          python /tmp/install_fixes.py
 
       - name: Update fast data only
         env:
           SKIP_EARNINGS: "1"
-
-          # 原本非巨觀通知繼續使用 Pushover
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
-
-          # 美國數據通知改用 Telegram
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-
         run: python updater.py
 
       - name: Commit generated data and integrated fixes safely
@@ -689,17 +199,9 @@ function congressAssetSubLabel(x){
           cp index.html /tmp/index.html
           cp config.json /tmp/config.json
 
-          if [ -f focus.json ]; then
-            cp focus.json /tmp/focus.json
-          fi
-
-          if [ -f macro.json ]; then
-            cp macro.json /tmp/macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            cp push_state.json /tmp/push_state.json
-          fi
+          if [ -f focus.json ]; then cp focus.json /tmp/focus.json; fi
+          if [ -f macro.json ]; then cp macro.json /tmp/macro.json; fi
+          if [ -f push_state.json ]; then cp push_state.json /tmp/push_state.json; fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -711,37 +213,14 @@ function congressAssetSubLabel(x){
           cp /tmp/index.html index.html
           cp /tmp/config.json config.json
 
-          if [ -f /tmp/focus.json ]; then
-            cp /tmp/focus.json focus.json
-          fi
+          if [ -f /tmp/focus.json ]; then cp /tmp/focus.json focus.json; fi
+          if [ -f /tmp/macro.json ]; then cp /tmp/macro.json macro.json; fi
+          if [ -f /tmp/push_state.json ]; then cp /tmp/push_state.json push_state.json; fi
 
-          if [ -f /tmp/macro.json ]; then
-            cp /tmp/macro.json macro.json
-          fi
-
-          if [ -f /tmp/push_state.json ]; then
-            cp /tmp/push_state.json push_state.json
-          fi
-
-          git add \
-            data.json \
-            news.json \
-            congress.json \
-            updater.py \
-            index.html \
-            config.json
-
-          if [ -f focus.json ]; then
-            git add focus.json
-          fi
-
-          if [ -f macro.json ]; then
-            git add macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            git add push_state.json
-          fi
+          git add data.json news.json congress.json updater.py index.html config.json
+          if [ -f focus.json ]; then git add focus.json; fi
+          if [ -f macro.json ]; then git add macro.json; fi
+          if [ -f push_state.json ]; then git add push_state.json; fi
 
           if ! git diff --cached --quiet; then
             git commit -m "Install integrated macro and Congress fixes"
