@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29 17:14 台灣時間",
+  "updatedAt": "2026-09-29 17:20 台灣時間",
   "historyUpdatedDate": "2026-09-29",
   "historyLastAttemptAt": "2026-09-28T16:02:50.217719+00:00",
   "historyItemCount": 800,
@@ -7,10 +7,41 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google Project Suncatcher 測試張量處理單元",
+      "summary": "",
+      "originalTitle": "Google Project Suncatcher Tests Tensor Processing Units",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OZE5oT2NOa1U3TkpEeTZnR0JMazFFMEZwQzFENFVXNVlfb3JKYW1hbXJEV3c3bnM2dmlLbEw5eEdMRTRUbkZRYmpQMUZ5LXJrYUlHNm9PVWNnWmc3NFNtcXRRZXUwNGc?oc=5",
+      "ts": "2026-09-29T09:15:43+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 16.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "US Stock Market Today: S&P 500 Futures Slip On Weak Sentiment And Inflation Jitters",
+      "title": "今日美國股市：標普 500 指數期貨因市場情緒疲軟和通膨擔憂而下滑",
       "summary": "",
       "originalTitle": "US Stock Market Today: S&P 500 Futures Slip On Weak Sentiment And Inflation Jitters",
       "originalSummary": "",
@@ -23,7 +54,7 @@
       "eventType": "",
       "score": 17.25,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -40,7 +71,7 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "Stock futures mixed as investors await housing, and labor data (SPX:)",
+      "title": "投資者等待房屋和勞動數據，股指期貨漲跌互現（SPX：）",
       "summary": "",
       "originalTitle": "Stock futures mixed as investors await housing, and labor data (SPX:)",
       "originalSummary": "",
@@ -53,7 +84,7 @@
       "eventType": "",
       "score": 9.75,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -102,7 +133,7 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "US Stock Market Today: S&P 500 Futures Slip On Renewed Inflation And Rate Jitters",
+      "title": "今日美國股市：標普 500 指數期貨因通膨再度抬頭及利率波動而下滑",
       "summary": "",
       "originalTitle": "US Stock Market Today: S&P 500 Futures Slip On Renewed Inflation And Rate Jitters",
       "originalSummary": "",
@@ -115,7 +146,7 @@
       "eventType": "",
       "score": 17.25,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -346,7 +377,7 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears",
+      "title": "胡塞武裝襲擊和美伊局勢升級擔憂導致油價上漲",
       "summary": "",
       "originalTitle": "Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears",
       "originalSummary": "",
@@ -359,7 +390,7 @@
       "eventType": "",
       "score": 6.75,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -520,6 +551,36 @@
       "top10": true,
       "top10Rank": 3,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "U.S. Treasury Yields Edge Higher, Hover Near Recent Highs",
+      "summary": "",
+      "originalTitle": "U.S. Treasury Yields Edge Higher, Hover Near Recent Highs",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT05aOHdJS2k3TXNtTkY4MGUxRFFBZjV6bGNHM21EbjRCaHhSR0dYbjVqTmx2azdNVXRoRkh5b3RxbS1pVXNUYmJ0R25UWkxvTV8zUHhfSEQtMTdpUHZWTFVtZHJESDdqb0FkRWRoWDRTTWlPTm5mbmc3UWpzbVJpSDBOMmtDWmZGb1FfVkJjek1wVWdnVDhmXzB6MEhPdFJlMFVSRA?oc=5",
+      "ts": "2026-09-29T06:26:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -812,7 +873,7 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "‘Important and consequential’: Jensen Huang on US-China AI race, risk management",
+      "title": "「重要且重要」：黃仁勳談中美人工智慧競賽與風險管理",
       "summary": "",
       "originalTitle": "‘Important and consequential’: Jensen Huang on US-China AI race, risk management",
       "originalSummary": "",
@@ -825,7 +886,7 @@
       "eventType": "",
       "score": 9.75,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1318,7 +1379,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Meta收購解除後，馬努斯組成中國團隊，努力國內復出",
-      "summary": "人工智慧代理新創公司 Manus 週一晚間透過蝴蝶效應微信管道表示，該公司正在組建一支團隊，為中國市場開發產品。幾週前，該公司在 Meta 撤銷收購後恢復了獨立營運。",
+      "summary": "",
       "originalTitle": "Manus builds China team, pushes for domestic comeback after Meta acquisition unwound",
       "originalSummary": "AI agent startup Manus is assembling a team to develop products for the China market, the company said Monday night via its Butterfly Effect WeChat channel. The move comes weeks after it resumed independent operations following the revocation of its acquisition by Meta.",
       "url": "https://www.globaltimes.cn/page/202609/1371552.shtml",
@@ -1332,7 +1393,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 24.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "人工智慧代理新創公司 Manus 週一晚間透過蝴蝶效應微信管道表示，該公司正在組建一支團隊，為中國市場開發產品。幾週前，該公司在 Meta 撤銷收購後恢復了獨立營運。",
@@ -1441,7 +1502,7 @@
           "305 billion"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Elon Musk’s path to trillionaire status has stalled this month as Tesla and SpaceX continue to lose momentum. Musk’s net worth ended the week at $925 billion, up more than $305 billion since January, and still far higher than the...",
+        "stance": "由於特斯拉和 SpaceX 繼續失去動力，馬斯克 (Elon Musk) 的萬億富翁之路本月陷入停滯。截至本週，馬斯克的淨資產為 9250 億美元，自 1 月以來增加了超過 3050 億美元，仍然遠高於...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1500,16 +1561,16 @@
         "TER"
       ],
       "eventType": "新題材",
-      "score": 19.5,
+      "score": 16.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center in Silicon Valley, while Teradyne also launched its Iris 100 microLED optical test platform and opened a semiconductor-focused office in Bengaluru, India. Together, these moves extend Teradyne’s reach across AI, optical, and India’s growing chip ecosystem, tightening its integration into next-generation semiconductor design, test, and...",
+        "event": "2026年9月，泰瑞達與美國GS微電子公司建立了多年合作夥伴關係，在矽谷建立了配備泰瑞達的半導體測試和評估中心，而泰瑞達還推出了Iris 100 microLED光學測試平台，並在印度班加羅爾開設了專注於半導體的辦事處。總之，這些舉措擴大了泰瑞達在人工智慧、光學和印度不斷發展的晶片生態系統中的影響力，加強了其與下一代半導體設計、測試和…的整合。",
         "numbers": [
           "5.2%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "In September 2026, Teradyne and GS Microelectronics U.S. formed a multi-year partnership to build a Teradyne-equipped semiconductor test and evaluation center in Silicon Valley, while Teradyne also launched its Iris 100 microLED optical test platform and opened a semiconductor-focused office in Bengaluru, India.",
+        "stance": "2026年9月，泰瑞達與美國GS微電子公司建立了多年合作夥伴關係，在矽谷建立了配備泰瑞達的半導體測試和評估中心，而泰瑞達還推出了Iris 100 microLED光學測試平台，並在印度班加羅爾開設了專注於半導體的辦事處。總之，這些舉措擴大了泰瑞達在人工智慧、光學和印度不斷發展的晶片生態系統中的影響力，加強了其與下一代半導體設計、測試和…的整合。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1537,14 +1598,14 @@
         "CRWD"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 5.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "In September 2026, Tamnoon, Salt Security, Horizon3, Nord Security and others announced new integrations with CrowdStrike’s Falcon platform and Next-Gen SIEM, expanding capabilities in cloud security, AI agent monitoring, exposure management and unified threat visibility for joint customers. This wave of third‑party integrations underscores CrowdStrike’s role as a core security backbone, embedding its AI‑driven platform deeper into customers’ cloud and AI workflows. We’ll now examine how...",
+        "event": "2026 年 9 月，Tamnoon、Salt Security、Horizo​​​​n3、Nord Security 等宣布與 CrowdStrike 的 Falcon 平台和下一代 SIEM 進行新集成，為共同客戶擴展了雲端安全、AI 代理監控、暴露管理和統一威脅可見性方面的功能。這波第三方整合凸顯了 CrowdStrike 作為核心安全支柱的作用，將其人工智慧驅動的平台更深入地嵌入到客戶的雲端和人工智慧工作流程中。我們現在將研究如何...",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "In September 2026, Tamnoon, Salt Security, Horizon3, Nord Security and others announced new integrations with CrowdStrike’s Falcon platform and Next-Gen SIEM, expanding capabilities in cloud security, AI agent monitoring, exposure management and unified threat visibility for joint customers.",
+        "stance": "2026 年 9 月，Tamnoon、Salt Security、Horizo​​​​n3、Nord Security 等宣布與 CrowdStrike 的 Falcon 平台和下一代 SIEM 進行新集成，為共同客戶擴展了雲端安全、AI 代理監控、暴露管理和統一威脅可見性方面的功能。這波第三方整合凸顯了 CrowdStrike 作為核心安全支柱的作用，將其人工智慧驅動的平台更深入地嵌入到客戶的雲端和人工智慧工作流程中。我們現在將研究如何...",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1610,7 +1671,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Crude oil and refined product futures contracts were seeing solid gains to start the week as markets reacted to President Trump&#039;s rejection of an Iranian proposal that could have led to a reopening of the Strait of Hormuz. crude prices were rising by more than 3% at 11:15 a.m. ET, with the November West Texas Intermediate crude contract climbing by $2.94 to $95.35/bbl while December prices rose by $2.43 to $91.14/bbl. Brent crude futures were seeing similar gains, with the lightly traded November contract up $",
+        "event": "由於市場對川普總統拒絕伊朗可能導致霍爾木茲海峽重新開放的提議做出反應，原油和成品油期貨合約本周初出現強勁上漲。美國東部時間上午 11:15 原油價格上漲超過 3%，11 月西德州中質原油合約上漲 2.94 美元至 95.35 美元/桶，12 月價格上漲 2.43 美元至 91.14 美元/桶。布蘭特原油期貨也出現類似漲幅，交易清淡的 11 月合約上漲 $",
         "numbers": [
           "$2.94",
           "$95.35",
@@ -1618,7 +1679,7 @@
           "$91.14"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Crude oil and refined product futures contracts were seeing solid gains to start the week as markets reacted to President Trump&#039;s rejection of an Iranian proposal that could have led to a reopening of the Strait of Hormuz. U.S.",
+        "stance": "由於市場對川普總統拒絕伊朗可能導致霍爾木茲海峽重新開放的提議做出反應，原油和成品油期貨合約本周初出現強勁上漲。美國東部時間上午 11:15，美國原油價格上漲超過 3%，11 月西德州中質原油合約上漲 2.94 美元，至 95.35 美元/桶，12 月價格上漲 2.43 美元，至 91.14 美元/桶。布蘭特原油期貨也出現類似漲幅，交易清淡的 11 月合約上漲 3.31 美元，至 107.63 美元/桶，而較為活躍的 12 月合約上漲 2.45 美元，至 99.89 美元/桶。成品油的大部分活動也集中在下個月合約，因為他們準備在本週晚些時候轉移到近月合約。 10 月 ULSD 在交易非常清淡的情況下上漲 1.84 克拉，至 4.7031 美元/加侖，而較為活躍的 11 月合約上漲 6.28 克拉/加侖。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1722,10 +1783,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Gwynne Shotwell’s launch-day superstition remains decidedly low-tech despite her role as president and COO of Space Exploration Technologies Corp., with two sticky notes marked \"Scotland\" tucked inside her shoes before rockets fly. Shotwell’s Scotland Ritual Dates Back To 2008 The...",
+        "event": "儘管 Gwynne Shotwell 擔任太空探索技術公司 (Space Exploration Technologies Corp.) 的總裁兼首席營運官，但她在發射日的迷信顯然仍然是低科技含量的，在火箭起飛前，她的鞋子裡塞了兩張寫著「蘇格蘭」的便條。肖特韋爾的蘇格蘭儀式可以追溯到 2008 年",
         "numbers": [],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "Gwynne Shotwell’s launch-day superstition remains decidedly low-tech despite her role as president and COO of Space Exploration Technologies Corp., with two sticky notes marked \"Scotland\" tucked inside her shoes before rockets fly. Shotwell’s Scotland Ritual Dates Back To 2008 The...",
+        "stance": "儘管 Gwynne Shotwell 擔任太空探索技術公司 (Space Exploration Technologies Corp.) 的總裁兼首席營運官，但她在發射日的迷信顯然仍然是低科技含量的，在火箭起飛前，她的鞋子裡塞了兩張寫著「蘇格蘭」的便條。肖特韋爾的蘇格蘭儀式可以追溯到 2008 年",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1756,7 +1817,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "The Boeing Company (NYSE:BA) generated $1.185 billion in operating cash during the first half of 2026, compared with a $1.389 billion outflow a year earlier. The recovery is encouraging, but customer funding plays a substantial role in the improvement. Changes in advances and progress billings contributed $4.660 billion, while inventory absorbed $3.859 billion. The advances […]",
+        "event": "波音公司（NYSE：BA）在 2026 年上半年產生了 11.85 億美元的營運現金，而去年同期流出了 13.89 億美元。復甦令人鼓舞，但客戶資金在改善中發揮重要作用。預付款和進度帳單的變化貢獻了 46.6 億美元，而庫存吸收了 38.59 億美元。進展[…]",
         "numbers": [
           "$1.185 billion",
           "$1.389 billion",
@@ -1764,7 +1825,7 @@
           "$3.859 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The Boeing Company (NYSE:BA) generated $1.185 billion in operating cash during the first half of 2026, compared with a $1.389 billion outflow a year earlier. The recovery is encouraging, but customer funding plays a substantial role in the improvement.",
+        "stance": "波音公司（NYSE：BA）在 2026 年上半年產生了 11.85 億美元的營運現金，而去年同期流出了 13.89 億美元。復甦令人鼓舞，但客戶資金在改善中發揮重要作用。預付款和進度帳單的變化貢獻了 46.6 億美元，而庫存吸收了 38.59 億美元。進展[…]",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -1829,10 +1890,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Intel Corporation (NASDAQ:INTC) found a partner to help pay for its Arizona chip factories, but accepted constraints on how it operates them. Its filing for the quarter ended June 27, 2026, says the venture’s production contract began in the first quarter. Falling short of minimum production levels or exceeding limits on inventory held on site […]",
+        "event": "英特爾公司（納斯達克股票代碼：INTC）找到了一個合作夥伴來幫助支付其亞利桑那州晶片工廠的費用，但接受了對其運作方式的限制。該公司截至 2026 年 6 月 27 日的季度備案文件稱，該合資企業的生產合約於第一季開始。未達最低生產水準或超出現場庫存限制 [...]",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Intel Corporation (NASDAQ:INTC) found a partner to help pay for its Arizona chip factories, but accepted constraints on how it operates them. Its filing for the quarter ended June 27, 2026, says the venture’s production contract began in the first quarter.",
+        "stance": "英特爾公司（納斯達克股票代碼：INTC）找到了一個合作夥伴來幫助支付其亞利桑那州晶片工廠的費用，但接受了對其運作方式的限制。該公司截至 2026 年 6 月 27 日的季度備案文件稱，該合資企業的生產合約於第一季開始。未達最低生產水準或超出現場庫存限制 [...]",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1864,10 +1925,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "MongoDB, Inc. (NASDAQ:MDB) is heading into its annual Investor Day with a sudden leadership transition after President and CEO Chirantan “CJ” Desai stepped down effective immediately to pursue a senior role at Meta Platforms, Inc. The company appointed former CEO Dev Ittycheria as interim President and CEO while beginning a search for a permanent successor. […]",
+        "event": "MongoDB, Inc.（納斯達克股票代碼：MDB）即將迎來年度投資者日，總裁兼首席執行官 Chirantan “CJ” Desai 立即辭職，轉而在 Meta Platforms, Inc. 擔任高級職位，領導層突然發生換屆。該公司任命前首席執行官 Dev Ittycheria 為臨時總裁兼首席執行官，同時開始尋找永久繼任者。 […]",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "(NASDAQ:MDB) is heading into its annual Investor Day with a sudden leadership transition after President and CEO Chirantan “CJ” Desai stepped down effective immediately to pursue a senior role at Meta Platforms, Inc. The company appointed former CEO Dev Ittycheria as interim President and CEO while beginning a search for a permanent successor.",
+        "stance": "MongoDB, Inc.（納斯達克股票代碼：MDB）即將迎來年度投資者日，總裁兼首席執行官 Chirantan “CJ” Desai 立即辭職，轉而在 Meta Platforms, Inc. 擔任高級職位，領導層突然發生換屆。該公司任命前首席執行官 Dev Ittycheria 為臨時總裁兼首席執行官，同時開始尋找永久繼任者。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1898,10 +1959,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Alibaba Group Holding (NYSE:BABA) is expected to secure Chinese approval to purchase Nvidia RTX PRO 5500 chips under current export rules. Regulators in Beijing are reviewing the RTX PRO 5500 orders as a category of AI hardware seen as compliant with US curbs. The prospective approval would expand Alibaba's pool of Nvidia processors for use in its cloud services and in-house AI projects. The likely green light for Alibaba's RTX PRO 5500 imports sits alongside broader shifts in China AI...",
+        "event": "阿里巴巴集團控股公司（NYSE：BABA）預計將獲得中國批准根據現行出口規則購買 Nvidia RTX PRO 5500 晶片。北京監管機構正在審查 RTX PRO 5500 訂單，將其視為符合美國限制的人工智慧硬體類別。預期的批准將擴大阿里巴巴的 Nvidia 處理器庫，用於其雲端服務和內部人工智慧專案。阿里巴巴的 RTX PRO 5500 進口可能會獲得批准，同時中國人工智慧領域也將發生更廣泛的變化…",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Regulators in Beijing are reviewing the RTX PRO 5500 orders as a category of AI hardware seen as compliant with US curbs.",
+        "stance": "阿里巴巴集團控股公司（NYSE：BABA）預計將獲得中國批准根據現行出口規則購買 Nvidia RTX PRO 5500 晶片。北京監管機構正在審查 RTX PRO 5500 訂單，將其視為符合美國限制的人工智慧硬體類別。預期的批准將擴大阿里巴巴的 Nvidia 處理器庫，用於其雲端服務和內部人工智慧專案。阿里巴巴的 RTX PRO 5500 進口可能會獲得批准，同時中國人工智慧領域也將發生更廣泛的變化…",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1965,10 +2026,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "NVIDIA Corporation (NASDAQ:NVDA) made a very important announcement on Monday as it fulfilled Jim Cramer’s long-held wish. While the CNBC TV host has ardently defended the firm throughout 2026 despite weak share price performance, he has also insisted that NVIDIA buy back its shares just like Apple did under CEO Tim Cook and CFO Luca […]",
+        "event": "NVIDIA 公司（納斯達克股票代碼：NVDA）週一發布了一項非常重要的公告，實現了 Jim Cramer 的夙願。儘管股價表現疲軟，這位 CNBC 電視主持人在 2026 年期間仍熱情地為該公司辯護，但他也堅持要求 NVIDIA 回購其股票，就像蘋果在首席執行官蒂姆·庫克和首席財務官盧卡領導下所做的那樣 […]",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "While the CNBC TV host has ardently defended the firm throughout 2026 despite weak share price performance, he has also insisted that NVIDIA buy back its shares just like Apple did under CEO Tim Cook and CFO Luca […]",
+        "stance": "NVIDIA 公司（納斯達克股票代碼：NVDA）週一發布了一項非常重要的公告，實現了 Jim Cramer 的夙願。儘管股價表現疲軟，這位 CNBC 電視主持人在 2026 年期間仍熱情地為該公司辯護，但他也堅持要求 NVIDIA 回購其股票，就像蘋果在首席執行官蒂姆·庫克和首席財務官盧卡領導下所做的那樣 […]",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2000,12 +2061,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Certification of Boeing Co.’s long-delayed 737 Max 10 variant will be held up by the Federal Aviation Administration over a new software issue, just as the U.S. planemaker was in the final stages of winning approval to begin deliveries to airlines.The FAA is holding off on certification of the largest member of Boeing’s best-selling narrowbody family until it has determined whether or not a recently flagged software concern constitutes a safety of flight issue, Administrator Bryan Bedford told reporters on Monday a",
+        "event": "波音公司拖延已久的 737 Max 10 機型的認證將因新的軟體問題而被美國聯邦航空管理局推遲，而這家美國飛機製造商正處於贏得批准開始向航空公司交付的最後階段。 美國聯邦航空局正在推遲波音最暢銷窄體飛機家族最大成員的認證，直到確定最近標記的軟體問題是否構成飛行安全問題為止，局長布萊恩·貝德福德 (Bryan Bedford) 週一告訴記者",
         "numbers": [
           "6.8%"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Certification of Boeing Co.’s long-delayed 737 Max 10 variant will be held up by the Federal Aviation Administration over a new software issue, just as the U.S. planemaker was in the final stages of winning approval to begin deliveries to airlines.The FAA is holding off on certification of the largest member of Boeing’s best-selling narrowbody family until it has determined whether or not a recently flagged software concern constitutes a safety of flight issue, Administrator Bryan Bedford told reporters on Monday at an event near Washington.Boeing shares",
+        "stance": "波音公司拖延已久的 737 Max 10 機型的認證將因新的軟體問題而被美國聯邦航空管理局推遲，而這家美國飛機製造商正處於贏得批准開始向航空公司交付的最後階段。美國聯邦航空局正在推遲波音最暢銷窄體飛機家族最大成員的認證，直到確定最近標記的軟體問題是否構成飛行安全問題，週一，美國聯邦航空局局長布萊恩·貝德福德 (Bryan Bedford) 在附近的一次活動中告訴記者。在管理員發表評論後，華盛頓波音股價跌至盤中低點，截至下午 2 點 26 分，跌幅高達 6.8%。在紐約。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2139,7 +2200,7 @@
           "action": "初評",
           "newTarget": "$340",
           "oldTarget": "",
-          "reason": "September 25, with an Overweight rating and a $340 price target, calling it the best sales growth story in multi-industry.",
+          "reason": "9 月 25 日，給予增持評級和 340 美元的目標價，稱其為多行業中最好的銷售成長故事。",
           "reasonConfidence": "medium",
           "targetTicker": "VRT",
           "targetCompany": "Vertiv"
@@ -2153,14 +2214,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Vertiv（VRT）｜券商：Wells Fargo｜動作：初評｜評等：Overweight｜目標價：$340｜調整原因：September 25, with an Overweight rating and a $340 price target, calling it the best sales growth story in multi-industry.",
+        "event": "被評級公司：Vertiv（VRT）｜券商：Wells Fargo｜動作：初評｜評等：Overweight｜目標價：$340｜調整原因：9 月 25 日，給予增持評級和 340 美元的目標價，稱其為多行業中最好的銷售成長故事。",
         "numbers": [
           "$340"
         ],
-        "why": "調整原因：September 25, with an Overweight rating and a $340 price target, calling it the best sales growth story in multi-industry.",
+        "why": "調整原因：9 月 25 日，給予增持評級和 340 美元的目標價，稱其為多行業中最好的銷售成長故事。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：September 25, with an Overweight rating and a $340 price target, calling it the best sales growth story in multi-industry.",
+        "takeaway": "調整原因：9 月 25 日，給予增持評級和 340 美元的目標價，稱其為多行業中最好的銷售成長故事。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -2190,13 +2251,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "The analyst's rationale revolved around Bloom's Fremont facility, which added 158,000 sq ft of floor space. The lease of additional manufacturing floor space is a positive indicator of strong demand and highlights the strength of Bloom's pipeline, the firm said. Bloom Energy also said it is scaling its Fremont, California, manufacturing capacity from 1 gigawatt (GW) to an annualized 2 GW by the end of 2026, with existing facilities capable of expanding to a theoretical 5 GW.",
+        "event": "分析師的理由圍繞著 Bloom 的弗里蒙特工廠，該工廠增加了 158,000 平方英尺的建築面積。該公司表示，租賃額外的生產場地是需求強勁的積極指標，並凸顯了 Bloom 管道的實力。 Bloom Energy 也表示，到 2026 年底，將把其位於加州弗里蒙特的製造能力從 1 吉瓦 (GW) 擴大到年化 2 吉瓦，現有設施理論上能夠擴大到 5 吉瓦。",
         "numbers": [
           "2 GW",
           "5 GW"
         ],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "The lease of additional manufacturing floor space is a positive indicator of strong demand and highlights the strength of Bloom's pipeline, the firm said. Bloom Energy also said it is scaling its Fremont, California, manufacturing capacity from 1 gigawatt (GW) to an annualized 2 GW by the end of 2026, with existing facilities capable of expanding to a theoretical 5 GW.",
+        "stance": "分析師的理由圍繞著 Bloom 的弗里蒙特工廠，該工廠增加了 158,000 平方英尺的建築面積。該公司表示，租賃額外的生產場地是需求強勁的積極指標，並凸顯了 Bloom 管道的實力。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2258,10 +2319,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "CEO of Nvidia, Jensen Huang’s influence in Washington has become one of Nvidia’s more unusual competitive assets. Late September 2026 brought confirmation of just how close that relationship has become, with Treasury Secretary Scott Bessent telling Congress that President Trump is “completely aligned” with Huang’s views on AI policy. The alignment follows Huang’s public pushback […]",
+        "event": "英偉達執行長黃仁勳在華盛頓的影響力已成為英偉達較不尋常的競爭資產之一。 2026 年 9 月下旬，財政部長貝森特 (Scott Bessent) 告訴國會，川普總統「完全同意」黃仁勳對人工智慧政策的看法，這證實了這種關係的密切程度。這項調整是在黃仁勳公開反對之後進行的 […]",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "CEO of Nvidia, Jensen Huang’s influence in Washington has become one of Nvidia’s more unusual competitive assets.",
+        "stance": "英偉達執行長黃仁勳在華盛頓的影響力已成為英偉達較不尋常的競爭資產之一。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2356,14 +2417,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "GE Vernova Inc. (NYSE:GEV) CEO Scott Strazik disclosed at the Morgan Stanley Laguna Conference on September 16 that the company is accelerating its gas power capacity additions by 50% this year. The manufacturing expansion links directly to the company’s expanding order book, with gas equipment backlog and slot reservation agreements projected to reach at least […]",
+        "event": "GE Vernova Inc.（NYSE：GEV）執行長 Scott Strazik 在 9 月 16 日的摩根士丹利拉古納會議上透露，該公司今年將加速將天然氣發電產能增加 50%。製造擴張直接與公司不斷擴大的訂單相關，天然氣設備積壓和艙位預訂協議預計將至少達到[...]",
         "numbers": [
           "$176 Billion",
           "50%",
           "176 Billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(NYSE:GEV) CEO Scott Strazik disclosed at the Morgan Stanley Laguna Conference on September 16 that the company is accelerating its gas power capacity additions by 50% this year.",
+        "stance": "GE Vernova Inc.（NYSE：GEV）執行長 Scott Strazik 在 9 月 16 日的摩根士丹利拉古納會議上透露，該公司今年將加速將天然氣發電產能增加 50%。製造擴張直接與公司不斷擴大的訂單相關，天然氣設備積壓和艙位預訂協議預計將至少達到[...]",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -2397,13 +2458,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Cerebras has a $20 billion OpenAI deal and AWS partnership, but a falling stock and shifting customer concentration. IonQ has a surging backlog and diversified quantum computing customers.",
+        "event": "Cerebras 與 OpenAI 達成了 200 億美元的交易，並與 AWS 建立了合作夥伴關係，但庫存不斷下降，客戶集中度也發生了變化。 IonQ 擁有激增的訂單量和多元化的量子運算客戶。",
         "numbers": [
           "$20 billion",
           "20 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Cerebras has a $20 billion OpenAI deal and AWS partnership, but a falling stock and shifting customer concentration. IonQ has a surging backlog and diversified quantum computing customers.",
+        "stance": "IonQ 擁有激增的訂單量和多元化的量子運算客戶。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2435,12 +2496,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Samsung’s planned US$1b injection into Helix Digital Infrastructure, backed by Nvidia and KKR, underlines how much capital is now chasing the plumbing behind artificial intelligence. Canadian AI stocks exposed to chips, cloud, and large language models sit in the slipstream of that build out. This article highlights three undervalued Canadian AI companies from our screener to help you find potential long term beneficiaries of this spend. The three Canadian AI picks below are only a starter...",
+        "event": "在 Nvidia 和 KKR 的支持下，三星計劃向 Helix Digital Infrastructure 注資 10 億美元，這突顯出目前有多少資本正在追逐人工智慧背後的管道。涉及晶片、雲端和大型語言模型的加拿大人工智慧股票正處於這一建設的潮流之中。本文重點介紹了我們篩選中的三家被低估的加拿大人工智慧公司，以幫助您找到這筆支出的潛在長期受益者。下面的三個加拿大人工智慧選擇只是一個開始...",
         "numbers": [
           "$1b"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Samsung’s planned US$1b injection into Helix Digital Infrastructure, backed by Nvidia and KKR, underlines how much capital is now chasing the plumbing behind artificial intelligence. Canadian AI stocks exposed to chips, cloud, and large language models sit in the slipstream of that build out.",
+        "stance": "在 Nvidia 和 KKR 的支持下，三星計劃向 Helix Digital Infrastructure 注資 10 億美元，這突顯出目前有多少資本正在追逐人工智慧背後的管道。涉及晶片、雲端和大型語言模型的加拿大人工智慧股票正處於這一建設的潮流之中。本文重點介紹了我們篩選中的三家被低估的加拿大人工智慧公司，以幫助您找到這筆支出的潛在長期受益者。下面的三個加拿大人工智慧選擇只是一個開始...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2531,10 +2592,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "On September 15, Cloudflare, Inc. (NYSE:NET) announced its new Accountable designation for AI crawling alongside the launch of “Disallow AI Training.” This tool allows website owners to block AI models from scraping their content for training purposes while remaining fully indexable in traditional search results. Addressing the dilemma where publishers were forced to choose between […]",
+        "event": "9 月 15 日，Cloudflare, Inc.（NYSE：NET）宣布了新的 AI 爬行責任指定，同時推出了「禁止 AI 訓練」。該工具允許網站所有者阻止人工智慧模型出於訓練目的而抓取其內容，同時在傳統搜尋結果中保持完全可索引。解決出版商被迫在[...]之間做出選擇的困境",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "On September 15, Cloudflare, Inc. (NYSE:NET) announced its new Accountable designation for AI crawling alongside the launch of “Disallow AI Training.” This tool allows website owners to block AI models from scraping their content for training purposes while remaining fully indexable in traditional search results.",
+        "stance": "9 月 15 日，Cloudflare, Inc.（NYSE：NET）宣布了新的 AI 爬行責任指定，同時推出了「禁止 AI 訓練」。該工具允許網站所有者阻止人工智慧模型出於訓練目的而抓取其內容，同時在傳統搜尋結果中保持完全可索引。解決出版商被迫在[...]之間做出選擇的困境",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2597,10 +2658,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Cerebras is growing fast with a differentiated chip architecture and a well-funded AI partner. BigBear.ai is navigating declining revenue and heavy dependence on a single customer. Both are speculative, but the risk profiles tell different stories.",
+        "event": "Cerebras 憑藉差異化的晶片架構和資金雄厚的人工智慧合作夥伴正在快速發展。 BigBear.ai 正在應對收入下降和對單一客戶的嚴重依賴。兩者都是推測性的，但風險狀況講述了不同的故事。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Cerebras is growing fast with a differentiated chip architecture and a well-funded AI partner. BigBear.ai is navigating declining revenue and heavy dependence on a single customer.",
+        "stance": "Cerebras 憑藉差異化的晶片架構和資金雄厚的人工智慧合作夥伴正在快速發展。 BigBear.ai 正在應對收入下降和對單一客戶的嚴重依賴。兩者都是推測性的，但風險狀況講述了不同的故事。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2639,77 +2700,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "WDC",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "AI儲存能否成為新蛋商業（NEGG）和西部資料（WDC）的下一個重要催化劑？",
-      "summary": "",
-      "originalTitle": "Can AI Storage Become the Next Big Catalyst for Newegg Commerce (NEGG) and Western Digital (WDC)?",
-      "originalSummary": "On September 24, Newegg Commerce, Inc. (NASDAQ:NEGG) announced that Newegg Business is collaborating with Western Digital Corporation (NASDAQ:WDC) to help IT teams select and scale high-performance storage solutions. As part of this effort, Newegg Business will host a live webinar titled “Realize the Full Power of Your AI NAS with WD Red Pro” on September […]",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-storage-become-next-big-002707962.html",
-      "ts": "2026-09-29T00:27:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.7836956283794105,
-      "relatedTickers": [
-        "WDC"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "On September 24, Newegg Commerce, Inc. (NASDAQ:NEGG) announced that Newegg Business is collaborating with Western Digital Corporation (NASDAQ:WDC) to help IT teams select and scale high-performance storage solutions. As part of this effort, Newegg Business will host a live webinar titled “Realize the Full Power of Your AI NAS with WD Red Pro” on September […]",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "On September 24, Newegg Commerce, Inc. (NASDAQ:NEGG) announced that Newegg Business is collaborating with Western Digital Corporation (NASDAQ:WDC) to help IT teams select and scale high-performance storage solutions.",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "Marvell Technology、Semtech、Lattice Semiconductor 和 Micron 股票下跌，您需要了解什麼",
-      "summary": "",
-      "originalTitle": "Marvell Technology, Semtech, Lattice Semiconductor, and Micron Stocks Trade Down, What You Need To Know",
-      "originalSummary": "A number of stocks fell in the afternoon session after OpenAI paused training of its frontier artificial intelligence models following a security breach, raising concerns over near-term hardware demand.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-semtech-lattice-semiconductor-002236591.html",
-      "ts": "2026-09-29T00:22:36+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.831103136274261,
-      "relatedTickers": [
-        "MRVL",
-        "MU"
-      ],
-      "eventType": "",
-      "score": 13.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "A number of stocks fell in the afternoon session after OpenAI paused training of its frontier artificial intelligence models following a security breach, raising concerns over near-term hardware demand.",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "A number of stocks fell in the afternoon session after OpenAI paused training of its frontier artificial intelligence models following a security breach, raising concerns over near-term hardware demand.",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -14499,7 +14489,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "100 次發射中的 4 次：Rocket Lab 獲得看漲的新號召，Iridium 和 Mynaric 也將參與其中",
-      "summary": "Rocket Lab Corporation (NASDAQ: RKLB ) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company's own rockets. Raymond James launched coverage of RKLB on September 11 with an Outperform rating and a $80 price target, implying a roughly 29% increase from current levels, and pointed out specific growth levers that link the launch company's fortunes directly to two other names central to its expansion: Mynaric, which it acquired in April, and Iridium Communications Inc. (NASDAQ: IRDM ).",
+      "summary": "火箭實驗室公司（納斯達克股票代碼：RKLB）正在接近一個里程碑，華爾街最近向它投了新的信任票，其範圍超出了該公司自己的火箭。 Raymond James 於 9 月 11 日發布了 RKLB 的報道，給予 RKLB 跑贏大盤評級和 80 美元的目標價，意味著較當前水平增長約 29%，並指出了具體的增長槓桿，該增長槓桿將這家上市公司的命運直接與其擴張的另外兩個核心公司聯繫起來：4 月份收購的 MyDMric 和 Iridium Inc.a）股票代碼。",
       "originalTitle": "Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride",
       "originalSummary": "Rocket Lab Corporation (NASDAQ: RKLB ) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company's own rockets. Raymond James launched coverage of RKLB on September 11 with an Outperform rating and a $80 price target, implying a roughly 29% increase from current levels, and pointed out specific growth levers that link the launch company's fortunes directly to two other names central to its expansion: Mynaric, which it acquired in April, and Iridium Communications Inc. (NASDAQ: IRDM ).",
       "url": "https://finance.yahoo.com/markets/stocks/articles/four-launches-100-rocket-lab-115117949.html",
@@ -14514,13 +14504,13 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "Rocket Lab Corporation (NASDAQ: RKLB ) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company's own rockets. Raymond James launched coverage of RKLB on September 11 with an Outperform rating and a $80 price target, implying a roughly 29% increase from current levels, and pointed out specific growth levers that link the launch company's fortunes directly to two other names central to its expansion: Mynaric, which it acquired in April, and Iridium Communications Inc. (NASDAQ: IRDM ).",
+        "event": "火箭實驗室公司（納斯達克股票代碼：RKLB）正在接近一個里程碑，華爾街最近向它投了新的信任票，其範圍超出了該公司自己的火箭。 Raymond James 於 9 月 11 日發布了 RKLB 的報道，給予 RKLB 跑贏大盤評級和 80 美元的目標價，意味著較當前水平增長約 29%，並指出了具體的增長槓桿，該增長槓桿將這家上市公司的命運直接與其擴張的另外兩個核心公司聯繫起來：4 月份收購的 MyDMric 和 Iridium Inc.a）股票代碼。",
         "numbers": [
           "$80",
           "29%"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Rocket Lab Corporation (NASDAQ: RKLB ) is approaching a milestone, and Wall Street recently offered it a new vote of confidence that extends beyond the company's own rockets. Raymond James launched coverage of RKLB on September 11 with an Outperform rating and a $80 price target, implying a roughly 29% increase from current levels, and pointed out specific growth levers that link the launch company's fortunes directly to two other names central to its expansion: Mynaric, which it acquired in April, and Iridium Communications Inc.",
+        "stance": "火箭實驗室公司（納斯達克股票代碼：RKLB）正在接近一個里程碑，華爾街最近向它投了新的信任票，其範圍超出了該公司自己的火箭。 Raymond James 於 9 月 11 日發布了 RKLB 的報道，給予 RKLB 跑贏大盤評級和 80 美元的目標價，意味著較當前水平增長約 29%，並指出了具體的增長槓桿，該增長槓桿將這家上市公司的命運直接與其擴張的另外兩個核心公司聯繫起來：4 月份收購的 MyDMric 和 Iridium Inc.a）股票代碼。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -14575,7 +14565,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Fluence和Eve Energy達成206GWh電池供應協議 - Energy-Storage.News",
-      "summary": "New agreement provides visibility into volume and pricing to support the Company’s global customer commitmentsARLINGTON, Va., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Fluence Energy, Inc. (\"Fluence\") (NASDAQ: FLNC), a global market leader delivering intelligent energy storage systems, services, and asset optimization software, today announced a multiyear master supply agreement with EVE Power Co., Ltd. (“EVE Power”), an established global lithium battery manufacturer.",
+      "summary": "新協議提供了銷售和定價的可見性，以支持公司對全球客戶的承諾弗吉尼亞州阿靈頓，2026 年 9 月 24 日（環球通訊社）——提供智慧儲能係統、服務和資產優化軟體的全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）今天宣布與全球知名鋰製造商。",
       "originalTitle": "Fluence and Eve Energy agree 206GWh battery supply deal - Energy-Storage.News",
       "originalSummary": "New agreement provides visibility into volume and pricing to support the Company’s global customer commitmentsARLINGTON, Va., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Fluence Energy, Inc. (\"Fluence\") (NASDAQ: FLNC), a global market leader delivering intelligent energy storage systems, services, and asset optimization software, today announced a multiyear master supply agreement with EVE Power Co., Ltd. (“EVE Power”), an established global lithium battery manufacturer. Under the terms of the agreement,",
       "url": "https://finance.yahoo.com/energy/articles/fluence-secures-long-term-battery-130000206.html",
@@ -14590,10 +14580,10 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "New agreement provides visibility into volume and pricing to support the Company’s global customer commitmentsARLINGTON, Va., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Fluence Energy, Inc. (\"Fluence\") (NASDAQ: FLNC), a global market leader delivering intelligent energy storage systems, services, and asset optimization software, today announced a multiyear master supply agreement with EVE Power Co., Ltd. (“EVE Power”), an established global lithium battery manufacturer.",
+        "event": "新協議提供了銷售和定價的可見性，以支持公司對全球客戶的承諾弗吉尼亞州阿靈頓，2026 年 9 月 24 日（環球通訊社）——提供智慧儲能係統、服務和資產優化軟體的全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）今天宣布與全球知名鋰製造商。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "New agreement provides visibility into volume and pricing to support the Company’s global customer commitmentsARLINGTON, Va., Sept. 24, 2026 (GLOBE NEWSWIRE) -- Fluence Energy, Inc.",
+        "stance": "新協議提供了銷售和定價的可見性，以支持公司對全球客戶的承諾弗吉尼亞州阿靈頓，2026 年 9 月 24 日（環球通訊社）——提供智慧儲能係統、服務和資產優化軟體的全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）全球市場領導者 Fluence Energy, Inc.（「Fluence」）（納斯達克股票代碼：FLNC）今天宣布與全球知名鋰製造商。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -14696,7 +14686,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab (RKLB) 下跌，其最新舉動的背後是什麼？",
-      "summary": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab's recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of 29.63% and a very large 3-year total shareholder return that suggests long-term momentum even as short-term sentiment has cooled.",
+      "summary": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
       "originalTitle": "Rocket Lab (RKLB) Dropped, So What Is Behind Its Latest Move?",
       "originalSummary": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab's recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of 29.63% and a very large 3-year total shareholder return that suggests long-term momentum even as short-term sentiment has cooled.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-dropped-behind-101101471.html",
@@ -14712,7 +14702,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab's recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of 29.63% and a very large 3-year total shareholder return that suggests long-term momentum even as short-term sentiment has cooled.",
+        "event": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
         "numbers": [
           "100%",
           "11.02%",
@@ -14720,7 +14710,7 @@
           "29.63%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab's recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of 29.63% and a very large 3-year total shareholder return that sugges",
+        "stance": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -14938,7 +14928,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Marvell 將在 ECOC 2026 上展示業界首個適用於 AI 資料中心基礎架構的 2nm 光學技術展示",
-      "summary": "First 2nm demos: Demonstrations of first 2nm 400G/lane optical PAM4, first 2nm 800G ZR/ZR+ pluggable with MACsec and first 2nm 1.6T ZR and O-band coherent-lite technologies. Enabling AI infrastructure scaling: Marvell advanced optical and silicon design leverages leading-edge process nodes to deliver the improvements in performance, bandwidth density and power critical to scaling AI infrastructure efficiently. Innovation on display at ECOC: Marvell to showcase the breadth of its comprehensive AI infrastructure portfolio through 38 advanced technology demos. These include the Marvell 102.4T co-packaged optics (CPO) platform, alongside additional demos developed with its partner ecosystem.",
+      "summary": "首個 2nm 演示：首個 2nm 400G/通道光學 PAM4、首個可插拔 MACsec 的 2nm 800G ZR/ZR+ 以及首個 2nm 1.6T ZR 和 O 波段相干精簡技術的演示。實現 AI 基礎設施擴展：Marvell 先進的光學和晶片設計利用領先的製程節點來提高效能、頻寬密度和功耗，這對於有效擴展 AI 基礎設施至關重要。 ECOC 上展示的創新：Marvell 透過 38 個先進技術演示展示其全面的 AI 基礎設施產品組合的廣度。其中包括 Marvell 102.4T 共封裝光學 (CPO) 平台，以及與其合作夥伴生態系統開發的其他演示。",
       "originalTitle": "Marvell to Showcase Industry-First 2nm Optical Technology Demos for AI Data Center Infrastructure at ECOC 2026",
       "originalSummary": "First 2nm demos: Demonstrations of first 2nm 400G/lane optical PAM4, first 2nm 800G ZR/ZR+ pluggable with MACsec and first 2nm 1.6T ZR and O-band coherent-lite technologies. Enabling AI infrastructure scaling: Marvell advanced optical and silicon design leverages leading-edge process nodes to deliver the improvements in performance, bandwidth density and power critical to scaling AI infrastructure efficiently. Innovation on display at ECOC: Marvell to showcase the breadth of its comprehensive AI infrastructure portfolio through 38 advanced technology demos. These include the Marvell 102.4T co-packaged optics (CPO) platform, alongside additional demos developed with its partner ecosystem.",
       "url": "https://finance.yahoo.com/technology/ai/articles/marvell-showcase-industry-first-2nm-050000423.html",
@@ -14955,10 +14945,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "First 2nm demos: Demonstrations of first 2nm 400G/lane optical PAM4, first 2nm 800G ZR/ZR+ pluggable with MACsec and first 2nm 1.6T ZR and O-band coherent-lite technologies. Enabling AI infrastructure scaling: Marvell advanced optical and silicon design leverages leading-edge process nodes to deliver the improvements in performance, bandwidth density and power critical to scaling AI infrastructure efficiently. Innovation on display at ECOC: Marvell to showcase the breadth of its comprehensive AI infrastructure portfolio through 38 advanced technology demos. These include the Marvell 102.4T co-packaged optics (CPO) platform, alongside additional demos developed with its partner ecosystem.",
+        "event": "首個 2nm 演示：首個 2nm 400G/通道光學 PAM4、首個可插拔 MACsec 的 2nm 800G ZR/ZR+ 以及首個 2nm 1.6T ZR 和 O 波段相干精簡技術的演示。實現 AI 基礎設施擴展：Marvell 先進的光學和晶片設計利用領先的製程節點來提高效能、頻寬密度和功耗，這對於有效擴展 AI 基礎設施至關重要。 ECOC 上展示的創新：Marvell 透過 38 個先進技術演示展示其全面的 AI 基礎設施產品組合的廣度。其中包括 Marvell 102.4T 共封裝光學 (CPO) 平台，以及與其合作夥伴生態系統開發的其他演示。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "First 2nm demos: Demonstrations of first 2nm 400G/lane optical PAM4, first 2nm 800G ZR/ZR+ pluggable with MACsec and first 2nm 1.6T ZR and O-band coherent-lite technologies. Enabling AI infrastructure scaling: Marvell advanced optical and silicon design leverages leading-edge process nodes to deliver the improvements in performance, bandwidth density and power critical to scaling AI infrastructure efficiently.",
+        "stance": "首個 2nm 演示：首個 2nm 400G/通道光學 PAM4、首個可插拔 MACsec 的 2nm 800G ZR/ZR+ 以及首個 2nm 1.6T ZR 和 O 波段相干精簡技術的演示。實現 AI 基礎設施擴展：Marvell 先進的光學和晶片設計利用領先的製程節點來提高效能、頻寬密度和功耗，這對於有效擴展 AI 基礎設施至關重要。 ECOC 上展示的創新：Marvell 透過 38 個先進技術演示展示其全面的 AI 基礎設施產品組合的廣度。其中包括 Marvell 102.4T 共封裝光學 (CPO) 平台，以及與其合作夥伴生態系統開發的其他演示。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -15001,7 +14991,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "德州儀器 (TXN) 2026 年股票預測與目標價 $TXN",
-      "summary": "Heartland Advisors , an investment management company, released its second-quarter 2026 investor letter for \"Heartland Opportunistic Value Equity Strategy\". The letter can be downloaded here . Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain.",
+      "summary": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
       "originalTitle": "Texas Instruments (TXN) Stock Forecast and Price Target 2026 $TXN",
       "originalSummary": "Heartland Advisors , an investment management company, released its second-quarter 2026 investor letter for \"Heartland Opportunistic Value Equity Strategy\". The letter can be downloaded here . Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain. While security selection was positive in nine out of eleven sectors, led by Communications, Materials, and Industrials, negative selection within the Technology sector offset these benefits. In this volatile market, the firm focuses on businesses with significant upside potential and downside protection, rather than predicting the duration of AI infrastructure developments. Please review the Fund's top five holdings to learn more about its key selections for 2026.",
       "url": "https://finance.yahoo.com/technology/articles/ai-infrastructure-boom-fuels-texas-141812824.html",
@@ -15016,19 +15006,19 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "Heartland Advisors , an investment management company, released its second-quarter 2026 investor letter for \"Heartland Opportunistic Value Equity Strategy\". The letter can be downloaded here . Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain.",
+        "event": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "numbers": [
           "12.32%",
           "14.02%"
         ],
-        "why": "券商調整理由：Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain.",
-        "stance": "Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain.",
+        "why": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
+        "stance": "投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：Second-quarter indices signaled a broadening market, but strong performance was mainly focused on a limited range of technology infrastructure and semiconductor stocks. The strategy returned 12.32% in the quarter, underperforming the Russell 3000 Value Index's 14.02% gain.",
+        "takeaway": "券商調整理由：投資管理公司 Heartland Advisors 發布了 2026 年第二季「Heartland 機會主義價值股票策略」投資者信函。這封信可以在這裡下載。第二季指數顯示市場正在擴大，但強勁表現主要集中在有限的技術基礎設施和半導體股票。該策略本季回報率為 12.32%，低於羅素 3000 價值指數 14.02% 的漲幅。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -15040,7 +15030,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Symbotic (SYM) 股票預測和 2026 年價格目標 $SYM",
-      "summary": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. The stock is up 348.6% over 5 years, which puts a lot of weight on the question of how much future cash flow the business can realistically support. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts. Prefer to judge Symbotic on sales?",
+      "summary": "Symbotic 為股東帶來了非常強勁的長期收益，但目前 43.96 美元的股價仍然回到了一個簡單的問題：該業務能夠產生的現金是否證明該股票目前的交易價格合理。該股在 5 年內上漲了 348.6%，這對該業務實際支持多少未來現金流的問題帶來了很大的影響。 Symbotic 的自動化倉庫營運模式可以影響收入轉化為現金的速度以及贏得新合約所需的資金量。比較喜歡判斷 Symbotic 的銷售量？",
       "originalTitle": "Symbotic (SYM) Stock Forecast and Price Target 2026 $SYM",
       "originalSummary": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. The stock is up 348.6% over 5 years, which puts a lot of weight on the question of how much future cash flow the business can realistically support. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts. Prefer to judge Symbotic on sales? See what Symbotic's 2.2x P/S says about the price .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-sym-stock-may-45-221145041.html",
@@ -15055,19 +15045,19 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. The stock is up 348.6% over 5 years, which puts a lot of weight on the question of how much future cash flow the business can realistically support. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts. Prefer to judge Symbotic on sales?",
+        "event": "Symbotic 為股東帶來了非常強勁的長期收益，但目前 43.96 美元的股價仍然回到了一個簡單的問題：該業務能夠產生的現金是否證明該股票目前的交易價格合理。該股在 5 年內上漲了 348.6%，這對該業務實際支持多少未來現金流的問題帶來了很大的影響。 Symbotic 的自動化倉庫營運模式可以影響收入轉化為現金的速度以及贏得新合約所需的資金量。比較喜歡判斷 Symbotic 的銷售量？",
         "numbers": [
           "$43.96",
           "348.6%"
         ],
-        "why": "券商調整理由：Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts.",
-        "stance": "Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts.",
+        "why": "券商調整理由：Symbotic 為股東帶來了非常強勁的長期收益，但目前 43.96 美元的股價仍然回到了一個簡單的問題：該業務能夠產生的現金是否證明該股票目前的交易價格合理。該股在 5 年內上漲了 348.6%，這對該業務實際支持多少未來現金流的問題帶來了很大的影響。 Symbotic 的自動化倉庫營運模式可以影響收入轉化為現金的速度以及贏得新合約所需的資金量。比較喜歡判斷 Symbotic 的銷售量？",
+        "stance": "Symbotic 為股東帶來了非常強勁的長期收益，但目前 43.96 美元的股價仍然回到了一個簡單的問題：該業務能夠產生的現金是否證明該股票目前的交易價格合理。該股在 5 年內上漲了 348.6%，這對該業務實際支持多少未來現金流的問題帶來了很大的影響。 Symbotic 的自動化倉庫營運模式可以影響收入轉化為現金的速度以及贏得新合約所需的資金量。比較喜歡判斷 Symbotic 的銷售量？",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻"
         ],
-        "takeaway": "券商調整理由：Symbotic has delivered very strong long term gains for shareholders, yet the current US$43.96 share price still comes back to a simple issue: whether the cash the business can generate justifies where the stock trades today. Symbotic's model of automating warehouse operations can influence both how quickly revenue converts into cash and how much funding is needed to win new contracts.",
+        "takeaway": "券商調整理由：Symbotic 為股東帶來了非常強勁的長期收益，但目前 43.96 美元的股價仍然回到了一個簡單的問題：該業務能夠產生的現金是否證明該股票目前的交易價格合理。該股在 5 年內上漲了 348.6%，這對該業務實際支持多少未來現金流的問題帶來了很大的影響。 Symbotic 的自動化倉庫營運模式可以影響收入轉化為現金的速度以及贏得新合約所需的資金量。比較喜歡判斷 Symbotic 的銷售量？",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -15079,7 +15069,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "美國電力 (AEP) 2026 年股票預測與目標價 $AEP",
-      "summary": "American Electric Power stock posted adjusted EPS of USD 1.36 in Q2 2026, below the USD 1.48 consensus. Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
+      "summary": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
       "originalTitle": "American Electric Power (AEP) Stock Forecast and Price Target 2026 $AEP",
       "originalSummary": "American Electric Power stock posted adjusted EPS of USD 1.36 in Q2 2026, below the USD 1.48 consensus. Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/american-electric-power-stock-reports-7-percent-revenue-growth/70183717",
@@ -15094,17 +15084,17 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "American Electric Power stock posted adjusted EPS of USD 1.36 in Q2 2026, below the USD 1.48 consensus. Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
+        "event": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "numbers": [
           "5.45 billion"
         ],
-        "why": "券商調整理由：Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
-        "stance": "Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
+        "why": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "stance": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修"
         ],
-        "takeaway": "券商調整理由：Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
+        "takeaway": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -15638,7 +15628,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 制定了路易斯安那州新「星際基地」的宏偉計劃，令附近的一些人感到擔憂",
-      "summary": "State officials say the new SpaceX site will be a $100 billion investment and launch thousands of rockets. Lawmakers helped ease regulations and negotiations were covered under nondisclosure agreements.",
+      "summary": "州政府官員表示，SpaceX 新基地將投資 1,000 億美元，並發射數千枚火箭。立法者幫助放鬆了監管，談判也受到保密協議的約束。",
       "originalTitle": "SpaceX has big plans for a new Louisiana ‘Star Base,’ worrying some near there",
       "originalSummary": "State officials say the new SpaceX site will be a $100 billion investment and launch thousands of rockets. Lawmakers helped ease regulations and negotiations were covered under nondisclosure agreements.",
       "url": "https://www.npr.org/2026/09/20/nx-s1-5974180/spacex-musk-landry-louisiana-ndas",
@@ -15653,13 +15643,13 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "State officials say the new SpaceX site will be a $100 billion investment and launch thousands of rockets. Lawmakers helped ease regulations and negotiations were covered under nondisclosure agreements.",
+        "event": "州政府官員表示，SpaceX 新基地將投資 1,000 億美元，並發射數千枚火箭。立法者幫助放鬆了監管，談判也受到保密協議的約束。",
         "numbers": [
           "$100 billion",
           "100 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "State officials say the new SpaceX site will be a $100 billion investment and launch thousands of rockets. Lawmakers helped ease regulations and negotiations were covered under nondisclosure agreements.",
+        "stance": "州政府官員表示，SpaceX 新基地將投資 1,000 億美元，並發射數千枚火箭。立法者幫助放鬆了監管，談判也受到保密協議的約束。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -16382,7 +16372,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 透過 Synspective 發射繼續保持 Electron 的高節奏",
-      "summary": "PARIS — Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on Sept. 18 on the fifth flight of its Electron rocket in a month and a half.",
+      "summary": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
       "originalTitle": "Rocket Lab continues high Electron cadence with Synspective launch",
       "originalSummary": "PARIS — Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on Sept. 18 on the fifth flight of its Electron rocket in a month and a half.",
       "url": "https://spacenews.com/rocket-lab-continues-high-electron-cadence-with-synspective-launch/",
@@ -16397,10 +16387,10 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "PARIS — Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on Sept. 18 on the fifth flight of its Electron rocket in a month and a half.",
+        "event": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "PARIS — Rocket Lab launched a radar-imaging satellite for Japanese company Synspective on Sept. 18 on the fifth flight of its Electron rocket in a month and a half.",
+        "stance": "巴黎—9 月 18 日，Rocket Lab 為日本 Synspective 公司發射了一顆雷達成像衛星，這是其 Electron 火箭在一個半月內進行的第五次飛行。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -17496,7 +17486,7 @@
       "group": "其他大型科技",
       "tag": "題材",
       "title": "最新 iPhone、Apple Watch 和 AirPods 系列已登陸全球各地商店",
-      "summary": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus.",
+      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
       "originalTitle": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide",
       "originalSummary": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus. Ternus, Joswiak, and senior vice president of retail Deirdre O’Brien led one of Friday’s launches at the Apple store on Fifth Avenue in New York City. The iPhone 18 Pro and iPhone 18 Pro Max are priced at $1,199 and $1,299, respectively, which is $100 more than the previous generation. The phones are available in the colors black, silver, glacier, and burgundy. Pre-orders began on Sept. 12.",
       "url": "https://www.theepochtimes.com/business/apple-releases-iphone-18-in-stores-under-new-ceo-ternuss-first-product-launch-6092501",
@@ -17511,14 +17501,14 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus.",
+        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "numbers": [
           "$1,199",
           "$1,299,",
           "$100 m"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "“With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus.",
+        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17621,7 +17611,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "NASA 授予 SpaceX 三名太空人前往太空站的飛行權限",
-      "summary": "With a new $946 million, NASA has extended Space Exploration Technologies Corp.'s (NASDAQ: SPCX ) crewed ISS mission commitments through 2030, bringing the total contract value to nearly $6 billion. This news comes after CFO Bret Johnsen showed confidence that the company can reach $100 billion in annual revenue run rate by the end of 2026, a figure I find hard to believe. I pointed that out in my previous coverage of the stock: SpaceX Said $100 Billion Is Within Reach, Its Cash Flow Tells Another Story .",
+      "summary": "NASA 斥資 9.46 億美元將太空探索技術公司（納斯達克股票代碼：SPCX）的載人國際太空站任務承諾延長至 2030 年，使合約總價值達到近 60 億美元。在此消息發布之前，財務長 Bret Johnsen 對公司到 2026 年底年收入運行率能夠達到 1000 億美元充滿信心，這個數字我覺得難以置信。我在先前對該股的報導中指出：SpaceX 稱 1,000 億美元觸手可及，其現金流卻講述了另一個故事。",
       "originalTitle": "NASA Awards SpaceX Three Crew Flights to Space Station",
       "originalSummary": "With a new $946 million, NASA has extended Space Exploration Technologies Corp.'s (NASDAQ: SPCX ) crewed ISS mission commitments through 2030, bringing the total contract value to nearly $6 billion. This news comes after CFO Bret Johnsen showed confidence that the company can reach $100 billion in annual revenue run rate by the end of 2026, a figure I find hard to believe. I pointed that out in my previous coverage of the stock: SpaceX Said $100 Billion Is Within Reach, Its Cash Flow Tells Another Story .",
       "url": "https://finance.yahoo.com/technology/articles/nasa-946-million-spacex-award-222539616.html",
@@ -17636,7 +17626,7 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "With a new $946 million, NASA has extended Space Exploration Technologies Corp.'s (NASDAQ: SPCX ) crewed ISS mission commitments through 2030, bringing the total contract value to nearly $6 billion. This news comes after CFO Bret Johnsen showed confidence that the company can reach $100 billion in annual revenue run rate by the end of 2026, a figure I find hard to believe. I pointed that out in my previous coverage of the stock: SpaceX Said $100 Billion Is Within Reach, Its Cash Flow Tells Another Story .",
+        "event": "NASA 斥資 9.46 億美元將太空探索技術公司（納斯達克股票代碼：SPCX）的載人國際太空站任務承諾延長至 2030 年，使合約總價值達到近 60 億美元。在此消息發布之前，財務長 Bret Johnsen 對公司到 2026 年底年收入運行率能夠達到 1000 億美元充滿信心，這個數字我覺得難以置信。我在先前對該股的報導中指出：SpaceX 稱 1,000 億美元觸手可及，其現金流卻講述了另一個故事。",
         "numbers": [
           "$946 million",
           "$6 billion",
@@ -17644,7 +17634,7 @@
           "$100 Billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "This news comes after CFO Bret Johnsen showed confidence that the company can reach $100 billion in annual revenue run rate by the end of 2026, a figure I find hard to believe. I pointed that out in my previous coverage of the stock: SpaceX Said $100 Billion Is Within Reach, Its Cash Flow Tells Another Story .",
+        "stance": "NASA 斥資 9.46 億美元將太空探索技術公司（納斯達克股票代碼：SPCX）的載人國際太空站任務承諾延長至 2030 年，使合約總價值達到近 60 億美元。在此消息發布之前，財務長 Bret Johnsen 對公司到 2026 年底年收入運行率能夠達到 1000 億美元充滿信心，這個數字我覺得難以置信。我在先前對該股的報導中指出：SpaceX 稱 1,000 億美元觸手可及，其現金流卻講述了另一個故事。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -18160,7 +18150,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Arista Networks (ANET) 2026 年股票預測與價格目標",
-      "summary": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+      "summary": "在雅虎財經，您可以獲得免費的股票報價、最新新聞、投資組合管理資源、國際市場數據、社交互動和抵押貸款利率，幫助您管理您的財務生活。",
       "originalTitle": "Arista Networks (ANET) Stock Forecast and Price Target 2026",
       "originalSummary": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
       "url": "https://ca.finance.yahoo.com/research/stock-forecast/ANET/",
@@ -18175,15 +18165,15 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+        "event": "在雅虎財經，您可以獲得免費的股票報價、最新新聞、投資組合管理資源、國際市場數據、社交互動和抵押貸款利率，幫助您管理您的財務生活。",
         "numbers": [],
-        "why": "券商調整理由：At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
-        "stance": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+        "why": "券商調整理由：在雅虎財經，您可以獲得免費的股票報價、最新新聞、投資組合管理資源、國際市場數據、社交互動和抵押貸款利率，幫助您管理您的財務生活。",
+        "stance": "在雅虎財經，您可以獲得免費的股票報價、最新新聞、投資組合管理資源、國際市場數據、社交互動和抵押貸款利率，幫助您管理您的財務生活。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修"
         ],
-        "takeaway": "券商調整理由：At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+        "takeaway": "券商調整理由：在雅虎財經，您可以獲得免費的股票報價、最新新聞、投資組合管理資源、國際市場數據、社交互動和抵押貸款利率，幫助您管理您的財務生活。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -19040,7 +19030,7 @@
       "group": "核能／鈾",
       "tag": "題材",
       "title": "Oklo 上漲 13%，NuScale Power 上漲 10%：眾議院資料中心電力投票是否涉及核電？",
-      "summary": "Oklo surged 5%, NuScale Power gained 4%, and Uranium Energy rose 3% Monday, all outpacing the sector on no new company news. The Global X Uranium ETF's 2% gain versus SPY's 0.7% rise confirms this is a sector rotation, not a broad market lift. Nuclear names round-tripped a policy trade in one week, rallying on a House data-center power vote then selling off Friday before Monday's bounce. Just released.",
+      "summary": "週一，Oklo 飆升 5%，NuScale Power 上漲 4%，Uranium Energy 上漲 3%，兩者都因沒有新公司消息而上漲，漲幅均超過大盤。 Global X 鈾 ETF 上漲 2%，而 SPY 上漲 0.7%，證實這是行業輪動，而不是廣泛的市場上漲。核股在一周內進行了一次政策交易，因眾議院數據中心權力投票而上漲，然後在周一反彈之前週五遭到拋售。剛剛發布。",
       "originalTitle": "Oklo Jumps 13%, NuScale Power Climbs 10%: Does the House Data Center Power Vote Reach Nuclear?",
       "originalSummary": "Oklo surged 5%, NuScale Power gained 4%, and Uranium Energy rose 3% Monday, all outpacing the sector on no new company news. The Global X Uranium ETF's 2% gain versus SPY's 0.7% rise confirms this is a sector rotation, not a broad market lift. Nuclear names round-tripped a policy trade in one week, rallying on a House data-center power vote then selling off Friday before Monday's bounce. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Oklo Inc. didn't make the cut. Enter your email to see the names that beat OKLO. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-climbs-5-nuclear-names-141418370.html",
@@ -19055,7 +19045,7 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "Oklo surged 5%, NuScale Power gained 4%, and Uranium Energy rose 3% Monday, all outpacing the sector on no new company news. The Global X Uranium ETF's 2% gain versus SPY's 0.7% rise confirms this is a sector rotation, not a broad market lift. Nuclear names round-tripped a policy trade in one week, rallying on a House data-center power vote then selling off Friday before Monday's bounce. Just released.",
+        "event": "週一，Oklo 飆升 5%，NuScale Power 上漲 4%，Uranium Energy 上漲 3%，兩者都因沒有新公司消息而上漲，漲幅均超過大盤。 Global X 鈾 ETF 上漲 2%，而 SPY 上漲 0.7%，證實這是行業輪動，而不是廣泛的市場上漲。核股在一周內進行了一次政策交易，因眾議院數據中心權力投票而上漲，然後在周一反彈之前週五遭到拋售。剛剛發布。",
         "numbers": [
           "13%",
           "10%",
@@ -19063,7 +19053,7 @@
           "4%"
         ],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "Oklo surged 5%, NuScale Power gained 4%, and Uranium Energy rose 3% Monday, all outpacing the sector on no new company news. The Global X Uranium ETF's 2% gain versus SPY's 0.7% rise confirms this is a sector rotation, not a broad market lift.",
+        "stance": "週一，Oklo 飆升 5%，NuScale Power 上漲 4%，Uranium Energy 上漲 3%，兩者都因沒有新公司消息而上漲，漲幅均超過大盤。 Global X 鈾 ETF 上漲 2%，而 SPY 上漲 0.7%，證實這是行業輪動，而不是廣泛的市場上漲。核股在一周內進行了一次政策交易，因眾議院數據中心權力投票而上漲，然後在周一反彈之前週五遭到拋售。剛剛發布。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -19353,7 +19343,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "利多",
       "title": "CoreWeave 啟動 30 億美元可轉換債券發售",
-      "summary": "CoreWeave has priced an upsized $3.7 billion private offering of 2.875% convertible senior notes due 2033, increasing the deal from the previously announced $3 billion as the AI cloud infrastructure company continues raising capital to support its expansion. The offering is expected to settle on September 22, 2026, subject to customary closing conditions. CoreWeave has also granted the initial purchasers an option to buy up to an additional $500 million of notes, potentially increasing the total offering to $4.2 billion. The notes will carry a 2.875% annual interest rate, payable semiannually beginning April 1, 2027, and will mature on April 1, 2033 unless they are repurchased, redeemed or converted earlier.",
+      "summary": "隨著這家人工智慧雲端基礎設施公司繼續籌集資金以支持其擴張，CoreWeave 已將 2033 年到期的 2.875% 可轉換優先票據的私募發行規模擴大到 37 億美元，較先前宣布的 30 億美元有所增加。此次發行預計將於 2026 年 9 月 22 日完成，但須符合慣例成交條件。 CoreWeave 也授予初始購買者額外購買最多 5 億美元票據的選擇權，這可能會使發行總額增加到 42 億美元。這些票據的年利率為2.875%，從2027年4月1日開始每半年支付一次，並將於2033年4月1日到期，除非提前回購、贖回或轉換。",
       "originalTitle": "CoreWeave launches $3 billion convertible debt sale",
       "originalSummary": "CoreWeave has priced an upsized $3.7 billion private offering of 2.875% convertible senior notes due 2033, increasing the deal from the previously announced $3 billion as the AI cloud infrastructure company continues raising capital to support its expansion. The offering is expected to settle on September 22, 2026, subject to customary closing conditions. CoreWeave has also granted the initial purchasers an option to buy up to an additional $500 million of notes, potentially increasing the total offering to $4.2 billion. The notes will carry a 2.875% annual interest rate, payable semiannually beginning April 1, 2027, and will mature on April 1, 2033 unless they are repurchased, redeemed or converted earlier. The securities will be senior unsecured obligations of CoreWeave and will be guaranteed by wholly owned subsidiaries that also guarantee several of the company’s existing senior and convertible notes. CoreWeave expects net proceeds of approximately $3.64 billion after initial purchaser discounts and commissions but before estimated offering expenses. If purchasers exercise their additional $500 million option in full, net proceeds could increase to approximately $4.14 billion. Approximately $498.8 million of the proceeds will be used to fund capped call transactions designed to reduce potential dilution or offset certain cash payments if the notes are converted. The remaining proceeds are expected to be used for general corporate purposes. The notes initially convert at a rate of 10.2194 shares of CoreWeave Class A common stock per $1,000 principal amount, corresponding to an initial conversion price of approximately $97.85 per share. That represents a premium of approximately 22.5% over CoreWeave’s $79.88 closing price on September 17.",
       "url": "https://pulse2.com/coreweave-prices-upsized-3-7-billion-convertible-senior-notes-offering-to-fund-ai-cloud-expansion/",
@@ -19368,7 +19358,7 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "CoreWeave has priced an upsized $3.7 billion private offering of 2.875% convertible senior notes due 2033, increasing the deal from the previously announced $3 billion as the AI cloud infrastructure company continues raising capital to support its expansion. The offering is expected to settle on September 22, 2026, subject to customary closing conditions. CoreWeave has also granted the initial purchasers an option to buy up to an additional $500 million of notes, potentially increasing the total offering to $4.2 billion. The notes will carry a 2.875% annual interest rate, payable semiannually beginning April 1, 2027, and will mature on April 1, 2033 unless they are repurchased, redeemed or converted earlier.",
+        "event": "隨著這家人工智慧雲端基礎設施公司繼續籌集資金以支持其擴張，CoreWeave 已將 2033 年到期的 2.875% 可轉換優先票據的私募發行規模擴大到 37 億美元，較先前宣布的 30 億美元有所增加。此次發行預計將於 2026 年 9 月 22 日完成，但須符合慣例成交條件。 CoreWeave 也授予初始購買者額外購買最多 5 億美元票據的選擇權，這可能會使發行總額增加到 42 億美元。這些票據的年利率為2.875%，從2027年4月1日開始每半年支付一次，並將於2033年4月1日到期，除非提前回購、贖回或轉換。",
         "numbers": [
           "$3 billion",
           "$3.7 billion",
@@ -19376,7 +19366,7 @@
           "$4.2 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "CoreWeave has priced an upsized $3.7 billion private offering of 2.875% convertible senior notes due 2033, increasing the deal from the previously announced $3 billion as the AI cloud infrastructure company continues raising capital to support its expansion. The offering is expected to settle on September 22, 2026, subject to customary closing conditions.",
+        "stance": "隨著這家人工智慧雲端基礎設施公司繼續籌集資金以支持其擴張，CoreWeave 已將 2033 年到期的 2.875% 可轉換優先票據的私募發行規模擴大到 37 億美元，較先前宣布的 30 億美元有所增加。此次發行預計將於 2026 年 9 月 22 日完成，但須符合慣例成交條件。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -19518,7 +19508,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "GlobalFoundries 與 Marvell 擴大 AI 資料中心連接晶片產能交易",
-      "summary": "Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year agreement to boost silicon germanium chip capacity at GlobalFoundries' Vermont fab, targeting next-generation optical transceivers and advanced data center connectivity used in AI and cloud infrastructure. We'll now examine how this expanded GlobalFoundries capacity arrangement influences Marvell's investment narrative around AI data center interconnect growth.",
+      "summary": "本月早些時候，GlobalFoundries 和 Marvell Technology 擴大了一項多年期協議，以提高 GlobalFoundries 佛蒙特工廠的矽鍺晶片產能，目標是用於人工智慧和雲端基礎設施的下一代光收發器和先進資料中心連接。現在，我們將研究 GlobalFoundries 擴大的產能安排如何影響 Marvell 圍繞 AI 資料中心互連成長的投資敘事。",
       "originalTitle": "GlobalFoundries, Marvell expand chip capacity deal for AI data center connectivity",
       "originalSummary": "Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year agreement to boost silicon germanium chip capacity at GlobalFoundries' Vermont fab, targeting next-generation optical transceivers and advanced data center connectivity used in AI and cloud infrastructure. We'll now examine how this expanded GlobalFoundries capacity arrangement influences Marvell's investment narrative around AI data center interconnect growth.",
       "url": "https://finance.yahoo.com/technology/ai/articles/expanded-globalfoundries-sige-capacity-ai-061322931.html",
@@ -19534,10 +19524,10 @@
       ],
       "eventType": "跨公司事件",
       "investorBrief": {
-        "event": "Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year agreement to boost silicon germanium chip capacity at GlobalFoundries' Vermont fab, targeting next-generation optical transceivers and advanced data center connectivity used in AI and cloud infrastructure. We'll now examine how this expanded GlobalFoundries capacity arrangement influences Marvell's investment narrative around AI data center interconnect growth.",
+        "event": "本月早些時候，GlobalFoundries 和 Marvell Technology 擴大了一項多年期協議，以提高 GlobalFoundries 佛蒙特工廠的矽鍺晶片產能，目標是用於人工智慧和雲端基礎設施的下一代光收發器和先進資料中心連接。現在，我們將研究 GlobalFoundries 擴大的產能安排如何影響 Marvell 圍繞 AI 資料中心互連成長的投資敘事。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Earlier this month, GlobalFoundries and Marvell Technology expanded a multi-year agreement to boost silicon germanium chip capacity at GlobalFoundries' Vermont fab, targeting next-generation optical transceivers and advanced data center connectivity used in AI and cloud infrastructure. We'll now examine how this expanded GlobalFoundries capacity arrangement influences Marvell's investment narrative around AI data center interconnect growth.",
+        "stance": "本月早些時候，GlobalFoundries 和 Marvell Technology 擴大了一項多年期協議，以提高 GlobalFoundries 佛蒙特工廠的矽鍺晶片產能，目標是用於人工智慧和雲端基礎設施的下一代光收發器和先進資料中心連接。現在，我們將研究 GlobalFoundries 擴大的產能安排如何影響 Marvell 圍繞 AI 資料中心互連成長的投資敘事。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -19553,7 +19543,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "GlobalFoundries 與 Marvell 擴大 AI 資料中心連接晶片產能交易",
-      "summary": "Marvell Technology stock climbed more than 4 percent around September 19, 2026, as AI chip capacity expansion and heavy call-option activity drew investor attention. Recent gains add to a strong move in semiconductor shares amid growing AI infrastructure demand.",
+      "summary": "由於人工智慧晶片產能擴張和大量看漲期權活動引起了投資者的關注，Marvell Technology 股價在 2026 年 9 月 19 日左右上漲了 4% 以上。在人工智慧基礎設施需求不斷增長的情況下，近期的上漲加劇了半導體股票的強勁走勢。",
       "originalTitle": "GlobalFoundries, Marvell expand chip capacity deal for AI data center connectivity",
       "originalSummary": "Marvell Technology stock climbed more than 4 percent around September 19, 2026, as AI chip capacity expansion and heavy call-option activity drew investor attention. Recent gains add to a strong move in semiconductor shares amid growing AI infrastructure demand.",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/marvell-technology-stock-gains-as-ai-chip-capacity-deal-and-options-surge/70130146",
@@ -19568,10 +19558,10 @@
       ],
       "eventType": "跨公司事件",
       "investorBrief": {
-        "event": "Marvell Technology stock climbed more than 4 percent around September 19, 2026, as AI chip capacity expansion and heavy call-option activity drew investor attention. Recent gains add to a strong move in semiconductor shares amid growing AI infrastructure demand.",
+        "event": "由於人工智慧晶片產能擴張和大量看漲期權活動引起了投資者的關注，Marvell Technology 股價在 2026 年 9 月 19 日左右上漲了 4% 以上。在人工智慧基礎設施需求不斷增長的情況下，近期的上漲加劇了半導體股票的強勁走勢。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology stock climbed more than 4 percent around September 19, 2026, as AI chip capacity expansion and heavy call-option activity drew investor attention. Recent gains add to a strong move in semiconductor shares amid growing AI infrastructure demand.",
+        "stance": "由於人工智慧晶片產能擴張和大量看漲期權活動引起了投資者的關注，Marvell Technology 股價在 2026 年 9 月 19 日左右上漲了 4% 以上。在人工智慧基礎設施需求不斷增長的情況下，近期的上漲加劇了半導體股票的強勁走勢。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -19819,7 +19809,7 @@
       "group": "核能／鈾",
       "tag": "題材",
       "title": "Centrus 與 Antares 簽署多年 HALEU 供應合約",
-      "summary": "Centrus Energy (NYSE:LEU) agreed to a multi year HALEU supply contract with Antares Nuclear to fuel advanced reactor projects. The company also signed an agreement with Radiant that links its HALEU output to advanced reactors and national security uses. Both arrangements include prepayments intended to expand Centrus Energy's domestic high assay low enriched uranium production capacity. The new Antares and Radiant HALEU deals change the story, but they should not be your only focus.",
+      "summary": "Centrus Energy（NYSE：LEU）同意與 Antares Nuclear 簽訂多年期 HALEU 供應合同，為先進反應器專案提供燃料。該公司還與 Radiant 簽署了一項協議，將其 HALEU 產出與先進反應器和國家安全用途聯繫起來。這兩項安排均包括旨在擴大 Centrus Energy 國內高分析低濃縮鈾生產能力的預付款。新的 Antares 和 Radiant HALEU 交易改變了故事，但它們不應該是您唯一的焦點。",
       "originalTitle": "Centrus and Antares Sign Multi-Year HALEU Supply Contract",
       "originalSummary": "Centrus Energy (NYSE:LEU) agreed to a multi year HALEU supply contract with Antares Nuclear to fuel advanced reactor projects. The company also signed an agreement with Radiant that links its HALEU output to advanced reactors and national security uses. Both arrangements include prepayments intended to expand Centrus Energy's domestic high assay low enriched uranium production capacity. The new Antares and Radiant HALEU deals change the story, but they should not be your only focus. Check out 2 warning signs that Centrus Energy investors should know about. This spotlight on Centrus Energy's HALEU contracts points to a wider nuclear build out that is worth examining through 19 nuclear energy infrastructure stocks .",
       "url": "https://finance.yahoo.com/energy/articles/centrus-energy-leu-signs-two-161308308.html",
@@ -19834,10 +19824,10 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "Centrus Energy (NYSE:LEU) agreed to a multi year HALEU supply contract with Antares Nuclear to fuel advanced reactor projects. The company also signed an agreement with Radiant that links its HALEU output to advanced reactors and national security uses. Both arrangements include prepayments intended to expand Centrus Energy's domestic high assay low enriched uranium production capacity. The new Antares and Radiant HALEU deals change the story, but they should not be your only focus.",
+        "event": "Centrus Energy（NYSE：LEU）同意與 Antares Nuclear 簽訂多年期 HALEU 供應合同，為先進反應器專案提供燃料。該公司還與 Radiant 簽署了一項協議，將其 HALEU 產出與先進反應器和國家安全用途聯繫起來。這兩項安排均包括旨在擴大 Centrus Energy 國內高分析低濃縮鈾生產能力的預付款。新的 Antares 和 Radiant HALEU 交易改變了故事，但它們不應該是您唯一的焦點。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Both arrangements include prepayments intended to expand Centrus Energy's domestic high assay low enriched uranium production capacity.",
+        "stance": "Centrus Energy（NYSE：LEU）同意與 Antares Nuclear 簽訂多年期 HALEU 供應合同，為先進反應器專案提供燃料。該公司還與 Radiant 簽署了一項協議，將其 HALEU 產出與先進反應器和國家安全用途聯繫起來。這兩項安排均包括旨在擴大 Centrus Energy 國內高分析低濃縮鈾生產能力的預付款。新的 Antares 和 Radiant HALEU 交易改變了故事，但它們不應該是您唯一的焦點。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -21235,7 +21225,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Skyworks 剛剛告訴華爾街，價值 22B 美元的晶片合併即將完成",
-      "summary": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over.",
+      "summary": "Skyworks 的股價在一個月內就超過了其合併夥伴、其最大競爭對手以及整個晶片行業，但真正的問題是，這一舉動是更大事件的開始，還是交易結束的收盤信號。",
       "originalTitle": "Skyworks Just Told the Street the $22B Chip Merger Is Almost Done",
       "originalSummary": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over.",
       "url": "https://247wallst.com/investing/2026/09/22/skyworks-just-surged-33-in-a-month-is-it-too-late-to-buy-swks-stock-now/",
@@ -21250,12 +21240,12 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over.",
+        "event": "Skyworks 的股價在一個月內就超過了其合併夥伴、其最大競爭對手以及整個晶片行業，但真正的問題是，這一舉動是更大事件的開始，還是交易結束的收盤信號。",
         "numbers": [
           "$22B"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Skyworks stock has outrun its merger partner, its biggest competitor, and the entire chip sector in a single month, but the real question is whether that move is the beginning of something bigger or a closing-bell signal that the trade is over.",
+        "stance": "Skyworks 的股價在一個月內就超過了其合併夥伴、其最大競爭對手以及整個晶片行業，但真正的問題是，這一舉動是更大事件的開始，還是交易結束的收盤信號。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
