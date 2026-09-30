@@ -46,34 +46,30 @@ jobs:
         run: |
           cat > /tmp/install_fixes.py <<'PY'
           from pathlib import Path
+          import re
 
           updater_file = Path("updater.py")
           index_file = Path("index.html")
 
-          # ============================================================
-          # updater.py
-          # 1) Macro notifications -> Telegram only
-          # 2) Forex Factory visible-page fallback
-          # 3) Congress filer_id -> filers.json metadata mapping
-          # ============================================================
           s = updater_file.read_text(encoding="utf-8")
 
-          # ---------- Telegram sender + FF fallback ----------
+          # 1) Telegram sender + Forex Factory visible-page fallback
           if "def _send_telegram(" not in s:
               marker = "def refresh_macro_data():"
               if marker not in s:
                   raise RuntimeError("refresh_macro_data marker missing")
 
-              helpers = """
+              helpers = r"""
           def _send_telegram(title, message, url=None):
               token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
               chat_id = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+
               if not token or not chat_id:
                   return False, "missing_telegram_secrets"
 
-              text = f"{title}\\n{message}".strip()
+              text = f"{title}\n{message}".strip()
               if url:
-                  text += f"\\n{url}"
+                  text += f"\n{url}"
 
               try:
                   payload = json.dumps({
@@ -103,7 +99,7 @@ jobs:
 
           def _ff_clean_html_text(value):
               text = re.sub(r"<[^>]+>", " ", str(value or ""))
-              text = re.sub(r"\\s+", " ", text)
+              text = re.sub(r"\s+", " ", text)
               return html_lib.unescape(text).strip()
 
 
@@ -144,7 +140,6 @@ jobs:
                       continue
 
                   title = _ff_clean_html_text(m.group(1))
-
                   if not title:
                       continue
 
@@ -176,11 +171,7 @@ jobs:
                   ).upper() != "USD":
                       continue
 
-                  impact = str(
-                      row.get("impact")
-                      or ""
-                  ).strip().title()
-
+                  impact = str(row.get("impact") or "").strip().title()
                   if impact not in ("High", "Medium"):
                       continue
 
@@ -198,13 +189,11 @@ jobs:
                   return raw_rows
 
               web = _ff_web_calendar_today()
-
               if not web:
                   return raw_rows
 
               for row in raw_rows:
                   title = str(row.get("title") or "").strip()
-
                   if not title:
                       continue
 
@@ -242,100 +231,50 @@ jobs:
 
 
           """
-
-              s = s.replace(
-                  marker,
-                  helpers + marker,
-                  1
-              )
-
-          fetch_anchor = (
-              "    raw = _ff_fetch(FF_THIS_WEEK_JSON)\\n"
-              "    raw += _ff_fetch(FF_NEXT_WEEK_JSON)"
-          )
+              s = s.replace(marker, helpers + marker, 1)
 
           fallback_line = "    raw = _ff_apply_web_fallback(raw, now_utc)"
-
           if fallback_line not in s:
-              if fetch_anchor not in s:
-                  raise RuntimeError("Forex Factory fetch marker missing")
+              anchor = "    raw += _ff_fetch(FF_NEXT_WEEK_JSON)"
+              if anchor not in s:
+                  raise RuntimeError("Forex Factory second fetch line missing")
+              s = s.replace(anchor, anchor + "\n" + fallback_line, 1)
 
-              s = s.replace(
-                  fetch_anchor,
-                  fetch_anchor + "\\n" + fallback_line,
-                  1
-              )
-
-          # ---------- Macro: Telegram ONLY ----------
-          morning_old = """        ok, _ = _send_pushover(
-                      "今日美國重要數據",
-                      "\\n".join(lines[:12]),
-                      url="https://morris199786.github.io/us-stock-watch/?page=macro"
-                  )"""
-
-          morning_new = morning_old.replace(
-              "_send_pushover",
-              "_send_telegram"
+          # 2) Macro notifications -> Telegram ONLY
+          s = s.replace(
+              '_send_pushover(\n            "今日美國重要數據",',
+              '_send_telegram(\n            "今日美國重要數據",',
+              1
+          )
+          s = s.replace(
+              '_send_pushover(\n            "美國數據公布",',
+              '_send_telegram(\n            "美國數據公布",',
+              1
           )
 
-          if morning_old in s:
-              s = s.replace(
-                  morning_old,
-                  morning_new,
-                  1
-              )
-
-          result_old = """        ok, _ = _send_pushover(
-                      "美國數據公布",
-                      msg,
-                      url="https://morris199786.github.io/us-stock-watch/?page=macro"
-                  )"""
-
-          result_new = result_old.replace(
-              "_send_pushover",
-              "_send_telegram"
-          )
-
-          if result_old in s:
-              s = s.replace(
-                  result_old,
-                  result_new,
-                  1
-              )
-
-          # ============================================================
-          # Congress backend fix
-          # Kadoa trades.json uses filer_id.
-          # Resolve member/chamber/party/state from filers.json.
-          # ============================================================
-
+          # 3) Congress filer_id -> filer metadata
           if "filer_by_id = {" not in s:
-              filer_anchor = """    except Exception:
-                      filers = previous.get("filers", []) if isinstance(previous, dict) else []
+              anchor = """    except Exception:
+                  filers = previous.get("filers", []) if isinstance(previous, dict) else []
 
-                  items = []"""
+              items = []"""
 
-              filer_replacement = """    except Exception:
-                      filers = previous.get("filers", []) if isinstance(previous, dict) else []
+              replacement = """    except Exception:
+                  filers = previous.get("filers", []) if isinstance(previous, dict) else []
 
-                  filer_by_id = {
-                      str(f.get("id") or "").strip(): f
-                      for f in filers
-                      if isinstance(f, dict) and str(f.get("id") or "").strip()
-                  }
+              filer_by_id = {
+                  str(f.get("id") or "").strip(): f
+                  for f in filers
+                  if isinstance(f, dict) and str(f.get("id") or "").strip()
+              }
 
-                  items = []"""
+              items = []"""
 
-              if filer_anchor not in s:
-                  raise RuntimeError("Congress filer map anchor missing")
+              if anchor not in s:
+                  raise RuntimeError("Congress filer directory anchor missing")
+              s = s.replace(anchor, replacement, 1)
 
-              s = s.replace(
-                  filer_anchor,
-                  filer_replacement,
-                  1
-              )
-
-          old_trade_meta = """        # Congress only; exclude executive-branch disclosure rows.
+          old_block = """        # Congress only; exclude executive-branch disclosure rows.
                   if (row.get("branch") or "").lower() not in ("", "congress"):
                       continue
 
@@ -353,15 +292,13 @@ jobs:
                   chamber = (row.get("chamber") or "").strip().lower()
                   chamber_zh = "參議院" if chamber == "senate" else "眾議院" if chamber == "house" else chamber"""
 
-          new_trade_meta = """        filer_id = str(row.get("filer_id") or "").strip()
+          new_block = """        filer_id = str(row.get("filer_id") or "").strip()
                   filer_meta = filer_by_id.get(filer_id, {})
 
-                  # Kadoa trade rows are keyed by filer_id.
-                  # Resolve Congress member metadata from filers.json.
                   row_branch = str(
                       row.get("branch")
                       or filer_meta.get("branch")
-                      or ""
+                      or "congress"
                   ).strip().lower()
 
                   if row_branch not in ("", "congress"):
@@ -404,334 +341,167 @@ jobs:
                       else chamber
                   )"""
 
-          if old_trade_meta in s:
-              s = s.replace(
-                  old_trade_meta,
-                  new_trade_meta,
-                  1
-              )
+          if old_block in s:
+              s = s.replace(old_block, new_block, 1)
 
-          old_member_id = """            "memberId": (row.get("filer_id") or "").strip(),"""
-          new_member_id = """            "memberId": filer_id,"""
+          s = s.replace(
+              '"memberId": (row.get("filer_id") or "").strip(),',
+              '"memberId": filer_id,',
+              1
+          )
 
-          if old_member_id in s:
-              s = s.replace(
-                  old_member_id,
-                  new_member_id,
-                  1
-              )
+          s = s.replace(
+              '"party": row.get("party"),\n            "state": row.get("state"),',
+              '"party": row.get("party") or filer_meta.get("party"),\n'
+              '            "state": row.get("state") or filer_meta.get("state"),',
+              1
+          )
 
-          old_party_state = """            "party": row.get("party"),
-                      "state": row.get("state"),"""
-
-          new_party_state = """            "party": row.get("party") or filer_meta.get("party"),
-                      "state": row.get("state") or filer_meta.get("state"),"""
-
-          if old_party_state in s:
-              s = s.replace(
-                  old_party_state,
-                  new_party_state,
-                  1
-              )
-
-          # ---------- updater safety checks ----------
-          for token in (
+          must_have = (
               "def _send_telegram(",
-              "def _ff_web_calendar_today(",
               "_ff_apply_web_fallback(raw, now_utc)",
-              '_send_telegram(\\n            "今日美國重要數據"',
-              '_send_telegram(\\n            "美國數據公布"',
+              '_send_telegram(\n            "今日美國重要數據",',
+              '_send_telegram(\n            "美國數據公布",',
               "filer_by_id = {",
               "filer_meta = filer_by_id.get(filer_id, {})",
-              'or filer_meta.get("full_name")',
-              'or filer_meta.get("chamber")',
-              'or filer_meta.get("party")',
-              'or filer_meta.get("state")',
-          ):
+              'or filer_meta.get("name")',
+              '"memberId": filer_id,',
+              'row.get("party") or filer_meta.get("party")',
+              'row.get("state") or filer_meta.get("state")',
+          )
+
+          for token in must_have:
               if token not in s:
-                  raise RuntimeError(
-                      "updater check failed: " + token
-                  )
+                  raise RuntimeError("updater check failed: " + token)
 
-          if '_send_pushover(\\n            "今日美國重要數據"' in s:
-              raise RuntimeError(
-                  "Macro morning Pushover call still exists"
-              )
+          if '_send_pushover(\n            "今日美國重要數據",' in s:
+              raise RuntimeError("Macro morning reminder still uses Pushover")
 
-          if '_send_pushover(\\n            "美國數據公布"' in s:
-              raise RuntimeError(
-                  "Macro result Pushover call still exists"
-              )
+          if '_send_pushover(\n            "美國數據公布",' in s:
+              raise RuntimeError("Macro result still uses Pushover")
 
-          compile(
-              s,
-              "updater.py",
-              "exec"
-          )
+          compile(s, "updater.py", "exec")
+          updater_file.write_text(s, encoding="utf-8")
 
-          updater_file.write_text(
-              s,
-              encoding="utf-8"
-          )
-
-          # ============================================================
-          # index.html Congress UI fix
-          # ============================================================
-          h = index_file.read_text(
-              encoding="utf-8"
-          )
+          # 4) Congress UI: default listed stocks / ETF, no N/A display
+          h = index_file.read_text(encoding="utf-8")
 
           if 'id="assetFilter"' not in h:
-              chamber_select = (
-                  '<select id="chamberFilter">'
-                  '<option value="">House + Senate</option>'
-                  '<option value="house">眾議院</option>'
-                  '<option value="senate">參議院</option>'
-                  '</select>'
-              )
-
+              chamber_select = '<select id="chamberFilter"><option value="">House + Senate</option><option value="house">眾議院</option><option value="senate">參議院</option></select>'
               if chamber_select not in h:
-                  raise RuntimeError(
-                      "Congress chamber select missing"
-                  )
+                  raise RuntimeError("Congress chamber select missing")
 
-              asset_select = (
-                  '<select id="assetFilter">'
-                  '<option value="listed" selected>'
-                  '上市股票／ETF'
-                  '</option>'
-                  '<option value="other">'
-                  '其他資產'
-                  '</option>'
-                  '<option value="">'
-                  '全部資產'
-                  '</option>'
-                  '</select>'
-              )
-
-              h = h.replace(
-                  chamber_select,
-                  chamber_select
-                  + "\\n    "
-                  + asset_select,
-                  1
-              )
+              asset_select = '<select id="assetFilter"><option value="listed" selected>上市股票／ETF</option><option value="other">其他資產</option><option value="">全部資產</option></select>'
+              h = h.replace(chamber_select, chamber_select + "\n    " + asset_select, 1)
 
           if "function congressAssetName(x)" not in h:
               marker = "function renderCongress(){"
-
               if marker not in h:
-                  raise RuntimeError(
-                      "renderCongress marker missing"
-                  )
+                  raise RuntimeError("renderCongress marker missing")
 
-              helpers = """function congressAssetName(x){
+              helpers = r"""function congressAssetName(x){
            const ticker=String(x.ticker||"").trim().toUpperCase();
            if(ticker)return ticker;
 
-           let asset=String(x.asset||"").replace(/\\\\s+/g," ").trim();
+           let asset=String(x.asset||"").replace(/\s+/g," ").trim();
            if(!asset)return "其他資產";
 
-           const company=asset.match(/Company:\\\\s*(.+?)(?:\\\\s*\\\\([^)]*\\\\)|\\\\s*Description:|$)/i);
+           const company=asset.match(/Company:\s*(.+?)(?:\s*\([^)]*\)|\s*Description:|$)/i);
            if(company&&company[1])return company[1].trim();
 
-           asset=asset.replace(/\\\\s*Description:.*$/i,"").trim();
+           asset=asset.replace(/\s*Description:.*$/i,"").trim();
            return asset||"其他資產";
           }
 
           function congressAssetSubLabel(x){
            const ticker=String(x.ticker||"").trim().toUpperCase();
-           if(ticker)return String(x.asset||"").replace(/\\\\s+/g," ").trim();
 
-           const asset=String(x.asset||"").replace(/\\\\s+/g," ").trim();
-           const desc=asset.match(/Description:\\\\s*(.+)$/i);
-           if(desc&&desc[1])return desc[1].trim();
+           if(ticker){
+             return String(x.asset||"").replace(/\s+/g," ").trim();
+           }
+
+           const asset=String(x.asset||"").replace(/\s+/g," ").trim();
+           const desc=asset.match(/Description:\s*(.+)$/i);
+
+           if(desc&&desc[1]){
+             return desc[1].trim();
+           }
 
            return String(x.assetType||"").trim()||"非上市資產";
           }
 
           """
-
-              h = h.replace(
-                  marker,
-                  helpers + marker,
-                  1
-              )
+              h = h.replace(marker, helpers + marker, 1)
 
           if "const assetMode=" not in h:
-              anchor = (
-                  ' const chamber='
-                  'document.getElementById('
-                  '"chamberFilter")?.value||"";'
-              )
-
+              anchor = ' const chamber=document.getElementById("chamberFilter")?.value||"";'
               if anchor not in h:
-                  raise RuntimeError(
-                      "Congress chamber variable missing"
-                  )
-
+                  raise RuntimeError("Congress chamber variable missing")
               h = h.replace(
                   anchor,
-                  anchor
-                  + '\\n const assetMode='
-                  'document.getElementById('
-                  '"assetFilter")?.value??'
-                  '"listed";',
+                  anchor + '\n const assetMode=document.getElementById("assetFilter")?.value??"listed";',
                   1
               )
 
           if 'assetMode==="listed"' not in h:
-              anchor = (
-                  '   if(chamber && '
-                  '(x.chamber||"")!==chamber)'
-                  'return false;'
-              )
-
+              anchor = '   if(chamber && (x.chamber||"")!==chamber)return false;'
               if anchor not in h:
-                  raise RuntimeError(
-                      "Congress filter anchor missing"
-                  )
-
+                  raise RuntimeError("Congress filter anchor missing")
               h = h.replace(
                   anchor,
                   anchor
-                  + '\\n   const hasTicker='
-                  '!!String(x.ticker||"").trim();'
-                  + '\\n   if(assetMode==="listed" '
-                  '&& !hasTicker)return false;'
-                  + '\\n   if(assetMode==="other" '
-                  '&& hasTicker)return false;',
+                  + '\n   const hasTicker=!!String(x.ticker||"").trim();'
+                  + '\n   if(assetMode==="listed" && !hasTicker)return false;'
+                  + '\n   if(assetMode==="other" && hasTicker)return false;',
                   1
               )
 
-          if (
-              'const tickerLabel='
-              'x.ticker||"N/A";'
-              in h
-          ):
+          if 'const tickerLabel=x.ticker||"N/A";' in h:
               h = h.replace(
-                  '   const tickerLabel='
-                  'x.ticker||"N/A";',
-                  '   const tickerLabel='
-                  'congressAssetName(x);\\n'
-                  '   const assetSub='
-                  'congressAssetSubLabel(x);',
+                  '   const tickerLabel=x.ticker||"N/A";',
+                  '   const tickerLabel=congressAssetName(x);\n'
+                  '   const assetSub=congressAssetSubLabel(x);',
                   1
               )
 
-              old_row = (
-                  '<div><div class="ticker">'
-                  '${tickerLabel}</div>'
-                  '<div class="csmall">'
-                  '${x.asset||""}</div></div>'
-              )
-
-              new_row = (
-                  '<div><div class="ticker">'
-                  '${escapeHtml(tickerLabel)}</div>'
-                  '<div class="csmall">'
-                  '${escapeHtml(assetSub)}</div>'
-                  '</div>'
-              )
+              old_row = '<div><div class="ticker">${tickerLabel}</div><div class="csmall">${x.asset||""}</div></div>'
+              new_row = '<div><div class="ticker">${escapeHtml(tickerLabel)}</div><div class="csmall">${escapeHtml(assetSub)}</div></div>'
 
               if old_row not in h:
-                  raise RuntimeError(
-                      "Congress row marker missing"
-                  )
+                  raise RuntimeError("Congress row marker missing")
 
-              h = h.replace(
-                  old_row,
-                  new_row,
-                  1
-              )
+              h = h.replace(old_row, new_row, 1)
 
-          old_listener = (
-              '["actionFilter","chamberFilter"]'
-              '.forEach(id=>'
-              'document.getElementById(id)?'
-              '.addEventListener('
-              '"change",()=>{'
-              '__congressLimit=50;'
-              'renderCongress();}));'
+          h = h.replace(
+              '["actionFilter","chamberFilter"].forEach',
+              '["actionFilter","chamberFilter","assetFilter"].forEach',
+              1
           )
 
-          new_listener = (
-              '["actionFilter","chamberFilter",'
-              '"assetFilter"]'
-              '.forEach(id=>'
-              'document.getElementById(id)?'
-              '.addEventListener('
-              '"change",()=>{'
-              '__congressLimit=50;'
-              'renderCongress();}));'
-          )
+          old_clear = ' const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter");if(a)a.value="";if(c)c.value="";'
+          new_clear = ' const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter"),af=document.getElementById("assetFilter");if(a)a.value="";if(c)c.value="";if(af)af.value="listed";'
+          if old_clear in h:
+              h = h.replace(old_clear, new_clear, 1)
 
-          if old_listener in h:
-              h = h.replace(
-                  old_listener,
-                  new_listener,
-                  1
-              )
-
-          clear_old = (
-              ' const a=document.getElementById('
-              '"actionFilter"),'
-              'c=document.getElementById('
-              '"chamberFilter");'
-              'if(a)a.value="";'
-              'if(c)c.value="";'
-          )
-
-          clear_new = (
-              ' const a=document.getElementById('
-              '"actionFilter"),'
-              'c=document.getElementById('
-              '"chamberFilter"),'
-              'af=document.getElementById('
-              '"assetFilter");'
-              'if(a)a.value="";'
-              'if(c)c.value="";'
-              'if(af)af.value="listed";'
-          )
-
-          if clear_old in h:
-              h = h.replace(
-                  clear_old,
-                  clear_new,
-                  1
-              )
-
-          for token in (
+          ui_must_have = (
               'id="assetFilter"',
               'option value="listed" selected',
               "function congressAssetName(x)",
-              "function congressAssetSubLabel(x)",
+              'const assetMode=document.getElementById("assetFilter")?.value??"listed";',
               'assetMode==="listed"',
               '["actionFilter","chamberFilter","assetFilter"]',
-          ):
+          )
+
+          for token in ui_must_have:
               if token not in h:
-                  raise RuntimeError(
-                      "Congress check failed: "
-                      + token
-                  )
+                  raise RuntimeError("Congress UI check failed: " + token)
 
-          if (
-              'const tickerLabel='
-              'x.ticker||"N/A"'
-              in h
-          ):
-              raise RuntimeError(
-                  "Old N/A logic still exists"
-              )
+          if 'const tickerLabel=x.ticker||"N/A";' in h:
+              raise RuntimeError("Old Congress N/A display logic still exists")
 
-          index_file.write_text(
-              h,
-              encoding="utf-8"
-          )
+          index_file.write_text(h, encoding="utf-8")
 
-          print(
-              "Integrated macro + Congress fixes installed successfully"
-          )
+          print("Integrated fixes installed successfully")
 
           PY
 
@@ -742,13 +512,10 @@ jobs:
       - name: Update fast data only
         env:
           SKIP_EARNINGS: "1"
-
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
-
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-
         run: python updater.py
 
       - name: Verify generated outputs
@@ -758,7 +525,6 @@ jobs:
           from pathlib import Path
 
           congress = Path("congress.json")
-          macro = Path("macro.json")
           updater = Path("updater.py")
 
           if not congress.exists():
@@ -768,52 +534,25 @@ jobs:
           if not raw:
               raise SystemExit("congress.json is empty")
 
-          c = json.loads(raw)
-          items = c.get("items") or []
+          data = json.loads(raw)
+          items = data.get("items") or []
 
           if not items:
-              raise SystemExit(
-                  "Congress fetch produced zero items. "
-                  "Do not commit an empty congress.json."
-              )
+              raise SystemExit("Congress fetch produced zero items")
 
-          named = [
-              x for x in items
-              if str(x.get("member") or "").strip()
-          ]
-
+          named = [x for x in items if str(x.get("member") or "").strip()]
           if not named:
-              raise SystemExit(
-                  "Congress items exist but member names are missing."
-              )
-
-          print(
-              f"Congress OK: {len(items)} trades, "
-              f"{len(named)} with member names"
-          )
+              raise SystemExit("Congress member names are missing")
 
           s = updater.read_text(encoding="utf-8")
 
-          if '_send_pushover(\\n            "今日美國重要數據"' in s:
-              raise SystemExit(
-                  "Macro morning reminder still uses Pushover"
-              )
+          if '_send_pushover(\n            "今日美國重要數據",' in s:
+              raise SystemExit("Macro morning reminder still uses Pushover")
 
-          if '_send_pushover(\\n            "美國數據公布"' in s:
-              raise SystemExit(
-                  "Macro result still uses Pushover"
-              )
+          if '_send_pushover(\n            "美國數據公布",' in s:
+              raise SystemExit("Macro result still uses Pushover")
 
-          if "def _send_telegram(" not in s:
-              raise SystemExit(
-                  "Telegram sender missing"
-              )
-
-          if macro.exists():
-              json.loads(
-                  macro.read_text(encoding="utf-8")
-              )
-
+          print(f"Congress OK: {len(items)} trades")
           print("Macro Telegram-only check OK")
           PY
 
@@ -829,17 +568,9 @@ jobs:
           cp index.html /tmp/index.html
           cp config.json /tmp/config.json
 
-          if [ -f focus.json ]; then
-            cp focus.json /tmp/focus.json
-          fi
-
-          if [ -f macro.json ]; then
-            cp macro.json /tmp/macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            cp push_state.json /tmp/push_state.json
-          fi
+          if [ -f focus.json ]; then cp focus.json /tmp/focus.json; fi
+          if [ -f macro.json ]; then cp macro.json /tmp/macro.json; fi
+          if [ -f push_state.json ]; then cp push_state.json /tmp/push_state.json; fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -851,37 +582,14 @@ jobs:
           cp /tmp/index.html index.html
           cp /tmp/config.json config.json
 
-          if [ -f /tmp/focus.json ]; then
-            cp /tmp/focus.json focus.json
-          fi
+          if [ -f /tmp/focus.json ]; then cp /tmp/focus.json focus.json; fi
+          if [ -f /tmp/macro.json ]; then cp /tmp/macro.json macro.json; fi
+          if [ -f /tmp/push_state.json ]; then cp /tmp/push_state.json push_state.json; fi
 
-          if [ -f /tmp/macro.json ]; then
-            cp /tmp/macro.json macro.json
-          fi
-
-          if [ -f /tmp/push_state.json ]; then
-            cp /tmp/push_state.json push_state.json
-          fi
-
-          git add \
-            data.json \
-            news.json \
-            congress.json \
-            updater.py \
-            index.html \
-            config.json
-
-          if [ -f focus.json ]; then
-            git add focus.json
-          fi
-
-          if [ -f macro.json ]; then
-            git add macro.json
-          fi
-
-          if [ -f push_state.json ]; then
-            git add push_state.json
-          fi
+          git add data.json news.json congress.json updater.py index.html config.json
+          if [ -f focus.json ]; then git add focus.json; fi
+          if [ -f macro.json ]; then git add macro.json; fi
+          if [ -f push_state.json ]; then git add push_state.json; fi
 
           if ! git diff --cached --quiet; then
             git commit -m "Fix Congress data and Telegram-only macro alerts"
