@@ -3,6 +3,7 @@ import os
 import re
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -16,8 +17,7 @@ SITE_EARNINGS_URL = "https://morris199786.github.io/us-stock-watch/?page=earning
 
 def _load_json(path, default):
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        return data
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return default
 
@@ -69,70 +69,297 @@ def _send_telegram(title, message, url=None):
         return False, type(e).__name__
 
 
-def _ff_clean_html_text(value):
+def _clean_text(value):
     text = re.sub(r"<[^>]+>", " ", str(value or ""))
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
 
-def _ff_web_calendar_day(day_et):
+class _FFCalendarParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.in_row = False
+        self.in_td = False
+        self.row = {}
+        self.rows = []
+        self.current_classes = set()
+        self.buf = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        classes = set((attrs.get("class") or "").split())
+
+        if tag == "tr" and any(
+            c == "calendar__row" or c.startswith("calendar__row")
+            for c in classes
+        ):
+            self.in_row = True
+            self.row = {}
+
+        if self.in_row and tag == "td":
+            self.in_td = True
+            self.current_classes = classes
+            self.buf = []
+
+    def handle_data(self, data):
+        if self.in_row and self.in_td:
+            self.buf.append(data)
+
+    def handle_endtag(self, tag):
+        if self.in_row and self.in_td and tag == "td":
+            text = re.sub(r"\s+", " ", " ".join(self.buf)).strip()
+
+            key = None
+            for cls in self.current_classes:
+                if cls.startswith("calendar__"):
+                    key = cls
+                    break
+
+            if key:
+                self.row[key] = text
+
+            self.in_td = False
+            self.current_classes = set()
+            self.buf = []
+
+        if self.in_row and tag == "tr":
+            if self.row:
+                self.rows.append(self.row)
+            self.in_row = False
+            self.row = {}
+
+
+def _ff_direct_html(day_et):
+    token = day_et.strftime("%b%d.%Y").lower()
+    urls = [
+        f"https://www.forexfactory.com/calendar?day={token}",
+        f"https://www.forexfactory.com/calendar?day={token}&embed=true",
+    ]
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/126.0 Safari/537.36"
+        ),
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://www.forexfactory.com/calendar",
+        "Cache-Control": "no-cache",
+        "Cookie": "fftimezone=America/New_York",
+    }
+
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=18) as r:
+                raw = r.read().decode("utf-8", "ignore")
+
+            if len(raw) > 5000:
+                return raw
+        except Exception as e:
+            print("FF direct fetch failed:", type(e).__name__, url)
+
+    return ""
+
+
+def _ff_jina_text(day_et):
+    token = day_et.strftime("%b%d.%Y").lower()
+    targets = [
+        f"https://r.jina.ai/http://www.forexfactory.com/calendar?day={token}",
+        f"https://r.jina.ai/https://www.forexfactory.com/calendar?day={token}",
+    ]
+
+    for url in targets:
+        try:
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": "Mozilla/5.0",
+                    "Accept": "text/plain,text/markdown,*/*",
+                },
+            )
+
+            with urllib.request.urlopen(req, timeout=25) as r:
+                raw = r.read().decode("utf-8", "ignore")
+
+            if len(raw) > 1000:
+                return raw
+
+        except Exception as e:
+            print("FF Jina fetch failed:", type(e).__name__, url)
+
+    return ""
+
+
+def _row_value(row, suffix):
+    for k, v in row.items():
+        if k == suffix or k.endswith(suffix):
+            return _clean_text(v)
+    return ""
+
+
+def _parse_ff_html(html_text):
+    if not html_text:
+        return {}
+
+    parser = _FFCalendarParser()
+
     try:
-        token = day_et.strftime("%b%d.%Y").lower()
-
-        req = urllib.request.Request(
-            f"https://www.forexfactory.com/calendar?day={token}",
-            headers={
-                "User-Agent": "Mozilla/5.0",
-                "Accept": "text/html,application/xhtml+xml",
-                "Accept-Language": "en-US,en;q=0.9",
-                "Referer": "https://www.forexfactory.com/calendar",
-            },
-        )
-
-        with urllib.request.urlopen(req, timeout=15) as r:
-            html_text = r.read().decode("utf-8", "ignore")
-
+        parser.feed(html_text)
     except Exception:
         return {}
 
-    rows = re.findall(
-        r'(<tr[^>]*class="[^"]*calendar__row[^"]*"[^>]*>.*?</tr>)',
-        html_text,
-        flags=re.I | re.S,
-    )
-
     out = {}
 
-    for row in rows:
-        m = re.search(
-            r'class="[^"]*calendar__event[^"]*"[^>]*>(.*?)</td>',
-            row,
-            flags=re.I | re.S,
-        )
-
-        if not m:
-            continue
-
-        title = _ff_clean_html_text(m.group(1))
+    for row in parser.rows:
+        title = _row_value(row, "calendar__event")
 
         if not title:
             continue
 
-        def cell(cls):
-            mm = re.search(
-                rf'class="[^"]*{re.escape(cls)}[^"]*"[^>]*>(.*?)</td>',
-                row,
-                flags=re.I | re.S,
-            )
-            return _ff_clean_html_text(mm.group(1)) if mm else ""
+        currency = _row_value(row, "calendar__currency").upper()
 
         out[title.lower()] = {
-            "actual": cell("calendar__actual"),
-            "forecast": cell("calendar__forecast"),
-            "previous": cell("calendar__previous"),
+            "currency": currency,
+            "actual": _row_value(row, "calendar__actual"),
+            "forecast": _row_value(row, "calendar__forecast"),
+            "previous": _row_value(row, "calendar__previous"),
         }
 
     return out
+
+
+def _looks_numberish(value):
+    s = str(value or "").strip()
+
+    if not s:
+        return False
+
+    return bool(
+        re.fullmatch(
+            r"[-+]?[\d,.]+(?:\s?[KMBT])?%?(?:\|[-+]?[\d,.]+)?",
+            s,
+            flags=re.I,
+        )
+    )
+
+
+def _parse_ff_markdown(text):
+    if not text:
+        return {}
+
+    out = {}
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+
+        if "| USD" not in line and "|USD" not in line:
+            continue
+
+        parts = [
+            re.sub(r"\s+", " ", p).strip()
+            for p in line.split("|")
+        ]
+
+        clean = []
+
+        for p in parts:
+            if not p:
+                continue
+
+            if p.lower() in {
+                "usd",
+                "image",
+                "graph",
+                "detail",
+                "alerts",
+            }:
+                continue
+
+            if p.startswith("[") and "Image" in p:
+                continue
+
+            p = re.sub(r"\[Image[^\]]*\]", "", p).strip()
+
+            if p:
+                clean.append(p)
+
+        if not clean:
+            continue
+
+        # Search for known economic-event-looking text.
+        # The event title is usually the last non-numberish textual field
+        # before Actual / Forecast / Previous.
+        title_idx = None
+
+        for i, value in enumerate(clean):
+            low = value.lower()
+
+            if (
+                not _looks_numberish(value)
+                and not re.fullmatch(r"\d{1,2}:\d{2}(?:am|pm)?", low)
+                and not re.fullmatch(r"(?:mon|tue|wed|thu|fri|sat|sun).*", low)
+                and any(ch.isalpha() for ch in value)
+            ):
+                title_idx = i
+
+        if title_idx is None:
+            continue
+
+        title = clean[title_idx]
+
+        nums = [
+            x for x in clean[title_idx + 1:]
+            if _looks_numberish(x)
+        ]
+
+        if not nums:
+            continue
+
+        actual = nums[0] if len(nums) >= 1 else ""
+        forecast = nums[1] if len(nums) >= 2 else ""
+        previous = nums[2] if len(nums) >= 3 else ""
+
+        out[title.lower()] = {
+            "currency": "USD",
+            "actual": actual,
+            "forecast": forecast,
+            "previous": previous,
+        }
+
+    return out
+
+
+def _ff_web_calendar_day(day_et):
+    # 1) Direct Forex Factory HTML
+    html_text = _ff_direct_html(day_et)
+    out = _parse_ff_html(html_text)
+
+    if out:
+        print(
+            "FF direct parsed:",
+            day_et.isoformat(),
+            len(out),
+            "rows",
+        )
+        return out
+
+    # 2) Jina rendered-text fallback
+    jina = _ff_jina_text(day_et)
+    out = _parse_ff_markdown(jina)
+
+    if out:
+        print(
+            "FF Jina parsed:",
+            day_et.isoformat(),
+            len(out),
+            "rows",
+        )
+        return out
+
+    print("FF history parse returned zero rows:", day_et.isoformat())
+    return {}
 
 
 def backfill_recent_macro_actuals(days=7):
@@ -155,6 +382,8 @@ def backfill_recent_macro_actuals(days=7):
         ).strip()
 
     changed = False
+    candidates = 0
+    filled = 0
 
     for event in events:
         if not isinstance(event, dict):
@@ -200,6 +429,7 @@ def backfill_recent_macro_actuals(days=7):
         if dt < now_utc - timedelta(days=days):
             continue
 
+        candidates += 1
         day_et = dt.astimezone(et).date()
 
         if day_et not in page_cache:
@@ -217,6 +447,13 @@ def backfill_recent_macro_actuals(days=7):
                     break
 
         if not matched:
+            print("No FF historical match:", title, day_et.isoformat())
+            continue
+
+        actual = str(matched.get("actual") or "").strip()
+
+        if not actual:
+            print("FF matched but Actual blank:", title)
             continue
 
         before = (
@@ -225,8 +462,7 @@ def backfill_recent_macro_actuals(days=7):
             event.get("previous"),
         )
 
-        if matched.get("actual"):
-            event["actual"] = matched["actual"]
+        event["actual"] = actual
 
         if matched.get("forecast"):
             event["forecast"] = matched["forecast"]
@@ -242,12 +478,26 @@ def backfill_recent_macro_actuals(days=7):
 
         if after != before:
             changed = True
+            filled += 1
+
             print(
                 "macro backfilled:",
                 title,
                 "| actual:",
                 event.get("actual"),
+                "| forecast:",
+                event.get("forecast"),
+                "| previous:",
+                event.get("previous"),
             )
+
+    print(
+        "Macro backfill summary:",
+        "candidates=",
+        candidates,
+        "filled=",
+        filled,
+    )
 
     if changed:
         macro["updatedAt"] = datetime.now(
@@ -265,7 +515,7 @@ def send_next_day_earnings_reminder():
     now_tw = datetime.now(timezone.utc).astimezone(tw)
 
     # 財報提醒固定台灣時間 08:30
-    # GitHub Actions 可能延遲幾分鐘，所以 08:30～08:59 都可觸發
+    # GitHub Actions 可能延遲數分鐘，因此 08:30～08:59 都可以觸發
     if not (
         now_tw.hour == 8
         and now_tw.minute >= 30
@@ -335,19 +585,12 @@ def send_next_day_earnings_reminder():
         ):
             label += f"（{name}）"
 
-        # 美東 16:00 後 = 盤後
         if dt_et.hour >= 16:
             post.append(label)
-
-        # 美東 04:00～09:59 = 盤前
         elif 4 <= dt_et.hour < 10:
             pre.append(label)
-
-        # Yahoo 時間若只有 placeholder，使用台灣時間輔助判斷
-        # 台灣凌晨 = 美國前一交易日盤後
         elif dt_tw.hour < 12:
             post.append(label)
-
         else:
             pre.append(label)
 
