@@ -3,8 +3,11 @@ name: Update Earnings
 on:
   workflow_dispatch:
   schedule:
-    # 08:00 and 20:00 Taiwan time (UTC+8)
-    - cron: "0 0,12 * * *"
+    # 08:30 Taiwan time
+    - cron: "30 0 * * *"
+
+    # 20:00 Taiwan time
+    - cron: "0 12 * * *"
 
 permissions:
   contents: write
@@ -37,9 +40,17 @@ jobs:
         env:
           PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
           PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python updater.py
 
-      - name: Commit earnings and v7 parser safely
+      - name: Backfill macro and send earnings reminder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python earnings_macro_helper.py
+
+      - name: Commit earnings, macro and reminder state safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,6 +59,19 @@ jobs:
           cp updater.py /tmp/updater.py
           cp config.json /tmp/config.json
           cp index.html /tmp/index.html
+          cp earnings_macro_helper.py /tmp/earnings_macro_helper.py
+
+          if [ -f macro.json ]; then
+            cp macro.json /tmp/macro.json
+          fi
+
+          if [ -f congress.json ]; then
+            cp congress.json /tmp/congress.json
+          fi
+
+          if [ -f push_state.json ]; then
+            cp push_state.json /tmp/push_state.json
+          fi
 
           git fetch origin main
           git reset --hard origin/main
@@ -56,10 +80,40 @@ jobs:
           cp /tmp/updater.py updater.py
           cp /tmp/config.json config.json
           cp /tmp/index.html index.html
+          cp /tmp/earnings_macro_helper.py earnings_macro_helper.py
 
-          git add earnings.json updater.py config.json index.html
+          if [ -f /tmp/macro.json ]; then
+            cp /tmp/macro.json macro.json
+          fi
+
+          if [ -f /tmp/congress.json ]; then
+            cp /tmp/congress.json congress.json
+          fi
+
+          if [ -f /tmp/push_state.json ]; then
+            cp /tmp/push_state.json push_state.json
+          fi
+
+          git add \
+            earnings.json \
+            updater.py \
+            config.json \
+            index.html \
+            earnings_macro_helper.py
+
+          if [ -f macro.json ]; then
+            git add macro.json
+          fi
+
+          if [ -f congress.json ]; then
+            git add congress.json
+          fi
+
+          if [ -f push_state.json ]; then
+            git add push_state.json
+          fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Install earnings parser v7 and update latest earnings"
+            git commit -m "Add 08:30 earnings Telegram reminder and macro backfill"
             git push origin main
           fi
