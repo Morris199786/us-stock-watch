@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01 05:14 台灣時間",
+  "updatedAt": "2026-10-01 05:19 台灣時間",
   "historyUpdatedDate": "2026-10-01",
   "historyLastAttemptAt": "2026-09-30T16:02:22.100808+00:00",
   "historyItemCount": 800,
@@ -7,23 +7,55 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
+      "ticker": "MU",
+      "group": "記憶體／儲存",
       "tag": "題材",
       "title": "道瓊斯期貨：美國公債殖利率施壓股市後，美光科技股價上漲",
-      "summary": "",
+      "summary": "The Nasdaq faded while the other indexes fell as Treasury yields keep running higher. Micron rose late on earnings and guidance.",
       "originalTitle": "Dow Jones Futures: Micron Rises On Hot Earnings After Treasury Yields Pressure Stocks",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVoyZktSa2ZJN09IQ3NzVV9jbXduR01hWXR5SUl0V2FDMllQdjFfQ0h0Z2s5ZGFWSEtQMjktT0N0eVNqbzJYODRVVXJRZFI0M04zWUF5RGxya1FzR3VJN3Q1ZXhMLWlEVzQ2cE94Zm4tSnVaNjlnb1hzM2YwRTA5ZEFMOVVSZmhnYmc1bmx2VklsaGkwVXA5ZXpTSVJkck5YLUFkZHJ6TlFmYnNIeDNoZWpTVXM?oc=5",
-      "ts": "2026-09-30T21:01:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
+      "originalSummary": "The Nasdaq faded while the other indexes fell as Treasury yields keep running higher. Micron rose late on earnings and guidance.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-micron-rises-earnings-treasury-yields/?src=A00220&yptr=yahoo",
+      "ts": "2026-09-30T21:07:22+00:00",
+      "sourceType": "ticker_feed",
       "analystPriority": false,
+      "movePct": 0.002816689826112828,
       "relatedTickers": [
         "MU"
       ],
       "eventType": "",
-      "score": 23.25,
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "利空",
+      "title": "新人工智慧模型延遲後，Gemini 4 Argon 發布，Google股價上漲",
+      "summary": "Alphabet 發布了其最強大的人工智慧模型 Gemini 4 Argon。消息傳出後，Google股價上漲。",
+      "originalTitle": "Google Stock Rises On Gemini 4 Argon Release After New AI Model Delays",
+      "originalSummary": "Alphabet released its most powerful, artificial intelligence model called Gemini 4 Argon. Google stock climbed on the news.",
+      "url": "https://www.investors.com/news/technology/google-stock-rises-on-gemini-4-argon-release-after-new-ai-model-delays/?src=A00220&yptr=yahoo",
+      "ts": "2026-09-30T21:04:26+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.9269036724158131,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 12.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -83,38 +115,6 @@
       },
       "top10": true,
       "top10Rank": 4
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "利空",
-      "title": "新人工智慧模型延遲後，Gemini 4 Argon 發布，Google股價上漲",
-      "summary": "Alphabet 發布了其最強大的人工智慧模型 Gemini 4 Argon。消息傳出後，Google股價上漲。",
-      "originalTitle": "Google Stock Rises On Gemini 4 Argon Release After New AI Model Delays",
-      "originalSummary": "Alphabet released its most powerful, artificial intelligence model called Gemini 4 Argon. Google stock climbed on the news.",
-      "url": "https://www.investors.com/news/technology/google-stock-rises-on-gemini-4-argon-release-after-new-ai-model-delays/?src=A00220&yptr=yahoo",
-      "ts": "2026-09-30T20:56:42+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.9269036724158131,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "VICR",
@@ -478,7 +478,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": false,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -532,37 +532,28 @@
       "title": "波音公司贏得另一份價值 200 億美元的下一代戰鬥機合約",
       "summary": "波音公司週二表示，該公司獲得了美國海軍的一份合同，負責設計、建造和交付第六代艦載攻擊戰鬥機 F/A-XX。據美國戰爭部稱，該合約的全面開發階段價值超過 200 億美元，涵蓋多架測試飛機進行地面、適航、系統和武器整合測試。",
       "originalTitle": "Boeing Wins Another Next-Generation Fighter Contract Worth $20 Billion",
-      "originalSummary": "Boeing was awarded a contract by the U.S. Navy to design, build, and deliver the F/A-XX, a sixth-generation carrier-based strike fighter, the company said Tuesday. The contract is valued at more than $20 billion for the full-scale development phase and covers multiple test aircraft for ground, airworthiness, systems, and weapons integration testing, according to the Department of War .",
-      "url": "https://finance.yahoo.com/technology/articles/boeing-wins-20-billion-navy-113158729.html",
+      "originalSummary": "",
+      "url": "https://www.investors.com/news/boeing-f-a-xx-faxx-next-generation-jet-f47-dod-contract-20-billion-ba-stock-dow-jones/?src=A00220&yptr=yahoo",
       "ts": "2026-09-30T20:17:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -0.8684995737425427,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
         "BA"
       ],
-      "eventType": "新題材",
-      "score": 13.5,
+      "eventType": "",
+      "score": 3.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "波音公司週二表示，該公司獲得了美國海軍的一份合同，負責設計、建造和交付第六代艦載攻擊戰鬥機 F/A-XX。據美國戰爭部稱，該合約的全面開發階段價值超過 200 億美元，涵蓋多架測試飛機進行地面、適航、系統和武器整合測試。",
-        "numbers": [
-          "$20 Billion",
-          "$20 billion",
-          "20 Billion",
-          "20 billion"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "波音公司週二表示，該公司獲得了美國海軍的一份合同，負責設計、建造和交付第六代艦載攻擊戰鬥機 F/A-XX。據美國戰爭部稱，該合約的全面開發階段價值超過 200 億美元，涵蓋多架測試飛機進行地面、適航、系統和武器整合測試。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -638,7 +629,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "ClickHouse 擴張後，微軟 (MSFT) 的股價可能比公允價值高出 21%",
-      "summary": "微軟 (MSFT) 剛剛加深了與 ClickHouse 的聯繫，擴大了分析合作夥伴在 Microsoft Fabric、OneLake、Azure 和 Microsoft Marketplace 上的影響力。對於任何追蹤微軟股票的人來說，這項聯盟使該公司更廣泛的數據和人工智慧故事更加清晰。微軟最近的價格走勢一直不穩定。 90天股價報酬率為32.45%後，股價約508.96美元。 1年總股本",
+      "summary": "",
       "originalTitle": "Microsoft (MSFT) Could Be 21% Above Fair Value After ClickHouse Expansion",
       "originalSummary": "Microsoft (MSFT) just deepened its ties with ClickHouse, extending the analytics partner’s presence across Microsoft Fabric, OneLake, Azure and the Microsoft Marketplace. For anyone tracking Microsoft stock, this alliance sharpens the firm’s broader data and AI story. Recent price action has been choppy for Microsoft. The shares are around US$508.96 after a 90-day share price return of 32.45%. The 1-year total shareholder return is slightly negative, which points to strong short-term momentum...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-could-21-above-200925837.html",
@@ -651,17 +642,17 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "微軟 (MSFT) 剛剛加深了與 ClickHouse 的聯繫，擴大了分析合作夥伴在 Microsoft Fabric、OneLake、Azure 和 Microsoft Marketplace 上的影響力。對於任何追蹤微軟股票的人來說，這項聯盟使該公司更廣泛的數據和人工智慧故事更加清晰。微軟最近的價格走勢一直不穩定。 90天股價報酬率為32.45%後，股價約508.96美元。 1年總股本",
+        "event": "微軟 (MSFT) 剛剛加深了與 ClickHouse 的聯繫，擴大了分析合作夥伴在 Microsoft Fabric、OneLake、Azure 和 Microsoft Marketplace 上的影響力。對於任何追蹤微軟股票的人來說，這項聯盟使該公司更廣泛的數據和人工智慧故事更加清晰。微軟最近的價格走勢一直不穩定。 90天股價報酬率為32.45%後，股價約508.96美元。",
         "numbers": [
           "$508.96",
           "21%",
           "32.45%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "微軟 (MSFT) 剛剛加深了與 ClickHouse 的聯繫，擴大了分析合作夥伴在 Microsoft Fabric、OneLake、Azure 和 Microsoft Marketplace 上的影響力。對於任何追蹤微軟股票的人來說，這項聯盟使該公司更廣泛的數據和人工智慧故事更加清晰。微軟最近的價格走勢一直不穩定。 90天股價報酬率為32.45%後，股價約508.96美元。",
+        "stance": "微軟 (MSFT) 剛剛加深了與 ClickHouse 的聯繫，擴大了分析合作夥伴在 Microsoft Fabric、OneLake、Azure 和 Microsoft Marketplace 上的影響力。對於任何追蹤微軟股票的人來說，這項聯盟使該公司更廣泛的數據和人工智慧故事更加清晰。微軟最近的價格走勢一直不穩定。 90天股價報酬率為32.45%後，股價約508.96美元。一年期股東總回報率略為負值，這表明短期勢頭強勁...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1294,6 +1285,39 @@
       "marketWide": true,
       "analystPriority": false,
       "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "由於“大風”，特斯拉 Roadster 的發布推遲了兩週",
+      "summary": "",
+      "originalTitle": "Tesla Roadster launch was postponed by two weeks due to 'high winds'",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41Zi1Nb1JkUDUySGNRTjRHMXNGVGpFU0ZVRS0yakY1b0hXd1l1cW9WcnNJa3hwNkxPclJVUC1nR1JhVVNxM2N4QUpvd0c5STA5RVVpS2E0WFlYTlFKMDlwbU5KT2pvM0hm?oc=5",
+      "ts": "2026-09-30T18:58:06+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
       "eventType": "",
       "score": 6.75,
       "featured": false,
@@ -2680,46 +2704,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "Nebius 與 AIB 簽署為期 12 年的 50 MW 資料中心協議",
-      "summary": "",
-      "originalTitle": "Nebius Signs 12-Year, 50 MW Data Center Deal With AIB",
-      "originalSummary": "Nebius ( NASDAQ:NBIS ), which provides AI cloud infrastructure for developers and enterprises, rose 1.11% intraday, as of 10:20 a.m. ET, after AIB Data Centers ( AIB ) said it had signed a binding agreement to supply Nebius with 50 MW of critical IT capacity at a site in the southeastern U.S. The deal has an initial 12-year term, with optional renewals that could raise its value, though financial terms weren't disclosed.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nebius-signs-12-50-mw-172352962.html",
-      "ts": "2026-09-30T17:23:52+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.621432032188074,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "為開發商和企業提供人工智慧雲端基礎設施的 Nebius (NASDAQ:NBIS)，截至美國東部時間上午 10:20，盤中上漲 1.11%，此前 AIB 資料中心 (AIB) 表示已簽署一項具有約束力的協議，為 Nebius 在美國東南部的一個站點提供 50 兆瓦的關鍵 IT 容量。該交易的初始期限為 12 年，可選擇續約，這可能會提高其價值，儘管財務方面會有所影響。條款並未揭露。",
-        "numbers": [
-          "1.11%",
-          "50 MW"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "為開發商和企業提供人工智慧雲端基礎設施的 Nebius (NASDAQ:NBIS)，截至美國東部時間上午 10:20，盤中上漲 1.11%，此前 AIB 資料中心 (AIB) 表示已簽署一項具有約束力的協議，為 Nebius 在美國東南部的一個站點提供 50 兆瓦的關鍵 IT 容量。該交易的初始期限為 12 年，可選擇續約，這可能會提高其價值，儘管財務方面會有所影響。條款並未揭露。",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
