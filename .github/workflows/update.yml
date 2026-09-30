@@ -50,9 +50,15 @@ jobs:
           updater_file = Path("updater.py")
           index_file = Path("index.html")
 
-          # ===== updater.py: macro Telegram + Forex Factory visible-page fallback =====
+          # ============================================================
+          # updater.py
+          # 1) Macro notifications -> Telegram only
+          # 2) Forex Factory visible-page fallback
+          # 3) Congress filer_id -> filers.json metadata mapping
+          # ============================================================
           s = updater_file.read_text(encoding="utf-8")
 
+          # ---------- Telegram sender + FF fallback ----------
           if "def _send_telegram(" not in s:
               marker = "def refresh_macro_data():"
               if marker not in s:
@@ -75,15 +81,22 @@ jobs:
                       "text": text[:3900],
                       "disable_web_page_preview": True,
                   }, ensure_ascii=False).encode("utf-8")
+
                   req = urllib.request.Request(
                       f"https://api.telegram.org/bot{token}/sendMessage",
                       data=payload,
-                      headers={"Content-Type":"application/json","User-Agent":"us-stock-watch/1.0"},
+                      headers={
+                          "Content-Type": "application/json",
+                          "User-Agent": "us-stock-watch/1.0",
+                      },
                       method="POST",
                   )
+
                   with urllib.request.urlopen(req, timeout=12) as r:
                       ok = 200 <= getattr(r, "status", 200) < 300
+
                   return ok, "ok" if ok else "http_error"
+
               except Exception as e:
                   return False, type(e).__name__
 
@@ -99,14 +112,16 @@ jobs:
                   req = urllib.request.Request(
                       "https://www.forexfactory.com/calendar?day=today",
                       headers={
-                          "User-Agent":"Mozilla/5.0",
-                          "Accept":"text/html,application/xhtml+xml",
-                          "Accept-Language":"en-US,en;q=0.9",
-                          "Referer":"https://www.forexfactory.com/calendar",
+                          "User-Agent": "Mozilla/5.0",
+                          "Accept": "text/html,application/xhtml+xml",
+                          "Accept-Language": "en-US,en;q=0.9",
+                          "Referer": "https://www.forexfactory.com/calendar",
                       },
                   )
+
                   with urllib.request.urlopen(req, timeout=15) as r:
                       html_text = r.read().decode("utf-8", "ignore")
+
               except Exception:
                   return {}
 
@@ -139,10 +154,7 @@ jobs:
                           row,
                           flags=re.I | re.S,
                       )
-
-                      return _ff_clean_html_text(
-                          mm.group(1)
-                      ) if mm else ""
+                      return _ff_clean_html_text(mm.group(1)) if mm else ""
 
                   out[title.lower()] = {
                       "actual": cell("calendar__actual"),
@@ -169,10 +181,7 @@ jobs:
                       or ""
                   ).strip().title()
 
-                  if impact not in (
-                      "High",
-                      "Medium"
-                  ):
+                  if impact not in ("High", "Medium"):
                       continue
 
                   dt = _ff_dt(row)
@@ -180,10 +189,7 @@ jobs:
                   if (
                       dt
                       and dt <= now_utc + timedelta(minutes=1)
-                      and not str(
-                          row.get("actual")
-                          or ""
-                      ).strip()
+                      and not str(row.get("actual") or "").strip()
                   ):
                       need = True
                       break
@@ -197,17 +203,12 @@ jobs:
                   return raw_rows
 
               for row in raw_rows:
-                  title = str(
-                      row.get("title")
-                      or ""
-                  ).strip()
+                  title = str(row.get("title") or "").strip()
 
                   if not title:
                       continue
 
-                  w = web.get(
-                      title.lower()
-                  )
+                  w = web.get(title.lower())
 
                   if not w:
                       wanted = re.sub(
@@ -253,25 +254,19 @@ jobs:
               "    raw += _ff_fetch(FF_NEXT_WEEK_JSON)"
           )
 
-          fallback_line = (
-              "    raw = "
-              "_ff_apply_web_fallback(raw, now_utc)"
-          )
+          fallback_line = "    raw = _ff_apply_web_fallback(raw, now_utc)"
 
           if fallback_line not in s:
               if fetch_anchor not in s:
-                  raise RuntimeError(
-                      "Forex Factory fetch marker missing"
-                  )
+                  raise RuntimeError("Forex Factory fetch marker missing")
 
               s = s.replace(
                   fetch_anchor,
-                  fetch_anchor
-                  + "\\n"
-                  + fallback_line,
+                  fetch_anchor + "\\n" + fallback_line,
                   1
               )
 
+          # ---------- Macro: Telegram ONLY ----------
           morning_old = """        ok, _ = _send_pushover(
                       "今日美國重要數據",
                       "\\n".join(lines[:12]),
@@ -308,18 +303,165 @@ jobs:
                   1
               )
 
+          # ============================================================
+          # Congress backend fix
+          # Kadoa trades.json uses filer_id.
+          # Resolve member/chamber/party/state from filers.json.
+          # ============================================================
+
+          if "filer_by_id = {" not in s:
+              filer_anchor = """    except Exception:
+                      filers = previous.get("filers", []) if isinstance(previous, dict) else []
+
+                  items = []"""
+
+              filer_replacement = """    except Exception:
+                      filers = previous.get("filers", []) if isinstance(previous, dict) else []
+
+                  filer_by_id = {
+                      str(f.get("id") or "").strip(): f
+                      for f in filers
+                      if isinstance(f, dict) and str(f.get("id") or "").strip()
+                  }
+
+                  items = []"""
+
+              if filer_anchor not in s:
+                  raise RuntimeError("Congress filer map anchor missing")
+
+              s = s.replace(
+                  filer_anchor,
+                  filer_replacement,
+                  1
+              )
+
+          old_trade_meta = """        # Congress only; exclude executive-branch disclosure rows.
+                  if (row.get("branch") or "").lower() not in ("", "congress"):
+                      continue
+
+                  traded = _parse_date(row.get("transaction_date"))
+                  filed = _parse_date(row.get("filing_date"))
+                  if not traded or traded < CONGRESS_START_DATE:
+                      continue
+
+                  member = (row.get("filer_name") or row.get("member") or "").strip()
+                  ticker = (row.get("ticker") or "").strip().upper()
+                  if not member:
+                      continue
+
+                  action, action_zh = _trade_action(row.get("transaction_type") or row.get("action"))
+                  chamber = (row.get("chamber") or "").strip().lower()
+                  chamber_zh = "參議院" if chamber == "senate" else "眾議院" if chamber == "house" else chamber"""
+
+          new_trade_meta = """        filer_id = str(row.get("filer_id") or "").strip()
+                  filer_meta = filer_by_id.get(filer_id, {})
+
+                  # Kadoa trade rows are keyed by filer_id.
+                  # Resolve Congress member metadata from filers.json.
+                  row_branch = str(
+                      row.get("branch")
+                      or filer_meta.get("branch")
+                      or ""
+                  ).strip().lower()
+
+                  if row_branch not in ("", "congress"):
+                      continue
+
+                  traded = _parse_date(row.get("transaction_date"))
+                  filed = _parse_date(row.get("filing_date"))
+                  if not traded or traded < CONGRESS_START_DATE:
+                      continue
+
+                  member = str(
+                      row.get("filer_name")
+                      or row.get("member")
+                      or filer_meta.get("name")
+                      or filer_meta.get("full_name")
+                      or ""
+                  ).strip()
+
+                  ticker = (row.get("ticker") or "").strip().upper()
+
+                  if not member:
+                      continue
+
+                  action, action_zh = _trade_action(
+                      row.get("transaction_type")
+                      or row.get("action")
+                  )
+
+                  chamber = str(
+                      row.get("chamber")
+                      or filer_meta.get("chamber")
+                      or ""
+                  ).strip().lower()
+
+                  chamber_zh = (
+                      "參議院"
+                      if chamber == "senate"
+                      else "眾議院"
+                      if chamber == "house"
+                      else chamber
+                  )"""
+
+          if old_trade_meta in s:
+              s = s.replace(
+                  old_trade_meta,
+                  new_trade_meta,
+                  1
+              )
+
+          old_member_id = """            "memberId": (row.get("filer_id") or "").strip(),"""
+          new_member_id = """            "memberId": filer_id,"""
+
+          if old_member_id in s:
+              s = s.replace(
+                  old_member_id,
+                  new_member_id,
+                  1
+              )
+
+          old_party_state = """            "party": row.get("party"),
+                      "state": row.get("state"),"""
+
+          new_party_state = """            "party": row.get("party") or filer_meta.get("party"),
+                      "state": row.get("state") or filer_meta.get("state"),"""
+
+          if old_party_state in s:
+              s = s.replace(
+                  old_party_state,
+                  new_party_state,
+                  1
+              )
+
+          # ---------- updater safety checks ----------
           for token in (
               "def _send_telegram(",
               "def _ff_web_calendar_today(",
               "_ff_apply_web_fallback(raw, now_utc)",
               '_send_telegram(\\n            "今日美國重要數據"',
               '_send_telegram(\\n            "美國數據公布"',
+              "filer_by_id = {",
+              "filer_meta = filer_by_id.get(filer_id, {})",
+              'or filer_meta.get("full_name")',
+              'or filer_meta.get("chamber")',
+              'or filer_meta.get("party")',
+              'or filer_meta.get("state")',
           ):
               if token not in s:
                   raise RuntimeError(
-                      "macro check failed: "
-                      + token
+                      "updater check failed: " + token
                   )
+
+          if '_send_pushover(\\n            "今日美國重要數據"' in s:
+              raise RuntimeError(
+                  "Macro morning Pushover call still exists"
+              )
+
+          if '_send_pushover(\\n            "美國數據公布"' in s:
+              raise RuntimeError(
+                  "Macro result Pushover call still exists"
+              )
 
           compile(
               s,
@@ -332,7 +474,9 @@ jobs:
               encoding="utf-8"
           )
 
-          # ===== index.html: Congress UI =====
+          # ============================================================
+          # index.html Congress UI fix
+          # ============================================================
           h = index_file.read_text(
               encoding="utf-8"
           )
@@ -373,10 +517,7 @@ jobs:
                   1
               )
 
-          if (
-              "function congressAssetName(x)"
-              not in h
-          ):
+          if "function congressAssetName(x)" not in h:
               marker = "function renderCongress(){"
 
               if marker not in h:
@@ -413,8 +554,7 @@ jobs:
 
               h = h.replace(
                   marker,
-                  helpers
-                  + marker,
+                  helpers + marker,
                   1
               )
 
@@ -590,13 +730,14 @@ jobs:
           )
 
           print(
-              "Integrated fixes installed successfully"
+              "Integrated macro + Congress fixes installed successfully"
           )
 
           PY
 
           python -m py_compile /tmp/install_fixes.py
           python /tmp/install_fixes.py
+          python -m py_compile updater.py
 
       - name: Update fast data only
         env:
@@ -609,6 +750,72 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
         run: python updater.py
+
+      - name: Verify generated outputs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          congress = Path("congress.json")
+          macro = Path("macro.json")
+          updater = Path("updater.py")
+
+          if not congress.exists():
+              raise SystemExit("congress.json missing")
+
+          raw = congress.read_text(encoding="utf-8").strip()
+          if not raw:
+              raise SystemExit("congress.json is empty")
+
+          c = json.loads(raw)
+          items = c.get("items") or []
+
+          if not items:
+              raise SystemExit(
+                  "Congress fetch produced zero items. "
+                  "Do not commit an empty congress.json."
+              )
+
+          named = [
+              x for x in items
+              if str(x.get("member") or "").strip()
+          ]
+
+          if not named:
+              raise SystemExit(
+                  "Congress items exist but member names are missing."
+              )
+
+          print(
+              f"Congress OK: {len(items)} trades, "
+              f"{len(named)} with member names"
+          )
+
+          s = updater.read_text(encoding="utf-8")
+
+          if '_send_pushover(\\n            "今日美國重要數據"' in s:
+              raise SystemExit(
+                  "Macro morning reminder still uses Pushover"
+              )
+
+          if '_send_pushover(\\n            "美國數據公布"' in s:
+              raise SystemExit(
+                  "Macro result still uses Pushover"
+              )
+
+          if "def _send_telegram(" not in s:
+              raise SystemExit(
+                  "Telegram sender missing"
+              )
+
+          if macro.exists():
+              json.loads(
+                  macro.read_text(encoding="utf-8")
+              )
+
+          print("Macro Telegram-only check OK")
+          PY
 
       - name: Commit generated data and integrated fixes safely
         run: |
@@ -677,6 +884,6 @@ jobs:
           fi
 
           if ! git diff --cached --quiet; then
-            git commit -m "Install integrated macro and Congress fixes"
+            git commit -m "Fix Congress data and Telegram-only macro alerts"
             git push origin main
           fi
