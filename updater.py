@@ -5584,6 +5584,177 @@ def _macro_push_state():
 def _save_macro_push_state(state):
     PUSH_STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
+
+def _send_telegram(title, message, url=None):
+    token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    chat_id = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+
+    if not token or not chat_id:
+        return False, "missing_telegram_secrets"
+
+    text = f"{title}\n{message}".strip()
+    if url:
+        text += f"\n{url}"
+
+    try:
+        payload = json.dumps({
+            "chat_id": chat_id,
+            "text": text[:3900],
+            "disable_web_page_preview": True,
+        }, ensure_ascii=False).encode("utf-8")
+
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "us-stock-watch/1.0",
+            },
+            method="POST",
+        )
+
+        with urllib.request.urlopen(req, timeout=12) as r:
+            ok = 200 <= getattr(r, "status", 200) < 300
+
+        return ok, "ok" if ok else "http_error"
+
+    except Exception as e:
+        return False, type(e).__name__
+
+
+def _ff_clean_html_text(value):
+    text = re.sub(r"<[^>]+>", " ", str(value or ""))
+    text = re.sub(r"\s+", " ", text)
+    return html_lib.unescape(text).strip()
+
+
+def _ff_web_calendar_today():
+    try:
+        req = urllib.request.Request(
+            "https://www.forexfactory.com/calendar?day=today",
+            headers={
+                "User-Agent": "Mozilla/5.0",
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "en-US,en;q=0.9",
+                "Referer": "https://www.forexfactory.com/calendar",
+            },
+        )
+
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html_text = r.read().decode("utf-8", "ignore")
+
+    except Exception:
+        return {}
+
+    rows = re.findall(
+        r'(<tr[^>]*class="[^"]*calendar__row[^"]*"[^>]*>.*?</tr>)',
+        html_text,
+        flags=re.I | re.S,
+    )
+
+    out = {}
+
+    for row in rows:
+        m = re.search(
+            r'class="[^"]*calendar__event[^"]*"[^>]*>(.*?)</td>',
+            row,
+            flags=re.I | re.S,
+        )
+
+        if not m:
+            continue
+
+        title = _ff_clean_html_text(m.group(1))
+        if not title:
+            continue
+
+        def cell(cls):
+            mm = re.search(
+                rf'class="[^"]*{re.escape(cls)}[^"]*"[^>]*>(.*?)</td>',
+                row,
+                flags=re.I | re.S,
+            )
+            return _ff_clean_html_text(mm.group(1)) if mm else ""
+
+        out[title.lower()] = {
+            "actual": cell("calendar__actual"),
+            "forecast": cell("calendar__forecast"),
+            "previous": cell("calendar__previous"),
+        }
+
+    return out
+
+
+def _ff_apply_web_fallback(raw_rows, now_utc):
+    need = False
+
+    for row in raw_rows:
+        if str(
+            row.get("country")
+            or row.get("currency")
+            or ""
+        ).upper() != "USD":
+            continue
+
+        impact = str(row.get("impact") or "").strip().title()
+        if impact not in ("High", "Medium"):
+            continue
+
+        dt = _ff_dt(row)
+
+        if (
+            dt
+            and dt <= now_utc + timedelta(minutes=1)
+            and not str(row.get("actual") or "").strip()
+        ):
+            need = True
+            break
+
+    if not need:
+        return raw_rows
+
+    web = _ff_web_calendar_today()
+    if not web:
+        return raw_rows
+
+    for row in raw_rows:
+        title = str(row.get("title") or "").strip()
+        if not title:
+            continue
+
+        w = web.get(title.lower())
+
+        if not w:
+            wanted = re.sub(
+                r"[^a-z0-9]+",
+                " ",
+                title.lower()
+            ).strip()
+
+            for k, v in web.items():
+                if re.sub(
+                    r"[^a-z0-9]+",
+                    " ",
+                    k
+                ).strip() == wanted:
+                    w = v
+                    break
+
+        if not w:
+            continue
+
+        if w.get("actual"):
+            row["actual"] = w["actual"]
+
+        if w.get("forecast"):
+            row["forecast"] = w["forecast"]
+
+        if w.get("previous"):
+            row["previous"] = w["previous"]
+
+    return raw_rows
+
+
 def refresh_macro_data():
     """
     U.S. macro data policy:
@@ -5633,6 +5804,7 @@ def refresh_macro_data():
 
     raw = _ff_fetch(FF_THIS_WEEK_JSON)
     raw += _ff_fetch(FF_NEXT_WEEK_JSON)
+    raw = _ff_apply_web_fallback(raw, now_utc)
 
     for row in raw:
         if str(row.get("country") or row.get("currency") or "").upper() != "USD":
@@ -5720,7 +5892,7 @@ def refresh_macro_data():
         lines = []
         for x in sorted(today_events, key=lambda z: z.get("eventTimeUtc","")):
             lines.append(f'{x["timeTw"]}｜{x["impactZh"]}｜{x["title"]}')
-        ok, _ = _send_pushover(
+        ok, _ = _send_telegram(
             "今日美國重要數據",
             "\n".join(lines[:12]),
             url="https://morris199786.github.io/us-stock-watch/?page=macro"
@@ -5741,7 +5913,7 @@ def refresh_macro_data():
         )
         if x.get("previous"):
             msg += f'｜前值 {x["previous"]}'
-        ok, _ = _send_pushover(
+        ok, _ = _send_telegram(
             "美國數據公布",
             msg,
             url="https://morris199786.github.io/us-stock-watch/?page=macro"
@@ -6190,6 +6362,12 @@ def refresh_congress_data():
     except Exception:
         filers = previous.get("filers", []) if isinstance(previous, dict) else []
 
+    filer_by_id = {
+        str(f.get("id") or "").strip(): f
+        for f in filers
+        if isinstance(f, dict) and str(f.get("id") or "").strip()
+    }
+
     items = []
     seen = set()
 
@@ -6197,8 +6375,16 @@ def refresh_congress_data():
         if not isinstance(row, dict):
             continue
 
-        # Congress only; exclude executive-branch disclosure rows.
-        if (row.get("branch") or "").lower() not in ("", "congress"):
+        filer_id = str(row.get("filer_id") or "").strip()
+        filer_meta = filer_by_id.get(filer_id, {})
+
+        row_branch = str(
+            row.get("branch")
+            or filer_meta.get("branch")
+            or "congress"
+        ).strip().lower()
+
+        if row_branch not in ("", "congress"):
             continue
 
         traded = _parse_date(row.get("transaction_date"))
@@ -6206,14 +6392,37 @@ def refresh_congress_data():
         if not traded or traded < CONGRESS_START_DATE:
             continue
 
-        member = (row.get("filer_name") or row.get("member") or "").strip()
+        member = str(
+            row.get("filer_name")
+            or row.get("member")
+            or filer_meta.get("name")
+            or filer_meta.get("full_name")
+            or ""
+        ).strip()
+
         ticker = (row.get("ticker") or "").strip().upper()
+
         if not member:
             continue
 
-        action, action_zh = _trade_action(row.get("transaction_type") or row.get("action"))
-        chamber = (row.get("chamber") or "").strip().lower()
-        chamber_zh = "參議院" if chamber == "senate" else "眾議院" if chamber == "house" else chamber
+        action, action_zh = _trade_action(
+            row.get("transaction_type")
+            or row.get("action")
+        )
+
+        chamber = str(
+            row.get("chamber")
+            or filer_meta.get("chamber")
+            or ""
+        ).strip().lower()
+
+        chamber_zh = (
+            "參議院"
+            if chamber == "senate"
+            else "眾議院"
+            if chamber == "house"
+            else chamber
+        )
 
         amount_label = (row.get("amount_range_label") or row.get("amount_range") or "").strip()
         owner = _owner_label(row.get("owner"))
@@ -6240,11 +6449,11 @@ def refresh_congress_data():
 
         items.append({
             "member": member,
-            "memberId": (row.get("filer_id") or "").strip(),
+            "memberId": filer_id,
             "chamber": chamber,
             "chamberZh": chamber_zh,
-            "party": row.get("party"),
-            "state": row.get("state"),
+            "party": row.get("party") or filer_meta.get("party"),
+            "state": row.get("state") or filer_meta.get("state"),
             "ticker": ticker,
             "asset": (row.get("asset_name") or row.get("asset") or "").strip(),
             "assetType": row.get("asset_type"),

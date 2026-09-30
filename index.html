@@ -187,6 +187,7 @@
     <input id="tickerSearch" type="search" placeholder="搜尋 Ticker，例如 NVDA">
     <select id="actionFilter"><option value="">全部交易</option><option value="buy">只看買進</option><option value="sell">只看賣出</option></select>
     <select id="chamberFilter"><option value="">House + Senate</option><option value="house">眾議院</option><option value="senate">參議院</option></select>
+    <select id="assetFilter"><option value="listed" selected>上市股票／ETF</option><option value="other">其他資產</option><option value="">全部資產</option></select>
     <button id="clearCongress" class="clearbtn full">清除</button>
   </div>
   <div id="memberBacktest" class="backtestBox"></div>
@@ -627,11 +628,43 @@ function renderCongressPerformance(){
  }));
 }
 
+function congressAssetName(x){
+ const ticker=String(x.ticker||"").trim().toUpperCase();
+ if(ticker)return ticker;
+
+ let asset=String(x.asset||"").replace(/\s+/g," ").trim();
+ if(!asset)return "其他資產";
+
+ const company=asset.match(/Company:\s*(.+?)(?:\s*\([^)]*\)|\s*Description:|$)/i);
+ if(company&&company[1])return company[1].trim();
+
+ asset=asset.replace(/\s*Description:.*$/i,"").trim();
+ return asset||"其他資產";
+}
+
+function congressAssetSubLabel(x){
+ const ticker=String(x.ticker||"").trim().toUpperCase();
+
+ if(ticker){
+   return String(x.asset||"").replace(/\s+/g," ").trim();
+ }
+
+ const asset=String(x.asset||"").replace(/\s+/g," ").trim();
+ const desc=asset.match(/Description:\s*(.+)$/i);
+
+ if(desc&&desc[1]){
+   return desc[1].trim();
+ }
+
+ return String(x.assetType||"").trim()||"非上市資產";
+}
+
 function renderCongress(){
  const member=(document.getElementById("memberSearch")?.value||"").trim().toLowerCase();
  const ticker=(document.getElementById("tickerSearch")?.value||"").trim().toUpperCase();
  const action=document.getElementById("actionFilter")?.value||"";
  const chamber=document.getElementById("chamberFilter")?.value||"";
+ const assetMode=document.getElementById("assetFilter")?.value??"listed";
 
  let base=__congressItems;
  const filer=findCongressFiler(member);
@@ -646,6 +679,9 @@ function renderCongress(){
    if(ticker && (x.ticker||"").toUpperCase()!==ticker)return false;
    if(action && (x.action||"")!==action)return false;
    if(chamber && (x.chamber||"")!==chamber)return false;
+   const hasTicker=!!String(x.ticker||"").trim();
+   if(assetMode==="listed" && !hasTicker)return false;
+   if(assetMode==="other" && hasTicker)return false;
    return true;
  });
  rows.sort((a,b)=>String(b.filedDate||"").localeCompare(String(a.filedDate||"")));
@@ -662,10 +698,11 @@ function renderCongress(){
  table.innerHTML=`<div class="crow headrow"><div>Ticker</div><div>議員</div><div>方向</div><div>金額區間</div><div>交易日期</div><div>申報日期</div><div>延遲</div></div>`+
  show.map(x=>{
    const actClass=x.action==="buy"?"cbuy":x.action==="sell"?"csell":"";
-   const tickerLabel=x.ticker||"N/A";
+   const tickerLabel=congressAssetName(x);
+   const assetSub=congressAssetSubLabel(x);
    const ckey=congressDeepKey(x);
    return `<div class="crow" data-congress-key="${escapeHtml(ckey)}">
-     <div><div class="ticker">${tickerLabel}</div><div class="csmall">${x.asset||""}</div></div>
+     <div><div class="ticker">${escapeHtml(tickerLabel)}</div><div class="csmall">${escapeHtml(assetSub)}</div></div>
      <div><div class="cmember">${x.member}</div><div class="csmall">${x.chamberZh||x.chamber||""}｜${x.owner||""}</div></div>
      <div class="${actClass}">${x.actionZh||x.action||""}</div>
      <div>${x.amountRange||"--"}</div>
@@ -1040,10 +1077,10 @@ document.querySelectorAll("[data-perf]").forEach(b=>b.addEventListener("click",(
 }));
 
 ["memberSearch","tickerSearch"].forEach(id=>document.getElementById(id)?.addEventListener("input",()=>{__congressLimit=50;renderCongress();}));
-["actionFilter","chamberFilter"].forEach(id=>document.getElementById(id)?.addEventListener("change",()=>{__congressLimit=50;renderCongress();}));
+["actionFilter","chamberFilter","assetFilter"].forEach(id=>document.getElementById(id)?.addEventListener("change",()=>{__congressLimit=50;renderCongress();}));
 document.getElementById("clearCongress")?.addEventListener("click",()=>{const u=new URL(location.href);if(u.searchParams.has("congress")){u.searchParams.delete("congress");history.replaceState(null,"",u.pathname+(u.search?u.search:"")+(u.hash||""));}
  ["memberSearch","tickerSearch"].forEach(id=>{const el=document.getElementById(id);if(el)el.value="";});
- const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter");if(a)a.value="";if(c)c.value="";
+ const a=document.getElementById("actionFilter"),c=document.getElementById("chamberFilter"),af=document.getElementById("assetFilter");if(a)a.value="";if(c)c.value="";if(af)af.value="listed";
  __congressLimit=50;renderCongress();
 });
 document.getElementById("moreCongress")?.addEventListener("click",()=>{__congressLimit+=50;renderCongress();});
