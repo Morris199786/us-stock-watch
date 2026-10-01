@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-01 14:34 台灣時間",
+  "updatedAt": "2026-10-01 14:39 台灣時間",
   "historyUpdatedDate": "2026-10-01",
   "historyLastAttemptAt": "2026-09-30T16:02:22.100808+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-01",
-  "top10Count": 8,
+  "top10Count": 9,
   "items": [
     {
       "ticker": "MARKET",
@@ -101,7 +101,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -297,6 +297,38 @@
       },
       "top10": true,
       "top10Rank": 3
+    },
+    {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Cerebras Systems(CBRS.US) 高階主管出售 8,080 萬美元普通股",
+      "summary": "",
+      "originalTitle": "Cerebras Systems(CBRS.US) Officer Sells US$80.8 Million in Common Stock",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaC1WdUNtbkE4TTdfYmYzVW00WXkzdVAxRUdWN3c4R1VJcV9kZk53ajJ5QndZZ3A4cDNvSWlYNVpNZmIxcUloRENtRWszVDNIdHFIQXV5T0doRHRjV3pBeWJpQUluN012cU10SDdwQlJhWFRONmFJVDRhTWpxaGpWNkxWZXZnYzNjbENQWnZyOHhzZHQ5cXZBblRuczNjYXFyelE?oc=5",
+      "ts": "2026-10-01T04:35:30+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -8.874070274429336,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "score": 9.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -504,28 +536,35 @@
       "title": "據報道，Meta 稱其人工智慧資料中心為「試點模型」——其研究稅收抵免從 $700M 躍升至 $3.9B",
       "summary": "在所有上市公司中，該公司似乎從這筆信貸中獲得了最多的收益。",
       "originalTitle": "Meta reportedly calls its AI data centers ‘pilot models’ — its research tax credits jumped from $700M to $3.9B",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-reportedly-calls-ai-data-035500665.html",
+      "originalSummary": "Meta has classified its AI data centers as experimental facilities to claim billions of dollars in federal research tax credits, a strategy the company's own accountants have flagged as legally risky, according to The New York Times. Starting in late 2024, the company drew a tax distinction between chips destined for AI data centers and those going to ordinary data centers, the Times reported, citing people familiar with Meta's operations. By treating the facilities as \"pilot models\" under a tax credit created in the 1980s, Meta has been claiming that expensive Nvidia chips qualify for a research and experimentation tax break intended to spur innovation — not standard business operations.",
+      "url": "https://finance.yahoo.com/economy/policy/articles/meta-cut-tax-bill-billions-115106328.html",
       "ts": "2026-10-01T03:55:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -1.8422014374856244,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
-        "META"
+        "META",
+        "NVDA"
       ],
-      "eventType": "新題材",
-      "score": 19.5,
+      "eventType": "跨公司事件",
+      "score": 28.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "在所有上市公司中，該公司似乎從這筆信貸中獲得了最多的收益。",
+        "numbers": [
+          "$700M",
+          "$3.9B"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "在所有上市公司中，該公司似乎從這筆信貸中獲得了最多的收益。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -894,7 +933,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "NASA 局長賈里德·艾薩克曼 (Jared Isaacman) 讚揚 Elon Musk 的 SpaceX 星艦軌道發射——表示 NASA“很高興能夠提供幫助”",
-      "summary": "NASA 局长兼前 Shift4 Payments Inc. 首席执行官贾里德·艾萨克曼 (Jared Isaacman) 对埃隆·马斯克 (Elon Musk) 领导的太空探索技术公司 (Space Exploration Technologies Corp.) 周一成功进行星舰轨道发射表示欢迎。賈里德·艾薩克曼 (Jared Isaacman) 引用 SpaceX 在社交媒體平台上發布的帖子，稱星艦發射“鼓舞人心”…",
+      "summary": "",
       "originalTitle": "NASA Administrator Jared Isaacman Hails Elon Musk’s SpaceX Starship Orbital Launch—Says NASA Is ‘Excited to Help’",
       "originalSummary": "NASA Administrator and former Shift4 Payments Inc. CEO Jared Isaacman has hailed Elon Musk-led Space Exploration Technologies Corp.‘s successful Starship orbital launch on Monday. Jared Isaacman Calls Starship Launch ‘Inspirational’ Quoting a post by SpaceX on the social media platform...",
       "url": "https://tech.yahoo.com/science/articles/nasa-administrator-jared-isaacman-hails-013007463.html",
@@ -907,13 +946,13 @@
       ],
       "eventType": "",
       "score": 6.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "NASA 局长兼前 Shift4 Payments Inc. 首席执行官贾里德·艾萨克曼 (Jared Isaacman) 对埃隆·马斯克 (Elon Musk) 领导的太空探索技术公司 (Space Exploration Technologies Corp.) 周一成功进行星舰轨道发射表示欢迎。賈里德·艾薩克曼 (Jared Isaacman) 引用 SpaceX 在社交媒體平台上發布的帖子，稱星艦發射“鼓舞人心”…",
+        "event": "NASA 局長兼前 Shift4 Payments Inc. 執行長 Jared Isaacman 週一對 Elon Musk 領導的太空探索技術公司 (Space Exploration Technologies Corp.) 週一成功進行星艦軌道發射表示歡迎。賈里德·艾薩克曼 (Jared Isaacman) 引用 SpaceX 在社交媒體平台上發布的帖子稱星艦發射“鼓舞人心”…",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "NASA 局长兼前 Shift4 Payments Inc. 首席执行官贾里德·艾萨克曼 (Jared Isaacman) 对埃隆·马斯克 (Elon Musk) 领导的太空探索技术公司 (Space Exploration Technologies Corp.) 周一成功进行星舰轨道发射表示欢迎。賈里德·艾薩克曼 (Jared Isaacman) 引用 SpaceX 在社交媒體平台上發布的帖子，稱星艦發射“鼓舞人心”…",
+        "stance": "執行長 Jared Isaacman 週一對 Elon Musk 領導的太空探索技術公司 (Space Exploration Technologies Corp.) 週一成功進行星艦軌道發射表示歡迎。賈里德·艾薩克曼 (Jared Isaacman) 引用 SpaceX 在社交媒體平台上發布的帖子稱星艦發射“鼓舞人心”…",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2703,43 +2742,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Marvell 的故事發生了什麼變化？",
-      "summary": "",
-      "originalTitle": "What Changed In Marvell's Story?",
-      "originalSummary": "Marvell Technology (MRVL) stock returned 201% in the past year, against 17.7% for the S&P 500. Investors value it as an AI data center chip company at 85.6 times earnings, versus 22.1 for the S&P 500. Investors paying that multiple are counting on data center growth staying fast. Management used to tell a second growth story too, and it no longer leads with that story. So what did Marvell's management stop leading with.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/changed-marvells-story-205226599.html",
-      "ts": "2026-09-30T20:52:26+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.3570478975956304,
-      "relatedTickers": [
-        "MRVL"
-      ],
-      "eventType": "",
-      "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Marvell Technology (MRVL) 股票去年回報率為 201%，而標準普爾 500 指數的回報率為 17.7%。投資者將其視為一家人工智慧資料中心晶片公司，其本益比為 85.6 倍，而標準普爾 500 指數的本益比為 22.1 倍。投資者支付這一倍數是指望資料中心保持快速成長。管理階層過去也講過第二個成長故事，但現在不再以這個故事為主。",
-        "numbers": [
-          "201%",
-          "17.7%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Marvell Technology (MRVL) 股票去年回報率為 201%，而標準普爾 500 指數的回報率為 17.7%。投資者將其視為一家人工智慧資料中心晶片公司，其本益比為 85.6 倍，而標準普爾 500 指數的本益比為 22.1 倍。投資者支付這一倍數是指望資料中心保持快速成長。管理階層過去也講過第二個成長故事，但現在不再以這個故事為主。那麼 Marvell 管理階層停止領導的原因是什麼？",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
