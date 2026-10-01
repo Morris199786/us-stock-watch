@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-10-01 12:08 台灣時間",
+  "updatedAt": "2026-10-01 12:14 台灣時間",
   "historyUpdatedDate": "2026-10-01",
   "historyLastAttemptAt": "2026-09-30T16:02:22.100808+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-01",
-  "top10Count": 0,
+  "top10Count": 1,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "DeepSeek、華為挑戰英偉達人工智慧主導地位的軟體",
+      "summary": "",
+      "originalTitle": "DeepSeek, Huawei Challenge the Software Powering Nvidia’s AI Dominance",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTEVaWmlRLTNrbHpBR2M1Y000aVFBcS1UUDZwSUdQQWh0TDlzZzBpUmJ6UEgzcG1qemEwTDBQWVprcGVGMlltVXhBbEQ5VEtzVUw4ZHVTRG55cXU5bVZYWnB6UXFnak9JVEpXYlJZUUY5eWVGVnNiVC14V0dXcklhWC1Pa0ZXTDlVTnRibTA5UGxXal9La3pBc0RkelB5d244enZ3S3JTOXhDREV4clRPTVkzRHZ6S0JfdjZIcTByVDB1dGZUT3plMV9iOGNYMXdzZUZkUnJIbHpfTjQ?oc=5",
+      "ts": "2026-10-01T04:06:16+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
     {
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
@@ -288,7 +320,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1194,7 +1226,7 @@
         "CBRS"
       ],
       "eventType": "",
-      "score": 9.0,
+      "score": 7.8,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1227,7 +1259,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1257,7 +1289,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1470,8 +1502,8 @@
       "title": "Google推出新人工智慧模式 Gemini 4 Argon，推高 Alphabet 股價",
       "summary": "",
       "originalTitle": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
-      "originalSummary": "Google DeepMind chose the last day of September to do something that makes the competitive landscape of frontier AI look almost mathematical. On September 30, SVP Koray Kavukcuoglu announced Gemini 4 Argon at introductory pricing of $2 per million input tokens and $10 per million output tokens, with cached input at 95% off. Twenty-four hours earlier, OpenAI had launched GPT-6.1 Sol at exactly the same rates.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-gemini-4-argon-closes-235954585.html",
+      "originalSummary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google’s benchmarks, to vetted cybersecurity defenders. Outside Google’s own teams, only members of its Fairwind Program can use Argon for now. The program opened Sept. 3 with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organizations, including CrowdStrike Holdings Inc. and Palo Alto Networks Inc. Koray Kavukcuoglu, chief AI architect at Google, wrote in the announcement that releasing capabilities at this level “requires a phased approach.” Google is taking part in the U.S. government’s voluntary process for pre-release model access and says it is still hardening safeguards against misuse for cyberattacks or weapons development. By Google’s account, Argon holds up against indirect prompt injection better than any model it has shipped. Separate monitors watch the model’s chain of thought and actions, and they can stop it if it goes beyond what a user intended. On DeepSWE v1.1, Argon scored 77.9% in long-horizon software engineering tasks. Anthropic’s Claude Opus 5.5, which came out last week , managed 74.2% on Google’s chart, a 10th of a point ahead of OpenAI’s GPT-6 Astra. AutomationBench, which measures end-to-end business work, showed a wider gap of 51.3% to 42.5% over Opus 5.5. Of the 18 benchmarks in Google’s charts, VentureBeat counted 12 that Argon led outright. Terminal-Bench 4.0 still belongs to Opus 5.5, and FrontierSWE v2 is one of the few Astra kept. Google built Argon for the kind of long-horizon work DeepSWE measures, and it set the model’s output limit at 1 million tokens to match. Earlier Gemini models topped out at 64,000. Thousands of Google employees are already using Argon, and teams at the company have put its agents to work on large engineering jobs. One is moving C and C++ code to Rust, in projects that range from core libraries of tens of thousands of lines to the more than 800,000-line Zircon kernel in Google’s Fuchsia operating system. On libgav1, Google’s open-source video decoder, the agents started from an existing Rust port and rewrote 32,000 lines of its speed-critical code as safe Rust the compiler could optimize on its own. The decoder now runs 2.7 times faster than that earlier port, with no change to its video output. Google engineers are also using Argon agents to hunt for wasted memory, and a sweep of fleetwide profiling data has so far freed more than 300 tebibytes across the company’s data centers. Fairwind members and Google’s internal teams get a version of Argon with the cyber guardrails removed. The model can find and fix software vulnerabilities on its own, and on CWE-bench v1, a remediation test, it tied GPT-6 Astra at 68%. Wiz Inc., the Google-owned cloud security company, has used Argon in its free Scan for Good program, which looks for exposures in essential public infrastructure. Google said the model found a critical flaw exposing personal information in health care software used by hospitals worldwide. Earlier frontier models had not caught it.",
+      "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
       "ts": "2026-09-30T21:35:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -1479,25 +1511,28 @@
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "CRWD"
       ],
-      "eventType": "新題材",
-      "score": 22.1,
+      "eventType": "跨公司事件",
+      "score": 29.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "谷歌 DeepMind 选择了 9 月的最后一天来做一些事情，让前沿人工智能的竞争格局看起来几乎是数学化的。 9 月 30 日，高級副總裁 Koray Kavukcuoglu 宣布 Gemini 4 Argon 的首發定價為每百萬輸入代幣 2 美元，每百萬輸出代幣 10 美元，緩存輸入可享受 95% 的折扣。二十四小时前，OpenAI 以完全相同的速率推出了 GPT-6.1 Sol。",
+        "event": "在 DeepSWE v1.1 上，Argon 在長期軟體工程任務中得分為 77.9%。上週發布的 Anthropic 的 Claude Opus 5.5 在 Google 排行榜上的得分為 74.2%，比 OpenAI 的 GPT-6 Astra 領先十分之一。衡量端到端業務工作的 AutomationBench 顯示比 Opus 5.5 存在 51.3% 至 42.5% 的更大差距。該模型可以自行發現並修復軟體漏洞，在 CWE-bench v1（一項修復測試）上，它與 GPT-6 Astra 持平，均為 68%。",
         "numbers": [
-          "$2",
-          "$10",
-          "95%"
+          "77.9%",
+          "74.2%",
+          "51.3%",
+          "42.5%"
         ],
-        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "Google DeepMind 選擇了 9 月的最後一天來做一些事情，讓前沿人工智慧的競爭格局看起來幾乎是數學化的。 9 月 30 日，高級副總裁 Koray Kavukcuoglu 宣布 Gemini 4 Argon 的首發定價為每百萬輸入代幣 2 美元，每百萬輸出代幣 10 美元，緩存輸入可享受 95% 的折扣。二十四小時前，OpenAI 以完全相同的速率推出了 GPT-6.1 Sol。",
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Google LLC 今天開始向經過審查的網路安全維護者推出 Gemini 4 Argon，這是一種前沿人工智慧模型，在 Google 的大部分基準測試中擊敗了 Anthropic PBC 和 OpenAI Group PBC 的競爭對手模型。在 Google 自己的團隊之外，目前只有 Fairwind 方案的成員可以使用 Argon。該計畫於 9 月 3 日啟動，推出的是較小的 Gemini 3.8 Flash Cyber​​ 模型，此後已與包括 CrowdStrike Holdings Inc. 和 Palo Alto Networks Inc.",
         "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -2723,36 +2758,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "10 年期公債殖利率升至 24 年來新高",
-      "summary": "",
-      "originalTitle": "10-Year Treasury Yield Rises to New 24-Year High",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZWRvWVlTczRMcnM3cm9DOVFaLUNGRXhWR1RxcEtDZWMzNXkzOVh6OUJCVXpBOG9aNzlscm1kb1pHd25YQ3UyMUhsRXJvdWZHN3RHVVpsdmxMU2dTaG1CUk9vaEpUWkU5eTBPOF92MmdUb0pGeXdzUmVRbm5ic0xYZFlhb1JmamQxZi1OR3Y1VEw5U1hJZUFtZjZTbw?oc=5",
-      "ts": "2026-09-30T20:24:44+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 14.95,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
