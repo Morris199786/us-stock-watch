@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-02 02:59 台灣時間",
+  "updatedAt": "2026-10-02 03:05 台灣時間",
   "historyUpdatedDate": "2026-10-02",
   "historyLastAttemptAt": "2026-10-01T16:02:12.166812+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-01",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "為什麼債券殖利率上升以及為什麼每個人都應該關心",
+      "summary": "",
+      "originalTitle": "Why bond yields are rising and why everyone should care",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOanlpbG01dWVOMjZ1ZVM0RXlxUzNodldSNjl4UXdoVUNyd2ttczlvbk1Fb0tvaGZEX2dSakl6c0Y2Q1p4UmpmZkZIOGJncmtqNzNJVzladVU5ZThqbFhQcUdDRVpQUWpuUUpUaVZHczV3dlFsdXhYMVR5MHVfWVJfeUVURHFtMlljQ0lUZVJYSnVOWnRS?oc=5",
+      "ts": "2026-10-01T19:00:50+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "GOOGL",
       "group": "CSP",
@@ -38,8 +68,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -112,32 +142,37 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌全球首次將人工智慧送入太空",
-      "summary": "",
+      "summary": "Highly anticipated: Google plans to launch an experimental satellite carrying AI chips next month, taking its first step toward testing whether AI computing can operate reliably in orbit. The satellite, called MVP, is scheduled to launch aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base in California. It will be the first orbital test of Project Suncatcher, Google's effort to explore whether networks of solar-powered satellites could function as space-based data centers for AI workloads. MVP is not a",
       "originalTitle": "Google launches AI into space in world first",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDS3I5UF9mNlY0dEt3Q21rSjBsMHhTbnhuNHNwQlNIMTJHQkkyaV9TMG9PcFZ4Q0xNcEtaRXB6SGgyUGc4aVJzempkQWhZOTg2THpxT1dyZXZfSlhfbGhINk16YnlQeWxaenVucFdLOTlJV01IRFdXckJfMA?oc=5",
+      "originalSummary": "Highly anticipated: Google plans to launch an experimental satellite carrying AI chips next month, taking its first step toward testing whether AI computing can operate reliably in orbit. The satellite, called MVP, is scheduled to launch aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base in California. It will be the first orbital test of Project Suncatcher, Google's effort to explore whether networks of solar-powered satellites could function as space-based data centers for AI workloads. MVP is not a data center. It is a small test platform carrying four of Google's tensor processing units, or TPUs. The chips provide roughly the computing capacity of a single data-center server. Solar panels will produce about one kilowatt of electricity, enough to operate the processors and handle short AI requests.",
+      "url": "https://www.techspot.com/news/113989-google-launching-ai-chips-space-see-if-they.html",
       "ts": "2026-10-01T18:33:47+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "SPCX"
       ],
-      "eventType": "新題材",
-      "score": 31.5,
+      "eventType": "跨公司事件",
+      "score": 40.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Highly anticipated: Google plans to launch an experimental satellite carrying AI chips next month, taking its first step toward testing whether AI computing can operate reliably in orbit. The satellite, called MVP, is scheduled to launch aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base in California. It will be the first orbital test of Project Suncatcher, Google's effort to explore whether networks of solar-powered satellites could function as space-based data centers for AI workloads. MVP is not a",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "Highly anticipated: Google plans to launch an experimental satellite carrying AI chips next month, taking its first step toward testing whether AI computing can operate reliably in orbit. The satellite, called MVP, is scheduled to launch aboard a SpaceX Falcon 9 rocket from Vandenberg Space Force Base in California.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null,
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "VSH",
@@ -476,7 +511,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -747,7 +782,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "人工智慧記憶體和儲存生產商美光科技 (NASDAQ:MU) 公佈了一個重磅季度業績，但截至美國東部時間 10 月 1 日中午 12 點，其股價為 1,049.77 美元，下跌約 1.44%。第四財季營收達 542.3 億美元，年增約 379%。估值圖顯示，該股比 661.58 美元的 GF 估值高出 58.68%，這是一個巨大的溢價，幾乎沒有讓人失望的空間。 MU 的估值合理嗎？",
+        "event": "人工智慧記憶體和儲存生產商美光科技 (NASDAQ:MU) 公佈了一個重磅季度業績，但截至美國東部時間 10 月 1 日中午 12 點，股價為 1,049.77 美元，下跌約 1.44%。第四財季營收達 542.3 億美元，年增約 379%。估值圖顯示，該股比 661.58 美元的 GF 估值高出 58.68%，這是一個巨大的溢價，幾乎沒有讓人失望的空間。 MU 的估值合理嗎？",
         "numbers": [
           "$61.5 Billion",
           "$1,049.77,",
@@ -755,7 +790,7 @@
           "$661.58"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "人工智慧記憶體和儲存生產商美光科技 (NASDAQ:MU) 公佈了一個重磅季度業績，但截至美國東部時間 10 月 1 日中午 12 點，其股價為 1,049.77 美元，下跌約 1.44%。第四財季營收達 542.3 億美元，年增約 379%。估值圖顯示，該股比 661.58 美元的 GF 估值高出 58.68%，這是一個巨大的溢價，幾乎沒有讓人失望的空間。警告！ GuruFocus 已偵測到 MU 的 5 個警訊。",
+        "stance": "人工智慧記憶體和儲存生產商美光科技 (NASDAQ:MU) 公佈了一個重磅季度業績，但截至美國東部時間 10 月 1 日中午 12 點，股價為 1,049.77 美元，下跌約 1.44%。第四財季營收達 542.3 億美元，年增約 379%。估值圖顯示，該股比 661.58 美元的 GF 估值高出 58.68%，這是一個巨大的溢價，幾乎沒有讓人失望的空間。警告！ GuruFocus 已偵測到 MU 的 5 個警訊。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -896,7 +931,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "人工智慧加速器和運算平台領導者英偉達 (NASDAQ:NVDA) 面臨對其 5000 億美元基礎設施融資計劃的更嚴峻質疑，美國東部時間週四上午 12 點 10 分左右，在推遲的盤前交易中，該公司股價上漲 0.72%，至 228.38 美元。僅靠強勁的需求並不能解決這個問題。 NVDA 的估值是否合理？",
+        "event": "人工智慧加速器和計算平台領導者英偉達 (NASDAQ:NVDA) 面臨對其 5000 億美元基礎設施融資計劃的更嚴峻質疑，美國東部時間週四上午 12 點 10 分左右，在推遲的盤前交易中，該公司股價上漲 0.72%，至 228.38 美元。僅靠強勁的需求並不能解決這個問題。 NVDA 的估值是否合理？",
         "numbers": [
           "$500 Billion",
           "$500 billion",
@@ -904,7 +939,7 @@
           "0.72%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "人工智慧加速器和運算平台領導者英偉達 (NASDAQ:NVDA) 面臨對其 5000 億美元基礎設施融資計劃的更嚴峻質疑，美國東部時間週四上午 12 點 10 分左右，在推遲的盤前交易中，該公司股價上漲 0.72%，至 228.38 美元。癥結很簡單：當貸款人需要收回資金時，當今昂貴的晶片能值多少錢？僅靠強勁的需求並不能解決這個問題。警告！",
+        "stance": "人工智慧加速器和計算平台領導者英偉達 (NASDAQ:NVDA) 面臨對其 5000 億美元基礎設施融資計劃的更嚴峻質疑，美國東部時間週四上午 12 點 10 分左右，在推遲的盤前交易中，該公司股價上漲 0.72%，至 228.38 美元。癥結很簡單：當貸款人需要收回資金時，當今昂貴的晶片能值多少錢？僅靠強勁的需求並不能解決這個問題。警告！",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1027,7 +1062,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "AMD",
@@ -1587,7 +1622,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "SNDK",
@@ -2018,59 +2053,71 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "Goldman Sachs 上修 MU 目標價至 $1,250（原 $1,100）",
-      "summary": "Micron just posted a record quarter, analysts are raising price targets, and the stock still fell. The reason why reveals a deeper tension about where memory markets are actually headed.",
+      "summary": "",
       "originalTitle": "Micron Stock Slips Despite Record Q4, Analyst Price Hikes. Here’s Why MU Stock Is Still a Buy",
-      "originalSummary": "Micron just posted a record quarter, analysts are raising price targets, and the stock still fell. The reason why reveals a deeper tension about where memory markets are actually headed.",
+      "originalSummary": "Micron (MU) stock dropped 1.7% despite its sixth straight record quarter, with Q4 revenue up 379% YoY and shares trading at just 7x forward earnings. Goldman Sachs (GS) raised its MU target to $1,250 while Rosenblatt went to $1,900, as over 75% of 2027 output is already committed. Micron plans to return 100% of excess cash to shareholders starting December 9, 2026, with a path to $2,000 if earnings hit $200 at 10x.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-slips-despite-record-163243218.html",
       "ts": "2026-10-01T16:32:43+00:00",
       "sourceType": "ticker_feed",
-      "analystPriority": true,
+      "analystPriority": false,
       "movePct": 2.0971542845339863,
-      "analystDetails": [],
+      "analystDetails": [
+        {
+          "broker": "Goldman Sachs",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$1,250",
+          "oldTarget": "",
+          "reason": "高盛 (GS) 將 MU 目標上調至 1,250 美元，羅森布拉特則上調至 1,900 美元",
+          "reasonConfidence": "medium"
+        }
+      ],
       "relatedTickers": [
         "MU"
       ],
       "eventType": "",
-      "score": 201.0,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Micron just posted a record quarter, analysts are raising price targets, and the stock still fell. The reason why reveals a deeper tension about where memory markets are actually headed.",
-        "numbers": [],
-        "why": "券商調整理由：Micron just posted a record quarter, analysts are raising price targets, and the stock still fell.",
-        "stance": "Micron just posted a record quarter, analysts are raising price targets, and the stock still fell.",
+        "event": "美光 (MU) 股價儘管連續第六個季度創歷史新高，但股價仍下跌 1.7%，第四季營收年增 379%，股價僅為預期本益比的 7 倍。高盛 (GS) 將 MU 目標上調至 1,250 美元，而羅森布拉特則上調至 1,900 美元，因為 2027 年產量的 75% 以上已經承諾。美光計畫從 2026 年 12 月 9 日起將 100% 的多餘現金返還給股東，如果獲利以 10 倍的速度達到 200 美元，則返還至 2,000 美元。",
+        "numbers": [
+          "$1,250",
+          "$1,900,",
+          "$2,000",
+          "$200"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "美光 (MU) 股價儘管連續第六個季度創歷史新高，但股價仍下跌 1.7%，第四季營收年增 379%，股價僅為預期本益比的 7 倍。高盛 (GS) 將 MU 目標上調至 1,250 美元，而羅森布拉特則上調至 1,900 美元，因為 2027 年產量的 75% 以上已經承諾。美光計畫從 2026 年 12 月 9 日起將 100% 的多餘現金返還給股東，如果獲利以 10 倍的速度達到 200 美元，則返還至 2,000 美元。",
         "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：Micron just posted a record quarter, analysts are raising price targets, and the stock still fell.",
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "yahoo_or_article_metadata"
     },
     {
       "ticker": "MARKET",
       "group": "市場重點",
-      "tag": "利多",
-      "title": "馬裡蘭州核電廠將在亞馬遜交易的支持下獲得 30 億美元的升級費用",
+      "tag": "題材",
+      "title": "儘管債券市場動盪，華爾街開盤走高",
       "summary": "",
-      "originalTitle": "Md. nuclear plant to get $3B in upgrades backed by Amazon deal",
+      "originalTitle": "Wall Street opens higher despite bond turmoil",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPblBjaVA1ZXdaRlpmNzYxZmFPMTI4SzdiX0FNQ1hPVDZBZC15QUFYT3c0RThjNjZPMUJiY2hXYWFGUnNjZ1FLaXVFSVJydE1xeGVfalVHNGR3eGhRZGFlcnRjNXBxVHhKMERYM1RzVm43SUtvX3M0dlVQajlCOWJNYkRVbUc2cnRndWcwekE2Q2l0QUlfbkxJNE4yWEdyMGlVQkg2RFltNlo4VEk?oc=5",
-      "ts": "2026-10-01T16:30:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lRVhjSVJCekhFbS1kQWpjQWU0NUFTYU96QVpTRjh3elhXSjJzUUVRM2lUckJsR2hEcmRHN2Y5WmhJZWNlV2w2bmpNR05ESXI4N3JkeUVxWlY?oc=5",
+      "ts": "2026-10-01T16:30:26+00:00",
       "sourceType": "market_search",
       "marketWide": true,
-      "analystPriority": true,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
+      "analystPriority": false,
+      "relatedTickers": [],
       "eventType": "",
-      "score": 206.25,
+      "score": 6.75,
       "featured": false,
       "translated": true,
-      "analystDetails": [],
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -2080,8 +2127,51 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "馬裡蘭州核電廠將在亞馬遜交易的支持下獲得 30 億美元的升級費用",
+      "summary": "Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline. The deal provides financing for roughly 190 megawatts of additional clea",
+      "originalTitle": "Md. nuclear plant to get $3B in upgrades backed by Amazon deal",
+      "originalSummary": "Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline. The deal provides financing for roughly 190 megawatts of additional clean generating capacity, which the company said is slated to enter service between 2030 and 2032. Alongside the power purchase agreement, the two companies struck a retail supply arrangement covering Amazon's electricity needs throughout the 13-state PJM regional market.",
+      "url": "https://finance.yahoo.com/energy/articles/amazon-signs-20-nuclear-power-113015798.html",
+      "ts": "2026-10-01T16:30:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": true,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 215.25,
+      "featured": false,
+      "translated": true,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline. The deal provides financing for roughly 190 megawatts of additional clea",
+        "numbers": [
+          "$3B",
+          "$3 billion",
+          "3 billion"
+        ],
+        "why": "券商調整理由：Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline.",
+        "stance": "Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：Amazon signed a 20-year power purchase agreement with Constellation Energy on Wednesday to support the expansion of the Calvert Cliffs Clean Energy Center, Maryland's only nuclear plant, in a deal that will enable more than $3 billion in infrastructure investment at the site. Under the agreement, Amazon will receive 690 megawatts of power from Calvert Cliffs, a 1,790-megawatt facility situated in Lusby along Chesapeake Bay's western shoreline.",
+        "sourceQuality": "body"
+      },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 2
     },
     {
       "ticker": "MU",
@@ -2188,7 +2278,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2568,7 +2658,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "COHR",
@@ -2775,83 +2865,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "比亞迪領先特斯拉的勢頭不會停止",
-      "summary": "",
-      "originalTitle": "BYD Proves Lead Over Tesla Won’t Stop",
-      "originalSummary": "BYD has spent two years outmuscling Tesla across Europe while Tesla hemorrhages ground in China, raising a question investors can no longer ignore: what happens when a car company loses every market except its home turf?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/byd-proves-lead-over-tesla-155202673.html",
-      "ts": "2026-10-01T15:52:02+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.5776049153067842,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "比亞迪花了兩年時間在歐洲擊敗特斯拉，而特斯拉在中國卻失血過多，這引發了投資者不能再忽視的一個問題：當一家汽車公司失去除本土以外的所有市場時會發生什麼？",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "比亞迪花了兩年時間在歐洲擊敗特斯拉，而特斯拉在中國卻失血過多，這引發了投資者不能再忽視的一個問題：當一家汽車公司失去除本土以外的所有市場時會發生什麼？",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "今日股市：工廠數據好壞參半，道瓊指數下跌 200 點；微米瀑布（現場通報）",
-      "summary": "",
-      "originalTitle": "Stock Market Today: Dow Sinks 200 Points Amid Mixed Factory Data; Micron Falls (Live Coverage)",
-      "originalSummary": "Data from the manufacturing sector released Thursday morning was mixed. The Purchasing Managers' Manufacturing index which tracks production, new orders and prices in private sector manufacturing came in at 55.9 for September, higher than estimates of 54.8. Institute for Supply Management's manufacturing index — which follows new orders, production, employment, supplier deliveries, and inventories through a survey of 300 companies — came in at 54.5. Economists expected a slightly higher 54.8. Elsewhere, McCormick reversed and fell more than 3% even after third-quarter results beat estimates. The maker of spices and other food products announced earnings of 86 cents per share on sales of $2 billion. Analysts polled by FactSet had called for earnings of 76 cents per share and $1.98 billion in sales. Shares rose in early trade before sliding, extending a two-day losing streak. The stock is in a deep downtrend and has much damage to repair before building a base.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-treasury-yields-micron-stock-mu-earnings/?src=A00220&yptr=yahoo",
-      "ts": "2026-10-01T15:49:25+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.7229300260066851,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "供應管理協會的製造業指數（透過對 300 家公司的調查追蹤新訂單、生產、就業、供應商交付和庫存）為 54.5。在其他方面，即使第三季業績超出預期，味好美公司的股價也出現逆轉並下跌超過 3%。這家香料和其他食品製造商宣布每股收益 86 美分，銷售額 20 億美元。 FactSet 調查的分析師預計每股收益為 76 美分，銷售額為 19.8 億美元。",
-        "numbers": [
-          "$2 billion",
-          "$1.98 billion",
-          "3%",
-          "2 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "週四上午公佈的製造業數據好壞參半。追蹤私部門製造業生產、新訂單和價格的採購經理製造業指數 9 月為 55.9，高於預期的 54.8。供應管理協會的製造業指數（透過對 300 家公司的調查追蹤新訂單、生產、就業、供應商交付和庫存）為 54.5。經濟學家預期略高54.8。在其他方面，即使第三季業績超出預期，味好美公司的股價也出現逆轉並下跌超過 3%。這家香料和其他食品製造商宣布每股收益 86 美分，銷售額 20 億美元。 FactSet 調查的分析師預計每股收益為 76 美分，銷售額為 19.8 億美元。股價早盤上漲，隨後下跌，延續了兩天的連續下跌。庫存是",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -4135,7 +4148,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems, Inc. (AEHR) 股票價格、新聞、報價和歷史",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
       "originalTitle": "Aehr Test Systems, Inc. (AEHR) Stock Price, News, Quote & History",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.&quot;We once again look forward to participating in this annual event and discussing with investors and shareholders Aehr&#039;s expanding role in enabling the next generation of semiconductor devices across a wide range of markets,&quot; said Mr. Erickson. &quot;Aehr delivers complete turnkey solutions that improve the quality, reliability, and yield of semiconductors used in critical applications, including AI processors in cloud computing and data centers, silicon carbide devices in electric vehicles and charging infrastructure, gallium nitride for advanced power conversion, and silicon photonics for data centers, 5G infrastructure and optical input/output (I/O). We are seeing strong traction with AI processors in both wafer-level and package-level formats. The growing adoption of wafer-level and package-level test and burn-in across these markets is expected to be a significant growth driver for Aehr Test Systems.&quot;The presentation material referenced by Aehr Test at the CEO Summit may be accessed on the investor relations page of the Company&#039;s website at www.aehr.com.About the 18th Annual CEO Investor Summit 2026The CEO Investor Summit is held annually each year during the SEMICON West industry trade show. Collectively hosted and funded by participating companies, the CEO Investor Summit features a &quot;round-robin&quot; format consisting of small group meetings with company management teams. During the event, investors and analysts will have the opportunity to meet with the majority of the 11 management teams during the small group meeting sessions and networking events.Attendance at the CEO Investor Summit is by invitation only and is available solely to accredited investors and publishing research analysts. As space is limited, please RSVP early. Hosts reserve the right to limit attendance as necessary. Last day for registration is October 2, 2026.RSVP Contacts for 18th Annual CEO Investor Summit 2026To RSVP for the CEO Investor Summit, please visit the CEO Summit Events website or contact either of the event co-chairs:Laura J. Guerrant-Oiye Phone: (808) 960-2642 Email: lauraoiye@gmail.comClaire E. McAdamsPhone: (530) 265-9899Email: claire@headgatepartners.com About Aehr Test SystemsHeadquartered in Fremont, California, Aehr Test Systems is a leading provider of test solutions for testing, burning-in, and stabilizing semiconductor devices in wafer-level, singulated die, and package-level form, and has installed thousands of systems worldwide. Increasing quality, reliability, safety, and security needs of semiconductors used across multiple applications, including electric vehicles, electric vehicle charging infrastructure, solar and wind power, computing,",
       "url": "https://www.marketscreener.com/news/aehr-test-systems-to-participate-in-18th-annual-ceo-investor-summit-2026-in-san-francisco-ce785adcdc8df32c",
@@ -4151,10 +4164,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4592,7 +4605,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "HPE 提升網路成長前景，獲得雲端公司 Vultr 價值 12 億美元的人工智慧訂單",
-      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
       "originalTitle": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr",
       "originalSummary": "(Bloomberg) -- Hewlett Packard Enterprise Co. won a $1.2 billion order to provide Advanced Micro Devices Inc. server racks with HPE networking gear to cloud company Vultr. Apple's New CEO Seeks to Make Company Run Faster and Leaner David Fincher, Director of 'Fight Club,' to Exit Netflix Deal Bose Returns to Wired Earbuds With New $99 Noise-Canceling Pair Dangote Dismisses Kenyan Court Ruling Pausing Refinery Build OpenAI Targets $30 Billion in Funding at $1.4 Trillion Value",
       "url": "https://finance.yahoo.com/technology/ai/articles/hpe-gets-1-2-billion-114600577.html",
@@ -4608,7 +4621,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "numbers": [
           "$1.2 billion",
           "$99",
@@ -4616,7 +4629,7 @@
           "$1.4"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -4920,7 +4933,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -4936,10 +4949,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -9229,7 +9242,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems 將參加 2026 年在舊金山舉行的第 18 屆年度執行長投資者高峰會",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
       "originalTitle": "Aehr Test Systems to Participate in 18th Annual CEO Investor Summit 2026 in San Francisco",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.",
       "url": "https://finance.yahoo.com/technology/ai/articles/aehr-test-systems-participate-18th-113000205.html",
@@ -9246,10 +9259,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -12892,7 +12905,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -12910,13 +12923,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15555,7 +15568,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利空",
       "title": "訴訟和融資問題考驗著 AST SpaceMobile (ASTS) 的估值，AST SpaceMobile (ASTS) 是否划算？",
-      "summary": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+      "summary": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
       "originalTitle": "Is AST SpaceMobile (ASTS) A Bargain As Lawsuit And Financing Questions Test Its Valuation?",
       "originalSummary": "AST SpaceMobile (ASTS) moved into the legal spotlight after Robbins LLP announced a securities class action related to disclosures about its satellite direct to cellular position and financing during the March 2025 to July 2026 period. For context, AST SpaceMobile shares have retreated over the shorter term, with a 1-day share price return of 5.83% down and a 30-day share price return of 3.8% down. The 1-year total shareholder return is 10.05%, and the 3-year total shareholder return is very large, indicating notable longer-term momentum despite recent legal and financing headlines.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-bargain-lawsuit-141458439.html",
@@ -15570,14 +15583,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+        "event": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
         "numbers": [
           "5.83%",
           "3.8%",
           "10.05%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期勢頭仍顯著。",
+        "stance": "Robbins LLP 宣布提起證券集體訴訟，涉及 2025 年 3 月至 2026 年 7 月期間衛星直接移動位置和融資的披露，AST SpaceMobile (ASTS) 成為法律關注的焦點。就背景而言，AST SpaceMobile 股價在短期內有所回落，1 天股價回報率下跌 5.83%，30 天股價回報率下跌 3.8%。 1年股東總回報率為10.05%，3年股東總回報率非常高，儘管最近出現了法律和融資頭條新聞，但顯示長期動能仍顯著。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26519,7 +26532,7 @@
       "group": "其他大型科技",
       "tag": "題材",
       "title": "最新 iPhone、Apple Watch 和 AirPods 系列已登陸全球各地商店",
-      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
       "originalTitle": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide",
       "originalSummary": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus. Ternus, Joswiak, and senior vice president of retail Deirdre O’Brien led one of Friday’s launches at the Apple store on Fifth Avenue in New York City. The iPhone 18 Pro and iPhone 18 Pro Max are priced at $1,199 and $1,299, respectively, which is $100 more than the previous generation. The phones are available in the colors black, silver, glacier, and burgundy. Pre-orders began on Sept. 12.",
       "url": "https://www.theepochtimes.com/business/apple-releases-iphone-18-in-stores-under-new-ceo-ternuss-first-product-launch-6092501",
@@ -26534,14 +26547,14 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "numbers": [
           "$1,199",
           "$1,299,",
           "$100 m"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
