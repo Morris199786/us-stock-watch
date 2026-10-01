@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01 09:33 台灣時間",
+  "updatedAt": "2026-10-01 09:38 台灣時間",
   "historyUpdatedDate": "2026-10-01",
   "historyLastAttemptAt": "2026-09-30T16:02:22.100808+00:00",
   "historyItemCount": 800,
@@ -749,8 +749,8 @@
       "title": "Google推出新人工智慧模式 Gemini 4 Argon，推高 Alphabet 股價",
       "summary": "Alphabet 推出了 Gemini 4 Argon，這是一種新的人工智慧模型，被稱為其最強大的開發成果。根據 CNBC 熱門新聞報道，它最初計劃提供給值得信賴的網路安全合作夥伴。谷歌表示，Gemini 4 Argon 顯著提高了程式設計、網路安全和完成複雜專業任務的能力。據該公司稱，該模型創下了真實記錄的新紀錄",
       "originalTitle": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
-      "originalSummary": "Last day to demo your breakthrough to 10,000+ tech leaders is on Oct 2 . Book Exhibit Table Now. Disrupt ticket savings of up to $200 + 50% off a second ends Sept 25, 11:59 p.m. PT. REGISTER HERE.",
-      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "originalSummary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google’s benchmarks, to vetted cybersecurity defenders. Outside Google’s own teams, only members of its Fairwind Program can use Argon for now. The program opened Sept. 3 with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organizations, including CrowdStrike Holdings Inc. and Palo Alto Networks Inc. Koray Kavukcuoglu, chief AI architect at Google, wrote in the announcement that releasing capabilities at this level “requires a phased approach.” Google is taking part in the U.S. government’s voluntary process for pre-release model access and says it is still hardening safeguards against misuse for cyberattacks or weapons development. By Google’s account, Argon holds up against indirect prompt injection better than any model it has shipped. Separate monitors watch the model’s chain of thought and actions, and they can stop it if it goes beyond what a user intended. On DeepSWE v1.1, Argon scored 77.9% in long-horizon software engineering tasks. Anthropic’s Claude Opus 5.5, which came out last week , managed 74.2% on Google’s chart, a 10th of a point ahead of OpenAI’s GPT-6 Astra. AutomationBench, which measures end-to-end business work, showed a wider gap of 51.3% to 42.5% over Opus 5.5. Of the 18 benchmarks in Google’s charts, VentureBeat counted 12 that Argon led outright. Terminal-Bench 4.0 still belongs to Opus 5.5, and FrontierSWE v2 is one of the few Astra kept. Google built Argon for the kind of long-horizon work DeepSWE measures, and it set the model’s output limit at 1 million tokens to match. Earlier Gemini models topped out at 64,000. Thousands of Google employees are already using Argon, and teams at the company have put its agents to work on large engineering jobs. One is moving C and C++ code to Rust, in projects that range from core libraries of tens of thousands of lines to the more than 800,000-line Zircon kernel in Google’s Fuchsia operating system. On libgav1, Google’s open-source video decoder, the agents started from an existing Rust port and rewrote 32,000 lines of its speed-critical code as safe Rust the compiler could optimize on its own. The decoder now runs 2.7 times faster than that earlier port, with no change to its video output. Google engineers are also using Argon agents to hunt for wasted memory, and a sweep of fleetwide profiling data has so far freed more than 300 tebibytes across the company’s data centers. Fairwind members and Google’s internal teams get a version of Argon with the cyber guardrails removed. The model can find and fix software vulnerabilities on its own, and on CWE-bench v1, a remediation test, it tied GPT-6 Astra at 68%. Wiz Inc., the Google-owned cloud security company, has used Argon in its free Scan for Good program, which looks for exposures in essential public infrastructure. Google said the model found a critical flaw exposing personal information in health care software used by hospitals worldwide. Earlier frontier models had not caught it.",
+      "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
       "ts": "2026-09-30T21:35:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -758,28 +758,32 @@
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "CRWD"
       ],
-      "eventType": "新題材",
-      "score": 25.5,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "Alphabet 推出了 Gemini 4 Argon，這是一種新的人工智慧模型，被稱為其最強大的開發成果。根據 CNBC 熱門新聞報道，它最初計劃提供給值得信賴的網路安全合作夥伴。谷歌表示，Gemini 4 Argon 顯著提高了程式設計、網路安全和完成複雜專業任務的能力。據該公司稱，該模型創下了真實記錄的新紀錄",
         "numbers": [
-          "$200",
-          "50%"
+          "77.9%",
+          "74.2%",
+          "51.3%",
+          "42.5%"
         ],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "Alphabet 推出了 Gemini 4 Argon，這是一種新的人工智慧模型，被稱為其最強大的開發成果。根據 CNBC 熱門新聞報道，它最初計劃提供給值得信賴的網路安全合作夥伴。谷歌表示，Gemini 4 Argon 顯著提高了程式設計、網路安全和完成複雜專業任務的能力。據該公司稱，該模型創下了真實記錄的新紀錄",
         "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "HPE",
@@ -2440,7 +2444,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "APP",
