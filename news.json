@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01 10:54 台灣時間",
+  "updatedAt": "2026-10-01 11:03 台灣時間",
   "historyUpdatedDate": "2026-10-01",
   "historyLastAttemptAt": "2026-09-30T16:02:22.100808+00:00",
   "historyItemCount": 800,
@@ -24,6 +24,36 @@
       ],
       "eventType": "",
       "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "儘管美國公債殖利率飆升，但隨著市場關注就業報告，道瓊指數、標準普爾 500 指數和納斯達剋期貨上漲：MU、NKE、IBRX、CEG 股票成為焦點",
+      "summary": "",
+      "originalTitle": "Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQMXAtZDVad19LUWxIQWQ1TkNPWWY2b2VUQXFseVJCd29memdfTHpxa1lSVXU4c3hjZGdNdXdPZVRkUlh5Y0dycDNva1N2Nl83WjZCck5NdEFiSGREcnkyeTVhVGdaZWxrTVFPUU1hemRUS0NSYkQ0eHlxYm1xenQyZ0RlbktSWG9GVDJOSlp5dTdqQ3M0dHFOTWlWTUVkb01TM3ZHVTExN3NkQUhoZU04OTlvTzBkTDF5dEk4U3oxQi01amVwLWxKZ2dWRXV2QmJqWjVuUEpsYzlNN052QVJIMUpFRTRlWVVoTk8zMFo0ZjhPd1BlTlBnQlRIUUZzR25ZYXFydEw4YVQ0dlJxX0pmMw?oc=5",
+      "ts": "2026-10-01T02:38:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -236,7 +266,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 10,
+      "top10Rank": 9,
       "hasArticleBody": false
     },
     {
@@ -393,7 +423,7 @@
       "relatedTickers": [],
       "eventType": "新題材",
       "score": 24.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -539,7 +569,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1183,41 +1213,31 @@
       "title": "Google推出新人工智慧模式 Gemini 4 Argon，推高 Alphabet 股價",
       "summary": "",
       "originalTitle": "Google Unveils New AI Model Gemini 4 Argon, Sending Alphabet Stock Higher",
-      "originalSummary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google’s benchmarks, to vetted cybersecurity defenders. Outside Google’s own teams, only members of its Fairwind Program can use Argon for now. The program opened Sept. 3 with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organizations, including CrowdStrike Holdings Inc. and Palo Alto Networks Inc. Koray Kavukcuoglu, chief AI architect at Google, wrote in the announcement that releasing capabilities at this level “requires a phased approach.” Google is taking part in the U.S. government’s voluntary process for pre-release model access and says it is still hardening safeguards against misuse for cyberattacks or weapons development. By Google’s account, Argon holds up against indirect prompt injection better than any model it has shipped. Separate monitors watch the model’s chain of thought and actions, and they can stop it if it goes beyond what a user intended. On DeepSWE v1.1, Argon scored 77.9% in long-horizon software engineering tasks. Anthropic’s Claude Opus 5.5, which came out last week , managed 74.2% on Google’s chart, a 10th of a point ahead of OpenAI’s GPT-6 Astra. AutomationBench, which measures end-to-end business work, showed a wider gap of 51.3% to 42.5% over Opus 5.5. Of the 18 benchmarks in Google’s charts, VentureBeat counted 12 that Argon led outright. Terminal-Bench 4.0 still belongs to Opus 5.5, and FrontierSWE v2 is one of the few Astra kept. Google built Argon for the kind of long-horizon work DeepSWE measures, and it set the model’s output limit at 1 million tokens to match. Earlier Gemini models topped out at 64,000. Thousands of Google employees are already using Argon, and teams at the company have put its agents to work on large engineering jobs. One is moving C and C++ code to Rust, in projects that range from core libraries of tens of thousands of lines to the more than 800,000-line Zircon kernel in Google’s Fuchsia operating system. On libgav1, Google’s open-source video decoder, the agents started from an existing Rust port and rewrote 32,000 lines of its speed-critical code as safe Rust the compiler could optimize on its own. The decoder now runs 2.7 times faster than that earlier port, with no change to its video output. Google engineers are also using Argon agents to hunt for wasted memory, and a sweep of fleetwide profiling data has so far freed more than 300 tebibytes across the company’s data centers. Fairwind members and Google’s internal teams get a version of Argon with the cyber guardrails removed. The model can find and fix software vulnerabilities on its own, and on CWE-bench v1, a remediation test, it tied GPT-6 Astra at 68%. Wiz Inc., the Google-owned cloud security company, has used Argon in its free Scan for Good program, which looks for exposures in essential public infrastructure. Google said the model found a critical flaw exposing personal information in health care software used by hospitals worldwide. Earlier frontier models had not caught it.",
-      "url": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
+      "originalSummary": "",
+      "url": "https://www.barrons.com/articles/google-ai-gemini-4-argon-alphabet-stock-d3df631c?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-09-30T21:35:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": 0.9269036724158131,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
-        "GOOGL",
-        "CRWD"
+        "GOOGL"
       ],
-      "eventType": "跨公司事件",
-      "score": 34.5,
+      "eventType": "新題材",
+      "score": 25.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在 DeepSWE v1.1 上，Argon 在長期軟體工程任務中得分為 77.9%。上週發布的 Anthropic 的 Claude Opus 5.5 在 Google 排行榜上的得分為 74.2%，比 OpenAI 的 GPT-6 Astra 領先十分之一。衡量端到端業務工作的 AutomationBench 顯示比 Opus 5.5 存在 51.3% 至 42.5% 的更大差距。該模型可以自行發現並修復軟體漏洞，在 CWE-bench v1（一項修復測試）上，它與 GPT-6 Astra 持平，均為 68%。",
-        "numbers": [
-          "77.9%",
-          "74.2%",
-          "51.3%",
-          "42.5%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Google LLC 今天開始向經過審查的網路安全維護者推出 Gemini 4 Argon，這是一種前沿人工智慧模型，在 Google 的大部分基準測試中擊敗了 Anthropic PBC 和 OpenAI Group PBC 的競爭對手模型。在 Google 自己的團隊之外，目前只有 Fairwind 方案的成員可以使用 Argon。該計畫於 9 月 3 日啟動，推出的是較小的 Gemini 3.8 Flash Cyber​​ 模型，此後已與包括 CrowdStrike Holdings Inc. 和 Palo Alto Networks Inc.",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "HPE",
@@ -1240,14 +1260,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "企業科技公司惠普企業 (NYSE:HPE) 的股價在早盤上漲 3.7%，此前該公司宣布了 12 億美元的人工智慧系統訂單，並在網路投資者日之前上調了其多年網路前景。",
+        "event": "企業科技公司惠普企業 (NYSE:HPE) 的股價在早盤上漲 3.7%，此前該公司宣布了 12 億美元的人工智慧系統訂單，並在網路投資者日之前上調了多年網路前景。",
         "numbers": [
           "$1.2 billion",
           "3.7%",
           "1.2 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "企業科技公司惠普企業 (NYSE:HPE) 的股價在早盤上漲 3.7%，此前該公司宣布了 12 億美元的人工智慧系統訂單，並在網路投資者日之前上調了其多年網路前景。",
+        "stance": "企業科技公司惠普企業 (NYSE:HPE) 的股價在早盤上漲 3.7%，此前該公司宣布了 12 億美元的人工智慧系統訂單，並在網路投資者日之前上調了多年網路前景。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -1719,7 +1739,7 @@
         "NOK"
       ],
       "eventType": "新題材",
-      "score": 13.5,
+      "score": 11.7,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1751,7 +1771,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1783,7 +1803,7 @@
         "VICR"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 5.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1820,7 +1840,7 @@
         "MU"
       ],
       "eventType": "",
-      "score": 22.5,
+      "score": 19.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1886,7 +1906,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology (MRVL) 股票去年回報率為 201%，而標準普爾 500 指數的回報率為 17.7%。投資者將其視為一家人工智慧資料中心晶片公司，其本益比為 85.6 倍，而標準普爾 500 指數的本益比為 22.1 倍。投資者支付這一倍數是指望資料中心保持快速成長。管理階層過去也講過第二個成長故事，但現在不再以這個故事為主。",
+        "event": "Marvell Technology (MRVL) 股票去年回報率為 201%，而標準普爾 500 指數的回報率為 17.7%。投資者將其視為一家人工智慧資料中心晶片公司，其本益比為 85.6 倍，而標準普爾 500 指數的本益比為 22.1 倍。投資者支付這一倍數是指望資料中心保持快速成長。 Management used to tell a second growth story too, and it no longer leads with that story.",
         "numbers": [
           "201%",
           "17.7%"
@@ -2220,10 +2240,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "這對公司來說是一次不錯的勝利，但它不會為股票帶來投資者想要的提振——這需要公司商用飛機業務的改善——但勝利就是勝利。波音防務、太空與安全公司總裁兼執行長史蒂夫·帕克在新聞稿中表示：「很榮幸被選中生產海軍第一個第六代平台。」波音公司在海軍競爭中與諾斯羅普·格魯曼公司競爭。",
+        "event": "It’s a nice win for the company, but it won’t give shares the boost investors want—that will take improvement in the company’s commercial airplanes business—but a win is a win. “It’s an honor to be selected to produce the Navy’s first sixth–generation platform,” said Steve Parker, president and chief executive officer, Boeing Defense, Space & Security, in a news release. Boeing was up against Northrop Grumman in the Navy competition.",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "波音防務、太空與安全公司總裁兼執行長史蒂夫·帕克在新聞稿中表示：「很榮幸被選中生產海軍第一個第六代平台。」波音公司在海軍競爭中與諾斯羅普·格魯曼公司展開競爭。",
+        "stance": "波音防務、太空與安全公司總裁兼執行長史蒂夫·帕克在新聞稿中表示：「很榮幸被選中生產海軍第一個第六代平台。」波音公司在海軍競爭中與諾斯羅普·格魯曼公司競爭。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2711,36 +2731,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "由於高債券收益率的壓力仍然存在，華爾街大多數美國股市下跌 - union-bulletin.com",
-      "summary": "",
-      "originalTitle": "Most US stocks fall on Wall Street as pressure remains from high bond yields - union-bulletin.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPMVEwaEROSndQVGdURzJwZVJLUlZyOTdkRVJkVE13RktLX1pjUHdUZk9BVEFMNzJ0WVFWR0s5YnF5N043TkdnZFpBVEF3VDJINl9ETUFxb3VnZVVsSHYwVFIybGpyczljcHpqLTZ6WlFYTmpXUXo5Z18xX21KY2NCZWRJTXpfNmlxMHYxcDhxZmtjU2VEcWJERzhfd1NfaFViTXBHQjNmS0R2dTNGNHZkb01XNkp5QjlOYlFlWnF4Wjl2dDkzcnRGLXZkTU90Q3N3U1BaTDZORzlubDRzeTRDS1BoeXBVUVN5eU8xVjMxdHhmSUZya2czOGh2ZlM?oc=5",
-      "ts": "2026-09-30T20:08:19+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -2901,7 +2891,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -2918,14 +2908,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -2940,7 +2930,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "HPE 提升網路成長前景，獲得雲端公司 Vultr 價值 12 億美元的人工智慧訂單",
-      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
       "originalTitle": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr",
       "originalSummary": "(Bloomberg) -- Hewlett Packard Enterprise Co. won a $1.2 billion order to provide Advanced Micro Devices Inc. server racks with HPE networking gear to cloud company Vultr. Apple's New CEO Seeks to Make Company Run Faster and Leaner David Fincher, Director of 'Fight Club,' to Exit Netflix Deal Bose Returns to Wired Earbuds With New $99 Noise-Canceling Pair Dangote Dismisses Kenyan Court Ruling Pausing Refinery Build OpenAI Targets $30 Billion in Funding at $1.4 Trillion Value",
       "url": "https://finance.yahoo.com/technology/ai/articles/hpe-gets-1-2-billion-114600577.html",
@@ -2956,7 +2946,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "numbers": [
           "$1.2 billion",
           "$99",
@@ -2964,7 +2954,7 @@
           "$1.4"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
+        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任執行長尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線電視 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -3765,7 +3755,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "AEHR TEST SYSTEMS 2027 年第一季財報預覽：近期 $AEHR 內線交易、避險基金活動等",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.",
       "originalTitle": "AEHR TEST SYSTEMS Q1 2027 Earnings Preview: Recent $AEHR Insider Trading, Hedge Fund Activity, and More",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4949402-aehr-test-systems-momentum-will-push-it-up-once-again-if-q1-report-is-solid",
@@ -3782,10 +3772,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions.",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -5142,7 +5132,7 @@
       "group": "CSP",
       "tag": "利多",
       "title": "隨著祖克柏超越消費者人工智慧市場，Meta 推出小型企業的 Muse",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):0,005」:00D:Overw」 \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-29T09:0000\"\"20000007(2026-09-29T00000((7depuse)了其紀念其4use:個人人工智慧代理的成功，Meta 推出了一個專門的版本",
+      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):P&F):Pvvate\" \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-29T09:0000\"\"2026-09-29T00000((7depuse\")了其紀念了其紀念其代碼個人人工智慧代理的成功，Meta 推出了一個專門的版本",
       "originalTitle": "Meta launches Muse for Small Business as Zuckerberg pushes beyond consumer AI market",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"ai artificial i|software|social media|us news\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|software|social media|us news\",\"authorFormatted\":\"isabel obrien\",\"authorFormattedFull\":\"isabel obrien\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-29T09:30:01+0000\",\"description\":\"Following the success of its Muse personal AI agent, Meta is introducing a specialized version for small businesses.\",\"expires\":null,\"headline\":\"Meta launches Muse for Small Business as Zuckerberg pushes beyond consumer AI market\",\"id\":108369074,\"liveURL\":\"/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html\",\"native\":false,\"pageName\":\"108369074|2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|meta platforms |software|social media|mark zuckerberg|mark zuckerberg|meta platforms |invesco qqq tru|ishares expande|intuit inc|shopify inc|mongodb inc|ishares global |zoom communicat|box inc|asana inc|dropbox inc|apple inc|ishares msci us|salesforce inc\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|meta platforms inc|software|social media|mark zuckerberg|mark zuckerberg|meta platforms inc|invesco qqq trust|ishares expanded techsoftware sector etf|intuit inc|shopify inc|mongodb inc|ishares global tech etf|zoom communications inc|box inc|asana inc|dropbox inc|apple inc|ishares msci usa momentum factor etf|salesforce inc\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Meta launches Muse for Small Business Zuckerberg pushes enterprise AI\",\"shortDateFirstPublished\":\"9/29/2026\",\"shortDateLastPublished\":\"9/29/2026\",\"shortDatePublished\":\"9/29/2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https://cnb.cx/4e4VQ5I\"},{\"shareName\":\"Twitter\",\"url\":\"https://cnb.cx/4z22vFQ\"},{\"shareName\":\"Linkedin\",\"url\":\"https://cnb.cx/4z22wcS\"},{\"shareName\":\"Email\",\"url\":\"https://cnb.cx/4z77mG0\"},{\"shareName\":\"SMS\",\"url\":\"https://cnb.cx/4yYHLif\"},{\"shareName\":\"AppleTV\",\"url\":\"https://cnb.cx/4z33EwX\"}],\"slug\":\"Meta launches Muse for Small Business as Zuckerberg pushes beyond consumer AI market\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https://www.cnbc.com\",\"subType\":null,\"tagName\":\"Meta launches Muse for Small Business as Zuckerberg pushes beyond consumer AI market\",\"tagNameFormatted\":\"meta launches m\",\"tagNameFormattedFull\":\"meta launches muse for small business as zuckerberg pushes beyond consumer ai market\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":3,\"ti",
       "url": "https://www.cnbc.com/2026/09/29/meta-launches-muse-for-small-business-zuckerberg-pushes-enterprise-ai.html",
@@ -5160,10 +5150,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):0,005」:00D:Overw」 \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-29T09:0000\"\"20000007(2026-09-29T00000((7depuse)了其紀念其4use:個人人工智慧代理的成功，Meta 推出了一個專門的版本",
+        "event": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):P&F):Pvvate\" \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-29T09:0000\"\"2026-09-29T00000((7depuse\")了其紀念了其紀念其代碼個人人工智慧代理的成功，Meta 推出了一個專門的版本",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):0,005」:00D:Overw」 \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026",
+        "stance": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":null,\"additionalSectionContentFormatted\":\"人工智慧|軟體|社群媒體|美國新聞\",\"additionalSectionContentFormattedFull\":\"ai人工智慧|軟體|社群媒體|美國新聞\",\"authorFormatted\":\"伊莎貝爾·奧布萊恩\",\"authorFormattedFull\":\"伊莎貝爾奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\"):P&F):Pvvate\" \"2026-09-29T09:30:01+0000\",\"dateLastPublished\":\"2026-09-29T12:43:08+0000\",\"datePublished\":\"2026-09-2",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -7005,7 +6995,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如何投資 SpaceX (SPCX)——以及如何不投資",
-      "summary": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此下載 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
+      "summary": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此处下载 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
       "originalTitle": "How to Invest In SpaceX (SPCX) — And How Not To",
       "originalSummary": "The GA-Courtenay Special Situations Fund is an investment fund managed by Green Ash Partners. The fund focuses on special situations and high-growth equities. You can download the July letter here . The fund reported a 13.8% decline in July, bringing its year-to-date performance to -10.0%. The fund attributed the decline to an unusual liquidity-driven dislocation across higher-growth stocks rather than deterioration in the fundamentals of its portfolio companies. Despite the volatility, merger arbitrage investments contributed positively, while equity gross exposure was reduced to 100% of NAV as a precaution. The manager highlighted its focus on businesses with strong competitive advantages, exceptional management teams, and long-term growth potential, arguing that the recent decline represents a temporary market event rather than a challenge. You can also review the fund's top 5 holdings to see its best picks for 2026.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-benefits-strong-growth-121637315.html",
@@ -7021,14 +7011,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此下載 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
+        "event": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此处下载 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
         "numbers": [
           "13.8%",
           "10.0%",
           "100%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此下載 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
+        "stance": "GA-Courtenay 特殊情況基金是由 Green Ash Partners 管理的投資基金。該基金專注於特殊情況和高成長股。您可以在此处下载 7 月份的信件。該基金報告 7 月下跌 13.8%，使其年初至今的表現降至-10.0%。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -7071,7 +7061,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "SpaceX 首次將其大型 Starship 火箭送入軌道",
-      "summary": "SpaceX 週一首次將其巨大的星際飛船送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。該公司的目標是進行一次 10 小時的飛行，繞地球六圈，以證明其已為 NASA 的阿爾忒彌斯月球計劃做好了準備。由於其中一台引擎過早關閉，太空船差點沒能進入軌道。",
+      "summary": "SpaceX 週一首次將其巨大的星艦送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。 The company had been aiming for a 10-hour flight, spanning six full laps around Earth, to prove its readiness for NASA’s Artemis moon program.由于其中一台发动机过早关闭，航天器差点没能进入轨道。",
       "originalTitle": "SpaceX launches its massive Starship rocket into orbit for the first time",
       "originalSummary": "SpaceX launched its enormous Starship into orbit for the first time Monday and successfully delivered the most advanced Starlinks yet, but decided to cut short the flight. SpaceX said the spacecraft would reenter over the Pacific and splash down north of Hawaii three hours after blasting off from Texas. The company had been aiming for a 10-hour flight, spanning six full laps around Earth, to prove its readiness for NASA’s Artemis moon program. The spacecraft almost didn’t make it to orbit after one of its engines shut down too soon. But with everything else working well and the bad engine no longer needed, flight controllers decided after several tense minutes to proceed as planned. “Starship is orbital,” Mission Control announced to cheers. NASA Administrator Jared Isaacman congratulated SpaceX on reaching orbit and “managing every step in a safe, responsible and especially inspirational way.” Founder Elon Musk’s showpiece rocket — the biggest and most powerful ever built — carried 26 of the latest and most advanced Starlink satellites to join the 11,000 older models already providing internet service. They popped out of the spacecraft one by one, drawing more cheers from the SpaceX crowds looking on from the launch site at Starbase, Texas. The decision to end the flight early came soon afterward. No reason was provided. It was Starship’s 14th full-scale launch from Texas’ southern tip in three years. The earlier test flights ventured no farther than the Indian Ocean halfway around the world, often crashing in flames and briefly skimming space. This time, SpaceX was intent on circling the globe from an altitude of 170 miles — not just once but six times over almost 10 hours, ending with a Pacific splashdown near Chile. While Starship achieved the proper orbit zipping along at 17,500 mph, flight controllers opted to play it safe and bring it back several hours sooner, after just a couple laps. The first-stage booster was never meant to return to the Starbase launch site either, instead dropping into the Gulf of Mexico within minutes of the morning liftoff. SpaceX wants to ensure that everything works before flying Starship back to Starbase. If the spacecraft breaks apart over land and rains debris onto people, “our popularity would diminish very rapidly,” Musk said at a business summit earlier this month. “That’s why we’re being extremely cautious here.” Depending on the findings from Monday’s orbital debut, the next Starship could return to the launch pad with giant mechanical arms grabbing the hovering spacecraft. If the catch works — Musk gives it even or slightly better odds — then SpaceX will refly the spacecraft by year’s end or early next year. The 407-foot rocket was designed from the start to be fully reusable — a key to lowering launch costs. SpaceX managed to salvage the last Starship from the Indian Ocean in July. Engineers modified the newly launched Starship’s heat shield based on hands-on inspections from the recovered spacecraft, which is being tugged back to Starbase. SpaceX is pressing hard to certify Starship for orbital flight, a vital step toward moon and Mars travel. NASA’s Artemis III mission is coming up as soon as nex",
       "url": "https://www.nbcnews.com/science/space/spacex-starship-rocket-launches-orbit-first-time-rcna600222",
@@ -7088,10 +7078,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX 週一首次將其巨大的星際飛船送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。該公司的目標是進行一次 10 小時的飛行，繞地球六圈，以證明其已為 NASA 的阿爾忒彌斯月球計劃做好了準備。由於其中一台引擎過早關閉，太空船差點沒能進入軌道。",
+        "event": "SpaceX 週一首次將其巨大的星艦送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。 The company had been aiming for a 10-hour flight, spanning six full laps around Earth, to prove its readiness for NASA’s Artemis moon program.由于其中一台发动机过早关闭，航天器差点没能进入轨道。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "SpaceX 週一首次將其巨大的星際飛船送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。該公司的目標是進行一次 10 小時的飛行，繞地球六圈，以證明其已為 NASA 的阿爾忒彌斯月球計劃做好了準備。由於其中一台引擎過早關閉，太空船差點沒能進入軌道。",
+        "stance": "SpaceX 週一首次將其巨大的星艦送入軌道，並成功交付了迄今為止最先進的星鏈，但決定縮短飛行時間。 SpaceX 表示，該太空船將從德州發射三小時後，將重新進入太平洋並降落在夏威夷北部。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -7514,7 +7504,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "利多",
       "title": "IBM：購買重置，而不是成長故事（評級升級）（NYSE：IBM）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
       "originalTitle": "IBM: Buy The Reset, Not The Growth Story (Rating Upgrade) (NYSE:IBM)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4950060-ibm-buy-reset-not-growth-story-rating-upgrade",
@@ -7531,14 +7521,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -10254,7 +10244,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -10272,13 +10262,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -12717,7 +12707,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems：如果第一季報告可靠，勢頭將再次推高它（納斯達克：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
       "originalTitle": "Aehr Test Systems: Momentum Will Push It Up Once Again If Q1 Report Is Solid (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4949465-aehr-test-systems-strong-growth-potential-but-the-valuation-demands-execution",
@@ -12732,10 +12722,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -13747,7 +13737,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 將商業發射延後到 2027 年。以下是其現金能持續多久",
-      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
       "originalTitle": "AST SpaceMobile Pushed Commercial Launch to 2027. Here's How Long Its Cash Lasts Until Then",
       "originalSummary": "The space industry could be entering a new growth phase, and AST SpaceMobile (NASDAQ: ASTS) is one of the most interesting companies to watch. With its satellite network expanding and direct-to-device service increasingly a reality, AST has several major catalysts ahead. If those catalysts play out, the stock could distinguish itself as one of the sector's top performers heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ast-spacemobile-best-performing-103000605.html",
@@ -13763,10 +13753,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -13932,7 +13922,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "台積電擴建鳳凰晶片工廠，瞄準退伍軍人從事高科技職業",
-      "summary": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，並計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝整合工程師 Robert Sobeski 表示。技能可以很好地轉化的池，」索貝斯基說。",
+      "summary": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，併計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝集成工程師羅伯特·索貝斯基 (Robert Sobeski) 表示。技能可以很好地轉化的池，」索貝斯基說。",
       "originalTitle": "TSMC targets veterans for high-tech careers at expanding Phoenix chip plant",
       "originalSummary": "As Taiwan Semiconductor Manufacturing Co. expands its North Phoenix campus, the company is looking to U.S. veterans to fill high-tech jobs, saying military experience can translate directly into careers in the semiconductor industry.TSMC Arizona currently employs about 3,500 workers at its North Phoenix site and plans to hire roughly 2,500 more as it expands domestic semiconductor manufacturing, said Robert Sobeski, a process integration engineer and chair of the company’s Veteran Employee Resource Group.“The military talent pool is an excellent pool where the skills translate well,” Sobeski said. “You have opportunities to do much of what you did in the military in terms of exercising SOPs, working closely with complex machines and operating in a very mission-focused environment.”The company is recruiting for engineering and technician positions, with several potential career paths for veterans.Military logistics experience could translate to operations and supply chain positions, while veterans with systems maintenance backgrounds may be a fit for equipment technician jobs. Veterans with electronics or technology experience could find opportunities as engineering technicians, while those who have led squads or crews may have skills applicable to project management and process roles.A college degree or direct industry experience is not required for technician positions.Sobeski, an Army veteran, said many service members worry about losing their sense of community and purpose after leaving the military. He believes TSMC can provide both.“A large hurdle in leaving the military is, maybe I’m not going to find my tribe outside of the military and I’m not going to find the same level of purpose in my work,” he said. “TSMC is an excellent place to look for that sense of purpose, for that camaraderie, for that sense of mission involved in the day-to-day work.”TSMC has formed a Veteran Employee Resource Group to help veterans build community, find mentors and navigate veteran-specific issues, including relocation and benefits. New employees are also assigned a “buddy” during on boarding to provide an additional point of contact as they adjust to the company.The company is also working with the Arizona Coalition for Military Families to help veterans identify how their military experience could translate into civilian careers.Veterans who complete a pre-screening questionnaire will be matched with a career professional who can help identify positions that may fit their skills and experience.“We partnered with the Arizona Coalition for Military Families to help veterans translate their military experience into some of the qualities and attributes we’re looking for in applicants,” Sobeski said.Engineering positions generally require a college degree, Sobeski said, while technician positions offer a pathway into the semiconductor industry without one.“These are high-tech, high-paying jobs,” he said. “This is an excellent opportunity to enter the workforce in a highly skilled role and make a career out of it. Not everywhere do you find entry-level jobs where you have an entire career in front of you.”TSMC will host an in-person hiring event Oct. 3 at its",
       "url": "https://www.abc15.com/news/local-news/tsmc-targets-veterans-for-high-tech-careers-at-expanding-phoenix-chip-plant",
@@ -13948,10 +13938,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，並計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝整合工程師 Robert Sobeski 表示。技能可以很好地轉化的池，」索貝斯基說。",
+        "event": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，併計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝集成工程師羅伯特·索貝斯基 (Robert Sobeski) 表示。技能可以很好地轉化的池，」索貝斯基說。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，並計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝整合工程師 Robert Sobeski 表示。技能可以很好地轉化的池，」索貝斯基說。",
+        "stance": "隨著台積電擴建其北菲尼克斯園區，該公司正在尋找美國退伍軍人來填補高科技職位，稱軍事經驗可以直接轉化為半導體行業的職業生涯。台積電亞利桑那州目前在其北菲尼克斯工廠僱用了約 3,500 名員工，併計劃在擴大國內半導體製造過程中再僱用約 2,500 名員工，該公司退伍軍人資源小組主席、工藝集成工程師羅伯特·索貝斯基 (Robert Sobeski) 表示。技能可以很好地轉化的池，」索貝斯基說。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -14728,7 +14718,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr 測試系統：人工智慧相關成長與估值之間的真正緊張關係（納斯達克股票代碼：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
       "originalTitle": "Aehr Test Systems: A Real Tension Between AI-Related Growth And Valuation (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4949045-aehr-test-systems-a-real-tension-between-ai-related-growth-and-valuation",
@@ -14744,10 +14734,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -15483,7 +15473,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "GSME 與泰瑞達建立半導體測試中心",
-      "summary": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+      "summary": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
       "originalTitle": "GSME and Teradyne to establish semiconductor test center",
       "originalSummary": "Collaboration to Accelerate Semiconductor Test Solutions for Hyperscaler AI, Automotive, Silicon Photonics, and Next‑Generation DevicesSAN JOSE, Calif., Sept. 22, 2026 /CNW/ -- GS Microelectronics U.S., Inc. (GSME), a fast-growing semiconductor solutions provider, and Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics, today announced a multi‑year strategic partnership to establish a state‑of‑the‑art semiconductor test and evaluation center designed to accelerate customer time‑to‑market. The collaboration integrates GSME&#039;s turnkey design and manufacturing enablement capabilities with Teradyne&#039;s industry‑leading automated test platforms, creating a high‑performance environment for device evaluation, engineering development, and production readiness. Under the agreement, GSME will operate a dedicated Teradyne‑equipped test floor and provide hands‑on engineering support for customers developing next‑generation devices across AI, silicon photonics, automotive, power management, RF technologies, and other emerging semiconductor applications.Key Highlights of the PartnershipState‑of‑the‑Art Test Center and InfrastructureGSME will deploy Teradyne&#039;s most advanced test systems within a dedicated test facility located at its new 42,000 square-foot Silicon Valley headquarters. The center will support customer demonstrations, device evaluations, engineering development, pilot production, and technical training, utilizing the latest test handlers and probers.Expanded Global Engineering SupportGSME is expanding its global team of highly qualified test engineers across the United States, Taiwan, Europe and the Gulf Cooperation Council (GCC) region to support customers, design‑in engagements, test program development, and customer‑specific application requirements.Joint Customer Engagement GSME and Teradyne will collaborate through joint sales engagements, target account development, technical workshops, and customer briefings to accelerate Teradyne‑based design wins and broaden market adoption.&quot;This partnership marks a significant milestone for GSME and further strengthens our relationship with Teradyne,&quot; said Farhat Jahangir, President and CEO of GSME. &quot;Standardizing on Teradyne&#039;s flagship test platforms enhances our custom silicon and manufacturing enablement services while giving customers a seamless pathway from device evaluation and test development to production readiness. By combining GSME&#039;s expertise in high-speed hyperscaler, analog and RF design, power management, manufacturing, and quality assurance with Teradyne&#039;s advanced test infrastructure, we are enabling customers to innovate faster and bring next‑generation products to market with confidence.&quot;&quot;As semiconductor designs grow more complex, driven by AI data center buildouts, rapid access to high‑performance test development capabilities becomes essential,&quot; said Shannon Poulin, President of the Semiconductor Test Group at Teradyne. &quot;This partnership combines Teradyne&#039;s leading test platforms with GSME&#039;s deep engineering expertise to help customers move efficiently from dev",
       "url": "https://www.marketscreener.com/news/gsme-and-teradyne-announce-strategic-partnership-ce785ad8de8cf522",
@@ -15498,10 +15488,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+        "event": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+        "stance": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -16935,7 +16925,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "GSME 與泰瑞達宣布策略夥伴關係",
-      "summary": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+      "summary": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
       "originalTitle": "GSME and Teradyne Announce Strategic Partnership",
       "originalSummary": "Collaboration to Accelerate Semiconductor Test Solutions for Hyperscaler AI, Automotive, Silicon Photonics, and Next‑Generation DevicesSAN JOSE, Calif., Sept. 22, 2026 /CNW/ -- GS Microelectronics U.S., Inc. (GSME), a fast-growing semiconductor solutions provider, and Teradyne, Inc. (NASDAQ: TER), a leading provider of automated test equipment and advanced robotics, today announced a multi‑year strategic partnership to establish a state‑of‑the‑art semiconductor test and evaluation center designed to accelerate customer time‑to‑market. The collaboration integrates GSME&#039;s turnkey design and manufacturing enablement capabilities with Teradyne&#039;s industry‑leading automated test platforms, creating a high‑performance environment for device evaluation, engineering development, and production readiness. Under the agreement, GSME will operate a dedicated Teradyne‑equipped test floor and provide hands‑on engineering support for customers developing next‑generation devices across AI, silicon photonics, automotive, power management, RF technologies, and other emerging semiconductor applications.Key Highlights of the PartnershipState‑of‑the‑Art Test Center and InfrastructureGSME will deploy Teradyne&#039;s most advanced test systems within a dedicated test facility located at its new 42,000 square-foot Silicon Valley headquarters. The center will support customer demonstrations, device evaluations, engineering development, pilot production, and technical training, utilizing the latest test handlers and probers.Expanded Global Engineering SupportGSME is expanding its global team of highly qualified test engineers across the United States, Taiwan, Europe and the Gulf Cooperation Council (GCC) region to support customers, design‑in engagements, test program development, and customer‑specific application requirements.Joint Customer Engagement GSME and Teradyne will collaborate through joint sales engagements, target account development, technical workshops, and customer briefings to accelerate Teradyne‑based design wins and broaden market adoption.&quot;This partnership marks a significant milestone for GSME and further strengthens our relationship with Teradyne,&quot; said Farhat Jahangir, President and CEO of GSME. &quot;Standardizing on Teradyne&#039;s flagship test platforms enhances our custom silicon and manufacturing enablement services while giving customers a seamless pathway from device evaluation and test development to production readiness. By combining GSME&#039;s expertise in high-speed hyperscaler, analog and RF design, power management, manufacturing, and quality assurance with Teradyne&#039;s advanced test infrastructure, we are enabling customers to innovate faster and bring next‑generation products to market with confidence.&quot;&quot;As semiconductor designs grow more complex, driven by AI data center buildouts, rapid access to high‑performance test development capabilities becomes essential,&quot; said Shannon Poulin, President of the Semiconductor Test Group at Teradyne. &quot;This partnership combines Teradyne&#039;s leading test platforms with GSME&#039;s deep engineering expertise to help customers move efficiently from dev",
       "url": "https://www.marketscreener.com/news/gsme-and-teradyne-announce-strategic-partnership-ce785ad8de8cf522",
@@ -16950,10 +16940,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+        "event": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 與領先的 Teradyne, Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
+        "stance": "合作加速超大規模人工智慧、汽車、矽光子和下一代設備的半導體測試解決方案加州聖荷西，2026 年 9 月 22 日 /CNW/ -- 快速成長的半導體測試解決方案供應商 GS MicroElectronics U.S., Inc. (GSME) 和領先的自動化測試設備和先進機器人技術供應商 Teradyne Inc.（納斯達克股票代碼：TER）今天宣佈建立多年戰略合作夥伴關係建立最先進的半導體測試和評估中心，旨在加快客戶的上市時間。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17262,7 +17252,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX (SPCX) 股票因新的合併猜測而看起來很豐富",
-      "summary": "過去一個月，太空探索科技公司股價上漲了 10.9%，讓人們重新關注其帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
+      "summary": "Space Exploration Technologies 在過去一個月上漲了 10.9%，讓人們重新關注帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
       "originalTitle": "SpaceX (SPCX) Stock Looks Rich On Fresh Merger Speculation",
       "originalSummary": "Space Exploration Technologies has climbed 10.9% over the past month, putting fresh attention on whether a book value lens still lines up with where the stock trades today. With the share price at US$151.85 and fresh headlines around contracts, AI ambitions and possible tie ups, the question for many investors is how much of the balance sheet is already priced in.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-stock-looks-rich-141302396.html",
@@ -17277,13 +17267,13 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "過去一個月，太空探索科技公司股價上漲了 10.9%，讓人們重新關注其帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
+        "event": "Space Exploration Technologies 在過去一個月上漲了 10.9%，讓人們重新關注帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
         "numbers": [
           "$151.85",
           "10.9%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "過去一個月，太空探索科技公司股價上漲了 10.9%，讓人們重新關注其帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
+        "stance": "Space Exploration Technologies 在過去一個月上漲了 10.9%，讓人們重新關注帳面價值是否仍與該股目前的交易水準相符。鑑於該公司股價為 151.85 美元，並且圍繞著合約、人工智慧野心和可能的合作等方面出現了新的頭條新聞，許多投資者面臨的問題是資產負債表的多少部分已經被定價。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17877,7 +17867,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "利多",
       "title": "Peloton 推出可折疊 Peloton Tread Flex——有史以來最實惠的跑步機——以及針對跑步者、步行者和徒步旅行者的全新人工智慧輔導功能",
-      "summary": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智能驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+      "summary": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
       "originalTitle": "Peloton Launches Foldable Peloton Tread Flex – Its Most Affordable Treadmill Ever – and New AI-Powered Coaching Features for Runners, Walkers and Hikers",
       "originalSummary": "NEW YORK, September 22, 2026--Today, Peloton Interactive, Inc. (NASDAQ: PTON) is deepening its commitment to running, walking, and hiking while strengthening its position in the treadmill market with the launch of a new, accessibly priced, space-saving model and exciting new features for runners through its AI-powered coaching platform, Peloton IQ. Three new treadmills — Peloton Tread Flex, its first folding treadmill, Peloton Tread Vision, and Peloton Tread+ Vision — combine next-generation equ",
       "url": "https://finance.yahoo.com/technology/ai/articles/peloton-launches-foldable-peloton-tread-110000279.html",
@@ -17892,10 +17882,10 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智能驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+        "event": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智能驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
+        "stance": "紐約，2026 年 9 月 22 日——今天，Peloton Interactive, Inc.（納斯達克股票代碼：PTON）正在深化其對跑步、步行和徒步旅行的承諾，同時透過其人工智慧驅動的教練平台 Peloton IQ 推出一款價格實惠、節省空間的新型號，並為跑步機提供令人興奮的新跑步功能，從而鞏固其在跑步機市場的地位。三款新型跑步機——Peloton Tread Flex（首款折疊跑步機）、Peloton Tread Vision 和 Peloton Tread+ Vision——結合了下一代設備",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -19674,7 +19664,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab (RKLB) 下跌，其最新舉動的背後是什麼？",
-      "summary": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
+      "summary": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列產品發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經下降經濟率和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經存在長期電力回報率和支撐 3 年總股東的支撐，這已經存在長期經濟回報，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒報酬，但已經降溫報酬率。",
       "originalTitle": "Rocket Lab (RKLB) Dropped, So What Is Behind Its Latest Move?",
       "originalSummary": "Rocket Lab (RKLB) just completed another successful Synspective launch, maintained a 100% mission record with that customer, booked 15 more flights through 2030, and continued to advance work on its Neutron rocket and IMM Apex solar technology. For context, Rocket Lab's recent run of launches and the IMM Apex announcement comes after a choppy stretch in the market, with the share price down 11.02% over 30 days and 32.12% over 90 days, yet supported by a 1-year total shareholder return of 29.63% and a very large 3-year total shareholder return that suggests long-term momentum even as short-term sentiment has cooled.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-dropped-behind-101101471.html",
@@ -19690,7 +19680,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
+        "event": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列產品發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經下降經濟率和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經存在長期電力回報率和支撐 3 年總股東的支撐，這已經存在長期經濟回報，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒報酬，但已經降溫報酬率。",
         "numbers": [
           "100%",
           "11.02%",
@@ -19698,7 +19688,7 @@
           "29.63%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大的 3 年總股東情緒的支撐，這已經存在短期回報率，這已經表明長期存在動力和非常大的 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率和 3 年總股東情緒的支撐，這已經表明長期下降，這已經存在長期電力回報率。",
+        "stance": "Rocket Lab (RKLB) 剛剛成功完成了另一次 Synspective 發射，與該客戶保持了 100% 的任務記錄，在 2030 年之前又預訂了 15 個航班，並繼續推進其 Neutron 火箭和 IMM Apex 太陽能技術的工作。就背景而言，Rocket Lab 最近的一系列產品發布和 IMM Apex 公告是在市場經歷一段波動之後發布的，股價在 30 天內下跌了 11.02%，在 90 天內下跌了 32.12%，但受到 29.63% 的 1 年總股東情緒下降和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經下降經濟率和非常大回報率的支撐 3 年總股東情緒的支撐，這已經下降，但已經存在長期電力回報率和支撐 3 年總股東的支撐，這已經存在長期經濟回報，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒的支撐，這仍存在長期 3 年總股東情緒下降，這已經存在長期 3 年總股東情緒報酬，但已經降溫報酬率。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -20057,7 +20047,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "美國電力 (AEP) 2026 年股票預測與目標價 $AEP",
-      "summary": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+      "summary": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
       "originalTitle": "American Electric Power (AEP) Stock Forecast and Price Target 2026 $AEP",
       "originalSummary": "American Electric Power stock posted adjusted EPS of USD 1.36 in Q2 2026, below the USD 1.48 consensus. Revenue reached USD 5.45 billion and full-year guidance stands at USD 6.25 to USD 6.55 per share.",
       "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/american-electric-power-stock-reports-7-percent-revenue-growth/70183717",
@@ -20072,17 +20062,17 @@
       ],
       "eventType": "",
       "investorBrief": {
-        "event": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "event": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "numbers": [
           "5.45 billion"
         ],
-        "why": "券商調整理由：美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
-        "stance": "美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "why": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "stance": "美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修"
         ],
-        "takeaway": "券商調整理由：美國電力公司 (American Electric Power) 股票 2026 年第二季調整後每股盈餘為 1.36 美元，低於市場預期 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
+        "takeaway": "券商調整理由：美國電力公司 (American Electric Power) 股票公佈的 2026 年第二季調整後每股收益為 1.36 美元，低於市場預期的 1.48 美元。收入達 54.5 億美元，全年指引為每股 6.25 美元至 6.55 美元。",
         "sourceQuality": "body"
       },
       "hasArticleBody": true,
@@ -22973,7 +22963,7 @@
       "group": "其他大型科技",
       "tag": "題材",
       "title": "最新 iPhone、Apple Watch 和 AirPods 系列已登陸全球各地商店",
-      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+      "summary": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
       "originalTitle": "The latest iPhone, Apple Watch, and AirPods lineups arrive in stores worldwide",
       "originalSummary": "A lineup of new products hit Apple stores worldwide on Sept. 18, headlined by the iPhone 18 Pro and iPhone 18 Pro Max. “With iPhone 18 Pro, we’ve made advancements to the areas our users care about most: camera, performance, battery, and intelligence,” said Greg Joswiak, Apple’s senior vice president of Worldwide Marketing, in a news release announcing the new phones. The company also debuted the Apple Watch Series 12, the Apple Watch Ultra 4, and the AirPods 5 as part of the product launch—the company’s first such launch under its new CEO, John Ternus. Ternus, Joswiak, and senior vice president of retail Deirdre O’Brien led one of Friday’s launches at the Apple store on Fifth Avenue in New York City. The iPhone 18 Pro and iPhone 18 Pro Max are priced at $1,199 and $1,299, respectively, which is $100 more than the previous generation. The phones are available in the colors black, silver, glacier, and burgundy. Pre-orders began on Sept. 12.",
       "url": "https://www.theepochtimes.com/business/apple-releases-iphone-18-in-stores-under-new-ceo-ternuss-first-product-launch-6092501",
@@ -22988,14 +22978,14 @@
       ],
       "eventType": "新題材",
       "investorBrief": {
-        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "event": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "numbers": [
           "$1,199",
           "$1,299,",
           "$100 m"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
+        "stance": "9 月 18 日，一系列新產品登陸全球 Apple 商店，其中以 iPhone 18 Pro 和 iPhone 18 Pro Max 為主角。蘋果全球行銷資深副總裁 Greg Joswiak 在發布新手機的新聞稿中表示：「透過 iPhone 18 Pro，我們在用戶最關心的領域取得了進步：相機、性能、電池和智慧。」作為產品發布會的一部分，該公司還推出了 Apple Watch Series 12、Apple Watch Ultra 4 和 AirPods 5，這是該公司在新任首席執行長 John Ternus 的領導下首次推出此類產品的領導者。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
