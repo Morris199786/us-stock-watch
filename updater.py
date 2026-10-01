@@ -5894,7 +5894,8 @@ def refresh_macro_data():
             lines.append(f'{x["timeTw"]}｜{x["impactZh"]}｜{x["title"]}')
         ok, _ = _send_telegram(
             "今日美國重要數據",
-            "\n".join(lines[:12])
+            "\n".join(lines[:12]),
+            url="https://morris199786.github.io/us-stock-watch/?page=macro"
         )
         if ok:
             reminder_days.add(today)
