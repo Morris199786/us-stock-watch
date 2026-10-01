@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 05:48 台灣時間",
+  "updatedAt": "2026-10-02 05:53 台灣時間",
   "historyUpdatedDate": "2026-10-02",
   "historyLastAttemptAt": "2026-10-01T16:02:12.166812+00:00",
   "historyItemCount": 800,
@@ -24,6 +24,38 @@
       ],
       "eventType": "",
       "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google人工智慧晶片在 SpaceX 任務中送入軌道",
+      "summary": "",
+      "originalTitle": "Google AI Chips Launch Into Orbit on SpaceX Mission",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbUd4T1g1TlY0bktjdVJZbFVHclpVaDA2ZHlZRm5UMGxtUHpRQnhCVzY0Y1lzTmNzTXdwYmZsQWhPRjQxeE10WEhnVjByNHg3ZHhTTnZPZWJLdmU5ZXNQM1Z1UjA0MmtqQ0RvYU83VkJkcmJNOHJOY2psOWtaUjJVZTB4NmJuX29QN3I1Mg?oc=5",
+      "ts": "2026-10-01T21:36:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -423,6 +455,38 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "微軟透過即時人工智慧語音模型瞄準聯絡中心市場",
+      "summary": "",
+      "originalTitle": "Microsoft Targets Contact Center Market With Real-Time AI Voice Models",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUzJFM3RiUHc1eWd3QTZJZ2RPVGg5YktmM1dIX055aThhQXlwX0xxOElaeVA0WGJya3NzZWdQeDdlU1FkakVKQUlidFVXUk01MEZoX29FSWdSN2NIdmJ5d2YyZGxxMlRncGN5WXdrcksxMXdUNWRRc09sZ2ZydmhCT1dINkJtT19vd3o1dkpIa0tUalU2RXpLcmE2c1Bzd0FGdzhVT2hpOEhkc3luNmIxdFp0M0JKUWdQSWJoeGtXVmR3RVJKWTVn?oc=5",
+      "ts": "2026-10-01T20:14:07+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "人工智慧樂觀情緒支撐華爾街，債券市場波動震動全球股市",
       "summary": "",
       "originalTitle": "Swings in the bond market shake stock markets worldwide, as AI optimism supports Wall Street",
@@ -616,7 +680,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "AI能在太空中運作嗎？谷歌即將找出答案",
-      "summary": "MVP, a fridge-sized satellite built by Google and Planet, carries four Trillium TPUs into orbit to run Gemini on solar power. The chips can only work for about a quarter of an hour before they have to stop and shed heat, and that limit is the real subject of the experiment. Google ’s first artificial intelligence satellite will spend part of its working life switched off on purpose. MVP, the opening flight of Project Suncatcher, carries four Tensor Processing Units that will run Gemini models for roughly 15 minutes",
+      "summary": "",
       "originalTitle": "Can AI Run in Space? Google Is About to Find Out",
       "originalSummary": "MVP, a fridge-sized satellite built by Google and Planet, carries four Trillium TPUs into orbit to run Gemini on solar power. The chips can only work for about a quarter of an hour before they have to stop and shed heat, and that limit is the real subject of the experiment. Google ’s first artificial intelligence satellite will spend part of its working life switched off on purpose. MVP, the opening flight of Project Suncatcher, carries four Tensor Processing Units that will run Gemini models for roughly 15 minutes, stop, wait for a radiator to push their heat out into space, and then start again. The pause sounds like a technical footnote. It is the question Google is sending the satellite up to answer. Project Suncatcher is Google’s research effort to find out whether the electricity behind AI could come straight from the sun, collected in orbit, instead of from the same power grids that homes, hospitals and factories depend on. MVP is the first hardware to fly under it. Built with Planet, the San Francisco company that runs one of the largest fleets of Earth-imaging satellites, it is roughly the size of a refrigerator and draws about one kilowatt from its solar panels. Its four chips belong to the Trillium generation, the same TPU family that answers Gemini requests inside Google’s data centers on the ground.",
       "url": "https://www.martincid.com/technology-sv/google-project-suncatcher-tpu-orbit-test/",
@@ -628,13 +692,13 @@
       ],
       "eventType": "新題材",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "MVP, a fridge-sized satellite built by Google and Planet, carries four Trillium TPUs into orbit to run Gemini on solar power. The chips can only work for about a quarter of an hour before they have to stop and shed heat, and that limit is the real subject of the experiment. Google ’s first artificial intelligence satellite will spend part of its working life switched off on purpose. MVP, the opening flight of Project Suncatcher, carries four Tensor Processing Units that will run Gemini models for roughly 15 minutes",
+        "event": "MVP 是一顆冰箱大小的衛星，由 Google 和 Planet 建造，將四顆 Trillium TPU 送入軌道，利用太陽能為 Gemini 運行。這些晶片只能工作大約一刻鐘，然後就必須停止並散發熱量，而這個限制才是實驗的真正主題。 MVP 是 Suncatcher 專案的首航，搭載四個張量處理單元，將運行 Gemini 模型約 15 分鐘，停下來，等待散熱器將熱量散發到太空中，然後再次啟動。 Suncatcher 專案已被 Goog 收錄",
         "numbers": [],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "MVP, a fridge-sized satellite built by Google and Planet, carries four Trillium TPUs into orbit to run Gemini on solar power. The chips can only work for about a quarter of an hour before they have to stop and shed heat, and that limit is the real subject of the experiment.",
+        "stance": "MVP 是一顆冰箱大小的衛星，由 Google 和 Planet 建造，將四顆 Trillium TPU 送入軌道，利用太陽能為 Gemini 運行。這些晶片只能工作大約一刻鐘，然後就必須停止並散發熱量，而這個限制才是實驗的真正主題。谷歌的第一顆人工智慧衛星將在其部分工作壽命中被故意關閉。 MVP 是 Suncatcher 專案的首航，搭載四個張量處理單元，將運行 Gemini 模型約 15 分鐘，停下來，等待散熱器將熱量散發到太空中，然後再次啟動。停頓聽起來像是技術腳註。谷歌發送衛星就是為了回答這個問題。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2190,15 +2254,16 @@
       "group": "市場重點",
       "tag": "利多",
       "title": "亞馬遜交易支援 3B+ Calvert Cliffs 核升級 - 工程新聞記錄",
-      "summary": "",
+      "summary": "Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
       "originalTitle": "Amazon Deal Backs $3B-Plus Calvert Cliffs Nuclear Upgrade - Engineering News-Record",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcHBqTzd2cVRjZjY5TDdnZkRXVTFoV2tvUUh6WVlaQnZrVzhkUVFuc1g3bzFpMC1xYUtuOUNmcG5oZC15dWJPYUFoN2tNZFhvU095aXdDc3psYkc1dU90Yk45VElPNGZWbWZPdHN3WldEVndFRDJKdGFrQzVYVFYxRm1VNzNMU3pCbFB5N29aZW9zWW5Fdnc?oc=5",
+      "originalSummary": "Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
+      "url": "https://www.enr.com/articles/63745-amazon-deal-backs-3b-plus-calvert-cliffs-nuclear-upgrade",
       "ts": "2026-10-01T17:49:26+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": true,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "AMZN"
       ],
@@ -2208,13 +2273,17 @@
       "translated": true,
       "analystDetails": [],
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
+        "numbers": [
+          "$3B"
+        ],
+        "why": "券商調整理由：Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
+        "stance": "Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "券商調整理由：Amazon’s power agreement will support major improvements at Constellation’s 1.79-GW plant while its electricity continues flowing to the regional PJM Interconnection grid.",
+        "sourceQuality": "body"
       },
       "top10": true,
       "top10Rank": 4
@@ -2660,81 +2729,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光的客戶甚至擔心 5 年後的 DRAM 安全",
-      "summary": "",
-      "originalTitle": "Micron's Customers Are Worried About Securing DRAM Even 5 Years From Now",
-      "originalSummary": "Micron Technology Inc. ( MU , Financials ), the memory and storage chipmaker, is locking more business into long-term agreements as customers seek to secure DRAM supply years in advance. Warning! GuruFocus has detected 5 Warning Signs with MU. Is MU fairly valued? Test your thesis with our free DCF calculator.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/microns-customers-worried-securing-dram-172019668.html",
-      "ts": "2026-10-01T17:20:19+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.0777196721465385,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "新題材",
-      "score": 13.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "隨著客戶尋求提前數年確保 DRAM 供應，記憶體和記憶體晶片製造商美光科技公司 (MU，Financials) 正在將更多業務鎖定在長期協議中。警告！ MU 的估值合理嗎？",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "隨著客戶尋求提前數年確保 DRAM 供應，記憶體和記憶體晶片製造商美光科技公司 (MU，Financials) 正在將更多業務鎖定在長期協議中。警告！ GuruFocus 已偵測到 MU 的 5 個警訊。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRM",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "現在您可以透過 Salesforce 股票賺錢嗎？",
-      "summary": "",
-      "originalTitle": "Can You Make Money Off Salesforce Stock Now?",
-      "originalSummary": "Salesforce (CRM) stock has dropped 13% from its early September high of about $264. You make money from here only if the stock recovers and Salesforce keeps customers paying for Agentforce and Slack. Should you buy Salesforce stock after this drop? To assess that, we have to look at Salesforce's history of dips and how it subsequently recovered.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/money-off-salesforce-stock-now-171946870.html",
-      "ts": "2026-10-01T17:19:46+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.6745654920067974,
-      "relatedTickers": [
-        "CRM"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Salesforce (CRM) 股價較 9 月初約 264 美元的高點下跌了 13%。只有當庫存恢復並且 Salesforce 讓客戶為 Agentforce 和 Slack 付費時，您才能從這裡賺錢。這次下跌後您應該買 Salesforce 股票嗎？為了評估這一點，我們必須看看 Salesforce 的歷史下滑以及隨後如何復甦。",
-        "numbers": [
-          "$264.",
-          "13%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Salesforce (CRM) 股價較 9 月初約 264 美元的高點下跌了 13%。只有當庫存恢復並且 Salesforce 讓客戶為 Agentforce 和 Slack 付費時，您才能從這裡賺錢。這次下跌後您應該買 Salesforce 股票嗎？為了評估這一點，我們必須看看 Salesforce 的歷史下滑以及隨後如何復甦。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
