@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03 00:58 台灣時間",
+  "updatedAt": "2026-10-03 01:08 台灣時間",
   "historyUpdatedDate": "2026-10-03",
   "historyLastAttemptAt": "2026-10-02T16:02:20.107849+00:00",
   "historyItemCount": 800,
@@ -138,31 +138,38 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "最新就業數據公佈後，華爾街股市上漲，殖利率回升",
-      "summary": "",
+      "summary": "U.S. equities climbed Friday after the September nonfarm payrolls report came in cooler than economists expected. The blue-chip Dow ( DJI ) was last +0.3%, the benchmark S&P 500 ( SP500 ) was +0.7%, and the tech-focused Nasdaq Composite ( COMP:IND ) was last +1.3%.",
       "originalTitle": "Wall Street rallied and yields moved back higher after the latest payrolls data",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOWgwd2dnX2h1TG9YamF4anZSR25XQTdTSE9QdUhlUFZNVkRlR3pmV1VaTlpJdExlR0pHUko2d1dmX0pOQmEzcEpIMzlabm12dEkycV93d05lMUNFaWJhWWNEOU4wSzR5azVTTzU0QURKbHYwX2NxOWgtdEF6WmhZNzBhcWlzdm9kcExoSmdURUpxVjVFRnhva2pEei10cGNuUjRtSE9GczUtdlg1TktlbHFSQkU?oc=5",
+      "originalSummary": "U.S. equities climbed Friday after the September nonfarm payrolls report came in cooler than economists expected. The blue-chip Dow ( DJI ) was last +0.3%, the benchmark S&P 500 ( SP500 ) was +0.7%, and the tech-focused Nasdaq Composite ( COMP:IND ) was last +1.3%.",
+      "url": "https://seekingalpha.com/news/4649826-wall-street-rallied-and-yields-slipped-after-the-latest-payrolls-data-landed",
       "ts": "2026-10-02T16:19:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [],
       "eventType": "新題材",
       "score": 24.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "U.S. equities climbed Friday after the September nonfarm payrolls report came in cooler than economists expected. The blue-chip Dow ( DJI ) was last +0.3%, the benchmark S&P 500 ( SP500 ) was +0.7%, and the tech-focused Nasdaq Composite ( COMP:IND ) was last +1.3%.",
+        "numbers": [
+          "0.3%",
+          "0.7%",
+          "1.3%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "U.S. equities climbed Friday after the September nonfarm payrolls report came in cooler than economists expected.",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -783,6 +790,38 @@
       "eventType": "",
       "score": 3.0,
       "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "高通剛剛與蘋果簽署了一項令人驚訝的協議，並宣布了個人人工智慧的未來",
+      "summary": "",
+      "originalTitle": "Qualcomm just inked a surprise Apple deal and announced the future of personal AI",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ3NKVXlUWFVZcUkyd2hEZzBBQzBwQ29USXAxanBuZ3pHV2dnWGxNallwTmZVM0c3WThkejV0aFQwbzdST095XzA4ZEJDSG80aktvRE8xcW5CWkVIam1CYm9YZTBEVC1zN045T09VRVZaZHdIRjk3X1FBSDhzSEN5RHJMenJuUktwajdHUVlQSEo2ejhXSW9xTmVUcU94aHByai1qcWg0M0F4VTRQRVFVMW1lYzFqM191UjhVd1pONUdnWEo5dlHSAcYBQVVfeXFMTUNzSlV5VFhVWXFJMndoRGcwQUMwcENvVElwMWpwbmd6R1dnZ1hsTWpZcE5mVTNHN1k4ZHo1dGhUMG83Uk9PeV8wOGRCQ0hvNGpLb0RPMXFuQlpFSGptQmJvWGUwRFQtczdOOU9PVUVWWmR3SEY5N19RQUg4c0hDeURyTHpyblJLcGo3R1FZUEhKNno4V0lvcU5lVHFPeGhwcmotanFoNDNBeFU0UEVRVTFtZWMxajNfdVI4VXdaTjVHZ1hKOXZR?oc=5",
+      "ts": "2026-10-02T15:01:16+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "QCOM"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2016,38 +2055,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "高通剛剛與蘋果簽署了一項令人驚訝的協議，並宣布了個人人工智慧的未來",
-      "summary": "",
-      "originalTitle": "Qualcomm just inked a surprise Apple deal and announced the future of personal AI",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNk10ZEZsbldOLUJRT3ZhMlJZMnB1dHNySWEwRFV3OExJN3B0ampOc3ZrQjBnR3VieHR6N19RblZzUkdsbS04VU10eERZU3VnSmZtR1h0LW9SQ1ZvTWUzTnBmLUkxTXI5U0RuYU1FaHBrN3Z4Qi1SZ256eFFoV21mV20zQ0hQMUJwSEdvbE4wRFB4U0RGMFU3ZnYtTWNHOXkwTWE5ZVRxNmlXOFpiZnYzTDk3bHFSel83WFIzcm9fQQ?oc=5",
-      "ts": "2026-10-02T13:31:05+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "CRWV",
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
@@ -3022,33 +3029,42 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "由於人工智慧短缺出現緩解跡象，希捷和西部數據股價暴跌",
-      "summary": "",
+      "summary": "Investing.com—有報告指出東芝計劃大幅擴大其硬碟產能以滿足人工智慧資料中心不斷增長的需求，希捷科技（NASDAQ）股價下跌 11%，西部數據（納斯達克）股價下跌 7%。在您購買 NVIDIA 之前：我們的 AI 模型的股票選擇優於市場 120% 以上。立即查看清單 »",
       "originalTitle": "Seagate Stock and Western Digital Tumble as AI Shortage Shows Signs of Easing",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVG16eVVkaVVmY3d5aGhXUmFQSVpCcDZqbi1SWExsTktyUU94TTVFWEtNWGxQU2N4a2xXdXJ0OUxXalNHTjhuVmxJUnJQVUZiMllaSVZGUkhvTjBURWExNnJ1ZHI2MzBjdkNTQXp3eFFSYnYxS2pWWDJEdkZpQXhUb1dtYk05UEhMQUJKNVd1RFM?oc=5",
+      "originalSummary": "Investing.com -- Seagate Technology (NASDAQ) shares fell 11% on Friday, while Western Digital (NASDAQ) dropped 7%, after a report that Toshiba plans to significantly expand its hard disk drive production capacity to meet growing demand from AI data centers. Before you buy NVIDIA: our AI model's stock picks are beating the market by 120%+. See the list now »",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-western-digital-shares-fall-121819634.html",
       "ts": "2026-10-02T14:03:00+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "STX",
+        "NVDA",
         "WDC"
       ],
-      "eventType": "",
+      "eventType": "跨公司事件",
       "score": 15.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Investing.com—有報告指出東芝計劃大幅擴大其硬碟產能以滿足人工智慧資料中心不斷增長的需求，希捷科技（NASDAQ）股價下跌 11%，西部數據（納斯達克）股價下跌 7%。在您購買 NVIDIA 之前：我們的 AI 模型的股票選擇優於市場 120% 以上。立即查看清單 »",
+        "numbers": [
+          "11%",
+          "7%",
+          "120%"
+        ],
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "Investing.com—有報告指出東芝計劃大幅擴大其硬碟產能以滿足人工智慧資料中心不斷增長的需求，希捷科技（NASDAQ）股價下跌 11%，西部數據（納斯達克）股價下跌 7%。在您購買 NVIDIA 之前：我們的 AI 模型的股票選擇優於市場 120% 以上。立即查看清單 »",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "TSLA",
@@ -3649,7 +3665,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 獲得有史以來最大的電子商業交易：Synspective 的 20 項發射合同",
-      "summary": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“103135763667 東京”個新 Electron 任務的多年發射協議",
+      "summary": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
       "originalTitle": "Rocket Lab Secures Largest-Ever Electron Commercial Deal: 20-Launch Contract for Synspective",
       "originalSummary": "The deal marks Rocket Lab’s single largest commercial launch contract for Electron to date, reinforcing Electron’s position as the world’s most in-demand rocket for small satellite constellation deploymentLONG BEACH, Calif., Sept. 30, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB) (“Rocket Lab” or the “Company”), a global leader in launch services and space systems, today announced it has signed a multi-year launch agreement for 20 new Electron missions with Tokyo-based Earth obs",
       "url": "https://finance.yahoo.com/technology/articles/rocket-lab-secures-largest-ever-230000314.html",
@@ -3666,10 +3682,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“103135763667 東京”個新 Electron 任務的多年發射協議",
+        "event": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“103135763667 東京”個新 Electron 任務的多年發射協議",
+        "stance": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -4803,7 +4819,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Nebius 收購 Inferize 以加強 Nebius Token Factory 的生產推理堆疊",
-      "summary": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+      "summary": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
       "originalTitle": "Nebius acquires Inferize to strengthen Nebius Token Factory's production inference stack",
       "originalSummary": "Brings technology that cuts time to launch and scale large AI models, improving token economics and capacity utilization Adds deeply experienced systems engineering talent to Nebius's inference team Continues production inference build-out on Nebius with optimizations across the stack AMSTERDAM, October 01, 2026 --( BUSINESS WIRE )--Nebius (Nasdaq: NBIS), the AI cloud company, today announced it has acquired Inferize, an inference optimization company whose technology shortens the time needed to launch and scale large AI models, making inference workloads elastic.",
       "url": "https://finance.yahoo.com/technology/ai/articles/nebius-acquires-inferize-strengthen-nebius-110000515.html",
@@ -4819,10 +4835,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+        "event": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
         "numbers": [],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+        "stance": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -5965,7 +5981,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 再運送三顆藍鳥衛星（ASTS：納斯達克）到卡納維爾角）",
-      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
       "originalTitle": "AST SpaceMobile ships three more BlueBird satellites to Cape Canaveral (ASTS:NASDAQ)",
       "originalSummary": "Shares of AST SpaceMobile (NASDAQ: ASTS) climbed more than 1% overnight heading into Thursday after the company confirmed the shipment of three BlueBird satellites to Cape Canaveral. ASTS stock had fallen nearly 1% to $58.86 on Wednesday, closing out September with a 0.2% monthly loss and remaining down 19% year-to-date.",
       "url": "https://www.foreignpolicyjournal.com/2026/10/02/ast-spacemobile-nasdaq-asts-ships-three-bluebird-satellites-to-cape-canaveral-as-ceo-pushes-for-broader-spectrum-access-at-fcc/",
@@ -5981,7 +5997,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "numbers": [
           "$58.86",
           "1%",
@@ -5989,7 +6005,7 @@
           "19%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -7099,7 +7115,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "HPE 提升網路成長前景，獲得雲端公司 Vultr 價值 12 億美元的人工智慧訂單",
-      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯尼亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 萬億美元",
+      "summary": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
       "originalTitle": "HPE boosts networking growth outlook, gets $1.2 billion AI order from cloud firm Vultr",
       "originalSummary": "(Bloomberg) -- Hewlett Packard Enterprise Co. won a $1.2 billion order to provide Advanced Micro Devices Inc. server racks with HPE networking gear to cloud company Vultr. Apple's New CEO Seeks to Make Company Run Faster and Leaner David Fincher, Director of 'Fight Club,' to Exit Netflix Deal Bose Returns to Wired Earbuds With New $99 Noise-Canceling Pair Dangote Dismisses Kenyan Court Ruling Pausing Refinery Build OpenAI Targets $30 Billion in Funding at $1.4 Trillion Value",
       "url": "https://finance.yahoo.com/technology/ai/articles/hpe-gets-1-2-billion-114600577.html",
@@ -7115,7 +7131,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯尼亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 萬億美元",
+        "event": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "numbers": [
           "$1.2 billion",
           "$99",
@@ -7123,7 +7139,7 @@
           "$1.4"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯尼亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 萬億美元",
+        "stance": "(彭博社) -- 惠普企業公司 (Hewlett Packard Enterprise Co.) 贏得了價值 12 億美元的訂單，為 Advanced Micro Devices Inc. 的伺服器機架提供 HPE 網路設備給雲端公司 Vultr。蘋果新任 CEO 尋求讓公司運作得更快、更精簡 《搏擊俱樂部》導演大衛芬奇 (David Fincher) 退出 Netflix 交易 Bose 推出售價 99 美元的新降噪耳機回歸有線耳機 Dangote 駁回肯亞法院暫停煉油廠建設的裁決 OpenAI 目標融資 300 億美元，價值 14 兆美元",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -12277,7 +12293,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems 將參加 2026 年在舊金山舉行的第 18 屆年度執行長投資者高峰會",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
       "originalTitle": "Aehr Test Systems to Participate in 18th Annual CEO Investor Summit 2026 in San Francisco",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.",
       "url": "https://finance.yahoo.com/technology/ai/articles/aehr-test-systems-participate-18th-113000205.html",
@@ -12294,10 +12310,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -20951,7 +20967,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "新思科技 (Synopsys) 與台積電 (TSMC) 合作，利用智慧人工智慧和先進設計加速人工智慧系統創新",
-      "summary": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+      "summary": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
       "originalTitle": "Synopsys and TSMC Partner to Accelerate AI Systems Innovation with Agentic AI and Advanced Design",
       "originalSummary": "New collaborations span A14 design enablement, AI-assisted engineering workflows, CoWoS® support for multi-die designs, and unified multiphysics signoff Certified EDA flows on TSMC A14 accelerate design readiness for next-generation AI and HPC applications Collaboration on agentic AI workflows accelerates automation and improves productivity for complex analog, digital, and multi-die designs Continued enablement for IVR multi-die designs on TSMC CoWoS® technology addresses power integrity and thermal requirements for AI systems Continued joint enablement for TSMC-COUPE™ streamlines co-packaged optics development and verification Expanded 2nm IP portfolio and tape-out milestones including for PCIe 7.0 and HBM4 speed the development of differentiated AI, data center, edge, and automotive products",
       "url": "https://finance.yahoo.com/technology/ai/articles/synopsys-tsmc-partner-accelerate-ai-190100128.html",
@@ -20967,10 +20983,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+        "event": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+        "stance": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
