@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 10:22 台灣時間",
+  "updatedAt": "2026-10-02 10:28 台灣時間",
   "historyUpdatedDate": "2026-10-02",
   "historyLastAttemptAt": "2026-10-01T16:02:12.166812+00:00",
   "historyItemCount": 800,
@@ -480,30 +480,34 @@
       "title": "谷歌的人工智慧晶片將在 Planet 發射的 20 顆衛星之一上進行首次太空測試。",
       "summary": "",
       "originalTitle": "Google's AI chips will get their first space test aboard one of 20 satellites Planet launched.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHNjNVl3QmxhSnpnRUE5R0F4cHpsdUpDc2tTaE1VMnpuWG9vUjczSTk1LU55Umpja29aU3VlbVYyc2VYR3NRRllScXprMUhyS2JoWDd0QVRtVEo4bnlNZDVtTkVOOXFTd3g2M1NCNDRadVlQVTVZVmlubFZNWHk4dkxkczM0YkNHLWVpNUJYbWdSSUd4MmlEclEzNE0wMkFMYW9hUG5ZY2xrRW8?oc=5",
+      "originalSummary": "Google's TPUs reached orbit aboard SpaceX's Transporter-18 mission, marking the chips' first trip into space. Project Suncatcher is testing the chips against radiation, extreme heat and launch conditions. GOOGL stock declined the last two days, even as the retail sentiment on Stocktwits moved higher to 'bullish.'",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-just-sent-ai-chips-015807413.html",
       "ts": "2026-10-01T22:42:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "SPCX"
       ],
-      "eventType": "新題材",
-      "score": 25.5,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "谷歌的 TPU 搭乘 SpaceX Transporter-18 任務進入軌道，標誌著該晶片首次進入太空。 Suncatcher 專案正在測試晶片的輻射、極端高溫和發射條件。儘管 Stocktits 上的零售情緒上升至“看漲”，但 GOOGL 股價在過去兩天仍然下跌。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "谷歌的 TPU 搭乘 SpaceX Transporter-18 任務進入軌道，標誌著該晶片首次進入太空。 Suncatcher 專案正在測試晶片的輻射、極端高溫和發射條件。儘管 Stocktits 上的零售情緒上升至“看漲”，但 GOOGL 股價在過去兩天仍然下跌。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null,
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -1465,7 +1469,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
