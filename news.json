@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03 01:28 台灣時間",
+  "updatedAt": "2026-10-03 01:34 台灣時間",
   "historyUpdatedDate": "2026-10-03",
   "historyLastAttemptAt": "2026-10-02T16:02:20.107849+00:00",
   "historyItemCount": 800,
@@ -7,25 +7,95 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌為 Suncatcher 計畫發射衛星：人工智慧資料中心最終能否在太空中運作？",
+      "summary": "",
+      "originalTitle": "Google launches satellites for Project Suncatcher: Could AI data centers eventually operate in space?",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOU09YTDdURU03QjY2Nkl0aG4wX25WRnlJX1VsNXladzg1Z21JcjExSU52VG5Lb3U1Z3Bxd2RzeURQaEdlSHk5NjBrOVFUZmlyVlBjS0d5Y1k2UGthbTRUcTBFQThtRjZrbmljQnJEaGZCSEU3RGVvQmR1YnJkcEFfRXRLeV9yNGJzenFPVktpNEVGOE0yZE0wcm9vT1RoOWpWa0JSSkMwTGFMcGNLQ2FiQm1wVHlJa3FjUmxLMmZBWWQ5ZDN2aXp3QTJUT2lLNEFtYXJieUF6QXJfb3NW?oc=5",
+      "ts": "2026-10-02T17:24:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 31.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "WDC",
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "$Seagate Technology (STX.US)$$Western Digital (WDC.US)$ 菲律賓是一個經常發生颱風、地震的地方。東芝在菲律賓的工廠擴張，對於硬碟供應鏈來說絕對是一個高風險的舉動。",
-      "summary": "",
+      "summary": "Toshiba doubling HDD output sent Seagate down 10% and Western Digital down 7%, threatening the tight supply both CEOs credited for pricing leverage. The Roundhill Memory ETF fell just 0.3% and QQQ rose 0.6%, confirming the selloff is isolated to HDD stocks, not broader memory or tech.",
       "originalTitle": "$Seagate Technology (STX.US)$$Western Digital (WDC.US)$ philipine is a place where always having typhoon , earthquake. toshiba factory is expanding in philipine, definitely it is a high risk movement for the hardrive supply chain.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWDl3WFZGSHFJWE1taEhkZnZabVJ5emRMelAyR3l1MERSX3RQQXUtY3F4d0YwZlRHV2Z5djl3TzNpQXFJY1JUX29DdlVITVF4VnVQQTNzVXU3T3hNSjQxc0VBOVo4NWtyNmpjYXlVcEJzRElKMlpVZU42aDZxZ3VrWlpELVI3WDZjVmp0RGZncWp1Y2ltQ0pweWg2a3UyemoxSURGbEN2WTk2RHNFTmI1SV9aN05KZw?oc=5",
+      "originalSummary": "Toshiba doubling HDD output sent Seagate down 10% and Western Digital down 7%, threatening the tight supply both CEOs credited for pricing leverage. The Roundhill Memory ETF fell just 0.3% and QQQ rose 0.6%, confirming the selloff is isolated to HDD stocks, not broader memory or tech.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-tumbles-10-western-digital-125250923.html",
       "ts": "2026-10-02T17:23:51+00:00",
       "sourceType": "moomoo_public",
       "analystPriority": false,
       "movePct": -11.13801452784503,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "WDC",
         "STX"
       ],
       "eventType": "跨公司事件",
       "score": 30.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Toshiba doubling HDD output sent Seagate down 10% and Western Digital down 7%, threatening the tight supply both CEOs credited for pricing leverage. The Roundhill Memory ETF fell just 0.3% and QQQ rose 0.6%, confirming the selloff is isolated to HDD stocks, not broader memory or tech.",
+        "numbers": [
+          "10%",
+          "7%",
+          "0.3%",
+          "0.6%"
+        ],
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "Toshiba doubling HDD output sent Seagate down 10% and Western Digital down 7%, threatening the tight supply both CEOs credited for pricing leverage.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "今天的會議發生了什麼：道瓊斯指數",
+      "summary": "",
+      "originalTitle": "What's going on in today's session: dow jones movers",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeEpsUWFRQlFZbnNRVHVncnZ0TWZvMHI0a3d3bHJFYjFfOWU5TjltVmxPNzE4c1daMDN1X2pkbEFRNnpxNElOeUpMVnJudnp2VjRoOHE2UWxtNUFhQk53UG16TW5UTXIzOW9PR0tuekNpZUdRZW8zMDFydEdFc3RYVGQtLWpBNFZ3ZnVQRVA5Q0g5NnA1WXAtQnV5OVV6d1FnbHJB?oc=5",
+      "ts": "2026-10-02T16:40:14+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -253,7 +323,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1494,7 +1564,7 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2227,15 +2297,15 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "目前人工智慧領域最激進的價格目標屬於 CoreWeave",
-      "summary": "CoreWeave 的積壓訂單讓其最接近的競爭對手相形見絀，營收成長也遠超傳統雲端巨頭，但該股的交易價格仍遠低於 52 週高點。這就是為什麼飆升的機會和不斷膨脹的債務之間的緊張關係使得這成為目前市場上最兩極分化的人工智慧賭注。",
+      "summary": "",
       "originalTitle": "The Most Aggressive Price Target in AI Right Now Belongs to CoreWeave",
-      "originalSummary": "CoreWeave carries a backlog that dwarfs its closest rival and revenue growth that towers over legacy cloud giants, yet the stock still trades far below its 52-week high. Here is why the tension between a soaring opportunity and ballooning debt makes this the most polarizing AI bet on the market right now.",
-      "url": "https://247wallst.com/investing/2026/10/02/the-most-aggressive-price-target-in-ai-right-now-belongs-to-coreweave/",
-      "ts": "2026-10-02T13:30:00+00:00",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRGxEQXBQdml0ajlXSlFfcXlLcjhjWmZKYl84M29yZ0xvSVpzakxfXzBMaGwtcmNiRUl5clY3VjQ3NUdLbVozYTRnSnB0djJiUnVjTEIzZERyWTNFUWRDdWhxeTY2eFgxeFpxbHliaFpPT2NnNkdUYjNTdnFwSURrWFZQNWdnRTJZYkJ0M2pNUk9FcHllUlZQRUppNWI?oc=5",
+      "ts": "2026-10-02T13:30:17+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": true,
+      "hasArticleBody": false,
       "relatedTickers": [
         "CRWV"
       ],
@@ -2244,20 +2314,16 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "CoreWeave 的積壓訂單讓其最接近的競爭對手相形見絀，營收成長也遠超傳統雲端巨頭，但該股的交易價格仍遠低於 52 週高點。這就是為什麼飆升的機會和不斷膨脹的債務之間的緊張關係使得這成為目前市場上最兩極分化的人工智慧賭注。",
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
-        "why": "券商調整理由：CoreWeave 的積壓訂單讓其最接近的競爭對手相形見絀，營收成長也遠超傳統雲端巨頭，但該股的交易價格仍遠低於 52 週高點。這就是為什麼飆升的機會和不斷膨脹的債務之間的緊張關係使得這成為目前市場上最兩極分化的人工智慧賭注。",
-        "stance": "CoreWeave 的積壓訂單讓其最接近的競爭對手相形見絀，營收成長也遠超傳統雲端巨頭，但該股的交易價格仍遠低於 52 週高點。這就是為什麼飆升的機會和不斷膨脹的債務之間的緊張關係使得這成為目前市場上最兩極分化的人工智慧賭注。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：CoreWeave 的積壓訂單讓其最接近的競爭對手相形見絀，營收成長也遠超傳統雲端巨頭，但該股的交易價格仍遠低於 52 週高點。這就是為什麼飆升的機會和不斷膨脹的債務之間的緊張關係使得這成為目前市場上最兩極分化的人工智慧賭注。",
-        "sourceQuality": "body"
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8,
-      "detailSource": "article_or_same_event"
+      "top10Rank": 8
     },
     {
       "ticker": "GOOGL",
@@ -2717,74 +2783,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "STX",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "為什麼西部數據和希捷今天的股價大幅下跌",
-      "summary": "",
-      "originalTitle": "Why Western Digital and Seagate Are Seeing Big Stock Drops Today",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOS19fLWtIcHYyWF9LOTRnZG9LMzFITXRjX0lPYkk0RUJ0NXJiOTUyYlJ4eGwxMWFCc1RFNHlHM213V2pwV1BrWXBGQVFBSGdTTjdDVjVwS01TeHN0cklfb3NFa3ZnQU13UUZXRzd5T3JFX2VmVWxHQTNqM29SRGNwZ1pSX0xBamNqbmtOemJMRVp6WWZYdlREbFFNUmNBQkQ5X1V5Xw?oc=5",
-      "ts": "2026-10-02T12:58:00+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -15.113109361544652,
-      "relatedTickers": [
-        "STX",
-        "WDC"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "谷歌的 Suncatcher 衛星計畫進入軌道以測試太空中的人工智慧運算",
-      "summary": "",
-      "originalTitle": "Google’s Project Suncatcher Satellite Reaches Orbit to Test AI Computing in Space",
-      "originalSummary": "Alphabet Inc. ( GOOG , Financials ), the parent company of Google, has taken an early step toward finding out whether artificial intelligence infrastructure could eventually operate in space. Warning! GuruFocus has detected 3 Warning Sign with AVGO. Is GOOGL fairly valued? Test your thesis with our free DCF calculator.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/google-takes-ai-infrastructure-experiment-122225703.html",
-      "ts": "2026-10-02T12:55:11+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "新題材",
-      "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "谷歌的母公司 Alphabet Inc.（GOOG，金融股）已邁出早期一步，探索人工智慧基礎設施最終能否在太空中運作。警告！ GOOGL 的估值是否合理？",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "谷歌的母公司 Alphabet Inc.（GOOG，金融股）已邁出早期一步，探索人工智慧基礎設施最終能否在太空中運作。警告！ GuruFocus 已偵測到 AVGO 的 3 個警訊。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
@@ -10067,14 +10065,14 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "德州儀器 (TXN) 股票與其現金流前景相比看起來昂貴",
-      "summary": "",
+      "summary": "近年來，德州儀器 (TI) 實現了強勁的股東回報，這讓人們重新關註一個核心問題：當前股價是否與該業務預期產生的現金相符。由於該股現在反映出多年來的樂觀情緒，問題是市場熱情與公司基本現金流狀況的匹配程度如何。",
       "originalTitle": "Texas Instruments (TXN) Stock Looks Expensive Against Its Cash Flow Outlook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcTA4bW5VX3VsOUNHc1lsWkg0aTZUN3ZfeFp6LWZqSDNfZ0I5VGJYX0NTb3ZWTHZRVVdBeS1LOFlMYW92cW1kVk1Cc1k1bUNDMndfUGdfemk1MlBrRnhJeHp6M1htdXhPTktIa0RLdWZJek1RX3hzWk5mNDZWS0pNWHpkSl83TFpyc0VmNlJYZ0NUOTZONkJIdjAyZ3RNMXc?oc=5",
+      "originalSummary": "Texas Instruments has delivered strong shareholder returns in recent years, which puts fresh attention on one core issue: whether the current share price lines up with the cash the business is expected to generate. With the stock now reflecting years of optimism, the question is how well that market enthusiasm matches the company's underlying cash flow profile.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-txn-stock-looks-100504657.html",
       "ts": "2026-09-29T10:05:04+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "TXN"
       ],
@@ -10083,14 +10081,18 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "近年來，德州儀器 (TI) 實現了強勁的股東回報，這讓人們重新關註一個核心問題：當前股價是否與該業務預期產生的現金相符。由於該股現在反映出多年來的樂觀情緒，問題是市場熱情與公司基本現金流狀況的匹配程度如何。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      }
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "近年來，德州儀器 (TI) 實現了強勁的股東回報，這讓人們重新關註一個核心問題：當前股價是否與該業務預期產生的現金相符。由於該股現在反映出多年來的樂觀情緒，問題是市場熱情與公司基本現金流狀況的匹配程度如何。",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "TER",
