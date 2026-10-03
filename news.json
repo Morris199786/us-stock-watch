@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03 22:54 台灣時間",
+  "updatedAt": "2026-10-03 22:58 台灣時間",
   "historyUpdatedDate": "2026-10-03",
   "historyLastAttemptAt": "2026-10-02T16:02:20.107849+00:00",
   "historyItemCount": 800,
@@ -251,6 +251,37 @@
       "eventType": "",
       "score": 9.75,
       "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌發射 Project Suncatcher 衛星，在太空測試太陽能人工智慧計算",
+      "summary": "",
+      "originalTitle": "Google launches Project Suncatcher satellite to test solar-powered AI computing in space",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSTzZxTFVySVloOU9KMjhWVnhXdzExOGo4UFlHNGIwcmJaOUtCNWNMWkNVVmV4TVBXdXc4bU1DeUx5M3NxUHQ4Ni1HTEVjN3c?oc=5",
+      "ts": "2026-10-03T12:56:15+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 31.5,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1244,44 +1275,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "谷歌發射 Project Suncatcher 衛星，在太空測試太陽能人工智慧計算",
-      "summary": "Google has launched the first prototype satellite for Project Suncatcher, a long-term research initiative exploring whether space could eventually support scalable machine learning infrastructure. The prototype launched into orbit on October 1 aboard SpaceX’s Transporter-18 rideshare mission. Google developed the satellite in partnership with Planet. Google confirmed that its team successfully established contact with the satellite after launch and that the spacecraft is operating as expected. The mission represent",
-      "originalTitle": "Google launches Project Suncatcher satellite to test solar-powered AI computing in space",
-      "originalSummary": "Google has launched the first prototype satellite for Project Suncatcher, a long-term research initiative exploring whether space could eventually support scalable machine learning infrastructure. The prototype launched into orbit on October 1 aboard SpaceX’s Transporter-18 rideshare mission. Google developed the satellite in partnership with Planet. Google confirmed that its team successfully established contact with the satellite after launch and that the spacecraft is operating as expected. The mission represents the first in-orbit test for Project Suncatcher, which is investigating whether space-based computing infrastructure could eventually support demanding machine learning workloads. A primary objective of the prototype mission is to test Google’s Tensor Processing Units under actual spaceflight conditions. Over the coming weeks, Google’s research team plans to collect data on how the TPUs respond to the physical stresses associated with launch and operation in orbit. Researchers will also evaluate how the hardware performs when exposed to radiation and the extreme thermal conditions encountered in space. The tests are intended to provide real-world information that cannot be fully replicated on Earth and help Google refine the hardware and system designs being considered for future Project Suncatcher development. Google has also published a peer-reviewed paper in the scientific journal Joule detailing the research underlying the project and the prototype mission. Project Suncatcher is being developed as a research moonshot rather than a near-term commercial product. The project is examining the technical requirements and limitations involved in moving portions of AI and machine learning infrastructure beyond terrestrial data centers.",
-      "url": "https://pulse2.com/google-launches-project-suncatcher-prototype-satellite-to-test-ai-infrastructure-in-space/",
-      "ts": "2026-10-03T06:47:18+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL",
-        "SPCX"
-      ],
-      "eventType": "跨公司事件",
-      "score": 35.1,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "Google has launched the first prototype satellite for Project Suncatcher, a long-term research initiative exploring whether space could eventually support scalable machine learning infrastructure. The prototype launched into orbit on October 1 aboard SpaceX’s Transporter-18 rideshare mission. Google developed the satellite in partnership with Planet. Google confirmed that its team successfully established contact with the satellite after launch and that the spacecraft is operating as expected.",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Google has launched the first prototype satellite for Project Suncatcher, a long-term research initiative exploring whether space could eventually support scalable machine learning infrastructure. The prototype launched into orbit on October 1 aboard SpaceX’s Transporter-18 rideshare mission.",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
-    },
-    {
       "ticker": "AAOI",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -1335,7 +1328,7 @@
       "originalTitle": "Google's Space TPUs: Can They Be Profitable Even If They Can Be Cooled?",
       "originalSummary": "There is a post on Reddit claiming that Google will send TPUs into space next week. TPUs are Google's AI computing chips. If they can utilize sunlight for longer periods, could they run AI more cheaply than on the ground? While the comments section expresses anticipation, there are also ongoing",
       "url": "https://note.com/made_from_fuji/n/nd1b869af4e9b?hl=en",
-      "ts": "2026-10-03T05:43:00+00:00",
+      "ts": "2026-10-03T06:00:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "hasArticleBody": true,
