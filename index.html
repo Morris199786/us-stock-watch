@@ -955,8 +955,9 @@ function renderFocus(){
         <div class="focusPill">順位 ${x.priority||"--"}｜${escapeHtml(x.category||"")}</div>
         <div class="focusHeadline">${escapeHtml(x.headline||"")}</div>
         ${extras}
-        ${x.reason?`<div class="focusReason"><span class="focusLabel">新增重點</span>${escapeHtml(x.reason)}</div>`:""}
-        <div class="focusJudge"><span class="focusLabel">判讀</span>${escapeHtml(x.judgement||"")}</div>
+        ${Array.isArray(x.bullets)&&x.bullets.length?`<div class="focusReason"><span class="focusLabel">事件重點</span><ul>${x.bullets.map(b=>`<li>${escapeHtml(b)}</li>`).join("")}</ul></div>`:""}
+        ${x.limitation?`<div class="focusJudge"><span class="focusLabel">資訊限制</span>${escapeHtml(x.limitation)}</div>`:""}
+        ${!x.digestVersion?`<div class="focusJudge">舊版摘要尚未重新核對，請查看原始來源</div>`:""}
         ${src.length?`<div class="focusSources">${src.map(s=>`<a target="_blank" rel="noopener" href="${escapeHtml(s.url||"#")}">查看來源 ↗</a>`).join("")}</div>`:""}
       </div>
     </article>`;

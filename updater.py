@@ -4,6 +4,7 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+from focus_digest import digest as catalyst_digest, classify as catalyst_classify, VERSION as FOCUS_VERSION
 import yfinance as yf
 from deep_translator import GoogleTranslator
 
@@ -6741,6 +6742,14 @@ def refresh_focus_data(groups, news_items):
         existing["sessions"] = []
 
     due = _focus_session_due(existing)
+    migration = None
+    if not due and existing.get("digestVersion") != FOCUS_VERSION:
+        candidates = sorted(existing.get("sessions", []), key=lambda v: str(v.get("generatedAtIso") or ""), reverse=True)
+        if candidates:
+            migration = candidates[0]
+            stamp = _focus_dt(migration.get("generatedAtIso"))
+            if stamp:
+                due = (migration["session"], migration["marketDate"], migration["key"], stamp, stamp.astimezone(ZoneInfo("America/New_York")), stamp.astimezone(ZoneInfo("Asia/Taipei")))
     if not due:
         return
 
@@ -6771,7 +6780,7 @@ def refresh_focus_data(groups, news_items):
         except Exception:
             move_abs = 0.0
 
-        priority, category = _focus_classify(x, move_abs)
+        priority, category = catalyst_classify(x)
         if priority >= 99:
             continue
 
@@ -6789,54 +6798,45 @@ def refresh_focus_data(groups, news_items):
         by_ticker.setdefault(ticker, []).append((score, priority, category, dt, x))
 
     items = []
-    for ticker, rows in by_ticker.items():
+    fetch_budget = 8
+    old_quotes = {r.get("ticker"): r for r in (migration or {}).get("items", [])}
+    for ticker, rows in sorted(by_ticker.items(), key=lambda pair: -max(r[0] for r in pair[1])):
         rows.sort(key=lambda z: (z[0], z[3]), reverse=True)
-        best = rows[0]
-        score, priority, category, dt, x = best
-        s = stock_map[ticker]
-
-        if session == "pre":
-            move_pct = s.get("preMarketChangePct")
-            move_price = s.get("preMarketPrice")
-            move_label = "盤前"
+        stock = stock_map[ticker]
+        chosen = None
+        for score, priority, category, dt, original in rows[:3]:
+            article = dict(original)
+            brief = catalyst_digest(article, ticker, stock.get("name") or ticker, zh)
+            if (not brief or brief.get("detailStatus") == "headline_only") and fetch_budget and article.get("url"):
+                fetch_budget -= 1
+                try:
+                    body, resolved = _fetch_article_context(article["url"])
+                    if body:
+                        article["originalSummary"] = body
+                        article["analystDetails"] = []  # never attach another article's rationale
+                        article["url"] = resolved or article["url"]
+                        brief = catalyst_digest(article, ticker, stock.get("name") or ticker, zh)
+                except Exception:
+                    pass
+            if brief:
+                chosen = (score, article, brief)
+                break
+        if not chosen:
+            continue
+        score, article, brief = chosen
+        if migration:
+            if ticker not in old_quotes:
+                continue  # historical prices cannot be reconstructed from today's quote
+            quote = {k: old_quotes[ticker].get(k) for k in ("moveLabel", "movePct", "movePrice", "regularChangePct", "preMarketChangePct", "postMarketChangePct")}
         else:
-            move_pct = s.get("changePct")
-            move_price = s.get("regularPrice")
-            move_label = "收盤"
-
-        highlights = []
-        sources = []
-        for row in rows[:3]:
-            xx = row[4]
-            title = str(xx.get("title") or xx.get("originalTitle") or "").strip()
-            if title and title not in highlights:
-                highlights.append(title)
-            url = str(xx.get("url") or "").strip()
-            if url and not any(z.get("url") == url for z in sources):
-                sources.append({"title": title or "原始來源", "url": url})
-
-        reason = _focus_reason(x)
-        judgement = _focus_judgement(priority, category, x, move_pct)
-
-        items.append({
-            "ticker": ticker,
-            "name": s.get("name") or ticker,
-            "group": s.get("group") or "",
-            "priority": priority,
-            "category": category,
-            "headline": highlights[0] if highlights else "",
-            "highlights": highlights[:3],
-            "reason": reason,
-            "judgement": judgement,
-            "moveLabel": move_label,
-            "movePct": move_pct,
-            "movePrice": move_price,
-            "regularChangePct": s.get("changePct"),
-            "preMarketChangePct": s.get("preMarketChangePct"),
-            "postMarketChangePct": s.get("postMarketChangePct"),
-            "sources": sources[:3],
-            "score": round(float(score), 2),
-        })
+            quote = {"moveLabel": "盤前" if session == "pre" else "收盤",
+                     "movePct": stock.get("preMarketChangePct" if session == "pre" else "changePct"),
+                     "movePrice": stock.get("preMarketPrice" if session == "pre" else "regularPrice"),
+                     "regularChangePct": stock.get("changePct"), "preMarketChangePct": stock.get("preMarketChangePct"),
+                     "postMarketChangePct": stock.get("postMarketChangePct")}
+        items.append({"ticker": ticker, "name": stock.get("name") or ticker, "group": stock.get("group") or "",
+                      **brief, **quote, "sources": [{"title": article.get("source") or "原始來源", "url": article.get("url") or ""}],
+                      "score": round(float(score), 2)})
 
     items.sort(key=lambda z: (z.get("priority", 99), -z.get("score", 0)))
     items = items[:15]
@@ -6851,12 +6851,15 @@ def refresh_focus_data(groups, news_items):
         "items": items,
     }
 
+    if migration and not items:
+        return  # no usable historical source: retain original snapshot, retry next run
     sessions = [s for s in existing.get("sessions", []) if s.get("key") != key]
     sessions.append(payload)
     sessions.sort(key=lambda s: str(s.get("generatedAtIso") or ""), reverse=True)
     sessions = sessions[:20]
 
     out = {
+        "digestVersion": FOCUS_VERSION,
         "updatedAt": now_tw.strftime("%Y-%m-%d %H:%M 台灣時間"),
         "schedule": {
             "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
@@ -6896,3 +6899,4 @@ refresh_focus_data(groups, news)
     encoding="utf-8"
 )
 print(f"updated {len(groups)} groups, {len(news)} news items + earnings")
+
