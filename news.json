@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04 02:04 台灣時間",
+  "updatedAt": "2026-10-04 02:22 台灣時間",
   "historyUpdatedDate": "2026-10-04",
   "historyLastAttemptAt": "2026-10-03T16:03:35.681744+00:00",
   "historyItemCount": 800,
@@ -323,8 +323,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -869,7 +869,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 35.25,
+      "score": 30.55,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -888,8 +888,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 9,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1807,29 +1807,32 @@
       "title": "最新就業報告緩解了對通膨的擔憂，美國股市上漲至歷史最高水準 - 《匹茲堡郵報》",
       "summary": "",
       "originalTitle": "U.S. stocks rise near their record after the latest jobs report eases worries about inflation - Pittsburgh Post-Gazette",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPckE2Y1Rsa3lOWFdfbm5PdGFvTHN3UTJaNG43dkFDdXZRX09zeW1ITUNrYnFybDJ0a2xKMTNXd01TQ3VWeExEZGhBLS1yNlhrWDBJWVFNaEhOMHJoSHNaUGF4YUsyOS1pbVFTdUNkZTZ3bzJLTTFDVHR3ZFZFRWpyZjkyTUlxQ21xU0ZfdGVlNUdqa1VGQ2plUHdXSFllbnM0b2VtZDQyVjczVGJHdFNuZ2J3?oc=5",
+      "originalSummary": "NEW YORK — U.S. stocks climbed near their all-time high on Friday after the latest update on the U.S. job market cooled worries that a potentially hot U.S economy could make inflation much worse.",
+      "url": "https://www.timesdaily.com/business/us-stocks-rise-near-their-record-after-latest-jobs-report/article_6d42ff82-4e21-48bf-8eea-97de1c032b2e.html",
       "ts": "2026-10-03T07:12:27+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [],
       "eventType": "新題材",
       "score": 21.45,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "紐約——美國就業市場的最新數據緩解了人們對美國經濟潛在過熱可能導致通膨進一步惡化的擔憂，週五美國股市攀升至歷史新高附近。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "紐約——美國就業市場的最新數據緩解了人們對美國經濟潛在過熱可能導致通膨進一步惡化的擔憂，週五美國股市攀升至歷史新高附近。",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2326,7 +2329,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "WDC",
