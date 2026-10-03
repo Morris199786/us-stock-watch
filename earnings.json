@@ -1,7 +1,7 @@
 {
   "parserVersion": 11,
-  "updatedAtUtc": "2026-10-03T05:40:59.933519+00:00",
-  "updatedAt": "2026-10-03 13:41 台灣時間",
+  "updatedAtUtc": "2026-10-03T15:25:08.857289+00:00",
+  "updatedAt": "2026-10-03 23:25 台灣時間",
   "reports": [
     {
       "ticker": "MU",
@@ -50,7 +50,7 @@
       "reactionSession": "盤後",
       "reactionObservedAt": "2026-09-30T19:55:00-04:00",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-10-03T05:41:36.285536+00:00"
+      "earningsCheckedAtUtc": "2026-10-03T15:25:41.499035+00:00"
     },
     {
       "ticker": "ORCL",
@@ -206,9 +206,9 @@
       "group": "AI 運算／AI 晶片",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 3.32,
+      "epsActual": null,
       "epsEstimate": 3.24,
-      "epsSurprisePct": 2.53,
+      "epsSurprisePct": null,
       "revenueActual": 29590000000.0,
       "revenueEstimate": 29240000000.0,
       "guidance": [],
@@ -255,9 +255,9 @@
       "group": "AI Server／資料中心硬體",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 1.11,
-      "epsEstimate": 0.94,
-      "epsSurprisePct": 18.41,
+      "epsActual": null,
+      "epsEstimate": 0.93,
+      "epsSurprisePct": null,
       "revenueActual": 12210000000.0,
       "revenueEstimate": 11970000000.0,
       "guidance": [],
@@ -304,9 +304,9 @@
       "group": "Cloud／Software／AI 應用",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": 0.62,
+      "epsActual": null,
       "epsEstimate": 0.45,
-      "epsSurprisePct": 38.71,
+      "epsSurprisePct": null,
       "revenueActual": 1550000000.0,
       "revenueEstimate": 1480000000.0,
       "guidance": [],
@@ -543,55 +543,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:27:36.524454+00:00"
     },
     {
-      "ticker": "CRM",
-      "name": "Salesforce",
-      "symbol": "CRM",
-      "group": "Cloud／Software／AI 應用",
-      "reportDate": "2026-08-26",
-      "reportDateTime": "2026-08-26T20:00:00+00:00",
-      "epsActual": 5.9,
-      "epsEstimate": 3.27,
-      "epsSurprisePct": 80.36,
-      "revenueActual": 11350000000.0,
-      "revenueEstimate": 11330000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 12.984488627964573,
-      "nextClosePct": 22.58049267441564,
-      "sources": [
-        {
-          "title": "Salesforce raises annual forecasts, expands AI partnership with Anthropic - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDN3Q0RQRENZTDF5TE95YURuRTZiczNvdTJ3ZzBRQjBGNkxRUnBlSWpSd2p3MUpJQzJoamNOR084RzU2dXRFM3ZEUXVBYWRLaVc5UXFza0VRcWNvS3ZvZGowVWdkbG9ROGVIVUt6bE9nN05VRk8zVng2b3JHT0Vub000Y2lDMzBMaWdBd1RmYVlJdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Salesforce Jumps Most Since 2020 on Outlook, Anthropic Deal - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXJxUHN6UVh1WEtwcTJ2ckVMUGJvdElXVEdOeTJiRTR1REJMWnV6eHpOZVF1SThfb3hDZENxbnZTTEFtdDM3S216YmtUWUtDSjZmbmJiRU1tTDBCdGEwQmhHWDYwUVc4WHlNcWFvbld6UTZqMFdpakxjNWE4clJySGgyYm42U2dITjBLSmhUcG5OLU1ZbzYtZWdFaDA4bXZlUld2dkVGWXdTUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "[Salesforce Q2 2027 Earnings Call] Salesforce Raises FY27 Guidance by $300M as Agentforce ARR Hits $1.5B and 'Claudeforce' Launch Ignites AI Push - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yVnJ0MWRrVE9CaEthdzlsOF9DZDR0OG1JM1ZxZ3h0bHdzZjVUd19nZEFlYTdBQkQ1Q2VuUW1iTGI0dEtCMGJkNHZCTFZhZnRFeXBycUtSZGNwZHR0?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Salesforce’s Q2 Earnings Beat by a Mile. The Guidance Raise Might Matter More. - TIKR.com",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcTJ4bjRlT1F5bW1ZNDJKUHpETWFZVXR3ZjBvcVF0R283V3BJQm04R25rOGM0Qmh5aWo0enNQWDZvM1Z4TWFyQzVmajRrTGFOeGZoOTFCSUpSRFBLNTZKd213bElOMFVZdWRmWlVqNU1WQnNsRjdxRVE1M3VCYlgtdE96S3AtQzc1N2JLclJYRHJGLVBxdHhSMHFsMWJCbEl2dWh3?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Watch Nvidia’s AI Boom, Salesforce’s Anthropic Bet | Bloomberg Tech 8/27/2026 - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS1lDUkppYTZCakNra1JxT1lKWElJeUVyUlIyOWlNUXh5OFVCNzBhRHg3aVdjaDEzSUtrbC1RRDh6RVVsR29XVDNRLV81MEVaUTIzX1YyNzY3VURUZjRQXzRyLUk0cEh0TFZueTBCRmRIeEd5bHQzaFhqNGxUQ1RmWURCdGNkUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY27",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-26T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:27:55.913716+00:00"
-    },
-    {
       "ticker": "CRWD",
       "name": "CrowdStrike",
       "symbol": "CRWD",
@@ -639,6 +590,55 @@
       "reactionObservedAt": "2026-08-26T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:27:45.288233+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "name": "Salesforce",
+      "symbol": "CRM",
+      "group": "Cloud／Software／AI 應用",
+      "reportDate": "2026-08-26",
+      "reportDateTime": "2026-08-26T20:00:00+00:00",
+      "epsActual": 5.9,
+      "epsEstimate": 3.27,
+      "epsSurprisePct": 80.36,
+      "revenueActual": 11350000000.0,
+      "revenueEstimate": 11330000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 12.984488627964573,
+      "nextClosePct": 22.58049267441564,
+      "sources": [
+        {
+          "title": "Salesforce raises annual forecasts, expands AI partnership with Anthropic - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDN3Q0RQRENZTDF5TE95YURuRTZiczNvdTJ3ZzBRQjBGNkxRUnBlSWpSd2p3MUpJQzJoamNOR084RzU2dXRFM3ZEUXVBYWRLaVc5UXFza0VRcWNvS3ZvZGowVWdkbG9ROGVIVUt6bE9nN05VRk8zVng2b3JHT0Vub000Y2lDMzBMaWdBd1RmYVlJdw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Salesforce Jumps Most Since 2020 on Outlook, Anthropic Deal - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRXJxUHN6UVh1WEtwcTJ2ckVMUGJvdElXVEdOeTJiRTR1REJMWnV6eHpOZVF1SThfb3hDZENxbnZTTEFtdDM3S216YmtUWUtDSjZmbmJiRU1tTDBCdGEwQmhHWDYwUVc4WHlNcWFvbld6UTZqMFdpakxjNWE4clJySGgyYm42U2dITjBLSmhUcG5OLU1ZbzYtZWdFaDA4bXZlUld2dkVGWXdTUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[Salesforce Q2 2027 Earnings Call] Salesforce Raises FY27 Guidance by $300M as Agentforce ARR Hits $1.5B and 'Claudeforce' Launch Ignites AI Push - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yVnJ0MWRrVE9CaEthdzlsOF9DZDR0OG1JM1ZxZ3h0bHdzZjVUd19nZEFlYTdBQkQ1Q2VuUW1iTGI0dEtCMGJkNHZCTFZhZnRFeXBycUtSZGNwZHR0?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Salesforce’s Q2 Earnings Beat by a Mile. The Guidance Raise Might Matter More. - TIKR.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcTJ4bjRlT1F5bW1ZNDJKUHpETWFZVXR3ZjBvcVF0R283V3BJQm04R25rOGM0Qmh5aWo0enNQWDZvM1Z4TWFyQzVmajRrTGFOeGZoOTFCSUpSRFBLNTZKd213bElOMFVZdWRmWlVqNU1WQnNsRjdxRVE1M3VCYlgtdE96S3AtQzc1N2JLclJYRHJGLVBxdHhSMHFsMWJCbEl2dWh3?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Watch Nvidia’s AI Boom, Salesforce’s Anthropic Bet | Bloomberg Tech 8/27/2026 - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQS1lDUkppYTZCakNra1JxT1lKWElJeUVyUlIyOWlNUXh5OFVCNzBhRHg3aVdjaDEzSUtrbC1RRDh6RVVsR29XVDNRLV81MEVaUTIzX1YyNzY3VURUZjRQXzRyLUk0cEh0TFZueTBCRmRIeEd5bHQzaFhqNGxUQ1RmWURCdGNkUQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY27",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-26T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:27:55.913716+00:00"
     },
     {
       "ticker": "WOLF",
@@ -1066,55 +1066,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:28:48.312923+00:00"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "symbol": "CSCO",
-      "group": "光通訊／網通",
-      "reportDate": "2026-08-12",
-      "reportDateTime": "2026-08-12T20:00:00+00:00",
-      "epsActual": 1.22,
-      "epsEstimate": 1.17,
-      "epsSurprisePct": 4.38,
-      "revenueActual": 17250000000.0,
-      "revenueEstimate": 16840000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": -4.068451215015589,
-      "nextClosePct": -8.403290493637483,
-      "sources": [
-        {
-          "title": "Cisco forecasts annual revenue above estimates on sustained AI spending - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFNjVWhZOGJVZzBrMDdXRC13NkM3cW9lMjlicDZZc3duZXNTLWlZTEhBTDJuWTJvV3pkbEdoUWd2VVFmTWlCTTFCVlJjOFFsTXB3Y0JBZHROZExiUU4xZm1mbkhOSHF4MVRfdXpEdWp3NFdlbnhpQk5kSklmX3Y3cW5ockRIT0VSeWdWMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Beats on Sales Outlook, Citing ‘Broad-Based’ Record Demand - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT05Kcjl6akJ6YVlYWmh6d1dKaGJXMXhPRXMzTlJZUU9CZ2tWMXQ5c3ZCa0ptUTZIZlcyM3NMWHBkOWFpLWkwNkpxSUJkd09SdnlzRHpXd1U1bFg3TDRZVnJKR3JfTFA3c0VOX2VSWFNhek1SWld2T0tjOHBQU3k1U0Z6SktGTkduNWM4NkJXa3FVMmV3NVN3OVJha2Z6TkhZLU5TcURfMF9OSkZILTRMVENB?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Surges on AI Orders as Fiscal 2027 Revenue Outlook Tops Estimates - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15dk5sck5yYUE5RFRlQ1Y5TE81Q3YwUWdQdXBEd1F6MDExdllUQjJtdGdWRGlDM0RSRjl2VmdzWkQ4YlMtZWhTZE1ZNm1nTXZrM1YtSElaR0UtUzdCSXBhSmhjQlhFUHpPM2otWU8zZk9UNDRpVnc?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Watch Cisco Beats Estimates, Cerebras Reports Declines | Closing Bell - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdm5FLW80ekJxazIySF8tcE9vV3EwWEVpZl9XR19yTGpzaHhWV21Uc28zVXZRWUlRMHZsekx1SWRFdHZTck5rRHdDQ0pmVV9hSEtnV1R0RXZ0bmlCMDJ6SnJuOXBCZ0pwZ1FYTV9pQ0ZSUlFkVDVxaFpLeDJqMmx6UFpIYlo4VktNSWxJRTd1SWF0RldLdXlPb1N4STZMSnlxajYwWlVHNmY3cHM?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Systems (CSCO) Beats Q4 Earnings and Revenue Estimates - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjFLOE9aSjF0ZDlPR3hCcFZpdkhaSk4zeUctYXFQd2VENHJaSXQycjhYeXdNcFdYN3kwdW1OY0cxRGh2S2Z3clNjVXVZMDFYdk1Zckk1U3Y4SzdjenJQci02d21XZ0ZPbXBJVDRENk1lYkg0ajJQTC1rTFNuZDdON0xWalJTRnppWjVQOXd5MUF2NzdqM3Fj?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q4 FY26",
-      "quarterSource": "source title",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-12T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:28:54.817873+00:00"
-    },
-    {
       "ticker": "NBIS",
       "name": "Nebius",
       "symbol": "NBIS",
@@ -1311,55 +1262,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:29:25.015719+00:00"
     },
     {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "symbol": "RKLB",
-      "group": "太空／國防／無人系統",
-      "reportDate": "2026-08-10",
-      "reportDateTime": "2026-08-10T20:00:00+00:00",
-      "epsActual": -0.08,
-      "epsEstimate": -0.08,
-      "epsSurprisePct": -4.34,
-      "revenueActual": 234070000.0,
-      "revenueEstimate": 231620000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": -7.246377872544696,
-      "nextClosePct": -0.03747973382526304,
-      "sources": [
-        {
-          "title": "Rocket Lab sees waning chances of Neutron rocket debut this year - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU2NFTm1rOFdMVlNwRGpQR2pMcEY4aVlFdDJjU0J6QmN3bTlnQXd6SzFxVWVoWkdOR3haZHAxY1EzdWYwRnRsSVprSlNkNVZCMGNOcHJjWlNkaGJldFljRVJCam1pTjNVc2tseGlCXzNHbGVxc0J4UTZHNm9qbEtsc3BTLUZoWUVZajhwR0NYcmFmU2IwNmRJVFFyVGJyT01tdDRZYXBlbWpDRjRzX1NyeEphejIzck9iV1R5dWlmb0k1c0I4eWJjM0dSQjg0WDZCLUpF?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Rocket Lab Cautions of Fresh Risks to Key Neutron Rocket Debut - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVJtdk1Ba1ZZTEc2ekFFeHp2TDZKNGp2Vk1fQjdNS3hSa1pkZXpnQ2d4S25vWThOZGNPSHZCUF85VjhqMDBWQTc4ODQ1UmtrcktweWo4NS1PUmZYNUdjRTJmODRVVUpsZnZEU3AwRURiOWV3RHFFODBDMHlBaWZ2SEg4MGtkMlZvcHhvMWJ1OEFOc0FkUE9SR1FiUGFnSklPX3FaZzZ5R1JfWXZtQkYtMjJxMA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Rocket Lab’s (NASDAQ:RKLB) Q2 CY2026: Beats On Revenue, Provides Optimistic Revenue Guidance for Next Quarter - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEZpWm1XZVh0bk5aRFFvc0RZYjBIbl9CQ2w5ZXI0WnRhZkltUmR2UmFQNl9PRmV3N1JkQlM0Q0ZxSTZYSzFZbzVVSXIyaW9pT2xwTFE1VFg5MTFrbDNyUW95cTRpZnJMZnYzZlczY3duZWFlQzVmSUdBVFhBeGg2b1NWTWhHWjZSdzVWZVhIRk01S1YxX0VJM0N0b3ZFaVpYeFZ3ZTd5bWRjYko0YTJnWDJHaHllRVlrMmJEUUxxZ3JMSU9NVVRjck5BdkhyVVlEcmc4V3JVQjk1NXhBazBQRDhsNWlBQVF4Z095RGFsUnZ2ZkZv?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Monday; Rocket Lab, SpaceX to Advance - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFJkUnFMd2xhS0g5d3lYdDRabVl0VXQxMENtMktFU0VjbV9HVjRiQ3NFdjlURXk0WFhzZE5BS1hPZlBuWG5EQ3J3Y2JHSkhwbnd3T2dNcGZUT3E4R0dDcm5YS1NrOE9mbU41bjZ1X2prS2NwN2duRV9DNFNQbDZNb09LMXNxVlMtOFZBQkZmTGxJS3BSTkRvZjNoU1dQMy0zNFMtQjVLWUg?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Rocket Lab Corporation (RKLB) Q2 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDU1VWFJMS14WUpuN3hsQ0JmZXRvSkFkYXRVWHNNZXhBRXlFRHRYWGE4Ym5YNDFpX0NVTUVHS0c2RF9Kd2g2U2NaQWhqRnZ5VFhXYUhhdzhKQ2JWaE1LMFpvZ0wzV1dRYzdLX3ZDamlDeUNYM1RicjVPUjlwTm84RG5QQ18wZkJOMkpuaFRYelRIVDJHbVBHUm9ZYkVfTkR5eUhr?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-10T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:29:37.816937+00:00"
-    },
-    {
       "ticker": "ASTS",
       "name": "AST SpaceMobile",
       "symbol": "ASTS",
@@ -1409,6 +1311,55 @@
       "earningsCheckedAtUtc": "2026-09-26T03:29:31.032506+00:00"
     },
     {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "symbol": "RKLB",
+      "group": "太空／國防／無人系統",
+      "reportDate": "2026-08-10",
+      "reportDateTime": "2026-08-10T20:00:00+00:00",
+      "epsActual": -0.08,
+      "epsEstimate": -0.08,
+      "epsSurprisePct": -4.34,
+      "revenueActual": 234070000.0,
+      "revenueEstimate": 231620000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": -7.246377872544696,
+      "nextClosePct": -0.03747973382526304,
+      "sources": [
+        {
+          "title": "Rocket Lab sees waning chances of Neutron rocket debut this year - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNU2NFTm1rOFdMVlNwRGpQR2pMcEY4aVlFdDJjU0J6QmN3bTlnQXd6SzFxVWVoWkdOR3haZHAxY1EzdWYwRnRsSVprSlNkNVZCMGNOcHJjWlNkaGJldFljRVJCam1pTjNVc2tseGlCXzNHbGVxc0J4UTZHNm9qbEtsc3BTLUZoWUVZajhwR0NYcmFmU2IwNmRJVFFyVGJyT01tdDRZYXBlbWpDRjRzX1NyeEphejIzck9iV1R5dWlmb0k1c0I4eWJjM0dSQjg0WDZCLUpF?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Rocket Lab Cautions of Fresh Risks to Key Neutron Rocket Debut - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVVJtdk1Ba1ZZTEc2ekFFeHp2TDZKNGp2Vk1fQjdNS3hSa1pkZXpnQ2d4S25vWThOZGNPSHZCUF85VjhqMDBWQTc4ODQ1UmtrcktweWo4NS1PUmZYNUdjRTJmODRVVUpsZnZEU3AwRURiOWV3RHFFODBDMHlBaWZ2SEg4MGtkMlZvcHhvMWJ1OEFOc0FkUE9SR1FiUGFnSklPX3FaZzZ5R1JfWXZtQkYtMjJxMA?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Rocket Lab’s (NASDAQ:RKLB) Q2 CY2026: Beats On Revenue, Provides Optimistic Revenue Guidance for Next Quarter - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONEZpWm1XZVh0bk5aRFFvc0RZYjBIbl9CQ2w5ZXI0WnRhZkltUmR2UmFQNl9PRmV3N1JkQlM0Q0ZxSTZYSzFZbzVVSXIyaW9pT2xwTFE1VFg5MTFrbDNyUW95cTRpZnJMZnYzZlczY3duZWFlQzVmSUdBVFhBeGg2b1NWTWhHWjZSdzVWZVhIRk01S1YxX0VJM0N0b3ZFaVpYeFZ3ZTd5bWRjYko0YTJnWDJHaHllRVlrMmJEUUxxZ3JMSU9NVVRjck5BdkhyVVlEcmc4V3JVQjk1NXhBazBQRDhsNWlBQVF4Z095RGFsUnZ2ZkZv?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Social Buzz: Wallstreetbets Stocks Mostly Higher Premarket Monday; Rocket Lab, SpaceX to Advance - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNFJkUnFMd2xhS0g5d3lYdDRabVl0VXQxMENtMktFU0VjbV9HVjRiQ3NFdjlURXk0WFhzZE5BS1hPZlBuWG5EQ3J3Y2JHSkhwbnd3T2dNcGZUT3E4R0dDcm5YS1NrOE9mbU41bjZ1X2prS2NwN2duRV9DNFNQbDZNb09LMXNxVlMtOFZBQkZmTGxJS3BSTkRvZjNoU1dQMy0zNFMtQjVLWUg?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Rocket Lab Corporation (RKLB) Q2 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDU1VWFJMS14WUpuN3hsQ0JmZXRvSkFkYXRVWHNNZXhBRXlFRHRYWGE4Ym5YNDFpX0NVTUVHS0c2RF9Kd2g2U2NaQWhqRnZ5VFhXYUhhdzhKQ2JWaE1LMFpvZ0wzV1dRYzdLX3ZDamlDeUNYM1RicjVPUjlwTm84RG5QQ18wZkJOMkpuaFRYelRIVDJHbVBHUm9ZYkVfTkR5eUhr?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-10T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:29:37.816937+00:00"
+    },
+    {
       "ticker": "VST",
       "name": "Vistra",
       "symbol": "VST",
@@ -1416,8 +1367,8 @@
       "reportDate": "2026-08-10",
       "reportDateTime": "2026-08-10T10:00:00+00:00",
       "epsActual": 0.76,
-      "epsEstimate": 1.66,
-      "epsSurprisePct": -54.2,
+      "epsEstimate": 1.63,
+      "epsSurprisePct": -53.4,
       "revenueActual": 4017000000.0,
       "revenueEstimate": null,
       "guidance": [],
@@ -2103,7 +2054,7 @@
       "reportDateTime": "2026-08-05T20:00:00+00:00",
       "epsActual": 0.41,
       "epsEstimate": 0.13,
-      "epsSurprisePct": 220.63,
+      "epsSurprisePct": 218.5,
       "revenueActual": 720840000.0,
       "revenueEstimate": 715030000.0,
       "guidance": [],
@@ -2463,51 +2414,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:32:00.149508+00:00"
     },
     {
-      "ticker": "KTOS",
-      "name": "Kratos",
-      "symbol": "KTOS",
-      "group": "太空／國防／無人系統",
-      "reportDate": "2026-08-04",
-      "reportDateTime": "2026-08-04T20:00:00+00:00",
-      "epsActual": 0.21,
-      "epsEstimate": 0.15,
-      "epsSurprisePct": 38.37,
-      "revenueActual": 458800000.0,
-      "revenueEstimate": 410360000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 4.2639312004220775,
-      "nextClosePct": 6.689803917790504,
-      "sources": [
-        {
-          "title": "[Kratos Defense & Security Solutions Q2 2026 Earnings Call] Revenue Beats as Hypersonics Revenue Set to Double, Full-Year Growth Outlook Raised to 23% - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dmljNU56bnc1VzZ6NUtsMEwtSWllR1VYRUJycFRaOU96VmFEb19OY2FSS3FSQ2p4aFZtdmNObE00Q0R6Zldnb0RoQ1h5ZWVtdUgyd21VVnNrWE81N3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos (NASDAQ:KTOS) Beats Expectations in Strong Q2 CY2026, Full-Year Sales Guidance is Optimistic - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnhZZUpEUzJ3a2FMTDVMY2hfRjg3elQwc2FfQi1HTERUMU1nX25KQjBZTU1CMkRna0JDTW90TlB1ejZmaWhfSHlSeTYtU08zczJHbDVGY0xST1dPblVGanFxdWhwZWlYVFF4SEhrMzVpQjcybXdST1ozQTZCNDZEVDNUV3lGalgwS1ZsbVl6Z2kwUmVKNnlvRkVnaHl4RUJLYkxvQlZ3Smxva3BoUzFuc00zbHJ4YkRuTXNuTVE2NmpnS2ExMUpTU0JYbThLX2VOSTJ3ZVN5eExKVTBBeHVZdHdTMnUtN3Y3U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos Defense & Security Solutions Inc (KTOS) (Q2 2026) Earnings Call Highlights: Record ... - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1p0VHYxRTZNMmE2cjNWT2RPdjcwdnBJeGs2NlZzeE82bFM3YXBQUDdkeS1rU2FLVUstRTJVT0FXUEwtR0RPRGdKN3JKNHRDclM1MjZjQUszTjFyNFRIWU5aQUt3b1lRV2dubl9IVHBYRjQ2TTBSM1JWeEVmRl90bzFXNm9MTlpXbllmQ1FvQ1pJaEg5aTRoY29fTXQ3RjdGUy1GUw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Q2 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXFhTG9qVmNRb3VvOHh1dEpjb1ZDVHpWOVdzWXBJcHQ5RjhuM044cmV4Z3pqbHA0azZFUWZjNWlwTzM5Q0pfZnhvRGFiczNsa1RTM1RzSHZuVzU5V1Fqd3poSW1ILWRFbGlyZHFCQjlXQzVYbGk3Q09hcF9TamRjVXNZYmNmVVA2Q1ZmQTVrSFhDR3JJMmFNeHJON0VwRmJCMG9pUWV3bW11b3pGUkxJNUdCc1M3LUk0S0Y3VA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 4,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-04T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:32:19.540162+00:00"
-    },
-    {
       "ticker": "SPCX",
       "name": "SpaceX",
       "symbol": "SPCX",
@@ -2555,6 +2461,51 @@
       "reactionObservedAt": "2026-08-04T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:32:15.365793+00:00"
+    },
+    {
+      "ticker": "KTOS",
+      "name": "Kratos",
+      "symbol": "KTOS",
+      "group": "太空／國防／無人系統",
+      "reportDate": "2026-08-04",
+      "reportDateTime": "2026-08-04T20:00:00+00:00",
+      "epsActual": 0.21,
+      "epsEstimate": 0.15,
+      "epsSurprisePct": 38.37,
+      "revenueActual": 458800000.0,
+      "revenueEstimate": 410360000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 4.2639312004220775,
+      "nextClosePct": 6.689803917790504,
+      "sources": [
+        {
+          "title": "[Kratos Defense & Security Solutions Q2 2026 Earnings Call] Revenue Beats as Hypersonics Revenue Set to Double, Full-Year Growth Outlook Raised to 23% - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dmljNU56bnc1VzZ6NUtsMEwtSWllR1VYRUJycFRaOU96VmFEb19OY2FSS3FSQ2p4aFZtdmNObE00Q0R6Zldnb0RoQ1h5ZWVtdUgyd21VVnNrWE81N3c?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos (NASDAQ:KTOS) Beats Expectations in Strong Q2 CY2026, Full-Year Sales Guidance is Optimistic - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnhZZUpEUzJ3a2FMTDVMY2hfRjg3elQwc2FfQi1HTERUMU1nX25KQjBZTU1CMkRna0JDTW90TlB1ejZmaWhfSHlSeTYtU08zczJHbDVGY0xST1dPblVGanFxdWhwZWlYVFF4SEhrMzVpQjcybXdST1ozQTZCNDZEVDNUV3lGalgwS1ZsbVl6Z2kwUmVKNnlvRkVnaHl4RUJLYkxvQlZ3Smxva3BoUzFuc00zbHJ4YkRuTXNuTVE2NmpnS2ExMUpTU0JYbThLX2VOSTJ3ZVN5eExKVTBBeHVZdHdTMnUtN3Y3U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos Defense & Security Solutions Inc (KTOS) (Q2 2026) Earnings Call Highlights: Record ... - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1p0VHYxRTZNMmE2cjNWT2RPdjcwdnBJeGs2NlZzeE82bFM3YXBQUDdkeS1rU2FLVUstRTJVT0FXUEwtR0RPRGdKN3JKNHRDclM1MjZjQUszTjFyNFRIWU5aQUt3b1lRV2dubl9IVHBYRjQ2TTBSM1JWeEVmRl90bzFXNm9MTlpXbllmQ1FvQ1pJaEg5aTRoY29fTXQ3RjdGUy1GUw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Q2 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXFhTG9qVmNRb3VvOHh1dEpjb1ZDVHpWOVdzWXBJcHQ5RjhuM044cmV4Z3pqbHA0azZFUWZjNWlwTzM5Q0pfZnhvRGFiczNsa1RTM1RzSHZuVzU5V1Fqd3poSW1ILWRFbGlyZHFCQjlXQzVYbGk3Q09hcF9TamRjVXNZYmNmVVA2Q1ZmQTVrSFhDR3JJMmFNeHJON0VwRmJCMG9pUWV3bW11b3pGUkxJNUdCc1M3LUk0S0Y3VA?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 4,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-04T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:32:19.540162+00:00"
     },
     {
       "ticker": "TSEM",
@@ -3315,8 +3266,8 @@
       "group": "高速傳輸",
       "reportDate": "2026-07-29",
       "reportDateTime": "2026-07-29T12:00:00+00:00",
-      "epsActual": 0.68,
-      "epsEstimate": 0.6,
+      "epsActual": 1.35,
+      "epsEstimate": 1.19,
       "epsSurprisePct": 13.19,
       "revenueActual": 8760000000.0,
       "revenueEstimate": 8260000000.0,
@@ -3603,55 +3554,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:34:44.386704+00:00"
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "symbol": "KLAC",
-      "group": "半導體設備／測試",
-      "reportDate": "2026-07-28",
-      "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 1.05,
-      "epsEstimate": 1.0,
-      "epsSurprisePct": 5.14,
-      "revenueActual": 3660000000.0,
-      "revenueEstimate": 3610000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": -10.801886939572402,
-      "sources": [
-        {
-          "title": "KLA results beat Wall Street estimates, but shares fall on high investor expectations - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3JMVUs2VE5ON1hjNnhOV1lfeTBUYmpuaG5NSHQ4cVVVS0lxbXdVNENQcFZYUDN6bUdWRjZkaHQ0aW5HRHJKSm9ibkFqdlVtb3U1NmV3YTF5dW54Z3R0ZWdTcEJrc19sci1fZjdxQzlfTXNwbm1BVHAybFNqY0M2S1hmMXJvUUNtcWl1a29jZ0xUeGRraGpOWkJvYWdFNVotT3phRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "[KLA Q4 2026 Earnings Call] KLA Hits Record $3.66B Revenue, Boosts 2026 WFE Outlook to $150B as Advanced Packaging Revenue Soars 70% - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvVHdpRmxPMW1kVHdNc0h1RlJIdUNWN2c3MVNySldTVkpjOWx6akFIeGNUa3pNSFNjUWJwN3dpX1BBRlAwb1RKazNiVm11YU9wSTkweUY4MEYxSG8tLWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "KLA Corp KLAC Q4 2026: EPS Beats by 5%, Guidance Points to $4B Quarter - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUFnRTVnV0F3N29vS0VQallqc3pMcFBkdzhMWW9pdlFEYXFWNUFJWGxnaWdfcU5BZDhKSF9NNHpJVmluMmFPdTB0WTV2ZUllWllpUHY3dElKdmZUcTAzTTl4VnZLVGw3TWNQSEVWWk1UQmswakRnY0d0Z3RoeGlxYjJNVTM0VS1xNTBjaEFB?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "KLA Exceeds Q4 Targets but Shares Plunge 10% as Outlook Fails to Inspire - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wc3l0RkVFMHQycWZJS3hYTXVKSS00Rms2VmlBbmNFSDdXc28yRnNkakpTb0NoY095c2pVMGttNUlDSkhiMG1YSnBKcks2ZlpLSDNKc3ZHb0l6UzlXb1d2R0dZMFVLd2ZrZGxBX1A1MDFOTl9aRWc?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa, KLA Corp and more - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdlJYVUR0UFpVcm9PeXl0SFh3Yld2N1ZrLS1HZk5TTlBnYkJHUjBET090dmxRdUMyZ3E4WjBIWnV6Ymc5SGFuenBCLVJZY2YyVGcybzB0Rkh3TzJ2ZV8zSEQ3RC10enlXdVlrUVJpVnlqTHBHanh1aUx1ZXkxa1I3SjA1MDlpVGRGZWJiei1LeWdfazlneGxxRnA2OUNVWVFSMnJiSA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q4 FY26",
-      "quarterSource": "source title",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "",
-      "reactionObservedAt": "",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:34:59.664494+00:00"
-    },
-    {
       "ticker": "TER",
       "name": "Teradyne",
       "symbol": "TER",
@@ -3701,53 +3603,53 @@
       "earningsCheckedAtUtc": "2026-09-26T03:34:50.603854+00:00"
     },
     {
-      "ticker": "NXPI",
-      "name": "NXP",
-      "symbol": "NXPI",
-      "group": "類比／電源／功率／RF",
+      "ticker": "KLAC",
+      "name": "KLA",
+      "symbol": "KLAC",
+      "group": "半導體設備／測試",
       "reportDate": "2026-07-28",
       "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 3.61,
-      "epsEstimate": 3.53,
-      "epsSurprisePct": 2.35,
-      "revenueActual": 3496000000.0,
-      "revenueEstimate": null,
+      "epsActual": 1.05,
+      "epsEstimate": 1.0,
+      "epsSurprisePct": 5.14,
+      "revenueActual": 3660000000.0,
+      "revenueEstimate": 3610000000.0,
       "guidance": [],
       "management": [],
       "firstReactionPct": null,
-      "nextClosePct": -7.000617370899764,
+      "nextClosePct": -10.801886939572402,
       "sources": [
         {
-          "title": "NXP’s Upbeat Revenue Forecast Fails to Impress Investors - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTRDY2w3bVhkdjlDX09ZdUxMck5MdldlalRzWURfdU1yeEYxWnJzYmx4OFkxMk9HX0h1ekFBY1V2bXNfUU5DcGhVb001TV9IQXdCMXVDWmhOaTNPOFk4ZFJMRjg3UjM1T2RJVHBRV2g3ZmhPaUJUMVhaNFd6emJuc1Q0c2VzYnN3UE9LNnlBRWM1RWpDblNySG5fb25rSmtDeFkySVIzUHVpOTg?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "KLA results beat Wall Street estimates, but shares fall on high investor expectations - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY3JMVUs2VE5ON1hjNnhOV1lfeTBUYmpuaG5NSHQ4cVVVS0lxbXdVNENQcFZYUDN6bUdWRjZkaHQ0aW5HRHJKSm9ibkFqdlVtb3U1NmV3YTF5dW54Z3R0ZWdTcEJrc19sci1fZjdxQzlfTXNwbm1BVHAybFNqY0M2S1hmMXJvUUNtcWl1a29jZ0xUeGRraGpOWkJvYWdFNVotT3phRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "[NXP Semiconductors Q2 2026 Earnings Call] NXP Smashes Records with $3.5B Revenue, Sees $3.75B in Q3 as AI Design Wins Top $1.5B - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XLU41bUZlWlYxcF9uVWNsbjRoMktfcmxMaHZuV2ZIMEdaekRIeUZGeHVjMHM3NDBlMkpSYWFOekRvOS1wVTk0M3ExVXhwLUppeG56blIzZ1VOd0cwaEE?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "[KLA Q4 2026 Earnings Call] KLA Hits Record $3.66B Revenue, Boosts 2026 WFE Outlook to $150B as Advanced Packaging Revenue Soars 70% - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvVHdpRmxPMW1kVHdNc0h1RlJIdUNWN2c3MVNySldTVkpjOWx6akFIeGNUa3pNSFNjUWJwN3dpX1BBRlAwb1RKazNiVm11YU9wSTkweUY4MEYxSG8tLWc?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "NXP Semiconductors N.V. (NXPI) Q2 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTWFyN1MyWHVRNnlCcldTUXRwU3lpQks4bXhGYWNwNl93RFNJM1FKN3dfU0JIWlJJeVp6Z3RsQWN6LW9Za1FLdG9oN3ZMaFRVcnVuMUM0SXhaTFVXMU9NaVVOYlVvaUp2RGNBVk9paE1LUlpUTjBvdmlfekMycGlJSGF2WUVwUzFGNW5KWUswMkJxWl9SMDBNVVFhVFVMdXBsS1Yw?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "KLA Corp KLAC Q4 2026: EPS Beats by 5%, Guidance Points to $4B Quarter - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTUFnRTVnV0F3N29vS0VQallqc3pMcFBkdzhMWW9pdlFEYXFWNUFJWGxnaWdfcU5BZDhKSF9NNHpJVmluMmFPdTB0WTV2ZUllWllpUHY3dElKdmZUcTAzTTl4VnZLVGw3TWNQSEVWWk1UQmswakRnY0d0Z3RoeGlxYjJNVTM0VS1xNTBjaEFB?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "NXP Semiconductors (NASDAQ:NXPI) Q2: Beats On Revenue But Stock Drops - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbnZhdUl0U2pfMXlnQ0hZSVFPOHBqTERjb2w3SXRDbUJDZmFFaWRnOWY4d2NiYVVDbFEtN0ZPNnA0NkJ3dE1NLS1sRDN6MXpvN2FjYlFCeFZvc0FjaHZMRXRlTzZ4MlhSRzM3RzNZaGV2WXY0X2Y4Nkg3NUJFUWxXbkZrN3V1U2xrSl9vZVJLYWZLYUN5MXh1ckhVdGI2Zms?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "KLA Exceeds Q4 Targets but Shares Plunge 10% as Outlook Fails to Inspire - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Wc3l0RkVFMHQycWZJS3hYTXVKSS00Rms2VmlBbmNFSDdXc28yRnNkakpTb0NoY095c2pVMGttNUlDSkhiMG1YSnBKcks2ZlpLSDNKc3ZHb0l6UzlXb1d2R0dZMFVLd2ZrZGxBX1A1MDFOTl9aRWc?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "NXP Semiconductors (NASDAQ:NXPI) Q2: Beats On Revenue But Stock Drops - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZURONTVyNEFIYnFQWVJhcnJSaFZOVEZTTTdFNUF2WFlwTExfa2hZaXUyLV85RjUtdmdqVlVkX1M2a2hkRWtZSnNrWGJRY2F0eTdMU3RHSTg5bDlzazBKbnM1SEcxaUJRay1OUGs3QXhUYWNmV0ZnRjJLT2Z5cW5mdk9hdmlSTTF4MlZOTjBOa2hxcWJDRnZXN29sdEFTTG11LWp3RVFKUWY2Nld3RlVxWURaV0VadXBBdloxQzZyb0tnT05k?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa, KLA Corp and more - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdlJYVUR0UFpVcm9PeXl0SFh3Yld2N1ZrLS1HZk5TTlBnYkJHUjBET090dmxRdUMyZ3E4WjBIWnV6Ymc5SGFuenBCLVJZY2YyVGcybzB0Rkh3TzJ2ZV8zSEQ3RC10enlXdVlrUVJpVnlqTHBHanh1aUx1ZXkxa1I3SjA1MDlpVGRGZWJiei1LeWdfazlneGxxRnA2OUNVWVFSMnJiSA?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
       "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
+      "fiscalQuarterLabel": "Q4 FY26",
+      "quarterSource": "source title",
       "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "",
+      "estimateSource": "MarketBeat",
       "transcriptSource": "",
       "reactionSession": "",
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:35:10.669938+00:00"
+      "earningsCheckedAtUtc": "2026-09-26T03:34:59.664494+00:00"
     },
     {
       "ticker": "SWKS",
@@ -3797,6 +3699,55 @@
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:35:04.065611+00:00"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP",
+      "symbol": "NXPI",
+      "group": "類比／電源／功率／RF",
+      "reportDate": "2026-07-28",
+      "reportDateTime": "2026-07-28T20:00:00+00:00",
+      "epsActual": 3.61,
+      "epsEstimate": 3.53,
+      "epsSurprisePct": 2.35,
+      "revenueActual": 3496000000.0,
+      "revenueEstimate": null,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": -7.000617370899764,
+      "sources": [
+        {
+          "title": "NXP’s Upbeat Revenue Forecast Fails to Impress Investors - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbTRDY2w3bVhkdjlDX09ZdUxMck5MdldlalRzWURfdU1yeEYxWnJzYmx4OFkxMk9HX0h1ekFBY1V2bXNfUU5DcGhVb001TV9IQXdCMXVDWmhOaTNPOFk4ZFJMRjg3UjM1T2RJVHBRV2g3ZmhPaUJUMVhaNFd6emJuc1Q0c2VzYnN3UE9LNnlBRWM1RWpDblNySG5fb25rSmtDeFkySVIzUHVpOTg?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[NXP Semiconductors Q2 2026 Earnings Call] NXP Smashes Records with $3.5B Revenue, Sees $3.75B in Q3 as AI Design Wins Top $1.5B - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XLU41bUZlWlYxcF9uVWNsbjRoMktfcmxMaHZuV2ZIMEdaekRIeUZGeHVjMHM3NDBlMkpSYWFOekRvOS1wVTk0M3ExVXhwLUppeG56blIzZ1VOd0cwaEE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "NXP Semiconductors N.V. (NXPI) Q2 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTWFyN1MyWHVRNnlCcldTUXRwU3lpQks4bXhGYWNwNl93RFNJM1FKN3dfU0JIWlJJeVp6Z3RsQWN6LW9Za1FLdG9oN3ZMaFRVcnVuMUM0SXhaTFVXMU9NaVVOYlVvaUp2RGNBVk9paE1LUlpUTjBvdmlfekMycGlJSGF2WUVwUzFGNW5KWUswMkJxWl9SMDBNVVFhVFVMdXBsS1Yw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "NXP Semiconductors (NASDAQ:NXPI) Q2: Beats On Revenue But Stock Drops - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbnZhdUl0U2pfMXlnQ0hZSVFPOHBqTERjb2w3SXRDbUJDZmFFaWRnOWY4d2NiYVVDbFEtN0ZPNnA0NkJ3dE1NLS1sRDN6MXpvN2FjYlFCeFZvc0FjaHZMRXRlTzZ4MlhSRzM3RzNZaGV2WXY0X2Y4Nkg3NUJFUWxXbkZrN3V1U2xrSl9vZVJLYWZLYUN5MXh1ckhVdGI2Zms?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "NXP Semiconductors (NASDAQ:NXPI) Q2: Beats On Revenue But Stock Drops - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZURONTVyNEFIYnFQWVJhcnJSaFZOVEZTTTdFNUF2WFlwTExfa2hZaXUyLV85RjUtdmdqVlVkX1M2a2hkRWtZSnNrWGJRY2F0eTdMU3RHSTg5bDlzazBKbnM1SEcxaUJRay1OUGs3QXhUYWNmV0ZnRjJLT2Z5cW5mdk9hdmlSTTF4MlZOTjBOa2hxcWJDRnZXN29sdEFTTG11LWp3RVFKUWY2Nld3RlVxWURaV0VadXBBdloxQzZyb0tnT05k?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "",
+      "transcriptSource": "",
+      "reactionSession": "",
+      "reactionObservedAt": "",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:35:10.669938+00:00"
     },
     {
       "ticker": "BE",
@@ -4854,16 +4805,16 @@
       "date": "2026-10-21T12:00:00+00:00"
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "symbol": "LRCX",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "symbol": "LRCX",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
@@ -4973,16 +4924,16 @@
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "UMC",
-      "name": "United Microelectronics",
-      "symbol": "UMC",
+      "ticker": "FLEX",
+      "name": "Flex",
+      "symbol": "FLEX",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "FLEX",
-      "name": "Flex",
-      "symbol": "FLEX",
+      "ticker": "UMC",
+      "name": "United Microelectronics",
+      "symbol": "UMC",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
@@ -5036,16 +4987,16 @@
       "date": "2026-10-28T20:00:00+00:00"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "symbol": "GOOGL",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "symbol": "MSFT",
       "group": "CSP",
       "date": "2026-10-28T20:00:00+00:00"
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "symbol": "MSFT",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "symbol": "GOOGL",
       "group": "CSP",
       "date": "2026-10-28T20:00:00+00:00"
     },
@@ -5092,17 +5043,17 @@
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "symbol": "AMZN",
-      "group": "CSP",
-      "date": "2026-10-29T20:00:00+00:00"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "symbol": "NET",
       "group": "Cloud／Software／AI 應用",
+      "date": "2026-10-29T20:00:00+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "group": "CSP",
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
@@ -5113,17 +5064,17 @@
       "date": "2026-11-02T12:00:00+00:00"
     },
     {
-      "ticker": "AEHR",
-      "name": "Aehr Test Systems",
-      "symbol": "AEHR",
-      "group": "半導體設備／測試",
-      "date": "2026-11-02T20:00:00+00:00"
-    },
-    {
       "ticker": "FN",
       "name": "Fabrinet",
       "symbol": "FN",
       "group": "光通訊／網通",
+      "date": "2026-11-02T20:00:00+00:00"
+    },
+    {
+      "ticker": "AEHR",
+      "name": "Aehr Test Systems",
+      "symbol": "AEHR",
+      "group": "半導體設備／測試",
       "date": "2026-11-02T20:00:00+00:00"
     },
     {
@@ -5197,16 +5148,16 @@
       "date": "2026-11-03T20:00:00+00:00"
     },
     {
-      "ticker": "KTOS",
-      "name": "Kratos",
-      "symbol": "KTOS",
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "symbol": "SPCX",
       "group": "太空／國防／無人系統",
       "date": "2026-11-03T20:00:00+00:00"
     },
     {
-      "ticker": "SPCX",
-      "name": "SpaceX",
-      "symbol": "SPCX",
+      "ticker": "KTOS",
+      "name": "Kratos",
+      "symbol": "KTOS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-03T20:00:00+00:00"
     },
@@ -5302,16 +5253,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics",
-      "symbol": "AAOI",
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "symbol": "LITE",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "symbol": "LITE",
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics",
+      "symbol": "AAOI",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
@@ -5323,16 +5274,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "DIOD",
-      "name": "Diodes",
-      "symbol": "DIOD",
+      "ticker": "MCHP",
+      "name": "Microchip",
+      "symbol": "MCHP",
       "group": "類比／電源／功率／RF",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "MCHP",
-      "name": "Microchip",
-      "symbol": "MCHP",
+      "ticker": "DIOD",
+      "name": "Diodes",
+      "symbol": "DIOD",
       "group": "類比／電源／功率／RF",
       "date": "2026-11-05T20:00:00+00:00"
     },
@@ -5351,16 +5302,16 @@
       "date": "2026-11-09T12:00:00+00:00"
     },
     {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "symbol": "RKLB",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "symbol": "ASTS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-09T20:00:00+00:00"
     },
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "symbol": "ASTS",
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "symbol": "RKLB",
       "group": "太空／國防／無人系統",
       "date": "2026-11-09T20:00:00+00:00"
     },
@@ -5405,13 +5356,6 @@
       "symbol": "ONDS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-12T12:00:00+00:00"
-    },
-    {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "symbol": "CSCO",
-      "group": "光通訊／網通",
-      "date": "2026-11-12T20:00:00+00:00"
     },
     {
       "ticker": "AMAT",
