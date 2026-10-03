@@ -1,7 +1,7 @@
 {
   "parserVersion": 11,
-  "updatedAtUtc": "2026-10-03T15:25:08.857289+00:00",
-  "updatedAt": "2026-10-03 23:25 台灣時間",
+  "updatedAtUtc": "2026-10-03T23:53:22.541533+00:00",
+  "updatedAt": "2026-10-04 07:54 台灣時間",
   "reports": [
     {
       "ticker": "MU",
@@ -50,7 +50,7 @@
       "reactionSession": "盤後",
       "reactionObservedAt": "2026-09-30T19:55:00-04:00",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-10-03T15:25:41.499035+00:00"
+      "earningsCheckedAtUtc": "2026-10-03T23:53:56.302527+00:00"
     },
     {
       "ticker": "ORCL",
@@ -206,9 +206,9 @@
       "group": "AI 運算／AI 晶片",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
+      "epsActual": 3.32,
       "epsEstimate": 3.24,
-      "epsSurprisePct": null,
+      "epsSurprisePct": 2.53,
       "revenueActual": 29590000000.0,
       "revenueEstimate": 29240000000.0,
       "guidance": [],
@@ -255,9 +255,9 @@
       "group": "AI Server／資料中心硬體",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
-      "epsEstimate": 0.93,
-      "epsSurprisePct": null,
+      "epsActual": 1.11,
+      "epsEstimate": 0.94,
+      "epsSurprisePct": 18.41,
       "revenueActual": 12210000000.0,
       "revenueEstimate": 11970000000.0,
       "guidance": [],
@@ -304,9 +304,9 @@
       "group": "Cloud／Software／AI 應用",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
+      "epsActual": 0.62,
       "epsEstimate": 0.45,
-      "epsSurprisePct": null,
+      "epsSurprisePct": 38.71,
       "revenueActual": 1550000000.0,
       "revenueEstimate": 1480000000.0,
       "guidance": [],
@@ -543,55 +543,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:27:36.524454+00:00"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "symbol": "CRWD",
-      "group": "Cloud／Software／AI 應用",
-      "reportDate": "2026-08-26",
-      "reportDateTime": "2026-08-26T20:00:00+00:00",
-      "epsActual": 0.31,
-      "epsEstimate": 0.29,
-      "epsSurprisePct": 6.38,
-      "revenueActual": 1470000000.0,
-      "revenueEstimate": 1440000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 10.529658576717393,
-      "nextClosePct": 20.49900387962671,
-      "sources": [
-        {
-          "title": "CrowdStrike raises annual revenue forecast on strong cybersecurity demand - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb21wcWlqdWgwUmh0blFmSWdkLVRJeUdwZzVMX1d3MmhCMmYzT1pyVDBQcldLV1dwS2k5LWFpRmxXWklxWktjU2hmMzExSjBmNnNIdW5fSUlVOWNsc3RiSWh1R0RWX1ZyRjRSRktJd3gtRlFZdU1zZV9qWTZpQW01YjR2TnBXdkQ4N0dtV1U5MnRlaFh0Mmg2ZHJSOFQ3anNXVVc3THVxV21iU2h5NEozNXZ4cDdXWTFh?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike Beats Annual Revenue Forecasts as AI Threats Rise - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWlXSnljRFdkaGMyRWRPYWJhQXB6V2tUdXdoRUNaWnRESnBEQ1cycEcwZnNrcHVjX2xRdUlCcDMzNjJCX2s1VHk4MnZuUEtKUlBRM1c1Vm0wejJYdDViQmRtZDVZLXg2b2N0MzM3MzZ0d3d6TVpPTmthVnpLTWdCVlU5QVFFbko4UVc1Sy1ZNlp0eHlvNE9Kdlp6c2xPdnAwZGdKRXFGT1pSaThVTGJFRk9B?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike Stock Jumps As AI Security Growth Outlook Surges - StocksToTrade",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3hudXUyUXpFdWV4eW51N3F6dlJMMnZJZi1YeTNVWnA1OF9wajdlOVBxbjJSSUg4MFBDUVVCSWZZM1d4bkdwRnZIVjJJTVA0YnExSm40VVZUekV1dFo5WnZtX3Q4VE9uUkRWbTE4VzFHSlRzSi1TRkRsdDZ4Z0dod2ZmYVdLQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "CrowdStrike Jumps 12% After Record Quarter, Lifts FY27 Outlook on AI Security Boom - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02UGQ4dHJ6ZEN1eWFHazZkNGtBVjRfYjB1ZUZITG1Ec1k3WHlDczRQbTVRRUtjeGlpQW9aSzZBeWppcTY0VG1ETEVsbFRERDdYRmxGa2lCMDIyemlIZnpENWpGdnhiTVVWUGNnWlpuUzNpdjB5ZFE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Stock Movers: Nvidia, Crowdstrike, Salesforce - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGJVR3BnQThEd0VyOFVNalhoVnF5YWY3R0hYZVdwWFJSRkhxdjI1Y0pqVV9JbnJUbjFBZnRaZDE5U3V0MllFY0dMczdRV3ZQYnpyaFBrWXNaVlRTbzl4UUZSQWhaMG92bEROVDBGR3ltTUdyQ05rdUNTbDhEeWM4Z09HQnF1V2hHSUR2LVlldnFaaURJMl9rbVZUUWY1UE0?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY27",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-26T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:27:45.288233+00:00"
-    },
-    {
       "ticker": "CRM",
       "name": "Salesforce",
       "symbol": "CRM",
@@ -639,6 +590,55 @@
       "reactionObservedAt": "2026-08-26T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:27:55.913716+00:00"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "symbol": "CRWD",
+      "group": "Cloud／Software／AI 應用",
+      "reportDate": "2026-08-26",
+      "reportDateTime": "2026-08-26T20:00:00+00:00",
+      "epsActual": 0.31,
+      "epsEstimate": 0.29,
+      "epsSurprisePct": 6.38,
+      "revenueActual": 1470000000.0,
+      "revenueEstimate": 1440000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 10.529658576717393,
+      "nextClosePct": 20.49900387962671,
+      "sources": [
+        {
+          "title": "CrowdStrike raises annual revenue forecast on strong cybersecurity demand - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb21wcWlqdWgwUmh0blFmSWdkLVRJeUdwZzVMX1d3MmhCMmYzT1pyVDBQcldLV1dwS2k5LWFpRmxXWklxWktjU2hmMzExSjBmNnNIdW5fSUlVOWNsc3RiSWh1R0RWX1ZyRjRSRktJd3gtRlFZdU1zZV9qWTZpQW01YjR2TnBXdkQ4N0dtV1U5MnRlaFh0Mmg2ZHJSOFQ3anNXVVc3THVxV21iU2h5NEozNXZ4cDdXWTFh?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "CrowdStrike Beats Annual Revenue Forecasts as AI Threats Rise - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWlXSnljRFdkaGMyRWRPYWJhQXB6V2tUdXdoRUNaWnRESnBEQ1cycEcwZnNrcHVjX2xRdUlCcDMzNjJCX2s1VHk4MnZuUEtKUlBRM1c1Vm0wejJYdDViQmRtZDVZLXg2b2N0MzM3MzZ0d3d6TVpPTmthVnpLTWdCVlU5QVFFbko4UVc1Sy1ZNlp0eHlvNE9Kdlp6c2xPdnAwZGdKRXFGT1pSaThVTGJFRk9B?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "CrowdStrike Stock Jumps As AI Security Growth Outlook Surges - StocksToTrade",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3hudXUyUXpFdWV4eW51N3F6dlJMMnZJZi1YeTNVWnA1OF9wajdlOVBxbjJSSUg4MFBDUVVCSWZZM1d4bkdwRnZIVjJJTVA0YnExSm40VVZUekV1dFo5WnZtX3Q4VE9uUkRWbTE4VzFHSlRzSi1TRkRsdDZ4Z0dod2ZmYVdLQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "CrowdStrike Jumps 12% After Record Quarter, Lifts FY27 Outlook on AI Security Boom - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02UGQ4dHJ6ZEN1eWFHazZkNGtBVjRfYjB1ZUZITG1Ec1k3WHlDczRQbTVRRUtjeGlpQW9aSzZBeWppcTY0VG1ETEVsbFRERDdYRmxGa2lCMDIyemlIZnpENWpGdnhiTVVWUGNnWlpuUzNpdjB5ZFE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Stock Movers: Nvidia, Crowdstrike, Salesforce - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGJVR3BnQThEd0VyOFVNalhoVnF5YWY3R0hYZVdwWFJSRkhxdjI1Y0pqVV9JbnJUbjFBZnRaZDE5U3V0MllFY0dMczdRV3ZQYnpyaFBrWXNaVlRTbzl4UUZSQWhaMG92bEROVDBGR3ltTUdyQ05rdUNTbDhEeWM4Z09HQnF1V2hHSUR2LVlldnFaaURJMl9rbVZUUWY1UE0?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY27",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-26T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:27:45.288233+00:00"
     },
     {
       "ticker": "WOLF",
@@ -1017,6 +1017,55 @@
       "earningsCheckedAtUtc": "2026-09-26T03:28:42.838324+00:00"
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "symbol": "CSCO",
+      "group": "光通訊／網通",
+      "reportDate": "2026-08-12",
+      "reportDateTime": "2026-08-12T20:00:00+00:00",
+      "epsActual": 1.22,
+      "epsEstimate": 1.17,
+      "epsSurprisePct": 4.38,
+      "revenueActual": 17250000000.0,
+      "revenueEstimate": 16840000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": -4.068451215015589,
+      "nextClosePct": -8.403290493637483,
+      "sources": [
+        {
+          "title": "Cisco forecasts annual revenue above estimates on sustained AI spending - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFNjVWhZOGJVZzBrMDdXRC13NkM3cW9lMjlicDZZc3duZXNTLWlZTEhBTDJuWTJvV3pkbEdoUWd2VVFmTWlCTTFCVlJjOFFsTXB3Y0JBZHROZExiUU4xZm1mbkhOSHF4MVRfdXpEdWp3NFdlbnhpQk5kSklmX3Y3cW5ockRIT0VSeWdWMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Beats on Sales Outlook, Citing ‘Broad-Based’ Record Demand - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT05Kcjl6akJ6YVlYWmh6d1dKaGJXMXhPRXMzTlJZUU9CZ2tWMXQ5c3ZCa0ptUTZIZlcyM3NMWHBkOWFpLWkwNkpxSUJkd09SdnlzRHpXd1U1bFg3TDRZVnJKR3JfTFA3c0VOX2VSWFNhek1SWld2T0tjOHBQU3k1U0Z6SktGTkduNWM4NkJXa3FVMmV3NVN3OVJha2Z6TkhZLU5TcURfMF9OSkZILTRMVENB?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Surges on AI Orders as Fiscal 2027 Revenue Outlook Tops Estimates - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15dk5sck5yYUE5RFRlQ1Y5TE81Q3YwUWdQdXBEd1F6MDExdllUQjJtdGdWRGlDM0RSRjl2VmdzWkQ4YlMtZWhTZE1ZNm1nTXZrM1YtSElaR0UtUzdCSXBhSmhjQlhFUHpPM2otWU8zZk9UNDRpVnc?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco sells off even as Q4 results, guidance top estimates (CSCO:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZDVodGxfekpSWXRQdUllNHdDeTdyM1N1SlJYT251OVoycWR5cUNTUG4wNHR1LU5UMGdVUVRIQWMxZEFoQ202Z01LbHFvVjl0T1VZZ2dBQmNjVGUzVjFUMjBEc004b1RsNUxfenlyT3g0cFNROThXcFIzLTMyc1VzYTVhLWR5eElQbmdfaERIV0g2bGM?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Systems (CSCO) Beats Q4 Earnings and Revenue Estimates - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjFLOE9aSjF0ZDlPR3hCcFZpdkhaSk4zeUctYXFQd2VENHJaSXQycjhYeXdNcFdYN3kwdW1OY0cxRGh2S2Z3clNjVXVZMDFYdk1Zckk1U3Y4SzdjenJQci02d21XZ0ZPbXBJVDRENk1lYkg0ajJQTC1rTFNuZDdON0xWalJTRnppWjVQOXd5MUF2NzdqM3Fj?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q1 FY27",
+      "quarterSource": "source title",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-12T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-10-03T23:54:03.518430+00:00"
+    },
+    {
       "ticker": "COHR",
       "name": "Coherent",
       "symbol": "COHR",
@@ -1367,8 +1416,8 @@
       "reportDate": "2026-08-10",
       "reportDateTime": "2026-08-10T10:00:00+00:00",
       "epsActual": 0.76,
-      "epsEstimate": 1.63,
-      "epsSurprisePct": -53.4,
+      "epsEstimate": 1.66,
+      "epsSurprisePct": -54.2,
       "revenueActual": 4017000000.0,
       "revenueEstimate": null,
       "guidance": [],
@@ -2054,7 +2103,7 @@
       "reportDateTime": "2026-08-05T20:00:00+00:00",
       "epsActual": 0.41,
       "epsEstimate": 0.13,
-      "epsSurprisePct": 218.5,
+      "epsSurprisePct": 220.63,
       "revenueActual": 720840000.0,
       "revenueEstimate": 715030000.0,
       "guidance": [],
@@ -3266,8 +3315,8 @@
       "group": "高速傳輸",
       "reportDate": "2026-07-29",
       "reportDateTime": "2026-07-29T12:00:00+00:00",
-      "epsActual": 1.35,
-      "epsEstimate": 1.19,
+      "epsActual": 0.68,
+      "epsEstimate": 0.6,
       "epsSurprisePct": 13.19,
       "revenueActual": 8760000000.0,
       "revenueEstimate": 8260000000.0,
@@ -3554,55 +3603,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:34:44.386704+00:00"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
-      "group": "半導體設備／測試",
-      "reportDate": "2026-07-28",
-      "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 2.47,
-      "epsEstimate": 2.05,
-      "epsSurprisePct": 20.28,
-      "revenueActual": 1328990000.0,
-      "revenueEstimate": null,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": -0.3867114479893963,
-      "sources": [
-        {
-          "title": "Teradyne forecasts upbeat revenue on strong chip equipment demand, shares jump - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV2JHSDZ1dmJKM3piU3dQREEyRm5veVA5SnlhMGdxaER4Y3RfMHhSX0JKNUhiM2tnZWN6d0FlN2tlWVdxSkctdzVsSkJSaG4zZ0t3YnVlakVIdWZQRWhvWFRwYXdyYjhSeTY2NjlzcHprX0JISzhLRjhpMDk4dXJiTW9mWlc5SUljVTNlR0V2d3hXQjFCNjZ4azlaNkFYZEZIM0h0SmJlZERGdE1kUG9RbWlnM2czTzBaaTR1aWpR?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa, KLA Corp and more - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdlJYVUR0UFpVcm9PeXl0SFh3Yld2N1ZrLS1HZk5TTlBnYkJHUjBET090dmxRdUMyZ3E4WjBIWnV6Ymc5SGFuenBCLVJZY2YyVGcybzB0Rkh3TzJ2ZV8zSEQ3RC10enlXdVlrUVJpVnlqTHBHanh1aUx1ZXkxa1I3SjA1MDlpVGRGZWJiei1LeWdfazlneGxxRnA2OUNVWVFSMnJiSA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Should You Buy, Sell, or Hold TER Stock Before Q2 Earnings Release? - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejRpM2NsM1dpMmhXckRPendYQ3Z1bk1wUzZjWW83OUlZVFU4UW9lNkczVG1wa1Q2MTl6cXZLV01LWDZHVElpNEFYeG83MDFzTFBsZGhsUk02Xzh1VExQZC1NdlF1NjA1RmI5TzE1cGhCR2hiSzVsYjFfZzVFZjNna092SUpwdjJSWk56Z3V2VGlDNlQ3WW1TWS1YS3piRDhIUVdtU2tZRDd0V2FxZFZMOUNxYklBTUp5V3YzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Should You Buy, Sell, or Hold TER Stock Before Q2 Earnings Release? - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRWtYOXBqb2R1WWZjcDVqR0x0aGxZbS1pVldFRXNiRnRWc2pIUGYzZ2oxdlRaU0xYQzJiWEV6WXI4MTVWVWk1ZzlMdFhBdXRPMU0tOVluc1ZURzJlZjRHRWJMZ0NoZ2VsZW5aUnlYM3liU0RJa2lwN2dwMmJqUmZXY2lyY3ZST05FWllUdmxfWkpJQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Teradyne, Inc. (TER) Q2 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNldMTmpHeXRkbW1aUDJsczBUbi1aYkpTa2RBR3MzS0tOT2hvT2NnN0NiMjRWTUExMnRXU1Z2YXZwZ1h5S0R5UGhOeEVlNTBDdV9TOGZ3SEFJWVoyTjNnaWVXMXhuamo0cjdWT083RWtzanFBTERYZ2ZXdGNyYkpWZ2V1RFFVNkpraGlCN1JhZXVydms1?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "",
-      "transcriptSource": "",
-      "reactionSession": "",
-      "reactionObservedAt": "",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:34:50.603854+00:00"
-    },
-    {
       "ticker": "KLAC",
       "name": "KLA",
       "symbol": "KLAC",
@@ -3652,53 +3652,53 @@
       "earningsCheckedAtUtc": "2026-09-26T03:34:59.664494+00:00"
     },
     {
-      "ticker": "SWKS",
-      "name": "Skyworks",
-      "symbol": "SWKS",
-      "group": "類比／電源／功率／RF",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
+      "group": "半導體設備／測試",
       "reportDate": "2026-07-28",
       "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 1.08,
-      "epsEstimate": 1.03,
-      "epsSurprisePct": 4.79,
-      "revenueActual": 934800000.0,
-      "revenueEstimate": 925970000.0,
+      "epsActual": 2.47,
+      "epsEstimate": 2.05,
+      "epsSurprisePct": 20.28,
+      "revenueActual": 1328990000.0,
+      "revenueEstimate": null,
       "guidance": [],
       "management": [],
       "firstReactionPct": null,
-      "nextClosePct": -5.395797251082457,
+      "nextClosePct": -0.3867114479893963,
       "sources": [
         {
-          "title": "Skyworks Solutions (SWKS) Q3 Earnings and Revenues Beat Estimates - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjF4c1VvR1JvTlJNVFUtSUJWeE9IeGR5NlBjTWVpSHkxdGxuMkoyT3A0RVJLYzd1WThFenBwTXppUGtKSFM0bW96Z1ljazhfX29NUlZPRUhuZWFac3E2YkdZMGFiNlpXZGFXcW9rLUFFaXlGUUdLVEFUUFhfWHh5SllhcFZNTE5wekZOdlV1VTlkTjdxZjU1YzlDY1FvelhTelE?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Teradyne forecasts upbeat revenue on strong chip equipment demand, shares jump - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV2JHSDZ1dmJKM3piU3dQREEyRm5veVA5SnlhMGdxaER4Y3RfMHhSX0JKNUhiM2tnZWN6d0FlN2tlWVdxSkctdzVsSkJSaG4zZ0t3YnVlakVIdWZQRWhvWFRwYXdyYjhSeTY2NjlzcHprX0JISzhLRjhpMDk4dXJiTW9mWlc5SUljVTNlR0V2d3hXQjFCNjZ4azlaNkFYZEZIM0h0SmJlZERGdE1kUG9RbWlnM2czTzBaaTR1aWpR?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Skyworks Solutions Inc (SWKS) Q3 2026 Earnings Call Highlights: Strong Revenue and Strategic Moves - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGZuaTAzZGxtcHhHYXJYQTJPRVpsTFBNb0ZyWDRweXY0OURCNG9vV3lXY0dLTG5oQVdYV01BQzZnU3ByaDJOSGVyTXBvUl96V2ZaZGZnaG81OGJ2Y2hRLVZseHVwYXVYUnoyLThsZUozcGpGbDdVd1VGNF9uMU55TXdsaHJyQW9ZRFoybjM5ckc2NmF0QUsyX2ZaSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Stocks making the biggest moves after hours: Ford, Teradyne, Visa, KLA Corp and more - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdlJYVUR0UFpVcm9PeXl0SFh3Yld2N1ZrLS1HZk5TTlBnYkJHUjBET090dmxRdUMyZ3E4WjBIWnV6Ymc5SGFuenBCLVJZY2YyVGcybzB0Rkh3TzJ2ZV8zSEQ3RC10enlXdVlrUVJpVnlqTHBHanh1aUx1ZXkxa1I3SjA1MDlpVGRGZWJiei1LeWdfazlneGxxRnA2OUNVWVFSMnJiSA?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "[Skyworks Solutions Q3 2026 Earnings Call] Skyworks Beats with $935M Revenue, Plans $2B Buyback, Kills Dividend as Qorvo Merger Hits Final China Review - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbnp5MDFZLWtsVVpTYlp4MEwxaWc4aWpIQ2lFbkhwUUhyMzRwa20zM1BmV1FjWklxZG5vd0tfNlBROTI2WXhrVUtCemZ1VTNhZFZyWlRXajZtdzRjcGc?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Should You Buy, Sell, or Hold TER Stock Before Q2 Earnings Release? - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejRpM2NsM1dpMmhXckRPendYQ3Z1bk1wUzZjWW83OUlZVFU4UW9lNkczVG1wa1Q2MTl6cXZLV01LWDZHVElpNEFYeG83MDFzTFBsZGhsUk02Xzh1VExQZC1NdlF1NjA1RmI5TzE1cGhCR2hiSzVsYjFfZzVFZjNna092SUpwdjJSWk56Z3V2VGlDNlQ3WW1TWS1YS3piRDhIUVdtU2tZRDd0V2FxZFZMOUNxYklBTUp5V3YzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Skyworks Solutions, Inc. (SWKS) Q3 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0cyQ2h2aWgwYVRnNjRBYVM4SzBxOVFLT1F1QXR2QmNXYjBCU2xxd09PbGlPdnhDRHI5UVQxMlVKS2lKaXN2R0FLQTRMZmR1LXYzTndaZVg3cURsRnotbFpqcl9VeVp2dGxtV3QzVzlLQ3IzNTFSMlVpUFpRaU45STY5aDlYUmdDQXpCcTQxSXdpeWN4aG50SmxQSE1XZGJmcWgw?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Should You Buy, Sell, or Hold TER Stock Before Q2 Earnings Release? - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRWtYOXBqb2R1WWZjcDVqR0x0aGxZbS1pVldFRXNiRnRWc2pIUGYzZ2oxdlRaU0xYQzJiWEV6WXI4MTVWVWk1ZzlMdFhBdXRPMU0tOVluc1ZURzJlZjRHRWJMZ0NoZ2VsZW5aUnlYM3liU0RJa2lwN2dwMmJqUmZXY2lyY3ZST05FWllUdmxfWkpJQQ?oc=5&hl=en-US&gl=US&ceid=US:en"
         },
         {
-          "title": "Skyworks Solutions (NASDAQ:SWKS) Exceeds Q2 Expectations But Stock Drops - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNenViTzNLQjBSLVBVY1ptMUxqQ2NDY3BqYl8wcmttcXhEQVd5ZWIycXk5cVlQd0V0eDZPc0lvUjUyYzlQa21GaGt5VzduMWY1MEs2Q2V6SWpXdmJ0YnY1SU9FdjhEUU1pTTAwazlUX0F5Zm11RHNGRmFIWXgzTXBURmdjZlFpLTJGWEJtem5wVjd2bU1vS0tyTTRQVDFEaVRsY3pFdEpnSERvZWpDLWw2MTBmLWlfdEZCb3AwMGpoS1R3SWxKZGZz?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Teradyne, Inc. (TER) Q2 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNldMTmpHeXRkbW1aUDJsczBUbi1aYkpTa2RBR3MzS0tOT2hvT2NnN0NiMjRWTUExMnRXU1Z2YXZwZ1h5S0R5UGhOeEVlNTBDdV9TOGZ3SEFJWVoyTjNnaWVXMXhuamo0cjdWT083RWtzanFBTERYZ2ZXdGNyYkpWZ2V1RFFVNkpraGlCN1JhZXVydms1?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
       "sourceCount": 5,
-      "fiscalQuarterLabel": "Q3 FY26",
+      "fiscalQuarterLabel": "Q2 FY26",
       "quarterSource": "Yahoo financial statements",
       "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
+      "estimateSource": "",
       "transcriptSource": "",
       "reactionSession": "",
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:35:04.065611+00:00"
+      "earningsCheckedAtUtc": "2026-09-26T03:34:50.603854+00:00"
     },
     {
       "ticker": "NXPI",
@@ -3748,6 +3748,55 @@
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:35:10.669938+00:00"
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks",
+      "symbol": "SWKS",
+      "group": "類比／電源／功率／RF",
+      "reportDate": "2026-07-28",
+      "reportDateTime": "2026-07-28T20:00:00+00:00",
+      "epsActual": 1.08,
+      "epsEstimate": 1.03,
+      "epsSurprisePct": 4.79,
+      "revenueActual": 934800000.0,
+      "revenueEstimate": 925970000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": -5.395797251082457,
+      "sources": [
+        {
+          "title": "Skyworks Solutions (SWKS) Q3 Earnings and Revenues Beat Estimates - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjF4c1VvR1JvTlJNVFUtSUJWeE9IeGR5NlBjTWVpSHkxdGxuMkoyT3A0RVJLYzd1WThFenBwTXppUGtKSFM0bW96Z1ljazhfX29NUlZPRUhuZWFac3E2YkdZMGFiNlpXZGFXcW9rLUFFaXlGUUdLVEFUUFhfWHh5SllhcFZNTE5wekZOdlV1VTlkTjdxZjU1YzlDY1FvelhTelE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions Inc (SWKS) Q3 2026 Earnings Call Highlights: Strong Revenue and Strategic Moves - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGZuaTAzZGxtcHhHYXJYQTJPRVpsTFBNb0ZyWDRweXY0OURCNG9vV3lXY0dLTG5oQVdYV01BQzZnU3ByaDJOSGVyTXBvUl96V2ZaZGZnaG81OGJ2Y2hRLVZseHVwYXVYUnoyLThsZUozcGpGbDdVd1VGNF9uMU55TXdsaHJyQW9ZRFoybjM5ckc2NmF0QUsyX2ZaSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[Skyworks Solutions Q3 2026 Earnings Call] Skyworks Beats with $935M Revenue, Plans $2B Buyback, Kills Dividend as Qorvo Merger Hits Final China Review - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbnp5MDFZLWtsVVpTYlp4MEwxaWc4aWpIQ2lFbkhwUUhyMzRwa20zM1BmV1FjWklxZG5vd0tfNlBROTI2WXhrVUtCemZ1VTNhZFZyWlRXajZtdzRjcGc?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions, Inc. (SWKS) Q3 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0cyQ2h2aWgwYVRnNjRBYVM4SzBxOVFLT1F1QXR2QmNXYjBCU2xxd09PbGlPdnhDRHI5UVQxMlVKS2lKaXN2R0FLQTRMZmR1LXYzTndaZVg3cURsRnotbFpqcl9VeVp2dGxtV3QzVzlLQ3IzNTFSMlVpUFpRaU45STY5aDlYUmdDQXpCcTQxSXdpeWN4aG50SmxQSE1XZGJmcWgw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions (NASDAQ:SWKS) Exceeds Q2 Expectations But Stock Drops - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNenViTzNLQjBSLVBVY1ptMUxqQ2NDY3BqYl8wcmttcXhEQVd5ZWIycXk5cVlQd0V0eDZPc0lvUjUyYzlQa21GaGt5VzduMWY1MEs2Q2V6SWpXdmJ0YnY1SU9FdjhEUU1pTTAwazlUX0F5Zm11RHNGRmFIWXgzTXBURmdjZlFpLTJGWEJtem5wVjd2bU1vS0tyTTRQVDFEaVRsY3pFdEpnSERvZWpDLWw2MTBmLWlfdEZCb3AwMGpoS1R3SWxKZGZz?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q3 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "",
+      "reactionObservedAt": "",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:35:04.065611+00:00"
     },
     {
       "ticker": "BE",
@@ -3897,55 +3946,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:35:44.607531+00:00"
     },
     {
-      "ticker": "AMKR",
-      "name": "Amkor",
-      "symbol": "AMKR",
-      "group": "晶圓代工／封測／EMS",
-      "reportDate": "2026-07-27",
-      "reportDateTime": "2026-07-27T20:00:00+00:00",
-      "epsActual": 0.7,
-      "epsEstimate": 0.48,
-      "epsSurprisePct": 45.4,
-      "revenueActual": 1900000000.0,
-      "revenueEstimate": 1810000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": -24.74057104969587,
-      "sources": [
-        {
-          "title": "Amkor Q2 Profit Surges 218%, But Q3 Revenue Guidance Misses Estimates, Sending Shares on a Rollercoaster in After-Hours Trading - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUGg2ZThDdlFxRmhfWDRGVmVGSS1vdmlsdXJLeVQ2NEM0SUxpMldMUVE3Z1QwLXloN0p0WXJiMEVGbFZQcXQtWTd3bHhEZjVUSm9kYnBmMjVtZ1JZaHFrNFo5WVRGRWc2UUZ6MlNQNktqREZYN3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Earnings call transcript: Amkor tops Q2 2026 estimates as stock slips - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGY2cG5haTY2UUw4YUlXazN3LWlQX19qVDg1NEJHWllVcHdNd1haTkVEZE9la2toOUg5eUNTbVRkelZVb1JUanlFeEYyelRnVkIzYzZDQ05wSUloRnRjNU1NOU9GbGdKTjdTQmtfSGNBVm9jY2NXMzhSTmU1MmdVTDVVMVVNcndzZFI1OVdla2Z2azZWaDVEWjJCSGozZFl1QzVmRjk3ZGRQT1B1d0dvaFZFd3RyTEZxWFdmcnRsdHR2dw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "AMKR Stock Trims After-Hours Rally As Weak Q3 Outlook Offsets Strong Q2 Earnings - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV1VuQ1BsU3dDaUpraDZNTk5RLWVzdnA0b0J3MXBSZkJPdDg1REJIY2N6R0ZJSnV4U3pJTUJ0YkVrTkExV19Xb3NBYkVxRFlGMmRpY1VOMlh0U1JWYWJzMzZjV2pKaU9LMlhmbVNDcDI4eGZoaWdQekZyeThpam1pdGFfaEJITXEyR2xTUHBDdHJ6WWxLQ1h1UlQzLWhFQkRmdHlrUmRTdVNhUElicTVpSjJkRG1adVFudGNwUzk5alhuTzU3RHBoeXBpeWthZFA2VXl5RXR1WWw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "AMKR Q2 Deep Dive: Advanced Packaging Drives Growth Amid Guidance Caution - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHNCd3dVY3FrLUcwT05CcENJMGU0U1R4X1NOOUE4R2oxdUo0VWo5NzFPM09ZdUczaUtyU3hlb0VrOGw0UHQ1OGlqenNOaEYxbnVzSnZiUU1oM25ET21wZXMwMExTdEYybjZnTm5IajYzTVRYeS14VTBLZnJJUHpZanlGdWtnV21BbVlkVVpJYklyR1hsR1pZalZrZUN3UDZfZzgxMXotR1B6ODFoX1M4aGhQTFZKQ09yLWQ1Y0ZUeTFMWXp6SVJPSFowY0JGSGNQM1E?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Top Wall Street Forecasters Revamp Amkor Technology Expectations Ahead Of Q2 Earnings - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeGZGVy1rNXpFMmM3bTZhTXV6eFdpVzI3QlNUa0pPRDBSRF9fdVZLbHlIMWpHM2NmRXVtaEpvN18wNENzV1JfOGk5eThFWS01LXpyMmVTNDV1WlJhZnhzZVpocGh6aXZzRDdUY2xDZ3REMWlvRGxjdnZYdUxsTElsRjB4Q2YyLTVEa2k1RVVYLTVDYkl4eXVkTjRkd3lscFo5YjhURVQwcWE3VXM0emlHNFo4NDBKbGFpTllJOUgxdUs2M0FxeXNZRVUwa0hUM0VxeDl2R185LUZGWUgxMXQ3bmJya045MGZLSmVqQTZ0elRtdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "",
-      "reactionObservedAt": "",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:35:56.957583+00:00"
-    },
-    {
       "ticker": "CLS",
       "name": "Celestica",
       "symbol": "CLS",
@@ -3993,6 +3993,55 @@
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:35:50.151955+00:00"
+    },
+    {
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "symbol": "AMKR",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2026-07-27",
+      "reportDateTime": "2026-07-27T20:00:00+00:00",
+      "epsActual": 0.7,
+      "epsEstimate": 0.48,
+      "epsSurprisePct": 45.4,
+      "revenueActual": 1900000000.0,
+      "revenueEstimate": 1810000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": -24.74057104969587,
+      "sources": [
+        {
+          "title": "Amkor Q2 Profit Surges 218%, But Q3 Revenue Guidance Misses Estimates, Sending Shares on a Rollercoaster in After-Hours Trading - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUGg2ZThDdlFxRmhfWDRGVmVGSS1vdmlsdXJLeVQ2NEM0SUxpMldMUVE3Z1QwLXloN0p0WXJiMEVGbFZQcXQtWTd3bHhEZjVUSm9kYnBmMjVtZ1JZaHFrNFo5WVRGRWc2UUZ6MlNQNktqREZYN3c?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Earnings call transcript: Amkor tops Q2 2026 estimates as stock slips - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGY2cG5haTY2UUw4YUlXazN3LWlQX19qVDg1NEJHWllVcHdNd1haTkVEZE9la2toOUg5eUNTbVRkelZVb1JUanlFeEYyelRnVkIzYzZDQ05wSUloRnRjNU1NOU9GbGdKTjdTQmtfSGNBVm9jY2NXMzhSTmU1MmdVTDVVMVVNcndzZFI1OVdla2Z2azZWaDVEWjJCSGozZFl1QzVmRjk3ZGRQT1B1d0dvaFZFd3RyTEZxWFdmcnRsdHR2dw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "AMKR Stock Trims After-Hours Rally As Weak Q3 Outlook Offsets Strong Q2 Earnings - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV1VuQ1BsU3dDaUpraDZNTk5RLWVzdnA0b0J3MXBSZkJPdDg1REJIY2N6R0ZJSnV4U3pJTUJ0YkVrTkExV19Xb3NBYkVxRFlGMmRpY1VOMlh0U1JWYWJzMzZjV2pKaU9LMlhmbVNDcDI4eGZoaWdQekZyeThpam1pdGFfaEJITXEyR2xTUHBDdHJ6WWxLQ1h1UlQzLWhFQkRmdHlrUmRTdVNhUElicTVpSjJkRG1adVFudGNwUzk5alhuTzU3RHBoeXBpeWthZFA2VXl5RXR1WWw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "AMKR Q2 Deep Dive: Advanced Packaging Drives Growth Amid Guidance Caution - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWHNCd3dVY3FrLUcwT05CcENJMGU0U1R4X1NOOUE4R2oxdUo0VWo5NzFPM09ZdUczaUtyU3hlb0VrOGw0UHQ1OGlqenNOaEYxbnVzSnZiUU1oM25ET21wZXMwMExTdEYybjZnTm5IajYzTVRYeS14VTBLZnJJUHpZanlGdWtnV21BbVlkVVpJYklyR1hsR1pZalZrZUN3UDZfZzgxMXotR1B6ODFoX1M4aGhQTFZKQ09yLWQ1Y0ZUeTFMWXp6SVJPSFowY0JGSGNQM1E?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Top Wall Street Forecasters Revamp Amkor Technology Expectations Ahead Of Q2 Earnings - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeGZGVy1rNXpFMmM3bTZhTXV6eFdpVzI3QlNUa0pPRDBSRF9fdVZLbHlIMWpHM2NmRXVtaEpvN18wNENzV1JfOGk5eThFWS01LXpyMmVTNDV1WlJhZnhzZVpocGh6aXZzRDdUY2xDZ3REMWlvRGxjdnZYdUxsTElsRjB4Q2YyLTVEa2k1RVVYLTVDYkl4eXVkTjRkd3lscFo5YjhURVQwcWE3VXM0emlHNFo4NDBKbGFpTllJOUgxdUs2M0FxeXNZRVUwa0hUM0VxeDl2R185LUZGWUgxMXQ3bmJya045MGZLSmVqQTZ0elRtdw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "",
+      "reactionObservedAt": "",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:35:56.957583+00:00"
     },
     {
       "ticker": "SANM",
@@ -4805,16 +4854,16 @@
       "date": "2026-10-21T12:00:00+00:00"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "symbol": "LRCX",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "symbol": "LRCX",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
@@ -4861,16 +4910,16 @@
       "date": "2026-10-22T20:00:00+00:00"
     },
     {
-      "ticker": "AMKR",
-      "name": "Amkor",
-      "symbol": "AMKR",
+      "ticker": "CLS",
+      "name": "Celestica",
+      "symbol": "CLS",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-26T20:00:00+00:00"
     },
     {
-      "ticker": "CLS",
-      "name": "Celestica",
-      "symbol": "CLS",
+      "ticker": "AMKR",
+      "name": "Amkor",
+      "symbol": "AMKR",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-26T20:00:00+00:00"
     },
@@ -4924,16 +4973,16 @@
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "FLEX",
-      "name": "Flex",
-      "symbol": "FLEX",
+      "ticker": "UMC",
+      "name": "United Microelectronics",
+      "symbol": "UMC",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "UMC",
-      "name": "United Microelectronics",
-      "symbol": "UMC",
+      "ticker": "FLEX",
+      "name": "Flex",
+      "symbol": "FLEX",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
@@ -4987,16 +5036,16 @@
       "date": "2026-10-28T20:00:00+00:00"
     },
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "symbol": "MSFT",
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "symbol": "GOOGL",
       "group": "CSP",
       "date": "2026-10-28T20:00:00+00:00"
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "symbol": "GOOGL",
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "symbol": "MSFT",
       "group": "CSP",
       "date": "2026-10-28T20:00:00+00:00"
     },
@@ -5253,16 +5302,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "symbol": "LITE",
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics",
+      "symbol": "AAOI",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics",
-      "symbol": "AAOI",
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "symbol": "LITE",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
@@ -5356,6 +5405,13 @@
       "symbol": "ONDS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-12T12:00:00+00:00"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "symbol": "CSCO",
+      "group": "光通訊／網通",
+      "date": "2026-11-12T20:00:00+00:00"
     },
     {
       "ticker": "AMAT",
