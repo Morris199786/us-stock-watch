@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04 22:33 台灣時間",
+  "updatedAt": "2026-10-04 22:38 台灣時間",
   "historyUpdatedDate": "2026-10-04",
   "historyLastAttemptAt": "2026-10-03T16:03:35.681744+00:00",
   "historyItemCount": 800,
@@ -22,6 +22,36 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "華爾街策略師引導投資人進行跨資產對沖",
+      "summary": "",
+      "originalTitle": "Wall Street Strategists Steer Investors to Cross-Asset Hedges",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTGhPakQyb05QaC1FUHowbWdmeTlyZVFYQTE5LWRuaXRPeGZYT0NxdWZsSDNaUU5YTGlaZ2tua3I2dk04RzRoVzBqYVRTOXhnNV9tTFpEYnI3VDdYcEljU1lTU1Rja3Rpa2swdmt5bDFBZHNLZW85dWxKb1FTWFhvQjlRTWNNMi1GQzhNYnE1YnhqcDNfUVowLWt1LVhCU1pSV1hvZ21YQndrWjlPMjlKVjRB?oc=5",
+      "ts": "2026-10-04T14:00:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -73,7 +103,7 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "Broadcom 的 2028 年預測使該股成為熱門買入",
-      "summary": "Keithen Drury is a contributing Motley Fool technology analyst covering AI, semiconductors, cybersecurity, and SaaS stocks. In addition to The Motley Fool, Keithen is a mechanical engineer and has held roles at Honeywell and smaller industrial companies like Brand Hydraulics and Lincoln Industries. He holds a bachelorâs degree in mechanical engineering from Dordt University.",
+      "summary": "",
       "originalTitle": "Broadcom's 2028 Projection Makes the Stock a Screaming Buy",
       "originalSummary": "Keithen Drury is a contributing Motley Fool technology analyst covering AI, semiconductors, cybersecurity, and SaaS stocks. In addition to The Motley Fool, Keithen is a mechanical engineer and has held roles at Honeywell and smaller industrial companies like Brand Hydraulics and Lincoln Industries. He holds a bachelorâs degree in mechanical engineering from Dordt University.",
       "url": "https://www.fool.com/investing/2026/10/04/broadcoms-2028-projection-makes-the-stock-a-scream/",
@@ -87,13 +117,13 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Keithen Drury is a contributing Motley Fool technology analyst covering AI, semiconductors, cybersecurity, and SaaS stocks. In addition to The Motley Fool, Keithen is a mechanical engineer and has held roles at Honeywell and smaller industrial companies like Brand Hydraulics and Lincoln Industries. He holds a bachelorâs degree in mechanical engineering from Dordt University.",
+        "event": "Keithen Drury 是 Motley Fool 的特約技術分析師，研究領域涵蓋人工智慧、半導體、網路安全和 SaaS 股票。除了 The Motley Fool 之外，Keithen 也是一名機械工程師，曾在 Honeywell 以及 BrandHydraulics 和 Lincoln Industries 等小型工業公司擔任職務。他擁有多特大學機械工程學士學位。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Keithen Drury is a contributing Motley Fool technology analyst covering AI, semiconductors, cybersecurity, and SaaS stocks. In addition to The Motley Fool, Keithen is a mechanical engineer and has held roles at Honeywell and smaller industrial companies like Brand Hydraulics and Lincoln Industries.",
+        "stance": "Keithen Drury 是 Motley Fool 的特約技術分析師，研究領域涵蓋人工智慧、半導體、網路安全和 SaaS 股票。除了 The Motley Fool 之外，Keithen 也是一名機械工程師，曾在 Honeywell 以及 BrandHydraulics 和 Lincoln Industries 等小型工業公司擔任職務。他擁有多特大學機械工程學士學位。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1273,7 +1303,7 @@
         "AMZN"
       ],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2524,44 +2554,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "谷歌的 Suncatcher 計畫將四顆人工智慧晶片搭載 SpaceX Transporter-18 送入軌道",
-      "summary": "谷歌於 10 月 1 日將四個張量處理單元 (TPU) 送入軌道，並在 SpaceX 的 Transporter-18 共乘任務中發送了 Suncatcher 專案的原型衛星。在Google部落格上的一篇文章中，該公司確認了與該衛星的聯繫，並表示其正在按預期運作。這顆名為 MVP 的實驗衛星搭載了四個 Trillium 代 TPU，與用於人工智慧工作負載的處理器系列相同。",
-      "originalTitle": "Google’s Project Suncatcher puts four AI chips into orbit aboard SpaceX Transporter-18",
-      "originalSummary": "Google put four Tensor Processing Units (TPUs) into orbit on October 1, sending a prototype satellite for Project Suncatcher on SpaceX’s Transporter-18 rideshare mission. In a post on the Google blog, the company confirmed contact with the satellite and said it was operating as expected. The experimental satellite, called MVP, carries four Trillium-generation TPUs, the same processor family used for AI workloads in terrestrial cloud infrastructure. The flight marks the first time Google’s TPUs have operated in space. The refrigerator-sized satellite carries four TPUs, offering the computing power of a standard Google Cloud TPU v6e-4 slice. Solar panels are rated at around 1 kilowatt. The TPUs operate in short bursts of roughly 15 minutes at a time, during which the satellite runs Gemini models to benchmark real-world performance in orbital conditions. Travis Beals, Google’s senior director of Paradigms of Intelligence, is leading the project publicly. Google and Planet Labs built the prototype together; SpaceX’s Transporter-18 mission carried it as one of 130 payloads on a dedicated small-satellite rideshare flight from Vandenberg Space Force Base in California. SpaceX’s deployment schedule lists the satellite as Project Suncatcher M1, deployed roughly 61 minutes after liftoff. Google’s announcement describes the prototype as the first step in a long-term research moonshot exploring whether space could one day host scalable machine learning infrastructure. The company published full mission details in a post on the Google blog signed by Travis Beals, senior director of Paradigms of Intelligence at Google Research.",
-      "url": "https://gcn.com/google-project-suncatcher-puts-four-chips/22176/",
-      "ts": "2026-10-04T01:00:00+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "detailSource": "cross_event_article",
-      "relatedTickers": [
-        "GOOGL",
-        "PL",
-        "SPCX"
-      ],
-      "eventType": "跨公司事件",
-      "score": 25.3,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "谷歌於 10 月 1 日將四個張量處理單元 (TPU) 送入軌道，並在 SpaceX 的 Transporter-18 共乘任務中發送了 Suncatcher 專案的原型衛星。在Google部落格上的一篇文章中，該公司確認了與該衛星的聯繫，並表示其正在按預期運作。這顆名為 MVP 的實驗衛星搭載了四個 Trillium 代 TPU，與用於人工智慧工作負載的處理器系列相同。",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "谷歌於 10 月 1 日將四個張量處理單元 (TPU) 送入軌道，並在 SpaceX 的 Transporter-18 共乘任務中發送了 Suncatcher 專案的原型衛星。在Google部落格上的一篇文章中，該公司確認了與該衛星的聯繫，並表示其正在按預期運作。這顆名為 MVP 的實驗衛星搭載了四個 Trillium 代 TPU，與用於人工智慧工作負載的處理器系列相同。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -3242,7 +3234,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "隨著投資者重新審視人工智慧訂單動能和積壓，Aehr 測試系統崛起",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
       "originalTitle": "Aehr Test Systems Rises as Investors Revisit AI Order Momentum and Backlog",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.&quot;We once again look forward to participating in this annual event and discussing with investors and shareholders Aehr&#039;s expanding role in enabling the next generation of semiconductor devices across a wide range of markets,&quot; said Mr. Erickson. &quot;Aehr delivers complete turnkey solutions that improve the quality, reliability, and yield of semiconductors used in critical applications, including AI processors in cloud computing and data centers, silicon carbide devices in electric vehicles and charging infrastructure, gallium nitride for advanced power conversion, and silicon photonics for data centers, 5G infrastructure and optical input/output (I/O). We are seeing strong traction with AI processors in both wafer-level and package-level formats. The growing adoption of wafer-level and package-level test and burn-in across these markets is expected to be a significant growth driver for Aehr Test Systems.&quot;The presentation material referenced by Aehr Test at the CEO Summit may be accessed on the investor relations page of the Company&#039;s website at www.aehr.com.About the 18th Annual CEO Investor Summit 2026The CEO Investor Summit is held annually each year during the SEMICON West industry trade show. Collectively hosted and funded by participating companies, the CEO Investor Summit features a &quot;round-robin&quot; format consisting of small group meetings with company management teams. During the event, investors and analysts will have the opportunity to meet with the majority of the 11 management teams during the small group meeting sessions and networking events.Attendance at the CEO Investor Summit is by invitation only and is available solely to accredited investors and publishing research analysts. As space is limited, please RSVP early. Hosts reserve the right to limit attendance as necessary. Last day for registration is October 2, 2026.RSVP Contacts for 18th Annual CEO Investor Summit 2026To RSVP for the CEO Investor Summit, please visit the CEO Summit Events website or contact either of the event co-chairs:Laura J. Guerrant-Oiye Phone: (808) 960-2642 Email: lauraoiye@gmail.comClaire E. McAdamsPhone: (530) 265-9899Email: claire@headgatepartners.com About Aehr Test SystemsHeadquartered in Fremont, California, Aehr Test Systems is a leading provider of test solutions for testing, burning-in, and stabilizing semiconductor devices in wafer-level, singulated die, and package-level form, and has installed thousands of systems worldwide. Increasing quality, reliability, safety, and security needs of semiconductors used across multiple applications, including electric vehicles, electric vehicle charging infrastructure, solar and wind power, computing,",
       "url": "https://www.marketscreener.com/news/aehr-test-systems-to-participate-in-18th-annual-ceo-investor-summit-2026-in-san-francisco-ce785adcdc8df32c",
@@ -3258,10 +3250,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -6233,7 +6225,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems, Inc. (AEHR) 股票價格、新聞、報價和歷史",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
       "originalTitle": "Aehr Test Systems, Inc. (AEHR) Stock Price, News, Quote & History",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.&quot;We once again look forward to participating in this annual event and discussing with investors and shareholders Aehr&#039;s expanding role in enabling the next generation of semiconductor devices across a wide range of markets,&quot; said Mr. Erickson. &quot;Aehr delivers complete turnkey solutions that improve the quality, reliability, and yield of semiconductors used in critical applications, including AI processors in cloud computing and data centers, silicon carbide devices in electric vehicles and charging infrastructure, gallium nitride for advanced power conversion, and silicon photonics for data centers, 5G infrastructure and optical input/output (I/O). We are seeing strong traction with AI processors in both wafer-level and package-level formats. The growing adoption of wafer-level and package-level test and burn-in across these markets is expected to be a significant growth driver for Aehr Test Systems.&quot;The presentation material referenced by Aehr Test at the CEO Summit may be accessed on the investor relations page of the Company&#039;s website at www.aehr.com.About the 18th Annual CEO Investor Summit 2026The CEO Investor Summit is held annually each year during the SEMICON West industry trade show. Collectively hosted and funded by participating companies, the CEO Investor Summit features a &quot;round-robin&quot; format consisting of small group meetings with company management teams. During the event, investors and analysts will have the opportunity to meet with the majority of the 11 management teams during the small group meeting sessions and networking events.Attendance at the CEO Investor Summit is by invitation only and is available solely to accredited investors and publishing research analysts. As space is limited, please RSVP early. Hosts reserve the right to limit attendance as necessary. Last day for registration is October 2, 2026.RSVP Contacts for 18th Annual CEO Investor Summit 2026To RSVP for the CEO Investor Summit, please visit the CEO Summit Events website or contact either of the event co-chairs:Laura J. Guerrant-Oiye Phone: (808) 960-2642 Email: lauraoiye@gmail.comClaire E. McAdamsPhone: (530) 265-9899Email: claire@headgatepartners.com About Aehr Test SystemsHeadquartered in Fremont, California, Aehr Test Systems is a leading provider of test solutions for testing, burning-in, and stabilizing semiconductor devices in wafer-level, singulated die, and package-level form, and has installed thousands of systems worldwide. Increasing quality, reliability, safety, and security needs of semiconductors used across multiple applications, including electric vehicles, electric vehicle charging infrastructure, solar and wind power, computing,",
       "url": "https://www.marketscreener.com/news/aehr-test-systems-to-participate-in-18th-annual-ceo-investor-summit-2026-in-san-francisco-ce785adcdc8df32c",
@@ -6249,10 +6241,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。加州舊金山飯店。 「我們再次期待參加這一年度盛會，並與投資者和股東討論 Aehr 在廣泛市場中推動下一代半導體裝置方面不斷擴大的作用，」Erickson 先生說。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -6642,7 +6634,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Nebius 收購 Inferize 以加強 Nebius Token Factory 的生產推理堆疊",
-      "summary": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+      "summary": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
       "originalTitle": "Nebius acquires Inferize to strengthen Nebius Token Factory's production inference stack",
       "originalSummary": "Brings technology that cuts time to launch and scale large AI models, improving token economics and capacity utilization Adds deeply experienced systems engineering talent to Nebius's inference team Continues production inference build-out on Nebius with optimizations across the stack AMSTERDAM, October 01, 2026 --( BUSINESS WIRE )--Nebius (Nasdaq: NBIS), the AI cloud company, today announced it has acquired Inferize, an inference optimization company whose technology shortens the time needed to launch and scale large AI models, making inference workloads elastic.",
       "url": "https://finance.yahoo.com/technology/ai/articles/nebius-acquires-inferize-strengthen-nebius-110000515.html",
@@ -6658,10 +6650,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+        "event": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
         "numbers": [],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 推理公司 Nebius (ISBet) 今天宣布它已宣布推理市場代碼Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
+        "stance": "所帶來的技術可縮短大型人工智慧模型的啟動和擴展時間，提高代幣經濟性和容量利用率 為 Nebius 的推理團隊增添經驗豐富的系統工程人才 繼續在 Nebius 上進行生產推理構建，並進行全堆棧優化 阿姆斯特丹，2026 年 10 月 1 日 --( 美國商業資訊 ) -- AI 能源收購公司 Nebius (ISM Inferize技術縮短了啟動和擴展大型人工智慧模型所需的時間，使推理工作負載具有彈性。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -7267,7 +7259,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞和 Iceye 將為國防和安全開發低軌道衛星系統",
-      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
       "originalTitle": "Nokia and Iceye to make low-orbit satellite systems for defence, security",
       "originalSummary": "Published on 10/01/2026 at 03:01 am EDT - Modified on 10/01/2026 at 03:07 am EDT OSLO, Oct 1 (Reuters) - Iceye and Nokia will develop satellite communications systems for governments, supporting missions from defence and border security to emergency services and disaster response, the companies said in a statement on Thursday. (Reporting by Terje Solsvik, editing by Louise Rasmussen)",
       "url": "https://www.marketscreener.com/news/nokia-and-iceye-to-make-satellite-systems-for-defence-security-ce785ad3dc8df32d",
@@ -7284,10 +7276,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -7952,7 +7944,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "HPE 股價收盤創歷史新高，因網路訂單不斷成長，AMD Helios 訂單價值 12 億美元",
-      "summary": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創歷史新高後創下歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
+      "summary": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創下歷史新高後，再創歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
       "originalTitle": "HPE stock closes at record high on growing networking orders, $1.2 billion AMD Helios order",
       "originalSummary": "Hewlett Packard Enterprise ( HPE ) stock rose 1% on Thursday, notching a fresh all-time high after closing at a record on Wednesday. The company finds itself at the center of the AI boom , which is driving a surge in demand for servers and high-performance networking infrastructure. Year to date, the stock has surged 166%. \"Demand is continuing to outpace supply. It's no doubt that we continue to be in a supply-constrained environment,\" Hewlett Packard Enterprise CFO Marie Myers told Yahoo Finance on Wednesday. \"So certainly the tailwinds that we see around AI aren't changing anytime soon.\"",
       "url": "https://finance.yahoo.com/markets/stocks/article/hpe-stock-closes-at-record-high-on-growing-networking-orders-12-billion-amd-helios-order-211204477.html",
@@ -7969,7 +7961,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創歷史新高後創下歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
+        "event": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創下歷史新高後，再創歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
         "numbers": [
           "$1.2 billion",
           "1%",
@@ -7977,7 +7969,7 @@
           "1.2 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創歷史新高後創下歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
+        "stance": "惠普企業 (HPE) 股價週四上漲 1%，繼週三收盤創下歷史新高後，再創歷史新高。該公司發現自己處於人工智慧熱潮的中心，這推動了對伺服器和高效能網路基礎設施的需求激增。今年迄今為止，該股已飆升 166%。 “需求繼續超過供應。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -9790,7 +9782,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -9806,10 +9798,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14874,7 +14866,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems 將參加 2026 年在舊金山舉行的第 18 屆年度執行長投資者高峰會",
-      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+      "summary": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
       "originalTitle": "Aehr Test Systems to Participate in 18th Annual CEO Investor Summit 2026 in San Francisco",
       "originalSummary": "FREMONT, CA / ACCESS Newswire / September 28, 2026 / Aehr Test Systems (NASDAQ:AEHR), a leading provider of test and burn-in solutions for semiconductor devices used in artificial intelligence (AI), silicon photonics, data center, automotive, and industrial applications, today announced that President and CEO Gayn Erickson and CFO Chris Siu will be participating in the 18th Annual CEO Investor Summit being held Tuesday, October 13that the St. Regis Hotel, San Francisco, CA.",
       "url": "https://finance.yahoo.com/technology/ai/articles/aehr-test-systems-participate-18th-113000205.html",
@@ -14891,10 +14883,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "event": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
+        "stance": "加州弗里蒙特 / ACCESS Newswire / 2026 年 9 月 28 日 / Aehr Test Systems（納斯達克股票代碼：AEHR）是一家為人工智能 (AI)、矽光子、數據中心、汽車和工業應用領域提供半導體裝置測試和首席老化解決方案的領先供應商，今天宣布總裁兼首席財務官 13 月 13 月 13 月 13 月 13 月 13 月 13 月將參加日星期二在聖瑞吉斯酒店舉行的第 18 屆年度首席執行官投資者峰會。飯店，舊金山，加州。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -18841,7 +18833,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -18859,13 +18851,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對記憶體晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
