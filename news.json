@@ -1,11 +1,56 @@
 {
-  "updatedAt": "2026-10-05 17:28 台灣時間",
+  "updatedAt": "2026-10-05 17:34 台灣時間",
   "historyUpdatedDate": "2026-10-05",
   "historyLastAttemptAt": "2026-10-04T16:01:40.727755+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-05",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "BA",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "Bernstein 重申 BA Buy",
+      "summary": "",
+      "originalTitle": "Boeing : Bernstein reiterates its Buy rating",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEdtRHR5QXp4eERvTkxCdjRaS25xLTdXaVlZRFBTNjJxTGwtbEFFOG55T1FTTzlrMUJfT2UwUWV1SUlJdHMza0FDZ1d1blVYTi1LRGVQWW5UVkxGWmRhX2Vtd21ndXpZVkZVV2x5a3hRRTdOSC1oNHpFR24xWnVEdkNNWDY0R3E4clBYdHRzMW8tN0JIanRILWFGNA?oc=5",
+      "ts": "2026-10-05T09:21:45+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Bernstein",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "BA",
+          "targetCompany": "Boeing"
+        }
+      ],
+      "relatedTickers": [
+        "BA"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Boeing（BA）｜券商：Bernstein｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
@@ -35,6 +80,55 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "匯豐將特斯拉目標價從 125 美元調整至 157 美元，並繼續下調評級",
+      "summary": "",
+      "originalTitle": "HSBC Adjusts Price Target on Tesla to $157 From $125, Keeps Reduce Rating",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU3VoRHFSazBfY0NfdjVuNmlScDN4akh1MWpQSktYeWhpVnJfZTZlbjZxNTloMjBMa3NlcHE2N3dtbVFkRU04WkhTczVmaUkwSll4VGNaQU16cW5HZWdDOVpGUmRyVFFxRGtMcEtfc2ZLWEJsazQxRGtobTlNYV9mYVFkdWlXNmpkTU9QRXFKLVEwVlBkWjZuUGJqczJiRE9nM0lVdFlTZ0RxQ3EtTzlvNnFEYjJiZlZlNmlhNi1LTzE?oc=5",
+      "ts": "2026-10-05T09:21:05+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "HSBC",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$157",
+          "oldTarget": "$125",
+          "reason": "匯豐將特斯拉目標價從 125 美元調整至 157 美元，並繼續下調評級",
+          "reasonConfidence": "medium",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：HSBC｜動作：上修｜目標價：$157（原 $125）｜調整原因：匯豐將特斯拉目標價從 125 美元調整至 157 美元，並繼續下調評級",
+        "numbers": [
+          "$125",
+          "$157"
+        ],
+        "why": "調整原因：匯豐將特斯拉目標價從 125 美元調整至 157 美元，並繼續下調評級",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：匯豐將特斯拉目標價從 125 美元調整至 157 美元，並繼續下調評級",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -99,7 +193,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -321,7 +415,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -511,8 +605,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -753,7 +847,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -846,7 +940,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "SPCX",
@@ -884,7 +978,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1100,7 +1194,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -1137,7 +1231,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1927,7 +2021,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Google將人工智慧晶片送入太空測試軌道資料中心",
-      "summary": "作為 Suncatcher 專案的一部分，Google已將四個 TPU 放入近地軌道，該專案旨在檢驗人工智慧運算基礎設施是否可以在太空中運行。這顆原型衛星於 10 月 1 日在 SpaceX 的 Transporter-18 共乘任務中發射升空，並攜帶四個 Trillium 代 TPU。谷歌表示，它已經與這顆衛星建立了聯繫，衛星正在按預期運行。谷歌宣布了項目",
+      "summary": "",
       "originalTitle": "Google puts AI chips in space to test orbital data centres",
       "originalSummary": "Google has placed four TPUs into low Earth orbit as part of Project Suncatcher, an experiment examining whether AI computing infrastructure can operate in space. The prototype satellite launched on October 1 aboard SpaceX’s Transporter-18 rideshare mission and carries four Trillium-generation TPUs. Google said it had established contact with the satellite and that it was operating as expected. Google announced Project Suncatcher in 2025 to study the technical requirements for running machine learning infrastructure on interconnected satellites. The project comes as data-centre electricity demand increases. The International Energy Agency (IEA) expects global data-centre electricity use to rise from about 485 terawatt-hours (TWh) in 2025 to around 950 TWh by 2030, while electricity consumption from AI-focused facilities is projected to triple over the same period. The IEA has also identified grid connections, transformers, energy equipment, advanced chips, and other infrastructure as constraints on new data-centre projects. It estimates that data centres can become operational within two to three years, while the energy infrastructure needed to support them often requires longer planning and construction periods. Project Suncatcher examines an alternative infrastructure model based on solar-powered computing in orbit. The project is testing whether AI processors can withstand launch forces and radiation, whether their heat can be removed in a vacuum, and whether future groups of satellites can exchange enough data to operate as a larger computing system. TPUs are custom processors used by Google to train and run AI models. Unlike processors designed specifically for spacecraft, the chips aboard the Project Suncatcher prototype are based on AI hardware also used for terrestrial computing workloads. The hardware will be tested over the coming weeks to determine how the processors perform under launch stresses, radiation exposure, and orbital thermal conditions. Google said the experiment is intended to collect data that cannot be fully reproduced through ground-based testing. Before launch, Google subjected the hardware to vibration testing intended to reproduce the forces experienced during a rocket flight. The company said the journey to low Earth orbit involves sustained acceleration of up to 10 times the force of gravity , while individual components such as TPU chips can experience forces of 50 to 100 g.",
       "url": "https://techwireasia.com/2026/10/google-ai-chips-space-orbital-data-centres/",
@@ -1942,13 +2036,13 @@
       ],
       "eventType": "跨公司事件",
       "score": 29.9,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "作為 Suncatcher 專案的一部分，Google已將四個 TPU 放入近地軌道，該專案旨在檢驗人工智慧運算基礎設施是否可以在太空中運行。這顆原型衛星於 10 月 1 日在 SpaceX 的 Transporter-18 共乘任務中發射升空，並攜帶四個 Trillium 代 TPU。谷歌表示，它已經與這顆衛星建立了聯繫，衛星正在按預期運行。谷歌宣布了項目",
+        "event": "作為 Suncatcher 專案的一部分，Google已將四個 TPU 放入近地軌道，該專案旨在檢驗人工智慧運算基礎設施是否可以在太空中運行。這顆原型衛星於 10 月 1 日在 SpaceX 的 Transporter-18 共乘任務中發射升空，並攜帶四個 Trillium 代 TPU。谷歌表示，它已經與這顆衛星建立了聯繫，衛星正在按預期運行。該專案正在測試人工智慧處理器是否能夠承受發射力和輻射，它們的熱量是否可以在",
         "numbers": [],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "作為 Suncatcher 專案的一部分，Google已將四個 TPU 放入近地軌道，該專案旨在檢驗人工智慧運算基礎設施是否可以在太空中運行。這顆原型衛星於 10 月 1 日在 SpaceX 的 Transporter-18 共乘任務中發射升空，並攜帶四個 Trillium 代 TPU。谷歌表示，它已經與這顆衛星建立了聯繫，衛星正在按預期運行。谷歌宣布了項目",
+        "stance": "作為 Suncatcher 專案的一部分，Google已將四個 TPU 放入近地軌道，該專案旨在檢驗人工智慧運算基礎設施是否可以在太空中運行。這顆原型衛星於 10 月 1 日在 SpaceX 的 Transporter-18 共乘任務中發射升空，並攜帶四個 Trillium 代 TPU。谷歌表示，它已經與這顆衛星建立了聯繫，衛星正在按預期運行。谷歌于 2025 年宣布推出 Suncatcher 项目，研究在互联卫星上运行机器学习基础设施的技术要求。该项目是随着数据中心电力需求的增加而推出的。國際能源總署 (IEA) 預計，全球資料中心用電量將從 2025 年的約 485 太瓦時 (TWh) 增加到 2030 年的約 950 太瓦時 (TWh)，而同期以人工智慧為重點的設施的用電量預計將增加兩倍。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -2008,7 +2102,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 17.55,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2564,72 +2658,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "亞馬遜警告當地社區不要再反抗其龐大的人工智慧資料中心",
-      "summary": "",
-      "originalTitle": "Amazon Warns Local Communities to Stop Defying Its Massive AI Data Centers",
-      "originalSummary": "The tech industry has largely failed to win over the public when it comes to AI. Data centers have become a hot-button topic, with the vast majority of Americans — in a still-growing bipartisan cohort — now openly opposing them. Meanwhile, panicking executives are desperately trying to pivot the messaging to shore up some support, in last-ditch efforts that aren't proving fruitful. As such, Amazon Web Services CEO Matt Garman pleaded in a 3,000 word blog today with communities to embrace data centers, arguing that the United States \"can’t afford to lose\" the AI race, invoking the country's post-World War II highway buildout as a parallel. \"Just like the national highway system, our country’s economy, national security, and everyday lives stand to benefit immensely,\" he wrote. The executive accused the media of spreading \"misinformation and outright lies,\" arguing that \"in the age of social media and 24/7 news, myths take hold faster than ever before.\" Garman even alleged that US adversaries were \"intentionally seeding misinformation in the US about data centers to trick us into slowing down.\" \"Right now there are over 100 data center moratoriums being considered across the country,\" Garman wrote. \"If these measures are enacted, the US could be writing its own losing ticket to this race, and the consequences would last generations.\" In his blog post, Garman tried to undermine concerns over data centers driving up electricity prices and producing huge amounts of pollution — despite existence of ample evidence to the contrary. Those attempts to dispel \"myths\" shouldn't come as a surprise, considering the enormous backlash. But given the impossible-to-ignore vested interest in underplaying these concerns, we should take Garman's efforts with an enormous grain of salt. Just last year, leaked internal Amazon documents showed that executives were exchanging notes about how to keep the public ignorant about the \"true extent\" of the massive amounts of water their data centers use. Earlier this year, Axios also reported that Amazon’s AI buildout fueled an unprecedented leap in the company’s emissions, despite pledging to reach a net-zero carbon footprint by 2040. While Garman argues that it's \"untrue\" that data centers are spewing huge amounts of carbon emissions with backup diesel generators, we've seen plenty of evidence to the contrary. In Texas alone, dozens of AI data center facilities are using environmentally harmful generators by exploiting regulatory loopholes. As much as Garman doesn't want to admit it, energy prices are indeed sending power bills soaring, a fact that certainly isn't an example of \"misleading and convenient scapegoating.\" He also tried to argue that \"thousands of construction jobs are created to build data centers,\" without mentioning that most of those jobs evaporate once they're built. If anything, Garman's desperate plea — which wraps up with announcing the establishment of a \"new community program\" with the cutesy name of \"Built Together\" — highlights just how badly the industry has lost the plot. Just this week, a Wall Street Journal poll revealed that 62 percent of Americans supported a pause on the construction of AI d",
-      "url": "https://futurism.com/artificial-intelligence/amazon-local-communities-stop-defying-ai-data-centers",
-      "ts": "2026-10-05T00:03:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 13.65,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "在人工智慧方面，科技業基本上未能贏得大眾的支持。資料中心已成為一個熱門話題，絕大多數美國人（兩黨仍在不斷增長的群體中）現在公開反對資料中心。因此，亞馬遜網路服務執行長 Matt Garman 今天在一篇 3000 字的部落格中呼籲社區擁抱資料中心，認為美國在人工智慧競賽中“輸不起”，並以美國二戰後的高速公路建設為例。儘管加曼不希望",
-        "numbers": [],
-        "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "在人工智慧方面，科技業基本上未能贏得大眾的支持。資料中心已成為一個熱門話題，絕大多數美國人（兩黨仍在不斷增長的群體中）現在公開反對資料中心。與此同時，驚慌失措的高階主管們正拼命地試圖透過傳遞訊息來支撐一些支持，但事實證明，他們的最後努力並沒有取得成果。因此，亞馬遜網路服務執行長 Matt Garman 今天在一篇 3000 字的部落格中呼籲社區擁抱資料中心，認為美國在人工智慧競賽中“輸不起”，並以美國二戰後的高速公路建設為例。他寫道：“就像國家高速公路系統一樣，我們國家的經濟、國家安全和日常生活都將受益匪淺。”這位高管指責媒體傳播“錯誤信息和徹頭徹尾的謊言”，並認為“在社會時代",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美債殖利率上升，高利率風險加劇！華爾街的人工智慧狂熱正處於關鍵時刻。",
-      "summary": "",
-      "originalTitle": "Rising U.S. Treasury yields intensify high-interest-rate risks! Wall Street’s AI frenzy is at a critical juncture.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUlxUTNROUJ3QklOUjdqZ2R0YTBKVERVZVZMY2lHYWlmM3lEejBpVEFjclEteElBNjRFekFPOFhacGkxdW9wZUp6WGZDdDdUZGNTRm8tbzVlRDlEaGxXTkRJYmcyRHRGcXZLdHdiSHoyMWZUSlVWVmNvVnQ0d3YwQ1AwQ3dVMEZTUVQ2V0VwcHUzT2l5UWNDbmZJQnNCMC14WkJ1M3NYQ2VUS2gwWUE?oc=5",
-      "ts": "2026-10-05T00:00:11+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 17.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -2860,7 +2888,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "ASTS 繼前一日飆升後下跌 2%——在 Beta 服務推出前又有三顆藍鳥衛星進入軌道",
-      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
       "originalTitle": "ASTS Dips 2% After Prior-Day Surge — Three More BlueBird Satellites Hit Orbit Ahead Of Beta Service Launch",
       "originalSummary": "BlueBirds 14-16 left AST's Texas facility for Cape Canaveral, although the company did not announce a launch date. Production is advancing through BlueBird 50, with more than 20 spacecraft structures being integrated. AST's recent change-of-control severance plan sparked retail buyout speculation as payouts require a qualifying executive departure.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asts-climbs-overnight-bluebird-convoy-013208368.html?fr=sycsrp_catchall",
@@ -2877,7 +2905,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
         "numbers": [
           "2%"
         ],
@@ -6678,7 +6706,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 獲得有史以來最大的電子商業交易：Synspective 的 20 項發射合同",
-      "summary": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+      "summary": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
       "originalTitle": "Rocket Lab Secures Largest-Ever Electron Commercial Deal: 20-Launch Contract for Synspective",
       "originalSummary": "The deal marks Rocket Lab’s single largest commercial launch contract for Electron to date, reinforcing Electron’s position as the world’s most in-demand rocket for small satellite constellation deploymentLONG BEACH, Calif., Sept. 30, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB) (“Rocket Lab” or the “Company”), a global leader in launch services and space systems, today announced it has signed a multi-year launch agreement for 20 new Electron missions with Tokyo-based Earth obs",
       "url": "https://finance.yahoo.com/technology/articles/rocket-lab-secures-largest-ever-230000314.html",
@@ -6695,10 +6723,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "event": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "stance": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -8976,7 +9004,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞和 Iceye 將為國防和安全開發低軌道衛星系統",
-      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
       "originalTitle": "Nokia and Iceye to make low-orbit satellite systems for defence, security",
       "originalSummary": "Published on 10/01/2026 at 03:01 am EDT - Modified on 10/01/2026 at 03:07 am EDT OSLO, Oct 1 (Reuters) - Iceye and Nokia will develop satellite communications systems for governments, supporting missions from defence and border security to emergency services and disaster response, the companies said in a statement on Thursday. (Reporting by Terje Solsvik, editing by Louise Rasmussen)",
       "url": "https://www.marketscreener.com/news/nokia-and-iceye-to-make-satellite-systems-for-defence-security-ce785ad3dc8df32d",
@@ -8993,10 +9021,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -10920,7 +10948,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -10937,14 +10965,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -10988,7 +11016,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Caterpillar 將在北卡羅來納州投資 10 億美元擴大 Cat Compact℠ 製造能力",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact℠ Manufacturing Capacity",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11004,7 +11032,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -11012,7 +11040,7 @@
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11640,7 +11668,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -11656,10 +11684,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -25213,7 +25241,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 將商業發射延後到 2027 年。以下是其現金能持續多久",
-      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
       "originalTitle": "AST SpaceMobile Pushed Commercial Launch to 2027. Here's How Long Its Cash Lasts Until Then",
       "originalSummary": "The space industry could be entering a new growth phase, and AST SpaceMobile (NASDAQ: ASTS) is one of the most interesting companies to watch. With its satellite network expanding and direct-to-device service increasingly a reality, AST has several major catalysts ahead. If those catalysts play out, the stock could distinguish itself as one of the sector's top performers heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ast-spacemobile-best-performing-103000605.html",
@@ -25229,10 +25257,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
