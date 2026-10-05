@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05 22:28 台灣時間",
+  "updatedAt": "2026-10-05 22:31 台灣時間",
   "historyUpdatedDate": "2026-10-05",
   "historyLastAttemptAt": "2026-10-04T16:01:40.727755+00:00",
   "historyItemCount": 800,
@@ -38,40 +38,47 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "VST",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "BMO因監理挑戰下調瑞致達能源股價目標",
-      "summary": "",
+      "summary": "Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The catch sits inside two words that management itself flagged as a problem: ERCOT prices.",
       "originalTitle": "BMO cuts Vistra Energy stock price target on regulatory challenges",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHRfTW82TmZEZFFuNWI5QzI2OXg2T28yZGxTN0pIWGxyb3hiUW9vb2U4V2RzZDZWejZLa1ZQaGMxQ3dtZENBbC1mX1dtOW16TlFpV0RvRF9Ka2pKU2tveVVFLVg3OE93TVR6ZTNEdGUzNkE5UEhNcVRoUFBJYzNCMWZnYjJVbFlJR2JJRFhXNmlCcXNtTml2R3cxZ3ZQeHAxOUZtUTdLWWdnMDB6MHF3ZjhKNjVMeVNnRVloQnNiX0hNLUI5?oc=5",
+      "originalSummary": "Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The catch sits inside two words that management itself flagged as a problem: ERCOT prices.",
+      "url": "https://247wallst.com/investing/2026/10/01/vistras-price-dropped-30-in-1-year-why-one-wall-street-analyst-predicts-115-returns-from-here/",
       "ts": "2026-10-05T14:24:35+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "VST"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 201.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The catch sits inside two words that management itself flagged as a problem: ERCOT prices.",
+        "numbers": [
+          "30%",
+          "115%"
+        ],
+        "why": "券商調整理由：Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside.",
+        "stance": "Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside.",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "TSLA",
@@ -116,6 +123,52 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
+      "top10Rank": 8
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "TD Cowen 重申 AMZN Buy",
+      "summary": "",
+      "originalTitle": "TD Cowen reiterates Amazon stock Buy rating on AWS growth outlook",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNVVXNktZNXJ2Y0xFM1NtTG8tZVE4aGtOUktSb3I4UzZkNm5BcFRIZmMtZkp1R3hNRm5xVEdXeEl4dHJjSHlsZVRaclZadGNCS2RmR1Q2YUVTMnZvUC1VQ3R1anZNOFpqbFlLNkNNb2Q1cXJFczl4Xy04RnByS01BSU5GQjk5UEc5MG9mRnNiQS00NkR0VUZLNTR4YWdYUjhSUUR4WGdqOXhyVjlUNnI5NUhjRVRuMFZvUGFOa2dVWTBzNkU?oc=5",
+      "ts": "2026-10-05T14:24:35+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "TD Cowen",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
+          "reasonConfidence": "medium",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 208.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：TD Cowen｜動作：重申｜評等：Buy｜調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
+        "numbers": [],
+        "why": "調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
       "top10Rank": 7
     },
     {
@@ -123,14 +176,14 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Ondas (ONDS) 獲得 5600 萬美元的歐洲遊蕩彈藥合約",
-      "summary": "",
+      "summary": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history.",
       "originalTitle": "Ondas (ONDS) Secures $56M Contract for European Loitering Muniti",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVjdXLVUtcndVc1M3Mkt5aERUQnFxcVpPTW82a1g0dGFyZURtMXdqcnc1QlVTNWFVOGtvTzNKYWtEN3pGaURWOHJXUTgzZUthbE55Qlg1RXVtNDktcDVHWWxPLTlBU18tR1VuSU1pQ0dXdmNzQ2QtVk5IenZVVVcyYWRNTC1Na0p2Ul9TRjdNTTBvVlZ2WWlGLUs4THpKTGtQakVzZ215a2ZJX1N6REpv?oc=5",
+      "originalSummary": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history.",
+      "url": "https://247wallst.com/investing/2026/10/05/ondas-climbs-5-on-56m-precision-strike-order-as-citizens-starts-coverage-aerovironment-barely-budges/",
       "ts": "2026-10-05T14:23:07+00:00",
       "sourceType": "active_search",
       "movePct": 5.041436464088411,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "ONDS"
       ],
@@ -140,16 +193,23 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history.",
+        "numbers": [
+          "$56M",
+          "$56 million",
+          "56 million"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "A $56 million safety-critical munitions order just sent one small drone stock surging past AeroVironment and the broader defense ETF, and the real question is whether this contract signals a turning point or another fleeting headline for a company with a complicated history.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "ONDS",
@@ -215,14 +275,59 @@
       "top10Rank": null
     },
     {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "UBS 重申 TSLA neutral",
+      "summary": "",
+      "originalTitle": "UBS maintains Tesla stock neutral rating on mixed delivery results By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUkF6RnZqeUxTcFRxNlhEUHc3cjhqUk50U0JpazRpNTdMVG0xWHpNYVkyY2lvWmllSE1waVlUc082QV9iX2ttZWNFOWlsQTBUendZUlMzbG5Yb2IxbXBHVnNjLXFGNEkxMVhtZHdET21WZmFMWWFuX3FnTzFUdTNBUUpad1dBWWRRM3M1ZERtNVBydVZhXzZFazBLZkZSblVVNWoxQVBJVXM4N0NDbndVM1JHalNOR3I3d2psNEVFTE5WUWtHT3c?oc=5",
+      "ts": "2026-10-05T14:18:00+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "UBS",
+          "analyst": "",
+          "rating": "neutral",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：UBS｜動作：重申｜評等：neutral｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "APP",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "HSBC 重申 APP Buy",
-      "summary": "",
+      "summary": "HSBC Adjusts Price Target on AppLovin to $409 From $450, Maintains Buy RatingAppLovin has an average rating of buy and mean price target of $496.92, according to analysts polled by FactSet. Price: 281.22, Change: +13.00, Percent Change: +4.85 ...",
       "originalTitle": "HSBC Adjusts Price Target on AppLovin to $409 From $450, Maintains Buy Rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekVZZHNKb3ZmNkhjTGdHTWtHYWVCZjhrNVk0eWtyTVRSZTBYVDVVdEtEQjdQaGtIUUtxeHJReG9CS1V2NmlpYkRRb3JyMUxlbUI4LTJ5YjVRYV9oZHFfeUVnZkxZNzlTbzNXNDc1SmZmaWc0S1RaN2QxTlJpZzJPOHF0R2RnWE9MZS1vUlJ6UnNLYTRZN1ZQV2ljXzFOOXloNXNna3NsWlFvRnhudU5nQXRKVjU4T0ZGXzJyMnk3WEdhYkRDdGc?oc=5",
+      "originalSummary": "HSBC Adjusts Price Target on AppLovin to $409 From $450, Maintains Buy RatingAppLovin has an average rating of buy and mean price target of $496.92, according to analysts polled by FactSet. Price: 281.22, Change: +13.00, Percent Change: +4.85 ...",
+      "url": "https://www.marketscreener.com/news/hsbc-adjusts-price-target-on-applovin-to-409-from-450-maintains-buy-rating-ce785dd8d88ef321",
       "ts": "2026-10-05T14:14:46+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -234,13 +339,13 @@
           "action": "下修",
           "newTarget": "$409",
           "oldTarget": "$450",
-          "reason": "匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+          "reason": "AppLovin 從 450 美元上調至 409 美元，維持買入評級 匯豐銀行將 AppLovin 的目標價從 450 美元上調至 409 美元，維持買入評級 根據 FactSet 調查的分析師，AppLovin 的平均評級為買入，平均目標價為 496.92 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "APP",
           "targetCompany": "AppLovin"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "APP"
       ],
@@ -249,19 +354,20 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：AppLovin（APP）｜券商：HSBC｜動作：下修｜評等：Buy｜目標價：$409（原 $450）｜調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "event": "被評級公司：AppLovin（APP）｜券商：HSBC｜動作：下修｜評等：Buy｜目標價：$409（原 $450）｜調整原因：AppLovin 從 450 美元上調至 409 美元，維持買入評級 匯豐銀行將 AppLovin 的目標價從 450 美元上調至 409 美元，維持買入評級 根據 FactSet 調查的分析師，AppLovin 的平均評級為買入，平均目標價為 496.92 美元。",
         "numbers": [
           "$450",
           "$409"
         ],
-        "why": "調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "why": "調整原因：AppLovin 從 450 美元上調至 409 美元，維持買入評級 匯豐銀行將 AppLovin 的目標價從 450 美元上調至 409 美元，維持買入評級 根據 FactSet 調查的分析師，AppLovin 的平均評級為買入，平均目標價為 496.92 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "takeaway": "調整原因：AppLovin 從 450 美元上調至 409 美元，維持買入評級 匯豐銀行將 AppLovin 的目標價從 450 美元上調至 409 美元，維持買入評級 根據 FactSet 調查的分析師，AppLovin 的平均評級為買入，平均目標價為 496.92 美元。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "GFS",
@@ -304,24 +410,24 @@
       "detailSource": "article_or_same_event"
     },
     {
-      "ticker": "VST",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "美國能源部 40 億美元核貸款提振利潤和股息前景，瑞致達評級為“買入”",
+      "ticker": "GFS",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "利空",
+      "title": "法國巴黎銀行下調 GlobalFoundries 評級，因為該公司認為成長動力已被“定價”",
       "summary": "",
-      "originalTitle": "Vistra rated 'Buy' after $4B DOE nuclear loan boosts earnings and dividends outlook",
+      "originalTitle": "GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in'",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWjBpemgyNzFsWVl0S1doamN0Q0F5bXN3QWxCYU5KcFNtbWpoaHg2UDFWdnA2TDhpcTZZV1JRWjhxNUlXUmVSMEdyS24zWVRtSktfWC14NkFkcUdhRjEyT09LZW42YndRU05EcmhqcXZDeDV3cE9XRVFoRXFPMUtKVmZCNVV0THkwTUFESWlObw?oc=5",
-      "ts": "2026-10-05T14:13:15+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.085130695614914,
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV1R3OGZtLTlTWk1QdjhJcVVjUnNXNEIxYVFlb21rVjhuQjF5OWNjSFlta0NzSmZsa2hweE9lTjN4S3ZJWU9aUEx3M01FRFRPWUxaVmt1bms2eGZFbC1Cb3VwMVFoWWppR2FscDRrRHVTWmtNVkJTRmYwc0Jfb2FIX2FTMklaazRoaXF0RllQa3F2VktJOFItUzhOWjFNdlBoZTBZT3lxRzNPQU1pdjhZczNOanYzOFJlTEg0RS0xQV9odlBqcU0yWW1iVHRyd3BkX1N0azlidU1EUQ?oc=5",
+      "ts": "2026-10-05T14:13:23+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
       "hasArticleBody": false,
       "relatedTickers": [
-        "VST"
+        "GFS"
       ],
       "eventType": "",
-      "analystPriority": false,
-      "score": 15.75,
+      "score": 202.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -335,6 +441,49 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "VST",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "美國能源部 40 億美元核貸款提振利潤和股息前景，瑞致達評級為“買入”",
+      "summary": "Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+      "originalTitle": "Vistra rated 'Buy' after $4B DOE nuclear loan boosts earnings and dividends outlook",
+      "originalSummary": "Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+      "url": "https://finance.yahoo.com/energy/articles/vistra-shares-bounce-off-lows-195631194.html",
+      "ts": "2026-10-05T14:13:15+00:00",
+      "sourceType": "active_search",
+      "movePct": 4.085130695614914,
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "VST"
+      ],
+      "eventType": "",
+      "analystPriority": true,
+      "score": 215.25,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+        "numbers": [
+          "$4B",
+          "$139.20",
+          "$135.79",
+          "$4 billion"
+        ],
+        "why": "券商調整理由：Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+        "stance": "Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修"
+        ],
+        "takeaway": "券商調整理由：Investing.com -- Vistra Corp (NYSE:VST) shares trimmed earlier losses Friday afternoon, trading down 0.3% at $139.20 after dropping to a session low of $135.79 following a Bloomberg report that the Trump administration plans to offer the company a roughly $4 billion loan package to upgrade three of its nuclear plants. Prior to the news breaking, the stock was trading near $137.",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 2,
+      "detailSource": "article_or_same_event",
+      "analystDetails": []
     },
     {
       "ticker": "MARKET",
@@ -364,6 +513,54 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "TD Cowen 調整 AMZN 目標價至 $350，維持 Buy",
+      "summary": "",
+      "originalTitle": "TD Cowen reiterates Buy rating on Amazon.com, $350 price target",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRGNjb0I5Wmxkd25VdHF3YWdwcERmdFVIUW9HRWJKVmV6MS1rUXNhd1NwSnExVjRDcGtZcUdtX3JTcFZPeDFRYndTMVNubGJnR1U5TzkweUI0S00xX0lXczNpaVF6d01YakxGOFlZbHZEZ2M1SU1wSVFvOTEydjYtNF81Y3RIX2p0UWNZaGc1LTRseWQxYUNHU2xLdURTWFlOTlRPNWM1bGluLXQ1cHNBZEFyQTNQM3V2WTZvY3c3cXY?oc=5",
+      "ts": "2026-10-05T14:10:27+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "TD Cowen",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "$350",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：TD Cowen｜動作：重申｜評等：Buy｜目標價：$350｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$350"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -534,7 +731,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Vistra has shed nearly 30% while Wall Street analysts keep raising their price targets, creating a gap that one top analyst thinks is worth 115% upside. The catch sits inside two words that management itself flagged as a problem: ERCOT prices.",
@@ -554,52 +751,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "TD Cowen 重申 AMZN Buy",
-      "summary": "",
-      "originalTitle": "TD Cowen reiterates Amazon stock Buy rating on AWS growth outlook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdGVtZE5UXzhPR1dMZUY2bWtHVGNZeUtMeVI2ZVBEX3FZQmNYNDFoTWxGXzJXbXB4RkI4a1lGSWFDajk4aTd4cXMxZ2VlUTdGUkt4bUZId096elFVV2RoajBXUlliRUZqVTVkTlRKZ1JZZnNxY3dnOTN2OUUyWUJmXzBUNTlrb2Jxa0pSYkwyVDhLYmFWZFJLMU04dWZlZkhzdFd2YU0wQmU2N3FaT1JoQWExVWNnYjJILWFhdk81eFlXdndq?oc=5",
-      "ts": "2026-10-05T14:01:05+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "TD Cowen",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 208.5,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：TD Cowen｜動作：重申｜評等：Buy｜調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
-        "numbers": [],
-        "why": "調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：TD Cowen 重申對 AWS 成長前景的亞馬遜股票買進評級",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 6
     },
     {
       "ticker": "VST",
@@ -633,7 +784,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Vistra（VST）｜券商：BMO Capital｜動作：重申｜調整原因：BMO Capital 維持 VST 評級——目標價下調至 210 美元",
@@ -663,7 +814,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 17.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1195,7 +1346,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1459,7 +1610,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "CRDO",
@@ -1882,7 +2033,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2168,7 +2319,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2277,7 +2428,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -2500,7 +2651,7 @@
           "action": "下修",
           "newTarget": "$1,100",
           "oldTarget": "$1,225",
-          "reason": "Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+          "reason": "Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "CAT",
           "targetCompany": "Caterpillar"
@@ -2515,15 +2666,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Caterpillar（CAT）｜券商：Truist｜動作：下修｜評等：Buy｜目標價：$1,100（原 $1,225）｜調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "event": "被評級公司：Caterpillar（CAT）｜券商：Truist｜動作：下修｜評等：Buy｜目標價：$1,100（原 $1,225）｜調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "numbers": [
           "$1,225",
           "$1,100"
         ],
-        "why": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "why": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "takeaway": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -2727,103 +2878,6 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Anthropic、OpenAI、谷歌和 Meta 高層將在紐約市議會關於人工智慧風險的聽證會上作證",
-      "summary": "",
-      "originalTitle": "Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks",
-      "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|ai artificial i|enterprise|cybersecurity|politics|law and regulat\",\"additionalSectionContentFormattedFull\":\"internet|ai artificial intelligence|enterprise|cybersecurity|politics|law and regulation\",\"authorFormatted\":\"ashley capoot\",\"authorFormattedFull\":\"ashley capoot\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-05T10:41:41+0000\",\"dateLastPublished\":\"2026-10-05T10:42:51+0000\",\"datePublished\":\"2026-10-05T10:41:41+0000\",\"description\":\"The leading AI labs facing intensifying scrutiny over their safety and security practices.\",\"expires\":null,\"headline\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"id\":108372295,\"liveURL\":\"/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html\",\"native\":false,\"pageName\":\"108372295|2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|internet|enterprise|cybersecurity|openai forge gl|elon musk|space explorati|breaking news p|politics|elon musk|new york city|julie menin|alphabet class |meta platforms |invesco qqq tru|ishares expande\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|internet|enterprise|cybersecurity|openai forge global|elon musk|space exploration technologies corp|breaking news politics|politics|elon musk|new york city|julie menin|alphabet class a|meta platforms inc|invesco qqq trust|ishares expanded tech sector etf\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Anthropic, OpenAI, Google, Meta execs testify NYC Council AI hearing\",\"shortDateFirstPublished\":\"10/05/2026\",\"shortDateLastPublished\":\"10/05/2026\",\"shortDatePublished\":\"10/05/2026\",\"shortenedUrls\":[{\"shareName\":\"Twitter\",\"url\":\"https://cnb.cx/4rKsYFs\"},{\"shareName\":\"SMS\",\"url\":\"https://cnb.cx/4rP3yH0\"},{\"shareName\":\"Linkedin\",\"url\":\"https://cnb.cx/4rKHkG9\"},{\"shareName\":\"AppleTV\",\"url\":\"https://cnb.cx/4zd5dbE\"},{\"shareName\":\"Facebook\",\"url\":\"https://cnb.cx/3Vj2S0q\"},{\"shareName\":\"Email\",\"url\":\"https://cnb.cx/4jEYh2s\"}],\"slug\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https://www.cnbc.com\",\"subType\":null,\"tagName\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"tagNameFormatted\":\"anthropic opena\",\"tagNameFormattedFull\":\"anthropic openai google and meta execs set to testify at nyc council hearing on ai risks\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"title\":\"Anthropic, Open",
-      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-      "ts": "2026-10-05T10:41:41+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "GOOGL",
-        "META"
-      ],
-      "eventType": "跨公司事件",
-      "score": 32.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"old\" wValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"互聯網|ai人工智慧|企業|網路安全|政治|法律法規\",\"additionalSectionContentFormattedFull\":\"網路|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash| capoot\",\"authorFormattedFull\":\"ashley capoot\",\"brand\":\"",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"old\" wValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"互聯網|ai人工智慧|企業|網路安全|政治|法律法規\",\"additionalSectionContentFormattedFull\":\"網路|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash| capoot\",\"authorFormattedFull\":\"ashley capoot\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPubli d\":\"20",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Apple 計劃對 AI 代理資料存取實施更嚴格的 macOS 全磁碟存取控制",
-      "summary": "",
-      "originalTitle": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fdjdBakpzbjZVY0x2aGxNTjliTUdOOHVPOTQ3V09EZGo5NmxKbU5PZHdoR1FWZklHVkhUT2s0bXVwN0xOM2RjUzR1aVZGZDNFM0dDVFNGbjk0N1h5SVBKYVJIMTBSbGdvNlJjRVdWa3R5YUdzM2E0OHBjdmtVOUE?oc=5",
-      "ts": "2026-10-05T10:38:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克100指數預測：NDX進一步上漲，中東事態發展成為焦點",
-      "summary": "",
-      "originalTitle": "Nasdaq 100 Forecast: NDX rises further with Middle East developments in focus",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZUJEYzFldk1INDBwelQ0azdqM2lvRHYzcU15a2VNamREZlBsV3prYnc3Wm5aUlhhNFRDeU5wTXhJNmF3dUhXSXJjTEtGZThWdEx5SE9DMFpfaEJoUnZ6bVVha3k3WDNRYXFVb2lGNDhzQnQ2MnpkUDhpYlM5RElSOXl2OEVFX3lSOUdnVHR5eGNwQTlIZ2xtcFhzVnJKQTM0VlFDYnNZVlNZNTRTci1QMnNSY0lRNXIxbk85dEEwV01xUQ?oc=5",
-      "ts": "2026-10-05T10:32:06+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -3067,7 +3121,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "ASTS 繼前一日飆升後下跌 2%——在 Beta 服務推出前又有三顆藍鳥衛星進入軌道",
-      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
       "originalTitle": "ASTS Dips 2% After Prior-Day Surge — Three More BlueBird Satellites Hit Orbit Ahead Of Beta Service Launch",
       "originalSummary": "BlueBirds 14-16 left AST's Texas facility for Cape Canaveral, although the company did not announce a launch date. Production is advancing through BlueBird 50, with more than 20 spacecraft structures being integrated. AST's recent change-of-control severance plan sparked retail buyout speculation as payouts require a qualifying executive departure.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asts-climbs-overnight-bluebird-convoy-013208368.html?fr=sycsrp_catchall",
@@ -3084,7 +3138,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
         "numbers": [
           "2%"
         ],
@@ -6885,7 +6939,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 獲得有史以來最大的電子商業交易：Synspective 的 20 項發射合同",
-      "summary": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+      "summary": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
       "originalTitle": "Rocket Lab Secures Largest-Ever Electron Commercial Deal: 20-Launch Contract for Synspective",
       "originalSummary": "The deal marks Rocket Lab’s single largest commercial launch contract for Electron to date, reinforcing Electron’s position as the world’s most in-demand rocket for small satellite constellation deploymentLONG BEACH, Calif., Sept. 30, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB) (“Rocket Lab” or the “Company”), a global leader in launch services and space systems, today announced it has signed a multi-year launch agreement for 20 new Electron missions with Tokyo-based Earth obs",
       "url": "https://finance.yahoo.com/technology/articles/rocket-lab-secures-largest-ever-230000314.html",
@@ -6902,10 +6956,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "event": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "stance": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -9183,7 +9237,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞和 Iceye 將為國防和安全開發低軌道衛星系統",
-      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
       "originalTitle": "Nokia and Iceye to make low-orbit satellite systems for defence, security",
       "originalSummary": "Published on 10/01/2026 at 03:01 am EDT - Modified on 10/01/2026 at 03:07 am EDT OSLO, Oct 1 (Reuters) - Iceye and Nokia will develop satellite communications systems for governments, supporting missions from defence and border security to emergency services and disaster response, the companies said in a statement on Thursday. (Reporting by Terje Solsvik, editing by Louise Rasmussen)",
       "url": "https://www.marketscreener.com/news/nokia-and-iceye-to-make-satellite-systems-for-defence-security-ce785ad3dc8df32d",
@@ -9200,10 +9254,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11127,7 +11181,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11144,14 +11198,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11195,7 +11249,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Caterpillar 將在北卡羅來納州投資 10 億美元擴大 Cat Compact℠ 製造能力",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact℠ Manufacturing Capacity",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11211,7 +11265,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -11219,7 +11273,7 @@
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11847,7 +11901,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -11863,10 +11917,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -11880,7 +11934,7 @@
       "group": "CPU 概念股",
       "tag": "利多",
       "title": "Googlebook 推出採用 Intel Core Ultra 系列 3 處理器",
-      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
+      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
       "originalTitle": "Googlebook Launches with Intel Core Ultra Series 3 Processors",
       "originalSummary": "With the first wave of launch-day Googlebook hardware landing on store shelves in just a matter of days, it would be tempting to think development work might be quiet while everyone waits to see how the market reacts. Instead, work on the next generation of Googlebooks is already moving full steam ahead. Just days after ‘Coolum’ - an upcoming Intel Core Series 3 clamshell likely coming from Lenovo - was uncovered, yet another development board has officially popped up in the Chromium Gerrit. Codenamed ‘Blanc’, this new device points toward another manufacturer laying the groundwork for a more mainstream, accessible Intel-powered Googlebook. via the Chromium Gerrit Clamshell, convertible, or detachable? Whenever a brand-new board surfaces, the first big question is always form factor: are we looking at a traditional clamshell, a 2-in-1 convertible, or a detachable tablet like Lenovo’s upcoming Duet m? While it is still very early days for ‘Blanc’, the initial code provides some clear structural clues. The setup files account for standard active cooling fans, everyday USB-A and USB-C port layouts, and traditional laptop battery rails. Because there is no evidence of detachable magnetic connectors or specialized tablet-first thermal restrictions, ‘Blanc’ is shaping up to be a traditional clamshell laptop or a convertible 2-in-1 rather than a tablet/detachable. Aiming for mainstream Intel performance Under the hood, ‘Blanc’ is branching directly off Google’s ‘Ocelot’ baseboard, which is the reference platform for upcoming Intel Core Series 3 (Wildcat Lake) processors. That is a crucial distinction. During Google’s media event in New York City, the initial x86 Intel devices like the Lenovo Googlebook 15, Acer Googlebook 14, and the ultralight ASUS Googlebook 14 all came equipped with Intel’s top-tier Core Ultra Series 3 (Panther Lake) chips and $899+ price tags to match. ‘Blanc’ and the ‘Ocelot’ family represent the next tier down. Instead of chasing ultra-premium, bleeding-edge specs, these Core Series 3 machines are being designed for the high-volume, mainstream market. They will bring reliable multi-core processing, modern on-device AI acceleration for Gemini features, and long battery life at a price point that regular consumers and students will definitely enjoy. Looking ahead to 2027 Because ‘Blanc’ is literally in its very first week of public code commits, this is not a device you will see hitting Best Buy or the Google Store this fall. Taking a board from its earliest power configurations to retail certification usually takes anywhere from six to nine months, and Intel's Wildcat Lake hardware is firmly tracking toward early 2027. Still, seeing two separate Intel Core Series 3 laptops (‘Coolum’ and now ‘Blanc’) spin up alongside each other shows that hardware partners are already treating Googlebook as a long-term platform rather than a one-time trial. We will keep an eye on ‘Blanc’ as the code matures to see which OEM ultimately puts its logo on the lid.",
       "url": "https://chromeunboxed.com/blanc-is-another-new-intel-wildcat-lake-powered-googlebook-already-in-the-works/",
@@ -11897,12 +11951,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
         "numbers": [
           "$899"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -25420,7 +25474,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 將商業發射延後到 2027 年。以下是其現金能持續多久",
-      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
       "originalTitle": "AST SpaceMobile Pushed Commercial Launch to 2027. Here's How Long Its Cash Lasts Until Then",
       "originalSummary": "The space industry could be entering a new growth phase, and AST SpaceMobile (NASDAQ: ASTS) is one of the most interesting companies to watch. With its satellite network expanding and direct-to-device service increasingly a reality, AST has several major catalysts ahead. If those catalysts play out, the stock could distinguish itself as one of the sector's top performers heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ast-spacemobile-best-performing-103000605.html",
@@ -25436,10 +25490,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
