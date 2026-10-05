@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06 07:00 台灣時間",
+  "updatedAt": "2026-10-06 07:03 台灣時間",
   "historyUpdatedDate": "2026-10-06",
   "historyLastAttemptAt": "2026-10-05T16:02:11.612595+00:00",
   "historyItemCount": 800,
@@ -24,6 +24,36 @@
       ],
       "eventType": "",
       "score": 10.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "隨著科技股反彈，標普 500 指數逼近歷史新高",
+      "summary": "",
+      "originalTitle": "Watch S&P 500 Closes In on Record High as Tech Rallies",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0pUMF84QUxjUnEwUkN2emVYRjFXMnlKM1hCTDI2ajlOdksyc0hjV2g3Y2ZQYmF0amU0VWlXdm5ldlZXN19lS3JySjNDNXBIYnoxdFBZTHJ5MVlaMk1nemNKR3VUMWR1dUo0cUtBMVpVTVROWTc4dm4zdnl0VGNoLXdiNE9JeVRDM3V6bkM0ZmJ6Sm1MSjFaRzBlakdvbE9EcGZhOS1n?oc=5",
+      "ts": "2026-10-05T22:49:15+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -116,7 +146,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 12.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -460,36 +490,6 @@
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YQk5kUkdaOU80RUtEd21SVkRsM0pfdTBMU25EbnoyUEF5VXFoeWI3N0FOT3RTcE03WmJxR1hJSFZKczhsd1RicVV3WFctWlZQeHh0c0VoQ1V1bURuRkE1dkFBb2xoZFdqSGhDZjI5LVlucEVMaURZYW1JRQ?oc=5",
       "ts": "2026-10-05T21:30:31+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "隨著科技股反彈，標普 500 指數逼近歷史新高",
-      "summary": "",
-      "originalTitle": "Watch S&P 500 Closes In on Record High as Tech Rallies",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON0pUMF84QUxjUnEwUkN2emVYRjFXMnlKM1hCTDI2ajlOdksyc0hjV2g3Y2ZQYmF0amU0VWlXdm5ldlZXN19lS3JySjNDNXBIYnoxdFBZTHJ5MVlaMk1nemNKR3VUMWR1dUo0cUtBMVpVTVROWTc4dm4zdnl0VGNoLXdiNE9JeVRDM3V6bkM0ZmJ6Sm1MSjFaRzBlakdvbE9EcGZhOS1n?oc=5",
-      "ts": "2026-10-05T21:29:15+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -2629,7 +2629,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -3728,7 +3728,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "ASTS 繼前一日飆升後下跌 2%——在 Beta 服務推出前又有三顆藍鳥衛星進入軌道",
-      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
+      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
       "originalTitle": "ASTS Dips 2% After Prior-Day Surge — Three More BlueBird Satellites Hit Orbit Ahead Of Beta Service Launch",
       "originalSummary": "BlueBirds 14-16 left AST's Texas facility for Cape Canaveral, although the company did not announce a launch date. Production is advancing through BlueBird 50, with more than 20 spacecraft structures being integrated. AST's recent change-of-control severance plan sparked retail buyout speculation as payouts require a qualifying executive departure.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asts-climbs-overnight-bluebird-convoy-013208368.html?fr=sycsrp_catchall",
@@ -3745,7 +3745,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
+        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
         "numbers": [
           "2%"
         ],
@@ -5918,7 +5918,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "SPCX 股價上漲，三週四發布以滿足谷歌 9.2 億美元人工智慧協議的啟動",
-      "summary": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 到 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
+      "summary": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 至 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
       "originalTitle": "SPCX Stock Climbs As Three Thursday Launches Meet Start Of Google’s $920 Million AI Pact",
       "originalSummary": "Industry insider Aaron Burnett said the target could be 10% to 25% above typical third-party reported VR72 averages. Musk credited the potential milestone to SpaceX's \"close working partnership and co-design\" with Nvidia. SpaceX's AI buildout includes major compute agreements with Google and Anthropic.",
       "url": "https://finance.yahoo.com/technology/ai/articles/spcx-stock-climbs-overnight-musk-054420506.html",
@@ -5936,7 +5936,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 到 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
+        "event": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 至 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
         "numbers": [
           "$920 Million",
           "10%",
@@ -5944,7 +5944,7 @@
           "920 Million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 到 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
+        "stance": "業內人士 Aaron Burnett 表示，該目標可能比第三方報告的 VR72 平均值高出 10% 至 25%。馬斯克將這一潛在的里程碑歸功於 SpaceX 與 Nvidia 的「密切合作和共同設計」。 SpaceX 的人工智慧建設包括與Google和 Anthropic 的主要計算協議。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -8632,7 +8632,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Symbotic Inc. (SYM) 最新股票新聞和頭條新聞",
-      "summary": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後於標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
+      "summary": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
       "originalTitle": "Symbotic Inc. (SYM) latest stock news and headlines",
       "originalSummary": "In the latest trading session, Symbotic Inc. (SYM) closed at $41.39, marking a -1.45% move from the previous day. This move lagged the S&P 500's daily loss of 0.17%. Elsewhere, the Dow lost 0.26%, while the tech-heavy Nasdaq lost 0.09%. Shares of the company have appreciated by 5.87% over the course of the past month, outperforming the Business Services sector's loss of 5.31%, and the S&P 500's loss of 0.24%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-symbotic-inc-sym-dipped-210005736.html",
@@ -8648,7 +8648,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後於標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
+        "event": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
         "numbers": [
           "$41.39, m",
           "1.45%",
@@ -8656,7 +8656,7 @@
           "0.26%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後於標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
+        "stance": "在最新的交易日中，Symbotic Inc. (SYM) 收於 41.39 美元，較前一交易日上漲 -1.45%。這項措施落後標準普爾 500 指數 0.17% 的日跌幅。其他方面，道瓊指數下跌 0.26%，而以科技股為主的那斯達克指數下跌 0.09%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -11509,7 +11509,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 再運送三顆藍鳥衛星（ASTS：納斯達克）到卡納維爾角）",
-      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
       "originalTitle": "AST SpaceMobile ships three more BlueBird satellites to Cape Canaveral (ASTS:NASDAQ)",
       "originalSummary": "Shares of AST SpaceMobile (NASDAQ: ASTS) climbed more than 1% overnight heading into Thursday after the company confirmed the shipment of three BlueBird satellites to Cape Canaveral. ASTS stock had fallen nearly 1% to $58.86 on Wednesday, closing out September with a 0.2% monthly loss and remaining down 19% year-to-date.",
       "url": "https://www.foreignpolicyjournal.com/2026/10/02/ast-spacemobile-nasdaq-asts-ships-three-bluebird-satellites-to-cape-canaveral-as-ceo-pushes-for-broader-spectrum-access-at-fcc/",
@@ -11525,7 +11525,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "numbers": [
           "$58.86",
           "1%",
@@ -11533,7 +11533,7 @@
           "19%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -11606,7 +11606,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "SpaceX 距離特斯拉合併又更近了一步",
-      "summary": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+      "summary": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
       "originalTitle": "SpaceX Just Got a Little Closer to a Tesla Merger",
       "originalSummary": "SpaceX Just Got a Little Closer to a Tesla Merger. On Tiger Brokers' website to stay informed on market trends, price movements, and investment strategies, helping you make smarter decisions.",
       "url": "https://www.itiger.com/news/2671201749",
@@ -11622,10 +11622,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+        "event": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+        "stance": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -12635,7 +12635,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -12652,14 +12652,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -12703,7 +12703,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Caterpillar 將在北卡羅來納州投資 10 億美元擴大 Cat Compact℠ 製造能力",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact℠ Manufacturing Capacity",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -12719,7 +12719,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -12727,7 +12727,7 @@
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -13458,7 +13458,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -13474,10 +13474,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -13491,7 +13491,7 @@
       "group": "CPU 概念股",
       "tag": "利多",
       "title": "Googlebook 推出採用 Intel Core Ultra 系列 3 處理器",
-      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
       "originalTitle": "Googlebook Launches with Intel Core Ultra Series 3 Processors",
       "originalSummary": "With the first wave of launch-day Googlebook hardware landing on store shelves in just a matter of days, it would be tempting to think development work might be quiet while everyone waits to see how the market reacts. Instead, work on the next generation of Googlebooks is already moving full steam ahead. Just days after ‘Coolum’ - an upcoming Intel Core Series 3 clamshell likely coming from Lenovo - was uncovered, yet another development board has officially popped up in the Chromium Gerrit. Codenamed ‘Blanc’, this new device points toward another manufacturer laying the groundwork for a more mainstream, accessible Intel-powered Googlebook. via the Chromium Gerrit Clamshell, convertible, or detachable? Whenever a brand-new board surfaces, the first big question is always form factor: are we looking at a traditional clamshell, a 2-in-1 convertible, or a detachable tablet like Lenovo’s upcoming Duet m? While it is still very early days for ‘Blanc’, the initial code provides some clear structural clues. The setup files account for standard active cooling fans, everyday USB-A and USB-C port layouts, and traditional laptop battery rails. Because there is no evidence of detachable magnetic connectors or specialized tablet-first thermal restrictions, ‘Blanc’ is shaping up to be a traditional clamshell laptop or a convertible 2-in-1 rather than a tablet/detachable. Aiming for mainstream Intel performance Under the hood, ‘Blanc’ is branching directly off Google’s ‘Ocelot’ baseboard, which is the reference platform for upcoming Intel Core Series 3 (Wildcat Lake) processors. That is a crucial distinction. During Google’s media event in New York City, the initial x86 Intel devices like the Lenovo Googlebook 15, Acer Googlebook 14, and the ultralight ASUS Googlebook 14 all came equipped with Intel’s top-tier Core Ultra Series 3 (Panther Lake) chips and $899+ price tags to match. ‘Blanc’ and the ‘Ocelot’ family represent the next tier down. Instead of chasing ultra-premium, bleeding-edge specs, these Core Series 3 machines are being designed for the high-volume, mainstream market. They will bring reliable multi-core processing, modern on-device AI acceleration for Gemini features, and long battery life at a price point that regular consumers and students will definitely enjoy. Looking ahead to 2027 Because ‘Blanc’ is literally in its very first week of public code commits, this is not a device you will see hitting Best Buy or the Google Store this fall. Taking a board from its earliest power configurations to retail certification usually takes anywhere from six to nine months, and Intel's Wildcat Lake hardware is firmly tracking toward early 2027. Still, seeing two separate Intel Core Series 3 laptops (‘Coolum’ and now ‘Blanc’) spin up alongside each other shows that hardware partners are already treating Googlebook as a long-term platform rather than a one-time trial. We will keep an eye on ‘Blanc’ as the code matures to see which OEM ultimately puts its logo on the lid.",
       "url": "https://chromeunboxed.com/blanc-is-another-new-intel-wildcat-lake-powered-googlebook-already-in-the-works/",
@@ -13508,12 +13508,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
         "numbers": [
           "$899"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -22706,7 +22706,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -22724,13 +22724,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
