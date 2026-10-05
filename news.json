@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-05 21:28 台灣時間",
+  "updatedAt": "2026-10-05 21:34 台灣時間",
   "historyUpdatedDate": "2026-10-05",
   "historyLastAttemptAt": "2026-10-04T16:01:40.727755+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-05",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "我還不會信任 Meta 的 Muse AI 代理來處理我的個人數據",
+      "summary": "",
+      "originalTitle": "I wouldn’t trust Meta’s Muse AI agent with my personal data yet",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbXhNcXN4bE5UMnU1V0ZoR25qNEtRdHU0emRnaXBGOExyZ3g5YkZlNUM4ajhUVXBlaWVXVmJMTlpXVmFiUTJvTGRqYTRTeVRPY3RRdHQ5TmdVNzZTRkxsT091QS03TDV4YzZkbVNSMl9pT3pBRnVUS1FCVUlFSlQzS0hGZ1FxVlhIdW96bXBzVnNfM3NnYlc4TXNUTkowWC1EWnpNdzFFYnNrQQ?oc=5",
+      "ts": "2026-10-05T13:25:18+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "CRDO",
       "group": "高速傳輸",
@@ -57,33 +87,43 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "法國巴黎銀行將英特爾目標價從 75 美元調整至 125 美元，維持中立評級",
-      "summary": "",
+      "summary": "BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
       "originalTitle": "BNP Paribas Adjusts Price Target on Intel to $125 From $75, Maintains Neutral Rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNlRLREk4Z3huSTljZ3NTdkZva1BkOUtQb0NqdzN6TGJQek52VGtEcnc1Q0lQVFJuemVyMkdSN0ZMSGc3cFB2SHZRdHNNYVlvcE1naUozT1RnVloyTnQxemRFRUx3Zkp0cWpxVkV5N1Z2UDVKdFNKRzh0eE84WFVndDlwMnlhSV85RHNRdWZkRTAtNkxWZmZiMDJVdU4xNWFNbXpzU1lDTFpfckczTXZlMUhmTS10bzUxN2dZVDY2ZHZvVEdaRnJwYi0ySUdsaVk?oc=5",
+      "originalSummary": "BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/bnp-paribas-adjusts-pt-on-advanced-micro-devices-to-960-from-600-keeps-outperform-rating-ce785ddbd08af222",
       "ts": "2026-10-05T13:20:08+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "INTC"
+        "INTC",
+        "AMD"
       ],
       "eventType": "",
-      "score": 201.0,
+      "score": 210.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
+        "numbers": [
+          "$125",
+          "$75, M",
+          "$960",
+          "$600,"
+        ],
+        "why": "券商調整理由：BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
+        "stance": "BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：BNP Paribas Adjusts PT on Advanced Micro Devices to $960 From $600, Keeps Outperform RatingAdvanced Micro Devices has an average rating of buy and mean price target of $646.92, according to analysts polled by FactSet. ...",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -163,6 +203,39 @@
       ],
       "eventType": "",
       "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "UMC",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "題材",
+      "title": "$Intel (INTC.US)$請降6%，你這幾天跑得太快了，請像你兄弟(UMC)一樣降",
+      "summary": "",
+      "originalTitle": "$Intel (INTC.US)$ please drop 6 % , u are running too fast this few days , please drop like your brother ( UMC )",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQW5fTEhDNWtnVVdKRkVGSzc2ZWJPTHdkbTlXWFFVVTdqbUlWS2tJZVl3VnZabksteDNwMnNtLU5vTVE5S21RTzRhYWlvd3k5NUJuc1lKdnA0Sk5aOHRPYXdYdWFlVjQ4c3FKRDIxRGg0YVg0RE9MXzBOOHNVLTdkSFpTejBudkVNU2Rmbm81MWlOTmwxYk5SQ1JiUE1rVnMw?oc=5",
+      "ts": "2026-10-05T13:01:40+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -9.36251189343481,
+      "relatedTickers": [
+        "UMC",
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 18.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -608,7 +681,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -743,6 +816,38 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "今日盤前走勢與最高評等 | INTC、VST、CBRS 等",
+      "summary": "",
+      "originalTitle": "Today's Pre-Market Movers and Top Ratings | INTC, VST, CBRS and More",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUC05QzlvS1VFa2htNExxT2ZTUlhOVXpUUFNpeTJhNXFKcUFLcjRNSjE3Zmg4di10dkRDODZiOVFiVEpneHQ2X0Z3RE9mcmx5cFRlV21OQ1NYd21UcWxMeGZzd2pQb0t4OWhzdmRubFZaZXRWVXVwYW9VSEZOLU5pcFJ4bFZwRFJKNDJUTU1YeVlyaFJwcno0Sm51SXVaVzlPVFdGVHlkbw?oc=5",
+      "ts": "2026-10-05T12:15:56+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 6.500090127981717,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -899,7 +1004,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1151,7 +1256,7 @@
           "action": "下修",
           "newTarget": "$1,100",
           "oldTarget": "$1,225",
-          "reason": "Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+          "reason": "Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "CAT",
           "targetCompany": "Caterpillar"
@@ -1166,19 +1271,19 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Caterpillar（CAT）｜券商：Truist｜動作：下修｜評等：Buy｜目標價：$1,100（原 $1,225）｜調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "event": "被評級公司：Caterpillar（CAT）｜券商：Truist｜動作：下修｜評等：Buy｜目標價：$1,100（原 $1,225）｜調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "numbers": [
           "$1,225",
           "$1,100"
         ],
-        "why": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "why": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為“增持”，平均目標價為 986 美元。",
+        "takeaway": "調整原因：Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買入評級 Truist 將卡特彼勒的目標價從 1,225 美元下調至 1,100 美元，維持買進評級 根據 FactSet 調查的分析師，卡特彼勒的平均評級為增持，平均目標價為 986 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1585,7 +1690,7 @@
       ],
       "eventType": "",
       "score": 207.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1597,7 +1702,40 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
+    },
+    {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "Altman 對 OpenAI 合作發表評論後，Cerebras Systems 股價上漲",
+      "summary": "",
+      "originalTitle": "Cerebras Systems Shares Rise After Altman Comments on OpenAI Partnership",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWmdJOVBpUFgxWkFUcTV1em5TekhrVXJISDBxN190NXN2cU8zTVR4RlcxM3NHS2RvMEU5MWpueGFoVWlsc0hoc19CUGNtZEhQNGpXUmk3cTBKclFVTzVmNE9DQjJaVFJxTFlYLXA4eUlYQnFFUEdGRVp2ZWpMSFVMYUlSVWtMSHp6T0N1M1hORS1MM3ZFYjJSajg5MlNrZU9C?oc=5",
+      "ts": "2026-10-05T10:19:40+00:00",
+      "sourceType": "active_search",
+      "movePct": 6.500090127981717,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 18.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -1618,7 +1756,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1720,7 +1858,7 @@
           "$8b"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "亞馬遜設立了一個 80 億美元的特殊目的工具，用於向 AWS 客戶購買和回租 Nvidia (NasdaqGS:NVDA) Grace Blackwell 晶片。隨著雲端資本需求的增加，該結構被設計為人工智慧硬體的表外融資工具。摩根士丹利 (Morgan Stanley) 恢復了英偉達 (Nvidia) 的首選名單，理由是其對人工智慧資料中心需求和產能擴張的看法。亞馬遜為 Grace Blackwell 晶片提供的融資工具和摩根士丹利的 Top Pick 電話都屬於更廣泛的 Nvidia 人工智慧基礎設施故事。我們還發現了 NVIDIA 值得了解的 2 個警訊（1 個主要）。英偉達並不是唯一一家與人工智慧基礎設施建設緊密相關的企業，因此值得透過 90 隻人工智慧基礎設施股票來審視更廣泛的同行群體。",
+        "stance": "亞馬遜設立了一個 80 億美元的特殊目的工具，用於向 AWS 客戶購買和回租 Nvidia (NasdaqGS:NVDA) Grace Blackwell 晶片。隨著雲端資本需求的增加，該結構被設計為人工智慧硬體的表外融資工具。摩根士丹利 (Morgan Stanley) 恢復了英偉達 (Nvidia) 的首選名單，理由是其對人工智慧資料中心需求和產能擴張的看法。亞馬遜為 Grace Blackwell 晶片提供的融資工具和摩根士丹利的 Top Pick 電話都屬於更廣泛的 Nvidia 人工智慧基礎設施故事。我們還發現了 NVIDIA 值得了解的 2 個警訊（其中一個主要）。英偉達並不是唯一一家與人工智慧基礎設施建設緊密相關的企業，因此值得透過 90 隻人工智慧基礎設施股票來審視更廣泛的同行群體。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -2189,7 +2327,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "SPCX",
@@ -2619,166 +2757,6 @@
       "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "谷歌的 Project Suncatcher 衛星於 10 月 1 日進入軌道，並確認接觸 -mixed-news.com",
-      "summary": "",
-      "originalTitle": "Google's Project Suncatcher satellite reached orbit on October 1, and contact is confirmed - mixed-news.com",
-      "originalSummary": "Google put four Tensor Processing Units (TPUs) into orbit on October 1, sending a prototype satellite for Project Suncatcher on SpaceX’s Transporter-18 rideshare mission. In a post on the Google blog, the company confirmed contact with the satellite and said it was operating as expected. The experimental satellite, called MVP, carries four Trillium-generation TPUs, the same processor family used for AI workloads in terrestrial cloud infrastructure. The flight marks the first time Google’s TPUs have operated in space. The refrigerator-sized satellite carries four TPUs, offering the computing power of a standard Google Cloud TPU v6e-4 slice. Solar panels are rated at around 1 kilowatt. The TPUs operate in short bursts of roughly 15 minutes at a time, during which the satellite runs Gemini models to benchmark real-world performance in orbital conditions. Travis Beals, Google’s senior director of Paradigms of Intelligence, is leading the project publicly. Google and Planet Labs built the prototype together; SpaceX’s Transporter-18 mission carried it as one of 130 payloads on a dedicated small-satellite rideshare flight from Vandenberg Space Force Base in California. SpaceX’s deployment schedule lists the satellite as Project Suncatcher M1, deployed roughly 61 minutes after liftoff. Google’s announcement describes the prototype as the first step in a long-term research moonshot exploring whether space could one day host scalable machine learning infrastructure. The company published full mission details in a post on the Google blog signed by Travis Beals, senior director of Paradigms of Intelligence at Google Research.",
-      "url": "https://gcn.com/google-project-suncatcher-puts-four-chips/22176/",
-      "ts": "2026-10-05T08:55:24+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL",
-        "PL",
-        "SPCX"
-      ],
-      "eventType": "跨公司事件",
-      "score": 34.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "谷歌於 10 月 1 日將四個張量處理單元 (TPU) 送入軌道，並在 SpaceX 的 Transporter-18 共乘任務中發送了 Suncatcher 專案的原型衛星。在Google部落格上的一篇文章中，該公司確認了與該衛星的聯繫，並表示其正在按預期運作。這顆名為 MVP 的實驗衛星搭載了四個 Trillium 代 TPU，與地面雲端基礎設施中用於人工智慧工作負載的處理器系列相同。這顆冰箱大小的衛星攜帶四個 TPU，為",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "谷歌於 10 月 1 日將四個張量處理單元 (TPU) 送入軌道，並在 SpaceX 的 Transporter-18 共乘任務中發送了 Suncatcher 專案的原型衛星。在Google部落格上的一篇文章中，該公司確認了與該衛星的聯繫，並表示其正在按預期運作。這顆名為 MVP 的實驗衛星搭載了四個 Trillium 代 TPU，與地面雲端基礎設施中用於人工智慧工作負載的處理器系列相同。此次飛行標誌著谷歌 TPU 首次在太空中運行。這顆冰箱大小的衛星攜帶四個 TPU，提供標準 Google Cloud TPU v6e-4 切片的運算能力。太陽能板的額定功率約為 1 千瓦。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "靈活的二合一 Surface Pro 筆記型電腦在亞馬遜交易中降價超過 400 美元",
-      "summary": "",
-      "originalTitle": "Flexible 2-in-1 Surface Pro laptop has over $400 slashed off its price in an Amazon deal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNUdPX0FDckhpb0lTZmQza2FyeUQ1ZHNnWlBtd3VkZGJKWUo4UWlEQVBUZk5NMUxjVnRZYy0ycjV5V2FxbU5NUEZhNlByMTJQOHItZlRuZjZSX3hUZlc3b3o4REpZNXFUMzJPaFJsREVxU1ZBaUZsQXRsQW9SWm1HZWVxTzVwbXpiSWkyLS1uOXlMczl0UXI2c2VHT1FoNEdveHhoV3NMSURYVy15bmloa3VNZ2lQNG11dUE?oc=5",
-      "ts": "2026-10-05T08:54:42+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "利空",
-      "title": "摩根大通下調特斯拉股票目標，特斯拉報告交車量為 486,532 輛",
-      "summary": "",
-      "originalTitle": "Tesla reports 486,532 deliveries as JPMorgan cuts target for Tesla stock",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaXoxVHY2bzI1Q3RSTER0MDd2SHdSX3JNSVBNZWgwSjFFUEFlQ1BaNExwVmd5RHBEOVRxYkdrMy04NHZ2QTRzRC1tUGJoRmNWY0ZWU2VaZ2hvdExvUTlIbkNNR1kwY2lrUTdNVlZlMXBScl9mQXRqMXFJQ0dKNlR0MDRKaHpHVDRtM2RnWTk1ckVITE1KaTduY0lKdkw3T0VnWjNIYVJ0Y01KQzA2Wmh5enNoU0VJMS1ncWhBWWhOakxUZVNDdl9oZ01HQk9XcVA0?oc=5",
-      "ts": "2026-10-05T08:45:59+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "TSLA",
-          "targetCompany": "Tesla"
-        }
-      ],
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Tesla（TSLA）｜券商：JPMorgan｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "利空",
-      "title": "摩根大通下調特斯拉股票目標，特斯拉報告交付量為 486,532 輛 - ad-hoc-news.de",
-      "summary": "",
-      "originalTitle": "Tesla reports 486,532 deliveries as JPMorgan cuts target for Tesla stock - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaXoxVHY2bzI1Q3RSTER0MDd2SHdSX3JNSVBNZWgwSjFFUEFlQ1BaNExwVmd5RHBEOVRxYkdrMy04NHZ2QTRzRC1tUGJoRmNWY0ZWU2VaZ2hvdExvUTlIbkNNR1kwY2lrUTdNVlZlMXBScl9mQXRqMXFJQ0dKNlR0MDRKaHpHVDRtM2RnWTk1ckVITE1KaTduY0lKdkw3T0VnWjNIYVJ0Y01KQzA2Wmh5enNoU0VJMS1ncWhBWWhOakxUZVNDdl9oZ01HQk9XcVA0?oc=5",
-      "ts": "2026-10-05T08:45:59+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "TSLA",
-          "targetCompany": "Tesla"
-        }
-      ],
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Tesla（TSLA）｜券商：JPMorgan｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -3009,7 +2987,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "ASTS 繼前一日飆升後下跌 2%——在 Beta 服務推出前又有三顆藍鳥衛星進入軌道",
-      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
       "originalTitle": "ASTS Dips 2% After Prior-Day Surge — Three More BlueBird Satellites Hit Orbit Ahead Of Beta Service Launch",
       "originalSummary": "BlueBirds 14-16 left AST's Texas facility for Cape Canaveral, although the company did not announce a launch date. Production is advancing through BlueBird 50, with more than 20 spacecraft structures being integrated. AST's recent change-of-control severance plan sparked retail buyout speculation as payouts require a qualifying executive departure.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asts-climbs-overnight-bluebird-convoy-013208368.html?fr=sycsrp_catchall",
@@ -3026,7 +3004,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
+        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
         "numbers": [
           "2%"
         ],
@@ -6827,7 +6805,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 獲得有史以來最大的電子商業交易：Synspective 的 20 項發射合同",
-      "summary": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+      "summary": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
       "originalTitle": "Rocket Lab Secures Largest-Ever Electron Commercial Deal: 20-Launch Contract for Synspective",
       "originalSummary": "The deal marks Rocket Lab’s single largest commercial launch contract for Electron to date, reinforcing Electron’s position as the world’s most in-demand rocket for small satellite constellation deploymentLONG BEACH, Calif., Sept. 30, 2026 (GLOBE NEWSWIRE) -- Rocket Lab Corporation (Nasdaq: RKLB) (“Rocket Lab” or the “Company”), a global leader in launch services and space systems, today announced it has signed a multi-year launch agreement for 20 new Electron missions with Tokyo-based Earth obs",
       "url": "https://finance.yahoo.com/technology/articles/rocket-lab-secures-largest-ever-230000314.html",
@@ -6844,10 +6822,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "event": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "該交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或“10313756676367 東京”個新 Electron 任務的多年發射協議",
+        "stance": "這筆交易標誌著 Rocket Lab 迄今為止為 Electron 簽訂的最大單筆商業發射合同，鞏固了 Electron 作為全球小型衛星星座部署中最受歡迎的火箭的地位加利福尼亞州長灘，2026 年 9 月 30 日 (環球通訊社) -- Rocket Lab Corporation（納斯達克股票代碼：RKLB）（“Rocket Lab”或“Rocket Lab”或全球發射器個新 Electron 任務的多年發射協議",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -9125,7 +9103,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞和 Iceye 將為國防和安全開發低軌道衛星系統",
-      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
       "originalTitle": "Nokia and Iceye to make low-orbit satellite systems for defence, security",
       "originalSummary": "Published on 10/01/2026 at 03:01 am EDT - Modified on 10/01/2026 at 03:07 am EDT OSLO, Oct 1 (Reuters) - Iceye and Nokia will develop satellite communications systems for governments, supporting missions from defence and border security to emergency services and disaster response, the companies said in a statement on Thursday. (Reporting by Terje Solsvik, editing by Louise Rasmussen)",
       "url": "https://www.marketscreener.com/news/nokia-and-iceye-to-make-satellite-systems-for-defence-security-ce785ad3dc8df32d",
@@ -9142,10 +9120,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11069,7 +11047,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11086,14 +11064,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11137,7 +11115,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Caterpillar 將在北卡羅來納州投資 10 億美元擴大 Cat Compact℠ 製造能力",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact℠ Manufacturing Capacity",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11153,7 +11131,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -11161,7 +11139,7 @@
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11789,7 +11767,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -11805,10 +11783,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -25362,7 +25340,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 將商業發射延後到 2027 年。以下是其現金能持續多久",
-      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+      "summary": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
       "originalTitle": "AST SpaceMobile Pushed Commercial Launch to 2027. Here's How Long Its Cash Lasts Until Then",
       "originalSummary": "The space industry could be entering a new growth phase, and AST SpaceMobile (NASDAQ: ASTS) is one of the most interesting companies to watch. With its satellite network expanding and direct-to-device service increasingly a reality, AST has several major catalysts ahead. If those catalysts play out, the stock could distinguish itself as one of the sector's top performers heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-ast-spacemobile-best-performing-103000605.html",
@@ -25378,10 +25356,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "event": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會成為 2027 年該行業表現最好的股票之一。",
+        "stance": "航太產業可能正在進入一個新的成長階段，AST SpaceMobile（納斯達克股票代碼：ASTS）是最值得關注的公司之一。隨著衛星網路的擴展和直接到設備的服務日益成為現實，AST 面臨著幾個主要的推動因素。如果這些催化劑發揮作用，該股可能會在 2027 年成為該行業表現最好的股票之一。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
