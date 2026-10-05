@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-05 16:52 台灣時間",
+  "updatedAt": "2026-10-05 16:58 台灣時間",
   "historyUpdatedDate": "2026-10-05",
   "historyLastAttemptAt": "2026-10-04T16:01:40.727755+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-05",
-  "top10Count": 7,
+  "top10Count": 8,
   "items": [
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌的 Project Suncatcher 衛星於 10 月 1 日進入軌道，並確認接觸",
+      "summary": "",
+      "originalTitle": "Google's Project Suncatcher satellite reached orbit on October 1, and contact is confirmed",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNDJITEZ2SG5odE9tbGlUXzRSZGJGcFVVblpWLVpUZ2JRNFp2U2JyWTlpYWpkdDlQMFFQemEybk1scEkyMUZQRC1janktUGxNSWY2VFdCd2dWV0hfVGthY0FmZE9ncGkybk4xWTY5SVNxaTB4MzU5MWhjeVhfSDRWd1RDWjVUeGc2cnFVOXlUcUxSOExaR0MtRm5JNEo?oc=5",
+      "ts": "2026-10-05T08:55:24+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 9.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 8
+    },
     {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
@@ -54,44 +85,6 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
-      "tag": "利多",
-      "title": "微軟增加串流轉錄並升級語音人工智慧",
-      "summary": "Microsoft Corp. today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. They’re designed for developers who want to build voice agents that can listen to people’s voices and reply instantly, similar to how humans talk to one another. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuo",
-      "originalTitle": "Microsoft Adds Streaming Transcription and Upgrades Voice AI",
-      "originalSummary": "Microsoft Corp. today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. They’re designed for developers who want to build voice agents that can listen to people’s voices and reply instantly, similar to how humans talk to one another. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuously updated as the person keeps on talking. Once the person has finished speaking, it will confirm that the transcript is final. In this way, the model can power applications that display live captions or start processing a user’s request before they’ve finished saying it, Microsoft said. MAI-Transcribe-2-Streaming is listed on Microsoft’s Vercel AI Gateway and priced at 54 cents per audio hour, the company said. It supports more than 60 languages, and can detect which one someone is speaking automatically. It delivers its first transcript hypotheses within 320 milliseconds on average, although Microsoft said it cannot guarantee this kind of performance in every scenario, because speed of response is also determined by the network connection and the AI system that generates the reply. Introducing 3 new models: MAI-Transcribe-2-Streaming, MAI-Voice-2.1 and MAI-Voice-2.1-Flash. Accurate streaming transcription. Natural speech and less waiting between turns. Build voice agents that keep the conversation moving! pic.twitter.com/QB6Yr9UiyK — Microsoft AI (@MicrosoftAI) October 1, 2026 Microsoft isn’t new to transcription models. Last month, it debuted the MAI-Transcribe-2 model with a price of 10 cents per audio hour, which is more than five times cheaper than the Streaming variant. That’s mainly because the Streaming model does a lot more processing, continuously returning provisional results while the audio is still arriving. The regular MAI-Transcribe-2 model simply waits for the speaker to finish what they’re saying before processing begins. Moving away from transcription, there are two models focused on generating speech from text, which are equally important for conversational AI agents. They include MAI-Voice-2.1 , which is said to be the best choice for more expressive and higher-fidelity outputs, and MAI-Voice-2.1-Flash, which tones down those attributes in favor of a speedier response and lower cost.",
-      "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/",
-      "ts": "2026-10-05T08:42:30+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": true,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 222.75,
-      "featured": true,
-      "translated": true,
-      "analystDetails": [],
-      "investorBrief": {
-        "event": "Microsoft Corp. today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. They’re designed for developers who want to build voice agents that can listen to people’s voices and reply instantly, similar to how humans talk to one another. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuo",
-        "numbers": [],
-        "why": "券商調整理由：today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuo",
-        "stance": "today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuo",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：today expanded its MAI artificial intelligence model family with its first streaming transcription model , debuting alongside two others focused on text-to-speech. The most consequential of the three is MAI-Transcribe-2-Streaming , which the company said accepts human speech via a WebSocket, transforming it into a transcript that’s continuo",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 1
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
       "tag": "題材",
       "title": "標普 500 指數：7,900 點仍在眼前，但收益率上升增加了風險",
       "summary": "",
@@ -123,47 +116,51 @@
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
       "tag": "題材",
-      "title": "匯豐銀行上調特斯拉股價目標",
-      "summary": "",
+      "title": "HSBC 升評 TSLA 至 Buy by HSBC，目標價至 $190",
+      "summary": "Target (NYSE:TGT) was upgraded to Buy by HSBC, with analyst Joe Thomas raising his price target to $190 from $125 per share after the retailer’s second-quarter results showed higher comparable sales and customer traffic. Thomas said the latest results supported HSBC’s view that Target’s recovery was being driven by increased customer visits rather than higher average transaction values.",
       "originalTitle": "HSBC raises Tesla stock price target on delivery beat",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTNTUDVxY0tWUHlaOXNhQmJOUEg0RFdZZUVnaHdNSFg1X212UDkwWFVBbWZuYVpPTDRlM1FLMDZRZ2NNNTcwY3NsWmJTTWFBQld4eGNVeUp4dlM1SGp4NU0xaFphVnU1SzI2OHdOZjlJVmxrT0Jmd2FUNkV6T0Vlbk5SOGZQT1ZHTGdGQVRsVmVnQi1NSV9ycHd6ZjI0cHBKeHhoZEtaeVNEV05UMmxndjdLWQ?oc=5",
+      "originalSummary": "Target (NYSE:TGT) was upgraded to Buy by HSBC, with analyst Joe Thomas raising his price target to $190 from $125 per share after the retailer’s second-quarter results showed higher comparable sales and customer traffic. Thomas said the latest results supported HSBC’s view that Target’s recovery was being driven by increased customer visits rather than higher average transaction values.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-upgrades-target-buy-raises-123802835.html",
       "ts": "2026-10-05T08:36:01+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
         {
           "broker": "HSBC",
-          "analyst": "",
-          "rating": "",
+          "analyst": "Joe Thomas",
+          "rating": "Buy",
           "action": "上修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "newTarget": "$190",
+          "oldTarget": "$125",
+          "reason": "客戶訪問量增加，而不是平均交易價值增加。",
+          "reasonConfidence": "high",
           "targetTicker": "TSLA",
           "targetCompany": "Tesla"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "TSLA"
       ],
-      "eventType": "",
-      "score": 207.0,
+      "eventType": "新題材",
+      "score": 219.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Tesla（TSLA）｜券商：HSBC｜動作：上修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "event": "被評級公司：Tesla（TSLA）｜券商：HSBC｜動作：上修｜評等：Buy｜目標價：$190（原 $125）｜調整原因：客戶訪問量增加，而不是平均交易價值增加。",
+        "numbers": [
+          "$125",
+          "$190"
+        ],
+        "why": "調整原因：客戶訪問量增加，而不是平均交易價值增加。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：客戶訪問量增加，而不是平均交易價值增加。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 1,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "STX",
@@ -202,50 +199,46 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "HSBC 升評 TSLA 至 Buy by HSBC，目標價至 $190",
-      "summary": "Target (NYSE:TGT) was upgraded to Buy by HSBC, with analyst Joe Thomas raising his price target to $190 from $125 per share after the retailer’s second-quarter results showed higher comparable sales and customer traffic. Thomas said the latest results supported HSBC’s view that Target’s recovery was being driven by increased customer visits rather than higher average transaction values.",
+      "summary": "",
       "originalTitle": "HSBC raises Tesla stock price target on delivery beat By Investing.com",
-      "originalSummary": "Target (NYSE:TGT) was upgraded to Buy by HSBC, with analyst Joe Thomas raising his price target to $190 from $125 per share after the retailer’s second-quarter results showed higher comparable sales and customer traffic. Thomas said the latest results supported HSBC’s view that Target’s recovery was being driven by increased customer visits rather than higher average transaction values.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-upgrades-target-buy-raises-123802835.html",
-      "ts": "2026-10-05T08:31:14+00:00",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN0lTai1XWnBJRG0zSFJGSkI5VEtnOWV0X284T2o4eDNHUUVBM0RubDZJQV9fZ2ptUkQxc3F3Ymk0SHNvRllXbjhqVHBZMS1oTG9jbFMyUi0wS00wTlFjeW5rTXJUNUhRRGJ3SElMU2dVcTBseHB4aUU1UGFWT2tVRjVBQ3RoWDVmX3VEY1hNQ0ozUC1FUkI0a2EtSnhJSEdlck9CLW14WEJQcjNNSlRfMTZ2bFg?oc=5",
+      "ts": "2026-10-05T08:32:42+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
         {
           "broker": "HSBC",
-          "analyst": "Joe Thomas",
-          "rating": "Buy",
+          "analyst": "",
+          "rating": "",
           "action": "上修",
-          "newTarget": "$190",
-          "oldTarget": "$125",
-          "reason": "客戶訪問量增加，而不是平均交易價值增加。",
-          "reasonConfidence": "high",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
           "targetTicker": "TSLA",
           "targetCompany": "Tesla"
         }
       ],
-      "hasArticleBody": true,
+      "hasArticleBody": false,
       "relatedTickers": [
         "TSLA"
       ],
-      "eventType": "新題材",
-      "score": 219.0,
+      "eventType": "",
+      "score": 207.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Tesla（TSLA）｜券商：HSBC｜動作：上修｜評等：Buy｜目標價：$190（原 $125）｜調整原因：客戶訪問量增加，而不是平均交易價值增加。",
-        "numbers": [
-          "$125",
-          "$190"
-        ],
-        "why": "調整原因：客戶訪問量增加，而不是平均交易價值增加。",
+        "event": "被評級公司：Tesla（TSLA）｜券商：HSBC｜動作：上修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：客戶訪問量增加，而不是平均交易價值增加。",
+        "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2,
-      "detailSource": "article_or_same_event"
+      "top10Rank": 2
     },
     {
       "ticker": "MARKET",
@@ -295,7 +288,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": false,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -397,7 +390,7 @@
           "3%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "今天上午，美國股指期貨走高，E-迷你標準普爾 500 指數合約上漲約 0.7%，因為投資者權衡就業成長放緩與製造業和價格訊號走熱。最新的非農業就業報告顯示，9月新增就業人數僅2.9萬個，失業率為4.2%，暗示招聘正在失去動力，薪資上漲正在放緩，年薪成長率為3%。同時，ISM 製造業 PMI 為 54.5，標準普爾全球製造業指數為 55.9，兩者都表明工廠仍然繁忙，而成本因關稅和中東衝突而上升。這個困境很簡單，但令市場感到不安。如果就業市場降溫而工廠價格上漲，那麼住房相關股票等利率敏感領域以及工業和消費者相關公司等週期性較強的行業就會成為人們關注的焦點，因為投資者會問放緩招聘是否就足夠了",
+        "stance": "今天上午，美國股指期貨走高，E-迷你標準普爾 500 指數合約上漲約 0.7%，因為投資者權衡就業成長放緩與製造業和價格訊號走熱。最新的非農業就業報告顯示，9月新增就業人數僅2.9萬個，失業率為4.2%，暗示招聘正在失去動力，薪資上漲正在放緩，年薪成長率為3%。同時，ISM 製造業 PMI 為 54.5，標準普爾全球製造業指數為 55.9，兩者都表明工廠仍然忙碌，而成本因關稅和中東衝突而上升。這個困境很簡單，但令市場感到不安。如果就業市場降溫而工廠價格上漲，那麼住房相關股票等利率敏感領域以及工業和消費者相關公司等週期性較強的行業就會成為人們關注的焦點，因為投資者會問放緩招聘是否就足夠了",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -406,7 +399,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "SPCX",
@@ -630,7 +623,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 3
     },
     {
       "ticker": "MARKET",
@@ -666,8 +659,8 @@
         "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1229,7 +1222,7 @@
         "AMD"
       ],
       "eventType": "跨公司事件",
-      "score": 32.25,
+      "score": 27.95,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1282,7 +1275,7 @@
         "VRT"
       ],
       "eventType": "",
-      "score": 280.5,
+      "score": 243.1,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -1855,13 +1848,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "佐治亞理工學院和亞馬遜推出了佐治亞理工學院-亞馬遜科學中心，擴大了大學和科技公司之間長達十年的研究關係。透過新中心，亞馬遜將資助聯合研究計畫和社區建設計劃。自 2010 年以來，亞馬遜已在喬治亞州投資超過 300 億美元，並為該州提供了超過 30,000 個全職和兼職工作。其在亞特蘭大地區的研究和技術團隊跨領域工作，包括供應鏈優化、物流技術",
+        "event": "佐治亞理工學院和亞馬遜推出了佐治亞理工學院-亞馬遜科學中心，擴大了大學和科技公司之間長達十年的研究關係。透過這個新中心，亞馬遜將資助聯合研究計畫和社區建設計劃。自 2010 年以來，亞馬遜已在喬治亞州投資超過 300 億美元，並為該州提供了超過 30,000 個全職和兼職工作。其在亞特蘭大地區的研究和技術團隊跨領域工作，包括供應鏈優化、物流技術",
         "numbers": [
           "$30 billion",
           "30 billion"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "佐治亞理工學院和亞馬遜推出了佐治亞理工學院-亞馬遜科學中心，擴大了大學和科技公司之間長達十年的研究關係。透過新中心，亞馬遜將資助聯合研究計畫和社區建設計劃。最初的研究領域將集中在自主系統、下一代物流基礎設施和低地球軌道通訊。此次合作將匯集佐治亞理工學院的教員和亞馬遜跨多個科學學科的科學家。該中心還將舉辦研討會和研討會，將兩個組織和更廣泛的亞特蘭大技術社區的研究人員聯繫起來。社區外展活動將擴大跨學科學者和創新者的參與。佐治亞理工學院也加入了 Fauna Robotics 生態系統，並將利用該公司的 Sprout 研究平台來研究如何",
+        "stance": "佐治亞理工學院和亞馬遜推出了佐治亞理工學院-亞馬遜科學中心，擴大了大學和科技公司之間長達十年的研究關係。透過這個新中心，亞馬遜將資助聯合研究計畫和社區建設計劃。最初的研究領域將集中在自主系統、下一代物流基礎設施和低地球軌道通訊。此次合作將匯集佐治亞理工學院的教員和亞馬遜跨多個科學學科的科學家。該中心還將舉辦研討會和研討會，將兩個組織和更廣泛的亞特蘭大技術社區的研究人員聯繫起來。社區外展活動將擴大跨學科學者和創新者的參與。佐治亞理工學院也加入了 Fauna Robotics 生態系統，並將利用該公司的 Sprout 研究平台來研究如何",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2098,7 +2091,7 @@
       "group": "半導體設備／測試",
       "tag": "快訊",
       "title": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e698",
-      "summary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"utf-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-k",
+      "summary": "",
       "originalTitle": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e698",
       "originalSummary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"utf-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&amp;name=small 680w, https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&amp;name=medium 1200w, https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&amp;name=large 2048w\" imageSizes=\"(max-width: 600px) calc(100vw - 80px), 600px\" fetchPriority=\"high\"/><script type=\"module\" async=\"\" src=\"https://abs.twimg.com/x-web/x-web/entry-client-logged-out-CTyqM7Ot.js\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"></script><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/new-to-x-card-DTKa1n_C.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/icon-logo-google-color-Bf3ZR1qx.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/use-cookie-preference-state-C0tBNAfM.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/consent-signal-util-Dc5c0EwS.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/appleLocale-DRFJC2O5.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/icon-phone-DWgBR2Ev.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/icon-at-Dxhohc1P.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/third-party-8swaeT-e.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/focal-tweet-results-CR4grjIz.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/use-observable-DXx3co2P.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/chat-button-CROEcqyj.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/get-conversation-id-param-wE_7RlI9.js\"/><link rel=\"modulepreload\" href=\"https://abs.twimg.com/x-web/x-web/assets/icon-messages-stroke-DiJ-9ySS.js\"/><link",
       "url": "https://x.com/wallstengine/status/2106897673907540233",
@@ -2113,13 +2106,13 @@
       ],
       "eventType": "",
       "score": 28.6,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"utf-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-k",
+        "event": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"utf-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&amp;name=small 680w, https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&amp;name",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"utf-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-k",
+        "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"d8a521fb74c4c5d537d94765402e69876cfd2af0\"><head><meta charSet=\"f-8\" nonce=\"rU47vutMHpxIEykS4Mq2Lg==\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-link=cover\" noqfitmU/477> rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&name=small 680w，https://pbs.twimg.com/media/HT00Q3kakAA-kOG?formatSwebp&nameium 1200w，https://pbs.twimg.com/media/HT00Q3kakAA-kOG?format=webp&name=large",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -2861,7 +2854,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "ASTS 繼前一日飆升後下跌 2%——在 Beta 服務推出前又有三顆藍鳥衛星進入軌道",
-      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
+      "summary": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
       "originalTitle": "ASTS Dips 2% After Prior-Day Surge — Three More BlueBird Satellites Hit Orbit Ahead Of Beta Service Launch",
       "originalSummary": "BlueBirds 14-16 left AST's Texas facility for Cape Canaveral, although the company did not announce a launch date. Production is advancing through BlueBird 50, with more than 20 spacecraft structures being integrated. AST's recent change-of-control severance plan sparked retail buyout speculation as payouts require a qualifying executive departure.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asts-climbs-overnight-bluebird-convoy-013208368.html?fr=sycsrp_catchall",
@@ -2878,7 +2871,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付要求合格的高階主管離職。",
+        "event": "BlueBirds 14-16 離開 AST 德克薩斯州工廠前往卡納維拉爾角，儘管該公司沒有宣布發射日期。 BlueBird 50 的生產正在推進，整合了 20 多個太空船結構。 AST 最近的控制權變更遣散計劃引發了散戶收購猜測，因為支付費用需要合格的高階主管離職。",
         "numbers": [
           "2%"
         ],
@@ -8977,7 +8970,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞和 Iceye 將為國防和安全開發低軌道衛星系統",
-      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+      "summary": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
       "originalTitle": "Nokia and Iceye to make low-orbit satellite systems for defence, security",
       "originalSummary": "Published on 10/01/2026 at 03:01 am EDT - Modified on 10/01/2026 at 03:07 am EDT OSLO, Oct 1 (Reuters) - Iceye and Nokia will develop satellite communications systems for governments, supporting missions from defence and border security to emergency services and disaster response, the companies said in a statement on Thursday. (Reporting by Terje Solsvik, editing by Louise Rasmussen)",
       "url": "https://www.marketscreener.com/news/nokia-and-iceye-to-make-satellite-systems-for-defence-security-ce785ad3dc8df32d",
@@ -8994,10 +8987,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "event": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於從 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官員和國防聲明到緊急服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
+        "stance": "發佈於 2026 年 10 月 1 日美國東部時間上午 03:01 - 修改於 2026 年 1 月 1 日美國東部時間上午 03:07 修改奧斯陸，10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境響應於 10 月 1 日（路透社） - Iceye 和諾基亞將為政府開發衛星通信系統，支持從官方聲明和邊境服務的緊急服務和國防聲明中表示在一份緊急服務和國防聲明中表示緊急服務和國防聲明等。 （Terje Solsvik 報導，Louise Rasmussen 編輯）",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -9825,7 +9818,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 再運送三顆藍鳥衛星（ASTS：納斯達克）到卡納維爾角）",
-      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+      "summary": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
       "originalTitle": "AST SpaceMobile ships three more BlueBird satellites to Cape Canaveral (ASTS:NASDAQ)",
       "originalSummary": "Shares of AST SpaceMobile (NASDAQ: ASTS) climbed more than 1% overnight heading into Thursday after the company confirmed the shipment of three BlueBird satellites to Cape Canaveral. ASTS stock had fallen nearly 1% to $58.86 on Wednesday, closing out September with a 0.2% monthly loss and remaining down 19% year-to-date.",
       "url": "https://www.foreignpolicyjournal.com/2026/10/02/ast-spacemobile-nasdaq-asts-ships-three-bluebird-satellites-to-cape-canaveral-as-ceo-pushes-for-broader-spectrum-access-at-fcc/",
@@ -9841,7 +9834,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "numbers": [
           "$58.86",
           "1%",
@@ -9849,7 +9842,7 @@
           "19%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。 ASTS 股價週三下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
+        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）確認向卡納維爾角運送三顆藍鳥衛星後，該公司股價週四上漲逾 1%。週三，ASTS 股價下跌近 1%，至 58.86 美元，9 月收盤時月下跌 0.2%，今年迄今仍下跌 19%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -9922,7 +9915,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "SpaceX 距離特斯拉合併又更近了一步",
-      "summary": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+      "summary": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
       "originalTitle": "SpaceX Just Got a Little Closer to a Tesla Merger",
       "originalSummary": "SpaceX Just Got a Little Closer to a Tesla Merger. On Tiger Brokers' website to stay informed on market trends, price movements, and investment strategies, helping you make smarter decisions.",
       "url": "https://www.itiger.com/news/2671201749",
@@ -9938,10 +9931,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+        "event": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格趨勢和投資策略，幫助您做出更明智的決策。",
+        "stance": "SpaceX 距離特斯拉合併又更近了一步。在老虎證券網站上了解市場趨勢、價格變動和投資策略，幫助您做出更明智的決策。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -10921,7 +10914,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒將投資 10 億美元興建桑福德新廠",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to invest $1B in new Sanford facility",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -10938,14 +10931,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1B",
           "$1 billion",
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -10989,7 +10982,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Caterpillar 將在北卡羅來納州投資 10 億美元擴大 Cat Compact℠ 製造能力",
-      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+      "summary": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
       "originalTitle": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact℠ Manufacturing Capacity",
       "originalSummary": "Investment strengthens ability to serve growing compact equipment customer segment IRVING, Texas, Sept. 30, 2026 /PRNewswire/ -- Caterpillar Inc. (NYSE: CAT) intends to invest approximately $1 billion in North Carolina to expand manufacturing capacity for products that support its growing Cat CompactSM business, helping customers gain faster access to the machines they need to solve tough jobsite challenges and build homes, infrastructure and communities.",
       "url": "https://finance.yahoo.com/small-business/articles/caterpillar-invest-1-billion-north-130000682.html",
@@ -11005,7 +10998,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "event": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -11013,7 +11006,7 @@
           "1 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）計劃在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
+        "stance": "投資增強了為不斷增長的緊湊型設備客戶群提供服務的能力德克薩斯州歐文市，2026 年 9 月 30 日 /美通社/ -- Caterpillar Inc.（紐約證券交易所股票代碼：CAT）打算在北卡羅來納州投資約 10 億美元，以擴大產品的製造能力，以支持其不斷增長的 Cat CompactSM業務，幫助客戶更快地獲得所需的機器，以解決嚴峻的工地挑戰以及建造住宅、基礎設施和社區。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -11641,7 +11634,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "消息人士稱，台積電正在評估德州的潛在投資",
-      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+      "summary": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
       "originalTitle": "TSMC evaluates potential Texas investment, sources say",
       "originalSummary": "According to a Reuters report, TSMC has not finalized any plans for Texas, with the potential project still under evaluation. CEO C.C. Wei previously said TSMC expects to build \"probably [an] additional four or more fabs\" in Arizona. A new Texas project would further broaden TSMC's U.S. manufacturing footprint amid efforts to expand domestic semiconductor production.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-reportedly-weighs-texas-chip-131720014.html",
@@ -11657,10 +11650,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+        "event": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍",
+        "stance": "根據路透社報道，台積電尚未敲定德克薩斯州的任何計劃，潛在項目仍在評估中。執行長 C.C.魏先生先前表示，台積電預計在亞利桑那州「可能另外建造四個或更多晶圓廠」。德州的一個新項目將進一步拓寬台積電在美國的業務範圍。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -11674,7 +11667,7 @@
       "group": "CPU 概念股",
       "tag": "利多",
       "title": "Googlebook 推出採用 Intel Core Ultra 系列 3 處理器",
-      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+      "summary": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
       "originalTitle": "Googlebook Launches with Intel Core Ultra Series 3 Processors",
       "originalSummary": "With the first wave of launch-day Googlebook hardware landing on store shelves in just a matter of days, it would be tempting to think development work might be quiet while everyone waits to see how the market reacts. Instead, work on the next generation of Googlebooks is already moving full steam ahead. Just days after ‘Coolum’ - an upcoming Intel Core Series 3 clamshell likely coming from Lenovo - was uncovered, yet another development board has officially popped up in the Chromium Gerrit. Codenamed ‘Blanc’, this new device points toward another manufacturer laying the groundwork for a more mainstream, accessible Intel-powered Googlebook. via the Chromium Gerrit Clamshell, convertible, or detachable? Whenever a brand-new board surfaces, the first big question is always form factor: are we looking at a traditional clamshell, a 2-in-1 convertible, or a detachable tablet like Lenovo’s upcoming Duet m? While it is still very early days for ‘Blanc’, the initial code provides some clear structural clues. The setup files account for standard active cooling fans, everyday USB-A and USB-C port layouts, and traditional laptop battery rails. Because there is no evidence of detachable magnetic connectors or specialized tablet-first thermal restrictions, ‘Blanc’ is shaping up to be a traditional clamshell laptop or a convertible 2-in-1 rather than a tablet/detachable. Aiming for mainstream Intel performance Under the hood, ‘Blanc’ is branching directly off Google’s ‘Ocelot’ baseboard, which is the reference platform for upcoming Intel Core Series 3 (Wildcat Lake) processors. That is a crucial distinction. During Google’s media event in New York City, the initial x86 Intel devices like the Lenovo Googlebook 15, Acer Googlebook 14, and the ultralight ASUS Googlebook 14 all came equipped with Intel’s top-tier Core Ultra Series 3 (Panther Lake) chips and $899+ price tags to match. ‘Blanc’ and the ‘Ocelot’ family represent the next tier down. Instead of chasing ultra-premium, bleeding-edge specs, these Core Series 3 machines are being designed for the high-volume, mainstream market. They will bring reliable multi-core processing, modern on-device AI acceleration for Gemini features, and long battery life at a price point that regular consumers and students will definitely enjoy. Looking ahead to 2027 Because ‘Blanc’ is literally in its very first week of public code commits, this is not a device you will see hitting Best Buy or the Google Store this fall. Taking a board from its earliest power configurations to retail certification usually takes anywhere from six to nine months, and Intel's Wildcat Lake hardware is firmly tracking toward early 2027. Still, seeing two separate Intel Core Series 3 laptops (‘Coolum’ and now ‘Blanc’) spin up alongside each other shows that hardware partners are already treating Googlebook as a long-term platform rather than a one-time trial. We will keep an eye on ‘Blanc’ as the code matures to see which OEM ultimately puts its logo on the lid.",
       "url": "https://chromeunboxed.com/blanc-is-another-new-intel-wildcat-lake-powered-googlebook-already-in-the-works/",
@@ -11691,12 +11684,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "event": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
         "numbers": [
           "$899"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更易於使用的英特爾驅動的 Googlebook 奠定基礎。",
+        "stance": "隨著第一波發布日的 Googlebook 硬體在短短幾天內登陸商店貨架，人們很容易認為開發工作可能會很平靜，而每個人都在等待市場的反應。相反，下一代 Googlebooks 的開發工作已經在全力進行中。就在「Coolum」——即將推出的英特爾酷睿系列 3 翻蓋式處理器（可能來自聯想）被發現幾天后，又一款開發板正式出現在 Chromium Gerrit 中。這款代號為「Blanc」的新裝置指向另一家製造商，為更主流、更容易使用的英特爾驅動的 Googlebook 奠定基礎。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -20725,7 +20718,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "預測：2030 年投資 Sandisk 500 美元的價值",
-      "summary": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+      "summary": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
       "originalTitle": "Prediction: This Is What a $500 Investment in Sandisk Will Be Worth in 2030",
       "originalSummary": "Last year, semiconductor company Sandisk (NASDAQ:SNDK) was the best-performing stock in the S&P 500 (SNPINDEX:^GSPC). Historically, stocks that have claimed that title have often recorded strong returns in the following year. Indeed, Sandisk shares have advanced 695% in 2026, as the company has benefited from insatiable demand for memory chips fueled by artificial intelligence boom. Here's what investors should know. Missed AI's \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-stock-695-2026-market-092701867.html",
@@ -20743,13 +20736,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "event": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "numbers": [
           "$500",
           "695%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "去年，半導體公司Sandisk（NASDAQ：SNDK）是標準普爾500指數（SNPINDEX：^GSPC）中表現最好的股票。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
+        "stance": "去年，半導體公司 Sandisk（NASDAQ：SNDK）是標準普爾 500 指數中表現最好的股票（SNPINDEX：^GSPC）。從歷史上看，擁有這一頭銜的股票往往會在第二年錄得強勁回報。事實上，Sandisk 的股價在 2026 年上漲了 695%，該公司受益於人工智慧熱潮推動的對儲存晶片的永不滿足的需求。以下是投資人應該了解的內容。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -21353,7 +21346,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "邁克爾道格拉斯和凱瑟琳澤塔瓊斯最甜蜜的家庭照片",
-      "summary": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上在海洋中熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
+      "summary": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上進行了海洋中的熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
       "originalTitle": "Michael Douglas and Catherine Zeta-Jones’ Sweetest Family Photos",
       "originalSummary": "CATHERINE Zeta-Jones and Michael Douglas have packed on PDA with a passionate kiss in the ocean . Celebrating each of their birthdays, the pair, who have been together for more than 25 years, locke…",
       "url": "https://www.the-sun.com/entertainment/17056967/catherine-zeta-jones-michael-douglas-kiss-ocean-birthday/",
@@ -21369,10 +21362,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上在海洋中熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
+        "event": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上進行了海洋中的熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上在海洋中熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
+        "stance": "凱瑟琳·澤塔-瓊斯和邁克爾·道格拉斯在 PDA 上進行了海洋中的熱吻。這對已經在一起超過 25 年的情侶在慶祝各自的生日時，洛克…",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -25906,7 +25899,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "新思科技 (Synopsys) 與台積電 (TSMC) 合作，利用智慧人工智慧和先進設計加速人工智慧系統創新",
-      "summary": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+      "summary": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
       "originalTitle": "Synopsys and TSMC Partner to Accelerate AI Systems Innovation with Agentic AI and Advanced Design",
       "originalSummary": "New collaborations span A14 design enablement, AI-assisted engineering workflows, CoWoS® support for multi-die designs, and unified multiphysics signoff Certified EDA flows on TSMC A14 accelerate design readiness for next-generation AI and HPC applications Collaboration on agentic AI workflows accelerates automation and improves productivity for complex analog, digital, and multi-die designs Continued enablement for IVR multi-die designs on TSMC CoWoS® technology addresses power integrity and thermal requirements for AI systems Continued joint enablement for TSMC-COUPE™ streamlines co-packaged optics development and verification Expanded 2nm IP portfolio and tape-out milestones including for PCIe 7.0 and HBM4 speed the development of differentiated AI, data center, edge, and automotive products",
       "url": "https://finance.yahoo.com/technology/ai/articles/synopsys-tsmc-partner-accelerate-ai-190100128.html",
@@ -25922,10 +25915,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+        "event": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產工作流程在 TSMC 上繼續支援第 IVR 晶片的設計。系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
+        "stance": "新的合作涵蓋 A14 設計支援、AI 輔助工程工作流程、CoWoS® 對多晶片設計的支援以及在統一的多實體場簽核 TSMC A14 上經過認證的 EDA 流程可加快下一代 AI 和 HPC 應用的設計準備工作 代理 AI 工作流程的協作可加速自動化並提高複雜模擬、數位和多晶片設計的生產效率 IVR® 繼續支援 TSMC 晶片設計系統的電源完整性和散熱要求 持續聯合TSMC-COUPE™ 的支援簡化了共同封裝光學元件的開發和驗證 擴展的 2nm IP 產品組合和流片里程碑（包括 PCIe 7.0 和 HBM4）加速了差異化 A 的開發",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
