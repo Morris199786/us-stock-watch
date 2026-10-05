@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05 22:19 台灣時間",
+  "updatedAt": "2026-10-05 22:22 台灣時間",
   "historyUpdatedDate": "2026-10-05",
   "historyLastAttemptAt": "2026-10-04T16:01:40.727755+00:00",
   "historyItemCount": 800,
@@ -7,19 +7,68 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "APP",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "HSBC 重申 APP Buy",
+      "summary": "",
+      "originalTitle": "HSBC Adjusts Price Target on AppLovin to $409 From $450, Maintains Buy Rating",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPekVZZHNKb3ZmNkhjTGdHTWtHYWVCZjhrNVk0eWtyTVRSZTBYVDVVdEtEQjdQaGtIUUtxeHJReG9CS1V2NmlpYkRRb3JyMUxlbUI4LTJ5YjVRYV9oZHFfeUVnZkxZNzlTbzNXNDc1SmZmaWc0S1RaN2QxTlJpZzJPOHF0R2RnWE9MZS1vUlJ6UnNLYTRZN1ZQV2ljXzFOOXloNXNna3NsWlFvRnhudU5nQXRKVjU4T0ZGXzJyMnk3WEdhYkRDdGc?oc=5",
+      "ts": "2026-10-05T14:14:46+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "HSBC",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "下修",
+          "newTarget": "$409",
+          "oldTarget": "$450",
+          "reason": "匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+          "reasonConfidence": "medium",
+          "targetTicker": "APP",
+          "targetCompany": "AppLovin"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "APP"
+      ],
+      "eventType": "",
+      "score": 205.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：AppLovin（APP）｜券商：HSBC｜動作：下修｜評等：Buy｜目標價：$409（原 $450）｜調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "numbers": [
+          "$450",
+          "$409"
+        ],
+        "why": "調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：匯豐將 AppLovin 的目標價從 450 美元調整至 409 美元，維持買入評級",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 10
+    },
+    {
       "ticker": "GFS",
       "group": "晶圓代工／封測／EMS",
       "tag": "利空",
       "title": "GlobalFoundries 被法國巴黎銀行下調評級，因該公司認為成長動力「已被定價」（GFS：納斯達克）",
-      "summary": "",
+      "summary": "BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
       "originalTitle": "GlobalFoundries downgraded by BNP Paribas as firm sees growth drivers 'priced in' (GFS:NASDAQ)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUVsQ0hWRjdCRTNhbWNHSEM3WlhMbGxycG1manA2c2ZoY3Y0R3BTelZNQm9TUEY0ODVDeUI0ZmlhQ3ZIVlVEUmJqZUZfRVRtdmZHSGg4X3FSdE9uOUROYm9jOFRpNzRzczdmYWRFQlk3MWczNFA3QXNQNFR1SV9FLWZ5YzkwQTVjQUNNUzJsTDJJNS1BSzM5M0dTUnozUlA2cU5aaFo2WmlvSFh4RTA4VE1RREpyVWFi?oc=5",
+      "originalSummary": "BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/bnp-paribas-downgrades-globalfoundries-to-neutral-from-outperform-adjusts-pt-to-51-from-80-ce785ddbd18ef723",
       "ts": "2026-10-05T14:13:23+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "GFS"
       ],
@@ -28,16 +77,23 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
+        "numbers": [
+          "$51",
+          "$80",
+          "$74.40,"
+        ],
+        "why": "券商調整理由：BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
+        "stance": "BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "券商調整理由：BNP Paribas Downgrades GlobalFoundries to Neutral From Outperform, Adjusts PT to $51 From $80GlobalFoundries has an average rating of overweight and mean price target of $74.40, according to analysts polled by FactSet. ...",
+        "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -719,6 +775,39 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "OpenAI、Anthropic、Google、Meta 在紐約人工智慧聽證會上作證",
+      "summary": "",
+      "originalTitle": "OpenAI, Anthropic, Google, Meta testify at NYC AI hearing",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDdlNFRDVPMWE3TS1iLVdKZlo2NUlSR3YyQXpGRmVaQzJ6bTlWZlFOMHRIMHhKcUFSbGpSSjNFWjQwRWFFMHNBX0VmVHlQYXl1LXlJQTROYU9WTTg1ODg5R0U1NUtKdGNYTFNaNTNqUk9zXzJxVzB3LUNYcU1QUQ?oc=5",
+      "ts": "2026-10-05T13:25:47+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 23.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "我還不會信任 Meta 的 Muse AI 代理來處理我的個人數據",
       "summary": "",
       "originalTitle": "I wouldn’t trust Meta’s Muse AI agent with my personal data yet",
@@ -1035,7 +1124,7 @@
       ],
       "eventType": "",
       "score": 18.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1519,43 +1608,6 @@
       },
       "top10": true,
       "top10Rank": 6
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "OpenAI、Anthropic、Google、Meta 在紐約人工智慧聽證會上作證",
-      "summary": "",
-      "originalTitle": "OpenAI, Anthropic, Google, Meta testify at NYC AI hearing",
-      "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|ai artificial i|enterprise|cybersecurity|politics|law and regulat\",\"additionalSectionContentFormattedFull\":\"internet|ai artificial intelligence|enterprise|cybersecurity|politics|law and regulation\",\"authorFormatted\":\"ashley capoot\",\"authorFormattedFull\":\"ashley capoot\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-05T10:41:41+0000\",\"dateLastPublished\":\"2026-10-05T12:19:26+0000\",\"datePublished\":\"2026-10-05T10:41:41+0000\",\"description\":\"The leading AI labs facing intensifying scrutiny over their safety and security practices.\",\"expires\":null,\"headline\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"id\":108372295,\"liveURL\":\"/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html\",\"native\":false,\"pageName\":\"108372295|2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|internet|enterprise|cybersecurity|openai forge gl|elon musk|space explorati|breaking news p|politics|elon musk|new york city|julie menin|alphabet class |meta platforms |invesco qqq tru|ishares expande\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|internet|enterprise|cybersecurity|openai forge global|elon musk|space exploration technologies corp|breaking news politics|politics|elon musk|new york city|julie menin|alphabet class a|meta platforms inc|invesco qqq trust|ishares expanded tech sector etf\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Anthropic, OpenAI, Google, Meta execs testify NYC Council AI hearing\",\"shortDateFirstPublished\":\"10/05/2026\",\"shortDateLastPublished\":\"10/05/2026\",\"shortDatePublished\":\"10/05/2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https://cnb.cx/3Vj2S0q\"},{\"shareName\":\"Twitter\",\"url\":\"https://cnb.cx/4rKsYFs\"},{\"shareName\":\"Linkedin\",\"url\":\"https://cnb.cx/4rKHkG9\"},{\"shareName\":\"Email\",\"url\":\"https://cnb.cx/4jEYh2s\"},{\"shareName\":\"SMS\",\"url\":\"https://cnb.cx/4rP3yH0\"},{\"shareName\":\"AppleTV\",\"url\":\"https://cnb.cx/4zd5dbE\"}],\"slug\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https://www.cnbc.com\",\"subType\":null,\"tagName\":\"Anthropic, OpenAI, Google and Meta execs set to testify at NYC Council hearing on AI risks\",\"tagNameFormatted\":\"anthropic opena\",\"tagNameFormattedFull\":\"anthropic openai google and meta execs set to testify at nyc council hearing on ai risks\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":3,\"title\":\"Anthropic, Open",
-      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html",
-      "ts": "2026-10-05T12:33:06+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "GOOGL",
-        "META"
-      ],
-      "eventType": "跨公司事件",
-      "score": 32.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"old\" wValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"互聯網|ai人工智慧|企業|網路安全|政治|法律法規\",\"additionalSectionContentFormattedFull\":\"網路|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash| capoot\",\"authorFormattedFull\":\"ashley capoot\",\"brand\":\"",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"old\" wValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"互聯網|ai人工智慧|企業|網路安全|政治|法律法規\",\"additionalSectionContentFormattedFull\":\"網路|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash|ai人工智慧|企業|網路安全|政治法律法規\",\"authorleyFormatted\":\"ash| capoot\",\"authorFormattedFull\":\"ashley capoot\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPubli d\":\"20",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2784,47 +2836,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "人工智慧融資合作夥伴關係對英偉達和資料中心營運商來說是有利的",
-      "summary": "",
-      "originalTitle": "AI Financing Partnerships Are Credit-Positive for Nvidia and Data Center Operators",
-      "originalSummary": "Amazon has set up an $8b special purpose vehicle to buy and lease back Nvidia (NasdaqGS:NVDA) Grace Blackwell chips to AWS clients. The structure is designed as an off balance sheet financing tool for AI hardware as cloud capital demands rise. Morgan Stanley has reinstated Nvidia as a Top Pick, citing its view on AI data center demand and capacity expansion. The Amazon financing vehicle for Grace Blackwell chips and Morgan Stanley's Top Pick call both sit inside a wider Nvidia AI infrastructure story. We have also spotted 2 warning signs (1 major) worth knowing about at NVIDIA. Nvidia is far from the only business tied tightly to this build out of AI infrastructure, so it is worth scanning the wider peer group via 90 AI infrastructure stocks .",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-center-8-billion-230622829.html",
-      "ts": "2026-10-05T10:07:30+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AMZN",
-        "NVDA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 38.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "亞馬遜設立了一個 80 億美元的特殊目的工具，用於向 AWS 客戶購買和回租 Nvidia (NasdaqGS:NVDA) Grace Blackwell 晶片。隨著雲端資本需求的增加，該結構被設計為人工智慧硬體的表外融資工具。摩根士丹利 (Morgan Stanley) 恢復了英偉達 (Nvidia) 的首選名單，理由是其對人工智慧資料中心需求和產能擴張的看法。亞馬遜為 Grace Blackwell 晶片提供的融資工具和摩根士丹利的 Top Pick 電話都屬於更廣泛的 Nvidia 人工智慧基礎設施故事。",
-        "numbers": [
-          "$8b"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "亞馬遜設立了一個 80 億美元的特殊目的工具，用於向 AWS 客戶購買和回租 Nvidia (NasdaqGS:NVDA) Grace Blackwell 晶片。隨著雲端資本需求的增加，該結構被設計為人工智慧硬體的表外融資工具。摩根士丹利 (Morgan Stanley) 恢復了英偉達 (Nvidia) 的首選名單，理由是其對人工智慧資料中心需求和產能擴張的看法。亞馬遜為 Grace Blackwell 晶片提供的融資工具和摩根士丹利的 Top Pick 電話都屬於更廣泛的 Nvidia 人工智慧基礎設施故事。我們還發現了 NVIDIA 值得了解的 2 個警訊（其中一個主要）。英偉達並不是唯一一家與人工智慧基礎設施建設緊密相關的企業，因此值得透過 90 隻人工智慧基礎設施股票來審視更廣泛的同行群體。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
