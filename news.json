@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06 07:19 台灣時間",
+  "updatedAt": "2026-10-06 07:24 台灣時間",
   "historyUpdatedDate": "2026-10-06",
   "historyLastAttemptAt": "2026-10-05T16:02:11.612595+00:00",
   "historyItemCount": 800,
@@ -48,8 +48,8 @@
         "takeaway": "調整原因：摩根士丹利維持買入 R 評級，英偉達 (NVDA) 創歷史新高",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 6
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -67,6 +67,38 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "前 Groq 工程師就 Nvidia 價值 200 億美元的資產交易起訴董事會",
+      "summary": "",
+      "originalTitle": "Ex-Groq engineers sue board over $20B Nvidia asset deal",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RMUh3czhoNHdOa0VkRWxHOVNvR1haUDIzSm9yUjhiZHBydmEtUDNYTXI5SnpER3Y5RldaejlydnYtSmQwQUpqNWpfX0V4T3ROMzdRTlZnbXpTVmFZQ0trTVZvb3pvS3QwY3J2bVVFUkpuWWZsQkxR?oc=5",
+      "ts": "2026-10-05T23:00:45+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -159,7 +191,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -326,6 +358,41 @@
       "top10Rank": null
     },
     {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "利多",
+      "title": "SPCX 股價回升 165 美元，升等和微軟交易可望提升營收前景",
+      "summary": "",
+      "originalTitle": "SPCX Stock Reclaims $165 as Upgrade and Microsoft Deal Hopes Lift Revenue Outlook",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWNRZUhKYUdwZWNibDgzVEl0aHc4cnpaR1V5QlhLa2I1Q3dRdlFVQjFnRE45aGhzbmRkUUdiaE9mOERPM1FSTkc1NjJzVFJ3R1JXdEQyX1NmLTVWMTQxdVdkcHlaQ054QnFFWW5jVkVtM0haOEhJTXVsSElXWk9fT3NpWjA1T2J1N25EZ3ktVnhrZjZVOU44Z3JxVVBBUjVMWUZJN2FDWldtLUZpWGliRHNPbXdBVTlCWVFCZ3BMNWI?oc=5",
+      "ts": "2026-10-05T22:17:57+00:00",
+      "sourceType": "active_search",
+      "movePct": 7.630850528434818,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX",
+        "MSFT"
+      ],
+      "eventType": "",
+      "analystPriority": true,
+      "score": 228.75,
+      "featured": true,
+      "translated": true,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "利多",
@@ -430,6 +497,40 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "AI運算需求前景樂觀：法國巴黎銀行上調英偉達 (NVDA.US) 和英特爾 (INTC.US) 目標價，但對後者仍持謹慎態度",
+      "summary": "",
+      "originalTitle": "Positive Outlook for AI Computing Demand: BNP Paribas Raises Target Prices for NVIDIA (NVDA.US) and Intel (INTC.US), but Remains Cautious on the Latter",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT1N4OE1jdUJqWngzUEZ1ajBUc1B3NHhMZ0NJdlNBaDl4ZnFXTWVfS2pSTkJVMzFOSFJtdGRnME1fWFFwRFBtTlNKbEFuVGJlUENpOHAxbm0wam1scm83aGhZWEw2ZnFSRTVFVHNldi1EY1JpczBCNGxFdWZleThCU1IzdEFhQXJTNlk0YloyZ3FPOVhjM2p3Z19WLU5DQXVxTjNhLTd2X29ySlZHLXc?oc=5",
+      "ts": "2026-10-05T22:07:37+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA",
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 216.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -599,38 +700,6 @@
       "marketWide": true,
       "analystPriority": false,
       "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "前 Groq 工程師就 Nvidia 價值 200 億美元的資產交易起訴董事會",
-      "summary": "",
-      "originalTitle": "Ex-Groq engineers sue board over $20B Nvidia asset deal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RMUh3czhoNHdOa0VkRWxHOVNvR1haUDIzSm9yUjhiZHBydmEtUDNYTXI5SnpER3Y5RldaejlydnYtSmQwQUpqNWpfX0V4T3ROMzdRTlZnbXpTVmFZQ0trTVZvb3pvS3QwY3J2bVVFUkpuWWZsQkxR?oc=5",
-      "ts": "2026-10-05T21:26:37+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
       "eventType": "",
       "score": 6.75,
       "featured": false,
@@ -1100,41 +1169,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "SPCX 股價回升 165 美元，升等和微軟交易可望提升營收前景",
-      "summary": "",
-      "originalTitle": "SPCX Stock Reclaims $165 as Upgrade and Microsoft Deal Hopes Lift Revenue Outlook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTWNRZUhKYUdwZWNibDgzVEl0aHc4cnpaR1V5QlhLa2I1Q3dRdlFVQjFnRE45aGhzbmRkUUdiaE9mOERPM1FSTkc1NjJzVFJ3R1JXdEQyX1NmLTVWMTQxdVdkcHlaQ054QnFFWW5jVkVtM0haOEhJTXVsSElXWk9fT3NpWjA1T2J1N25EZ3ktVnhrZjZVOU44Z3JxVVBBUjVMWUZJN2FDWldtLUZpWGliRHNPbXdBVTlCWVFCZ3BMNWI?oc=5",
-      "ts": "2026-10-05T20:03:25+00:00",
-      "sourceType": "active_search",
-      "movePct": 7.630850528434818,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SPCX",
-        "MSFT"
-      ],
-      "eventType": "",
-      "analystPriority": true,
-      "score": 228.75,
-      "featured": true,
-      "translated": true,
-      "analystDetails": [],
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 3
     },
     {
       "ticker": "MARKET",
@@ -2011,7 +2045,7 @@
       ],
       "eventType": "",
       "score": 207.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "BNP Paribas Adjusts Price Target on Nvidia to $345 From $285, Keeps Outperform RatingNvidia has an average rating of buy and mean price target of $334.45, according to analysts polled by FactSet. ...",
@@ -2503,7 +2537,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2625,38 +2659,6 @@
       "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "新代理技能：Amazon SageMaker 為您的編碼代理程式優化了生成式 AI 推理",
-      "summary": "",
-      "originalTitle": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaUVVRkRoQmhFNzFDNWRfdS02bm9zQWRoMUxKMnZQY3k0VkI1SHRkM0taWkRscE9pSExzVTdKUEhRZnk4Q3FKMzFRTVVPcTEtaWM5bUp5c0xJX1BzWTBrSzVZS3pVQlBBTFdDY1d0bkdXS055SEJFWW9FNV9MX1A2cmt5eFRvMGdYc1BxUmg3MTZ2Umt2NlpXN1QtNmZDWnJuMW5wa0picUNKUkNFOFNDNmpoZ1hYNGROenk4SWZubFJ4UXJTTGs1LU1hc2FqRFVW?oc=5",
-      "ts": "2026-10-05T17:23:19+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
