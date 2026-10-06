@@ -1,7 +1,7 @@
 {
   "parserVersion": 11,
-  "updatedAtUtc": "2026-10-05T06:06:47.221458+00:00",
-  "updatedAt": "2026-10-05 14:07 台灣時間",
+  "updatedAtUtc": "2026-10-06T06:48:24.226055+00:00",
+  "updatedAt": "2026-10-06 14:49 台灣時間",
   "reports": [
     {
       "ticker": "MU",
@@ -50,7 +50,7 @@
       "reactionSession": "盤後",
       "reactionObservedAt": "2026-09-30T19:55:00-04:00",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-10-05T06:07:17.693883+00:00"
+      "earningsCheckedAtUtc": "2026-10-06T06:49:13.334182+00:00"
     },
     {
       "ticker": "ORCL",
@@ -206,9 +206,9 @@
       "group": "AI 運算／AI 晶片",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
+      "epsActual": 3.32,
       "epsEstimate": 3.24,
-      "epsSurprisePct": null,
+      "epsSurprisePct": 2.53,
       "revenueActual": 29590000000.0,
       "revenueEstimate": 29240000000.0,
       "guidance": [],
@@ -249,64 +249,15 @@
       "earningsCheckedAtUtc": "2026-09-26T03:26:44.205596+00:00"
     },
     {
-      "ticker": "SNOW",
-      "name": "Snowflake",
-      "symbol": "SNOW",
-      "group": "Cloud／Software／AI 應用",
-      "reportDate": "2026-09-02",
-      "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
-      "epsEstimate": 0.45,
-      "epsSurprisePct": null,
-      "revenueActual": 1550000000.0,
-      "revenueEstimate": 1480000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 23.136281882482777,
-      "nextClosePct": 16.554409328097396,
-      "sources": [
-        {
-          "title": "Snowflake lifts annual revenue forecast on cloud and AI demand, shares soar - reuters.com",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJ2U1c4RFI3aWwtQVNXOW1KaHFMSVpxc2RFc1BiUnNYdnBTaUJ5eWZpc3BxRWUzcnhiNURoRXlwY0VqU2M1NEYtX01XMlhLeF9zRkZncnEzYVFMSDJ0c182LWtNbUpHYy1NUXNET0NTZnZJMkxWOXVBa2ZvVVF2NTJDRHhpRjJOblRvRzJzZ1ZDN08yZnZ1UGpfQUdWRnc5Zm1fU0V5Vlc3SmIwdHUwbGNubEM4ZUQxbHdz?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTN3eDFYZ05aWEVjNnRGVG9sRy1kYTQ0QTA1SUlLQk9MZ19GUDZ5dE81QTQzck9scHFOYmJ4TTFJYWgyMGRCZ0lrVWtZcHJ2a2ZqYUIzSlhWdFpsVm1PZ3dsYkhqdjRQb2dWajdVbjE5UVJNNWg3endubDFoT3BEX080ZE04dFVpaHVvY2x6ZDJqbmpUMW9WRHZ0ZURrZjBBZzZpSjFKMFJTMzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "[Snowflake Q2 2027 Earnings Call] Snowflake Accelerates Again, Hikes Full-Year Forecast to $6.07B as AI Products Drive Half of Growth - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1adzZWMmhpWVdwNExtQU5Tb2xvRnVkRThxWVQ2Y0NhYXpnSmhpYjhHUkowcjgzNHFaOEthczhaOFBkOEVQUEVpSGlCTkJKRVR0UjlkTUZjd0NLckR4a1E?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake soars as Q2 results, guidance top estimates (SNOW:NYSE) - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUhLRFBQdFJueDJqTm1jLXJBeUlRRzZOci1Fb0poY1BJbTdyUEd3dy1ReTZWd0lwdUQ1ckVVcndvU0tudmhzTmN4UUE5VUdMbGhtOEEwVHdMSG9kREJNeWRSbXZKQm5CWFVVQVZOMTYyMkV0T3kwbDVTUlhnNnM0MzRJSGtITzJnSmZmSkxmcXF4NHpN?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Snowflake soars 20% on earnings beat and raised guidance By Investing.com - Investing.com Canada",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLXFBdkNEWjk5RDlldEFIRW5sMFdHOTJuTTFka21rWVhvQ09KSmoxbE9fYkVVTk8zVUJNYlN5WFNrRGdwTHpKT1V0U1FacGV2MDd2ZEp1UFFPQnR2Z3JmWnduT0hoV21tR1RvVHNCVlp6N2pkeFhxR3NmN3hMamlndmdMMVVZSFlfUGNvQ2dKVk5YcXJqeHpWNkJsT1ZsckZTendZbA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY27",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-09-02T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:26:56.891653+00:00"
-    },
-    {
       "ticker": "HPE",
       "name": "HPE",
       "symbol": "HPE",
       "group": "AI Server／資料中心硬體",
       "reportDate": "2026-09-02",
       "reportDateTime": "2026-09-02T20:00:00+00:00",
-      "epsActual": null,
-      "epsEstimate": 0.93,
-      "epsSurprisePct": null,
+      "epsActual": 1.11,
+      "epsEstimate": 0.94,
+      "epsSurprisePct": 18.41,
       "revenueActual": 12210000000.0,
       "revenueEstimate": 11970000000.0,
       "guidance": [],
@@ -345,6 +296,55 @@
       "reactionObservedAt": "2026-09-02T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:26:50.260432+00:00"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "symbol": "SNOW",
+      "group": "Cloud／Software／AI 應用",
+      "reportDate": "2026-09-02",
+      "reportDateTime": "2026-09-02T20:00:00+00:00",
+      "epsActual": 0.62,
+      "epsEstimate": 0.45,
+      "epsSurprisePct": 38.71,
+      "revenueActual": 1550000000.0,
+      "revenueEstimate": 1480000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 23.136281882482777,
+      "nextClosePct": 16.554409328097396,
+      "sources": [
+        {
+          "title": "Snowflake lifts annual revenue forecast on cloud and AI demand, shares soar - reuters.com",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFJ2U1c4RFI3aWwtQVNXOW1KaHFMSVpxc2RFc1BiUnNYdnBTaUJ5eWZpc3BxRWUzcnhiNURoRXlwY0VqU2M1NEYtX01XMlhLeF9zRkZncnEzYVFMSDJ0c182LWtNbUpHYy1NUXNET0NTZnZJMkxWOXVBa2ZvVVF2NTJDRHhpRjJOblRvRzJzZ1ZDN08yZnZ1UGpfQUdWRnc5Zm1fU0V5Vlc3SmIwdHUwbGNubEM4ZUQxbHdz?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Snowflake Jumps on Revenue Outlook, Uptake of AI Assistant - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWTN3eDFYZ05aWEVjNnRGVG9sRy1kYTQ0QTA1SUlLQk9MZ19GUDZ5dE81QTQzck9scHFOYmJ4TTFJYWgyMGRCZ0lrVWtZcHJ2a2ZqYUIzSlhWdFpsVm1PZ3dsYkhqdjRQb2dWajdVbjE5UVJNNWg3endubDFoT3BEX080ZE04dFVpaHVvY2x6ZDJqbmpUMW9WRHZ0ZURrZjBBZzZpSjFKMFJTMzZw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[Snowflake Q2 2027 Earnings Call] Snowflake Accelerates Again, Hikes Full-Year Forecast to $6.07B as AI Products Drive Half of Growth - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1adzZWMmhpWVdwNExtQU5Tb2xvRnVkRThxWVQ2Y0NhYXpnSmhpYjhHUkowcjgzNHFaOEthczhaOFBkOEVQUEVpSGlCTkJKRVR0UjlkTUZjd0NLckR4a1E?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Snowflake soars as Q2 results, guidance top estimates (SNOW:NYSE) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQUhLRFBQdFJueDJqTm1jLXJBeUlRRzZOci1Fb0poY1BJbTdyUEd3dy1ReTZWd0lwdUQ1ckVVcndvU0tudmhzTmN4UUE5VUdMbGhtOEEwVHdMSG9kREJNeWRSbXZKQm5CWFVVQVZOMTYyMkV0T3kwbDVTUlhnNnM0MzRJSGtITzJnSmZmSkxmcXF4NHpN?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Snowflake soars 20% on earnings beat and raised guidance By Investing.com - Investing.com Canada",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLXFBdkNEWjk5RDlldEFIRW5sMFdHOTJuTTFka21rWVhvQ09KSmoxbE9fYkVVTk8zVUJNYlN5WFNrRGdwTHpKT1V0U1FacGV2MDd2ZEp1UFFPQnR2Z3JmWnduT0hoV21tR1RvVHNCVlp6N2pkeFhxR3NmN3hMamlndmdMMVVZSFlfUGNvQ2dKVk5YcXJqeHpWNkJsT1ZsckZTendZbA?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY27",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-09-02T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:26:56.891653+00:00"
     },
     {
       "ticker": "CRDO",
@@ -1017,55 +1017,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:28:42.838324+00:00"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco",
-      "symbol": "CSCO",
-      "group": "光通訊／網通",
-      "reportDate": "2026-08-12",
-      "reportDateTime": "2026-08-12T20:00:00+00:00",
-      "epsActual": 1.22,
-      "epsEstimate": 1.17,
-      "epsSurprisePct": 4.38,
-      "revenueActual": 17250000000.0,
-      "revenueEstimate": 16840000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": -4.068451215015589,
-      "nextClosePct": -8.403290493637483,
-      "sources": [
-        {
-          "title": "Cisco forecasts annual revenue above estimates on sustained AI spending - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFNjVWhZOGJVZzBrMDdXRC13NkM3cW9lMjlicDZZc3duZXNTLWlZTEhBTDJuWTJvV3pkbEdoUWd2VVFmTWlCTTFCVlJjOFFsTXB3Y0JBZHROZExiUU4xZm1mbkhOSHF4MVRfdXpEdWp3NFdlbnhpQk5kSklmX3Y3cW5ockRIT0VSeWdWMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Beats on Sales Outlook, Citing ‘Broad-Based’ Record Demand - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT05Kcjl6akJ6YVlYWmh6d1dKaGJXMXhPRXMzTlJZUU9CZ2tWMXQ5c3ZCa0ptUTZIZlcyM3NMWHBkOWFpLWkwNkpxSUJkd09SdnlzRHpXd1U1bFg3TDRZVnJKR3JfTFA3c0VOX2VSWFNhek1SWld2T0tjOHBQU3k1U0Z6SktGTkduNWM4NkJXa3FVMmV3NVN3OVJha2Z6TkhZLU5TcURfMF9OSkZILTRMVENB?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Surges on AI Orders as Fiscal 2027 Revenue Outlook Tops Estimates - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15dk5sck5yYUE5RFRlQ1Y5TE81Q3YwUWdQdXBEd1F6MDExdllUQjJtdGdWRGlDM0RSRjl2VmdzWkQ4YlMtZWhTZE1ZNm1nTXZrM1YtSElaR0UtUzdCSXBhSmhjQlhFUHpPM2otWU8zZk9UNDRpVnc?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco sells off even as Q4 results, guidance top estimates (CSCO:NASDAQ) - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZDVodGxfekpSWXRQdUllNHdDeTdyM1N1SlJYT251OVoycWR5cUNTUG4wNHR1LU5UMGdVUVRIQWMxZEFoQ202Z01LbHFvVjl0T1VZZ2dBQmNjVGUzVjFUMjBEc004b1RsNUxfenlyT3g0cFNROThXcFIzLTMyc1VzYTVhLWR5eElQbmdfaERIV0g2bGM?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Cisco Systems (CSCO) Beats Q4 Earnings and Revenue Estimates - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjFLOE9aSjF0ZDlPR3hCcFZpdkhaSk4zeUctYXFQd2VENHJaSXQycjhYeXdNcFdYN3kwdW1OY0cxRGh2S2Z3clNjVXVZMDFYdk1Zckk1U3Y4SzdjenJQci02d21XZ0ZPbXBJVDRENk1lYkg0ajJQTC1rTFNuZDdON0xWalJTRnppWjVQOXd5MUF2NzdqM3Fj?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q1 FY27",
-      "quarterSource": "source title",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-12T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-10-03T23:54:03.518430+00:00"
-    },
-    {
       "ticker": "COHR",
       "name": "Coherent",
       "symbol": "COHR",
@@ -1113,6 +1064,55 @@
       "reactionObservedAt": "2026-08-12T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:28:48.312923+00:00"
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "symbol": "CSCO",
+      "group": "光通訊／網通",
+      "reportDate": "2026-08-12",
+      "reportDateTime": "2026-08-12T20:00:00+00:00",
+      "epsActual": 1.22,
+      "epsEstimate": 1.17,
+      "epsSurprisePct": 4.38,
+      "revenueActual": 17250000000.0,
+      "revenueEstimate": 16840000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": -4.068451215015589,
+      "nextClosePct": -8.403290493637483,
+      "sources": [
+        {
+          "title": "Cisco forecasts annual revenue above estimates on sustained AI spending - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFNjVWhZOGJVZzBrMDdXRC13NkM3cW9lMjlicDZZc3duZXNTLWlZTEhBTDJuWTJvV3pkbEdoUWd2VVFmTWlCTTFCVlJjOFFsTXB3Y0JBZHROZExiUU4xZm1mbkhOSHF4MVRfdXpEdWp3NFdlbnhpQk5kSklmX3Y3cW5ockRIT0VSeWdWMQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Beats on Sales Outlook, Citing ‘Broad-Based’ Record Demand - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT05Kcjl6akJ6YVlYWmh6d1dKaGJXMXhPRXMzTlJZUU9CZ2tWMXQ5c3ZCa0ptUTZIZlcyM3NMWHBkOWFpLWkwNkpxSUJkd09SdnlzRHpXd1U1bFg3TDRZVnJKR3JfTFA3c0VOX2VSWFNhek1SWld2T0tjOHBQU3k1U0Z6SktGTkduNWM4NkJXa3FVMmV3NVN3OVJha2Z6TkhZLU5TcURfMF9OSkZILTRMVENB?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Surges on AI Orders as Fiscal 2027 Revenue Outlook Tops Estimates - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15dk5sck5yYUE5RFRlQ1Y5TE81Q3YwUWdQdXBEd1F6MDExdllUQjJtdGdWRGlDM0RSRjl2VmdzWkQ4YlMtZWhTZE1ZNm1nTXZrM1YtSElaR0UtUzdCSXBhSmhjQlhFUHpPM2otWU8zZk9UNDRpVnc?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco sells off even as Q4 results, guidance top estimates (CSCO:NASDAQ) - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZDVodGxfekpSWXRQdUllNHdDeTdyM1N1SlJYT251OVoycWR5cUNTUG4wNHR1LU5UMGdVUVRIQWMxZEFoQ202Z01LbHFvVjl0T1VZZ2dBQmNjVGUzVjFUMjBEc004b1RsNUxfenlyT3g0cFNROThXcFIzLTMyc1VzYTVhLWR5eElQbmdfaERIV0g2bGM?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Cisco Systems (CSCO) Beats Q4 Earnings and Revenue Estimates - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbjFLOE9aSjF0ZDlPR3hCcFZpdkhaSk4zeUctYXFQd2VENHJaSXQycjhYeXdNcFdYN3kwdW1OY0cxRGh2S2Z3clNjVXVZMDFYdk1Zckk1U3Y4SzdjenJQci02d21XZ0ZPbXBJVDRENk1lYkg0ajJQTC1rTFNuZDdON0xWalJTRnppWjVQOXd5MUF2NzdqM3Fj?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q1 FY27",
+      "quarterSource": "source title",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-12T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-10-03T23:54:03.518430+00:00"
     },
     {
       "ticker": "NBIS",
@@ -1311,55 +1311,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:29:25.015719+00:00"
     },
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "symbol": "ASTS",
-      "group": "太空／國防／無人系統",
-      "reportDate": "2026-08-10",
-      "reportDateTime": "2026-08-10T20:00:00+00:00",
-      "epsActual": -0.77,
-      "epsEstimate": -0.33,
-      "epsSurprisePct": -131.96,
-      "revenueActual": 31520000.0,
-      "revenueEstimate": 34530000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": -1.048577826978514,
-      "nextClosePct": 4.1739311053268,
-      "sources": [
-        {
-          "title": "ASTS Stock Drops After Hours on Q2 Revenue Miss, Wider-Than-Expected Loss, Investor Focus On Future Launches - Stocktwits",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTVfYllYYzhvLXM1ckVfMjNxRUhNamlDM3hWRGJ5cUwzMmJNRjB0V0M5NVVFYzhmWUJKanI0VnFoU3JBVnl4aTRJOVUxZTF5bXRjNzcxX1J5bnNVMlUwZTVPOVI1TFpnVGszcWZ6U2MzQWxReHFKMk5VRHFxR2J5YTR5LVN2TFRNUzZMbHd3d3VlMklQa3E4QnJIR1dGdnVZbWVHM2J0SngzZWNPaDduSHAyMG8zeWpuWXZvb1gweVIxWm5zcHVrR2ZjZ2swVEpNeG5Xa1Q0Y1EzWXM?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "RKLB, ASTS Stocks Rise Premarket Ahead Of Mega Space Earnings Day: Retail Traders Optimistic After SpaceX’s Results - TradingView",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLXhfSXVMMTZYaDJJV1ZqbjRlcTVMcWxTbE9rSjEzcjZCSzVUSGhVVEZuY3BjSWZqbmRaRnZDSDk0ZjZSRlRMRERmRU9ucHFPQ3RhX1Y2elU4UlRWdnNYRXdkdVA1TmlZLVZFYXdQcXI1MERrMU4yR21Ea3JtYVlVUTZqZWRkMEhWT0Y2akRQT3hEQjYyUEhIRUtQMmxHSWpPRXRuelUzWWItdmtQQUVtaXJLcmxRWU5JMEd3SXlnSTZ5ZjRzVm1mMHFONWI3dUtVY0hYeU9OLUlJXzE5SjV2M2RZeUJSNVBELTRzVlFUc25mSDBTeW12YmQ2YmVPaEphUkJlTw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "AST SpaceMobile’s Partners Reach 3 Billion Subscribers as Satellite Speeds Approach 200 Mbps - 24/7 Wall St.",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYnZPd1p2MmI4UHhkbGFZUU5hRmJ1a0ZfRFBWTHQtbmlCMGVnclU4ZU5DOHYtQURtaEo1c3FlSnk0TkpsNDQ5LWhHVUpIVVpucm01UldaeUtvMUJrMHFCakk3OGRidDJEMDVYMjFtdG82OUVMM2pmRXB0bUw1UHFsZnI0eWpqMlZGcGx1QUlJdGVYLWdBaDBncm95QzRTY0prSXMzSFo5eDFLeEs0R0d3?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "AST Spacemobile Partners With European Telecom Giants for Satellite Network - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkpyRkhpWEdmX19YcTJVQVVZaUlmb3hfMTVfOHg0MzFPTVJVVlhOb21tSWVoNkdmdDdTajlmZGV3YXpQd0JKWWpLdjkySTVqZTRZMDZSUFZyZGs4bUE3VGhRcXNFekZiTVhyVk5sVWlrZnVrYkJSMlBoeGxuZ1Z4b2tGeDIzVld2bTRMRlhlb29YTlVrUUF4Q09LUDRPbGM2Tzg3SGQ4UGdPQ196V1dfZWlzTlMwQXFYV2s5Nks1TFBNNHlxTVRFMFpKVkZYb0tlSVE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "AST SpaceMobile Launches Three BlueBird Satellites Into Orbit - Benzinga",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcUc5YWN0Q1RZNGk4cmtuUi1XaGRJaTFPWVFRalRKai1PanotRkFBWlEwSHc2ek1aYVpkS2RkM3VBQ2h1QVQyY1ZDV3dkbVlFMzVOWUVSek9vZmJBRGJNdll2a3pQanZhckxIRDVIcDN3RnF0T1hNMmVjaTQ3Zm4zM0ZUSWpuc3BiZWdmd0xTaWVHOHQzM0RtMGJ1R19pSEdnYUVxTWp4UHJRclhKQnEwQkdESjF5WjFmT0VNNl9KRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-10T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:29:31.032506+00:00"
-    },
-    {
       "ticker": "RKLB",
       "name": "Rocket Lab",
       "symbol": "RKLB",
@@ -1409,6 +1360,55 @@
       "earningsCheckedAtUtc": "2026-09-26T03:29:37.816937+00:00"
     },
     {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "symbol": "ASTS",
+      "group": "太空／國防／無人系統",
+      "reportDate": "2026-08-10",
+      "reportDateTime": "2026-08-10T20:00:00+00:00",
+      "epsActual": -0.77,
+      "epsEstimate": -0.33,
+      "epsSurprisePct": -131.96,
+      "revenueActual": 31520000.0,
+      "revenueEstimate": 34530000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": -1.048577826978514,
+      "nextClosePct": 4.1739311053268,
+      "sources": [
+        {
+          "title": "ASTS Stock Drops After Hours on Q2 Revenue Miss, Wider-Than-Expected Loss, Investor Focus On Future Launches - Stocktwits",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTVfYllYYzhvLXM1ckVfMjNxRUhNamlDM3hWRGJ5cUwzMmJNRjB0V0M5NVVFYzhmWUJKanI0VnFoU3JBVnl4aTRJOVUxZTF5bXRjNzcxX1J5bnNVMlUwZTVPOVI1TFpnVGszcWZ6U2MzQWxReHFKMk5VRHFxR2J5YTR5LVN2TFRNUzZMbHd3d3VlMklQa3E4QnJIR1dGdnVZbWVHM2J0SngzZWNPaDduSHAyMG8zeWpuWXZvb1gweVIxWm5zcHVrR2ZjZ2swVEpNeG5Xa1Q0Y1EzWXM?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "RKLB, ASTS Stocks Rise Premarket Ahead Of Mega Space Earnings Day: Retail Traders Optimistic After SpaceX’s Results - TradingView",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQLXhfSXVMMTZYaDJJV1ZqbjRlcTVMcWxTbE9rSjEzcjZCSzVUSGhVVEZuY3BjSWZqbmRaRnZDSDk0ZjZSRlRMRERmRU9ucHFPQ3RhX1Y2elU4UlRWdnNYRXdkdVA1TmlZLVZFYXdQcXI1MERrMU4yR21Ea3JtYVlVUTZqZWRkMEhWT0Y2akRQT3hEQjYyUEhIRUtQMmxHSWpPRXRuelUzWWItdmtQQUVtaXJLcmxRWU5JMEd3SXlnSTZ5ZjRzVm1mMHFONWI3dUtVY0hYeU9OLUlJXzE5SjV2M2RZeUJSNVBELTRzVlFUc25mSDBTeW12YmQ2YmVPaEphUkJlTw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "AST SpaceMobile’s Partners Reach 3 Billion Subscribers as Satellite Speeds Approach 200 Mbps - 24/7 Wall St.",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYnZPd1p2MmI4UHhkbGFZUU5hRmJ1a0ZfRFBWTHQtbmlCMGVnclU4ZU5DOHYtQURtaEo1c3FlSnk0TkpsNDQ5LWhHVUpIVVpucm01UldaeUtvMUJrMHFCakk3OGRidDJEMDVYMjFtdG82OUVMM2pmRXB0bUw1UHFsZnI0eWpqMlZGcGx1QUlJdGVYLWdBaDBncm95QzRTY0prSXMzSFo5eDFLeEs0R0d3?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "AST Spacemobile Partners With European Telecom Giants for Satellite Network - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMkpyRkhpWEdmX19YcTJVQVVZaUlmb3hfMTVfOHg0MzFPTVJVVlhOb21tSWVoNkdmdDdTajlmZGV3YXpQd0JKWWpLdjkySTVqZTRZMDZSUFZyZGs4bUE3VGhRcXNFekZiTVhyVk5sVWlrZnVrYkJSMlBoeGxuZ1Z4b2tGeDIzVld2bTRMRlhlb29YTlVrUUF4Q09LUDRPbGM2Tzg3SGQ4UGdPQ196V1dfZWlzTlMwQXFYV2s5Nks1TFBNNHlxTVRFMFpKVkZYb0tlSVE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "AST SpaceMobile Launches Three BlueBird Satellites Into Orbit - Benzinga",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcUc5YWN0Q1RZNGk4cmtuUi1XaGRJaTFPWVFRalRKai1PanotRkFBWlEwSHc2ek1aYVpkS2RkM3VBQ2h1QVQyY1ZDV3dkbVlFMzVOWUVSek9vZmJBRGJNdll2a3pQanZhckxIRDVIcDN3RnF0T1hNMmVjaTQ3Zm4zM0ZUSWpuc3BiZWdmd0xTaWVHOHQzM0RtMGJ1R19pSEdnYUVxTWp4UHJRclhKQnEwQkdESjF5WjFmT0VNNl9KRQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-10T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:29:31.032506+00:00"
+    },
+    {
       "ticker": "VST",
       "name": "Vistra",
       "symbol": "VST",
@@ -1416,8 +1416,8 @@
       "reportDate": "2026-08-10",
       "reportDateTime": "2026-08-10T10:00:00+00:00",
       "epsActual": 0.76,
-      "epsEstimate": 1.63,
-      "epsSurprisePct": -53.4,
+      "epsEstimate": 1.66,
+      "epsSurprisePct": -54.2,
       "revenueActual": 4017000000.0,
       "revenueEstimate": null,
       "guidance": [],
@@ -1964,47 +1964,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:30:57.184919+00:00"
     },
     {
-      "ticker": "FLNC",
-      "name": "Fluence",
-      "symbol": "FLNC",
-      "group": "電力／儲能／資料中心能源",
-      "reportDate": "2026-08-05",
-      "reportDateTime": "2026-08-05T20:00:00+00:00",
-      "epsActual": -0.19,
-      "epsEstimate": 0.01,
-      "epsSurprisePct": -1997.66,
-      "revenueActual": 649850000.0,
-      "revenueEstimate": 818570000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": -23.712576604243772,
-      "nextClosePct": -7.167951770215286,
-      "sources": [
-        {
-          "title": "Fluence Energy, Inc. (FLNC) Q3 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTVBaNHM3c0k3VGcwZlFONWhyU2w5ZlE0Mk42ZGhueUd3QXYyaUxZVEJRbDlaSkI1RUxzTVd1WHpoNjJHWFhFQWpJWlMzOGxwWnlTXzRGTlF1XzZCUEE5WTNPMm9qMTlhM1NaZzJGdGdPY1RBUnpyc1BDNThlYnpJSTh0TWt2eG5EWlBFTFZ2WjExSXk1bHdpTG9JUU81dw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Fluence Energy (NASDAQ:FLNC) drops 23% amid Q4 $1.4 billion challenge linked to factory setbacks - TechStock²",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT29PTlhEc0s5MU05NFlOaXlIQTlzQkdKWDh3bFJ4ZFdtOGxVUlVWT21xcnJRc29iUHl6Z2J3MnlfRlJCVzlvZFBDVnpaelBnSllwQ2lwYnJ1X3FtZDlGQ20tZktRbHcxNHRIbFVnYWZ6eGhrYlpZZVhmVkhGSFdRVV9WUDdJTWFjMV9nekpyWUs1UU41eksyVExfVm5DVTF0OXNSUV94OGxBUVhfSlVfQ25B?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Fluence Energy (NASDAQ:FLNC) Misses Q2 CY2026 Sales Expectations, Stock Drops 27.1% - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhnRS1ZWklUTHJaTG0teFVfX2pTaG5HdDRnNVVMMUtMSnR0aTgtWnNaSXlKa1lPaTNCZVl1azd5ZEZtN0ZyVlUwcmJvSG4zOFVaWFlQcGxzRTNlTjJnb2FvZ1B1M2phUC1YSzZIa1JITGprY1pzSGt5WmZjYjd2b2REZnR1YlF2ZWZWcFN1U2IyZDYwSEdVOS1YUlctQzhfQkgzQ2phQUhsTVJydjBnUmRHNjQ5eklNZEZCT19YbkY4bFphNTUya0hnQkk0ZUxCRlVwQXZVUmlZOEU?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 3,
-      "fiscalQuarterLabel": "Q3 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-05T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:31:09.043059+00:00"
-    },
-    {
       "ticker": "APP",
       "name": "AppLovin",
       "symbol": "APP",
@@ -2054,28 +2013,36 @@
       "earningsCheckedAtUtc": "2026-09-26T03:31:05.200669+00:00"
     },
     {
-      "ticker": "SYM",
-      "name": "Symbotic",
-      "symbol": "SYM",
-      "group": "EV／AI／機器人",
+      "ticker": "FLNC",
+      "name": "Fluence",
+      "symbol": "FLNC",
+      "group": "電力／儲能／資料中心能源",
       "reportDate": "2026-08-05",
       "reportDateTime": "2026-08-05T20:00:00+00:00",
-      "epsActual": 0.41,
-      "epsEstimate": 0.13,
-      "epsSurprisePct": 218.5,
-      "revenueActual": 720840000.0,
-      "revenueEstimate": 715030000.0,
+      "epsActual": -0.19,
+      "epsEstimate": 0.01,
+      "epsSurprisePct": -1997.66,
+      "revenueActual": 649850000.0,
+      "revenueEstimate": 818570000.0,
       "guidance": [],
       "management": [],
-      "firstReactionPct": -4.557180646824066,
-      "nextClosePct": -14.87532655964905,
+      "firstReactionPct": -23.712576604243772,
+      "nextClosePct": -7.167951770215286,
       "sources": [
         {
-          "title": "Symbotic Inc. (SYM) Q3 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT0lWbXhVOHpOck5xQ3pxbklxQTJiUGc1QVI5YkNMWTBIblBLR0ZYa1Y0eU0xQ1FfUWRGczNlSVFKV3FHd3czcGdTbWxiSXVfOXVPX2x4Nno5LWJXWkFDcjBZMWVvSzk1Z1JvSHFOelNIX1ZyWmZSVmFLdER3SllMQXMtR2NtcjZyZlZwMFY5dFFYcnpz?oc=5&hl=en-US&gl=US&ceid=US:en"
+          "title": "Fluence Energy, Inc. (FLNC) Q3 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTVBaNHM3c0k3VGcwZlFONWhyU2w5ZlE0Mk42ZGhueUd3QXYyaUxZVEJRbDlaSkI1RUxzTVd1WHpoNjJHWFhFQWpJWlMzOGxwWnlTXzRGTlF1XzZCUEE5WTNPMm9qMTlhM1NaZzJGdGdPY1RBUnpyc1BDNThlYnpJSTh0TWt2eG5EWlBFTFZ2WjExSXk1bHdpTG9JUU81dw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Fluence Energy (NASDAQ:FLNC) drops 23% amid Q4 $1.4 billion challenge linked to factory setbacks - TechStock²",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT29PTlhEc0s5MU05NFlOaXlIQTlzQkdKWDh3bFJ4ZFdtOGxVUlVWT21xcnJRc29iUHl6Z2J3MnlfRlJCVzlvZFBDVnpaelBnSllwQ2lwYnJ1X3FtZDlGQ20tZktRbHcxNHRIbFVnYWZ6eGhrYlpZZVhmVkhGSFdRVV9WUDdJTWFjMV9nekpyWUs1UU41eksyVExfVm5DVTF0OXNSUV94OGxBUVhfSlVfQ25B?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Fluence Energy (NASDAQ:FLNC) Misses Q2 CY2026 Sales Expectations, Stock Drops 27.1% - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbDhnRS1ZWklUTHJaTG0teFVfX2pTaG5HdDRnNVVMMUtMSnR0aTgtWnNaSXlKa1lPaTNCZVl1azd5ZEZtN0ZyVlUwcmJvSG4zOFVaWFlQcGxzRTNlTjJnb2FvZ1B1M2phUC1YSzZIa1JITGprY1pzSGt5WmZjYjd2b2REZnR1YlF2ZWZWcFN1U2IyZDYwSEdVOS1YUlctQzhfQkgzQ2phQUhsTVJydjBnUmRHNjQ5eklNZEZCT19YbkY4bFphNTUya0hnQkk0ZUxCRlVwQXZVUmlZOEU?oc=5&hl=en-US&gl=US&ceid=US:en"
         }
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "fiscalQuarterLabel": "Q3 FY26",
       "quarterSource": "Yahoo financial statements",
       "actualSource": "Yahoo quarterly financials",
@@ -2084,7 +2051,7 @@
       "reactionSession": "盤後",
       "reactionObservedAt": "2026-08-05T19:55:00-04:00",
       "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:31:12.787466+00:00"
+      "earningsCheckedAtUtc": "2026-09-26T03:31:09.043059+00:00"
     },
     {
       "ticker": "LEU",
@@ -2126,6 +2093,39 @@
       "reactionObservedAt": "2026-08-05T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:31:16.981447+00:00"
+    },
+    {
+      "ticker": "SYM",
+      "name": "Symbotic",
+      "symbol": "SYM",
+      "group": "EV／AI／機器人",
+      "reportDate": "2026-08-05",
+      "reportDateTime": "2026-08-05T20:00:00+00:00",
+      "epsActual": 0.41,
+      "epsEstimate": 0.13,
+      "epsSurprisePct": 220.63,
+      "revenueActual": 720840000.0,
+      "revenueEstimate": 715030000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": -4.557180646824066,
+      "nextClosePct": -14.87532655964905,
+      "sources": [
+        {
+          "title": "Symbotic Inc. (SYM) Q3 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT0lWbXhVOHpOck5xQ3pxbklxQTJiUGc1QVI5YkNMWTBIblBLR0ZYa1Y0eU0xQ1FfUWRGczNlSVFKV3FHd3czcGdTbWxiSXVfOXVPX2x4Nno5LWJXWkFDcjBZMWVvSzk1Z1JvSHFOelNIX1ZyWmZSVmFLdER3SllMQXMtR2NtcjZyZlZwMFY5dFFYcnpz?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 1,
+      "fiscalQuarterLabel": "Q3 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-05T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:31:12.787466+00:00"
     },
     {
       "ticker": "GFS",
@@ -2463,6 +2463,51 @@
       "earningsCheckedAtUtc": "2026-09-26T03:32:00.149508+00:00"
     },
     {
+      "ticker": "KTOS",
+      "name": "Kratos",
+      "symbol": "KTOS",
+      "group": "太空／國防／無人系統",
+      "reportDate": "2026-08-04",
+      "reportDateTime": "2026-08-04T20:00:00+00:00",
+      "epsActual": 0.21,
+      "epsEstimate": 0.15,
+      "epsSurprisePct": 38.37,
+      "revenueActual": 458800000.0,
+      "revenueEstimate": 410360000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": 4.2639312004220775,
+      "nextClosePct": 6.689803917790504,
+      "sources": [
+        {
+          "title": "[Kratos Defense & Security Solutions Q2 2026 Earnings Call] Revenue Beats as Hypersonics Revenue Set to Double, Full-Year Growth Outlook Raised to 23% - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dmljNU56bnc1VzZ6NUtsMEwtSWllR1VYRUJycFRaOU96VmFEb19OY2FSS3FSQ2p4aFZtdmNObE00Q0R6Zldnb0RoQ1h5ZWVtdUgyd21VVnNrWE81N3c?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos (NASDAQ:KTOS) Beats Expectations in Strong Q2 CY2026, Full-Year Sales Guidance is Optimistic - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnhZZUpEUzJ3a2FMTDVMY2hfRjg3elQwc2FfQi1HTERUMU1nX25KQjBZTU1CMkRna0JDTW90TlB1ejZmaWhfSHlSeTYtU08zczJHbDVGY0xST1dPblVGanFxdWhwZWlYVFF4SEhrMzVpQjcybXdST1ozQTZCNDZEVDNUV3lGalgwS1ZsbVl6Z2kwUmVKNnlvRkVnaHl4RUJLYkxvQlZ3Smxva3BoUzFuc00zbHJ4YkRuTXNuTVE2NmpnS2ExMUpTU0JYbThLX2VOSTJ3ZVN5eExKVTBBeHVZdHdTMnUtN3Y3U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos Defense & Security Solutions Inc (KTOS) (Q2 2026) Earnings Call Highlights: Record ... - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1p0VHYxRTZNMmE2cjNWT2RPdjcwdnBJeGs2NlZzeE82bFM3YXBQUDdkeS1rU2FLVUstRTJVT0FXUEwtR0RPRGdKN3JKNHRDclM1MjZjQUszTjFyNFRIWU5aQUt3b1lRV2dubl9IVHBYRjQ2TTBSM1JWeEVmRl90bzFXNm9MTlpXbllmQ1FvQ1pJaEg5aTRoY29fTXQ3RjdGUy1GUw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Q2 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXFhTG9qVmNRb3VvOHh1dEpjb1ZDVHpWOVdzWXBJcHQ5RjhuM044cmV4Z3pqbHA0azZFUWZjNWlwTzM5Q0pfZnhvRGFiczNsa1RTM1RzSHZuVzU5V1Fqd3poSW1ILWRFbGlyZHFCQjlXQzVYbGk3Q09hcF9TamRjVXNZYmNmVVA2Q1ZmQTVrSFhDR3JJMmFNeHJON0VwRmJCMG9pUWV3bW11b3pGUkxJNUdCc1M3LUk0S0Y3VA?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 4,
+      "fiscalQuarterLabel": "Q2 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "盤後",
+      "reactionObservedAt": "2026-08-04T19:55:00-04:00",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:32:19.540162+00:00"
+    },
+    {
       "ticker": "SPCX",
       "name": "SpaceX",
       "symbol": "SPCX",
@@ -2510,51 +2555,6 @@
       "reactionObservedAt": "2026-08-04T19:55:00-04:00",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:32:15.365793+00:00"
-    },
-    {
-      "ticker": "KTOS",
-      "name": "Kratos",
-      "symbol": "KTOS",
-      "group": "太空／國防／無人系統",
-      "reportDate": "2026-08-04",
-      "reportDateTime": "2026-08-04T20:00:00+00:00",
-      "epsActual": 0.21,
-      "epsEstimate": 0.15,
-      "epsSurprisePct": 38.37,
-      "revenueActual": 458800000.0,
-      "revenueEstimate": 410360000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": 4.2639312004220775,
-      "nextClosePct": 6.689803917790504,
-      "sources": [
-        {
-          "title": "[Kratos Defense & Security Solutions Q2 2026 Earnings Call] Revenue Beats as Hypersonics Revenue Set to Double, Full-Year Growth Outlook Raised to 23% - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dmljNU56bnc1VzZ6NUtsMEwtSWllR1VYRUJycFRaOU96VmFEb19OY2FSS3FSQ2p4aFZtdmNObE00Q0R6Zldnb0RoQ1h5ZWVtdUgyd21VVnNrWE81N3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos (NASDAQ:KTOS) Beats Expectations in Strong Q2 CY2026, Full-Year Sales Guidance is Optimistic - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnhZZUpEUzJ3a2FMTDVMY2hfRjg3elQwc2FfQi1HTERUMU1nX25KQjBZTU1CMkRna0JDTW90TlB1ejZmaWhfSHlSeTYtU08zczJHbDVGY0xST1dPblVGanFxdWhwZWlYVFF4SEhrMzVpQjcybXdST1ozQTZCNDZEVDNUV3lGalgwS1ZsbVl6Z2kwUmVKNnlvRkVnaHl4RUJLYkxvQlZ3Smxva3BoUzFuc00zbHJ4YkRuTXNuTVE2NmpnS2ExMUpTU0JYbThLX2VOSTJ3ZVN5eExKVTBBeHVZdHdTMnUtN3Y3U3c?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos Defense & Security Solutions Inc (KTOS) (Q2 2026) Earnings Call Highlights: Record ... - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1p0VHYxRTZNMmE2cjNWT2RPdjcwdnBJeGs2NlZzeE82bFM3YXBQUDdkeS1rU2FLVUstRTJVT0FXUEwtR0RPRGdKN3JKNHRDclM1MjZjQUszTjFyNFRIWU5aQUt3b1lRV2dubl9IVHBYRjQ2TTBSM1JWeEVmRl90bzFXNm9MTlpXbllmQ1FvQ1pJaEg5aTRoY29fTXQ3RjdGUy1GUw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Kratos Defense & Security Solutions, Inc. (KTOS) Q2 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXFhTG9qVmNRb3VvOHh1dEpjb1ZDVHpWOVdzWXBJcHQ5RjhuM044cmV4Z3pqbHA0azZFUWZjNWlwTzM5Q0pfZnhvRGFiczNsa1RTM1RzSHZuVzU5V1Fqd3poSW1ILWRFbGlyZHFCQjlXQzVYbGk3Q09hcF9TamRjVXNZYmNmVVA2Q1ZmQTVrSFhDR3JJMmFNeHJON0VwRmJCMG9pUWV3bW11b3pGUkxJNUdCc1M3LUk0S0Y3VA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 4,
-      "fiscalQuarterLabel": "Q2 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "盤後",
-      "reactionObservedAt": "2026-08-04T19:55:00-04:00",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:32:19.540162+00:00"
     },
     {
       "ticker": "TSEM",
@@ -3315,8 +3315,8 @@
       "group": "高速傳輸",
       "reportDate": "2026-07-29",
       "reportDateTime": "2026-07-29T12:00:00+00:00",
-      "epsActual": 1.35,
-      "epsEstimate": 1.19,
+      "epsActual": 0.68,
+      "epsEstimate": 0.6,
       "epsSurprisePct": 13.19,
       "revenueActual": 8760000000.0,
       "revenueEstimate": 8260000000.0,
@@ -3701,55 +3701,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:34:50.603854+00:00"
     },
     {
-      "ticker": "SWKS",
-      "name": "Skyworks",
-      "symbol": "SWKS",
-      "group": "類比／電源／功率／RF",
-      "reportDate": "2026-07-28",
-      "reportDateTime": "2026-07-28T20:00:00+00:00",
-      "epsActual": 1.08,
-      "epsEstimate": 1.03,
-      "epsSurprisePct": 4.79,
-      "revenueActual": 934800000.0,
-      "revenueEstimate": 925970000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": -5.395797251082457,
-      "sources": [
-        {
-          "title": "Skyworks Solutions (SWKS) Q3 Earnings and Revenues Beat Estimates - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjF4c1VvR1JvTlJNVFUtSUJWeE9IeGR5NlBjTWVpSHkxdGxuMkoyT3A0RVJLYzd1WThFenBwTXppUGtKSFM0bW96Z1ljazhfX29NUlZPRUhuZWFac3E2YkdZMGFiNlpXZGFXcW9rLUFFaXlGUUdLVEFUUFhfWHh5SllhcFZNTE5wekZOdlV1VTlkTjdxZjU1YzlDY1FvelhTelE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Skyworks Solutions Inc (SWKS) Q3 2026 Earnings Call Highlights: Strong Revenue and Strategic Moves - finance.yahoo.com",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGZuaTAzZGxtcHhHYXJYQTJPRVpsTFBNb0ZyWDRweXY0OURCNG9vV3lXY0dLTG5oQVdYV01BQzZnU3ByaDJOSGVyTXBvUl96V2ZaZGZnaG81OGJ2Y2hRLVZseHVwYXVYUnoyLThsZUozcGpGbDdVd1VGNF9uMU55TXdsaHJyQW9ZRFoybjM5ckc2NmF0QUsyX2ZaSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "[Skyworks Solutions Q3 2026 Earnings Call] Skyworks Beats with $935M Revenue, Plans $2B Buyback, Kills Dividend as Qorvo Merger Hits Final China Review - finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbnp5MDFZLWtsVVpTYlp4MEwxaWc4aWpIQ2lFbkhwUUhyMzRwa20zM1BmV1FjWklxZG5vd0tfNlBROTI2WXhrVUtCemZ1VTNhZFZyWlRXajZtdzRjcGc?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Skyworks Solutions, Inc. (SWKS) Q3 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0cyQ2h2aWgwYVRnNjRBYVM4SzBxOVFLT1F1QXR2QmNXYjBCU2xxd09PbGlPdnhDRHI5UVQxMlVKS2lKaXN2R0FLQTRMZmR1LXYzTndaZVg3cURsRnotbFpqcl9VeVp2dGxtV3QzVzlLQ3IzNTFSMlVpUFpRaU45STY5aDlYUmdDQXpCcTQxSXdpeWN4aG50SmxQSE1XZGJmcWgw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Skyworks Solutions (NASDAQ:SWKS) Exceeds Q2 Expectations But Stock Drops - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNenViTzNLQjBSLVBVY1ptMUxqQ2NDY3BqYl8wcmttcXhEQVd5ZWIycXk5cVlQd0V0eDZPc0lvUjUyYzlQa21GaGt5VzduMWY1MEs2Q2V6SWpXdmJ0YnY1SU9FdjhEUU1pTTAwazlUX0F5Zm11RHNGRmFIWXgzTXBURmdjZlFpLTJGWEJtem5wVjd2bU1vS0tyTTRQVDFEaVRsY3pFdEpnSERvZWpDLWw2MTBmLWlfdEZCb3AwMGpoS1R3SWxKZGZz?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 5,
-      "fiscalQuarterLabel": "Q3 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "",
-      "reactionObservedAt": "",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:35:04.065611+00:00"
-    },
-    {
       "ticker": "NXPI",
       "name": "NXP",
       "symbol": "NXPI",
@@ -3797,6 +3748,55 @@
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:35:10.669938+00:00"
+    },
+    {
+      "ticker": "SWKS",
+      "name": "Skyworks",
+      "symbol": "SWKS",
+      "group": "類比／電源／功率／RF",
+      "reportDate": "2026-07-28",
+      "reportDateTime": "2026-07-28T20:00:00+00:00",
+      "epsActual": 1.08,
+      "epsEstimate": 1.03,
+      "epsSurprisePct": 4.79,
+      "revenueActual": 934800000.0,
+      "revenueEstimate": 925970000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": -5.395797251082457,
+      "sources": [
+        {
+          "title": "Skyworks Solutions (SWKS) Q3 Earnings and Revenues Beat Estimates - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjF4c1VvR1JvTlJNVFUtSUJWeE9IeGR5NlBjTWVpSHkxdGxuMkoyT3A0RVJLYzd1WThFenBwTXppUGtKSFM0bW96Z1ljazhfX29NUlZPRUhuZWFac3E2YkdZMGFiNlpXZGFXcW9rLUFFaXlGUUdLVEFUUFhfWHh5SllhcFZNTE5wekZOdlV1VTlkTjdxZjU1YzlDY1FvelhTelE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions Inc (SWKS) Q3 2026 Earnings Call Highlights: Strong Revenue and Strategic Moves - finance.yahoo.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTGZuaTAzZGxtcHhHYXJYQTJPRVpsTFBNb0ZyWDRweXY0OURCNG9vV3lXY0dLTG5oQVdYV01BQzZnU3ByaDJOSGVyTXBvUl96V2ZaZGZnaG81OGJ2Y2hRLVZseHVwYXVYUnoyLThsZUozcGpGbDdVd1VGNF9uMU55TXdsaHJyQW9ZRFoybjM5ckc2NmF0QUsyX2ZaSQ?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "[Skyworks Solutions Q3 2026 Earnings Call] Skyworks Beats with $935M Revenue, Plans $2B Buyback, Kills Dividend as Qorvo Merger Hits Final China Review - finance.biggo.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbnp5MDFZLWtsVVpTYlp4MEwxaWc4aWpIQ2lFbkhwUUhyMzRwa20zM1BmV1FjWklxZG5vd0tfNlBROTI2WXhrVUtCemZ1VTNhZFZyWlRXajZtdzRjcGc?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions, Inc. (SWKS) Q3 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOV0cyQ2h2aWgwYVRnNjRBYVM4SzBxOVFLT1F1QXR2QmNXYjBCU2xxd09PbGlPdnhDRHI5UVQxMlVKS2lKaXN2R0FLQTRMZmR1LXYzTndaZVg3cURsRnotbFpqcl9VeVp2dGxtV3QzVzlLQ3IzNTFSMlVpUFpRaU45STY5aDlYUmdDQXpCcTQxSXdpeWN4aG50SmxQSE1XZGJmcWgw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Skyworks Solutions (NASDAQ:SWKS) Exceeds Q2 Expectations But Stock Drops - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNenViTzNLQjBSLVBVY1ptMUxqQ2NDY3BqYl8wcmttcXhEQVd5ZWIycXk5cVlQd0V0eDZPc0lvUjUyYzlQa21GaGt5VzduMWY1MEs2Q2V6SWpXdmJ0YnY1SU9FdjhEUU1pTTAwazlUX0F5Zm11RHNGRmFIWXgzTXBURmdjZlFpLTJGWEJtem5wVjd2bU1vS0tyTTRQVDFEaVRsY3pFdEpnSERvZWpDLWw2MTBmLWlfdEZCb3AwMGpoS1R3SWxKZGZz?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 5,
+      "fiscalQuarterLabel": "Q3 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "",
+      "reactionObservedAt": "",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:35:04.065611+00:00"
     },
     {
       "ticker": "BE",
@@ -3946,51 +3946,6 @@
       "earningsCheckedAtUtc": "2026-09-26T03:35:44.607531+00:00"
     },
     {
-      "ticker": "SANM",
-      "name": "Sanmina",
-      "symbol": "SANM",
-      "group": "晶圓代工／封測／EMS",
-      "reportDate": "2026-07-27",
-      "reportDateTime": "2026-07-27T20:00:00+00:00",
-      "epsActual": 3.31,
-      "epsEstimate": 2.79,
-      "epsSurprisePct": 18.5,
-      "revenueActual": 3460000000.0,
-      "revenueEstimate": 3400000000.0,
-      "guidance": [],
-      "management": [],
-      "firstReactionPct": null,
-      "nextClosePct": -17.458115024538966,
-      "sources": [
-        {
-          "title": "Earnings call transcript: Sanmina tops Q3 2026 estimates, shares slip after hours - Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWjY4a2lIV2cyR3JZVUlJVU1UVFdMOUZsVFB1NnRuWUNNalJ2OGJyQ0g4ckk2WXhoVndEX2x3VGU3MXhyUmZDOVh5OUxJUUdRa3p2YW9tN2ZZdG14SllWNEFFTFY3OFRrYUlrZFE2WmhEUzBhV3UtaXlKVU1yRkc1WEdBZTBoVHBLVGNsZW5oallrR1k0OGktQVNRMHhkSWdybWpiMTJTZGVuRldBNzhwZWU1bFRTbzNydDlJQ0Jnb1NMeXMxN1E0OFFXOW9UUWZE?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "SANM Q2 Deep Dive: AI Demand and Integration Drive Growth, Guidance Signals Mixed Outlook - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb0xmdFJQNVluMHgxNDJwSDhLN2JvQ2l1Wm1Vc0xfaHFJUmlmT0VUM01uemxlaFIzT2tLeVJRa3VJcWJvSThhVllydXhYUTRkVC1XdmdyNFFRM3NCWWRiNU12LWNaTU1UWDd5SDVvN3FXS3dVZ3Jhc296Znd6alNqME5WTmtlcUVtY29KSlBrZEZzekRLZjlRVEZGYTBOVm81OTQ1MzRqclRYRDQ3akJLaFlUMklTbWlXd0Z0MzJfaDlwM094c0pEazJtZXhiMmxlcU85WGJrOXJER0tYczJyTm5ZQTNfdw?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Sanmina Corporation (SANM) Q3 2026 Earnings Call Transcript - Seeking Alpha",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXlrY2FZRGt0OXRlOXl2Ry10aW9iWXFiWHFIYlFuY0pwMEpiMW9iYlp2MldvS1F5eFBKVmJtOWoxcV82VldKUWtvTVdxeWpVYWplMzRXVjhwVlkyQnMteE5CVWFvbkg3Y0ZJcmZ0VWJIeEhONE53aHhfYVZyRVhLRjNWanlsREdwYnFvclYzNGVvMUpNUG40dElHbnBIWUk?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Sanmina (NASDAQ:SANM) Beats Q2 CY2026 Sales Expectations But Stock Drops - stockstory.org",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTFfRm0zalBNa2R4bGMtRUwwVWxWNXVmUHMtbXI5TnpsUHUtaE1FUHBUNWtqdjlJaVZuaVhQSjFJQXZzS2RxSmc2eEltYkNiRW1yRFZydl94RmkzQzBiZ1hIWG9FdEtPMkRBWWxIakhQZVdCZkxUdGFaNlhVVE1fNGF4VVZpQjU1T3hjZ3BjdU9qT3FfTXVMODhON3dqU2tWWUZfQlJ3UFUzQ1JrSDdKTDZubTlPcUxlejVaLUJ3UlR0Wk5KeVhv?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ],
-      "sourceCount": 4,
-      "fiscalQuarterLabel": "Q3 FY26",
-      "quarterSource": "Yahoo financial statements",
-      "actualSource": "Yahoo quarterly financials",
-      "estimateSource": "MarketBeat",
-      "transcriptSource": "",
-      "reactionSession": "",
-      "reactionObservedAt": "",
-      "earningsCheckedV11": true,
-      "earningsCheckedAtUtc": "2026-09-26T03:36:01.224311+00:00"
-    },
-    {
       "ticker": "AMKR",
       "name": "Amkor",
       "symbol": "AMKR",
@@ -4087,6 +4042,51 @@
       "reactionObservedAt": "",
       "earningsCheckedV11": true,
       "earningsCheckedAtUtc": "2026-09-26T03:35:50.151955+00:00"
+    },
+    {
+      "ticker": "SANM",
+      "name": "Sanmina",
+      "symbol": "SANM",
+      "group": "晶圓代工／封測／EMS",
+      "reportDate": "2026-07-27",
+      "reportDateTime": "2026-07-27T20:00:00+00:00",
+      "epsActual": 3.31,
+      "epsEstimate": 2.79,
+      "epsSurprisePct": 18.5,
+      "revenueActual": 3460000000.0,
+      "revenueEstimate": 3400000000.0,
+      "guidance": [],
+      "management": [],
+      "firstReactionPct": null,
+      "nextClosePct": -17.458115024538966,
+      "sources": [
+        {
+          "title": "Earnings call transcript: Sanmina tops Q3 2026 estimates, shares slip after hours - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWjY4a2lIV2cyR3JZVUlJVU1UVFdMOUZsVFB1NnRuWUNNalJ2OGJyQ0g4ckk2WXhoVndEX2x3VGU3MXhyUmZDOVh5OUxJUUdRa3p2YW9tN2ZZdG14SllWNEFFTFY3OFRrYUlrZFE2WmhEUzBhV3UtaXlKVU1yRkc1WEdBZTBoVHBLVGNsZW5oallrR1k0OGktQVNRMHhkSWdybWpiMTJTZGVuRldBNzhwZWU1bFRTbzNydDlJQ0Jnb1NMeXMxN1E0OFFXOW9UUWZE?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "SANM Q2 Deep Dive: AI Demand and Integration Drive Growth, Guidance Signals Mixed Outlook - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNb0xmdFJQNVluMHgxNDJwSDhLN2JvQ2l1Wm1Vc0xfaHFJUmlmT0VUM01uemxlaFIzT2tLeVJRa3VJcWJvSThhVllydXhYUTRkVC1XdmdyNFFRM3NCWWRiNU12LWNaTU1UWDd5SDVvN3FXS3dVZ3Jhc296Znd6alNqME5WTmtlcUVtY29KSlBrZEZzekRLZjlRVEZGYTBOVm81OTQ1MzRqclRYRDQ3akJLaFlUMklTbWlXd0Z0MzJfaDlwM094c0pEazJtZXhiMmxlcU85WGJrOXJER0tYczJyTm5ZQTNfdw?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Sanmina Corporation (SANM) Q3 2026 Earnings Call Transcript - Seeking Alpha",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUXlrY2FZRGt0OXRlOXl2Ry10aW9iWXFiWHFIYlFuY0pwMEpiMW9iYlp2MldvS1F5eFBKVmJtOWoxcV82VldKUWtvTVdxeWpVYWplMzRXVjhwVlkyQnMteE5CVWFvbkg3Y0ZJcmZ0VWJIeEhONE53aHhfYVZyRVhLRjNWanlsREdwYnFvclYzNGVvMUpNUG40dElHbnBIWUk?oc=5&hl=en-US&gl=US&ceid=US:en"
+        },
+        {
+          "title": "Sanmina (NASDAQ:SANM) Beats Q2 CY2026 Sales Expectations But Stock Drops - stockstory.org",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUTFfRm0zalBNa2R4bGMtRUwwVWxWNXVmUHMtbXI5TnpsUHUtaE1FUHBUNWtqdjlJaVZuaVhQSjFJQXZzS2RxSmc2eEltYkNiRW1yRFZydl94RmkzQzBiZ1hIWG9FdEtPMkRBWWxIakhQZVdCZkxUdGFaNlhVVE1fNGF4VVZpQjU1T3hjZ3BjdU9qT3FfTXVMODhON3dqU2tWWUZfQlJ3UFUzQ1JrSDdKTDZubTlPcUxlejVaLUJ3UlR0Wk5KeVhv?oc=5&hl=en-US&gl=US&ceid=US:en"
+        }
+      ],
+      "sourceCount": 4,
+      "fiscalQuarterLabel": "Q3 FY26",
+      "quarterSource": "Yahoo financial statements",
+      "actualSource": "Yahoo quarterly financials",
+      "estimateSource": "MarketBeat",
+      "transcriptSource": "",
+      "reactionSession": "",
+      "reactionObservedAt": "",
+      "earningsCheckedV11": true,
+      "earningsCheckedAtUtc": "2026-09-26T03:36:01.224311+00:00"
     },
     {
       "ticker": "NVTS",
@@ -4854,16 +4854,16 @@
       "date": "2026-10-21T12:00:00+00:00"
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "symbol": "LRCX",
+      "ticker": "TER",
+      "name": "Teradyne",
+      "symbol": "TER",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne",
-      "symbol": "TER",
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "symbol": "LRCX",
       "group": "半導體設備／測試",
       "date": "2026-10-21T20:00:00+00:00"
     },
@@ -4973,16 +4973,16 @@
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "UMC",
-      "name": "United Microelectronics",
-      "symbol": "UMC",
+      "ticker": "FLEX",
+      "name": "Flex",
+      "symbol": "FLEX",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
     {
-      "ticker": "FLEX",
-      "name": "Flex",
-      "symbol": "FLEX",
+      "ticker": "UMC",
+      "name": "United Microelectronics",
+      "symbol": "UMC",
       "group": "晶圓代工／封測／EMS",
       "date": "2026-10-28T12:00:00+00:00"
     },
@@ -5092,17 +5092,17 @@
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "symbol": "AMZN",
-      "group": "CSP",
-      "date": "2026-10-29T20:00:00+00:00"
-    },
-    {
       "ticker": "NET",
       "name": "Cloudflare",
       "symbol": "NET",
       "group": "Cloud／Software／AI 應用",
+      "date": "2026-10-29T20:00:00+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "symbol": "AMZN",
+      "group": "CSP",
       "date": "2026-10-29T20:00:00+00:00"
     },
     {
@@ -5197,16 +5197,16 @@
       "date": "2026-11-03T20:00:00+00:00"
     },
     {
-      "ticker": "SPCX",
-      "name": "SpaceX",
-      "symbol": "SPCX",
+      "ticker": "KTOS",
+      "name": "Kratos",
+      "symbol": "KTOS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-03T20:00:00+00:00"
     },
     {
-      "ticker": "KTOS",
-      "name": "Kratos",
-      "symbol": "KTOS",
+      "ticker": "SPCX",
+      "name": "SpaceX",
+      "symbol": "SPCX",
       "group": "太空／國防／無人系統",
       "date": "2026-11-03T20:00:00+00:00"
     },
@@ -5302,16 +5302,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "LITE",
-      "name": "Lumentum",
-      "symbol": "LITE",
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics",
+      "symbol": "AAOI",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "AAOI",
-      "name": "Applied Optoelectronics",
-      "symbol": "AAOI",
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "symbol": "LITE",
       "group": "光通訊／網通",
       "date": "2026-11-05T20:00:00+00:00"
     },
@@ -5323,16 +5323,16 @@
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "MCHP",
-      "name": "Microchip",
-      "symbol": "MCHP",
+      "ticker": "DIOD",
+      "name": "Diodes",
+      "symbol": "DIOD",
       "group": "類比／電源／功率／RF",
       "date": "2026-11-05T20:00:00+00:00"
     },
     {
-      "ticker": "DIOD",
-      "name": "Diodes",
-      "symbol": "DIOD",
+      "ticker": "MCHP",
+      "name": "Microchip",
+      "symbol": "MCHP",
       "group": "類比／電源／功率／RF",
       "date": "2026-11-05T20:00:00+00:00"
     },
@@ -5351,16 +5351,16 @@
       "date": "2026-11-09T12:00:00+00:00"
     },
     {
-      "ticker": "ASTS",
-      "name": "AST SpaceMobile",
-      "symbol": "ASTS",
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "symbol": "RKLB",
       "group": "太空／國防／無人系統",
       "date": "2026-11-09T20:00:00+00:00"
     },
     {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "symbol": "RKLB",
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "symbol": "ASTS",
       "group": "太空／國防／無人系統",
       "date": "2026-11-09T20:00:00+00:00"
     },
