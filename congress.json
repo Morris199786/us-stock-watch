@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-10-09 04:18 台灣時間",
+  "updatedAt": "2026-10-09 08:27 台灣時間",
   "updatedDate": "2026-10-09",
   "historyStart": "2024-01-01",
   "source": "Kadoa Congress Trading Monitor open dataset",
@@ -10,14 +10,14 @@
   "backtestNote": "GitHub Actions 端計算：申報公開日後 7/30/90/180 日可跟單回測，以及交易日後 30/60 日績效統計。期權交易使用標的股票報酬，不代表期權本身損益",
   "monitor": {
     "mode": "every_run_new_disclosure_check",
-    "newDisclosuresThisRun": 28,
-    "pushesSentThisRun": 2,
-    "backtestsRecomputedThisRun": true
+    "newDisclosuresThisRun": 0,
+    "pushesSentThisRun": 0,
+    "backtestsRecomputedThisRun": false
   },
   "summary": {
-    "recent7": 52,
-    "buys7": 36,
-    "sells7": 16,
+    "recent7": 14,
+    "buys7": 9,
+    "sells7": 5,
     "members": 366,
     "total": 1631
   },
