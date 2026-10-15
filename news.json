@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 18:29 台灣時間",
+  "updatedAt": "2026-10-15 18:33 台灣時間",
   "historyUpdatedDate": "2026-10-15",
   "historyLastAttemptAt": "2026-10-14T17:04:09.289121+00:00",
   "historyItemCount": 800,
@@ -11,10 +11,10 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "高盛將美國電力目標價從 150 美元調整至 146 美元",
-      "summary": "",
+      "summary": "Goldman Sachs Adjusts Price Target on UnitedHealth Group to $506 From $490UnitedHealth Group has an average rating of overweight and mean price target of $477.75, according to analysts polled by FactSet. ...",
       "originalTitle": "Goldman Sachs Adjusts Price Target on American Electric Power to $146 From $150",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYnBnLTVpX2p4SFFhQmJVZnRDdUt0WWI0bzJkc1VGbGd4Q3dCOFlfVGNVVEkwYkhmOXJnYkhDdkl5LUFjTnNsaWtRYjhhTmFROFdfY1RELXJ4RkxNaW1HVFJfN0NIUm9IWk9CeUozY2lrZzlscUlfclNudS12Y1UzOE5ONFQ0OVV0VVFZQjlZdDJKUmFKRHhyVlNHc0ZuUm5aLWxfOG1vSUlob2pVNEVxSHFQbFBmUk5yZXpqbU9jQjRtVHRLRjllcTdR?oc=5",
+      "originalSummary": "Goldman Sachs Adjusts Price Target on UnitedHealth Group to $506 From $490UnitedHealth Group has an average rating of overweight and mean price target of $477.75, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-unitedhealth-group-to-506-from-490-ce785dd2dc8df222",
       "ts": "2026-10-15T10:19:10+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -22,7 +22,7 @@
         {
           "broker": "Goldman Sachs",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "下修",
           "newTarget": "$146",
           "oldTarget": "$150",
@@ -32,7 +32,7 @@
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -41,7 +41,7 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：Goldman Sachs｜動作：下修｜目標價：$146（原 $150）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：Goldman Sachs｜動作：下修｜評等：overweight｜目標價：$146（原 $150）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$150",
           "$146"
@@ -53,7 +53,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 8,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "INTC",
