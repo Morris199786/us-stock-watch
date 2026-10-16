@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-10-16 08:04 台灣時間",
+  "updatedAt": "2026-10-16 21:06 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,184 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-10-16:pre",
+      "session": "pre",
+      "sessionLabel": "盤前焦點",
+      "marketDate": "2026-10-16",
+      "generatedAt": "2026-10-16 21:06 台灣時間",
+      "generatedAtIso": "2026-10-16T13:06:52.267823+00:00",
+      "items": [
+        {
+          "ticker": "TSLA",
+          "name": "Tesla",
+          "group": "EV／AI／機器人",
+          "headline": "JPMorgan 調整 TSLA 目標價至 $415",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": 3.0294669462531676,
+          "movePrice": 373.42,
+          "regularChangePct": -1.2855430874822993,
+          "preMarketChangePct": 3.0294669462531676,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMlg2OC1yZXlBRFR0R3hqR3l2bVJKMldZZkFVVmVXSGNzekNqNkpxdmMzdlhxZ2NkMlZrMHNyTE0taUJXTGNYOXhnNEI3V0NCUUpIdUdUaWhBVmNTZmN4RzhxZm45NEVCdlVEOWloYlNxNHdPUkl3N1h2THkzR04wUTZKMkNjZmszdFl0dmhpTmFJTjM3RmZ2a2tKWEVDNXpZRElaTlN3YUh1dFpUa3BMcW1yWmxfUXZCb2V0VHpiZw?oc=5"
+            }
+          ],
+          "score": 937.85
+        },
+        {
+          "ticker": "STX",
+          "name": "Seagate",
+          "group": "記憶體／儲存",
+          "headline": "Wells Fargo 下修 STX 目標價至 $865（原 $1,180）",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -1.766042761396036,
+          "movePrice": 678.61,
+          "regularChangePct": -3.1855256888191352,
+          "preMarketChangePct": -1.766042761396036,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.tipranks.com/news/seagate-price-target-lowered-to-865-from-1-180-at-wells-fargo"
+            }
+          ],
+          "score": 931.98
+        },
+        {
+          "ticker": "VRT",
+          "name": "Vertiv",
+          "group": "AI Server／資料中心硬體",
+          "headline": "摩根士丹利將 Vertiv Holdings 的目標價從 350 美元調整為 330 美元",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -1.4435389988358582,
+          "movePrice": 211.65,
+          "regularChangePct": -3.6260826639141985,
+          "preMarketChangePct": -1.4435389988358582,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-vertiv-holdings-to-330-from-350-ce785cdada8df426"
+            }
+          ],
+          "score": 931.91
+        },
+        {
+          "ticker": "FLEX",
+          "name": "Flex",
+          "group": "晶圓代工／封測／EMS",
+          "headline": "高盛將 Flex 的目標價從 154 美元調整為 145 美元",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -1.1369543147208172,
+          "movePrice": 97.3801,
+          "regularChangePct": -1.843547583457894,
+          "preMarketChangePct": -1.1369543147208172,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-flex-to-145-from-154-ce785cdadb8bf426"
+            }
+          ],
+          "score": 927.0
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "group": "太空／國防／無人系統",
+          "headline": "Citi 上修 SPCX 目標價至 $275",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -0.27587134975104455,
+          "movePrice": 148.21,
+          "regularChangePct": -2.3264984227129304,
+          "preMarketChangePct": -0.27587134975104455,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.cnbc.com/2026/10/16/friday-analyst-calls-spacex-nvidia-tesla-apple.html"
+            }
+          ],
+          "score": 925.05
+        },
+        {
+          "ticker": "DELL",
+          "name": "Dell",
+          "group": "AI Server／資料中心硬體",
+          "headline": "戴爾股票預測：巴克萊銀行降級將戴爾拖至 452 美元支撐位，儘管 AI 積壓金額達 950 億美元",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": 0.34010012885781205,
+          "movePrice": 475.0,
+          "regularChangePct": -6.800149626917095,
+          "preMarketChangePct": 0.34010012885781205,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-downgrades-dell-technologies-stock-113201796.html"
+            }
+          ],
+          "score": 920.93
+        }
+      ]
+    },
     {
       "key": "2026-10-15:post",
       "session": "post",
