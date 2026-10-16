@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 07:55 台灣時間",
+  "updatedAt": "2026-10-16 08:04 台灣時間",
   "historyUpdatedDate": "2026-10-16",
   "historyLastAttemptAt": "2026-10-15T16:06:24.127665+00:00",
   "historyItemCount": 800,
@@ -102,6 +102,36 @@
       "top10Rank": 6
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Dow Jones Analysis: Is the DJIA Making a Comeback?",
+      "summary": "",
+      "originalTitle": "Dow Jones Analysis: Is the DJIA Making a Comeback?",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQc2syd2ZNd0REU0FEdUNILWhWZUU1amplcXN5dWVycjdJZ2pFWWtTNlVtcVhPaUg1bHM5MnN6eGhLLUVoQVh0MFJjTUZ2czlUVFJBcGZwQ0JlUzFoc2xva191VmtlNU9SR29maG51Ymh4VVFnSG1SbFpNZjBDU3NMQ1E4a0xobU9BR3RPRlhRQkVyREZZX01aMXdtRDlFOEN1dmRKR1NvbXZCNzQ?oc=5",
+      "ts": "2026-10-15T22:32:13+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "HPE",
       "group": "AI Server／資料中心硬體",
       "tag": "利空",
@@ -200,7 +230,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -218,48 +248,52 @@
       "ticker": "DELL",
       "group": "AI Server／資料中心硬體",
       "tag": "利空",
-      "title": "Dell Technologies (DELL) Shares Plunge After Barclays Downgrade, Closing at $473.39",
-      "summary": "",
+      "title": "Barclays 調整 DELL 目標價至 $574",
+      "summary": "Dell Technologies ( NYSE:DELL ) shares slid about 7% Thursday morning, extending Wednesday's selloff after Barclays questioned whether AI-server demand can justify the stock's rally. Barclays analyst Tim Long lowered Dell to Equal Weight from Overweight and cut his price target to $574 from $603. He also downgraded Hewlett Packard Enterprise (HPE) and NetApp (NTAP), citing elevated valuations and uncertain enterprise",
       "originalTitle": "Dell Technologies (DELL) Shares Plunge After Barclays Downgrade, Closing at $473.39",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObkdsQVN4OVZBcUpBUUtPN0NYdUxubkNYSUVWa0hZMHJXb1VfYnpQWjVUeW1pZ1V4cGtLYVljdVpqLVpucXRLRjJ4Z1ZWMGUtVnNKZlNIVFV4eFc2elkza1lzck5kWVdhWEdCbGFPZzZnWXBsRDhrYVoxUUQ5N3lqSXhkakwtUXhpbGEtc0REazNucjhvVmJEZkRzOHZhS0xnekd6RW1LSVNFWHpmSDZpWkxWM0RQVXFx?oc=5",
+      "originalSummary": "Dell Technologies ( NYSE:DELL ) shares slid about 7% Thursday morning, extending Wednesday's selloff after Barclays questioned whether AI-server demand can justify the stock's rally. Barclays analyst Tim Long lowered Dell to Equal Weight from Overweight and cut his price target to $574 from $603. He also downgraded Hewlett Packard Enterprise (HPE) and NetApp (NTAP), citing elevated valuations and uncertain enterprise AI adoption. Is DELL fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-nosedives-barclays-downgrade-191620506.html",
       "ts": "2026-10-15T21:09:42+00:00",
       "sourceType": "active_search",
       "movePct": -6.800149626917095,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "DELL"
       ],
-      "eventType": "",
+      "eventType": "新題材",
       "analystPriority": true,
-      "score": 209.25,
+      "score": 219.75,
       "featured": true,
       "translated": false,
       "analystDetails": [
         {
           "broker": "Barclays",
-          "analyst": "",
-          "rating": "",
-          "action": "降評",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "analyst": "Tim Long",
+          "rating": "Equal Weight",
+          "action": "下修",
+          "newTarget": "$574",
+          "oldTarget": "$603",
+          "reason": "elevated valuations and uncertain enterprise AI adoption.",
+          "reasonConfidence": "high",
           "targetTicker": "DELL",
           "targetCompany": "Dell"
         }
       ],
       "investorBrief": {
-        "event": "被評級公司：DELL｜券商：Barclays｜動作：降評｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "event": "被評級公司：DELL｜券商：Barclays｜動作：下修｜評等：Equal Weight｜目標價：$574（原 $603）｜調整原因：elevated valuations and uncertain enterprise AI adoption.",
+        "numbers": [
+          "$603",
+          "$574"
+        ],
+        "why": "調整原因：elevated valuations and uncertain enterprise AI adoption.",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：elevated valuations and uncertain enterprise AI adoption.",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SK Hynix",
@@ -294,7 +328,7 @@
       "eventType": "",
       "score": 205.5,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：SK HYNIX｜券商：JP Morgan｜動作：初評｜評等：Overweight｜調整原因：來源未提供具體理由",
         "numbers": [],
@@ -1637,7 +1671,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -1670,7 +1704,7 @@
         "MU"
       ],
       "eventType": "",
-      "score": 30.75,
+      "score": 26.65,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2580,7 +2614,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "hasArticleBody": true
     },
     {
@@ -2700,36 +2734,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "華爾街交易員警惕財政部再次對債券殖利率採取行動",
-      "summary": "",
-      "originalTitle": "Wall Street Traders on Alert for Treasury’s Bessent to Act on Bond Yields Again",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMnM4MVlSeEFSdmxnM0lwby1XQlByX0FoNVNZTmExQ0lTRDZVTllBUHRoV3lodWV0M0Npa09UZ2x3bW5xZHdCQ050QXN4bEhJNzl4dHhiVVVZRmVBdjdpdGtFYW93UlY0RDl5bVJVZU45RkwtUVJQS1JhaUlWMFJfeWV4X3lsUHdWSE9WTzYyRTl2SElqMHZzU0F4ZEl6bTQteFFuNk9GZWtsVVg0ZHlYc29IVHRmS1pDUWdWR2RIUGR3WmZOZ3NR?oc=5",
-      "ts": "2026-10-15T14:45:45+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
       "featured": false,
       "translated": true,
       "investorBrief": {

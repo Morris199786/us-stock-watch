@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-10-15 21:02 台灣時間",
+  "updatedAt": "2026-10-16 08:04 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,128 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-10-15:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-10-15",
+      "generatedAt": "2026-10-16 08:04 台灣時間",
+      "generatedAtIso": "2026-10-16T00:04:49.078978+00:00",
+      "items": [
+        {
+          "ticker": "DELL",
+          "name": "Dell",
+          "group": "AI Server／資料中心硬體",
+          "headline": "Barclays 調整 DELL 目標價至 $574",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -6.800149626917095,
+          "movePrice": 473.39,
+          "regularChangePct": -6.800149626917095,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.7160903272143471,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-nosedives-barclays-downgrade-191620506.html"
+            }
+          ],
+          "score": 961.42
+        },
+        {
+          "ticker": "BA",
+          "name": "Boeing",
+          "group": "太空／國防／無人系統",
+          "headline": "加拿大皇家銀行將波音目標價下調至 235 美元——該公司表示，揮之不去的國防預算不確定性仍將是阻力",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 2.2040506877504473,
+          "movePrice": 188.73,
+          "regularChangePct": 2.2040506877504473,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.10544163619985447,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-price-target-slashed-235-180505846.html"
+            }
+          ],
+          "score": 939.25
+        },
+        {
+          "ticker": "VRT",
+          "name": "Vertiv",
+          "group": "AI Server／資料中心硬體",
+          "headline": "瑞穗下調 Vertiv (NYSE:VRT) 股票目標價",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -3.6260826639141985,
+          "movePrice": 214.75,
+          "regularChangePct": -3.6260826639141985,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.9592549476135082,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.marketscreener.com/news/mizuho-adjusts-price-target-on-vertiv-holdings-to-280-from-300-ce785dd3da81fe22"
+            }
+          ],
+          "score": 937.14
+        },
+        {
+          "ticker": "META",
+          "name": "Meta",
+          "group": "CSP",
+          "headline": "Citi 調整 META 目標價至 $895",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -0.11118041055399042,
+          "movePrice": 736.72,
+          "regularChangePct": -0.11118041055399042,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.6410983820176019,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-meta-price-target-155138991.html"
+            }
+          ],
+          "score": 913.34
+        }
+      ]
+    },
     {
       "key": "2026-10-15:pre",
       "session": "pre",
