@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17 00:15 台灣時間",
+  "updatedAt": "2026-10-17 00:19 台灣時間",
   "historyUpdatedDate": "2026-10-17",
   "historyLastAttemptAt": "2026-10-16T16:02:15.076888+00:00",
   "historyItemCount": 800,
@@ -1118,7 +1118,7 @@
       "originalTitle": "Oil Slips as Traders Weigh IEA Reserve Releases, Hormuz Risks",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlhVbW1hN3VaS2xQWTRNVHc1MGNIektPR0wzd2V5LWEtcmtZUXRSY1ZWYjJjSUVZZElTaFV4c0VfSnJhbHhBdGlHbjE4bkZDN0lfTnNxLXFxeFR3bnVqY21tSl9YdkZHTlY4VjYwYTVxZmFZV181ZHo0RXVFOEw0UDJoVXNYbWpfT1d2cHUza0FBekFXZzRRMTZlUkJYd2RUSlFxWEhLTHVRNjVZRk9xa0JhQzl0UQ?oc=5",
-      "ts": "2026-10-16T13:43:00+00:00",
+      "ts": "2026-10-16T13:43:30+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -1746,8 +1746,8 @@
         "takeaway": "調整原因：華爾街設定 SMCI 未來 12 個月的股價目標 儘管自 10 月 7 日以來暴跌 21.92%，且未能贏得整個華爾街的信心，超微電腦 (NASDAQ: SMCI) 股票並未完全失去看漲的機會。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2815,6 +2815,55 @@
       "top10Rank": 4
     },
     {
+      "ticker": "BA",
+      "group": "太空／國防／無人系統",
+      "tag": "利空",
+      "title": "Morgan Stanley 下修 BA 目標價至 $225（原 $250）",
+      "summary": "",
+      "originalTitle": "Boeing price target lowered to $225 from $250 at Morgan Stanley",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbVZ5WWU1NDRON1hka2R6MnN4QkV2Ul9qeUVqYUphRUkyV0JqUlo4cFN0RFBiREhDaTJmWnllZkkwd3N4d3N0U0JVU2h4VVNvUzJXdjg4RFJqOUFxWHRvMnZUZC1zVWFnRzgwbmRKVThBTDZCX013UVVNWDRsTHJrM1NadEpvYmhTSkNnejFUYmlrTTROaW5xc0N6NGhOMEVFbEhyeTVCSVMtS2tGSE1teQ?oc=5",
+      "ts": "2026-10-16T10:42:04+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$225",
+          "oldTarget": "$250",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "BA",
+          "targetCompany": "Boeing"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "BA"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Boeing（BA）｜券商：Morgan Stanley｜動作：下修｜目標價：$225（原 $250）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$250",
+          "$225"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2957,7 +3006,7 @@
         "CRWV"
       ],
       "eventType": "跨公司事件",
-      "score": 217.5,
+      "score": 188.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2971,8 +3020,8 @@
         "takeaway": "調整原因：Nebius 認為其優於 CoreWeave Rosenblatt Securities 最近將 Nebius 評級定為“買入”，目標價為 304 美元，預計到 2030 年年化收入將增長 98%。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2993,7 +3042,7 @@
       ],
       "eventType": "",
       "analystPriority": true,
-      "score": 204.75,
+      "score": 177.45,
       "featured": false,
       "translated": true,
       "analystDetails": [
@@ -3015,55 +3064,6 @@
         "numbers": [
           "$730",
           "$450"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "STX",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "富國銀行將 Seagate Technology 的目標價從 1,180 美元調整為 865 美元",
-      "summary": "",
-      "originalTitle": "Wells Fargo Adjusts Price Target on Seagate Technology to $865 From $1,180",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXRSZExvT3R1Sk9rbHI2YVdVSS1mZ3dtb1VhX2dMYkpjcFJEbUZaa05kZHhPMV9Kd09feVRYNnBfMWtQNGpMLXZwa0JFMzNxQ2dKOE9nalFDRzZmekR4Zk4xNC1lQzdtVkR6S1dBRU5fb2lmd0Z3TEtQQUVCMmhQSWZsR01HQWtUREhUREZMYVhVenVlQlluS1J3djc5TkJZa24wbzNTMU83RDhhcjNCeWNkZkRpekJmUkJNLVZWSU5oUWs?oc=5",
-      "ts": "2026-10-16T10:14:02+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Wells Fargo",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "$865",
-          "oldTarget": "$1,180",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "STX",
-          "targetCompany": "Seagate"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "STX"
-      ],
-      "eventType": "",
-      "score": 171.6,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Seagate（STX）｜券商：Wells Fargo｜動作：下修｜目標價：$865（原 $1,180）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$1,180",
-          "$865"
         ],
         "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
@@ -6908,7 +6908,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Microchip 透過新型耐輻射 GaN 負載點轉換器擴展了太空電源產品組合",
-      "summary": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新器件采用氮化镓 (GaN) 功率器件，可提供高达 20A 的输出电流，效率高，",
+      "summary": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新元件採用氮化鎵 (GaN) 功率元件，可提供高達 20A 的輸出電流，效率高，",
       "originalTitle": "Microchip Expands Space Power Portfolio with New Radiation-Tolerant GaN Point-of-Load Converter",
       "originalSummary": "Power device delivers 20A of continuous current in a compact form factor for new space and traditional space applicationsCHANDLER, Ariz., Oct. 14, 2026 (GLOBE NEWSWIRE) -- Microchip Technology (Nasdaq: MCHP) today announces the POL-05-20S-T, a radiation-tolerant, Point-of-Load (POL) converter, designed to address the demanding power requirements of space processing applications. The new device uses Gallium Nitride (GaN) power devices to deliver up to 20A of output current with high efficiency an",
       "url": "https://uk.finance.yahoo.com/news/microchip-expands-space-power-portfolio-120000110.html",
@@ -6924,10 +6924,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新器件采用氮化镓 (GaN) 功率器件，可提供高达 20A 的输出电流，效率高，",
+        "event": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新元件採用氮化鎵 (GaN) 功率元件，可提供高達 20A 的輸出電流，效率高，",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新器件采用氮化镓 (GaN) 功率器件，可提供高达 20A 的输出电流，效率高，",
+        "stance": "功率裝置以緊湊的外形尺寸為新空間和傳統空間應用提供 20A 連續電流亞利桑那州錢德勒，2026 年 10 月 14 日（環球通訊社）——Microchip Technology（納斯達克股票代碼：MCHP）今天宣佈推出 POL-05-20S-T，這是一款耐功率輻射負載點 (POL) 功能性的功率處理空間。新元件採用氮化鎵 (GaN) 功率元件，可提供高達 20A 的輸出電流，效率高，",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
@@ -8145,14 +8145,14 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "社會安全轉向最終工人的彈性時間表違反了工會合約",
-      "summary": "",
+      "summary": "AFGE is challenging the Social Security Administration’s decision to unilaterally end employees’ flexible work arrangements, also known as alternative work schedules, as an illegal violation of our ratified union contract.",
       "originalTitle": "Social Security Move to End Workers’ Flex Schedules Violates Union Contract",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaWZfZklTMmc2MmRpdmRvVlNmY0NXQ1Ffdkk3bG5HUmJNa1NNQzY5NTBmWTlGazdEQnN5cUxqMXd2U3hsbjJTOUEyVTJEYUl3NUlYMlRGejAySmxIYXZVWjljeS1VYnBWQlhpX0Q2RHYwMkUtTDcxVGItX2IzSUk0UFpCNFp3c3NfWHdid3dhWTdPTEc1VmZRWTJsUGhxWlJqSzI4dVEtcw?oc=5",
+      "originalSummary": "AFGE is challenging the Social Security Administration’s decision to unilaterally end employees’ flexible work arrangements, also known as alternative work schedules, as an illegal violation of our ratified union contract.",
+      "url": "https://www.afge.org/article/social-security-move-to-end-workers-flex-schedules-violates-union-contract/",
       "ts": "2026-10-13T19:02:20+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "FLEX"
       ],
@@ -8161,14 +8161,17 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "AFGE is challenging the Social Security Administration’s decision to unilaterally end employees’ flexible work arrangements, also known as alternative work schedules, as an illegal violation of our ratified union contract.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      }
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "AFGE is challenging the Social Security Administration’s decision to unilaterally end employees’ flexible work arrangements, also known as alternative work schedules, as an illegal violation of our ratified union contract.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AMAT",
@@ -9283,14 +9286,14 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "NASA Science，第 35 次 SpaceX 向太空站補給任務發射貨物",
-      "summary": "",
+      "summary": "SpaceX (SPCX) 週二向國際太空站發射了另一次貨運任務，運載了超過 6,000 磅（2,721.55 公斤）的科學設備、物資和太陽能硬件，該公司繼續發揮作為 NASA 主要商業運輸提供商的作用。",
       "originalTitle": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHA4eHRNQW1GZmZSN2sxdU9LM0xJS2NuSWNIazhPQWpGOVRydE9kenBybkVjaThPZHQyV2lPb19iMXQtZUlBWE5yQTUzWUMxTy1uQUN4TFYtNFAzcUxZOXRFUWpLQWRUSXN6ZjFwMFZUaXJwajFtN3JDR19TSVZWTFZjT21rLXRiYjdacl9LTXYtdUE5Z1RHbTEyODdNR0lzaThkWnVB?oc=5",
+      "originalSummary": "SpaceX ( SPCX ) on Tuesday launched another cargo mission to the International Space Station, carrying more than 6,000 pounds (2,721.55 kilogram) of scientific equipment, supplies and solar-power hardware as the company continues its role as a major commercial transportation provider for NASA.",
+      "url": "https://seekingalpha.com/news/4652500-spacex-launches-35th-nasa-cargo-mission-with-medical-research-to-iss",
       "ts": "2026-10-13T11:16:44+00:00",
       "sourceType": "history_search",
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX"
       ],
@@ -9299,14 +9302,17 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "SpaceX (SPCX) 週二向國際太空站發射了另一次貨運任務，運載了超過 6,000 磅（2,721.55 公斤）的科學設備、物資和太陽能硬件，該公司繼續發揮作為 NASA 主要商業運輸提供商的作用。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      }
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "SpaceX (SPCX) 週二向國際太空站發射了另一次貨運任務，運載了超過 6,000 磅（2,721.55 公斤）的科學設備、物資和太陽能硬件，該公司繼續發揮作為 NASA 主要商業運輸提供商的作用。",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AMAT",
