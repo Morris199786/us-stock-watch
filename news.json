@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18 10:53 台灣時間",
+  "updatedAt": "2026-10-18 10:58 台灣時間",
   "historyUpdatedDate": "2026-10-18",
   "historyLastAttemptAt": "2026-10-17T16:01:59.969991+00:00",
   "historyItemCount": 800,
@@ -22,6 +22,38 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Chamath Palihapitiya 警告 6% 的債券殖利率可能會損害企業 - Microsoft (NASDAQ:MSFT)",
+      "summary": "",
+      "originalTitle": "Chamath Palihapitiya Warns 6% Bond Yields Could Hurt Businesses - Microsoft (NASDAQ:MSFT)",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM084MTVrVm9SMElVTE10U2MxOFVuZ2hrTm9ld3pOelBKTVZoMUNIVE1YV1A5VjFXRlFBUGxjSDdfcUdLeHNPSW1lc1NiamVGbkg0SmFrdmRvd19yRndXX0lOZUtnNlZaSmZHS29iQ1FYbnpmVjdvaDg1bjRFWGxncG0tMUdXT1ZiN2ZBMnpOTXhzSjg3eHQw?oc=5",
+      "ts": "2026-10-18T02:23:11+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -86,7 +118,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1612,6 +1644,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Citigroup 上修 MSFT 目標價至 $675（原 $525），維持 Buy",
+      "summary": "",
+      "originalTitle": "UBS resets Microsoft stock price target for investors",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdm1TenpDX2thM25Bcm5hSXQ2NWdzVVFuNDRJWGFiaTdHVWxEeUZUZVh5ZFp3QjluYTI2cTQ0OG42Y3czRUVwR3k0blZrOTgtWjB3QWFwT194Q3d0bGF1ZENsWjRSeDNwc0hjeVc0ckc3SGJFWUM3UnZsVXpxRUkwUTRNaGFSTXdTOHgzRkFFRG5KQ0tEY0VicS0tUzhQZw?oc=5",
+      "ts": "2026-10-17T14:37:00+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 145.2,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "利空",
@@ -1767,8 +1832,8 @@
         "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1979,7 +2044,7 @@
       ],
       "eventType": "",
       "score": 155.1,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Astera Labs faces near-term valuation and customer-concentration risks, but rising Scorpio X demand, a broader customer base, and improving profitability support its longer-term growth outlook.",
@@ -1995,7 +2060,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 10,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2278,122 +2343,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Citigroup 上修 MSFT 目標價至 $675（原 $525），維持 Buy",
-      "summary": "Between October 13 and October 15, 2026, four sell-side desks raised their Microsoft price targets, all maintaining positive ratings. UBS moved most aggressively, lifting its target from $525 to $675 on a maintained Buy, citing Azure and Microsoft 365 fundamentals as the basis for higher growth expectations, per Yahoo Finance (October 15, 2026). Tyler Radke at Citigroup raised his target from $600 to $636 with a main",
-      "originalTitle": "UBS resets Microsoft stock price target for investors",
-      "originalSummary": "Between October 13 and October 15, 2026, four sell-side desks raised their Microsoft price targets, all maintaining positive ratings. UBS moved most aggressively, lifting its target from $525 to $675 on a maintained Buy, citing Azure and Microsoft 365 fundamentals as the basis for higher growth expectations, per Yahoo Finance (October 15, 2026). Tyler Radke at Citigroup raised his target from $600 to $636 with a maintained Buy, also reported by Yahoo Finance (October 15, 2026). Mizuho raised from $510 to $600 on a maintained Outperform (Yahoo Finance, October 15, 2026), and TD Cowen lifted from $540 to $625 on a maintained Buy (price-target.com, October 15, 2026). Barclays did not raise its target during this period; it maintained an Overweight rating with a reported price target of $600 as of October 13, 2026, per Yahoo Finance — a reiteration rather than a revision. The four raised targets — $600, $625, $636, and $675 — along with the maintained $600 from Barclays, all apply to the Nasdaq-listed MSFT equity, not to the Binance tokenized futures contract. The gap between the futures contract's current price of $541.28 and even the most conservative of the raised targets ($600, from Mizuho) is approximately 10.8%, though the supplied reports do not specify target horizons and these calls are not short-term forecasts calibrated to the futures instrument. The Binance MSFT futures contract is currently sitting above every moving average in the supplied dataset, which describes a constructive short-term structure. At $541.28, price stands above the SMA 7 ($538.16), SMA 20 ($526.65), SMA 50 ($511.38), EMA 12 ($533.36), and EMA 26 ($524.07). The progressive stacking of these averages beneath current price — with the 50-day SMA as the deepest floor at $511.38 — reflects a trend that has been building over a meaningful look-back period. The momentum picture is more mixed. The 14-period RSI sits at 66.35, which the supplied data classifies as the neutral zone, though the reading is approaching the conventional overbought threshold. The Stochastic %K at 71.69 has stretched above the %D reading of 57.35, a spread that frequently precedes a deceleration rather than confirming further acceleration. The most pointed signal is the MACD: both the MACD and its signal line have converged to 9.2967, producing a histogram of exactly 0.0000. The positive spread that had been driving the contract's upside phase has fully compressed, and whether it re-expands or rolls into a bearish crossover is not yet resolved by the supplied data. The Bollinger Band readings reinforce that caution. With a %B position of 0.8442, price is in the upper 84th percentile of its recent range, approaching the upper band at $547.90. The immediate resistance level at $546.44 sits just inside that ceiling, making the $546–$548 zone the first material test ahead.",
-      "url": "https://blockchain.news/news/20261016-price-prediction-target-msft-four-raises-and-a-maintained-overweight",
-      "ts": "2026-10-17T11:37:00+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "UBS",
-          "analyst": "",
-          "rating": "sell",
-          "action": "",
-          "newTarget": "$600",
-          "oldTarget": "",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        },
-        {
-          "broker": "UBS",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "上修",
-          "newTarget": "$675",
-          "oldTarget": "$525",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        },
-        {
-          "broker": "Citigroup",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "上修",
-          "newTarget": "$636",
-          "oldTarget": "$600",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        },
-        {
-          "broker": "Mizuho",
-          "analyst": "",
-          "rating": "Outperform",
-          "action": "上修",
-          "newTarget": "$600",
-          "oldTarget": "$510",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        },
-        {
-          "broker": "Barclays",
-          "analyst": "",
-          "rating": "Overweight",
-          "action": "重申",
-          "newTarget": "$600",
-          "oldTarget": "",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        },
-        {
-          "broker": "Barclays",
-          "analyst": "",
-          "rating": "",
-          "action": "重申",
-          "newTarget": "$600",
-          "oldTarget": "",
-          "reason": "根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-          "reasonConfidence": "high",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 157.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：UBS｜評等：sell｜目標價：$600｜調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。\n被評級公司：Microsoft（MSFT）｜券商：UBS｜動作：上修｜評等：Buy｜目標價：$675（原 $525）｜調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。\n被評級公司：Microsoft（MSFT）｜券商：Citigroup｜動作：上修｜評等：Buy｜目標價：$636（原 $600）｜調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。\n被評級公司：Microsoft（MSFT）｜券商：Mizuho｜動作：上修｜評等：Outperform｜目標價：$600（原 $510）｜調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。\n被評級公司：Microsoft（MSFT）｜券商：Barclays｜動作：重申｜評等：Overweight｜目標價：$600｜調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-        "numbers": [
-          "$600",
-          "$525",
-          "$675",
-          "$600",
-          "$636",
-          "$510",
-          "$600",
-          "$600"
-        ],
-        "why": "調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：根據雅虎財經（2026 年 10 月 15 日），Azure 和 Microsoft 365 基本面是更高成長預期的基礎。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 9,
-      "detailSource": "article_or_same_event"
-    },
-    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2636,39 +2585,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 7.15,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "SpaceX 平衡五角大廈有效載荷、80 億美元的頻譜賭注和 275 美元的新價格目標 - ad-hoc-news.de",
-      "summary": "",
-      "originalTitle": "SpaceX Balances Pentagon Payloads, an $8 Billion Spectrum Bet and a Fresh $275 Price Target - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZkhHVS0wUkVpOV81RUVBeTRzOHV3c3pFM0RzSldEY1lrMlM5MnR5QjNSNVJzSEFVb3pNMGo1WkJXeERNVlNST2dEMkZtUS12STJrOHNUUlVFOFRpUXlNUDQzcnFzX1BZSV9MSk0tYWdJWkdBS0dKcktVdWZsWTZKZkFoRElWX211U1NVV2JBS3ZmYWZvTlZxZ2VBRXpwMlpyZjh5b3lNbFpScG1Fb3c3ekhDVTU4bXRURVdsTXhHdHRQVkNzaVpydDRENmR1T3FHampzUnRXN3E5SHFHR3lJemd1RVFJVi13ek5GMmlHay04QQ?oc=5",
-      "ts": "2026-10-17T10:30:53+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 145.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
