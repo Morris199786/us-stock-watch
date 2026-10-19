@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19 23:24 台灣時間",
+  "updatedAt": "2026-10-19 23:29 台灣時間",
   "historyUpdatedDate": "2026-10-19",
   "historyLastAttemptAt": "2026-10-18T16:02:33.603561+00:00",
   "historyItemCount": 800,
@@ -40,7 +40,7 @@
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "利空",
-      "title": "Amazon stock: Cantor Fitzgerald cuts target for Amazon stock from USD 320.00 to USD 310.00 - ad-hoc-news.de",
+      "title": "亞馬遜股票：Cantor Fitzgerald 將亞馬遜股票目標從 320.00 美元下調至 310.00 美元 - ad-hoc-news.de",
       "summary": "",
       "originalTitle": "Amazon stock: Cantor Fitzgerald cuts target for Amazon stock from USD 320.00 to USD 310.00 - ad-hoc-news.de",
       "originalSummary": "",
@@ -68,7 +68,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Amazon（AMZN）｜券商：Cantor Fitzgerald｜動作：下修｜調整原因：來源未提供具體理由",
         "numbers": [],
@@ -136,10 +136,10 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Baird 將 Flex 的目標價從 142 美元調整為 135 美元",
-      "summary": "",
+      "summary": "Baird Adjusts Price Target on Flex to $135 From $142Flex has an average rating of buy and mean price target of $158.09, according to analysts polled by FactSet. Price: 89.63, Change: -0.83, Percent Change: -0.91 ...",
       "originalTitle": "Baird Adjusts Price Target on Flex to $135 From $142",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRC10SVBqV0oxREJkMmViU1l6cWdGRldQRTFYbVRLVVctNTl6WGNxSkJNY1Y5c0s3cGhWNzFvOTg5RW82ZzVMV1FjblRMVjN6Y2J2OFRvQUhBZ0VTalFENTZlaC1XUDFPMWhHR05GWGtoeHNPcVZCUGtTeHVaQU9vaEdzMVlSei02bV8tb3YzbjVES3RfREkxSFVYVy1yYnBYMzI2SWlR?oc=5",
+      "originalSummary": "Baird Adjusts Price Target on Flex to $135 From $142Flex has an average rating of buy and mean price target of $158.09, according to analysts polled by FactSet. Price: 89.63, Change: -0.83, Percent Change: -0.91 ...",
+      "url": "https://www.marketscreener.com/news/baird-adjusts-price-target-on-flex-to-135-from-142-ce785cdbda8eff24",
       "ts": "2026-10-19T15:02:15+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -147,17 +147,17 @@
         {
           "broker": "Baird",
           "analyst": "",
-          "rating": "",
+          "rating": "buy",
           "action": "下修",
           "newTarget": "$135",
           "oldTarget": "$142",
-          "reason": "Baird 將 Flex 的目標價從 142 美元調整為 135 美元",
+          "reason": "Flex 從 142 美元上調至 135 美元 根據 FactSet 調查的分析師，貝爾德將 Flex 的目標價從 142 美元上調至 135 美元，Flex 的平均評級為買入，平均目標價為 158.09 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "FLEX",
           "targetCompany": "Flex"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "FLEX"
       ],
@@ -166,19 +166,20 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：FLEX｜券商：Baird｜動作：下修｜目標價：$135（原 $142）｜調整原因：Baird 將 Flex 的目標價從 142 美元調整為 135 美元",
+        "event": "被評級公司：FLEX｜券商：Baird｜動作：下修｜評等：buy｜目標價：$135（原 $142）｜調整原因：Flex 從 142 美元上調至 135 美元 根據 FactSet 調查的分析師，貝爾德將 Flex 的目標價從 142 美元上調至 135 美元，Flex 的平均評級為買入，平均目標價為 158.09 美元。",
         "numbers": [
           "$142",
           "$135"
         ],
-        "why": "調整原因：Baird 將 Flex 的目標價從 142 美元調整為 135 美元",
+        "why": "調整原因：Flex 從 142 美元上調至 135 美元 根據 FactSet 調查的分析師，貝爾德將 Flex 的目標價從 142 美元上調至 135 美元，Flex 的平均評級為買入，平均目標價為 158.09 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Baird 將 Flex 的目標價從 142 美元調整為 135 美元",
+        "takeaway": "調整原因：Flex 從 142 美元上調至 135 美元 根據 FactSet 調查的分析師，貝爾德將 Flex 的目標價從 142 美元上調至 135 美元，Flex 的平均評級為買入，平均目標價為 158.09 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "VRT",
@@ -1626,6 +1627,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "KTOS",
+      "group": "太空／國防／無人系統",
+      "tag": "利空",
+      "title": "Citizens Jmp 下調 Kratos Defense & Security Solutions （納斯達克股票代碼：KTOS）股票的目標價格",
+      "summary": "",
+      "originalTitle": "Kratos Defense & Security Solutions (NASDAQ:KTOS) Stock Gets Price Target Cut from Citizens Jmp",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdk5LZnNMZTNmSmJoczl6RUlsWkFxaW0tdEM2RFhnMEZ6RG5KMG5zdDVyMkI1Q2NoVm9yRkcyTTVtM3d1MFB6TEFEZFQ5WXRqWG5HRURURmVOaHFaUGNZaS1sWFRhalNzc3gxb1BUMUE3R0Q1NWx3UnVuRHVBNEpib2s0ZDZIRkQ1UlNDd3Yzemg0cFp3MmJBYUVBazUyXzdCc2RUU3VGb2ZUSDBlbUFyTnhpbzlDTlFTSVQ0R0FJVmpMbkxYdUtiNFBDTDNEYVhhQlNDUXJxWm44MndQOHZialNqWEhnZVdx?oc=5",
+      "ts": "2026-10-19T13:29:01+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "KTOS"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SNDK",
       "group": "記憶體／儲存",
       "tag": "題材",
@@ -2983,39 +3017,6 @@
       "hasArticleBody": false,
       "relatedTickers": [
         "LRCX"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ICHR",
-      "group": "半導體設備／測試",
-      "tag": "利空",
-      "title": "B. Riley 將 Ichor Holdings 的目標價從 105 美元下調至 85 美元，並維持買入評級",
-      "summary": "",
-      "originalTitle": "B. Riley Cuts Price Target on Ichor Holdings to $85 From $105, Keeps Buy Rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlRlZEZBNnVDRFk5d1J5ekdpWXFUeHpxWTJhZmlPSUR4cTRtUFB5VzFLcnFsZXp6M1dJbXZSYndDMG1MX1dzdC10Q2xibDNqUHoxRXpXa3ozYUhwdUFKRG1pZVROQ01JTUNjUWZxYVVSVF9seTBMQ2ZZTUw1R040SkJMOEw2YzFnc211M3VHUE83a0g3WUhBdDZYTHFWUjZ0bmRRdlIxSGxMSThuOWdPX3ZiOHF2VnJEck8xMmJfNzdrQmlGVWRB?oc=5",
-      "ts": "2026-10-19T12:07:37+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "ICHR"
       ],
       "eventType": "",
       "score": 202.5,
