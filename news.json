@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 03:30 台灣時間",
+  "updatedAt": "2026-10-20 03:34 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
@@ -11,10 +11,10 @@
       "group": "CSP",
       "tag": "利多",
       "title": "摩根士丹利將亞馬遜列為首選並調高目標價後，亞馬遜股價大幅上漲，創歷史新高",
-      "summary": "",
+      "summary": "Morgan Stanley reaffirmed its 'Overweight' rating and named Amazon its top pick. Propelled by surging Nvidia GPU shipments, Morgan Stanley analysts project AWS to operate as a \"Rule of 90\" firm between 2027 and 2028. Morgan Stanley raised the price target on Amazon to $350 from $335. Amazon.com Inc. (AMZN) share price rose nearly 5% on Monday and was on-track to record its best day in nearly three months after Morgan Stanley reaffirmed its 'Overweight' recommendation on the stock and hiked its share price target.",
       "originalTitle": "AMZN Stock Eyes Record High after Strong Jump on Morgan Stanley Naming Amazon a Top Pick and Raises Price Target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ2JtcVpqR1dfUC1pZXhVTlljd3ZqRGNWMktyWXZqSVY0VlM5QUFnWXQzOVlVT1JNZHpWRkxWZ1pCMFFRZ3lMcUlMbDFMSXVHZjdwbDlSNEZfTEpoZHhzeE40b0tsZGxDU1BnVUw1cFJka3pyMGR3bFYtX0VBR1VlRkZQa21jNi1XcjdEYlBEUUZwVWh4dm9rZHNTWlFtbnk0Z0Jhdk16T0hmWmdiNDhWeTVydWdaUzlwelZQUXlETWRneXA2OVJnTGV0WG5OandKNVJSVFkwMTh4QmhXc3NzV25icGFsTkhybm1Z?oc=5",
+      "originalSummary": "Morgan Stanley reaffirmed its 'Overweight' rating and named Amazon its top pick. Propelled by surging Nvidia GPU shipments, Morgan Stanley analysts project AWS to operate as a \"Rule of 90\" firm between 2027 and 2028. Morgan Stanley raised the price target on Amazon to $350 from $335. Amazon.com Inc. (AMZN) share price rose nearly 5% on Monday and was on-track to record its best day in nearly three months after Morgan Stanley reaffirmed its 'Overweight' recommendation on the stock and hiked its share price target.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amzn-stock-set-best-day-174858785.html",
       "ts": "2026-10-19T19:19:26+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -22,35 +22,52 @@
         {
           "broker": "Morgan Stanley",
           "analyst": "",
-          "rating": "",
-          "action": "上修",
+          "rating": "Overweight",
+          "action": "",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "摩根士丹利將亞馬遜列為首選並上調目標價",
-          "reasonConfidence": "high",
+          "reason": "摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
+          "reasonConfidence": "medium",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        },
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$350",
+          "oldTarget": "$335",
+          "reason": "摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
+          "reasonConfidence": "medium",
           "targetTicker": "AMZN",
           "targetCompany": "Amazon"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "AMZN"
+        "AMZN",
+        "NVDA"
       ],
-      "eventType": "",
-      "score": 207.0,
+      "eventType": "跨公司事件",
+      "score": 223.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：上修｜調整原因：摩根士丹利將亞馬遜列為首選並上調目標價",
-        "numbers": [],
-        "why": "調整原因：摩根士丹利將亞馬遜列為首選並上調目標價",
+        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜評等：Overweight｜調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。\n被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：上修｜目標價：$350（原 $335）｜調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
+        "numbers": [
+          "$335",
+          "$350"
+        ],
+        "why": "調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：摩根士丹利將亞馬遜列為首選並上調目標價",
+        "takeaway": "調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -298,8 +315,8 @@
         "takeaway": "調整原因：根據摩根士丹利的說法，除了代理和實體人工智慧計畫之外，其以人工智慧為中心的 AWS 計畫也得到了推動。 \",\"socialtoolsEnabled\":true,\"shortestHeadline\":null,\"headline\":\"摩根士丹利表示，亞馬遜是首選，並將從一系列催化劑中獲得巨大推動力\",\"title\":\"摩根士丹利表示，亞馬遜是首選，並將從一系列催化劑中獲得巨大推動力斯坦利\",\"jobation):null\"",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 5,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -599,6 +616,44 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "由於摩根士丹利的新價格目標，亞馬遜股票 (AMZN) 上漲 5%",
+      "summary": "標題：請稍候... URL 來源：http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。 Markdown 內容：www.tipranks.com 執行安全驗證 本網站使用安全服務來防範惡意機器人。網站顯示此頁面",
+      "originalTitle": "Amazon Stock (AMZN) Gains 5% Thanks to a New Price Target from Morgan Stanley",
+      "originalSummary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "url": "https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley",
+      "ts": "2026-10-19T17:44:01+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [],
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 259.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "標題：請稍候... URL 來源：http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。 Markdown 內容：www.tipranks.com 執行安全驗證 本網站使用安全服務來防範惡意機器人。網站顯示此頁面",
+        "numbers": [
+          "5%"
+        ],
+        "why": "券商調整理由：URL 來源：http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。",
+        "stance": "URL 來源：http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：URL 來源：http://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "MARKET",
@@ -1013,7 +1068,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "AST SpaceMobile 透過歐洲營運商合作夥伴關係瞄準 5 億用戶",
-      "summary": "AST SpaceMobile (NASDAQ:ASTS) reported second-quarter 2026 revenue of $31.5 million, driven by gateway deliveries and U.S. government milestones, while net loss reached $230.9 million. Texas-based AST SpaceMobile (NASDAQ:ASTS) achieved a major deployment milestone on Wednesday with the successful orbital launch of its three massive BlueBirds 8, 9, and 10 communications satellites from Cape Canaveral Space Force Station.",
+      "summary": "",
       "originalTitle": "AST SpaceMobile Targets 500 Million Subscribers Through European Carrier Partnership",
       "originalSummary": "AST SpaceMobile (NASDAQ:ASTS) reported second-quarter 2026 revenue of $31.5 million, driven by gateway deliveries and U.S. government milestones, while net loss reached $230.9 million. Texas-based AST SpaceMobile (NASDAQ:ASTS) achieved a major deployment milestone on Wednesday with the successful orbital launch of its three massive BlueBirds 8, 9, and 10 communications satellites from Cape Canaveral Space Force Station.",
       "url": "https://grafa.com/en/news/united-states/ast-spacemobile-500-million-european-satellite-spectrum-initiative",
@@ -1027,10 +1082,10 @@
       "eventType": "",
       "analystPriority": false,
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile (NASDAQ:ASTS) reported second-quarter 2026 revenue of $31.5 million, driven by gateway deliveries and U.S. government milestones, while net loss reached $230.9 million. Texas-based AST SpaceMobile (NASDAQ:ASTS) achieved a major deployment milestone on Wednesday with the successful orbital launch of its three massive BlueBirds 8, 9, and 10 communications satellites from Cape Canaveral Space Force Station.",
+        "event": "AST SpaceMobile（納斯達克股票代碼：ASTS）報告稱，在網關交付和美國政府里程碑的推動下，2026 年第二季度收入為 3,150 萬美元，而淨虧損達到 2.309 億美元。總部位於德克薩斯州的 AST SpaceMobile（納斯達克股票代碼：ASTS）於週三從卡納維拉爾角太空部隊站成功將其三顆大型藍鳥 8、9 和 10 通信衛星成功送入軌道，實現了一個重要的部署里程碑。",
         "numbers": [
           "$31.5 million",
           "$230.9 million",
@@ -1038,7 +1093,7 @@
           "31.5 million"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "AST SpaceMobile (NASDAQ:ASTS) reported second-quarter 2026 revenue of $31.5 million, driven by gateway deliveries and U.S. government milestones, while net loss reached $230.9 million.",
+        "stance": "AST SpaceMobile（納斯達克股票代碼：ASTS）報告稱，在網關交付和美國政府里程碑的推動下，2026 年第二季度收入為 3,150 萬美元，而淨虧損達到 2.309 億美元。總部位於德克薩斯州的 AST SpaceMobile（納斯達克股票代碼：ASTS）於週三從卡納維拉爾角太空部隊站成功將其三顆大型藍鳥 8、9 和 10 通信衛星成功送入軌道，實現了一個重要的部署里程碑。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -1271,7 +1326,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2837,7 +2892,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "KTOS",
@@ -2871,7 +2926,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "SPCX",
@@ -2939,38 +2994,6 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "$杠杆股票 2 倍多头 CBRS 每日 ETF (CBRG.US)$ 谁被淘汰了？不是我，但還是很痛。",
-      "summary": "",
-      "originalTitle": "$Leverage Shares 2X Long CBRS Daily ETF (CBRG.US)$ Who got shaken out? Not me, but it still hurts.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFI5ZWZ2dGYxZzBNVHBhZ2NUTThfQ05OV1ppSWVBLTFoSDU2bTd1aHJBN3NLSUpwNDVYUDAwYmF1MEVPSDBFWDd2b3JvWXllV0hoUXlPeklXSTRHbXFCTWhsNEFDNnFxenJxSWpFWFN4Wm5jWGk0WWVQS1dRQXgtdThnWE9fdEIycW83V21PM01vUU9jZDZkZlc2Q1U4MlN4dmpIdUQ1OA?oc=5",
-      "ts": "2026-10-19T14:30:10+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -4.873830673689161,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "",
-      "score": 10.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
