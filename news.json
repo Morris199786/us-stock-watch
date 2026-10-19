@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-10-19 18:57 台灣時間",
+  "updatedAt": "2026-10-19 19:05 台灣時間",
   "historyUpdatedDate": "2026-10-19",
   "historyLastAttemptAt": "2026-10-18T16:02:33.603561+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "伯恩斯坦將微軟的目標股價從 660 美元調整為 662 美元",
+      "summary": "",
+      "originalTitle": "Bernstein Adjusts Price Target on Microsoft to $662 From $660",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYW02MXpaekQzSGNoWFlNak0zSjAxQU91azhsSWF3ekJ4VUxUQ1NKOXMxU1pLYlVTU3EwUmVGSk5PR0ZoNzhnUzhfSHpqbmdSUHNWdWZzU0t6R0hHdTVrQkhxSEh0bnotVE9hTTJQQ0xsRlRoYUl5WjBoamdZM2xqdzRpRmF4RkFKTTk2YVpEb2Z4WHhidGswa3FRcjZhRlZLck40YjBzV3BkNDhjY2gwbE9R?oc=5",
+      "ts": "2026-10-19T10:55:41+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Bernstein",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$662",
+          "oldTarget": "$660",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "MSFT",
+          "targetCompany": "Microsoft"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Bernstein｜動作：上修｜目標價：$662（原 $660）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$660",
+          "$662"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 10
+    },
     {
       "ticker": "STX",
       "group": "記憶體／儲存",
@@ -52,8 +101,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -312,8 +361,8 @@
       "summary": "",
       "originalTitle": "Treasury Yields Hand Nasdaq Tech Stocks a Double Hit on Value and Debt",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLTQ3LVVXdzFGaV9BS1dPRXJMc2Uybng0cXB3UlFYWVY2QTRsWmlBZTVydXJGQlJmc0JYQ01XUTVtbXkyc2FyTjVubGF3aW1FaHFmajFtWmRBTk1qRnBTZkpSWXBHZEp1Skpid3p1RkkyNVRHemxkOVRGdEhQcFN1RmRKV3FYWkV4MktZd1ZUOW9BNUptY2pVcHZRdWJ5X2hzamlfeGM4STlYQQ?oc=5",
-      "ts": "2026-10-19T09:30:32+00:00",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbW92UjIyUVNDQW5oSC04ODYwV1FEWVNnazlWcDZwM1VhU0RoenQ3UTVFSUc2LUk1aU1zUDZUUEw1c3E1LWlwdl9qSENObkktSl81elpvSS04ajI4aWdBVDRWUE5DZXBRMlJfeWw0QW5Yb09BejZPOS1LWTY3Y3RlaEF5TGJIYnJSM2t2UHJrUW5QOFNnOEZ5M3NIMHpWa2FTZ2swRTlfWnBOWmNVdXc?oc=5",
+      "ts": "2026-10-19T09:31:11+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -1614,7 +1663,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：ASML｜券商：Bernstein｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
@@ -2044,7 +2093,7 @@
         "MCHP"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 171.6,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2666,36 +2715,6 @@
       ],
       "eventType": "",
       "score": 11.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克 100 指數反彈引發空頭注意",
-      "summary": "",
-      "originalTitle": "Nasdaq 100 Rebound Puts Bears on Notice",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1R5ZUphSVd0QmxOSWN1dzZfLWhJUFlxeGxlaUswMFZhcDNCVVBxZ0NuT2Qxdmg1ZnVvdjlKVnFNZTZIdlFhZXpEdGROZUhrS2hCRU5hV1oxUm80UEQ1QVNVVGlFRVVJZHhrX2Jjb0tsTHdINUhvdmR3N2xyZnJ3aXlJSU5tS2RCQ3gtb0Zjbm1WVjdQQjlnNVh5UdIBmwFBVV95cUxOQ1R5ZUphSVd0QmxOSWN1dzZfLWhJUFlxeGxlaUswMFZhcDNCVVBxZ0NuT2Qxdmg1ZnVvdjlKVnFNZTZIdlFhZXpEdGROZUhrS2hCRU5hV1oxUm80UEQ1QVNVVGlFRVVJZHhrX2Jjb0tsTHdINUhvdmR3N2xyZnJ3aXlJSU5tS2RCQ3gtb0Zjbm1WVjdQQjlnNVh5UQ?oc=5",
-      "ts": "2026-10-19T02:52:11+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
