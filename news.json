@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-10-20 01:15 台灣時間",
+  "updatedAt": "2026-10-20 01:21 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "利多",
+      "title": "Goldman Sachs 升評 CRWV 至 Buy",
+      "summary": "",
+      "originalTitle": "CoreWeave stock attempts to rebound on Goldman Sachs upgrade to Buy",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWkEta1I0bmgyRUppNkdfaDhVRnpSemhqT2dXRWdqN2RtMEIwYlljdkZrTHVpZzRxcGM1SllPNVdCX1RyZnE5V1VIY3VDX2NScVA5cTBpMWhRRHNiOW92NE51S3J0OTE3dThFV0tBUURva2lLUTQzRWRMc2dOSWFtUE9rdXBFZU9NQmZrN3BBamRjNHQxc3lManZZRU1OZmhMT3pUZTJqXzd4Y1RNYmkxbXdEVnc5NEpsNUJmUTY4SzZ4QVdFYjh6VGRNZw?oc=5",
+      "ts": "2026-10-19T17:13:12+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Goldman Sachs",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRWV",
+          "targetCompany": "CoreWeave"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRWV"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：CoreWeave（CRWV）｜券商：Goldman Sachs｜評等：Buy｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MRVL",
       "group": "AI 運算／AI 晶片",
@@ -303,34 +349,52 @@
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "題材",
-      "title": "摩根士丹利公佈 5 種催化劑並調高目標價後，亞馬遜股價上漲",
-      "summary": "",
+      "title": "Morgan Stanley 調整 AMZN 目標價至 $350",
+      "summary": "摩根士丹利剛剛為亞馬遜設定了一個大膽的新目標，並將其稱為首選，但升級背後的原因遠遠超出了投資者已經了解的雲端支出故事。",
       "originalTitle": "Amazon stock pops after Morgan Stanley details 5 catalysts, lifts price target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR1N4OXljU1k1MUpnU1VlQ0tjY3ZZR1ZIQzdEaGJwSkZoMEkwUlRyTGJNR1BpSUg4QWpsRHJXOW9EZzFaQ3pOQUZFaFMyTUpudVhONDJFWWJneHBDQ0JlX2paTkV3UnFmaUZPNzZBM3ZzZGQ1RU1WS25keXZBYW9aSThxTnNOY0tjMVltakZnRHE4RnZONFFLTHNSWGdvalVtT2prb1h5YXFjVlU2ZFZGcXZTd2ZlMFY3eFNEdFcxLWkxU1J0VWdiN0FHSEpWRjJoM0szT2dnNjQ?oc=5",
+      "originalSummary": "Morgan Stanley named $AMZN a top pick, raising its price target to $350 and sending shares up 5% on faster AWS growth expectations. Brian Nowak upgraded AWS revenue growth forecasts to 47% by 2027, driven by Amazon's planned purchase of roughly 2 million NVIDIA GPUs. Morgan Stanley frames robotics as a 2027 catalyst, estimating that every additional 10% of units processed through automated fulfillment could save between $2 billion and $4 billion annually. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Microsoft didn't make the cut. Enter your email to see the names that beat MSFT. The report is free. Enter your email and see if any of your stocks made the cut.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-jumps-5-morgan-stanley-161544196.html",
       "ts": "2026-10-19T16:08:34+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "buy",
+          "action": "升評",
+          "newTarget": "$350",
+          "oldTarget": "",
+          "reason": "亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
+          "reasonConfidence": "high",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": true,
       "relatedTickers": [
-        "AMZN"
+        "AMZN",
+        "MSFT",
+        "NVDA"
       ],
       "eventType": "",
-      "score": 207.0,
+      "score": 220.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：升評｜評等：buy｜目標價：$350｜調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
+        "numbers": [
+          "$350"
+        ],
+        "why": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
+        "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -460,6 +524,52 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "升級後英特爾股價飆漲。摩根大通表示：“我們的信心正在增強”",
+      "summary": "",
+      "originalTitle": "Intel Stock Surges After an Upgrade. ‘Our Confidence Is Building,’ Says JPMorgan",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWk2OVZHajRXUGJ4S3l5RHdGTmEySUxBUFRabnRFS0lKM2J6X2xrbmxxLXpRbjUxVXZmTG5uOFdTNmROQWdiTkhzMS02QU9aTGgyTGxJOEduaWs5T0Qwa3gyMHJ0Z2wxSHBreUtLSVdDSFVwRndvNDdsdWx3Q004bW5yTTJ2dGZmSVQ5STliOUpUQlppSWZVVVIyUVZYM1E3QUktZA?oc=5",
+      "ts": "2026-10-19T15:57:53+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "JPMorgan",
+          "analyst": "",
+          "rating": "",
+          "action": "升評",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -842,7 +952,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：American Electric Power（AEP）｜券商：BMO Capital｜動作：下修｜評等：overweight｜目標價：$135（原 $139）｜調整原因：BMO 根據估值下調美國電力公司股價目標 BMO Capital 將美國電力公司目標價從 139 美元調整至 135 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 139.42 美元。",
@@ -878,7 +988,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1316,8 +1426,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1519,8 +1629,8 @@
         "takeaway": "調整原因：執行長 Lip-Bu Tan 提高的執行力和人工智慧的推動力使 INTC 和 AMD 各上漲了 4%。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2968,85 +3078,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美國股指期貨上漲，納斯達克 100 指數在科技股拋售後出現復甦：道瓊斯、標準普爾、納斯達克、華爾街",
-      "summary": "",
-      "originalTitle": "US Stock Futures Advance as Nasdaq 100 Signals Recovery Following Technology Sell-Off: Dow Jones, S&P, Nasdaq, Wall Street",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUzZtQTBkbll0eGl2bkQ5eUNIeFV2ekxoa1Izd3BVblZxTWJWUnhXR1hSdVdNdlBWQVZMR3F4Vjk4RE5Wcm5ucVFta21oSjRQVG11U1dpT056WWx1RWdqOHJoYWZIQ01ZZVFoajYwdlZSaHhKLVZzV0FWYjBhZlJZd2ZDbFhZaWs?oc=5",
-      "ts": "2026-10-19T13:16:59+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "利多",
-      "title": "英特爾因摩根大通升級和特斯拉代工交易而上漲",
-      "summary": "Investing.com - U.S. stock futures rose on Monday as artificial intelligence-linked stocks attempted to recover from last week's sharp selloff, while a busy earnings calendar offered investors a fresh test of market sentiment. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-      "originalTitle": "Intel Rallies on JPMorgan Upgrade and Tesla Foundry Deal",
-      "originalSummary": "Investing.com - U.S. stock futures rose on Monday as artificial intelligence-linked stocks attempted to recover from last week's sharp selloff, while a busy earnings calendar offered investors a fresh test of market sentiment. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-intel-jumps-jpmorgan-115524552.html",
-      "ts": "2026-10-19T13:15:22+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.774624373956593,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "INTC",
-        "TSLA"
-      ],
-      "eventType": "跨公司事件",
-      "analystPriority": true,
-      "score": 240.75,
-      "featured": false,
-      "translated": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "",
-          "action": "升評",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "摩根大通升級和特斯拉代工交易 Investing.com - 美國股指期貨週一上漲，因人工智慧相關股票試圖從上週的大幅拋售中恢復過來，而繁忙的財報日曆為投資者提供了對市場情緒的新考驗。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-          "reasonConfidence": "high",
-          "targetTicker": "INTC",
-          "targetCompany": "Intel"
-        }
-      ],
-      "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜調整原因：摩根大通升級和特斯拉代工交易 Investing.com - 美國股指期貨週一上漲，因人工智慧相關股票試圖從上週的大幅拋售中恢復過來，而繁忙的財報日曆為投資者提供了對市場情緒的新考驗。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-        "numbers": [],
-        "why": "調整原因：摩根大通升級和特斯拉代工交易 Investing.com - 美國股指期貨週一上漲，因人工智慧相關股票試圖從上週的大幅拋售中恢復過來，而繁忙的財報日曆為投資者提供了對市場情緒的新考驗。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：摩根大通升級和特斯拉代工交易 Investing.com - 美國股指期貨週一上漲，因人工智慧相關股票試圖從上週的大幅拋售中恢復過來，而繁忙的財報日曆為投資者提供了對市場情緒的新考驗。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 5,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
@@ -7289,7 +7320,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "SK海力士討價還價向其中國工廠出口晶片設備，以換取在美國建廠",
-      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
+      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
       "originalTitle": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
       "originalSummary": "Investing.com -- South Korea's SK Hynix Inc (KS:000660) is seeking U.S. approval to ship additional American-made chipmaking equipment to its facility in China, linking the request to plans by its U.S. unit Solidigm to build a new NAND flash memory factory in the United States, Reuters reported on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/sk-hynix-seeks-u-chip-040733867.html",
@@ -7306,10 +7337,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
+        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
+        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -8451,7 +8482,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "AI訂單湧入 台積電獲利超預期",
-      "summary": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
+      "summary": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
       "originalTitle": "TSMC’s Profit Surpasses Expectations After AI Orders Rush In",
       "originalSummary": "Taiwan Semiconductor Manufacturing Co reported a better-than-expected profit for the September quarter, sustaining torrid growth despite rising concern about the long-term AI buildout.",
       "url": "https://sg.finance.yahoo.com/news/tsmcs-profit-surpasses-expectations-ai-220917759.html",
@@ -8468,10 +8499,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
+        "event": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
+        "stance": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -8769,7 +8800,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利空",
       "title": "火箭實驗室再次延後首次中子發射",
-      "summary": "Rocket Lab 股票的關鍵統計數據 Rocket Lab 股票在過去 6 個月的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 週高點：$151$RKLB 股價目標：$105 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
+      "summary": "Rocket Lab 股票的關鍵統計過去 6 個月內 Rocket Lab 股票的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 周高點：151 美元 RKLB 股價目標：105 美元 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
       "originalTitle": "Rocket Lab delays first Neutron launch again",
       "originalSummary": "Key Stats for Rocket Lab StockPrice change for Rocket Lab stock in the last 6 months: -20%$RKLB Stock Price as of Oct. 14: $5952-Week High: $151$RKLB Stock Price Target: $105What Happened?Rocket Lab (RKLB:NASDAQ) said the first launch of its Neutron rocket is now delayed until next year, driving the stock down 6%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-shares-fall-delaying-060640047.html",
@@ -8785,7 +8816,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab 股票的關鍵統計數據 Rocket Lab 股票在過去 6 個月的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 週高點：$151$RKLB 股價目標：$105 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
+        "event": "Rocket Lab 股票的關鍵統計過去 6 個月內 Rocket Lab 股票的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 周高點：151 美元 RKLB 股價目標：105 美元 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
         "numbers": [
           "$5952",
           "$151",
@@ -8793,7 +8824,7 @@
           "20%"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Rocket Lab 股票的關鍵統計數據 Rocket Lab 股票在過去 6 個月的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 週高點：$151$RKLB 股價目標：$105 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
+        "stance": "Rocket Lab 股票的關鍵統計過去 6 個月內 Rocket Lab 股票的價格變化：-20%$RKLB 截至 10 月 14 日的股價：5952 美元 周高點：151 美元 RKLB 股價目標：105 美元 發生了什麼？ Rocket Lab (RKLB:NASDAQ) 表示，其中子火箭的首次發射現已推遲到明年，導致該股下跌 6%。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -8902,7 +8933,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 股票能跌多低？",
-      "summary": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+      "summary": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
       "originalTitle": "How Low Can AST SpaceMobile Stock Go?",
       "originalSummary": "AST SpaceMobile (NasdaqGS:ASTS) faces new competition after the FCC cleared SpaceX to launch a direct-to-phone satellite service. The FCC authorization allows SpaceX to use a large low-Earth orbit constellation to connect ordinary smartphones without terrestrial cell towers. Regulatory clearance for SpaceX to bypass mobile carriers raises fresh questions about AST SpaceMobile's carrier-partnered business model. SpaceX's FCC approval for direct smartphone connectivity is important, but it should not dominate your entire AST SpaceMobile thesis. We have also flagged 2 other big wins for AST SpaceMobile. This push into direct satellite connectivity reaches far beyond AST SpaceMobile, so it is worth looking at other businesses exposed to the same long-term data and infrastructure demand story through 92 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-now-130851055.html",
@@ -8920,10 +8951,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+        "event": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
+        "stance": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -9088,7 +9119,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 是新的戰場股票",
-      "summary": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+      "summary": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
       "originalTitle": "AST SpaceMobile Is the New Battleground Stock",
       "originalSummary": "AST SpaceMobile (NasdaqGS:ASTS) faces new competition after the FCC cleared SpaceX to launch a direct-to-phone satellite service. The FCC authorization allows SpaceX to use a large low-Earth orbit constellation to connect ordinary smartphones without terrestrial cell towers. Regulatory clearance for SpaceX to bypass mobile carriers raises fresh questions about AST SpaceMobile's carrier-partnered business model. SpaceX's FCC approval for direct smartphone connectivity is important, but it should not dominate your entire AST SpaceMobile thesis. We have also flagged 2 other big wins for AST SpaceMobile. This push into direct satellite connectivity reaches far beyond AST SpaceMobile, so it is worth looking at other businesses exposed to the same long-term data and infrastructure demand story through 92 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-now-130851055.html",
@@ -9105,10 +9136,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+        "event": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
+        "stance": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -10011,7 +10042,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "美國電力公司將投資 40 億美元建設燃料電池項目，為Google提供動力",
-      "summary": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+      "summary": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
       "originalTitle": "American Electric Power to invest $4 billion in fuel cell project to power Google",
       "originalSummary": "American Electric Power said on ​Wednesday it plans to invest about $4 billion in ‌a 702-megawatt fuel cell project near Cheyenne, Wyoming, to supply Alphabet's Google under a 20-year power purchase agreement.",
       "url": "https://www.reuters.com/business/energy/american-electric-power-to-invest-4-billion-fuel-cell-project-power-google-2026-10-14/",
@@ -10028,13 +10059,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+        "event": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
         "numbers": [
           "$4 billion",
           "4 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+        "stance": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -10398,7 +10429,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "ASML 的強勁訂單緩解了人們對人工智慧支出熱潮正在失去動力的擔憂",
-      "summary": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經在尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
+      "summary": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經開始尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
       "originalTitle": "ASML's strong orders ease fears AI spending boom is running out of steam",
       "originalSummary": "AMSTERDAM, Netherlands: Demand for advanced chipmaking equipment is stretching years into the future, with ASML saying customers are already looking to place orders for 2029 and even 2030 as the artificial intelligence investment boom continues to drive semiconductor expansion. The Dutch company, the world's biggest maker of equipment used to produce AI chips and advanced semiconductors, said October 14 that planned increases in its production capacity for 2027 and 2028 would not be enough to meet demand. ASML said in July that it planned to increase capacity by 30 percent in 2027 and by another 30 percent in 2028. CEO Christophe Fouquet said that the company was now seeing \"a lot of order intake for 2028. But also, some strong interest to already place orders for 2029 and sometimes even 2030.\" The outlook helped ease investor concerns that the surge in spending on AI infrastructure could be approaching a peak. ASML's customers include TSMC, which manufactures chips for Nvidia, as well as Samsung, Intel, SK Hynix and Micron. The companies have been investing heavily to expand chip production. \"There were concerns that the AI trade was running out of steam,\" said Gordon Kerr, European macro strategist at KBRA, adding ASML's results showed \"demand for chips remains strong, and infrastructure spending is likely to continue well into 2027\". ASML shares rose two percent on October 14. The stock has gained almost 70 percent this year, while the company is Europe's largest by market value at about €586 billion. The company reported third-quarter net profit of 4.96 billion euros on net sales of 11.7 billion euros. It forecast fourth-quarter sales of between 14.2 billion euros and 15.2 billion euros, or US$15.9 billion to $17 billion. ASML also raised its full-year sales outlook from at least 43 billion euros to 44 billion euros to 45 billion euros.",
       "url": "https://www.malaysiasun.com/news/279374422/asml-says-strong-chip-orders-signal-ai-spending-boom-has-room-to-run",
@@ -10418,7 +10449,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經在尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
+        "event": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經開始尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
         "numbers": [
           "$15.9 billion",
           "$17 billion",
@@ -10426,7 +10457,7 @@
           "4.96 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經在尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
+        "stance": "荷蘭阿姆斯特丹：對先進晶片製造設備的需求將持續數年，ASML 表示，隨著人工智慧投資熱潮繼續推動半導體擴張，客戶已經開始尋求 2029 年甚至 2030 年的訂單。這家荷蘭公司是全球最大的用於生產人工智慧晶片和先進半導體的設備製造商，該公司10月14日表示，計劃在2027年和2028年增加的產能不足以滿足需求。 ASML 7 月表示，計劃在 2027 年將產能增加 30%，在 2028 年再增加 30%。執行長 Christophe Fouquet 表示，該公司目前看到「2028 年有大量訂單」。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -10773,7 +10804,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "美國電力公司將投資 40 億美元建造燃料電池專案以滿足 Google 的能源需求",
-      "summary": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+      "summary": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
       "originalTitle": "American Electric Power to Invest $4 Billion in Fuel Cell Project to Meet Energy Demand From Google",
       "originalSummary": "American Electric Power said on ​Wednesday it plans to invest about $4 billion in ‌a 702-megawatt fuel cell project near Cheyenne, Wyoming, to supply Alphabet's Google under a 20-year power purchase agreement.",
       "url": "https://www.reuters.com/business/energy/american-electric-power-to-invest-4-billion-fuel-cell-project-power-google-2026-10-14/",
@@ -10790,7 +10821,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+        "event": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
         "numbers": [
           "$4 Billion",
           "$4 billion",
@@ -10798,7 +10829,7 @@
           "4 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
+        "stance": "美國電力公司週三表示，計劃投資約 40 億美元在懷俄明州夏延附近建設一個 702 兆瓦的燃料電池項目，根據一份為期 20 年的電力購買協議為 Alphabet 旗下的谷歌供電。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -12217,7 +12248,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "相干公司 (COHR) 的庫存在產能新聞售罄後看起來即將到來",
-      "summary": "相干公司已成為市場上最著名的光學硬體故事之一。經過多年的大幅攀升後，關鍵問題是當前股價是否與其獲利能合理支撐的水平相符。在過去的三年裡，該股的回報率約為 7 倍，這非常強調其獲利能力最終能夠趕上這一走勢的想法。最近有關 2029 年光學產能售罄以及某些數據中心組件供應緊張的頭條新聞可能會支持隨著時間的推移增強盈利和現金生成的預期，但如果這些希望沒有實現，它們也會增加風險。",
+      "summary": "Coherent has become one of the most prominent optical hardware stories in the market. After a very steep multi year climb, the key question is whether the current share price lines up with what its earnings can reasonably support. Over the past 3 years the stock has returned about 7x, which places significant emphasis on the idea that its profit power can eventually catch up with that move. Recent headlines around sold out optical capacity into 2029 and tighter supply for certain data center components may support expectations for stronger earnings and cash generation over time, but they also raise the stakes if those hopes do not materialize.",
       "originalTitle": "Coherent (COHR) Stock Looks About Right Following Sold Out Capacity News",
       "originalSummary": "Coherent has become one of the most prominent optical hardware stories in the market. After a very steep multi year climb, the key question is whether the current share price lines up with what its earnings can reasonably support. Over the past 3 years the stock has returned about 7x, which places significant emphasis on the idea that its profit power can eventually catch up with that move. Recent headlines around sold out optical capacity into 2029 and tighter supply for certain data center components may support expectations for stronger earnings and cash generation over time, but they also raise the stakes if those hopes do not materialize. Your read on Coherent is one view; the desks covering it have another. See what analysts think Coherent's shares could be worth .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-stock-looks-following-211400094.html",
@@ -12233,10 +12264,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "相干公司已成為市場上最著名的光學硬體故事之一。經過多年的大幅攀升後，關鍵問題是當前股價是否與其獲利能合理支撐的水平相符。在過去的三年裡，該股的回報率約為 7 倍，這非常強調其獲利能力最終能夠趕上這一走勢的想法。最近有關 2029 年光學產能售罄以及某些數據中心組件供應緊張的頭條新聞可能會支持隨著時間的推移增強盈利和現金生成的預期，但如果這些希望沒有實現，它們也會增加風險。",
+        "event": "Coherent has become one of the most prominent optical hardware stories in the market. After a very steep multi year climb, the key question is whether the current share price lines up with what its earnings can reasonably support. Over the past 3 years the stock has returned about 7x, which places significant emphasis on the idea that its profit power can eventually catch up with that move. Recent headlines around sold out optical capacity into 2029 and tighter supply for certain data center components may support expectations for stronger earnings and cash generation over time, but they also raise the stakes if those hopes do not materialize.",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "相干公司已成為市場上最著名的光學硬體故事之一。經過多年的大幅攀升後，關鍵問題是當前股價是否與其獲利能合理支撐的水平相符。在過去的三年裡，該股的回報率約為 7 倍，這非常強調其獲利能力最終能夠趕上這一走勢的想法。最近有關 2029 年光學產能售罄以及某些數據中心組件供應緊張的頭條新聞可能會支持隨著時間的推移增強盈利和現金生成的預期，但如果這些希望沒有實現，它們也會增加風險。",
+        "stance": "Recent headlines around sold out optical capacity into 2029 and tighter supply for certain data center components may support expectations for stronger earnings and cash generation over time, but they also raise the stakes if those hopes do not materialize.",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -13454,7 +13485,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "投資 AST SpaceMobile 股票能讓您的資金翻倍嗎？",
-      "summary": "ASTS 交易价格为 51 美元，但买入目标为 87.68 美元，这意味着如果 beta 服务和 45 颗卫星在 2027 年初按计划发射，则上涨 72%。铱星的季度收入为 2.25 亿美元，实际利润却只有 50 亿美元，这暴露了 ASTS 仅凭其 1.3B 美元的积压订单就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+      "summary": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
       "originalTitle": "Can Investing in AST SpaceMobile Stock Double Your Money?",
       "originalSummary": "ASTS trades at $51 but carries a $87.68 BUY target, implying 72% upside if beta service and 45 satellites launch on schedule by early 2027. Iridium earns real profit on $225M quarterly revenue yet commands only a $5B market cap, exposing how richly ASTS is valued on its $1.3B backlog alone. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AST SpaceMobile didn't make the cut. Enter your email to see the names that beat ASTS. The report is free. Enter your email and see if any of your stocks made the cut. The 24/7 Wall St. price target for AST SpaceMobile ( NASDAQ:ASTS ) is $87.68 over the next 12 months, well above the recent $50.97 share price.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-building-something-wall-170055856.html",
@@ -13470,7 +13501,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "ASTS 交易价格为 51 美元，但买入目标为 87.68 美元，这意味着如果 beta 服务和 45 颗卫星在 2027 年初按计划发射，则上涨 72%。铱星的季度收入为 2.25 亿美元，实际利润却只有 50 亿美元，这暴露了 ASTS 仅凭其 1.3B 美元的积压订单就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "event": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "numbers": [
           "$51 b",
           "$87.68 B",
@@ -13478,7 +13509,7 @@
           "$5B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "ASTS 交易价格为 51 美元，但买入目标为 87.68 美元，这意味着如果 beta 服务和 45 颗卫星在 2027 年初按计划发射，则上涨 72%。铱星的季度收入为 2.25 亿美元，实际利润却只有 50 亿美元，这暴露了 ASTS 仅凭其 1.3B 美元的积压订单就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "stance": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15667,7 +15698,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "Credo推出1.6T ZeroFlap主動光纜，這是業界首款用於人工智慧資料中心的行級寬並行光互連 - Credo Technology Group Holding Ltd",
-      "summary": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
+      "summary": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
       "originalTitle": "Credo Unveils 1.6T ZeroFlap Active Light Cable, Industry’s First Row-Scale, Wide-Parallel Optical Interconnect for AI Data Centers - Credo Technology Group Holding Ltd",
       "originalSummary": "SAN JOSE, Calif., October 12, 2026--Credo unveils 1.6T ZeroFlap active light cable (ALC), industry’s first row-scale, wide-parallel optical interconnect for AI data centers.",
       "url": "https://finance.yahoo.com/technology/ai/articles/credo-unveils-1-6t-zeroflap-130000836.html",
@@ -15683,10 +15714,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
+        "event": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
+        "stance": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -17003,7 +17034,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "應用材料公司在矽谷推出價值 50 億美元的研究設施，旨在簡化人工智慧晶片製造",
-      "summary": "研發計畫將專注於加快商業化進程，使晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——應用洛杉磯分校",
+      "summary": "研發計畫將重點放在加速商業化進程上，以便晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——洛杉磯分校",
       "originalTitle": "Applied Materials unveils $5B research facility in Silicon Valley in bid to streamline AI chipmaking",
       "originalSummary": "R&D programs to focus on speeding up the commercialization pipeline so chip technology moves from breakthrough research to full-scale manufacturing fasterCollaborative work at the state-of-the-art facility in Silicon Valley pairs UCLA’s semiconductor research strength with Applied’s cutting-edge chipmaking equipment and process integration expertise SANTA CLARA, Calif., Oct. 08, 2026 (GLOBE NEWSWIRE) -- Applied Materials, Inc. today announced that the UCLA Samueli School of Engineering will join",
       "url": "https://finance.yahoo.com/technology/articles/applied-materials-ucla-engineering-accelerate-200500850.html",
@@ -17020,12 +17051,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "研發計畫將專注於加快商業化進程，使晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——應用洛杉磯分校",
+        "event": "研發計畫將重點放在加速商業化進程上，以便晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——洛杉磯分校",
         "numbers": [
           "$5B"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "研發計畫將專注於加快商業化進程，使晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——應用洛杉磯分校",
+        "stance": "研發計畫將重點放在加速商業化進程上，以便晶片技術更快地從突破性研究轉向全面製造在矽谷最先進設施中的合作，將加州大學洛杉磯分校的半導體研究實力與應用材料公司的尖端晶片製造設備和工藝集成專業知識結合起來加州聖克拉拉，2026 年 10 月 8 日（環球通訊社）——洛杉磯分校",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -17096,7 +17127,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Flex 擴充預製模組化資料中心產品組合以加速 AI 工廠部署 - Flex",
-      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
       "originalTitle": "Flex Expands Prefabricated Modular Data Center Portfolio to Accelerate AI Factory Deployment - Flex",
       "originalSummary": "Flex (NASDAQ: FLEX) will announce its second quarter fiscal year 2027 financial results before the market opens on Wednesday, October 28, 2026. The... Flex (NASDAQ: FLEX) announced today that it has entered into an agreement to sell $2.0 billion of shares of Series A Convertible Preferred Stock of... Do not sell or share my personal information :",
       "url": "https://www.prnewswire.com/news-releases/flex-expands-prefabricated-modular-data-center-portfolio-to-accelerate-ai-factory-deployment-302905201.html",
@@ -17112,13 +17143,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
         "numbers": [
           "$2.0 billion",
           "2.0 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -18219,7 +18250,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室即將挑戰 SpaceX 作為太空領導者",
-      "summary": "儘管第二季營收成長創紀錄的 62%，且積壓訂單量為 2.36B，年增 137%，但 RKLB 股票交易價格為 68 美元。 Iridium (IRDM) 的年收入增加了 8.7 億美元，而國防合約和 SPCX 第二季度收入為 7.81B 美元，表明 Rocket Lab 正在瞄準龐大的市場。 Neutron 的可重複使用火箭的價格在 5,000 萬美元至 5,500 萬美元之間，與 Falcon 9 相當，是分析師證明 125 美元目標價合理性所需的關鍵催化劑。剛剛發布。",
+      "summary": "儘管第二季營收成長創紀錄的 62%，且未交付訂單量達到 2.36B 美元，年增 137%，但 RKLB 股票交易價格為 68 美元。 Iridium (IRDM) 的年收入增加了 8.7 億美元，而國防合約和 SPCX 第二季度收入為 7.81B 美元，表明 Rocket Lab 正在瞄準龐大的市場。 Neutron 的可重複使用火箭的價格在 5,000 萬美元至 5,500 萬美元之間，與 Falcon 9 相當，是分析師證明 125 美元目標價合理性所需的關鍵催化劑。剛剛發布。",
       "originalTitle": "Rocket Lab Is About to Challenge SpaceX as Space Leader",
       "originalSummary": "RKLB stock trades at $68 despite record Q2 revenue growth of 62% and a $2.36B backlog up 137% year over year. Iridium (IRDM) adds $870M in annual revenue while defense contracts and SPCX's $7.81B Q2 revenue show the massive market Rocket Lab is targeting. Neutron's reusable rocket, priced between $50M and $55M to match Falcon 9, is the key catalyst analysts need to justify a $125 price target. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Rocket Lab didn't make the cut. Enter your email to see the names that beat RKLB. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-challenge-spacex-space-154652410.html",
@@ -18236,7 +18267,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "儘管第二季營收成長創紀錄的 62%，且積壓訂單量為 2.36B，年增 137%，但 RKLB 股票交易價格為 68 美元。 Iridium (IRDM) 的年收入增加了 8.7 億美元，而國防合約和 SPCX 第二季度收入為 7.81B 美元，表明 Rocket Lab 正在瞄準龐大的市場。 Neutron 的可重複使用火箭的價格在 5,000 萬美元至 5,500 萬美元之間，與 Falcon 9 相當，是分析師證明 125 美元目標價合理性所需的關鍵催化劑。剛剛發布。",
+        "event": "儘管第二季營收成長創紀錄的 62%，且未交付訂單量達到 2.36B 美元，年增 137%，但 RKLB 股票交易價格為 68 美元。 Iridium (IRDM) 的年收入增加了 8.7 億美元，而國防合約和 SPCX 第二季度收入為 7.81B 美元，表明 Rocket Lab 正在瞄準龐大的市場。 Neutron 的可重複使用火箭的價格在 5,000 萬美元至 5,500 萬美元之間，與 Falcon 9 相當，是分析師證明 125 美元目標價合理性所需的關鍵催化劑。剛剛發布。",
         "numbers": [
           "$68",
           "$2.36B",
@@ -18244,7 +18275,7 @@
           "$7.81B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "儘管第二季營收成長創紀錄的 62%，且積壓訂單量為 2.36B，年增 137%，但 RKLB 股票交易價格為 68 美元。",
+        "stance": "儘管第二季營收成長創紀錄的 62%，且未交付訂單量達到 2.36B 美元，年增 137%，但 RKLB 股票交易價格為 68 美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -23292,7 +23323,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Fluence Energy, Inc. (FLNC) 最新股票新聞與頭條新聞",
-      "summary": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟：",
+      "summary": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟... Levi & Korsinsky, LLP 提醒 Honeywell Aerospace Inc.（納斯達克股票代碼：HONA）的投資者已代表以下股東提起集體訴訟：",
       "originalTitle": "Fluence Energy, Inc. (FLNC) latest stock news and headlines",
       "originalSummary": "Levi & Korsinsky, LLP notifies investors in Better Home & Finance Holding Company (NASDAQ: BETR) that a class action lawsuit has been filed on behalf ... Levi & Korsinsky, LLP alerts investors in Honeywell Aerospace Inc. (NASDAQ: HONA) that a class action has been filed on behalf of shareholders who... Do not sell or share my personal information :",
       "url": "https://www.prnewswire.com/news-releases/flnc-shareholder-alert-fluence-energy-inc-securities-class-action-lawsuit---investors-with-losses-may-contact-levi--korsinsky-302900732.html",
@@ -23308,10 +23339,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟：",
+        "event": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟... Levi & Korsinsky, LLP 提醒 Honeywell Aerospace Inc.（納斯達克股票代碼：HONA）的投資者已代表以下股東提起集體訴訟：",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟：",
+        "stance": "Levi & Korsinsky, LLP 通知 Better Home & Finance Holding Company（納斯達克股票代碼：BETR）的投資者已代表以下人士提起集體訴訟... Levi & Korsinsky, LLP 提醒 Honeywell Aerospace Inc.（納斯達克股票代碼：HONA）的投資者已代表以下股東提起集體訴訟：",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -25881,7 +25912,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "法官可能會命令 Nebius 停止獨立資料中心的建設",
-      "summary": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。獨立衛士聯盟 (Guardians United Against Reckless Development) 提起訴訟，要求停止在小藍谷建設 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷布萊路沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
+      "summary": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。 Independence GUARD（共同反對魯莽開發衛士聯盟）提起訴訟，要求停止在小藍谷建造 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷 Bly Road 沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
       "originalTitle": "Judge could order Nebius to halt data center construction in Independence",
       "originalSummary": "A motions hearing is set for Oct. 22 on a lawsuit related to the Nebius data center project in Independence.The Independence GUARD (Guardians United Against Reckless Development) Alliance filed the lawsuit to halt construction of the Nebius hyperscale AI data factory in the Little Blue Valley.Named in the lawsuit are the city of Independence, Missouri ADC Holdings LLC (data center developer) and Independence Power Partners LP.Residents along Bly Road in the Little Blue Valley are hoping to stop construction near their homes.The lawsuit alleges the city violated zoning and sunshine laws, as well as the city charter, and has failed to enforce city laws. Residents are asking a judge to pause the project.A hearing has been set for 9 a.m. on Oct. 22 on their motion for a temporary restraining order and the defendants' motion to dismiss.The Independence City Council approved billions of dollars in incentives for Dutch tech company Nebius to build and operate the 2.1-million-square-foot hyperscale AI data factory on 400 acres at the south end of Bly Road in March. Nebius broke ground on the first phase of the project in April.Nebius — which is party to the lawsuit through a subsidiary, Missouri ADC Holdings — provided us a statement about the lawsuit when it was filed earlier this year in Jackson County Circuit Court.“We are reviewing the claims and cannot comment on the case specifics,” Nebius Vice President of Public Affairs John Sutter said in a statement. “Nebius remains committed to complying with all applicable laws and regulations, and being a responsible partner for the community as our historic investment in Independence takes shape.”—",
       "url": "https://www.kshb.com/news/local-news/hearing-set-for-october-22-on-temporary-restraining-order-for-nebius-data-center-project",
@@ -25898,10 +25929,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。獨立衛士聯盟 (Guardians United Against Reckless Development) 提起訴訟，要求停止在小藍谷建設 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷布萊路沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
+        "event": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。 Independence GUARD（共同反對魯莽開發衛士聯盟）提起訴訟，要求停止在小藍谷建造 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷 Bly Road 沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。獨立衛士聯盟 (Guardians United Against Reckless Development) 提起訴訟，要求停止在小藍谷建設 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷布萊路沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
+        "stance": "動議聽證會定於 10 月 22 日舉行，涉及獨立城 Nebius 資料中心專案相關訴訟。 Independence GUARD（共同反對魯莽開發衛士聯盟）提起訴訟，要求停止在小藍谷建造 Nebius 超大規模人工智慧資料工廠。訴訟中指定的城市為密蘇裡州獨立市 ADC Holdings LLC（資料中心開發商）和 Independence Power Partners LP。小藍谷 Bly Road 沿線的居民是希望停止他們家附近的施工。訴訟指控該市違反了分區和陽光法以及城市憲章，並且未能執行城市法律。居民要求法官暫停該項目。聽證會定於 10 月 9 日上午 9 點舉行。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
