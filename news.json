@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 02:25 台灣時間",
+  "updatedAt": "2026-10-20 02:29 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
@@ -36,17 +36,18 @@
         "sourceQuality": "headline_only"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": false
     },
     {
       "ticker": "INTC",
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "英特爾股價在每週暴跌 14% 後因摩根大通上調而飆升",
-      "summary": "",
+      "summary": "Intel (INTC) shares rallied about 3% in midday trading on Monday, Oct. 19, after JPMorgan upgraded the chipmaker. The rebound came after a difficult week for tech investors. Intel stock tumbled more than 14% last week amid a broad tech sell-off, partly driven by CoreWeave's (CRWV) debt-heavy balance sheet, which raised concerns about financing for AI infrastructure and pressured the semiconductor sector.",
       "originalTitle": "Intel stock surges on JPMorgan upgrade after 14% weekly plunge",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYmdTX2Ztc2JJOG51TWo3cDA3TU1HZ3JsUEwwbGRwV3laNURWbkFBemtWNFlfQUZJYzNGMFg3YlRYZ28xMkdDZEZRTld1eFhHUDV1bUFWU0R3V1I3UE55MVpTTWxGR21JTkE4cGJrXzllTEd0Tlc4SlZLVzl1VGhxdjk2N2o2aE55NHlDcQ?oc=5",
+      "originalSummary": "Intel (INTC) shares rallied about 3% in midday trading on Monday, Oct. 19, after JPMorgan upgraded the chipmaker. The rebound came after a difficult week for tech investors. Intel stock tumbled more than 14% last week amid a broad tech sell-off, partly driven by CoreWeave's (CRWV) debt-heavy balance sheet, which raised concerns about financing for AI infrastructure and pressured the semiconductor sector.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-surges-jpmorgan-upgrade-181149210.html",
       "ts": "2026-10-19T18:11:49+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
@@ -54,52 +55,54 @@
         {
           "broker": "JPMorgan",
           "analyst": "",
-          "rating": "",
+          "rating": "sell",
           "action": "升評",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "reason": "CoreWeave (CRWV) 負債累累的資產負債表引發了人們對人工智慧基礎設施融資的擔憂，並對半導體產業構成壓力。",
+          "reasonConfidence": "high",
           "targetTicker": "INTC",
           "targetCompany": "Intel"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "INTC"
+        "INTC",
+        "CRWV"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 214.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜評等：sell｜調整原因：CoreWeave (CRWV) 負債累累的資產負債表引發了人們對人工智慧基礎設施融資的擔憂，並對半導體產業構成壓力。",
         "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "why": "調整原因：CoreWeave (CRWV) 負債累累的資產負債表引發了人們對人工智慧基礎設施融資的擔憂，並對半導體產業構成壓力。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：CoreWeave (CRWV) 負債累累的資產負債表引發了人們對人工智慧基礎設施融資的擔憂，並對半導體產業構成壓力。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Deutsche Bank 重申 SPCX Buy",
-      "summary": "",
+      "summary": "In his latest research note, analyst Edison Yu confirms his positive recommendation. The broker Deutsche Bank is keeping its Buy rating. The target price is unchanged and still at USD 235.",
       "originalTitle": "SpaceX (Space Exploration Technologies) : Deutsche Bank reiterates its Buy rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNakNXQlZLSEktdlpNZmxYaW5JOHA5YWI0RlRjck5XVzVRekpYZFh2Wk9hVjllcVMyUWtFUVFaXzBVczBaa2dNa3pudFhyZnloYm1yWWNBbnlDVkVUb2k3T0lEeG9Ccm04ZHM4YlFxMnNObUtOQ1pZSE84X3R0aTZlR0stMnVVX0pDSE84T1AtNUtGZHhqVGRqd0wwS0JKOGdUVXR3MkltSkhWcHUwMWp6TWxGRnU1RC1IQWlwX0tvcmVGNTFhMWhSNGhB?oc=5",
+      "originalSummary": "In his latest research note, analyst Edison Yu confirms his positive recommendation. The broker Deutsche Bank is keeping its Buy rating. The target price is unchanged and still at USD 235.",
+      "url": "https://www.marketscreener.com/news/spacex-space-exploration-technologies-deutsche-bank-reiterates-its-buy-rating-ce785cdbdc8bf12c",
       "ts": "2026-10-19T18:07:28+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
         {
           "broker": "Deutsche Bank",
-          "analyst": "",
+          "analyst": "Edison Yu",
           "rating": "Buy",
           "action": "重申",
           "newTarget": "",
@@ -108,24 +111,69 @@
           "reasonConfidence": "none",
           "targetTicker": "SPCX",
           "targetCompany": "SpaceX"
+        },
+        {
+          "broker": "Deutsche Bank",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "SPCX",
+          "targetCompany": "SpaceX"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX"
       ],
-      "eventType": "",
-      "score": 202.5,
+      "eventType": "新題材",
+      "score": 210.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：SpaceX（SPCX）｜券商：Deutsche Bank｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：SpaceX（SPCX）｜券商：Deutsche Bank｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由\n被評級公司：SpaceX（SPCX）｜券商：Deutsche Bank｜評等：Buy｜調整原因：來源未提供具體理由",
         "numbers": [],
         "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Unusual Options Activity: CBRS, UNP and Others Attract Market Bets, CBRS V/OI Ratio Reaches 303.6",
+      "summary": "",
+      "originalTitle": "Unusual Options Activity: CBRS, UNP and Others Attract Market Bets, CBRS V/OI Ratio Reaches 303.6",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZTJES1hYQnNOWFZqbjdrbXlXYzAybjJ5TTRPSWhKcDRoR3UtQWZ2bG9razBkaGJ3aV9ZaW51bFJTbFNFYjR4cHdBOXpvSk9DQm1CZDNQTnN3QU1NWXVKaEFfRVFEMF96Q1E2TmI2dFZTQWdYaU9RSGpndDRneHRVWkdPM0ZDNkQ1eUl5ZENIZU1NTGo3RnA1dDdxMDFvSVVkWDJ4SWhmQmpYdU14?oc=5",
+      "ts": "2026-10-19T17:49:53+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -4.873830673689161,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -625,33 +673,42 @@
       "group": "EV／AI／機器人",
       "tag": "利多",
       "title": "特斯拉在第三季前將評級從“賣出”升級為“持有”",
-      "summary": "",
+      "summary": "Tesla TSLA is slated to release third-quarter 2026 results on Wednesday, after market close. The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The earnings estimate for the to-be-reported quarter has been revised upward by a cent over the past seven days. The bottom-line projection indicates a year-over-year decline of 12%. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.",
       "originalTitle": "Tesla upgraded from Sell to Hold ahead of Q3 ea...",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZU1iZTQ5ZHptMm90SHdwYmo2M0JtVmxIb2tfMGdRSnAtWGEza0lma0xDYV96OVpUX0R2Ul85OXBzS2o0RFRZc3h6aW5hR3p4NDE1aEIzT0ZEZGV6VXY4S1NZWUc2VW1TcXFwRnllaGZnZG9LRnpOMEo4VW5nYktSVHViUGh3ckFHQ0VaNjliem44RDg?oc=5",
+      "originalSummary": "Tesla TSLA is slated to release third-quarter 2026 results on Wednesday, after market close. The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The earnings estimate for the to-be-reported quarter has been revised upward by a cent over the past seven days. The bottom-line projection indicates a year-over-year decline of 12%. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.1%.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-hold-sell-tsla-stock-114800195.html",
       "ts": "2026-10-19T16:37:12+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "TSLA"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 214.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Tesla TSLA is slated to release third-quarter 2026 results on Wednesday, after market close. The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The bottom-line projection indicates a year-over-year decline of 12%. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.",
+        "numbers": [
+          "$27.8 billion",
+          "12%",
+          "1.1%",
+          "27.8 billion"
+        ],
+        "why": "券商調整理由：The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.",
+        "stance": "The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "券商調整理由：The Zacks Consensus Estimate for the to-be-reported quarter's earnings and revenues is pegged at 44 cents per share and $27.8 billion, respectively. The Zacks Consensus Estimate for quarterly revenues suggests a year-over-year contraction of 1.",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MSFT",
@@ -701,7 +758,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -790,7 +847,7 @@
       ],
       "eventType": "",
       "score": 226.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Wall Street's major indexes began the week largely in the green as the technology trade aimed to recover ahead of key earnings data. Now, here are 4 news stories that broke in the morning to watch out for:",
@@ -805,7 +862,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -891,7 +948,7 @@
           "action": "升評",
           "newTarget": "$350",
           "oldTarget": "",
-          "reason": "亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得買的十隻股票，但微軟並沒有上榜。輸入您的電子郵件以查看",
+          "reason": "亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
           "reasonConfidence": "high",
           "targetTicker": "AMZN",
           "targetCompany": "Amazon"
@@ -908,18 +965,18 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：升評｜評等：buy｜目標價：$350｜調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得買的十隻股票，但微軟並沒有上榜。輸入您的電子郵件以查看",
+        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：升評｜評等：buy｜目標價：$350｜調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
         "numbers": [
           "$350"
         ],
-        "why": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得買的十隻股票，但微軟並沒有上榜。輸入您的電子郵件以查看",
+        "why": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股票市場，並列出了目前最值得買的十隻股票，但微軟並沒有上榜。輸入您的電子郵件以查看",
+        "takeaway": "調整原因：亞馬遜計劃購買約 200 萬個 NVIDIA GPU。摩根士丹利將機器人技術視為 2027 年的催化劑，估計透過自動化履行處理的每增加 10% 的設備每年可節省 20 億至 40 億美元。剛剛發布。我們的分析師整理了整個股市，並列出了目前最值得買的十隻股票，而微軟並未上榜。輸入您的電子郵件以查看",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1317,6 +1374,38 @@
       "score": 7.5,
       "featured": false,
       "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "FORM",
+      "group": "半導體設備／測試",
+      "tag": "題材",
+      "title": "144 表格 |美敦力(MDT.US)高層提議出售475萬股普通股",
+      "summary": "",
+      "originalTitle": "Form 144 | Medtronic(MDT.US) Officer Proposes to Sell 4.75 Million in Common Stocks",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2RqbUp6YS1ITEVWSlhwbmk1QVdPQy1pUzRPbmhhWDlGZ21PZkl4T0dLVk9wbzhRbzVsUzlfZHhiSDF5MC1QQ0xTdndMdDZSQmdvTXAxWjJUZGdXN1labGY2bTJSQUxPa0JzUHRQZlZzZS1WOXNVNDl2c1hBSmhjN3JrM3MxNHJMR0FRb19MNE5OV0xJMHhpN1BheXAzZw?oc=5",
+      "ts": "2026-10-19T15:26:28+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 5.6946957432625345,
+      "relatedTickers": [
+        "FORM"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1910,6 +1999,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "SNDK",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "$Tradr 2X 多頭 SNDK 每日 ETF (SNXX.US)$",
+      "summary": "",
+      "originalTitle": "$Tradr 2X Long SNDK Daily ETF (SNXX.US)$",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUp4MUZ5aUlhLVROV0xTOGFRc2xIVE5oSGFiVkxNbnc0QmtMZ25ueDhrVnM0ZlE5c1Byc0RFY25PQXV6alVLREE2WHltcld4MjlhV1Fya1FXRGV3bnFkdXVqMG9LS0FHak8wSEpVMWlnVXNtcERQQXl0ak5fUWZKaUNZOEFNQWp5bjBNbVlPR24yaDJ6UVNpOG90Mnp3Zw?oc=5",
+      "ts": "2026-10-19T14:51:38+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 5.633802816901423,
+      "relatedTickers": [
+        "SNDK"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2084,8 +2205,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2224,7 +2345,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "KTOS",
@@ -2258,7 +2379,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 3
     },
     {
       "ticker": "SPCX",
@@ -2308,6 +2429,71 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "OKLO",
+      "group": "核能／鈾",
+      "tag": "題材",
+      "title": "Piper Sandler lowers Oklo stock price target on higher capex estimates",
+      "summary": "",
+      "originalTitle": "Piper Sandler lowers Oklo stock price target on higher capex estimates",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVc1YmEzYW56amJKTmM2YXpUdHBKOWVEUGxDTUhyTWtBbTNtVG84MlF5cDNFUHNhTlZDWUFOazhBWGYxeGZyQ2dMVHRCZ0RHT2hFVmsyNGFGdDN6Qmc2MDZwQWtOT3VWWjY2N0R0cFJ6MW5Nc3FXWFY0U0RfNGxOQkNVMlRFb2ZwcWhQbE4xaGxsWEdMNzQ3b3JydTQ5Wl9vdTRXZVZKb0Z5TjVYUE90a01oaFVIdnpmMmF4aW5waURhMHNWMzN2a1VR?oc=5",
+      "ts": "2026-10-19T14:30:29+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "OKLO"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "$杠杆股票 2 倍多头 CBRS 每日 ETF (CBRG.US)$ 谁被淘汰了？不是我，但還是很痛。",
+      "summary": "",
+      "originalTitle": "$Leverage Shares 2X Long CBRS Daily ETF (CBRG.US)$ Who got shaken out? Not me, but it still hurts.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWFI5ZWZ2dGYxZzBNVHBhZ2NUTThfQ05OV1ppSWVBLTFoSDU2bTd1aHJBN3NLSUpwNDVYUDAwYmF1MEVPSDBFWDd2b3JvWXllV0hoUXlPeklXSTRHbXFCTWhsNEFDNnFxenJxSWpFWFN4Wm5jWGk0WWVQS1dRQXgtdThnWE9fdEIycW83V21PM01vUU9jZDZkZlc2Q1U4MlN4dmpIdUQ1OA?oc=5",
+      "ts": "2026-10-19T14:30:10+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -4.873830673689161,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "INTC",
       "group": "CPU 概念股",
       "tag": "利多",
@@ -2353,7 +2539,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2508,7 +2694,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2716,7 +2902,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2834,204 +3020,6 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "利多",
-      "title": "納斯達克 100 指數：人工智慧債務交易成為焦點，英特爾升級提振晶片股",
-      "summary": "Intel Brings Buyers Back to the ChipsIntel gave chip buyers a reason to come back Monday. JPMorgan raised the stock to neutral from underweight after a 36% drop from its late-June high. Intel was up about 4% before the opening. AMD and Micron were each up about 3%.Last week left plenty of damage behind. The Nasdaq dropped 4.5%. Information technology lost more than 6%, its worst week since April 2025. Goldman Sachs said hedge funds sold technology stocks by the largest percentage on record. Nasdaq-100 futures gaine",
-      "originalTitle": "Nasdaq 100: Intel Upgrade Lifts Chip Stocks as AI Debt Trade Stays in Focus",
-      "originalSummary": "Intel Brings Buyers Back to the ChipsIntel gave chip buyers a reason to come back Monday. JPMorgan raised the stock to neutral from underweight after a 36% drop from its late-June high. Intel was up about 4% before the opening. AMD and Micron were each up about 3%.Last week left plenty of damage behind. The Nasdaq dropped 4.5%. Information technology lost more than 6%, its worst week since April 2025. Goldman Sachs said hedge funds sold technology stocks by the largest percentage on record. Nasdaq-100 futures gained 1.3% in premarket trading. S&P 500 futures were up 0.5%. Dow futures were down 88 points, or 0.2%. The bid stayed in the chips.Daily December E-mini Nasdaq-100 Index Futures Technical AnalysisDaily December E-mini Nasdaq 100 Index FuturesDecember E-mini Nasdaq-100 Index futures are trading sharply higher in a rebound rally. The main trend is down according to the daily swing chart. A trade through the swing bottom at 29053.00 will reaffirm the downtrend. The main trend will change to up on a move through the record high at 31616.50.The minor trend is also down. A trade through 30225.00 will change the minor trend to up and shift momentum to the upside.The long-term range is 27493.75 to 31616.50. Its retracement zone at 29555.25 to 29068.75 was successfully tested early in the session at 29226.00. The intermediate range is 29053.00 to 31616.50. Its retracement zone at 30032.25 to 30334.75 is the first target zone.The short-term range is 31616.50 to 29226.00. Its retracement zone at 30421.25 to 30703.25 is the key target area. The 50-day moving average at 30175.22 is controlling the momentum. Since the index is currently trading on the weak side of this indicator, it is also potential resistance.Daily December E-mini S&P 500 Index Futures Technical AnalysisDaily December E-mini S&P 500 Index FuturesDecember E-mini S&P 500 Index futures are higher at the opening on Monday. Overnight, a rally began after the index failed to take out Friday’s low at 7676.00. The pre-market surge was strong but it stopped just short of the 50-day moving average before pulling back.The main trend is down according to the daily swing chart. A trade through 7887.00 will change the main trend to up. A move through 7672.75 will reaffirm the downtrend. The minor trend is also down. A trade through 7809.50 will change the minor trend to up and confirm a shift in momentum.The long-term range is 7360.00 to 7904.00. Its retracement zone at 7632.00 to 7584.00 is a major downside target and potential value zone. The intermediate range is 7575.00 to 7897.50. Its retracement zone is 7736.25 to 7698.25. Earlier today, the index penetrated the lower level of this range, stopping at 7677.00 before turning higher and recapturing the upper level of the zone at 7736.25.The short-term range is 7672.75 to 7897.50. Sellers returned earlier today when traders tested its retracement zone at 7758.50 to 7785.25. Inside this area is the 50-day moving average at 7774.50.Intel’s Upgrade Brought in BuyersDaily Intel CorporationJPMorgan kept its 85 price target on Intel. That target remains about 5% below Friday’s close. The bank pointed to better execution under Chief Executive Lip B",
-      "url": "https://www.fxempire.com/forecasts/article/nasdaq-100-intel-upgrade-lifts-chip-stocks-as-ai-debt-trade-stays-in-focus-1639028",
-      "ts": "2026-10-19T14:02:36+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.9304396215915425,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "INTC",
-        "MU",
-        "AMD"
-      ],
-      "eventType": "跨公司事件",
-      "analystPriority": true,
-      "score": 228.75,
-      "featured": false,
-      "translated": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "neutral",
-          "action": "",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "摩根大通將該股從 6 月底高點下跌 36% 後，從減持上調至中性。",
-          "reasonConfidence": "medium",
-          "targetTicker": "INTC",
-          "targetCompany": "Intel"
-        }
-      ],
-      "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜評等：neutral｜調整原因：摩根大通將該股從 6 月底高點下跌 36% 後，從減持上調至中性。",
-        "numbers": [],
-        "why": "調整原因：摩根大通將該股從 6 月底高點下跌 36% 後，從減持上調至中性。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：摩根大通將該股從 6 月底高點下跌 36% 後，從減持上調至中性。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "WDC",
-      "group": "記憶體／儲存",
-      "tag": "利多",
-      "title": "正面 - 西部數據分析師重申對西部數據的買入評級，目標價為 900.00 美元",
-      "summary": "",
-      "originalTitle": "Positive - Western Digital analyst reiterated a Buy rating on Western Digital, with a price target of $900.00",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxNS0g0NGhaM2NPRl9GQTh1cGhzNGY5U3R0OTZNbFhfZm1KYkJ5RFdTREVSNG1yNURoTXdxbzZnalFHZ3hXUms3WVlURFFrbHdiTUlaV3ZJOHM2eUd4TEl2c09icWNuZHBsNnVQNW5UT3JpVmN0UDhja1ZhTEl5cENpQ3pJTmtyRzdMREhFd2NzbVBfemtLdkRZUHpCclAtWkRqVWlueThUWm5aSHlHRGFVclFKc3ZzblE2U0hyOEEyR1RBalk4b092OXFUWUFZX2xNU29CY1dicElHd3ZqcWZlcHRmUGJ1MDZqOUxUdUdyemVZM1hvWkF5bmlCWDRxMFpGaC1GNkdabk5JSXFWMjdkS2JIakxEYnQ5cTNEOGhFMFBqMDhIYzFRNnZBOENkX01FRU9mdWpJd3I1dmVMQzlZV2hRalNYazdsVEFQekY5UExRYWstdWVILTgtUUs1VEZHU0d4TW0xdWhvSFdRWGVOeWtiU3NtTWVqX1poVTlZVlRKVWthRVVqQTFHVTU5UQ?oc=5",
-      "ts": "2026-10-19T14:02:36+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": true,
-      "movePct": 4.834337349397599,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "WDC"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美國股市走勢|記憶體晶片股大幅上漲； SanDisk (SNDK.US) 上漲超過 5%",
-      "summary": "",
-      "originalTitle": "U.S. Stock Market Moves | Memory Chip Stocks Rise Broadly; SanDisk (SNDK.US) Up Over 5%",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUVVGQlZhdUctQmxrSE9pdEZlY0dFTFJ4Zm1yWlBVb2FmMHVYMWRpaGNaY3hHd0QybkpCMnNJbWFYWGJVaWI0RC05a0NndENCV09BZDVHVXZVbWZQRHdpam9vcDdQeFVwMHhjUUxlTVBLWkp4R3k3R05xa1J1dWFGQ0ZaQUV3bDFGd2htamtneWpYbFNPN2lIU3ExRWxab1lOdjZHblhUaUc?oc=5",
-      "ts": "2026-10-19T13:57:03+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 6.510428692372838,
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 7.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "Bank of America 下修 INTC 目標價至 $445（原 $570）",
-      "summary": "標題：錯誤 404：找不到頁面 - TipRanks.com URL 來源：http://www.tipranks.com/news/intel-upgraded-paypal-downgraded-wall-streets-top-analyst-calls Markdown 內容：55% 折扣 TipRanks Premium 立即升級 信心投資 折扣頂級分析師股票 熱門智慧評分股票熱門人工智慧分析師熱門股票新熱門內部人士股票市場動向提示排名 50 指數人工智慧股票市值最大的公司 ETF 按 Upside 排列的頂級 ETF 按智慧分數排列的頂級 ETF 頂級贏家/輸家/活躍 ETF 加密比特幣 熱門以太坊 大宗商品 黃金選擇權不尋常價值選擇 熱門貨幣投資者貨幣化價值 熱門貨幣/活躍美元 價值投資貨幣 智慧貨幣投資新貨幣價值新貨幣價值新價值投資貨幣/價值貨幣 熱門貨幣/新貨幣/價值投資貨幣投資新貨幣價值投資新貨幣價值新貨幣價",
-      "originalTitle": "Intel upgraded, PayPal downgraded: Wall Street’s top analyst calls",
-      "originalSummary": "The Nasdaq posted its worst week since June, falling 2% Friday to 26,140, as analysts warn of a potential pullback not seen since 2008-2009. Iran's missile strikes on tankers cut Strait of Hormuz oil flows by roughly 32%, pushing Brent Crude up 4% to $110 a barrel. Bank of America double-downgraded Ameriprise Financial from Buy to Underperform, slashing its target from $570 to $445, while Bernstein lifted Datadog's target to $350. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Intel didn't make the cut. Enter your email to see the names that beat INTC. The report is free. Enter your email and see if any of your stocks made the cut.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/monday-top-wall-street-analyst-141219590.html",
-      "ts": "2026-10-19T13:57:00+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "detailSource": "article_or_same_event",
-      "analystDetails": [
-        {
-          "broker": "Bank of America",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$445",
-          "oldTarget": "$570",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "INTC",
-          "targetCompany": "Intel"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 258.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：Bank of America｜動作：下修｜評等：Buy｜目標價：$445（原 $570）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$570",
-          "$445"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 2
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "$SanDisk (SNDK.US)$ 經過三週的痛苦終於。我需要你回到1800。那才是你該待的地方🙏",
-      "summary": "",
-      "originalTitle": "$SanDisk (SNDK.US)$ Finally after three weeks of suffering. i need you to go back to 1800. that is where you belong 🙏",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTRkLTR2QV9tcjFIOXNHdl9NUzdZelE4RjMwcmRVRmFSdzRjMUs0U0xOTU9KVXVndjNDR1NTd09WcWYxbXl3T3hhbWdkcDJqdk1waDN5ZHQ1eHFMRkVFeFRNZWhQQ3pJdklkMTFyVGQtdFUybzI2RTJVRXMyVGpqYUtlNW5jbHFnWkJNSVhZTHh1SGVoZTVTWTBUY054dTBnUXVobm5qQkdCdE1HVFVj?oc=5",
-      "ts": "2026-10-19T13:56:56+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 7.193873624259228,
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 9.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -3269,7 +3257,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "馬斯克 (Elon Musk) 表示，他將把 SpaceX 的股份送給“美國的每個孩子”",
-      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
       "originalTitle": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
       "originalSummary": "Elon Musk announced on social media Monday that he intends to give one SpaceX share to each child in the United States. The post described the move as the start of a larger series of gifts. Details on timing, eligibility, or distribution remain absent from the statement. ( [1] ) Musk, who serves as chief executive of SpaceX, posted the pledge without additional explanation or follow-up instructions. The message reached his large audience on the platform and quickly drew attention from news outlets and the public. Observers noted the unusual nature of committing personal holdings to a broad group of minors across the country.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-vows-one-spacex-123000728.html",
@@ -3286,7 +3274,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
@@ -4046,7 +4034,7 @@
       "group": "光通訊／網通",
       "tag": "利多",
       "title": "Viavi Solutions 第一季預覽：價格重置後更具吸引力（評級升級）(VIAV)",
-      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Viavi Solutions Q1 Preview: Lot More Attractive After Price Reset (Rating Upgrade) (VIAV)",
       "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of MU, TSM either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4954989-viavi-solutions-q1-preview-a-lot-more-attractive-after-the-price-reset-rating-upgrade",
@@ -4063,14 +4051,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -7050,7 +7038,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "ASML的「售罄」前景迫使投資人將目光投向需求之外",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "ASML's 'sold out' outlook forces investors to look beyond demand",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4954089-asml-q3-overview-sold-out-until-2028-but-im-not-buying",
@@ -7067,10 +7055,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -8449,7 +8437,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "AI訂單湧入 台積電獲利超預期",
-      "summary": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
+      "summary": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
       "originalTitle": "TSMC’s Profit Surpasses Expectations After AI Orders Rush In",
       "originalSummary": "Taiwan Semiconductor Manufacturing Co reported a better-than-expected profit for the September quarter, sustaining torrid growth despite rising concern about the long-term AI buildout.",
       "url": "https://sg.finance.yahoo.com/news/tsmcs-profit-surpasses-expectations-ai-220917759.html",
@@ -8466,10 +8454,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
+        "event": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "台積電公佈的第二季利潤好於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但仍保持了強勁的成長。",
+        "stance": "台積電公佈的第二季利潤優於預期，儘管人們對長期人工智慧建設的擔憂日益加劇，但該公司仍保持強勁成長。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11789,7 +11777,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "ASML 表示人工智慧需求將超過供應兩年",
-      "summary": "對 ASML Holding N.V. 有興趣？這是我們更喜歡的五隻股票。 ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收喜憂參半，但利潤率更高，上調了全年指引，並對第四季度做出了強勁的預測。",
+      "summary": "對 ASML Holding N.V. 有興趣？這是我們更喜歡的五隻股票。 ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收好壞參半，但利潤率更高，上調了全年指引，並對第四季做出了強勁的預測。",
       "originalTitle": "AI demand to exceed supply for 2 more years, says ASML",
       "originalSummary": "Interested in ASML Holding N.V.? Here are five stocks we like better. ASML's CEO said demand will exceed supply through 2028, even after planned 30% capacity increases over the next two years. The company posted mixed Q3 revenue but stronger margins, raised full-year guidance and issued a strong forecast for the fourth quarter. Analysts maintain a consensus Moderate Buy rating with roughly 25% upside, while technical charts and capital returns point to further gains.",
       "url": "https://finance.yahoo.com/technology/ai/articles/asml-t-keep-ai-demand-183000539.html",
@@ -11805,13 +11793,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "對 ASML Holding N.V. 有興趣？這是我們更喜歡的五隻股票。 ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收喜憂參半，但利潤率更高，上調了全年指引，並對第四季度做出了強勁的預測。",
+        "event": "對 ASML Holding N.V. 有興趣？這是我們更喜歡的五隻股票。 ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收好壞參半，但利潤率更高，上調了全年指引，並對第四季做出了強勁的預測。",
         "numbers": [
           "30%",
           "25%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收喜憂參半，但利潤率更高，上調了全年指引，並對第四季度做出了強勁的預測。",
+        "stance": "ASML 執行長表示，即使計劃在未來兩年內將產能增加 30%，到 2028 年，需求仍將超過供應。該公司公佈的第三季營收好壞參半，但利潤率更高，上調了全年指引，並對第四季做出了強勁的預測。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -13452,7 +13440,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "投資 AST SpaceMobile 股票能讓您的資金翻倍嗎？",
-      "summary": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+      "summary": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
       "originalTitle": "Can Investing in AST SpaceMobile Stock Double Your Money?",
       "originalSummary": "ASTS trades at $51 but carries a $87.68 BUY target, implying 72% upside if beta service and 45 satellites launch on schedule by early 2027. Iridium earns real profit on $225M quarterly revenue yet commands only a $5B market cap, exposing how richly ASTS is valued on its $1.3B backlog alone. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AST SpaceMobile didn't make the cut. Enter your email to see the names that beat ASTS. The report is free. Enter your email and see if any of your stocks made the cut. The 24/7 Wall St. price target for AST SpaceMobile ( NASDAQ:ASTS ) is $87.68 over the next 12 months, well above the recent $50.97 share price.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-building-something-wall-170055856.html",
@@ -13468,7 +13456,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "event": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "numbers": [
           "$51 b",
           "$87.68 B",
@@ -13476,7 +13464,7 @@
           "$5B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "stance": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -13649,7 +13637,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Mainspring Energy 與 AEP 簽署具有里程碑意義的 1.6 GW 協議，提供可靠、經濟的發電能力",
-      "summary": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 163 年進行線性交易。根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
+      "summary": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 169999；根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
       "originalTitle": "Mainspring Energy Signs Landmark 1.6 GW Agreement with AEP for Reliable, Affordable Power Capacity",
       "originalSummary": "Agreement accelerates adoption of Mainspring's Linear Generators at grid scale in the rapidly growing market for onsite power generation MENLO PARK, Calif., Oct. 13, 2026 /PRNewswire/ -- Mainspring Energy, Inc. has signed a landmark sales agreement with American Electric Power (AEP), one of North America's largest electric utilities, to provide up to 1.6 gigawatts (GW) of Mainspring Linear Generators through 2034. As part of the agreement, AEP purchased its first tranche of the Mainspring products, at 190 megawatts (MW), for delivery beginning in 2027.",
       "url": "https://finance.yahoo.com/energy/articles/mainspring-energy-signs-landmark-1-150000110.html",
@@ -13665,12 +13653,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 163 年進行線性交易。根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
+        "event": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 169999；根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
         "numbers": [
           "1.6 GW"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 163 年進行線性交易。根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
+        "stance": "該協議加速了 Mainspring 線性發電機在快速增長的現場發電市場中在電網規模的採用 加州門洛帕克，2026 年 10 月 13 日 /美通社/ -- Mainspring Energy, Inc. 與北美最大的電力公司之一美國電力公司 (AEP) 簽署了一項具有里程碑意義的發電機，將在 2034 年的美國電力公司 (AEP) 簽署了一項具有里程碑意義的 GW 線性協議，將在 2034 年 169999；根據協議，AEP 購買了第一批 Mainspring 產品，容量為 190 兆瓦 (MW)，並將於 2027 年開始交付。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15665,7 +15653,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "Credo推出1.6T ZeroFlap主動光纜，這是業界首款用於人工智慧資料中心的行級寬並行光互連 - Credo Technology Group Holding Ltd",
-      "summary": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
+      "summary": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
       "originalTitle": "Credo Unveils 1.6T ZeroFlap Active Light Cable, Industry’s First Row-Scale, Wide-Parallel Optical Interconnect for AI Data Centers - Credo Technology Group Holding Ltd",
       "originalSummary": "SAN JOSE, Calif., October 12, 2026--Credo unveils 1.6T ZeroFlap active light cable (ALC), industry’s first row-scale, wide-parallel optical interconnect for AI data centers.",
       "url": "https://finance.yahoo.com/technology/ai/articles/credo-unveils-1-6t-zeroflap-130000836.html",
@@ -15681,10 +15669,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
+        "event": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級、寬並行光學互連。",
+        "stance": "加州聖荷西，2026 年 10 月 12 日 – Credo 推出 1.6T ZeroFlap 主動光纜 (ALC)，這是業界首款用於 AI 資料中心的行級寬並行光學互連。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -17094,7 +17082,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Flex 擴充預製模組化資料中心產品組合以加速 AI 工廠部署 - Flex",
-      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
       "originalTitle": "Flex Expands Prefabricated Modular Data Center Portfolio to Accelerate AI Factory Deployment - Flex",
       "originalSummary": "Flex (NASDAQ: FLEX) will announce its second quarter fiscal year 2027 financial results before the market opens on Wednesday, October 28, 2026. The... Flex (NASDAQ: FLEX) announced today that it has entered into an agreement to sell $2.0 billion of shares of Series A Convertible Preferred Stock of... Do not sell or share my personal information :",
       "url": "https://www.prnewswire.com/news-releases/flex-expands-prefabricated-modular-data-center-portfolio-to-accelerate-ai-factory-deployment-302905201.html",
@@ -17110,13 +17098,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
         "numbers": [
           "$2.0 billion",
           "2.0 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -17400,7 +17388,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 股票預計在 2027 年迎來催化劑推動",
-      "summary": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 的股價應聲下跌。",
+      "summary": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 股價應聲下跌。",
       "originalTitle": "SpaceX stock poised for a catalyst-fueled 2027",
       "originalSummary": "SpaceX ( SPCX ) isn't going quietly into what could be an eventful 2027. Elon Musk's rocket business said late last week it acquired a nationwide low-band spectrum portfolio . It positions Musk's satellite business, Starlink, to challenge legacy wireless giants across the US. Shares of AT&T ( T ), T-Mobile ( TMUS ), and Verizon ( VZ ) tanked on the news on Friday. Meanwhile, SpaceX is reportedly seeking to raise $40 billion in financing to purchase Nvidia chips. \"The debate is whether a company this early in its public life should carry that much leverage,\" Yorkville Ives partner Dan Ives said. \"We think the contracted backlog in AI and the cash generation of Starlink give SpaceX the capacity to service it, and we would rather see this compute financed and deployed than deferred.\"",
       "url": "https://www.aol.com/articles/spacex-stock-poised-catalyst-fueled-114940000.html",
@@ -17417,13 +17405,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 的股價應聲下跌。",
+        "event": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 股價應聲下跌。",
         "numbers": [
           "$40 billion",
           "40 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 的股價應聲下跌。",
+        "stance": "SpaceX (SPCX) 不會悄悄進入可能是多事之秋的 2027 年。馬斯克 (Elon Musk) 的火箭業務公司上週晚些時候表示，它收購​​了全國範圍內的低頻段頻譜組合。它使馬斯克的衛星業務「星鏈」能夠挑戰美國傳統的無線巨頭。週五，AT&T ( T )、T-Mobile ( TMUS ) 和 Verizon ( VZ ) 股價應聲下跌。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -17885,7 +17873,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞將開始在高風險的 AI-RAN 賭博中出售 GPU",
-      "summary": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+      "summary": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
       "originalTitle": "Nokia to start dealing out GPUs in high-stakes AI-RAN gamble",
       "originalSummary": "Some drivers are happy to run a car until the chassis has corroded and the engine coughs with every agonizing change of gear. Others less constrained by economic circumstances want a new vehicle every time the paint is nicked. Many big telcos currently seem to have more in common with the first group, determined to run their mobile networks until the basestations are shrouded in cobwebs. Any upgrades, including to 6G, should not have to require hardware replacement, they are telling vendors. Yet Nokia wants to sell them a completely new engine. The Finnish company has publicly teamed up with Nvidia to design radio access network (RAN) products built on the giant chipmaker's graphics processing units (GPUs). It has stopped developing new custom silicon with partner Marvell Technology, although it will continue to support its existing 4G and 5G range for years. Ultimately, however, customers will have to buy new hardware to enjoy new features. There is no guarantee the situation will be all that different for customers of Ericsson. Operators using its purpose-built 5G products today may need to invest in newer application-specific integrated circuits (ASICs) to support forthcoming 5G-Advanced and 6G software. But Nokia's GPU strategy is undoubtedly much riskier. While commonplace in data centers and certain gadgets, Nvidia's chips have never been used for RAN compute. If telcos balk at the idea, Nokia could be in trouble. \"If you don't have a companion strategy that's based on classic ASICs, you really have created jeopardy, I think,\" said Marcus Weldon, a former Nokia chief technology officer who was also president of its Bell Labs research unit. Yet the rewards could be immense if Nokia can prove that GPUs have advantages over ASICs in the RAN. In recent months, it has argued that its GPU-led strategy will support a doubling in spectral efficiency, among other benefits, by 2028. In a RAN market that is not expected to grow in the next few years, such improvements could justify the initial hardware outlay and even translate into market share gains for Nokia, allowing it to recover 5G ground lost to Ericsson and Samsung. That could be a disaster for Nokia's rivals. Numerous operators are now giving Nokia's AI-RAN products a test drive before they become commercially available early next year. None has yet said anything in public about the initial experience, and many operators have previously voiced concern about using what is still perceived to be a very expensive and energy-hungry chip in the RAN. Overkill has been the word on some lips, as if putting a GPU in the RAN is like using a rocket launcher to kill a rat. But Nokia has been advertising a slimline GPU that could be slotted into an existing Airscale chassis originally designed to support Marvell Technology's silicon. It will have to function with the same power constraints and be available for the same price, according to executives. They have also promised it will support software upgrades and new AI algorithms for years – unlike any ASIC. \"What we anticipate with AI-RAN is that it gives customers an opportunity to reduce the ongoing hardware investment, or to elongate that,\" said Nok",
       "url": "https://www.lightreading.com/5g/nokia-to-start-dealing-out-gpus-in-high-stakes-ai-ran-gamble",
@@ -17904,10 +17892,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+        "event": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+        "stance": "有些駕駛很樂意開車，直到底盤腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -18318,7 +18306,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "利多",
       "title": "Palantir：我大錯特錯了，我現在看到了曙光 - 購買（評級升級）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Palantir: I Couldn't Have Been More Wrong, I See The Light Now - Buy (Rating Upgrade)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4953338-palantir-i-couldnt-have-been-more-wrong-i-see-the-light-now-buy",
@@ -18335,14 +18323,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -19170,7 +19158,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Marvell：為什麼我最終升級為買入（評級升級）（納斯達克股票代碼：MRVL）",
-      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Marvell: Why I’m Finally Upgrading To Buy (Rating Upgrade) (NASDAQ:MRVL)",
       "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of MRVL either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4953233-marvell-why-im-finally-upgrading-to-buy-rating-upgrade",
@@ -19188,14 +19176,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MRVL 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -20391,7 +20379,7 @@
           "action": "降評",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+          "reason": "目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
           "reasonConfidence": "high",
           "targetTicker": "NXPI",
           "targetCompany": "NXP"
@@ -20407,12 +20395,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：NXP（NXPI）｜券商：Citi｜動作：降評｜調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "event": "被評級公司：NXP（NXPI）｜券商：Citi｜動作：降評｜調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "numbers": [],
-        "why": "調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "why": "調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "takeaway": "調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -27267,7 +27255,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Teradyne 增強了 Titan HP 的 AI 晶片可靠性測試能力",
-      "summary": "Teradyne, Inc. 宣布推出一款可投入生產的系統，可在其 Titan? 上提供增強的預燒功能？惠普平台。傳統的老化會將設備在受控空氣溫度下的專用烘箱中保存數小時，然後再進行功能測試。相反，Teradyne Titan HP 在運行實際設備工作負載時將每個設備保持在其目標結溫，從而優化可靠性應力功能，並在每個設備級別啟用熱控制。",
+      "summary": "Teradyne, Inc. 宣布推出一款可投入生產的系統，可在其 Titan? 上提供增強的預燒功能？惠普平台。傳統的老化會將設備在受控空氣溫度下的專用烘箱中保存數小時，然後再進行功能測試。相反，Teradyne Titan HP 在運行實際設備工作負載時將每個設備保持在其目標結溫，從而優化了可靠性應力功能，並在每個設備級別啟用了熱控制。",
       "originalTitle": "Teradyne enhances Titan HP for AI chip reliability tests",
       "originalSummary": "Teradyne, Inc. announced a production-ready system that delivers enhanced burn-in capabilities on its Titan? HP platform. Traditional burn-in holds devices in banks of dedicated ovens at a controlled air temperature for hours before they move on to functional test.Teradyne Titan HP instead holds each device at its target junction temperature while running a realistic device workload, so reliability stress functions are optimized and thermal controls are enabled at the per-device level. Titan HP can be used for system level test or reliability testing, optimizing capital cost investments. For reliability testing, every device carries its full stress-and-test history on a single record.Per-site thermal control, tuned to each device&#039;s thermal and force zones, and paired with high per-device kilowatt power delivery, lets Titan HP sustain reliability-stress conditions on parts whose power draw and heat dissipation strain a conventional oven flow. The platform&#039;s asynchronous slot architecture loads and tests each slot independently, so a long stress run on one device does not idle the rest of the system, and individual sites can be serviced while the system continues to operate. Test programs run on the Teradyne Atlas software platform, which lets engineers import existing programs or build new ones and port them to other Teradyne system level test systems. Burn-in has long been standard for automotive and other high-reliability silicon.AI accelerators and cloud infrastructure devices are now entering the same category, driven by the high cost of a single failed accelerator in a deployed rack. Enhanced burn-in extends Teradyne?s test portfolio, which spans the AI device supply chain from wafer to data center.",
       "url": "https://www.marketscreener.com/news/teradyne-inc-introduces-titan-hp-platform-with-burn-in-capabilities-for-advanced-ai-data-center-de-ce785dd9d18cfe21",
@@ -27284,7 +27272,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Teradyne, Inc. 宣布推出一款可投入生產的系統，可在其 Titan? 上提供增強的預燒功能？惠普平台。傳統的老化會將設備在受控空氣溫度下的專用烘箱中保存數小時，然後再進行功能測試。相反，Teradyne Titan HP 在運行實際設備工作負載時將每個設備保持在其目標結溫，從而優化可靠性應力功能，並在每個設備級別啟用熱控制。",
+        "event": "Teradyne, Inc. 宣布推出一款可投入生產的系統，可在其 Titan? 上提供增強的預燒功能？惠普平台。傳統的老化會將設備在受控空氣溫度下的專用烘箱中保存數小時，然後再進行功能測試。相反，Teradyne Titan HP 在運行實際設備工作負載時將每個設備保持在其目標結溫，從而優化了可靠性應力功能，並在每個設備級別啟用了熱控制。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "stance": "Teradyne, Inc. 宣布推出一款可投入生產的系統，可在其 Titan?",
