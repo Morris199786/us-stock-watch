@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-10-19 21:03 台灣時間",
+  "updatedAt": "2026-10-20 08:06 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,128 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-10-19:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-10-19",
+      "generatedAt": "2026-10-20 08:06 台灣時間",
+      "generatedAtIso": "2026-10-20T00:06:37.920178+00:00",
+      "items": [
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "group": "CSP",
+          "headline": "由於摩根士丹利的新價格目標，亞馬遜股票 (AMZN) 上漲 5%",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 4.979999999999984,
+          "movePrice": 262.45,
+          "regularChangePct": 4.979999999999984,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.35816345970660635,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.tipranks.com/news/amazon-stock-amzn-gains-5-thanks-to-a-new-price-target-from-morgan-stanley"
+            }
+          ],
+          "score": 955.31
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "group": "NeoCloud／AI 算力",
+          "headline": "Goldman Sachs 調整 CRWV 目標價至 $139",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -0.43981104414400063,
+          "movePrice": 61.12,
+          "regularChangePct": -0.43981104414400063,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.22905759162303863,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-19-212501721.html"
+            }
+          ],
+          "score": 924.6
+        },
+        {
+          "ticker": "META",
+          "name": "Meta",
+          "group": "CSP",
+          "headline": "Morgan Stanley 上修 META 目標價至 $820（原 $775）",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -0.5477038029112147,
+          "movePrice": 705.44,
+          "regularChangePct": -0.5477038029112147,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.02137672941708857,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNbDZRZ0VxcnhueE5nLWxON2ZxNzhYSWZrMmE3eGRlMk9HSGJVdVozbnRGbU0tRHN4RDBnT3JFeG9ZZmFvUTkzWERlMDFfUXVRYmp6SUM4bFF1ZFJnQTBTUGtpT2k4MWtnYkwyRkdXeERmME5nUlVDaFh5TTRVUUZMSW43NWlPZ1dDcEY0QVhaRTVXT09yMVppRE9qUFU1Mkd1ZjFNYzJNanY2cWZ0ZEpSYktqVlFtc09yaVVCZk53bDhkNHc3LVJOd04yTHNYMUhXclltRVR2YWw3dmc3T1hraXQ2UjFlOGF6YVJKRkhKZGZKUlZneExBakZ4bUo?oc=5"
+            }
+          ],
+          "score": 924.26
+        },
+        {
+          "ticker": "MSFT",
+          "name": "Microsoft",
+          "group": "CSP",
+          "headline": "Bernstein 上修 MSFT 目標價至 $662（原 $660）",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 0.8449106889708125,
+          "movePrice": 533.52,
+          "regularChangePct": 0.8449106889708125,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.17243964612384532,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://stocktwits.com/news-articles/markets/equity/microsoft-gets-a-price-target-hike-from-bernstein-ahead-of-earnings-what-investors-should-know/cZx8n6vRBMo"
+            }
+          ],
+          "score": 921.92
+        }
+      ]
+    },
     {
       "key": "2026-10-19:pre",
       "session": "pre",
