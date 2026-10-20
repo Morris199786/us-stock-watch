@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 15:44 台灣時間",
+  "updatedAt": "2026-10-20 15:49 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
@@ -10,11 +10,11 @@
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "題材",
-      "title": "Morgan Stanley 調整 AMZN 目標價至 $350",
-      "summary": "",
+      "title": "Morgan Stanley 上修 AMZN 目標價至 $350（原 $335）",
+      "summary": "Morgan Stanley named Amazon ( NASDAQ:AMZN ) a top pick and raised its price target from $335 to $350, keeping an Overweight rating. Analyst Brian Nowak laid out five catalysts he said could re-rate the shares, with a bear case of $220 and a bull case of $410. Amazon shares were up 3.93% intraday as of 10:30 a.m. ET. Warning! GuruFocus has detected 5 Warning Signs with AMZN. Is AMZN fairly valued? Test your thesis with our free DCF calculator.",
       "originalTitle": "Amazon Stock Price Forecast: Morgan Stanley Lifts Price Target to $350, Implies Over 30% Upside",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM2Z4c3VtV1NXYVBHVWE1MFdSTG96czR1UUxKSllvcFp4UE9yU25fM1M4b195SWwyRlIxWHBVZVhkVlhObWlNWkNEb0o2X3k0c2NjOGZ0SDhHdlNfenJBdVhGM29uNUQwQzZzVjBUMUoyZUgwXzk5MzdCclJmS0NibVljRURwek9KT2ZaaXVPcXF1eV9Kd25BUlo5djJ5ZGxUQmliRHlKbHRpbUZDZzFnLQ?oc=5",
+      "originalSummary": "Morgan Stanley named Amazon ( NASDAQ:AMZN ) a top pick and raised its price target from $335 to $350, keeping an Overweight rating. Analyst Brian Nowak laid out five catalysts he said could re-rate the shares, with a bear case of $220 and a bull case of $410. Amazon shares were up 3.93% intraday as of 10:30 a.m. ET. Warning! GuruFocus has detected 5 Warning Signs with AMZN. Is AMZN fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-named-morgan-stanley-top-194855455.html",
       "ts": "2026-10-20T07:39:23+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -22,37 +22,39 @@
         {
           "broker": "Morgan Stanley",
           "analyst": "",
-          "rating": "",
-          "action": "",
+          "rating": "Overweight",
+          "action": "上修",
           "newTarget": "$350",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "oldTarget": "$335",
+          "reason": "亞馬遜股價預測：摩根士丹利將目標價上調至 350 美元，意味著上漲空間超過 30% 摩根士丹利將亞馬遜 (NASDAQ:AMZN) 列為首選，並將目標價從 335 美元上調至 350 美元，維持增持評級。",
+          "reasonConfidence": "medium",
           "targetTicker": "AMZN",
           "targetCompany": "Amazon"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AMZN"
       ],
-      "eventType": "",
-      "score": 198.0,
+      "eventType": "新題材",
+      "score": 214.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜目標價：$350｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：上修｜評等：Overweight｜目標價：$350（原 $335）｜調整原因：亞馬遜股價預測：摩根士丹利將目標價上調至 350 美元，意味著上漲空間超過 30% 摩根士丹利將亞馬遜 (NASDAQ:AMZN) 列為首選，並將目標價從 335 美元上調至 350 美元，維持增持評級。",
         "numbers": [
+          "$335",
           "$350"
         ],
-        "why": "調整原因：來源未提供具體調整理由",
+        "why": "調整原因：亞馬遜股價預測：摩根士丹利將目標價上調至 350 美元，意味著上漲空間超過 30% 摩根士丹利將亞馬遜 (NASDAQ:AMZN) 列為首選，並將目標價從 335 美元上調至 350 美元，維持增持評級。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：亞馬遜股價預測：摩根士丹利將目標價上調至 350 美元，意味著上漲空間超過 30% 摩根士丹利將亞馬遜 (NASDAQ:AMZN) 列為首選，並將目標價從 335 美元上調至 350 美元，維持增持評級。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 1,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "TXN",
@@ -84,7 +86,37 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "人工智慧股引領華爾街反彈後，亞洲股市大多下跌",
+      "summary": "",
+      "originalTitle": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPRXVUdW5mX1NjUkNfTnJJcGFWejNBQjgzcncteHFybndhdHlUT0VPMW9OWFlwWm9Pa0JINHNkRTVCYXRqenBNRk9xc1VfY3BmMDdzYzBUcFlQV1RVX3p0blJzZklPbkxDRWxpV2piMkJ3Sy1ZT1lkTWtTU0s4QnQ3QzBqbkloZEtFdTVwOUo2YXl4Qlh1SGh6UzF6MXhLZW12bFJ4TndldlprMW5hM1dPZGk1V2UtMDVHNzhXSkZBeDB4ekxzdHpYcXJzRV9GdVpvejV2VjdmeThLMF9wT0VaYTBOTHNFREpZcktBOGZhdnZUeVN0VHVHaF8ta2hyc0dVamVaVTZn?oc=5",
+      "ts": "2026-10-20T07:31:53+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -123,7 +155,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 1,
+      "top10Rank": 2,
       "detailSource": "article_or_same_event"
     },
     {
@@ -187,6 +219,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "Germany signs AI partnership with Nvidia at Berlin investment summit",
+      "summary": "",
+      "originalTitle": "Germany signs AI partnership with Nvidia at Berlin investment summit",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5BbUNtMzdxU1lfV0ttdXh3dTQtdnNmcFE0bHhUQWFjdlplcFF3S1JrZ0J0UTVvUEhod3V1aUlQa3FIUnJsSnlPcGdtY19YRHEycEJoQkE5S1ZJWTZia3dJRVRoekE4LUlPdkFrWno4QzBLdWFOQTZvWThBdw?oc=5",
+      "ts": "2026-10-20T07:14:39+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 21.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
+    {
       "ticker": "BE",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
@@ -215,8 +280,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMZN",
@@ -261,7 +326,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -279,7 +344,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 21.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -291,7 +356,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "CRWV",
@@ -323,7 +388,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -713,36 +778,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "人工智慧股引領華爾街反彈後，亞洲股市大多下跌",
-      "summary": "",
-      "originalTitle": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNc2xsbFBORUloTlI5aVVpQjdpY2hHdkdFbDlOZEFWZ3hZQWNLQkxLLW8zTm9BNGVTM3JER0lTSFB1NU9DWEZQeGRxOW1VVjVmWU02akZ5bkFTMGl3LXRNV3NCUFlubW4wcms0eHd5U2plc0hDQXg0V1hwc1JHaXlhT25JX195MU8tYUx4blUwTU1qdnQwUTFqOVpGMG0tTkw0UGwyRjgycmd5X3VEaVA3MjJoZG9aQ25zZmdJb3VGb2xIZGgtMnhkSGtR0gHKAUFVX3lxTE1zbGxsUE5FSWhOUjlpVWlCN2ljaEd2R0VsOU5kQVZneFlBY0tCTEstbzNOb0E0ZVMzckRHSVNIUHU1T0NYRlB4ZHE5bVVWNWZZTTZqRnluQVMwaXctdE1Xc0JQWW5tbjByazR4d3lTamVzSENBeDRXWHBzUkdpeWFPbklfX3kxTy1hTHhuVTBNTWp2dDBRMWo5WkYwbS1OTDRQbDJGODJyZ3lfdURpUDcyMmhkb1pDbnNmZ0lvdUZvbEhkaC0yeGRIa1E?oc=5",
-      "ts": "2026-10-20T04:18:40+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "CBRS",
@@ -1208,7 +1243,7 @@
         "TSLA"
       ],
       "eventType": "跨公司事件",
-      "score": 44.25,
+      "score": 38.35,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2745,56 +2780,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Morgan Stanley 上修 META 目標價至 $820（原 $775）",
-      "summary": "標題：摩根士丹利在第三季財報公佈前上調 Meta Platform 股價目標。原因如下 URL 來源：http://www.tipranks.com/news/morgan-stanley-lifts-meta-platforms-stock-price-target-ahead-of-q3-earnings-heres-why 發佈時間：2026-10-19T21:19:35.000 MarkZ 內容即時投資 50-19T21:19:35.000000 內容 5% TipRanks Premium 開始55% 折扣 x x 55% 折扣股票 熱門分析師股票 人氣熱門 Smart Score 股票 熱門 AI 分析師熱門股票 NewTop Insiders 股票市場動向提示排名 50 指數 AI 股票市值最大的公司 ETF 按 Upside 排列的熱門 ETF 商品專業通訊 聰明投資者 PopularSmart股息智慧成長新智慧",
-      "originalTitle": "Morgan Stanley Lifts Meta Platforms Stock Price Target Ahead of Q3 Earnings. Here’s Why",
-      "originalSummary": "Morgan Stanley reiterated its 'Overweight' rating on Meta stock and raised its price target to $820 from $775. Muse continues to attract about 300,000 U.S. downloads daily, but 14-day user retention remains around 20%. Meta is scheduled to report third-quarter results after the closing bell on Wednesday.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-gets-price-target-154646518.html",
-      "ts": "2026-10-19T21:28:50+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "detailSource": "article_or_same_event",
-      "analystDetails": [
-        {
-          "broker": "Morgan Stanley",
-          "analyst": "",
-          "rating": "Overweight",
-          "action": "上修",
-          "newTarget": "$820",
-          "oldTarget": "$775",
-          "reason": "摩根士丹利在第三季財報公佈前上調 Meta Platform 股價目標。",
-          "reasonConfidence": "medium",
-          "targetTicker": "META",
-          "targetCompany": "Meta"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "META"
-      ],
-      "eventType": "",
-      "score": 230.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：META｜券商：Morgan Stanley｜動作：上修｜評等：Overweight｜目標價：$820（原 $775）｜調整原因：摩根士丹利在第三季財報公佈前上調 Meta Platform 股價目標。",
-        "numbers": [
-          "$775",
-          "$820"
-        ],
-        "why": "調整原因：摩根士丹利在第三季財報公佈前上調 Meta Platform 股價目標。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：摩根士丹利在第三季財報公佈前上調 Meta Platform 股價目標。",
-        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
