@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-20 19:19 台灣時間",
+  "updatedAt": "2026-10-20 19:24 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-20",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Alphabet 在 Magnificent 7 中提供了最引人注目的非對稱人工智慧優勢和安全性融合",
+      "summary": "",
+      "originalTitle": "Alphabet Offers the Most Compelling Blend of Asymmetric AI Upside and Safety Across the Magnificent 7",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQelBTSmlyVGIyd3pHczBydkd0RHRzTElieHpHcUVDWnoxWG5WVExkTzJXekF2cTVLbkZEUjhvbHktZjBfMjJxTGVfSlhoendMNWhkNUV4bk5NbE1rOElZM1BWMFl3Q29NaHFKVmk0LVhidFNuMzBvN1hHSmVjWmVVWGQyMjVnU21MQlpVQXgza05LbU5hN29wSXJ2QUVqZEhBMUFYU2FjTWZrZjR0dWVZYTRWczlCWHVPS19ZcEZVUHBSc2daZ29ZU0drZ2ZjWGE3c3lrOTNiMDZBUHJLVUE?oc=5",
+      "ts": "2026-10-20T11:15:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
@@ -49,7 +79,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -162,7 +192,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -175,6 +205,104 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "MCHP",
+      "group": "類比／電源／功率／RF",
+      "tag": "利空",
+      "title": "Wells Fargo 下修 MCHP 目標價至 $80（原 $88）",
+      "summary": "標題：請稍等... URL 來源：http://www.tipranks.com/news/microchip-price-target-lowered-to-80-from-88-at-wells-fargo 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。 Markdown 內容：www.tipranks.com 執行安全驗證 本網站使用安全服務來防範惡意機器人。網站驗證您時會顯示此頁面",
+      "originalTitle": "Microchip price target lowered to $80 from $88 at Wells Fargo",
+      "originalSummary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/microchip-price-target-lowered-to-80-from-88-at-wells-fargo Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "url": "https://www.tipranks.com/news/microchip-price-target-lowered-to-80-from-88-at-wells-fargo",
+      "ts": "2026-10-20T10:28:59+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [
+        {
+          "broker": "Wells Fargo",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$80",
+          "oldTarget": "$88",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "MCHP",
+          "targetCompany": "Microchip"
+        }
+      ],
+      "relatedTickers": [
+        "MCHP"
+      ],
+      "eventType": "",
+      "score": 253.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Microchip（MCHP）｜券商：Wells Fargo｜動作：下修｜目標價：$80（原 $88）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$88",
+          "$80"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
+    {
+      "ticker": "NXPI",
+      "group": "類比／電源／功率／RF",
+      "tag": "利空",
+      "title": "Wells Fargo 下修 NXPI 目標價至 $235（原 $280）",
+      "summary": "標題：請稍等... URL 來源：http://www.tipranks.com/news/nxp-semiconductors-price-target-lowered-to-235-from-280-at-wells-fargo 警告：此頁面可能需要驗證碼，請確保您有權訪問此頁面。 Markdown 內容：www.tipranks.com 執行安全驗證 本網站使用安全服務來防範惡意機器人。網站上線時顯示此頁面",
+      "originalTitle": "NXP Semiconductors price target lowered to $235 from $280 at Wells Fargo",
+      "originalSummary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/nxp-semiconductors-price-target-lowered-to-235-from-280-at-wells-fargo Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "url": "https://www.tipranks.com/news/nxp-semiconductors-price-target-lowered-to-235-from-280-at-wells-fargo",
+      "ts": "2026-10-20T10:28:57+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [
+        {
+          "broker": "Wells Fargo",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$235",
+          "oldTarget": "$280",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NXPI",
+          "targetCompany": "NXP"
+        }
+      ],
+      "relatedTickers": [
+        "NXPI"
+      ],
+      "eventType": "",
+      "score": 253.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：NXP（NXPI）｜券商：Wells Fargo｜動作：下修｜目標價：$235（原 $280）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$280",
+          "$235"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "MARKET",
@@ -274,8 +402,8 @@
         "takeaway": "券商調整理由：BTIG Upgrades American Electric Power to Buy, Price Target is $147American Electric Power has an average rating of overweight and mean price target of $139.34, according to analysts polled by FactSet. ...",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -415,8 +543,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 9,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -464,7 +592,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 1,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -639,7 +767,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -998,7 +1126,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Cisco（CSCO）｜券商：Piper Sandler｜動作：下修｜調整原因：來源未提供具體理由",
@@ -1103,7 +1231,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Amphenol（APH）｜券商：Goldman Sachs｜動作：上修｜調整原因：來源未提供具體理由",
@@ -1246,7 +1374,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1497,7 +1625,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1562,7 +1690,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1664,7 +1792,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2108,7 +2236,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2670,108 +2798,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 17.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "3M 擴大亞馬遜資料中心合作夥伴關係，股價上漲 路透社",
-      "summary": "",
-      "originalTitle": "3M expands Amazon data center partnership, shares gain By Reuters",
-      "originalSummary": "Investing.com -- 3M Company (NYSE:MMM) shares rose 3% in after-hours trading after the company announced a strategic commercial agreement with Amazon involving data center products. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3m-stock-rises-3-6b-213632761.html",
-      "ts": "2026-10-20T04:26:36+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.979999999999984,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 21.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Investing.com－3M公司（NYSE：MMM）宣布與亞馬遜達成涉及資料中心產品的策略商業協議後，該公司股價在盤後交易中上漲3%。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-        "numbers": [
-          "3%",
-          "118%"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Investing.com－3M公司（NYSE：MMM）宣布與亞馬遜達成涉及資料中心產品的策略商業協議後，該公司股價在盤後交易中上漲3%。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克 100 指數預測：隨著油價下跌和科技股上漲，NDX 上漲",
-      "summary": "",
-      "originalTitle": "Nasdaq 100 Forecast: NDX rises as oil eases and tech gains",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLW1jVmJFX0hHWElrSWo5SHdxc1dYVEVBbHlydHp6eDlXSmpOd2w5SHZfTlYtOU82RnhkYzZCNVpjRWI1TjV3OU80cVdGRkJwdFMtVjdNMEk5bUVTVWdnemtQQ1FHV2s4dm9GLXZFa3VmZDE2UHpGT2lDWjE1U212eUdtMERfSFlzWWl6TUNJanJmeHdSMlE0eW11Ri16Z2c1U3hRd1RCRW8?oc=5",
-      "ts": "2026-10-20T04:22:17+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "第三季財報季即將來臨，道瓊斯指數、標準普爾 500 指數和納斯達克指數在科技股反彈之際走高：DJT、AMZN、CBRS、CRWV 股票成為焦點",
-      "summary": "",
-      "originalTitle": "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges Ahead: DJT, AMZN, CBRS, CRWV Stocks In Focus",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWTlyQV9XcDBORmF6NGotMEo1dEZ6Z21HODRCdXdpRGMtNkU2RFczWjAxMlhTVEJENVBOYmRNWVlfV25SNW5IWG5vT001Y0dLSXlGaDZSdkw0UDdLVjRaWlBSTENUWWJFWDFqZjBGTDJHZVo5N3hVVDFzVnZxd2tuUllhaDVJWVZpUEpRaDNVdXgzVkxVUEVFS0lyeUwwdUdobVBHYXgyVzA4Q2lYVmtSQl91Z1N1NUdkRUV2RjFpeWlhWVlfLXdMS1pzMzZQczlkbTZMekRJZEdkYXFuWUota29XREltWWRrM3NtVi1sMElDdjQ2dmdNbW1OUHNHSm9qT3Bwb2FHS3lSRkR3SDJQbXZKS0s?oc=5",
-      "ts": "2026-10-20T03:36:29+00:00",
-      "sourceType": "active_search",
-      "movePct": -5.148966276236145,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 13.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
