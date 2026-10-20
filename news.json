@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-20 11:35 台灣時間",
+  "updatedAt": "2026-10-20 11:38 台灣時間",
   "historyUpdatedDate": "2026-10-20",
   "historyLastAttemptAt": "2026-10-19T16:02:22.729383+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+      "summary": "",
+      "originalTitle": "Asian shares mostly decline after AI stocks lead a rebound on Wall Street",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOelNfRllDNU5wSE51emdmM0tSM3ZkTUpFVm5KZjV0YUszcFJsY2YteGF3MjlGUEZpdlpuR2tpX29TczF2MEs2SEpyTjNtU2VPWTV6WEFoYk1HZHdJZmNHTkFrdnVXdmVEVjBjUG0xZEp5V2pJN2dFVkFuaVJqaHR6WHNR?oc=5",
+      "ts": "2026-10-20T03:25:21+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -107,6 +137,52 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "題材",
+      "title": "道瓊斯期貨：AMD、Nvidia 引領人工智慧交易走高； Meta、Netflix、SpaceX、特斯拉的利潤即將公佈",
+      "summary": "",
+      "originalTitle": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck",
+      "originalSummary": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: Nvidia wins processor deal with AI startup ModalNvidia has secured AI startup Modal as a new customer for its central processors, signaling growing momentum in a market historically dominated by Intel and AMD. Modal, a rapidly scaling cloud provider that recently reached a $15.75 billion valuation, will deploy Nvidia’s new Vera central processor to run automated AI agents. Early testing showed the Vera chips doubled the productivity of these agents, prompting Modal to make the necessary software adaptations to adopt the hardware. Despite the new partnership, Modal will continue running Intel and AMD processors in a mixed fleet to ensure tasks run on the best performing hardware. While Nvidia projects $20 billion in Vera chip sales this fiscal year, Intel and AMD are developing next-generation processors that could challenge Nvidia’s performance advantages in the $200 billion central processor market.",
+      "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-us-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-treasury-yields-earnings-forecast-coreweave-broadcom-micron-stock-price-news-19th-october-2026/liveblog/135048592.cms",
+      "ts": "2026-10-20T01:48:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "SPCX",
+        "NVDA",
+        "AMD",
+        "INTC",
+        "TSLA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 44.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "道瓊斯|納斯達克 |標準普爾 500 指數 |今日美國股市|即時更新：Nvidia 贏得了與 AI 新創公司 Modal 的處理器交易Nvidia 已將 AI 新創公司 Modal 作為其中央處理器的新客戶，這標誌著歷史上由英特爾和 AMD 主導的市場的增長勢頭。 Modal 是一家快速擴張的雲端供應商，最近估值達到 157.5 億美元，將部署 Nvidia 的新 Vera 中央處理器來運行自動化 AI 代理程式。儘管建立了新的合作夥伴關係，Modal 將繼續運行 Intel 和 AMD 處理器",
+        "numbers": [
+          "$15.75 billion",
+          "$20 billion",
+          "$200 billion",
+          "15.75 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Modal 是一家快速擴張的雲端供應商，最近估值達到 157.5 億美元，將部署 Nvidia 的新 Vera 中央處理器來運行自動化 AI 代理程式。早期測試表明，Vera 晶片使這些代理的生產力提高了一倍，促使 Modal 進行必要的軟體調整以採用硬體。儘管建立了新的合作夥伴關係，Modal 將繼續在混合隊列中運行英特爾和 AMD 處理器，以確保任務在最佳效能的硬體上運行。雖然 Nvidia 預計本財年 Vera 晶片銷售額將達到 200 億美元，但英特爾和 AMD 正在開發下一代處理器，這可能會挑戰",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "利空",
       "title": "員工監控與傾聽：Meta 的人工智慧訴訟增加了風險",
       "summary": "",
@@ -120,7 +196,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -312,52 +388,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊斯期貨：AMD、Nvidia 引領人工智慧交易走高； Meta、Netflix、SpaceX、特斯拉的利潤即將公佈",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck",
-      "originalSummary": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: Nvidia wins processor deal with AI startup ModalNvidia has secured AI startup Modal as a new customer for its central processors, signaling growing momentum in a market historically dominated by Intel and AMD. Modal, a rapidly scaling cloud provider that recently reached a $15.75 billion valuation, will deploy Nvidia’s new Vera central processor to run automated AI agents. Early testing showed the Vera chips doubled the productivity of these agents, prompting Modal to make the necessary software adaptations to adopt the hardware. Despite the new partnership, Modal will continue running Intel and AMD processors in a mixed fleet to ensure tasks run on the best performing hardware. While Nvidia projects $20 billion in Vera chip sales this fiscal year, Intel and AMD are developing next-generation processors that could challenge Nvidia’s performance advantages in the $200 billion central processor market.",
-      "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-us-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-rate-inflation-treasury-yields-earnings-forecast-coreweave-broadcom-micron-stock-price-news-19th-october-2026/liveblog/135048592.cms",
-      "ts": "2026-10-20T00:51:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "NVDA",
-        "AMD",
-        "INTC",
-        "TSLA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 44.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "道瓊斯|納斯達克 |標準普爾 500 指數 |今日美國股市|即時更新：Nvidia 贏得了與 AI 新創公司 Modal 的處理器交易Nvidia 已將 AI 新創公司 Modal 作為其中央處理器的新客戶，這標誌著歷史上由英特爾和 AMD 主導的市場的增長勢頭。 Modal 是一家快速擴張的雲端供應商，最近估值達到 157.5 億美元，將部署 Nvidia 的新 Vera 中央處理器來運行自動化 AI 代理程式。儘管建立了新的合作夥伴關係，Modal 將繼續運行 Intel 和 AMD 處理器",
-        "numbers": [
-          "$15.75 billion",
-          "$20 billion",
-          "$200 billion",
-          "15.75 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Modal 是一家快速擴張的雲端供應商，最近估值達到 157.5 億美元，將部署 Nvidia 的新 Vera 中央處理器來運行自動化 AI 代理程式。早期測試表明，Vera 晶片使這些代理的生產力提高了一倍，促使 Modal 進行必要的軟體調整以採用硬體。儘管建立了新的合作夥伴關係，Modal 將繼續在混合隊列中運行英特爾和 AMD 處理器，以確保任務在最佳效能的硬體上運行。雖然 Nvidia 預計本財年 Vera 晶片銷售額將達到 200 億美元，但英特爾和 AMD 正在開發下一代處理器，這可能會挑戰",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SNDK",
@@ -2858,69 +2888,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "摩根士丹利將亞馬遜列為首選並調高目標價後，亞馬遜股價大幅上漲，創歷史新高",
-      "summary": "Morgan Stanley reaffirmed its 'Overweight' rating and named Amazon its top pick. Propelled by surging Nvidia GPU shipments, Morgan Stanley analysts project AWS to operate as a \"Rule of 90\" firm between 2027 and 2028. Morgan Stanley raised the price target on Amazon to $350 from $335. Amazon.com Inc. (AMZN) share price rose nearly 5% on Monday and was on-track to record its best day in nearly three months after Morgan Stanley reaffirmed its 'Overweight' recommendation on the stock and hiked its share price target.",
-      "originalTitle": "AMZN Stock Eyes Record High after Strong Jump on Morgan Stanley Naming Amazon a Top Pick and Raises Price Target",
-      "originalSummary": "Morgan Stanley reaffirmed its 'Overweight' rating and named Amazon its top pick. Propelled by surging Nvidia GPU shipments, Morgan Stanley analysts project AWS to operate as a \"Rule of 90\" firm between 2027 and 2028. Morgan Stanley raised the price target on Amazon to $350 from $335. Amazon.com Inc. (AMZN) share price rose nearly 5% on Monday and was on-track to record its best day in nearly three months after Morgan Stanley reaffirmed its 'Overweight' recommendation on the stock and hiked its share price target.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amzn-stock-set-best-day-174858785.html",
-      "ts": "2026-10-19T19:19:26+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Morgan Stanley",
-          "analyst": "",
-          "rating": "Overweight",
-          "action": "",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        },
-        {
-          "broker": "Morgan Stanley",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "$350",
-          "oldTarget": "$335",
-          "reason": "摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AMZN",
-        "NVDA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 193.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜評等：Overweight｜調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。\n被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：上修｜目標價：$350（原 $335）｜調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
-        "numbers": [
-          "$335",
-          "$350"
-        ],
-        "why": "調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：摩根士丹利將亞馬遜列為首選股票並上調目標股價 摩根士丹利重申其「增持」評級，並將亞馬遜列為首選股票。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
