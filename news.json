@@ -1,11 +1,45 @@
 {
-  "updatedAt": "2026-10-21 11:09 台灣時間",
+  "updatedAt": "2026-10-21 11:14 台灣時間",
   "historyUpdatedDate": "2026-10-21",
   "historyLastAttemptAt": "2026-10-20T16:04:00.406099+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-20",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "道瓊斯期貨：人工智慧股上漲 SpaceX、Supermicro；特斯拉，元在甲板上",
+      "summary": "",
+      "originalTitle": "Dow Jones Futures: AI Stocks Jump On SpaceX, Supermicro; Tesla, Meta On Deck",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMGM3eElCcmNqVzZCZFFsSU1yemxZN3RGeGx1cnh3OHNkWGZwc1J5b0U5NVEzYXFqSlQzWGNteDR4ODlGbkplZ1lYeTVVbm5tUU9nRGlDVVdBcWdGMEZFYVZTSGxWQy1YY0hnV04tSVZkSUZkOWpicjlEVzRmT3VQT3dWN2NkaDdqX3BwbHc2cVRJQTFJVnFUUkJINDR0VGYxSFlCU3M1Yy1jSHI3ajZzTmRtUm4?oc=5",
+      "ts": "2026-10-21T03:07:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 24.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "BE",
       "group": "電力／儲能／資料中心能源",
@@ -114,7 +148,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -204,7 +238,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -297,49 +331,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊斯期貨：人工智慧股上漲 SpaceX、Supermicro；特斯拉，元在甲板上",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures: AI Stocks Jump On SpaceX, Supermicro; Tesla, Meta On Deck",
-      "originalSummary": "The S&P 500 ended Tuesday 0.3% higher, the Nasdaq 100 slipped 0.1%, and the Dow Jones Industrial Average added 1%. SpaceX posted $4.4 billion in net income for the quarter ending September. 3M beat earnings expectations for the September quarter and raised its full-year guidance. The S&P 500 and Dow Jones index ended higher on Tuesday as investors braced for the start of earnings season, with 3M shares helping the Dow and strong SpaceX earnings pushing the Nasdaq after hours after a robust earnings print.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-gain-earnings-234757218.html",
-      "ts": "2026-10-21T00:26:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 30.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "標準普爾 500 指數週二收高 0.3%，那斯達克指數 100 指數下跌 0.1%，道瓊工業指數上漲 1%。 SpaceX 公佈截至 9 月底的季度淨利為 44 億美元。 3M 9 月季度的獲利超出預期，並上調了全年指引。標準普爾 500 指數和道瓊斯指數週二收高，因投資者為財報季的開始做好準備，3M 股票幫助道瓊斯指數上漲，而 SpaceX 的強勁盈利在強勁的財報發布後幾小時後推動了納斯達克指數的上漲。",
-        "numbers": [
-          "$4.4 billion",
-          "0.3%",
-          "0.1%",
-          "1%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "3M 9 月季度的獲利超出預期，並上調了全年指引。標準普爾 500 指數和道瓊斯指數週二收高，因投資者為財報季的開始做好準備，3M 股票幫助道瓊斯指數上漲，而 SpaceX 的強勁盈利在強勁的財報發布後幾小時後推動了納斯達克指數的上漲。",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
       "ticker": "SK Hynix",
       "group": "記憶體／儲存",
       "tag": "題材",
@@ -403,7 +394,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -1053,7 +1044,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -1159,7 +1150,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1181,7 +1172,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 30.75,
+      "score": 26.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1229,7 +1220,7 @@
         "MXL"
       ],
       "eventType": "",
-      "score": 205.5,
+      "score": 178.1,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -1241,8 +1232,8 @@
         "takeaway": "調整原因：富國銀行維持 MaxLinear 的同等權重",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 4
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1340,6 +1331,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "BA",
+      "group": "太空／國防／無人系統",
+      "tag": "利空",
+      "title": "BA downgraded our seats then scrimped on pay out: SALLY SORTS IT",
+      "summary": "",
+      "originalTitle": "BA downgraded our seats then scrimped on pay out: SALLY SORTS IT",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVzVWcUl0QXBOTVpUd3c4WWk2dlVnWnFibjBOVmk4eHk5QUdZRW5Bc1U0b2NhYzZtOVNUVUF5bW5JV0xMTUlmTUtzUTBmZkY5TTdZWm4tWVNtZFhTcmRtWElpcWdmZHo2MnlZcHBsOUtFYy1nX1pvVWFLZ1A1Z0JHa0NQaGVhdnlGUDNiY3lXaUNqRmVBVTc1dEtjZkpzOVl2UUlOLXhJWjdOelBESzJiWjdXQ1FuazdyR09SSEpCRVJldTR3U0hIcXYwSVNnTElTVlJuenhXMA?oc=5",
+      "ts": "2026-10-20T21:01:02+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "BA"
+      ],
+      "eventType": "",
+      "score": 175.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SK Hynix",
       "group": "記憶體／儲存",
       "tag": "利空",
@@ -1357,7 +1381,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 12.35,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1818,8 +1842,8 @@
         "takeaway": "調整原因：摩根大通上調評級並關注利潤率障礙，英特爾股價上漲 英特爾（NASDAQ：INTC）贏得了長期懷疑者的支持。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2035,7 +2059,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2179,7 +2203,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2786,36 +2810,6 @@
         "watch": [],
         "takeaway": "調整原因：富國銀行維持 MaxLinear(MXL.US) 持有評級，維持目標價 78 美元",
         "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "華爾街因醫療保健股上漲和石油回落而上漲 路透社",
-      "summary": "",
-      "originalTitle": "Wall Street gains ground on healthcare stocks rally, oil retreat By Reuters",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2RDZTZ6bV9tdDR5Mzh2T0dJTlo1M0xzRENfWERjT000TXlmVnRZdmNBSGRfaDk5dUNjdkxZUHZpZVFoSjkxbFZpTlJLVkdLM0NmNmVNVjA1aVVtalk5LWpBZ0ZscTRjNG9MdmpPaURmOU5EWjlRM0RXMkRqbHI5M29sNzVxUjVjUDV4cXNteElodGg2azljTE50UmVLS01tZ0ZNdXJjcmc2X0JPbVE?oc=5",
-      "ts": "2026-10-20T17:55:51+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
