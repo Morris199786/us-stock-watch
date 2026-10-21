@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21 18:31 台灣時間",
+  "updatedAt": "2026-10-21 18:35 台灣時間",
   "historyUpdatedDate": "2026-10-21",
   "historyLastAttemptAt": "2026-10-20T16:04:00.406099+00:00",
   "historyItemCount": 800,
@@ -10,11 +10,11 @@
       "ticker": "CRM",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
-      "title": "瑞銀因 Salesforce 交易將 Braze 股票評級下調至中性",
-      "summary": "",
+      "title": "UBS 上修 CRM 目標價至 $47.5（原 $45）",
+      "summary": "Wells Fargo downgraded Braze to 'Equal Weight' from 'Overweight', but raised its price target to $47.50 from $45, citing a favorable deal outcome. Stifel downgraded Braze to 'Hold' from 'Buy' while lifting its price target to $47.50 from $35. Piper Sandler also downgraded Braze to 'Neutral' from 'Overweight' following Salesforce's agreement.",
       "originalTitle": "UBS downgrades Braze stock rating to neutral on Salesforce deal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeG9jQ29yLS1hQmZ6Z3k3eWJQMmhTODFyVW0tbVNwRUdGcE9pdWhWOVZpT1VfVUNtX2lCV1hYVXdJY1M4TWVXYkpuU195aDdCOEI0UVVubGNFcHNJcHplajdKaUgtOTg5ME9HbE0yMkdjVkVFR1BmOUFPZGRmZ3RRVmllOG1zQVVvaWdkbE9BaHRrenFRaFZuOHJ3d2kyTUVxbmdudVJsSVFtcHM0dVA5UUUwTDJJVlFHWS14V0NtZnQ?oc=5",
+      "originalSummary": "Wells Fargo downgraded Braze to 'Equal Weight' from 'Overweight', but raised its price target to $47.50 from $45, citing a favorable deal outcome. Stifel downgraded Braze to 'Hold' from 'Buy' while lifting its price target to $47.50 from $35. Piper Sandler also downgraded Braze to 'Neutral' from 'Overweight' following Salesforce's agreement.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brze-stock-gets-multiple-downgrades-154909427.html",
       "ts": "2026-10-21T10:25:57+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
@@ -23,34 +23,65 @@
           "broker": "UBS",
           "analyst": "",
           "rating": "neutral",
+          "action": "上修",
+          "newTarget": "$47.5",
+          "oldTarget": "$45",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRM",
+          "targetCompany": "Salesforce"
+        },
+        {
+          "broker": "Stifel",
+          "analyst": "",
+          "rating": "Hold",
+          "action": "上修",
+          "newTarget": "$47.5",
+          "oldTarget": "$35",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRM",
+          "targetCompany": "Salesforce"
+        },
+        {
+          "broker": "Piper Sandler",
+          "analyst": "",
+          "rating": "Neutral",
           "action": "",
-          "newTarget": "",
+          "newTarget": "$47.5",
           "oldTarget": "",
-          "reason": "瑞銀因 Salesforce 交易將 Braze 股票評級下調至中性",
-          "reasonConfidence": "medium",
+          "reason": "",
+          "reasonConfidence": "none",
           "targetTicker": "CRM",
           "targetCompany": "Salesforce"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "CRM"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 205.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Salesforce（CRM）｜券商：UBS｜評等：neutral｜調整原因：瑞銀因 Salesforce 交易將 Braze 股票評級下調至中性",
-        "numbers": [],
-        "why": "調整原因：瑞銀因 Salesforce 交易將 Braze 股票評級下調至中性",
+        "event": "被評級公司：Salesforce（CRM）｜券商：UBS｜動作：上修｜評等：neutral｜目標價：$47.5（原 $45）｜調整原因：來源未提供具體理由\n被評級公司：Salesforce（CRM）｜券商：Stifel｜動作：上修｜評等：Hold｜目標價：$47.5（原 $35）｜調整原因：來源未提供具體理由\n被評級公司：Salesforce（CRM）｜券商：Piper Sandler｜評等：Neutral｜目標價：$47.5｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$45",
+          "$47.5",
+          "$35",
+          "$47.5",
+          "$47.5"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：瑞銀因 Salesforce 交易將 Braze 股票評級下調至中性",
+        "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "COHR",
@@ -95,7 +126,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -190,24 +221,25 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
       "title": "隨著馬斯克討論 SpaceX 與特斯拉的合併以及投資者等待元結果，華爾街期貨上漲：道瓊斯、標準普爾、納斯達克",
-      "summary": "",
+      "summary": "US equity futures edged higher on Wednesday as markets prepared for quarterly results from major technology companies and assessed developments involving SpaceX, Tesla, Anthropic and Nvidia. Investors also monitored oil prices and geopolitical developments in the Middle East, alongside concerns about financing for artificial intelligence infrastructure.",
       "originalTitle": "Wall Street Futures Gain as Musk Discusses SpaceX-Tesla Merger and Investors Await Meta Results: Dow Jones, S&P, Nasdaq",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRUJGQXpGS2hVY3paSkh3SWRNQ3FOdTRnbHlpckpueXZxd19fTDZyUWp1QlJ0cU9qQTJjX1c4WXBfNXRqTTN0M29zTVpsQmVzYUNuelpiM00wcVYzRW9qUGQ5VURUR3p6MmFHaHJoTks1OERCT2VuN192YU5TV3hXWGE5aUk?oc=5",
+      "originalSummary": "US equity futures edged higher on Wednesday as markets prepared for quarterly results from major technology companies and assessed developments involving SpaceX, Tesla, Anthropic and Nvidia. Investors also monitored oil prices and geopolitical developments in the Middle East, alongside concerns about financing for artificial intelligence infrastructure.",
+      "url": "https://uk.finance.yahoo.com/news/wall-street-futures-gain-musk-094846784.html",
       "ts": "2026-10-21T09:48:46+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX",
+        "NVDA",
         "TSLA"
       ],
       "eventType": "",
@@ -215,16 +247,19 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "US equity futures edged higher on Wednesday as markets prepared for quarterly results from major technology companies and assessed developments involving SpaceX, Tesla, Anthropic and Nvidia. Investors also monitored oil prices and geopolitical developments in the Middle East, alongside concerns about financing for artificial intelligence infrastructure.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "US equity futures edged higher on Wednesday as markets prepared for quarterly results from major technology companies and assessed developments involving SpaceX, Tesla, Anthropic and Nvidia. Investors also monitored oil prices and geopolitical developments in the Middle East, alongside concerns about financing for artificial intelligence infrastructure.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -233,32 +268,36 @@
       "title": "隨著 SpaceX 和特斯拉探索合併和元獲利方法，美國股指期貨小幅走高：道瓊斯、標準普爾、納斯達克、華爾街",
       "summary": "",
       "originalTitle": "US Stock Futures Edge Higher as SpaceX and Tesla Explore Merger and Meta Earnings Approach: Dow Jones, S&P, Nasdaq, Wall Street",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5",
+      "originalSummary": "US stock futures traded mostly higher on Wednesday as investors assessed corporate earnings, developments in artificial intelligence investment and geopolitical uncertainty surrounding the conflict in the Middle East. Attention also turned to comments from Elon Musk about a potential merger between SpaceX and Tesla, reports concerning Anthropic’s financial performance and Meta Platforms’ forthcoming quarterly results.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-higher-094745538.html",
       "ts": "2026-10-21T09:47:45+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX",
+        "META",
         "TSLA"
       ],
       "eventType": "",
-      "score": 33.75,
+      "score": 36.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "由於投資者評估企業獲利、人工智慧投資的發展以及圍繞中東衝突的地緣政治不確定性，美國股指期貨週三大多走高。人們的注意力也轉向馬斯克關於 SpaceX 和特斯拉之間可能合併的評論、有關 Anthropic 財務業績的報告以及 Meta Platforms 即將發布的季度業績。",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "由於投資者評估企業獲利、人工智慧投資的發展以及圍繞中東衝突的地緣政治不確定性，美國股指期貨週三大多走高。人們的注意力也轉向馬斯克關於 SpaceX 和特斯拉之間可能合併的評論、有關 Anthropic 財務業績的報告以及 Meta Platforms 即將發布的季度業績。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AEP",
@@ -306,8 +345,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -684,7 +723,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -887,7 +926,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "由於井噴式獲利和 SpaceX 的評論提振晶片股，納斯達剋期貨在盤前上漲。所有的目光都將集中在今天盤後公佈的 Meta、IBM 和特斯拉的財報。据报道，伊朗革命卫队封锁了霍尔木兹海峡的油轮，而美国承认和平协议仍然“困难”，布伦特原油价格突破 110 美元/桶。",
+        "event": "由於井噴式獲利和 SpaceX 的評論提振晶片股，納斯達剋期貨在盤前上漲。所有的目光都將集中在今天盤後公佈的 Meta、IBM 和特斯拉的財報。據報道，伊朗革命衛隊封鎖了霍爾木茲海峽的油輪，而美國承認和平協議仍然“困難”，布蘭特原油價格突破 110 美元/桶。",
         "numbers": [
           "$110"
         ],
@@ -1131,7 +1170,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1182,64 +1221,34 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "Mizuho 調整 MARKET 目標價至 $200",
-      "summary": "在周二盤後發布第三季財報之前，華爾街對 SpaceX 持樂觀態度。根據分析師 Brett Linzey 週一的報告，瑞穗對該股給予跑贏大盤的評級，目標價為 200 美元。截至週二上午 10:45，該股交易價格約為 148 美元。 「人工智慧是 2026 年第 3 季營收和 EBITDA 的最大波動因素。共識認為人工智慧營收為 $6.30B（比上一季成長 146%，從 $2.",
+      "summary": "",
       "originalTitle": "SpaceX up 10% in premarket after earnings beat and Musk hints at Tesla tie-up",
-      "originalSummary": "Wall Street is sounding bullish on SpaceX ahead of its third-quarter earnings report, to be delivered after the bell on Tuesday. Mizuho has an outperform rating on the stock and a $200 price target, per a Monday note from analyst Brett Linzey. Shares were trading around $148 as of 10:45 a.m. on Tuesday. \"AI is the largest swing factor for 3Q26 revenue and EBITDA. Consensus has AI revenue of $6.30B (+146% Q/Q from $2.56B) and AI adj. EBITDA of $3.32B (from $1.15B),\" he wrote. Analysts are expecting some conversation about deals or competitive plays with cable and telecom companies following SpaceX's acquisition of low-band spectrum earlier this month. \"We expect initial strategic commentary centers around Connectivity and how SPCX can partner/compete its way into global markets, although we think low-band distribution becomes a meaningful intelligence lever over time,\" Colin Canfield at Cantor Fitzgerald wrote in a Monday note. He has a price target of $246 and an overweight rating on the stock. Oppenheimer's expectations are more measured. The bank thinks the quarter will be \"in-line\" with \"guidance reiterated.\" \"Industry subscriber growth is slowing with limited room for pricing action, so focus is shifting from net adds and service revenue growth toward cost-cutting using AI, and lower subsidies/churn,\" Timothy Horan at Oppenheimer told clients in a Tuesday note. He expects \"more rational incumbent behavior\" from SpaceX's competitors. –Tobias Burns",
-      "url": "https://www.cnbc.com/2026/10/20/spacex-spcx-earnings-live-updates-q3-2026html.html",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PUXotbEFpamZqOGNVR1V3QjBZa1JlMk9BYlEtSXlRVVdZaUx5enhFczJmYzd6RzluMld3T1IxWFpKdUdFd3RLU0hxWTRuV28xVXRhUGt3QUlRWXVnZjcwNld0Y0Uzc3ZySXc1Ykx0dlA5SGtVbVFTZkN1QknSAYIBQVVfeXFMTjR2c3F2OV81OXNqTUxINlRMODJwbzhSNjgxNFlDOURjY0dxSDczVEZKWUdZaWRCc0RGMERLaEY3Y0NJMkIzdHFLMktLTEpkbHY3NTRyUllEYmJ3TWFFSXk5LUZRYUg0NVdpODRzaWJ0Slg3U293UkpETms3aUlDeWlmdw?oc=5",
       "ts": "2026-10-21T08:05:56+00:00",
       "sourceType": "market_search",
       "marketWide": true,
-      "analystPriority": true,
-      "hasArticleBody": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
       "relatedTickers": [
         "SPCX",
         "TSLA"
       ],
       "eventType": "",
-      "score": 231.75,
-      "featured": true,
+      "score": 27.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：MARKET｜券商：Mizuho｜評等：outperform｜目標價：$200｜調整原因：該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”\n被評級公司：MARKET｜券商：Oppenheimer｜動作：重申｜目標價：$200｜調整原因：該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”",
-        "numbers": [
-          "$200",
-          "$200"
-        ],
-        "why": "調整原因：該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”",
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”",
-        "sourceQuality": "analyst_structured"
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 1,
-      "detailSource": "article_or_same_event",
-      "analystDetails": [
-        {
-          "broker": "Mizuho",
-          "analyst": "Brett Linzey.",
-          "rating": "outperform",
-          "action": "",
-          "newTarget": "$200",
-          "oldTarget": "",
-          "reason": "該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”",
-          "reasonConfidence": "medium",
-          "targetTicker": "MARKET",
-          "targetCompany": "MARKET"
-        },
-        {
-          "broker": "Oppenheimer",
-          "analyst": "",
-          "rating": "",
-          "action": "重申",
-          "newTarget": "$200",
-          "oldTarget": "",
-          "reason": "該銀行認為該季度將「符合」「重申的指導」。奧本海默的蒂莫西·霍蘭（Timothy Horan）在周二的一份報告中告訴客戶：“行業用戶增長正在放緩，定價行動空間有限，因此焦點正在從淨增加和服務收入增長轉向利用人工智能削減成本以及降低補貼/流失。”",
-          "reasonConfidence": "high",
-          "targetTicker": "MARKET",
-          "targetCompany": "MARKET"
-        }
-      ]
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1697,7 +1706,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 2,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1808,7 +1817,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": false,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Coherent（COHR）｜券商：TD Cowen｜動作：下修｜調整原因：來源未提供具體理由",
@@ -1860,7 +1869,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2007,7 +2016,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -2598,7 +2607,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "據報道，中國科技巨頭訂購了價值超過 350 億美元的 NVDA AI 晶片 據報道，由於美國出口限制限制了更先進的 AI 處理器的使用，字節跳動、阿里巴巴和騰訊已訂購了超過 300 萬個 Nvidia RTX PRO 5500 GPU。符合出口标准的芯片成本 https://t.co/spOHrXXTti",
+        "event": "據報道，中國科技巨頭訂購了價值超過 350 億美元的 NVDA AI 晶片 據報道，由於美國出口限制限制了更先進的 AI 處理器的使用，字節跳動、阿里巴巴和騰訊已訂購了超過 300 萬個 Nvidia RTX PRO 5500 GPU。符合出口標準的晶片成本 https://t.co/spOHrXXTti",
         "numbers": [
           "$35B",
           "30%"
