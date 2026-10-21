@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 03:48 台灣時間",
+  "updatedAt": "2026-10-22 04:05 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,62 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "STX",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "Bank of America 調整 STX 目標價至 $1,200",
+      "summary": "",
+      "originalTitle": "Bank of America raises Seagate price target to $1,200 on strong HDD demand and better earnings outlook",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSWQwRUpXMC1iengwSmgxQVdrZXg4NVlhLVRfU3I5dnNqMzZONzJUUko2TGZGaG1XcklxSHI5bG5HckZrVHloX1QtZm1IdnBYdWpRMS1TTG5xYnZxX1AzX1lVTnNzQU9qMl9hZHhWVGxPWlFqSWFoRzlKUHNwU0M1M1M1ZjVhUjhDMnFsaG9IRXVPUHpyMmtmUTVvaGk?oc=5",
+      "ts": "2026-10-21T19:37:15+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Bank of America",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$1,200",
+          "oldTarget": "",
+          "reason": "strong HDD demand and better earnings outlook",
+          "reasonConfidence": "high",
+          "targetTicker": "STX",
+          "targetCompany": "Seagate"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "STX"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Seagate（STX）｜券商：Bank of America｜動作：上修｜目標價：$1,200｜調整原因：strong HDD demand and better earnings outlook",
+        "numbers": [
+          "$1,200"
+        ],
+        "why": "調整原因：strong HDD demand and better earnings outlook",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：strong HDD demand and better earnings outlook",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "FLNC",
       "group": "電力／儲能／資料中心能源",
       "tag": "利空",
       "title": "Fluence Energy (NASDAQ:FLNC) Stock Gets Price Target Cut from Citigroup",
-      "summary": "",
+      "summary": "NEW YORK, NY - October 15, 2026 ( NEWMEDIAWIRE ) - Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Fluence Energy, Inc. (“Fluence Energy” or the “Company”) (NASDAQ: FLNC) on behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have s",
       "originalTitle": "Fluence Energy (NASDAQ:FLNC) Stock Gets Price Target Cut from Citigroup",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHZLNDFOV2huaGZLcEhPS05XRS1vdkpObTNCVjdVR0VlemtPMTNUR2NHalRUcEhibGcwOFFsTzFvZngyU2hDLW9ZN3czU0hBdi1XcDJPMWsxVW92aktGeHVHQVFNOVFsaU5HNkl2QUVxZEktdkY0NmJBT1BVYkdGRkZ4RUpHTnlObThRLUlJN0dEcThJUlhxWkR1ajVhUldlOWxxZmhOYjFCN0VyVGE5N015THg5S1lvOWd6aXhGSzUwNW9RLUFsb2NKcw?oc=5",
+      "originalSummary": "NEW YORK, NY - October 15, 2026 ( NEWMEDIAWIRE ) - Kaplan Fox & Kilsheimer LLP announces that a class action lawsuit has been filed against Fluence Energy, Inc. (“Fluence Energy” or the “Company”) (NASDAQ: FLNC) on behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have suffered losses, you may CLICK HERE to contact us. You may also contact Kaplan Fox by emailing pmayer@kaplanfox.com or by calling (646) 315-9003. NewMediaWire distributes press releases on behalf of hundreds of publicly traded companies, as well as private corporations, non-profits and other public sector organizations. Founded and staffed by industry veterans, we offer a full complement of services including specialized delivery to financial sites and posting of photos and multimedia content. In addition, NewMediawire offers international and specialized services such as IR websites and industry specific distribution.",
+      "url": "https://www.newmediawire.com/news/kaplan-fox-encourages-fluence-energy-inc-nasdaq-flnc-investors-to-contact-the-firm-before-the-deadline-on-november-27-2026-7090681",
       "ts": "2026-10-21T19:29:29+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -26,45 +74,46 @@
           "action": "下修",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "reason": "behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have suffered losses, you may CLICK HERE to contact us. You may also contact Kaplan Fox by emailing pmayer@kaplanfox.com or by calling (646) 315-9003. NewMediaWire distributes press releases on behalf of hundreds of publi",
+          "reasonConfidence": "high",
           "targetTicker": "FLNC",
           "targetCompany": "Fluence"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "FLNC"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 216.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：Fluence（FLNC）｜券商：Citigroup｜動作：下修｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：Fluence（FLNC）｜券商：Citigroup｜動作：下修｜調整原因：behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have suffered losses, you may CLICK HERE to contact us. You may also contact Kaplan Fox by emailing pmayer@kaplanfox.com or by calling (646) 315-9003. NewMediaWire distributes press releases on behalf of hundreds of publi",
         "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "why": "調整原因：behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have suffered losses, you may CLICK HERE to contact us. You may also contact Kaplan Fox by emailing pmayer@kaplanfox.com or by calling (646) 315-9003. NewMediaWire distributes press releases on behalf of hundreds of publi",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：behalf of investors that purchased or otherwise acquired Fluence Energy securities between November 24, 2025 and September 16, 2026 (the “Class Period”). If you are an investor in Fluence Energy and have suffered losses, you may CLICK HERE to contact us. You may also contact Kaplan Fox by emailing pmayer@kaplanfox.com or by calling (646) 315-9003. NewMediaWire distributes press releases on behalf of hundreds of publi",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 5,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "DELL",
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM",
-      "summary": "",
+      "summary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Dell Technologies Inc. CEO Michael Dell warned that semiconductor shortages could worsen in 2027, suggesting memory supply constraints could persist for four years as AI demand outpaces manufacturing capacity.",
       "originalTitle": "Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5",
+      "originalSummary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Dell Technologies Inc. CEO Michael Dell warned that semiconductor shortages could worsen in 2027, suggesting memory supply constraints could persist for four years as AI demand outpaces manufacturing capacity.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/michael-dell-warns-memory-shortage-173021227.html",
       "ts": "2026-10-21T19:25:09+00:00",
       "sourceType": "active_search",
       "movePct": 5.7782303492503795,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "DELL"
       ],
@@ -74,16 +123,24 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Dell Technologies Inc. CEO Michael Dell warned that semiconductor shortages could worsen in 2027, suggesting memory supply constraints could persist for four years as AI demand outpaces manufacturing capacity.",
+        "numbers": [
+          "$95 billion",
+          "95 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "CEO Michael Dell warned that semiconductor shortages could worsen in 2027, suggesting memory supply constraints could persist for four years as AI demand outpaces manufacturing capacity.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SK Hynix",
@@ -120,8 +177,70 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Exclusive / Meta plans nonvoting shares, eyeing more stock sales to fund its AI dreams",
+      "summary": "",
+      "originalTitle": "Exclusive / Meta plans nonvoting shares, eyeing more stock sales to fund its AI dreams",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRwWHd5LVNaN3RmekJvVFg3bWU3MUc2SEg1WjFxZmVKZ0NkWWFESUxzRW1TR0hWRVJPQm83UGJnakhkZW1jTEVnNUxSeVNWeU05ME4xSmJhZjY1MnhwRE5WRS1UY0pHR2JYZWVKZG5PU1BLRWhqWVctRjU2b0xlbzVla2tXQlhaQXd6dlBXRFdVV2lNQVZZYlBOSExqT25fT3pMejRBbTVqZUtocE01RzVZZFFkWjg?oc=5",
+      "ts": "2026-10-21T19:17:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "Dow's 131-Point Rally Highlighted By Gains For NVIDIA Corp., IBM Stocks",
+      "summary": "",
+      "originalTitle": "Dow's 131-Point Rally Highlighted By Gains For NVIDIA Corp., IBM Stocks",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcDRUUzJmZy1BZTdNY3J3al9KZmNWalIxZlNWWW1UMk90TnRLc01VUGhWcXJYZURZVWlxbl9FQkdyNmZTT3RxNVFyQ3VncFc0OTR6eVBfYmMxTmRfUzY0Vk1XMWZJNnhlTWhmQ3hFcFB0V3p3SWpxRGRGZmFsVmNtakhrNGxsT0FjX3UxMGVtcmt2d05CVERsR2U4cUNhZw?oc=5",
+      "ts": "2026-10-21T19:10:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "STX",
@@ -213,21 +332,67 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "Nasdaq climbs over 1% as SpaceX, Super Micro boost AI sentiment",
-      "summary": "",
+      "summary": "‌The ​tech-heavy Nasdaq led Wall Street's gains on Wednesday after quarterly results from SpaceX and Super Micro Computer improved investor appetite for stocks related to artificial intelligence, while Netflix slipped as its forecast disappointed investors. SpaceX shares were up 7% after Elon Musk's rocket and space ‌technology firm posted its first profit as a public company. Musk said a merger of SpaceX and Tesla w",
       "originalTitle": "Nasdaq climbs over 1% as SpaceX, Super Micro boost AI sentiment",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+      "originalSummary": "‌The ​tech-heavy Nasdaq led Wall Street's gains on Wednesday after quarterly results from SpaceX and Super Micro Computer improved investor appetite for stocks related to artificial intelligence, while Netflix slipped as its forecast disappointed investors. SpaceX shares were up 7% after Elon Musk's rocket and space ‌technology firm posted its first profit as a public company. Musk said a merger of SpaceX and Tesla would be \"a good idea,\" sending Tesla shares up 3.5%. Super Micro jumped more than 9% and was among the S&P 500's top gainers after the AI server maker forecast quarterly revenue and profit margin above Wall Street estimates, signaling that AI demand remained resilient. ‌Its peers rose too, HPE by 4.2% and Dell by 5%. The reports provided some reassurance to investors who have been worried about the sustainability of massive spending ‌on AI buildouts and their profitability. The technology sector was hammered last week by a selloff in AI-linked stocks, with data center operator CoreWeave at the center of the storm. \"It's really a positive technology story for almost anyone that is somewhat involved in the artificial intelligence ecosystem,\" said Marc Dizard, chief investment officer at Huntington Bank. He noted that SpaceX had \"crushed\" expectations. \"The technology market reaction has been a reaffirmation that the artificial intelligence trade ⁠is still ​intact.\" Dizard said sentiment can quickly shift around ⁠AI, and that investors will seek reaffirmation when they monitor earnings reports from companies such as Meta, due out after the market close when Tesla is also scheduled to report results. At 2:21 p.m. ET (1821 GMT), ⁠the Dow Jones Industrial Average rose 304.97 points, or 0.58%, to 52,800.85, the S&P 500 gained 55.99 points, or 0.73%, to 7,768.65 and the Nasdaq Composite gained 337.67 points, or 1.28%, to 26,762.48. The ​S&P 500 information technology sector rose 1.3%, lifting the benchmark index, as most chip stocks rebounded. The Philadelphia SE Semiconductor index was up 1.3%. The index has had ⁠a volatile month so far, with its longest losing streak in 18 years, eight straight sessions of declines. The overall rise on the S&P 500 was contained by a 1.2% drop in communication services stocks, dragged down ⁠by ​a 6.3% slide in telecom operator AT&T even after it beat third-quarter revenue and profit expectations. Other telecommunications service providers fell along with AT&T. Dizard said the strong results from SpacEx may have fanned worries that it will become a more formidable competitor after a recent wireless spectrum purchase. Netflix shares sank 4.5% after the video streaming company issued a ⁠weaker-than-expected forecast for its fourth-quarter profit. Google's parent Alphabet also lost 1.6%. Abbott Laboratories fell 3.7% after the medical device maker cut its 2026 sales growth forecast. Advancing issues outnumbered decliners ⁠by a 1.56-to-1 ratio on the NYSE where ⁠there were 90 new highs and 161 new lows. On the Nasdaq, 2,883 stocks rose and 1,818 fell as advancing issues outnumbered decliners by a 1.59-to-1 ratio. The S&P 500 posted 21 new 52-week highs and 2 new lows while the Nasdaq Composite recorded ‌48 ne",
+      "url": "https://www.devdiscourse.com/article/international/3995977-us-stocks-nasdaq-climbs-over-1-as-spacex-super-micro-boost-ai-sentiment",
       "ts": "2026-10-21T18:53:55+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "SPCX"
+        "GOOGL",
+        "SPCX",
+        "CRWV",
+        "SMCI",
+        "TSLA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 44.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "‌The ​tech-heavy Nasdaq led Wall Street's gains on Wednesday after quarterly results from SpaceX and Super Micro Computer improved investor appetite for stocks related to artificial intelligence, while Netflix slipped as its forecast disappointed investors. SpaceX shares were up 7% after Elon Musk's rocket and space ‌technology firm posted its first profit as a public company. Musk said a merger of SpaceX and Tesla w",
+        "numbers": [
+          "1%",
+          "7%",
+          "3.5%",
+          "9%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Musk said a merger of SpaceX and Tesla w",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Advancing Agentic AI Security with Palo Alto Networks and NVIDIA",
+      "summary": "",
+      "originalTitle": "Advancing Agentic AI Security with Palo Alto Networks and NVIDIA",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZHNzak5ERFVtYW1vVkJvdmp4MW5ZdWJydDZmWnBjMXNXZVZsdEFvd09VbXA4NTJDOEJTZUN4SWE2NWF4Qmk3RW5oN1dJdVl5el9zNm1lRmRVeXNCQ2JmNlZOdmk4b3VYSlJfaUFYTERNSUJKNVpGaV9ISDQ1TmhFb0p6UkJpY3lSRHlteVBESm1fM3V6UmtFbEw4MXpGWnVqM3FpRFZaY2xmUGsyWkNqOQ?oc=5",
+      "ts": "2026-10-21T18:42:11+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
       ],
       "eventType": "",
-      "score": 9.75,
-      "featured": true,
+      "score": 15.75,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -260,7 +425,7 @@
       ],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -527,7 +692,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -576,7 +741,7 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "元收益直播：第三季元收益測試華爾街對人工智慧支出的胃口",
-      "summary": "Defense giants RTX Corp. (RTX) and Northrop Grumman (NOC) raised their 2026 profit forecasts in respective earnings reports on Tuesday morning, as global conflict and geopolitical uncertainty continue to provide a boon for some of the largest weapons suppliers to the US military.RTX Corp. is now projecting full-year 2026 adjusted earnings per share (EPS) of $7.65 to $7.75 per share, compared to a previous range of $7.10 to $7.25 per share. Full-year revenue projections also rose, now forecast at $97 billion to $97.",
+      "summary": "",
       "originalTitle": "Meta earnings live: Meta Q3 earnings to test Wall Street's stomach for AI spending",
       "originalSummary": "Defense giants RTX Corp. (RTX) and Northrop Grumman (NOC) raised their 2026 profit forecasts in respective earnings reports on Tuesday morning, as global conflict and geopolitical uncertainty continue to provide a boon for some of the largest weapons suppliers to the US military.RTX Corp. is now projecting full-year 2026 adjusted earnings per share (EPS) of $7.65 to $7.75 per share, compared to a previous range of $7.10 to $7.25 per share. Full-year revenue projections also rose, now forecast at $97 billion to $97.5 billion for 2026, up from the prior forecast of $95 billion to $96 billion.Northrop Grumman offered investors a similarly strong picture of its pipeline, on Tuesday projecting full-year EPS of $29.35 to $29.75 per share, compared to a previous range of $28.60 to $29.10 per share. The company expects sales of $43.75 billion to $44.25 billion for the full year, unchanged from second quarter guidance.\"I'm confident our new record backlog, well-positioned portfolio and investments, and industry-leading performance will continue to drive sales and earnings growth as reflected in our 2027 outlook,\" Northrop CEO Kathy Warden said Tuesday.Shares in RTX Corp. (RTX) traded down by about 1% on Tuesday, while Northrop Grumman (NOC) shares rose by roughly 5%. Defense stocks have largely lagged the S&P 500 (^GSPC) so far this year.Read more.",
       "url": "https://uk.finance.yahoo.com/news/live/earnings-live-updates-all-eyes-on-musk-and-meta-as-q3-earnings-roll-on-134152191.html",
@@ -588,10 +753,10 @@
       "relatedTickers": [],
       "eventType": "新題材",
       "score": 29.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Defense giants RTX Corp. (RTX) and Northrop Grumman (NOC) raised their 2026 profit forecasts in respective earnings reports on Tuesday morning, as global conflict and geopolitical uncertainty continue to provide a boon for some of the largest weapons suppliers to the US military.RTX Corp. is now projecting full-year 2026 adjusted earnings per share (EPS) of $7.65 to $7.75 per share, compared to a previous range of $7.10 to $7.25 per share. Full-year revenue projections also rose, now forecast at $97 billion to $97.",
+        "event": "is now projecting full-year 2026 adjusted earnings per share (EPS) of $7.65 to $7.75 per share, compared to a previous range of $7.10 to $7.25 per share. Full-year revenue projections also rose, now forecast at $97 billion to $97.5 billion for 2026, up from the prior forecast of $95 billion to $96 billion.Northrop Grumman offered investors a similarly strong picture of its pipeline, on Tuesday projecting full-year EPS of $29.35 to $29.75 per share, compared to a previous range of $28.60 to $29.10 per share. The com",
         "numbers": [
           "$7.65",
           "$7.75",
@@ -599,7 +764,7 @@
           "$7.25"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Defense giants RTX Corp. (RTX) and Northrop Grumman (NOC) raised their 2026 profit forecasts in respective earnings reports on Tuesday morning, as global conflict and geopolitical uncertainty continue to provide a boon for some of the largest weapons suppliers to the US military.RTX Corp.",
+        "stance": "The company expects sales of $43.75 billion to $44.25 billion for the full year, unchanged from s",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -714,7 +879,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "PHP 關鍵漏洞外洩；駭客發動先發制人的攻擊； Cloudflare 盤中飆升超過 8%",
-      "summary": "Two vulnerabilities that could affect the servers underlying many websites have been disclosed ahead of the planned security patches, leading major cybersecurity authorities to urge users to prepare for remediation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively known as ‘PHP2Shell,’ were scheduled to be disclosed on October 21 at 2pm GMT. However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were",
+      "summary": "",
       "originalTitle": "Critical PHP Vulnerability Leaked; Hackers Launch Preemptive Attacks; Cloudflare Surges Over 8% Intraday",
       "originalSummary": "Two vulnerabilities that could affect the servers underlying many websites have been disclosed ahead of the planned security patches, leading major cybersecurity authorities to urge users to prepare for remediation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively known as ‘PHP2Shell,’ were scheduled to be disclosed on October 21 at 2pm GMT. However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were supposed to be kept secret until the patches are available. The post , now deleted, claimed that two maximum-severity (CVSS rating of 10.0) PHP remote code execution (RCE) vulnerabilities would be disclosed on October 22. It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) and server takeover. PHP is used by approximately 69.7% of websites whose server-side programming language is known, according to recent W3Techs data. These include many content management systems (CMS) like WordPress, Drupal, Joomla and Magento as well as e-commerce and web services platforms. Following the petecooper post, WatchTowr confirmed that CVE-2026-109618 and CVE-2026-109619 were scheduled to be disclosed later. The disclosure was also scheduled to happen alongside the PHP security team releasing patches for both vulnerabilities. Leaking information on critical vulnerabilities and some of their characteristics, such as the range of affected versions, ahead of an available patch can lead malicious actors to exploit them, for instance using reverse engineering techniques.",
       "url": "https://www.infosecurity-magazine.com/news/critical-php-vulnerabilities-leaked/",
@@ -728,16 +893,16 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Two vulnerabilities that could affect the servers underlying many websites have been disclosed ahead of the planned security patches, leading major cybersecurity authorities to urge users to prepare for remediation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively known as ‘PHP2Shell,’ were scheduled to be disclosed on October 21 at 2pm GMT. However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were",
+        "event": "However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were supposed to be kept secret until the patches are available. The post , now deleted, claimed that two maximum-severity (CVSS rating of 10.0) PHP remote code execution (RCE) vulnerabilities would be disclosed on October 22. It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) a",
         "numbers": [
           "8%",
           "69.7%"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Two vulnerabilities that could affect the servers underlying many websites have been disclosed ahead of the planned security patches, leading major cybersecurity authorities to urge users to prepare for remediation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively known as ‘PHP2Shell,’ were scheduled to be disclosed on October 21 at 2pm GMT.",
+        "stance": "It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) and server",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -767,6 +932,40 @@
       "score": 6.75,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CRDO",
+      "group": "高速傳輸",
+      "tag": "題材",
+      "title": "The AI infrastructure investment boom is expected to continue! SpaceX's (SPCX.US) computing power expansion plan exceeds expectations, and JPMorgan is bullish on supply chain beneficiaries such as Dell (DELL.US) and Credo (CRDO.US).",
+      "summary": "",
+      "originalTitle": "The AI infrastructure investment boom is expected to continue! SpaceX's (SPCX.US) computing power expansion plan exceeds expectations, and JPMorgan is bullish on supply chain beneficiaries such as Dell (DELL.US) and Credo (CRDO.US).",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSmo1MFBKcUt4YkoxZzNRUlA3THlfQkQyM0wwczNLbUJSa0pCLWwyd2JLUGt5eVViMmdMTjR1ajZnS0xqcUloM0RiOHNGaVBKc0JiWEpfVHAxdUh0WjlEREVWZjZXY08yaExlM1hQVHhWVzRLb2dUTWl0MDhNYVFSaUpsYTViNTY4UGNOQ1VjSk52WkY0Q0ZWM1Q3aENlMms1VHNDenNsNXVMQ2FoeWNESQ?oc=5",
+      "ts": "2026-10-21T17:36:44+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 6.664334441140474,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRDO",
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 19.5,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1650,6 +1849,38 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "RKLB",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "$Rocket Lab (RKLB.US)$ Nice rally. No need for a rocket ship.",
+      "summary": "",
+      "originalTitle": "$Rocket Lab (RKLB.US)$ Nice rally. No need for a rocket ship.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdUJlLUw4LVdwd1RpVTFWeXYwa3JsTFhUMlB5Z1hHTGNGRFVscjJ3WERaTVh3U0lRVDNQeGMxc1d2WGZmTmFRVFRoYU1pTVpfQ19nSVRiWE5XUl8xRTBvQ1BUa0tlY194TWg5dWg1RldQZVVZcVV1Zkt6SXZCcEFZM3VWNXN3ODVEaFgxMkhQT0tkNHJfSkNXSmlNaWU1Zw?oc=5",
+      "ts": "2026-10-21T15:43:57+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 5.540275049115917,
+      "relatedTickers": [
+        "RKLB"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "ANET",
       "group": "光通訊／網通",
       "tag": "利空",
@@ -2026,7 +2257,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "QCOM",
@@ -2065,7 +2296,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2099,7 +2330,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -2297,8 +2528,8 @@
         "takeaway": "調整原因：UBS reiterates 3M stock Buy rating on Amazon deal, growth outlook",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SPCX",
@@ -2411,6 +2642,55 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "WDC",
+      "group": "記憶體／儲存",
+      "tag": "利空",
+      "title": "Morgan Stanley 下修 WDC 目標價至 $643",
+      "summary": "",
+      "originalTitle": "Western Digital Price Target Cut to $643.00/Share From $676.00 by Morgan Stanley",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWlkyUVBuYktZeHhTcUhkNHJadnF5WXctYlJieXhkdFZlRk5tRUpTSzFiLVYxTkF1eE9PVnlpa1VDQmkydjFRWnYtMjN6QkxIa3lTU1g1bU1rTDBEUjVsemtBZkFaVTFqaFNyeXhvY0tOU0drdWxKU2RqY1lzLTdRSktoSDZQVG8tMTk5MGRyRVBBc2RJQU1ORy1GaUpMdw?oc=5",
+      "ts": "2026-10-21T14:43:23+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$643",
+          "oldTarget": "$676",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "WDC",
+          "targetCompany": "Western Digital"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "WDC"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Western Digital（WDC）｜券商：Morgan Stanley｜動作：下修｜目標價：$643（原 $676）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$676",
+          "$643"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -2858,327 +3138,6 @@
         "watch": [],
         "takeaway": "調整原因：the rocket launch and satellite communications company reported third-quarter earnings and revenue that exceeded Wall Street's expectations, fueled by explosive growth in its artificial intelligence business.",
         "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "Evercore ISI 上修 SPCX 目標價至 $230（原 $220）",
-      "summary": "Bernstein doubled down on its SpaceX’s (NASDAQ: SPCX ) outlook on October 19, confirming both the “Buy” rating and the $248 SpaceX stock price target. The price target, which represents a 70% upside potential from the last closing price of $146, was first set in late September, when analyst Douglas S. Harned argued Starlink’s residential broadband business would generate approximately $64 billion in revenues in 2031. Moreover, the affirmation comes just one day ahead of the space company’s next earnings report, sch",
-      "originalTitle": "SpaceX (NASDAQ:SPCX) Stock Gets Price Target Increase from Wells Fargo & Company",
-      "originalSummary": "Bernstein doubled down on its SpaceX’s (NASDAQ: SPCX ) outlook on October 19, confirming both the “Buy” rating and the $248 SpaceX stock price target. The price target, which represents a 70% upside potential from the last closing price of $146, was first set in late September, when analyst Douglas S. Harned argued Starlink’s residential broadband business would generate approximately $64 billion in revenues in 2031. Moreover, the affirmation comes just one day ahead of the space company’s next earnings report, scheduled for tomorrow, October 20, which investors hope can answer the question of whether SpaceX’s expanding AI efforts can justify substantial capital investments. As of press time, analysts expect third-quarter revenue of $12.89 billion tomorrow, up 65% from the same period last year. At the same time, the consensus earnings estimate stands at $0.14 per share, compared with a loss of $0.09 in the previous quarter. In the second quarter, SpaceX reported revenue of $7.81 billion, marking a 92% increase year over year. However, the company also recorded $18.4 billion in capital expenditures, with $15.83 billion allocated to AI infrastructure alone, generating a lot of discussion among shareholders. Despite concerns about elevated spending, Wall Street analysts see considerable potential for the stock. Notably, the average price target of $217.5 represents nearly 50% upside from the current levels, per TipRanks data . All of the recent analyst calls have been bullish . For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275, while maintaining an “Outperform” rating. Maral expects SpaceX to exceed Wall Street’s third-quarter revenue forecasts and projects the company will reach an annualized revenue run rate of $104 billion by year-end, surpassing its $100 billion target. Similarly, Pivotal Research analyst Jeffrey Wlodarczak reiterated his “Buy” rating on October 12 and raised his price target from $220 to $230. The analyst expects third-quarter revenue to reach $13.2 billion, compared with $7.81 billion in the second quarter, and forecasts earnings of $0.21 per share. On the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190. In his report, Siegmann covered SpaceX’s plan to acquire wireless spectrum from Grain Management for approximately $8 billion, which he noted could help Starlink Mobile improve connectivity for users inside buildings and act as an important step toward expanding SpaceX’s mobile network capabilities.",
-      "url": "https://finbold.com/bernstein-sets-spacex-stock-price-target/",
-      "ts": "2026-10-21T14:19:13+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Wells Fargo",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "$217.5",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        },
-        {
-          "broker": "Evercore ISI",
-          "analyst": "Kutgun Maral",
-          "rating": "Outperform",
-          "action": "上修",
-          "newTarget": "$275",
-          "oldTarget": "$230",
-          "reason": "For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275",
-          "reasonConfidence": "medium",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        },
-        {
-          "broker": "Stifel",
-          "analyst": "Jonathan Siegmann",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$217.5",
-          "oldTarget": "",
-          "reason": "the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-          "reasonConfidence": "medium",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "新題材",
-      "score": 214.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：SpaceX（SPCX）｜券商：Wells Fargo｜評等：Buy｜目標價：$217.5｜調整原因：來源未提供具體理由\n被評級公司：SpaceX（SPCX）｜券商：Evercore ISI｜動作：上修｜評等：Outperform｜目標價：$275（原 $230）｜調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275\n被評級公司：SpaceX（SPCX）｜券商：Stifel｜動作：重申｜評等：Buy｜目標價：$217.5｜調整原因：the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "numbers": [
-          "$217.5",
-          "$230",
-          "$275",
-          "$217.5"
-        ],
-        "why": "調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275；the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275；the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "TTMI",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "人工智慧押注加劇投資者擔憂，TTM Technologies 面臨獲利測試",
-      "summary": "",
-      "originalTitle": "TTM Technologies faces earnings test as AI bets fuel investor worries By Investing.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlB2T1o1TUtGajNtUmhRSHRwN3lwWlVMYVBJVVR1WGNFTGpFdWFOVG9GMkUzZEczeXFDRzNxNEcweVQzSkdhb2c5OG1aVWg2bGpOekZHNjA4b011a0dZbDZvRVJYVDlRWmFsVGo1ZlRoT2M4bEtzRHBjcUxOSUJEU0poVWNBY1Jnem5iZVBTVmsxZEFDdU9ST3dQT1ZzT0hKVDNUUUg2RlppMVFIcTlySldpT01GaWYzSk82R25zTQ?oc=5",
-      "ts": "2026-10-21T14:18:10+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.900010470107841,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "TTMI"
-      ],
-      "eventType": "新題材",
-      "analystPriority": false,
-      "score": 26.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "SpaceX 拯救了人工智慧產業，Meta 可以重新點燃它",
-      "summary": "",
-      "originalTitle": "SpaceX Saves the AI Trade, Meta Can Reignite It",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc1lsbE5zX0RkZDdvYVFzX0pxRjYtQ1pyMGJ5cHVsbEtJRjl4ampKbzZsWU9FNmJqU2dvbV9rNkJib0I1WW9UN0lpbm1mWEFtQnVCMzNIallnMTFBaUZEWXc5VlEzVzBXdU5rUGllODZFMnFPWVBOY21Vc0h0Sk5MeQ?oc=5",
-      "ts": "2026-10-21T14:18:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "特斯拉第三季前瞻：交付前景、現金流和一些合併猜測",
-      "summary": "",
-      "originalTitle": "Tesla Q3 preview: Delivery outlook, cash flow, and a dash of merger speculation on tap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdUlBXzBBVXhmeWF0S0xVNU10OG44WmdLTTdrWFhtNk9nQ2tpbU9ia1VVTFZsclNzdElmclZPNTFBN3pZNWV2YWNWYVg4V1loQWw5aDhodnpIWEkxak4zY0RwdF91bTk3bllHTFB6VTVYMXFNVklleWw1bFJUNEVwTksxTXJYdUdCTDMzQ0NoV3BXOTk5ZmZJUjhSTklUSWFsNGNJUWx1TDFHakU3R2kwTVNaZ3czd3lUNlJHaHV4R3F2eEozVkVYUlJIODJweDNJUFRhVnJWTzBJMFNiVDZGSg?oc=5",
-      "ts": "2026-10-21T14:16:25+00:00",
-      "sourceType": "history_search",
-      "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "擎天柱在哪裡？特斯拉獲利的關鍵問題。",
-      "summary": "",
-      "originalTitle": "Where is Optimus? Key questions for Tesla earnings.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3R4T09FT2hsS3ZGU21OUGtpYlpheFMyZ2NDazZKZVhGNEpscFNpVnRhNGdDUWI3aHd4a1lZTzMxc0dLOUg1OW1xb2NEbDg5UE01aFhfdlVWa0NvcUlmclNzUGp5Z3I0SEk3YzRfM2U1Wkt6MU9FQ0dlUDZQbE12SFk0emhwTFBQem0xOGZLRHFfWXBGWnJQekpzVm8?oc=5",
-      "ts": "2026-10-21T14:14:52+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 18.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "Evercore ISI 上修 SPCX 目標價至 $230（原 $220）",
-      "summary": "Bernstein doubled down on its SpaceX’s (NASDAQ: SPCX ) outlook on October 19, confirming both the “Buy” rating and the $248 SpaceX stock price target. The price target, which represents a 70% upside potential from the last closing price of $146, was first set in late September, when analyst Douglas S. Harned argued Starlink’s residential broadband business would generate approximately $64 billion in revenues in 2031. Moreover, the affirmation comes just one day ahead of the space company’s next earnings report, sch",
-      "originalTitle": "Pivotal Research raises SpaceX stock price target on strong results By Investing.com",
-      "originalSummary": "Bernstein doubled down on its SpaceX’s (NASDAQ: SPCX ) outlook on October 19, confirming both the “Buy” rating and the $248 SpaceX stock price target. The price target, which represents a 70% upside potential from the last closing price of $146, was first set in late September, when analyst Douglas S. Harned argued Starlink’s residential broadband business would generate approximately $64 billion in revenues in 2031. Moreover, the affirmation comes just one day ahead of the space company’s next earnings report, scheduled for tomorrow, October 20, which investors hope can answer the question of whether SpaceX’s expanding AI efforts can justify substantial capital investments. As of press time, analysts expect third-quarter revenue of $12.89 billion tomorrow, up 65% from the same period last year. At the same time, the consensus earnings estimate stands at $0.14 per share, compared with a loss of $0.09 in the previous quarter. In the second quarter, SpaceX reported revenue of $7.81 billion, marking a 92% increase year over year. However, the company also recorded $18.4 billion in capital expenditures, with $15.83 billion allocated to AI infrastructure alone, generating a lot of discussion among shareholders. Despite concerns about elevated spending, Wall Street analysts see considerable potential for the stock. Notably, the average price target of $217.5 represents nearly 50% upside from the current levels, per TipRanks data . All of the recent analyst calls have been bullish . For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275, while maintaining an “Outperform” rating. Maral expects SpaceX to exceed Wall Street’s third-quarter revenue forecasts and projects the company will reach an annualized revenue run rate of $104 billion by year-end, surpassing its $100 billion target. Similarly, Pivotal Research analyst Jeffrey Wlodarczak reiterated his “Buy” rating on October 12 and raised his price target from $220 to $230. The analyst expects third-quarter revenue to reach $13.2 billion, compared with $7.81 billion in the second quarter, and forecasts earnings of $0.21 per share. On the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190. In his report, Siegmann covered SpaceX’s plan to acquire wireless spectrum from Grain Management for approximately $8 billion, which he noted could help Starlink Mobile improve connectivity for users inside buildings and act as an important step toward expanding SpaceX’s mobile network capabilities.",
-      "url": "https://finbold.com/bernstein-sets-spacex-stock-price-target/",
-      "ts": "2026-10-21T14:14:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Bernstein",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "$217.5",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        },
-        {
-          "broker": "Evercore ISI",
-          "analyst": "Kutgun Maral",
-          "rating": "Outperform",
-          "action": "上修",
-          "newTarget": "$275",
-          "oldTarget": "$230",
-          "reason": "For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275",
-          "reasonConfidence": "medium",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        },
-        {
-          "broker": "Stifel",
-          "analyst": "Jonathan Siegmann",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$217.5",
-          "oldTarget": "",
-          "reason": "the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-          "reasonConfidence": "medium",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "新題材",
-      "score": 214.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：SpaceX（SPCX）｜券商：Bernstein｜評等：Buy｜目標價：$217.5｜調整原因：來源未提供具體理由\n被評級公司：SpaceX（SPCX）｜券商：Evercore ISI｜動作：上修｜評等：Outperform｜目標價：$275（原 $230）｜調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275\n被評級公司：SpaceX（SPCX）｜券商：Stifel｜動作：重申｜評等：Buy｜目標價：$217.5｜調整原因：the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "numbers": [
-          "$217.5",
-          "$230",
-          "$275",
-          "$217.5"
-        ],
-        "why": "調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275；the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：For example, on October 16, Evercore ISI analyst Kutgun Maral raised his price target on SpaceX by approximately 20%, from $230 to $275；the same day, Stifel analyst Jonathan Siegmann maintained his “Buy” rating on SpaceX, with a price target of $190.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "SpaceX 暗示特斯拉交易談判，股價走高",
-      "summary": "",
-      "originalTitle": "Stocks Higher as SpaceX Hints at Tesla Deal Talks",
-      "originalSummary": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"name\":\"articleHeader\",\"source\":\"108440558\",\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{\"isSpecialReport\":false},\"options\":{},\"data\":{\"id\":108440558,\"brand\":\"cnbc\",\"contentClassification\":[],\"type\":\"cnbcnewsstory\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002F2026\\u002F10\\u002F21\\u002Fspacex-spcx-stock-musk-merger-tesla.html\",\"native\":false,\"premium\":false,\"datePublished\":\"2026-10-21T08:05:56+0000\",\"dateModified\":\"2026-10-21T14:21:39+0000\",\"dateLastPublished\":\"2026-10-21T14:21:39+0000\",\"datePublishedFormatted\":\"Published Wed, Oct 21 2026 • 4:05 AM EDT\",\"dateLastPublishedFormatted\":\"Updated an hour ago\",\"deck\":null,\"description\":\"SpaceX shares jumped after the company reported surging revenue growth in its third quarter, and owner Elon Musk floated a potential SpaceX-Tesla merger.\",\"socialtoolsEnabled\":true,\"shortestHeadline\":null,\"headline\":\"SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up\",\"title\":\"SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up\",\"jobTitle\":null,\"socialMediaInfo\":null,\"sourceOrganization\":[{\"id\":100005495,\"type\":\"source\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002Fsearch\\u002F?query=CNBC%20Europe\",\"name\":\"CNBC.com\",\"logo\":null,\"creatorOverwrite\":null,\"__typename\":\"source\"}],\"creatorOverwrite\":null,\"author\":[{\"id\":107405071,\"name\":\"Sawdah Bhaimiya\",\"jobTitle\":\"Business News Reporter, CNBC International\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002Fmake-it\\u002Fsawdah-bhaimiya\\u002F\",\"image\":\"https:\\u002F\\u002Fimage.cnbcfm.com\\u002Fapi\\u002Fv1\\u002Fimage\\u002F108097736-1738764129802-Sawdah_Bhaimiya-12.jpg?v=1738764170\",\"sameAs\":null,\"socialMediaInfo\":null,\"__typename\":\"creator\"}],\"featuredAudio\":[{\"id\":108442144,\"url\":\"https:\\u002F\\u002Ffm.cnbc.com\\u002Fapplications\\u002Fcnbc.com\\u002Fresources\\u002Faudio\\u002F2026\\u002F10\\u002F21\\u002F1792592472555-spacex_stock_jum.mp3\",\"fileFormat\":\"audio\\u002Fmpeg\",\"contentSize\":3425636,\"title\":\"Narration: SpaceX stock jumps 8% after earnings beat and Musk hints at Tesla tie-up Oct 21 10:21 AM EDT\",\"__typename\":\"audio\"}],\"promoImage\":{\"id\":108321535,\"url\":\"https:\\u002F\\u002Fimage.cnbcfm.com\\u002Fapi\\u002Fv1\\u002Fimage\\u002F108321535-1792583496611-108321535-1781310783695-gettyimages-2280560635-SPACEX_IPO.jpg?v=1792583505\",\"caption\":\"A video displays Elon Musk, founder of SpaceX, after the company's initial public offering at the Nasdaq MarketSite in New York on June 12, 2026.\",\"__typename\":\"infographic\"},\"featuredMedia\":null,\"publisher\":{\"name\":\"CNBC\",\"logo\":\"https:\\u002F\\u002Fsc.cnbcfm.com\\u002Fapplications\\u002Fcnbc.com\\u002Fstaticcontent\\u002Fimg\\u002Fcnbc-hdr-logo2.png\",\"__typename\":\"publisher\"},\"section\":{\"id\":19854910,\"brand\":\"cnbc\",\"type\":\"franchise\",\"color\":null,\"name\":\"Tech\",\"eyebrow\":\"Te",
-      "url": "https://www.cnbc.com/2026/10/21/spacex-spcx-stock-musk-merger-tesla.html",
-      "ts": "2026-10-21T14:10:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "TSLA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 44.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"name\":\"articleHeader\",\"source\":\"108440558\",\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRend",
-        "numbers": [
-          "8%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"name\":\"articleHeader\",\"source\":\"108440558\",\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{\"isSpecialR",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null,
