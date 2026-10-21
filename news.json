@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-10-21 23:51 台灣時間",
+  "updatedAt": "2026-10-21 23:56 台灣時間",
   "historyUpdatedDate": "2026-10-21",
   "historyLastAttemptAt": "2026-10-20T16:04:00.406099+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-21",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "JPMorgan 調整 TSLA 目標價至 $500",
+      "summary": "",
+      "originalTitle": "SpaceX's $500 Price Target From JPMorgan Signals A Bigger Bet On AI Than Rockets -- Analyst Maps Out Potential Premium In Tesla Merger",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQWlBTRTdERmc4QWdPQnFyU003T2QwVTJ0cjZsb1loS2puYU9rYU1UYlNTS2JaV2FoMWt2b1phT0Y3STdFcjIwN3EwN2ZlNnZrV29XTnZJak5ORHFrUW0zMDFYR2lOU25HSnFsRlR5SW4wb1V6Y2I0S281M0toYUQtcGdSMVNRTVRDOVhzVktESlREc09JeGdDQzlqRG9HVzR4Qm5TTDk5ckx2a2dDT2VKWXhMd0FsUjhCQzB3WHUtdVEtMFdSdWdQb3dhYWdfNTNiUjRZMHZUbTB1WXQ3cURyTWhsRG5OdG1kT0lOY3BJcmpELUY0cVh1YU5FU0RYb3Q1UzJhcEpJMk5sa1c0WjNjS1lPZHExSXNUdElncjBkSkI3dw?oc=5",
+      "ts": "2026-10-21T15:49:49+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "JPMorgan",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$500",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA",
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 222.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：JPMorgan｜目標價：$500｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$500"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 7
+    },
     {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
@@ -178,7 +227,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -522,7 +571,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -603,6 +652,40 @@
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "「有遠見還是魯莽？」：華爾街對 SpaceX 獲利和可能與特斯拉合併的評價",
+      "summary": "",
+      "originalTitle": "'Visionary or reckless?': What Wall Street is saying about SpaceX's earnings and possible Tesla merger",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaGM4Vm5Pdmp4NjlKajlYcGJxTEotM2dhV3pUUXNQWm5MTkdkNXk5SmhJczBEWUdoaWxpU2lZWUdRUEt1clNLT1RSamJjS2NRVjFKV3c2MzRKdkVnVUNnS1hlNWlvLWVpS29NN1NnVlEwLUg3Y2V1NVZNYnFyWV93TlA0cEtvekZNUzhPZXpqaw?oc=5",
+      "ts": "2026-10-21T14:24:00+00:00",
+      "sourceType": "active_search",
+      "movePct": 10.50138710332229,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 39.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -853,7 +936,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1470,7 +1553,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1631,8 +1714,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMKR",
@@ -3118,71 +3201,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "OpenAI 將人工智慧模型引入谷歌雲，進一步擴展到微軟之外",
-      "summary": "",
-      "originalTitle": "OpenAI to bring AI models to Google's cloud, in further expansion beyond Microsoft",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNXhvUlpRaDlhdjFIa3BDYy12MFBILU1vZFNfa0ZKUlV6cERUd1lVUWtEbEFVcTAxRlVuaGJFTENlYUtyOFloTlhRZ1QwTW5zOUd2UXFwT1pjS0FhX2NfT0R4MUJpNVZ6Z3ItZ05WRklZN2tSX2NUdkhsckYyM1FHbjM4Mi1WeTNvdUI5MkR0LXphNWs5UHFUZGxENXE4NWliZkdQeXR5eW7SAa4BQVVfeXFMTUhXVUF3ZHRsOGJpRnlGR2dKT2FWdk5oaW5zTzVJN1E5aEt5eGM4Wmtyei00T2F4dFBMSm5CWGR1WjYzU3BpVWpKUjdNZkltS3VzdkYyMDNMZWtCbnQwZHUtMVV5dTdmZF9tcVpnVW52aGlqNGJzNlJvaDJyZXRMR19QN293Tzk2NnV0NXVwUmxBUUx6TTA2aDMzaUlTc20zWFg2UkhfdnhCUnpnMm9R?oc=5",
-      "ts": "2026-10-21T12:00:02+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL",
-        "MSFT"
-      ],
-      "eventType": "",
-      "score": 24.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Project Suncatcher：Google在太空建立人工智慧資料中心的計畫解釋",
-      "summary": "",
-      "originalTitle": "Project Suncatcher: Google’s plan to setup an AI data centre in space explained",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaEpRT3ltOVo5UGlnR1JZNElYRjNCeEswNDhfQWtEUnMydmV6THRQLVZqdWkzQjFTbE1hSWdLRkRuTnpibmR2TDlLWWF6RmRZSy1OSzR5eVQycy16Q1pWblpkZWJDNzl2LXZpWFRORERHRXNocjJjSnFmTFRhMUdMNWhmd1pBNDBVMzBlcHdWa0dHc1R3WUlpZTlhNWhERG9FTHVralVscE9RTHJEZWllLXhWOEs3bUNNaTFDRtIB7AFBVV95cUxPS3I0WkhWV2FidncxMUxvS2ptTWJMQmRSVWQ1MmtFekpQempnZEliS0VKZVZ3SXExVTdVM1NYT1VvT3dzREgybDYyUXhDbGdyYzdiTGhCOEFPckJJWkVNVUVUVmxtWjdGWVZGRHlGc2N2MEJjbFFCelFMek5jdEwzdzR4ckM3d0JMR2djZktwU0gzamtpajI2cFBWcEx2U0dwVkQtX1dkZ3ItOWdFMjdYdi1KdDJiUjkyMnZZdkZuVnFNVXgwMkxlVjlTY3FQNEl5RVQtcWNFbmk2ZC1wUmtINE52eVZBM0hFZ3c3MQ?oc=5",
-      "ts": "2026-10-21T12:00:00+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "",
-      "score": 18.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": false
     }
   ],
   "historyItems": [
