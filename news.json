@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 03:35 台灣時間",
+  "updatedAt": "2026-10-22 03:48 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -7,27 +7,72 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "利多",
-      "title": "Samsung, SK Hynix upgrade China plants under U.S. export curbs",
+      "ticker": "FLNC",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利空",
+      "title": "Fluence Energy (NASDAQ:FLNC) Stock Gets Price Target Cut from Citigroup",
       "summary": "",
-      "originalTitle": "Samsung, SK Hynix upgrade China plants under U.S. export curbs",
+      "originalTitle": "Fluence Energy (NASDAQ:FLNC) Stock Gets Price Target Cut from Citigroup",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1NENDJBd0dtOWIzUlQzSEtad21qZTBxYzhyR2NHcTVOOXktVDRyQzluUmowYnF2WkU4UW9OWV9mRXVCVk4yTkRTS2VxSjJBXzMzTTEwbU50bWNIdFZjZmJ0LU14dlRObDB6NnkyZHhWYTJtM2lmSmJGaFlReGZFSmRhajU0UGNKMXV1NVV2M2wwcXU3?oc=5",
-      "ts": "2026-10-21T19:17:00+00:00",
-      "sourceType": "active_search",
-      "movePct": 5.805396565821752,
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHZLNDFOV2huaGZLcEhPS05XRS1vdkpObTNCVjdVR0VlemtPMTNUR2NHalRUcEhibGcwOFFsTzFvZngyU2hDLW9ZN3czU0hBdi1XcDJPMWsxVW92aktGeHVHQVFNOVFsaU5HNkl2QUVxZEktdkY0NmJBT1BVYkdGRkZ4RUpHTnlObThRLUlJN0dEcThJUlhxWkR1ajVhUldlOWxxZmhOYjFCN0VyVGE5N015THg5S1lvOWd6aXhGSzUwNW9RLUFsb2NKcw?oc=5",
+      "ts": "2026-10-21T19:29:29+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Citigroup",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "FLNC",
+          "targetCompany": "Fluence"
+        }
+      ],
       "hasArticleBody": false,
       "relatedTickers": [
-        "SK HYNIX"
+        "FLNC"
       ],
       "eventType": "",
-      "analystPriority": true,
-      "score": 209.25,
+      "score": 202.5,
       "featured": true,
       "translated": false,
-      "analystDetails": [],
+      "investorBrief": {
+        "event": "被評級公司：Fluence（FLNC）｜券商：Citigroup｜動作：下修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM",
+      "summary": "",
+      "originalTitle": "Dell CEO warns memory shortage will worsen as $95 billion AI server order backlog awaits DRAM and HBM",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVGZReFZYV011bGNseFdfT1RfamJ5ZDNwYndoMVpfNEVtYk9YTVFjdi1oS3Zxb3VWUlVHU0o3ZEt4Szk2NHRseFgweTB5MV9qR0VEM09La3dPSDBLWGxrUzA0ZkQ3bE4wbWRSRHZ3cFkzaUZEYjRzVTF1eHNUYTVfWVlUZFNiRllkcDRJSTh3ZWVDQVU0eDl5czk3amZwR0w3dkdpdlh1N1NyN0UwT0lKQ2tSTGNoQngxOTM3cHZFRlczc0ozRWhQUjlfS0ZUcUpKNk9UczM2WEt1blFpWVRGSU1BcXZTYmp1VDRGcw?oc=5",
+      "ts": "2026-10-21T19:25:09+00:00",
+      "sourceType": "active_search",
+      "movePct": 5.7782303492503795,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 12.75,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -37,8 +82,46 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "利多",
+      "title": "Samsung, SK Hynix upgrade China plants under U.S. export curbs",
+      "summary": "Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+      "originalTitle": "Samsung, SK Hynix upgrade China plants under U.S. export curbs",
+      "originalSummary": "Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+      "url": "https://finance.yahoo.com/technology/articles/samsung-sk-hynix-upgrade-china-062823309.html",
+      "ts": "2026-10-21T19:17:00+00:00",
+      "sourceType": "active_search",
+      "movePct": 5.805396565821752,
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "SK HYNIX"
+      ],
+      "eventType": "",
+      "analystPriority": true,
+      "score": 212.25,
+      "featured": true,
+      "translated": false,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+        "numbers": [],
+        "why": "券商調整理由：Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+        "stance": "Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "券商調整理由：Investing.com -- Samsung Electronics (KS:005930) and SK Hynix (KS:000660) are upgrading their Chinese factories to produce more advanced memory chips, seeking to counter growing competition from domestic rival Yangtze Memory Technologies and meet rising demand from artificial intelligence data centres, Reuters reported on Wednesday.",
+        "sourceQuality": "body"
+      },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 7,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "STX",
@@ -124,6 +207,39 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nasdaq climbs over 1% as SpaceX, Super Micro boost AI sentiment",
+      "summary": "",
+      "originalTitle": "Nasdaq climbs over 1% as SpaceX, Super Micro boost AI sentiment",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+      "ts": "2026-10-21T18:53:55+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 9.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -305,6 +421,40 @@
       "score": 34.5,
       "featured": true,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Wamsi Mohan: Expect solid earnings season for Western Digital, Seagate, Dell",
+      "summary": "",
+      "originalTitle": "Wamsi Mohan: Expect solid earnings season for Western Digital, Seagate, Dell",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQ1FKTkpiRzVUVmlDT2RTQmltYkRfOWdzVmhZUFYxZnhKQmc3Nkx3Y21Od0Y1S0FwMl9BRjBSMm15ZExZNVQwQkI4VHRDQTRoRjNJb0RGV09kQlFmb2NuWldWd3hOWHdnMkZnNVNwOHgyRm52bmdPRnIyNHhBdjhCb3BPc0xQZDAtczBaVi1Ja0g2XzhOMHdacFQ5bmtKNjZ0REV2Z3pLNW4wbVdBb1RNUEMtSXY0UXc?oc=5",
+      "ts": "2026-10-21T18:20:24+00:00",
+      "sourceType": "active_search",
+      "movePct": 5.7782303492503795,
+      "relatedTickers": [
+        "DELL",
+        "WDC",
+        "STX"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 24.75,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -528,6 +678,38 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "2 Reasons Why Dell Stock Is Having a Super Day -- Barrons.com",
+      "summary": "",
+      "originalTitle": "2 Reasons Why Dell Stock Is Having a Super Day -- Barrons.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdWZMUFFhN0xmQTI3VHctX0E4ZDJudktacWRyMzkya2hVNFJPZEhLRU5QeVZhTUZaSUhjWVJLYjJwUmNwMVpVaXczRERVUW42T25LUUxEbWZ3RmVIbmhCUHFTd2ZVMUtvdmJJdlBEU3FrX0MzTTBQOEh0TGhob3B4QXI5cjVXYXJzdF9rTDF5MXhtdVZV?oc=5",
+      "ts": "2026-10-21T17:56:00+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 5.7782303492503795,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NET",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
@@ -583,7 +765,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -629,7 +811,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Vistra（VST）｜券商：Morgan Stanley｜動作：下修｜調整原因：來源未提供具體理由",
@@ -694,7 +876,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "American Electric Power ( AEP ) rose 2.2% in Tuesday's trading as BTIG upgraded the utility to B uy from Neutral with a $147 price target, saying the company is \"one of the key beneficiaries of the large load theme over the next",
@@ -763,7 +945,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -782,7 +964,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "Super Micro 將營收預期上調至 195 億美元，帶動 SMCI、戴爾和 HPE 股價走高",
-      "summary": "Key takeawaysSuper Micro raises quarterly revenue guidance by $4 billionSMCI stock surges nearly 12% on stronger AI demandHigher margin expectations support Del",
+      "summary": "",
       "originalTitle": "Super Micro Raises Revenue Outlook to $19.5 Billion, Sending SMCI, Dell and HPE Stocks Higher",
       "originalSummary": "Key takeawaysSuper Micro raises quarterly revenue guidance by $4 billionSMCI stock surges nearly 12% on stronger AI demandHigher margin expectations support Del",
       "url": "https://www.kucoin.com/news/flash/super-micro-raises-revenue-outlook-to-19-5-billion-boosts-smci-dell-hpe-stocks",
@@ -796,7 +978,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 14.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Key takeawaysSuper Micro raises quarterly revenue guidance by $4 billionSMCI stock surges nearly 12% on stronger AI demandHigher margin expectations support Del",
@@ -1883,7 +2065,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1917,7 +2099,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -3001,177 +3183,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "DELL",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "從「囤卡」到「效率為王」：戴爾（DELL.US）擴大「AI工廠」佈局，標誌著新雲端供應商算力業務的轉變",
-      "summary": "",
-      "originalTitle": "From “Card Hoarding” to “Efficiency Is King”: Dell (DELL.US) Expands Its “AI Factory” Footprint, Signaling a Shift in the Computing Power Business for New Cloud Providers",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRkJUTGVuUXJ1Rk01MVNTb2prcU1mZnZiYzduUDRyT25RRVQ3bVZsSXVnY0NkUFNnRzZEUkgxNTF2U2NJaVJnTEI5ZlNnUHlKYjNPWlZXbUl6V0JvTzBTOGxWcElJQko3RWpUUDZLQ3dOazRvQ0dxMnJJTGZzY2swNEx6OEJqZTU3UzFjWElqUk1JUFlGZGdsNl81X0JMN21PdVkzbGJZRQ?oc=5",
-      "ts": "2026-10-21T14:06:04+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 4.798942716006582,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "DELL"
-      ],
-      "eventType": "",
-      "score": 10.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Meta 的人工智慧支出熱潮讓投資者藉鑒了金融危機的策略",
-      "summary": "",
-      "originalTitle": "Meta’s AI spending spree has investors taking a page from the financial-crisis playbook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObHBBZHZ5SmlfMlJld3djNmdPcTVXN0txckV0cGpLbTFZRVIwV21XTnJaVFFHcW1nMERidkNvYW1GamNKQTBkdVlkcC1ZbTd4aTJSNUVEY0toLVV5cERuZmk4dDBLWkRBZFpqWjZTMlZqRFhGQlEzdnZvZjdIMjlVVUZkcGdnSS1IbmMzVUtQSUNRTnBVaWpVT01JVUppQUQ2eG13b1JEdVRHbjk2dlJDY3Vlc3M0VExYbThjLXRudlNJRXZ1dVZtYQ?oc=5",
-      "ts": "2026-10-21T14:05:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "利空",
-      "title": "NBIS 維持中性評級－Piper S 下調目標價",
-      "summary": "",
-      "originalTitle": "NBIS Maintains Neutral Rating -- Price Target Lowered by Piper S",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkhxdXE3Rmtfd1htclBRdWVHZTVVYjlHa053RlJBYTNoMURyMjlrb1FKazdyUXQxc0Nzak11WkhXX1NEb3Y0RV9VdFFFRVlkQVZ5TXlfdUZBSTFqUmZnc0R1RXJSYkM3VW83eWRxVDFXa0FYTGNtazQ5TkJENmhCSVJjOTlBUWh5NWkzR05QVW1vLU45TmRXMXpBQWZlVkxXd0FjQkZ2c2pmZw?oc=5",
-      "ts": "2026-10-21T14:03:45+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "標普 500 指數預測：SpaceX 上漲後 SPX 上漲，Meta 接下來上漲",
-      "summary": "",
-      "originalTitle": "S&P 500 Forecast: SPX rises after SpaceX jumps, Meta up next",
-      "originalSummary": "Elon Musk’s space company reported its first quarterly profit since going public in June, driven mainly by growth in its superintelligence segment.Netflix stock tanked nearly 6% in overnight trading after its forecast disappointed markets; 3M stock closed nearly 6% up after beating Wall Street estimates and raising its full-year outlook.Markets will now turn to earnings from Meta, Tesla, IBM and AT&T, slated to report results on Wednesday.U.S. stock futures were mixed in the overnight session late Tuesday as markets await a slew of technology company earnings this week and SpaceX posted stellar third-quarter (Q3) results.As of 10:56 p.m. EDT, Nasdaq-100 futures climbed more than 1%, and S&P 500 futures gained 0.35%. Dow futures, however, slipped about 0.01%.On Tuesday, the three benchmark indexes closed mixed. The Nasdaq Composite closed 0.02% lower, but the Dow Jones Industrial Average added more than 500 points, closing up more than 1%. The S&P 500 climbed 0.28% at close.IndexMoveCloseDow Jones Industrial Average1.02%52,495.88S&P 5000.28%7,712.57Nasdaq Composite-0.02%26,424.82Key US Market DriversEarnings from marquee names, including SpaceX (SPCX) and Netflix Inc. (NFLX) dominated the narrative on Tuesday. Elon Musk’s space company reported its first quarterly profit since going public in June, driven primarily by growth in its superintelligence segment.SpaceX reported Q3 revenue of $14.58 billion, surging past estimates of $13 billion, and earnings per share of $0.35 against an expected $0.13.AI-related revenue came in at $7.56 billion, surpassing Starlink’s print for the first time, partly due to the company’s August acquisition of Cursor and additions to cloud service deals.Musk hinted that $1 trillion in revenue in 2028 could be on the cards, even as he downplayed a potential combination of SpaceX and Tesla (TSLA), despite creating special committees of independent directors to explore the possibility.Deepwater Asset Management’s Gene Munster put the odds of a merger within two years at 95%, saying in a post on X, “The stars are lining up for Elon to fully realize his vision of $SPCX being a vertical AI company, with the odds of a $TSLA merger increasing.”Energy stocks, including Bloom Energy (BE), Oklo (OKLO) and NuScale Power (SMR), among others, climbed in the overnight session after Musk said that power and cooling infrastructure were the actual constraints on growing “superintelligence” rather than semiconductors, boosting sentiment for the stocks amid the AI boom. Meanwhile, Netflix and 3M Co. (MMM) also posted quarterly prints on Tuesday. NFLX stock tanked nearly 5% overnight after its forecast disappointed markets, while MMM stock closed nearly 6% up after beating Wall Street estimates and raising its full-year outlook.Markets will now turn to earnings from Meta Platforms Inc. (META), Tesla Inc. (TSLA), International Business Machines Corp. (IBM), and AT&T, Inc. (T), which are slated to report on Wednesday. Christian Mueller-Glissmann, head of asset allocation at Goldman Sachs Research, reportedly said in a note that this earnings season could help stocks rise as the year winds down. “Near term there might be more volatility du",
-      "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-s-and-p-500-futures-climb-after-space-x-s-blowout-quarter-smci-nflx-ge-stocks-in-focus/cZxtFA9RBHZ",
-      "ts": "2026-10-21T14:03:31+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "BE",
-        "META",
-        "TSLA"
-      ],
-      "eventType": "新題材",
-      "score": 44.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Elon Musk’s space company reported its first quarterly profit since going public in June, driven mainly by growth in its superintelligence segment.Netflix stock tanked nearly 6% in overnight trading after its forecast disappointed markets; 3M stock closed nearly 6% up after beating Wall Street estimates and raising its full-year outlook.Markets will now turn to earnings from Meta, Tesla, IBM and AT&T, slated to report results on Wednesday.U.S. EDT, Nasdaq-100 futures climbed more than 1%, and S&P 500 futures gained",
-        "numbers": [
-          "$14.58 billion",
-          "$13 billion",
-          "$0.35",
-          "$0.13."
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Elon Musk’s space company reported its first quarterly profit since going public in June, driven mainly by growth in its superintelligence segment.Netflix stock tanked nearly 6% in overnight trading after its forecast disappointed markets; 3M stock closed nearly 6% up after beating Wall Street estimates and raising its full-year outlook.Markets will now turn to earnings from Meta, Tesla, IBM and AT&T, slated to report results on Wednesday.U.S. stock futures were mixed in the overnight session late Tuesday as markets await a slew of technology company ear",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "新的人工智慧框架彌補了中期天氣預報的關鍵差距",
-      "summary": "",
-      "originalTitle": "New AI framework bridges a critical gap in mid-range weather forecasts",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVENVYkFuNV9XZWh5dTRjZG5EaXM3WktvMGg5dEItdkNaRjhFUmhvSXhtWVdsWGJ2VXhVbTlha0dsWkRwbGxjWUhoOFdDakR5Z094X0tnVEU0bHNYcVpuRnJxa3phaWZvVDdpZzRORk9vTUt2ZjF2eDdWLWI0b3lqNEZNUHBINXg1WFBPeHMzcTBYbkQ2LWFjZGE1Sk4xRG1zUGJQb1ZUVUhORnpYclJvMlMycjNJTHgwRHc?oc=5",
-      "ts": "2026-10-21T14:03:24+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
