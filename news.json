@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 05:13 台灣時間",
+  "updatedAt": "2026-10-22 05:25 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -7,38 +7,87 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "IBM",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利多",
+      "title": "Evercore ISI 重申 IBM Outperform",
+      "summary": "",
+      "originalTitle": "Evercore ISI Reiterates Outperform Rating on IBM (IBM)",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ2NLZFo5VXRTSkhUdjdzMEdJSlZPcEI2UWRzZjZKVzFLcUt0VkZ4dTNQWFdoVjY0Z3Q4cXVoM2czWkdzRndaSWwtMFFUZFNqaTQyRnh5aFJZRXp5WEpOaUJremRHbThxMlBiak9Wc0szcGtJc3ljREV6WWVjRFFSRGhIZ0VGaVBwUDBKZ3FmRG9nYkE1alhfUGtsZVJWYlJ5THFXaHg5NDdJZ19kTGd4Z3ZtaDBMd3djUkF3?oc=5",
+      "ts": "2026-10-21T21:10:16+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Evercore ISI",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "IBM",
+          "targetCompany": "IBM"
+        }
+      ],
+      "relatedTickers": [
+        "IBM"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：IBM｜券商：Evercore ISI｜動作：重申｜評等：Outperform｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
       "title": "Dow Jones Futures: Meta, Tesla Are Earnings Movers Late After SpaceX, Super Micro Lead Bullish Nasdaq Move",
-      "summary": "",
+      "summary": "US stock futures traded mostly higher on Wednesday as investors assessed corporate earnings, developments in artificial intelligence investment and geopolitical uncertainty surrounding the conflict in the Middle East. Attention also turned to comments from Elon Musk about a potential merger between SpaceX and Tesla, reports concerning Anthropic’s financial performance and Meta Platforms’ forthcoming quarterly results",
       "originalTitle": "Dow Jones Futures: Meta, Tesla Are Earnings Movers Late After SpaceX, Super Micro Lead Bullish Nasdaq Move",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1otTzBPWW8zcFp0UFFNc0M4bjZFV1N0Y0J0cXlTUVRxODRRVzBfdmFUdEEyRlFWcmg0MkI1TTZNV24tY1VabUhXY2VHRXQwdzc2emQ0UHJCcVFVLVNqSXVfRmtzWEVRY3I3dkpsend3dXRqS3B0ZVE5dGRuNThxY2U4UUV4YTNQeXIwbVZnRmxNNVozenBVQlFvdUJUbVhtcmVleUR5WHZIczQtR09pVFNvYnVTeGFFZDhha0xVZw?oc=5",
+      "originalSummary": "US stock futures traded mostly higher on Wednesday as investors assessed corporate earnings, developments in artificial intelligence investment and geopolitical uncertainty surrounding the conflict in the Middle East. Attention also turned to comments from Elon Musk about a potential merger between SpaceX and Tesla, reports concerning Anthropic’s financial performance and Meta Platforms’ forthcoming quarterly results.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-edge-higher-094745538.html",
       "ts": "2026-10-21T20:51:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX",
+        "META",
         "TSLA"
       ],
       "eventType": "",
-      "score": 27.75,
+      "score": 36.75,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "US stock futures traded mostly higher on Wednesday as investors assessed corporate earnings, developments in artificial intelligence investment and geopolitical uncertainty surrounding the conflict in the Middle East. Attention also turned to comments from Elon Musk about a potential merger between SpaceX and Tesla, reports concerning Anthropic’s financial performance and Meta Platforms’ forthcoming quarterly results",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "US stock futures traded mostly higher on Wednesday as investors assessed corporate earnings, developments in artificial intelligence investment and geopolitical uncertainty surrounding the conflict in the Middle East. Attention also turned to comments from Elon Musk about a potential merger between SpaceX and Tesla, reports concerning Anthropic’s financial performance and Meta Platforms’ forthcoming quarterly results",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -87,21 +136,90 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "JPMorgan more than doubles SpaceX price target... “It’s going to $500”",
-      "summary": "",
+      "summary": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"na",
       "originalTitle": "JPMorgan more than doubles SpaceX price target... “It’s going to $500”",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lTGJaQ3Q1WmJ3MGJkRkwtUzZoRFlXZG11bWdxWkFpdUdCbl91TlVZbkpURmhvVzViNUxGTnRLVXVNR05PNlZ1eFpESVY2TF9UaV8wWXRidWU?oc=5",
+      "originalSummary": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"name\":\"articleHeader\",\"source\":\"108441939\",\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{\"isSpecialReport\":false},\"options\":{},\"data\":{\"id\":108441939,\"brand\":\"cnbc\",\"contentClassification\":[\"premium\"],\"type\":\"cnbcnewsstory\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002F2026\\u002F10\\u002F21\\u002Fjpmorgan-says-spacex-to-triple-after-huge-third-quarter-earnings-beat-.html\",\"native\":false,\"premium\":true,\"datePublished\":\"2026-10-21T13:52:03+0000\",\"dateModified\":\"2026-10-21T13:52:03+0000\",\"dateLastPublished\":\"2026-10-21T13:52:03+0000\",\"datePublishedFormatted\":\"Published Wed, Oct 21 2026 • 9:52 AM EDT\",\"dateLastPublishedFormatted\":null,\"deck\":null,\"description\":\"SpaceX is rallying after its latest earnings report, and it still has room to run, JPMorgan said.\",\"socialtoolsEnabled\":true,\"shortestHeadline\":null,\"headline\":\"JPMorgan says SpaceX will triple after huge third-quarter earnings beat\",\"title\":\"JPMorgan says SpaceX will triple after huge third-quarter earnings beat\",\"jobTitle\":null,\"socialMediaInfo\":null,\"sourceOrganization\":[{\"id\":80000022,\"type\":\"source\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002Fsearch\\u002F?query=CNBC%20US\",\"name\":\"CNBC.com\",\"logo\":null,\"creatorOverwrite\":null,\"__typename\":\"source\"}],\"creatorOverwrite\":null,\"author\":[{\"id\":108195472,\"name\":\"Liz Napolitano\",\"jobTitle\":\"CNBC PRO Reporter\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002Fliz-napolitano\\u002F\",\"image\":\"https:\\u002F\\u002Fimage.cnbcfm.com\\u002Fapi\\u002Fv1\\u002Fimage\\u002F108212965-1760623103211-IMG_9412-2.jpg?v=1760623110\",\"sameAs\":[\"https:\\u002F\\u002Fwww.twitter.com\\u002FLizKNapolitano\"],\"socialMediaInfo\":[{\"url\":\"https:\\u002F\\u002Ftwitter.com\\u002FLizKNapolitano\",\"displayText\":\"LizKNapolitano\",\"type\":\"twitter\",\"__typename\":\"socialMediaInfo\"}],\"__typename\":\"creator\"}],\"featuredAudio\":[],\"promoImage\":{\"id\":108433435,\"url\":\"https:\\u002F\\u002Fimage.cnbcfm.com\\u002Fapi\\u002Fv1\\u002Fimage\\u002F108433435-1792431209721-gettyimages-2298077242-_75a9313_userrv3q.jpeg?v=1792431256\",\"caption\":\"A SpaceX Falcon 9 rocket and Dragon spacecraft carrying NASA's Crew-13 lift off from Space Launch Complex 40 at Cape Canaveral Space Force Station on Oct. 1, 2026 in Cape Canaveral, Florida. \",\"__typename\":\"infographic\"},\"featuredMedia\":null,\"publisher\":{\"name\":\"CNBC\",\"logo\":\"https:\\u002F\\u002Fsc.cnbcfm.com\\u002Fapplications\\u002Fcnbc.com\\u002Fstaticcontent\\u002Fimg\\u002Fcnbc-hdr-logo2.png\",\"__typename\":\"publisher\"},\"section\":{\"id\":106605926,\"brand\":\"cnbc\",\"type\":\"franchise\",\"color\":\"#06A756\",\"name\":\"Analyst Calls\",\"eyebrow\":\"Analyst Calls\",\"shortestHeadline\":\"Analyst Calls\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002Fpro\\u002Fanalyst-stock-picks\\u002F\",\"subType\":\"section\",\"section\":{\"subType\":\"section\",\"__typename\":\"franchise\"},\"image\":null,",
+      "url": "https://www.cnbc.com/2026/10/21/jpmorgan-says-spacex-to-triple-after-huge-third-quarter-earnings-beat-.html",
       "ts": "2026-10-21T20:41:18+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "SPCX"
+      ],
+      "eventType": "新題材",
+      "score": 220.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"na",
+        "numbers": [
+          "$500"
+        ],
+        "why": "券商調整理由：var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"na",
+        "stance": "var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"na",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：var __CNBC_META_DATA={\"layout\":[{\"editable\":false,\"columns\":[{\"span\":\"full\",\"editable\":false,\"modules\":[{\"name\":\"adTopBanner\",\"source\":null,\"canChangeLayout\":false,\"canChangeSource\":false,\"serverRenderPolicy\":null,\"attributes\":{},\"options\":null,\"data\":{\"__typename\":\"asset\"},\"__typename\":\"module\"}],\"__typename\":\"column\"}],\"__typename\":\"layout\"},{\"editable\":true,\"columns\":[{\"span\":\"full\",\"editable\":true,\"modules\":[{\"na",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
+      "summary": "",
+      "originalTitle": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+      "ts": "2026-10-21T20:37:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
       "hasArticleBody": false,
       "relatedTickers": [
         "SPCX"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 9.75,
       "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "investingLive Americas FX news wrap 21 Oct: Nasdaq leads as AI optimism offsets Gulf oil risks",
+      "summary": "",
+      "originalTitle": "investingLive Americas FX news wrap 21 Oct: Nasdaq leads as AI optimism offsets Gulf oil risks",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYzA2cE81QmhBdWtxX2EwQ0NMQjk2NVB4aERVRXFxczJlc0Q3UGNYaHo5NmhSckVEWTV2dlF2LTg1aThEODdkZ3RpT18tc180X1RXekw0aEtJWG91X1pVVE5yM094NWY3NnRzQXFJc1hSNUVqNG9lRndyQTZvYnRSS2tZQmRaSThRaWNuVU1xdmlJOU0yUUc2NW1mSlVJcV9vaHd3NEhFTDJkQzNPV0VMWm12UTN0UWZ2MnNveFVqQzBieW8?oc=5",
+      "ts": "2026-10-21T20:37:39+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -131,7 +249,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -235,34 +353,42 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX and Tesla Consider Merger",
-      "summary": "",
+      "summary": "Huoxing Finance reports that on October 21, SpaceX (SPCX.O) and Tesla (TSLA.O) established a special committee to explore a potential merger. Musk commented, “I think it’s a good idea.” However, the merger is not guaranteed and requires approval from a majority of Tesla’s shareholders. SpaceX’s latest financial results showed third-quarter revenue exceeded expectations, sending its stock up 8.06% in after-hours tradi",
       "originalTitle": "SpaceX and Tesla Consider Merger",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOERBYml1d0x3SXJZZExNX2dObEFRTnJmTzhtYTZzblNMWXNjV01YUDFObl9kSllBY1c0ZXZZZ1JGVGxvcUZiSnlXbnlxQnZzenZncWd3VzNhRDlZSU5seVpCRXZiWFJPZGpjNzNmX0RKS0NnYUI4cDFndFJwZjRSUXJB?oc=5",
+      "originalSummary": "Huoxing Finance reports that on October 21, SpaceX (SPCX.O) and Tesla (TSLA.O) established a special committee to explore a potential merger. Musk commented, “I think it’s a good idea.” However, the merger is not guaranteed and requires approval from a majority of Tesla’s shareholders. SpaceX’s latest financial results showed third-quarter revenue exceeded expectations, sending its stock up 8.06% in after-hours trading. Tesla’s stock rose 1.76% post-market. According to Coinglass data, over the past 12 hours, the total liquidations across all networks amounted to $4.26 million for SPCX, with $900,000 in long positions liquidated and $3.36 million in short positions liquidated; for TSLA, total liquidations over the same period reached $454,000, with $1,147 in long positions and $452,900 in short positions liquidated. The total open interest for SPCX contracts across all networks is 6.4709 million contracts, approximately $1.049 billion, up 6.33% in the last 24 hours; the total open interest for TSLA contracts is 510,900 contracts, approximately $195 million, down 2.81% in the last 24 hours. The 24-hour trading volume for SPCX contracts across all networks is $3.146 billion, up 129.2% year-over-year; the 24-hour trading volume for TSLA contracts is $479 million, down 1.69% year-over-year.",
+      "url": "https://www.kucoin.com/news/flash/tesla-and-spacex-consider-merger-spcx-futures-trading-volume-surges-129",
       "ts": "2026-10-21T20:26:00+00:00",
       "sourceType": "active_search",
       "movePct": 7.794844035455717,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX",
         "TSLA"
       ],
-      "eventType": "",
+      "eventType": "跨公司事件",
       "analystPriority": false,
-      "score": 26.25,
+      "score": 33.75,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Huoxing Finance reports that on October 21, SpaceX (SPCX.O) and Tesla (TSLA.O) established a special committee to explore a potential merger. Musk commented, “I think it’s a good idea.” However, the merger is not guaranteed and requires approval from a majority of Tesla’s shareholders. SpaceX’s latest financial results showed third-quarter revenue exceeded expectations, sending its stock up 8.06% in after-hours tradi",
+        "numbers": [
+          "$4.26 million",
+          "$900,000",
+          "$3.36 million",
+          "$454,000,"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Huoxing Finance reports that on October 21, SpaceX (SPCX.O) and Tesla (TSLA.O) established a special committee to explore a potential merger. Musk commented, “I think it’s a good idea.” However, the merger is not guaranteed and requires approval from a majority of Tesla’s shareholders.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -310,6 +436,36 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 18.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Dow Jones Energy Forum: US Venezuelan Oil Imports Won’t Replace Canada’s, Economist Says",
+      "summary": "",
+      "originalTitle": "Dow Jones Energy Forum: US Venezuelan Oil Imports Won’t Replace Canada’s, Economist Says",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObUJwYlR2TWs3N3VqV3JMSEw1cnZxclhqb3ljbUNVRVRKNEJoUC1OMlY5b2RyWmhkZXNmQ0tyN0c2WWdjYjFRcWlzbXJQREdPb0JsNzNtcTNZMDRfX2N4dC05N0gzeUVoOGNJWmN4eldVN1ZtNkhnWThlWk1pLUswOU51VmJ4YllNdUdVLUx3UW5xZEZPdjBpZlRhT085TmQ2U0ZhWXMtRHBCOV91a0E4ZE02Nm92WTEwdkNRMWgxY2VZdFpweHJiR0VNVnRoel8tMENBcXk3Vm9ZUHVDdUkzS2JKcV9MS29vOHBkNWUyM3J6ZDg3NHpEZ0Y5dk5JMHp4bnEwUE02aGpMU3BqYXc?oc=5",
+      "ts": "2026-10-21T20:20:39+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -711,7 +867,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "FLNC",
@@ -757,7 +913,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -836,7 +992,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -945,7 +1101,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "SPCX",
@@ -1245,8 +1401,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "VST",
@@ -1422,7 +1578,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1444,7 +1600,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Morningstar analyst Nicolas Owens said SpaceX's low launch costs, reusable rockets, and strong market share give it a competitive edge. The analyst boosted the fair value to $70 from $62. Morningstar's $70 valuation hinges on Starship reuse, while Elon Musk sees SpaceX reaching $1 trillion in revenue by 2028.",
@@ -1569,7 +1725,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 2,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1616,7 +1772,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "DELL",
@@ -2470,7 +2626,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2533,7 +2689,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2882,160 +3038,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "博通的人工智慧收入飆升 221%，但成長是否變得過於依賴人工智慧支出？",
-      "summary": "",
-      "originalTitle": "Broadcom’s AI Revenue Surges 221%, But is Growth Becoming Too Dependent on AI Spending?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX081U0VMOFZKZFNTRFladkVFU3FoVy00amNrbHlKaVNxemp1X2hsb3A3bjV3WURTd0hQLWRRcDlwSVIycEw5NEp1ZTFMUU9LSVRUVVIyRmw1eXBKVU1qQ09aWHBFMDNQZzJWa09UeHFTQXQ4SWhiT2EzR29UOGdpUWlNeW4xUGh4OVBrMjAyTFg3MVp4OTBlbkd3?oc=5",
-      "ts": "2026-10-21T15:25:33+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "FLNC",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "利空",
-      "title": "Citi 下修 FLNC 目標價至 $11（原 $20）",
-      "summary": "Title: Error 404: Page Not Found - TipRanks.com URL Source: http://www.tipranks.com/news/fluence-energy-price-target-lowered-to-11-from-20-at-citi Markdown Content: 55% Off TipRanks Premium Upgrade Now Confident Investing Starts With TipRanks Premium Get 55% Off x x 55% OFF Stocks Top Analyst Stocks PopularTop Smart Score Stocks PopularAI Analyst Top Stocks NewTop Insiders StocksMarket MoversTipRanks 50 IndexAI Stock",
-      "originalTitle": "Fluence Energy price target lowered to $11 from $20 at Citi",
-      "originalSummary": "",
-      "url": "https://www.tipranks.com/news/fluence-energy-price-target-lowered-to-11-from-20-at-citi",
-      "ts": "2026-10-21T15:15:25+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "detailSource": "yahoo_or_article_metadata",
-      "analystDetails": [
-        {
-          "broker": "Citi",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "$11",
-          "oldTarget": "$20",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "FLNC",
-          "targetCompany": "Fluence"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "FLNC"
-      ],
-      "eventType": "",
-      "score": 250.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Fluence（FLNC）｜券商：Citi｜動作：下修｜目標價：$11（原 $20）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$20",
-          "$11"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 1
-    },
-    {
-      "ticker": "TXN",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "德州儀器 (TI) 股票需要再次震盪。盈利能起到作用嗎？",
-      "summary": "",
-      "originalTitle": "Texas Instruments Stock Needs Another Jolt. Will Earnings Do the Trick?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQUpkMVZNQXo1T1BmU0pqdnVfN19fMTJQUEt5RHY3VkREWHFQQTY1bWo2NVNvbk4wSDRDQl9kb0tsajRzLUlTdzRhWmlXalk5Q3BKUGNJZE9Tb2tqVElNN21iMlM1dWZGQXdKR3Q5TGoyaDFZLVBCZTdSZHp2eFloU01QUE9Pd1U?oc=5",
-      "ts": "2026-10-21T15:13:00+00:00",
-      "sourceType": "history_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "TXN"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "美國東部時間上午 11 點，道瓊斯成為市場頭條新聞：SpaceX 暗示特斯拉交易談判，股市走高 |紐約證券交易所...",
-      "summary": "",
-      "originalTitle": "Dow Jones Top Markets Headlines at 11 AM ET: Stocks Higher as SpaceX Hints at Tesla Deal Talks | NYSE ...",
-      "originalSummary": "The run-up comes ahead of a busy earnings week that is likely to set the tone for technology stocks and the broader market. Meta Platforms, Tesla, Lam Research, Texas Instruments, Bloom Energy, Valero Energy, and Netflix are among the top companies set to announce their quarterly prints this week. Meanwhile, climbing oil prices amid growing geopolitical uncertainties have put some downward pressure on markets.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-edge-033156816.html",
-      "ts": "2026-10-21T15:06:18+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 7.146491643548281,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "BE",
-        "META",
-        "LRCX",
-        "TXN",
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 28.6,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "The run-up comes ahead of a busy earnings week that is likely to set the tone for technology stocks and the broader market. Meta Platforms, Tesla, Lam Research, Texas Instruments, Bloom Energy, Valero Energy, and Netflix are among the top companies set to announce their quarterly prints this week. Meanwhile, climbing oil prices amid growing geopolitical uncertainties have put some downward pressure on markets.",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "The run-up comes ahead of a busy earnings week that is likely to set the tone for technology stocks and the broader market. Meta Platforms, Tesla, Lam Research, Texas Instruments, Bloom Energy, Valero Energy, and Netflix are among the top companies set to announce their quarterly prints this week.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
