@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 03:15 台灣時間",
+  "updatedAt": "2026-10-23 03:19 台灣時間",
   "historyUpdatedDate": "2026-10-23",
   "historyLastAttemptAt": "2026-10-22T16:02:03.415852+00:00",
   "historyItemCount": 800,
@@ -775,6 +775,37 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "2026 年因子：第三季回顧、第四季因子期貨展望",
+      "summary": "",
+      "originalTitle": "Factors 2026: Q3 Review, Q4 Outlook with Factor Futures",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONDZnelBjRkE2QnRzLU5PS2ZKR09tcEc4V0g0eFFEbXF0bjdkWkVjZUVGbFIzdFI2REdzdEc3cEFGY3RXUWlPRU5PSVRsTFNUYUVPV0IwdmJlaHJYNWxaNXRvSG9LNEd0U0R1blZ2SHBCbE9feTZocGxiVkRFYkZxRlhpdDNGWWNzVHV1WXR3aEFENFJTelBQY1BOc0pqQQ?oc=5",
+      "ts": "2026-10-22T17:02:12+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2848,56 +2879,6 @@
       },
       "top10": true,
       "top10Rank": 10,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "Bernstein 調整 CRWV 目標價至 $51",
-      "summary": "Bernstein analysts slashed their price target on CoreWeave ( CRWV ) shares to $51 from $74. Yahoo Finance Executive Editor Brian Sozzi highlights his 3 biggest takeaways from Bernstein's latest note out on CoreWeave.",
-      "originalTitle": "Bernstein slashes CoreWeave price target to $51: 3 big takeaways",
-      "originalSummary": "Bernstein analysts slashed their price target on CoreWeave ( CRWV ) shares to $51 from $74. Yahoo Finance Executive Editor Brian Sozzi highlights his 3 biggest takeaways from Bernstein's latest note out on CoreWeave.",
-      "url": "https://finance.yahoo.com/video/bernstein-slashes-coreweave-price-target-to-51-3-big-takeaways-135600858.html",
-      "ts": "2026-10-22T13:56:00+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Bernstein",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "$51",
-          "oldTarget": "$74",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "CRWV",
-          "targetCompany": "CoreWeave"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "新題材",
-      "score": 205.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：CoreWeave（CRWV）｜券商：Bernstein｜動作：下修｜目標價：$51（原 $74）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$74",
-          "$51"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
       "detailSource": "article_or_same_event"
     }
   ],
