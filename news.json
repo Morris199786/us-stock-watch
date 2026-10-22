@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 08:20 台灣時間",
+  "updatedAt": "2026-10-22 08:33 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -68,7 +68,7 @@
       "eventType": "",
       "score": 207.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Goldman Sachs｜動作：重申｜評等：Buy｜調整原因：Goldman Sachs Maintains Buy on Nvidia (NVDA) After CEO's GTC Key",
         "numbers": [],
@@ -79,7 +79,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -118,33 +118,45 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
-      "summary": "",
+      "summary": "STORY: Wall Street stocks finished higher Wednesday with the Dow advancing about seven-tenths of one percent, the S&amp;P 500 climbing nearly six-tenths and the Nasdaq gaining one percent. Quarterly results from SpaceX and Super Micro Computer improved investor appetite for artificial intelligence-related stocks. :: SpaceX SpaceX shares rallied nearly 8% after Elon Musk&#039;s rocket and space technology firm posted",
       "originalTitle": "Nasdaq leads Wall Street gains as SpaceX, Super Micro boost AI sentiment",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZUJTOXdaa0JmVzZubm12MGt4VnNSemsyOW1fQXpCMnhEc25HSVJRZk93d2NYUXQ3eHBuQklaNE1FT1QyQ1NqdTFkdExDbmoxY2JtOWhLQkVtYXczMHh3a3VsZmhub1JFc0FIZHN1eEcwc3FRZVZWQnBoSjFjekFYTUN6X2d5WHJUWGpDU2paekhhU24zenhNbWpXUmtfdmo5cTFIZVZwTXdiRzZoeUtiazhHWkJEWEVZLTVmQmRMcw?oc=5",
+      "originalSummary": "STORY: Wall Street stocks finished higher Wednesday with the Dow advancing about seven-tenths of one percent, the S&amp;P 500 climbing nearly six-tenths and the Nasdaq gaining one percent. Quarterly results from SpaceX and Super Micro Computer improved investor appetite for artificial intelligence-related stocks. :: SpaceX SpaceX shares rallied nearly 8% after Elon Musk&#039;s rocket and space technology firm posted its first profit as a public company. Musk said a merger of SpaceX and Tesla would be &quot;a good idea,&quot; also boosting Tesla shares. The car maker rose in after-hours trading when it reported quarterly revenue that topped estimates, while Super Micro shares jumped 9.5% after the AI server maker forecast quarterly revenue and profit margin above Wall Street estimates, signaling that AI demand remained resilient. Also, Meta rose in after-hours trading when it said quarterly sales topped estimates. Liz Miller, founder and president of Summit Place Financial Advisors, says she believes this earnings season will show AI gains have moved beyond the giant technology companies. &quot;Investors are trying to figure out month by month. What sector of companies are going to benefit now and next. And I think what we may see this season is a little bit more in the industrial area where companies maybe are starting to really see some innovation and some profitability in robotics off of AI. We may see some prizes in healthcare as it starts being a core that drives business. Certainly, we will see it in the hyperscalers still. That&#039;s where we&#039;ve seen it before. But it&#039;s this opportunity to get glimpses as to the next growth engines when we hear from companies this earnings cycle.&quot; :: Netflix Other stocks on the move included Netflix, which dropped more than 5% after the video streaming company issued a weaker-than-expected forecast for its fourth-quarter profit. And Abbott Laboratories shares declined almost 2% after the medical device maker cut its 2026 sales growth forecast.",
+      "url": "https://www.marketscreener.com/news/nasdaq-leads-wall-street-gains-as-spacex-super-micro-aid-ai-sentiment-ce785cd9dc8cf022",
       "ts": "2026-10-21T23:11:13+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "SPCX"
+        "SPCX",
+        "SMCI",
+        "TSLA"
       ],
-      "eventType": "",
-      "score": 9.75,
+      "eventType": "新題材",
+      "score": 44.25,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "STORY: Wall Street stocks finished higher Wednesday with the Dow advancing about seven-tenths of one percent, the S&amp;P 500 climbing nearly six-tenths and the Nasdaq gaining one percent. Quarterly results from SpaceX and Super Micro Computer improved investor appetite for artificial intelligence-related stocks. :: SpaceX SpaceX shares rallied nearly 8% after Elon Musk&#039;s rocket and space technology firm posted",
+        "numbers": [
+          "8%",
+          "9.5%",
+          "5%",
+          "2%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "STORY: Wall Street stocks finished higher Wednesday with the Dow advancing about seven-tenths of one percent, the S&amp;P 500 climbing nearly six-tenths and the Nasdaq gaining one percent. Quarterly results from SpaceX and Super Micro Computer improved investor appetite for artificial intelligence-related stocks.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -167,6 +179,38 @@
       "eventType": "",
       "score": 15.75,
       "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CRWD",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Options Whale Alert: $1.15M Bullish Long Call Opened on $CRWD",
+      "summary": "",
+      "originalTitle": "Options Whale Alert: $1.15M Bullish Long Call Opened on $CRWD",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdW9mT0NyUjFCSk5LTm8zaGhRR0hmWTNIbWJZTzg0RGprWkJoYUJXWm1CZXBqTjdrcEppMjVHendWRlVWSlV0SGJiS2JPNE5aWmZ0SWNxMTU3QVF1am1XdFNRaHlUYzNtS1QtN2UzcEpmNEF3WEZDOU8zbk5iN1ptVkdCQk9jeFdpa3dyYmM0Y2Zlclh2amhVRVR0bnFEZw?oc=5",
+      "ts": "2026-10-21T22:59:20+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 5.264546773980738,
+      "relatedTickers": [
+        "CRWD"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -346,32 +390,35 @@
       "title": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal",
       "summary": "",
       "originalTitle": "Tesla revenue flattens out as Elon Musk eyes possible SpaceX deal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55dmtHcWplOVdiVjIzWm5MRHA5U0o5ZHBJN21pX0RadUE4bjBGS19VUlRsUWVuRlFrYUFOVWVMNWVMSnRWRURpb1B6NTFlQ1FfM2xxWEZaT2swclpGOEswb0NyVWtpWGp5?oc=5",
+      "originalSummary": "SpaceX stock is surging after a blowout quarter, but the earnings call just ignited a far bigger conversation about combining two of Elon Musk's most valuable companies into something the market has never seen before.",
+      "url": "https://247wallst.com/investing/2026/10/21/spacex-jumps-8-on-q3-revenue-beat-as-musk-backs-tesla-merger-idea-rocket-lab-and-ast-spacemobile-edge-higher/",
       "ts": "2026-10-21T22:07:28+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "SPCX",
         "TSLA"
       ],
       "eventType": "",
-      "score": 15.75,
+      "score": 27.75,
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "SpaceX stock is surging after a blowout quarter, but the earnings call just ignited a far bigger conversation about combining two of Elon Musk's most valuable companies into something the market has never seen before.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "SpaceX stock is surging after a blowout quarter, but the earnings call just ignited a far bigger conversation about combining two of Elon Musk's most valuable companies into something the market has never seen before.",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "IBM",
@@ -416,8 +463,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "SK Hynix",
@@ -602,7 +649,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "SPCX",
@@ -727,7 +774,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -766,6 +813,40 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "SpaceX and Tesla form committees to explore a merger, Musk says - San Antonio Express-News",
+      "summary": "",
+      "originalTitle": "SpaceX and Tesla form committees to explore a merger, Musk says - San Antonio Express-News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMWlvZUVrbUFkaC1tblNqTzdVcDJMVWZoNVoxX29oTGIzSGZwdVEwTWZ3NjNVeU1tMnNoQzVQMTZocE9GeWdRUWlZdWNka1lzVlRwQzlYTHVuZjFYbGZYakFuSlFmYUF4T0kwZHNTdGRHSU9XN2ZXX2w5UnpKdmlyWFdFSHgyNElRUkRaV0wzM3VQMmg0VXlSMndteW43TjVWcGVHQ29UMXpRdw?oc=5",
+      "ts": "2026-10-21T20:59:56+00:00",
+      "sourceType": "active_search",
+      "movePct": 7.794844035455717,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 26.25,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SPCX",
@@ -1882,7 +1963,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "FLNC",
@@ -1991,7 +2072,7 @@
       "eventType": "",
       "analystPriority": true,
       "score": 212.25,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "analystDetails": [],
       "investorBrief": {
@@ -2007,7 +2088,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2116,7 +2197,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -2410,7 +2491,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "ON",
@@ -2443,7 +2524,7 @@
         "ON"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 175.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2492,7 +2573,7 @@
         "VST"
       ],
       "eventType": "",
-      "score": 201.0,
+      "score": 174.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2523,7 +2604,7 @@
       "hasArticleBody": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 9.75,
+      "score": 8.45,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2557,7 +2638,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 34.5,
+      "score": 29.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2591,7 +2672,7 @@
       ],
       "eventType": "",
       "analystPriority": false,
-      "score": 24.75,
+      "score": 21.45,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2649,7 +2730,7 @@
         "INTC"
       ],
       "eventType": "新題材",
-      "score": 214.5,
+      "score": 185.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2665,8 +2746,8 @@
         "takeaway": "調整原因：AI demand and a wider semiconductor recovery.",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 3,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2884,78 +2965,6 @@
       ],
       "eventType": "",
       "score": 6.5,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NET",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "PHP 關鍵漏洞外洩；駭客發動先發制人的攻擊； Cloudflare 盤中飆升超過 8%",
-      "summary": "",
-      "originalTitle": "Critical PHP Vulnerability Leaked; Hackers Launch Preemptive Attacks; Cloudflare Surges Over 8% Intraday",
-      "originalSummary": "Two vulnerabilities that could affect the servers underlying many websites have been disclosed ahead of the planned security patches, leading major cybersecurity authorities to urge users to prepare for remediation. The flaws, tracked as CVE-2026-109618 and CVE-2026-109619 and collectively known as ‘PHP2Shell,’ were scheduled to be disclosed on October 21 at 2pm GMT. However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were supposed to be kept secret until the patches are available. The post , now deleted, claimed that two maximum-severity (CVSS rating of 10.0) PHP remote code execution (RCE) vulnerabilities would be disclosed on October 22. It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) and server takeover. PHP is used by approximately 69.7% of websites whose server-side programming language is known, according to recent W3Techs data. These include many content management systems (CMS) like WordPress, Drupal, Joomla and Magento as well as e-commerce and web services platforms. Following the petecooper post, WatchTowr confirmed that CVE-2026-109618 and CVE-2026-109619 were scheduled to be disclosed later. The disclosure was also scheduled to happen alongside the PHP security team releasing patches for both vulnerabilities. Leaking information on critical vulnerabilities and some of their characteristics, such as the range of affected versions, ahead of an available patch can lead malicious actors to exploit them, for instance using reverse engineering techniques.",
-      "url": "https://www.infosecurity-magazine.com/news/critical-php-vulnerabilities-leaked/",
-      "ts": "2026-10-21T17:47:36+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 6.959443244540431,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NET"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "However, a user named ‘petecooper’ published a post on the Hacker News forum on October 20 revealing the vulnerabilities’ CVE identifiers, which were supposed to be kept secret until the patches are available. The post , now deleted, claimed that two maximum-severity (CVSS rating of 10.0) PHP remote code execution (RCE) vulnerabilities would be disclosed on October 22. It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) a",
-        "numbers": [
-          "8%",
-          "69.7%"
-        ],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "It also said that both vulnerabilities affected PHP versions dating back to PHP 5 and that exploiting them could allow remote code execution (RCE) and server",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "DELL",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "DELL 261023 540.00C (DELL261023C540000) Stock Options Chain | Quotes & News",
-      "summary": "",
-      "originalTitle": "DELL 261023 540.00C (DELL261023C540000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oNWhmUGpuUGZfTy1TbkhtdWtnSDVJbDQtQ0tLSkl6WVpraDluSW5mMWpUZHYwem5EeVU3UkVwcDJYcHZzWmNfcXYxZG9oSXFieVRkS2dMTHRJU1R3UG81UQ?oc=5",
-      "ts": "2026-10-21T17:45:22+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 5.269087442586007,
-      "relatedTickers": [
-        "DELL"
-      ],
-      "eventType": "",
-      "score": 9.1,
       "featured": false,
       "translated": false,
       "investorBrief": {
