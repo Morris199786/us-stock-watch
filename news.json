@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 06:03 台灣時間",
+  "updatedAt": "2026-10-23 06:07 台灣時間",
   "historyUpdatedDate": "2026-10-23",
   "historyLastAttemptAt": "2026-10-22T16:02:03.415852+00:00",
   "historyItemCount": 800,
@@ -129,6 +129,52 @@
       "top10Rank": null
     },
     {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "今日股市，10 月 22 日：CoreWeave 因 Bernstein 評級下調和融資擔憂而下跌",
+      "summary": "",
+      "originalTitle": "Stock Market Today, Oct. 22: CoreWeave Slides on Bernstein Downgrade and Financing Worries",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPemFFQVVFTU5UZHRPT3hleHM0NzR2TG9nZVpHY3Y1eUlVbjNCV3g0ODVMM1MzRlNhcXU2X1YySXY3YjNkaURCeUpUbUhWWVdZNjBEak1UQnU0UGoxeXVUTHYwdlQ5VkFHTzhTb01veGx6b0JEV0Z1azRQaE5leVN6SHNIVWZtQ3ZSMjZyWThBSW5PcWxHYXp1dTlwNzQ5QXlndHpuSWtjRF9aYTVYdFlBQ0F3SDZGM2hTb0tpcHhFM0lOdlctenNoczNVWW5ZUExiNXNYQWVkc0RvZHdHbUJWS2xB?oc=5",
+      "ts": "2026-10-22T20:55:58+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Bernstein",
+          "analyst": "",
+          "rating": "",
+          "action": "降評",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRWV",
+          "targetCompany": "CoreWeave"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRWV"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：CoreWeave（CRWV）｜券商：Bernstein｜動作：降評｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "利空",
@@ -247,7 +293,8 @@
         "sourceQuality": "headline_only"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": false
     },
     {
       "ticker": "MARKET",
@@ -1353,7 +1400,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：CoreWeave（CRWV）｜券商：Bernstein｜動作：下修｜調整原因：來源未提供具體理由",
@@ -1365,7 +1412,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "SPCX",
@@ -1447,8 +1494,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2677,7 +2724,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2691,42 +2738,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "西門子 Healthineers 與 Nvidia 啟動放射治療人工智慧合作",
-      "summary": "",
-      "originalTitle": "Siemens Healthineers, Nvidia launch radiotherapy AI collaboration",
-      "originalSummary": "The two aim to embed AI agents in the treatment planning process, with the goal of personalizing radiotherapy delivery to tumors and avoiding damage to healthy tissues. “To put it simply, these efforts are centered on helping providers manage complexity more seamlessly, make more informed decisions about treatment options, and ultimately spend more time on patient care,” Siemens Healthineers CEO Bernd Montag wrote in a LinkedIn post on the initiative. “For us, that’s where the promise of AI becomes real.” The effort will also look to incorporate digital twins of patients to model treatment scenarios, as well as apply additional computing power during the procedure itself. According to Nvidia, this will include the use of its Nemotron open foundation models for agent development, in addition to dose-calculation software and its Holoscan platform for real-time sensor data to help adapt the therapy to a particular patient. “We’ve made important advances in precision and adaptation — most recently, with the launch of the Accela system,” said Arthur Kaindl, head of Siemens Healthineers’ Varian cancer-care business, referring to the single-breath radiotherapy platform the company unveiled last month . “Our collaboration with NVIDIA builds on that progress, exploring how AI and real-time computing could give clinicians greater speed and insight to make informed decisions, adapt treatment with greater confidence and deliver personalized care to more patients,” Kaindl added. Related: Siemens Healthineers wins FDA clearance for 6 new interventional imaging systems Nvidia said it is also developing projects with multiple life sciences companies tasked with AI-driven drug and protein design, as well as laboratory automation. They include Automata, Benchling, Biolevate, Boltz, Danaher, Genedata, Halogen and Therna Biosciences. The company will also work with the University of Washington’s Institute for Protein Design, to roll out its RFD4-Proteina model for parsing binding sites and enzyme scaffolding. “We are moving from an era of discovering the proteins nature has made to one in which we can design entirely new ones,” said David Baker, director of the UW institute and one of the winners of the 2024 Nobel Prize in chemistry for his work in computational design.",
-      "url": "https://www.massdevice.com/siemens-healthineers-nvidia-launch-radiotherapy-ai-collaboration/",
-      "ts": "2026-10-22T16:00:17+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 13.65,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "兩者的目標是將人工智慧代理嵌入到治療計劃過程中，目標是對腫瘤進行個人化放射治療並避免對健康組織造成損害。 「對我們來說，這就是人工智慧的承諾成為現實的地方。」這項工作還將尋求將患者的數位雙胞胎納入治療場景模型，並在手術過程中應用額外的計算能力。 「我們在精準度和適應性方面取得了重要進展——最近，隨著 Accela 系統的推出，」Arthur 說",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "兩者的目標是將人工智慧代理嵌入到治療計劃過程中，目標是對腫瘤進行個人化放射治療並避免對健康組織造成損害。西門子醫療執行長 Bernd Montag 在 LinkedIn 的一篇關於該計劃的帖子中寫道：「簡單來說，這些努力的重點是幫助醫療服務提供者更無縫地管理複雜性，就治療方案做出更明智的決策，並最終將更多時間花在患者護理上。」 “對我們來說，這就是為什麼雙胞胎的承諾成為現實的地方。”據 Nvidia 稱，這將包括使用其 Nemotron 開放基礎模型進行代理開發，以及劑量計算軟體和用於即時感測器數據的 Holoscan 平台，以幫助適應",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
@@ -2827,7 +2838,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "德州儀器 (TI) 獲利通過測試",
-      "summary": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。还在猜测哪些股票会跑赢大盘？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
+      "summary": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
       "originalTitle": "Texas Instruments Earnings Pass the Test",
       "originalSummary": "Investing.com -- Texas Instruments reported third-quarter earnings and revenue above analysts' expectations on Wednesday, supported by broad-based growth across industrial, automotive and data centre markets, while forecasting fourth-quarter results ahead of Wall Street estimates. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-beats-quarterly-estimates-203838221.html",
@@ -2843,12 +2854,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。还在猜测哪些股票会跑赢大盘？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
+        "event": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
         "numbers": [
           "118%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。还在猜测哪些股票会跑赢大盘？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
+        "stance": "Investing.com——週三，德州儀器 (TI) 報告稱，在工業、汽車和數據中心市場廣泛增長的支撐下，第三季度盈利和收入高於分析師預期，同時預測第四季度業績高於華爾街預期。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -3898,7 +3909,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "利空",
       "title": "隨著交易延遲的緩解，IBM 上調了年度軟體收入預期",
-      "summary": "第三季度销售额增长 5%，达到 171 亿美元，超过分析师平均预测的 168.3 亿美元 IBM 收回了客户今年早些时候推迟的大型机和相关软​​件交易的大约三分之二。 IBM 預計全年自由現金流將年增超過 10 億美元。",
+      "summary": "第三季銷售額成長 5%，達到 171 億美元，超過分析師平均預測的 168.3 億美元 IBM 收回了客戶今年稍早推遲的大型主機和相關軟體交易的大約三分之二。 IBM 預計全年自由現金流將年增超過 10 億美元。",
       "originalTitle": "IBM raises annual software revenue outlook as deal delays ease",
       "originalSummary": "Third-quarter sales grew 5% to $17.1 billion, exceeding average analyst projections of $16.83 billion IBM recovered roughly two-thirds of the mainframe and related software deals that clients postponed earlier in the year. IBM expects full-year free cash flow to increase by more than $1 billion year-over-year.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-stock-rises-hours-tops-221258293.html",
@@ -3915,7 +3926,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "第三季度销售额增长 5%，达到 171 亿美元，超过分析师平均预测的 168.3 亿美元 IBM 收回了客户今年早些时候推迟的大型机和相关软​​件交易的大约三分之二。 IBM 預計全年自由現金流將年增超過 10 億美元。",
+        "event": "第三季銷售額成長 5%，達到 171 億美元，超過分析師平均預測的 168.3 億美元 IBM 收回了客戶今年稍早推遲的大型主機和相關軟體交易的大約三分之二。 IBM 預計全年自由現金流將年增超過 10 億美元。",
         "numbers": [
           "$17.1 billion",
           "$16.83 billion",
@@ -5745,7 +5756,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 財報電話會議的五個要點",
-      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
       "originalTitle": "Five Takeaways From SpaceX’s Earnings Call",
       "originalSummary": "President and Chief Operating Officer - Gwynne Shotwell Andrea Williams: Hello, everyone. We are coming to you live from our Starlink factory and future Starmind production site here in Bastrop, Texas. I'm Andrea Williams, Head of Investor Relations, and thank you for joining us for SpaceX's Third Quarter 2026 Earnings Presentation. Joining us are Elon, Gwynne, and Bret, and we are live streaming on X. Our third quarter financial results were announced just after 3:00 p.m. Texas time, and all relevant materials have been published to our Investor Relations website at ir.spacex.com. For today's presentation, our prepared remarks will be followed by a question-and-answer session.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-q3-2026-earnings-005829420.html",
@@ -5762,10 +5773,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -7405,7 +7416,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems, Inc. (AEHR) 股票價格、新聞、報價和歷史",
-      "summary": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由于该股双向波动如此之快，读者面临的关键问题是，有多少收入力量已经反映在今天的价格中。",
+      "summary": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
       "originalTitle": "Aehr Test Systems, Inc. (AEHR) Stock Price, News, Quote & History",
       "originalSummary": "Aehr Test Systems has seen its share price swing sharply, with a very strong multi year run now followed by a steep pullback. This puts fresh focus on whether the current valuation is supported by its sales. With the stock moving so quickly in both directions, the key issue for readers is how much revenue power is already reflected in today's price.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-systems-aehr-stock-232505810.html",
@@ -7421,10 +7432,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由于该股双向波动如此之快，读者面临的关键问题是，有多少收入力量已经反映在今天的价格中。",
+        "event": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由于该股双向波动如此之快，读者面临的关键问题是，有多少收入力量已经反映在今天的价格中。",
+        "stance": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -7885,7 +7896,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "GE Vernova 獲得旨在加強科特迪瓦地區能源能力的訂單",
-      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
       "originalTitle": "GE Vernova secures order aimed to strengthen regional energy capacity in Côte d’Ivoire",
       "originalSummary": "Developed by Songon Energies S.A., Songon power plant is built to strengthen energy security and support future growing electricity demand in Greater Abidjan GE Vernova 9E turbine technology to support reliable power delivery for industrial growth and millions of households Infrastructure development expected to create up to 1,400 new jobs and drive positive community impact ABIDJAN, Côte d&#039;Ivoire - [October 20, 2026] - GE Vernova announced today that it will provide the gas power technology forthe new Songon combined-cycle power plant, located in the Songon region near Abidjan, Côte d&#039;Ivoire. Following the signing of financing agreements last June, Songon Energies- Ivorian development investment company focused on advancing energy infrastructure - selected GE Vernova to supply a 9E gas turbine and generator. The plant - to be built by the EPC contractor China Energy International Engineering Co., Ltd. - is expected to deliver 372 megawatts (MW), a capacity equal to the power needs of approximately 5 million Ivorian homes. Supporting a growing national energy landscape. Côte d&#039;Ivoire has made significant progress, reaching an electrification rate of 94.3 percent by 2024 through initiatives like the &quot;Electricity for All Program&quot; (PEPT), in line with the national goal to achieve universal electrification and improved power quality by 2030. Despite these gains, the nation faces an annual demand growth rate of 10 to 15 percent and rural areas still require expanded access. In this energy landscape, this new power plant will help fill a critical gap. The facility is projected to represent up to 12 percent of the country&#039;s total installed base upon its scheduled 2029 operational launch, playing a vital role in meeting these ambitious development targets. Furthermore, the project is expected to generate up to 1,400 new jobs, creating economic opportunities for the local community. &quot;The Songon Energies project is designed to strengthen energy security and support future growing electricity demand growth in the Greater Abidjan region while reinforcing the country&#039;s position as a regional energy hub in West Africa,&quot; said Mr. Wang Xiaoming, Deputy General Manager (Acting CEO) for Songon Energies. &quot;The facility is expected to ease energy pressure on the Abidjan metropolitan area, providing a reliable foundation for the development of skilled workers, the growth of industrial zones, the expansion of small and medium-sized enterprises, and a tangible improvement in the daily lives of millions of Ivorian households. We selected to work with GE Vernova for this new power plant, because of our deep trust in their efficient technology and their constant, proven presence in Côte d&#039;Ivoire, which gives us great confidence in the long-term success of this facility.&quot; &quot;We are honored to support Songon Energies with our proven 9E technology for this crucial infrastructure project,&quot; said Joseph Anis, CEO of Gas Power in Europe, Middle East, and Africa at GE Vernova. &quot;Our commitment to power plant operators is rooted in delivering advanced gas power technology that provides the reliable, dispatc",
       "url": "https://www.marketscreener.com/news/ge-vernova-secures-order-aimed-to-strengthen-regional-energy-capacity-in-cote-da-ivoire-ce785cdbd181f227",
@@ -7901,12 +7912,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "numbers": [
           "5 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -9713,7 +9724,7 @@
       "group": "CSP",
       "tag": "利多",
       "title": "AEP 與亞馬遜和 X-energy 合作在印第安納州探索先進核能",
-      "summary": "Joint development plan aimed at benefitting Hoosiers without raising costs for customers Companies working together to study the feasibility of a small modular reactor project in Sullivan County, Indiana, in coordination with state and local stakeholders Development and funding agreements designed to provide financial safeguards for AEP's customers and investors If the project moves beyond the development phase and is constructed, 960 megawatts of X-energy's advanced nuclear generation technology expected to connect directly to the grid to provide safe, reliable energy",
+      "summary": "聯合開發計畫的目的是在不增加客戶成本的情況下讓印第安納州居民受益 公司與州和地方利益相關者協調，共同研究印第安納州沙利文縣小型模組化反應器項目的可行性 旨在為 AEP 客戶和投資者提供財務保障的開發和融資協議 如果該項目進入開發階段並保持可靠，960 兆瓦的 X-energy 先進核能發電技術預計",
       "originalTitle": "AEP Partners with Amazon and X-energy to Explore Advanced Nuclear Energy in Indiana",
       "originalSummary": "Joint development plan aimed at benefitting Hoosiers without raising costs for customers Companies working together to study the feasibility of a small modular reactor project in Sullivan County, Indiana, in coordination with state and local stakeholders Development and funding agreements designed to provide financial safeguards for AEP's customers and investors If the project moves beyond the development phase and is constructed, 960 megawatts of X-energy's advanced nuclear generation technology expected to connect directly to the grid to provide safe, reliable energy",
       "url": "https://finance.yahoo.com/energy/articles/aep-partners-amazon-x-energy-123000961.html",
@@ -9729,10 +9740,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Joint development plan aimed at benefitting Hoosiers without raising costs for customers Companies working together to study the feasibility of a small modular reactor project in Sullivan County, Indiana, in coordination with state and local stakeholders Development and funding agreements designed to provide financial safeguards for AEP's customers and investors If the project moves beyond the development phase and is constructed, 960 megawatts of X-energy's advanced nuclear generation technology expected to connect directly to the grid to provide safe, reliable energy",
+        "event": "聯合開發計畫的目的是在不增加客戶成本的情況下讓印第安納州居民受益 公司與州和地方利益相關者協調，共同研究印第安納州沙利文縣小型模組化反應器項目的可行性 旨在為 AEP 客戶和投資者提供財務保障的開發和融資協議 如果該項目進入開發階段並保持可靠，960 兆瓦的 X-energy 先進核能發電技術預計",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Joint development plan aimed at benefitting Hoosiers without raising costs for customers Companies working together to study the feasibility of a small modular reactor project in Sullivan County, Indiana, in coordination with state and local stakeholders Development and funding agreements designed to provide financial safeguards for AEP's customers and investors If the project moves beyond the development phase and is constructed, 960 megawatts of X-energy's advanced nuclear generation technology expected to connect directly to the grid to provide safe, ",
+        "stance": "聯合開發計畫的目的是在不增加客戶成本的情況下讓印第安納州居民受益 公司與州和地方利益相關者協調，共同研究印第安納州沙利文縣小型模組化反應器項目的可行性 旨在為 AEP 客戶和投資者提供財務保障的開發和融資協議 如果該項目進入開發階段並保持可靠，960 兆瓦的 X-energy 先進核能發電技術預計",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11429,7 +11440,7 @@
       "group": "光通訊／網通",
       "tag": "利多",
       "title": "Viavi Solutions 第一季預覽：價格重置後更具吸引力（評級升級）(VIAV)",
-      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Viavi Solutions Q1 Preview: Lot More Attractive After Price Reset (Rating Upgrade) (VIAV)",
       "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of MU, TSM either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4954989-viavi-solutions-q1-preview-a-lot-more-attractive-after-the-price-reset-rating-upgrade",
@@ -11446,14 +11457,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
-        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 MU、TSM 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -12639,7 +12650,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "測試：2026 年福特 F-150 STX Lobo 在性價比方面未能給人留下深刻印象",
-      "summary": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。 of torque.搭配 10 速自动变速箱，F-150 Lobo 起步平稳。",
+      "summary": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。扭矩。搭配 10 速自排變速箱，F-150 Lobo 起步平穩。",
       "originalTitle": "Test: The 2026 Ford F-150 STX Lobo Fails to Impress for the Money",
       "originalSummary": "Ford makes the long haul and enters Grasso’s Garage with an aesthetically pleasing and proven F-150 Lobo edition pickup truck that is ready for all consumers. With a 600-mile range on a full tank, our F-150 Lobo tester offers an upgraded 5.0-liter Coyote V-8 engine packed with 400 horsepower and 410 lb.-ft. of torque. Paired with a 10-speed automatic transmission, the F-150 Lobo gets up and goes and is smooth. Wrapped in Oxford White, the Lobo package is an additional $4,695 and includes 22-inch gloss black wheels, an electronic locking rear axle and all-season tires. Our STX Series pickup comes with LED fog lights, black cloth interior and a black and dark gray grill. Upgraded options include a tray style floor liner, mobile office package, 36-gallon fuel tank, SiriusXM and spray-in bedliner for a combined additional $2,630 total. While the interior is simple and typical Ford, it serves the consumers well with its 12-inch SYNC4 infotainment system. Rear-view camera and parking sensors, selectable drive modes and a host of safety features came standard on our weeklong tester. Standard warranty is a 3-year / 36,000 mile bumper to bumper, a 5-year / 60,000 mile powertrain, and a 5-year / 60,000 mile roadside assistance.",
       "url": "https://www.bostonherald.com/2026/10/15/2026-ford-f-150-lobo-hammers-the-exterior-aesthetics-perfectly/",
@@ -12655,13 +12666,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。 of torque.搭配 10 速自动变速箱，F-150 Lobo 起步平稳。",
+        "event": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。扭矩。搭配 10 速自排變速箱，F-150 Lobo 起步平穩。",
         "numbers": [
           "$4,695",
           "$2,630"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。 of torque.搭配 10 速自动变速箱，F-150 Lobo 起步平稳。",
+        "stance": "福特長途跋涉，帶著一款美觀且經過驗證的 F-150 Lobo 版皮卡車進入格拉索車庫，該卡車已為所有消費者做好了準備。我們的 F-150 Lobo 測試儀配備升級版 5.0 升 Coyote V-8 發動機，滿油箱可行駛 600 英里，功率為 400 馬力，扭矩為 410 磅英尺。扭矩。搭配 10 速自排變速箱，F-150 Lobo 起步平穩。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -13439,7 +13450,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "預測 2027 年初特斯拉與 SpaceX 合併的市場可能性超過 50%",
-      "summary": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。 Notably, these odds do not stem from any formal announcement or filing, but rather from market activity and sentiment.最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司均未予以正式確認。",
+      "summary": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。值得注意的是，這些可能性並非源自於任何正式公告或備案，而是源自於市場活動和情緒。最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司都沒有正式確認。",
       "originalTitle": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
       "originalSummary": "The prediction market odds of a merger between Tesla and SpaceX have risen above 50% for early 2027, according to CNBC. This increase reflects heightened speculation around a possible union of the two companies, both controlled by Elon Musk. Notably, these odds do not stem from any formal announcement or filing, but rather from market activity and sentiment. Recent analyses, including one from Barclays, suggest potential scenarios for a merger, though official confirmations from either company remain absent. Observers should monitor communications from Tesla and SpaceX, particularly any formal disclosures or statements from Elon Musk. An SEC filing or official press release could significantly impact current market pricing. Additionally, regulatory reviews or statements from antitrust authorities may influence the perceived likelihood of a merger. As market participants react to new information, shifts in pricing could further indicate changing expectations.",
       "url": "https://cryptobriefing.com/tesla-spacex-merger-speculation-rises-odds-above-50-for-early-2027-cnbc/",
@@ -13457,12 +13468,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。 Notably, these odds do not stem from any formal announcement or filing, but rather from market activity and sentiment.最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司均未予以正式確認。",
+        "event": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。值得注意的是，這些可能性並非源自於任何正式公告或備案，而是源自於市場活動和情緒。最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司都沒有正式確認。",
         "numbers": [
           "50%"
         ],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。 Notably, these odds do not stem from any formal announcement or filing, but rather from market activity and sentiment.最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司均未予以正式確認。",
+        "stance": "根據 CNBC 報道，預測特斯拉和 SpaceX 在 2027 年初合併的市場可能性已升至 50% 以上。這一成長反映出人們對這兩家公司可能合併的猜測加劇，這兩家公司都由 Elon Musk控制。值得注意的是，這些可能性並非源自於任何正式公告或備案，而是源自於市場活動和情緒。最近的分析，包括巴克萊銀行的分析，提出了合併的可能性，儘管兩家公司都沒有正式確認。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14073,7 +14084,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "隨著人工智慧光學訂單的希望，POET Technologies (POET) 的股票可能被低估",
-      "summary": "POET Technologies has had a bumpy ride, with sharp gains over the longer term but a softer patch more recently, which puts fresh focus on whether today's US$6.01 share price lines up with em its balance what its$6.01 share price lines up with ally its balance whatu its$6. supports.對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
+      "summary": "POET Technologies 經歷了一段坎坷的歷程，長期來看漲幅強勁，但最近表現疲軟，這讓人們重新關註今天 6.01 美元的股價是否與其資產負債表的實際支持相符。對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
       "originalTitle": "POET Technologies (POET) Stock May Be Undervalued Following AI Optics Order Hopes",
       "originalSummary": "POET Technologies has had a bumpy ride, with sharp gains over the longer term but a softer patch more recently, which puts fresh focus on whether today's US$6.01 share price lines up with what its balance sheet actually supports. For anyone tracking the story, the core issue now is how that market value stacks up against the company's book value.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/poet-technologies-poet-stock-may-061642690.html",
@@ -14090,12 +14101,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "POET Technologies has had a bumpy ride, with sharp gains over the longer term but a softer patch more recently, which puts fresh focus on whether today's US$6.01 share price lines up with em its balance what its$6.01 share price lines up with ally its balance whatu its$6. supports.對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
+        "event": "POET Technologies 經歷了一段坎坷的歷程，長期來看漲幅強勁，但最近表現疲軟，這讓人們重新關註今天 6.01 美元的股價是否與其資產負債表的實際支持相符。對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
         "numbers": [
           "$6.01"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "POET Technologies has had a bumpy ride, with sharp gains over the longer term but a softer patch more recently, which puts fresh focus on whether today's US$6.01 share price lines up with em its balance what its$6.01 share price lines up with ally its balance whatu its$6. supports.對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
+        "stance": "POET Technologies 經歷了一段坎坷的歷程，長期來看漲幅強勁，但最近表現疲軟，這讓人們重新關註今天 6.01 美元的股價是否與其資產負債表的實際支持相符。對於任何追蹤這個故事的人來說，現在的核心問題是市場價值如何與公司的帳面價值相比較。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15170,7 +15181,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "ASML的「售罄」前景迫使投資人將目光投向需求之外",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "ASML's 'sold out' outlook forces investors to look beyond demand",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4954089-asml-q3-overview-sold-out-until-2028-but-im-not-buying",
@@ -15187,10 +15198,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我与本文中提到的任何其股票的公司没有任何业务关系。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -23681,7 +23692,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如何投資 SpaceX (SPCX)——以及如何不投資",
-      "summary": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。现在的焦点转移到太空探索技术公司的投资叙述如何融入资本密集的星链移动和星舰扩张。",
+      "summary": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。現在的焦點轉移到太空探索科技公司的投資敘事如何融入資本密集的星鏈移動和星艦擴張。",
       "originalTitle": "How to Invest In SpaceX (SPCX) — And How Not To",
       "originalSummary": "Space Exploration Technologies is seeking FAA approval, via a new Programmatic Environmental Impact Statement, to lift Starship activity at Boca Chica from the current 25 launches to a potential ceiling of 456 launches and 912 landings a year, while scaling Starship landing and expenditure sites globally. In the same period, SpaceX has committed nearly US$8b to acquire 800 MHz of mobile spectrum and has secured FCC clearance for up to 15,000 direct-to-cellphone Starlink satellites, which moves the business toward a capital-intensive role as both global carrier and high-cadence launch operator. The focus now shifts to how Space Exploration Technologies' investment narrative incorporates this capital-heavy Starlink Mobile and Starship expansion.",
       "url": "https://uk.finance.yahoo.com/news/starlink-mobile-expansion-altering-investment-151137104.html",
@@ -23697,12 +23708,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。现在的焦点转移到太空探索技术公司的投资叙述如何融入资本密集的星链移动和星舰扩张。",
+        "event": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。現在的焦點轉移到太空探索科技公司的投資敘事如何融入資本密集的星鏈移動和星艦擴張。",
         "numbers": [
           "$8b"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。现在的焦点转移到太空探索技术公司的投资叙述如何融入资本密集的星链移动和星舰扩张。",
+        "stance": "太空探索技術公司正在透過新的環境影響報告計畫尋求美國聯邦航空管理局的批准，以將博卡奇卡的星艦活動從目前的 25 次發射提高到每年 456 次發射和 912 次著陸的潛在上限，同時在全球範圍內擴大星艦著陸和支出地點。同一時期，SpaceX 承諾斥資近 80 億美元購買 800 MHz 行動頻譜，並已獲得 FCC 許可，可發射多達 15,000 顆直接連接手機的 Starlink 衛星，這使得該公司成為資本密集的全球營運商和高節奏發射營運商。現在的焦點轉移到太空探索科技公司的投資敘事如何融入資本密集的星鏈移動和星艦擴張。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -24677,7 +24688,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "為什麼 SpaceX 的頻譜購買對 AST SpaceMobile 股票有利",
-      "summary": "SpaceX 收購了 Grain Management 的全國低頻段頻譜組合，使 ASTS 無法參與該業務，股價下跌 4%。 PL 和 UFO 都上漲，而 ASTS 下跌，證實拋售目標是直接面向裝置的頻譜敞口，而不是更廣泛的太空領域。分析师 Roger Entner 将 Ligado 列为下一个目标，将 AST SpaceMobile 现有的中频段协议置于其频谱战略的中心。剛剛發布。",
+      "summary": "SpaceX 收購了 Grain Management 的全國低頻段頻譜組合，使 ASTS 無法參與該業務，股價下跌 4%。 PL 和 UFO 都上漲，而 ASTS 下跌，證實拋售目標是直接面向裝置的頻譜敞口，而不是更廣泛的太空領域。分析師 Roger Entner 將 Ligado 列為下一個目標，將 AST SpaceMobile 現有的中頻段協定置於其頻譜策略的中心。剛剛發布。",
       "originalTitle": "Why SpaceX’s Spectrum Purchase Is Good for AST SpaceMobile Stock",
       "originalSummary": "SpaceX's acquisition of Grain Management's nationwide low-band spectrum portfolio shut ASTS out of that capacity, dropping shares 4%. PL and UFO both climbed while ASTS dropped, confirming the selloff targets direct-to-device spectrum exposure, not the broader space sector. Analyst Roger Entner flagged Ligado as next, putting AST SpaceMobile's existing mid-band agreements at the center of its spectrum strategy. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Rocket Lab didn't make the cut. Enter your email to see the names that beat RKLB. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-falls-6-spacex-134509283.html",
@@ -24696,7 +24707,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX 收購了 Grain Management 的全國低頻段頻譜組合，使 ASTS 無法參與該業務，股價下跌 4%。 PL 和 UFO 都上漲，而 ASTS 下跌，證實拋售目標是直接面向裝置的頻譜敞口，而不是更廣泛的太空領域。分析师 Roger Entner 将 Ligado 列为下一个目标，将 AST SpaceMobile 现有的中频段协议置于其频谱战略的中心。剛剛發布。",
+        "event": "SpaceX 收購了 Grain Management 的全國低頻段頻譜組合，使 ASTS 無法參與該業務，股價下跌 4%。 PL 和 UFO 都上漲，而 ASTS 下跌，證實拋售目標是直接面向裝置的頻譜敞口，而不是更廣泛的太空領域。分析師 Roger Entner 將 Ligado 列為下一個目標，將 AST SpaceMobile 現有的中頻段協定置於其頻譜策略的中心。剛剛發布。",
         "numbers": [
           "4%"
         ],
