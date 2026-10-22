@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 10:01 台灣時間",
+  "updatedAt": "2026-10-22 10:11 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -10,11 +10,11 @@
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "題材",
-      "title": "Amazon.com (AMZN) Could Be 45% Undervalued After Morgan Stanley’s AWS And AI Upgrade",
-      "summary": "",
+      "title": "Morgan Stanley 上修 AMZN 目標價至 $350（原 $335）",
+      "summary": "Amazon.com Inc (NASDAQ:AMZN) shares rose more than 5% on Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335. The firm sees roughly 40% upside as Amazon Web Services accelerates, and now models AWS growth of 47% in 2027, up from...",
       "originalTitle": "Amazon.com (AMZN) Could Be 45% Undervalued After Morgan Stanley’s AWS And AI Upgrade",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMTRVUHNkX2xVM3B5NUVKcEltdTdTandUTzNrbGFwblp4eFJBLXRBX2RLcmx6SUxYZjY5N1UwMkFzZVp6X2tsRXBsRW0zZ3poeEkyc2lLb083UE9CSUhfVF81YS1SVFhwaWdoQjJiczJEQUVvREtUd2FLS1VrSVM2algxb3FOZ2gwYXdrMWZJNlNVTEFwUlp3TXNyS2ZpcHZ1bEVMYlVXMFVGMUE0WFVpT01yQldLZ2VuSWJzcTVfZFBNbE5Q0gHKAUFVX3lxTFBWNlZrZjY1aHljd0VfWG40X3R5b3RtTzBkLVhQN1ltRFpnYXZfc0RRLVQ5aXR2cEl2N2diOEhKY08zRnhUOE5oQlBhMk5ZV3JBakczNVdVQnRZOEF0ZTUybkw1eG5GQ3dPU2hBRXNXQ2dBS1gwNGswTFdOSXk1SXFEYVpuaUNJNTdUTUw2eWRVclo1bmlxeTRjclM3YlprVFZuMGhOb2dTVll1dl9SVEdTeUFQMjREc0tENTZibW9YdDZXZ1VTbUVwYXc?oc=5",
+      "originalSummary": "Amazon.com Inc (NASDAQ:AMZN) shares rose more than 5% on Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335. The firm sees roughly 40% upside as Amazon Web Services accelerates, and now models AWS growth of 47% in 2027, up from...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-shares-jump-morgan-stanley-170500525.html",
       "ts": "2026-10-22T01:42:13+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
@@ -23,16 +23,16 @@
           "broker": "Morgan Stanley",
           "analyst": "",
           "rating": "",
-          "action": "升評",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "action": "上修",
+          "newTarget": "$350",
+          "oldTarget": "$335",
+          "reason": "Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335.",
+          "reasonConfidence": "medium",
           "targetTicker": "AMZN",
           "targetCompany": "Amazon"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AMZN"
       ],
@@ -41,16 +41,20 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：升評｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "event": "被評級公司：Amazon（AMZN）｜券商：Morgan Stanley｜動作：上修｜目標價：$350（原 $335）｜調整原因：Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335.",
+        "numbers": [
+          "$335",
+          "$350"
+        ],
+        "why": "調整原因：Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335.",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：Monday after Morgan Stanley (NYSE:MS) named the company a top pick and raised its price target to $350 from $335.",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 3,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2139,7 +2143,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2172,7 +2176,7 @@
         "SPCX"
       ],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2209,7 +2213,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2243,7 +2247,7 @@
       ],
       "eventType": "跨公司事件",
       "analystPriority": false,
-      "score": 42.75,
+      "score": 37.05,
       "featured": false,
       "translated": false,
       "investorBrief": {
