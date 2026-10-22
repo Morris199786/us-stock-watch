@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 00:33 台灣時間",
+  "updatedAt": "2026-10-23 00:39 台灣時間",
   "historyUpdatedDate": "2026-10-23",
   "historyLastAttemptAt": "2026-10-22T16:02:03.415852+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,63 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "META",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Mizuho 調整 META 目標價至 $950",
+      "summary": "",
+      "originalTitle": "Mizuho Securities Adjusts Meta Platforms Price Target to $950 From $750",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSV94akdtdnN1SExOa1l1QlB0cjIxaGRLNEQ0X1NmbTNxbVhkSTY0ZGc3U1R6TnNIb0c5M09CTWdPb1BBaEZjaXlBRlVKRkJMc0N2NXh5YXZKYmhOSWw1ejVFRENZek9IMWM1MG1MUEdxd1UyRHhyNUw1clVheGFkUTN4ZGR2bTRjRXpWeC1WN25mQXg4RVVRc3JFWW10NUdlWV9hSzY4WkR4TjNfWmRxblRkaWhNVUo3ekFORE1Ldw?oc=5",
+      "ts": "2026-10-22T16:28:02+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Mizuho",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$950",
+          "oldTarget": "$750",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "META",
+          "targetCompany": "Meta"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "META"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：META｜券商：Mizuho｜動作：上修｜目標價：$950（原 $750）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$750",
+          "$950"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AEP",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Jefferies 調整 AEP 目標價至 $146",
-      "summary": "",
+      "summary": "Jefferies & Co Adjusts American Electric Power Price Target to $146 From $148American Electric Power has an average rating of overweight and mean price target of $139.45, according to analysts polled by FactSet. Price: 129.69, Change: +2.30, Percent Change: +1.81 ...",
       "originalTitle": "Jefferies & Co Adjusts American Electric Power Price Target to $146 From $148",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd0lWT29iVGVIV0x6SDQxMmtoZHJtZXZQczNFSVRYNkxaNHl5WDNxbUNucWI3SVc4ZVl0NmJfU1AwRnBUbG5QdDRZaHdPVFI0ODllTzNTdG83SVBoQlNPZVZuRklTNUZSS2Vxbi1XX3g5eV9nSF9jME13ems1b1hodG1xdUp2STN5RVRxVGN5UkhMaXplSFFRdGRZZkhOUWk0d25hWUp3RzdXaTBxaVgwd29tdXVjTFRRcXI2UmF1NUNrNVpo?oc=5",
+      "originalSummary": "Jefferies & Co Adjusts American Electric Power Price Target to $146 From $148American Electric Power has an average rating of overweight and mean price target of $139.45, according to analysts polled by FactSet. Price: 129.69, Change: +2.30, Percent Change: +1.81 ...",
+      "url": "https://www.marketscreener.com/news/jefferies-co-adjusts-american-electric-power-price-target-to-146-from-148-ce785cdedd8cf021",
       "ts": "2026-10-22T16:12:00+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -22,7 +71,7 @@
         {
           "broker": "Jefferies",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "下修",
           "newTarget": "$146",
           "oldTarget": "$148",
@@ -32,7 +81,7 @@
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -41,7 +90,7 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：Jefferies｜動作：下修｜目標價：$146（原 $148）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：Jefferies｜動作：下修｜評等：overweight｜目標價：$146（原 $148）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$148",
           "$146"
@@ -53,7 +102,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "TSLA",
@@ -775,7 +825,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "儘管由資料中心驅動利潤成長，諾基亞仍暴跌 10%；愛立信拖鞋",
-      "summary": "Nokia's AI & Cloud net sales surged 123%, lifting operating profit 35% to $680M, yet NOK stock tumbled 8% despite the beat. ERIC slipped just 1% while Nokia cratered 8%, exposing the selloff as Nokia-specific rather than a broad telecom or market retreat. Nokia burned $111M in free cash flow and cut its conversion target to a range of 35 to 55%, even while guiding for Q4 revenue growth of 20 to 24%.",
+      "summary": "",
       "originalTitle": "Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips",
       "originalSummary": "Nokia's AI & Cloud net sales surged 123%, lifting operating profit 35% to $680M, yet NOK stock tumbled 8% despite the beat. ERIC slipped just 1% while Nokia cratered 8%, exposing the selloff as Nokia-specific rather than a broad telecom or market retreat. Nokia burned $111M in free cash flow and cut its conversion target to a range of 35 to 55%, even while guiding for Q4 revenue growth of 20 to 24%.",
       "url": "https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html",
@@ -789,10 +839,10 @@
       "eventType": "",
       "analystPriority": false,
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Nokia's AI & Cloud net sales surged 123%, lifting operating profit 35% to $680M, yet NOK stock tumbled 8% despite the beat. ERIC slipped just 1% while Nokia cratered 8%, exposing the selloff as Nokia-specific rather than a broad telecom or market retreat. Nokia burned $111M in free cash flow and cut its conversion target to a range of 35 to 55%, even while guiding for Q4 revenue growth of 20 to 24%.",
+        "event": "諾基亞的人工智慧和雲端淨銷售額飆升 123%，營運利潤成長 35%，達到 6.8 億美元，但 NOK 股價卻下跌 8%。 ERIC 僅下跌 1%，而諾基亞則暴跌 8%，這表明這次拋售是諾基亞特有的，而不是廣泛的電信或市場撤退。諾基亞消耗了 1.11 億美元的自由現金流，並將其轉換目標下調至 35% 至 55%，同時指導第四季營收成長 20% 至 24%。",
         "numbers": [
           "$680M",
           "$111M",
@@ -800,7 +850,7 @@
           "123%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Nokia's AI & Cloud net sales surged 123%, lifting operating profit 35% to $680M, yet NOK stock tumbled 8% despite the beat. ERIC slipped just 1% while Nokia cratered 8%, exposing the selloff as Nokia-specific rather than a broad telecom or market retreat.",
+        "stance": "諾基亞的人工智慧和雲端淨銷售額飆升 123%，營運利潤成長 35%，達到 6.8 億美元，但 NOK 股價卻下跌 8%。 ERIC 僅下跌 1%，而諾基亞則暴跌 8%，這表明這次拋售是諾基亞特有的，而不是廣泛的電信或市場撤退。諾基亞消耗了 1.11 億美元的自由現金流，並將其轉換目標下調至 35% 至 55%，同時指導第四季營收成長 20% 至 24%。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1764,6 +1814,39 @@
       "top10": true,
       "top10Rank": 6,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "利空",
+      "title": "華爾街頂級分析師呼籲特斯拉升級，Lululemon 降級",
+      "summary": "",
+      "originalTitle": "Tesla upgraded, Lululemon downgraded: Wall Street's top analyst calls",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa0VjTmxzcGVxYTl6ZUVxQmVoSVVmZ2NXN2ZEbnlnekpLb1M1cmw5U0hMcHFncXRhZVdQYkswYndFTzc5cENCSDRyOW9IOXJUOW9VVGVZTVVoVFBHVUhhWmNZQTB4Sm1MRnVjUDVwR0dFV01mUHFRUDJLNDJ5OTBxRy1fZUwwTnB3SVBqcGFiT3JsdWRHMExsS1diVE5MQVdyWkE0b3p3?oc=5",
+      "ts": "2026-10-22T13:41:26+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -3048,86 +3131,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TXN",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "Rosenblatt 調整 TXN 目標價至 $360，維持 Buy",
-      "summary": "",
-      "originalTitle": "Rosenblatt maintains Buy rating on Texas Instruments, $360 price target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2k1S0ZyT25TYUpIYk9yZVhrSTZ3QjVkMkxibU43ODYzaG1pX0V3cE00Y0xDQ2lZMWp5Q3QwTUpPb19NQ1piSTFMc3JUWjBfQnB6anlxN0JnS2xtS2FfeTdDcXM1SVlDV1A1SGtrSXhBaXowdUluY3VQZ2ptSzFELThZZzlPamFzbnZyTDRhWWVSM0VLeXNNa3ZUcWF6OGJhUVNEVmIwNTN2ZV9qWmtlZldwZ1lLZWZZLUZKZG1NYTNkOUNOeEJ5azlnRQ?oc=5",
-      "ts": "2026-10-22T12:54:35+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Rosenblatt",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$360",
-          "oldTarget": "",
-          "reason": "Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
-          "reasonConfidence": "medium",
-          "targetTicker": "TXN",
-          "targetCompany": "Texas Instruments"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "TXN"
-      ],
-      "eventType": "",
-      "score": 205.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Texas Instruments（TXN）｜券商：Rosenblatt｜動作：重申｜評等：Buy｜目標價：$360｜調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
-        "numbers": [
-          "$360"
-        ],
-        "why": "調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TTMI",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "TTM Technologies（納斯達克股票代碼：TTMI）報告 2026 年第三季業績樂觀，但股價下跌",
-      "summary": "",
-      "originalTitle": "TTM Technologies (NASDAQ:TTMI) reports upbeat Q3 2026 but stock drops",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYnhLc3o2cklFWVo0MGFSV3BqTDRuUW03MEhRcTdlUGhSV3ZHaEdBQXBJQVFydzlZcEdndXpabEQzckZaaDRsZzBOQVVWY1duR0Z3c2hhQk9kc0RnLWpmcXlxdjlReFlEUVVnUkRpOWZza1N6ZnVaQVNDcEdIMmdBRjU1N3ZxWWd5c2Q3bHlod1RaY2FGM09leDRaRll1S1VCZE9ha3Yzd2s3V3VqVUU2aGxBRGQxTHBwMzJoVTNWS1ZOdjg?oc=5",
-      "ts": "2026-10-22T12:53:28+00:00",
-      "sourceType": "active_search",
-      "movePct": -21.20411160058738,
-      "relatedTickers": [
-        "TTMI"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 14.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -5600,7 +5603,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "第三季財報將考驗華爾街對人工智慧支出的胃口",
-      "summary": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
+      "summary": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行 2 比 1 的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
       "originalTitle": "Meta Q3 earnings to test Wall Street's stomach for AI spending",
       "originalSummary": "Meta ( META ) kicked off Big Tech's earnings season after the bell Wednesday, beating expectations on revenue, but GAAP earnings per share took a hit as a result of legal fees related to its teen mental health settlement. The company also announced a 2-for-1 stock split, giving each owner of Class A Meta shares a non-voting Class C share. Meta stock fell 0.5% during premarket trading on Thursday.",
       "url": "https://www.aol.com/articles/meta-earnings-live-meta-q3-173000000.html",
@@ -5616,12 +5619,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
+        "event": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行 2 比 1 的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
         "numbers": [
           "0.5%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。",
+        "stance": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行 2 比 1 的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -6153,7 +6156,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 財報電話會議的五個要點",
-      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
       "originalTitle": "Five Takeaways From SpaceX’s Earnings Call",
       "originalSummary": "President and Chief Operating Officer - Gwynne Shotwell Andrea Williams: Hello, everyone. We are coming to you live from our Starlink factory and future Starmind production site here in Bastrop, Texas. I'm Andrea Williams, Head of Investor Relations, and thank you for joining us for SpaceX's Third Quarter 2026 Earnings Presentation. Joining us are Elon, Gwynne, and Bret, and we are live streaming on X. Our third quarter financial results were announced just after 3:00 p.m. Texas time, and all relevant materials have been published to our Investor Relations website at ir.spacex.com. For today's presentation, our prepared remarks will be followed by a question-and-answer session.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-q3-2026-earnings-005829420.html",
@@ -6170,10 +6173,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -9318,7 +9321,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Eos Energy 在第三季初步業績公佈後下滑；全年營收處於指引的下半部",
-      "summary": "Eos Energy Enterprises ( EOSE ) 在公佈第三季度初步業績後週一下跌 0.8%，其中收入為 8200 萬美元至 8300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量繼續增加，出貨量增長了 23%，該生產線佔",
+      "summary": "Eos Energy Enterprises ( EOSE ) 在公佈第三季初步業績後週一下跌 0.8%，其中收入為 8,200 萬美元至 8,300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量持續增加而導致出貨量增長 23%，該生產線佔 23%",
       "originalTitle": "Eos Energy slips following preliminary Q3 results; full-year revenue seen in lower half of guidance",
       "originalSummary": "Eos Energy Enterprises ( EOSE ) slipped 0.8% in Monday's trading after unveiling preliminary Q3 results , including revenue of $82M-$83M, up 19%-21% sequentially, driven by a 23% increase in shipments as production continued to ramp at its second manufacturing line at Thorn Hill, which accounted for",
       "url": "https://seekingalpha.com/news/4654366-eos-energy-slips-following-preliminary-q3-results-full-year-revenue-seen-in-lower-half-of",
@@ -9334,7 +9337,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Eos Energy Enterprises ( EOSE ) 在公佈第三季度初步業績後週一下跌 0.8%，其中收入為 8200 萬美元至 8300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量繼續增加，出貨量增長了 23%，該生產線佔",
+        "event": "Eos Energy Enterprises ( EOSE ) 在公佈第三季初步業績後週一下跌 0.8%，其中收入為 8,200 萬美元至 8,300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量持續增加而導致出貨量增長 23%，該生產線佔 23%",
         "numbers": [
           "$82M",
           "$83M",
@@ -9342,7 +9345,7 @@
           "19%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Eos Energy Enterprises ( EOSE ) 在公佈第三季度初步業績後週一下跌 0.8%，其中收入為 8200 萬美元至 8300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量繼續增加，出貨量增長了 23%，該生產線佔",
+        "stance": "Eos Energy Enterprises ( EOSE ) 在公佈第三季初步業績後週一下跌 0.8%，其中收入為 8,200 萬美元至 8,300 萬美元，環比增長 19%-21%，這是由於其位於 Thorn Hill 的第二條生產線的產量持續增加而導致出貨量增長 23%，該生產線佔 23%",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -9356,7 +9359,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Fluence Energy (FLNC) 因無法擴大休士頓工廠而面臨證券集體訴訟 – Hagens Berman",
-      "summary": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+      "summary": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年和 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
       "originalTitle": "Fluence Energy (FLNC) Faces Securities Class Action Amid Inability to Ramp Houston Facility – Hagens Berman",
       "originalSummary": "Did you buy FLNC securities between November 24, 2025 and September 16, 2026? RADNOR, PA - October 17, 2026 ( NEWMEDIAWIRE ) - Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ), a nationally recognized securities litigation law firm, informs investors that a securities fraud class action lawsuit has been filed against Fluence Energy, Inc. (Fluence Energy) (NASDAQ: FLNC) on behalf of those who purchased or acquired Fluence Energy securities between November 24, 2025 and September 16, 2026, inclusive. The lawsuit is filed in the United States District Court for the Southern District of New York and is captioned Hatweek v. Fluence Energy, Inc., No. 1:26-cv-08475 (S.D.N.Y.). Investors have until November 27, 2026, to file for lead plaintiff status. NewMediaWire distributes press releases on behalf of hundreds of publicly traded companies, as well as private corporations, non-profits and other public sector organizations. Founded and staffed by industry veterans, we offer a full complement of services including specialized delivery to financial sites and posting of photos and multimedia content. In addition, NewMediawire offers international and specialized services such as IR websites and industry specific distribution.",
       "url": "https://www.newmediawire.com/news/fluence-energy-inc-investors-have-opportunity-to-lead-securities-fraud-class-action-lawsuit-7090721",
@@ -9373,10 +9376,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+        "event": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年和 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+        "stance": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年和 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -9704,7 +9707,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Arista Networks 將於 11 月 3 日進行一次大測試。以下是可能導致該股飆升的原因。",
-      "summary": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的因素。",
+      "summary": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的原因。",
       "originalTitle": "Arista Networks Is Heading for a Big Test on Nov. 3. Here's What Could Send the Stock Soaring.",
       "originalSummary": "News zur ARISTA NETWORKS AKTIE ✓ und aktueller Realtime-Aktienkurs ✓ Arista Networks Is Heading for a Big Test on Nov. 3. Here's What Could Send the Stock Soaring.",
       "url": "https://www.finanznachrichten.de/nachrichten-aktien/arista-networks-inc.htm",
@@ -9720,10 +9723,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的因素。",
+        "event": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的原因。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的因素。",
+        "stance": "新聞 zur ARISTA NETWORKS AKTIE ✓ 和 aktueller Realtime-Aktienkurs ✓ Arista Networks 將於 11 月 3 日進行大測試。以下是可能導致股價飆升的原因。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -10487,7 +10490,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "馬斯克 (Elon Musk) 表示，他將把 SpaceX 的股份送給“美國的每個孩子”",
-      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
       "originalTitle": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
       "originalSummary": "Elon Musk announced on social media Monday that he intends to give one SpaceX share to each child in the United States. The post described the move as the start of a larger series of gifts. Details on timing, eligibility, or distribution remain absent from the statement. ( [1] ) Musk, who serves as chief executive of SpaceX, posted the pledge without additional explanation or follow-up instructions. The message reached his large audience on the platform and quickly drew attention from news outlets and the public. Observers noted the unusual nature of committing personal holdings to a broad group of minors across the country.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-vows-one-spacex-123000728.html",
@@ -10504,7 +10507,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
@@ -14517,7 +14520,7 @@
       "group": "記憶體／儲存",
       "tag": "利多",
       "title": "SK海力士尋求華盛頓批准向中國出口美國晶片設備",
-      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
       "originalTitle": "SK Hynix Seeks Washington Approval to Export US Chip Equipment to China",
       "originalSummary": "Investing.com -- South Korea's SK Hynix Inc (KS:000660) is seeking U.S. approval to ship additional American-made chipmaking equipment to its facility in China, linking the request to plans by its U.S. unit Solidigm to build a new NAND flash memory factory in the United States, Reuters reported on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/sk-hynix-seeks-u-chip-040733867.html",
@@ -14533,10 +14536,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -15815,7 +15818,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "SK海力士討價還價向其中國工廠出口晶片設備，以換取在美國建廠",
-      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
       "originalTitle": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
       "originalSummary": "Investing.com -- South Korea's SK Hynix Inc (KS:000660) is seeking U.S. approval to ship additional American-made chipmaking equipment to its facility in China, linking the request to plans by its U.S. unit Solidigm to build a new NAND flash memory factory in the United States, Reuters reported on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/sk-hynix-seeks-u-chip-040733867.html",
@@ -15832,10 +15835,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -17772,7 +17775,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 股票能跌多低？",
-      "summary": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+      "summary": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
       "originalTitle": "How Low Can AST SpaceMobile Stock Go?",
       "originalSummary": "AST SpaceMobile (NasdaqGS:ASTS) faces new competition after the FCC cleared SpaceX to launch a direct-to-phone satellite service. The FCC authorization allows SpaceX to use a large low-Earth orbit constellation to connect ordinary smartphones without terrestrial cell towers. Regulatory clearance for SpaceX to bypass mobile carriers raises fresh questions about AST SpaceMobile's carrier-partnered business model. SpaceX's FCC approval for direct smartphone connectivity is important, but it should not dominate your entire AST SpaceMobile thesis. We have also flagged 2 other big wins for AST SpaceMobile. This push into direct satellite connectivity reaches far beyond AST SpaceMobile, so it is worth looking at other businesses exposed to the same long-term data and infrastructure demand story through 92 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-now-130851055.html",
@@ -17790,10 +17793,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+        "event": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
+        "stance": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -18132,7 +18135,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile 是新的戰場股票",
-      "summary": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+      "summary": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
       "originalTitle": "AST SpaceMobile Is the New Battleground Stock",
       "originalSummary": "AST SpaceMobile (NasdaqGS:ASTS) faces new competition after the FCC cleared SpaceX to launch a direct-to-phone satellite service. The FCC authorization allows SpaceX to use a large low-Earth orbit constellation to connect ordinary smartphones without terrestrial cell towers. Regulatory clearance for SpaceX to bypass mobile carriers raises fresh questions about AST SpaceMobile's carrier-partnered business model. SpaceX's FCC approval for direct smartphone connectivity is important, but it should not dominate your entire AST SpaceMobile thesis. We have also flagged 2 other big wins for AST SpaceMobile. This push into direct satellite connectivity reaches far beyond AST SpaceMobile, so it is worth looking at other businesses exposed to the same long-term data and infrastructure demand story through 92 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-stock-now-130851055.html",
@@ -18149,10 +18152,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
+        "event": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。 SpaceX 繞過行動營運商的監管許可引發了人們對 AST SpaceMobile 與營運商合作的商業模式的新質疑。 SpaceX 對智慧型手機直接連接的 FCC 批准很重要，但它不應該主導您的整個 AST SpaceMobile 論文。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "在 FCC 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
+        "stance": "在美國聯邦通訊委員會 (FCC) 批准 SpaceX 推出直接電話衛星服務後，AST SpaceMobile (NasdaqGS:ASTS) 面臨新的競爭。 FCC 的授權允許 SpaceX 使用大型近地軌道星座來連接普通智慧型手機，而無需地面蜂巢塔。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -20558,7 +20561,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "XTI Aerospace 的董事會重新由五人組成，Unusual Machines 的執行長擔任主席。",
-      "summary": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+      "summary": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
       "originalTitle": "XTI Aerospace's board is back to five, with Unusual Machines' CEO as chair.",
       "originalSummary": "DALLAS, Oct. 14, 2026 /PRNewswire/ -- XTI Aerospace, Inc. (Nasdaq: XTIA) (\"XTI Aerospace,\" \"XTI\" or the \"Company\"), an aerospace and advanced technology platform and parent company of Drone Nerds, LLC, (\"Drone Nerds\"), a leading drone solutions platform serving commercial, enterprise and government customers, today announced the appointment of Dr. Allan Evans as a director and Chairman of its Board of Directors. His addition returns the Board to five members. In connection with Dr. Evans' appointment as Chairman, the Board designated Mr. Ornstein as Vice Chairman of the Board.",
       "url": "https://finance.yahoo.com/technology/articles/xti-aerospace-appoints-unusual-machines-110000129.html",
@@ -20575,10 +20578,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+        "event": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+        "stance": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -21534,7 +21537,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Symbotic 表示最新收購利用輸送機自動化來釋放 DC 空間",
-      "summary": "Symbiotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，celluveyor 是一項專利的軟體驅動分選技術。繼...",
+      "summary": "Symbotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，這是一項專利的軟體驅動分選技術。繼...",
       "originalTitle": "Symbotic says latest acquisition uses conveyor automation to free up DC space",
       "originalSummary": "Symbotic Agrees to Acquire Automation Company CellumationSymbiotic agreed to acquire automation company cellumation, the company said Tuesday. Cellumation is the developer of celluveyor, a patented, software-driven sortation technology. Following the...",
       "url": "https://www.marketscreener.com/news/symbotic-agrees-to-acquire-automation-company-cellumation-ce785ddddf8bf421",
@@ -21551,10 +21554,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Symbiotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，celluveyor 是一項專利的軟體驅動分選技術。繼...",
+        "event": "Symbotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，這是一項專利的軟體驅動分選技術。繼...",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Symbiotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，celluveyor 是一項專利的軟體驅動分選技術。繼...",
+        "stance": "Symbotic 同意收購自動化公司 Cellumation Symbiotic 同意收購自動化公司 Cellumation，該公司週二表示。 Cellumation 是 celluveyor 的開發商，這是一項專利的軟體驅動分選技術。繼...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -22796,7 +22799,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "投資 AST SpaceMobile 股票能讓您的資金翻倍嗎？",
-      "summary": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+      "summary": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
       "originalTitle": "Can Investing in AST SpaceMobile Stock Double Your Money?",
       "originalSummary": "ASTS trades at $51 but carries a $87.68 BUY target, implying 72% upside if beta service and 45 satellites launch on schedule by early 2027. Iridium earns real profit on $225M quarterly revenue yet commands only a $5B market cap, exposing how richly ASTS is valued on its $1.3B backlog alone. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AST SpaceMobile didn't make the cut. Enter your email to see the names that beat ASTS. The report is free. Enter your email and see if any of your stocks made the cut. The 24/7 Wall St. price target for AST SpaceMobile ( NASDAQ:ASTS ) is $87.68 over the next 12 months, well above the recent $50.97 share price.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-building-something-wall-170055856.html",
@@ -22812,7 +22815,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "event": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "numbers": [
           "$51 b",
           "$87.68 B",
@@ -22820,7 +22823,7 @@
           "$5B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "ASTS 的交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
+        "stance": "ASTS 交易價格為 51 美元，但買入目標為 87.68 美元，這意味著如果 beta 服務和 45 顆衛星在 2027 年初按計劃發射，則上漲 72%。銥星的季度營收為 2.25 億美元，實際利潤卻只有 50 億美元，這暴露了 ASTS 僅憑其 1.3B 美元的積壓訂單就估值有多高。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，但 AST SpaceMobile 並未上榜。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -27034,7 +27037,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Celestica 推出具有共同封裝光學元件的 DS6005 資料中心交換機，以實現高能源效率的 AI 結構",
-      "summary": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據交換中心，旨在滿足網路數據中心，旨在滿足新功率、新層次 (CPO) 數據空間和新功率的系統。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
+      "summary": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據驅動器 (CPO) 數據交換中心，旨在滿足寬帶、低位數據 (CPO) 數據組件和新功率的系統要求。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
       "originalTitle": "Celestica Introduces the DS6005 Data Center Switch with Co-Packaged Optics to Enable Power-Efficient AI Fabrics",
       "originalSummary": "TORONTO, Oct. 12, 2026 (GLOBE NEWSWIRE) -- Celestica Inc. (NYSE: CLS) (TSX: CLS), a global leader in data center infrastructure and advanced technology solutions, today introduced the Celestica DS6005 , a co-packaged optics (CPO) data center switching system designed to address the bandwidth density, power, latency, and reach requirements of next-generation AI data center networks. Built on the Broadcom Tomahawk 6 – Davisson switch chip, the DS6005 is designed to deliver up to 102.4Tbps of switching capacity in a compact 1.5OU form factor designed for OCP ORv3 racks. By co-packaging optical engines with the switch ASIC, the DS6005 eliminates the need for traditional front-panel pluggable optics, helping data center operators optimize bandwidth density, reduce latency, and improve power efficiency in the AI data center. “AI infrastructure is driving unprecedented demand for bandwidth, while power, thermal management, latency, and reach are becoming increasingly important constraints,” said Gavin Cato, SVP & GM Portfolio Solutions & AI Platform Engineering, Celestica. “The DS6005 brings co-packaged optics, liquid cooling, field-replaceable external laser modules, and CPO-aware software management together in a compact platform designed to help customers build scalable and power-efficient AI fabrics.” Purpose-built to support AI/ML scale up and scale out networking, the DS6005 is a fully liquid-cooled, co-packaged optics data center switch that slashes power consumption and improves cluster efficiency while lowering latency and increasing reliability for next-generation AI clusters.",
       "url": "https://markets.businessinsider.com/news/stocks/celestica-introduces-the-ds6005-data-center-switch-with-co-packaged-optics-to-enable-power-efficient-ai-fabrics-1036616320",
@@ -27051,12 +27054,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據交換中心，旨在滿足網路數據中心，旨在滿足新功率、新層次 (CPO) 數據空間和新功率的系統。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
+        "event": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據驅動器 (CPO) 數據交換中心，旨在滿足寬帶、低位數據 (CPO) 數據組件和新功率的系統要求。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
         "numbers": [
           "102.4Tbps"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據交換中心，旨在滿足網路數據中心，旨在滿足新功率、新層次 (CPO) 數據空間和新功率的系統。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
+        "stance": "多倫多，2026 年 10 月 12 日 (環球通訊社) -- 資料中心基礎設施和先進技術解決方案領域的全球領導者 Celestica Inc.（紐約證券交易所代碼：CLS）（多倫多證券交易所代碼：CLS）今天推出了 Celestica DS6005，這是一款共同安全性封裝 (CPO) 數據驅動器 (CPO) 數據交換中心，旨在滿足寬帶、低位數據 (CPO) 數據組件和新功率的系統要求。 DS6005 基於 Broadcom Tomahawk 6 – Davisson 交換器晶片構建，旨在以專為 OCP ORv3 機架設計的緊湊 1.5OU 外形尺寸提供高達 102.4Tbps 的交換容量。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
