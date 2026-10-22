@@ -1,11 +1,56 @@
 {
-  "updatedAt": "2026-10-22 16:12 台灣時間",
+  "updatedAt": "2026-10-22 16:16 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-22",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "TD Cowen 重申 TSLA Buy",
+      "summary": "",
+      "originalTitle": "TD Cowen reiterates Tesla stock Buy rating on margin gains By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT0FfMGNnM19ZTnNBaEt5U3MtRTRBUGZFV0g4b05ZLWd3U2lrRXNUSlhpUC0xRXNzd0o4YkpaN01xT3VQRGNpang1dlB3MVlKNUVqNzhGTXNLVjJOamVHV2J6b0xwVXpfWDg4UDA5bW1Ebksxb1k3c0Z3QUNjODNFTnZPZDNFdU1ITlB3b2lKM0Jmel80V2NaNnFYeE5faFNGU29mV2k2WWIxR3ZGWWZRbVdtVmI2UGpHenRj?oc=5",
+      "ts": "2026-10-22T08:09:22+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "TD Cowen",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 211.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：TD Cowen｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
     {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
@@ -51,8 +96,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 3
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -145,7 +190,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 2
     },
     {
       "ticker": "META",
@@ -357,6 +402,36 @@
       "top10Rank": 10
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "交易商權衡沙烏地阿美攻擊報告和霍爾木茲航運風險，油價上漲",
+      "summary": "",
+      "originalTitle": "Oil Prices Rise as Traders Weigh Saudi Aramco Attack Report, Hormuz Shipping Risks",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzlrRVp3SjY0Qjc1ejhzdHcxQWFQejJLS2hfZzJocWhnV3AtUi1OM1NGX2s2b0NjQkV4NnpYZUxTOGJTRVBlSEM2blAzMXRhbjNydFRjVnYyNGM4a25waTR1aGVTVWt1MXlKOURybDlzS0kxQXVrbUNlQTlRN3lxa3YxMEZ5djByOUhzTlg4MUZUYTRMT1V6MzBYODY3d2FhSk5zRkxMdWpocU1KYTV0TUVLMUtHcWZHbkJWVHVHc2NIRGFwQ1F2c0x3?oc=5",
+      "ts": "2026-10-22T06:49:13+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
       "tag": "題材",
@@ -417,7 +492,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 12.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -806,7 +881,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event",
       "analystDetails": []
     },
@@ -848,6 +923,40 @@
       "top10": true,
       "top10Rank": 9,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "$美光科技 (MU.US)$$SK 海力士 (SKHY.US)$$閃迪 (SNDK.US)$ @longkiller 黑色星期四",
+      "summary": "",
+      "originalTitle": "$Micron Technology (MU.US)$$SK hynix (SKHY.US)$$SanDisk (SNDK.US)$ @longkiller Black Thursday",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeDgxbmw3aXhhVW5jTEw4NTJubl9hcTJldlBHX0RvSjFaR0dpZFdGVTJjTm52eDdDdGQ0Q0plR2JTX1o3YjFSN1pLNXEwblNEc0prUks4RFJlTHlHODNaZTF4SFh3dTFFdUNOVWRKT1FLQUlSbTd6bXk2SkhYMFJ5YmtvN3Y1Ry1DR0FyMG1nM19PYlhlenpyUDhIaWowT1YwTVlUa3hPM016SGs?oc=5",
+      "ts": "2026-10-22T04:49:40+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -5.486862442040186,
+      "relatedTickers": [
+        "SK HYNIX",
+        "MU",
+        "SNDK"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -927,7 +1036,7 @@
       ],
       "eventType": "跨公司事件",
       "score": 234.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "NVIDIA on October 21, 2026 announced plans with a group of supply chain partners to expand global manufacturing capacity, in a release datelined GTC Berlin, to meet growing demand for its accelerated computing and full-stack AI factory platform . The partners named in the NVIDIA announcement are Amkor Technology, IBIDEN, King Yuan Electronics, Samsung Electro-Mechanics, Siliconware Precision Industries, and Unimicron Technology Corporation. Working with these companies, NVIDIA said it is enabling new and existing s",
@@ -1060,7 +1169,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1849,7 +1958,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "纽约（美联社）——随着卫星通信和人工智能业务的蓬勃发展，SpaceX 周二公布的季度利润高于预期。該公司由 Elon Musk 運營，公佈截至 9 月份的三個月利潤為 44 億美元，即每股 35 美分，扭轉了一年前的虧損，輕鬆超過了華爾街的預期。收入飆升至 146 億美元，成長 161%。 在与分析师的电话会议上，马斯克暗示可能正在与他的电动汽车公司特斯拉进行合并，一些人表示",
+        "event": "紐約（美聯社）—隨著衛星通訊和人工智慧業務的蓬勃發展，SpaceX 週二公佈的季度利潤高於預期。該公司由 Elon Musk 運營，公佈截至 9 月份的三個月利潤為 44 億美元，即每股 35 美分，扭轉了一年前的虧損，輕鬆超過了華爾街的預期。收入飆升至 146 億美元，成長 161%。 在與分析師的電話會議上，馬斯克暗示可能正在與他的電動車公司特斯拉進行合併，有些人表示",
         "numbers": [
           "$4.4 billion",
           "$14.6 billion",
@@ -2721,101 +2830,6 @@
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SK海力士選擇權現貨：10月21日成交95,753張合約，持倉量112萬份",
-      "summary": "",
-      "originalTitle": "SK Hynix Options Spot-On: On October 21st, 95,753 Contracts Were Traded, With 1.12 Million Open Interest",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbnJ2R29iOFdMQVRvYjhnNFdDS2NKZ1JkaHZXZjUwdFJtOW1JRmtWakx0VVZQdEYtYU5acF9KTThNV3pReWl5UWdFTDcxbGN3YmhPcEpzbnoyZnhYclRrMkd1aFF4cGFHUzBsaGN0UWdYQXRaMlduT1JVcktrQ0E4Wnd2OGRIYmVjUlRENHJ5WlNBR24wZzI4SE5YSVJIa1Jaanc?oc=5",
-      "ts": "2026-10-21T21:55:02+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 5.805396565821752,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SK HYNIX"
-      ],
-      "eventType": "",
-      "score": 6.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "儘管聯準會緊縮擔憂，但隨著國債收益率穩定，黃金上漲，納斯達克指數飆升 - Kitco PM 報告",
-      "summary": "",
-      "originalTitle": "Gold gains as Treasury yields stabilize, Nasdaq surges despite Fed tightening concerns - Kitco PM Report",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUGxuTFo5VGp0TGhZcEozV0RBZ2JmQ0lGX2czWkhhdjViVEc1eENPWmR2RlpFVzdFRGUycWxBSklHZkxXRHN6bnZocDZuMDdTNGRnN2lQLWY3MEtVbktuNllWODNyMzNkWHlMV18xcjIyQ0RadHpaRzZNcldTbjU1T29FbURsSV9FVmc1VEZ5TzhlZXo1VjNRODMtVkdLR3E2UWhESEpRTVB6N0pGZHdLZGJNWUZzemlDUEM0?oc=5",
-      "ts": "2026-10-21T21:48:25+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 17.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRDO",
-      "group": "高速傳輸",
-      "tag": "題材",
-      "title": "根據最近向 SEC 提交的文件，Credo Technology Group 持有的內部人士出售了價值 2,914,306 美元的股票",
-      "summary": "",
-      "originalTitle": "Credo Technology Group Holding Insider Sold Shares Worth $2,914,306, According to a Recent SEC Filing",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM1RjdmNCZDA5dHpfSERySWt1MTJFNWJSX1ZvN2MzUlBPcGI1cVVKQW5EYTF5S1hhUzI5d19PUnBzZkFsWjN3b2syY2l3bkpLREp3eTl2SWtfWmVLOUVyck1BaFpudXRNQkkyNGFpQzJkOEJzR015TGNzM1M1UkktWHcwYXdWTDdJLVJlZUl6Z1F5UnFNaTdwbWZKWDdfNWxOWk1tY044MHJTcURLTldtU0U3S3FNcFJaT2c?oc=5",
-      "ts": "2026-10-21T21:46:39+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 6.279517229316078,
-      "relatedTickers": [
-        "CRDO"
-      ],
-      "eventType": "",
-      "score": 6.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
