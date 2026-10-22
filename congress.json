@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-10-22 23:29 台灣時間",
+  "updatedAt": "2026-10-22 23:33 台灣時間",
   "updatedDate": "2026-10-22",
   "historyStart": "2024-01-01",
   "source": "Kadoa Congress Trading Monitor open dataset",
@@ -10,9 +10,9 @@
   "backtestNote": "GitHub Actions 端計算：申報公開日後 7/30/90/180 日可跟單回測，以及交易日後 30/60 日績效統計。期權交易使用標的股票報酬，不代表期權本身損益",
   "monitor": {
     "mode": "every_run_new_disclosure_check",
-    "newDisclosuresThisRun": 19,
-    "pushesSentThisRun": 8,
-    "backtestsRecomputedThisRun": true
+    "newDisclosuresThisRun": 0,
+    "pushesSentThisRun": 0,
+    "backtestsRecomputedThisRun": false
   },
   "summary": {
     "recent7": 37,
@@ -311,6 +311,15 @@
       "tradeCount": 533
     },
     {
+      "id": "senate_john_boozman",
+      "name": "John Boozman",
+      "chamber": "senate",
+      "party": "R",
+      "state": "AR",
+      "office": "U.S. Senator · AR",
+      "tradeCount": 499
+    },
+    {
       "id": "house_davida_trott",
       "name": "David A. Trott",
       "chamber": "house",
@@ -327,15 +336,6 @@
       "state": "MD",
       "office": "U.S. Representative · MD-06",
       "tradeCount": 485
-    },
-    {
-      "id": "senate_john_boozman",
-      "name": "John Boozman",
-      "chamber": "senate",
-      "party": "R",
-      "state": "AR",
-      "office": "U.S. Senator · AR",
-      "tradeCount": 482
     },
     {
       "id": "house_zoe_lofgren",
@@ -2408,6 +2408,15 @@
       "tradeCount": 6
     },
     {
+      "id": "house_jamesa_himes",
+      "name": "James A. Himes",
+      "chamber": "house",
+      "party": "D",
+      "state": "CT",
+      "office": "U.S. Representative · CT-04",
+      "tradeCount": 6
+    },
+    {
       "id": "house_johnjmr_mcguire_iii",
       "name": "John J McGuire III",
       "chamber": "house",
@@ -2459,15 +2468,6 @@
       "party": "R",
       "state": "WI",
       "office": "U.S. Representative · WI-06",
-      "tradeCount": 5
-    },
-    {
-      "id": "house_jamesa_himes",
-      "name": "James A. Himes",
-      "chamber": "house",
-      "party": "D",
-      "state": "CT",
-      "office": "U.S. Representative · CT-04",
       "tradeCount": 5
     },
     {
@@ -2930,6 +2930,15 @@
       "tradeCount": 2
     },
     {
+      "id": "house_rudyc_yakym_iii",
+      "name": "Rudy C. Yakym III",
+      "chamber": "house",
+      "party": "R",
+      "state": "IN",
+      "office": "U.S. Representative · IN-02",
+      "tradeCount": 2
+    },
+    {
       "id": "house_sam_farr",
       "name": "Sam Farr",
       "chamber": "house",
@@ -3197,15 +3206,6 @@
       "party": "D",
       "state": "WA",
       "office": "U.S. Representative · WA-07",
-      "tradeCount": 1
-    },
-    {
-      "id": "house_rudyc_yakym_iii",
-      "name": "Rudy C. Yakym III",
-      "chamber": "house",
-      "party": "R",
-      "state": "IN",
-      "office": "U.S. Representative · IN-02",
       "tradeCount": 1
     },
     {
