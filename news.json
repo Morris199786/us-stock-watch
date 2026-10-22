@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-10-22 21:28 台灣時間",
+  "updatedAt": "2026-10-22 21:34 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-22",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "波斯灣的石油產量比伊朗戰爭前還要多",
+      "summary": "",
+      "originalTitle": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
+      "ts": "2026-10-22T13:31:12+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "AEP",
       "group": "電力／儲能／資料中心能源",
@@ -358,29 +388,29 @@
       "ticker": "TXN",
       "group": "類比／電源／功率／RF",
       "tag": "題材",
-      "title": "Stifel 調整 TXN 目標價至 $370，維持 Buy",
-      "summary": "",
+      "title": "Jefferies 調整 TXN 目標價至 $370，維持 Buy",
+      "summary": "Jefferies Adjusts Price Target on Texas Instruments to $300 From $260Texas Instruments has an average rating of overweight and mean price target of $338.35, according to analysts polled by FactSet. ...",
       "originalTitle": "Stifel maintains Buy rating on Texas Instruments, $370 price target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPblVMMWd2RVJoSFo2cHN1TGF1dURqTmNUZHp0eUx0cGVTZGxKTy16SlVnQktKaXVwWFpNazduVVZma2hXanh2TWxxekc2SkM5SUxUQ3N0Umpnc2JoQ1Z5X3hZRUdsazNJSFNDTl9qTEUtc0lhdHVBZjRKSElYTmdEQm51Mk5ha1JZWU16cmFlQWE3ak90dnM4eVRsMkF4RG9NcXNaNlBnV2pxQlNiaU55bXdVQkJ6SFlqVmdoN2ZuZ0s3OHNpY1E?oc=5",
+      "originalSummary": "Jefferies Adjusts Price Target on Texas Instruments to $300 From $260Texas Instruments has an average rating of overweight and mean price target of $338.35, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/jefferies-adjusts-price-target-on-texas-instruments-to-300-from-260-ce785cded989f220",
       "ts": "2026-10-22T13:05:56+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
         {
-          "broker": "Stifel",
+          "broker": "Jefferies",
           "analyst": "",
           "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$370",
-          "oldTarget": "",
-          "reason": "Stifel 維持德州儀器買入評級，目標價 370 美元",
+          "action": "上修",
+          "newTarget": "$300",
+          "oldTarget": "$260",
+          "reason": "Stifel 維持德州儀器買入評級，目標價 370 美元 Jefferies 將德州儀器目標價從 260 美元調整至 300 美元 根據 FactSet 調查的分析師，德州儀器的平均評級為“增持”，平均目標價為 338.35 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "TXN",
           "targetCompany": "Texas Instruments"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "TXN"
       ],
@@ -389,18 +419,20 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Texas Instruments（TXN）｜券商：Stifel｜動作：重申｜評等：Buy｜目標價：$370｜調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元",
+        "event": "被評級公司：Texas Instruments（TXN）｜券商：Jefferies｜動作：上修｜評等：Buy｜目標價：$300（原 $260）｜調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元 Jefferies 將德州儀器目標價從 260 美元調整至 300 美元 根據 FactSet 調查的分析師，德州儀器的平均評級為“增持”，平均目標價為 338.35 美元。",
         "numbers": [
-          "$370"
+          "$260",
+          "$300"
         ],
-        "why": "調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元",
+        "why": "調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元 Jefferies 將德州儀器目標價從 260 美元調整至 300 美元 根據 FactSet 調查的分析師，德州儀器的平均評級為“增持”，平均目標價為 338.35 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元",
+        "takeaway": "調整原因：Stifel 維持德州儀器買入評級，目標價 370 美元 Jefferies 將德州儀器目標價從 260 美元調整至 300 美元 根據 FactSet 調查的分析師，德州儀器的平均評級為“增持”，平均目標價為 338.35 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 9,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -528,6 +560,51 @@
       "top10Rank": null
     },
     {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Cantor Fitzgerald 重申 ORCL Overweight",
+      "summary": "",
+      "originalTitle": "Cantor Fitzgerald reiterates Oracle stock Overweight rating on AI positioning By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNGVfUGoyTkh0cG9hVmNRUE9IRlFaTEh4alR4OWpJQ1FlUm92V2R3RVFfckxDMkZxYzNEaGdBQkZ4TkRZaWViTmMybVdLeHdPQWxGMGRSaE9HSXNEYUVwb19BSDRLdENlWmE3Mk5jY1ZQeEhRdFE2eW5WRU9yRUdFWEhna2VRb0swTHVhNVhMcnJLdnU2ejdHaHpzMUtRSk9CcVpOV1h6bEp2VlE0RXN5allRQnQtQk1md2FDLVU2NlVIeklpUllyU0ptbkVlY0ZPSGhHMg?oc=5",
+      "ts": "2026-10-22T12:58:00+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Cantor Fitzgerald",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "ORCL",
+          "targetCompany": "Oracle"
+        }
+      ],
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Oracle（ORCL）｜券商：Cantor Fitzgerald｜動作：重申｜評等：Overweight｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "題材",
@@ -597,7 +674,7 @@
           "action": "重申",
           "newTarget": "$360",
           "oldTarget": "",
-          "reason": "Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
+          "reason": "Rosenblatt 維持德州儀器買入評級，目標價 360 美元",
           "reasonConfidence": "medium",
           "targetTicker": "TXN",
           "targetCompany": "Texas Instruments"
@@ -612,14 +689,14 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Texas Instruments（TXN）｜券商：Rosenblatt｜動作：重申｜評等：Buy｜目標價：$360｜調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
+        "event": "被評級公司：Texas Instruments（TXN）｜券商：Rosenblatt｜動作：重申｜評等：Buy｜目標價：$360｜調整原因：Rosenblatt 維持德州儀器買入評級，目標價 360 美元",
         "numbers": [
           "$360"
         ],
-        "why": "調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
+        "why": "調整原因：Rosenblatt 維持德州儀器買入評級，目標價 360 美元",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Rosenblatt 維持德州儀器 (TI) 買入評級，目標價 360 美元",
+        "takeaway": "調整原因：Rosenblatt 維持德州儀器買入評級，目標價 360 美元",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -753,7 +830,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Lam Research（LRCX）｜券商：Needham｜動作：下修｜調整原因：供應鏈問題 Lam Research (LRCX) 股價下跌 9%，此前這家晶片製造設備供應商的 12 月季度前景未能滿足投資者的高預期，分析師認為供應限制限制了其利用強勁需求的能力。尼達姆表示，影響多個組件的供應鏈問題已經",
@@ -787,7 +864,7 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -993,6 +1070,38 @@
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NOK",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Nokia 2026 年第三季收益超越人工智慧和雲端銷售預期",
+      "summary": "",
+      "originalTitle": "Nokia Q3 2026 earnings beat estimates on AI and cloud sales",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DOFp5ckxKSlREanVOcmlzdHRESW12RElxY2tOVUJLenhXRl9KTzBKdFVVNWdfM19kNGZnTFlNRS1qemdwYWdtZDYyTXA3MnRFaXAyRmw0M1N0LVpVekpINzd5Tk5PWHM?oc=5",
+      "ts": "2026-10-22T12:21:35+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.834683954619138,
+      "relatedTickers": [
+        "NOK"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 20.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -1341,6 +1450,38 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NOK",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "諾基亞 2026 年第三季財報電話會議正在進行中",
+      "summary": "",
+      "originalTitle": "Nokia Q3 2026 Earnings Call Is Live",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMzJJUEstZ3ZrQThJU3lJaE51c2NUWU4zMFhqSFcwaXJFdWU5Z3I1UVhtVHBZamVDSlRnWjd4akdJTzNZM05PQmt2NjFCOWliMV9kUDRzZzZWVE1GWTBPOVRsWGs1MmpRWjg3SV9DSlZ1ZTQzb05TT0tNaV9tbVRMb1cwTUxnNldIanJjQm14RXRwMEM2N09NUG5zcDBPdzFqVlZzM1hKcw?oc=5",
+      "ts": "2026-10-22T11:57:04+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.834683954619138,
+      "relatedTickers": [
+        "NOK"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 17.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1897,6 +2038,39 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "NOK",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "諾基亞AI業務暴增126%，資料中心熱潮成利潤大故事",
+      "summary": "",
+      "originalTitle": "Nokia's AI Business Soars 126%, Data Center Boom Is Becoming a Big Profit Story",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ3F2QThlWjY5eUxOa2V2Q25qMnNNOXpXV2s1Tmp1OUNycmpoX2U0ZGh4ZlRwWS1kbzNwQzdWMmxXSW5kQmctZXp2ckduT3JRcHN5UHBBNDEtV2tLdXlIbFZlM0J4ckhNdHBGcDdpREF1VUkybUhEWmVmVlZhel9ad1hDSmhNTW5QN002b3Y1N1ZTNjFfSHhfcVlWU1RXdndOLUpORTdZZ1NUdjBwTS1ucC1mekFQc2lBenpyNWp4a0xnZ3lzR3c0NWQxSUl1dw?oc=5",
+      "ts": "2026-10-22T11:09:26+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.834683954619138,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NOK"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 14.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2080,6 +2254,39 @@
       ],
       "eventType": "",
       "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NOK",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Scatec將2026年電力生產獲利預期下調3億挪威克朗",
+      "summary": "",
+      "originalTitle": "Scatec cuts 2026 power production earnings outlook by NOK 300m",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBabXR3YzZjMzNseDJ5aWZzWEhiaWVMMmFQcGZWWFJKb0o5bnVJNG9QcWpBY3Q5MGtDMmtmWjBPWUxmSDNVSHdETS0tTHF1eEgtOEFFaWhMZ3JVZmtPZThkTW01RW1QaFBQRXc?oc=5",
+      "ts": "2026-10-22T10:37:15+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.834683954619138,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NOK"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 17.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2399,6 +2606,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "LRCX",
+      "group": "半導體設備／測試",
+      "tag": "題材",
+      "title": "Meta 和 Lam Research 在獲利問題上存在分歧，紐約股市可能難以上漲；原油上漲也帶來壓力",
+      "summary": "",
+      "originalTitle": "NY Stocks May Struggle for Upside as Meta and Lam Research Diverge on Earnings; Rising Crude Oil Also Weighs",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBmdHBVTG83VEw0dUpuYVhJbEJvalg1WVgtc1FpUW9HcS1fVFlFNm1YSkUwNFplTVlaWWs5TjZ4aFVodEYzeE1Ua21YSDJSZTF0TkhCcWFTSU1STEhxMDMxdVctVEJGMkRkd2RJNXlQV2V2d09teHc?oc=5",
+      "ts": "2026-10-22T10:25:00+00:00",
+      "sourceType": "active_search",
+      "movePct": -9.579770714313106,
+      "relatedTickers": [
+        "LRCX"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 23.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NOK",
       "group": "光通訊／網通",
       "tag": "利多",
@@ -2601,7 +2840,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "民主黨派前總統巴拉克·歐巴馬 (Barack Obama) 和前副總統卡馬拉·哈里斯 (Kamala Harris) 參加參議院競爭，以幫助該黨在共和黨領土上獲勝。 NPR 獲悉，美國和以色列正在為中期選舉後可能對伊朗發動的襲擊做準備，而美國人則面臨約旦河西岸的定居者暴力和軍事逮捕。 特斯拉和 SpaceX 正在探索合併，這可能會創建世界上最大的公司之一，並使 Elon Musk 對其龐大的商業帝國擁有更大的控制權。",
+        "event": "民主黨派前總統巴拉克·歐巴馬 (Barack Obama) 和前副總統卡瑪拉·哈里斯 (Kamala Harris) 參加參議院競爭，以幫助該黨在共和黨領土上獲勝。 NPR 獲悉，美國和以色列正在為中期選舉後可能對伊朗發動的襲擊做準備，而美國人則面臨約旦河西岸的定居者暴力和軍事逮捕。 特斯拉和 SpaceX 正在探索合併，這可能會創建世界上最大的公司之一，並使 Elon Musk 對其龐大的商業帝國擁有更大的控制權。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "民主黨派前總統巴拉克·歐巴馬 (Barack Obama) 和前副總統卡馬拉·哈里斯 (Kamala Harris) 參加參議院競爭，以幫助該黨在共和黨領土上獲勝。 NPR 獲悉，美國和以色列正在為中期選舉後可能對伊朗發動的襲擊做準備，而美國人則面臨約旦河西岸的定居者暴力和軍事逮捕。",
@@ -2738,290 +2977,6 @@
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbldVWHl1Z0NVWGp4dUdwUWtIYXJ2aGo3UFN4blhuQmFrSE5RYUtia25DTllNSUJJdjFWSTFiYjFrX01aUXBhT3FEVDlkMlFfOUdhMlpKekYtOU1vQmxwV2JyNFdERkZTZ0dfUmlDcUs5OXB2bVNaT3RMTXRNTFU3bnoyOUk?oc=5",
       "ts": "2026-10-22T10:00:07+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "馬斯克 (Elon Musk) SpaceX 和特斯拉大型合併計劃的背後",
-      "summary": "",
-      "originalTitle": "Behind Elon Musk’s plans for a mega-merger of SpaceX and Tesla",
-      "originalSummary": "Elon Musk has spent years building Tesla and SpaceX into a pair of trillion-dollar technology empires. Now, he is considering bringing them together . Asked on Tuesday whether a merger would be a good idea, Musk was clear: \"Yes.\" The prospect is more than hypothetical. Musk said special committees have been formed to assess a potential deal, although he stressed that there is no guarantee a merger will happen and that nothing has been agreed.",
-      "url": "https://finance.yahoo.com/technology/articles/why-does-elon-musk-want-041807204.html",
-      "ts": "2026-10-22T10:00:00+00:00",
-      "sourceType": "active_search",
-      "movePct": 7.794844035455717,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "TSLA"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 35.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "馬斯克 (Elon Musk) 花了數年時間將特斯拉和 SpaceX 打造成兩個價值數萬億美元的科技帝國。現在，他正在考慮讓他們在一起。週二被問及合併是否是一個好主意時，馬斯克明確表示：「是的。」前景不僅僅是假設。馬斯克表示，已經成立了特別委員會來評估潛在的交易，但他強調，不能保證合併一定會發生，也沒有達成任何協議。",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "馬斯克 (Elon Musk) 花了數年時間將特斯拉和 SpaceX 打造成兩個價值數萬億美元的科技帝國。現在，他正在考慮讓他們在一起。週二被問及合併是否是一個好主意時，馬斯克明確表示：「是的。」前景不僅僅是假設。馬斯克表示，已經成立了特別委員會來評估潛在的交易，但他強調，不能保證合併一定會發生，也沒有達成任何協議。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "馬斯克的 Tesla-SpaceX 合併將正式建立數十年的合作關係",
-      "summary": "",
-      "originalTitle": "Musk’s Tesla-SpaceX Merger Would Formalize a Decadeslong Partnership",
-      "originalSummary": "Elon Musk said Tuesday that the boards of SpaceX and Tesla have each formed special committees to study merging his two biggest companies, a deal that would put rockets, electric cars, humanoid robots, a social network and the Grok chatbot inside a single corporation worth roughly $3.5 trillion. \"I do think there's a lot of merit to combining the companies as we are pretty much in the superintelligence singularity,\" Musk said on SpaceX's third-quarter earnings call. The singularity is Silicon Valley shorthand for the point where AI outsmarts humans and starts improving itself faster than anyone can keep up.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-tesla-merger-reshape-musk-181603033.html",
-      "ts": "2026-10-22T09:56:00+00:00",
-      "sourceType": "active_search",
-      "movePct": 7.794844035455717,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SPCX",
-        "TSLA"
-      ],
-      "eventType": "跨公司事件",
-      "analystPriority": false,
-      "score": 48.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "伊隆馬斯克週二表示，SpaceX 和特斯拉的董事會已各自成立特別委員會，研究合併兩家最大的公司，這項交易將把火箭、電動車、人形機器人、社交網路和 Grok 聊天機器人納入一家價值約 3.5 兆美元的公司。馬斯克在 SpaceX 第三季財報電話會議上表示：「我確實認為合併兩家公司有很多好處，因為我們幾乎處於超級智慧奇點。」奇點是矽谷 t 的簡稱",
-        "numbers": [
-          "$3.5"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "伊隆馬斯克週二表示，SpaceX 和特斯拉的董事會已各自成立特別委員會，研究合併兩家最大的公司，這項交易將把火箭、電動車、人形機器人、社交網路和 Grok 聊天機器人納入一家價值約 3.5 兆美元的公司。馬斯克在 SpaceX 第三季財報電話會議上表示：「我確實認為合併兩家公司有很多好處，因為我們幾乎處於超級智能奇點。」奇點是矽谷的簡稱，即人工智慧超越人類，並以比任何人都跟上的速度更快地開始自我改進。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "IBM",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "高盛將 IBM 的目標股價從 270 美元調整為 300 美元",
-      "summary": "",
-      "originalTitle": "Goldman Sachs Adjusts Price Target on IBM to $300 From $270",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObk5qQzV4Q1BNU1RoSndLN2tXbHJIS08wQkptbjhuNlNuUFV3UWtFekl0X2V2U2ZhNzU0V25DQlBoeXNuOXF0OHVCM08wUy1QWkN1ZUx4VWpxbDJITWk0RUpiWXN0eWZiaGNSUE9ZeGl3UUdBZ1dtMWh6T3RhVHgzOENhMk5ZY1JkM2VpZ2MyZkx3TWNYYnVyMU93NlZiR0R5ZTZQRUVuR05JdC1nSXBj?oc=5",
-      "ts": "2026-10-22T09:53:31+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Goldman Sachs",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "$300",
-          "oldTarget": "$270",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "IBM",
-          "targetCompany": "IBM"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "IBM"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：IBM｜券商：Goldman Sachs｜動作：上修｜目標價：$300（原 $270）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$270",
-          "$300"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "Needham 調整 NVDA 目標價至 $300，維持 Buy",
-      "summary": "",
-      "originalTitle": "Needham reiterates Buy rating on NVIDIA, $300 price target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2ctcmNVaXZiVWdyRWxXN1hNVlBmZ0RPbXd4dExxRVh2Q3B2ZlI4Zzg0b2s1b1VPZWhraGlFajAwa0hRSkRUcFlMbG1iOWZHMnRYLXFrSk1jYmlzazhkdF8xMlBpSDdBWThKVzh3bXNIVDdYeC1BcFp2UVRwUXRIRlhhclVqRHZYaEIwY3NJaFdzT0hIbmpXWU82OFRJRVo0Y0doWnNLWGd4ZUNnRVhNM0gyV19zdE01Y2c?oc=5",
-      "ts": "2026-10-22T09:52:08+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Needham",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$300",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Needham｜動作：重申｜評等：Buy｜目標價：$300｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$300"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "IBM",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "Evercore ISI 將 IBM 的目標價從 250 美元調整為 275 美元",
-      "summary": "Evercore ISI 将 IBM 的目标价从 250 美元调整至 275 美元 根据 FactSet 调查的分析师，IBM 的平均评级为“增持”，平均目标价为 254.67 美元。 …",
-      "originalTitle": "Evercore ISI Adjusts Price Target on IBM to $275 From $250",
-      "originalSummary": "Evercore ISI Adjusts Price Target on IBM to $275 From $250IBM has an average rating of overweight and mean price target of $254.67, according to analysts polled by FactSet. ...",
-      "url": "https://www.marketscreener.com/news/evercore-isi-adjusts-price-target-on-ibm-to-275-from-250-ce785cd9d08ff12d",
-      "ts": "2026-10-22T09:47:09+00:00",
-      "sourceType": "broker_priority_scan",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Evercore ISI",
-          "analyst": "",
-          "rating": "overweight",
-          "action": "上修",
-          "newTarget": "$275",
-          "oldTarget": "$250",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "IBM",
-          "targetCompany": "IBM"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "IBM"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：IBM｜券商：Evercore ISI｜動作：上修｜評等：overweight｜目標價：$275（原 $250）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$250",
-          "$275"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "元收益顯示未來成長將花費多少成本",
-      "summary": "",
-      "originalTitle": "Meta Earnings Show Just How Much Future Growth Will Cost",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4tdTM5U2kwQ295eEpWaTdjamk4SDdmT09TWjFBNHBhZkRxcmR6SmpNT1lEbTZGZTl0LVZpYUxXUERlOEtsaWdFLXF2QTFSUG9LM0RjbkZyR21YR1dlNmN2NnhvTWFqanY4Q09IYjBqT29SOHBGeWxrZg?oc=5",
-      "ts": "2026-10-22T09:47:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 18.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "人工智慧擔憂再度浮現，油價攀升，納斯達剋期貨下跌逾 1%",
-      "summary": "",
-      "originalTitle": "Nasdaq futures drop over 1% as AI worries resurface, oil climbs",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
-      "ts": "2026-10-22T09:46:51+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -3701,7 +3656,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 財報電話會議的五個要點",
-      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
       "originalTitle": "Five Takeaways From SpaceX’s Earnings Call",
       "originalSummary": "President and Chief Operating Officer - Gwynne Shotwell Andrea Williams: Hello, everyone. We are coming to you live from our Starlink factory and future Starmind production site here in Bastrop, Texas. I'm Andrea Williams, Head of Investor Relations, and thank you for joining us for SpaceX's Third Quarter 2026 Earnings Presentation. Joining us are Elon, Gwynne, and Bret, and we are live streaming on X. Our third quarter financial results were announced just after 3:00 p.m. Texas time, and all relevant materials have been published to our Investor Relations website at ir.spacex.com. For today's presentation, our prepared remarks will be followed by a question-and-answer session.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-q3-2026-earnings-005829420.html",
@@ -3718,10 +3673,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams： 大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -4974,7 +4929,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "克萊默警告說，如果資料中心容量萎縮，閃迪和西部數據將是最糟糕的股票",
-      "summary": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學使風險很容易被低估。",
+      "summary": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學原理使風險很容易被低估。",
       "originalTitle": "Cramer warns SanDisk and Western Digital are worst stocks if data center capacity shrinks",
       "originalSummary": "Jim Cramer called out two storage giants sitting on massive year-to-date gains as the most dangerous stocks to own if one key spending trend reverses, and the math behind their profits makes the risk easy to underestimate.",
       "url": "https://247wallst.com/investing/2026/10/20/cramer-warns-sandisk-and-western-digital-are-worst-stocks-if-data-center-capacity-shrinks/",
@@ -4991,10 +4946,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學使風險很容易被低估。",
+        "event": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學原理使風險很容易被低估。",
         "numbers": [],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學使風險很容易被低估。",
+        "stance": "吉姆·克萊默 (Jim Cramer) 指出，如果一個關鍵支出趨勢發生逆轉，今年迄今已大幅上漲的兩家儲存巨頭將成為最危險的股票，而它們利潤背後的數學原理使風險很容易被低估。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -6147,7 +6102,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Fluence Energy (FLNC) 因無法擴大休士頓工廠而面臨證券集體訴訟 – Hagens Berman",
-      "summary": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+      "summary": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
       "originalTitle": "Fluence Energy (FLNC) Faces Securities Class Action Amid Inability to Ramp Houston Facility – Hagens Berman",
       "originalSummary": "Did you buy FLNC securities between November 24, 2025 and September 16, 2026? RADNOR, PA - October 17, 2026 ( NEWMEDIAWIRE ) - Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ), a nationally recognized securities litigation law firm, informs investors that a securities fraud class action lawsuit has been filed against Fluence Energy, Inc. (Fluence Energy) (NASDAQ: FLNC) on behalf of those who purchased or acquired Fluence Energy securities between November 24, 2025 and September 16, 2026, inclusive. The lawsuit is filed in the United States District Court for the Southern District of New York and is captioned Hatweek v. Fluence Energy, Inc., No. 1:26-cv-08475 (S.D.N.Y.). Investors have until November 27, 2026, to file for lead plaintiff status. NewMediaWire distributes press releases on behalf of hundreds of publicly traded companies, as well as private corporations, non-profits and other public sector organizations. Founded and staffed by industry veterans, we offer a full complement of services including specialized delivery to financial sites and posting of photos and multimedia content. In addition, NewMediawire offers international and specialized services such as IR websites and industry specific distribution.",
       "url": "https://www.newmediawire.com/news/fluence-energy-inc-investors-have-opportunity-to-lead-securities-fraud-class-action-lawsuit-7090721",
@@ -6164,10 +6119,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+        "event": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購股票代碼（FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
+        "stance": "您是否在2025年11月24日至2026年9月16日期間購買了FLNC證券？賓州拉德諾 - 2026 年 10 月 17 日 (NEWMEDIAWIRE) - 全國公認的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) 通知投資者，已代表在 11 月 24 日期間購買或收購證券法典 (FL Energy Energy 的集體訴訟程序法 (FL生活)。 2025 年及 2026 年 9 月 16 日（含）。該訴訟已向美國紐約南區地方法院提起，標題為「Hatweek v.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -6327,7 +6282,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "利多",
       "title": "Goldman Sachs 升評 CRWV 至 Buy，目標價上修至 $139（原 $106）",
-      "summary": "高盛將 Neocloud 提供商 CoreWeave (CRWV) 的評級從“中性”上調至“買入”，該股週一上漲 3%，隨後回吐漲幅。在上週股價下跌超過 25% 後，該分析師還將該股的目標價從每股 106 美元上調至 139 美元。一張病毒圖表顯示，CoreWeave 上週債券收益率飆升，突顯了人們對該公司負債累累的資產負債表以及該公司是否能夠足夠快地擴大業務規模以覆蓋不斷上升的利息支出的擔憂。",
+      "summary": "高盛將 Neocloud 提供商 CoreWeave (CRWV) 的評級從“中性”上調至“買入”，該股週一上漲 3%，隨後回吐漲幅。在上週該股拋售超過 25% 後，該分析師還將該股目標價從每股 106 美元上調至 139 美元。一張病毒圖表顯示，CoreWeave 上週債券收益率飆升，突顯了人們對該公司負債累累的資產負債表以及該公司是否能夠足夠快地擴大業務規模以覆蓋不斷上升的利息支出的擔憂。",
       "originalTitle": "CoreWeave stock attempts to rebound on Goldman Sachs upgrade to Buy",
       "originalSummary": "CoreWeave ( CRWV ) shares rose 3% before surrendering their gains Monday after Goldman Sachs upgraded the neocloud provider to Buy from Neutral. The analyst also raised the stock's price target from $106 to $139 per share following a sell-off of more than 25% last week. A viral chart showing CoreWeave's spiking bond yields last week underscored concerns about the company's debt-heavy balance sheet and whether it can scale its business quickly enough to cover rising interest expenses.",
       "url": "https://finance.yahoo.com/markets/stocks/article/coreweave-stock-attempts-to-rebound-on-goldman-sachs-upgrade-to-buy-171325223.html",
@@ -7090,7 +7045,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "馬斯克 (Elon Musk) 表示，他將把 SpaceX 的股份送給“美國的每個孩子”",
-      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
       "originalTitle": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
       "originalSummary": "Elon Musk announced on social media Monday that he intends to give one SpaceX share to each child in the United States. The post described the move as the start of a larger series of gifts. Details on timing, eligibility, or distribution remain absent from the statement. ( [1] ) Musk, who serves as chief executive of SpaceX, posted the pledge without additional explanation or follow-up instructions. The message reached his large audience on the platform and quickly drew attention from news outlets and the public. Observers noted the unusual nature of committing personal holdings to a broad group of minors across the country.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-vows-one-spacex-123000728.html",
@@ -7107,7 +7062,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該帖子稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
@@ -10789,7 +10744,7 @@
       "group": "記憶體／儲存",
       "tag": "利多",
       "title": "SK海力士尋求華盛頓批准向中國出口美國晶片設備",
-      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
       "originalTitle": "SK Hynix Seeks Washington Approval to Export US Chip Equipment to China",
       "originalSummary": "Investing.com -- South Korea's SK Hynix Inc (KS:000660) is seeking U.S. approval to ship additional American-made chipmaking equipment to its facility in China, linking the request to plans by its U.S. unit Solidigm to build a new NAND flash memory factory in the United States, Reuters reported on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/sk-hynix-seeks-u-chip-040733867.html",
@@ -10805,10 +10760,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -11940,7 +11895,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "SK海力士討價還價向其中國工廠出口晶片設備，以換取在美國建廠",
-      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+      "summary": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
       "originalTitle": "SK Hynix bargains for chip equipment exports to its China facility in return for building a factory in US",
       "originalSummary": "Investing.com -- South Korea's SK Hynix Inc (KS:000660) is seeking U.S. approval to ship additional American-made chipmaking equipment to its facility in China, linking the request to plans by its U.S. unit Solidigm to build a new NAND flash memory factory in the United States, Reuters reported on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/sk-hynix-seeks-u-chip-040733867.html",
@@ -11957,10 +11912,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "event": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 快閃記憶體工廠的計劃聯繫在一起。",
+        "stance": "Investing.com—據路透社週四報道，韓國 SK 海力士公司 (KS:000660) 正在尋求美國批准向其在中國的工廠運送更多美國製造的晶片製造設備，該請求與其美國子公司 Solidigm 在美國建造一座新 NAND 閃存工廠的計劃聯繫在一起。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -13033,7 +12988,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "利多",
       "title": "Analog Devices (ADI) 的分析師升級和人工智慧前景是否被低估？",
-      "summary": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的樂觀論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
+      "summary": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的看漲論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
       "originalTitle": "Is Analog Devices (ADI) Undervalued On Its Analyst Upgrade And AI Outlook?",
       "originalSummary": "Is ADI a good stock to buy? We came across a bullish thesis on Analog Devices, Inc. on Astute Optics - US's Substack. The thesis was published on September 11th, when the stock was trading at $378.78, and ADI gained more than 7% since then. The gain appears to reflect improving earnings expectations, supported by recovering industrial demand and expanding AI data center activity across power and optical applications. In this article, we will summarize the bulls' thesis on ADI. Analog Devices, Inc.'s share was trading at $405.93 as of October 8th 2026. ADI's trailing and forward P/E were 45.75 and 23.20 respectively according to Yahoo Finance.",
       "url": "https://uk.finance.yahoo.com/news/analog-devices-adi-vs-txn-174427336.html",
@@ -13050,20 +13005,20 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的樂觀論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
+        "event": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的看漲論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
         "numbers": [
           "$378.78,",
           "$405.93",
           "7%"
         ],
-        "why": "券商調整理由：ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的樂觀論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
-        "stance": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的樂觀論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
+        "why": "券商調整理由：ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的看漲論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
+        "stance": "ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的看漲論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
-        "takeaway": "券商調整理由：ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的樂觀論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
+        "takeaway": "券商調整理由：ADI 是一支值得買的股票嗎？我們在 Astute Optics - 美國的 Substack 上發現了一篇關於 Analog Devices, Inc. 的看漲論文。該論文發表於 9 月 11 日，當時該股交易價格為 378.78 美元，此後 ADI 上漲超過 7%。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -16554,7 +16509,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "XTI Aerospace 的董事會重新由五人組成，Unusual Machines 的執行長擔任主席。",
-      "summary": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+      "summary": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
       "originalTitle": "XTI Aerospace's board is back to five, with Unusual Machines' CEO as chair.",
       "originalSummary": "DALLAS, Oct. 14, 2026 /PRNewswire/ -- XTI Aerospace, Inc. (Nasdaq: XTIA) (\"XTI Aerospace,\" \"XTI\" or the \"Company\"), an aerospace and advanced technology platform and parent company of Drone Nerds, LLC, (\"Drone Nerds\"), a leading drone solutions platform serving commercial, enterprise and government customers, today announced the appointment of Dr. Allan Evans as a director and Chairman of its Board of Directors. His addition returns the Board to five members. In connection with Dr. Evans' appointment as Chairman, the Board designated Mr. Ornstein as Vice Chairman of the Board.",
       "url": "https://finance.yahoo.com/technology/articles/xti-aerospace-appoints-unusual-machines-110000129.html",
@@ -16571,10 +16526,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+        "event": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）的董事其董事會主席。",
+        "stance": "達拉斯，2026 年 10 月 14 日 /美通社/ -- XTI Aerospace, Inc.（納斯達克股票代碼：XTIA）（“XTI Aerospace”、“XTI”或“公司”）是一家航空航天和先進技術平台，也是服務於商業、企業和政府客戶的領先無人機解決方案平台 Drone Neran, Evans LLC（今天宣布）的董事和董事 Ner Nds，母公司 Drone Ner 母公司（今天宣布）。其董事會主席。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -22583,7 +22538,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Flex 擴充預製模組化資料中心產品組合以加速 AI 工廠部署 - Flex",
-      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+      "summary": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股…請勿出售或分享我的個人資訊：",
       "originalTitle": "Flex Expands Prefabricated Modular Data Center Portfolio to Accelerate AI Factory Deployment - Flex",
       "originalSummary": "Flex (NASDAQ: FLEX) will announce its second quarter fiscal year 2027 financial results before the market opens on Wednesday, October 28, 2026. The... Flex (NASDAQ: FLEX) announced today that it has entered into an agreement to sell $2.0 billion of shares of Series A Convertible Preferred Stock of... Do not sell or share my personal information :",
       "url": "https://www.prnewswire.com/news-releases/flex-expands-prefabricated-modular-data-center-portfolio-to-accelerate-ai-factory-deployment-302905201.html",
@@ -22599,13 +22554,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "event": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股…請勿出售或分享我的個人資訊：",
         "numbers": [
           "$2.0 billion",
           "2.0 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開市前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，已達成協議，出售價值 20 億美元的 A 系列可轉換優先股...請勿出售或分享我的個人資訊：",
+        "stance": "Flex（納斯達克股票代碼：FLEX）將於 2026 年 10 月 28 日星期三開盤前公佈其 2027 財年第二季財務業績。 Flex（NASDAQ：FLEX）今天宣布，它已達成協議，出售價值 20 億美元的 A 系列可轉換優先股…請勿出售或分享我的個人資訊：",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -23492,7 +23447,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞將開始在高風險的 AI-RAN 賭博中出售 GPU",
-      "summary": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+      "summary": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
       "originalTitle": "Nokia to start dealing out GPUs in high-stakes AI-RAN gamble",
       "originalSummary": "Some drivers are happy to run a car until the chassis has corroded and the engine coughs with every agonizing change of gear. Others less constrained by economic circumstances want a new vehicle every time the paint is nicked. Many big telcos currently seem to have more in common with the first group, determined to run their mobile networks until the basestations are shrouded in cobwebs. Any upgrades, including to 6G, should not have to require hardware replacement, they are telling vendors. Yet Nokia wants to sell them a completely new engine. The Finnish company has publicly teamed up with Nvidia to design radio access network (RAN) products built on the giant chipmaker's graphics processing units (GPUs). It has stopped developing new custom silicon with partner Marvell Technology, although it will continue to support its existing 4G and 5G range for years. Ultimately, however, customers will have to buy new hardware to enjoy new features. There is no guarantee the situation will be all that different for customers of Ericsson. Operators using its purpose-built 5G products today may need to invest in newer application-specific integrated circuits (ASICs) to support forthcoming 5G-Advanced and 6G software. But Nokia's GPU strategy is undoubtedly much riskier. While commonplace in data centers and certain gadgets, Nvidia's chips have never been used for RAN compute. If telcos balk at the idea, Nokia could be in trouble. \"If you don't have a companion strategy that's based on classic ASICs, you really have created jeopardy, I think,\" said Marcus Weldon, a former Nokia chief technology officer who was also president of its Bell Labs research unit. Yet the rewards could be immense if Nokia can prove that GPUs have advantages over ASICs in the RAN. In recent months, it has argued that its GPU-led strategy will support a doubling in spectral efficiency, among other benefits, by 2028. In a RAN market that is not expected to grow in the next few years, such improvements could justify the initial hardware outlay and even translate into market share gains for Nokia, allowing it to recover 5G ground lost to Ericsson and Samsung. That could be a disaster for Nokia's rivals. Numerous operators are now giving Nokia's AI-RAN products a test drive before they become commercially available early next year. None has yet said anything in public about the initial experience, and many operators have previously voiced concern about using what is still perceived to be a very expensive and energy-hungry chip in the RAN. Overkill has been the word on some lips, as if putting a GPU in the RAN is like using a rocket launcher to kill a rat. But Nokia has been advertising a slimline GPU that could be slotted into an existing Airscale chassis originally designed to support Marvell Technology's silicon. It will have to function with the same power constraints and be available for the same price, according to executives. They have also promised it will support software upgrades and new AI algorithms for years – unlike any ASIC. \"What we anticipate with AI-RAN is that it gives customers an opportunity to reduce the ongoing hardware investment, or to elongate that,\" said Nok",
       "url": "https://www.lightreading.com/5g/nokia-to-start-dealing-out-gpus-in-high-stakes-ai-ran-gamble",
@@ -23511,10 +23466,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+        "event": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運作其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
+        "stance": "有些駕駛很樂意開車，直到底盤被腐蝕，引擎在每次痛苦的換檔時發出咳嗽聲。其他受經濟環境限制較少的人則希望每次油漆出現刮痕時都需要一輛新車。目前許多大型電信公司似乎與第一類有更多共同點，都決心運營其行動網絡，直到基地台被蜘蛛網籠罩。他們告訴供應商，任何升級，包括 6G 的升級，都不需要更換硬體。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -25974,7 +25929,7 @@
           "action": "降評",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+          "reason": "目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
           "reasonConfidence": "high",
           "targetTicker": "NXPI",
           "targetCompany": "NXP"
@@ -25990,12 +25945,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：NXP（NXPI）｜券商：Citi｜動作：降評｜調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "event": "被評級公司：NXP（NXPI）｜券商：Citi｜動作：降評｜調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "numbers": [],
-        "why": "調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "why": "調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：當前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
+        "takeaway": "調整原因：目前的市場價值是否與該業務預期產生的現金相符。對於任何追蹤這家晶片製造商的人來說，真正的問題是其最近的股價在多大程度上可以用其潛在的現金流而不是情緒的變化來解釋。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
