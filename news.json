@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 17:58 台灣時間",
+  "updatedAt": "2026-10-22 18:03 台灣時間",
   "historyUpdatedDate": "2026-10-22",
   "historyLastAttemptAt": "2026-10-21T16:03:24.481009+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,48 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "利多",
+      "title": "Musk’s Tesla-SpaceX Merger Would Formalize a Decadeslong Partnership",
+      "summary": "",
+      "originalTitle": "Musk’s Tesla-SpaceX Merger Would Formalize a Decadeslong Partnership",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNVdHcXJLUDN1N0FpRTE3WDBtU2dWQVZmQl8wb3RDaWpuRkpqcUU3NERZYjA0Ri15WC1FT3FHMENTaDIxVUFFR3NjWXZ4TFUyN2EtVVFiR243UGRZQVY3dmo3Q1o0bkE0bVdQUHBUYlEtMWJlbmFqZi1FUTVpeHpoeXlRby1Nb2JvU1Rtb0k3cFZKMkNUX0dha1VUSFU2QzVzZkF6RkFsdzQ?oc=5",
+      "ts": "2026-10-22T09:56:00+00:00",
+      "sourceType": "active_search",
+      "movePct": 7.794844035455717,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "跨公司事件",
+      "analystPriority": false,
+      "score": 33.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "IBM",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Evercore ISI Adjusts Price Target on IBM to $275 From $250",
-      "summary": "",
+      "summary": "Evercore ISI 將 IBM 的目標價從 250 美元調整至 275 美元 根據 FactSet 調查的分析師，IBM 的平均評級為“增持”，平均目標價為 254.67 美元。 …",
       "originalTitle": "Evercore ISI Adjusts Price Target on IBM to $275 From $250",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTVvcWZFRXI4dGhOMzYxc2tDNTJWSUdKYm5ONXNlVklUVmR3VnlBOWU1aFpUYVJxTTJLeG8tSlJ6aFpSV3ltazhMR3M2VVlnSjlubnNUYmRjNWx4YWRSV1hRSjlJbFBvRDBFZTFzUmIxWDB6LV84QXh5djlNZUp6eTBsUXJCOEFFczNTNC1WNkU5OE05UWVjVXlpWDlNOU1mV1N0SWZkZ0JycW5zMmc?oc=5",
+      "originalSummary": "Evercore ISI Adjusts Price Target on IBM to $275 From $250IBM has an average rating of overweight and mean price target of $254.67, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/evercore-isi-adjusts-price-target-on-ibm-to-275-from-250-ce785cd9d08ff12d",
       "ts": "2026-10-22T09:47:09+00:00",
       "sourceType": "broker_priority_scan",
       "analystPriority": true,
@@ -22,7 +56,7 @@
         {
           "broker": "Evercore ISI",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "上修",
           "newTarget": "$275",
           "oldTarget": "$250",
@@ -32,7 +66,7 @@
           "targetCompany": "IBM"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "IBM"
       ],
@@ -41,7 +75,7 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：IBM｜券商：Evercore ISI｜動作：上修｜目標價：$275（原 $250）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：IBM｜券商：Evercore ISI｜動作：上修｜評等：overweight｜目標價：$275（原 $250）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$250",
           "$275"
@@ -53,7 +87,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "META",
@@ -1040,7 +1075,7 @@
       ],
       "eventType": "",
       "score": 211.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Tesla（TSLA）｜券商：TD Cowen｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
@@ -1661,6 +1696,36 @@
       ],
       "eventType": "",
       "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "菲律賓央行大幅升息以對抗通膨",
+      "summary": "",
+      "originalTitle": "Philippines Central Bank Delivers Jumbo Hike in Bid to Combat Inflation",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMDlsUGNEZ3Rqc0JRMkVHMV83VVBrV2lfbC1WbzJ3Y21OS0N1YV9oRHZhYUxFcnRnenl2NUdvQ2pJdXhHVV96RVdIeFExeEdvbkNxMldwei1OWkUxc09tYWNjZVZkdTVCMDUzYjhuU1lrVXdOeGFBN1ZSTlNWLUotdlRvREN2Z2tDdC1kTW9kVmdaVkFLbm84OWlOeUNmcEQyM1hXOGdzWE1vMlpQUTNBV1hnVUpNME1ieTA4Ti15RUptdw?oc=5",
+      "ts": "2026-10-22T06:50:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2844,68 +2909,6 @@
       ],
       "eventType": "",
       "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "標準普爾 500 指數預測：通膨過熱和人工智慧債務擔憂加劇後標準普爾 500 指數下跌",
-      "summary": "",
-      "originalTitle": "S&P 500 Forecast: SPX Falls after hot inflation and as AI debt concerns mount",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQk9hM0V6YUJNS3NXQ2loRFRzejJ6WkdCR0dLaGx5akJEM005TTE5emdNU1dQeUZlal9wNmVMODhsSVBQUnJMT2o3cHJ4b0NhVk1GNU5nQ2FiRUFMOGN4SVM5QTRvekN1ZmFFQ3ZGUDdmOWJqTXBEODNWYmxxZWhtbTFoMDBzaUk2TUFIZERYTkcteXJxLTNWSHJkaVBHc1dHem12SnZfaGdDUmZ3V2pKSHdQNktHZWowTFJxVVBTVWpkLU41?oc=5",
-      "ts": "2026-10-22T01:15:14+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 17.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "由於投資人權衡特斯拉和Meta收益，美國股指期貨下跌",
-      "summary": "",
-      "originalTitle": "U.S. stock futures fall as investors weigh Tesla, Meta earnings By Investing.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
-      "ts": "2026-10-22T01:11:45+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 16.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
