@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 20:34 台灣時間",
+  "updatedAt": "2026-10-23 20:39 台灣時間",
   "historyUpdatedDate": "2026-10-23",
   "historyLastAttemptAt": "2026-10-22T16:02:03.415852+00:00",
   "historyItemCount": 800,
@@ -251,6 +251,55 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "WDC",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "瑞穗將西部數據的目標價從 590 美元調整為 490 美元",
+      "summary": "",
+      "originalTitle": "Mizuho Adjusts Price Target on Western Digital to $490 From $590",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOEYtSmhCSDlJTEdPYk1pSUpHaGdQeDdpdlNqLVA2T2Fmbk42ak0xYl9WSzFNY2JMS0x6dzlRUUxUM09MS2Y3Q2xETnhBMzk3VTg5R0tzTFhHeFNjQldFbFBtZVFBYjNHYmxoeEItemx1d0xUSmp6alNjM0U0Vmo1WmJHdkN0c0lRZl9ET1FjdnlaZ1VkTkotNlRqUDZqajBpTGxqWThSVzVhNVl5ZGZhT1VIXzhEdw?oc=5",
+      "ts": "2026-10-23T11:42:51+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Mizuho",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$490",
+          "oldTarget": "$590",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "WDC",
+          "targetCompany": "Western Digital"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "WDC"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Western Digital（WDC）｜券商：Mizuho｜動作：下修｜目標價：$490（原 $590）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$590",
+          "$490"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -1093,7 +1142,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 17.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2871,36 +2920,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "由於擔心美伊局勢再升級，石油價格每週上漲",
-      "summary": "",
-      "originalTitle": "Oil Heads for Weekly Gain on Fears of Renewed U.S.-Iran Escalation",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUprNnpxZE5idzlOR3htMEsyS0FmSHFfUi1EZ2dpZEVzNGd5ckRsQnVob0daYXdVMzZBbm9YdFBHQk5fV0NIeU5oZjZZdDdCY0FGbXRoUXNtblo4UmF2OUR6VG54LW95ekJ0eFNPbjBRUGp6R1F0S0xsdEc3MmZReXpCT0lIUmxyR1Npd2pYMlRFb3RndXBjU05OTXM0bFBmazFkY09lcnVJUG1LU3ItNlJpYnl5X01x?oc=5",
-      "ts": "2026-10-23T07:26:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -18620,7 +18639,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "GlobalFoundries 在 21B 美元的美日投資推動中選擇在馬耳他新建兩座晶片工廠",
-      "summary": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。該計畫將顯著擴大美國半導體製造能力，同時加強美國和日本在具有重要戰略意義的晶片技術方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
+      "summary": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。该计划将显着扩大美国半导体制造能力，同时加强美国和日本在具有重要战略意义的芯片技术方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
       "originalTitle": "GlobalFoundries picked for two new Malta chip fabs in $21B U.S.-Japan investment push",
       "originalSummary": "Oct-15th-2026– GlobalFoundries has been selected as the technology provider and operator for two new semiconductor fabs planned at its Malta, New York manufacturing site under a U.S.-Japan initiative that could provide up to $21 billion in funding. The program would significantly expand U.S. semiconductor manufacturing capacity while strengthening cooperation between the United States and Japan in strategically important chip technologies. An initial investment of approximately $10 billion is expected to accelerate construction of the first new 300mm fab at GlobalFoundries’ Malta campus. Groundbreaking is expected later this year, with the fab targeted to begin operations in 2029 . Once fully operational, the first facility is expected to add approximately 900,000 300mm wafers per year of U.S. manufacturing capacity. A further investment of approximately $10 billion could support construction of a second fab at the same site. If completed, the second facility would add roughly another 900,000 wafers of annual capacity. Under the initiative, Japan will provide the investment while GlobalFoundries will contribute its semiconductor technologies, manufacturing expertise and operational capabilities. GlobalFoundries CEO Tim Breen described the project as a new model for semiconductor manufacturing cooperation between the U.S. and Japan. “This is a bold new initiative for semiconductor manufacturing, bringing together the United States and Japan with GF’s differentiated technology and decades of manufacturing expertise to accelerate trusted capacity in New York.” The scale of the project would make it one of the most significant additions to U.S. semiconductor capacity in recent years. In parallel, GlobalFoundries has agreed with the U.S. Department of Commerce to amend its existing CHIPS and Science Act award.",
       "url": "https://anysilicon.com/news/globalfoundries-selected-to-operate-two-new-u-s-fabs-under-21-billion-u-s-japan-initiative/",
@@ -18636,7 +18655,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。該計畫將顯著擴大美國半導體製造能力，同時加強美國和日本在具有重要戰略意義的晶片技術方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
+        "event": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。该计划将显着扩大美国半导体制造能力，同时加强美国和日本在具有重要战略意义的芯片技术方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
         "numbers": [
           "$21B",
           "$21 billion",
@@ -18644,7 +18663,7 @@
           "21 billion"
         ],
         "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。該計畫將顯著擴大美國半導體製造能力，同時加強美國和日本在具有重要戰略意義的晶片技術方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
+        "stance": "2026 年 10 月 15 日——根據美日倡議，格羅方德被選為計劃在其馬耳他和紐約製造基地建設的兩座新半導體工廠的技術提供商和運營商，該計劃可能提供高達 210 億美元的資金。该计划将显着扩大美国半导体制造能力，同时加强美国和日本在具有重要战略意义的芯片技术方面的合作。預計初期投資約 100 億美元，將加速 GlobalFoundries 馬耳他園區首座新 300 毫米晶圓廠的建設。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
