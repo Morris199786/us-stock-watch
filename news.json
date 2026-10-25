@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-10-25 16:33 台灣時間",
+  "updatedAt": "2026-10-25 16:39 台灣時間",
   "historyUpdatedDate": "2026-10-25",
   "historyLastAttemptAt": "2026-10-24T16:02:29.555735+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-25",
   "top10Count": 6,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "那斯達克指數：人工智慧支出關切令 Alphabet、微軟和亞馬遜成為焦點",
+      "summary": "",
+      "originalTitle": "Nasdaq Index: AI Spending Fears Put Alphabet, Microsoft and Amazon in Focus",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT1RMRE5CcnMtdnRsNzc2TnBhV01WaUl6YThELVpYQTZpZm1VSlZ3X09vR3lpUlFIMXY5MEtWTk5NZ1VwTmtlOV9ZQ19BZEg1Z2R1eGZ0ajBpZ3JrSG5vQlNLc25jSFdiOTA1LUlLVlhZcUlPSTVnSkxRcmVKbzFaaFBQMEFTckRqU1JhOTFXMXR5M3pxbVVTc1M0M0M2Y0pqdlduWnh2eHpBTkhwOFg0WU95aEhjVklraTFUdDhic1kxUQ?oc=5",
+      "ts": "2026-10-25T08:32:29+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT",
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 24.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 4
+    },
     {
       "ticker": "SK Hynix",
       "group": "記憶體／儲存",
@@ -43,33 +76,38 @@
       "group": "類比／電源／功率／RF",
       "tag": "利多",
       "title": "英飛凌的 Wolfspeed 晶圓升級滿足了市場對人工智慧回報的要求 - ad-hoc-news.de",
-      "summary": "",
+      "summary": "Gasgoo Munich- Infineon recently signed a new multi-year supply agreement with Wolfspeed for 200 mm silicon carbide (SiC) wafers, shifting the partnership from 150 mm substrate technology to the 200 mm standard. \"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies. Compared to 150 mm, 200 mm SiC wafers significantly boost production economics. The larger diameter increases usable chip area per wafer, reduces unit",
       "originalTitle": "Infineon's Wolfspeed Wafer Upgrade Meets a Market Demanding AI Payback - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeDBSYVp4S19aRnRmdWJ0TTBPVlp3NERfQWNoU0tiR0dSanRTd3FrNjFfU0VnM251bTlJa3p3cUZ4NFRYNklNaDc1WkNqWkZGYWp1MjA1bkhITDY2SGtWYTFjUnkxRmNJOVpqOHc4ck0wbFlIRUNEd0lNRWhCME5PU283cnJJeFR1Zm1oc0luMlpvSkRXSG9VOXN0cVJkeEJtdE9qa2d2OHVMX2ZwS0F0VHBBY3REUmI3TTh3c3Nfcjh6aEhITXBuYU5rVDRYV01PSjJzVHVyc0Vudw?oc=5",
+      "originalSummary": "Gasgoo Munich- Infineon recently signed a new multi-year supply agreement with Wolfspeed for 200 mm silicon carbide (SiC) wafers, shifting the partnership from 150 mm substrate technology to the 200 mm standard. \"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies. Compared to 150 mm, 200 mm SiC wafers significantly boost production economics. The larger diameter increases usable chip area per wafer, reduces unit substrate costs, and improves overall efficiency. Infineon is currently building a 200 mm SiC plant in Kulim, Malaysia, aiming for large-scale manufacturing capacity. The company uses multi-source substrates to secure supply. For years, SiC demand was driven by electric vehicles and solar power. Now, the AI data center market is emerging. For hyperscale cloud operators managing massive infrastructure, power conversion efficiency in the data center supply chain directly impacts operating costs. With silicon devices nearing practical limits in certain conversion stages, SiC has become a technically viable alternative due to its switching efficiency and thermal performance. Wolfspeed stated that AI data centers are now its fastest-growing segment, with revenue in the sector expected to more than double in fiscal 2026. As the global pioneer and leader in SiC substrates, Wolfspeed launched its 200 mm production line in 2022, which has been operating for four years. Yet the company faced severe financial issues over the past two years. By September 2025, Wolfspeed completed its financial restructuring and emerged from bankruptcy protection. Over the following year, Wolfspeed secured support from industrial capital, public markets, and the government.",
+      "url": "https://autonews.gasgoo.com/articles/news/infineon-locks-in-long-term-wolfspeed-sic-wafer-orders-2112802093647155200",
       "ts": "2026-10-25T08:20:43+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "WOLF"
       ],
-      "eventType": "",
-      "score": 205.5,
+      "eventType": "新題材",
+      "score": 219.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Gasgoo Munich- Infineon recently signed a new multi-year supply agreement with Wolfspeed for 200 mm silicon carbide (SiC) wafers, shifting the partnership from 150 mm substrate technology to the 200 mm standard. \"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies. Compared to 150 mm, 200 mm SiC wafers significantly boost production economics. The larger diameter increases usable chip area per wafer, reduces unit",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "券商調整理由：\"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies.",
+        "stance": "\"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "券商調整理由：\"This agreement further strengthens Infineon's robust supply base for 200 mm large-scale manufacturing,\" said Alexander Gorski, COO of Infineon Technologies.",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 1,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -151,7 +189,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -193,6 +231,45 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Tesla Megapack AI 資料中心：2027 年 98% 已售罄 [2026]",
+      "summary": "",
+      "originalTitle": "Tesla Megapack AI Data Centers: 2027 98% Sold Out [2026]",
+      "originalSummary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Tesla Inc. CEO Elon Musk said the company's Megapack battery storage systems are nearly sold out through 2027, highlighting surging demand for its energy business as Tesla races to expand production and capitalize on improving profitability.",
+      "url": "https://finance.yahoo.com/energy/articles/elon-musk-says-tesla-megapacks-023019501.html",
+      "ts": "2026-10-25T07:00:17+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "Benzinga 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。特斯拉公司執行長馬斯克表示，該公司的 Megapack 電池儲存系統在 2027 年幾乎售罄，這突顯出隨著特斯拉競相擴大產量並利用盈利能力的提高，對其能源業務的需求激增。",
+        "numbers": [
+          "98%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Benzinga 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。特斯拉公司執行長馬斯克表示，該公司的 Megapack 電池儲存系統在 2027 年幾乎售罄，這突顯出隨著特斯拉競相擴大產量並利用盈利能力的提高，對其能源業務的需求激增。",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -348,8 +425,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 4
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1775,7 +1852,7 @@
       "detailSource": "article_or_same_event",
       "relatedTickers": [],
       "eventType": "",
-      "score": 22.75,
+      "score": 19.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1809,7 +1886,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 14.95,
+      "score": 12.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1839,7 +1916,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 13.65,
+      "score": 11.55,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2509,93 +2586,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "KTOS",
-      "group": "太空／國防／無人系統",
-      "tag": "利空",
-      "title": "Piper Sandler 將 Kratos Defense 股票目標下調至 61 美元 - ad-hoc-news.de",
-      "summary": "",
-      "originalTitle": "Piper Sandler cuts target for Kratos Defense stock to USD 61 - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQM1VYM1JqcXpPT0FwOEZuc2I5dW93dDIzRmZyYWZrQ3BBYnlKcGtUTlYtbWVZMFQyaEliTmE2YlNQNGRhOGcxNnpHenZybnVkWWFlZW5wNmEwLW9fbzlRSzdFaHVwZF83cFlWZDU0OXNIY2R1eUhsN1hxN0tvNmVVTjE1d3F3ZVFqZUhQT2hFeWs3MkFKR2ZNWks3WTRtUGxxejR3TnNTbGNLMVpMSFY1djNnWGpfU0JMSDJYb0tIWks?oc=5",
-      "ts": "2026-10-24T18:18:46+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Piper Sandler",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "KTOS",
-          "targetCompany": "Kratos"
-        }
-      ],
-      "relatedTickers": [
-        "KTOS"
-      ],
-      "eventType": "",
-      "score": 145.2,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Kratos（KTOS）｜券商：Piper Sandler｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "隨著人工智慧下一個短缺的形成，特斯拉和英偉達將斥資 28 億美元建造三星 Substrate",
-      "summary": "",
-      "originalTitle": "Tesla, Nvidia to Bankroll $2.8 Billion Samsung Substrate Buildout as AI's Next Shortage Takes Shape",
-      "originalSummary": "Tesla and Nvidia are reportedly investing a combined KRW3.7 trillion (US$2.8 billion) to help Samsung Electro-Mechanics expand Ajinomoto Build-up Film (ABF) substrate production facilities in South Korea... ' + title + ' ' + (message ? ' ' + message : '') + '",
-      "url": "https://www.digitimes.com/news/a20261023PD226/tesla-nvidia-semco-production-abf-substrate.html",
-      "ts": "2026-10-24T18:17:00+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA",
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 19.8,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "據報道，特斯拉和 Nvidia 合計投資 3.7 兆韓元（28 億美元），幫助三星電機擴大韓國味之素增粘膜 (ABF) 基板生產設施...' + title + ' ' + (message ? ' ' + message : '') + '",
-        "numbers": [
-          "$2.8 Billion",
-          "$2.8 billion",
-          "2.8 Billion",
-          "2.8 billion"
-        ],
-        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "據報道，特斯拉和 Nvidia 合計投資 3.7 兆韓元（28 億美元），幫助三星電機擴大韓國味之素增粘膜 (ABF) 基板生產設施...' + title + ' ' + (message ? ' ' + message : '') + '",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
