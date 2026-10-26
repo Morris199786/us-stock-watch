@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 03:04 台灣時間",
+  "updatedAt": "2026-10-27 03:09 台灣時間",
   "historyUpdatedDate": "2026-10-27",
   "historyLastAttemptAt": "2026-10-26T16:04:38.874448+00:00",
   "historyItemCount": 800,
@@ -1813,31 +1813,37 @@
       "title": "NVIDIA Minerva 如何將遙測混亂轉化為 GPU 產量高峰 | NVIDIA 技術博​​客",
       "summary": "",
       "originalTitle": "How NVIDIA Minerva Turns Telemetry Chaos Into Peak GPU Yield | NVIDIA Technical Blog",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFpZZkY5bTU0R3Z5YkZ5M3o0S3loQm5JeTlwQWR6QU00WmNvQS10SXdQa1ZnTko0bGNpcm9mb2xGVjZTN3Q5WGZxbE10YUF5aDNmNkZXajRienVjQ1JLcW5TOTB4aTdVNHhkV3JVMmhSZlhPNUQtLUdyYWsxVldubi1lVGhUVWFYUWpfaDRzT0ZteEF5TWJFZWg4WQ?oc=5",
+      "originalSummary": "NVIDIA on Thursday said it is launching Minerva, an AIOps platform designed to help operators find AI-factory problems earlier and keep infrastructure productive. The company said the software combines telemetry from infrastructure and AI workloads to produce actionable insight, but a background check on October 22, 2026 did not establish an official NVIDIA platform called \"Minerva AIOps,\" so the product name and its capabilities should be treated with caution pending additional primary-source confirmation. In the announcement published October 22, 2026, NVIDIA said Minerva is intended to improve AI-factory yield, which it defines around GPU hours, goodput, cluster uptime and token production. The company said the platform connects signals across GPUs, networking, storage, schedulers and workloads, and then builds a dynamic knowledge graph that maps infrastructure components such as GPUs, SuperNICs, switches and cables alongside the jobs running on them. NVIDIA said the system analyzes billions of data points per hour using supervised and unsupervised machine learning to learn normal behavior, detect previously unseen anomalies, predict emerging failures and correlate related events based on topology. NVIDIA also said Minerva can group large event storms into a single incident with a likely root cause, and that it includes a native AI assistant with natural-language access to live telemetry. According to the company, operators can use the assistant to investigate cluster health and receive remediation suggestions, with fixes either handled manually or connected to automation through infrastructure APIs and external systems. The announcement frames the software as a way to reduce alert overload and speed time to repair in large AI environments. The company cited IREN as a customer using Minerva. Denis Skrinnikoff, chief technology officer of IREN, said the tool gives the operations team one view across the network, GPUs and jobs running on them, and that the visibility supports a shift toward proactive maintenance, according to NVIDIA's October 22, 2026 announcement. NVIDIA also said Aolani, Bitdeer AI, IBM, Jio, Lambda, Quake AI and Tesla plan to deploy Minerva, while Dell Technologies, Lenovo and Supermicro will offer it in AI-factory operations portfolios. There are, however, important limitations in the available record. The October 22 announcement stands alongside earlier NVIDIA material on AI-factory operations, including an April 1, 2026 article on accelerating token production with unified services and real-time AI, and a September 22, 2026 NGC listing for NVIDIA Mission Control. Those materials describe graph-based cluster modeling, telemetry correlation and predictive anomaly detection under Mission Control and related tooling, which means the new announcement appears to overlap with already documented capabilities in NVIDIA's AI-factory software stack. The provided sources do not establish that every feature described in the announcement is generally available, nor do they clarify how Minerva relates to Mission Control in product terms. As supplied, the evidence supports a claim that NVIDIA is emphasizing broader observability and r",
+      "url": "https://blockchain.news/news/nvidia-touts-ai-factory-observability-in-minerva-announcement",
       "ts": "2026-10-26T16:01:06+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "NVDA"
+        "NVDA",
+        "TSLA"
       ],
-      "eventType": "",
-      "score": 6.75,
+      "eventType": "跨公司事件",
+      "score": 32.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "NVIDIA 週四表示，將推出 Minerva，這是一個 AIOps 平台，旨在幫助營運商更早發現 AI 工廠問題並保持基礎設施的生產力。該公司表示，該軟體結合了來自基礎設施和人工智慧工作負載的遙測數據，以產生可行的見解，但 2026 年 10 月 22 日的背景調查並未建立名為「Minerva AIOps」的官方 NVIDIA 平台，因此在等待更多主要來源確認之前，應謹慎對待該產品名稱及其功能。在",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "NVIDIA 週四表示，將推出 Minerva，這是一個 AIOps 平台，旨在幫助營運商更早發現 AI 工廠問題並保持基礎設施的生產力。該公司表示，該軟體結合了來自基礎設施和人工智慧工作負載的遙測數據，以產生可行的見解，但 2026 年 10 月 22 日的背景調查並未建立名為「Minerva AIOps」的官方 NVIDIA 平台，因此在等待更多主要來源確認之前，應謹慎對待該產品名稱及其功能。在 2026 年 10 月 22 日發布的公告中，NVIDIA 表示 Minerva 旨在提高 AI 工廠產量，它圍繞 GPU 小時數、良好吞吐量、集群正常運行時間和代幣生產來定義產量。該公司表示，該平台連接 GPU、網路、儲存、調度程序和工作負載之間的訊號，然後建立一個動態知識圖來映射 GPU 等基礎設施元件",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "STX",
@@ -12392,7 +12398,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "第三季財報將考驗華爾街對人工智慧支出的胃口",
-      "summary": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
+      "summary": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。 The company also announced a 2-for-1 stock split, giving each owner of Class A Meta shares a non-voting Class C share. Meta 股票在周四盤前交易中下跌 0.5%。",
       "originalTitle": "Meta Q3 earnings to test Wall Street's stomach for AI spending",
       "originalSummary": "Meta ( META ) kicked off Big Tech's earnings season after the bell Wednesday, beating expectations on revenue, but GAAP earnings per share took a hit as a result of legal fees related to its teen mental health settlement. The company also announced a 2-for-1 stock split, giving each owner of Class A Meta shares a non-voting Class C share. Meta stock fell 0.5% during premarket trading on Thursday.",
       "url": "https://www.aol.com/articles/meta-earnings-live-meta-q3-173000000.html",
@@ -12408,12 +12414,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。 Meta 股票在周四盤前交易中下跌 0.5%。",
+        "event": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。 The company also announced a 2-for-1 stock split, giving each owner of Class A Meta shares a non-voting Class C share. Meta 股票在周四盤前交易中下跌 0.5%。",
         "numbers": [
           "0.5%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。該公司還宣布進行一比二的股票分割，為 A 類 Meta 股票的每位所有者提供一股無投票權的 C 類股票。",
+        "stance": "Meta ( META )週三收盤後拉開了大型科技公司財報季的序幕，其收入超出了預期，但由於與青少年心理健康和解相關的法律費用，公認會計準則每股收益受到打擊。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
