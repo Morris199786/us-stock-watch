@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 04:43 台灣時間",
+  "updatedAt": "2026-10-27 04:49 台灣時間",
   "historyUpdatedDate": "2026-10-27",
   "historyLastAttemptAt": "2026-10-26T16:04:38.874448+00:00",
   "historyItemCount": 800,
@@ -7,16 +7,16 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "利多",
-      "title": "巴克萊剛升級了特斯拉股票。這就是為什麼。",
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "特斯拉因與 SpaceX 合併的希望而獲得巴克萊銀行升級。股價飆漲",
       "summary": "",
-      "originalTitle": "Barclays Just Upgraded Tesla Stock. Here's Why.",
+      "originalTitle": "Tesla Gets Barclays Upgrade on Hopes of a SpaceX Merger. The Stock Is Surging",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVW92VE94VmUySEFXOHkzOTlZWUt3TjBSa2RQd0JrcGUxWXhTa0pZSFFtNmNtZGpiVG1pSVhlUVRBV210WmpXbFRaZFlENTJfbmswNGhjN2YxdEVNb1liTElLREFRaTk0UnRSZ3RVMWV2Zk1TR2tGamFXbnpxSHo5Ny14bmpoVl84WG9ta2VfU0pVM2s?oc=5",
-      "ts": "2026-10-26T20:29:16+00:00",
-      "sourceType": "broker_search",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeVhHakxHRFNMVm1tbG1wa3c5azZwNjJSNHhsbG1qOVhhRWJuLWV6UzB3eXYxLXN5cXRWZmp3QUFpUzZKX09XVnZncEh4LThxQkdmdjZVanN4LUZOTS1NTERaTTBFUmhodXU4UkxqWGxKemd6b0MzOVNJemhQVmlLcU9YbzNOdm9LampXX19iWXI0SFhvbzVMN3B4ZFZrc3UzZ0R3djRNZ3dnb1pTVU8tMlJsSjZ0Ml9vY25uNUR3YVUtRGNFdmEzWk9GS2pRZU00UG1mMWVNSXMxQQ?oc=5",
+      "ts": "2026-10-26T20:37:34+00:00",
+      "sourceType": "major_broker_global",
       "analystPriority": true,
       "analystDetails": [
         {
@@ -28,20 +28,21 @@
           "oldTarget": "",
           "reason": "",
           "reasonConfidence": "none",
-          "targetTicker": "TSLA",
-          "targetCompany": "Tesla"
+          "targetTicker": "SPCX",
+          "targetCompany": "SpaceX"
         }
       ],
       "hasArticleBody": false,
       "relatedTickers": [
+        "SPCX",
         "TSLA"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 217.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Tesla（TSLA）｜券商：Barclays｜動作：升評｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：SpaceX（SPCX）｜券商：Barclays｜動作：升評｜調整原因：來源未提供具體理由",
         "numbers": [],
         "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
@@ -49,8 +50,59 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 6
+    },
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "利多",
+      "title": "Barclays 上修 TSLA 目標價至 $450（原 $370）",
+      "summary": "Key TakeawaysTesla shares jumped 6% after Barclays upgraded the stock to Overweight and raised its price target to $450 from $370, citing a possible merger with SpaceX. Barclays thinks a takeover premium will lift the stock and limit the downside, but that floor depends on a vote Tesla will have a hard time winning.",
+      "originalTitle": "Barclays Just Upgraded Tesla Stock. Here's Why.",
+      "originalSummary": "Key TakeawaysTesla shares jumped 6% after Barclays upgraded the stock to Overweight and raised its price target to $450 from $370, citing a possible merger with SpaceX. Barclays thinks a takeover premium will lift the stock and limit the downside, but that floor depends on a vote Tesla will have a hard time winning.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-soars-6-barclays-upgrade-152930834.html",
+      "ts": "2026-10-26T20:29:16+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Barclays",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "上修",
+          "newTarget": "$450",
+          "oldTarget": "$370",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "TSLA",
+          "targetCompany": "Tesla"
+        }
+      ],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "TSLA",
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 226.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Tesla（TSLA）｜券商：Barclays｜動作：上修｜評等：Overweight｜目標價：$450（原 $370）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$370",
+          "$450"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -161,6 +213,36 @@
       "analystPriority": false,
       "score": 15.75,
       "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Apple 發佈 iOS 和 macOS 27.2，新增 Siri AI 功能和新音樂標誌",
+      "summary": "",
+      "originalTitle": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb3M1cEM5QURPSDJPTVZRaW9hUXRyZzRLa2xCem1JZlJQN0pvX1p2OGNiRUo3RTBBRXJ6WDM2c1hZZVpubDlNYWJEeGt4cDJrckprVjFEN05QRFkzUXcxYml1T3pNckpJdFhHeVVGSldrLW5wWWYzb2xsM2FoZDdOMHlHVF9nZThlM0RuTVg0QldFMXY2MXI3cjJWQmlNS2tJNTNBeFRVR3M3WlIxTlVyLTd1TQ?oc=5",
+      "ts": "2026-10-26T20:04:16+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -711,8 +793,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 4,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -748,7 +830,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event",
       "analystDetails": [
         {
@@ -972,6 +1054,38 @@
       "eventType": "",
       "score": 26.25,
       "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ARM",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "ARM 261030 175.00C (ARM261030C175000) 股票選擇權鏈 |行情與新聞",
+      "summary": "",
+      "originalTitle": "ARM 261030 175.00C (ARM261030C175000) Stock Options Chain | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OeE5OSW05eTdLUlRPNU9tRVpjcDVQMGIzMHhYLXk3SUg4ZDlsbU1qT0RFbld5UjF1VlpLcVF6WnRfQmZmUUFvVjBQLVpHeko5akFqNW1uTUFPYmE1cV9v?oc=5",
+      "ts": "2026-10-26T18:01:15+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 6.190272429040067,
+      "relatedTickers": [
+        "ARM"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1271,7 +1385,7 @@
       ],
       "eventType": "",
       "score": 211.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1366,7 +1480,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1709,7 +1823,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1791,7 +1905,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2223,7 +2337,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "TTMI",
@@ -2420,8 +2534,8 @@
         "takeaway": "調整原因：利潤率強勁 Bloom Energy (BE) 在周五早盤交易中暴跌 9.2%，儘管第三季度調整後盈利和收入輕鬆超出預期，同時上調了全年預期，這表明投資者正在關注現金生成和成本",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2870,111 +2984,6 @@
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Nvidia、AMD 和 Broadcom 考慮投資自己的客戶，Meta 尋求約 950 億美元用於 AI 建設",
-      "summary": "",
-      "originalTitle": "Meta Seeks About $95 Billion for AI Buildout as Nvidia, AMD and Broadcom Consider Investing in Their Own Customer",
-      "originalSummary": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Meta Platforms Inc. (NASDAQ: META ) plans to raise about $95 billion for its artificial intelligence expansion, with three of its biggest chip suppliers considering buying shares in their own customer. Nvidia Corp. (NASDAQ: NVDA ), Advanced Micro Devices Inc. (NASDAQ: AMD ) and Broadcom Inc. (NASDAQ: AVGO ) have expressed interest in purchasing up to $5 billion of Meta's Class A shares collectively, the company announced Monday.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-seeks-95-billion-ai-154152431.html",
-      "ts": "2026-10-26T15:41:52+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "META",
-        "NVDA",
-        "AVGO",
-        "AMD"
-      ],
-      "eventType": "跨公司事件",
-      "score": 32.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Benzinga 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。 Meta Platforms Inc.（納斯達克股票代碼：META）計劃為其人工智慧擴張籌集約 950 億美元，其三大晶片供應商正在考慮購買自己客戶的股票。 Meta 公司 (納斯達克股票代碼：AVGO) 週一宣布，已表示有興趣集體購買最多 50 億美元的 Meta A 類股票。",
-        "numbers": [
-          "$95 Billion",
-          "$95 billion",
-          "$5 billion",
-          "95 Billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Benzinga 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。 Meta Platforms Inc.（納斯達克股票代碼：META）計劃為其人工智慧擴張籌集約 950 億美元，其三大晶片供應商正在考慮購買自己客戶的股票。該公司週一宣布，Nvidia Corp.（納斯達克股票代碼：NVDA）、Advanced Micro Devices Inc.（納斯達克股票代碼：AMD）和 Broadcom Inc.（納斯達克股票代碼：AVGO）已表示有興趣集體購買最多 50 億美元的 Meta A 類股票。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著油價小幅回落，美國股市走高 - 匹茲堡郵報",
-      "summary": "",
-      "originalTitle": "U.S. stocks tick higher as oil prices ease a bit - Pittsburgh Post-Gazette",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWUYyeDZxR21ETDlNN3ZBNTJCeWRtWnJHemoydDN0ZDJrcXVUV0h3aGNFV2YxN3ZSZFZ3SXhPLV9VVXVPWW1hNUp3RUVxQ191eml0T0I3M3FWa1ZKNmlNSVgtR0xzVHpsRjIyV1U0T3dXNUxzWVUyTXFHY0N4Z3QxYnpQd2tObjZSNTdlV0tyZC1jcFdVOUFyZnNwNGhKc2J0OGdMR2MzWmh4MEJnWXNJ?oc=5",
-      "ts": "2026-10-26T15:40:25+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "今年投資人迴避人工智慧的表現也同樣出色。如果科技貿易持續低迷，如何投資",
-      "summary": "",
-      "originalTitle": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1FdjVKTnQ4QW10cjgyM0xRdm1pQWYwRVpzb1pWbHZyQm8yOXhvbnh3bkhaVVZNaU1pYkhKQm9fRzdyLUQwZlRETUtZd0piMVVWdGhDLTBzTEpWLU05V3ljOWgyd013bUpZaGdFd0ZBVFhnaF9GOFhV0gF8QVVfeXFMUElCZzFQMm5rcGxzeFJSVk5HNV9qalkxT21HZm40Q19kR3hUc1FkYTJLZ2stSWt6a20zRUM4OGNRM0tTNGc5cndSY2ZWY2hKelktcS1RSnV5ejhZY2JqQWRxUWVPaEZ4aG96S1BxTmhUZTBjVzhoRWRXaGV5aw?oc=5",
-      "ts": "2026-10-26T15:39:55+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
