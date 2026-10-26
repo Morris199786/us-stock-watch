@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-10-26 17:43 台灣時間",
+  "updatedAt": "2026-10-26 17:48 台灣時間",
   "historyUpdatedDate": "2026-10-26",
   "historyLastAttemptAt": "2026-10-25T16:02:56.152156+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-26",
-  "top10Count": 9,
+  "top10Count": 10,
   "items": [
+    {
+      "ticker": "CAT",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "富國銀行將卡特彼勒的目標價從 1,155 美元調整為 840 美元",
+      "summary": "",
+      "originalTitle": "Wells Fargo Adjusts Price Target on Caterpillar to $840 From $1,155",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcjFfT2xDUlhySjBIUTIxMDRzN0dTWTF4UFlzcTZBYldoZVhScnRHVzNuOG9oZ3VBUVBWNGdGaDBza2FobVlNQ0tiOTFXVmJEM2JzY193MHdZUUVqdEdxc3d2TDhmRmktLTVCM01wbTBZaUFFZDJzb3FFNV9XcmZSTDh0eWpXc1FoSk8zRVJQSExPMVVyZDQ1eENwUlhaeWJZTk1GUmN2SEVRM29pWnJxZzBJdmY5Z2d0Z0E?oc=5",
+      "ts": "2026-10-26T09:40:00+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Wells Fargo",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$840",
+          "oldTarget": "$1,155",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CAT",
+          "targetCompany": "Caterpillar"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CAT"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Caterpillar（CAT）｜券商：Wells Fargo｜動作：下修｜目標價：$840（原 $1,155）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$1,155",
+          "$840"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 6
+    },
     {
       "ticker": "AMZN",
       "group": "CSP",
@@ -53,7 +102,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "TSLA",
@@ -135,6 +184,36 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "華爾街下跌後，世界股市大多上漲，油價跌幅超過 1%",
+      "summary": "",
+      "originalTitle": "World shares mostly advance after a decline on Wall Street, and oil prices fall more than 1%",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdEFDUHY4eThMS1hia2FmdllFelI1NWs2bFFnZVpNWVl1c09YTWpnLVl2NURCdnRyOGdNcl9UYWNrX2ZkbGNFVVNwc2Q0M2dEUnNkOWZVLXpvUTh3R2Q5S3I2UUVmbHlOSGVfWmVadXlaMTVOOW82eWtLQnVVM3pUS0xfblV4T1ZLSmNqZDgxQWthQ05jY2dybDdxUGxhZl9vOUlfeXdjZGNkTndCY3RTbHAxeFBVOWd3NTlvbVgtUVAwZjh0d1FyY1BtMFBNbnlIU3JnVkQzYmZwejh3RUVRMDdoY3hJR3lZU051UVYwc1F4RXVGa0o5R0RSVQ?oc=5",
+      "ts": "2026-10-26T09:26:45+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "英偉達的銷售和行銷領導層正在換崗，新面孔的影響力正在增強",
       "summary": "",
       "originalTitle": "Nvidia's sales and marketing leadership is seeing a changing of the guard — and new faces are gaining influence",
@@ -179,7 +258,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -609,6 +688,38 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "題材",
+      "title": "特斯拉的人工智慧野心在競爭對手競相跟上的同時飛速發展",
+      "summary": "",
+      "originalTitle": "Tesla’s AI ambitions take flight as rivals race to keep up",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjRISUlMdDF1alVHd0JSeDdZOUhFQ2dTTzFkMFlkME9pNHRCTGFGME9GLVJ3TklGbGhydk9QQ3dNWTE2Y2lhbTdfeHdPdmxZREtQMHZSUDI4b0txc1VGR1N3bHBRUTVyc2pSVkY1TGxhY3VlRVRFUm5acjlDWUR1M0lnY2k?oc=5",
+      "ts": "2026-10-26T08:00:25+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "利多",
       "title": "Honeywell Technologies 推出採用 Dangote 的 Forge Plant Cognition，採用 NVIDIA AI 和 Dell Technologies 功能構建",
       "summary": "",
@@ -644,7 +755,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "SPCX",
@@ -692,38 +803,6 @@
       "top10": true,
       "top10Rank": 5,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "特斯拉的人工智慧野心在競爭對手競相跟上的同時飛速發展",
-      "summary": "",
-      "originalTitle": "Tesla’s AI ambitions take flight as rivals race to keep up",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjRISUlMdDF1alVHd0JSeDdZOUhFQ2dTTzFkMFlkME9pNHRCTGFGME9GLVJ3TklGbGhydk9QQ3dNWTE2Y2lhbTdfeHdPdmxZREtQMHZSUDI4b0txc1VGR1N3bHBRUTVyc2pSVkY1TGxhY3VlRVRFUm5acjlDWUR1M0lnY2k?oc=5",
-      "ts": "2026-10-26T07:52:30+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -795,6 +874,36 @@
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPOEhGeGdWRUcyblBhUWsybUlSM1Q0WXV6TmhXdWlIUW1zVE9kNUdObjJMdjJVQmNaRmxQdkY5RlV6UGktUHpnTlpXa0xYV2hsU3BncjFPaHNRQkk1WWdPY25NVV9fV3kzYS0zcmpDNUU1ajdIMTc1VktnLWlNamNiaGhkVFFIeVgxdWdvV1dsODZ4WEgtYnE4V0FneUNJVVdrbVpuVTVoVFV6VkZzV0FncEhPdmY3R1A5V1d6MzFTcDdpT0NkMzA5d1RvN1E2SDFua1VhSzdxdjc4aXljakswbVRqcGJ6OFo5Tm9MRUVqV0NZUmhQelA0cm1idlA0cHpDeFQyOVZB?oc=5",
       "ts": "2026-10-26T07:46:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "交易商權衡美伊外交和沙烏地阿拉伯攻擊，油價下跌",
+      "summary": "",
+      "originalTitle": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5",
+      "ts": "2026-10-26T07:46:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -1192,7 +1301,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1450,7 +1559,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1541,7 +1650,7 @@
         "NBIS"
       ],
       "eventType": "跨公司事件",
-      "score": 28.5,
+      "score": 24.7,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -2580,96 +2689,6 @@
       ],
       "eventType": "",
       "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著原油價格下跌，美國股票期貨上漲：市場總結",
-      "summary": "",
-      "originalTitle": "US Stock Futures Climb as Crude Oil Price Dips: Markets Wrap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeGVmU0kxdjhvRF9ZU0VaeFFkODlaUTRlN1dQaHNSV1JiOTBwSV9nb1RKejQ2clRzQ0doN3VjVEtHb0RaTlVBNUdhMFI3aUtTRHB1dEE3NWdXZS1ZbktuMVUtYnE0ellyLWlNa29aWThtQkdSQW5FRzFIVUZlb3hEUlg1czdXd3FyV0VwNW0wVEMyTUg4ZEpoTVg0SzIyZ0VmLTAxOUlPTUtLXy1kS0ozbw?oc=5",
-      "ts": "2026-10-25T23:18:54+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "標普 500 指數預測：由於對人工智慧的擔憂揮之不去，標普 500 指數將在科技股領跌的帶動下週度下跌",
-      "summary": "",
-      "originalTitle": "S&P 500 Forecast: SPX set for a weekly decline led lower by tech as AI worries linger",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZktHLXhFSHBWaVlnbUxVVENzb19pd1NaRkFqQndETFFpbzhBUENraThmMkp2WU1UVC1meXdROUJhVFV5UzFRYzN6WWo1MXF1OGdpRV85VnpzaWZvWFk3cmVDbUthZkRtcVEwVUlldG9OVnBpcFJES0tXN1FZY0xDUzVOX1NmOXhybFlPOHFLMXZZTUl2UG9kSGJJVjRqLWtxb0tnem5qUGkzbURXc1R5SnY1aksyLURnWkRacXVDN2ZfX2JOU2hmQmNpWGkzMGc?oc=5",
-      "ts": "2026-10-25T23:18:09+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "TradingView 上的 CNBC TV18 新聞，2026 年 10 月 25 日 — cnbctv:d1aa022dc094b:0",
-      "summary": "",
-      "originalTitle": "News by CNBC TV18 on TradingView, 2026-10-25 — cnbctv:d1aa022dc094b:0",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ESG55OG1JS1FJTk1vQUFTU3Zob056SG81WTlaS3ZXMTdBd2RvMzhkdDE0VXpBekl3bEl3OUhFcG9vSDlheFU0TlUwOEl4QjhVWGNUZFpsWVFJU2JVU3VubHM1dHdxSDg?oc=5",
-      "ts": "2026-10-25T23:17:38+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
