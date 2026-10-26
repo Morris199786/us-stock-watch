@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 04:14 台灣時間",
+  "updatedAt": "2026-10-27 04:19 台灣時間",
   "historyUpdatedDate": "2026-10-27",
   "historyLastAttemptAt": "2026-10-26T16:04:38.874448+00:00",
   "historyItemCount": 800,
@@ -10,34 +10,52 @@
       "ticker": "INTC",
       "group": "CPU 概念股",
       "tag": "利多",
-      "title": "Intel (NASDAQ:INTC) Stock Surges 5% as Wall Street Upgrade Sets US$125 Price Target",
-      "summary": "",
+      "title": "Benchmark 調整 INTC 目標價至 $125",
+      "summary": "Ferragu 將 INTC 評級上調至“買入”，目標價為 125 美元，理由是 Agentic AI 刺激了伺服器 CPU 需求，而供應限制預計將持續幾年。 AMD 和 NVDA 各上漲 3%，落後於英特爾 6% 的漲幅，因為以晶片為中心的 SOXX 比更廣泛的 QQQ 基準高出 3 個百分點。英特爾本周公布第三季業績，使資料中心需求評論成為升級論點是否成立的真正考驗。剛剛發布。我們的分析師認為",
       "originalTitle": "Intel (NASDAQ:INTC) Stock Surges 5% as Wall Street Upgrade Sets US$125 Price Target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjNDN4SFhxV2MyZkpSdlpOZ21lRUM2UjkxRjdtQ3FKbXUyU3pZLXVORExVRDVoX0xFNmwwRHpPNktvZzVqcG1MNVZuMjRXRUdFQmFHX1E1YWJrNENVdHA2LXd6X1o1aXVqVHBqb0RSbDJIVkFaeXl2ag?oc=5",
+      "originalSummary": "Ferragu upgraded INTC to Buy with a $125 target, citing Agentic AI fueling server CPU demand and supply constraints expected to last years. AMD and NVDA each gained 3%, trailing Intel's 6% surge as chip-focused SOXX outpaced the broader QQQ benchmark by 3 points. Intel reports Q3 results this week, making data center demand commentary the real test for whether the upgrade thesis holds. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and NVIDIA didn't make the cut. Enter your email to see the names that beat NVDA. The report is free. Enter your email and see if any of your stocks made the cut. A Wall Street upgrade built on a shortage of server central processing unit (CPU) capacity has pushed Intel ( NASDAQ:INTC ) to the front of the chip group. Intel stock is at $91.36, up 5% in the session, a gain that puts it at the head of the semiconductor pack.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-rises-5-street-upgrade-175031538.html",
       "ts": "2026-10-26T20:01:24+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "INTC"
+      "analystDetails": [
+        {
+          "broker": "Benchmark",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "升評",
+          "newTarget": "$125",
+          "oldTarget": "",
+          "reason": "伺服器中央處理器（CPU）容量的短缺將英特爾（NASDAQ：INTC）推到了晶片組的前面。英特爾股價報 91.36 美元，盤中上漲 5%，這一漲幅使其在半導體行業中處於領先地位。",
+          "reasonConfidence": "high",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
       ],
-      "eventType": "",
-      "score": 202.5,
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "INTC",
+        "NVDA",
+        "AMD"
+      ],
+      "eventType": "跨公司事件",
+      "score": 228.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：Intel（INTC）｜券商：Benchmark｜動作：升評｜評等：Buy｜目標價：$125｜調整原因：伺服器中央處理器（CPU）容量的短缺將英特爾（NASDAQ：INTC）推到了晶片組的前面。英特爾股價報 91.36 美元，盤中上漲 5%，這一漲幅使其在半導體行業中處於領先地位。",
+        "numbers": [
+          "$125"
+        ],
+        "why": "調整原因：伺服器中央處理器（CPU）容量的短缺將英特爾（NASDAQ：INTC）推到了晶片組的前面。英特爾股價報 91.36 美元，盤中上漲 5%，這一漲幅使其在半導體行業中處於領先地位。",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：伺服器中央處理器（CPU）容量的短缺將英特爾（NASDAQ：INTC）推到了晶片組的前面。英特爾股價報 91.36 美元，盤中上漲 5%，這一漲幅使其在半導體行業中處於領先地位。",
+        "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 3,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -282,6 +300,36 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "題材",
+      "title": "Meta 預計將籌集 950 億美元股權，為人工智慧擴張提供資金",
+      "summary": "",
+      "originalTitle": "Meta eyes record $95 billion equity raise to fund AI expansion",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5",
+      "ts": "2026-10-26T19:07:55+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "利多",
       "title": "Anthropic 申請歷史性 IPO 後科技股上漲",
       "summary": "",
@@ -502,7 +550,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event",
       "analystDetails": [
         {
@@ -781,7 +829,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1304,8 +1352,8 @@
         "takeaway": "調整原因：Wedbush 維持 Tower Semiconductor(TSEM.US) 持有評級，維持目標價 300 美元",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1384,7 +1432,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1466,7 +1514,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1898,7 +1946,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "TTMI",
@@ -2053,36 +2101,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Meta 預計將籌集 950 億美元股權，為人工智慧擴張提供資金",
-      "summary": "",
-      "originalTitle": "Meta eyes record $95 billion equity raise to fund AI expansion",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPclhjOFJvYkM0S0hLUmxaY0l2X3hCdWI0N1prZlo2QXhXdmt5T0pNQVpFODVpYzgycWdZcHM2NkZ2LTdaMEVUVlpTXzVFUzc2ZEdVdlpTeThUVkZtc3V4cEFTelk5bDd2Z0dfRDFsb0dGQ0MxRXhYMExFZTlXVkNjRXF6TDBLalZ5ZTFBbFMyX24wMVBTQW1GQkJNRjNYWTRiVGJJWWdialBfV1oyQUZNN3I4RQ?oc=5",
-      "ts": "2026-10-26T16:17:02+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "BE",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
@@ -2126,7 +2144,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2289,7 +2307,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
