@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 05:56 台灣時間",
+  "updatedAt": "2026-10-28 06:08 台灣時間",
   "historyUpdatedDate": "2026-10-28",
   "historyLastAttemptAt": "2026-10-27T16:01:09.780746+00:00",
   "historyItemCount": 800,
@@ -112,8 +112,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -227,6 +227,36 @@
       ],
       "eventType": "",
       "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "人工智慧勢頭復甦，華爾街收高",
+      "summary": "",
+      "originalTitle": "Wall Street ends higher on revived AI momentum",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
+      "ts": "2026-10-27T21:11:24+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -431,36 +461,6 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "人工智慧勢頭復甦，華爾街收高",
-      "summary": "",
-      "originalTitle": "Wall Street ends higher on revived AI momentum",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
-      "ts": "2026-10-27T20:22:45+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
       "title": "博通和其他人工智慧股票使華爾街更接近另一個紀錄",
       "summary": "",
       "originalTitle": "Broadcom and other AI stocks lift Wall Street closer to another record",
@@ -606,6 +606,52 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "GLW",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "BofA cuts Owens Corning stock price target on weak shingle demand",
+      "summary": "",
+      "originalTitle": "BofA cuts Owens Corning stock price target on weak shingle demand",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYjFEZmpDczRXbGxpRVJSSTUzaGZtUmh0Yi1FWHM4dzZKSHIycTNYVVNLMVJEeWF1dldIT25taFgwenFxUzRTLXBERHdKd1RwRFctWVlUVi02TUxqNHVWQzk0VzRjOGE1NTNXbU9hZXFpX3N5VExlTEVxaVUzaktobE5VSnc4UVpROUJERlF3akQxMmN2aTlyT09tbFFfZGsxVWpsWExUa3YyY1duRnZNQnp0RGVFRlQ3X0JfT1FaR2JBXzEw?oc=5",
+      "ts": "2026-10-27T20:00:51+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "BofA",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "weak shingle demand",
+          "reasonConfidence": "high",
+          "targetTicker": "GLW",
+          "targetCompany": "Corning"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "GLW"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Corning（GLW）｜券商：BofA｜動作：下修｜調整原因：weak shingle demand",
+        "numbers": [],
+        "why": "調整原因：weak shingle demand",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：weak shingle demand",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 8
     },
     {
       "ticker": "STX",
@@ -797,7 +843,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -1533,7 +1579,7 @@
       ],
       "eventType": "",
       "score": 222.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "ARK Invest just reiterated a staggering long-term price target for Tesla while Cybercab rides expand and a potential SpaceX merger adds a wild card that neither Rivian nor Lucid can counter. Here is what is moving EV stocks right now and what risks could derail the rally.",
@@ -1695,6 +1741,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "宣布採用 NVIDIA Vera CPU 的 OCI 計算全面上市",
+      "summary": "",
+      "originalTitle": "Announcing General Availability of OCI Compute with NVIDIA Vera CPUs",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iRnBOVFlGUXhQTllUQ1NVZkxWUmdYQVFNZ0YzUTEwbEM5eWluSHJTTHpjQS1SZDhyVGRIeHNaOWZRWjRCRTdmM01KZXFveEtFS0NCYjBRS2huV21TS29STEtWUkliaDdvNkdpSGVJSHZGWnBI?oc=5",
+      "ts": "2026-10-27T17:24:43+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "BA",
       "group": "太空／國防／無人系統",
       "tag": "題材",
@@ -1810,38 +1888,6 @@
       "title": "OCI 上的 NVIDIA Vera CPU：現已全面上市",
       "summary": "",
       "originalTitle": "NVIDIA Vera CPUs on OCI: Now Generally Available",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iRnBOVFlGUXhQTllUQ1NVZkxWUmdYQVFNZ0YzUTEwbEM5eWluSHJTTHpjQS1SZDhyVGRIeHNaOWZRWjRCRTdmM01KZXFveEtFS0NCYjBRS2huV21TS29STEtWUkliaDdvNkdpSGVJSHZGWnBI?oc=5",
-      "ts": "2026-10-27T17:15:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "宣布採用 NVIDIA Vera CPU 的 OCI 計算全面上市",
-      "summary": "",
-      "originalTitle": "Announcing General Availability of OCI Compute with NVIDIA Vera CPUs",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iRnBOVFlGUXhQTllUQ1NVZkxWUmdYQVFNZ0YzUTEwbEM5eWluSHJTTHpjQS1SZDhyVGRIeHNaOWZRWjRCRTdmM01KZXFveEtFS0NCYjBRS2huV21TS29STEtWUkliaDdvNkdpSGVJSHZGWnBI?oc=5",
       "ts": "2026-10-27T17:15:00+00:00",
@@ -2205,7 +2251,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -2747,51 +2793,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GLW",
-      "group": "光通訊／網通",
-      "tag": "利空",
-      "title": "摩根大通將康寧股票目標價下調至 165.00 美元 - ad-hoc-news.de",
-      "summary": "",
-      "originalTitle": "JPMorgan cuts target to USD 165.00 for Corning stock - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTkJ5THpzOWtUN2FEWEt1QnBfamlRV0JOUXRGUDJNdHZUczZuVl9vRVRZdjRwZHNPLThDTnk1WU4wX1hncUJjNTZNc3IwdlgtdzZLRjBMcDRlaVZaWXJWMy1zaG5MWlJEelhrV19pT25rSkkwUHRuWHBvVEpZbktxcXlhempHWXhlaXRJcEl5VjhobEZqM2Vac2NiRE55V3hCSGZ0Z3EtR1Nqb3dTTDg1NGxndDlZdw?oc=5",
-      "ts": "2026-10-27T16:27:01+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "GLW",
-          "targetCompany": "Corning"
-        }
-      ],
-      "relatedTickers": [
-        "GLW"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Corning（GLW）｜券商：JPMorgan｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
