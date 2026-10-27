@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-27 12:54 台灣時間",
+  "updatedAt": "2026-10-27 12:59 台灣時間",
   "historyUpdatedDate": "2026-10-27",
   "historyLastAttemptAt": "2026-10-26T16:04:38.874448+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-27",
-  "top10Count": 2,
+  "top10Count": 3,
   "items": [
     {
       "ticker": "TTMI",
@@ -68,6 +68,36 @@
       },
       "top10": true,
       "top10Rank": 2
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "華爾街上漲後，美國期貨和亞洲股市上漲",
+      "summary": "",
+      "originalTitle": "US futures and Asian stocks advance following a rally on Wall Street",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVXZwVXItaU1rRmw2LWluU0RfM1FPVlZnWkhFSVd1bGcyd19XOEpnQUFHeU1iekFiclBaNmJ1VmoyXzBrX0haLTBydUJ6bEdhTFVvaEg2NkJwVVJJSnNjdTVxWE9KYnZpNFZHSXZIa3ZBVGotSWEtbnNWeTAzcldvdjNOeDRpMVdmWE9qc2xLdy1xTkVFRGdCd3VRaW40SWE4QUpaX293?oc=5",
+      "ts": "2026-10-27T04:05:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 3
     },
     {
       "ticker": "SK Hynix",
@@ -188,7 +218,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -596,17 +626,17 @@
       "group": "EV／AI／機器人",
       "tag": "利多",
       "title": "Barclays 升評 TSLA 至 Overweight",
-      "summary": "",
+      "summary": "Barclays analyst Dan Levy thinks Tesla (TSLA) and SpaceX (SPCX) could announce a merger before Tesla's annual meeting on Dec. 3. He expects SpaceX to buy Tesla in an all-stock deal. The two are jointly developing Terafab, a giant chip plant Musk says both businesses need for their AI plans. Barclays also points to other overlaps, like Starlink in Tesla cars, xAI software for robotaxis, and Grok, part of SpaceX's growing AI business, for Optimus robots. Levy believes \"the true value would be in vertical integration.",
       "originalTitle": "Barclays: Merger with SpaceX Could Reshape Tesla's AI Landscape; Rating Upgraded to Overweight",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0V5V3VUaU9CSzIyalFoUkFEMXlLc1BqXzBxcjd6UXN1emR5WDhza1Y5UU9OQ3NLR1BVM2RycHV0YWVib1RNYmlhMUdycWhQMnZ3QzRVRXltRGFSZ240RzdfT3VjNkpZNld2a294bE9PS2thcnItcEt0bHJRaXBHTUc5aGg4bE9ZQi1VcDBINzN6N19ZVUxWVlc1b1pyMWNLZzJzSm05eHItdw?oc=5",
+      "originalSummary": "Barclays analyst Dan Levy thinks Tesla (TSLA) and SpaceX (SPCX) could announce a merger before Tesla's annual meeting on Dec. 3. He expects SpaceX to buy Tesla in an all-stock deal. The two are jointly developing Terafab, a giant chip plant Musk says both businesses need for their AI plans. Barclays also points to other overlaps, like Starlink in Tesla cars, xAI software for robotaxis, and Grok, part of SpaceX's growing AI business, for Optimus robots. Levy believes \"the true value would be in vertical integration.\" Musk hinted at this on Tesla's Q2 call, saying, \"There's more and more overlap, especially with Terafab.\"",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/biggest-merger-ever-tesla-spacex-151001505.html",
       "ts": "2026-10-27T00:54:05+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
         {
           "broker": "Barclays",
-          "analyst": "",
+          "analyst": "Dan Levy",
           "rating": "Overweight",
           "action": "",
           "newTarget": "",
@@ -617,13 +647,13 @@
           "targetCompany": "Tesla"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "TSLA",
         "SPCX"
       ],
-      "eventType": "",
-      "score": 226.5,
+      "eventType": "跨公司事件",
+      "score": 234.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -636,7 +666,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2740,36 +2771,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美國股指期貨上漲，領先大型科技公司獲利及聯準會決定",
-      "summary": "",
-      "originalTitle": "US Stock Futures Gain Ahead of Big Tech Earnings, Fed Decision",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQa29LWk1mM3hvOXNzYUlVdzdIR2VYSHJCUkdOUFJiMDRsZFpsdDJyekhzbl9qTGVPQUwzLU1IRmQtZEVCeE1kTjYtTk5YS0RhdmZkSHdmQTdEWFpubzdJdDBTS3ptTjNEM1JIaEg4MW9yMkQ4RnJyTERoOFVVa0lWc2w2NEV4OHd1TS1XVDFGbkFYRzBseXdubkhEa2ZnWmJncnV6WXh0SmVkb0J0ZWZxMlRR?oc=5",
-      "ts": "2026-10-26T20:15:45+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 22.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -13328,7 +13329,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr 測試系統 • Robinhood 代幣價格：AEHR/USD 即時價格圖表、市值與今日新聞",
-      "summary": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。这让人们重新关注当前估值是否得到其销售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
+      "summary": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
       "originalTitle": "Aehr Test Systems • Robinhood Token Price: AEHR/USD Live Price Chart, Market Cap & News Today",
       "originalSummary": "Aehr Test Systems has seen its share price swing sharply, with a very strong multi year run now followed by a steep pullback. This puts fresh focus on whether the current valuation is supported by its sales. With the stock moving so quickly in both directions, the key issue for readers is how much revenue power is already reflected in today's price.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/aehr-test-systems-aehr-stock-232505810.html",
@@ -13344,10 +13345,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。这让人们重新关注当前估值是否得到其销售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
+        "event": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。这让人们重新关注当前估值是否得到其销售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
+        "stance": "Aehr Test Systems 的股價大幅波動，多年來表現強勁，隨後急劇回檔。這讓人們重新關注當前估值是否得到其銷售的支持。由於該股雙向波動如此之快，讀者面臨的關鍵問題是，有多少收入力量已經反映在今天的價格中。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -18178,7 +18179,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "馬斯克 (Elon Musk) 表示，他將把 SpaceX 的股份送給“美國的每個孩子”",
-      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+      "summary": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
       "originalTitle": "Elon Musk says he will give a SpaceX share to ‘every kid in America’",
       "originalSummary": "Elon Musk announced on social media Monday that he intends to give one SpaceX share to each child in the United States. The post described the move as the start of a larger series of gifts. Details on timing, eligibility, or distribution remain absent from the statement. ( [1] ) Musk, who serves as chief executive of SpaceX, posted the pledge without additional explanation or follow-up instructions. The message reached his large audience on the platform and quickly drew attention from news outlets and the public. Observers noted the unusual nature of committing personal holdings to a broad group of minors across the country.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-vows-one-spacex-123000728.html",
@@ -18195,7 +18196,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。該貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
+        "event": "伊隆馬斯克週一在社群媒體上宣布，他打算向美國的每個孩子贈送一份 SpaceX 股票。貼文稱此舉是一系列更大禮物的開始。聲明中並未提及有關時間、資格或分配的詳細資訊。 ( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "( [1] ) 擔任 SpaceX 執行長的馬斯克發布了這項承諾，但沒有額外解釋或後續指示。",
