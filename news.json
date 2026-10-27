@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 00:24 台灣時間",
+  "updatedAt": "2026-10-28 00:30 台灣時間",
   "historyUpdatedDate": "2026-10-28",
   "historyLastAttemptAt": "2026-10-27T16:01:09.780746+00:00",
   "historyItemCount": 800,
@@ -69,7 +69,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -178,7 +178,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "CLS",
@@ -610,8 +610,8 @@
         "takeaway": "調整原因：TD Cowen 將天弘股價目標維持在 430 美元",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "BA",
@@ -793,7 +793,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "BA",
@@ -1142,7 +1142,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1248,7 +1248,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1996,6 +1996,43 @@
       "top10Rank": null
     },
     {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "華爾街頂級分析師呼籲博通上調評級，HubSpot 下調評級",
+      "summary": "隨著聯準會準備發布下一次利率決定，華爾街分析師正在晶片、加密貨幣、能源等領域重新調整賭注。了解哪些股票意外升級，哪些股票儘管漲幅飆升三位數但仍遭受打擊，以及為什麼一筆天然氣交易正在改寫阿巴拉契亞能源版圖。",
+      "originalTitle": "Broadcom upgraded, HubSpot downgraded: Wall Street's top analyst calls",
+      "originalSummary": "Wall Street analysts are reshuffling their bets across chips, crypto, energy, and beyond as the Fed prepares to deliver its next rate verdict. Find out which stocks got surprise upgrades, which took hits despite soaring triple-digit gains, and why one natural gas deal is rewriting the Appalachian energy map.",
+      "url": "https://247wallst.com/investing/2026/10/27/here-are-tuesdays-top-wall-street-analyst-research-calls-broadcom-conoco-phillips-hubspot-mercadolibre-moderna-occidental-petroleum-pnc-financial-trimble-and-more/",
+      "ts": "2026-10-27T13:40:27+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "AVGO"
+      ],
+      "eventType": "",
+      "score": 222.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "隨著聯準會準備發布下一次利率決定，華爾街分析師正在晶片、加密貨幣、能源等領域重新調整賭注。了解哪些股票意外升級，哪些股票儘管漲幅飆升三位數但仍遭受打擊，以及為什麼一筆天然氣交易正在改寫阿巴拉契亞能源版圖。",
+        "numbers": [],
+        "why": "券商調整理由：隨著聯準會準備發布下一次利率決定，華爾街分析師正在晶片、加密貨幣、能源等領域重新調整賭注。了解哪些股票意外升級，哪些股票儘管漲幅飆升三位數但仍遭受打擊，以及為什麼一筆天然氣交易正在改寫阿巴拉契亞能源版圖。",
+        "stance": "隨著聯準會準備發布下一次利率決定，華爾街分析師正在晶片、加密貨幣、能源等領域重新調整賭注。了解哪些股票意外升級，哪些股票儘管漲幅飆升三位數但仍遭受打擊，以及為什麼一筆天然氣交易正在改寫阿巴拉契亞能源版圖。",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：隨著聯準會準備發布下一次利率決定，華爾街分析師正在晶片、加密貨幣、能源等領域重新調整賭注。了解哪些股票意外升級，哪些股票儘管漲幅飆升三位數但仍遭受打擊，以及為什麼一筆天然氣交易正在改寫阿巴拉契亞能源版圖。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 4
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2554,7 +2591,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "AMKR",
@@ -2721,38 +2758,6 @@
           "targetCompany": "Seagate"
         }
       ]
-    },
-    {
-      "ticker": "BA",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "波音股價在經歷了糟糕、可怕、糟糕、非常糟糕的盈利季度後上漲 - Barrons.com",
-      "summary": "",
-      "originalTitle": "Boeing Stock Rises After the Terrible, Horrible, No Good, Very Bad Earnings Quarter -- Barrons.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdnl6R3Y0SjFIUEgteElibUdyNm9GdVlwX085TW1UdFZ1dWRwaWpWZXowWjNkMFpCNms0aGpwLTBiUnppUklNNW92NTN5Q3gzWWx4YUhnOEkzcjdXVVVhSnptNmg4QmVUbGtwaS1WcVN0QmNEd1NHUTB2Z2gzc0J3cmJDekpTX3dFVWpwTkxFbVdGNi1yM2ZpdFFKWmVhbWRVY2swbUtn?oc=5",
-      "ts": "2026-10-27T12:54:09+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -9.702511815623183,
-      "relatedTickers": [
-        "BA"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
