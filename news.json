@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 10:59 台灣時間",
+  "updatedAt": "2026-10-28 11:10 台灣時間",
   "historyUpdatedDate": "2026-10-28",
   "historyLastAttemptAt": "2026-10-27T16:01:09.780746+00:00",
   "historyItemCount": 800,
@@ -134,8 +134,8 @@
       "summary": "",
       "originalTitle": "U.S. stock futures flat with Fed rate decision, megacap tech earnings on tap",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBOZGNMZ0ZWWVdGbXNNM09jM19tRndGcjVNalk5Wmh6a3d3TW5jd2xDM28xZkJHQnVSaHNfVHFSYnBXb3k4ZjItMWJ3blZ3RktUQzNYLTBBVXZFdUpMNVd6ZVdEY3c4cDFpOHhacWdodE1Wd2U1ZTNwdW1rYU9Xdw?oc=5",
-      "ts": "2026-10-28T01:23:00+00:00",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5maXV2cE5SUi1XdWNyMTNJR1BJR0FNS3IycE5RRmlxMThFVEVDNTNBQ1N3WFliaEJ0dlVTaVpQdEFtYzN1TFlTQ1Z6WGZ2T3NkcDlyeU9RT0JPeC1sLVFVdl8xU0Rja2pyRFl4R0k3bXo4WW00R3pVV2lmRGIzQQ?oc=5",
+      "ts": "2026-10-28T01:26:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -185,8 +185,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMZN",
@@ -1344,7 +1344,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2245,6 +2245,50 @@
       "top10Rank": null
     },
     {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "NVIDIA Takes $3B Meta Equity Stake, Turning Biggest Customer Into Strategic Partner",
+      "summary": "",
+      "originalTitle": "NVIDIA Takes $3B Meta Equity Stake, Turning Biggest Customer Into Strategic Partner",
+      "originalSummary": "NVIDIA committed $3 billion to Meta's equity offering on Monday, converting the world's dominant AI chip supplier into a financial stakeholder in the social media giant's $97.5B infrastructure buildout — a structural inversion that signals chipmakers are no longer content to simply sell hardware to the hyperscalers driving the agentic AI boom. AMD committed $1 billion of its own the following day, bringing the combined chip-supplier stake to $4 billion and completing what Meta had previously described as up to $5B from chip suppliers across NVIDIA, AMD, and Broadcom.NVIDIA's $3B Equity Commitment Converts Vendor Relationship Into Strategic PartnershipThe investment, announced alongside an expanded technical partnership centered on Meta's Muse family of AI agents, marks a significant deepening of a relationship that began as a straightforward GPU supply arrangement. NVIDIA will now hold equity in a company that has committed to deploying its most advanced and most expensive hardware — the Vera Rubin NVL72 rack platform — at scale across Meta's global data centers.\"Muse is how we bring personal superintelligence to everyone,\" Meta CEO Mark Zuckerberg said in a statement accompanying the announcement. \"We're excited to keep working with NVIDIA to deliver the best personal agents and frontier models for billions of people.\"Jensen Huang, NVIDIA's CEO, framed the equity move in broader terms. \"AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf,\" Huang said at the partnership announcement. That framing matters: NVIDIA is not betting on Meta's social media business or its advertising revenues — it is betting that consumer-facing AI agents demanding continuous, always-on inference will be the dominant compute workload of the 2030s, and that Vera Rubin is the hardware generation best positioned to capture that spend.NVIDIA CFO Colette Kress has previously stated that the company invests in AI companies where it sees \"a need to ensure that compute capacity is being built around its hardware.\" The Meta equity commitment follows that same logic: NVIDIA now has a financial incentive for Muse to succeed, and Meta now has a financial partner with a direct interest in ensuring Vera Rubin deployments run at full capacity.Both Huang and Zuckerberg have been among the more visible technology executives in Washington on AI policy questions. Huang visited Capitol Hill in July 2026, meeting with senators on AI regulation and warning against what he characterized as \"complete nonsense\" fearmongering about AI risks. Zuckerberg separately lobbied US senators on AI policy earlier in 2026, advocating for open-source AI development as a counter to any single company establishing dominance — a position that sits in notable tension with the concentrated supplier relationship his company has now deepened with NVIDIA.Meta's $97.5B Capital Raise: Chip Suppliers Fill $4B of GapThe equity offering that NVIDIA and AMD are participating in is one of the largest capital raises in the technology sector in years. Meta's $97.5B equity offering structure includes $25 billion in Class A common stock,",
+      "url": "https://www.techtimes.com/articles/329589/20261027/nvidia-takes-3b-meta-equity-stake-turning-biggest-customer-strategic-partner.htm",
+      "ts": "2026-10-27T19:51:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "cross_event_article",
+      "relatedTickers": [
+        "NVDA",
+        "AVGO",
+        "AMD"
+      ],
+      "eventType": "跨公司事件",
+      "score": 35.1,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "NVIDIA committed $3 billion to Meta's equity offering on Monday, converting the world's dominant AI chip supplier into a financial stakeholder in the social media giant's $97.5B infrastructure buildout — a structural inversion that signals chipmakers are no longer content to simply sell hardware to the hyperscalers driving the agentic AI boom. AMD committed $1 billion of its own the following day, bringing the combined chip-supplier stake to $4 billion and completing what Meta had previously described as up to $5B",
+        "numbers": [
+          "$3B",
+          "$3 billion",
+          "$97.5B",
+          "$1 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "NVIDIA committed $3 billion to Meta's equity offering on Monday, converting the world's dominant AI chip supplier into a financial stakeholder in the social media giant's $97.5B infrastructure buildout — a structural inversion that signals chipmakers are no longer content to simply sell hardware to the hyperscalers driving the agentic AI boom. AMD committed $1 billion of its own the following day, bringing the combined chip-supplier stake to $4 billion and completing what Meta had previously described as up to $5B from chip suppliers across NVIDIA, AMD, ",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 10
+    },
+    {
       "ticker": "NVTS",
       "group": "類比／電源／功率／RF",
       "tag": "題材",
@@ -2690,38 +2734,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 22.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "亞馬遜的反代幣最大化備忘錄稱工程師在使用人工智慧時應該更加挑剔",
-      "summary": "",
-      "originalTitle": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0WmtrREFiT2I0QkhBd2lscUk0YzhjYU5RX0xUTFN4Q0lhemNRQW8xN0VGOTZ3cFpyYm9xa0xSaUQ1SDAwZXN3UUdNbGFzMHZWT3FtVGEzTlNWYUxpQUJPb3E5bUk0ckxjenFLVUItYk1zYUNl0gF6QVVfeXFMUEcxZUliMkFyZC1vOUFTcGkxQ3oxd0Mta05IaV8tM05uQ1gyRndyYWxTbl9GUUdob21fTGt5aEFGUTV0aEpaYWtzQ1F6UE1ITzFDY1pnc2hOTDFXbHlnQlVKWGhyODllVVdOanExTjN5OU1CNGZUM3VLV2c?oc=5",
-      "ts": "2026-10-27T18:41:02+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 13.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
