@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 06:09 台灣時間",
+  "updatedAt": "2026-10-29 06:22 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
@@ -172,8 +172,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -191,6 +191,38 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Microsoft Earnings: Stock Jumps on Big Earnings Beat, Tighter AI Spending",
+      "summary": "",
+      "originalTitle": "Microsoft Earnings: Stock Jumps on Big Earnings Beat, Tighter AI Spending",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbW9XUTM0bmRYT0FiWE9Va2JjdF9YN3lZdXhLZEUyeXpaT3BFTG9CaWdxMG5Ndk9BR25uTWJ6dHk5MndaQ01fNFlkUG5BT1JZMmp3Szg4NTJxcHJ4VXI5VFp1dDVmQnJzcmdjSFdqUjVYT0NtZ2xHZ2VBOTVuV0NLdQ?oc=5",
+      "ts": "2026-10-28T21:18:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 21.75,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -287,10 +319,10 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "英偉達合作夥伴維諦技術 (Vertiv) 獲利井噴，業績指引強勁，股價飆升",
-      "summary": "",
+      "summary": "The stock of the data center infrastructure company Vertiv Holdings (NYSE: VRT) experienced a powerful rally in the extended session leading toward the Wednesday, October 28, morning bell, rising 16.13% from $208.56 at the latest close to $242.20 at press time. This move came as a continuation of the 9% recovery that started late last week, which left VRT shares 3.50% in the red on the weekly chart and 14.54% down on the monthly chart. Still, the pre-market move helped erase all losses suffered since October 9. Ver",
       "originalTitle": "Nvidia Partner Vertiv Soars After Blowout Earnings, Strong Guidance",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNDZPY1d5Sks1YmYybHAyUTBMdFRrMkFTaThYc1huMm5uOVExWXhwbWgzY1J3b2YxQ1p0TUdvRUlVTTZZNXBvRm02UUdqSGltYlFtMUNGUkZiNzMwMV80ZjZlazVMODJZcUFqVEpYaTVfY19XbHpqcGU0SThVek9DY2NnbGZLOEoxcjR5Vg?oc=5",
+      "originalSummary": "The stock of the data center infrastructure company Vertiv Holdings (NYSE: VRT) experienced a powerful rally in the extended session leading toward the Wednesday, October 28, morning bell, rising 16.13% from $208.56 at the latest close to $242.20 at press time. This move came as a continuation of the 9% recovery that started late last week, which left VRT shares 3.50% in the red on the weekly chart and 14.54% down on the monthly chart. Still, the pre-market move helped erase all losses suffered since October 9. Vertiv stock’s latest upsurge came as a result of a particularly impressive earnings report that showed the company beat Wall Street forecasts in terms of both revenue and earnings-per-share (EPS). Specifically, the firm’s sales came in at $4.31 billion – 61.2% higher than in the same period in the previous year and more than $600 million above the $3.77 billion prediction. EPS proved just as impressive, having amounted to $2.21 when analysts were calling for $1.82. Simultaneously, Vertiv’s operating margin rose from 19.3% to 22.8% year-over-year (YoY), and organic revenue soared 55%, though the firm’s free cash flow margin diminished from 17.3% to 15.1% YoY. Looking ahead, the company increased its whole-year EPS guidance by 6.7% to $7.15 at the midpoint, while fourth-quarter (Q4) sales are expected to hit roughly $4.41 billion, while analysts were previously expecting Q4 revenue to reach $4.32 billion. Elsewhere, the double earnings beat came just days after the company introduced its SmartIT solution meant to simplify the deployment of artificial intelligence ( AI ) data center infrastructure in cooperation with Nvidia (NASDAQ: NVDA ), but also at a time when the entire industry is facing heightened scrutiny. Indeed, despite the technological advancements seen across AI – both in terms of facility solutions such as Vertiv, AI models, and physical AI developments crucial for humanoid robots – expenditure and the actual construction speed remain critical points of concern. Under the circumstances, investors should keep a close eye on sector-wide developments, as while Vertiv might meet its guidance, there remains a risk of the artificial intelligence trade unwinding violently.",
+      "url": "https://finbold.com/vertiv-stock-soars-16-overnight-heres-why/",
       "ts": "2026-10-28T21:13:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
@@ -298,22 +330,32 @@
         "NVDA",
         "VRT"
       ],
-      "eventType": "",
-      "score": 30.0,
+      "eventType": "跨公司事件",
+      "score": 40.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "The stock of the data center infrastructure company Vertiv Holdings (NYSE: VRT) experienced a powerful rally in the extended session leading toward the Wednesday, October 28, morning bell, rising 16.13% from $208.56 at the latest close to $242.20 at press time. This move came as a continuation of the 9% recovery that started late last week, which left VRT shares 3.50% in the red on the weekly chart and 14.54% down on the monthly chart. Still, the pre-market move helped erase all losses suffered since October 9. Ver",
+        "numbers": [
+          "$208.56",
+          "$242.20",
+          "$4.31 billion",
+          "$600 million"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "The stock of the data center infrastructure company Vertiv Holdings (NYSE: VRT) experienced a powerful rally in the extended session leading toward the Wednesday, October 28, morning bell, rising 16.13% from $208.56 at the latest close to $242.20 at press time. This move came as a continuation of the 9% recovery that started late last week, which left VRT shares 3.50% in the red on the weekly chart and 14.54% down on the monthly chart.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9,
-      "hasArticleBody": false
+      "top10Rank": 8,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SK Hynix",
@@ -735,7 +777,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -798,6 +840,40 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test.",
+      "summary": "",
+      "originalTitle": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGJmRUdxYS1sS0lsX3JvX1FCZ1NRUmV6NmJzWXQ1dkRhamRSY0JhcEhzQ0k5WnczdmNzZXVPNjV4YXZ2U1Zpc1JMMDZ3RmluNnJfbnFBekR3S2RjWXBtZ09qMVpqR191aGY5eG81U0pvYWx6Qlc0ZG5GdVpDM2VjSkt0bEJIMTdnNXlNY0hDYW5sNEEzYTl5Ml9RT1FLaUJIdS1XdUc0OElILUdWRGZ3MWx3?oc=5",
+      "ts": "2026-10-28T20:45:00+00:00",
+      "sourceType": "active_search",
+      "movePct": 10.887397464578674,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SK HYNIX",
+        "MU"
+      ],
+      "eventType": "跨公司事件",
+      "analystPriority": false,
+      "score": 35.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1047,7 +1123,7 @@
       ],
       "eventType": "",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2562,70 +2638,6 @@
       },
       "top10": true,
       "top10Rank": 5
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "甲骨文公司簡介及簡介",
-      "summary": "",
-      "originalTitle": "Oracle Company Profile & Introduction",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQblF6U1J0b0RCam1kMG1HbHBiY2ZWaHVmYkFxSmtVTVJxNVhyWEVsdVI1MUlYd0pqLXNsUm9GeXJRaUdsUTIxeEd3NUVtQ0N3d3BvTnRDTWQwa0NxRmRqOWRydjVrVG90S0pMMVVNeFZyeEd1MWM0VGZkNl9CanA3MXR3UEdzYkRkN1JteGhjQnNKcEtteGF3enppZlI5ck9KZTRTaHRUSFlfbUhQVVFPYmx6U2xJZUVNb1NqR0t4aldyUnFFNkNUY0VZSGxpNWk0NGNkaDVsXzdFLU9sQWdWdlRxN0JVLWNISVp3YVNCcVROR0hGX0kwNzBWbEtpc3EtWUVFSk15Z3NaTTNkNzRSNWdPblhHc3JhQW1iUEtETW85eHlXc0FkNC11ZEUyTC1oMlFNRjQyZGJGNWs0YkR4bjFQVkRPQ3R0RTNj?oc=5",
-      "ts": "2026-10-28T17:43:48+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 10.733164789703519,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 10.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "標準普爾 500 指數預測：標普 500 指數下跌，Meta 和特斯拉財報公佈後，科技股領跌",
-      "summary": "",
-      "originalTitle": "S&P 500 Forecast: SPX falls, led by tech after Meta, Tesla earnings",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakxVVDI1b0tDV1ozbWZXd29kTFR0VU5QOU9USWFDeWtoWXVfY2dDS3NoWGFmWTNyTkxUQVNCaDVXTjJNSk85SmE5eVVSNlQxbmhVUkZLSTB6R2xiWDJYeE1GM1BHVDhQRGtwN3BlMC1taWlrX0JUYmZockc1c0hKVnV4VWRqLWlZWkZGRDExQjZVQ28tdFJIN2REQVFQSXVhQmMySnptRURVUTU0endoUFNMOGo?oc=5",
-      "ts": "2026-10-28T17:42:23+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 18.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
