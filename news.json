@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 02:55 台灣時間",
+  "updatedAt": "2026-10-29 02:59 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
@@ -332,7 +332,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "GLW",
@@ -380,8 +380,8 @@
         "takeaway": "調整原因：Truist Securities 重申 GLW — 目標價下調至 175 美元 Truist Securities 將 PLD 目標價從 162 美元調整至 141 美元，維持買入評級 根據 FactSet 調查的分析師，Prologis 的平均評級為“增持”，平均目標價為 152.54 美元。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -591,7 +591,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -791,10 +791,10 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "奧本海默因資料中心實力提高 GE Vernova 股價目標",
-      "summary": "",
+      "summary": "GEV beat Q3 estimates with 27% revenue growth to $12.6 billion, boosted free cash flow guidance to a range of $16 to $17 billion, and doubled its buyback to $20 billion. The $9 billion Trench deal closes in late 2027, is too late to move 2026 numbers, and discloses no revenue or profit figures for this GE spin-off's newest acquisition. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and GE Aerospace didn't make the cut. Enter your email to see the names tha",
       "originalTitle": "Oppenheimer raises GE Vernova stock price target on data center strength By Investing.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbE5qVFJ6WmVGcU1qcGc5cVJIN2EzeW16elNwaDZFTTRJNHVsOGxaeUExVkViUnpnV2JsazlqdkY1QWFFT29EdTl1T1ZYUEtHM0F0UXFia2UwSjFvdEVMeXRDRzMtMGM1bUUyOVhSaXJFQ20yRU9JTlphRTYyUkVtMGpCTEp5Y2hsYkZvbmM2c0RXOC02YTFVZDhrQkVFOU1TWlkzWC15TkREa1lSc3c1T0ZQbTg0bEIzRzFhQzFkYXpfTldEZEdWUHR0Mm9YUQ?oc=5",
+      "originalSummary": "GEV beat Q3 estimates with 27% revenue growth to $12.6 billion, boosted free cash flow guidance to a range of $16 to $17 billion, and doubled its buyback to $20 billion. The $9 billion Trench deal closes in late 2027, is too late to move 2026 numbers, and discloses no revenue or profit figures for this GE spin-off's newest acquisition. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and GE Aerospace didn't make the cut. Enter your email to see the names that beat GE. The report is free. Enter your email and see if any of your stocks made the cut.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-beats-raises-guidance-131326911.html",
       "ts": "2026-10-28T17:19:13+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -804,33 +804,37 @@
           "analyst": "",
           "rating": "",
           "action": "上修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "newTarget": "$17",
+          "oldTarget": "$16",
+          "reason": "奧本海默因資料中心實力而上調 GE Vernova 股價目標 By Investing.com GEV 第三季營收成長 27%，達到 126 億美元，超出預期，將自由現金流指引提高至 1,6 至 170 億美元，並將回購額翻倍至 200 億美元。",
+          "reasonConfidence": "high",
           "targetTicker": "GEV",
           "targetCompany": "GE Vernova"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "GEV"
       ],
       "eventType": "",
-      "score": 201.0,
+      "score": 207.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：GE Vernova（GEV）｜券商：Oppenheimer｜動作：上修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "event": "被評級公司：GE Vernova（GEV）｜券商：Oppenheimer｜動作：上修｜目標價：$17（原 $16）｜調整原因：奧本海默因資料中心實力而上調 GE Vernova 股價目標 By Investing.com GEV 第三季營收成長 27%，達到 126 億美元，超出預期，將自由現金流指引提高至 1,6 至 170 億美元，並將回購額翻倍至 200 億美元。",
+        "numbers": [
+          "$16",
+          "$17"
+        ],
+        "why": "調整原因：奧本海默因資料中心實力而上調 GE Vernova 股價目標 By Investing.com GEV 第三季營收成長 27%，達到 126 億美元，超出預期，將自由現金流指引提高至 1,6 至 170 億美元，並將回購額翻倍至 200 億美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：奧本海默因資料中心實力而上調 GE Vernova 股價目標 By Investing.com GEV 第三季營收成長 27%，達到 126 億美元，超出預期，將自由現金流指引提高至 1,6 至 170 億美元，並將回購額翻倍至 200 億美元。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 5,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "VST",
@@ -1148,7 +1152,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2035,7 +2039,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2888,7 +2892,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     }
   ],
