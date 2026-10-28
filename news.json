@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 20:11 台灣時間",
+  "updatedAt": "2026-10-28 20:24 台灣時間",
   "historyUpdatedDate": "2026-10-28",
   "historyLastAttemptAt": "2026-10-27T16:01:09.780746+00:00",
   "historyItemCount": 800,
@@ -37,7 +37,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 7
     },
     {
       "ticker": "BA",
@@ -83,7 +83,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -91,10 +91,10 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Morgan Stanley 調整 NXPI 目標價至 $313",
-      "summary": "",
+      "summary": "Morgan Stanley Adjusts Price Target on NXP Semiconductors to $313 From $338NXP Semiconductors NV has an average rating of overweight and mean price target of $301.12, according to analysts polled by FactSet. ...",
       "originalTitle": "Morgan Stanley lowers NXP Semiconductors price target to $313",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMjZURWozNXNmX19zeHlBNVJpakE5Y1N0TG1rRFRjQVhjUGZ0dWlfc1BJZ2ZtdG9ycUFaa0dUSWVMWmdGZnRmSTVEYUxlYjE0VW81Nnl5Y3FpNTAxc0R2aDQwQzhoWm1XdVVCSDJyUFdtT3pXU1JzNlJvcTlnTmFDTG1OXzZGT1IyX2pRYXRMR1Q4Z1lRM2ljcndOYkxsYndsYlBwd2xRNVNGeGRGdE9scWhhTmpFSExlRmREOQ?oc=5",
+      "originalSummary": "Morgan Stanley Adjusts Price Target on NXP Semiconductors to $313 From $338NXP Semiconductors NV has an average rating of overweight and mean price target of $301.12, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-nxp-semiconductors-to-313-from-338-ce785cd2da80f62d",
       "ts": "2026-10-28T11:37:04+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
@@ -102,17 +102,17 @@
         {
           "broker": "Morgan Stanley",
           "analyst": "",
-          "rating": "",
-          "action": "",
+          "rating": "overweight",
+          "action": "下修",
           "newTarget": "$313",
-          "oldTarget": "",
+          "oldTarget": "$338",
           "reason": "",
           "reasonConfidence": "none",
           "targetTicker": "NXPI",
           "targetCompany": "NXP"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NXPI"
       ],
@@ -121,9 +121,59 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：NXP（NXPI）｜券商：Morgan Stanley｜目標價：$313｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：NXP（NXPI）｜券商：Morgan Stanley｜動作：下修｜評等：overweight｜目標價：$313（原 $338）｜調整原因：來源未提供具體理由",
         "numbers": [
+          "$338",
           "$313"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "GEV",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利多",
+      "title": "Bernstein 調整 GEV 目標價至 $1,298，維持 Outperform",
+      "summary": "",
+      "originalTitle": "Bernstein reiterates Outperform rating on GE Vernova, $1298 price target",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRzdxd2g0MWkxU18wdk80ajFQWlBDNXp6MXFLRXJfQTZRXzN4OXVzQjFBUUFia255UWk1SjJUMl82MGt5QVFISGF0ZkdIMW50Z1MxbEZyVnRqam5sUDVCR014N1lNbHVkeTRzM2tYYnZFSThOSDYzWFFtM3VwakpROVp6aThIR3pNSWlTTkhHYU13SS1icHB4cjd4RW4wdHVjb2pCTjN1QkI5VnRld0VrSUNfd2tiLW5FcDh3WkFOQlhGd2hIRWt5R1VNYXg?oc=5",
+      "ts": "2026-10-28T11:34:43+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Bernstein",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "重申",
+          "newTarget": "$1,298",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "GEV",
+          "targetCompany": "GE Vernova"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "GEV"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：GE Vernova（GEV）｜券商：Bernstein｜動作：重申｜評等：Outperform｜目標價：$1,298｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$1,298"
         ],
         "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
@@ -249,6 +299,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "GLW",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Morgan Stanley lowers Corning stock price target on capacity outlook By Investing.com",
+      "summary": "",
+      "originalTitle": "Morgan Stanley lowers Corning stock price target on capacity outlook By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVWNQczBTdG9DcW50c19ndk1qanFpZFJuS3g5N3NpTUVvMy1KQjdwNklEMVpJbFdDRTJ0bXFRT1dwU2diTWpqdU5URWRTMTVNSUQzNEFWcEN3RlNVdnRqSm0xNlhrTFd4X24zR2hXdWF0QV9VTFhOV19ITklxZnlTRXBjY2J2MEJ2Ny1hcUlhWXhBSHgzUE5hRy1SLUZzazNCYlpSa0J5Qnp6a2g0eVl2a1JUcUZCMFRMZUpUaDRLNjZGYjN0eEtJRg?oc=5",
+      "ts": "2026-10-28T11:28:00+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "GLW"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -339,8 +422,8 @@
         "takeaway": "調整原因：improving hard disk drive fundamentals and a broadening customer base.",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
     },
     {
@@ -835,7 +918,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event"
     },
     {
@@ -907,7 +990,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -919,7 +1002,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 2
     },
     {
       "ticker": "NXPI",
@@ -953,7 +1036,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NXP（NXPI）｜券商：Evercore ISI｜動作：下修｜評等：overweight｜目標價：$300（原 $320）｜調整原因：來源未提供具體理由",
@@ -1164,8 +1247,8 @@
         "takeaway": "調整原因：Baird Adjusts Price Target on Seagate Technology to $1,350 From $1,080",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "VRT",
@@ -1198,7 +1281,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 3
     },
     {
       "ticker": "MARKET",
@@ -1327,7 +1410,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1440,7 +1523,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -2007,7 +2090,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 6
     },
     {
       "ticker": "STX",
@@ -2887,91 +2970,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "STX",
-      "group": "記憶體／儲存",
-      "tag": "利空",
-      "title": "Seagate Technology Holdings PLC 股票 12 個月目標價下調至 1108.32 美元，意味著上漲 66%",
-      "summary": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。見本月'",
-      "originalTitle": "Seagate Technology Holdings PLC Stock 12‑Month Price Target Cut to $1108.32, Implies 66% Upside",
-      "originalSummary": "Investing.com -- Seagate Technology Holdings plc (NASDAQ: STX) reported first-quarter financial results that exceeded analyst expectations across the board, though shares fell 6% in subsequent trading as investors appeared to take profits following the stock's strong recent run. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-technology-shares-fall-8-204736448.html",
-      "ts": "2026-10-28T07:20:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "STX"
-      ],
-      "eventType": "新題材",
-      "score": 213.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。見本月'",
-        "numbers": [
-          "$1108.32,",
-          "66%",
-          "6%",
-          "118%"
-        ],
-        "why": "券商調整理由：Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。見本月'",
-        "stance": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。見本月'",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。見本月'",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 1
-    },
-    {
-      "ticker": "NXPI",
-      "group": "類比／電源／功率／RF",
-      "tag": "利空",
-      "title": "NXP Semiconductors N.V. 股票 12 個月目標價下調至 303.92 美元，意味著上漲 20%",
-      "summary": "對 NXP Semiconductors N.V. 有興趣？這是我們更喜歡的五隻股票。恩智浦公佈了強勁的第三季業績：營收年增 19% 至 37.9 億美元，而非 GAAP 每股收益成長 35% 至 4.20 美元。汽車、工業和資料中心需求推動成長，營業利潤率達到 37.1%。汽車和智慧邊緣機會正在擴大：汽車收入超過 20 億美元，軟體定義",
-      "originalTitle": "NXP Semiconductors N.V. Stock 12‑Month Price Target Cut to $303.92, Implies 20% Upside",
-      "originalSummary": "Interested in NXP Semiconductors N.V.? Here are five stocks we like better. NXP reported strong Q3 results: Revenue rose 19% year over year to $3.79 billion, while non-GAAP EPS increased 35% to $4.20. Automotive, industrial and data-center demand drove growth, with operating margin reaching 37.1%. Automotive and intelligent-edge opportunities are expanding: Automotive revenue exceeded $2 billion, and software-defined vehicle revenue is on track to reach $2 billion in 2027. NXP also secured its first S32K5 humanoid-robotics design win and expects rising semiconductor content in zonal and centralized vehicle architectures. Management raised its growth outlook and shareholder returns: NXP expects Q4 revenue of $3.85 billion and EPS of $4.36, while data-center revenue is projected to exceed $1 billion within a couple of years. The company authorized an additional $5 billion in buybacks and expects continued double-digit growth and 60% gross margins in 2027.",
-      "url": "https://finance.yahoo.com/technology/articles/nxp-semiconductors-nxpi-said-q3-230415868.html",
-      "ts": "2026-10-28T07:20:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NXPI"
-      ],
-      "eventType": "新題材",
-      "score": 213.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "對 NXP Semiconductors N.V. 有興趣？這是我們更喜歡的五隻股票。恩智浦公佈了強勁的第三季業績：營收年增 19% 至 37.9 億美元，而非 GAAP 每股收益成長 35% 至 4.20 美元。汽車、工業和資料中心需求推動成長，營業利潤率達到 37.1%。汽車和智慧邊緣機會正在擴大：汽車收入超過 20 億美元，軟體定義",
-        "numbers": [
-          "$303.92,",
-          "$3.79 billion",
-          "$4.20.",
-          "$2 billion"
-        ],
-        "why": "券商調整理由：有興趣？這是我們更喜歡的五隻股票。恩智浦公佈了強勁的第三季業績：營收年增 19% 至 37.9 億美元，而非 GAAP 每股收益成長 35% 至 4.20 美元。汽車、工業和資料中心需求推動成長，營業利潤率達到 37.1%。汽車和智慧邊緣機會正在擴大：汽車收入超過 20 億美元，軟體定義",
-        "stance": "有興趣？這是我們更喜歡的五隻股票。恩智浦公佈了強勁的第三季業績：營收年增 19% 至 37.9 億美元，而非 GAAP 每股收益成長 35% 至 4.20 美元。汽車、工業和資料中心需求推動成長，營業利潤率達到 37.1%。汽車和智慧邊緣機會正在擴大：汽車收入超過 20 億美元，軟體定義",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "券商調整理由：有興趣？這是我們更喜歡的五隻股票。恩智浦公佈了強勁的第三季業績：營收年增 19% 至 37.9 億美元，而非 GAAP 每股收益成長 35% 至 4.20 美元。汽車、工業和資料中心需求推動成長，營業利潤率達到 37.1%。汽車和智慧邊緣機會正在擴大：汽車收入超過 20 億美元，軟體定義",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 2,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
