@@ -1,11 +1,87 @@
 {
-  "updatedAt": "2026-10-29 18:52 台灣時間",
+  "updatedAt": "2026-10-29 19:05 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-29",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "S&P 500 averages 1.05% drop on Warsh's first 3 Fed Days",
+      "summary": "",
+      "originalTitle": "S&P 500 averages 1.05% drop on Warsh's first 3 Fed Days",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYlBLbGM0OFNtdmFTSjBjZ3JXbE5ubnFOSXRaSTV4NlJlSnJQSFhYTEVlc01lcm1OTlFzdEs0YzdGVlN0Sl9UemJjX0FoVXpIUnpFSTU0ZnFkQ2g2aXI1TzQ2RXhNYjh2ODNXcWFIZzdEd1NiV2pCcWk0S0VwMkJEbW1HdlJHLWJPU2p6TQ?oc=5",
+      "ts": "2026-10-29T10:51:31+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "新題材",
+      "score": 24.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "VRT",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Wells Fargo raises Vertiv stock price target on execution relief",
+      "summary": "",
+      "originalTitle": "Wells Fargo raises Vertiv stock price target on execution relief",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTEdSTXRpWS1QUTVfTWMzM3R0SGh3NU5GS2xhTlBxWllrY1NGWXhvTlJ3Rjk4OTNfT2R6clBHbXlVLWhhZnBEMTczY0FoNlpEN0hFZ3c4aWtmWEFFOVA3X2lGUUhFUTdoVU5UTG9WRDZINUNyYU1pR2FJSklQRG5ITHRyb1RUQUdsbGRtNkZyeTJqZVZjQ0tQZXRjcVMxaWllbXpHZ3dwM1FXejVOSmRabFVFeVZwZTRNc1k2X3V3QzRyQQ?oc=5",
+      "ts": "2026-10-29T10:46:55+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Wells Fargo",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "VRT",
+          "targetCompany": "Vertiv"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "VRT"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Vertiv（VRT）｜券商：Wells Fargo｜動作：上修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
     {
       "ticker": "FLEX",
       "group": "晶圓代工／封測／EMS",
@@ -70,7 +146,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "VRT",
@@ -115,8 +191,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "KLAC",
@@ -151,7 +227,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：KLA（KLAC）｜券商：Evercore ISI｜目標價：$185｜調整原因：來源未提供具體理由",
         "numbers": [
@@ -186,7 +262,7 @@
           "action": "上修",
           "newTarget": "$750",
           "oldTarget": "$725",
-          "reason": "AI growth Wells Fargo Adjusts Price Target on Microsoft to $750 From $725Microsoft has an average rating of buy and mean price target of $623.64, according to analysts polled by FactSet.",
+          "reason": "AI 成長 富國銀行將微軟的目標價從 725 美元調整為 750 美元 根據 FactSet 調查的分析師，微軟的平均評級為買入，平均目標股價為 623.64 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "MSFT",
           "targetCompany": "Microsoft"
@@ -201,20 +277,51 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Wells Fargo｜動作：上修｜評等：buy｜目標價：$750（原 $725）｜調整原因：AI growth Wells Fargo Adjusts Price Target on Microsoft to $750 From $725Microsoft has an average rating of buy and mean price target of $623.64, according to analysts polled by FactSet.",
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Wells Fargo｜動作：上修｜評等：buy｜目標價：$750（原 $725）｜調整原因：AI 成長 富國銀行將微軟的目標價從 725 美元調整為 750 美元 根據 FactSet 調查的分析師，微軟的平均評級為買入，平均目標股價為 623.64 美元。",
         "numbers": [
           "$725",
           "$750"
         ],
-        "why": "調整原因：AI growth Wells Fargo Adjusts Price Target on Microsoft to $750 From $725Microsoft has an average rating of buy and mean price target of $623.64, according to analysts polled by FactSet.",
+        "why": "調整原因：AI 成長 富國銀行將微軟的目標價從 725 美元調整為 750 美元 根據 FactSet 調查的分析師，微軟的平均評級為買入，平均目標股價為 623.64 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：AI growth Wells Fargo Adjusts Price Target on Microsoft to $750 From $725Microsoft has an average rating of buy and mean price target of $623.64, according to analysts polled by FactSet.",
+        "takeaway": "調整原因：AI 成長 富國銀行將微軟的目標價從 725 美元調整為 750 美元 根據 FactSet 調查的分析師，微軟的平均評級為買入，平均目標股價為 623.64 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nasdaq, Treasury yields and dollar face a major AI sentiment test",
+      "summary": "",
+      "originalTitle": "Nasdaq, Treasury yields and dollar face a major AI sentiment test",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZlpmc3pTTnVwTkp5aS1HMXpISUhTSnBndTNiTWdzMmlkZ21QOUJsRm1CaWtidGtKVWVvV3N2cm5KTnE0NW93X2JfRUtzcjZoR1VVZWp5NzFheUEyOWFRd19vTjBCTUFVdnFaMWhaTXBBOW5rSDBRakQzNXBraTEyVklqajEyUjhaWUFIZXViVWZ3SFpkZmhfQmh1N1NQRXZjVUQyeDZyMGlaemNNdElyNGdB?oc=5",
+      "ts": "2026-10-29T10:17:43+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "新題材",
+      "score": 27.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -406,7 +513,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -436,7 +543,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -457,6 +564,38 @@
       "title": "Amazon Earnings Are All About Its AWS Cloud Business",
       "summary": "",
       "originalTitle": "Amazon Earnings Are All About Its AWS Cloud Business",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWlM1Y3VtcG1LMl90WDl0MmVKemM5dUZGczJDLWpwWGNtT0ZsblNfMUEyWE5DTkhOeFgtZ1VhLWF1Sms0Wl9YWXVJU2dheHY5U1FnblV5M2NncUxxa3MwajAwWVo1M3gwNWZoUGVMVHhvbTJQbnk0REwwYU0xV2lSdHFSVjZHTTNZWWQtTVBqX1ZvVjhfdUM4dGhMSmIwWEE?oc=5",
+      "ts": "2026-10-29T10:01:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 18.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Amazon Earnings Are All About Its Cloud Business",
+      "summary": "",
+      "originalTitle": "Amazon Earnings Are All About Its Cloud Business",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWlM1Y3VtcG1LMl90WDl0MmVKemM5dUZGczJDLWpwWGNtT0ZsblNfMUEyWE5DTkhOeFgtZ1VhLWF1Sms0Wl9YWXVJU2dheHY5U1FnblV5M2NncUxxa3MwajAwWVo1M3gwNWZoUGVMVHhvbTJQbnk0REwwYU0xV2lSdHFSVjZHTTNZWWQtTVBqX1ZvVjhfdUM4dGhMSmIwWEE?oc=5",
       "ts": "2026-10-29T10:01:00+00:00",
@@ -917,7 +1056,7 @@
           "action": "上修",
           "newTarget": "$112",
           "oldTarget": "$107.5",
-          "reason": "Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy Rating Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy RatingAmphenol has an average rating of buy and mean price target of $105.89, according to analysts polled by FactSet.",
+          "reason": "Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 根據 FactSet 調查的分析師，Amphen 的平均價格為買入，平均目標為 10 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "APH",
           "targetCompany": "Amphenol"
@@ -929,18 +1068,18 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：Amphenol（APH）｜券商：Truist｜動作：上修｜評等：Buy｜目標價：$112（原 $107.5）｜調整原因：Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy Rating Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy RatingAmphenol has an average rating of buy and mean price target of $105.89, according to analysts polled by FactSet.",
+        "event": "被評級公司：Amphenol（APH）｜券商：Truist｜動作：上修｜評等：Buy｜目標價：$112（原 $107.5）｜調整原因：Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 根據 FactSet 調查的分析師，Amphen 的平均價格為買入，平均目標為 10 美元。",
         "numbers": [
           "$107.5",
           "$112"
         ],
-        "why": "調整原因：Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy Rating Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy RatingAmphenol has an average rating of buy and mean price target of $105.89, according to analysts polled by FactSet.",
+        "why": "調整原因：Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 根據 FactSet 調查的分析師，Amphen 的平均價格為買入，平均目標為 10 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy Rating Truist Securities Adjusts Price Target on Amphenol to $112 From $107.50, Keeps Buy RatingAmphenol has an average rating of buy and mean price target of $105.89, according to analysts polled by FactSet.",
+        "takeaway": "調整原因：Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 Truist Securities 將 Amphen 的目標價從 107.50 美元調整為 112 美元，維持買入評級 根據 FactSet 調查的分析師，Amphen 的平均價格為買入，平均目標為 10 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -967,7 +1106,7 @@
           "action": "",
           "newTarget": "$230",
           "oldTarget": "",
-          "reason": "Stifel cuts KLA stock price target to $230 on supply chain view",
+          "reason": "Stifel 從供應鏈角度將 KLA 目標價下調至 230 美元",
           "reasonConfidence": "medium",
           "targetTicker": "KLAC",
           "targetCompany": "KLA"
@@ -982,14 +1121,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：KLA（KLAC）｜券商：Stifel｜目標價：$230｜調整原因：Stifel cuts KLA stock price target to $230 on supply chain view",
+        "event": "被評級公司：KLA（KLAC）｜券商：Stifel｜目標價：$230｜調整原因：Stifel 從供應鏈角度將 KLA 目標價下調至 230 美元",
         "numbers": [
           "$230"
         ],
-        "why": "調整原因：Stifel cuts KLA stock price target to $230 on supply chain view",
+        "why": "調整原因：Stifel 從供應鏈角度將 KLA 目標價下調至 230 美元",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Stifel cuts KLA stock price target to $230 on supply chain view",
+        "takeaway": "調整原因：Stifel 從供應鏈角度將 KLA 目標價下調至 230 美元",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -1079,7 +1218,7 @@
           "action": "上修",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "thermal test handler growth",
+          "reason": "熱測試處理機成長",
           "reasonConfidence": "high",
           "targetTicker": "COHU",
           "targetCompany": "Cohu"
@@ -1094,12 +1233,12 @@
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：COHU｜券商：Stifel｜動作：上修｜調整原因：thermal test handler growth",
+        "event": "被評級公司：COHU｜券商：Stifel｜動作：上修｜調整原因：熱測試處理機成長",
         "numbers": [],
-        "why": "調整原因：thermal test handler growth",
+        "why": "調整原因：熱測試處理機成長",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：thermal test handler growth",
+        "takeaway": "調整原因：熱測試處理機成長",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -1125,7 +1264,7 @@
           "action": "上修",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "strong Azure growth",
+          "reason": "Azure 強勁成長",
           "reasonConfidence": "high",
           "targetTicker": "MSFT",
           "targetCompany": "Microsoft"
@@ -1140,12 +1279,12 @@
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Bernstein｜動作：上修｜調整原因：strong Azure growth",
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Bernstein｜動作：上修｜調整原因：Azure 強勁成長",
         "numbers": [],
-        "why": "調整原因：strong Azure growth",
+        "why": "調整原因：Azure 強勁成長",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：strong Azure growth",
+        "takeaway": "調整原因：Azure 強勁成長",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -1344,7 +1483,7 @@
           "action": "上修",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "strong cloud growth ME AI Message: According to the latest research report from Bank of America, Microsoft’s competitive advantage in enterprise AI applications, security, and infr",
+          "reason": "雲端成長強勁 ME AI 消息：美國銀行最新研究報告顯示，微軟在企業人工智慧應用、安全和基礎設施的競爭優勢",
           "reasonConfidence": "high",
           "targetTicker": "MSFT",
           "targetCompany": "Microsoft"
@@ -1359,12 +1498,12 @@
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Morgan Stanley｜動作：上修｜調整原因：strong cloud growth ME AI Message: According to the latest research report from Bank of America, Microsoft’s competitive advantage in enterprise AI applications, security, and infr",
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Morgan Stanley｜動作：上修｜調整原因：雲端成長強勁 ME AI 消息：美國銀行最新研究報告顯示，微軟在企業人工智慧應用、安全和基礎設施的競爭優勢",
         "numbers": [],
-        "why": "調整原因：strong cloud growth ME AI Message: According to the latest research report from Bank of America, Microsoft’s competitive advantage in enterprise AI applications, security, and infr",
+        "why": "調整原因：雲端成長強勁 ME AI 消息：美國銀行最新研究報告顯示，微軟在企業人工智慧應用、安全和基礎設施的競爭優勢",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：strong cloud growth ME AI Message: According to the latest research report from Bank of America, Microsoft’s competitive advantage in enterprise AI applications, security, and infr",
+        "takeaway": "調整原因：雲端成長強勁 ME AI 消息：美國銀行最新研究報告顯示，微軟在企業人工智慧應用、安全和基礎設施的競爭優勢",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -1461,13 +1600,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Oil prices increased, with Brent futures topping $116 a barrel and WTI futures crossing $102 after the Houthis reported an attack on Saudi Arabia's Ras Tanura refinery. Alphabet and Microsoft were in focus ahead of their earnings, while SK Hynix surged on record results. The Federal Reserve is scheduled to announce its policy decision on Wednesday and is expected to leave interest rates unchanged.",
+        "event": "胡塞武裝報告沙烏地阿拉伯的 Ras Tanura 煉油廠遭到攻擊後，油價上漲，布蘭特原油期貨突破每桶 116 美元，WTI 期貨突破每桶 102 美元。 Alphabet 和微軟在財報公佈前成為焦點，而 SK 海力士則創下創紀錄的業績飆升。聯準會定於週三宣布政策決定，預計維持利率不變。",
         "numbers": [
           "$116",
           "$102"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Oil prices increased, with Brent futures topping $116 a barrel and WTI futures crossing $102 after the Houthis reported an attack on Saudi Arabia's Ras Tanura refinery. Alphabet and Microsoft were in focus ahead of their earnings, while SK Hynix surged on record results.",
+        "stance": "Alphabet 和微軟在財報公佈前成為焦點，而 SK 海力士則創下創紀錄的業績飆升。聯準會定於週三宣布政策決定，預計維持利率不變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1530,13 +1669,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Oil prices increased, with Brent futures topping $116 a barrel and WTI futures crossing $102 after the Houthis reported an attack on Saudi Arabia's Ras Tanura refinery. Alphabet and Microsoft were in focus ahead of their earnings, while SK Hynix surged on record results. The Federal Reserve is scheduled to announce its policy decision on Wednesday and is expected to leave interest rates unchanged.",
+        "event": "胡塞武裝報告沙烏地阿拉伯的 Ras Tanura 煉油廠遭到攻擊後，油價上漲，布蘭特原油期貨突破每桶 116 美元，WTI 期貨突破每桶 102 美元。 Alphabet 和微軟在財報公佈前成為焦點，而 SK 海力士則創下創紀錄的業績飆升。聯準會定於週三宣布政策決定，預計維持利率不變。",
         "numbers": [
           "$116",
           "$102"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Oil prices increased, with Brent futures topping $116 a barrel and WTI futures crossing $102 after the Houthis reported an attack on Saudi Arabia's Ras Tanura refinery. Alphabet and Microsoft were in focus ahead of their earnings, while SK Hynix surged on record results.",
+        "stance": "Alphabet 和微軟在財報公佈前成為焦點，而 SK 海力士則創下創紀錄的業績飆升。聯準會定於週三宣布政策決定，預計維持利率不變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1690,7 +1829,7 @@
           "action": "上修",
           "newTarget": "$610",
           "oldTarget": "",
-          "reason": "Azure growth",
+          "reason": "蔚藍成長",
           "reasonConfidence": "high",
           "targetTicker": "MSFT",
           "targetCompany": "Microsoft"
@@ -1705,14 +1844,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Barclays｜動作：上修｜目標價：$610｜調整原因：Azure growth",
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Barclays｜動作：上修｜目標價：$610｜調整原因：蔚藍成長",
         "numbers": [
           "$610"
         ],
-        "why": "調整原因：Azure growth",
+        "why": "調整原因：蔚藍成長",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Azure growth",
+        "takeaway": "調整原因：蔚藍成長",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -2303,6 +2442,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "GLW",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Morgan Stanley lowers Corning stock price target on capacity outlook By Investing.com",
+      "summary": "",
+      "originalTitle": "Morgan Stanley lowers Corning stock price target on capacity outlook By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVkh1M0dZWWxhUWhsVEpkVzZnamVWdkJaT25WNTJHMERNS0FkenJyTFdMbFFnY05vdTY2X29pdkJYVzVmS1hDN2JXbkRob3N0LW45TFU2TGxGZmQ2Znkzcms3NDBqY0N0bElzdXBETzhGTzczMFMteVBYWWRrYXZpVnZnSU10ejhQLXJubF9ldHdEcldoVmxGYnpvNEhHVzFGSjhnR1lCeWlfaWc0V0NWZ2NuNDNKd1lQd21CQTVrUnRUQ3BmYzB5TQ?oc=5",
+      "ts": "2026-10-29T06:44:14+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "GLW"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2623,7 +2795,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 17.25,
+      "score": 14.95,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2655,7 +2827,7 @@
         "GOOGL"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 171.6,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2685,7 +2857,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 17.25,
+      "score": 14.95,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2721,171 +2893,6 @@
       "score": 7.8,
       "featured": false,
       "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "CRWV 261030 20.00C (CRWV261030C20000) 股票選擇權鏈 |行情與新聞",
-      "summary": "",
-      "originalTitle": "CRWV 261030 20.00C (CRWV261030C20000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hQy10Q3pBYUZ3M0NFTllJUUNFVExRS2otVkNNM2x1Tkt3VFJUN25PTFRQdDB4azdDaXFiQ1JpVmxfMG5uWVp1R2Zoci1SYzluQWltNTFlYmhLcmhNdzJ3?oc=5",
-      "ts": "2026-10-29T04:32:54+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 7.31912036259863,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SIMO",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "慧榮 ADR 獲利超出預期 1.05 美元，營收超出預期",
-      "summary": "",
-      "originalTitle": "Silicon Motion ADR earnings beat by $1.05, revenue topped estimates",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYnNQMVBNbWZoa1VUYlI5VEx3cnhRMTZOWTVBNHloZlVTX0FsZXpLRkRuSFh2WFkxNDNGbFdGazlESkpQNjN3RmlyWURxbnFjNXNscEFfMHp6a25qLXBfUE0tYnFVN0tPUEc0LXoxd1RnbGQwcXNOWHFMbFYyZmVxRVZUREloMjh6QXhBbjFiTTFjTURBWDl0YndQeXJvNmhla0tfVzdfeThzd1ZuNW1aVnp3?oc=5",
-      "ts": "2026-10-29T04:29:41+00:00",
-      "sourceType": "active_search",
-      "movePct": 7.56232551305287,
-      "relatedTickers": [
-        "SIMO"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 14.95,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "亞馬遜推出5款AI升級的全新Alexa設備，包括智慧時鐘和相框",
-      "summary": "Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-      "originalTitle": "Amazon launches 5 new Alexa devices with AI upgrades, including smart clock and photo frame",
-      "originalSummary": "Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-      "url": "https://9to5mac.com/2026/10/28/amazon-announced-five-new-alexa-devices-including-16-inch-echo-show/",
-      "ts": "2026-10-29T04:25:36+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "新題材",
-      "score": 195.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-        "numbers": [],
-        "why": "券商調整理由：Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-        "stance": "Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：Apple recently launched new HomePod mini speakers and its HomeView smart display , and today it’s Amazon’s turn with five new Alexa devices. This includes a new Echo speaker with visual intelligence and an Echo Show with a larger 16-inch display and a nanomatte option …",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "CRWV 261030 58.00C (CRWV261030C58000) 股票選擇權鏈 |行情與新聞",
-      "summary": "",
-      "originalTitle": "CRWV 261030 58.00C (CRWV261030C58000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OQ0lpTlRGWkJReE1KXy14Z1BDNHp0bnNfUWdlWHRDa0RfMlpuRGpMSGNaMEFqU0N1YUNfZ0RMcDJHQlFKVGs2R0lZVW9OcngzaHlyRUJIWmRHSXhJbTVz?oc=5",
-      "ts": "2026-10-29T04:14:08+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 7.31912036259863,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "FLEX",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "Flex Ltd (FLEX) News Flow",
-      "summary": "",
-      "originalTitle": "Flex Ltd (FLEX) News Flow",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPOTlDbWVKakRxQkYwbEtfTHlqeUVVU0ZPaVhJdzZiek9YRG5HR1lxMklVeng4dDFQUHdtSzhyYktBTlF1NmNCUkNINE52ZDhWaGdIdnVvYURJdk9MeDRnUDFyZmVtSnRsd0RCRTlQak5jZGpTdXhxSDU3VHBkTmtqVGwyejZ3S1VDWGotRFYxMkV6S1p4ZkJjanQ4NVZiamowV25OVWI1Zjg0QmNjRXVyT0dNNlNjMkduS2NWM0NxYWZJTU54U29qbTQwcjAwNFhxMU01c29NX2NyTzJWb0RfR09ZemRTczdSTHA5U1R4YzBYNm4yYzdVRGVfV0pwZUNXOUN1Z3JIQWtJOHllM1otWUN6X3pESEFnaW1SUGlhUnhMeUk?oc=5",
-      "ts": "2026-10-29T04:13:27+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 11.613677264547096,
-      "relatedTickers": [
-        "FLEX"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
