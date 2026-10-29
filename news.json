@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-10-29 23:30 台灣時間",
+  "updatedAt": "2026-10-29 23:43 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-29",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Microsoft Earnings: Azure Accelerates, but Investment Returns Remain the Test",
+      "summary": "",
+      "originalTitle": "Microsoft Earnings: Azure Accelerates, but Investment Returns Remain the Test",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVmZacEhaTlVhcVAwSW1fVXc3STFSTzFlZmpmR1htUl9FQUkwdW1oMUI0dzg5TFBuQnZ1M2N6LXV0WGN5dUUzY0RyR3M5VW1DemZRSTZHUTVxQU5lelItcDNRS01qeDJNZnBxNEIwdmZRM0hiNHFKa2ZmaUJGVkhXalVRakxVZ2FjX2xUU0w0dzJHd3hhbGZENDNvUFdOOXVnRFdUbQ?oc=5",
+      "ts": "2026-10-29T15:27:03+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "新題材",
+      "score": 29.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "VRT",
       "group": "AI Server／資料中心硬體",
@@ -56,19 +89,117 @@
       "top10Rank": null
     },
     {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "Barclays 上修 MSFT 目標價至 $610，維持 Overweight",
+      "summary": "",
+      "originalTitle": "Barclays maintains Microsoft at Overweight, raises price target to $610 from $600",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQazF5bV94Mkd5RVU2RG1UVjcyWmZQenQxcUFiU0lRbEVoSzdqNXNqRXVueEdvaWhsS0JNX0tkTGxLVWRRSFNpT25DTF9rMW1rWHcza3A0VFNKU1hhTW9JTUpxcThjVC1aenhxY0lMTnNVVDNzUlFjWVJfeU16Wkw1RVMtRmJTa3pXcXIxYWNzbXhqUkJINFdSODh6OENvSm9rYVZEVXpLb0tOSXpKQ0tRM3laeVV3Y1ZwTE56bmhuWG9TT1VFRGpycV9ZdVZHaUVRYnp6dFBWcw?oc=5",
+      "ts": "2026-10-29T15:17:17+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Barclays",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "上修",
+          "newTarget": "$610",
+          "oldTarget": "$600",
+          "reason": "Barclays maintains Microsoft at Overweight, raises price target to $610 from $600",
+          "reasonConfidence": "medium",
+          "targetTicker": "MSFT",
+          "targetCompany": "Microsoft"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Barclays｜動作：上修｜評等：Overweight｜目標價：$610（原 $600）｜調整原因：Barclays maintains Microsoft at Overweight, raises price target to $610 from $600",
+        "numbers": [
+          "$600",
+          "$610"
+        ],
+        "why": "調整原因：Barclays maintains Microsoft at Overweight, raises price target to $610 from $600",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Barclays maintains Microsoft at Overweight, raises price target to $610 from $600",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Scotiabank Adjusts Price Target on Oracle to $205 From $215",
+      "summary": "",
+      "originalTitle": "Scotiabank Adjusts Price Target on Oracle to $205 From $215",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcEpwREExbTRTMnBzZVdmY3hXQXd6N2xReVlfMVpMTjkyMktnWlVEeGdSVlpKOGRDUzA2YzN4M3VpcWFXZmxwNjRpZDJiQXNPV0h5U0xOSmZGUmp3OWNqVUNXVHprcnNONldZdEZaQkF4Vk54X0xEbjhQSm9YLW5mdmlFVlVrTXVKZlNlcHBIcGpLLXk4NUhpV2dxUjREMDRGelcwSkZfTmxTYVNvZTdV?oc=5",
+      "ts": "2026-10-29T15:14:37+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Scotiabank",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$205",
+          "oldTarget": "$215",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "ORCL",
+          "targetCompany": "Oracle"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Oracle（ORCL）｜券商：Scotiabank｜動作：下修｜目標價：$205（原 $215）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$215",
+          "$205"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AEP",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "BTIG Adjusts Price Target on American Electric Power to $153 From $147",
-      "summary": "",
+      "summary": "BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
       "originalTitle": "BTIG Adjusts Price Target on American Electric Power to $153 From $147",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcWR0TmJnajhzU21SQVgyVUtrbFNaS1lkVGdKdmJJMjRlZko3M1ZLUzZlVGtuQ2ZlbnRWWXEzaUJ5VU0xc3IwR3hjYWRnM0Nka0U4X2JRdUtPRmdCQ0JOeERTeWs5blJtaGxybWJjYXZTVDllMEtPVzl5UzZKZjNHejd0RDNzNWRobUdwWk5uaDFTZ3p6dEtUbkQ1THlSX0psVTdCVlJUWWNSTjAtSmRyQXdjc1ZqblhLb3c2MVRR?oc=5",
+      "originalSummary": "BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/btig-adjusts-price-target-on-american-electric-power-to-153-from-147-ce785fdad88ff622",
       "ts": "2026-10-29T15:12:23+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -77,16 +208,24 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
+        "numbers": [
+          "$153",
+          "$147 B",
+          "$147",
+          "$140.42,"
+        ],
+        "why": "券商調整理由：BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
+        "stance": "BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "券商調整理由：BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "ORCL",
@@ -134,7 +273,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "CAT",
@@ -167,7 +306,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "GEV",
@@ -249,7 +388,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -257,46 +396,50 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Wells Fargo 下修 BA 目標價至 $210（原 $250）",
-      "summary": "",
+      "summary": "Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating. According to Koyfin data, 25 out of 28 analysts covering the stock rate either 'Buy' or 'Strong Buy'. Boeing forecasts global air cargo traffic will double by 2045, with operators expected to need 2,930 new and converted freighters to support growth and replace retiring aircraft, according to its 2026 World Air Cargo Forecast.",
       "originalTitle": "Bernstein cuts Boeing stock price target on lower cash flow outlook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdU4xN1pqSjVNX1lyZ3ZFem1vNHFpQWpRYXF2enhySzdXdzBvcF9YTHpWcHh4YnpfN21ad3ZJVC1VMzJFeDF1MG1tOW9BWW9BZld1MGYwT0llQ24ydGN4T1hMWE45N0dSVy1QcmdxWXJRLU1QU2NMcklHUHlLZHlfWXhOM082UjFYQzF1cndlczhzUWdMZjVTRzRlVmNCWEh6anMtbVJ5WTVEazNxdFlqYzBGa1JlLVlnMGItcE5pMHNXazRHM0E?oc=5",
+      "originalSummary": "Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating. According to Koyfin data, 25 out of 28 analysts covering the stock rate either 'Buy' or 'Strong Buy'. Boeing forecasts global air cargo traffic will double by 2045, with operators expected to need 2,930 new and converted freighters to support growth and replace retiring aircraft, according to its 2026 World Air Cargo Forecast.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-stock-hits-fresh-18-173614245.html",
       "ts": "2026-10-29T15:10:27+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
       "analystDetails": [
         {
-          "broker": "Bernstein",
+          "broker": "Wells Fargo",
           "analyst": "",
-          "rating": "",
+          "rating": "Overweight",
           "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "newTarget": "$210",
+          "oldTarget": "$250",
+          "reason": "lower cash flow outlook Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating.",
+          "reasonConfidence": "medium",
           "targetTicker": "BA",
           "targetCompany": "Boeing"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "BA"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 201.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Boeing（BA）｜券商：Bernstein｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "event": "被評級公司：Boeing（BA）｜券商：Wells Fargo｜動作：下修｜評等：Overweight｜目標價：$210（原 $250）｜調整原因：lower cash flow outlook Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating.",
+        "numbers": [
+          "$250",
+          "$210"
+        ],
+        "why": "調整原因：lower cash flow outlook Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating.",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：lower cash flow outlook Wells Fargo lowered its price target to $210 from $250 while maintaining an 'Overweight' rating.",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 8,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "VRT",
@@ -353,10 +496,10 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "BMO Capital 調整 AEP 目標價至 $137",
-      "summary": "",
+      "summary": "BMO Capital Adjusts American Electric Power Price Target to $137 From $134American Electric Power Company has an average rating of overweight and mean price target of $140.02, according to analysts polled by FactSet. ...",
       "originalTitle": "BMO Capital Adjusts American Electric Power Price Target to $137 From $134",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObEZrSHFFYTJaSzRkbTY4UzJNLWx1dFFHX1NKZ3RnSHlBTV9pODNRZjU3SVJYLUJFV1VFMm5vS3R2a2hTS1FJNTR3dW5TMWl4YnFqOUxLTUFFMmNrdXJIOGhCYTI5UkZQMVFYczk1TlowOV9sLXhuRGtnTjJTSnVhdEstVm94UVllNUl1TjF1T2tsb3diMklVcEh5Ml9NNnhLNkVDXy0wTkNUTGhWdS1wRzVJaHJ0QUZ0cV9PcGJSeGEtZlU?oc=5",
+      "originalSummary": "BMO Capital Adjusts American Electric Power Price Target to $137 From $134American Electric Power Company has an average rating of overweight and mean price target of $140.02, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-american-electric-power-price-target-to-137-from-134-ce785fdad88cf02d",
       "ts": "2026-10-29T15:08:55+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -364,7 +507,7 @@
         {
           "broker": "BMO Capital",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "上修",
           "newTarget": "$137",
           "oldTarget": "$134",
@@ -374,7 +517,7 @@
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -383,7 +526,7 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：BMO Capital｜動作：上修｜目標價：$137（原 $134）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：BMO Capital｜動作：上修｜評等：overweight｜目標價：$137（原 $134）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$134",
           "$137"
@@ -395,7 +538,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -430,6 +574,55 @@
       "top10Rank": null
     },
     {
+      "ticker": "FLEX",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "利空",
+      "title": "Barclays 下修 FLEX 目標價至 $128，維持 Overweight",
+      "summary": "",
+      "originalTitle": "Barclays maintains Flex at Overweight, lowers price target to $128 from $144",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRVpMWm1ZSEhnRzRuWE1UcGhzcUQwQ0cwOHkwb3MyRWlTS05JRDRsLS1XV3Z0NFdpbnVQTG1EelFLTFZkREtjR2c0T1RkYmxyazFqR3lUcWpJeUt3TDhFazNzZXpPeTRzNEhGXzhiM2dsdDZNcE9kYXUxWGxmLUdSRlN2X0diMnFhcDVERDFtQzgtQXU4c3lyQVlfUWtJaXhXQl9TSXh5T2VPaXRUTndwZFE2Tkk4RElKNURsUjJhNjgzT3dUZ0dyWDlna0ZFb3RK?oc=5",
+      "ts": "2026-10-29T15:03:48+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Barclays",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "下修",
+          "newTarget": "$128",
+          "oldTarget": "$144",
+          "reason": "Barclays maintains Flex at Overweight, lowers price target to $128 from $144",
+          "reasonConfidence": "medium",
+          "targetTicker": "FLEX",
+          "targetCompany": "Flex"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "FLEX"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：FLEX｜券商：Barclays｜動作：下修｜評等：Overweight｜目標價：$128（原 $144）｜調整原因：Barclays maintains Flex at Overweight, lowers price target to $128 from $144",
+        "numbers": [
+          "$144",
+          "$128"
+        ],
+        "why": "調整原因：Barclays maintains Flex at Overweight, lowers price target to $128 from $144",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Barclays maintains Flex at Overweight, lowers price target to $128 from $144",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
+    {
       "ticker": "NBIS",
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
@@ -461,7 +654,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Nebius（NBIS）｜券商：BofA｜動作：重申｜評等：buy｜目標價：$310｜調整原因：BofA reiterates Nebius buy and $310 target, lifts revenue estimates ahead of third quarter",
         "numbers": [
@@ -552,7 +745,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "CAT",
@@ -605,7 +798,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -637,7 +830,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -667,7 +860,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -700,7 +893,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Data center products and services company Vertiv (NYSE:VRT) reported Q3 2026 results beating Wall Street’s revenue expectations, with revenue up 61.2% year on year to $4.31 billion. Revenue guidance for next quarter was $4.41 billion at the midpoint, 2.1% above analysts’ consensus estimates. Its non-GAAP profit of $2.21 per share was 21.2% above analysts’ consensus estimates.",
@@ -721,7 +914,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -755,7 +948,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 3
     },
     {
       "ticker": "LEU",
@@ -881,8 +1074,8 @@
         "takeaway": "調整原因：supply chain concerns",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MRVL",
@@ -1106,6 +1299,39 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "China’s Iluvatar CoreX says new GPU matches Nvidia’s H200 as chip gap closes",
+      "summary": "",
+      "originalTitle": "China’s Iluvatar CoreX says new GPU matches Nvidia’s H200 as chip gap closes",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOGJWbWlza2g3SGJtbDRSbUQxcmhtYW91QzMxV2Zpa0lEWDVyZnZTZzk4VGhWdF93UUh3aTJQR1pWMUxvY3lmZDZGQlhwaVVLX0FMY0EtWlN6MVl4cUJ2Sy1VeVF0NjNWWVB4Zi1aT3lGTUhxeW5xOTJ5S2tBV0xiTmRZWFBVOWxRMjhjOFo1cnZkLXB4bm00NHJfdXMyQzlIUzVzOEFuSG4zNS1id2NTMHpWRTIzaGhnVlR1ajhuRDM2TXM3amFRMUQyVDZETE5jUnZneWNGTdIB1wFBVV95cUxOaVQ3U1R1WThhZDg2cXdhZm9NbTUwMmQyMHBNaVRaN3RWV19JOVdfVW04UUxQVlB3RDQ5WmlnRXcyUzhxTFV2ODRELVJobng3VklqWlhJalNTcE1mTGkwSGZrT3hwV21BTFpmSmxCc3NYT25Ka3l1d2xyNFBoYnRnaF93NE4zNkV2M1ZXV2tzSlM1WC1XUkZVSllQeldtZ0NVd2NadHVDTkc1VHRxQkh3QXlBaUh0VGdLZEFvajFOMGUyU2M0U2NEa1J1N21QYnd1S0IyV0RIVQ?oc=5",
+      "ts": "2026-10-29T14:00:08+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "股市回吐科技股主導的跌幅，原油下跌：市場總結",
       "summary": "",
       "originalTitle": "Stocks Pare Tech-Led Losses, Crude Oil Declines: Markets Wrap",
@@ -1224,6 +1450,38 @@
       "score": 18.75,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "FORM",
+      "group": "半導體設備／測試",
+      "tag": "題材",
+      "title": "We Ran A Stock Scan For Earnings Growth And FormFactor (NASDAQ:FORM) Passed With Ease",
+      "summary": "",
+      "originalTitle": "We Ran A Stock Scan For Earnings Growth And FormFactor (NASDAQ:FORM) Passed With Ease",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZDBwY2xTLWd3TWVJbVRkU0N6bjNkN2dYMU53WlJreTNUTUxrN3NVT3J4Wm5uTl90V2I4ODVkOW90Q3BnclFDenJTY1RJYmt0OUx6QmRtcTFqZDRFMHR1Tmtrc3lINWR1d2FKNlExSzAzUUctYV96WXNDN0FOb0pQRUZaRjdLX3dMMFZmUmREQURfMUo5dmNTalo4RXhUYkU?oc=5",
+      "ts": "2026-10-29T13:50:05+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -8.947511558335608,
+      "relatedTickers": [
+        "FORM"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1880,6 +2138,38 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "EOSE",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "Will Eos Energy Enterprises, Inc. (EOSE) Report Negative Earnings Next Week? What You Should Know",
+      "summary": "",
+      "originalTitle": "Will Eos Energy Enterprises, Inc. (EOSE) Report Negative Earnings Next Week? What You Should Know",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUtQd3FiazczQ0xVeWM4dy1vUVZXS0xKeDFlZVRIMzAzR1I2akFxQWtFaEZzVFc5WER1bTY4R1NTVlFTc1d1ekdldjdwTlRseDRaWmR1cldHUjc1Y0JmYk1ibWszRkVFU3Z1czBuOTVmYmM5Q0thZHF2LW5jVkc0UllsMVVQc3B1RXZNQ1JvNVVPN0o1Q0VzOTRjTGI?oc=5",
+      "ts": "2026-10-29T13:00:25+00:00",
+      "sourceType": "active_search",
+      "movePct": 5.1846153846153875,
+      "relatedTickers": [
+        "EOSE"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SNDK",
       "group": "記憶體／儲存",
       "tag": "題材",
@@ -1991,6 +2281,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "CAT",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "卡特彼勒收入未達預期，道瓊工業指數前景黯淡",
+      "summary": "",
+      "originalTitle": "Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRk54ajQ4MHcydlBCcGgtb21UekZtYnFXdVJGVF91d1ZwSjJqYUsxaXlZUWhoMFJaekV5QjlvU2tlTThoS0w3aUpIRzJqVkRoeDg2VUQzaGRjNmM3dnpzQUZVUE81czY2VUxseEVwZU5KQVJBbURuY3RRUDY3N2ZNaUpsY3kzMGFwcjRlaDBaRTRXOTdXTG9DYk93?oc=5",
+      "ts": "2026-10-29T12:53:00+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.680338669432841,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CAT"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 11.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "KLAC",
       "group": "半導體設備／測試",
       "tag": "題材",
@@ -2008,6 +2331,38 @@
       ],
       "eventType": "",
       "score": 9.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CAT",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "卡特彼勒 (Caterpillar) 獲利超出預期，但仍下跌 9%。人工智慧電力貿易與軟體一樣遭遇了同樣的困境。",
+      "summary": "",
+      "originalTitle": "Caterpillar Beat Earnings and Still Dropped 9%. The AI Power Trade Just Hit the Same Wall as Software.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDlYY3J2QnFuQm5mdEtJcTFVWEhuOVZHcXZOdXh2ck9laGNuNjA1U0UyR2RxXzU3NUtCZ1B1WWlrLVVBMklBY1pCbklRbl9maW56T3dGU2l1OWdxRUs1OHJMUHRGZXR2YmFBRmwzdURzSDRianU2QmNMOEdrWHRvRHh4c2poX0R3R1gta0tpbE1tYzlZQ3YzMUREY0ZwT2psM3hSU2RkOTBvRjZNd0xvMVV5Mlh0MEFWMk5IcDR6Y05ZX2pSMFFqNEtMWGxGQUhoZ2d4R0hkQUVLLWs?oc=5",
+      "ts": "2026-10-29T12:49:00+00:00",
+      "sourceType": "active_search",
+      "movePct": -7.680338669432841,
+      "relatedTickers": [
+        "CAT"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 20.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2290,7 +2645,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2311,38 +2666,6 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CAT",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "卡特彼勒 (Caterpillar) 獲利超出預期，但仍下跌 9%。人工智慧電力貿易與軟體一樣遭遇了同樣的困境。",
-      "summary": "",
-      "originalTitle": "Caterpillar Beat Earnings and Still Dropped 9%. The AI Power Trade Just Hit the Same Wall as Software.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeDlYY3J2QnFuQm5mdEtJcTFVWEhuOVZHcXZOdXh2ck9laGNuNjA1U0UyR2RxXzU3NUtCZ1B1WWlrLVVBMklBY1pCbklRbl9maW56T3dGU2l1OWdxRUs1OHJMUHRGZXR2YmFBRmwzdURzSDRianU2QmNMOEdrWHRvRHh4c2poX0R3R1gta0tpbE1tYzlZQ3YzMUREY0ZwT2psM3hSU2RkOTBvRjZNd0xvMVV5Mlh0MEFWMk5IcDR6Y05ZX2pSMFFqNEtMWGxGQUhoZ2d4R0hkQUVLLWs?oc=5",
-      "ts": "2026-10-29T12:24:19+00:00",
-      "sourceType": "active_search",
-      "movePct": -9.62995113618862,
-      "relatedTickers": [
-        "CAT"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 20.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2708,309 +3031,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "交易商權衡美伊外交，油價下跌",
-      "summary": "",
-      "originalTitle": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTW53UkVQVFpVMFB6SjNNeTdCWjNiSUxKZGJVVGVHQkJRZTA2UFljc3ZMc1ZqeVdtMzNPa1BtTkw5T21VMGp5bmVxOUF4QVQ4QWxWNERFbnJicUtuUXo2QWIyVkRCUzVFaHoycEpFVFVjcWRPWGdyQ2xyWHc2V1F3YVVsTk9JQ2pfV2VFLVFKT1lyRHRsM2NhaXlHUWNlSzJTV0E?oc=5",
-      "ts": "2026-10-29T12:05:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "【美國盤前】Google、Marvell雙雙跌超11%，Lumentum漲超6%；亞馬遜和英特爾將在收盤後公佈收益",
-      "summary": "",
-      "originalTitle": "【US Pre-Market】Google, Marvell Both Fall Over 11%, Lumentum Rises Over 6%; Amazon, Intel to Report Earnings After the Close",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNUJoc3lxVk9sN2tOdS1TVTRtdUJTZHNjaFVqZGlZdVBUR0trcy1mTXFCUHpoVFdlTm1TQmtXTjk5cWtyNjRrNDR4UzNIX3ptRFNzUEZaOUhzMUEwSDVxaktiWVpMS3NKNUxKR2hNVGc4Smp6VjBlREdFSmVTTUhlc1hFYmpIUDIwemZLOWFQalc3TklISDI2UnNjbHVocjczVjNVRnNIVEdLN0JkN3RMaUxRVU55VkJ0blJJZy1YS0d1LTkwdEstcjBDaUM?oc=5",
-      "ts": "2026-10-29T12:04:41+00:00",
-      "sourceType": "active_search",
-      "movePct": -12.590303993641971,
-      "relatedTickers": [
-        "MRVL",
-        "GOOGL",
-        "AMZN",
-        "INTC",
-        "LITE"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 33.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "Oracle 做了 Alphabet 做不到的事：讓華爾街相信人工智慧支出得到了回報",
-      "summary": "",
-      "originalTitle": "Oracle Just Did What Alphabet Couldn’t: Convince Wall Street That AI Spending Pays Off",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONHNmTXJQVDEwaHZMOW5FbkRTN3hCajhtV0k0MEV4NC1pV1hRWHAyamJjZFRmV29OYUxKSHJOMXhtSmRTOE9LMlRWc3VpSHc0TTJOUEMwSk9Qd21vZWFybVBBaFQxTkhNWXlNZWVtX1Z0YXRSUDRnRm1BY1ZCRlBaczF3ZmRUbGdSOXFLRGpBXzU3M1ZLc2o3RWxIMnNCUURJS2JSbXBNbFhQZ2N1bWJuRDhhdXpvTFRFcXItd1dJWDZGQVNGekc0?oc=5",
-      "ts": "2026-10-29T12:03:00+00:00",
-      "sourceType": "active_search",
-      "movePct": 10.733164789703519,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 21.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GEV",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "利空",
-      "title": "Susquehanna 下修 GEV 目標價至 $1,250（原 $1,270）",
-      "summary": "Title: Error 404: Page Not Found URL Source: http://www.tipranks.com/news/ge-vernova-price-target-lowered-to-1-250-from-1-270-at-susquehanna Warning: Target URL returned error 404: Not Found Markdown Content: 55% Off TipRanks Premium Upgrade Now Confident Investing Starts With TipRanks Premium Get 55% Offx x Go Ultimate55% OFF Ideas Stocks Top Analyst Stocks PopularTop Smart Score Stocks PopularAI Analyst Top Stocks",
-      "originalTitle": "GE Vernova price target lowered to $1,250 from $1,270 at Susquehanna",
-      "originalSummary": "",
-      "url": "https://www.tipranks.com/news/ge-vernova-price-target-lowered-to-1-250-from-1-270-at-susquehanna",
-      "ts": "2026-10-29T12:00:34+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "detailSource": "yahoo_or_article_metadata",
-      "analystDetails": [
-        {
-          "broker": "Susquehanna",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "$1,250",
-          "oldTarget": "$1,270",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "GEV",
-          "targetCompany": "GE Vernova"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "GEV"
-      ],
-      "eventType": "",
-      "score": 250.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：GE Vernova（GEV）｜券商：Susquehanna｜動作：下修｜目標價：$1,250（原 $1,270）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$1,270",
-          "$1,250"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 1
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "利空",
-      "title": "Morgan Stanley 上修 MSFT 目標價至 $650",
-      "summary": "",
-      "originalTitle": "Today's Analyst Rating | BofA Securities Cuts Its Price Target Cut on Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2lfTUk1TGc1THE2bTRaYTdYTHg0TDF2SUFLMVMxZEEyMHUyUTZEbHBEWjZRS1d6eGNCOGEzUDc0LUY0d0RMYmI0Vl8zRFc3akxqcV8zbHhSaF9GUlZaUGtmLWtpTVlVYWVxTU9aeERmTTR1Mll6QTRmVzdvZHFEOTdMQVR2WXBqOGUzR1dOblBCTW5EXzZZR1VZUTV0LWwzWDdYVVpB?oc=5",
-      "ts": "2026-10-29T12:00:01+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Morgan Stanley",
-          "analyst": "",
-          "rating": "",
-          "action": "",
-          "newTarget": "$380",
-          "oldTarget": "",
-          "reason": "Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
-          "reasonConfidence": "medium",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "",
-      "score": 211.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Morgan Stanley｜目標價：$380｜調整原因：Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
-        "numbers": [
-          "$380"
-        ],
-        "why": "調整原因：Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 2
-    },
-    {
-      "ticker": "CAT",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "卡特彼勒收入未達預期，道瓊工業指數前景黯淡",
-      "summary": "",
-      "originalTitle": "Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average",
-      "originalSummary": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai. According to Koyfin, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate the stock 'buy' or 'strong buy.'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-slumps-9-despite-131620508.html",
-      "ts": "2026-10-29T11:57:04+00:00",
-      "sourceType": "active_search",
-      "movePct": -9.62995113618862,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CAT"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 14.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai. According to Koyfin, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate the stock 'buy' or 'strong buy.'",
-        "numbers": [
-          "$8.78 billion",
-          "$3.42 billion",
-          "$20.68 billion",
-          "$20.69 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "與 Nvidia 一起生活在“邊緣”，這個人工智慧合作夥伴帶來了突破",
-      "summary": "",
-      "originalTitle": "Living On The \"Edge\" With Nvidia, This AI Partner Tickles Breakout",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTUhzS0hPbFdkVHlQalp6TWdPdUJpZ1BQdXZMQzFiSU5ZbndyMWVJbmFhRzUxUktYUlMwQU5NMlI0bG1ZLUZhQ1lzakctS2Q5U2k3VUlWNVNXZkM0dlJCLXdmV3BBVUlhdjgwSXFNdnBNd0xuSkZJU0l3bmE0Q09LYVcyQnlCb01rNHVyZlJLbDllaER2N2dUaUhmQ3MydU9VQmJCXw?oc=5",
-      "ts": "2026-10-29T11:55:06+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Cerebras Systems(CBRS) Stock Price Today | Quotes & News",
-      "summary": "",
-      "originalTitle": "Cerebras Systems(CBRS) Stock Price Today | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5vZFBLZ28yUUlHZXRhTlJpX2xpWS1LM190TkttbTY4NUFRVURTNEhqRHlRc28wZTZSaGo2YXIzUGdsOHRQSEdranlVVkI?oc=5",
-      "ts": "2026-10-29T11:51:25+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 4.56201137171286,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "",
-      "score": 7.5,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
