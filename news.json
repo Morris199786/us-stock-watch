@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 09:30 台灣時間",
+  "updatedAt": "2026-10-29 09:42 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
@@ -22,6 +22,38 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 17.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Alphabet, Microsoft earnings reveal surging AI demand as spending soars",
+      "summary": "",
+      "originalTitle": "Alphabet, Microsoft earnings reveal surging AI demand as spending soars",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczBCR3lMOUs2T2htM19DTlFzak8tVGNlTWZtUXpVU1ZDN05VMzBJOVU5bW9PV1lFOHRIYnR3SmhtV2tvUHQ2dWs3SEVBOEU4LUhjOFQyNHlFeV9HSVNCWW5STWtCdkJOc3d2VzNGMndvNUhMbERiempLNEhhZFRuWllWYkJxTndrM0FQYndUUkVEYzRsVjFSRWplYWpxUmFDTGFrQXhTd3FvZ9IBrwFBVV95cUxPMUtPOHJ1NUdHS3lXb3M1MVVBZklOanF6aFY2WkVCUE9pR0N3Z05ZOU01T3R5LUpFejJEUGVjQ3g1YjNBSEhqXzBxanphYXRHeVR0MzR1MTg2LXNlMzBNOFduaG9ZVGozeDRlSFFERUpEU1BERTY3ejJ2MWJaVDZPRUhpSkh5cXd1b2RJWmZudnJTRW5yRll1Qm81TTgyLXMtbUtqQ1RZZjFncEI0dmg0?oc=5",
+      "ts": "2026-10-29T00:45:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 21.75,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -114,31 +146,38 @@
       "title": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test",
       "summary": "",
       "originalTitle": "Microsoft and Alphabet Just Reported Earnings, Putting the AI Boom to the Test",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObFpfZDBQNy1JbzJMVnAyQTNXeTdvWDZnSGpoQi03MkZfLU1NXzJyekZrbzl5WDl6SV83bFVuUm9qVGIzOWVydFdfdzVDdDgxTFB2c0k1T3l4MlVSRS1iV19MY25iOFhMSEpLYjVkQmZyR09xa1g2aHZoYUY5UXJXYTNleE52QkVtUzJPWU5XVmliLXhGYlNMb2FzZ3dYRHMzbkZKSlR0TXF5UQ?oc=5",
+      "originalSummary": "Alphabet and Microsoft represent a combined 11.5% of the S&P 500 index, and they're both slated to report earnings after the bell on Wednesday. Analysts expect robust 25.2% and 16.7% revenue growth, respectively, but it will take more than a top and bottom-line triumph to impress.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-microsoft-earnings-put-investors-040100403.html",
       "ts": "2026-10-29T00:19:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "MSFT"
       ],
       "eventType": "新題材",
       "score": 29.25,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Alphabet and Microsoft represent a combined 11.5% of the S&P 500 index, and they're both slated to report earnings after the bell on Wednesday. Analysts expect robust 25.2% and 16.7% revenue growth, respectively, but it will take more than a top and bottom-line triumph to impress.",
+        "numbers": [
+          "11.5%",
+          "25.2%",
+          "16.7%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Alphabet and Microsoft represent a combined 11.5% of the S&P 500 index, and they're both slated to report earnings after the bell on Wednesday. Analysts expect robust 25.2% and 16.7% revenue growth, respectively, but it will take more than a top and bottom-line triumph to impress.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2689,39 +2728,6 @@
       "score": 17.25,
       "featured": false,
       "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "競爭對手 SK 海力士以兩個重磅炸彈助推人工智慧狂潮，美光股價上漲",
-      "summary": "",
-      "originalTitle": "Micron Stock Advances as Rival SK Hynix Fuels AI Frenzy With Two Bombshells",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZjR1bnlCNnpqNWd0MmI2OXBnZXlYQ1NaazFZUGN4bHJpV21CdlpEa2pqM0dZeEJSc2ZCalVNMnFNbk1wc3dTOXZOZTlGRUNDdmNsQnA0dFJwekNsRXBBOHhDQVBXNGxoNjRNRGJlRXB6UUl4WkpHRmZFNDhFVldkby1DdGdfX2IwSXVza0FGSmJBSG8wT2V1alVxdm11cWtn?oc=5",
-      "ts": "2026-10-28T20:21:55+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 10.887397464578674,
-      "relatedTickers": [
-        "SK HYNIX",
-        "MU"
-      ],
-      "eventType": "",
-      "score": 22.5,
-      "featured": false,
-      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
