@@ -5756,31 +5756,6 @@ def _ff_apply_web_fallback(raw_rows, now_utc):
     return raw_rows
 
 
-def _macro_reminder_events(events, tw_now):
-    """Reminder day D covers Taipei [D 09:00, D+1 09:00)."""
-    tz = ZoneInfo("Asia/Taipei")
-    local_now = tw_now.astimezone(tz)
-    start = local_now.replace(hour=9, minute=0, second=0, microsecond=0)
-    end = start + timedelta(days=1)
-    selected = []
-    for event in events:
-        try:
-            raw = event.get("eventTimeUtc") or event.get("eventTimeTw")
-            if raw:
-                dt = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
-                if dt.tzinfo is None:
-                    # Legacy timestamps without an offset use their field's timezone.
-                    dt = dt.replace(tzinfo=timezone.utc if event.get("eventTimeUtc") else tz)
-                dt = dt.astimezone(tz)
-            else:
-                dt = datetime.fromisoformat(f'{event["dateTw"]}T{event["timeTw"]}').replace(tzinfo=tz)
-        except (ValueError, TypeError, KeyError):
-            continue
-        if start <= dt < end and dt > local_now:
-            selected.append((dt, event))
-    return sorted(selected, key=lambda pair: pair[0])
-
-
 def refresh_macro_data():
     """
     U.S. macro data policy:
@@ -5912,17 +5887,15 @@ def refresh_macro_data():
     today = tw_now.date().isoformat()
     today_events = [x for x in events if x.get("dateTw") == today]
 
-    # Taiwan 08:30 reminder, once per day. Include the coming overnight releases.
-    # Keep today_events unchanged for the separate actual-result notifications.
-    reminder_events = _macro_reminder_events(events, tw_now)
-    if reminder_events and tw_now.hour == 8 and tw_now.minute >= 30 and today not in reminder_days:
-        lines = ["提醒範圍：今日09:00至明日09:00前（台灣時間）"]
-        for dt, x in reminder_events[:12]:
-            day_label = "今日" if dt.date() == tw_now.date() else "明日"
-            lines.append(f'{day_label} {dt:%m/%d %H:%M}｜{x["impactZh"]}｜{x["title"]}')
+    # Taiwan 08:30 reminder, once per day.
+    # Only events already captured by the system are included.
+    if today_events and tw_now.hour == 8 and tw_now.minute >= 30 and today not in reminder_days:
+        lines = []
+        for x in sorted(today_events, key=lambda z: z.get("eventTimeUtc","")):
+            lines.append(f'{x["timeTw"]}｜{x["impactZh"]}｜{x["title"]}')
         ok, _ = _send_telegram(
             "今日美國重要數據",
-            "\n".join(lines),
+            "\n".join(lines[:12]),
             url="https://morris199786.github.io/us-stock-watch/?page=macro"
         )
         if ok:
@@ -6926,5 +6899,4 @@ refresh_focus_data(groups, news)
     encoding="utf-8"
 )
 print(f"updated {len(groups)} groups, {len(news)} news items + earnings")
-
 
