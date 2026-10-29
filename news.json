@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 04:25 台灣時間",
+  "updatedAt": "2026-10-30 04:29 台灣時間",
   "historyUpdatedDate": "2026-10-30",
   "historyLastAttemptAt": "2026-10-29T16:12:06.662984+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,44 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "字母表下滑影響人工智慧樂觀情緒，美國股市下跌",
+      "summary": "",
+      "originalTitle": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
+      "ts": "2026-10-29T20:18:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "STX",
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "摩根士丹利下調希捷股價目標但預估上漲 72%",
-      "summary": "",
+      "summary": "Morgan Stanley Adjusts Price Target on Seagate Technology to $1,148 From $1,200Seagate Technology Holdings has an average rating of overweight and mean price target of $1,110.27, according to analysts polled by FactSet. ...",
       "originalTitle": "Morgan Stanley cuts Seagate stock price target but sees 72% upside",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbW9rQU5QenZnZlZUYjRFaVFsajlzZnFRci0yUGlDVHRBX1otMFl3dmtaZUZwWXRaTTkzbXpPZU0tSk9NMzlnR2trTm5wUTJwTlBlVjJHb0pVMUtlaUhMVktMbWczYm5HbGZudTB0OVVDXzEta2J6VDBlWmlFdmtkZXQ4QVRFUVhiaEJOcWVuNm9vcWl2a1RLSlMzVFdhLWdMVVlJSm9DajNsbUpxckhzdmt3?oc=5",
+      "originalSummary": "Morgan Stanley Adjusts Price Target on Seagate Technology to $1,148 From $1,200Seagate Technology Holdings has an average rating of overweight and mean price target of $1,110.27, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/morgan-stanley-adjusts-price-target-on-seagate-technology-to-1-148-from-1-200-ce785cd2da8ef525",
       "ts": "2026-10-29T20:17:00+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -22,17 +52,17 @@
         {
           "broker": "Morgan Stanley",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
+          "newTarget": "$1,148",
+          "oldTarget": "$1,200",
           "reason": "",
           "reasonConfidence": "none",
           "targetTicker": "STX",
           "targetCompany": "Seagate"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "STX"
       ],
@@ -41,8 +71,11 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Seagate（STX）｜券商：Morgan Stanley｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
+        "event": "被評級公司：Seagate（STX）｜券商：Morgan Stanley｜動作：下修｜評等：overweight｜目標價：$1,148（原 $1,200）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$1,200",
+          "$1,148"
+        ],
         "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
@@ -50,7 +83,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -99,6 +133,36 @@
       "eventType": "",
       "score": 15.75,
       "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "美國尋求與伊朗恢復外交關係，油價下跌",
+      "summary": "",
+      "originalTitle": "Oil Prices Ease as U.S. Seeks to Renew Diplomacy With Iran",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTW53UkVQVFpVMFB6SjNNeTdCWjNiSUxKZGJVVGVHQkJRZTA2UFljc3ZMc1ZqeVdtMzNPa1BtTkw5T21VMGp5bmVxOUF4QVQ4QWxWNERFbnJicUtuUXo2QWIyVkRCUzVFaHoycEpFVFVjcWRPWGdyQ2xyWHc2V1F3YVVsTk9JQ2pfV2VFLVFKT1lyRHRsM2NhaXlHUWNlSzJTV0E?oc=5",
+      "ts": "2026-10-29T19:53:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -170,7 +234,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 17.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1952,7 +2016,7 @@
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
-      "title": "Scotiabank cuts Oracle stock price target on financing clarity By Investing.com",
+      "title": "豐業銀行因融資清晰度降低甲骨文股價目標",
       "summary": "",
       "originalTitle": "Scotiabank cuts Oracle stock price target on financing clarity By Investing.com",
       "originalSummary": "",
@@ -1981,7 +2045,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Oracle（ORCL）｜券商：Scotiabank｜動作：下修｜調整原因：來源未提供具體理由",
         "numbers": [],
@@ -2172,7 +2236,7 @@
           "3%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "由於擔心稀釋，Marvell 股價下跌 13%，而 Lumentum 股價飆升 6%，此前彭博社報道稱，收購這家光學製造商的高級談判已在 2029 年售罄。相干公司股價持平，Applied Opto electronics 股價下跌 3%，因為競爭對手不分享 Lumentum 的溢價，不過揭露的交易價格可能會重置光學產業估值。剛剛發布。我們的分析師整理了整個股市，並選出了目前最值得買的十隻股票，而 Marvell Technology 卻沒有上榜。輸入您的電子郵件以查看擊敗 MRVL 的名字。該報告是免費的。輸入您的電子郵件並查看您的股票是否符合要求。據報道，Marvell Technology（納斯達克股票代碼：MRVL）即將達成一項為人工智慧資料中心鎖定稀缺光學元件的交易，而競爭對手的光學品牌卻沒有得到同情競標，交易員們正在獎勵目標並懲罰買家。 Marvell 股價為 220 美元，早盤交易下跌 13%。",
+        "stance": "由於擔心稀釋，Marvell 股價下跌 13%，而 Lumentum 股價飆升 6%，此前彭博社報道稱，收購這家光學製造商的高級談判已在 2029 年售罄。相干公司股價持平，Applied Opto electronics 股價下跌 3%，因為競爭對手不分享 Lumentum 的溢價，不過揭露的交易價格可能會重置光學產業估值。剛剛發布。我們的分析師梳理了整個股市，並選出了目前最值得買入的十隻股票，而 Marvell Technology 並未上榜。輸入您的電子郵件以查看擊敗 MRVL 的名字。該報告是免費的。输入您的电子邮件并查看您的股票是否符合要求。據報道，Marvell Technology（納斯達克股票代碼：MRVL）即將達成一項為人工智慧資料中心鎖定稀缺光學元件的交易，而競爭對手的光學品牌卻沒有得到同情競標，交易員們正在獎勵目標並懲罰買家。 Marvell 股價為 220 美元，早盤交易下跌 13%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2765,7 +2829,7 @@
       "ticker": "KLAC",
       "group": "半導體設備／測試",
       "tag": "題材",
-      "title": "KLAC Maintains by Cantor Fitzgerald -- Price Target Lowers to $2",
+      "title": "Cantor Fitzgerald 維持 KLAC 不變——目標價降至 2 美元",
       "summary": "",
       "originalTitle": "KLAC Maintains by Cantor Fitzgerald -- Price Target Lowers to $2",
       "originalSummary": "",
@@ -2781,7 +2845,7 @@
       "analystPriority": true,
       "score": 207.75,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "analystDetails": [
         {
           "broker": "Cantor Fitzgerald",
@@ -2968,95 +3032,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "AEP",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "BTIG 將美國電力目標價從 147 美元調整至 153 美元",
-      "summary": "BTIG 將美國電力公司的目標價從 147 美元調整至 153 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 140.42 美元。 ……",
-      "originalTitle": "BTIG Adjusts Price Target on American Electric Power to $153 From $147",
-      "originalSummary": "BTIG Adjusts Price Target on American Electric Power to $153 From $147American Electric Power has an average rating of overweight and mean price target of $140.42, according to analysts polled by FactSet. ...",
-      "url": "https://www.marketscreener.com/news/btig-adjusts-price-target-on-american-electric-power-to-153-from-147-ce785fdad88ff622",
-      "ts": "2026-10-29T15:12:23+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AEP"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "BTIG 將美國電力公司的目標價從 147 美元調整至 153 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 140.42 美元。 ……",
-        "numbers": [
-          "$153",
-          "$147 B",
-          "$147",
-          "$140.42,"
-        ],
-        "why": "券商調整理由：BTIG 將美國電力公司的目標價從 147 美元調整至 153 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 140.42 美元。 ……",
-        "stance": "BTIG 將美國電力公司的目標價從 147 美元調整至 153 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 140.42 美元。 ……",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進"
-        ],
-        "takeaway": "券商調整理由：BTIG 將美國電力公司的目標價從 147 美元調整至 153 美元 根據 FactSet 調查的分析師，美國電力公司的平均評級為“增持”，平均目標價為 140.42 美元。 ……",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "Oppenheimer 調整 ORCL 目標價至 $275",
-      "summary": "",
-      "originalTitle": "ORCL Reiterates by Oppenheimer -- Maintains Price Target at $275",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVHBkU0wwTXdnSkM2VDE5a3FRSXJHWTM3c1J2ZUF0UFhxb01tX2JTdkpHcE5aOC1QWkZ4VVA5aG5nTC02Q2toVG1uNkprSWRvbGdHd2tpOC1raGNtV3VwcXFVQ0xqQ3kxcDhFeXVvOGFHRnRTRmdwRmloSm1ramNqQld1MWZSdjJGWlJjeWRhLS1oRUVVbGhDWTllQXllOHJQ?oc=5",
-      "ts": "2026-10-29T15:11:15+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Oppenheimer",
-          "analyst": "",
-          "rating": "",
-          "action": "重申",
-          "newTarget": "$275",
-          "oldTarget": "",
-          "reason": "ORCL 重申奧本海默的觀點——維持目標價為 275 美元",
-          "reasonConfidence": "medium",
-          "targetTicker": "ORCL",
-          "targetCompany": "Oracle"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Oracle（ORCL）｜券商：Oppenheimer｜動作：重申｜目標價：$275｜調整原因：ORCL 重申奧本海默的觀點——維持目標價為 275 美元",
-        "numbers": [
-          "$275"
-        ],
-        "why": "調整原因：ORCL 重申奧本海默的觀點——維持目標價為 275 美元",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：ORCL 重申奧本海默的觀點——維持目標價為 275 美元",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -9416,7 +9391,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "思科 Model Foundry 簡介：將人工智慧帶給我們的合作夥伴",
-      "summary": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。它們的成本只是其一小部分，您可以在您想要的地方運行它們，並且您的資料仍然屬於您。很多團隊都做出了轉變。",
+      "summary": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。 They cost a fraction as much, you could run them where you wanted, and your data stayed yours.很多團隊都做出了轉變。",
       "originalTitle": "Introducing Cisco Model Foundry: Bringing AI to our partners",
       "originalSummary": "A year ago, the answer to “which model should we use?” was simple: whichever frontier model topped the leaderboard that week. Then open models caught up. They cost a fraction as much, you could run them where you wanted, and your data stayed yours. Plenty of teams made the switch. Then they pointed those models at real work. An operator reports that R2 lost every route from R1, but ping across the link still works. A security team needs to find the three files in a million-line codebase most likely to hold a vulnerability. An observability team needs to spot the one interface that matters in a week of telemetry. This is where general-purpose models, open or closed, start to struggle. We think the next leap comes from a model that already knows the domain and then learns your customer. That second step runs on your data and your relationships, and it’s where partners lead. Today at Partner Summit, we’re introducing Cisco Model Foundry , a new platform service in Cisco Cloud Control. It gives partners access to Cisco’s purpose-built models and lets them serve those models in customer applications. When the use case calls for it, partners can also fine-tune the models on their customers’ own data, all in one place. Access Cisco’s domain models. Model Foundry opens up the models Cisco has built on four decades of networking, security, and operations knowledge. Several of them previously ran only inside our own products. Browse the catalog, open the Playground, paste in a real problem, and see how each model handles it before you commit. Put them to work. In Model Foundry, you create an API key, set an expiration, choose a model, and you’re connected. The API is OpenAI-compatible, so it plugs into the agents, tools, and workflows you already run. Administrators get tenant-scoped keys, per-model access controls, and full visibility into usage by model, key, and day. Tailor it when it counts. Fine-tuning means taking the knowledge that makes a network or a business unique and training the model on it. It’s built for the large volumes of data that partners and customers already have: configs, log messages, alerts, tickets, and agent traces from thousands of devices. Model Foundry handles the hard parts, from the GPUs to the training pipeline to built-in evaluation that runs the base and tuned models side by side. You see where tuning helped, and where it didn’t, before anything reaches production. Many partners don’t need to fine-tune to get value. A purpose-built Cisco model, served as-is, is built to outperform generic open models on domain work. Fine-tuning is there for the moments when “good” isn’t good enough.",
       "url": "https://blogs.cisco.com/ai/cisco-model-foundry-partner-summit",
@@ -9432,10 +9407,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。它們的成本只是其一小部分，您可以在您想要的地方運行它們，並且您的資料仍然屬於您。很多團隊都做出了轉變。",
+        "event": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。 They cost a fraction as much, you could run them where you wanted, and your data stayed yours.很多團隊都做出了轉變。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。它們的成本只是其一小部分，您可以在您想要的地方運行它們，並且您的資料仍然屬於您。很多團隊都做出了轉變。",
+        "stance": "一年前，「我們應該使用哪種模型？」的答案很簡單：無論哪款前沿模型在本週排行榜上名列前茅。然後開放模型迎頭趕上。 They cost a fraction as much, you could run them where you wanted, and your data stayed yours.很多團隊都做出了轉變。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -9537,7 +9512,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Unusual Machines完成升級能源取得",
-      "summary": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+      "summary": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
       "originalTitle": "Unusual Machines Completes Upgrade Energy Acquisition",
       "originalSummary": "Order Helps Powerus Scale Production of Autonomous and Counter-Drone Systems to Meet Growing Demand ORLANDO, FL / ACCESS Newswire / October 22, 2026 / Unusual Machines, Inc. (NYSE American:UMAC), a leading manufacturer of NDAA-compliant drone components, today announced that it has received a $16.9 million purchase order from Powerus Corporation (Nasdaq:PUSA), a U.S. defense technology company focused on autonomous and unmanned systems.",
       "url": "https://finance.yahoo.com/technology/articles/unusual-machines-receives-16-9-123000300.html",
@@ -9554,19 +9529,19 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "event": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
         "numbers": [
           "$16.9 million",
           "16.9 million"
         ],
-        "why": "券商調整理由：订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
-        "stance": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "why": "券商調整理由：訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "stance": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
-        "takeaway": "券商調整理由：订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "takeaway": "券商調整理由：訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -10089,7 +10064,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 與 Apollo 達成 400 億美元 AI 晶片融資協議",
-      "summary": "SpaceX（SPCX：纳斯达克）有资金开发下一波人工智能芯片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
+      "summary": "SpaceX（SPCX：納斯達克）有資金開發下一波人工智慧晶片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
       "originalTitle": "SpaceX enters $40 billion deal with Apollo for AI chip financing",
       "originalSummary": "SpaceX (SPCX:NASDAQ) has the money for its next wave of AI chips. In a post on X on Sunday, October 25, Elon Musk said SpaceX had closed $40 billion of mostly callable debt to buy GPUs, for deliveries in the first and second quarters of 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/musk-says-spacex-locked-40-063931420.html",
@@ -10105,13 +10080,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX（SPCX：纳斯达克）有资金开发下一波人工智能芯片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
+        "event": "SpaceX（SPCX：納斯達克）有資金開發下一波人工智慧晶片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
         "numbers": [
           "$40 billion",
           "40 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SpaceX（SPCX：纳斯达克）有资金开发下一波人工智能芯片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
+        "stance": "SpaceX（SPCX：納斯達克）有資金開發下一波人工智慧晶片。馬斯克 (Elon Musk) 在 10 月 25 日星期日在 X 上發布的帖子中表示，SpaceX 已結清 400 億美元的大部分可贖回債務，用於購買 GPU，並於 2027 年第一和第二季度交付。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -12111,7 +12086,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "隨著新雲端技術受到市場衝擊，英偉達作為人工智慧金融家的角色面臨首次重大考驗",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"additionalSectionContentFormattedFull\":\"行動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"authorFormed\":\"autkifFormed\":\" leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[rs,\"date\" tPublished\":\"2026-10-24T11:00:01+0000\",\"dateLastPublished\":\"2026-10-24T11:00:01+0000\",\"datePublished\":\"2026-101+0000\",\"datePublished\":\"2026-10-24100,010\"",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"additionalSectionContentFormattedFull\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"authorFormatted\":\"kif leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[rs,\"date\" tPublished\":\"2026-10-24T11:00:01+0000\",\"dateLastPublished\":\"2026-10-24T11:00:01+0000\",\"datePublished\":\"2026-10-24T11:00:01+0000\",\"",
       "originalTitle": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1511328,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"mobile|us news|semiconductors|ai artificial i|cloud computing\",\"additionalSectionContentFormattedFull\":\"mobile|us news|semiconductors|ai artificial intelligence|cloud computing\",\"authorFormatted\":\"kif leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel obrien\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-24T11:00:01+0000\",\"dateLastPublished\":\"2026-10-24T11:00:01+0000\",\"datePublished\":\"2026-10-24T11:00:01+0000\",\"description\":\"As Nvidia has gone from chipmaker to industry financier, some investors see the company taking on outsized risk tied to the AI buildout.\",\"expires\":null,\"headline\":\"Nvidia's role as AI financier faces first big test as neoclouds take market hit\",\"id\":108433772,\"liveURL\":\"\\u002F2026\\u002F10\\u002F24\\u002Fnvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html\",\"native\":false,\"pageName\":\"108433772|2026\\u002F10\\u002F24\\u002Fnvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"apple inc|business|breaking news t|technology|mobile|jensen huang|jenhsun huang|nvidia corp|morgan stanley|nebius group nv|coreweave|iren ltd|ishares semicon|global x roboti|global x data c|kkr co inc|direxion daily |brookfield asse|invesco ai and |blackrock inc|blackstone inc|goldman sachs b|apollo global m|microsoft corp|advanced micro |moodys corp|invesco qqq tru|alphabet class |bloom energy co\",\"relatedTagsFilteredFormattedFull\":\"apple inc|business|breaking news technology|technology|mobile|jensen huang|jenhsun huang|nvidia corp|morgan stanley|nebius group nv|coreweave|iren ltd|ishares semiconductor etf|global x robotics artificial intelligence etf|global x data center digital infrastructure etf|kkr co inc|direxion daily semiconductor bear 3x shares|brookfield asset management ltd|invesco ai and next gen software etf|blackrock inc|blackstone inc|goldman sachs bdc inc|apollo global management inc|microsoft corp|advanced micro devices inc|moodys corp|invesco qqq trust|alphabet class a|bloom energy corp\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Nvidia's role as AI financier faces first big test as neoclouds take market hit\",\"shortDateFirstPublished\":\"10\\u002F24\\u002F2026\",\"shortDateLastPublished\":\"10\\u002F24\\u002F2026\",\"shortDatePublished\":\"10\\u002F24\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4ikJHuY\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F47yvfdQ\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yDgVvu\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4iaV5cE\"},{\"shareName\":\"SMS\",\"url\":\"h",
       "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
@@ -12135,10 +12110,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"additionalSectionContentFormattedFull\":\"行動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"authorFormed\":\"autkifFormed\":\" leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[rs,\"date\" tPublished\":\"2026-10-24T11:00:01+0000\",\"dateLastPublished\":\"2026-10-24T11:00:01+0000\",\"datePublished\":\"2026-101+0000\",\"datePub",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"additionalSectionContentFormattedFull\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"authorFormatted\":\"kif leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[rs,\"date\" tPublished\":\"2026-10-24T11:00:01+0000\",\"dateLastPublished\":\"2026-10-24T11:00:01+0000\",\"datePublished\":\"2026-10-24T11:00:01+0000\",\"",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"additionalSectionContentFormattedFull\":\"行動|美國新聞|半導體|人工智慧人工智慧|雲端運算\",\"authorFormed\":\"autkifFormed\":\" leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"crea",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"新增alMetadata\":{\"isMainOverride\":\"{\\\"oldValueValue\":15113\\2\\ newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"additionalSectionContentFormattedFull\":\"移动|美国新闻|半导体|人工智能人工智能|云计算\",\"authorFormatted\":\"kif leswing|isabel obrien\",\"authorFormattedFull\":\"kif leswing|isabel奧布萊恩\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwrit",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -12879,7 +12854,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "信條：重置已完成（評級升級）（納斯達克股票代碼：CRDO）",
-      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析师披露：我/我们在上述任何公司中都没有股票、期权或类似衍生品头寸，但可能在未来 72 小时内通过购买股票、或购买 CRDO 中的看涨期权或类似衍生品来建立有益的多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Credo: The Reset Is Done (Rating Upgrade) (NASDAQ:CRDO)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in CRDO over the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957051-credo-the-reset-is-done-rating-upgrade",
@@ -12896,14 +12871,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析师披露：我/我们在上述任何公司中都没有股票、期权或类似衍生品头寸，但可能在未来 72 小时内通过购买股票、或购买 CRDO 中的看涨期权或类似衍生品来建立有益的多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析师披露：我/我们在上述任何公司中都没有股票、期权或类似衍生品头寸，但可能在未来 72 小时内通过购买股票、或购买 CRDO 中的看涨期权或类似衍生品来建立有益的多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析师披露：我/我们在上述任何公司中都没有股票、期权或类似衍生品头寸，但可能在未来 72 小时内通过购买股票、或购买 CRDO 中的看涨期权或类似衍生品来建立有益的多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析师披露：我/我们在上述任何公司中都没有股票、期权或类似衍生品头寸，但可能在未来 72 小时内通过购买股票、或购买 CRDO 中的看涨期权或类似衍生品来建立有益的多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -14604,7 +14579,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 正在洽談接入 80,000 個蜂窩基地台的新網絡",
-      "summary": "Investing.com—彭博新聞社報導，SpaceX 正在討論獲得美國至少 80,000 個蜂窩基地台的接入權，該公司股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
+      "summary": "Investing.com——週五，在彭博新聞報導該火箭公司正在討論獲得美國至少 80,000 個蜂窩基地台的接入權後，SpaceX 股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
       "originalTitle": "SpaceX in Talks to Access 80,000 Cell Sites for New Network",
       "originalSummary": "Investing.com -- SpaceX shares rose by more than 2% in premarket U.S. trading on Friday after Bloomberg News reported that the rocket company is in discussions to secure access to at least 80,000 cell sites across the United States. Bloomberg reported that the move would signal a concrete step toward establishing a fourth nationwide wireless carrier. The satellite giant is said to be negotiating with major tower operators, including Crown Castle International Corp (NYSE:CCI), as it gathers the physical infrastructure required to complement its orbital network. Crown Castle shares surged by more than 7% premarket.",
       "url": "https://finance.yahoo.com/technology/articles/spacex-talks-80-000-cell-222051612.html",
@@ -14621,13 +14596,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com—彭博新聞社報導，SpaceX 正在討論獲得美國至少 80,000 個蜂窩基地台的接入權，該公司股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
+        "event": "Investing.com——週五，在彭博新聞報導該火箭公司正在討論獲得美國至少 80,000 個蜂窩基地台的接入權後，SpaceX 股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
         "numbers": [
           "2%",
           "7%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Investing.com—彭博新聞社報導，SpaceX 正在討論獲得美國至少 80,000 個蜂窩基地台的接入權，該公司股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
+        "stance": "Investing.com——週五，在彭博新聞報導該火箭公司正在討論獲得美國至少 80,000 個蜂窩基地台的接入權後，SpaceX 股價週五在美國盤前交易中上漲超過 2%。彭博社報道稱，此舉將標誌著朝著建立第四家全國性無線營運商邁出了具體的一步。據稱，這家衛星巨頭正在與包括 Crown Castle International Corp （NYSE：CCI）在內的主要塔營運商進行談判，以收集補充其軌道網路所需的實體基礎設施。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14698,7 +14673,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "利多",
       "title": "普渡大學與 GlobalFoundries 簽署主研究協議擴大合作關係",
-      "summary": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大學表示，該協議將顯著擴大該大學的研究能力，並加強半導體生態系統的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
+      "summary": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大学表示，该协议将显着扩大该大学的研究能力，并加强半导体生态系统的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
       "originalTitle": "Purdue, GlobalFoundries expand partnership with master research agreement",
       "originalSummary": "WEST LAFAYETTE, Ind. (WLFI) - Purdue University has announced a master research agreement with GlobalFoundries, a manufacturer of essential semiconductors. Purdue says the agreement will significantly expand the university’s research capabilities, and bolster the talent pipeline in the semi-conductor ecosystem. The agreement builds upon a strategic partnership first announced in November 2022. Purdue says it will create a streamlined framework for multiple collaborative projects. Under the unified framework, Purdue says the agreement enables new research initiatives to launch quickly and efficiently, accelerating innovation in semiconductor technology. Since 2023, GlobalFoundries has hosted students from Purdue’s summer training, awareness, and readiness for semiconductors program at its U.S. headquarters.",
       "url": "https://www.wlfi.com/2026/10/23/purdue-announces-master-research-agreement/",
@@ -14715,10 +14690,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大學表示，該協議將顯著擴大該大學的研究能力，並加強半導體生態系統的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
+        "event": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大学表示，该协议将显着扩大该大学的研究能力，并加强半导体生态系统的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大學表示，該協議將顯著擴大該大學的研究能力，並加強半導體生態系統的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
+        "stance": "印第安納州西拉斐特 (WLFI) - 普渡大學宣布與基礎半導體製造商 GlobalFoundries 達成主要研究協議。普渡大学表示，该协议将显着扩大该大学的研究能力，并加强半导体生态系统的人才管道。該協議建立在 2022 年 11 月首次宣布的戰略合作夥伴關係的基礎上。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -15232,7 +15207,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "設備製造商 Lam Research 稱“供應鏈限制”，晶片股下跌",
-      "summary": "一家晶片製造設備供應商的一句話就震驚了整個半導體產業，最依賴人工智慧資料中心支出的公司正在付出最慘重的代價。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
+      "summary": "一家芯片制造设备供应商的一句话就震惊了整个半导体行业，最依赖人工智能数据中心支出的公司正在付出最惨重的代价。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
       "originalTitle": "Chip stocks fall as equipment maker Lam Research cites 'supply chain constraints'",
       "originalSummary": "A single comment from a chipmaking equipment supplier sent shockwaves through the semiconductor sector, and the companies most dependent on AI data center spending are paying the steepest price. Find out which chip giants are taking the hardest hits and what it signals for the industry ahead.",
       "url": "https://247wallst.com/investing/2026/10/22/chip-stocks-fall-as-supply-warning-deepens-ai-selloff-marvell-and-amd-sink-8-intel-drops-7/",
@@ -15248,10 +15223,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "一家晶片製造設備供應商的一句話就震驚了整個半導體產業，最依賴人工智慧資料中心支出的公司正在付出最慘重的代價。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
+        "event": "一家芯片制造设备供应商的一句话就震惊了整个半导体行业，最依赖人工智能数据中心支出的公司正在付出最惨重的代价。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "一家晶片製造設備供應商的一句話就震驚了整個半導體產業，最依賴人工智慧資料中心支出的公司正在付出最慘重的代價。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
+        "stance": "一家芯片制造设备供应商的一句话就震惊了整个半导体行业，最依赖人工智能数据中心支出的公司正在付出最惨重的代价。了解哪些晶片巨頭受到的打擊最嚴重，以及這對未來產業意味著什麼。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15476,7 +15451,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "長火箭實驗室，短 AST SpaceMobile：一個擁有自己的路徑，另一個從 SpaceX 租用它",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -15495,10 +15470,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -15511,7 +15486,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如果火箭實驗室墜毀後我只能買一支太空股票，那就是這隻",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -15527,10 +15502,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -16615,7 +16590,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "在第三季財報發布之前，CLS 股票是明智的投資選擇嗎？",
-      "summary": "Celestica, Inc. CLS 計劃於 10 月 26 日公佈 2026 年第三季財報。 Zacks 的銷售額和收益共識預期分別為每股 54 億美元和 3.01 美元。過去 60 天內，CLS 的獲利預期保持不變。",
+      "summary": "Celestica, Inc. CLS 计划于 10 月 26 日公布 2026 年第三季度收益。 Zacks 的銷售額和收益共識預期分別為每股 54 億美元和 3.01 美元。過去 60 天內，CLS 的獲利預期保持不變。",
       "originalTitle": "Is CLS Stock a Smart Investment Option Before Q3 Earnings Release?",
       "originalSummary": "Celestica, Inc. CLS is scheduled to report third-quarter 2026 earnings on Oct 26. The Zacks Consensus Estimate for sales and earnings is pegged at $5.4 billion and $3.01 per share, respectively. Earnings estimates for CLS have remained unchanged over the past 60 days.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cls-stock-smart-investment-option-131100987.html",
@@ -16631,7 +16606,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Celestica, Inc. CLS 計劃於 10 月 26 日公佈 2026 年第三季財報。 Zacks 的銷售額和收益共識預期分別為每股 54 億美元和 3.01 美元。過去 60 天內，CLS 的獲利預期保持不變。",
+        "event": "Celestica, Inc. CLS 计划于 10 月 26 日公布 2026 年第三季度收益。 Zacks 的銷售額和收益共識預期分別為每股 54 億美元和 3.01 美元。過去 60 天內，CLS 的獲利預期保持不變。",
         "numbers": [
           "$5.4 billion",
           "$3.01",
@@ -19103,7 +19078,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "LRCX：創紀錄的收入和收益，12 月季度指引收入為 $8.60B",
-      "summary": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由於良好的客戶和產品組合，達到創紀錄的 52.4%，高於 6 月季度的 52%。營業利益率：創紀錄的 40.2%，高於 6 月季度的 38.4%；首次突破40%。稀釋後每股盈餘：創紀錄的 2.20 美元；稀釋後股數約12.6億。",
+      "summary": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由于良好的客户和产品组合，达到创纪录的 52.4%，高于 6 月份季度的 52%。营业利润率：创纪录的 40.2%，高于 6 月份季度的 38.4%；首次突破40%。稀释后每股收益：创纪录的 2.20 美元；稀释后股份数量约12.6亿。",
       "originalTitle": "LRCX: Record revenue and earnings, with December-quarter guidance for $8.60B revenue",
       "originalSummary": "Revenue: $8.22 billion, up 22% sequentially and 54% year-over-year; fifth consecutive quarter of record revenue. Gross Margin: Record 52.4%, up from 52% in the June quarter on favorable customer and product mix. Operating Margin: Record 40.2%, up from 38.4% in the June quarter; first time topping 40%. Diluted EPS: Record $2.20; diluted share count ~1.26 billion. Operating Expenses: $1 billion, up from $916 million prior quarter; R&D ~two-thirds of total. Deferred Revenue: $2.66 billion, up $227 million from the June quarter. Memory Systems Revenue: 46% of systems revenue (record dollar level), up 120% year-over-year; NAND 26% of systems revenue (up from 23%), NAND dollars up ~40% sequentially; DRAM 20% of systems revenue (down from 23%), record dollar level. Foundry Systems Revenue: Record; 46% of systems revenue, up from 44% in the June quarter. Logic and Other Systems Revenue: 8% of systems revenue, down from 10% in the June quarter. CSBG Revenue: Fourth consecutive record quarter at nearly $2.5 billion, up slightly sequentially and 40% year-over-year; calendar 2026 growth expected above 30% year-over-year, with over 15% growth expected in calendar 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corp-lrcx-q1-090145598.html",
@@ -19120,7 +19095,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由於良好的客戶和產品組合，達到創紀錄的 52.4%，高於 6 月季度的 52%。營業利益率：創紀錄的 40.2%，高於 6 月季度的 38.4%；首次突破40%。稀釋後每股盈餘：創紀錄的 2.20 美元；稀釋後股數約12.6億。",
+        "event": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由于良好的客户和产品组合，达到创纪录的 52.4%，高于 6 月份季度的 52%。营业利润率：创纪录的 40.2%，高于 6 月份季度的 38.4%；首次突破40%。稀释后每股收益：创纪录的 2.20 美元；稀释后股份数量约12.6亿。",
         "numbers": [
           "$8.60B",
           "$8.22 billion",
@@ -19128,7 +19103,7 @@
           "$1 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由於良好的客戶和產品組合，達到創紀錄的 52.4%，高於 6 月季度的 52%。營業利益率：創紀錄的 40.2%，高於 6 月季度的 38.4%；首次突破40%。稀釋後每股盈餘：創紀錄的 2.20 美元；稀釋後股數約12.6億。",
+        "stance": "營收：82.2億美元，季增22%，年增54%；連續第五個季度營收創紀錄。毛利率：由于良好的客户和产品组合，达到创纪录的 52.4%，高于 6 月份季度的 52%。营业利润率：创纪录的 40.2%，高于 6 月份季度的 38.4%；首次突破40%。稀释后每股收益：创纪录的 2.20 美元；稀释后股份数量约12.6亿。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -20531,7 +20506,7 @@
       "group": "光通訊／網通",
       "tag": "利多",
       "title": "諾基亞將 AI-RAN 推向商業部署和實體 AI，並與 NVIDIA 合作推出用於電信自治的主權代理 AI 平台",
-      "summary": "诺基亚将 AI-RAN 推向商业部署和物理人工智能，与德国柏林的 NVIDIA 合作推出用于电信自治的主权代理人工智能平台 - 诺基亚今天宣布了如何与 NVIDIA 合作将人工智能原生网络带入商业现实的下一步，其中包括在无线电处理中应用人工智能的新功能，支持靠近数据生成位置的智能，并扩展受管人工智能代理以进行跨域网络操作。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
+      "summary": "諾基亞將 AI-RAN 推向商業部署和物理人工智能，與德國柏林的 NVIDIA 合作推出用於電信自治的主權代理人工智能平台 - 諾基亞今天宣布瞭如何與 NVIDIA 合作將人工智能原生網絡帶入商業現實的下一步，其中包括在無線電處理中應用人工智能的新功能，支持靠近數據生成位置的智能，並擴展受管人工智能代理以進行跨域網絡操作代理。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
       "originalTitle": "Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA",
       "originalSummary": "Nokia advances AI-RAN toward commercial deployment and physical AI, launches sovereign agentic AI platform for telco autonomy with NVIDIA Berlin, Germany – Nokia today announced the next step in how it is bringing AI-native networks to commercial reality with NVIDIA, with new capabilities that apply AI within radio processing, support intelligence close to where data is generated and extend governed AI agents for cross-domain network operations. Building on the industry’s first commercial AI-RAN platform, announced in July, AI-RAN is being integrated into live networks and moving closer to deployment. Together, Nokia and NVIDIA are creating the real-time network foundation needed for physical-AI applications while giving operators a practical path to improve today’s 5G and 5G Advanced networks and evolve to AI-native 6G. Customer progress moves AI-RAN closer to deployment One year ago, Nokia and NVIDIA formed a partnership to add NVIDIA-powered, commercial-grade AI-RAN products to Nokia’s radio access network portfolio. The companies are now applying AI within the 5G signal-processing chain, including channel estimation, beamforming, multi-user MIMO pairing and scheduling. Nokia AI-native anyRAN software, running on NVIDIA Aerial RAN Computer, provides a software-defined foundation for integrating AI-powered radio functions that improve network capacity and performance.",
       "url": "https://markets.businessinsider.com/news/stocks/nokia-advances-ai-ran-toward-commercial-deployment-and-physical-ai-launches-sovereign-agentic-ai-platform-for-telco-autonomy-with-nvidia-1036648777",
@@ -20548,10 +20523,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "诺基亚将 AI-RAN 推向商业部署和物理人工智能，与德国柏林的 NVIDIA 合作推出用于电信自治的主权代理人工智能平台 - 诺基亚今天宣布了如何与 NVIDIA 合作将人工智能原生网络带入商业现实的下一步，其中包括在无线电处理中应用人工智能的新功能，支持靠近数据生成位置的智能，并扩展受管人工智能代理以进行跨域网络操作。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
+        "event": "諾基亞將 AI-RAN 推向商業部署和物理人工智能，與德國柏林的 NVIDIA 合作推出用於電信自治的主權代理人工智能平台 - 諾基亞今天宣布瞭如何與 NVIDIA 合作將人工智能原生網絡帶入商業現實的下一步，其中包括在無線電處理中應用人工智能的新功能，支持靠近數據生成位置的智能，並擴展受管人工智能代理以進行跨域網絡操作代理。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "诺基亚将 AI-RAN 推向商业部署和物理人工智能，与德国柏林的 NVIDIA 合作推出用于电信自治的主权代理人工智能平台 - 诺基亚今天宣布了如何与 NVIDIA 合作将人工智能原生网络带入商业现实的下一步，其中包括在无线电处理中应用人工智能的新功能，支持靠近数据生成位置的智能，并扩展受管人工智能代理以进行跨域网络操作。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
+        "stance": "諾基亞將 AI-RAN 推向商業部署和物理人工智能，與德國柏林的 NVIDIA 合作推出用於電信自治的主權代理人工智能平台 - 諾基亞今天宣布瞭如何與 NVIDIA 合作將人工智能原生網絡帶入商業現實的下一步，其中包括在無線電處理中應用人工智能的新功能，支持靠近數據生成位置的智能，並擴展受管人工智能代理以進行跨域網絡操作代理。 AI-RAN 建立在 7 月宣布的業界首個商用 AI-RAN 平台的基礎上，正在整合到現網中並且距離部署更近了。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -20654,7 +20629,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "不尋常的機器：美國無人機供應中的 Multibagger（NYSE：UMAC）",
-      "summary": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+      "summary": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
       "originalTitle": "Unusual Machines: The Multibagger In The Making For U.S. Drone Supply (NYSE:UMAC)",
       "originalSummary": "Order Helps Powerus Scale Production of Autonomous and Counter-Drone Systems to Meet Growing Demand ORLANDO, FL / ACCESS Newswire / October 22, 2026 / Unusual Machines, Inc. (NYSE American:UMAC), a leading manufacturer of NDAA-compliant drone components, today announced that it has received a $16.9 million purchase order from Powerus Corporation (Nasdaq:PUSA), a U.S. defense technology company focused on autonomous and unmanned systems.",
       "url": "https://finance.yahoo.com/technology/articles/unusual-machines-receives-16-9-123000300.html",
@@ -20670,13 +20645,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "event": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
         "numbers": [
           "$16.9 million",
           "16.9 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "订单帮助 Powerus 扩大自主和反无人机系统的生产规模，以满足不断增长的需求佛罗里达州奥兰多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的无人机组件领先制造商 Unusual Machines, Inc.（纽约证券交易所股票代码：UMAC）今天宣布，已收到来自专注于自主和反无人机系统的美国国防技术公司 Powerus Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
+        "stance": "訂單幫助 Powerus 擴大自主和反無人機系統的生產規模，以滿足不斷增長的需求佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 22 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（NYSE：UMAC） Corporation（納斯達克股票代碼：PUSA）1,690 萬美元的採購訂單。無人系統。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -20691,7 +20666,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 的財報未能解答一個大問題",
-      "summary": "现在，埃隆·马斯克 (Elon Musk) 应该回归 SpaceX (SPCX) 的创始人模式，转向他非常擅长的其他事情：迷人的、富有远见的创始人，正在向那些想要进入马斯克宇宙的人索要大笔资金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
+      "summary": "現在，馬斯克 (Elon Musk) 應該回歸 SpaceX (SPCX) 的創始人模式，轉向他非常擅長的其他事情：迷人的、富有遠見的創始人，正在向那些想要進入馬斯克宇宙的人索要大筆資金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
       "originalTitle": "SpaceX earnings left one big question unanswered",
       "originalSummary": "The moment is now for Elon Musk to dial back founder mode at SpaceX ( SPCX ) and dial back up something else he is very good at: charming visionary founder who is asking for large sums of capital from people who want entry to the Muskverse. Because judging by Musk's commentary on his late Tuesday earnings call, he will need a lot of fresh capital to deliver on aggressive growth timelines for Terrafab, Starlink broadband and rocket reusability. Perhaps way more than most investors think.",
       "url": "https://finance.yahoo.com/markets/stocks/article/spacex-earnings-left-one-big-question-unanswered-102646710.html",
@@ -20707,10 +20682,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "现在，埃隆·马斯克 (Elon Musk) 应该回归 SpaceX (SPCX) 的创始人模式，转向他非常擅长的其他事情：迷人的、富有远见的创始人，正在向那些想要进入马斯克宇宙的人索要大笔资金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
+        "event": "現在，馬斯克 (Elon Musk) 應該回歸 SpaceX (SPCX) 的創始人模式，轉向他非常擅長的其他事情：迷人的、富有遠見的創始人，正在向那些想要進入馬斯克宇宙的人索要大筆資金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "现在，埃隆·马斯克 (Elon Musk) 应该回归 SpaceX (SPCX) 的创始人模式，转向他非常擅长的其他事情：迷人的、富有远见的创始人，正在向那些想要进入马斯克宇宙的人索要大笔资金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
+        "stance": "現在，馬斯克 (Elon Musk) 應該回歸 SpaceX (SPCX) 的創始人模式，轉向他非常擅長的其他事情：迷人的、富有遠見的創始人，正在向那些想要進入馬斯克宇宙的人索要大筆資金。因為從馬斯克在周二晚間財報電話會議上的評論來看，他將需要大量新資本來實現 Terrafab、Starlink 寬頻和火箭可重複使用性的積極增長時間表。也許比大多數投資人想像的多很多。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -24547,7 +24522,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "利多",
       "title": "Vishay Intertechnology (VSH) 推出新感應器，還划算嗎？",
-      "summary": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。這些感測器支援高速、無磨損的光學通信，並且具有抗電磁幹擾能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
+      "summary": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。这些传感器支持高速、无磨损的光学通信，并且具有抗电磁干扰能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
       "originalTitle": "Vishay Intertechnology (VSH) Launches New Sensors, Is It Still A Bargain?",
       "originalSummary": "Highlights Vishay Intertechnology introduced automotive-grade optical sensors for battery management, energy storage and industrial automation applications. The sensors support high-speed, wear-free optical communication with electromagnetic interference immunity. The product launch expands the company's component offerings for electric vehicles, industrial equipment and other specialised electronic systems. Vishay Intertechnology (NYSE:VSH) operates in the semiconductor and electronic components sector, supplying products used in automotive systems, industrial equipment, computing hardware and other electronic applications. The company announced a new range of automotive-grade optical sensors designed for battery management, energy storage and industrial automation systems. The launch expands the company's offerings for applications that require reliable data communication in electrically demanding environments. Optical sensors can support communication between electronic components while reducing dependence on conventional electrical signalling in suitable system designs. The products are intended for applications where electromagnetic interference, operational reliability and communication integrity are important engineering considerations. Electric vehicles and automated manufacturing equipment contain multiple electronic subsystems that exchange information to monitor operating conditions and coordinate functions. Optical Sensors and High-Speed Communication The newly introduced sensors support high-speed, wear-free optical data communication. Optical communication uses light to transmit information, offering an alternative to electrical signalling in applications where electrical noise can affect signal integrity. Electromagnetic interference can arise from motors, switching circuits, power electronics and other electrical equipment. In electric vehicles, battery systems and power conversion hardware operate alongside control electronics, creating demanding conditions for signal transmission. Optical communication can help address some of these challenges by reducing susceptibility to electromagnetic interference along the optical communication path. The practical benefits depend on system architecture, component integration and the requirements of the application. The sensors are designed for mission-critical hardware environments, where dependable communication supports monitoring and control functions. Their wear-free communication approach also addresses applications in which contact-based transmission methods may introduce mechanical limitations. The product announcement identifies electromagnetic immunity and cybersecurity resilience as relevant design features. These characteristics align with the requirements of modern electronic systems, although actual system-level protection depends on implementation, software, network architecture and other safeguards. Applications in Electric Vehicles and Battery Management Battery management systems monitor battery conditions and support functions such as cell monitoring, temperature supervision and operating control. Reliable communication between components helps these systems coordinate",
       "url": "https://kalkinemedia.com/us/stocks/technology/vishay-intertechnology-nysevsh-new-sensors-target-ev-technology",
@@ -24563,10 +24538,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。這些感測器支援高速、無磨損的光學通信，並且具有抗電磁幹擾能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
+        "event": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。这些传感器支持高速、无磨损的光学通信，并且具有抗电磁干扰能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。這些感測器支援高速、無磨損的光學通信，並且具有抗電磁幹擾能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
+        "stance": "亮點 Vishay Intertechnology 推出了用於電池管理、能量儲存和工業自動化應用的汽車級光學感測器。这些传感器支持高速、无磨损的光学通信，并且具有抗电磁干扰能力。該產品的推出擴大了該公司用於電動車、工業設備和其他專用電子系統的組件產品範圍。 Vishay Intertechnology（NYSE：VSH）從事半導體和電子元件領域的業務，供應用於汽車系統、工業設備、計算硬體和其他電子應用的產品。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -25230,7 +25205,7 @@
       "group": "CSP",
       "tag": "利多",
       "title": "3M 擴大亞馬遜資料中心合作夥伴關係，股價上漲",
-      "summary": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的資料中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的資料中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
+      "summary": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的數據中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的數據中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
       "originalTitle": "3M expands Amazon data center partnership, shares gain",
       "originalSummary": "Amazon.com Inc. (NASDAQ: AMZN ) expanded its data center partnership with 3M Co. (NYSE: MMM ) and received a warrant to buy about $521.4 million of 3M stock, with vesting tied to the hyperscaler's purchases of data center products. 3M shares were up 5.43% in after-hours trading, and Amazon stock was trending as it rose 0.29%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-gets-warrant-buy-521-014028880.html",
@@ -25246,7 +25221,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的資料中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的資料中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
+        "event": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的數據中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的數據中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
         "numbers": [
           "$521.4 million",
           "5.43%",
@@ -25254,7 +25229,7 @@
           "521.4 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的資料中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的資料中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
+        "stance": "Amazon.com Inc.（納斯達克股票代碼：AMZN）擴大了與 3M Co.（NYSE：MMM）的數據中心合作夥伴關係，並獲得了購買約 5.214 億美元 3M 股票的認股權證，該股票的歸屬權與該超大規模企業購買的數據中心產品相關。盤後交易中，3M 股價上漲 5.43%，亞馬遜股價上漲 0.29%。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -26999,7 +26974,7 @@
           "action": "升評",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析师 Harlan Sur 周一将英特尔的评级从“减持”上调至“中性”。英特爾股價早盤上漲逾4%。",
+          "reason": "尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析師 Harlan Sur 週一將英特爾的評級從“減持”上調至“中性”。英特爾股價早盤上漲逾4%。",
           "reasonConfidence": "high",
           "targetTicker": "INTC",
           "targetCompany": "Intel"
@@ -27014,12 +26989,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜評等：sell｜調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析师 Harlan Sur 周一将英特尔的评级从“减持”上调至“中性”。英特爾股價早盤上漲逾4%。",
+        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：升評｜評等：sell｜調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析師 Harlan Sur 週一將英特爾的評級從“減持”上調至“中性”。英特爾股價早盤上漲逾4%。",
         "numbers": [],
-        "why": "調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析师 Harlan Sur 周一将英特尔的评级从“减持”上调至“中性”。英特爾股價早盤上漲逾4%。",
+        "why": "調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析師 Harlan Sur 週一將英特爾的評級從“減持”上調至“中性”。英特爾股價早盤上漲逾4%。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析师 Harlan Sur 周一将英特尔的评级从“减持”上调至“中性”。英特爾股價早盤上漲逾4%。",
+        "takeaway": "調整原因：尋找便宜貨。摩根大通 (JPM) 可能在晶片巨頭英特爾 (INTC) 身上找到了踪跡，該股較 6 月高點下跌了約 36%。分析師 Harlan Sur 週一將英特爾的評級從“減持”上調至“中性”。英特爾股價早盤上漲逾4%。",
         "sourceQuality": "analyst_structured"
       }
     },
