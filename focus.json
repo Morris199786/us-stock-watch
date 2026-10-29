@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-10-28 21:02 台灣時間",
+  "updatedAt": "2026-10-29 08:04 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,72 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-10-28:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-10-28",
+      "generatedAt": "2026-10-29 08:04 台灣時間",
+      "generatedAtIso": "2026-10-29T00:04:28.997283+00:00",
+      "items": [
+        {
+          "ticker": "TER",
+          "name": "Teradyne",
+          "group": "半導體設備／測試",
+          "headline": "Goldman Sachs 下修 TER 目標價至 $440（原 $465）",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -3.225407810182901,
+          "movePrice": 313.24,
+          "regularChangePct": -3.225407810182901,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -2.311326778189249,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.tipranks.com/news/teradyne-price-target-lowered-to-440-from-465-at-goldman-sachs"
+            }
+          ],
+          "score": 940.87
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "group": "Cloud／Software／AI 應用",
+          "headline": "UBS 下修 APP 目標價至 $414，維持 Buy",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -1.084392359789954,
+          "movePrice": 259.97,
+          "regularChangePct": -1.084392359789954,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.5885294457052881,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.marketscreener.com/news/ubs-adjusts-applovin-price-target-to-414-from-790-maintains-buy-rating-ce785cd2de88f120"
+            }
+          ],
+          "score": 929.53
+        }
+      ]
+    },
     {
       "key": "2026-10-28:pre",
       "session": "pre",
@@ -4070,192 +4136,6 @@
             }
           ],
           "score": 918.4
-        }
-      ]
-    },
-    {
-      "key": "2026-10-14:post",
-      "session": "post",
-      "sessionLabel": "盤後焦點",
-      "marketDate": "2026-10-14",
-      "generatedAt": "2026-10-15 08:01 台灣時間",
-      "generatedAtIso": "2026-10-15T00:01:58.767739+00:00",
-      "items": [
-        {
-          "ticker": "DELL",
-          "name": "Dell",
-          "group": "AI Server／資料中心硬體",
-          "headline": "戴爾科技因巴克萊銀行降級而下跌 11%，科技股下滑（戴爾：紐約證券交易所）",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "巴克萊將戴爾科技公司 (DELL) 的評級從增持下調至平配，週三該公司股價下跌逾 11%。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -11.273953220256082,
-          "movePrice": 507.93,
-          "regularChangePct": -11.273953220256082,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -1.8107810131317237,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://seekingalpha.com/news/4653141-dell-technologies-tumbles-11-on-barclays-downgrade-tech-slide"
-            }
-          ],
-          "score": 987.72
-        },
-        {
-          "ticker": "FLNC",
-          "name": "Fluence",
-          "group": "電力／儲能／資料中心能源",
-          "headline": "Morgan Stanley 下修 FLNC 目標價至 $9",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -8.407079646017701,
-          "movePrice": 6.21,
-          "regularChangePct": -8.407079646017701,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.48309178743961567,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLTZrNFpQelFkc2I3WXBSRmR2dkhKQlBvZ3BmelBYdEpSc0t1Q3pkS2xDSWMxX1hWSXJ6M2c1MHpoQVM3aHJjTXlTWGhwY3pwaEllYk9GdDZyZzdlOWUxYlcyWmtPbk16TFZQekdLdWgtdzFzcHZqX2pnWXdWX0hqMU1NcmZLaHFKUDRCNkFVTTJZMFBiYmZyVTFtN3QtZjFpM0ZEVUJUb2JSTlJkaGJldjZncHdvSWhpNlZERWVybnJ1aVFibjBHRUVSLXhHS0xxQnV4M3pfdDlFUQ?oc=5"
-            }
-          ],
-          "score": 961.52
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "group": "Cloud／Software／AI 應用",
-          "headline": "Goldman Sachs 下修 APP 目標價至 $400",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "APP 由高盛維持——目標價下調至 400 美元 據 FactSet 調查的分析師稱，高盛將 AppLovin 的目標價從 465 美元調整至 400 美元，AppLovin 的平均評級為買入，平均目標價為 482.89 美元。",
-            "高盛將 AppLovin 的目標價從 465 美元調整為 400 美元 根據 FactSet 調查的分析師，AppLovin 的平均評級為買入，平均目標價為 482.89 美元。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -3.705744086969287,
-          "movePrice": 262.19,
-          "regularChangePct": -3.705744086969287,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -1.7697089896639762,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-applovin-to-400-from-465-ce785dd2dd8af123"
-            }
-          ],
-          "score": 939.43
-        },
-        {
-          "ticker": "META",
-          "name": "Meta",
-          "group": "CSP",
-          "headline": "Goldman Sachs 上修 META 目標價至 $860",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -3.2734426229508284,
-          "movePrice": 737.54,
-          "regularChangePct": -3.2734426229508284,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.9634189332104026,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.tipranks.com/news/meta-platforms-stock-forecast-goldman-sachs-raises-price-target-to-860-ahead-of-q3-earnings"
-            }
-          ],
-          "score": 936.12
-        },
-        {
-          "ticker": "CAT",
-          "name": "Caterpillar",
-          "group": "電力／儲能／資料中心能源",
-          "headline": "Citi 下修 CAT 目標價至 $950",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -3.079789849633785,
-          "movePrice": 748.98,
-          "regularChangePct": -3.079789849633785,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.7984191834227938,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORldyTXJWNFBOb1I5b29KWUtWeEVZSEFCZzQ3VVJLRXNSWlh6bktTR2NNNzk1Sl9FSmVUSXE4bDV2cUJTUm5HV05uN1JfeUoxNFd2MnJYaGVTOXVqeU90UmFwZnQ4d3hTT25HU2hYT05DUjVDeWlkMnBpYWJUczNQMlQ5UVhaeXNqOTcwbkRVRjdQUG80NEFpTWtIX3NwUUI5VG1TQjltNG5UUQ?oc=5"
-            }
-          ],
-          "score": 930.57
-        },
-        {
-          "ticker": "AMZN",
-          "name": "Amazon",
-          "group": "CSP",
-          "headline": "Wells Fargo 下修 AMZN 目標價至 $329（原 $338），維持 Overweight",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "根據 Benzinga 於 2026 年 10 月 12 日報道，Cantor Fitzgerald 的 Deepak Mathivanan 將亞馬遜的目標價從 320 美元下調至 310 美元，維持增持評級。",
-            "納斯達克分析師目標價：AMZN 是應用於標的股票的長期股票估值；它們不是幣安代幣化期貨工具或任何短期交易時間框架的校準預測。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -1.7402738030783405,
-          "movePrice": 254.08,
-          "regularChangePct": -1.7402738030783405,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -1.4877204030226743,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://blockchain.news/news/20261014-price-prediction-target-amzn-dual-cuts-before-earnings-leave-binance"
-            }
-          ],
-          "score": 930.12
         }
       ]
     }
