@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 20:44 台灣時間",
+  "updatedAt": "2026-10-29 20:48 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,44 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Alphabet 獲利：隨著硬體銷售提振業績，人工智慧貨幣化持續成長",
+      "summary": "",
+      "originalTitle": "Alphabet Earnings: AI Monetization Continues to Grow as Hardware Sales Boost Results",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWpFRGxmUnN4dUswM2h3LS16eS0yYVIycl9xM1hmeWR0UlI4Y2QyUVRrWmV4bkZ2Z1I0UjNsU3dWLXJ3enNiRUhQLUdZWndIbmRDRENIaWtWbm9md3pYQno4UTVOSTR6Z1N3Umsxb3NIMTJoX01VM044alFUQVRydzAyWHNKWGR3RTlJQmVIUlBOOURzYnhIRWFLeFRlaGF3SHNKUTN6S1R4S2VOUVpvRXpQRGx4ZGhSQ05wMzFB?oc=5",
+      "ts": "2026-10-29T12:45:47+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 21.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "KLAC",
       "group": "半導體設備／測試",
       "tag": "利空",
       "title": "Cantor Fitzgerald 下調 KLA（納斯達克股票代碼：KLAC）股價目標",
-      "summary": "",
+      "summary": "Semiconductor manufacturing equipment maker KLA Corporation (NASDAQ:KLAC) reported revenue ahead of Wall Street’s expectations in calendar Q3 2026 (fiscal Q1 2027), with revenue up 28.9% year on year to $4.14 billion. In addition, next quarter’s revenue guidance ($4.7 billion at the midpoint) was surprisingly strong, coming in 4.8% above analysts’ consensus estimates. Its non-GAAP profit of $1.22 per share was 3.5% above analysts’ consensus estimates.",
       "originalTitle": "KLA (NASDAQ:KLAC) Stock Price Target Cut by Cantor Fitzgerald",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYk9KVjR0dDdKYlI3RVdUaUhrRzFmSnhxRmFUYlcwQ3NfTlRCR0RWUmRGLXVRZXJWNG1WUFVJV3NkZFN6NTVfRG1DVGpyTS1QYmpHVW9Zd1RnX2ptOWRhc2lKQmNMLTdaaXFHYk5ycWctVnFNRTFnU1QwUG1UWUw5MzZkNFV4VERiNE8zRFJRXzFnOUVIQnl4UHBfSU5DYnZ2aDBGem9DdlotR0hGb2xldG5PNzBxcEhZeXFhOVVR?oc=5",
+      "originalSummary": "Semiconductor manufacturing equipment maker KLA Corporation (NASDAQ:KLAC) reported revenue ahead of Wall Street’s expectations in calendar Q3 2026 (fiscal Q1 2027), with revenue up 28.9% year on year to $4.14 billion. In addition, next quarter’s revenue guidance ($4.7 billion at the midpoint) was surprisingly strong, coming in 4.8% above analysts’ consensus estimates. Its non-GAAP profit of $1.22 per share was 3.5% above analysts’ consensus estimates.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/kla-corporation-nasdaq-klac-q3-201213172.html",
       "ts": "2026-10-29T12:31:05+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -26,13 +56,13 @@
           "action": "下修",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "reason": "年增至 41.4 億美元。此外，下一季的營收指引（中點為 47 億美元）出乎意料地強勁，比分析師的普遍預期高出 4.8%。其非 GAAP 利潤為每股 1.22 美元，比分析師的普遍預期高出 3.5%。",
+          "reasonConfidence": "high",
           "targetTicker": "KLAC",
           "targetCompany": "KLA"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "KLAC"
       ],
@@ -41,16 +71,17 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：KLA（KLAC）｜券商：Cantor Fitzgerald｜動作：下修｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：KLA（KLAC）｜券商：Cantor Fitzgerald｜動作：下修｜調整原因：年增至 41.4 億美元。此外，下一季的營收指引（中點為 47 億美元）出乎意料地強勁，比分析師的普遍預期高出 4.8%。其非 GAAP 利潤為每股 1.22 美元，比分析師的普遍預期高出 3.5%。",
         "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
+        "why": "調整原因：年增至 41.4 億美元。此外，下一季的營收指引（中點為 47 億美元）出乎意料地強勁，比分析師的普遍預期高出 4.8%。其非 GAAP 利潤為每股 1.22 美元，比分析師的普遍預期高出 3.5%。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：年增至 41.4 億美元。此外，下一季的營收指引（中點為 47 億美元）出乎意料地強勁，比分析師的普遍預期高出 4.8%。其非 GAAP 利潤為每股 1.22 美元，比分析師的普遍預期高出 3.5%。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 9,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -223,6 +254,54 @@
       "top10Rank": null
     },
     {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利空",
+      "title": "Morgan Stanley 上修 MSFT 目標價至 $650",
+      "summary": "",
+      "originalTitle": "Today's Analyst Rating | BofA Securities Cuts Its Price Target Cut on Alphabet-A to $380, Microsoft Price Target Raised to $650 by Morgan Stanley",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2lfTUk1TGc1THE2bTRaYTdYTHg0TDF2SUFLMVMxZEEyMHUyUTZEbHBEWjZRS1d6eGNCOGEzUDc0LUY0d0RMYmI0Vl8zRFc3akxqcV8zbHhSaF9GUlZaUGtmLWtpTVlVYWVxTU9aeERmTTR1Mll6QTRmVzdvZHFEOTdMQVR2WXBqOGUzR1dOblBCTW5EXzZZR1VZUTV0LWwzWDdYVVpB?oc=5",
+      "ts": "2026-10-29T12:00:01+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$380",
+          "oldTarget": "",
+          "reason": "摩根士丹利將 Alphabet-A 升至 380 美元，微軟目標股價升至 650 美元",
+          "reasonConfidence": "medium",
+          "targetTicker": "MSFT",
+          "targetCompany": "Microsoft"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 211.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Morgan Stanley｜目標價：$380｜調整原因：摩根士丹利將 Alphabet-A 升至 380 美元，微軟目標股價升至 650 美元",
+        "numbers": [
+          "$380"
+        ],
+        "why": "調整原因：摩根士丹利將 Alphabet-A 升至 380 美元，微軟目標股價升至 650 美元",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：摩根士丹利將 Alphabet-A 升至 380 美元，微軟目標股價升至 650 美元",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "利多",
@@ -238,7 +317,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -993,7 +1072,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Vertiv（VRT）｜券商：Wells Fargo｜動作：上修｜調整原因：來源未提供具體理由",
@@ -1092,6 +1171,52 @@
       },
       "top10": true,
       "top10Rank": 10
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
+      "summary": "",
+      "originalTitle": "ORCL Maintained by Piper Sandler -- Price Target Stays at $225",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0tsd1VKVXlKand1Ni1TRlNhblhZQ2tNTllPR1lxdndneUhVWXBmZmlndWIzUzNrN1I4TEc5QmIybzlkMDZqNU9zNFd2X2VWZEo5MlFpaDY2UDRBX3Vma2lmUWg5Q0hQbGdCblNJSEJsaGRYdzhEOUVZRk4xLWlZYlExTUJGb1djVElkU1Q2ZDVSZGt1VlhKLXIxMDYyZw?oc=5",
+      "ts": "2026-10-29T10:52:30+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Piper Sandler",
+          "analyst": "",
+          "rating": "",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
+          "reasonConfidence": "medium",
+          "targetTicker": "ORCL",
+          "targetCompany": "Oracle"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Oracle（ORCL）｜券商：Piper Sandler｜動作：重申｜調整原因：ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
+        "numbers": [],
+        "why": "調整原因：ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2921,101 +3046,6 @@
       "eventType": "新題材",
       "analystPriority": false,
       "score": 29.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "股市新聞 - 債券市場 - 貨幣市場",
-      "summary": "",
-      "originalTitle": "Stock Market News - Bond Market - Currencies Markets",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1WSk1SMEVJUWVGN1RIVTEtSThObVFxbkFHTE9ySmdyRUx4NjJMNWsta3lOaFBOVFF5eUEtN0lVaXc5QlFiTEdiQVZYSQ?oc=5",
-      "ts": "2026-10-29T08:26:21+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NOK",
-      "group": "光通訊／網通",
-      "tag": "利多",
-      "title": "SB1 Markets 將 Borregaard 的目標價提高至 185 挪威克朗 (180)，重申買入",
-      "summary": "",
-      "originalTitle": "SB1 Markets raises price target for Borregaard to NOK 185 (180), reiterates buy",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbmpXRnNBMTRqaEViTW9VMjc1UGxYN3RXaWlwSW9adWRNWmxhdEhDTFRDRVJTcTUyWEpXTkFyQWo1bzI1Nlpnc21IRmxtUHowazhXR2cta0VtcHE3cVk4M1pYb29nQ0YyeXpQU0s4RFItV0t3T0FNaTByUEFtOUlWQ3VqVS1VeDlwSEg5eWRXTXEwck1qdGcxYTJrTDc3bE9kQjhwdFYwTDU1UTFjWU1tT0VtNHRxdkFfY3J3V2N5c3RwdnJtZjhGaw?oc=5",
-      "ts": "2026-10-29T08:25:50+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NOK"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "市場走勢|甲骨文投資者日：三個可以改變一切的數字",
-      "summary": "",
-      "originalTitle": "Market Take | Oracle Investor Day: Three Numbers That Could Change Everything",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQmNkRXNQQ0pjRXpLZ3lWRnkwclNqem5BNmdRNTlBT2ZwRm5jNEY1RUY0ZXNMN3NCcjNOaUtUekR3ZFBQWmhub1VMUXM5SEVSTjZfZ3NZUVZlbS12SGNFNG02TUt1N1ZIZ3BySVpWU0pZTUdTeTNORGk3WmZkRWRBbW5jY1VnLU1CeXBxZmh2WFliMWpFUlprQnp5ellkdlFUc3V6cXFZOEgzX3FIY21FZVJmOGhuSXBO?oc=5",
-      "ts": "2026-10-29T08:23:55+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 10.733164789703519,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 10.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
