@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 08:41 台灣時間",
+  "updatedAt": "2026-10-29 08:52 台灣時間",
   "historyUpdatedDate": "2026-10-29",
   "historyLastAttemptAt": "2026-10-28T16:02:45.469658+00:00",
   "historyItemCount": 800,
@@ -115,6 +115,39 @@
       "eventType": "",
       "score": 6.75,
       "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Oracle shares jump as long-term outlook targets $225 billion in revenue",
+      "summary": "",
+      "originalTitle": "Oracle shares jump as long-term outlook targets $225 billion in revenue",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMzhIcmxESWE4a045LXp0Qk1JU25HNlV4Q19sZ2tYN2NHdDBGRkRJZ3VpTUVhX1FVNDRCNDZwYmV0MnJudnU0WkY3aWt5Z0RxQzR0NXc0Tk40YXRDaUY4cG1pamxmMGcydnUyUDNkd3E1a1kxdjFSWEhRM1FVQXlnbUptbkVnb0RVR3lITkJfQ1o5Rm11SjdDbFNmcHRmb1B4WHNhRFAybFMyV2Z0VVMxeHJLZHQzNTFmWlJ4OHdiaGdYYU41?oc=5",
+      "ts": "2026-10-28T23:37:46+00:00",
+      "sourceType": "active_search",
+      "movePct": 10.733164789703519,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 12.75,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1288,7 +1321,7 @@
       ],
       "eventType": "",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1301,6 +1334,55 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "VST",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利空",
+      "title": "Scotiabank 下修 VST 目標價至 $189",
+      "summary": "",
+      "originalTitle": "Vistra Price Target Cut to $189.00/Share From $207.00 by Scotiabank",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbThySWdHeUkyYnlxcXlBMk4wZUF0MUdtbklBTFUtYTRXYTZzVXJiQmh2MEpIWW1uUjlRZjhfbmwtV29CcEwzOW1wLVVBeHRJMlNIWmpMc241cXlPOFBIS2Ztc0ZETm1iLTVfRjE2bnRJS1RZU3NQWHgzR3hRRm9GVUx6dUwwRndweDd0dUltMV9COV9scXNr?oc=5",
+      "ts": "2026-10-28T21:25:57+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Scotiabank",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$189",
+          "oldTarget": "$207",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "VST",
+          "targetCompany": "Vistra"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "VST"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Vistra（VST）｜券商：Scotiabank｜動作：下修｜目標價：$189（原 $207）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$207",
+          "$189"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1437,7 +1519,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "NVDA",
@@ -1644,8 +1726,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2279,7 +2361,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2640,68 +2722,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "甲骨文計畫將現金流轉正，緩解人工智慧支出擔憂",
-      "summary": "",
-      "originalTitle": "Oracle eases AI spending worries with plan to turn cash flow positive",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWxPZy11QV9mWTN3NnBKTlNXVWhVQ3ZsSzA5bGRwZnRrNXZsQW83NWVreGhVbmhkNE1VeDc4V0VVamtQb0lCaFU3SEYzcG1paGJ3WWt1cHB2YnlUQ0VvTWNHcEdyalZMenkxSVo5Vm5MTlowcGR4UDZGcnZOcmhqM285amVvTmhLX2xIWTVUM0hXbUJsWlhfT2RWMUV6U2ZIeldYUkRXUzlNTVk?oc=5",
-      "ts": "2026-10-28T20:00:22+00:00",
-      "sourceType": "active_search",
-      "movePct": 10.733164789703519,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
-      "summary": "",
-      "originalTitle": "Fed’s Rate Hold Sends Bond Yields in Different Directions",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaEkwMGl6T29kQlFSbU9EanZNX3VMdG5PcG9tWXh3cUQ0U0R5ZTFuUU1QRl9PWl9nd2l4bFpwWl9OOFFTS0VfSV9UcFR0VEtsRW9ld25admRIbkFQa292VTNWVV9xb2g3ZlQwZ2ZuNlVSQkNTQzhGN0RDSl9wZ0hDWi1fcGFTRnJHUTAzeEhUY1BZeVFJU1ZyaVFPdDkzNm9sVTVmcm9pSkxRWjlTOHRpSjlPNmxUb0pPaHBN?oc=5",
-      "ts": "2026-10-28T20:00:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
