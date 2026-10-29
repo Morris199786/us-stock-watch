@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 01:58 台灣時間",
+  "updatedAt": "2026-10-30 02:03 台灣時間",
   "historyUpdatedDate": "2026-10-30",
   "historyLastAttemptAt": "2026-10-29T16:12:06.662984+00:00",
   "historyItemCount": 800,
@@ -958,6 +958,36 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Alphabet 業績重燃人工智慧支出擔憂 納斯達克指數下跌逾 1% 路透社",
+      "summary": "",
+      "originalTitle": "Nasdaq slides over 1% as Alphabet results revive AI spending fears By Reuters",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRklPNkJLaEpqay1WRktGeWgtNDE1QUhYV2tiVEFDbzZEY1Z4OGVwY0Nmd1BDUzJXc3pzSEtnUG41X0h6ZmRjU1dpenB2WFI3MVdJSEVSdTIyNG56bHNBVXhaN0J0SE1YZ3dQVW1MOWhLRnlucHd6Y1ZWWHlfRWV5VUp5Qm50aGVfZHNaTXhFX0p6M25UUUNzVDJYVmNpRWg1MkVQaWo2Y1FTajBjSlVVV2Nn?oc=5",
+      "ts": "2026-10-29T15:45:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2745,6 +2775,52 @@
       "top10Rank": null
     },
     {
+      "ticker": "KLAC",
+      "group": "半導體設備／測試",
+      "tag": "利空",
+      "title": "Stifel 下修 KLAC 目標價至 $230",
+      "summary": "",
+      "originalTitle": "KLAC Maintains by Stifel -- Price Target Lowered to $230",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcnFBUFRzOFFLWi15VGJPQ2FWajVaWTdYeURoT0s0b2tZTlFPYU1NYlJpMkhlTFZCZllSdVg4Y2JCcmFmSkhPWndUaFM5RExpSUkyOXRZYjU0NklTa2NIUkdrN2lBZlo1c0Z2bi1pbGhTZEhvTVNKdEdtSDJBWEg3cXZkcDhYTThfQ1A0RjlBQkU4RVdVOVE?oc=5",
+      "ts": "2026-10-29T14:13:48+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Stifel",
+          "analyst": "",
+          "rating": "",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "Stifel 維持 KLAC 評級——目標價下調至 230 美元",
+          "reasonConfidence": "medium",
+          "targetTicker": "KLAC",
+          "targetCompany": "KLA"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "KLAC"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：KLA（KLAC）｜券商：Stifel｜動作：重申｜調整原因：Stifel 維持 KLAC 評級——目標價下調至 230 美元",
+        "numbers": [],
+        "why": "調整原因：Stifel 維持 KLAC 評級——目標價下調至 230 美元",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Stifel 維持 KLAC 評級——目標價下調至 230 美元",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MRVL",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -2962,77 +3038,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "股市回吐科技股主導的跌幅，原油下跌：市場總結",
-      "summary": "",
-      "originalTitle": "Stocks Pare Tech-Led Losses, Crude Oil Declines: Markets Wrap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
-      "ts": "2026-10-29T14:00:03+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "VRT",
-      "group": "AI Server／資料中心硬體",
-      "tag": "利多",
-      "title": "RBC 將 Vertiv Holdings 的目標股價從 323 美元上調至 351 美元，並維持跑贏大盤評級",
-      "summary": "RBC 將 Vertiv Holdings 的目標價從 323 美元上調至 351 美元，維持跑贏大盤評級 根據 FactSet 調查的分析師，Vertiv Holdings 的平均評級為買入，平均目標價為 333.13 美元。 ……",
-      "originalTitle": "RBC Raises Price Target on Vertiv Holdings to $351 From $323, Keeps Outperform Rating",
-      "originalSummary": "RBC Raises Price Target on Vertiv Holdings to $351 From $323, Keeps Outperform RatingVertiv Holdings has an average rating of buy and mean price target of $333.13, according to analysts polled by FactSet. ...",
-      "url": "https://www.marketscreener.com/news/rbc-raises-price-target-on-vertiv-holdings-to-351-from-323-keeps-outperform-rating-ce785fdad98ef72c",
-      "ts": "2026-10-29T13:59:37+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "VRT"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "RBC 將 Vertiv Holdings 的目標價從 323 美元上調至 351 美元，維持跑贏大盤評級 根據 FactSet 調查的分析師，Vertiv Holdings 的平均評級為買入，平均目標價為 333.13 美元。 ……",
-        "numbers": [
-          "$351",
-          "$323,",
-          "$333.13,"
-        ],
-        "why": "券商調整理由：RBC 將 Vertiv Holdings 的目標價從 323 美元上調至 351 美元，維持跑贏大盤評級 根據 FactSet 調查的分析師，Vertiv Holdings 的平均評級為買入，平均目標價為 333.13 美元。 ……",
-        "stance": "RBC 將 Vertiv Holdings 的目標價從 323 美元上調至 351 美元，維持跑贏大盤評級 根據 FactSet 調查的分析師，Vertiv Holdings 的平均評級為買入，平均目標價為 333.13 美元。 ……",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：RBC 將 Vertiv Holdings 的目標價從 323 美元上調至 351 美元，維持跑贏大盤評級 根據 FactSet 調查的分析師，Vertiv Holdings 的平均評級為買入，平均目標價為 333.13 美元。 ……",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
@@ -7714,7 +7719,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "AMKR 第三季深入探討：先進封裝推動利潤率成長，指引反映了溝通阻力",
-      "summary": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。 Next quarter’s revenue guidance of $1.95 billion underwhelmed, coming in 2.8% below analysts’ estimates. Its GAAP profit of $0.76 per share was 3.4% below analystss conatessus estimates.",
+      "summary": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。下一季 19.5 億美元的營收指引表現不佳，比分析師的預期低 2.8%。其 GAAP 利潤為每股 0.76 美元，比分析師的普遍預期低 3.4%。",
       "originalTitle": "AMKR Q3 deep dive: advanced packaging drives margin gains, guidance reflects communication headwinds",
       "originalSummary": "Semiconductor packaging and testing company Amkor Technology (NASDAQ:AMKR) missed Wall Street’s revenue expectations in Q3 2026, with sales flat year on year at $1.99 billion. Next quarter’s revenue guidance of $1.95 billion underwhelmed, coming in 2.8% below analysts’ estimates. Its GAAP profit of $0.76 per share was 3.4% below analysts’ consensus estimates.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/amkr-q3-deep-dive-advanced-133447050.html",
@@ -7730,7 +7735,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。 Next quarter’s revenue guidance of $1.95 billion underwhelmed, coming in 2.8% below analysts’ estimates. Its GAAP profit of $0.76 per share was 3.4% below analystss conatessus estimates.",
+        "event": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。下一季 19.5 億美元的營收指引表現不佳，比分析師的預期低 2.8%。其 GAAP 利潤為每股 0.76 美元，比分析師的普遍預期低 3.4%。",
         "numbers": [
           "$1.99 billion",
           "$1.95 billion",
@@ -7738,7 +7743,7 @@
           "2.8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。 Next quarter’s revenue guidance of $1.95 billion underwhelmed, coming in 2.8% below analysts’ estimates.",
+        "stance": "半導體封裝與測試公司 Amkor Technology（納斯達克股票代碼：AMKR）2026 年第三季營收未達華爾街預期，銷售額較去年同期持平，為 19.9 億美元。下一季 19.5 億美元的營收指引表現不佳，比分析師的預期低 2.8%。其 GAAP 利潤為每股 0.76 美元，比分析師的普遍預期低 3.4%。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -22168,7 +22173,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 的 Braze 交易對 Marketing Cloud 客戶意味著什麼？",
-      "summary": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。当您继续阅读时，您将看到这种不断发展的叙述如何影响接下来围绕股票和交易的关注。",
+      "summary": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。當您繼續閱讀時，您將看到這種不斷發展的敘述如何影響接下來圍繞股票和交易的關注。",
       "originalTitle": "What Does Salesforce’s Braze Deal Mean for Marketing Cloud Customers?",
       "originalSummary": "The latest analyst update for Braze lifts the Fair Value Estimate from US$36.25 to about US$40.54 per share, which now sits closer to the agreed US$47.50 cash offer from Salesforce. Recent research has shifted toward the deal terms and what this takeout price means for Braze holders, so the refreshed target levels are clustering around that reference point rather than an open ended standalone case. As you read on, you will see how this evolving narrative could shape what to watch next around the stock and the deal.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/braze-brze-stock-sees-fair-081505615.html",
@@ -22184,14 +22189,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。当您继续阅读时，您将看到这种不断发展的叙述如何影响接下来围绕股票和交易的关注。",
+        "event": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。當您繼續閱讀時，您將看到這種不斷發展的敘述如何影響接下來圍繞股票和交易的關注。",
         "numbers": [
           "$36.25",
           "$40.54",
           "$47.50"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。当您继续阅读时，您将看到这种不断发展的叙述如何影响接下来围绕股票和交易的关注。",
+        "stance": "Braze 的最新分析師更新將公允價值估計從每股 36.25 美元上調至約 40.54 美元，目前更接近 Salesforce 商定的 47.50 美元現金報價。最近的研究已轉向交易條款以及外賣價格對 Braze 持有者意味著什麼，因此更新後的目標水準集中在該參考點周圍，而不是一個開放式的獨立案例。當您繼續閱讀時，您將看到這種不斷發展的敘述如何影響接下來圍繞股票和交易的關注。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
