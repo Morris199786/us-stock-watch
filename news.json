@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-10-30 18:10 台灣時間",
+  "updatedAt": "2026-10-30 18:15 台灣時間",
   "historyUpdatedDate": "2026-10-30",
   "historyLastAttemptAt": "2026-10-29T16:12:06.662984+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-30",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "摩根大通將英特爾的目標股價從 85 美元調整為 80 美元",
+      "summary": "",
+      "originalTitle": "JPMorgan Adjusts Price Target on Intel to $80 From $85",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT1hDeHB6REZzTnptTVREMUtXT1NKYkZ1N0pkLTVuNEpvZmlKX1k5aUtKQmJBcFY5U19jTXc1bV8wd1lWSXpwUlE0QVVyWk54OFhSMFJJRU9ncXAzcnVCTFdLeHZWNUtxX1VpcC1hcjN5bFNmTzVGSWw4aElSTDYtMGt0S2k3cEhqeFJxLXJnNDExTGoySGpHYVdKTG5oQXYtdldIRm1ad0I?oc=5",
+      "ts": "2026-10-30T10:06:58+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "JPMorgan",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$80",
+          "oldTarget": "$85",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：JPMorgan｜動作：下修｜目標價：$80（原 $85）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$85",
+          "$80"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -54,6 +103,37 @@
       ],
       "eventType": "",
       "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "隨著供應擔憂加深，華爾街銀行上調油價預測",
+      "summary": "",
+      "originalTitle": "Wall Street Banks Raise Oil Price Forecasts as Supply Fears Deepen",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSi14TUJuT1BrWi0tUVJTcnVrSTdPbEY3cjZvRWg2QlZySXRVbDRxRlpHYnphei1GY015WmxENTdZSkQzLWtYbUo4ZnJXM1BFdGFEMjFqMko3OHpEb085RzZOdFphUURPRkR2NE9sQ0NlV3lELTJlYXRTR3cxbS1mTWQ5UXJLNUVmS1RUdzJxZjhwOWdQei1LbW42YkdOeHUzc1ZQclB4bmhxWDBHNnhxUmlud2Rndy1IMWc4bFVpWdIBxAFBVV95cUxPeGwxTUJqN3NEZTJBeF96T0p0U3VTdE1WS3BzMy1Ic2ZOTWhEQjZvZk4xS3RkYUY1R2U5Wlo3Sjdnc01qcm1Fd3dmRFoxWm1rMXFkS0dCV1p1Y0J5Y2hiNlhNUFg2Mnc2TmwyYmdvVVZIdk54NmNXMzRLd1M0UlJYSVJxT2RrV05Nd0Vidl9NV3BCcFdHVVB2YURqNVRvYWwtRHhocDRtdkhpMG5ERWFkRE15YUdzZFBsVnhlVU04a2ZfUy1w?oc=5",
+      "ts": "2026-10-30T10:00:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -166,7 +246,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -835,7 +915,7 @@
       ],
       "eventType": "",
       "score": 208.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1252,8 +1332,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MSFT",
@@ -2085,6 +2165,38 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "WOLF",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "WOLF 261030 24.50P (WOLF261030P24500) 股票選擇權鏈|行情與新聞",
+      "summary": "",
+      "originalTitle": "WOLF 261030 24.50P (WOLF261030P24500) Stock Options Chain | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NRXdXVWk1RTNTVTBURW80cWdSTHZPYlpjeUtKR0UxcTc5ZmgxbzBWQ3R4eTVzcXNWaWdtMGZlSlhjZVhtYmdobGpYYnMydUpLLTlRbkhqbVRqY2kwYWxn?oc=5",
+      "ts": "2026-10-30T05:10:16+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -6.343843843843844,
+      "relatedTickers": [
+        "WOLF"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NBIS",
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
@@ -2365,7 +2477,7 @@
         "CAT"
       ],
       "eventType": "",
-      "score": 207.0,
+      "score": 179.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2377,8 +2489,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2843,100 +2955,6 @@
       "movePct": 5.878066553315531,
       "relatedTickers": [
         "KTOS"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "$Alphabet-A (GOOGL.US)$ 我認為這是 Google 搜尋開始顯示出成長放緩跡象的原因之一.. 因為人們很懶 bruhhhh.. 任何問題都問聊天機器人.. 都問 AI.. 做你自己的研究 lahhh...",
-      "summary": "",
-      "originalTitle": "$Alphabet-A (GOOGL.US)$ I think this is one of the reasons why Google search Is beginning to show signs of slowing growth.. because people are lazy bruhhhh.. any problem all ask chatbot.. all ask AI.. do your own research lahhh...",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYi1HZVFTcGluRWsxbVEzek5yUTJ6SXdQU2R6eXpkeUNGUFpBcktkTEJKbHNiVDV4N1V3UXo2dHBvV0gzZ1JuMzJreC1mRnRNRDM0SXp0RFdDdzM1Y01RcUZCM0hadHpwLW9wR1R2dnlGamxEZFV3ODZPTHJyd2p0NHZuQnhYNFFJVXZQWGVPTXIwaTFGdUJmUlVYNTg?oc=5",
-      "ts": "2026-10-30T02:24:56+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -12.641201637477295,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "",
-      "score": 16.9,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "不確定性籠罩和平希望，油價回升",
-      "summary": "",
-      "originalTitle": "Oil Ticks Back Up as Uncertainty Clouds Peace Hopes",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdFZWTlFHajdZRll1dGNDQ296LUs3Nkl2QUtPRy1NN19WWkJPS0llTUI4NGhHVkpxM01Rc1Vac0FqcVF3bk1DSVdsR3BEQzBPaUpndDVNZlJ4M2ExekdXSTJPVUdqNWFoRGRmTFU1LVA4dEI0QnFWMUo3VjFtVlhnODV1VjFHendYbDhzelhkRWJJVGJLODJLcWZ6M19MUXVSVjBGZ1VIb2JJclNK?oc=5",
-      "ts": "2026-10-30T02:18:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "$SK hynix (SKHY.US)$ 光漲兩天就回吐全部漲幅😳 幸運的是，我平倉了。",
-      "summary": "",
-      "originalTitle": "$SK hynix (SKHY.US)$ It gave back all its gains after just two days of rising 😳 Luckily, I closed out one position.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVnBFWWNNZHBIYUhpTVlkTFllay1GbmdHS0NSbnVPSDdjVnlnZUFHYngydDdrMXZTNExhTWdzbW9HSnBnTjVLUnZ6cGRhSmVZem1mVkdWa21uem5BclVKWWc3a1RhTGpZRUVPQ3dGTEtDbE5jRzI4V3pHTXh6NGc5bk05N21LOE9xWVNUUEVEd1JSRnNCc2IwWXh3UmZXbTFf?oc=5",
-      "ts": "2026-10-30T02:11:09+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -5.5045871559633035,
-      "relatedTickers": [
-        "SK HYNIX"
       ],
       "eventType": "",
       "score": 9.1,
