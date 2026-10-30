@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 04:15 台灣時間",
+  "updatedAt": "2026-10-31 04:20 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
@@ -24,6 +24,36 @@
       "eventType": "",
       "analystPriority": false,
       "score": 14.25,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "科技股拋售加劇，華爾街跌至六月以來最糟糕的一天",
+      "summary": "",
+      "originalTitle": "Wall Street tumbles to its worst day since June after the sell-off for tech stocks deepens",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SRUpOVUF4OTc3bVo4TVFPMkdGMmxNODU1TWZ5OEp4VWhBSV85cS1vczFVM19zaUIxVi1TbUhHXzlhejJaaEdGZ2laRUQ1aEpIZFhDdlpqMUlINmpoV1I0bnB4dTFrWnNPOWNaQndCYm5BZ1FrN1VKYQ?oc=5",
+      "ts": "2026-10-30T20:05:22+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -101,6 +131,55 @@
     {
       "ticker": "AMZN",
       "group": "CSP",
+      "tag": "利空",
+      "title": "Scotiabank 下修 AMZN 目標價至 $300",
+      "summary": "",
+      "originalTitle": "Scotiabank maintains Amazon.com at Sector Outperform, lowers price target to $300 from $325",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPX2RlSVc5TF9NSExvNFh0LU9idGZTYTZaM2Z6VGZscWxwWWRmSzVQSFRsQmVsQ3duMkkxQ0J2bWx2SmFKdWxBdFpWSE1ZbTBXZWJjRGU5Vm1XT3FjYndNengxdEpMamp0MjhHTFBoVlJlZm1aYWlVWjFMZ2NEbE1HTXZYd0ZOSjNUbEJHdHVkWGFnUHlYVVg5N3ZwcXdfd3lFaGJYc0dDTGRnZ2F0VFl1UnpoR0UwaVJDRmJ1WFJSYmd4LUpydEpjV3psMndVU3NoMDB3LU5kaVFST3hsOXZpRVBLTXk?oc=5",
+      "ts": "2026-10-30T19:40:59+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Scotiabank",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "下修",
+          "newTarget": "$300",
+          "oldTarget": "$325",
+          "reason": "豐業銀行維持亞馬遜的產業表現優於大盤，並將目標價從 325 美元下調至 300 美元",
+          "reasonConfidence": "medium",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：Scotiabank｜動作：下修｜評等：Outperform｜目標價：$300（原 $325）｜調整原因：豐業銀行維持亞馬遜的產業表現優於大盤，並將目標價從 325 美元下調至 300 美元",
+        "numbers": [
+          "$325",
+          "$300"
+        ],
+        "why": "調整原因：豐業銀行維持亞馬遜的產業表現優於大盤，並將目標價從 325 美元下調至 300 美元",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：豐業銀行維持亞馬遜的產業表現優於大盤，並將目標價從 325 美元下調至 300 美元",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
       "tag": "題材",
       "title": "Rosenblatt 維持亞馬遜目標價為 360.00 美元/股",
       "summary": "",
@@ -141,8 +220,8 @@
         "takeaway": "調整原因：Rosenblatt 維持亞馬遜目標價為 360.00 美元/股",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 4
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -160,7 +239,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 12.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -427,7 +506,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -666,7 +745,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -822,7 +901,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "INTC",
@@ -904,7 +983,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1140,7 +1219,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "INTC",
@@ -1238,7 +1317,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "CAT",
@@ -1286,8 +1365,8 @@
         "takeaway": "調整原因：摩根士丹利維持卡特彼勒評級不變，並將目標價從 915 美元下調至 675 美元",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1521,7 +1600,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2286,7 +2365,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2754,7 +2833,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -2852,87 +2931,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "AXTI",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "AXTI 第三季收益創歷史新高 InP 銷售額和利潤率成長",
-      "summary": "",
-      "originalTitle": "AXTI Q3 Earnings Beat on Record InP Sales and Margin Gains",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeWpnbVJsRjZiOGpqb2JiNEYtbDluZW9CWThqdUxPMWJyTGpkZmZ2NUtfeldINXg5alMzVnBLVjVCT1RVczhtT2JFT1RKeENHek02elBFZHNlbTBNcTJnY0s5cGw1Z3VqTUx6RU9Na0JWMlRiWUZxZnFTLUlpbmFzVkloMHBYeFNWMTViNEVHSnJlLXAxZVF0ZEMzQTN2a2NK?oc=5",
-      "ts": "2026-10-30T15:56:15+00:00",
-      "sourceType": "active_search",
-      "movePct": -15.374507227332456,
-      "relatedTickers": [
-        "AXTI"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 23.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "QCOM",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "儘管 DA Davidson 上調了 Anthropic 和 OpenAI IPO 希望，博通仍下跌 5%； Arm 和高通下跌 10%，Marvell 下跌 8%",
-      "summary": "",
-      "originalTitle": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxONDA3Z0RHYkNET1dzQXpxODIxanAyc2hqSU11VGhlZ3E5dUdwTTJrQzR3bl9sWXVPWGRGaWprVWZNdjJWS3d4SURzY0VzaXdZNnpkQTNRbThsYkpRVUZwQjlzOEZfcHFIdk9YUlpXeEd6aHljd21KQlo2amtsTmNyUFR4SDZsaTZMcjBjNkh5YXBrOHhtcnpBLW1UZkU1RnFHNHRza2MwMUNvT1hYZzZadkhuWHh0aXNmMV8wSi01RVVGZzUyM3E1S3llNlNnNG5lU2NDTldJUXAzUGNuT1RMOHA3aERBVXBnZHhNdm5DVEE5WEg4Rmc?oc=5",
-      "ts": "2026-10-30T15:56:00+00:00",
-      "sourceType": "active_search",
-      "movePct": -11.552774931233479,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "QCOM",
-        "AVGO",
-        "MRVL"
-      ],
-      "eventType": "",
-      "analystPriority": true,
-      "score": 230.25,
-      "featured": false,
-      "translated": true,
-      "analystDetails": [
-        {
-          "broker": "DA Davidson",
-          "analyst": "",
-          "rating": "",
-          "action": "升評",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "Anthropic 和 OpenAI IPO 希望； Arm 和高通下跌 10%，Marvell 下跌 8%",
-          "reasonConfidence": "high",
-          "targetTicker": "QCOM",
-          "targetCompany": "Qualcomm"
-        }
-      ],
-      "investorBrief": {
-        "event": "被評級公司：Qualcomm（QCOM）｜券商：DA Davidson｜動作：升評｜調整原因：Anthropic 和 OpenAI IPO 希望； Arm 和高通下跌 10%，Marvell 下跌 8%",
-        "numbers": [],
-        "why": "調整原因：Anthropic 和 OpenAI IPO 希望； Arm 和高通下跌 10%，Marvell 下跌 8%",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Anthropic 和 OpenAI IPO 希望； Arm 和高通下跌 10%，Marvell 下跌 8%",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 1
     }
   ],
   "historyItems": [
