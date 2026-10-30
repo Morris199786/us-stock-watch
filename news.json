@@ -1,11 +1,60 @@
 {
-  "updatedAt": "2026-10-31 02:07 台灣時間",
+  "updatedAt": "2026-10-31 02:13 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-30",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "利空",
+      "title": "Wedbush 下修 INTC 目標價至 $75",
+      "summary": "",
+      "originalTitle": "Intel Price Target Cut to $75.00/Share From $98.00 by Wedbush",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU0o2NkhuaEE1LTg1QU0xN3djdkFzRHVpWWRPVUFYMGJhdmRGSkRMWm0ycm1wTzZzNXFCRk9TdG93RHh1cmZPV2pJRWhfRHR1c1RGanpKcVJGbTA1eV9ubFFqQ3hpNFA3Skw4NXlHZTE3U29YNnI4RnJENUFCYnhPbF9nS3QyeFVzUUlzRUhiWmlLUzA?oc=5",
+      "ts": "2026-10-30T18:06:30+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Wedbush",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$75",
+          "oldTarget": "$98",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：Wedbush｜動作：下修｜目標價：$75（原 $98）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$98",
+          "$75"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -78,8 +127,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -97,6 +146,39 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "亞馬遜和英特爾的業績嚇壞了投資者，科技股遭到拋售",
+      "summary": "",
+      "originalTitle": "Tech Stocks Sell Off as Amazon and Intel Earnings Spook Investors",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZlFhZllwNG5BdnJkTVpxS2F0TGtSUjltU0hLOEVrbEU2b25jdzRXV2phdThPRWdhVEg4aHJBUGs1Q0k1UzZlemk2cDF6dkV6RlF3V2dsSFdFM2tnQnFQRzR0V2RqbE85TnQ1UFNUaXkxWGFZVGdiRnROckVOem1NZXpyLVpHN3ZoVXdreE5aTy1aOUR2RWpwSXdOazVnMTdubW56M053?oc=5",
+      "ts": "2026-10-30T17:23:12+00:00",
+      "sourceType": "active_search",
+      "movePct": -30.769523188878022,
+      "relatedTickers": [
+        "INTC",
+        "AMZN"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 35.25,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -220,23 +302,24 @@
       "top10Rank": null
     },
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "題材",
-      "title": "谷歌第一顆資料中心衛星上線並正在寫詩",
+      "title": "標普 500 指數預測：標普 500 指數下跌，Meta 和特斯拉公佈財報後，科技股領跌",
       "summary": "",
-      "originalTitle": "Google’s first data center satellite is online and writing poetry",
+      "originalTitle": "S&P 500 Forecast: SPX falls, led by tech after Meta, Tesla earnings",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWFhS0ZkZnRnV2JEWFJWNXMyb1U4eWxqQ2JUOWM4RXBZOHNNemh0QWVxbWxrYzhXSVpkWEg0U0gzWENkbmJZU1RzZmNhWS1MRWNTVEpuQzlrSGZKR0ZOQW9ReXBjbXc0dzVzNjdCZ0tndU1LT1BrSEE1MWRmeVRVUU01ZDBlQkE1RHY2T0pWOHY2YTNiQy1iZVZnRDU0UWFU?oc=5",
-      "ts": "2026-10-30T17:00:00+00:00",
-      "sourceType": "cross_event_search",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakxVVDI1b0tDV1ozbWZXd29kTFR0VU5QOU9USWFDeWtoWXVfY2dDS3NoWGFmWTNyTkxUQVNCaDVXTjJNSk85SmE5eVVSNlQxbmhVUkZLSTB6R2xiWDJYeE1GM1BHVDhQRGtwN3BlMC1taWlrX0JUYmZockc1c0hKVnV4VWRqLWlZWkZGRDExQjZVQ28tdFJIN2REQVFQSXVhQmMySnptRURVUTU0endoUFNMOGo?oc=5",
+      "ts": "2026-10-30T17:04:29+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "TSLA"
       ],
-      "eventType": "新題材",
-      "score": 19.5,
-      "featured": true,
+      "eventType": "",
+      "score": 18.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -248,8 +331,77 @@
         "sourceQuality": "headline_only"
       },
       "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌第一顆資料中心衛星上線並正在寫詩",
+      "summary": "Google’s Suncatcher orbital data center prototype began operating and communicating with Earth after being launched aboard a SpaceX Falcon 9 rocket earlier this month. The satellite carries one Google Tensor Processing Unit (TPU) processor, as well as Google DeepMind’s Gemma 4 AI model. As TechCrunch reports , the model’s first task was to write a haiku about being in space. The satellite generates up to 1 kW of electricity and is intended to serve as a testbed for future networks of spacecraft that will perform la",
+      "originalTitle": "Google’s first data center satellite is online and writing poetry",
+      "originalSummary": "Google’s Suncatcher orbital data center prototype began operating and communicating with Earth after being launched aboard a SpaceX Falcon 9 rocket earlier this month. The satellite carries one Google Tensor Processing Unit (TPU) processor, as well as Google DeepMind’s Gemma 4 AI model. As TechCrunch reports , the model’s first task was to write a haiku about being in space. The satellite generates up to 1 kW of electricity and is intended to serve as a testbed for future networks of spacecraft that will perform large AI inference tasks in orbit. At the same time, the TPU’s power consumption allows it to be switched on for about 20 minutes at a time, complicating communication between the satellite and ground stations. Before beginning operations, the spacecraft spent about three weeks undergoing checks of its onboard systems. A Google representative told the publication that the satellite is operating normally. In addition to the poetry task, engineers also asked the spacecraft to report on conditions in its orbit. More current news is available on the UA.News Telegram channel Telegram . The next stage of testing will assess the chip’s performance under temperature stress and in conditions of space radiation. Google has already tested the TPU on Earth using particle accelerators, but will now examine the actual effects of radiation in space. It can cause so-called bit flips — changes to values stored in memory that can potentially lead to data corruption without triggering conventional monitoring systems. Ground tests indicated that radiation would have little impact on inference, while model training may be more vulnerable. If the TPU installed on Suncatcher confirms its operability, Google plans to launch two more satellites with improved chips in 2027. They will have more powerful energy supplies and are expected to demonstrate optical inter-satellite communication links.",
+      "url": "https://ua.news/en/technologies/suputnik-google-iz-tpu-napisav-khaiku-pislia-pochatku-roboti-na-orbiti-techcrunch",
+      "ts": "2026-10-30T17:00:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 34.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Google’s Suncatcher orbital data center prototype began operating and communicating with Earth after being launched aboard a SpaceX Falcon 9 rocket earlier this month. The satellite carries one Google Tensor Processing Unit (TPU) processor, as well as Google DeepMind’s Gemma 4 AI model. As TechCrunch reports , the model’s first task was to write a haiku about being in space. The satellite generates up to 1 kW of electricity and is intended to serve as a testbed for future networks of spacecraft that will perform la",
+        "numbers": [],
+        "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
+        "stance": "Google’s Suncatcher orbital data center prototype began operating and communicating with Earth after being launched aboard a SpaceX Falcon 9 rocket earlier this month. The satellite carries one Google Tensor Processing Unit (TPU) processor, as well as Google DeepMind’s Gemma 4 AI model.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
       "top10Rank": null,
-      "hasArticleBody": false
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "標普 500 指數預測：SpaceX 上漲後 SPX 上漲，Meta 接下來上漲",
+      "summary": "",
+      "originalTitle": "S&P 500 Forecast: SPX rises after SpaceX jumps, Meta up next",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLUFWRWY0Z1M0azJJZ1UyTTFxVG9CcExpUk9mZmhsS2dxWm5NWFBOaU13Z2JPZ2FhUHFVZDdtSFdSRHZHSGFZeFNPeEN1cjlnVk1OSDFpX2R3OEFDRml1TGVvVjZXb2V0SllBODZJOEhFTDV6U2pmYzJTMThiZHJFYU12M2EwMG8zemZWYXNRLVpDY0xWeG04NlF3T3paMlpXVWxoay1tSDJpRENB?oc=5",
+      "ts": "2026-10-30T16:58:12+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -489,7 +641,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 2,
       "detailSource": "article_or_same_event"
     },
     {
@@ -526,6 +678,36 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "隨著對人工智慧熱潮的擔憂加深，科技股將蒸發逾1兆美元",
+      "summary": "",
+      "originalTitle": "Tech stocks set to wipe out more than $1 trillion as concerns deepen about the AI boom",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3d4RHVLejNUQk5KamNvZkpmVm9BT1JQUS0xQXNxaHFVVHYwYTJ4TnRIQ0I4RkUwbmR2aWQ4VXRzaDAwdmI4Q3Q4S1lFZlhqNTBxY1p6WDVGdkFxQjdPa05BYWx4TGdsempHY3YzWllDRDRxN2Z0T2w5M1FtVGcydzNaOUdRWWgzYTdfVFJQTDJZU25NOUE?oc=5",
+      "ts": "2026-10-30T16:38:45+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "Meta 透過新的 Fortera 協定支援低碳水泥",
       "summary": "",
       "originalTitle": "Meta backs low-carbon cement with new Fortera deal",
@@ -538,6 +720,39 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "亞馬遜利用 800 億美元的供應商貸款機制為人工智慧提供資金",
+      "summary": "",
+      "originalTitle": "Amazon Taps $80 Billion Supplier Loan Facility to Help Fund AI",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTGlqT05HdWhOY0RUM0FZbUp2TThsRm5yNFVNVE40TldvNGhPWEdQYy01NTBnc0c1d3E0OFU0eFk5aHlMbWxsYUEzSGdLU2J3blhoYWNnYnFsZlp4ZHRiOVA4WjU5aU5CSC0wMGJaUkRuRW5MX3lBMHlzdmpSMGNheEZteGZ3Sks3MmtzODRMbVIyampYaFVDYmpybmhIZFBLUENNaU44VGdWYWlMTXZVZUln?oc=5",
+      "ts": "2026-10-30T16:36:14+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 15.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -603,6 +818,38 @@
       ],
       "eventType": "",
       "score": 27.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "英特爾的獲利影響也打擊了您的指數基金",
+      "summary": "",
+      "originalTitle": "Intel’s Earnings Fallout Is Hitting Your Index Funds Too",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ1FCbUtNcmJUcXJ0R1RzNFU4clFFbmhrSmNLSDc1Y3BrQ0p5eTNkZldMZHBvc3hDVGwxREhuVy0wcTVFTVluODduaS1aY21odXp0elUtZExsSlB1Z1YxbnZKZ2RGNW1nVUFPTi1MQV9vVTcyeDBwMUpld25fNmRiaEJBeWFwaTdBdjVOdk5CeExLbkFrbW45R0M5V1RCU2lmQXdR?oc=5",
+      "ts": "2026-10-30T16:21:11+00:00",
+      "sourceType": "active_search",
+      "movePct": -30.769523188878022,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 20.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -992,7 +1239,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1104,8 +1351,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "AMZN",
@@ -1138,7 +1385,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Amazon（AMZN）｜券商：DA Davidson｜動作：重申｜評等：neutral｜調整原因：DA Davidson 重申對 AWS 成長的亞馬遜股票中性評級",
@@ -1201,7 +1448,7 @@
       "eventType": "",
       "analystPriority": true,
       "score": 222.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Intel（INTC）｜券商：Citi｜評等：buy｜目標價：$100｜調整原因：花旗仍然相信英特爾的技術和執行長的代工策略，但預計「爭論將更多地轉向英特爾是否有能力足夠快地釋放足夠的製造能力和外部代工客戶，以將強勁的數據中心需求轉化為盈利增長」。\n被評級公司：Intel（INTC）｜券商：Bank of America｜評等：buy｜目標價：$100｜調整原因：花旗仍然相信英特爾的技術和執行長的代工策略，但預計「爭論將更多地轉向英特爾是否有能力足夠快地釋放足夠的製造能力和外部代工客戶，以將強勁的數據中心需求轉化為盈利增長」。\n被評級公司：Intel（INTC）｜券商：Bank of America｜動作：下修｜評等：buy｜目標價：$100（原 $145）｜調整原因：花旗仍然相信英特爾的技術和執行長的代工策略，但預計「爭論將更多地轉向英特爾是否有能力足夠快地釋放足夠的製造能力和外部代工客戶，以將強勁的數據中心需求轉化為盈利增長」。\n被評級公司：Intel（INTC）｜券商：Citi｜評等：buy｜目標價：$100｜調整原因：花旗仍然相信英特爾的技術和執行長的代工策略，但預計「爭論將更多地轉向英特爾是否有能力足夠快地釋放足夠的製造能力和外部代工客戶，以將強勁的數據中心需求轉化為盈利增長」。",
@@ -1578,7 +1825,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1690,7 +1937,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -1797,7 +2044,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 4
     },
     {
       "ticker": "INTC",
@@ -2422,7 +2669,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 8
     },
     {
       "ticker": "KLAC",
@@ -2500,7 +2747,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 6
     },
     {
       "ticker": "AMZN",
@@ -2549,40 +2796,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "亞馬遜和英特爾的業績嚇壞了投資者，科技股遭到拋售",
-      "summary": "",
-      "originalTitle": "Tech Stocks Sell Off as Amazon and Intel Earnings Spook Investors",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUHBQQlBMZ1UwSUk3OHQtREkyQmtoWWpwVTlUaml6S3hTUnkwX3hOWGFZNHo5SHBvS0g0cjlFWnhlY2tjZE4yM09DY1JCZi1nWG1XVGhQelJYVWVmcnMtRnpOeDBRb0YtcmtYUUt1d214STUtRGlDeU1ILU9VMzlOVVZpejJBSGdsMWlWTFBXSEJ0dHBkcDZxOF80Zk1VTUlqZU5xMzJR?oc=5",
-      "ts": "2026-10-30T13:53:01+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AMZN",
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 27.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -2744,240 +2958,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "GLW",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "華興資本將康寧目標價從 238 美元調整至 191 美元",
-      "summary": "",
-      "originalTitle": "China Renaissance Adjusts Price Target on Corning to $191 From $238",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQXVUekFQSnBvSUtZZjhna2RZMXhnRFRCZDBHTzluLUdGcjIzWk1FcEU1RnlQeDlTbGh6M2RmVGFBcmpud2ZEN1l3T1F2anpoU2tPekFSSGNBcUhhNkx6ak9MQlMtb1piN1c5VmRpOU1NOW05UEhXV2o4WGl1MF9KNVl3R253aVB2YzRpaG9MOW1lYnhBS3U0Q0w5dVNFallPMlg0YnBKMFJ1S3B3c3NqaW15cVB6dG1rX3c?oc=5",
-      "ts": "2026-10-30T13:44:10+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "GLW"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AXTI",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "B. Riley Financial 對 AXT （納斯達克股票代碼：AXTI）股價做出正面預測",
-      "summary": "",
-      "originalTitle": "B. Riley Financial Issues Positive Forecast for AXT (NASDAQ:AXTI) Stock Price",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmtLclhsc2VZSUttRHhoLUt4QVVYbHlXZnB1S0dHc1VfU0Z4OENEbnFCNnFRMEI5cjYxMDNZSEtmYlIzRmJRNG5RY2lEckU4R2IwYnU5cU9UZDUwTG94Qnd2WlhxSHE1UlhsZWppT294cXFrNUNsbF9tR3dtcUp1RUR2ZjBYbmhRUGVLM09lb3JHSU1BTUxQYTNjWFpjVVBFSVZlcVhVVi1XZzNfSzNCSWhfTlF6eTBIektjT0puTEREMERUYWZHd29GZ1hqZWM1Unc?oc=5",
-      "ts": "2026-10-30T13:42:24+00:00",
-      "sourceType": "active_search",
-      "movePct": -10.323587385019717,
-      "relatedTickers": [
-        "AXTI"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 12.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "個人電腦低迷和供應中斷損害前景後英特爾股價暴跌",
-      "summary": "",
-      "originalTitle": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
-      "originalSummary": "Intel dropped 25% after Q4 guidance missed sharply, with a memory-chip shortage driving projections of a 12% PC market decline in 2026. Dell sank 13% and AMD fell 10% on Intel's PC warning, while Nvidia slipped just 3% given its minimal PC exposure. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AMD didn't make the cut. Enter your email to see the names that beat AMD. The report is free. Enter your email and see if any of your stocks made the cut.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-plunges-25-weak-outlook-130956433.html",
-      "ts": "2026-10-30T13:39:53+00:00",
-      "sourceType": "active_search",
-      "movePct": -27.61485826001955,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "INTC",
-        "NVDA",
-        "AMD"
-      ],
-      "eventType": "跨公司事件",
-      "analystPriority": false,
-      "score": 39.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "由於記憶體晶片短缺，預估 2026 年 PC 市場將下降 12%，英特爾第四季業績指引大幅下滑，股價下跌 25%。因英特爾發出 PC 警告，戴爾股價下跌 13%，AMD 股價下跌 10%，而英偉達則因 PC 業務佔比最低而僅下跌 3%。輸入您的電子郵件地址，查看擊敗 AMD 的名稱。輸入您的電子郵件並查看您的股票是否符合要求。",
-        "numbers": [
-          "25%",
-          "12%",
-          "13%",
-          "10%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "由於記憶體晶片短缺，預估 2026 年 PC 市場將下降 12%，英特爾第四季業績指引大幅下滑，股價下跌 25%。因英特爾發出 PC 警告，戴爾股價下跌 13%，AMD 股價下跌 10%，而英偉達則因 PC 業務佔比最低而僅下跌 3%。剛剛發布。我們的分析師梳理了整個股市，並列出了目前最值得買入的十隻股票，但 AMD 並未上榜。輸入您的電子郵件地址，查看擊敗 AMD 的名稱。該報告是免費的。輸入您的電子郵件並查看您的股票是否符合要求。",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "現在可以透過 NVIDIA 股票賺錢嗎？",
-      "summary": "",
-      "originalTitle": "Can You Make Money Off NVIDIA Stock Now?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd3NKR0JBQldHLU45bXdMd1g3ZFBDby0tMURjdVNBelJOUW9OcXJfUmJ6cFN4NkdXUHo5Zkk3Z1pyeHRTMTdfTWNVY3prZmptVEJ2NHdGUmJrVEVGQ2xQUGIxZUs1dTk5Q09rWlRsRGt3UHM0YmdoaERWblc1dzF2RlJURHRyRnZCSi1WekRiazFaVDhEc0VMdFR3Q3V0MjJBaVE?oc=5",
-      "ts": "2026-10-30T13:38:19+00:00",
-      "sourceType": "history_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 3.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SNDK 與 INTC：美國銀行將一隻股票評級為買入，將另一隻股票評級下調至中性",
-      "summary": "標題：SNDK 與 INTC：美國銀行對一隻股票進行買入評級，將另一隻股票評級下調至中性 URL 來源：http://www.tipranks.com/news/sndk-vs-intc-bofa-rates-one-stock-buy-downgrades-the-other-to-neutral 最終 URL： https://www.tipranks.com/news/sndk-vs-intc-bofa-rates-one-stock-buy-downgrades-the-other-to-neutral 發佈時間：2026-10-30T13:37:28.000Z 減價內容：55% 折扣 Tip Preanks Premium 55% 5% Offx x Go最終 55% 折扣創意股票 熱門分析師股票 熱門熱門智能得分股票 熱門 AI 分析師熱門股票 新的熱門內部人士股票市場動向提示排名 50 指數 AI 股票市值最大的公",
-      "originalTitle": "SNDK vs. INTC: BofA Rates One Stock Buy, Downgrades the Other to Neutral",
-      "originalSummary": "",
-      "url": "https://www.tipranks.com/news/sndk-vs-intc-bofa-rates-one-stock-buy-downgrades-the-other-to-neutral",
-      "ts": "2026-10-30T13:37:28+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "detailSource": "yahoo_or_article_metadata",
-      "analystDetails": [
-        {
-          "broker": "BofA",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "SNDK",
-          "targetCompany": "Sandisk"
-        }
-      ],
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 255.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Sandisk（SNDK）｜券商：BofA｜評等：Buy｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 1,
-      "hasArticleBody": false
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SNDK 與 INTC：美國銀行將一隻股票評級為買入，將另一隻股票評級下調至中性",
-      "summary": "",
-      "originalTitle": "SNDK vs. INTC: Bank of America Rates One Stock Buy, Downgrades the Other to Neutral",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLUF3RVhOTXdWU2FocWkzT1N2aDYzS3ZJalY1S0lSRTdwUlk2d1pLekJVZC10ZGlLOEJMMU1taEc4clExRkdVZmhqNEluekxocmlVUXJZYzZ1SGE4Z0JSMU1ocHpONVBLWUIzd0VFWnVjNnBvR3pXRnpGUjc1dkI0ZXc1M2hZLXRhUTdlV0hLaUZHMjhTeHZOWUJhTU0xb09t?oc=5",
-      "ts": "2026-10-30T13:37:28+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Bank of America",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "SNDK",
-          "targetCompany": "Sandisk"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 255.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Sandisk（SNDK）｜券商：Bank of America｜評等：Buy｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 2
     }
   ],
   "historyItems": [
