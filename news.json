@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 05:22 台灣時間",
+  "updatedAt": "2026-10-31 05:28 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
@@ -60,31 +60,38 @@
       "group": "CSP",
       "tag": "題材",
       "title": "「星光滋養我的核心」：Google衛星晶片寫下了第一首太空資料中心詩",
-      "summary": "",
+      "summary": "Google has successfully run its first machine learning prompt on a satellite-mounted processor, bringing its space-based computing experiment closer to reality. The prototype spacecraft generated an AI response from orbit using Google’s Tensor Processing Units (TPUs).The achievement marks an early milestone for Project Suncatcher, Google’s research initiative exploring large-scale computing infrastructure in space. Engineers launched the satellite on October 1 aboard a SpaceX Falcon 9 rocket. It shared the ride wit",
       "originalTitle": "‘Starlight feeds my core’: Google satellite chip pens first-ever space data center poem",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNTNWQ1pJQXZ2X19IbkVrWDB1VFZWc0F5VGZUeEF6bjJkOUtiM3VmTWp5dVlRWnVmdWRfSDJRV2YzQmxhdjVhOTQ4T1BnSWdPUFVJZXpjajcwWHVsclh0Y2hfVXZqZl9TLTFWSjhzQ0dIb0lCVGFLUm1hUTg2R2JxenItNi1JX0JhakpQSw?oc=5",
+      "originalSummary": "Google has successfully run its first machine learning prompt on a satellite-mounted processor, bringing its space-based computing experiment closer to reality. The prototype spacecraft generated an AI response from orbit using Google’s Tensor Processing Units (TPUs).The achievement marks an early milestone for Project Suncatcher, Google’s research initiative exploring large-scale computing infrastructure in space. Engineers launched the satellite on October 1 aboard a SpaceX Falcon 9 rocket. It shared the ride with more than 100 other spacecraft.Google confirmed that its onboard systems completed initial checks after approximately three weeks of commissioning. The team has now demonstrated that an orbital TPU can handle basic machine learning workloads.First AI response from orbitDuring a ground-station communication window, engineers transmitted a prompt to Google’s Gemma 4 open model. They asked the onboard system to compose a haiku about its surroundings in space.The satellite received the prompt and generated three lines of poetry. Its subsequent transmission back to Earth confirmed that the system had successfully processed the request.Our TPUs just phoned home… from space.In early October, we sent four TPUs into orbit to test whether our AI hardware could operate in space. The initial goal was to see if our chips could turn on, process a prompt, and transmit a response back to Earth.This week, we got our… pic.twitter.com/j8NJx2nWnQ— Google (@Google) October 30, 2026The response read: “Blue marble below / Data streams in silent grace / Starlight feeds my core.” Google also tested the model with space-themed limericks. Engineers used additional prompts to retrieve telemetry information about the spacecraft’s operating conditions.The demonstration represents an important technical step. It confirms that the satellite can receive instructions from Earth, process them onboard, and return generated information.Radiation poses major challengeThe spacecraft carries four Google TPUs, although its power system allows engineers to operate only one processor at a time. Its electrical generation capacity reaches approximately 1 kilowatt.Power consumption also limits individual operating sessions. Engineers can run a TPU for roughly 20 minutes before the available energy becomes a constraint.Google’s next tests will examine how the processors withstand the harsh conditions of low Earth orbit. These include temperature fluctuations and exposure to space radiation.Radiation presents a particular challenge for conventional computing hardware. High-energy particles can trigger bit flips, changing stored values inside computer memory.Such errors can corrupt calculations without necessarily activating standard monitoring systems. Google previously examined radiation effects using particle accelerators on Earth.Those experiments suggested inference workloads could tolerate radiation better than model training. However, actual orbital testing will help researchers establish how the hardware behaves under continuous exposure.Two satellites planned for 2027Project Suncatcher eventually aims to connect multiple spacecraft into an orbital computing network. Goo",
+      "url": "https://interestingengineering.com/ai-robotics/google-space-data-center-orbital-poem",
       "ts": "2026-10-30T21:03:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "SPCX"
       ],
-      "eventType": "新題材",
-      "score": 19.5,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Google has successfully run its first machine learning prompt on a satellite-mounted processor, bringing its space-based computing experiment closer to reality. The prototype spacecraft generated an AI response from orbit using Google’s Tensor Processing Units (TPUs).The achievement marks an early milestone for Project Suncatcher, Google’s research initiative exploring large-scale computing infrastructure in space. Engineers launched the satellite on October 1 aboard a SpaceX Falcon 9 rocket. It shared the ride wit",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "Google has successfully run its first machine learning prompt on a satellite-mounted processor, bringing its space-based computing experiment closer to reality. The prototype spacecraft generated an AI response from orbit using Google’s Tensor Processing Units (TPUs).The achievement marks an early milestone for Project Suncatcher, Google’s research initiative exploring large-scale computing infrastructure in space.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "SNDK",
@@ -178,6 +185,55 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "利空",
+      "title": "Citigroup 下修 INTC 目標價至 $100，維持 Buy",
+      "summary": "",
+      "originalTitle": "Citigroup maintains Intel at Buy, lowers price target to $100 from $130",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWVhWMzZLdGFmOFZKbnNxOExvRXJxU1JSNVJac0JNMlBzODJIYWtvLTNNeFVJcUNrVXRqbHByV09odG9ZOWZtOHBLRjBRN2FLdHJxR0hjV2JvcXRsTDhObTlpXzJvVFhRZC1SMnV5eGRWVk5BZ1BzVDR0RG4tT292dEoyRzlPQXNoMGtYVThyNXBLR2hIV29UOGpTSXRkS0hTTExERjEtWi1Tb3NpY251aXZtbjVCMVUzMHd6SEVQMF9VSVprQ0VYSG9R?oc=5",
+      "ts": "2026-10-30T20:50:24+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Citigroup",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "下修",
+          "newTarget": "$100",
+          "oldTarget": "$130",
+          "reason": "花旗集團維持英特爾買進評級，將目標價從 130 美元下調至 100 美元",
+          "reasonConfidence": "medium",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：Citigroup｜動作：下修｜評等：Buy｜目標價：$100（原 $130）｜調整原因：花旗集團維持英特爾買進評級，將目標價從 130 美元下調至 100 美元",
+        "numbers": [
+          "$130",
+          "$100"
+        ],
+        "why": "調整原因：花旗集團維持英特爾買進評級，將目標價從 130 美元下調至 100 美元",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：花旗集團維持英特爾買進評級，將目標價從 130 美元下調至 100 美元",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
@@ -513,7 +569,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 14.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -713,6 +769,36 @@
         "watch": [],
         "takeaway": "調整原因：TD Cowen 維持英特爾評級為持有，並將目標價從 95 美元下調至 75 美元",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "避險情緒導致十月全球債券殖利率大幅下跌",
+      "summary": "",
+      "originalTitle": "Global Bond Yields Fall Sharply in October Amid Flight to Safety",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOS1p6ZkxEeDY0SlhyTDJKSXkyR1NkOUZVa1Z4NWJHU2cxdjFfVlI0TVBGZUZRR1dkLWpEY2RtNC1wSjZKb3ZKaTloVHlvVlF3cFZvdFI2Y3R4c3RIeFd3NU1NMWRpVDBlc3M3STVwa2ZxNVpTLTBIN0t5VTF5alltRGxFQWM3QUpibUF1LWN1Ykhmb3FvVkVmR1pDczZEa2YxTXZz?oc=5",
+      "ts": "2026-10-30T19:35:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -2613,6 +2699,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "英偉達的人工智慧主導地位可能還會進一步延續",
+      "summary": "",
+      "originalTitle": "Nvidia’s AI Dominance Could Have Further to Run",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYnZFY2MxakRPRlRxZXRtZVd3T29aVVY1T2dfbF9VcUJtRUhSV1ByZEstX29xN2R2bHQxeTJXOG1oSUc3XzZhM3F6NHVuTkg5RGRUVWlOUnBSQWJ3d1JuSEF3SnE1dXJRdDRVWG1iODZFOXpRcU9sTmNqSjhTRTJudFZsb1pDZ3RZaDRKQ2YydnhvU05r?oc=5",
+      "ts": "2026-10-30T17:03:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "FORM",
       "group": "半導體設備／測試",
       "tag": "題材",
@@ -2805,135 +2923,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "TD Cowen 因資本支出前景下調亞馬遜股價目標",
-      "summary": "BofA lowered its price target on Amazon to $317 from $320 while maintaining a 'Buy' rating, according to The Fly. UBS raised its price target on Amazon to $352 from $348, citing AWS's growth outlook for fiscal 2027 and 2028, a potential $1 trillion business and a $578 billion backlog, The Fly reported. 42 of 60 analysts covering the stock rate it a 'Buy,' and 16 rate it a 'Strong Buy,' according to Koyfin data.",
-      "originalTitle": "TD Cowen cuts Amazon stock price target on capex outlook",
-      "originalSummary": "BofA lowered its price target on Amazon to $317 from $320 while maintaining a 'Buy' rating, according to The Fly. UBS raised its price target on Amazon to $352 from $348, citing AWS's growth outlook for fiscal 2027 and 2028, a potential $1 trillion business and a $578 billion backlog, The Fly reported. 42 of 60 analysts covering the stock rate it a 'Buy,' and 16 rate it a 'Strong Buy,' according to Koyfin data.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amzn-analysts-split-earnings-td-123055691.html",
-      "ts": "2026-10-30T16:44:38+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "BofA",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$317",
-          "oldTarget": "$320",
-          "reason": "根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。",
-          "reasonConfidence": "high",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        },
-        {
-          "broker": "UBS",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "$352",
-          "oldTarget": "$348",
-          "reason": "根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。",
-          "reasonConfidence": "high",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：BofA｜動作：下修｜評等：Buy｜目標價：$317（原 $320）｜調整原因：根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。\n被評級公司：Amazon（AMZN）｜券商：UBS｜動作：上修｜目標價：$352（原 $348）｜調整原因：根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。",
-        "numbers": [
-          "$320",
-          "$317",
-          "$348",
-          "$352"
-        ],
-        "why": "調整原因：根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：根據 The Fly 報道，AWS 2027 和 2028 財年的成長前景、潛在的 1 兆美元業務和 5,780 億美元的積壓訂單。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "亞馬遜、英特爾擾亂人工智慧交易，納斯達克指數跌至近三個月低點",
-      "summary": "",
-      "originalTitle": "Nasdaq hits near three-month low as Amazon, Intel rattle AI trade",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblVtZktXRjdPbHJBWDM4WWJsV2RyMlhnOVFYRTZPc01udjZNZTVjeHdIN1dVY0w1M1NHbHpxNjV6Vm9jQ3FOUjBIaElyZEdSWWxycmNZdnJwNnBfdTJDc1FBMWVJZ19vR0s3Y1h2Uml2LThWc2NzQ2sxN3NnVzFEeGhvNnpPSElHSFRIQnJreHpCR2c3dnRQbEVYTDlJVjhzVVk3b1gxaFczMFhkb2NDSw?oc=5",
-      "ts": "2026-10-30T16:43:30+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "AMZN",
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 24.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "英特爾今天的暴跌使其成為 10 月標準普爾 500 指數中表現最差的股票。埃森哲是最大贏家。",
-      "summary": "",
-      "originalTitle": "Intel’s Plunge Today Makes It October’s Worst S&P 500 Stock. Accenture Is the Biggest Winner.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaldpVGFpbkplUnhmS2xFSlNiNkNWc3hVeXJPNGprVDJQVVQ0c2doU1d6SHhoTUs4RmEzY1BlTkliNmtrWDFOYnF6ZmNJTGROV19DaTNrOWdqSXRRSXJzSVZMa0RZakd0OGoyUVE4N29ubExsTDVRUFI1T3VaR0F2Sk5qVE0xSXFlX2Y0YzYtQ3dXUQ?oc=5",
-      "ts": "2026-10-30T16:43:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -3002,7 +2991,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "個人電腦低迷和供應中斷損害前景後英特爾股價暴跌",
-      "summary": "[SAN FRANCISCO] Intel plunged in late trading after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply chain problems with its lucrative data centre components. Sales in the fourth quarter will be US$15 billion to US$16 billion, the company said on Thursday (Oct 29) in a statement. Analysts, on average, estimated US$17 billion and some projections topped US$18 billion, according to data compiled by Bloomberg. Profit will be US$0.25 a share in the quarter, excluding certain items.",
+      "summary": "[舊金山] 英特爾在尾盤交易中暴跌，原因是其收入預測低於分析師的預期，原因是個人電腦處理器需求下降以及利潤豐厚的數據中心組件的供應鏈問題。該公司週四（10 月 29 日）在一份聲明中表示，第四季銷售額將為 150 億美元至 160 億美元。根據彭博社彙編的數據，分析師平均估計為 170 億美元，有些預測甚至超過 180 億美元。不包括某些項目，本季每股利潤將為 0.25 美元。",
       "originalTitle": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook",
       "originalSummary": "[SAN FRANCISCO] Intel plunged in late trading after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply chain problems with its lucrative data centre components. Sales in the fourth quarter will be US$15 billion to US$16 billion, the company said on Thursday (Oct 29) in a statement. Analysts, on average, estimated US$17 billion and some projections topped US$18 billion, according to data compiled by Bloomberg. Profit will be US$0.25 a share in the quarter, excluding certain items. Wall Street was projecting adjusted earnings of US$0.43 a share.",
       "url": "https://www.businesstimes.com.sg/companies-markets/intel-plunges-after-pc-slump-and-supply-snags-hurt-outlook",
@@ -3017,7 +3006,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "[SAN FRANCISCO] Intel plunged in late trading after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply chain problems with its lucrative data centre components. Sales in the fourth quarter will be US$15 billion to US$16 billion, the company said on Thursday (Oct 29) in a statement. Analysts, on average, estimated US$17 billion and some projections topped US$18 billion, according to data compiled by Bloomberg. Profit will be US$0.25 a share in the quarter, excluding certain items.",
+        "event": "[舊金山] 英特爾在尾盤交易中暴跌，原因是其收入預測低於分析師的預期，原因是個人電腦處理器需求下降以及利潤豐厚的數據中心組件的供應鏈問題。該公司週四（10 月 29 日）在一份聲明中表示，第四季銷售額將為 150 億美元至 160 億美元。根據彭博社彙編的數據，分析師平均估計為 170 億美元，有些預測甚至超過 180 億美元。不包括某些項目，本季每股利潤將為 0.25 美元。",
         "numbers": [
           "$15 billion",
           "$16 billion",
@@ -3025,7 +3014,7 @@
           "$18 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "[SAN FRANCISCO] Intel plunged in late trading after its revenue forecast missed analysts’ estimates, hurt by sputtering demand for PC processors and supply chain problems with its lucrative data centre components. Sales in the fourth quarter will be US$15 billion to US$16 billion, the company said on Thursday (Oct 29) in a statement.",
+        "stance": "[舊金山] 英特爾在尾盤交易中暴跌，原因是其收入預測低於分析師的預期，原因是個人電腦處理器需求下降以及利潤豐厚的數據中心組件的供應鏈問題。該公司週四（10 月 29 日）在一份聲明中表示，第四季銷售額將為 150 億美元至 160 億美元。根據彭博社彙編的數據，分析師平均估計為 170 億美元，有些預測甚至超過 180 億美元。不包括某些項目，本季每股利潤將為 0.25 美元。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -3566,7 +3555,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "PC 市場前景疲軟，英特爾股價重挫 20% 以上",
-      "summary": "Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger-than-anticipated third-quarter results. The sharp decline reflected investor concerns about weakness in the personal computer market, lower expected profitability and the challenges facing Intel as it works to strengthen its manufacturing operations.",
+      "summary": "英特爾（NASDAQ：INTC）股價在盤前交易中下跌 25%，儘管該半導體製造商發布的第四季度營收和獲利預測遠低於華爾街預期，儘管該公司公佈的第三季業績強於預期。大幅下跌反映出投資人對個人電腦市場疲軟、預期獲利能力下降以及英特爾在加強製造業時面臨的挑戰的擔憂。",
       "originalTitle": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook",
       "originalSummary": "Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger-than-anticipated third-quarter results. The sharp decline reflected investor concerns about weakness in the personal computer market, lower expected profitability and the challenges facing Intel as it works to strengthen its manufacturing operations.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/intel-shares-plunge-25-weak-102052649.html",
@@ -3582,13 +3571,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger-than-anticipated third-quarter results. The sharp decline reflected investor concerns about weakness in the personal computer market, lower expected profitability and the challenges facing Intel as it works to strengthen its manufacturing operations.",
+        "event": "英特爾（NASDAQ：INTC）股價在盤前交易中下跌 25%，儘管該半導體製造商發布的第四季度營收和獲利預測遠低於華爾街預期，儘管該公司公佈的第三季業績強於預期。大幅下跌反映出投資人對個人電腦市場疲軟、預期獲利能力下降以及英特爾在加強製造業時面臨的挑戰的擔憂。",
         "numbers": [
           "20%",
           "25%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Intel (NASDAQ:INTC) shares fell 25% in premarket trading after the semiconductor manufacturer issued fourth-quarter revenue and earnings forecasts significantly below Wall Street expectations, despite reporting stronger-than-anticipated third-quarter results. The sharp decline reflected investor concerns about weakness in the personal computer market, lower expected profitability and the challenges facing Intel as it works to strengthen its manufacturing operations.",
+        "stance": "英特爾（NASDAQ：INTC）股價在盤前交易中下跌 25%，儘管該半導體製造商發布的第四季度營收和獲利預測遠低於華爾街預期，儘管該公司公佈的第三季業績強於預期。大幅下跌反映出投資人對個人電腦市場疲軟、預期獲利能力下降以及英特爾在加強製造業時面臨的挑戰的擔憂。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -3922,7 +3911,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "人工智慧支出超過五年來最快的雲端成長，亞馬遜陷入困境",
-      "summary": "When Amazon ( AMZN ) reports third quarter results on Thursday, investors will closely watch the tech giant’s cloud growth and capital spending forecast as they look for tangible returns on the massive artificial intelligence investments. Wall Street expects the Seattle-based e-commerce",
+      "summary": "當亞馬遜（AMZN）週四公佈第三季業績時，投資者將密切關注這家科技巨頭的雲端成長和資本支出預測，因為他們尋求大規模人工智慧投資的實際回報。華爾街對總部位於西雅圖的電子商務充滿期待",
       "originalTitle": "Amazon sinks as AI spending eclipses fastest cloud growth in five years",
       "originalSummary": "When Amazon ( AMZN ) reports third quarter results on Thursday, investors will closely watch the tech giant’s cloud growth and capital spending forecast as they look for tangible returns on the massive artificial intelligence investments. Wall Street expects the Seattle-based e-commerce",
       "url": "https://seekingalpha.com/news/4658981-amazon-q3-earnings-on-deck-all-eyes-on-cloud-growth-capex",
@@ -3939,10 +3928,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "When Amazon ( AMZN ) reports third quarter results on Thursday, investors will closely watch the tech giant’s cloud growth and capital spending forecast as they look for tangible returns on the massive artificial intelligence investments. Wall Street expects the Seattle-based e-commerce",
+        "event": "當亞馬遜（AMZN）週四公佈第三季業績時，投資者將密切關注這家科技巨頭的雲端成長和資本支出預測，因為他們尋求大規模人工智慧投資的實際回報。華爾街對總部位於西雅圖的電子商務充滿期待",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Wall Street expects the Seattle-based e-commerce",
+        "stance": "當亞馬遜（AMZN）週四公佈第三季業績時，投資者將密切關注這家科技巨頭的雲端成長和資本支出預測，因為他們尋求大規模人工智慧投資的實際回報。華爾街對總部位於西雅圖的電子商務充滿期待",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -3956,7 +3945,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "英特爾股價暴跌 21%，晶片製造商將 PC 放緩歸咎於業績指引疲軟",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"technology|earnings|semiconductors|ai artificial i\",\"additionalSectionContentFormattedFull\":\"technology|earnings|semiconductors|ai artificial intelligence\",\"authorFormatted\":\"katie tarasov\",\"authorFormattedFull\":\"katie tarasov\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-29T20:04:08+0000\",\"dateLastPublished\":\"2026-10-30T00:39:52+0000\",\"datePublished\":\"2026-10-29T20:04:08+0000\",\"description\":\"Intel has been a Wall Street dar",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\" isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|效益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：收益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：」技術| rFormatted\"：\"凱蒂·塔拉索夫\"，\"authorFormattedFull\"：\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\" d\":\"2026-10-29T20:04:08+0000\",\"dateLastPublished\":\"2026-10-30T00:39:52+0000\",\"datePublished\":\"2026-10-29T000\",\"datePublished\":\"2026-10-29T000\",\"datePublished\":\"2026-10-29T000\",\"datePublished\":\"2026-10-",
       "originalTitle": "Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"technology|earnings|semiconductors|ai artificial i\",\"additionalSectionContentFormattedFull\":\"technology|earnings|semiconductors|ai artificial intelligence\",\"authorFormatted\":\"katie tarasov\",\"authorFormattedFull\":\"katie tarasov\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-29T20:04:08+0000\",\"dateLastPublished\":\"2026-10-30T00:39:52+0000\",\"datePublished\":\"2026-10-29T20:04:08+0000\",\"description\":\"Intel has been a Wall Street darling this year due to its emergence as a player in AI, but the company is being weighed down by a struggling PC market.\",\"expires\":null,\"headline\":\"Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance\",\"id\":108477479,\"liveURL\":\"\\u002F2026\\u002F10\\u002F29\\u002Fintel-intc-q3-earnings-report-2026-.html\",\"native\":false,\"pageName\":\"108477479|2026\\u002F10\\u002F29\\u002Fintel-intc-q3-earnings-report-2026-\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"technology|nvidia corp|advanced micro |taiwan semicond|breaking news|breaking news e|breaking news t|intel corp|earnings|nvidia corp|oracle corp|taiwan semicond|spdr sp semicon|ishares semicon|advanced micro |invesco qqq tru|sk hynix inc|spdr sp 500 etf|meta platforms |arizona|david zinsner\",\"relatedTagsFilteredFormattedFull\":\"technology|nvidia corp|advanced micro devices inc|taiwan semiconductor manufacturing co ltd|breaking news|breaking news earnings|breaking news technology|intel corp|earnings|nvidia corp|oracle corp|taiwan semiconductor manufacturing co ltd|spdr sp semiconductors|ishares semiconductor etf|advanced micro devices inc|invesco qqq trust|sk hynix inc|spdr sp 500 etf trust|meta platforms inc|arizona|david zinsner\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Intel (INTC) Q3 earnings report 2026\",\"shortDateFirstPublished\":\"10\\u002F29\\u002F2026\",\"shortDateLastPublished\":\"10\\u002F29\\u002F2026\",\"shortDatePublished\":\"10\\u002F29\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4zUWOKm\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4zhaCz7\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4f0t5HP\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4zt674g\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4ie4n95\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4A76ykZ\"}],\"slug\":\"Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Intel stock plunges 21% as chipmaker blames PC slowdown for weak guidance\",\"tagNameFo",
       "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html",
@@ -3978,12 +3967,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"technology|earnings|semiconductors|ai artificial i\",\"additionalSectionContentFormattedFull\":\"technology|earnings|semiconductors|ai artificial intelligence\",\"authorFormatted\":\"katie tarasov\",\"authorFormattedFull\":\"katie tarasov\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-29T20:04:08+0000\",\"dateLastPublished\":\"2026-10-30T00:39:52+0000\",\"datePublished\":\"2026-10-29T20:04:08+0000\",\"descri",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\" isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|效益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：收益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：」技術| rFormatted\"：\"凱蒂·塔拉索夫\"，\"authorFormattedFull\"：\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\" d\":\"2026-10-29T20:04:08+0000\",\"dateLastPublished\":\"2026-10-30T00:39:52+0000\",\"datePublished\":\"2026-10",
         "numbers": [
           "21%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"technology|earnings|semiconductors|ai artificial i\",\"additionalSectionContentFormattedFull\":\"technology|earnings|semiconductors|ai artificial intelligence\",\"authorFormatted\":\"katie tarasov\",\"authorFormattedFull\":\"katie tarasov\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteF",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\" isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|效益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：收益|半導體|ai人工i\"，\"additionalSectionContentFormattedFull\"：」技術| rFormatted\"：\"凱蒂·塔拉索夫\"，\"authorFormattedFull\"：\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -3997,7 +3986,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "英特爾第三季獲利超出預期，但因 PC 銷售疲軟，股價暴跌 20%，未能達到第四季預期",
-      "summary": "Intel dropped 25% after Q4 guidance missed sharply, with a memory-chip shortage driving projections of a 12% PC market decline in 2026. Dell sank 13% and AMD fell 10% on Intel's PC warning, while Nvidia slipped just 3% given its minimal PC exposure. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AMD didn't make the cut.",
+      "summary": "由於記憶體晶片短缺，預估 2026 年 PC 市場將下降 12%，英特爾第四季業績指引大幅下滑，股價下跌 25%。因英特爾發出 PC 警告，戴爾股價下跌 13%，AMD 股價下跌 10%，而英偉達則因 PC 業務佔比最低而僅下跌 3%。剛剛發布。我們的分析師梳理了整個股市，並列出了目前最值得買入的十隻股票，但 AMD 並未上榜。",
       "originalTitle": "Intel tops Q3 earnings estimates, but falls short of Q4 outlook on sluggish PC sales as stock plunges 20%",
       "originalSummary": "Intel dropped 25% after Q4 guidance missed sharply, with a memory-chip shortage driving projections of a 12% PC market decline in 2026. Dell sank 13% and AMD fell 10% on Intel's PC warning, while Nvidia slipped just 3% given its minimal PC exposure. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AMD didn't make the cut. Enter your email to see the names that beat AMD. The report is free. Enter your email and see if any of your stocks made the cut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/intel-plunges-25-weak-outlook-130956433.html",
@@ -4015,7 +4004,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Intel dropped 25% after Q4 guidance missed sharply, with a memory-chip shortage driving projections of a 12% PC market decline in 2026. Dell sank 13% and AMD fell 10% on Intel's PC warning, while Nvidia slipped just 3% given its minimal PC exposure. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and AMD didn't make the cut.",
+        "event": "由於記憶體晶片短缺，預估 2026 年 PC 市場將下降 12%，英特爾第四季業績指引大幅下滑，股價下跌 25%。因英特爾發出 PC 警告，戴爾股價下跌 13%，AMD 股價下跌 10%，而英偉達則因 PC 業務佔比最低而僅下跌 3%。剛剛發布。我們的分析師梳理了整個股市，並列出了目前最值得買入的十隻股票，但 AMD 並未上榜。",
         "numbers": [
           "20%",
           "25%",
@@ -4023,7 +4012,7 @@
           "13%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Intel dropped 25% after Q4 guidance missed sharply, with a memory-chip shortage driving projections of a 12% PC market decline in 2026.",
+        "stance": "由於記憶體晶片短缺，預估 2026 年 PC 市場將下降 12%，英特爾第四季業績指引大幅下滑，股價下跌 25%。因英特爾發出 PC 警告，戴爾股價下跌 13%，AMD 股價下跌 10%，而英偉達則因 PC 業務佔比最低而僅下跌 3%。剛剛發布。我們的分析師梳理了整個股市，並列出了目前最值得買入的十隻股票，但 AMD 並未上榜。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -4097,7 +4086,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "由於燃氣渦輪訂單緩慢，GE Vernova 以 9B 美元收購高壓製造商",
-      "summary": "GE Vernova delivered \"strong financial results\" in the third quarter, despite a slowdown in gas turbine orders and slot reservation agreements, CEO Scott Strazik told investors during a Wednesday earnings call.",
+      "summary": "執行長 Scott Strazik在周三的財報電話會議上對投資者表示，儘管燃氣渦輪機訂單和插槽預訂協議放緩，但GE Vernova第三季度仍交付了「強勁的財務業績」。",
       "originalTitle": "GE Vernova in $9B deal to buy high-voltage manufacturer as gas turbine orders slow",
       "originalSummary": "GE Vernova delivered \"strong financial results\" in the third quarter, despite a slowdown in gas turbine orders and slot reservation agreements, CEO Scott Strazik told investors during a Wednesday earnings call.",
       "url": "https://finance.yahoo.com/energy/articles/ge-vernova-9b-deal-buy-174022513.html",
@@ -4114,12 +4103,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "GE Vernova delivered \"strong financial results\" in the third quarter, despite a slowdown in gas turbine orders and slot reservation agreements, CEO Scott Strazik told investors during a Wednesday earnings call.",
+        "event": "執行長 Scott Strazik在周三的財報電話會議上對投資者表示，儘管燃氣渦輪機訂單和插槽預訂協議放緩，但GE Vernova第三季度仍交付了「強勁的財務業績」。",
         "numbers": [
           "$9B"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "GE Vernova delivered \"strong financial results\" in the third quarter, despite a slowdown in gas turbine orders and slot reservation agreements, CEO Scott Strazik told investors during a Wednesday earnings call.",
+        "stance": "執行長 Scott Strazik在周三的財報電話會議上對投資者表示，儘管燃氣渦輪機訂單和插槽預訂協議放緩，但GE Vernova第三季度仍交付了「強勁的財務業績」。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -4632,7 +4621,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
       "originalTitle": "Lumentum stock rises on report of possible merger with Marvell",
       "originalSummary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
       "url": "https://finance.yahoo.com/news/marvell-advanced-talks-buy-nvidia-111202630.html",
@@ -4649,10 +4638,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4666,7 +4655,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
       "originalTitle": "Lumentum stock rises on report of possible merger with Marvell",
       "originalSummary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
       "url": "https://finance.yahoo.com/news/marvell-advanced-talks-buy-nvidia-111202630.html",
@@ -4683,10 +4672,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
+        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4818,7 +4807,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "卡特彼勒收入未達預期，道瓊工業指數前景黯淡",
-      "summary": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai. According to Koyfin, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate the stock 'buy' or 'strong buy.'",
+      "summary": "電力和能源銷售額年增 18%，達到 87.8 億美元，而發電銷售額增長 30%，達到 34.2 億美元，這主要是由於渦輪機、相關服務和主要用於數據中心的大型往復式發動機的銷售額增加所致。根據 Fiscal.ai 的數據，營收年增 17% 至 206.8 億美元，僅比分析師預測的 206.9 億美元少 800 萬美元。 Koyfin 表示，29 名分析師中有 12 名對該股給予「持有」評級，而 16 名分析師將該股評級為「買入」或「強烈買入」。",
       "originalTitle": "Caterpillar Revenue Miss, Outlook Dig Hole For Dow Jones Industrial Average",
       "originalSummary": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai. According to Koyfin, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate the stock 'buy' or 'strong buy.'",
       "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-slumps-9-despite-131620508.html",
@@ -4833,7 +4822,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai. According to Koyfin, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate the stock 'buy' or 'strong buy.'",
+        "event": "電力和能源銷售額年增 18%，達到 87.8 億美元，而發電銷售額增長 30%，達到 34.2 億美元，這主要是由於渦輪機、相關服務和主要用於數據中心的大型往復式發動機的銷售額增加所致。根據 Fiscal.ai 的數據，營收年增 17% 至 206.8 億美元，僅比分析師預測的 206.9 億美元少 800 萬美元。 Koyfin 表示，29 名分析師中有 12 名對該股給予「持有」評級，而 16 名分析師將該股評級為「買入」或「強烈買入」。",
         "numbers": [
           "$8.78 billion",
           "$3.42 billion",
@@ -4841,7 +4830,7 @@
           "$20.69 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Power & Energy sales rose 18% year-over-year to $8.78 billion, while power-generation sales jumped 30% to $3.42 billion, driven mainly by higher sales of turbines, related services and large reciprocating engines used primarily in data centers. Revenue rose 17% year-over-year to $20.68 billion, narrowly missing analysts' $20.69 billion estimate by $8 million, according to Fiscal.ai.",
+        "stance": "電力和能源銷售額年增 18%，達到 87.8 億美元，而發電銷售額增長 30%，達到 34.2 億美元，這主要是由於渦輪機、相關服務和主要用於數據中心的大型往復式發動機的銷售額增加所致。根據 Fiscal.ai 的數據，營收年增 17% 至 206.8 億美元，僅比分析師預測的 206.9 億美元少 800 萬美元。 Koyfin 表示，29 名分析師中有 12 名對該股給予「持有」評級，而 16 名分析師將該股評級為「買入」或「強烈買入」。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -4885,7 +4874,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -4903,10 +4892,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter.",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4919,7 +4908,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -4936,10 +4925,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter.",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5301,7 +5290,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "駭客利用思科 SD-WAN 缺陷植入惡意軟體來竊取加密金鑰",
-      "summary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift.",
+      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
       "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
       "originalSummary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. CVE-2026-20127 is a max-severity flaw that Cisco patched in February 2026, which allows remote attackers to gain privileged access to Catalyst SD-WAN Controller and Manager and add rogue peers. UAT-8616 has exploited the vulnerability as a zero-day since at least 2023 , and recent research also linked its exploitation to the Chinese Volt Typhoon state-sponsored hacking group.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
@@ -5317,10 +5306,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift.",
+        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-byp",
+        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5334,7 +5323,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "SpaceX 供應商意法半導體預測人工智慧和衛星將帶來強勁銷售",
-      "summary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand.",
+      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
       "originalTitle": "SpaceX Supplier STMicroelectronics Forecasts Strong Sales on AI, Satellite Boost",
       "originalSummary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand. It expects sales of about $4.15 billion this quarter compared with $3.33 billion a year earlier, above a Visible Alpha forecast of nearly $4.12 billion. Its annual sales projection is also above a Visible Alpha forecast of $14.41 billion. Chief Executive Jean-Marc Chery singled out data centers and satellites as key drivers for growth this year. Like other chip makers, STMicroelectronics is reaping the benefits of hundreds of billions of dollars in spending commitments from some of the world&#039;s largest tech groups to build out AI infrastructure. STMicroelectronics stock has nearly doubled in value since the year began, riding a wave of investor fervor around AI that lifted global semiconductor stocks. In a sign of how fast demand for chips to power energy-intensive data centers is building up, STMicroelectronics in July projected revenue from data centers above $1 billion in 2026 and well above $2 billion in 2027 compared with prior guidance of about $1 billion and roughly $2 billion, respectively. That marked the second time the company raised its AI forecasts this year. Alongside data centers, space also provides a key revenue stream for STMicroelectronics and other chip makers that supply semiconductors for low-Earth-orbit satellite constellations. The company expects well above $3 billion in revenue between 2026 and 2028 for the supply of equipment to be used in space, a forecast that for now excludes potential benefits from orbital data centers. Low Earth-orbit satellite networks are closer to Earth than traditional constellations, making them ideal to beam low-latency broadband directly to smartphones in parts of the world where cell towers are unavailable. SpaceX&#039;s Starlink provides direct-to-device connectivity to users in several countries, including Ukraine, where damage to terrestrial networks because of the war is common. STMicroelectronics had long relied on the automotive industry to generate a significant portion of its sales. Data centers and satellites have allowed the group to diversify its revenue streams and become less tied to carmakers. The auto industry in recent years had slowly been digesting chip inventories it built at the height of the pandemic, weighing on demand for new orders in a blow to STMicroelectronics. Sales for the quarter that closed Sept. 26 grew nearly 18% on year to $3.76 billion, above company guidance of about $3.70 billion and an analysts&#039; forecast of $3.73 billion, according to V",
       "url": "https://www.marketscreener.com/news/spacex-supplier-stmicroelectronics-forecasts-strong-sales-growth-on-ai-satellite-boost-updates-ce785cd3dc8cf325",
@@ -5353,7 +5342,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand.",
+        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "numbers": [
           "$14.5 billion",
           "$4.15 billion",
@@ -5361,7 +5350,7 @@
           "$4.12 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year.",
+        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -5492,7 +5481,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Nvidia 將向 Meta 的股票發行投資 30 億美元，擴大人工智慧合作夥伴關係",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"datePublished\":\"2026-10-26T11:34:42+0000\",\"de",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
       "originalTitle": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"datePublished\":\"2026-10-26T11:34:42+0000\",\"description\":\"Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.\",\"expires\":null,\"headline\":\"Meta announces $95 billion stock offering to fund AI expansion. Nvidia, AMD mulling investment\",\"id\":108463655,\"liveURL\":\"\\u002F2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai.html\",\"native\":false,\"pageName\":\"108463655|2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"london\",\"projectTeamContentFormattedFull\":\"london\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|nvidia corp|advanced micro |broadcom inc|meta platforms |invesco qqq tru|alphabet class |technology sele|earnings|space explorati|ishares expande|ishares semicon\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|nvidia corp|advanced micro devices inc|broadcom inc|meta platforms inc|invesco qqq trust|alphabet class a|technology select sector spdr fund|earnings|space exploration technologies corp|ishares expanded techsoftware sector etf|ishares semiconductor etf\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Meta launches plan for $95 billion stock offering to fund AI expansion\",\"shortDateFirstPublished\":\"10\\u002F26\\u002F2026\",\"shortDateLastPublished\":\"10\\u002F26\\u002F2026\",\"shortDatePublished\":\"10\\u002F26\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F3UmKt2y\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4jAKpGF\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOM6n\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4iGvIAQ\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4sqaRVT\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOMTV\"}],\"slug\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"sourceOrganizationFormatted\":\"cnbc europe sou\",\"sourceOrganizationFormattedFull\":\"cnbc europe source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"tagNameFormatted\":\"meta announces \",\"tagNameFormattedFull\":\"meta announces 95 billion stock offering to fund ai expansion\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"tit",
       "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
@@ -5512,7 +5501,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"dateP",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
         "numbers": [
           "$3 Billion",
           "$95 billion",
@@ -5520,7 +5509,7 @@
           "3 Billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -6345,7 +6334,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "甲骨文預計恢復正現金流後股價上漲",
-      "summary": "Oracle projected its long-term financial guidance presented at its annual investor conference in Las Vegas. The software giant expects to reach $30 billion in free cash flow by the fiscal year ending in May 2029, returning to positive cash flow by late fiscal 2028. Oracle committed to capping additional fundraising through May 2030 at $20 billion, split evenly between equity and debt.",
+      "summary": "甲骨文預測了在拉斯維加斯舉行的年度投資者會議上提出的長期財務指引。這家軟體巨頭預計到 2029 年 5 月結束的財年，自由現金流將達到 300 億美元，並在 2028 財年末恢復正現金流。甲骨文承諾，到 2030 年 5 月，額外融資上限為 200 億美元，由股權和債務平分。",
       "originalTitle": "Oracle Jumps After Projecting Return to Positive Cash Flow",
       "originalSummary": "Oracle projected its long-term financial guidance presented at its annual investor conference in Las Vegas. The software giant expects to reach $30 billion in free cash flow by the fiscal year ending in May 2029, returning to positive cash flow by late fiscal 2028. Oracle committed to capping additional fundraising through May 2030 at $20 billion, split evenly between equity and debt.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-forecasts-30b-cash-flow-211940618.html",
@@ -6361,7 +6350,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Oracle projected its long-term financial guidance presented at its annual investor conference in Las Vegas. The software giant expects to reach $30 billion in free cash flow by the fiscal year ending in May 2029, returning to positive cash flow by late fiscal 2028. Oracle committed to capping additional fundraising through May 2030 at $20 billion, split evenly between equity and debt.",
+        "event": "甲骨文預測了在拉斯維加斯舉行的年度投資者會議上提出的長期財務指引。這家軟體巨頭預計到 2029 年 5 月結束的財年，自由現金流將達到 300 億美元，並在 2028 財年末恢復正現金流。甲骨文承諾，到 2030 年 5 月，額外融資上限為 200 億美元，由股權和債務平分。",
         "numbers": [
           "$30 billion",
           "$20 billion",
@@ -6369,7 +6358,7 @@
           "20 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Oracle projected its long-term financial guidance presented at its annual investor conference in Las Vegas. The software giant expects to reach $30 billion in free cash flow by the fiscal year ending in May 2029, returning to positive cash flow by late fiscal 2028.",
+        "stance": "甲骨文預測了在拉斯維加斯舉行的年度投資者會議上提出的長期財務指引。這家軟體巨頭預計到 2029 年 5 月結束的財年，自由現金流將達到 300 億美元，並在 2028 財年末恢復正現金流。甲骨文承諾，到 2030 年 5 月，額外融資上限為 200 億美元，由股權和債務平分。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -6471,7 +6460,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Symbotic 的沃爾瑪成長讓機器人新創公司了解了哪些重要客戶",
-      "summary": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business.",
+      "summary": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
       "originalTitle": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
       "originalSummary": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business.",
       "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
@@ -6488,10 +6477,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business.",
+        "event": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business.",
+        "stance": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -8869,7 +8858,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "儘管第一季獲利超出預期並調高指引，希捷科技股價仍下跌 6%",
-      "summary": "Investing.com -- Seagate Technology Holdings plc (NASDAQ: STX) reported first-quarter financial results that exceeded analyst expectations across the board, though shares fell 6% in subsequent trading as investors appeared to take profits following the stock's strong recent run. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
+      "summary": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
       "originalTitle": "Seagate Technology shares fall 6% despite Q1 earnings beat and raised guidance",
       "originalSummary": "Investing.com -- Seagate Technology Holdings plc (NASDAQ: STX) reported first-quarter financial results that exceeded analyst expectations across the board, though shares fell 6% in subsequent trading as investors appeared to take profits following the stock's strong recent run. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-technology-shares-fall-8-204736448.html",
@@ -8886,13 +8875,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com -- Seagate Technology Holdings plc (NASDAQ: STX) reported first-quarter financial results that exceeded analyst expectations across the board, though shares fell 6% in subsequent trading as investors appeared to take profits following the stock's strong recent run. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
+        "event": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
         "numbers": [
           "6%",
           "118%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Investing.com -- Seagate Technology Holdings plc (NASDAQ: STX) reported first-quarter financial results that exceeded analyst expectations across the board, though shares fell 6% in subsequent trading as investors appeared to take profits following the stock's strong recent run. Still guessing which stocks will beat the market?",
+        "stance": "Investing.com—希捷科技控股有限公司（NASDAQ：STX）報告第一季財務業績全面超出分析師預期，但該股在隨後的交易中下跌了 6%，因為投資者似乎在該股近期強勁上漲後獲利了結。還在猜測哪些股票會跑贏大盤？我們的人工智慧投資組合每月更新一次，表現優於標準普爾 500 指數 118%。看本月列表 »",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -13153,7 +13142,7 @@
           "action": "下修",
           "newTarget": "$6",
           "oldTarget": "$12",
-          "reason": "production delays UBS Adjusts Price Target on Fluence Energy to $6 From $12, Maintains Neutral RatingFluence Energy has an average rating of hold and mean price target of $8.28, according to analysts polled by FactSet.",
+          "reason": "生產延遲 瑞銀將 Fluence Energy 的目標價從 12 美元調整至 6 美元，維持中性評級 據 FactSet 調查的分析師稱，Fluence Energy 的平均評級為持有，平均目標價為 8.28 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "FLNC",
           "targetCompany": "Fluence"
@@ -13168,15 +13157,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Fluence（FLNC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$6（原 $12）｜調整原因：production delays UBS Adjusts Price Target on Fluence Energy to $6 From $12, Maintains Neutral RatingFluence Energy has an average rating of hold and mean price target of $8.28, according to analysts polled by FactSet.",
+        "event": "被評級公司：Fluence（FLNC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$6（原 $12）｜調整原因：生產延遲 瑞銀將 Fluence Energy 的目標價從 12 美元調整至 6 美元，維持中性評級 據 FactSet 調查的分析師稱，Fluence Energy 的平均評級為持有，平均目標價為 8.28 美元。",
         "numbers": [
           "$12",
           "$6"
         ],
-        "why": "調整原因：production delays UBS Adjusts Price Target on Fluence Energy to $6 From $12, Maintains Neutral RatingFluence Energy has an average rating of hold and mean price target of $8.28, according to analysts polled by FactSet.",
+        "why": "調整原因：生產延遲 瑞銀將 Fluence Energy 的目標價從 12 美元調整至 6 美元，維持中性評級 據 FactSet 調查的分析師稱，Fluence Energy 的平均評級為持有，平均目標價為 8.28 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：production delays UBS Adjusts Price Target on Fluence Energy to $6 From $12, Maintains Neutral RatingFluence Energy has an average rating of hold and mean price target of $8.28, according to analysts polled by FactSet.",
+        "takeaway": "調整原因：生產延遲 瑞銀將 Fluence Energy 的目標價從 12 美元調整至 6 美元，維持中性評級 據 FactSet 調查的分析師稱，Fluence Energy 的平均評級為持有，平均目標價為 8.28 美元。",
         "sourceQuality": "analyst_structured"
       },
       "detailSource": "article_or_same_event"
@@ -16142,7 +16131,7 @@
           "action": "上修",
           "newTarget": "$40",
           "oldTarget": "$34",
-          "reason": "BofA Adjusts Price Target on Zeta Global to $40 From $34, Keeps Buy Rating Zeta Global (NYSE: ZETA), the intelligent AI infrastructure company, today announced the planned release of its third quarter 2026 financial results after the market close on Monday, November 9, 2026.",
+          "reason": "美國銀行將 Zeta Global 的目標股價從 34 美元調整至 40 美元，並維持買入評級智慧 AI 基礎設施公司 Zeta Global（NYSE：ZETA）今天宣布計劃於 2026 年 11 月 9 日星期一收盤後發布其 2026 年第三季財務業績。",
           "reasonConfidence": "medium",
           "targetTicker": "ZETA",
           "targetCompany": "Zeta Global"
@@ -16157,15 +16146,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Zeta Global（ZETA）｜券商：BofA｜動作：上修｜評等：Buy｜目標價：$40（原 $34）｜調整原因：BofA Adjusts Price Target on Zeta Global to $40 From $34, Keeps Buy Rating Zeta Global (NYSE: ZETA), the intelligent AI infrastructure company, today announced the planned release of its third quarter 2026 financial results after the market close on Monday, November 9, 2026.",
+        "event": "被評級公司：Zeta Global（ZETA）｜券商：BofA｜動作：上修｜評等：Buy｜目標價：$40（原 $34）｜調整原因：美國銀行將 Zeta Global 的目標股價從 34 美元調整至 40 美元，並維持買入評級智慧 AI 基礎設施公司 Zeta Global（NYSE：ZETA）今天宣布計劃於 2026 年 11 月 9 日星期一收盤後發布其 2026 年第三季財務業績。",
         "numbers": [
           "$34",
           "$40"
         ],
-        "why": "調整原因：BofA Adjusts Price Target on Zeta Global to $40 From $34, Keeps Buy Rating Zeta Global (NYSE: ZETA), the intelligent AI infrastructure company, today announced the planned release of its third quarter 2026 financial results after the market close on Monday, November 9, 2026.",
+        "why": "調整原因：美國銀行將 Zeta Global 的目標股價從 34 美元調整至 40 美元，並維持買入評級智慧 AI 基礎設施公司 Zeta Global（NYSE：ZETA）今天宣布計劃於 2026 年 11 月 9 日星期一收盤後發布其 2026 年第三季財務業績。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：BofA Adjusts Price Target on Zeta Global to $40 From $34, Keeps Buy Rating Zeta Global (NYSE: ZETA), the intelligent AI infrastructure company, today announced the planned release of its third quarter 2026 financial results after the market close on Monday, November 9, 2026.",
+        "takeaway": "調整原因：美國銀行將 Zeta Global 的目標股價從 34 美元調整至 40 美元，並維持買入評級智慧 AI 基礎設施公司 Zeta Global（NYSE：ZETA）今天宣布計劃於 2026 年 11 月 9 日星期一收盤後發布其 2026 年第三季財務業績。",
         "sourceQuality": "analyst_structured"
       },
       "detailSource": "article_or_same_event"
