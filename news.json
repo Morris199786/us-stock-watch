@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-10-30 18:50 台灣時間",
+  "updatedAt": "2026-10-30 18:55 台灣時間",
   "historyUpdatedDate": "2026-10-30",
   "historyLastAttemptAt": "2026-10-29T16:12:06.662984+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-30",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "由於對 AWS 成長的擔憂，美國銀行下調了亞馬遜股價目標",
+      "summary": "",
+      "originalTitle": "BofA cuts Amazon stock price target on AWS growth concerns",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNzcwZG1vb21ZbGpINWlBaTB0cVdkN25LbHhLMlJ3Uk53MTFTRkZwRFlDS0d3ZE9zZDk5NjB1bk9KRVYwUDRJb2JvUFpKVldUSkVJVFdYMDFMWDJSOFVSTWRUdmdJdTM5QnVqU0JEWmVRQ0x6TEpZYW1kcHAydEt1dDA4bUk1SDlPcDRmLVExV3RneXBUblkxampDSDhYdG5YTUp4TFNpeUxHWElsaFlIcENueGFTa2doUWc?oc=5",
+      "ts": "2026-10-30T10:51:00+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "BofA",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "AWS 成長擔憂",
+          "reasonConfidence": "high",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：BofA｜動作：下修｜調整原因：AWS 成長擔憂",
+        "numbers": [],
+        "why": "調整原因：AWS 成長擔憂",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：AWS 成長擔憂",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -914,6 +960,55 @@
       "top10Rank": null
     },
     {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "BMO Capital 將 Amazon.com 的目標價從 380 美元調整為 390 美元",
+      "summary": "",
+      "originalTitle": "BMO Capital Adjusts Price Target on Amazon.com to $390 From $380",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYnl4dWhHU1dZbjU2VEEwMXlVR1NhNEN4bUVKN3dQaFBZNXlOM2lhLVRYT2FxSWNncDUyWG1RWUMtLVlfczY5clBteWVhRlM5MWdFTF80eTYtM2x1MUdyQkQzNG9LTl9KNVlTY0l5M3FvVU00ZHpsZkhuenpoTjJ2eGNycVZ5cno5MzBUclE5UWlpLXlKOE1DWURfVHpTS2Qzb3F3?oc=5",
+      "ts": "2026-10-30T09:55:12+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "BMO Capital",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$390",
+          "oldTarget": "$380",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：BMO Capital｜動作：上修｜目標價：$390（原 $380）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$380",
+          "$390"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -1117,7 +1212,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：STMicroelectronics（STM）｜券商：BofA｜動作：下修｜調整原因：來源未提供具體理由",
@@ -1195,7 +1290,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：STMicroelectronics（STM）｜券商：BofA｜動作：下修｜調整原因：來源未提供具體理由",
@@ -1317,6 +1412,36 @@
         "watch": [],
         "takeaway": "調整原因：Truist Securities 將英特爾的目標股價從 108 美元調整至 72 美元，維持持有評級",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "納斯達剋期貨暴跌；幣安遭遇大規模駭客攻擊－市場動因",
+      "summary": "",
+      "originalTitle": "Nasdaq futures tumble; Binance suffers massive hack - what’s moving markets",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWFTNzAxUTM2ek5MQlVjNTdoSV9fN1QyNUhJTThKelI2VFljRkRrT3dUREJMVDBnanFzSFpXM1IzaDZXT0g3V1hXSFlqR0ozdFBhMmY4VGJPMTdJcmFtUDRmR2hHUzkwNVBwMDVCTHRNbzdfeWo3SUpMTWNTYTE3ODlkQ2hyWEdiQUh2U2hxRUVKd0xHeXVITWpuMA?oc=5",
+      "ts": "2026-10-30T09:30:34+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -1662,8 +1787,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 5
     },
     {
       "ticker": "INTC",
@@ -2893,141 +3018,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Goldman Sachs 重申 AMZN Buy",
-      "summary": "",
-      "originalTitle": "Amazon.com, Inc. : Goldman Sachs maintains a Buy rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcUhsbWJLT21ZLTZfZ2w5dHBWQUJrMnJBVlRfMFl2YTFDUFFEbzRXdFdubEdZZ3hKamVMU1UyaWxnM3dBd01ndmdVUlBkaGI4ckpaVGl6UFRPMEU2SHlnNjBDTkt5Z0tMczNQU2tYNHhCdWVGdDl5VHBYYmNYcEVmNHI1cjFYTVItNVFEdGs0azhzeVNuY2ZIcllDMjY3MzN6MkFKQlVVTQ?oc=5",
-      "ts": "2026-10-30T06:32:28+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Goldman Sachs",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "高盛維持買入評級",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 211.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Goldman Sachs｜動作：重申｜評等：Buy｜調整原因：高盛維持買入評級",
-        "numbers": [],
-        "why": "調整原因：高盛維持買入評級",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：高盛維持買入評級",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 5
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "Jefferies 重申 INTC Neutral",
-      "summary": "",
-      "originalTitle": "Intel Corporation : Jefferies reiterates its Neutral rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTmNQU1lOdnh6UU03UFc0WlJzRVA1UjV2bXptckcybGhVamZMWVV2eVh3aXBVMjM4cGxhSERuUWJFLVkwb3FtTFBMcjUwLWxtNml2SWliUFdmSmlwYVVLMEVZWVVxelNUVzhaQXF1X0J2SllDVGhwcHg3SHNyQTF1NDdDdTk2bWxHcTd0aHg1dzNKY2hjZGIzU3IxZ3Bic0VkUER2UXZmSUxyMmFEUnJB?oc=5",
-      "ts": "2026-10-30T06:22:50+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Jefferies",
-          "analyst": "",
-          "rating": "Neutral",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "INTC",
-          "targetCompany": "Intel"
-        }
-      ],
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：Jefferies｜動作：重申｜評等：Neutral｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Jefferies 重申 AMZN Buy",
-      "summary": "",
-      "originalTitle": "Amazon.com, Inc. : Jefferies reiterates its Buy rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ3U3VEg5SnpHcm40cUxEME9BNXRfbGszQ2UxSkNZVGNXd3BMUXhPMzFXQXNZM2VqRVNzOHZMcjR3bEVCUmJ6eXFpSGlCenJSQW54RDVSVk1zZTdvaDBtaS1UemVpd2JIX1c4VndfbjdIS21NRkV0eERmOWpfbG9VTXFDRVlvNjRFaVJlZEJZbXdpN2FEQW9UUG9WZmNmYmsyTUZFZndn?oc=5",
-      "ts": "2026-10-30T06:11:46+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Jefferies",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Jefferies｜動作：重申｜評等：Buy｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
