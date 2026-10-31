@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 21:03 台灣時間",
+  "updatedAt": "2026-10-31 21:07 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
@@ -396,8 +396,8 @@
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 9,
+      "top10": false,
+      "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -1813,29 +1813,36 @@
       "title": "谷歌在太空資料中心探索中取得巨大勝利",
       "summary": "",
       "originalTitle": "Google Scores Big Win in Quest to Put Data Centers in Space",
-      "originalSummary": "",
-      "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae5e6b2eaf6480d926f254dc0711634&url=https%3a%2f%2fau.pcmag.com%2fai%2f120701%2fgoogle-scores-big-win-in-quest-to-put-data-centers-in-space&c=2304692490641609981&mkt=en-us",
+      "originalSummary": "Google has just hit a big milestone in its “moonshot” project to put functional solar-powered data centers in space. The tech giant has now received its first-ever AI response from one of its Tensor Processing Unit (TPU) chips launched into low Earth orbit. During a ground-station pass, Google researchers prompted the company’s Gemma 4 open-source AI model, asking it to generate a haiku about being in space. As the satellite passed by Svalbard, Norway's Arctic archipelago, it was able to beam back a short poem: “Blue marble below Data streams in silent grace Starlight feeds my core.” You May Also Like The news comes after the first prototype satellite for Project Suncatcher launched on Oct. 1, in collaboration with satellite imaging company Planet, using SpaceX's rideshare service. Google says that proving its TPUs “can reliably execute workloads in space” paves the way for the next step in its plan of having twin interconnected satellites operational in 2027. Google has been open about the immense technical challenges of putting AI data centers in space. For example, things like cosmic radiation and solar storms can wreak havoc on sensitive electronic devices, not to mention issues like cooling data centers without normal airflow and having data centers in orbit communicate with each other effectively. The tech giant has acknowledged that scalable AI compute in space “won’t happen all at once” and that these early launches are about “seeing what works, identifying points of failure, and applying those findings to future missions.” Recommended by Our Editors Google Eyes Space-Based Data Centers With 'Project Suncatcher' If Orbital Data Centers Take Off, Brace for Giant Rings in the Night Sky Bigger Than Starlink: SpaceX Provides New Look at Orbital Data Center Plans Google isn’t the only tech giant eyeing space as the next frontier for AI compute; SpaceX has made some exceptionally bold claims about the future of satellite data centers. In January 2026, SpaceX sought FCC approval to launch up to one million satellites as part of plans to create a network of orbiting data centers around Earth to produce “unprecedented computing capacity to power advanced artificial intelligence.” Meanwhile, Amazon and Blue Origin founder Jeff Bezos is also predicting massive \"gigawatt\" data centers in space within the next two decades. Google also has bold plans ahead, telling the New York Times last month that it has designs for fleets of more than 80 satellites that will fly in close formation and communicate with one another. Google is also reportedly meeting with designers to potentially create a custom satellite “the length of a soccer field.”",
+      "url": "https://www.pcmag.com/news/google-scores-big-win-in-quest-to-put-data-centers-in-space",
       "ts": "2026-10-31T05:52:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "SPCX",
+        "AMZN"
       ],
-      "eventType": "",
-      "score": 10.4,
+      "eventType": "跨公司事件",
+      "score": 35.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "谷歌剛剛在其「登月」計畫中取得了一個重大里程碑，該計畫旨在將功能齊全的太陽能資料中心放入太空。這家科技巨頭現已從其發射到近地軌道的張量處理單元（TPU）晶片收到了有史以來的第一個人工智慧回應。這家科技巨頭承認，太空中的可擴展人工智慧運算“不會一下子發生”，這些早期的發射是為了“看看什麼有效，識別故障點，並將這些發現應用到未來的任務中”。我們的編輯推薦 Go",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "谷歌剛剛在其「登月」計畫中取得了一個重大里程碑，該計畫旨在將功能齊全的太陽能資料中心放入太空。這家科技巨頭現已從其發射到近地軌道的張量處理單元（TPU）晶片收到了有史以來的第一個人工智慧回應。在地面站通行期間，Google研究人員提示該公司的 Gemma 4 開源人工智慧模型，要求它產生一首關於太空的俳句。當衛星經過挪威北極群島斯瓦爾巴群島時，它傳回了一首短詩：「藍色大理石下方的數據流在沉默的恩典中星光滋養著我的核心。」你可能也喜歡這個消息是在 10 月 1 日與衛星成像公司 Planet 合作，使用 SpaceX 的拼車服務發射了第一顆 Suncatcher 原型衛星之後發布的。谷歌表示，證明其 TPU「可以在太空中可靠地執行工作負載」為下一步鋪平道路",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 9,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -1887,10 +1894,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
+        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
+        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5144,7 +5151,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "SpaceX 供應商意法半導體預測人工智慧和衛星將帶來強勁銷售",
-      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
       "originalTitle": "SpaceX Supplier STMicroelectronics Forecasts Strong Sales on AI, Satellite Boost",
       "originalSummary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand. It expects sales of about $4.15 billion this quarter compared with $3.33 billion a year earlier, above a Visible Alpha forecast of nearly $4.12 billion. Its annual sales projection is also above a Visible Alpha forecast of $14.41 billion. Chief Executive Jean-Marc Chery singled out data centers and satellites as key drivers for growth this year. Like other chip makers, STMicroelectronics is reaping the benefits of hundreds of billions of dollars in spending commitments from some of the world&#039;s largest tech groups to build out AI infrastructure. STMicroelectronics stock has nearly doubled in value since the year began, riding a wave of investor fervor around AI that lifted global semiconductor stocks. In a sign of how fast demand for chips to power energy-intensive data centers is building up, STMicroelectronics in July projected revenue from data centers above $1 billion in 2026 and well above $2 billion in 2027 compared with prior guidance of about $1 billion and roughly $2 billion, respectively. That marked the second time the company raised its AI forecasts this year. Alongside data centers, space also provides a key revenue stream for STMicroelectronics and other chip makers that supply semiconductors for low-Earth-orbit satellite constellations. The company expects well above $3 billion in revenue between 2026 and 2028 for the supply of equipment to be used in space, a forecast that for now excludes potential benefits from orbital data centers. Low Earth-orbit satellite networks are closer to Earth than traditional constellations, making them ideal to beam low-latency broadband directly to smartphones in parts of the world where cell towers are unavailable. SpaceX&#039;s Starlink provides direct-to-device connectivity to users in several countries, including Ukraine, where damage to terrestrial networks because of the war is common. STMicroelectronics had long relied on the automotive industry to generate a significant portion of its sales. Data centers and satellites have allowed the group to diversify its revenue streams and become less tied to carmakers. The auto industry in recent years had slowly been digesting chip inventories it built at the height of the pandemic, weighing on demand for new orders in a blow to STMicroelectronics. Sales for the quarter that closed Sept. 26 grew nearly 18% on year to $3.76 billion, above company guidance of about $3.70 billion and an analysts&#039; forecast of $3.73 billion, according to V",
       "url": "https://www.marketscreener.com/news/spacex-supplier-stmicroelectronics-forecasts-strong-sales-growth-on-ai-satellite-boost-updates-ce785cd3dc8cf325",
@@ -5163,7 +5170,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "numbers": [
           "$14.5 billion",
           "$4.15 billion",
@@ -5171,7 +5178,7 @@
           "$4.12 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -9557,7 +9564,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems：扭轉局面是可能的，但尚未得到證實（納斯達克股票代碼：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Aehr Test Systems: A Turnaround Is Possible, But Not Yet Proven (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4958020-aehr-test-systems-a-turnaround-is-possible-but-not-yet-proven",
@@ -9573,10 +9580,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -9965,7 +9972,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems, Inc. (AEHR) 股票價格、新聞、報價和歷史",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Aehr Test Systems, Inc. (AEHR) Stock Price, News, Quote & History",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4958020-aehr-test-systems-a-turnaround-is-possible-but-not-yet-proven",
@@ -9981,10 +9988,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -9998,7 +10005,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "AST SpaceMobile：新格倫帶來希望，製造業應該跟進（評級升級）",
-      "summary": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "AST SpaceMobile: New Glenn Gives Hope, Manufacturing Should Follow (Rating Upgrade)",
       "originalSummary": "Brandon Moser/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have a beneficial long position in the shares of ASTS either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957896-ast-spacemobile-stock-new-glenn-gives-hope-manufacturing-should-follow-rating-upgrade",
@@ -10015,14 +10022,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
-        "why": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -12558,7 +12565,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 以近 57 億美元收購客戶參與平台",
-      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
       "originalTitle": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
       "originalSummary": "(Bloomberg) -- Salesforce Inc. has agreed to buy Braze Inc., an artificial intelligence-powered platform for marketers, for almost $5.7 billion in enterprise value. World's Largest Retirement Community Set to Borrow $180 Million Zelenskyy Says Trump Is Pushing Ukraine, Not Putin, to Yield Eric Schmidt's 1% Anthropic Stake Set to Pay Huge Windfall Musk Plans to Gift SpaceX Shares to Kids Through Trump Accounts Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
       "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-buy-marketing-platform-braze-121214100.html",
@@ -12576,7 +12583,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "numbers": [
           "$5.7 Billion",
           "$5.7 billion",
@@ -12584,7 +12591,7 @@
           "1%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -13596,7 +13603,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "Lam Research：自我的賣出電話以來下跌了 29%，但數學已經改變（升級）(LRCX)",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Lam Research: Down 29% Since My Sell Call, But The Math Has Changed (Upgrade) (LRCX)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957338-lam-research-down-29-percent-since-my-sell-call-but-the-math-has-changed-upgrade",
@@ -13614,16 +13621,16 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [
           "29%"
         ],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -15394,7 +15401,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "信條：重置已完成（評級升級）（納斯達克股票代碼：CRDO）",
-      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Credo: The Reset Is Done (Rating Upgrade) (NASDAQ:CRDO)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in CRDO over the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957051-credo-the-reset-is-done-rating-upgrade",
@@ -15411,14 +15418,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -17716,7 +17723,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Lam Research 在謹慎指引和中國收入下降的情況下下跌 12% (LRCX:NASDAQ)",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
       "originalTitle": "Lam Research retreats 12% amid cautious guidance, China revenue drop (LRCX:NASDAQ)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Shares of Lam Research ( LRCX ), a global supplier of wafer-fabrication equipment and services, dropped almost 12% on Thursday following the company's quarterly earnings release. Management commentary flagged near-term supply constraints and a projected decline in China's revenue contribution for the coming quarter.",
       "url": "https://seekingalpha.com/news/4656207-lam-research-retreats-12-amid-cautious-guidance-china-revenue-drop",
@@ -17732,12 +17739,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
         "numbers": [
           "12%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -18026,7 +18033,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "長火箭實驗室，短 AST SpaceMobile：一個擁有自己的路徑，另一個從 SpaceX 租用它",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -18045,10 +18052,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -18061,7 +18068,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如果火箭實驗室墜毀後我只能買一支太空股票，那就是這隻",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -18077,10 +18084,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -19508,7 +19515,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Arista Networks (ANET) 被經紀商視為一項不錯的投資：這是真的嗎？",
-      "summary": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報告稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
+      "summary": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報導稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
       "originalTitle": "Arista Networks (ANET) Is Considered a Good Investment by Brokers: Is That True?",
       "originalSummary": "The recommendations of Wall Street analysts are often relied on by investors when deciding whether to buy, sell, or hold a stock. Media reports about these brokerage-firm-employed (or sell-side) analysts changing their ratings often affect a stock's price. Do they really matter, though? Let's take a look at what these Wall Street heavyweights have to say about Arista Networks (ANET) before we discuss the reliability of brokerage recommendations and how to use them to your advantage.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-considered-good-123003129.html",
@@ -19525,10 +19532,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報告稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
+        "event": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報導稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報告稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
+        "stance": "投資者在決定是否購買、出售或持有股票時經常依賴華爾街分析師的建議。媒體報導稱，這些經紀公司聘用的（或賣方）分析師改變評級通常會影響股票價格。但它們真的很重要嗎？在我們討論經紀推薦的可靠性以及如何利用它們為您帶來優勢之前，讓我們先看看這些華爾街重量級人物對 Arista Networks (ANET) 的評價。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -20875,7 +20882,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "您現在應該出售 AST SpaceMobile 股票嗎？",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Should You Sell Your AST SpaceMobile Stock Now?",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -20892,10 +20899,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -22554,7 +22561,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Amkor 技術：人工智慧領域的穩定複合者",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Amkor Technology: A Steady Compounder In The AI Space",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4955904-amkor-technology-a-steady-compounder-in-the-ai-space",
@@ -22570,10 +22577,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -27109,7 +27116,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "GE Vernova 獲得旨在加強科特迪瓦地區能源能力的訂單",
-      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
       "originalTitle": "GE Vernova secures order aimed to strengthen regional energy capacity in Côte d’Ivoire",
       "originalSummary": "Developed by Songon Energies S.A., Songon power plant is built to strengthen energy security and support future growing electricity demand in Greater Abidjan GE Vernova 9E turbine technology to support reliable power delivery for industrial growth and millions of households Infrastructure development expected to create up to 1,400 new jobs and drive positive community impact ABIDJAN, Côte d&#039;Ivoire - [October 20, 2026] - GE Vernova announced today that it will provide the gas power technology forthe new Songon combined-cycle power plant, located in the Songon region near Abidjan, Côte d&#039;Ivoire. Following the signing of financing agreements last June, Songon Energies- Ivorian development investment company focused on advancing energy infrastructure - selected GE Vernova to supply a 9E gas turbine and generator. The plant - to be built by the EPC contractor China Energy International Engineering Co., Ltd. - is expected to deliver 372 megawatts (MW), a capacity equal to the power needs of approximately 5 million Ivorian homes. Supporting a growing national energy landscape. Côte d&#039;Ivoire has made significant progress, reaching an electrification rate of 94.3 percent by 2024 through initiatives like the &quot;Electricity for All Program&quot; (PEPT), in line with the national goal to achieve universal electrification and improved power quality by 2030. Despite these gains, the nation faces an annual demand growth rate of 10 to 15 percent and rural areas still require expanded access. In this energy landscape, this new power plant will help fill a critical gap. The facility is projected to represent up to 12 percent of the country&#039;s total installed base upon its scheduled 2029 operational launch, playing a vital role in meeting these ambitious development targets. Furthermore, the project is expected to generate up to 1,400 new jobs, creating economic opportunities for the local community. &quot;The Songon Energies project is designed to strengthen energy security and support future growing electricity demand growth in the Greater Abidjan region while reinforcing the country&#039;s position as a regional energy hub in West Africa,&quot; said Mr. Wang Xiaoming, Deputy General Manager (Acting CEO) for Songon Energies. &quot;The facility is expected to ease energy pressure on the Abidjan metropolitan area, providing a reliable foundation for the development of skilled workers, the growth of industrial zones, the expansion of small and medium-sized enterprises, and a tangible improvement in the daily lives of millions of Ivorian households. We selected to work with GE Vernova for this new power plant, because of our deep trust in their efficient technology and their constant, proven presence in Côte d&#039;Ivoire, which gives us great confidence in the long-term success of this facility.&quot; &quot;We are honored to support Songon Energies with our proven 9E technology for this crucial infrastructure project,&quot; said Joseph Anis, CEO of Gas Power in Europe, Middle East, and Africa at GE Vernova. &quot;Our commitment to power plant operators is rooted in delivering advanced gas power technology that provides the reliable, dispatc",
       "url": "https://www.marketscreener.com/news/ge-vernova-secures-order-aimed-to-strengthen-regional-energy-capacity-in-cote-da-ivoire-ce785cdbd181f227",
@@ -27125,12 +27132,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "numbers": [
           "5 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
