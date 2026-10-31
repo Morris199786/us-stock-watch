@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 08:00 台灣時間",
+  "updatedAt": "2026-10-31 08:03 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
@@ -73,31 +73,45 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "標準普爾將 Meta 的評級展望下調至負面",
-      "summary": "",
+      "summary": "(Bloomberg) -- S&P Global Ratings slashed Meta Platforms Inc.'s credit outlook to negative on Friday, citing growing pressure on the tech company's balance sheet stemming from elevated capital expenditures for artificial intelligence. Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap Google Erases a Record $500 Billion as AI Eats Into Sales Kushner's Thrive Holdings to Buy ADT for $7.6 Billion in Cash Intel Suffers Worst Stock Drop in Deca",
       "originalTitle": "Meta’s Rating Outlook Cut to Negative by S&P on AI Spending",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYXBldlo0WUZ5YjlBRWFONUFOb0ppblgzNDF4Z2oyaloyZFhVMW91ZEotX3Y3b0JqZHlERFBXcjlhQ2ZvWDB3SDVYWGRFSF9Ic1JQUTZCWXJ6anlINzRRUERJaDNqQzVTa05ESnBJeHNOMUg0a1JGVUJHdU9Pb1hKS0d4V0RnVmlqOGctUE1ZejRrRUZXenNzdHZJRVpTT0h1dFRSdDU1SjhZV2xoWFE?oc=5",
+      "originalSummary": "(Bloomberg) -- S&P Global Ratings slashed Meta Platforms Inc.'s credit outlook to negative on Friday, citing growing pressure on the tech company's balance sheet stemming from elevated capital expenditures for artificial intelligence. Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap Google Erases a Record $500 Billion as AI Eats Into Sales Kushner's Thrive Holdings to Buy ADT for $7.6 Billion in Cash Intel Suffers Worst Stock Drop in Decades on Weak Forecast",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-credit-rating-outlook-downgraded-215600853.html",
       "ts": "2026-10-30T23:23:31+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "GOOGL",
+        "META",
+        "INTC"
+      ],
       "eventType": "",
-      "score": 15.75,
+      "score": 24.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "(Bloomberg) -- S&P Global Ratings slashed Meta Platforms Inc.'s credit outlook to negative on Friday, citing growing pressure on the tech company's balance sheet stemming from elevated capital expenditures for artificial intelligence. Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap Google Erases a Record $500 Billion as AI Eats Into Sales Kushner's Thrive Holdings to Buy ADT for $7.6 Billion in Cash Intel Suffers Worst Stock Drop in Deca",
+        "numbers": [
+          "$6.3 Billion",
+          "$500 Billion",
+          "$7.6 Billion",
+          "6.3 Billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "(Bloomberg) -- S&P Global Ratings slashed Meta Platforms Inc.'s credit outlook to negative on Friday, citing growing pressure on the tech company's balance sheet stemming from elevated capital expenditures for artificial intelligence. Binance Estimates $6.3 Billion Hacked in Crypto's Biggest Heist Stocks Slump as Wall Street Gets AI Wake-Up Call: Markets Wrap Google Erases a Record $500 Billion as AI Eats Into Sales Kushner's Thrive Holdings to Buy ADT for $7.6 Billion in Cash Intel Suffers Worst Stock Drop in Deca",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2599,10 +2613,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
+        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
+        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5248,7 +5262,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "SpaceX 供應商意法半導體預測人工智慧和衛星將帶來強勁銷售",
-      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
       "originalTitle": "SpaceX Supplier STMicroelectronics Forecasts Strong Sales on AI, Satellite Boost",
       "originalSummary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand. It expects sales of about $4.15 billion this quarter compared with $3.33 billion a year earlier, above a Visible Alpha forecast of nearly $4.12 billion. Its annual sales projection is also above a Visible Alpha forecast of $14.41 billion. Chief Executive Jean-Marc Chery singled out data centers and satellites as key drivers for growth this year. Like other chip makers, STMicroelectronics is reaping the benefits of hundreds of billions of dollars in spending commitments from some of the world&#039;s largest tech groups to build out AI infrastructure. STMicroelectronics stock has nearly doubled in value since the year began, riding a wave of investor fervor around AI that lifted global semiconductor stocks. In a sign of how fast demand for chips to power energy-intensive data centers is building up, STMicroelectronics in July projected revenue from data centers above $1 billion in 2026 and well above $2 billion in 2027 compared with prior guidance of about $1 billion and roughly $2 billion, respectively. That marked the second time the company raised its AI forecasts this year. Alongside data centers, space also provides a key revenue stream for STMicroelectronics and other chip makers that supply semiconductors for low-Earth-orbit satellite constellations. The company expects well above $3 billion in revenue between 2026 and 2028 for the supply of equipment to be used in space, a forecast that for now excludes potential benefits from orbital data centers. Low Earth-orbit satellite networks are closer to Earth than traditional constellations, making them ideal to beam low-latency broadband directly to smartphones in parts of the world where cell towers are unavailable. SpaceX&#039;s Starlink provides direct-to-device connectivity to users in several countries, including Ukraine, where damage to terrestrial networks because of the war is common. STMicroelectronics had long relied on the automotive industry to generate a significant portion of its sales. Data centers and satellites have allowed the group to diversify its revenue streams and become less tied to carmakers. The auto industry in recent years had slowly been digesting chip inventories it built at the height of the pandemic, weighing on demand for new orders in a blow to STMicroelectronics. Sales for the quarter that closed Sept. 26 grew nearly 18% on year to $3.76 billion, above company guidance of about $3.70 billion and an analysts&#039; forecast of $3.73 billion, according to V",
       "url": "https://www.marketscreener.com/news/spacex-supplier-stmicroelectronics-forecasts-strong-sales-growth-on-ai-satellite-boost-updates-ce785cd3dc8cf325",
@@ -5267,7 +5281,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "numbers": [
           "$14.5 billion",
           "$4.15 billion",
@@ -5275,7 +5289,7 @@
           "$4.12 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -12662,7 +12676,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 以近 57 億美元收購客戶參與平台",
-      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
       "originalTitle": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
       "originalSummary": "(Bloomberg) -- Salesforce Inc. has agreed to buy Braze Inc., an artificial intelligence-powered platform for marketers, for almost $5.7 billion in enterprise value. World's Largest Retirement Community Set to Borrow $180 Million Zelenskyy Says Trump Is Pushing Ukraine, Not Putin, to Yield Eric Schmidt's 1% Anthropic Stake Set to Pay Huge Windfall Musk Plans to Gift SpaceX Shares to Kids Through Trump Accounts Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
       "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-buy-marketing-platform-braze-121214100.html",
@@ -12680,7 +12694,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "numbers": [
           "$5.7 Billion",
           "$5.7 billion",
@@ -12688,7 +12702,7 @@
           "1%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17820,7 +17834,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Lam Research 在謹慎指引和中國收入下降的情況下下跌 12% (LRCX:NASDAQ)",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
       "originalTitle": "Lam Research retreats 12% amid cautious guidance, China revenue drop (LRCX:NASDAQ)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Shares of Lam Research ( LRCX ), a global supplier of wafer-fabrication equipment and services, dropped almost 12% on Thursday following the company's quarterly earnings release. Management commentary flagged near-term supply constraints and a projected decline in China's revenue contribution for the coming quarter.",
       "url": "https://seekingalpha.com/news/4656207-lam-research-retreats-12-amid-cautious-guidance-china-revenue-drop",
@@ -17836,12 +17850,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
         "numbers": [
           "12%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -24479,7 +24493,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 財報電話會議的五個要點",
-      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+      "summary": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
       "originalTitle": "Five Takeaways From SpaceX’s Earnings Call",
       "originalSummary": "President and Chief Operating Officer - Gwynne Shotwell Andrea Williams: Hello, everyone. We are coming to you live from our Starlink factory and future Starmind production site here in Bastrop, Texas. I'm Andrea Williams, Head of Investor Relations, and thank you for joining us for SpaceX's Third Quarter 2026 Earnings Presentation. Joining us are Elon, Gwynne, and Bret, and we are live streaming on X. Our third quarter financial results were announced just after 3:00 p.m. Texas time, and all relevant materials have been published to our Investor Relations website at ir.spacex.com. For today's presentation, our prepared remarks will be followed by a question-and-answer session.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-spcx-q3-2026-earnings-005829420.html",
@@ -24496,10 +24510,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "event": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從位於德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地向您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
+        "stance": "總裁兼營運長 - Gwynne Shotwell Andrea Williams：大家好。我們將從德克薩斯州巴斯特羅普的 Starlink 工廠和未來的 Starmind 生產基地為您進行現場直播。我是投資人關係主管 Andrea Williams，感謝您參加 SpaceX 2026 年第三季財報發表會。 Elon、Gwynne 和 Bret 也加入了我們，我們正在 X 上進行直播。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -27213,7 +27227,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "GE Vernova 獲得旨在加強科特迪瓦地區能源能力的訂單",
-      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
       "originalTitle": "GE Vernova secures order aimed to strengthen regional energy capacity in Côte d’Ivoire",
       "originalSummary": "Developed by Songon Energies S.A., Songon power plant is built to strengthen energy security and support future growing electricity demand in Greater Abidjan GE Vernova 9E turbine technology to support reliable power delivery for industrial growth and millions of households Infrastructure development expected to create up to 1,400 new jobs and drive positive community impact ABIDJAN, Côte d&#039;Ivoire - [October 20, 2026] - GE Vernova announced today that it will provide the gas power technology forthe new Songon combined-cycle power plant, located in the Songon region near Abidjan, Côte d&#039;Ivoire. Following the signing of financing agreements last June, Songon Energies- Ivorian development investment company focused on advancing energy infrastructure - selected GE Vernova to supply a 9E gas turbine and generator. The plant - to be built by the EPC contractor China Energy International Engineering Co., Ltd. - is expected to deliver 372 megawatts (MW), a capacity equal to the power needs of approximately 5 million Ivorian homes. Supporting a growing national energy landscape. Côte d&#039;Ivoire has made significant progress, reaching an electrification rate of 94.3 percent by 2024 through initiatives like the &quot;Electricity for All Program&quot; (PEPT), in line with the national goal to achieve universal electrification and improved power quality by 2030. Despite these gains, the nation faces an annual demand growth rate of 10 to 15 percent and rural areas still require expanded access. In this energy landscape, this new power plant will help fill a critical gap. The facility is projected to represent up to 12 percent of the country&#039;s total installed base upon its scheduled 2029 operational launch, playing a vital role in meeting these ambitious development targets. Furthermore, the project is expected to generate up to 1,400 new jobs, creating economic opportunities for the local community. &quot;The Songon Energies project is designed to strengthen energy security and support future growing electricity demand growth in the Greater Abidjan region while reinforcing the country&#039;s position as a regional energy hub in West Africa,&quot; said Mr. Wang Xiaoming, Deputy General Manager (Acting CEO) for Songon Energies. &quot;The facility is expected to ease energy pressure on the Abidjan metropolitan area, providing a reliable foundation for the development of skilled workers, the growth of industrial zones, the expansion of small and medium-sized enterprises, and a tangible improvement in the daily lives of millions of Ivorian households. We selected to work with GE Vernova for this new power plant, because of our deep trust in their efficient technology and their constant, proven presence in Côte d&#039;Ivoire, which gives us great confidence in the long-term success of this facility.&quot; &quot;We are honored to support Songon Energies with our proven 9E technology for this crucial infrastructure project,&quot; said Joseph Anis, CEO of Gas Power in Europe, Middle East, and Africa at GE Vernova. &quot;Our commitment to power plant operators is rooted in delivering advanced gas power technology that provides the reliable, dispatc",
       "url": "https://www.marketscreener.com/news/ge-vernova-secures-order-aimed-to-strengthen-regional-energy-capacity-in-cote-da-ivoire-ce785cdbd181f227",
@@ -27229,12 +27243,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "numbers": [
           "5 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
