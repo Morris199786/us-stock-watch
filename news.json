@@ -1,11 +1,92 @@
 {
-  "updatedAt": "2026-10-31 10:58 台灣時間",
+  "updatedAt": "2026-10-31 11:14 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-30",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "利空",
+      "title": "UBS 下修 INTC 目標價至 $80",
+      "summary": "",
+      "originalTitle": "Intel Price Target Cut to $80.00/Share From $100.00 by UBS",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ1VDX2ZuSmFUXzQxRWI4bkxpSDlTN3RQVWxrZGhoaTVDY2U2WF95Ym16ZzRuenE4TGVENnJDRlo1d2QwRkYycDR1U1JVTnVrcVJ0MmJOY1NOTzU5N1I4MThRdE5iYkRsS2RFWG1zOVVQZ01sRmdmb1hBZlpTSWR0S3A5QUhZQVRXa0dRVlBoVEdoWnZl?oc=5",
+      "ts": "2026-10-31T02:39:04+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "UBS",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$80",
+          "oldTarget": "$100",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "INTC",
+          "targetCompany": "Intel"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Intel（INTC）｜券商：UBS｜動作：下修｜目標價：$80（原 $100）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$100",
+          "$80"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 5
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "道瓊期貨：隨著蘋果、Palantir、中期選舉臨近，股市遭遇拋售；該怎麼辦",
+      "summary": "",
+      "originalTitle": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEoyQk15NGhJR0FQZEg4aC1VS3RmOG9MdkZvSUR6a2tpQ0NYcW9XYWFralZwcmVZTnlRSG5CRENJXzQtNF9OVUotNFNLMW5HeTdPSjMxUlhKdGN5SUtIbWxmUXh4NDFSc2FJQVNzd0JXYlZ3OTdDWVd2X3pXT09WQWZ5MnN3OWtMN1hSS1pfLW9JYWdKanlnTTE0bU5ocHo1S2lXR0NMekZCRk1zdUdIODktNUJfckRUbUt4X2FUcGo2SXFNTWkzeWNMWWQ?oc=5",
+      "ts": "2026-10-31T02:34:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "PLTR"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -99,7 +180,7 @@
       "eventType": "",
       "score": 207.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Amazon（AMZN）｜券商：UBS｜動作：上修｜評等：Buy｜目標價：$352（原 $348）｜調整原因：UBS maintains Amazon.com at Buy, raises price target to $352 from $348",
         "numbers": [
@@ -120,10 +201,10 @@
       "group": "CPU 概念股",
       "tag": "利空",
       "title": "UBS 下修 INTC 目標價至 $80，維持 Neutral",
-      "summary": "",
+      "summary": "UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet. Price: 65.34, Change: -26.73, Percent Change: -29.03 ...",
       "originalTitle": "UBS maintains Intel at Neutral, lowers price target to $80 from $100",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQam14Ry00b2Y1NzVJR1FzX3FPVzhtc1R5QllFQVVNTkk1ZXVqcEc3LUlGdDRTLTYwRnpJamcxTEVTZ1JQS2V2OFZfZnA3UFJZNTZwdGtkV3gxQ3VlbWdjX0pqejUwRnFybTJPdVVzb0FWaVJldXNzSWZIbGlVNjJWWnpCR1EtRDdqM0pPRF9RQXpDNFgyTTVIbllQZDBzdUVhR0lJeGRGcWV1eDJxR2NBcnZSeGVCbk5STWxXNU5qTUdoem16Smc?oc=5",
+      "originalSummary": "UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet. Price: 65.34, Change: -26.73, Percent Change: -29.03 ...",
+      "url": "https://www.marketscreener.com/news/ubs-adjusts-price-target-on-intel-to-80-from-100-keeps-neutral-rating-ce785fdbdc8fff26",
       "ts": "2026-10-31T02:16:00+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -135,44 +216,45 @@
           "action": "下修",
           "newTarget": "$80",
           "oldTarget": "$100",
-          "reason": "UBS maintains Intel at Neutral, lowers price target to $80 from $100",
+          "reason": "UBS maintains Intel at Neutral, lowers price target to $80 from $100 UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet.",
           "reasonConfidence": "medium",
           "targetTicker": "INTC",
           "targetCompany": "Intel"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "INTC"
       ],
       "eventType": "",
       "score": 201.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$80（原 $100）｜調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100",
+        "event": "被評級公司：Intel（INTC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$80（原 $100）｜調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100 UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet.",
         "numbers": [
           "$100",
           "$80"
         ],
-        "why": "調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100",
+        "why": "調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100 UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet.",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100",
+        "takeaway": "調整原因：UBS maintains Intel at Neutral, lowers price target to $80 from $100 UBS Adjusts Price Target on Intel to $80 From $100, Keeps Neutral RatingIntel has an average rating of overweight and mean price target of $99.40, according to analysts polled by FactSet.",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "GOOGL",
       "group": "CSP",
       "tag": "題材",
       "title": "「你好世界」：Google的太空人工智慧寫出了第一首俳句，桑達爾·皮查伊讚揚 Suncatcher 計畫的里程碑",
-      "summary": "",
+      "summary": "Google on Friday reached a historic milestone as its prototype satellite launched earlier this month sent back its first AI-generated response. This is seen as the tech giant's first step towards exploring Artificial intelligence in space. The response was a haiku about life in orbit and marked the first successful machine learning response from a data centre-class Tensor Processing Unit (TPU) operating in space. While it is an early test, it still brings Google's Project Suncatcher a step closer to its long-term a",
       "originalTitle": "'Hello world': Google's space AI writes first Haiku, Sundar Pichai lauds Project Suncatcher milestone",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSlJaUENuZTlLM0tHdlRNclhOWGpwUlhaaEFXMExqQ0dMOFV2SVUtV25lTmVUVms0TlNPbzNLSkdpdFpZZExhT2Naa3lqY1EyYmk0aklUQ1g3T0lUSVZBWGM3cDc4Nm1nbmU4aEJrUFhLdUMyNUZXdzItOHBCZ1hCZ0tMbzhiQ3U3WkVKNFczTGxkV2ZZZnhpTjRnWVV1TktEVVB0VDBQQ1kwblF5dkZnbDVrWmRnYmhGMm1OMG1HVTZlaWJYSkV6TGdibHRBQmdEWU1VRUFjbEPSAd4BQVVfeXFMTTRSa0hKZUNWcldJbkFQTkxYSVVfdzFVVG1JeTNUVGtzSjJUWXRaVnJFWjZuYmE1TEpLcnROSDlSWTJIdHF4LUM0elZnNHBoRkFtN2FLNVlUZFU1OHExRFdQUENKd3pfYWlIR2YtYk5UNWlPbk92cW1CVkotN3VqbVlQZUZ1cHFYV0taVFd0bzQzblRqTVo3QUNZYjNIXzRyNFZGenFZeWRSTjhBU1hQQzBvcy1nUjZlTTNOWVB3SFlEUkNUUWlmS2dTLVd1TmtlcGhyM2RSdXpBX3p4VkN3?oc=5",
+      "originalSummary": "Google on Friday reached a historic milestone as its prototype satellite launched earlier this month sent back its first AI-generated response. This is seen as the tech giant's first step towards exploring Artificial intelligence in space. The response was a haiku about life in orbit and marked the first successful machine learning response from a data centre-class Tensor Processing Unit (TPU) operating in space. While it is an early test, it still brings Google's Project Suncatcher a step closer to its long-term ambition of building AI data centres in space. \"This week, we reached our 'Hello World' milestone: the first-ever AI response from a data centre-class TPU in orbit,\" Google said in a statement on Friday. A ‘hello world’ milestone for Project Suncatcher 🚀 After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku! https://t.co/kOFmETUskm — Sundar Pichai (@sundarpichai) October 30, 2026 \"During a ground-station pass, we uplinked our first prompt to our onboard Gemma 4 open model, asking it to generate a haiku about being in space. As the satellite passed by Svalbard, Norway, the downlinked poem confirmed success,\" it furthered. The haiku shared by the prototype satellite is as follows: - Blue marble below Data streams in silent grace Starlight feeds my core. - \"Our chips have officially earned their space wings — an important achievement on the long road ahead for this cosmic moonshot,\" Google concluded in its update. Alphabet CEO Sundar Pichai also released a statement, lauding the historic milestone. About Project Suncatcher The prototype in question carries four Tensor Processing Units, or TPUs. Google designed these chips for machine learning and already uses them in data centres on Earth. It is pertinent to note that the satellite runs an onboard version of the Gemma AI model. Due to heat-management limits, the chips are only expected to run the model for 15 minutes and can only handle simple requests. In the next stage, the firm would now focus on how the processors cope with the conditions of space. Google plans to test their performance under thermal stress and radiation exposure. Radiation has always been a concern for the developers since it can cause what engineers call “bit flips”. The radiation can corrupt data without necessarily setting off standard monitoring systems. It is pertinent to note that the Project Suncatcher is a long-term research effort by Google to explore whether space could eventually support large-scale machine learning infrastructure. Google is exploring whether connected satellite groups could use that energy to handle larger AI workloads. The company plans to test twin interconnected satellites in 2027.",
+      "url": "https://www.firstpost.com/tech/hello-world-googles-space-ai-writes-first-haiku-sundar-pichai-lauds-project-suncatcher-milestone-14056718.html",
       "ts": "2026-10-31T02:04:58+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
@@ -184,16 +266,21 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Google on Friday reached a historic milestone as its prototype satellite launched earlier this month sent back its first AI-generated response. This is seen as the tech giant's first step towards exploring Artificial intelligence in space. The response was a haiku about life in orbit and marked the first successful machine learning response from a data centre-class Tensor Processing Unit (TPU) operating in space. While it is an early test, it still brings Google's Project Suncatcher a step closer to its long-term a",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Google on Friday reached a historic milestone as its prototype satellite launched earlier this month sent back its first AI-generated response. This is seen as the tech giant's first step towards exploring Artificial intelligence in space.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "META",
@@ -228,7 +315,7 @@
       "eventType": "",
       "score": 207.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：META｜券商：JPMorgan｜動作：上修｜目標價：$940｜調整原因：來源未提供具體理由",
         "numbers": [
@@ -261,6 +348,38 @@
       "eventType": "",
       "analystPriority": false,
       "score": 18.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "英特爾股票在財報暴跌後值得買入嗎？",
+      "summary": "",
+      "originalTitle": "Is Intel Stock a Buy After Its Post-Earnings Plunge?",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUVzMW1feGNTVXdCSV9lTFI3U0QySFRSa1ZtWlBvUFFLTmpvTTZuNWktd1RLR3VmWFNBVGFlR3FtWWc2N216WVlpU0xxYi1BdFFqVkRpRUVOV1M2SWk3SFNCdVlxUm44U0tpUHQ1RDZ2Rk9HYmYyODk5enVSTkFBNUxVbTVmbURTcjNjbTNnb2RZVE5wd0xPRGdn?oc=5",
+      "ts": "2026-10-31T00:14:00+00:00",
+      "sourceType": "active_search",
+      "movePct": -28.576083414793086,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 20.25,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -319,7 +438,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -337,7 +456,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -524,38 +643,6 @@
       "top10Rank": 7
     },
     {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "英特爾股票在財報暴跌後值得買入嗎？",
-      "summary": "",
-      "originalTitle": "Is Intel Stock a Buy After Its Post-Earnings Plunge?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUVzMW1feGNTVXdCSV9lTFI3U0QySFRSa1ZtWlBvUFFLTmpvTTZuNWktd1RLR3VmWFNBVGFlR3FtWWc2N216WVlpU0xxYi1BdFFqVkRpRUVOV1M2SWk3SFNCdVlxUm44U0tpUHQ1RDZ2Rk9HYmYyODk5enVSTkFBNUxVbTVmbURTcjNjbTNnb2RZVE5wd0xPRGdn?oc=5",
-      "ts": "2026-10-30T23:37:56+00:00",
-      "sourceType": "active_search",
-      "movePct": -28.576083414793086,
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 20.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -569,38 +656,6 @@
       "marketWide": true,
       "analystPriority": false,
       "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊期貨：隨著蘋果、Palantir、中期選舉臨近，股市遭遇拋售；該怎麼辦",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEoyQk15NGhJR0FQZEg4aC1VS3RmOG9MdkZvSUR6a2tpQ0NYcW9XYWFralZwcmVZTnlRSG5CRENJXzQtNF9OVUotNFNLMW5HeTdPSjMxUlhKdGN5SUtIbWxmUXh4NDFSc2FJQVNzd0JXYlZ3OTdDWVd2X3pXT09WQWZ5MnN3OWtMN1hSS1pfLW9JYWdKanlnTTE0bU5ocHo1S2lXR0NMekZCRk1zdUdIODktNUJfckRUbUt4X2FUcGo2SXFNTWkzeWNMWWQ?oc=5",
-      "ts": "2026-10-30T23:36:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "PLTR"
-      ],
       "eventType": "",
       "score": 6.75,
       "featured": false,
@@ -720,6 +775,38 @@
       "score": 15.75,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "TSEM",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "題材",
+      "title": "Options Whale Alert: $490K Bearish Short Call Opened on $TSEM",
+      "summary": "",
+      "originalTitle": "Options Whale Alert: $490K Bearish Short Call Opened on $TSEM",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaVBCd3pjS0U3VVVPcFE4dUhkQ0dXUUFZNVJQelRtSWJzdTVGcEJoY0hnSjNWVG1UR0hic2JUMWlrQ01sc1pSN18wcUJCVmZTT1dyVXFlZVFVaFRwVVJhVmswQXNRdEFqNElZQlpGamZzNGRFMS12YVo5bmJJYjg3QTRFTjdCUVNicWs1ZmlZN3FCc2pYNkxtenBmeWlHRFVfWFJ2Xw?oc=5",
+      "ts": "2026-10-30T22:52:53+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -11.409110259684974,
+      "relatedTickers": [
+        "TSEM"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -938,8 +1025,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1012,7 +1099,7 @@
       "eventType": "",
       "score": 205.5,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Sandisk（SNDK）｜券商：Rosenblatt｜動作：重申｜評等：Buy｜調整原因：SNDK Maintains Buy Rating by Rosenblatt -- Price Target Stays at $2400",
         "numbers": [],
@@ -1254,7 +1341,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌的第一個軌道人工智慧資料中心已啟動並運行 - 它寫下了一首奇怪的小詩",
-      "summary": "Google has run its Gemma 4 AI model on a satellite in orbit for the first time, with the system responding to a prompt from Earth by writing a short poem about space. The test marks an early milestone in Project Suncatcher, Google's effort to explore the possibility of putting AI data centers in orbit.",
+      "summary": "",
       "originalTitle": "Google’s first orbital AI data center is up and running — and it wrote a strange little poem",
       "originalSummary": "Google has run its Gemma 4 AI model on a satellite in orbit for the first time, with the system responding to a prompt from Earth by writing a short poem about space. The test marks an early milestone in Project Suncatcher, Google's effort to explore the possibility of putting AI data centers in orbit.",
       "url": "https://www.notebookcheck.net/Google-s-first-orbital-AI-data-center-is-up-and-running-and-it-wrote-a-strange-little-poem.1438409.0.html",
@@ -1266,7 +1353,7 @@
       ],
       "eventType": "新題材",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Google has run its Gemma 4 AI model on a satellite in orbit for the first time, with the system responding to a prompt from Earth by writing a short poem about space. The test marks an early milestone in Project Suncatcher, Google's effort to explore the possibility of putting AI data centers in orbit.",
@@ -1331,7 +1418,7 @@
       ],
       "eventType": "",
       "score": 18.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1415,8 +1502,8 @@
         "INTC"
       ],
       "eventType": "",
-      "score": 202.5,
-      "featured": true,
+      "score": 175.5,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Intel（INTC）｜券商：Citigroup｜動作：下修｜目標價：$100（原 $130）｜調整原因：來源未提供具體理由",
@@ -1430,8 +1517,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 6
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1448,7 +1535,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1480,7 +1567,7 @@
         "SPCX"
       ],
       "eventType": "跨公司事件",
-      "score": 34.5,
+      "score": 29.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1496,8 +1583,8 @@
         "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10,
+      "top10": false,
+      "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
     },
@@ -1518,7 +1605,7 @@
       ],
       "eventType": "",
       "analystPriority": false,
-      "score": 18.75,
+      "score": 16.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1548,7 +1635,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 9.75,
+      "score": 8.45,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1580,7 +1667,7 @@
         "COHR"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 9.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2835,84 +2922,6 @@
       "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克 100 指數因科技股押注平倉而遭遇 2026 年第三次調整",
-      "summary": "",
-      "originalTitle": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT2hWVEFoNDNKaGNxWFRDTUxBZms0MmhXa1hMaGI2ck1jRUlOQzIyUzdHT09DMjQxNFBjNHRXRGV3NWdDZlBLR21TbFhyMXg5dVhhWkM4Q1FuTGdKWENyRmNWa2FqMkJHU0VpNUJQZlcxSG9UdWNOMHByRE94THJXeTNZSmhzX2ZHeTJ2VHA1UzM3WkRwNTQtVUYtM1Q3eGRrQ2Q5RWg4dXdCMzUzSlpIbWc2d1NMVjQ3XzJmN242dkIzUGkw?oc=5",
-      "ts": "2026-10-30T18:57:15+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "Rosenblatt 調整 SNDK 目標價至 $2,400，維持 Buy",
-      "summary": "",
-      "originalTitle": "Rosenblatt maintains SanDisk at Buy, keeps price target at $2400",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmlJYlE1QUNmRzNTWWctdi1YbHo5eVlxZXRFb2dWU3pOeldEQ0RHeGxBTzFickNmRFhyeGEtaWVXS1RNVmhRcUxVajJMVC1tejdHd1Fwb1R6TGdCNHlaaEo3b0didW5TOVJOT3FtZzNfUWwyZUc0MEExQnpXTkY0WFA2ZXBvQTEyWWIzd1kzbHF1ZUdadW9RUjNKekFpTlZlMXc0S1VOWlFwQ1ctUFRiR09obzdET1A2RzdwekloS3Vrdw?oc=5",
-      "ts": "2026-10-30T18:56:41+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Rosenblatt",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$2,400",
-          "oldTarget": "",
-          "reason": "Rosenblatt maintains SanDisk at Buy, keeps price target at $2400",
-          "reasonConfidence": "medium",
-          "targetTicker": "SNDK",
-          "targetCompany": "Sandisk"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 174.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Sandisk（SNDK）｜券商：Rosenblatt｜動作：重申｜評等：Buy｜目標價：$2,400｜調整原因：Rosenblatt maintains SanDisk at Buy, keeps price target at $2400",
-        "numbers": [
-          "$2,400"
-        ],
-        "why": "調整原因：Rosenblatt maintains SanDisk at Buy, keeps price target at $2400",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Rosenblatt maintains SanDisk at Buy, keeps price target at $2400",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
