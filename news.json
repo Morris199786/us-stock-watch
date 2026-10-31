@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-10-31 19:03 台灣時間",
+  "updatedAt": "2026-10-31 19:09 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-31",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌太空衛星首次在軌道上運行人工智慧，寫一首詩並發回地球",
+      "summary": "",
+      "originalTitle": "Google's Space Satellite Runs AI In Orbit For The First Time, Writes A Poem And Sends It Back To Earth",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRjRhOTJQOU4xWG1BQXNOZUVxWl82MVVpZV9sYWFZNmprMFotelhYUWJncURfTy1EaVJxNUdTWm5oN2pBbkRNOEZQdU5LMUZRMGRWQkcyYjRNWGg3M2tBS0Y3MjRIbzZsZXNKQmhKaTNDblVnU0FMRVRhVXFrWVF2QU04Z0RHdjFVMWt3SU5tT1ViZU4wSU43ZzhLZ3BDWjJiRXpsUDRiVFJ4c3VzX0pycE5OX19yRjU00gG-AUFVX3lxTE95dlVNYllWRkVpZXZFOGJoSHRLX3RZV2tBZ0otdlYwVndzR3dGMjFic2QyNnhUVWZlODhpZTU1OVloWXRXSXZycXNqamVQWkZCbkR2WGM0TF9PRFJSZUZFQTlSeHRSekJuZXRoM3BYU2FJb0xGNjgzMDNIbERpSmhhOUpjQzJ6OFROYmZJdDFTMks3ZHNhS2JCcWVnYVdvNHFYaFV4Y3l4RGVFelJlTGFWajNpOGMwODJBWWQ1eGc?oc=5",
+      "ts": "2026-10-31T10:54:55+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 25.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -406,7 +437,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌天基AI資料中心現已上線，但出現電力問題",
-      "summary": "Google has been exploring ways to build AI data centres in space for a while. Now, its Project Suncatcher prototype satellite, launched on October 1, has successfully completed its first AI test in orbit. When engineers sent it an AI prompt, the satellite processed it and sent the response back to Earth. The test marks an important milestone in Google's long-term plan to move some of its AI computing infrastructure beyond the planet.The satellite was launched aboard a SpaceX Falcon 9 rocket, alongside more than 100",
+      "summary": "",
       "originalTitle": "Google's space-based AI data centre is now online, but it has a power problem",
       "originalSummary": "Google has been exploring ways to build AI data centres in space for a while. Now, its Project Suncatcher prototype satellite, launched on October 1, has successfully completed its first AI test in orbit. When engineers sent it an AI prompt, the satellite processed it and sent the response back to Earth. The test marks an important milestone in Google's long-term plan to move some of its AI computing infrastructure beyond the planet.The satellite was launched aboard a SpaceX Falcon 9 rocket, alongside more than 100 other spacecraft. After spending the next few weeks undergoing system tests, it finally completed its first AI task this week.Google CEO Sundar Pichai called it a “‘hello world’ milestone for Project Suncatcher” in a post on X. “After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku!” he added.Google's AI satellite writes a poem from spaceFor its first test, Google engineers sent a prompt to Gemma 4, an AI model developed by Google DeepMind and pre-loaded onto the satellite. They asked it to write a haiku about being in space. The satellite generated the following poem, which was then sent back to Earth:Blue marble belowData streams in silent graceStarlight feeds my core.Google also tested the model with space-themed limericks and prompts asking the satellite to report its technical status and surrounding orbital conditions.The satellite carries four Google Tensor Processing Units (TPUs), the company's custom chips designed to handle AI workloads. However, there is a catch. The satellite can generate up to 1 kW of electricity, but its power supply is not enough to run all four chips together. It can operate only one TPU at a time, and for around 20 minutes.Google is testing whether AI chips can survive in spaceRunning an AI model in orbit is not as simple as sending a computer into space. Google now needs to check how its TPUs perform under extreme temperatures and radiation.Radiation can cause what engineers call 'bit flips', where stored data changes unexpectedly. This can potentially corrupt information without triggering normal monitoring systems. Google says ground tests suggested that radiation could have a greater impact on AI training workloads than inference, but it now wants to test this in actual space conditions.Two more satellites planned for 2027If the current tests go well, Google plans to launch two more satellites in 2027. These will have greater power-generation capabilities and demonstrate optical links that allow satellites to communicate with each other.The bigger goal is to create networks of closely flying, solar-powered satellites that can work together on large AI workloads. However, this is still an early research project, with Google looking towards the 2030s for a potentially economical space-based computing system.The search giant has remained ambitious about AI data centres in space for a long time. Last year, in a blog post the company discussed that “In the right orbit, a solar panel can be up to 8 times more productive than on earth, and produce pow",
       "url": "https://www.indiatoday.in/technology/news/story/googles-space-based-ai-data-centre-is-now-online-but-it-has-a-power-problem-3029235-2026-10-31",
@@ -419,13 +450,13 @@
       ],
       "eventType": "跨公司事件",
       "score": 34.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Google has been exploring ways to build AI data centres in space for a while. Now, its Project Suncatcher prototype satellite, launched on October 1, has successfully completed its first AI test in orbit. When engineers sent it an AI prompt, the satellite processed it and sent the response back to Earth. The test marks an important milestone in Google's long-term plan to move some of its AI computing infrastructure beyond the planet.The satellite was launched aboard a SpaceX Falcon 9 rocket, alongside more than 100",
+        "event": "一段時間以來，谷歌一直在探索在太空建立人工智慧資料中心的方法。現在，其於10月1日發射的Project Suncatcher原型衛星已成功完成首次在軌人工智慧測試。這次測試標誌著 Google 將其部分 AI 運算基礎設施移至地球之外的長期計劃的一個重要里程碑。這顆衛星是由 SpaceX Falcon 9 火箭與 100 多艘其他太空船一起發射的。 「幾週前發射我們的原型衛星後，我們現在已經成功地",
         "numbers": [],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "Google has been exploring ways to build AI data centres in space for a while. Now, its Project Suncatcher prototype satellite, launched on October 1, has successfully completed its first AI test in orbit.",
+        "stance": "一段時間以來，谷歌一直在探索在太空建立人工智慧資料中心的方法。現在，其於10月1日發射的Project Suncatcher原型衛星已成功完成首次在軌人工智慧測試。當工程師向其發送人工智慧提示時，衛星對其進行處理並將回應發送回地球。這次測試標誌著 Google 將其部分 AI 運算基礎設施移至地球之外的長期計劃的一個重要里程碑。這顆衛星是由 SpaceX Falcon 9 火箭與 100 多艘其他太空船一起發射的。經過接下來幾週的系統測試，它終於在本週完成了第一個人工智慧任務。谷歌首席執行官桑達爾·皮查伊（Sundar Pichai）在 X 上的一篇文章中稱其為“Suncatcher 項目的‘hello world’里程碑”。 「幾週前發射我們的原型衛星後，我們現在已經成功地將命令發送到軌道，啟動了 TPU，運行了提示符，並接收了指令。”",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1524,7 +1555,7 @@
         "GOOGL"
       ],
       "eventType": "新題材",
-      "score": 25.5,
+      "score": 22.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2530,31 +2561,34 @@
       "title": "Nvidia 考慮擔任 Nscale 位於西維吉尼亞州的人工智慧資料中心的聯合簽署人",
       "summary": "",
       "originalTitle": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGNhWVNJR0JZTnVKVlM5RUZFeGdQZDdMMk9yODB0ZTlGSXRnYzNZU2hVbXBLdVdWbGstX3RPYkphd190d0R5N0VKN0RabTd3aW5OSUI1cHVsME9vVno4Nm1LY0lTV25qZE5EejNqNm91c1dvbVk5YnctUUowaUJoYTJwSEhCY3BIYV9kbVZ1U1RKNTk5Y3NqVDR3YTlrdXZDOWd5ekVvaDdGSzV0aVA5OUFxcw?oc=5",
+      "originalSummary": "Nvidia Corp. ( NVDA , Financials ), the artificial intelligence chipmaker, is reportedly considering billions of dollars in credit guarantees to support a data center project being developed by Nscale for Anthropic. Warning! GuruFocus has detected 4 Warning Signs with NVDA. Is NVDA fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-weighs-billions-guarantees-nscale-130018460.html",
       "ts": "2026-10-31T01:20:05+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
-      "eventType": "",
-      "score": 13.65,
+      "eventType": "新題材",
+      "score": 20.15,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "據報道，人工智慧晶片製造商英偉達公司 (NVDA，Financials) 正在考慮提供數十億美元的信貸擔保，以支援 Nscale 為 Anthropic 開發的資料中心專案。警告！ NVDA 的估值是否合理？",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "據報道，人工智慧晶片製造商英偉達公司 (NVDA，Financials) 正在考慮提供數十億美元的信貸擔保，以支援 Nscale 為 Anthropic 開發的資料中心專案。警告！ GuruFocus 已透過 NVDA 偵測到 4 個警訊。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "GOOGL",
@@ -2794,48 +2828,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "FORM",
-      "group": "半導體設備／測試",
-      "tag": "快訊",
-      "title": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"cef80dffc8b56082c4fad1480ada61d",
-      "summary": "",
-      "originalTitle": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"cef80dffc8b56082c4fad1480ada61d",
-      "originalSummary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"cef80dffc8b56082c4fad1480ada61df83bb87e4\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&amp;name=small 680w, https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&amp;name=medium 1200w, https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&amp;name=large 2048w\" imageSizes=\"(max-width: 600px) calc(100vw - 80px), 600px\" fetchPriority=\"high\"/><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: dark)\" content=\"#000000\"/><meta property=\"csp-nonce\" content=\"Ag5gMHB50DL7W6O6Cpzlig==\"/><title>Wall St Engine on X: &quot;OpenAI has cut its fundraising target to $20B from $30B and lowered its target valuation to $1.25T from $1.4T, per FT Some investors reduced commitments amid the AI selloff The initial close is expected to fall short of $20B, with a later offering potentially filling the gap&quot; / X</title><meta name=\"robots\" content=\"index, follow\"/><meta property=\"fb:app_id\" content=\"2231777543\"/><meta property=\"og:site_name\" content=\"X (formerly Twitter)\"/><meta property=\"og:locale\" content=\"en_US\"/><meta name=\"application-name\" content=\"X (formerly Twitter)\"/><meta name=\"google-site-verification\" content=\"reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs\"/><meta name=\"facebook-domain-verification\" content=\"x6sdcc8b5ju3bh8nbm59eswogvg6t1\"/><meta http-equiv=\"onion-location\" content=\"https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/\"/><meta property=\"al:ios:app_store_id\" content=\"333903271\"/><meta property=\"al:ios:app_name\" content=\"X\"/><meta property=\"al:android:package\" content=\"com.twitter.android\"/><meta property=\"al:android:app_name\" content=\"X\"/><meta name=\"apple-itunes-app\" content=\"app-id=333903271\"/><meta name=\"apple-mobile-web-app-title\" content=\"X (formerly Twitter)\"/><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"/><meta na",
-      "url": "https://x.com/wallstengine/status/2116322857617908141",
-      "ts": "2026-10-31T00:00:00+00:00",
-      "sourceType": "wallstengine_x",
-      "analystPriority": false,
-      "socialSource": "Wall St Engine",
-      "socialScore": 10,
-      "relatedTickers": [
-        "FORM",
-        "GOOGL",
-        "META"
-      ],
-      "eventType": "",
-      "score": 36.4,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"cef80dffc8b56082c4fad1480ada61df83bb87e4\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&amp;name=small 680w, https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&amp;name=medium 1200w, https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=",
-        "numbers": [
-          "$20B",
-          "$30B",
-          "$1.25",
-          "$1.4"
-        ],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"cef80dffc8b56082c4fad1480ada61df83bb87e4\"><head><meta charSet=\"=\"utf-8=\"/df83bb87e4\"><head><meta charSet=\"=\"utf-8=\">df83bb\"/]<head><meta charSet=\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HV6650AAW3Ud, 0pwebSwvvvv https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&name=medium 1200w，https://pbs.twimg.com/media/HV6wau5boAAWUd1?format=webp&name=larg",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
       "top10": false,
