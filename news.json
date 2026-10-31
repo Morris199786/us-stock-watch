@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 17:05 台灣時間",
+  "updatedAt": "2026-10-31 17:10 台灣時間",
   "historyUpdatedDate": "2026-10-31",
   "historyLastAttemptAt": "2026-10-30T16:03:21.773343+00:00",
   "historyItemCount": 800,
@@ -196,6 +196,37 @@
       "top10Rank": null
     },
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google Suncatcher [2026]：81 個 TPU 衛星，2027 年測試",
+      "summary": "",
+      "originalTitle": "Google Suncatcher [2026]: 81 TPU Satellites, 2027 Test",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUkRzU2QxQWpocDJQam83cmtvdGQ4X3M4UkR3ZlhrTy1uWHpKY285NkUzZVNUWlg5S3p5RE1wYWowZlduTGNSNm1jeGR0MlJEWTV2Ry10aE9DVGZFNDFnclk0aTFPUmF4X1QtVmhHRmlNOWpkSWI2MmM0S2VfYnZVR0NXbGh2QlljMnY3MGlTbEVNZkU?oc=5",
+      "ts": "2026-10-31T08:16:12+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 16.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "COHR",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -228,6 +259,39 @@
       },
       "top10": true,
       "top10Rank": 6
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "隨著估值爭論升溫，Aehr Test Systems (AEHR) 增加了前 Meta AI 領導者",
+      "summary": "",
+      "originalTitle": "Aehr Test Systems (AEHR) Adds Ex Meta AI Leader As Valuation Debate Heats Up",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYU29zUy1HZmdkemZleDgxVGt1YXR5a1JkYnZHVGR5V1ZmSjNtbm5qLTB2ZjhwSEtjNjlLTHh3eXZGczBfelBXWGo1QUlJcE9Jbmh3WXZFTkx0N25RNzVZWm9qNnl6MUNjQjBBTUIwZUZ5M0RpWjJOZ211RHBSUQ?oc=5",
+      "ts": "2026-10-31T08:11:46+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AEHR"
+      ],
+      "eventType": "新題材",
+      "score": 23.25,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "GOOGL",
@@ -403,7 +467,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌的 Suncatcher 計畫首次收到來自太空的人工智慧回應",
-      "summary": "Google has reached an important milestone in its ambitious plan to take artificial intelligence computing beyond Earth. The company has successfully generated its first AI response using a data centre-class Tensor Processing Unit (TPU) operating in orbit as part of its Project Suncatcher initiative.Google CEO Sundar Pichai shared the development on X (formerly Twitter), describing it as a significant moment for the project. “A ‘hello world’ milestone for Project Suncatcher ”.He further explained how the team manage",
+      "summary": "",
       "originalTitle": "Google’s Project Suncatcher Receives First AI Response from Space",
       "originalSummary": "Google has reached an important milestone in its ambitious plan to take artificial intelligence computing beyond Earth. The company has successfully generated its first AI response using a data centre-class Tensor Processing Unit (TPU) operating in orbit as part of its Project Suncatcher initiative.Google CEO Sundar Pichai shared the development on X (formerly Twitter), describing it as a significant moment for the project. “A ‘hello world’ milestone for Project Suncatcher ”.He further explained how the team managed to run an AI prompt using hardware installed on a satellite in space. “After launching our prototype satellite a few weeks ago, we’ve now successfully sent a command up to orbit, booted up the TPU, ran the prompt, and received our first complete response back on earth - a haiku!,” Pichai added.For those unfamiliar, Project Suncatcher is Google's long-term research initiative exploring the possibility of building AI data centres in space. The concept involves connecting solar-powered satellites equipped with Google's custom-designed TPUs. By using solar energy directly in orbit, Google hopes to support growing AI computing requirements while reducing dependence on land and electricity resources on Earth.Google tests AI computing capabilities in orbitGoogle launched its prototype satellite on October 1, carrying four TPUs to test whether its AI hardware could function reliably in space. The initial experiment focused on checking whether the chips could power on, process an AI prompt and successfully send the generated response back to Earth.“The initial goal was to see if our chips could turn on, process a prompt, and transmit a response back to Earth,” the company said in an X post.The latest experiment successfully demonstrated this capability. Google sent a prompt to its onboard Gemma 4 open model, asking it to create a haiku about space. The satellite transmitted the generated poem back to Earth during a ground-station pass over Svalbard, Norway.The haiku read:· Blue marble below · Data streams in silent grace· Starlight feeds my core. What comes next for Project Suncatcher?According to Google, the team has also experimented with space-themed limericks and prompts designed to report the technical status of the satellite's systems.The next phase will involve testing how TPUs perform under extreme temperatures and radiation exposure in orbit. These experiments will help determine whether Google's AI chips can reliably handle computing workloads in the challenging space environment.If the upcoming tests are successful, Google plans to move towards its next major milestone: launching two interconnected satellites in 2027.The company believes this achievement brings its ambitious vision of space-based AI computing a step closer to reality. While considerable research and testing remain, the successful first response demonstrates that running AI workloads in orbit could eventually become possible.Google described the development as an important achievement, adding: \"Our chips have officially earned their space wings- an important achievement on the long road ahead for this cosmic moonshot.\"",
       "url": "https://www.thehansindia.com/tech/ai/googles-project-suncatcher-achieves-first-ai-response-from-space-1137789",
@@ -415,13 +479,13 @@
       ],
       "eventType": "新題材",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Google has reached an important milestone in its ambitious plan to take artificial intelligence computing beyond Earth. The company has successfully generated its first AI response using a data centre-class Tensor Processing Unit (TPU) operating in orbit as part of its Project Suncatcher initiative.Google CEO Sundar Pichai shared the development on X (formerly Twitter), describing it as a significant moment for the project. “A ‘hello world’ milestone for Project Suncatcher ”.He further explained how the team manage",
+        "event": "作為其 Project Suncatcher 計畫的一部分，該公司已使用在軌運行的資料中心級張量處理單元 (TPU) 成功產生了第一個 AI 回應。 Google 執行長 Sundar Pichai 在 X（以前稱為 Twitter）上分享了這一進展，並將其描述為該專案的重要時刻。 「Suncatcher 計畫的『hello world』里程碑」。他進一步解釋了團隊如何使用安裝在太空衛星上的硬體來運行人工智慧提示。 「發射我們的原型衛星幾週後",
         "numbers": [],
         "why": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
-        "stance": "The company has successfully generated its first AI response using a data centre-class Tensor Processing Unit (TPU) operating in orbit as part of its Project Suncatcher initiative.Google CEO Sundar Pichai shared the development on X (formerly Twitter), describing it as a significant moment for the project.",
+        "stance": "Google 執行長 Sundar Pichai 在 X（以前稱為 Twitter）上分享了這一進展，並將其描述為該專案的重要時刻。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -696,7 +760,7 @@
         "event": "這家科技巨頭的原型衛星於本月稍早發射，並已成功產生第一個由人工智慧驅動的回應。這項成果標誌著太空人工智慧（AI）技術探索的一個重要里程碑。回應是一首關於軌道生命的俳句，由首次在太空運行的資料中心級張量處理單元（TPU）產生。 10月1日發射的原型衛星成功為其TPU供電並創造性地產生了俳句",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。詩中寫道：以下是藍色大理石/數據在沉默的優雅中流動/星光滋養著我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
+        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。這首詩寫道：下面的藍色大理石/數據在沉默的優雅中流動/星光滋養我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -826,10 +890,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
+        "event": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌推出",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個回應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
+        "stance": "谷歌配備人工智慧晶片的衛星已經從太空發出了第一個響應。在周五的一篇部落格文章中，Google表示，它成功啟動了衛星的張量處理單元 (TPU)，允許星上的 Gemma 4 模型按照提示創建一首關於太空的俳句： > 下面的藍色大理石 > 安靜優雅的數據流 > 星光滋養我的核心。 ✨ 谷歌表示，它也嘗試了其他以太空為主題的打油詩和遙測提示。該測試是Google Suncatcher 計畫的一部分，該計畫是一項實驗性舉措，最終可能會將人工智慧資料中心送入太空。谷歌本月早些時候將衛星送入軌道。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1212,13 +1276,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "唐納德·特朗普總統目前正處於最低潮，支持率也處於重返白宮以來的最低水平，包括他的第一個任期。民調顯示，民主黨準備重新獲得對國會的控制權，並指出參議院激烈的爭奪戰共和黨也可能失敗。因此，中期選舉似乎可能會在美國迎來一種新的政治格局，川普的政策可能會面臨更嚴格的立法審查——儘管他將保留否決權",
+        "event": "唐納德·特朗普總統目前正處於最低潮，支持率也處於重返白宮以來的最低水平，包括他的第一個任期。民調顯示，民主黨準備重新獲得對國會的控制權，並指出參議院的激烈競爭，共和黨也可能失敗。因此，中期選舉似乎可能會在美國迎來一種新的政治格局，川普的政策可能會面臨更嚴格的立法審查——儘管他將保留否決權",
         "numbers": [
           "$40",
           "6%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "美國將於11月3日舉行中期選舉，眾議院所有席次和參議院三分之一席次都將競爭。這次投票將成為對美國總統川普的公投，川普目前正處於他的最低潮，支持率也處於重返白宮以來的最低水平，包括他的第一個任期。民調顯示，民主黨準備重新獲得對國會的控制權，並指出參議院激烈的爭奪戰共和黨也可能失敗。因此，中期選舉似乎可能會為美國帶來一種新的政治格局，川普的政策可能會面臨更嚴格的立法審查——儘管他將保留否決權和透過行政命令進行治理的能力。預計這一結果也將在金融市場產生迴響。投資者的關注是當前的",
+        "stance": "美國將於11月3日舉行中期選舉，眾議院所有席次和參議院三分之一席次都將競爭。這次投票將成為對美國總統川普的公投，川普目前正處於他的最低潮，支持率也處於重返白宮以來的最低水平，包括他的第一個任期。民調顯示，民主黨準備重新獲得對國會的控制權，並指出參議院的激烈競爭，共和黨也可能失敗。因此，中期選舉似乎可能會為美國帶來一種新的政治格局，川普的政策可能會面臨更嚴格的立法審查——儘管他將保留否決權和透過行政命令進行治理的能力。預計這一結果也將在金融市場產生迴響。投資者的關注是當前的",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -1505,7 +1569,7 @@
           "action": "下修",
           "newTarget": "$80",
           "oldTarget": "$100",
-          "reason": "瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
+          "reason": "瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師數據，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "INTC",
           "targetCompany": "Intel"
@@ -1520,15 +1584,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Intel（INTC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$80（原 $100）｜調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
+        "event": "被評級公司：Intel（INTC）｜券商：UBS｜動作：下修｜評等：Neutral｜目標價：$80（原 $100）｜調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師數據，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
         "numbers": [
           "$100",
           "$80"
         ],
-        "why": "調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
+        "why": "調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師數據，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
+        "takeaway": "調整原因：瑞銀維持對英特爾的評級為中性，將目標價從 100 美元下調至 80 美元 根據 FactSet 調查的分析師數據，瑞銀將英特爾的目標價從 100 美元調整為 80 美元，維持中性評級，對英特爾的平均評級為“增持”，平均目標價為 99.40 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
@@ -1767,6 +1831,41 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌的太空里程碑推動了伊隆馬斯克的軌道計算預測",
+      "summary": "",
+      "originalTitle": "Google’s space milestone fuels Elon Musk’s orbital computing prediction",
+      "originalSummary": "Google has achieved a space milestone after receiving first-ever AI-generated response in the form of poetry from orbit. At the heart of Google’s achievement lies its Project Suncatcher...",
+      "url": "https://www.thenews.com.pk/latest/1421965-googles-space-milestone-fuels-elon-musks-orbital-computing-prediction",
+      "ts": "2026-10-31T02:00:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "cross_event_article",
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 22.1,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "谷歌在收到首個由人工智慧在軌道上以詩歌形式生成的回應後，實現了太空里程碑。 Google 成就的核心在於其 Suncatcher 專案…",
+        "numbers": [],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "谷歌在收到首個由人工智慧在軌道上以詩歌形式生成的回應後，實現了太空里程碑。 Google 成就的核心在於其 Suncatcher 專案…",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -2060,10 +2159,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "谷歌已成功在軌道衛星上運行人工智慧 (AI) 模型，並在地球上首次收到完整回應，這標誌著其探索在太空中運行人工智慧運算基礎設施的可能性的 Project Suncatcher 計畫的一個重要里程碑。 Google執行長 Sundar Pichai 在 X 上的一篇文章中宣布了這一進展，並將其描述為「Project Suncatcher 的『Hello World』里程碑」。他說該團隊已向衛星發送命令，啟動其張量進程",
+        "event": "谷歌已成功在軌道衛星上運行人工智慧 (AI) 模型，並在地球上首次收到完整回應，這標誌著其探索在太空運行人工智慧運算基礎設施的可能性的「Suncatcher 計畫」計畫的一個重要里程碑。 Google執行長 Sundar Pichai 在 X 上的一篇文章中宣布了這一進展，並將其描述為「Suncatcher 計畫的『Hello World』里程碑」。他說該團隊已向衛星發送命令，啟動其張量進程",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Google執行長 Sundar Pichai 在 X 上的一篇文章中宣布了這一進展，並將其描述為「Project Suncatcher 的『Hello World』里程碑」。他說，該團隊已向衛星發送命令，啟動其張量處理單元（TPU），運行提示並收到返回地球的回應。",
+        "stance": "Google執行長 Sundar Pichai 在 X 上的一篇文章中宣布了這一進展，並將其描述為「Suncatcher 計畫的『Hello World』里程碑」。他說，該團隊已向衛星發送命令，啟動其張量處理單元（TPU），運行提示並收到返回地球的回應。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2671,7 +2770,7 @@
           "6.3 Billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "（彭博）—標普全球評級週五將 Meta Platforms Inc. 的信用前景下調至負面，理由是人工智慧資本支出增加給這家科技公司的資產負債表帶來了越來越大的壓力。幣安估計加密貨幣最大規模搶劫案中損失 63 億美元 華爾街敲響人工智能警鐘，股票暴跌：市場終結 人工智能侵蝕銷售，谷歌抹掉創紀錄的 5000 億美元 庫什納的 Thrive Holdings 將斥資 76 億美元現金收購 ADT 英特爾因預測疲軟而遭受數十年來最嚴重的股價跌幅",
+        "stance": "（彭博）—標普全球評級週五將 Meta Platforms Inc. 的信用前景下調至負面，理由是人工智慧資本支出增加給這家科技公司的資產負債表帶來了越來越大的壓力。幣安估計加密貨幣最大規模搶劫案中損失 63 億美元 華爾街敲響人工智能警鐘，股市暴跌：市場終結 人工智能侵蝕銷售，谷歌抹掉創紀錄的 5000 億美元 庫什納的 Thrive Holdings 將斥資 76 億美元現金收購 ADT 英特爾因預測疲軟而遭受數十年來最嚴重的股價跌幅",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -2707,7 +2806,7 @@
         "event": "這家科技巨頭的原型衛星於本月稍早發射，並已成功產生第一個由人工智慧驅動的回應。這項成果標誌著太空人工智慧（AI）技術探索的一個重要里程碑。回應是一首關於軌道生命的俳句，由首次在太空運行的資料中心級張量處理單元（TPU）產生。 10月1日發射的原型衛星成功為其TPU供電並創造性地產生了俳句",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。詩中寫道：以下是藍色大理石/數據在沉默的優雅中流動/星光滋養著我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
+        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。這首詩寫道：下面的藍色大理石/數據在沉默的優雅中流動/星光滋養我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2768,98 +2867,6 @@
       ],
       "eventType": "",
       "score": 11.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSEM",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "選擇權鯨魚警報：在 $TSEM 上開啟 49 萬美元看跌看漲期權",
-      "summary": "",
-      "originalTitle": "Options Whale Alert: $490K Bearish Short Call Opened on $TSEM",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaVBCd3pjS0U3VVVPcFE4dUhkQ0dXUUFZNVJQelRtSWJzdTVGcEJoY0hnSjNWVG1UR0hic2JUMWlrQ01sc1pSN18wcUJCVmZTT1dyVXFlZVFVaFRwVVJhVmswQXNRdEFqNElZQlpGamZzNGRFMS12YVo5bmJJYjg3QTRFTjdCUVNicWs1ZmlZN3FCc2pYNkxtenBmeWlHRFVfWFJ2Xw?oc=5",
-      "ts": "2026-10-30T22:52:53+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -11.409110259684974,
-      "relatedTickers": [
-        "TSEM"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "2026年最佳智慧AI眼鏡：適合不同生活方式的功能",
-      "summary": "",
-      "originalTitle": "Best smart AI glasses in 2026: Features for different lifestyles",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zazhXQzhvR1F2a3A4SmZmZW1qWEZqVjRiVWhIX0hHaEJuMGtaX2J5THhULVdjeWFHZ3g5d2M2ZjZkRGNCQVJBYjhrWVhKUC1xU2QwNDRIa2FITFIzc1lkLVV3MUxCQXQ0amZPMU9vU1U0dw?oc=5",
-      "ts": "2026-10-30T22:41:42+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "標準普爾 500 指數、那斯達克指數、道瓊預測：道瓊指數漲勢停滯，那斯達克拋售加劇",
-      "summary": "",
-      "originalTitle": "S&P 500, Nasdaq, Dow Forecast: Nasdaq Selloff Deepens as Dow Rally Stalls",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVFNSckFjdmlKWXc0Q3dDVWVFSGEtcUM4WnJVaDJ4OUJXaHZ1TWx6eWRRYk1QbWZWYjk3RFEteDhaUkM4NnA0SHJqZ1JsZHp6UGdtNmItOGxISmJqZXJwaS0xUGJUWW1JZjBoaUVkQVo1YXB6UlJiOVdham9fSDJraFZBMVdEeXdxYzdqNy1MRU5PX19acG5QWjVYejJtQ2VqSGVpUVpZZC1PZXNPbl9wc1RaXzc5cmR0RUN1RQ?oc=5",
-      "ts": "2026-10-30T22:40:51+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -4571,7 +4578,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
       "originalTitle": "Lumentum stock rises on report of possible merger with Marvell",
       "originalSummary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
       "url": "https://finance.yahoo.com/news/marvell-advanced-talks-buy-nvidia-111202630.html",
@@ -4588,10 +4595,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4605,7 +4612,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+      "summary": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
       "originalTitle": "Lumentum stock rises on report of possible merger with Marvell",
       "originalSummary": "US semiconductor company Marvell Technology is in advanced talks to buy data centre optics manufacturer Lumentum Holdings in an all-stock deal, Bloomberg reported, citing unnamed sources. The report said the discussions are private and the proposed deal could be announced as soon as next week. It also said the talks could still end without a transaction and that the timing could change.",
       "url": "https://finance.yahoo.com/news/marvell-advanced-talks-buy-nvidia-111202630.html",
@@ -4622,10 +4629,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+        "event": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易收購資料中心光學元件製造商 Lumentum Holdings 的事宜進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
+        "stance": "根據彭博社引述未透露姓名的消息人士報道，美國半導體公司 Marvell Technology 正在就以全股票交易方式收購資料中心光學元件製造商 Lumentum Holdings 進行深入談判。報道稱，討論是私下進行的，擬議的交易最早可能在下周公布。它還表示，談判仍可能在沒有達成交易的情況下結束，而且時間可能會改變。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5240,7 +5247,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "駭客利用思科 SD-WAN 缺陷植入惡意軟體來竊取加密金鑰",
-      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和功能移除硬體堆疊的功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
       "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
       "originalSummary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. CVE-2026-20127 is a max-severity flaw that Cisco patched in February 2026, which allows remote attackers to gain privileged access to Catalyst SD-WAN Controller and Manager and add rogue peers. UAT-8616 has exploited the vulnerability as a zero-day since at least 2023 , and recent research also linked its exploitation to the Chinese Volt Typhoon state-sponsored hacking group.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
@@ -5256,10 +5263,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和功能移除硬體堆疊的功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和功能移除硬體堆疊的功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5431,7 +5438,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Nvidia 將向 Meta 的股票發行投資 30 億美元，擴大人工智慧合作夥伴關係",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧|人工智慧|企業金融|美國新聞|社區市集\",\"authorFormatted\":\"kai nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
       "originalTitle": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"datePublished\":\"2026-10-26T11:34:42+0000\",\"description\":\"Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.\",\"expires\":null,\"headline\":\"Meta announces $95 billion stock offering to fund AI expansion. Nvidia, AMD mulling investment\",\"id\":108463655,\"liveURL\":\"\\u002F2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai.html\",\"native\":false,\"pageName\":\"108463655|2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"london\",\"projectTeamContentFormattedFull\":\"london\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|nvidia corp|advanced micro |broadcom inc|meta platforms |invesco qqq tru|alphabet class |technology sele|earnings|space explorati|ishares expande|ishares semicon\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|nvidia corp|advanced micro devices inc|broadcom inc|meta platforms inc|invesco qqq trust|alphabet class a|technology select sector spdr fund|earnings|space exploration technologies corp|ishares expanded techsoftware sector etf|ishares semiconductor etf\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Meta launches plan for $95 billion stock offering to fund AI expansion\",\"shortDateFirstPublished\":\"10\\u002F26\\u002F2026\",\"shortDateLastPublished\":\"10\\u002F26\\u002F2026\",\"shortDatePublished\":\"10\\u002F26\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F3UmKt2y\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4jAKpGF\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOM6n\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4iGvIAQ\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4sqaRVT\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOMTV\"}],\"slug\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"sourceOrganizationFormatted\":\"cnbc europe sou\",\"sourceOrganizationFormattedFull\":\"cnbc europe source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"tagNameFormatted\":\"meta announces \",\"tagNameFormattedFull\":\"meta announces 95 billion stock offering to fund ai expansion\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"tit",
       "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
@@ -5451,7 +5458,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧|人工智慧|企業金融|美國新聞|社區市集\",\"authorFormatted\":\"kai nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
         "numbers": [
           "$3 Billion",
           "$95 billion",
@@ -5459,7 +5466,7 @@
           "3 Billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧|人工智慧|企業金融|美國新聞|社區市集\",\"authorFormatted\":\"kai nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\"",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -11733,7 +11740,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "天弘 (CLS) 第三季 EPS 達 31c，提供指引",
-      "summary": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+      "summary": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
       "originalTitle": "Celestica (CLS) Tops Q3 EPS by 31c, Offers Guidance",
       "originalSummary": "Celestica entered this Q3 2026 print with a strong reputation in electronics manufacturing and a stock that has cooled sharply, falling about 8% over the past week and roughly 25% over the past month into last night's close at CA$388.33. The headline is simple: Q3 was about sheer earnings power, with basic earnings per share at US$3.30 on revenue of US$5.83b, keeping the profit engine running hard even as sentiment softened.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-stock-cools-044801576.html",
@@ -11749,7 +11756,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "event": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "numbers": [
           "$388.33.",
           "$3.30",
@@ -11757,7 +11764,7 @@
           "8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "stance": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -17845,7 +17852,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Lam Research 在謹慎指引和中國收入下降的情況下下跌 12% (LRCX:NASDAQ)",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
       "originalTitle": "Lam Research retreats 12% amid cautious guidance, China revenue drop (LRCX:NASDAQ)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Shares of Lam Research ( LRCX ), a global supplier of wafer-fabrication equipment and services, dropped almost 12% on Thursday following the company's quarterly earnings release. Management commentary flagged near-term supply constraints and a projected decline in China's revenue contribution for the coming quarter.",
       "url": "https://seekingalpha.com/news/4656207-lam-research-retreats-12-amid-cautious-guidance-china-revenue-drop",
@@ -17861,12 +17868,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "numbers": [
           "12%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -18155,7 +18162,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "長火箭實驗室，短 AST SpaceMobile：一個擁有自己的路徑，另一個從 SpaceX 租用它",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -18174,10 +18181,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -18190,7 +18197,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如果火箭實驗室墜毀後我只能買一支太空股票，那就是這隻",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -18206,10 +18213,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -18780,7 +18787,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "儘管由資料中心驅動利潤成長，諾基亞仍暴跌 10%；愛立信拖鞋",
-      "summary": "諾基亞剛剛因人工智慧資料中心需求激增而獲利，但其股價卻大幅下跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
+      "summary": "諾基亞剛剛因人工智慧資料中心需求激增而實現了盈利，但其股價卻在暴跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
       "originalTitle": "Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips",
       "originalSummary": "Nokia just beat earnings on surging AI data center demand, yet its stock is cratering while rival Ericsson barely flinches. The reason why reveals something important about where each company is actually making its money.",
       "url": "https://247wallst.com/investing/2026/10/22/nokia-tumbles-10-despite-data-center-driven-profit-beat-ericsson-slips/",
@@ -18796,12 +18803,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "諾基亞剛剛因人工智慧資料中心需求激增而獲利，但其股價卻大幅下跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
+        "event": "諾基亞剛剛因人工智慧資料中心需求激增而實現了盈利，但其股價卻在暴跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
         "numbers": [
           "10%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "諾基亞剛剛因人工智慧資料中心需求激增而獲利，但其股價卻大幅下跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
+        "stance": "諾基亞剛剛因人工智慧資料中心需求激增而實現了盈利，但其股價卻在暴跌，而競爭對手愛立信則幾乎沒有退縮。原因揭示了每家公司實際賺錢的重要面向。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -20155,7 +20162,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "獨家報導：消息人士稱，台積電尋求工廠設備替代品以阻止中國對稀土的控制",
-      "summary": "台積電股票的主要統計數據 台積電股票在過去 6 個月的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
+      "summary": "台積電股票的關鍵統計數據 過去 6 個月中台積電股票的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
       "originalTitle": "EXCLUSIVE: TSMC seeks factory-equipment alternatives to thwart China's rare earths grip, sources say",
       "originalSummary": "Key Stats for TSMC StockPrice change for TSMC stock in last 6 months: 11%$TSM Stock Price as of Oct. 21: $43252-Week High: $487$TSM Stock Price Target: $584__Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free)__>>> What Happened?TSMC (TSM:NYSE) is looking for ways to cut its use of rare-earth parts in factory equipment, according to a Reuters report on Thursday.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-explores-rare-earth-alternatives-114344151.html",
@@ -20172,7 +20179,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "台積電股票的主要統計數據 台積電股票在過去 6 個月的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
+        "event": "台積電股票的關鍵統計數據 過去 6 個月中台積電股票的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
         "numbers": [
           "$43252",
           "$487",
@@ -20180,7 +20187,7 @@
           "11%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "台積電股票的主要統計數據 台積電股票在過去 6 個月的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
+        "stance": "台積電股票的關鍵統計數據 過去 6 個月中台積電股票的價格變化：截至 10 月 21 日的 11%$TSM 股價：43252 美元 周高點：487 美元 TSM 股價目標：584 美元__現在直播：使用 TIKR 的新估值模型（免費）了解您最喜歡的股票價格>可以發生什麼？台積電（TSM：NYSE）正在尋找削減方法據路透社週四報道，該公司在工廠設備中使用稀土零件。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -20428,7 +20435,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "Vertiv Holdings Co (VRT) 透過 14 天的人工智慧工廠建置真正改變了什麼？",
-      "summary": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及高級虛擬化來縮短傳統的 6 個月的 AI 建置時間。 Vertiv 正在挪威運行多階段 DSX POD 實施，並與達梭系統合作以虛擬方式設計和驗證 AI 工廠。 DSX POD 的推出和虛擬雙胞胎工作指向了比單一 AI 工廠藍圖更廣泛的 Vertiv 故事。",
+      "summary": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及進階虛擬化來縮短傳統的 6 個月的 AI 建置時間。 Vertiv 正在挪威運行多階段 DSX POD 實施，並與達梭系統合作以虛擬方式設計和驗證 AI 工廠。 DSX POD 的推出和虛擬雙胞胎工作指向了比單一 AI 工廠藍圖更廣泛的 Vertiv 故事。",
       "originalTitle": "What Is Vertiv Holdings Co (VRT) Really Changing With 14 Day AI Factory Builds?",
       "originalSummary": "Vertiv Holdings Co (NYSE:VRT) and NVIDIA launched a DSX POD modular AI factory reference design that targets 14 day deployment cycles. The DSX POD uses pre engineered power and cooling modules plus advanced virtualization to shorten traditional 6 month AI build timelines. Vertiv is running a multiphase DSX POD implementation in Norway and teaming with Dassault Systèmes to virtually design and validate AI factories. The DSX POD rollout and virtual twin work point to a broader Vertiv story than this single AI factory blueprint. Take a look at 4 other big wins we have identified for Vertiv Holdings Co. The acceleration in AI factory deployment highlighted by Vertiv and NVIDIA flags a wider build out trend that deserves closer attention via 55 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/technology/ai/articles/vertiv-holdings-co-vrt-really-062344833.html",
@@ -20445,10 +20452,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及高級虛擬化來縮短傳統的 6 個月的 AI 建置時間。 Vertiv 正在挪威運行多階段 DSX POD 實施，並與達梭系統合作以虛擬方式設計和驗證 AI 工廠。 DSX POD 的推出和虛擬雙胞胎工作指向了比單一 AI 工廠藍圖更廣泛的 Vertiv 故事。",
+        "event": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及進階虛擬化來縮短傳統的 6 個月的 AI 建置時間。 Vertiv 正在挪威運行多階段 DSX POD 實施，並與達梭系統合作以虛擬方式設計和驗證 AI 工廠。 DSX POD 的推出和虛擬雙胞胎工作指向了比單一 AI 工廠藍圖更廣泛的 Vertiv 故事。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及高級虛擬化來縮短傳統的 6 個月的 AI 建置時間。",
+        "stance": "Vertiv Holdings Co（NYSE：VRT）和 NVIDIA 推出了 DSX POD 模組化 AI 工廠參考設計，目標是 14 天的部署週期。 DSX POD 使用預先設計的電源和冷卻模組以及進階虛擬化來縮短傳統的 6 個月的 AI 建置時間。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -21004,7 +21011,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "您現在應該出售 AST SpaceMobile 股票嗎？",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Should You Sell Your AST SpaceMobile Stock Now?",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -21021,10 +21028,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -22404,7 +22411,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "儘管納斯達克股市上漲，但 Alphabet 仍下跌 2%，皮查伊稱谷歌雲正​​在放棄收入以換取人工智慧能力；亞馬遜下跌，微軟保持穩定",
-      "summary": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+      "summary": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
       "originalTitle": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
       "originalSummary": "Sundar Pichai just confirmed Google Cloud is turning away customers, and he called the reason behind it non-negotiable. The admission sent Alphabet sliding while the rest of big tech climbed, leaving investors to guess how much revenue Google is actually walking away from.",
       "url": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady/",
@@ -22422,12 +22429,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+        "event": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
         "numbers": [
           "2%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+        "stance": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -22871,7 +22878,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Unusual Machines 完成升級能源交易，完成美國製造的無人機動力系統",
-      "summary": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
+      "summary": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
       "originalTitle": "Unusual Machines Closes Upgrade Energy Deal, Completing US-Made Drone Powertrain",
       "originalSummary": "Adds high-performance battery and power systems to Unusual Machines' portfolio of critical drone components ORLANDO, FL / ACCESS Newswire / October 19, 2026 / Unusual Machines, Inc. (NYSE American:UMAC), a leading manufacturer of NDAA-compliant drone components, today announced the completion of its acquisition of DroneNX LLC, operating as Upgrade Energy, a U.S. manufacturer of high-performance drone batteries and power systems.",
       "url": "https://finance.yahoo.com/technology/articles/unusual-machines-completes-acquisition-upgrade-200100661.html",
@@ -22887,15 +22894,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
+        "event": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
         "numbers": [],
-        "why": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
-        "stance": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
+        "why": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
+        "stance": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
+        "takeaway": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -27238,7 +27245,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "GE Vernova 獲得旨在加強科特迪瓦地區能源能力的訂單",
-      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+      "summary": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
       "originalTitle": "GE Vernova secures order aimed to strengthen regional energy capacity in Côte d’Ivoire",
       "originalSummary": "Developed by Songon Energies S.A., Songon power plant is built to strengthen energy security and support future growing electricity demand in Greater Abidjan GE Vernova 9E turbine technology to support reliable power delivery for industrial growth and millions of households Infrastructure development expected to create up to 1,400 new jobs and drive positive community impact ABIDJAN, Côte d&#039;Ivoire - [October 20, 2026] - GE Vernova announced today that it will provide the gas power technology forthe new Songon combined-cycle power plant, located in the Songon region near Abidjan, Côte d&#039;Ivoire. Following the signing of financing agreements last June, Songon Energies- Ivorian development investment company focused on advancing energy infrastructure - selected GE Vernova to supply a 9E gas turbine and generator. The plant - to be built by the EPC contractor China Energy International Engineering Co., Ltd. - is expected to deliver 372 megawatts (MW), a capacity equal to the power needs of approximately 5 million Ivorian homes. Supporting a growing national energy landscape. Côte d&#039;Ivoire has made significant progress, reaching an electrification rate of 94.3 percent by 2024 through initiatives like the &quot;Electricity for All Program&quot; (PEPT), in line with the national goal to achieve universal electrification and improved power quality by 2030. Despite these gains, the nation faces an annual demand growth rate of 10 to 15 percent and rural areas still require expanded access. In this energy landscape, this new power plant will help fill a critical gap. The facility is projected to represent up to 12 percent of the country&#039;s total installed base upon its scheduled 2029 operational launch, playing a vital role in meeting these ambitious development targets. Furthermore, the project is expected to generate up to 1,400 new jobs, creating economic opportunities for the local community. &quot;The Songon Energies project is designed to strengthen energy security and support future growing electricity demand growth in the Greater Abidjan region while reinforcing the country&#039;s position as a regional energy hub in West Africa,&quot; said Mr. Wang Xiaoming, Deputy General Manager (Acting CEO) for Songon Energies. &quot;The facility is expected to ease energy pressure on the Abidjan metropolitan area, providing a reliable foundation for the development of skilled workers, the growth of industrial zones, the expansion of small and medium-sized enterprises, and a tangible improvement in the daily lives of millions of Ivorian households. We selected to work with GE Vernova for this new power plant, because of our deep trust in their efficient technology and their constant, proven presence in Côte d&#039;Ivoire, which gives us great confidence in the long-term success of this facility.&quot; &quot;We are honored to support Songon Energies with our proven 9E technology for this crucial infrastructure project,&quot; said Joseph Anis, CEO of Gas Power in Europe, Middle East, and Africa at GE Vernova. &quot;Our commitment to power plant operators is rooted in delivering advanced gas power technology that provides the reliable, dispatc",
       "url": "https://www.marketscreener.com/news/ge-vernova-secures-order-aimed-to-strengthen-regional-energy-capacity-in-cote-da-ivoire-ce785cdbd181f227",
@@ -27254,12 +27261,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "event": "Songon 發電廠由 Songon Energies S.A. 開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "numbers": [
           "5 million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 2001 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
+        "stance": "開發，旨在加強能源安全並支持大阿比讓地區未來不斷增長的電力需求 GE Vernova 9E 渦輪機技術可為工業增長和數百萬家庭提供可靠的電力傳輸 基礎設施開發預計將創造多達 1,400 個新就業機會並推動積極的社區影響 20010 月 2001 月 10 月 201 月今天宣布將提供天然氣位於科特迪瓦阿比讓附近松貢地區的新松貢聯合循環發電廠的電力技術。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
