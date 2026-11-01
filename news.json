@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01 08:43 台灣時間",
+  "updatedAt": "2026-11-01 08:54 台灣時間",
   "historyUpdatedDate": "2026-11-01",
   "historyLastAttemptAt": "2026-10-31T16:02:28.653605+00:00",
   "historyItemCount": 800,
@@ -674,7 +674,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 9.75,
+      "score": 8.45,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -706,7 +706,7 @@
         "INTC"
       ],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -947,6 +947,36 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 5.85,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
+      "summary": "",
+      "originalTitle": "S&P 500, Nasdaq Futures Dip As Weaker-Than-Expected Alphabet Earnings Reignite AI Spending Worries — GOOGL, MSFT, ORCL, NVDA, MRVL In Focus",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOZkZxbTlaRlJuYVhsa0V4em5uNWJVMXJJSjNha0R3VlMwNzRrVFlQbVJyXzA2RUMxU1hkSDhEWFJiTV9ERjZKR0otd0lZZDF1SjVVUjlta1NweEJSVHp1UmZzX0RFcWVKQUNSUGMwVW1FM2p5dU4ta2RFNFI2c05nZWdlcFdiUlQ2VzZzZnh2YUhPeldlcndLTkJtQkpwNkNqWTZsdFNMYnBCRmlwVFhBZUxveVBZRGh5QWZRajJjRDZXNXB2S2NCQmREMlVHZmVrOGdxS1FvRExpbFAxcG1iRTB4cTYyTHd1TzFDZmxKNkhIUncwYllnVWdRVEJOZGtsWFRSWFczUHIzb2ItejA1Q0szSndLT2FuSHdkV1dncEFQU09zUWxj?oc=5",
+      "ts": "2026-10-31T17:14:40+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 18.85,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2017,7 +2047,7 @@
         "ARM"
       ],
       "eventType": "",
-      "score": 2.6,
+      "score": 2.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2552,43 +2582,6 @@
       },
       "top10": true,
       "top10Rank": 2
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "隨著衛星向地球發送第一個人工智慧產生的回應，Google在天基人工智慧運算方面取得了重大里程碑",
-      "summary": "",
-      "originalTitle": "Google Achieves Major Milestone In Space-Based AI Computing As Satellite Sends First AI-Generated Response To Earth",
-      "originalSummary": "Google has successfully received the first artificial intelligence response from a data centre-class processor operating in orbit, marking a significant milestone for its Project Suncatcher initiative. The prototype satellite, which launched on 1 October aboard a SpaceX rocket, transmitted an AI-generated haiku back to Earth after completing its initial commissioning phase. During a ground-station pass, engineers sent a prompt to the satellite's onboard Gemma 4 model, asking it to write a haiku about being in space. The satellite's Tensor Processing Unit processed the request and transmitted the response as it passed over Svalbard, Norway. Google CEO Sundar Pichai described the achievement as a \"hello world\" milestone for the project, which aims to explore whether AI computing infrastructure can operate reliably in space. The satellite carries four TPUs designed to test whether Google's AI hardware can withstand the harsh conditions of orbit, including radiation exposure and extreme temperatures. Over the past few weeks, the team has been powering up the hardware trays and running early machine learning tests to verify the system's functionality in the space environment. Project Suncatcher represents Google's long-term research effort to determine whether space could support scalable machine learning infrastructure. The company envisions solar-powered satellite constellations that could handle AI workloads while bypassing the energy and physical constraints facing terrestrial data centres. The successful response provides crucial proof that data centre-class TPU hardware can execute machine learning tasks in orbit and communicate results back to Earth. Google plans to progress to its next milestone: deploying two interconnected satellites in 2027. These tests will help determine whether the company's AI chips can reliably handle computing workloads in the challenging space environment, potentially paving the way for larger satellite constellations capable of processing more complex AI tasks. Please click here to add Swarajya as your preferred and trusted news source on Google",
-      "url": "https://swarajyamag.com/tech/google-achieves-major-milestone-in-space-based-ai-computing-as-satellite-sends-first-ai-generated-response-to-earth",
-      "ts": "2026-10-31T10:28:45+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL",
-        "SPCX"
-      ],
-      "eventType": "跨公司事件",
-      "score": 25.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Google has successfully received the first artificial intelligence response from a data centre-class processor operating in orbit, marking a significant milestone for its Project Suncatcher initiative. The prototype satellite, which launched on 1 October aboard a SpaceX rocket, transmitted an AI-generated haiku back to Earth after completing its initial commissioning phase. During a ground-station pass, engineers sent a prompt to the satellite's onboard Gemma 4 model, asking it to write a haiku about being in space",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Google CEO Sundar Pichai described the achievement as a \"hello world\" milestone for the project, which aims to explore whether AI computing infrastructure can operate reliably in space.",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
