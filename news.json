@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-01 08:33 台灣時間",
+  "updatedAt": "2026-11-01 08:43 台灣時間",
   "historyUpdatedDate": "2026-11-01",
   "historyLastAttemptAt": "2026-10-31T16:02:28.653605+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-10-31",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "道瓊期貨：隨著蘋果、Palantir、中期選舉臨近，股市遭遇拋售；該怎麼辦",
+      "summary": "",
+      "originalTitle": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEoyQk15NGhJR0FQZEg4aC1VS3RmOG9MdkZvSUR6a2tpQ0NYcW9XYWFralZwcmVZTnlRSG5CRENJXzQtNF9OVUotNFNLMW5HeTdPSjMxUlhKdGN5SUtIbWxmUXh4NDFSc2FJQVNzd0JXYlZ3OTdDWVd2X3pXT09WQWZ5MnN3OWtMN1hSS1pfLW9JYWdKanlnTTE0bU5ocHo1S2lXR0NMekZCRk1zdUdIODktNUJfckRUbUt4X2FUcGo2SXFNTWkzeWNMWWQ?oc=5",
+      "ts": "2026-11-01T00:28:08+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "PLTR"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -84,7 +116,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -103,14 +135,14 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To Weak Guidance",
-      "summary": "",
+      "summary": "Intel's updated fair value estimate has been reduced from US$116.37 to US$107.21, a cut of about 7.9% that reflects a more cautious pricing anchor in current models. This shift lines up with the split analyst reaction after Q3 and Q4 guidance, where confidence in Intel's long term AI and foundry plans is balanced against concern about PC weakness, supply issues, and a wide range of ratings and targets. As you read on",
       "originalTitle": "Intel (INTC) Stock Fair Value Falls After Mixed Analyst Reactions To Weak Guidance",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOODlfeGJ2aW1nYkxLVVNTRXlYa2hBcXgtX29oLWF4YlhGMjE1V0phaHJFWUh2Tm1nMmF0eGxfNzR3R2xuYmFOYmxaR01Kbzk0b3A0eC1XaHFRSVdydGgxUXFtSUZ2NzZ6TlkxR2hLdERLUDQtTG9kQTk3S0ZiNXlrLVdLSmcwMUJINE96cF9TazBVT01ZS2FB?oc=5",
+      "originalSummary": "Intel's updated fair value estimate has been reduced from US$116.37 to US$107.21, a cut of about 7.9% that reflects a more cautious pricing anchor in current models. This shift lines up with the split analyst reaction after Q3 and Q4 guidance, where confidence in Intel's long term AI and foundry plans is balanced against concern about PC weakness, supply issues, and a wide range of ratings and targets. As you read on, you will see how to track these changing views and what they may mean for your own Intel thesis over time.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-stock-fair-value-231012483.html",
       "ts": "2026-10-31T23:10:12+00:00",
       "sourceType": "active_search",
       "movePct": -28.576083414793086,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "INTC"
       ],
@@ -120,16 +152,25 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Intel's updated fair value estimate has been reduced from US$116.37 to US$107.21, a cut of about 7.9% that reflects a more cautious pricing anchor in current models. This shift lines up with the split analyst reaction after Q3 and Q4 guidance, where confidence in Intel's long term AI and foundry plans is balanced against concern about PC weakness, supply issues, and a wide range of ratings and targets. As you read on",
+        "numbers": [
+          "$116.37",
+          "$107.21,",
+          "7.9%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "This shift lines up with the split analyst reaction after Q3 and Q4 guidance, where confidence in Intel's long term AI and foundry plans is balanced against concern about PC weakness, supply issues, and a wide range of ratings and targets.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -191,8 +232,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -540,8 +581,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "INTC",
@@ -695,7 +736,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -725,7 +766,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 26.25,
+      "score": 22.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -737,8 +778,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 7
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "INTC",
@@ -891,6 +932,36 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "META_TITLE_QUOTE",
+      "summary": "",
+      "originalTitle": "META_TITLE_QUOTE",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5ub0FBYVpxQVFJUUkyeV9xNUZtRzF1MnRpTzh2UlRVR2JiQzhtTDUxdUFlc3RtX2FDbmxaVzFCWWNqbEhwYTVINWVWcw?oc=5",
+      "ts": "2026-10-31T17:31:53+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 5.85,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "ALAB",
       "group": "高速傳輸",
       "tag": "題材",
@@ -936,38 +1007,6 @@
       "marketWide": true,
       "analystPriority": false,
       "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊期貨：隨著蘋果、Palantir、中期選舉臨近，股市遭遇拋售；該怎麼辦",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures: Stock Market Sells Off As Apple, Palantir, Midterm Elections Loom; What To Do",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZEoyQk15NGhJR0FQZEg4aC1VS3RmOG9MdkZvSUR6a2tpQ0NYcW9XYWFralZwcmVZTnlRSG5CRENJXzQtNF9OVUotNFNLMW5HeTdPSjMxUlhKdGN5SUtIbWxmUXh4NDFSc2FJQVNzd0JXYlZ3OTdDWVd2X3pXT09WQWZ5MnN3OWtMN1hSS1pfLW9JYWdKanlnTTE0bU5ocHo1S2lXR0NMekZCRk1zdUdIODktNUJfckRUbUt4X2FUcGo2SXFNTWkzeWNMWWQ?oc=5",
-      "ts": "2026-10-31T16:56:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "PLTR"
-      ],
       "eventType": "",
       "score": 5.85,
       "featured": false,
@@ -2010,7 +2049,7 @@
         "QCOM"
       ],
       "eventType": "",
-      "score": 9.1,
+      "score": 7.7,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2042,7 +2081,7 @@
         "TSEM"
       ],
       "eventType": "",
-      "score": 9.1,
+      "score": 7.7,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2074,7 +2113,7 @@
       ],
       "eventType": "",
       "analystPriority": false,
-      "score": 18.85,
+      "score": 15.95,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2086,8 +2125,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2104,7 +2143,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 14.95,
+      "score": 12.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2550,38 +2589,6 @@
       "top10Rank": null,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "AAOI",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "應用光電 (AAOI) 收入組成 - 主要構成",
-      "summary": "",
-      "originalTitle": "Applied Optoelectronics (AAOI) Revenue Breakdown - Main Composition",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQTUtoSXFOSXpITjFYckxnT2x3OWhmb25VVW5iRHB3WDFmRzVvY3kySURmdUFnWG9XOU1ubXRBbk13NU5UaEVURmg2aXhZdjdwNVBVWm5NVndWRGx1NjZWZmxVREZ2MHFSaWRfUkx4TDE1Ylh3OVR6M2dTVDBHenN1cjVUSUdGajZfd29qZHdxNms4T1BIckRUSWd5Uk92b1BVUTRWRGJKa201eDFQQzE1YjhqSHJZQnh6NkRlbGVRdzJIbzRnYU9PQ3lQWlFNXzU0cEw2TjktN1UxcHcyY1pUdUhtaVVtYWVLOTgzTy05X05laTVJRF80Ump6Q1Jsc1czeFlkMVdPTFlra3Byc3diVVhCbUVkbTJUZ1hvOUJTWnJKUGxjLUhvOEQzaVpndTBJTmc?oc=5",
-      "ts": "2026-10-31T10:25:32+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -12.80464705139538,
-      "relatedTickers": [
-        "AAOI"
-      ],
-      "eventType": "",
-      "score": 9.9,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
