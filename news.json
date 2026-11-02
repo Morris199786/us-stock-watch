@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 05:01 台灣時間",
+  "updatedAt": "2026-11-03 05:06 台灣時間",
   "historyUpdatedDate": "2026-11-03",
   "historyLastAttemptAt": "2026-11-02T16:00:04.066175+00:00",
   "historyItemCount": 800,
@@ -11,34 +11,48 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "由於市場對 Marvell 交易的反應似乎過度，Lumentum 上調評級",
-      "summary": "",
+      "summary": "According to Northland, the AI Optical Data Center cycle has created over $200B in value over the last three years Marvell agreed to acquire Lumentum in an all-stock deal with an implied enterprise value of $115 billion. JP Morgan expects optical industry fundamentals to remain solid, with most of its checks indicating strong demand through the end of 2026 and into 2027.",
       "originalTitle": "Lumentum upgraded as market reaction to Marvell deal appears overdone",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQnNvOVBKYWJrUkJsWExtX3I0R3BpNERyQXRISGtzV2VPbTh6WXJyRUhKWElScnlaTllSem9TMklQM1ZfX3dBNW9yMmhyWVpkTVlCc0Z2YkY5VXgwNUN1a1VEM29HWXRIRTBFNHFRS0xTQVdpQ0x5SHB3NXVPc0lMS1hEbWh0YzhiazU0anJHTWhqTElta1c4OG5mR1hNaU1vWFhRZ0lfa0R1bFU?oc=5",
+      "originalSummary": "According to Northland, the AI Optical Data Center cycle has created over $200B in value over the last three years Marvell agreed to acquire Lumentum in an all-stock deal with an implied enterprise value of $115 billion. JP Morgan expects optical industry fundamentals to remain solid, with most of its checks indicating strong demand through the end of 2026 and into 2027.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cohr-stock-draws-upgrade-marvell-155006320.html",
       "ts": "2026-11-02T20:55:11+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
+      "analystDetails": [
+        {
+          "broker": "JP Morgan",
+          "analyst": "",
+          "rating": "",
+          "action": "升評",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "MRVL",
+          "targetCompany": "Marvell"
+        }
+      ],
+      "hasArticleBody": true,
       "relatedTickers": [
         "MRVL",
         "LITE"
       ],
-      "eventType": "",
-      "score": 211.5,
+      "eventType": "跨公司事件",
+      "score": 222.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "被評級公司：Marvell（MRVL）｜券商：JP Morgan｜動作：升評｜調整原因：來源未提供具體理由",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 2,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -269,10 +283,10 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "利多",
       "title": "Barclays 上修 AEP 目標價至 $132，維持 Equal-Weight",
-      "summary": "",
+      "summary": "Barclays Adjusts Price Target on American Electric Power to $132 From $120American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
       "originalTitle": "Barclays maintains American Electric Power at Equal-Weight, raises price target to $132 from $120",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQT1c2RzhyS0VFTUdvTTA3b3NMZmdtdFFyM0Z4RGYyMEJ1a2pRaHNReGZ2QkZKZEZDZ0FBdkl5U3ZLWUlObnN0MHNhTUZYTm5oeTA5YVpTZUdST2pfN1FkN19RRm5hRy1QS09DZVBvOXMxY0tvQlBiQzdfUktOZU55bGxlNDRCXzh0TWVMMFBMTGlpMlRvaF9TNlRxMWRCd1lheURVTjB0UDJKdmRuU3YzeVlLdUZiZWZxZmV4RkRlbW5tMklHRmFJMHcxdDNUUUwzNTJxbTFOQkYwdVVXWjRRUnVtZFF1MUY0anNmcA?oc=5",
+      "originalSummary": "Barclays Adjusts Price Target on American Electric Power to $132 From $120American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-american-electric-power-to-132-from-120-ce785fd8d18af321",
       "ts": "2026-11-02T20:07:49+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -284,13 +298,13 @@
           "action": "上修",
           "newTarget": "$132",
           "oldTarget": "$120",
-          "reason": "巴克萊維持美國電力公司的同等權重評級，並將目標價從 120 美元上調至 132 美元",
+          "reason": "巴克萊維持美國電力公司的評級不變，將目標價從 120 美元上調至 132 美元 根據 FactSet 調查的分析師數據，巴克萊將美國電力公司的目標價從 120 美元上調至 132 美元，美國電力公司的平均評級為“增持”，平均目標價為 141.43 美元。",
           "reasonConfidence": "medium",
           "targetTicker": "AEP",
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -299,19 +313,20 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：Barclays｜動作：上修｜評等：Equal-Weight｜目標價：$132（原 $120）｜調整原因：巴克萊維持美國電力公司的同等權重評級，並將目標價從 120 美元上調至 132 美元",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：Barclays｜動作：上修｜評等：Equal-Weight｜目標價：$132（原 $120）｜調整原因：巴克萊維持美國電力公司的評級不變，將目標價從 120 美元上調至 132 美元 根據 FactSet 調查的分析師數據，巴克萊將美國電力公司的目標價從 120 美元上調至 132 美元，美國電力公司的平均評級為“增持”，平均目標價為 141.43 美元。",
         "numbers": [
           "$120",
           "$132"
         ],
-        "why": "調整原因：巴克萊維持美國電力公司的同等權重評級，並將目標價從 120 美元上調至 132 美元",
+        "why": "調整原因：巴克萊維持美國電力公司的評級不變，將目標價從 120 美元上調至 132 美元 根據 FactSet 調查的分析師數據，巴克萊將美國電力公司的目標價從 120 美元上調至 132 美元，美國電力公司的平均評級為“增持”，平均目標價為 141.43 美元。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：巴克萊維持美國電力公司的同等權重評級，並將目標價從 120 美元上調至 132 美元",
+        "takeaway": "調整原因：巴克萊維持美國電力公司的評級不變，將目標價從 120 美元上調至 132 美元 根據 FactSet 調查的分析師數據，巴克萊將美國電力公司的目標價從 120 美元上調至 132 美元，美國電力公司的平均評級為“增持”，平均目標價為 141.43 美元。",
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -331,6 +346,37 @@
       ],
       "eventType": "",
       "score": 15.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "Meta 與獅門影業合作將《飢餓遊戲：收割日出》帶入戲院並配備 Meta VR 眼鏡 3D",
+      "summary": "",
+      "originalTitle": "Meta Partners with Lionsgate to Bring 'The Hunger Games: Sunrise on the Reaping' to Theaters and Meta VR Glasses in 3D",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUDlpSVdWQmpGSkhKU3RhYkwycVAwUTlKLU9JZ2haSEJUNnNhckZhc19hZlI2bVp1MWduT3NXeE1Damt3UW9nN1pWYXJja0JWamg2MkE4UlRrVE9qb0ptaktrUllDdzZucFRqZmxXaUs2dW9RSXRxQWgweVE0Zm5TWUtnT0I5Mi1xbzBCcjVremNTNFlucjJ6TE1EU1E3ZG44YmxjbFhMWVVINW1PVGtfMA?oc=5",
+      "ts": "2026-11-02T20:03:18+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 12.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -381,8 +427,8 @@
         "takeaway": "券商調整理由：Marvell Technology（納斯達克股票代碼：MRVL）已同意透過全股票交易收購 Lumentum（納斯達克股票代碼：LITE），這家光學元件製造商的隱含企業價值約為 1,150 億美元，兩家公司尋求擴大其在半導體和光網路技術領域的綜合地位。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 5,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1543,7 +1589,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1588,7 +1634,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2547,7 +2593,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2769,36 +2815,6 @@
       ],
       "eventType": "",
       "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "油價大幅下跌後，美國股市收復部分上週跌勢國家新聞| 2news.com",
-      "summary": "",
-      "originalTitle": "US stocks recover some of last week's sell-off after oil prices fall sharply | National News | 2news.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOS0VQUmF5MG15VDl0eXpVRHd6N1I2eU0zdGZ1ZFJpM0g0WEFRcEMwSl83b2NCV2VMaHlybGk0N2hsUmE4RjM0SWdOcVl1Q3ZDQk93WDlyczFOVGdpR1lta2FMNGhQZGRQTUFwdFdiYmh5LXRuSjlycXU3alRIbHQ3dDUwcFAyX0hXU3d0RzlwaC02ajFzeFBJS2N4UDNhMXpacjRqT2xGeWU1YUtfY0hXeTU3RnhkOGxNNWhkdnBDWDA5Y1JUbDllbE9SdlpuVmtyS1padjRBMGlXT0ZKVTNqNzZzbks5TnpGYnhUOGdXVWg?oc=5",
-      "ts": "2026-11-02T16:51:46+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -3936,7 +3952,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "TSEM 股票：為什麼瑞穗將 Tower Semiconductor 視為人工智慧資料中心連接領域",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。 I have no business relationship with any company whose stock is mentioned in this article.",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "TSEM Stock: Why Mizuho Sees Tower Semiconductor As An AI Data Center Connectivity Play",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957483-tower-semiconductor-managements-confidence-is-infectious",
@@ -3953,10 +3969,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。 I have no business relationship with any company whose stock is mentioned in this article.",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4614,7 +4630,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr 測試系統：掌握潛在市場的變數太多（納斯達克股票代碼：AEHR）",
-      "summary": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。 I have no business relationship with any company whose stock is mentioned in this article.",
+      "summary": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Aehr Test Systems: Too Many Variables In Grasping The Addressable Market (NASDAQ:AEHR)",
       "originalSummary": "EschCollection/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4960561-aehr-test-systems-too-many-variables-in-grasping-the-addressable-market",
@@ -4630,10 +4646,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。 I have no business relationship with any company whose stock is mentioned in this article.",
+        "event": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。 I wrote this article myself, and it expresses my own opinions.我沒有收到任何補償（除了來自 Seeking Alpha 的補償）。",
+        "stance": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -4765,7 +4781,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "AST SpaceMobile Inc (ASTS) 股票價格、報價、新聞和歷史",
-      "summary": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。 Meanwhile, the Dow experienced a drop of 0.25%, and the technology-dominated Nasdaq saw a decrease of 1.38%.",
+      "summary": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。同時，道瓊指數下跌0.25%，以科技股為主的那斯達克指數下跌1.38%。",
       "originalTitle": "AST SpaceMobile Inc (ASTS) Stock Price, Quote, News & History",
       "originalSummary": "AST SpaceMobile, Inc. (ASTS) closed at $43.07 in the latest trading session, marking a +1.82% move from the prior day. The stock outperformed the S&P 500, which registered a daily loss of 0.31%. Meanwhile, the Dow experienced a drop of 0.25%, and the technology-dominated Nasdaq saw a decrease of 1.38%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-ast-spacemobile-210003733.html",
@@ -4782,7 +4798,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。 Meanwhile, the Dow experienced a drop of 0.25%, and the technology-dominated Nasdaq saw a decrease of 1.38%.",
+        "event": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。同時，道瓊指數下跌0.25%，以科技股為主的那斯達克指數下跌1.38%。",
         "numbers": [
           "$43.07",
           "1.82%",
@@ -4790,7 +4806,7 @@
           "0.25%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。",
+        "stance": "AST SpaceMobile, Inc. (ASTS) 在最新交易日收於 43.07 美元，較前一日上漲 1.82%。該股表現優於標準普爾 500 指數，後者日跌幅為 0.31%。同時，道瓊指數下跌0.25%，以科技股為主的那斯達克指數下跌1.38%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
