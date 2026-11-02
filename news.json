@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 02:46 台灣時間",
+  "updatedAt": "2026-11-03 02:55 台灣時間",
   "historyUpdatedDate": "2026-11-03",
   "historyLastAttemptAt": "2026-11-02T16:00:04.066175+00:00",
   "historyItemCount": 800,
@@ -7,22 +7,24 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "LITE",
+      "group": "光通訊／網通",
       "tag": "題材",
-      "title": "Google Gets First AI Response From Space Under Project Suncatcher",
+      "title": "Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank",
       "summary": "",
-      "originalTitle": "Google Gets First AI Response From Space Under Project Suncatcher",
+      "originalTitle": "Marvell to purchase Lumentum for $115 billion in record-breaking AI tech deal, both stocks tank",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOTVjVXlLdGhoR2RCVDl1R0tMcG9TM3Z0R3BSTmdZZ1lIcG1jWl9RME9YTzE2M3UxQkdYVjRZdEJIY3pEUnNSUHc3QzVzTmQyeG15VWJPUHAycVlJMUhEWlVoa2I0eFJ0aTZQU2tBcmpLWkh6VFBFV3ZiLXBCTDNybFdnVzlYTWxfbW9qbG14NHB2MlhwNmtOOC1NMXNyR0xRUDEyRzhITkpOYVJYMkE?oc=5",
-      "ts": "2026-11-02T18:39:05+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYWxRNVQxYzItQzBISTcwM2FVN2szd2w3dlZfVnp0eWxLb2RHOEM2RzR1SnVLczBYVWRDSzV3a3FxN0VscjZ2OGZPbTR5aWYwLUpIdVprU1ZOV1lRSTVGM1RRSTVPSDNYTDM3TTdDaVhoaXhBeEE5eXFqV2V6SzBUNkdxTUJYNXJGVjFzQ1VvRVR2Rk0zVGVlUGczb3M5ZlZkLUxBZFhJWFBLOEtucW5ncHFBd2N1SFoydlE?oc=5",
+      "ts": "2026-11-02T18:40:51+00:00",
+      "sourceType": "active_search",
+      "movePct": -16.547864874509344,
       "relatedTickers": [
-        "GOOGL"
+        "LITE",
+        "MRVL"
       ],
-      "eventType": "新題材",
-      "score": 25.5,
+      "eventType": "",
+      "analystPriority": false,
+      "score": 26.25,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -36,6 +38,44 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google Gets First AI Response From Space Under Project Suncatcher",
+      "summary": "Google has successfully executed an artificial intelligence workload aboard a satellite in orbit and received the generated output on Earth under its Project Suncatcher initiative, completing its first end-to-end computing demonstration in space. The experiment involved transmitting a command to the prototype satellite, activating its onboard Tensor Processing Unit (TPU), executing an artificial intelligence prompt a",
+      "originalTitle": "Google Gets First AI Response From Space Under Project Suncatcher",
+      "originalSummary": "Google has successfully executed an artificial intelligence workload aboard a satellite in orbit and received the generated output on Earth under its Project Suncatcher initiative, completing its first end-to-end computing demonstration in space. The experiment involved transmitting a command to the prototype satellite, activating its onboard Tensor Processing Unit (TPU), executing an artificial intelligence prompt and receiving the response on Earth. The output was a haiku, Google CEO Sundar Pichai said in a post on X, describing the exercise as a \"hello world\" milestone for the project. The demonstration used Google's Gemma 4 model on an onboard TPU. Pichai's account described the sequence as the successful transmission of a command to orbit, processor activation, prompt execution and receipt of the complete response on Earth. Computing Beyond Earth Project Suncatcher explores the deployment of artificial intelligence computing infrastructure in space. Google's research examines whether satellites equipped with specialised processors and solar power systems can support machine learning workloads beyond terrestrial data centres. The prototype satellite was launched on 1 October aboard SpaceX's Transporter-18 rideshare mission. Google developed the spacecraft in partnership with Planet, a satellite and Earth-imaging company. The initial experiment included the activation of onboard systems before the AI workload was executed. Google transmitted instructions during a ground-station communication window, following which the satellite processed the prompt and returned the generated output to Earth. Radiation And Thermal Challenges The next phase of the programme will assess processor performance under the environmental conditions of orbit. Google's planned tests include evaluations of hardware reliability under radiation exposure and temperature fluctuations. Radiation poses a technical challenge for electronic systems in space. Exposure to energetic particles can cause bit flips, which alter data stored in computer memory and can disrupt processor operations. Google's research will examine the ability of its hardware to maintain reliable performance under these conditions. Thermal management presents another engineering challenge. Satellites cannot rely on conventional air-based cooling systems because of the vacuum surrounding them. Google's research has examined heat pipes and radiators as potential mechanisms to transfer heat away from processors and dissipate it into space. Next Test In 2027 Project Suncatcher also examines the possibility of operating multiple spacecraft as an interconnected computing system. Google's proposed architecture envisages satellites communicating through optical links to exchange information and distribute computing workloads. The company plans to test two interconnected satellites in 2027. The experiment will assess communication between the spacecraft and their ability to coordinate computing operations in orbit.",
+      "url": "https://www.businessworld.in/article/google-gets-first-ai-response-from-space-under-project-suncatcher-631408",
+      "ts": "2026-11-02T18:39:05+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 40.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Google has successfully executed an artificial intelligence workload aboard a satellite in orbit and received the generated output on Earth under its Project Suncatcher initiative, completing its first end-to-end computing demonstration in space. The experiment involved transmitting a command to the prototype satellite, activating its onboard Tensor Processing Unit (TPU), executing an artificial intelligence prompt a",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Google has successfully executed an artificial intelligence workload aboard a satellite in orbit and received the generated output on Earth under its Project Suncatcher initiative, completing its first end-to-end computing demonstration in space. The experiment involved transmitting a command to the prototype satellite, activating its onboard Tensor Processing Unit (TPU), executing an artificial intelligence prompt a",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "LITE",
@@ -243,6 +283,54 @@
       "top10Rank": null
     },
     {
+      "ticker": "SWKS",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "Morgan Stanley 調整 SWKS 目標價至 $95",
+      "summary": "",
+      "originalTitle": "Skyworks Solutions (NASDAQ:SWKS) Given New $95.00 Price Target at Morgan Stanley",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNEFMekltak1Fd1RUNWhmd2dxbEdwbHlzbWxVNGFremRHZmgyQXNaMThPQ3NVVWZYdG82Y2owbXByUkZ0WnZGSFpoZW5iQzg0T2QzTnBIWmg5MmFyRGgtUEU1djI4RkJFVEdVQ1N1cTFUNWZmUV9fcEFRY3MwaEV1ZUMwZ2xSVEJmaUhUNlRjWTV5eE9Vd05qZ2xNZ2t6SjZjZjVjM090T1VEckFTUGlpTGZRdmU3R3F3ZE05XzY2ZmRRQW85ODhvZjJwRGV3dlpndzFTcw?oc=5",
+      "ts": "2026-11-02T18:19:23+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$95",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "SWKS",
+          "targetCompany": "Skyworks"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SWKS"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Skyworks（SWKS）｜券商：Morgan Stanley｜目標價：$95｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$95"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -335,6 +423,36 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Anthropic 尋找人工智慧的內幕運算能力",
+      "summary": "",
+      "originalTitle": "Inside Anthropic’s Hunt for A.I. Computing Power",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSzNBLTZEQWd3WGJtSVlvWW9BYnlFNW91WUowLUhCZFJ4NmREYU4tUG9hM1Jzb0RaOVNKczZPTUZQVHk3SHVSVlRFRGM4UnZtdHhMcnNWM1FLOWFUSzlGVXpiYUpPNElWcnpzWmliRUk4Z2JIaE0yeVFhc3NLcEZUdl9NdVN3Zw?oc=5",
+      "ts": "2026-11-02T18:01:24+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MRVL",
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
@@ -376,7 +494,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -548,36 +666,6 @@
       "score": 7.5,
       "featured": true,
       "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Anthropic 尋找人工智慧的內幕運算能力",
-      "summary": "",
-      "originalTitle": "Inside Anthropic’s Hunt for A.I. Computing Power",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSzNBLTZEQWd3WGJtSVlvWW9BYnlFNW91WUowLUhCZFJ4NmREYU4tUG9hM1Jzb0RaOVNKczZPTUZQVHk3SHVSVlRFRGM4UnZtdHhMcnNWM1FLOWFUSzlGVXpiYUpPNElWcnpzWmliRUk4Z2JIaE0yeVFhc3NLcEZUdl9NdVN3Zw?oc=5",
-      "ts": "2026-11-02T17:37:56+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -788,8 +876,38 @@
       "eventType": "",
       "analystPriority": false,
       "score": 26.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "U.S. Stocks Rebound After Friday’s Selloff as Oil Slides",
+      "summary": "",
+      "originalTitle": "U.S. Stocks Rebound After Friday’s Selloff as Oil Slides",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYmNRVXpheDE2eUhldmRHMGJRY2JPaDdnbGxSbFczZ0w4ZGpCNjVJYl9hSmF2NXBQdjFlRmFZNUU0WXVOSEVVWWZaOGJkTEF2aFlIZG1LblZ6ZEpwbWlTbW9hTzZRdmZybTczbzV4VVBPNU9PQWVrbWlCb00tQm5zb3h0RFhZSENFaFkyV3ZMcDhId3J3S0hsWnFSVHFLZFJNOE04NQ?oc=5",
+      "ts": "2026-11-02T17:21:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1009,7 +1127,7 @@
       ],
       "eventType": "",
       "score": 214.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Amazon just bounced hard off earnings that missed estimates, but the debate tearing Wall Street apart has nothing to do with the quarter itself. The real question is whether AWS profits can keep pace with a spending plan that is burning cash at a pace few saw coming.",
@@ -1026,7 +1144,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1260,6 +1378,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "AAOI",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "AAOI 261106 160.00C (AAOI261106C160000) Stock Options Chain | Quotes & News",
+      "summary": "",
+      "originalTitle": "AAOI 261106 160.00C (AAOI261106C160000) Stock Options Chain | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQT0dva3JCMklKeHNyUjNZeW1NTWREMWFFc0g5RF9ZeXBST25TQkdyVG8taGhjbnZqWHZ6Z0lhMjVBcnAtcFp5NS04ZGhNUGxMVjJ2NmplSGFWSFp1SW01UTlSNlBxZTlXb19JaG9NU1RRTElSRnJsZUJpWHZYYTlhRzNjdURGdW1oMzlxYjhyTmtjYTFKRi1Mek4zb2JyNnctbjRKVDJ1LU1IM05XMHVDNEdCV3VENENPOHNKYjBKaVV0QlJ1VEdyVjV4TEd4OUJyQjlUNDMwOGVhdm9vSkg3RFZBWVE0S2l2NXBVUTlfUjB6c18tQy1pVzE1WkgyODN4WEI4WnRQN1FYM2c1OUxuc1lGV2VwUEpzak0zako2ME5uTGJUakdsbVR4cGZ6d1BRVUFfblU3ZVI?oc=5",
+      "ts": "2026-11-02T16:44:40+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -7.950760318609696,
+      "relatedTickers": [
+        "AAOI"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "LITE",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -1424,7 +1574,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1447,6 +1597,38 @@
       "score": 15.75,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AAOI",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Applied Optoelectronics (AAOI) Income Statement & Earnings",
+      "summary": "",
+      "originalTitle": "Applied Optoelectronics (AAOI) Income Statement & Earnings",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQMVdjdnNSQXgzYXFuU1B1MjdyWWtpdE9vTWd4NDh4WUxHZlZIN3d1MGJ3T3gxMWl6ZzNxWVFXdTZFUTdHbDhYMVZlNVluLU9MZXpnMklPQ2RFdmZLb202RmFVMlhLanlvZ1RvN0N3enFhVzYtSkhsMDdXMnkwSWw2X0ozMWdzdnR3cXhrVS01Mkd5RGJQelVGZUJpc19tOXJodXN5SW5GbVpRVEJqc1c3ejFpOVA0bVRlUVZHQUhRT2NfbVc2eXFnUU9wVk5UbjVRUmh5NlFUVjIydWo2WnJFN19JOExoRjBXS1BvR3I2ZEJSTjRXUmVva0FyQW96WFlqVkdyMjg4SVo2V19oVTFJMGx2RGZTb01JMktRby1tRWI1VWVPNjI1ZHJQZUF5cVlwZ0xHbl94ZVRpaDVIY1ZweTNQd0RPZWxNbGxzekVPSTlNYWVDa05lcmRIa3pfSEhzLWdabg?oc=5",
+      "ts": "2026-11-02T16:29:00+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -7.950760318609696,
+      "relatedTickers": [
+        "AAOI"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1560,8 +1742,8 @@
         "takeaway": "券商調整理由：Freedom Broker lowered its CAT price target to $800 from $980 while maintaining a 'Buy' rating, The Fly reported.",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null,
+      "top10": true,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2601,218 +2783,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Marvell 以 1,150 億美元收購 Lumentum Holdings",
-      "summary": "",
-      "originalTitle": "Marvell Reaches $115 Billion Deal for Lumentum Holdings",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV2FXN0VKVjBIUDlmNF8xMXBEcE9BQkRrQk5GR2k1dmNLMjlBMVlCSmRLc19PNXVCTUNZVUZRY3pQNzEtZGJuQlNwcnMxQWdqME8xa1FtOVkyendLS0RFSTV3cjNwQXJaYmVxTy1fREcyNk81S29pYWRGOTdLN3ljXzVVX1pIaDlTMXRGTHB1ck1qNEZnSUlsUkJIMWFJSmpHT1U5UjkyMEs?oc=5",
-      "ts": "2026-11-02T15:21:54+00:00",
-      "sourceType": "history_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "MRVL",
-        "LITE"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "LITE",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates",
-      "summary": "",
-      "originalTitle": "Lumentum (LITE) Beats Q1 Earnings and Revenue Estimates",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOXlvb1drOTNPNmxDbFFwZEtoWXpVd2dRRUcwcFhFUk1ZcmtsMXUzSjFqQ1pqOG0zbUtnMEZoYllxREE2X0NZVm1GWjFNYVEtSWtIQlVFeXNOTGNkU0xGNkFXb3IzUkFJa3ozNDZNMmpwV3RCT2liamtSdG8yMkN6LTdwRTdSaG5YUFYxZEtLSlBXaE1nSmMtTGs0Y1Q?oc=5",
-      "ts": "2026-11-02T15:20:03+00:00",
-      "sourceType": "active_search",
-      "movePct": -15.038277625788044,
-      "relatedTickers": [
-        "LITE"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 20.25,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CAT",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "DA Davidson 下修 CAT 目標價至 $1,150（原 $575）",
-      "summary": "Freedom Broker lowered its CAT price target to $800 from $980 while maintaining a ‘Buy’ rating, The Fly reported.According to Koyfin data, 12 out of 29 analysts covering the stock rate it ‘hold,’ while 16 rate it ‘buy’ or ‘strong buy’.Caterpillar completed its acquisition of Fabick Cat, a longtime dealership with more than 100 years of customer relationships serving parts of Missouri and Illinois, all of Wisconsin, and Michigan’s Upper Peninsula.Caterpillar Inc. (CAT) was in focus on Monday after DA Davidson and Fr",
-      "originalTitle": "DA Davidson cuts Caterpillar stock price target on valuation concerns",
-      "originalSummary": "Freedom Broker lowered its CAT price target to $800 from $980 while maintaining a ‘Buy’ rating, The Fly reported.According to Koyfin data, 12 out of 29 analysts covering the stock rate it ‘hold,’ while 16 rate it ‘buy’ or ‘strong buy’.Caterpillar completed its acquisition of Fabick Cat, a longtime dealership with more than 100 years of customer relationships serving parts of Missouri and Illinois, all of Wisconsin, and Michigan’s Upper Peninsula.Caterpillar Inc. (CAT) was in focus on Monday after DA Davidson and Freedom Broker lowered their price targets on the stock following its third-quarter results, while the company announced the completion of its Fabick Cat dealership acquisition.According to The Fly, DA Davidson lowered its price target on Caterpillar to $685 from $882 and maintained a ‘Neutral’ rating, citing valuation concerns despite accelerating growth across all three segments. The firm noted that the stock trades at a 50% premium to its peer group.CAT shares traded marginally lower at the time of writing.Analysts Cut Caterpillar Price TargetsDA Davidson also noted that the company’s backlog increased 96% year-over-year, while end-user sales rose 20% in Construction and 36% in Power & Energy, according to The Fly.Freedom Broker analyst Sergey Glinyanov lowered his price target to $800 from $980 while maintaining a ‘Buy’ rating, according to The Fly. The firm remains constructive on Caterpillar’s long-term fundamentals but is taking a more conservative approach to valuing the shares.According to Koyfin data, 12 out of 29 analysts covering the stock rate it ‘hold,’ while 16 rate it ‘buy’ or ‘strong buy’. Their 12-month price target ranges from $575 to $1,150, with an average of $857.99.Caterpillar Completes Fabick Cat AcquisitionSeparately, Caterpillar on Monday announced that it had completed its acquisition of John Fabick Tractor Company, known as Fabick Cat, a longtime Cat dealer with more than 100 years of customer relationships across portions of Missouri and Illinois, all of Wisconsin, and Michigan’s Upper Peninsula. “Fabick customers have come to expect outstanding service and support, and completion of this acquisition ensures that commitment will continue,” Caterpillar Chairman and CEO Joe Creed said.Following the acquisition, Caterpillar Senior Vice President Steve Ferguson was appointed CEO and Dealer Principal of Fabick. Ferguson joined Caterpillar in 1990 and has held roles across mining, power and energy, finance and operations. He most recently served as senior vice president of the Industrial Power Systems Division.How Retail Views CATOn Stocktwits, retail sentiment toward the stock remained in the ‘bullish’ territory over the past 24 hours, amid ‘high’ message volumes.CAT shares have gained over 7.6% year-to-date.Also read: COHR Stock Draws Upgrade As Marvell’s $115B Lumentum Deal Highlights ‘Value Of Scarce AI Optics’For updates and corrections, email newsroom[at]stocktwits[dot]com.",
-      "url": "https://stocktwits.com/news-articles/markets/equity/cat-stock-gets-price-target-cuts-analyst-flags-50-premium-to-peers/cNGac2FR9PW",
-      "ts": "2026-11-02T15:16:40+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "DA Davidson",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$800",
-          "oldTarget": "$980",
-          "reason": "valuation concerns despite accelerating growth across all three segments.",
-          "reasonConfidence": "high",
-          "targetTicker": "CAT",
-          "targetCompany": "Caterpillar"
-        },
-        {
-          "broker": "DA Davidson",
-          "analyst": "",
-          "rating": "Neutral",
-          "action": "下修",
-          "newTarget": "$685",
-          "oldTarget": "$882",
-          "reason": "valuation concerns despite accelerating growth across all three segments.",
-          "reasonConfidence": "high",
-          "targetTicker": "CAT",
-          "targetCompany": "Caterpillar"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CAT",
-        "MRVL",
-        "LITE"
-      ],
-      "eventType": "跨公司事件",
-      "score": 228.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Caterpillar（CAT）｜券商：DA Davidson｜動作：下修｜評等：Buy｜目標價：$800（原 $980）｜調整原因：valuation concerns despite accelerating growth across all three segments.\n被評級公司：Caterpillar（CAT）｜券商：DA Davidson｜動作：下修｜評等：Neutral｜目標價：$685（原 $882）｜調整原因：valuation concerns despite accelerating growth across all three segments.",
-        "numbers": [
-          "$980",
-          "$800",
-          "$882",
-          "$685"
-        ],
-        "why": "調整原因：valuation concerns despite accelerating growth across all three segments.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：valuation concerns despite accelerating growth across all three segments.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 3,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "CBRS 261030 97.00P (CBRS261030P97000) 股票選擇權鏈 |行情與新聞",
-      "summary": "",
-      "originalTitle": "CBRS 261030 97.00P (CBRS261030P97000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQb181R1ZPdklLWDZscVJldVJvM2s4Q1NJMVh2eHRvWmJoOWQ2cGt6U0phd2FKNXZvOU9lRW5Fd0M1aFZKUENiaU5iZkt1QmwtWEhrV01iM3hWVldWWS1rWEEzaUVKX0pKOWd1NHdOWThRekxQWGhuOGtOd0ZJRkdXNEJONjJ1NmZmSXhWZUROQUdNTzhaSmFUVzBiTjF3R0swYzNrR3NGY3NVaEk2aTRNMlhSdEVUYk5pcXM5TW5BYW8zUElCSG91Ukthb2YxbWlhMTI0TUF6MDBVc1ExTmdhdG1UTDJ0N3lDWWl6eWxWZkRUd1lDTVlHLThoXzR6V1FibmlxcFBEY190SjFZcnNMLVJwRm9YcEw5dWZELUJ4YlRYME9GMTh3d3VfdEs3cmdxcFBqcm9mSEd3UW95Wm1hUThn?oc=5",
-      "ts": "2026-11-02T15:16:12+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -9.873603224033712,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CAT",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "DA Davidson 調整 CAT 目標價至 $800",
-      "summary": "Freedom Broker lowered its CAT price target to $800 from $980 while maintaining a 'Buy' rating, The Fly reported. According to Koyfin data, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate it 'buy' or 'strong buy'. Caterpillar completed its acquisition of Fabick Cat, a longtime dealership with more than 100 years of customer relationships serving parts of Missouri and Illinois, all of Wisconsin, and Michigan's Upper Peninsula.",
-      "originalTitle": "DA Davidson cuts Caterpillar stock price target on valuation concerns By Investing.com",
-      "originalSummary": "Freedom Broker lowered its CAT price target to $800 from $980 while maintaining a 'Buy' rating, The Fly reported. According to Koyfin data, 12 out of 29 analysts covering the stock rate it 'hold,' while 16 rate it 'buy' or 'strong buy'. Caterpillar completed its acquisition of Fabick Cat, a longtime dealership with more than 100 years of customer relationships serving parts of Missouri and Illinois, all of Wisconsin, and Michigan's Upper Peninsula.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cat-stock-gets-price-target-162750550.html",
-      "ts": "2026-11-02T15:15:33+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "DA Davidson",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$800",
-          "oldTarget": "$980",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "CAT",
-          "targetCompany": "Caterpillar"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CAT"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Caterpillar（CAT）｜券商：DA Davidson｜動作：下修｜評等：Buy｜目標價：$800（原 $980）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$980",
-          "$800"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
