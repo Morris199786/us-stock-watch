@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02 18:15 台灣時間",
+  "updatedAt": "2026-11-02 18:23 台灣時間",
   "historyUpdatedDate": "2026-11-02",
   "historyLastAttemptAt": "2026-11-01T16:02:05.622432+00:00",
   "historyItemCount": 800,
@@ -70,26 +70,23 @@
       "top10Rank": null
     },
     {
-      "ticker": "AMZN",
-      "group": "CSP",
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "題材",
-      "title": "分析師設定亞馬遜股價目標",
+      "title": "S&P 500: Is AI Spooking Investors?",
       "summary": "",
-      "originalTitle": "Analyst sets Amazon stock price target",
+      "originalTitle": "S&P 500: Is AI Spooking Investors?",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ndGw2TzI4Zjd5NE9SbDdNUzZZdnpfb2dZX1R3RUhNcW44bDBiX2Itb3pmajdTRm5NRm8xRGUxenIyQkZlemNHUTdHYU52UzVhQTllakhzMlZTNGZvQjNUTEYyelNzajRVNHdVNTdn?oc=5",
-      "ts": "2026-11-02T09:55:26+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLXRNajVaV2tYcUtDOEU3S216aEp0cjI0RTFmelkwQU9nYmlqRW0tR1MydnNETmNqRVlxbXliNHZYWVdfUHBpOE1XWDhaLU1EOWU4WjBRQ1lEVGlYVU1iX2VDem5fZmZLSnlzWm04OF9iMWJJM3A1M29TVEFNeDhXZHF3?oc=5",
+      "ts": "2026-11-02T09:56:15+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
       "eventType": "",
-      "score": 198.0,
+      "score": 9.75,
       "featured": true,
-      "translated": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -101,6 +98,82 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "TSEM",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "題材",
+      "title": "Tower Semiconductor earnings test looms as AI demand surges",
+      "summary": "",
+      "originalTitle": "Tower Semiconductor earnings test looms as AI demand surges",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTVF1ckdrcWs5Z1Z2VUZkckdFVHpvN2VuVm0xU05kM0NFQWhVd25oS3dSNnZ0QmhxSUg1bk9Ob3F0d3RRTTYwQl90MVg3a250TE5XUzZDUTVhOS1ZM1BRQ0NIdnBPb1ZxS25xNlVreDRpSFhjWlJVd1NBXzE5UVpQQVBTeDZvc1JPcUsxRW50SURRZmFSLTNGVTBjQzNSdkh3blZOTFRfSlNUdzdfZVFZUklR?oc=5",
+      "ts": "2026-11-02T09:56:05+00:00",
+      "sourceType": "active_search",
+      "movePct": -11.409110259684974,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSEM"
+      ],
+      "eventType": "新題材",
+      "analystPriority": false,
+      "score": 29.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "分析師設定亞馬遜股價目標",
+      "summary": "The Binance Futures tokenized contract tracking Amazon.com (NASDAQ: AMZN) printed a 6.31% advance across its most recent 24-hour window, swinging from a session trough of $225.06 to a high of $242.62, with the contract quoted at $241.14 at the time of this analysis. That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift. The bounce runs directly into overhead resis",
+      "originalTitle": "Analyst sets Amazon stock price target",
+      "originalSummary": "The Binance Futures tokenized contract tracking Amazon.com (NASDAQ: AMZN) printed a 6.31% advance across its most recent 24-hour window, swinging from a session trough of $225.06 to a high of $242.62, with the contract quoted at $241.14 at the time of this analysis. That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift. The bounce runs directly into overhead resistance. The SMA 7 sits at $245.21, the EMA 12 at $246.95, and the immediate resistance level from supplied data at $247.49—a dense cluster the contract has not yet cleared. Above that, the SMA 20 ($251.39), SMA 50 ($252.59), and strong resistance at $253.83 form a second layer of supply before the SMA 200 at $255.05 caps the picture. The contract trades below every supplied moving average, a structure that places the burden of proof firmly on bulls to reclaim those levels one by one. The 14-period daily RSI of 42.71 places the contract in the neutral zone—not oversold enough to generate a mechanical mean-reversion signal, and not deep enough in bear territory to suggest capitulation. The Stochastic %K at 51.30 sits modestly above the %D at 41.04, a marginal positive crossover but one reading in unremarkable mid-range territory. The MACD picture warrants closer attention. Both the MACD line and its signal line are at -3.5461, with the histogram printing at exactly 0.0000. The histogram—derived as MACD minus signal—converging to zero means the two lines have met after a period of bearish separation. That can mark the early stage of a bullish crossover forming beneath the zero line, but it equally signals a momentary pause before the gap reopens to the downside. The supplied data describes this as bearish momentum; histogram convergence at zero is a state, not a directional confirmation. Bollinger Band positioning corroborates the near-lower-band premise. The %B of 0.1944 places the contract well below the 20-period middle band at $251.39 and closer to the lower band at $234.62. Prices in this zone carry mean-reversion potential toward the midline, but sustained closes below $234.62 would signal deteriorating structure rather than a floor. The pivot point at $236.27 sits between the current price and immediate support at $229.93; a failure there opens a route toward strong support at $218.71. Binance Futures open interest increased 3.68% over the 24-hour window to 68,502 contracts, representing a notional value of approximately $17.87 million. Rising open interest alongside a higher contract price can indicate fresh long positions entering the market, though supplied data does not confirm their time horizon or conviction. At the 09:00 UTC observation on October 31, the Binance global account long/short ratio stood at 1.7457—63.6% of accounts positioned long versus 36.4% short. The top-trader cohort on Binance was skewed further in the same direction, at 1.9949, with 66.6% long and 33.4% short. These figures describe the positional split among Binance account holders in this specific tokenized contract; they should not be extrapolated to",
+      "url": "https://blockchain.news/news/20261031-price-prediction-target-amzn-four-analyst-cuts-cant-mask-a",
+      "ts": "2026-11-02T09:55:26+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "The Binance Futures tokenized contract tracking Amazon.com (NASDAQ: AMZN) printed a 6.31% advance across its most recent 24-hour window, swinging from a session trough of $225.06 to a high of $242.62, with the contract quoted at $241.14 at the time of this analysis. That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift. The bounce runs directly into overhead resis",
+        "numbers": [
+          "$225.06",
+          "$242.62,",
+          "$241.14",
+          "$17.56"
+        ],
+        "why": "券商調整理由：That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift.",
+        "stance": "That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "券商調整理由：That $17.56 intraday range is nearly twice the ATR(14) of $8.96, meaning the session captured roughly two average daily moves in one, pointing to an outsized directional event rather than routine price drift.",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 6,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -118,7 +191,7 @@
       "relatedTickers": [],
       "eventType": "新題材",
       "score": 14.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -653,15 +726,15 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "一張圖表預覽 | AMD Q3財報將於11月3日收盤後發布！繼英特爾大幅下滑之後，一個關鍵的考驗擺在眼前──人工智慧的成長能否抵銷人們對個人電腦的擔憂？",
-      "summary": "",
+      "summary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice i",
       "originalTitle": "One-Chart Preview | AMD's Q3 earnings report will be released after the market closes on November 3! Following Intel's sharp decline, a critical test lies ahead—can AI growth offset concerns about PCs?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMnFUdV9jZGNlNGt3T2ZqalpVd2Jqb3B5Y0xheUpjaDhVWHlMRjk1MW80R291ajVBMVNzNVlLN1dQZlE4TjV6ZTZRUUd3U0lxbnlEWERVWkpfcWsyNGpvNGtsYXpuTkxScVRxenlUTHVfZlo1ZXMtUi1zUFptcWtHYlJXYlNoYU9aM3hKS1lFNi00MWNodGVvcg?oc=5",
+      "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
+      "url": "https://seekingalpha.com/article/4960152-amd-earnings-preview-the-bull-case-is-largely-priced-in",
       "ts": "2026-11-02T07:38:44+00:00",
       "sourceType": "moomoo_public",
       "analystPriority": false,
       "movePct": -28.576083414793086,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "INTC",
         "AMD"
@@ -671,16 +744,19 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -1270,7 +1346,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1616,8 +1692,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 6
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2006,7 +2082,7 @@
         "MSFT"
       ],
       "eventType": "",
-      "score": 21.75,
+      "score": 18.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2045,7 +2121,7 @@
         "SNDK"
       ],
       "eventType": "",
-      "score": 13.5,
+      "score": 11.7,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2079,7 +2155,7 @@
         "INTC"
       ],
       "eventType": "跨公司事件",
-      "score": 36.0,
+      "score": 31.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2111,7 +2187,7 @@
       ],
       "eventType": "",
       "analystPriority": false,
-      "score": 23.25,
+      "score": 20.15,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2557,86 +2633,6 @@
       ],
       "eventType": "",
       "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Morgan Stanley 調整 MSFT 目標價至 $650",
-      "summary": "",
-      "originalTitle": "Major Bank Ratings | Morgan Stanley: Raises Microsoft Price Target to $650, Citing Strong Start to First Fiscal Quarter",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOTR5TGJuU0M1alhYa1VTRUkxcVlvTG9QR3ktcnFnXzNfYVNuMFlwY2RmVGNqNDBiVTN1c19aWDNvbTc3LWhVWnNCeWd5TTMxaGNabHI1UzIwY2V3NUthVkt3eVF6MzhlR2lXLXFOZlFlV3NNWkFlellIUmNpUXdLR1UwWTVBSl9mZUJpbUpXMS1oLTVOcElwc01vMjBoN2htV25ub1EySkhDM1RBQ1E?oc=5",
-      "ts": "2026-11-02T03:29:00+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Morgan Stanley",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "$650",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "MSFT",
-          "targetCompany": "Microsoft"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 185.9,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Microsoft（MSFT）｜券商：Morgan Stanley｜動作：上修｜目標價：$650｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$650"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "AMD (AMD) 第三季財報：預期如何",
-      "summary": "",
-      "originalTitle": "AMD (AMD) Q3 earnings: what to expect",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdk9UcUtIeV9QRXFpWHZ3SFk2VXpLc2tDcGk4cXQ1SnJKc1JWNlFaNTFqYVllbzh4OVo4MnVwT09YSkhkOXA0dGQ0U1hqYmkyWTZhUVltTXRqZ2lQTHhNc0JaNVNiLVRKZmMyV184dGJ3ZExKcnM1bDBDYUVTazFkU3d3ZWk?oc=5",
-      "ts": "2026-11-02T03:20:47+00:00",
-      "sourceType": "active_search",
-      "movePct": -10.878853147840816,
-      "relatedTickers": [
-        "AMD"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 16.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
