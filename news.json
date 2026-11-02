@@ -1,11 +1,42 @@
 {
-  "updatedAt": "2026-11-02 19:39 台灣時間",
+  "updatedAt": "2026-11-02 19:43 台灣時間",
   "historyUpdatedDate": "2026-11-02",
   "historyLastAttemptAt": "2026-11-01T16:02:05.622432+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-02",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "蘋果新任CEO面臨獲利考驗 晶片成本上漲給前景蒙上陰影",
+      "summary": "",
+      "originalTitle": "Apple's new CEO faces earnings test as rising chip costs cloud outlook",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFQ1amF5YUpjT3huM2ZXVmVyRTNjTzdxeEk3VjF3UWozNk5zQk85djRzeFQ3N0hrb0IyV0t1Qkl0NnJJVUpBZ1prbDd2em9WYmhFSnVaU0NMVUxNeGhhQmM4M0hrOVM3dTJUeUcxajRJRVNPTDQwaGFHbVJrMGhuYi1oUklOTW9YRy1CdnRSXzNiR2wteWRtbzlnTV9odXp5ZUZaSTlzWk8?oc=5",
+      "ts": "2026-11-02T11:38:24+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "新題材",
+      "score": 26.25,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "APH",
       "group": "高速傳輸",
@@ -53,7 +84,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "SWKS",
@@ -101,18 +132,18 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "AEP",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "巴克萊將美國電力目標價從 120 美元調整至 132 美元",
-      "summary": "",
+      "summary": "Barclays Adjusts Price Target on American Electric Power to $132 From $120American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
       "originalTitle": "Barclays Adjusts Price Target on American Electric Power to $132 From $120",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVDZvSnlSWU1JYmZNOElPYlZYdlI0enlMcWlPcUdna193UFVxc1o3dUszazJta1g0VUJLVlN2VEdwOW5ieU9ucnJmejVrWHRLemRNb3dtVVFHaFVKTFR2dmVUdmhoOC1hTDk5ajgtZlZ5WS0wN0JTV29kUTUtVmdacGZ3RTlPZ3VoTzJtWnlUcnRXVjZCdmxOR0NydDVtUlpIQnV3Z2I4Ui11VkdHZFJVWXBMUGFMbTlsYXY2Y19ON0hibzg?oc=5",
+      "originalSummary": "Barclays Adjusts Price Target on American Electric Power to $132 From $120American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/barclays-adjusts-price-target-on-american-electric-power-to-132-from-120-ce785fd8d18af321",
       "ts": "2026-11-02T11:26:42+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -120,7 +151,7 @@
         {
           "broker": "Barclays",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "上修",
           "newTarget": "$132",
           "oldTarget": "$120",
@@ -130,7 +161,7 @@
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -139,7 +170,7 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：Barclays｜動作：上修｜目標價：$132（原 $120）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：Barclays｜動作：上修｜評等：overweight｜目標價：$132（原 $120）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$120",
           "$132"
@@ -151,17 +182,18 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AEP",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "高盛將美國電力目標價從 146 美元調整至 149 美元",
-      "summary": "",
+      "summary": "Goldman Sachs Adjusts Price Target on American Electric Power to $149 From $146American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
       "originalTitle": "Goldman Sachs Adjusts Price Target on American Electric Power to $149 From $146",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOFdtM3JmU2VONkFzZ0x1MlFWRWJWQU4tVDE4aGJCbFVWMkttNXNnb0tkYTU4WWxiMV8zLTZieXRtSmdrUEJHMGVqQzI0YmVqckZaRXRmVEtsVUFLYWRJUXQxSko3Q0Y0Wk5ESFA4YmotZDdRcFJuVmFteHlyOG5uVm1PWGtxLWRSZ0s2cVhwMk83VENPMFdnOTR5TmFENDJCTDI4YzNkLWstbDlPTmVNODJKX3haRC1CWjdoRGRfX3pTdm5KbUp6eVJB?oc=5",
+      "originalSummary": "Goldman Sachs Adjusts Price Target on American Electric Power to $149 From $146American Electric Power has an average rating of overweight and mean price target of $141.43, according to analysts polled by FactSet. ...",
+      "url": "https://www.marketscreener.com/news/goldman-sachs-adjusts-price-target-on-american-electric-power-to-149-from-146-ce785fd8d18af325",
       "ts": "2026-11-02T11:26:09+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
@@ -169,7 +201,7 @@
         {
           "broker": "Goldman Sachs",
           "analyst": "",
-          "rating": "",
+          "rating": "overweight",
           "action": "上修",
           "newTarget": "$149",
           "oldTarget": "$146",
@@ -179,7 +211,7 @@
           "targetCompany": "American Electric Power"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AEP"
       ],
@@ -188,7 +220,7 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：American Electric Power（AEP）｜券商：Goldman Sachs｜動作：上修｜目標價：$149（原 $146）｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：American Electric Power（AEP）｜券商：Goldman Sachs｜動作：上修｜評等：overweight｜目標價：$149（原 $146）｜調整原因：來源未提供具體理由",
         "numbers": [
           "$146",
           "$149"
@@ -200,7 +232,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "CBRS",
@@ -431,7 +464,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1400,6 +1433,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "SNDK",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "SNDK 261030 1670.00C (SNDK261030C1670000) 股票選擇權鏈 |行情與新聞",
+      "summary": "",
+      "originalTitle": "SNDK 261030 1670.00C (SNDK261030C1670000) Stock Options Chain | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yb0VOWFhsdGlFR0tWY0YwdjVGZ2lNM1RNUGxpNFA5QU94S0pUcTlldEI3QlNFQ3REaWtCQUFDaHdkSkttUWVHS0cyNWxvWTV6aVp4S2dsemZHWnRxUm4ydjlR?oc=5",
+      "ts": "2026-11-02T09:16:33+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -13.470170294349826,
+      "relatedTickers": [
+        "SNDK"
+      ],
+      "eventType": "",
+      "score": 13.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2020,7 +2085,7 @@
         "event": "這家科技巨頭的原型衛星於本月稍早發射，並已成功產生第一個由人工智慧驅動的回應。這項成果標誌著太空人工智慧（AI）技術探索的一個重要里程碑。回應是一首關於軌道生命的俳句，由首次在太空運行的資料中心級張量處理單元（TPU）產生。 10月1日發射的原型衛星成功為其TPU供電並創造性地產生了俳句",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。詩中寫道：以下是藍色大理石/數據在沉默的優雅中流動/星光滋養著我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
+        "stance": "10月1日發射的原型衛星成功為其TPU供電，並創造性地產生了一首關於宇宙的俳句。這首詩寫道：下面的藍色大理石/數據在沉默的優雅中流動/星光滋養我的核心。谷歌執行長 Sundar Pichai 在 X 上宣布了這一進展，稱其為 Project Suncatcher 的 hello world 里程碑。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2672,69 +2737,6 @@
       ],
       "eventType": "",
       "score": 13.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NOK",
-      "group": "光通訊／網通",
-      "tag": "利多",
-      "title": "Pareto 證券將 Kongsberg Maritime 的目標價提高至 80 挪威克朗 (77)，重申買入",
-      "summary": "",
-      "originalTitle": "Pareto Securities raises its price target for Kongsberg Maritime to NOK 80 (77), reiterates buy",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQTVpTdkZkTHg2MzJSUjFybTlVUHE4OFBneVN2S1diN25kdnJlMm5VYWlpdWd6R1RxaHZ3UlJsM2FUN1VPb01zMnA0NWhGdVRXUXMyUmwybldfdmpIMklFTjNkZ1hKbEJSbVFLMzJVYTQ5dTY0M2o1a2xDbUFsUFB1OGIxODA0ajJHMVliRWZKaVNxRkRHbklCSnlGcW50Yi1nNnVBODZGM0xzaHlTcUxXUTFDZGhSeVhJY3IwRGtxTktHX1R4bTViUjBPYkRIWWhOdERnanoxXzFRbTdtLWc?oc=5",
-      "ts": "2026-11-02T05:40:18+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NOK"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 9
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "市場尋求緩解，蘋果獲利率成為焦點",
-      "summary": "",
-      "originalTitle": "Apple Earnings Margins in Focus as Markets Seek Relief",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeHB2dHFidFFMQWNmSjhXc3ZqZXE2akY5S0Z0dW9xSm5lSWNuSzVrbk1GLTBPNGdZT1htbGl4Y1VSQ2hHUUQ5dlZ0aElIbEFYLXRxU3NscVh6NmZReDVKT1RUZXZqaHJEMVN1Q294Y1JVRU1EMjc5R1JxT2JYOEd0a3JENmR4LTJzMkZMckwzaw?oc=5",
-      "ts": "2026-11-02T05:38:24+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 16.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -5365,7 +5367,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "SpaceX 供應商意法半導體預測人工智慧和衛星將帶來強勁銷售",
-      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
       "originalTitle": "SpaceX Supplier STMicroelectronics Forecasts Strong Sales on AI, Satellite Boost",
       "originalSummary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand. It expects sales of about $4.15 billion this quarter compared with $3.33 billion a year earlier, above a Visible Alpha forecast of nearly $4.12 billion. Its annual sales projection is also above a Visible Alpha forecast of $14.41 billion. Chief Executive Jean-Marc Chery singled out data centers and satellites as key drivers for growth this year. Like other chip makers, STMicroelectronics is reaping the benefits of hundreds of billions of dollars in spending commitments from some of the world&#039;s largest tech groups to build out AI infrastructure. STMicroelectronics stock has nearly doubled in value since the year began, riding a wave of investor fervor around AI that lifted global semiconductor stocks. In a sign of how fast demand for chips to power energy-intensive data centers is building up, STMicroelectronics in July projected revenue from data centers above $1 billion in 2026 and well above $2 billion in 2027 compared with prior guidance of about $1 billion and roughly $2 billion, respectively. That marked the second time the company raised its AI forecasts this year. Alongside data centers, space also provides a key revenue stream for STMicroelectronics and other chip makers that supply semiconductors for low-Earth-orbit satellite constellations. The company expects well above $3 billion in revenue between 2026 and 2028 for the supply of equipment to be used in space, a forecast that for now excludes potential benefits from orbital data centers. Low Earth-orbit satellite networks are closer to Earth than traditional constellations, making them ideal to beam low-latency broadband directly to smartphones in parts of the world where cell towers are unavailable. SpaceX&#039;s Starlink provides direct-to-device connectivity to users in several countries, including Ukraine, where damage to terrestrial networks because of the war is common. STMicroelectronics had long relied on the automotive industry to generate a significant portion of its sales. Data centers and satellites have allowed the group to diversify its revenue streams and become less tied to carmakers. The auto industry in recent years had slowly been digesting chip inventories it built at the height of the pandemic, weighing on demand for new orders in a blow to STMicroelectronics. Sales for the quarter that closed Sept. 26 grew nearly 18% on year to $3.76 billion, above company guidance of about $3.70 billion and an analysts&#039; forecast of $3.73 billion, according to V",
       "url": "https://www.marketscreener.com/news/spacex-supplier-stmicroelectronics-forecasts-strong-sales-growth-on-ai-satellite-boost-updates-ce785cd3dc8cf325",
@@ -5384,7 +5386,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "numbers": [
           "$14.5 billion",
           "$4.15 billion",
@@ -5392,7 +5394,7 @@
           "$4.12 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -7620,7 +7622,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -7638,10 +7640,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -7654,7 +7656,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -7671,10 +7673,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -8152,7 +8154,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "駭客利用思科 SD-WAN 缺陷植入惡意軟體來竊取加密金鑰",
-      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
       "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
       "originalSummary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. CVE-2026-20127 is a max-severity flaw that Cisco patched in February 2026, which allows remote attackers to gain privileged access to Catalyst SD-WAN Controller and Manager and add rogue peers. UAT-8616 has exploited the vulnerability as a zero-day since at least 2023 , and recent research also linked its exploitation to the Chinese Volt Typhoon state-sponsored hacking group.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
@@ -8168,10 +8170,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -9523,7 +9525,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Symbotic 的沃爾瑪成長讓機器人新創公司了解了哪些重要客戶",
-      "summary": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
+      "summary": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時圍繞客戶集中度、合約限制以及建立多元化、可重複業務的挑戰帶來風險。",
       "originalTitle": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
       "originalSummary": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business.",
       "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
@@ -9540,10 +9542,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
+        "event": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時圍繞客戶集中度、合約限制以及建立多元化、可重複業務的挑戰帶來風險。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時在客戶集中度、合約限制以及建立多元化、可重複業務的挑戰方面帶來風險。",
+        "stance": "Symbotic 與沃爾瑪的合作展示了主力客戶如何為機器人新創公司的規模提供資金，同時圍繞客戶集中度、合約限制以及建立多元化、可重複業務的挑戰帶來風險。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -11057,7 +11059,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "亞馬遜執行長 Jassy 表示，到 2027 年，亞馬遜雲端容量將基本上售罄",
-      "summary": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已在 2027 年為主要客戶承諾提供了大部分運算能力，其中一些承諾將延長至 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。 Jassy 澄清說，這些承諾主要涉及大量運算能力的分配，而不是所有 AWS 服務。",
+      "summary": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已為 2027 年的主要客戶承諾預訂了大部分運算能力，其中一些承諾延續到 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。 Jassy 澄清說，這些承諾主要涉及大量運算能力的分配，而不是所有 AWS 服務。",
       "originalTitle": "Amazon cloud capacity largely sold out through 2027, CEO Jassy says",
       "originalSummary": "AWS has largely booked its computing capacity for major customer commitments in 2027, with some commitments extending into 2028, according to Amazon CEO Andy Jassy. Speaking on the a16z Show podcast on October 23, Jassy said AWS was struggling to meet demand from AI developers and enterprise customers despite Amazon’s plans to spend approximately $220 billion on capital expenditure in 2026. “2027 is largely sold out,” Jassy said, adding that “a good chunk of 2028 is sold out.” The company’s capacity for 2026 has also been fully committed, excluding resources reserved for on-demand services. Jassy clarified that the commitments primarily concern large allocations of computing capacity rather than all AWS services. The company continues to reserve resources for on-demand workloads through Amazon Elastic Compute Cloud (EC2) and its managed generative AI service, Amazon Bedrock. Amazon has not disclosed the exact amount of computing capacity committed for 2027 and 2028 or how much remains available for on-demand customers. Jassy identified data centre availability, electricity, and memory supply as constraints on AWS’s ability to expand computing capacity. He said shortages affecting different infrastructure components would continue beyond 2027. Memory shortages are also affecting how AWS allocates resources between AI and conventional cloud workloads. AI accelerators use high-bandwidth memory (HBM), while conventional servers typically rely on other forms of dynamic random-access memory (DRAM). Jassy said AWS faces allocation decisions as demand for both AI and non-AI computing services increases. During Amazon’s second-quarter 2026 earnings call, Jassy said data centre spending typically begins about two years before servers can be put into service. Servers and networking equipment are generally purchased only a few months before they are needed. This allows AWS to reduce equipment purchases if customer demand falls short of expectations. Its data centre infrastructure, meanwhile, is designed to remain operational for more than 30 years.",
       "url": "https://www.cloudcomputing-news.net/news/aws-capacity-ai-demand-2028/",
@@ -11073,13 +11075,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已在 2027 年為主要客戶承諾提供了大部分運算能力，其中一些承諾將延長至 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。 Jassy 澄清說，這些承諾主要涉及大量運算能力的分配，而不是所有 AWS 服務。",
+        "event": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已為 2027 年的主要客戶承諾預訂了大部分運算能力，其中一些承諾延續到 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。 Jassy 澄清說，這些承諾主要涉及大量運算能力的分配，而不是所有 AWS 服務。",
         "numbers": [
           "$220 billion",
           "220 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已在 2027 年為主要客戶承諾提供了大部分運算能力，其中一些承諾將延長至 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。",
+        "stance": "亞馬遜執行長安迪賈西 (Andy Jassy) 表示，AWS 已為 2027 年的主要客戶承諾預訂了大部分運算能力，其中一些承諾延續到 2028 年。 Jassy 在 10 月 23 日的 a16z Show 播客中表示，儘管亞馬遜計劃在 2026 年花費約 2,200 億美元的資本支出，但 AWS 仍難以滿足人工智慧開發人員和企業客戶的需求。 「2027 年大部分都已售罄，」Jassy 表示，並補充說「2028 年很大一部分已售罄。」該公司2026年的產能也已全部投入，不包括為按需服務預留的資源。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -13191,7 +13193,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Tower Semiconductor 的 1.2B 美元利潤路線圖在第三季收益中面臨迄今為止最大的考驗",
-      "summary": "在矽光子年運行率達到 6.8 億美元（高於一年前的 1.8 億美元）後，Tower 將 2028 年利潤目標提高至 1.2B 美元。 Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是在 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。 Tower 的 2026 年共識每股盈餘約為 47 倍，營收與一小部分超大規模企業相關，進入第三季時，Tower 幾乎沒有犯錯的餘地。剛剛發布。",
+      "summary": "在矽光子年運行率達到 6.8 億美元（高於一年前的 1.8 億美元）後，Tower 將 2028 年利潤目標提高至 1.2B 美元。 Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。 Tower 的 2026 年共識每股盈餘約為 47 倍，營收與一小部分超大規模企業相關，進入第三季時，Tower 幾乎沒有犯錯的餘地。剛剛發布。",
       "originalTitle": "Tower Semiconductor’s $1.2B Profit Roadmap Faces Its Biggest Test Yet in Q3 Earnings",
       "originalSummary": "Tower raised its 2028 profit target to $1.2B after silicon photonics hit a $680M annual run rate, up from $180M a year earlier. Tower's SiGe capacity deal with Semtech and the Arai facility in Japan, targeting Q4 2027 production readiness, are key milestones for the expansion plan. At roughly 47x 2026 consensus EPS with revenue tied to a small group of hyperscalers, Tower carries little margin for error heading into Q3. Just released. Our analysts combed the entire stock market and named the ten best stocks to buy right now, and Tower Semiconductor didn't make the cut. Enter your email to see the names that beat TSEM. The report is free. Enter your email and see if any of your stocks made the cut. Tower Semiconductor ( NASDAQ:TSEM ) reports third-quarter results before the market opens on November 2. Shares are down 21.25% over the past month. The report should reveal whether the silicon photonics expansion behind the company's 2028 profit target is on schedule.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tower-semiconductor-1-2b-profit-133118199.html",
@@ -13208,7 +13210,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "在矽光子年運行率達到 6.8 億美元（高於一年前的 1.8 億美元）後，Tower 將 2028 年利潤目標提高至 1.2B 美元。 Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是在 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。 Tower 的 2026 年共識每股盈餘約為 47 倍，營收與一小部分超大規模企業相關，進入第三季時，Tower 幾乎沒有犯錯的餘地。剛剛發布。",
+        "event": "在矽光子年運行率達到 6.8 億美元（高於一年前的 1.8 億美元）後，Tower 將 2028 年利潤目標提高至 1.2B 美元。 Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。 Tower 的 2026 年共識每股盈餘約為 47 倍，營收與一小部分超大規模企業相關，進入第三季時，Tower 幾乎沒有犯錯的餘地。剛剛發布。",
         "numbers": [
           "$1.2B",
           "$680M",
@@ -13216,7 +13218,7 @@
           "21.25%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是在 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。",
+        "stance": "Tower 與 Semtech 的 SiGe 產能協議以及日本 Arai 工廠的目標是 2027 年第四季做好生產準備，這是擴張計畫的關鍵里程碑。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -15181,7 +15183,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "天弘 (CLS) 第三季 EPS 達 31c，提供指引",
-      "summary": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+      "summary": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
       "originalTitle": "Celestica (CLS) Tops Q3 EPS by 31c, Offers Guidance",
       "originalSummary": "Celestica entered this Q3 2026 print with a strong reputation in electronics manufacturing and a stock that has cooled sharply, falling about 8% over the past week and roughly 25% over the past month into last night's close at CA$388.33. The headline is simple: Q3 was about sheer earnings power, with basic earnings per share at US$3.30 on revenue of US$5.83b, keeping the profit engine running hard even as sentiment softened.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-stock-cools-044801576.html",
@@ -15197,7 +15199,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "event": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "numbers": [
           "$388.33.",
           "$3.30",
@@ -15205,7 +15207,7 @@
           "8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "stance": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -19205,7 +19207,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "信條：重置已完成（評級升級）（納斯達克股票代碼：CRDO）",
-      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的看漲期權或類似衍生品來建立有益的多頭頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Credo: The Reset Is Done (Rating Upgrade) (NASDAQ:CRDO)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in CRDO over the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957051-credo-the-reset-is-done-rating-upgrade",
@@ -19222,14 +19224,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的看漲期權或類似衍生品來建立有益的多頭頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的看漲期權或類似衍生品來建立有益的多頭頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的看漲期權或類似衍生品來建立有益的多頭頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的看漲期權或類似衍生品來建立有益的多頭頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -21759,7 +21761,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Lam Research 在謹慎指引和中國收入下降的情況下下跌 12% (LRCX:NASDAQ)",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
       "originalTitle": "Lam Research retreats 12% amid cautious guidance, China revenue drop (LRCX:NASDAQ)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Shares of Lam Research ( LRCX ), a global supplier of wafer-fabrication equipment and services, dropped almost 12% on Thursday following the company's quarterly earnings release. Management commentary flagged near-term supply constraints and a projected decline in China's revenue contribution for the coming quarter.",
       "url": "https://seekingalpha.com/news/4656207-lam-research-retreats-12-amid-cautious-guidance-china-revenue-drop",
@@ -21775,12 +21777,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "numbers": [
           "12%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受限，預計中國下一季的營收貢獻將下降。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -26578,7 +26580,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "儘管納斯達克股市上漲，但 Alphabet 仍下跌 2%，皮查伊稱谷歌雲正​​在放棄收入以換取人工智慧能力；亞馬遜下跌，微軟保持穩定",
-      "summary": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+      "summary": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
       "originalTitle": "Alphabet Slips 2% Despite NASDAQ Rally as Pichai Says Google Cloud Is Giving Up Revenue for AI Capacity; Amazon Dips, Microsoft Holds Steady",
       "originalSummary": "Sundar Pichai just confirmed Google Cloud is turning away customers, and he called the reason behind it non-negotiable. The admission sent Alphabet sliding while the rest of big tech climbed, leaving investors to guess how much revenue Google is actually walking away from.",
       "url": "https://247wallst.com/investing/2026/10/21/alphabet-slips-2-despite-nasdaq-rally-as-pichai-says-google-cloud-is-giving-up-revenue-for-ai-capacity-amazon-dips-microsoft-holds-steady/",
@@ -26596,12 +26598,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+        "event": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
         "numbers": [
           "2%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實，谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
+        "stance": "桑達爾·皮查伊 (Sundar Pichai) 剛剛證實谷歌雲正在拒絕客戶，他稱其背後的原因是不容協商的。這項承認導致 Alphabet 下滑，而其他大型科技公司則上漲，讓投資者猜測谷歌實際上會損失多少收入。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -27045,7 +27047,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Unusual Machines 完成升級能源交易，完成美國製造的無人機動力系統",
-      "summary": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
+      "summary": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
       "originalTitle": "Unusual Machines Closes Upgrade Energy Deal, Completing US-Made Drone Powertrain",
       "originalSummary": "Adds high-performance battery and power systems to Unusual Machines' portfolio of critical drone components ORLANDO, FL / ACCESS Newswire / October 19, 2026 / Unusual Machines, Inc. (NYSE American:UMAC), a leading manufacturer of NDAA-compliant drone components, today announced the completion of its acquisition of DroneNX LLC, operating as Upgrade Energy, a U.S. manufacturer of high-performance drone batteries and power systems.",
       "url": "https://finance.yahoo.com/technology/articles/unusual-machines-completes-acquisition-upgrade-200100661.html",
@@ -27061,15 +27063,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
+        "event": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
         "numbers": [],
-        "why": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
-        "stance": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
+        "why": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
+        "stance": "為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成最終無人機公司 LLC 的企業級，後者是新電源系統製造企業。",
+        "takeaway": "券商調整理由：為 Unusual Machines 的關鍵無人機組件產品組合增添高性能電池和電源系統佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 佛羅裡達州奧蘭多 / ACCESS Newswire / 2026 年 10 月 19 日 / 符合 NDAA 的無人機組件領先製造商 Unusual Machines, Inc.（紐約證券交易所股票代碼：UMAC）今天宣布完成終端製作。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
