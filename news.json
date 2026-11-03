@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 15:42 台灣時間",
+  "updatedAt": "2026-11-03 16:05 台灣時間",
   "historyUpdatedDate": "2026-11-03",
   "historyLastAttemptAt": "2026-11-02T16:00:04.066175+00:00",
   "historyItemCount": 800,
@@ -11,31 +11,38 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Google’s Suncatcher Satellite Runs Gemma 4 in Orbit and Sends Back a Haiku",
-      "summary": "",
+      "summary": "Google’s prototype data centre satellite has run an AI model in orbit and sent its answer back to Earth. The onboard Gemma 4 model wrote a haiku about being in space, Travis Beals, a senior director at Google, wrote in a blog post on Friday. The satellite launched on 1 October for Project Suncatcher, Google’s research effort to run AI computing in space. Google called the haiku the first AI response from a data centr",
       "originalTitle": "Google’s Suncatcher Satellite Runs Gemma 4 in Orbit and Sends Back a Haiku",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWFUc2M2bTNkTEdLYlBlVDNhX21RTjY4R2sxQnpZZEpHZE1ZRFdoZ3dVSG1LcHotcEZEYWpWNUxpbmFlRUhXeHhKQ3ZVVEdGUnJvMDUyMjM5eFhmLUQ5ZTlwSXMwTlRGRjJWckVnU1NnME1Pb19PNWxEY1NrUHBSTk1oLUhqZjRycHNfWQ?oc=5",
+      "originalSummary": "Google’s prototype data centre satellite has run an AI model in orbit and sent its answer back to Earth. The onboard Gemma 4 model wrote a haiku about being in space, Travis Beals, a senior director at Google, wrote in a blog post on Friday. The satellite launched on 1 October for Project Suncatcher, Google’s research effort to run AI computing in space. Google called the haiku the first AI response from a data centre class TPU, its own AI chip, in orbit. “Blue marble below / Data streams in silent grace / Starlight feeds my core.” Gemma 4, on the Suncatcher satellite, as published by Google Google sent the prompt during a pass over a ground station. The poem came back as the satellite flew over Svalbard, Norway. The team then tried space-themed limericks and prompts asking the satellite to report on its own systems. The prompt asked for a haiku written as a TPU orbiting Earth, Thomas Claburn reported for The Register . The satellite holds four TPUs and generates up to 1 kilowatt of power, Tim Fernholz reported for TechCrunch . Because of that power limit, it can run only one TPU at a time, for about 20 minutes. Testing its systems took about three weeks, and a Google spokesperson told TechCrunch the satellite was working normally. Omar Sanseviero, who works on Gemma at Google DeepMind, wrote on X that the model ran on stored solar energy. Google will now test how the TPUs cope with heat and radiation in orbit. Radiation can flip bits in a chip’s memory and corrupt data without warning. Google’s tests on the ground suggested this matters less for running models than for training them, according to TechCrunch. If the chips hold up, Google plans to launch two linked satellites in 2027. They will make more power and test laser links between satellites, TechCrunch reported. Google announced the launch in September. Startups also plan data centres in orbit, and Starcloud raised $250M in August. SpaceX has told investors its own orbital data centres may never work. Google’s plans also depend on SpaceX making its Starship rocket fully reusable, TechCrunch reported.",
+      "url": "https://thenextweb.com/news/google-suncatcher-satellite-first-ai-response-gemma-haiku",
       "ts": "2026-11-03T07:00:00+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
-        "GOOGL"
+        "GOOGL",
+        "SPCX"
       ],
-      "eventType": "",
-      "score": 18.0,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Google’s prototype data centre satellite has run an AI model in orbit and sent its answer back to Earth. The onboard Gemma 4 model wrote a haiku about being in space, Travis Beals, a senior director at Google, wrote in a blog post on Friday. The satellite launched on 1 October for Project Suncatcher, Google’s research effort to run AI computing in space. Google called the haiku the first AI response from a data centr",
+        "numbers": [
+          "$250M"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Google’s prototype data centre satellite has run an AI model in orbit and sent its answer back to Earth. The onboard Gemma 4 model wrote a haiku about being in space, Travis Beals, a senior director at Google, wrote in a blog post on Friday.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -74,7 +81,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -856,7 +863,7 @@
         "LITE"
       ],
       "eventType": "",
-      "score": 198.0,
+      "score": 171.6,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -1274,6 +1281,43 @@
         "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"3bdc53e4dacb3d8593a0d7aa75d225face7e2fd5\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><link rel=\"preload\" as=\"image\" imageSrcSet=\"https://pbs.twimg.com/media/HWKQKWAaMAAk7aB?format=webp&amp;name=small 680w, https://pbs.twimg.com/media/HWKQKWAaMAAk7aB?format=webp&amp;name=medium 1200w, https://pbs.twimg.com/media/HWKQKWAaMAAk7aB?format=webp&amp;name=large 2048w\" imageSizes=\"(",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "米Googleが宇宙からのAI応答に成功、AI企業が宇宙AIデータセンターを目指すわけ",
+      "summary": "",
+      "originalTitle": "米Googleが宇宙からのAI応答に成功、AI企業が宇宙AIデータセンターを目指すわけ",
+      "originalSummary": "Google Researchは2026年10月30日、軌道上の試作衛星に搭載したデータセンター級プロセッサ「Tensor Processing Unit（TPU）」から、初の人工知能（AI）応答を受信したと発表した。この実験は、宇宙空間における機械学習インフラストラクチャの構築を目指す長期的ムーンショット構想「Project Suncatcher」の一環として実施された。 本プロジェクトのプロトタイプ衛星は、衛星画像大手のPlanet Labsと共同で開発された。 2026年10月1日にSpaceXのロケット「Falcon 9」を用いたライドシェアミッション「Transporter-18」によって打ち上げられ、地球低軌道（LEO）への投入に成功した。小型冷蔵庫ほどのサイズをもつこの衛星は、約1キロワットの太陽光発電能力を有し、内部にはGoogleが独自開発したTPUを4基搭載している。 打ち上げ後の初期システム検証を経て実施された今回の実験では、衛星がノルウェーのスバールバル付近を通過した際、地上からAIモデルに対するプロンプト（指示）がアップリンクされた。 衛星上のTPUが起動し、事前に搭載されていたオープンAIモデル「Gemma 4」が推論処理を実行した。指示内容は「宇宙にいることについての俳句」の作成であり、AIが生成したテキストデータは地上局を経由して無事に地球へとダウンリンクされた。 Googleはこれを「Hello World」マイルストーンと位置づけ、データセンター級TPUによる軌道上での世界初のAI応答事例としている。この実証実験は、計算自体は小規模なワークロードであるものの、地上からのコマンド送信、宇宙でのオンデマンド推論、そして応答の回収という一連のサイクルが実際の軌道環境下で正常に機能することを証明した。 しかし、この試作衛星における詳細なレイテンシや消費電力データについて公式は発表していない。なぜ今Googleが宇宙空間にデータセンターを建設しようとしているのだろうか？",
+      "url": "https://news.yahoo.co.jp/articles/6ac939f3b853508135dc5362148332640da5d676",
+      "ts": "2026-11-02T23:53:00+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "cross_event_article",
+      "relatedTickers": [
+        "GOOGL",
+        "PL",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 29.9,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "Google Researchは2026年10月30日、軌道上の試作衛星に搭載したデータセンター級プロセッサ「Tensor Processing Unit（TPU）」から、初の人工知能（AI）応答を受信したと発表した。この実験は、宇宙空間における機械学習インフラストラクチャの構築を目指す長期的ムーンショット構想「Project Suncatcher」の一環として実施された。 打ち上げ後の初期システム検証を経て実施された今回の実験では、衛星がノルウェーのスバールバル付近を通過した際、地上からAIモデルに対するプロンプト（指示）がアップリンクされた。 衛星上のTPUが起動し、事前に搭載されていたオープンAIモデル「Gemma 4」が推論処理を実行した。指示内容は「宇宙にいることについての俳句」の作成であり、AIが生成したテキストデータは地上局を経由して無事に地球へとダウンリンクされた。 Googleはこれを「Hello World」マイルストーンと位置づけ、データセンター級TPUによる軌道上での世界初のAI応答事例としている。この実証実験は、計算自体は小規模なワークロードであるものの、地上からのコマンド送信、宇宙でのオンデマンド",
+        "numbers": [],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "Google Researchは2026年10月30日、軌道上の試作衛星に搭載したデータセンター級プロセッサ「Tensor Processing Unit（TPU）」から、初の人工知能（AI）応答を受信したと発表した。この実験は、宇宙空間における機械学習インフラストラクチャの構築を目指す長期的ムーンショット構想「Project Suncatcher」の一環として実施された。 本プロジェクトのプロトタイプ衛星は、衛星画像大手のPlanet Labsと共同で開発された。",
+        "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
@@ -2596,36 +2640,6 @@
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpMTBmNE4zMjRjRWdvcmNRRGVHeFBNUVZzVFhRTmFYb2psc29rUkk0THh5S2w5X3RsVHFleFNEVG02TWpXVS1zSVNyXzRreFhQRV85eWxTZ25MSFp1elFDaThLdEk5X1BQWm44c3Fsc3pCQWs?oc=5",
       "ts": "2026-11-02T21:46:23+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊工業平均指數 (^DJI) 圖表、數據和新聞",
-      "summary": "",
-      "originalTitle": "Dow Jones Industrial Average (^DJI) Charts, Data & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1RVEdEWGZnSFk3ck1majNUcDJLaW5zY01kQWM1QzYySkNYSC1iV0FTbW00UkhKTGlidFJrSlhlaUx0ZU96MzhCWWhLZnp2OENqWUt0Tw?oc=5",
-      "ts": "2026-11-02T21:45:29+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
