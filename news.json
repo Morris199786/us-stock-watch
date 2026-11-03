@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04 05:08 台灣時間",
+  "updatedAt": "2026-11-04 05:22 台灣時間",
   "historyUpdatedDate": "2026-11-04",
   "historyLastAttemptAt": "2026-11-03T16:02:38.524933+00:00",
   "historyItemCount": 800,
@@ -7,8 +7,8 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "AMZN",
-      "group": "CSP",
+      "ticker": "LRCX",
+      "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Tesla, Amazon, and SpaceX among companies snubbing tokenized stocks",
       "summary": "Scott Melker discusses how Tesla (TSLA), Amazon (AMZN), SpaceX (SPCX), Netflix (NFLX), Lam Research (LRCX) and SoFi (SOFI) have opted out of a tokenized-stock offering, and why Nasdaq (^IXIC) sees tokenization as competition. \"The Daily Wolf with Scott Melker\" airs every day at 12:00 p.m. Tune in for your daily dose of all things crypto.Make sure to also check out Yahoo Finance's new crypto hub to find the latest cry",
@@ -18,11 +18,11 @@
       "ts": "2026-11-03T21:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.0600089565606883,
+      "movePct": 1.3886447530321755,
       "relatedTickers": [
-        "AMZN",
-        "SPCX",
         "LRCX",
+        "SPCX",
+        "AMZN",
         "TSLA"
       ],
       "eventType": "跨公司事件",
@@ -38,6 +38,46 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MRVL",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Fabrinet Lost 32% in a Month. Barclays Sees 58% Upside From Here",
+      "summary": "Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hyperscaler spending. Fabrinet had no news of its own during the sell-off.",
+      "originalTitle": "Fabrinet Lost 32% in a Month. Barclays Sees 58% Upside From Here",
+      "originalSummary": "Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hyperscaler spending. Fabrinet had no news of its own during the sell-off.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-lost-32-month-barclays-205746597.html",
+      "ts": "2026-11-03T20:57:46+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.3267020593897607,
+      "relatedTickers": [
+        "MRVL",
+        "LITE",
+        "COHR",
+        "FN"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hyperscaler spending. Fabrinet had no news of its own during the sell-off.",
+        "numbers": [
+          "32%",
+          "58%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Key TakeawaysFabrinet shares fell 32% in the past month as AI optics stocks, including Coherent, Lumentum and Marvell, sold off on fears about AI funding and hyperscaler spending. Fabrinet had no news of its own during the sell-off.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -200,6 +240,36 @@
       "top10": true,
       "top10Rank": 3,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Apple warned that AI agents could act in ways it didn't authorize",
+      "summary": "",
+      "originalTitle": "Apple warned that AI agents could act in ways it didn't authorize",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55bkZIZUpOV3hzZlQwTUtUSkxTaFptU2l3eExla0tVMnp3dnB2MF9qRkdqYWtBbkVRdklyQnZfcG9NcWV0X2FsRE9aaVgtLURteV9acVVTUDlBc2xveUR5c2k5NDUyczBLdkZrOUJJR1dGMk8wM1NBYg?oc=5",
+      "ts": "2026-11-03T20:37:36+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -492,7 +562,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -586,7 +656,7 @@
       "ts": "2026-11-03T20:14:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.2800303366197854,
+      "movePct": 0.3267020593897607,
       "relatedTickers": [
         "MRVL",
         "LITE"
@@ -632,7 +702,7 @@
       ],
       "eventType": "",
       "score": 211.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -645,6 +715,38 @@
       },
       "top10": true,
       "top10Rank": 4
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Amazon Is Maintained at Buy by Freedom Broker",
+      "summary": "",
+      "originalTitle": "Amazon Is Maintained at Buy by Freedom Broker",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWE5fVUtWUGM5QVJRYnBqOTRyNG5Odks1eXNoWVZFbWdnV05KckRLMWRfNlVIa1FJbkRWV2VaUkFRN2RMUW82dVdWY280ajV0STdYb0RCZHVmZUpNS0R4ZXJ0dFdQTG9qVWtqSHRKdGc5NWtkOXdMQ05qOTZUNnUzd1FpOW9XaHZvcUE5aFY4VHlERHc?oc=5",
+      "ts": "2026-11-03T20:13:43+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "SMCI",
@@ -886,8 +988,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 7
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "META",
@@ -1251,6 +1353,38 @@
         ],
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Microsoft’s AI Engine Is Becoming Even More Powerful (NASDAQ:MSFT)",
+      "summary": "",
+      "originalTitle": "Microsoft’s AI Engine Is Becoming Even More Powerful (NASDAQ:MSFT)",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcW8yclFmcV9EUWZFTGFtQTJJdzNFcE9wb1dIZndGTngzUjNwUGpEcnRaWENyR0JlQmRDa2xPY0JES2pXM1BocVl1T05oTWxCcjJKd3NrVWpUOTBHWnpwZF94UjRDOGE3QWJHc1E5OHNraFJ3eWFDY1o2ZGJGajhWSHY0endSYklFTEhURE5EWVI1ZW9YR1E?oc=5",
+      "ts": "2026-11-03T19:41:12+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -1831,7 +1965,7 @@
       "ts": "2026-11-03T19:13:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.350798099183616,
+      "movePct": 3.4970147435116505,
       "relatedTickers": [
         "ANET"
       ],
@@ -2050,7 +2184,7 @@
       "ts": "2026-11-03T18:59:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.2800303366197854,
+      "movePct": 0.3267020593897607,
       "relatedTickers": [
         "MRVL",
         "LITE"
@@ -2537,8 +2671,8 @@
       "top10Rank": 5
     },
     {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "甲骨文 (ORCL)：前 10 名最便宜的人工智慧股票交易價格僅 11 倍遠期收益",
       "summary": "",
@@ -2548,13 +2682,13 @@
       "ts": "2026-11-03T18:39:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.967150241787551,
+      "movePct": 5.863110216406642,
       "relatedTickers": [
-        "INTC",
-        "ORCL"
+        "ORCL",
+        "INTC"
       ],
       "eventType": "",
-      "score": 21.0,
+      "score": 25.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2585,7 +2719,7 @@
       "ts": "2026-11-03T18:38:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 0.2800303366197854,
+      "movePct": 0.3267020593897607,
       "analystDetails": [
         {
           "broker": "Bank of America",
@@ -2751,145 +2885,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "蘋果獲利分析：問題解答與下一步催化劑",
-      "summary": "",
-      "originalTitle": "Apple earnings analysis: questions answered and next catalysts",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcV9tdVhYV2F3bWhqMUZadW1iTEFCZXRpS2hVQ3UzQi05MW45RzZoNDdQTTNsWG9jTU9VVGNELXJBb21JNl9jbU1Bd0NpNzZOM3Z4Njh5cnB5cWhTZGZxSTV5Mkc0Yk5KRDI5RVFWVlFqNjlIc0tXX3Jsa0xIcUFZTmNDV0VJcXRBbnJsV2JOaEMyVkotQTBVcE1OQ19JZzNkTnRneUk5Ull3OE0?oc=5",
-      "ts": "2026-11-03T18:24:18+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 18.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ON",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "安森美半導體獲利分析：問題解答與下一步催化劑",
-      "summary": "",
-      "originalTitle": "ON Semiconductor earnings analysis: questions answered and next catalysts",
-      "originalSummary": "Investing.com -- ON Semiconductor (ON) beat on both lines in Q3 FY2026 (reported Nov 2, 2026), yet the stock fell 2.18% to $70.11 and slipped further after hours. It is now rebounding: $72.92, +4.01% as of Nov 3, 12:49 PM EST. The pattern is familiar. The company has beaten EPS four quarters running, with surprises of 3–5%. The price reaction has been muted or negative in three of those four.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-earnings-analysis-questions-answered-182400990.html",
-      "ts": "2026-11-03T18:24:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 3.55156183140779,
-      "relatedTickers": [
-        "ON"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Investing.com -- ON Semiconductor (ON) beat on both lines in Q3 FY2026 (reported Nov 2, 2026), yet the stock fell 2.18% to $70.11 and slipped further after hours. It is now rebounding: $72.92, +4.01% as of Nov 3, 12:49 PM EST. The pattern is familiar. The company has beaten EPS four quarters running, with surprises of 3–5%.",
-        "numbers": [
-          "$70.11",
-          "$72.92,",
-          "2.18%",
-          "4.01%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Investing.com -- ON Semiconductor (ON) beat on both lines in Q3 FY2026 (reported Nov 2, 2026), yet the stock fell 2.18% to $70.11 and slipped further after hours. It is now rebounding: $72.92, +4.01% as of Nov 3, 12:49 PM EST.",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "三星獲得 AMD、Nvidia 德克薩斯州新晶片工廠訂單",
-      "summary": "",
-      "originalTitle": "Samsung Secures AMD, Nvidia Orders for New Texas Chip Plant",
-      "originalSummary": "Samsung Electronics ( SSNLF , Financials ) will manufacture advanced memory-chip parts for AMD and Nvidia at its second semiconductor plant in Taylor, Texas, a South Korean newspaper, Maeil Business Newspaper, said . Warning! GuruFocus has detected 4 Warning Signs with SSNLF. Is SSNLF fairly valued? Test your thesis with our free DCF calculator.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/samsung-secures-amd-nvidia-orders-182115321.html",
-      "ts": "2026-11-03T18:21:15+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 4.31625396281381,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 33.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Samsung Electronics ( SSNLF , Financials ) will manufacture advanced memory-chip parts for AMD and Nvidia at its second semiconductor plant in Taylor, Texas, a South Korean newspaper, Maeil Business Newspaper, said . Warning! GuruFocus has detected 4 Warning Signs with SSNLF. Is SSNLF fairly valued?",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Samsung Electronics ( SSNLF , Financials ) will manufacture advanced memory-chip parts for AMD and Nvidia at its second semiconductor plant in Taylor, Texas, a South Korean newspaper, Maeil Business Newspaper, said .",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVTS",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "Navitas 的股價較最高價下跌了 73%。週二的報告必須將「權力牆」納入收入",
-      "summary": "",
-      "originalTitle": "Navitas Is 73% Off Its High. Tuesday’s Report Has to Put the “Power Wall” in Revenue",
-      "originalSummary": "Key TakeawaysNavitas reports third-quarter results on Nov. 3, with its stock up 12% in 2026 but still 73% below its June high.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/navitas-73-off-high-tuesday-181559187.html",
-      "ts": "2026-11-03T18:15:59+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 7.944514501891553,
-      "relatedTickers": [
-        "NVTS"
-      ],
-      "eventType": "",
-      "score": 9.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
