@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-11-04 20:06 台灣時間",
+  "updatedAt": "2026-11-04 20:11 台灣時間",
   "historyUpdatedDate": "2026-11-04",
   "historyLastAttemptAt": "2026-11-03T16:02:38.524933+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-04",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "ALAB",
+      "group": "高速傳輸",
+      "tag": "題材",
+      "title": "Needham 因人工智慧產業估值而下調 Astera Labs 股價目標",
+      "summary": "",
+      "originalTitle": "Needham cuts Astera Labs stock price target on AI sector valuation",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTEtHNnloLUYwRTlRYnBlVXNpZm92WTVHQ0JURXNQbTNiZmJPX1laLTRvMnVNV050ZGRNUHhCSGRtZk1SQkU3WS1rU3RHX2hfejRyNU41R2dZdlNiY0FpbUVpa1VsUFhSWU8wNlRZNUNnOWkwQzZodTF1RnNmLXFvZWR3alE5cEdOZVc2VGpoblZBdUpNOFk4MWRmWlpRLVhpb3Q2UjNMVHAwV3l4V0lqV1oyUmhqTWZuRmt0NXRuMndrY2ZfclE?oc=5",
+      "ts": "2026-11-04T12:04:19+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Needham",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "人工智慧產業估值",
+          "reasonConfidence": "high",
+          "targetTicker": "ALAB",
+          "targetCompany": "Astera Labs"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "ALAB"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Astera Labs（ALAB）｜券商：Needham｜動作：下修｜調整原因：人工智慧產業估值",
+        "numbers": [],
+        "why": "調整原因：人工智慧產業估值",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：人工智慧產業估值",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "SMCI",
       "group": "AI Server／資料中心硬體",
@@ -50,7 +96,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "ANET",
@@ -97,6 +143,39 @@
       },
       "top10": true,
       "top10Rank": 4
+    },
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "民主黨中期選舉勝利引發監管和合併擔憂，特斯拉股價下跌 4.5%",
+      "summary": "特斯拉 (NASDAQ:TSLA) 股價下跌 4. 5% 至 380 美元。",
+      "originalTitle": "Tesla Shares Fall 4.5% as Democratic Midterm Victory Raises Regulatory and Merger Concerns",
+      "originalSummary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-shares-fall-4-5-115939047.html",
+      "ts": "2026-11-04T11:59:39+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.3174186518745912,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "ANET",
@@ -369,52 +448,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "ALAB",
-      "group": "高速傳輸",
-      "tag": "題材",
-      "title": "Needham 因人工智慧產業估值而下調 Astera Labs 股價目標",
-      "summary": "",
-      "originalTitle": "Needham cuts Astera Labs stock price target on AI sector valuation",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcGZ4ckhIa21DWTFtVm5HUV9RcnY4N0FJdnYzMHk5R3JfVXMwenRkeVdraG5jRnV1aGlFazc4R2htLV9UMDVzcVg1amFwOWdIVUtyaGo1bzZMVVpvWERfNU5FZkVRVU1oM1B0azNaUlZ2cVZjQmFSZkVMOVVJUG1mdU9nZ21rV1o4Zm5ONkdMcEF4LWVwUVpHalZmSjdxRkMyYUtXZ01aX0pHdDhNNHhwbGlScHRrWl9iTnVXd0ttUjhYTVdWTFE?oc=5",
-      "ts": "2026-11-04T11:48:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Needham",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "人工智慧產業估值",
-          "reasonConfidence": "high",
-          "targetTicker": "ALAB",
-          "targetCompany": "Astera Labs"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "ALAB"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Astera Labs（ALAB）｜券商：Needham｜動作：下修｜調整原因：人工智慧產業估值",
-        "numbers": [],
-        "why": "調整原因：人工智慧產業估值",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：人工智慧產業估值",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 6
-    },
-    {
       "ticker": "SWKS",
       "group": "類比／電源／功率／RF",
       "tag": "題材",
@@ -458,7 +491,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "ANET",
@@ -493,6 +526,43 @@
       "top10Rank": null
     },
     {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "民主黨選舉勝利加劇對人工智慧基礎設施的擔憂，CoreWeave 股價下跌 3.1%",
+      "summary": "民主黨在中期選舉中獲得美國國會參眾兩院的控制權後，週三盤前交易中 CoreWeave (NASDAQ:CRWV) 股價下跌 3. 1%，引發了人們對人工智慧基礎設施監管收緊以及數據中心發展可能受到限制的擔憂。",
+      "originalTitle": "CoreWeave Shares Fall 3.1% as Democratic Election Victory Adds to AI Infrastructure Concerns",
+      "originalSummary": "CoreWeave (NASDAQ:CRWV) shares declined 3. 1% in premarket trading on Wednesday after Democrats secured control of both chambers of the US Congress in the midterm elections, raising concerns about tighter regulation of artificial intelligence infrastructure and potential restrictions on data centre development.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-shares-fall-3-1-114159580.html",
+      "ts": "2026-11-04T11:41:59+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 7.158524426719848,
+      "relatedTickers": [
+        "CRWV"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "民主黨在中期選舉中獲得美國國會參眾兩院的控制權後，週三盤前交易中 CoreWeave (NASDAQ:CRWV) 股價下跌 3. 1%，引發了人們對人工智慧基礎設施監管收緊以及數據中心發展可能受到限制的擔憂。",
+        "numbers": [
+          "3.1%",
+          "1%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "民主黨在中期選舉中獲得美國國會參眾兩院的控制權後，週三盤前交易中 CoreWeave (NASDAQ:CRWV) 股價下跌 3. 1%，引發了人們對人工智慧基礎設施監管收緊以及數據中心發展可能受到限制的擔憂。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SMCI",
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
@@ -520,6 +590,85 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "迫於美國監管壓力，甲骨文取消與騰訊價值 70 億美元的 AI 晶片租賃協議",
+      "summary": "根據《金融時報》週三發布的報道，在美國官員對中國獲取美國半導體技術表示擔憂後，甲骨文 (NYSE:ORCL) 取消了向中國科技集團騰訊 (HKEX:0700) 租賃先進人工智能晶片的 70 億美元協議。這份為期五年的合約將使騰訊能夠獲得多達 10 萬個先進的人工智慧晶片",
+      "originalTitle": "Oracle Cancels $7 Billion Tencent AI Chip Leasing Agreement Amid US Regulatory Pressure",
+      "originalSummary": "Oracle (NYSE:ORCL) has cancelled a $7 billion agreement to lease advanced artificial intelligence chips to Chinese technology group Tencent (HKEX:0700), following concerns raised by US officials over China’s access to American semiconductor technology, according to a Financial Times report published on Wednesday. The five-year contract would have provided Tencent with access to as many as 100,000 advanced AI chips housed in data centres across Southeast Asia.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/oracle-cancels-7-billion-tencent-113659321.html",
+      "ts": "2026-11-04T11:36:59+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 5.846334507632944,
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "根據《金融時報》週三發布的報道，在美國官員對中國獲取美國半導體技術表示擔憂後，甲骨文 (NYSE:ORCL) 取消了向中國科技集團騰訊 (HKEX:0700) 租賃先進人工智能晶片的 70 億美元協議。這份為期五年的合約將使騰訊能夠獲得多達 10 萬個先進的人工智慧晶片",
+        "numbers": [
+          "$7 Billion",
+          "$7 billion",
+          "7 Billion",
+          "7 billion"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "根據《金融時報》週三發布的報道，在美國官員對中國獲取美國半導體技術表示擔憂後，甲骨文 (NYSE:ORCL) 取消了向中國科技集團騰訊 (HKEX:0700) 租賃先進人工智能晶片的 70 億美元協議。這份為期五年的合約將使騰訊能夠獲得多達 10 萬個先進的人工智慧晶片",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SMCI",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "第一季獲利超出預期且人工智慧伺服器需求推動成長，超微電腦股價上漲超過 7%",
+      "summary": "在人工智慧基礎設施持續需求的支撐下，伺服器製造商超微電腦（NASDAQ：SMCI）公佈第一財季獲利和營收大幅高於華爾街預期，並發布強於預期的指引，週三盤前交易中該公司股價上漲逾 7%。该公司（俗称 Supermicro）报告调整后收益为 1 美元。",
+      "originalTitle": "Super Micro Computer Shares Jump Over 7% as Q1 Earnings Beat Estimates and AI Server Demand Drives Growth",
+      "originalSummary": "Super Micro Computer (NASDAQ:SMCI) shares climbed more than 7% in premarket trading on Wednesday after the server manufacturer reported fiscal first-quarter earnings and revenue significantly above Wall Street expectations and issued stronger-than-anticipated guidance, supported by continued demand for artificial intelligence infrastructure. The company, commonly known as Supermicro, reported adjusted earnings of $1.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-shares-jump-113510737.html",
+      "ts": "2026-11-04T11:35:10+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 3.12089356110381,
+      "relatedTickers": [
+        "SMCI"
+      ],
+      "eventType": "新題材",
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "在人工智慧基礎設施持續需求的支撐下，伺服器製造商超微電腦（NASDAQ：SMCI）公佈第一財季獲利和營收大幅高於華爾街預期，並發布強於預期的指引，週三盤前交易中該公司股價上漲逾 7%。该公司（俗称 Supermicro）报告调整后收益为 1 美元。",
+        "numbers": [
+          "$1.",
+          "7%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "在人工智慧基礎設施持續需求的支撐下，伺服器製造商超微電腦（NASDAQ：SMCI）公佈第一財季獲利和營收大幅高於華爾街預期，並發布強於預期的指引，週三盤前交易中該公司股價上漲逾 7%。该公司（俗称 Supermicro）报告调整后收益为 1 美元。",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -560,8 +709,45 @@
       "ticker": "AMD",
       "group": "CPU 概念股",
       "tag": "題材",
+      "title": "第三季獲利超出預期且營收前景超出預期，AMD 股價飆升近 8%",
+      "summary": "Advanced Micro Devices (NASDAQ:AMD) 週三盤前交易中股價上漲近 8%，此前這家半導體公司公佈的第三季度盈利和收入高於華爾街預期，並發布了強於預期的 2026 年第四季度指引。這家總部位於加州的晶片製造商公佈的調整後利潤為 2 美元。",
+      "originalTitle": "AMD Shares Surge Nearly 8% as Q3 Earnings Beat Forecasts and Revenue Outlook Exceeds Expectations",
+      "originalSummary": "Advanced Micro Devices (NASDAQ:AMD) shares climbed nearly 8% in premarket trading on Wednesday after the semiconductor company reported third-quarter earnings and revenue above Wall Street estimates and issued stronger-than-expected guidance for the final quarter of 2026. The California-based chipmaker reported adjusted earnings of $2.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-shares-surge-nearly-8-113251376.html",
+      "ts": "2026-11-04T11:32:51+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 3.654356953131699,
+      "relatedTickers": [
+        "AMD"
+      ],
+      "eventType": "",
+      "score": 9.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Advanced Micro Devices (NASDAQ:AMD) 週三盤前交易中股價上漲近 8%，此前這家半導體公司公佈的第三季度盈利和收入高於華爾街預期，並發布了強於預期的 2026 年第四季度指引。這家總部位於加州的晶片製造商公佈的調整後利潤為 2 美元。",
+        "numbers": [
+          "$2.",
+          "8%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Advanced Micro Devices (NASDAQ:AMD) 週三盤前交易中股價上漲近 8%，此前這家半導體公司公佈的第三季度盈利和收入高於華爾街預期，並發布了強於預期的 2026 年第四季度指引。這家總部位於加州的晶片製造商公佈的調整後利潤為 2 美元。",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "題材",
       "title": "AMD 財報顯示大型科技公司無法取得足夠的人工智慧晶片",
-      "summary": "這家晶片製造商公佈的第三季度盈利好於預期，並發布了今年剩餘時間的強勁指引。",
+      "summary": "",
       "originalTitle": "AMD Earnings Show Big Tech Can’t Get Enough AI Chips",
       "originalSummary": "The chip maker reports better-than-expected earnings for the third quarter and issues strong guidance for the rest of the year.",
       "url": "https://www.barrons.com/articles/amd-earnings-stock-price-7c8d5465?siteid=yhoof2&yptr=yahoo",
@@ -574,7 +760,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -593,7 +779,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "安迪賈西 (Andy Jassy) 剛剛為亞馬遜投資者帶來了好消息",
-      "summary": "人工智慧可以推動亞馬遜雲端業務令人難以置信的營收成長。",
+      "summary": "",
       "originalTitle": "Andy Jassy Just Delivered Magnificent News for Amazon Investors",
       "originalSummary": "Artificial intelligence could fuel mind-boggling revenue growth for Amazon's cloud business.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/andy-jassy-just-delivered-magnificent-113200794.html",
@@ -606,7 +792,7 @@
       ],
       "eventType": "",
       "score": 3.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -625,7 +811,7 @@
       "group": "高速傳輸",
       "tag": "題材",
       "title": "Astera Labs 營收暴增 154%，股價上漲",
-      "summary": "Inventory more than tripled to $200.9 million since the end of 2025",
+      "summary": "",
       "originalTitle": "Astera Labs Stock Rises After Revenue Jumps 154%",
       "originalSummary": "Inventory more than tripled to $200.9 million since the end of 2025",
       "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-stock-rises-revenue-113129272.html",
@@ -638,7 +824,7 @@
       ],
       "eventType": "",
       "score": 3.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -684,7 +870,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Skyworks（SWKS）｜券商：Morgan Stanley｜動作：下修｜調整原因：來源未提供具體理由",
@@ -696,14 +882,14 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "GOOGL",
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌因人工智慧的強烈反對而劫持基本搜索，教室面臨技術噩夢",
-      "summary": "Students using Google software in schools will not be allowed to use Google search unless their school system also provides them access to artificial intelligence tools",
+      "summary": "",
       "originalTitle": "Classrooms face tech nightmare as Google holds basic search hostage over AI backlash",
       "originalSummary": "Students using Google software in schools will not be allowed to use Google search unless their school system also provides them access to artificial intelligence tools",
       "url": "https://finance.yahoo.com/news/classrooms-face-tech-nightmare-google-112829044.html",
@@ -716,13 +902,13 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Students using Google software in schools will not be allowed to use Google search unless their school system also provides them access to artificial intelligence tools",
+        "event": "在學校使用谷歌軟體的學生將不被允許使用谷歌搜索，除非他們的學校系統也為他們提供了人工智慧工具的訪問權限",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Students using Google software in schools will not be allowed to use Google search unless their school system also provides them access to artificial intelligence tools",
+        "stance": "在學校使用谷歌軟體的學生將不被允許使用谷歌搜索，除非他們的學校系統也為他們提供了人工智慧工具的訪問權限",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -853,6 +1039,36 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "蘋果財報：iPhone 營收成長 18%，但股價看起來昂貴",
+      "summary": "",
+      "originalTitle": "Apple Earnings: iPhone Revenue Rises 18%, but Shares Look Expensive",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYzJKV3Rkb1FHRzV3UUNrMDNmQ0RNaXY1UkNteGhkdkN5cV9tZFd6Q2VLUC14MUxRV01ESkJ3M3dQdVJ2NG9lTEd6ajZEOXBDVC1yZm9rQXFmdXR0ZndVN1plZUxEMXNJcXZQSlJtUGszc0ozanp5N0RrWFJvNFVjYjhYV0NjN1kzYnlVc3VCc0YyX2NpZlNGQTlkd2VuRGVmVHFJQlpCUQ?oc=5",
+      "ts": "2026-11-04T11:21:15+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 18.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CRWD",
       "group": "Cloud／Software／AI 應用",
       "tag": "利空",
@@ -907,12 +1123,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile 的股價在 3 年裡實現了非常大的漲幅，而最近的回報卻急劇朝另一個方向發展。這種波動讓 AST SpaceMobile 投資者今天關注的一個簡單問題是：目前 37.15 美元的價格是否可以與其資產負債表帳面價值相符。過去 3 年裡，該股上漲了約 8 倍，這極大地影響了這項措施是否得到公司基礎淨資產的支持。進步...",
+        "event": "AST SpaceMobile 的股價在過去 3 年中實現了大幅增長，而最近的回報卻急劇向相反方向發展。這種波動讓 AST SpaceMobile 投資者今天關注的一個簡單問題是：目前 37.15 美元的價格是否可以與其資產負債表帳面價值相符。過去 3 年裡，該股上漲了約 8 倍，這極大地影響了這項措施是否得到公司基礎淨資產的支持。進步...",
         "numbers": [
           "$37.15"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "AST SpaceMobile 的股價在 3 年裡實現了非常大的漲幅，而最近的回報卻急劇朝另一個方向發展。這種波動讓 AST SpaceMobile 投資者今天關注的一個簡單問題是：目前 37.15 美元的價格是否可以與其資產負債表帳面價值相符。過去 3 年裡，該股上漲了約 8 倍，這極大地影響了這項措施是否得到公司基礎淨資產的支持。進步...",
+        "stance": "AST SpaceMobile 的股價在過去 3 年中實現了大幅增長，而最近的回報卻急劇向相反方向發展。這種波動讓 AST SpaceMobile 投資者今天關注的一個簡單問題是：目前 37.15 美元的價格是否可以與其資產負債表帳面價值相符。過去 3 年裡，該股上漲了約 8 倍，這極大地影響了這項措施是否得到公司基礎淨資產的支持。進步...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1312,8 +1528,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "NVDA",
@@ -1954,7 +2170,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "MARKET",
@@ -2099,12 +2315,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在人工智慧基礎設施和半導體需求情緒急劇波動後，Arm Holdings 正準備報告 2027 財年第二季業績。人們關注的是與資料中心、智慧型手機和 AGI CPU 相關的特許權使用費和許可證如何應對整個行業的支出擔憂。該公司已確定 2027 財年和 28 財年確定的 AGI CPU 需求超過 20 億美元，因此投資者正在關注這些承諾是否會在即將發布的收益更新中開始體現在出貨量和特許權使用費組合中...",
+        "event": "在圍繞人工智慧基礎設施和半導體需求的情緒急劇波動之後，Arm Holdings 正準備報告 2027 財年第二季業績。人們關注的是與資料中心、智慧型手機和 AGI CPU 相關的特許權使用費和許可證如何應對整個行業的支出擔憂。該公司已確定 2027 財年和 28 財年確定的 AGI CPU 需求超過 20 億美元，因此投資者正在關注這些承諾是否會在即將發布的收益更新中開始體現在出貨量和特許權使用費組合中...",
         "numbers": [
           "$2b"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "在人工智慧基礎設施和半導體需求情緒急劇波動後，Arm Holdings 正準備報告 2027 財年第二季業績。人們關注的是與資料中心、智慧型手機和 AGI CPU 相關的特許權使用費和許可證如何應對整個行業的支出擔憂。該公司已確定 2027 財年和 28 財年確定的 AGI CPU 需求超過 20 億美元，因此投資者正在關注這些承諾是否會在即將發布的收益更新中開始體現在出貨量和特許權使用費組合中...",
+        "stance": "在圍繞人工智慧基礎設施和半導體需求的情緒急劇波動之後，Arm Holdings 正準備報告 2027 財年第二季業績。人們關注的是與資料中心、智慧型手機和 AGI CPU 相關的特許權使用費和許可證如何應對整個行業的支出擔憂。該公司已確定 2027 財年和 28 財年確定的 AGI CPU 需求超過 20 億美元，因此投資者正在關注這些承諾是否會在即將發布的收益更新中開始體現在出貨量和特許權使用費組合中...",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -2251,7 +2467,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "SWKS",
@@ -2624,203 +2840,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Meta 在 150 億美元交易後開始首次歐元債券發售",
-      "summary": "",
-      "originalTitle": "Meta Starts Debut Euro Bond Sale After $15 Billion Dollar Deal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcXhwQkR0LUFOSWlobVppZHRBRDdqbWd6QmI1NTIwM25yVHhuUmNBUTVBQ3RiZkRTaXNObW4wVUVGUC1KTWNXZ1V6eFl2aEF2Vy1sTXlDc0JYOEhBd2NiNEtsTk5Yd2phbURMWGUyd2dzZzBVYzNBajBON2J5MUEzWmFWaEZtWkNYLXk4b3NmN3NwcXBTYm9pUmRQd0NQTXRlZUc3cm94bWtaUmpYbzdFT3RB?oc=5",
-      "ts": "2026-11-04T09:47:29+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CIEN",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "您現在可以透過 Ciena 股票賺錢嗎？",
-      "summary": "",
-      "originalTitle": "Can You Make Money Off Ciena Stock Now?",
-      "originalSummary": "For questions about this article or underlying research, email help@trefis.com.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/money-off-ciena-stock-now-094330813.html",
-      "ts": "2026-11-04T09:43:30+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 5.535626362805091,
-      "relatedTickers": [
-        "CIEN"
-      ],
-      "eventType": "",
-      "score": 10.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ASTS",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "AST SpaceMobile 股票會下跌 40% 嗎？",
-      "summary": "",
-      "originalTitle": "Can AST SpaceMobile Stock Fall 40%?",
-      "originalSummary": "Did you buy ASTS securities between March 4, 2025 and July 15, 2026? RADNOR, PA - November 1, 2026 ( NEWMEDIAWIRE ) - Kessler Topaz Meltzer & Check, LLP ( www.ktmc.com ) , a nationally recognized securities litigation law firm, informs investors that a securities fraud class action lawsuit has been filed against AST SpaceMobile, Inc. (AST) (NASDAQ: ASTS) on behalf of those who purchased or acquired AST securities between March 4, 2025 and July 15, 2026, inclusive. The lawsuit is filed in the United States District Court for the Western District of Texas and is captioned Hunter v. AST SpaceMobile, Inc., No. 7:26-cv-00378 (W.D. Tex.). Investors have until November 13, 2026, to file for lead plaintiff status. NewMediaWire distributes press releases on behalf of hundreds of publicly traded companies, as well as private corporations, non-profits and other public sector organizations. Founded and staffed by industry veterans, we offer a full complement of services including specialized delivery to financial sites and posting of photos and multimedia content. In addition, NewMediawire offers international and specialized services such as IR websites and industry specific distribution.",
-      "url": "https://www.newmediawire.com/news/asts-deadline-in-12-days-ast-spacemobile-inc-class-action-lawsuit-investors-face-november-13-2026-deadline-kessler-topaz-meltzer-check-llp-7090985",
-      "ts": "2026-11-04T09:43:19+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.257087806220759,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "ASTS"
-      ],
-      "eventType": "",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "您是否在2025年3月4日至2026年7月15日期間購買了ASTS證券？賓州拉德諾 - 2026 年 11 月 1 日 (NEWMEDIAWIRE) - 全國認可的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP (www.ktmc.com) 通知投資者，已代表在 2025 年 3 月 4 日至 7 月期間購買或收購 AST 證券的人士對 AST Space Inc. (AST)（納斯達克股票代碼：ASTS）提起證券詐欺集體訴訟2026 年 15 日（含）。投資者必須在 2026 年 11 月 13 日之前提交申請",
-        "numbers": [
-          "40%"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "您是否在2025年3月4日至2026年7月15日期間購買了ASTS證券？賓州拉德諾 - 2026 年 11 月 1 日 (NEWMEDIAWIRE) - 全國認可的證券訴訟律師事務所 Kessler Topaz Meltzer & Check, LLP (www.ktmc.com) 通知投資者，已代表在 2025 年 3 月 4 日至 7 月期間購買或收購 AST 證券的人士對 AST Space Inc. (AST)（納斯達克股票代碼：ASTS）提起證券詐欺集體訴訟2026 年 15 日（含）。該訴訟向美國德克薩斯州西區地方法院提起，標題為 Hunter v.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "博通股票還能進一步下跌嗎？",
-      "summary": "",
-      "originalTitle": "Can Broadcom Stock Fall Further?",
-      "originalSummary": "For questions about this article or underlying research, email help@trefis.com.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-fall-further-094317502.html",
-      "ts": "2026-11-04T09:43:17+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 3.0723396331812536,
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CSCO",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "思科股票能跌多低？",
-      "summary": "",
-      "originalTitle": "How Low Can Cisco Stock Go?",
-      "originalSummary": "For questions about this article or underlying research, email help@trefis.com.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/low-cisco-stock-094306529.html",
-      "ts": "2026-11-04T09:43:06+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.33845093986813,
-      "relatedTickers": [
-        "CSCO"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "利空",
-      "title": "Nebius 股票：7.5% 的反彈、下調的價格目標以及必須解決 AI 上限的盈利報告 - ad-hoc-news.de",
-      "summary": "",
-      "originalTitle": "Nebius Stock: A 7.5% Bounce, a Cut Price Target, and the Earnings Report That Must Settle the AI Cap - ad-hoc-news.de",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdmpuSXBNMzNNbGsxR08zaEd0QllnZmhPVHdaSjAxSmxHWEFjV2dKdko3QnUtTVRZSHU5MkVfMDZ6cjVwWlU4U0xrX0I4NUdPV2E0VFIySC1Dd1FCQ2FkUVRoX3gxT0hJN2psWmluZTFpdjFVdkJCc0R0cm5tMnJ3X2l6MWcxeWJXYkZNQ2pMbmZLcWhTTDhxNDFQbmZYMW9RY0h3VlFNdF9RaXF3TUU4LU9pcmVITEVRQzMyYU9CRzhDU0ZQMW1SLVJKTFNDVElMOElBdjVvSnhzbjhNY29sVVRnRnVDd1I1V0pEeGNEWU1lc24yc1FoQ280NlRETTQ?oc=5",
-      "ts": "2026-11-04T09:41:03+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 2
     }
   ],
   "historyItems": [
@@ -4153,7 +4172,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "由人工智慧驅動Boom、Marvell 和 Lumentum 宣布價值 1,150 億美元的合併",
-      "summary": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+      "summary": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
       "originalTitle": "Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger",
       "originalSummary": "Marvell Technology on Monday announced a $115 billion stock swap to buy Lumentum Holdings, in a major bet that a technology known as optical networking will be crucial to the build-out of data centers for artificial intelligence. The transaction between the two Silicon Valley companies, which includes Lumentum’s debt, would rank as the largest ever by value between publicly held tech companies. Marvell makes an array of chips for networking and A.I. The 31-year-old company has been growing rapidly by acquisition since Matthew Murphy joined it as chief executive in 2016. Lumentum makes lasers and a series of other chips and components that use light to transmit data signals, a mainstay of long-distance communications known as optical networking, which is increasingly used inside data centers.",
       "url": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html",
@@ -4171,7 +4190,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+        "event": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
         "numbers": [
           "$115 Billion",
           "$115 billion",
@@ -4179,7 +4198,7 @@
           "115 billion"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+        "stance": "Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -6091,7 +6110,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "TSEM 股票：為什麼瑞穗將 Tower Semiconductor 視為人工智慧資料中心連接領域",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "TSEM Stock: Why Mizuho Sees Tower Semiconductor As An AI Data Center Connectivity Play",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957483-tower-semiconductor-managements-confidence-is-infectious",
@@ -6108,10 +6127,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -6798,7 +6817,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr 測試系統：掌握潛在市場的變數太多（納斯達克股票代碼：AEHR）",
-      "summary": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Aehr Test Systems: Too Many Variables In Grasping The Addressable Market (NASDAQ:AEHR)",
       "originalSummary": "EschCollection/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4960561-aehr-test-systems-too-many-variables-in-grasping-the-addressable-market",
@@ -6814,10 +6833,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "EschCollection/DigitalVision 來自 Getty Images 分析師披露：我/我們在上述任何一家公司中沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -9302,7 +9321,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "了解為什麼美光股票的牛市可能會在內存短缺警告後發生變化",
-      "summary": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的常規現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
+      "summary": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的定期現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
       "originalTitle": "Learn Why The Bull Case For Micron Stock Could Change Following Memory Shortage Warning",
       "originalSummary": "Micron Technology is in focus after SK Hynix reported record quarterly results and projected tight memory supply through 2030, while Micron continued to secure long term customer agreements and maintained its regular US$0.15 cash dividend that went ex dividend on 14 October 2026. The same supply constraints that SK Hynix links to AI and data center demand are feeding into Micron's DRAM, HBM and NAND roadmap. Management is preparing to discuss technology leadership and capacity planning that tie directly to its long term supply agreements. We will now look at how Micron Technology's AI driven memory tightness, signalled by SK Hynix, could reshape the overall investment narrative.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-micron-071618157.html",
@@ -9319,12 +9338,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的常規現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
+        "event": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的定期現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
         "numbers": [
           "$0.15"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的常規現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
+        "stance": "在 SK 海力士公佈創紀錄的季度業績並預計到 2030 年內存供應緊張之後，美光科技成為焦點，同時美光繼續獲得長期客戶協議並維持 0.15 美元的定期現金股息，該股息於 2026 年 10 月 14 日除息。 SK 海力士與人工智慧和資料中心需求相關的供應限制也正在影響美光的 DRAM、HBM 和 NAND 路線圖。管理階層正準備討論與其長期供應協議直接相關的技術領導力和產能規劃。我們現在將了解以 SK 海力士為代表的美光科技 AI 驅動的記憶體緊張將如何重塑整體投資格局。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -9369,7 +9388,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "SpaceX 供應商意法半導體預測人工智慧和衛星將帶來強勁銷售",
-      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+      "summary": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
       "originalTitle": "SpaceX Supplier STMicroelectronics Forecasts Strong Sales on AI, Satellite Boost",
       "originalSummary": "By Mauro Orru STMicroelectronics projected robust sales growth for the year as the build-out of data centers to power artificial-intelligence models and the deployment of satellites to provide connectivity services fuel demand for semiconductors. The European chip maker, which counts Apple and Elon Musk&#039;s Tesla and SpaceX among its clients, said 2026 revenue should grow nearly 23% on year to roughly $14.5 billion. Meanwhile, its gross margin--a closely watched measure of pricing power--should increase to about 36.4% from 33.9% last year. The company had refrained from providing detailed annual guidance until now , as it embarks on the final quarter, gaining better visibility into what is driving demand. It expects sales of about $4.15 billion this quarter compared with $3.33 billion a year earlier, above a Visible Alpha forecast of nearly $4.12 billion. Its annual sales projection is also above a Visible Alpha forecast of $14.41 billion. Chief Executive Jean-Marc Chery singled out data centers and satellites as key drivers for growth this year. Like other chip makers, STMicroelectronics is reaping the benefits of hundreds of billions of dollars in spending commitments from some of the world&#039;s largest tech groups to build out AI infrastructure. STMicroelectronics stock has nearly doubled in value since the year began, riding a wave of investor fervor around AI that lifted global semiconductor stocks. In a sign of how fast demand for chips to power energy-intensive data centers is building up, STMicroelectronics in July projected revenue from data centers above $1 billion in 2026 and well above $2 billion in 2027 compared with prior guidance of about $1 billion and roughly $2 billion, respectively. That marked the second time the company raised its AI forecasts this year. Alongside data centers, space also provides a key revenue stream for STMicroelectronics and other chip makers that supply semiconductors for low-Earth-orbit satellite constellations. The company expects well above $3 billion in revenue between 2026 and 2028 for the supply of equipment to be used in space, a forecast that for now excludes potential benefits from orbital data centers. Low Earth-orbit satellite networks are closer to Earth than traditional constellations, making them ideal to beam low-latency broadband directly to smartphones in parts of the world where cell towers are unavailable. SpaceX&#039;s Starlink provides direct-to-device connectivity to users in several countries, including Ukraine, where damage to terrestrial networks because of the war is common. STMicroelectronics had long relied on the automotive industry to generate a significant portion of its sales. Data centers and satellites have allowed the group to diversify its revenue streams and become less tied to carmakers. The auto industry in recent years had slowly been digesting chip inventories it built at the height of the pandemic, weighing on demand for new orders in a blow to STMicroelectronics. Sales for the quarter that closed Sept. 26 grew nearly 18% on year to $3.76 billion, above company guidance of about $3.70 billion and an analysts&#039; forecast of $3.73 billion, according to V",
       "url": "https://www.marketscreener.com/news/spacex-supplier-stmicroelectronics-forecasts-strong-sales-growth-on-ai-satellite-boost-updates-ce785cd3dc8cf325",
@@ -9388,7 +9407,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "event": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "numbers": [
           "$14.5 billion",
           "$4.15 billion",
@@ -9396,7 +9415,7 @@
           "$4.12 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量標準）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
+        "stance": "作者：Mauro Orru 意法半導體預計今年的銷售將強勁增長，因為為人工智慧模型提供支援的資料中心的建設以及提供連接服務的衛星的部署刺激了對半導體的需求。這家歐洲晶片製造商的客戶包括蘋果和馬斯克旗下的特斯拉和 SpaceX，該公司表示，2026 年營收預計將年增近 23%，達到約 145 億美元。同時，其毛利率（一項受到密切關注的定價能力衡量指標）應會從去年的 33.9% 增加到 36.4% 左右。直到現在，該公司一直沒有提供詳細的年度指引，因為該公司即將進入最後一個季度，以便更好地了解推動需求的因素。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -12603,7 +12622,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "駭客利用思科 SD-WAN 缺陷植入惡意軟體來竊取加密金鑰",
-      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
       "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
       "originalSummary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. CVE-2026-20127 is a max-severity flaw that Cisco patched in February 2026, which allows remote attackers to gain privileged access to Catalyst SD-WAN Controller and Manager and add rogue peers. UAT-8616 has exploited the vulnerability as a zero-day since at least 2023 , and recent research also linked its exploitation to the Chinese Volt Typhoon state-sponsored hacking group.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
@@ -12619,10 +12638,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -12811,7 +12830,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Nvidia 將向 Meta 的股票發行投資 30 億美元，擴大人工智慧合作夥伴關係",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-202603-26000",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
       "originalTitle": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai artificial i|corporate finan|us news|communitymarket\",\"additionalSectionContentFormattedFull\":\"ai artificial intelligence|corporate finance|us news|communitymarkets\",\"authorFormatted\":\"kai nicolschwar|april roach\",\"authorFormattedFull\":\"kai nicolschwarz|april roach\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"datePublished\":\"2026-10-26T11:34:42+0000\",\"description\":\"Meta plans to raise $95 billion to fund AI infrastructure and superintelligence, as Nvidia, AMD and Broadcom eye up to $5 billion in shares.\",\"expires\":null,\"headline\":\"Meta announces $95 billion stock offering to fund AI expansion. Nvidia, AMD mulling investment\",\"id\":108463655,\"liveURL\":\"\\u002F2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai.html\",\"native\":false,\"pageName\":\"108463655|2026\\u002F10\\u002F26\\u002Fmeta-stock-offering-ai\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"london\",\"projectTeamContentFormattedFull\":\"london\",\"relatedTagsFilteredFormatted\":\"breaking news t|technology|nvidia corp|advanced micro |broadcom inc|meta platforms |invesco qqq tru|alphabet class |technology sele|earnings|space explorati|ishares expande|ishares semicon\",\"relatedTagsFilteredFormattedFull\":\"breaking news technology|technology|nvidia corp|advanced micro devices inc|broadcom inc|meta platforms inc|invesco qqq trust|alphabet class a|technology select sector spdr fund|earnings|space exploration technologies corp|ishares expanded techsoftware sector etf|ishares semiconductor etf\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Meta launches plan for $95 billion stock offering to fund AI expansion\",\"shortDateFirstPublished\":\"10\\u002F26\\u002F2026\",\"shortDateLastPublished\":\"10\\u002F26\\u002F2026\",\"shortDatePublished\":\"10\\u002F26\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F3UmKt2y\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4jAKpGF\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOM6n\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4iGvIAQ\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4sqaRVT\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4yIOMTV\"}],\"slug\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"sourceOrganizationFormatted\":\"cnbc europe sou\",\"sourceOrganizationFormattedFull\":\"cnbc europe source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Meta announces $95 billion stock offering to fund AI expansion\",\"tagNameFormatted\":\"meta announces \",\"tagNameFormattedFull\":\"meta announces 95 billion stock offering to fund ai expansion\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":2,\"tit",
       "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
@@ -12831,7 +12850,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-202603-26000",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
         "numbers": [
           "$3 Billion",
           "$95 billion",
@@ -12839,7 +12858,7 @@
           "3 Billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-202603-26000",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"addit ionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":100005111,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"ai人工智慧「金融企業」金融市場新聞nicolschwar|四月 roach\",\"authorFormattedFull\":\"kai nicolschwarz|四月roach\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\" ,\"dateFirstP發佈\":\"2026-10-26T11:34:42+0000\",\"dateLastPublished\":\"2026-10-26T14:05:36+0000\",\"發售日期\":\"2026-10-2026-10-2602",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -14898,7 +14917,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "財報電話會議記錄：GE Vernova 的訂單和現金超過 2026 年第三季預測",
-      "summary": "投資人關係副總裁 - Michael Lapides 操作員：女士先生們，大家好，歡迎參加 GE Vernova 2026 年第三季財報電話會議。 [操作員說明] 我叫Liz，今天我將擔任您的會議協調員。 [操作員說明] 溫馨提示，本次會議正在錄製中。現在我想將會議議程交給今天會議的主持人、投資者關係副總裁 Michael Lapides。",
+      "summary": "投資人關係副總裁 - Michael Lapides 操作員：女士先生們，大家好，歡迎參加 GE Vernova 2026 年第三季財報電話會議。 [操作員說明] 我叫Liz，今天我將擔任您的會議協調員。 [操作員說明] 溫馨提示，本次會議正在錄製中。現在我想將議程移交給今天會議的主持人、投資者關係副總裁 Michael Lapides。",
       "originalTitle": "Earnings call transcript: GE Vernova tops Q3 2026 forecasts on orders and cash",
       "originalSummary": "Vice President of Investor Relations - Michael Lapides Operator: Good day, ladies and gentlemen, and welcome to GE Vernova's Third Quarter 2026 Earnings Conference Call. [Operator Instructions] My name is Liz, and I will be your conference coordinator today. [Operator Instructions] As a reminder, this conference is being recorded. I would now like to turn the program over to your host for today's conference, Michael Lapides, Vice President of Investor Relations. Please proceed.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-gev-q3-2026-172821906.html",
@@ -14914,7 +14933,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "投資人關係副總裁 - Michael Lapides 操作員：女士先生們，大家好，歡迎參加 GE Vernova 2026 年第三季財報電話會議。 [操作員說明] 我叫Liz，今天我將擔任您的會議協調員。 [操作員說明] 溫馨提示，本次會議正在錄製中。現在我想將會議議程交給今天會議的主持人、投資者關係副總裁 Michael Lapides。",
+        "event": "投資人關係副總裁 - Michael Lapides 操作員：女士先生們，大家好，歡迎參加 GE Vernova 2026 年第三季財報電話會議。 [操作員說明] 我叫Liz，今天我將擔任您的會議協調員。 [操作員說明] 溫馨提示，本次會議正在錄製中。現在我想將議程移交給今天會議的主持人、投資者關係副總裁 Michael Lapides。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "投資人關係副總裁 - Michael Lapides 操作員：女士先生們，大家好，歡迎參加 GE Vernova 2026 年第三季財報電話會議。 [操作員說明] 我叫Liz，今天我將擔任您的會議協調員。",
@@ -16391,7 +16410,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "美國機構批准亞馬遜Leo以115億美元收購Globalstar",
-      "summary": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+      "summary": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
       "originalTitle": "US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar",
       "originalSummary": "Key Stats for Amazon StockPrice change for Amazon stock in last 6 months: -3%$AMZN Stock Price as of Oct. 27: $25352-Week High: $287$AMZN Stock Price Target: $332__Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free)__>>> What Happened?Amazon (AMZN:NASDAQ) got a regulatory green light for its satellite plans as the FCC approved Amazon Leo’s $11.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/fcc-approves-11-5-billion-105856064.html",
@@ -16407,7 +16426,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+        "event": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
         "numbers": [
           "$11.5 billion",
           "$25352",
@@ -16415,7 +16434,7 @@
           "$332"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+        "stance": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -17586,7 +17605,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Aehr Test Systems：扭轉局面是可能的，但尚未得到證實（納斯達克股票代碼：AEHR）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Aehr Test Systems: A Turnaround Is Possible, But Not Yet Proven (NASDAQ:AEHR)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4958020-aehr-test-systems-a-turnaround-is-possible-but-not-yet-proven",
@@ -17602,10 +17621,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -18199,7 +18218,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "AST SpaceMobile：新格倫帶來希望，製造業應該跟進（評級升級）",
-      "summary": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "AST SpaceMobile: New Glenn Gives Hope, Manufacturing Should Follow (Rating Upgrade)",
       "originalSummary": "Brandon Moser/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have a beneficial long position in the shares of ASTS either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957896-ast-spacemobile-stock-new-glenn-gives-hope-manufacturing-should-follow-rating-upgrade",
@@ -18216,14 +18235,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
-        "why": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：Brandon Moser/iStock 社論來自 Getty Images 分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 ASTS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       },
       "detailSource": "article_or_same_event"
@@ -19840,7 +19859,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "天弘 (CLS) 第三季 EPS 達 31c，提供指引",
-      "summary": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+      "summary": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
       "originalTitle": "Celestica (CLS) Tops Q3 EPS by 31c, Offers Guidance",
       "originalSummary": "Celestica entered this Q3 2026 print with a strong reputation in electronics manufacturing and a stock that has cooled sharply, falling about 8% over the past week and roughly 25% over the past month into last night's close at CA$388.33. The headline is simple: Q3 was about sheer earnings power, with basic earnings per share at US$3.30 on revenue of US$5.83b, keeping the profit engine running hard even as sentiment softened.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/celestica-tsx-cls-stock-cools-044801576.html",
@@ -19856,7 +19875,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "event": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "numbers": [
           "$388.33.",
           "$3.30",
@@ -19864,7 +19883,7 @@
           "8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "天弘在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
+        "stance": "Celestica 在電子製造領域享有盛譽，在進入 2026 年第三季時，其股價已大幅降溫，過去一周下跌約 8%，過去一個月下跌約 25%，昨晚收盤於 388.33 加元。標題很簡單：第三季是純粹的獲利能力，每股基本收益為 3.30 美元，收入為 5.83 美元，即使市場情緒疲軟，利潤引擎仍保持強勁運轉。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -20818,7 +20837,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Verizon 提升前景，與亞馬遜簽署價值超過 20 億美元的交易",
-      "summary": "作者：Kelly Cloonan Verizon Communications 再次上調了全年展望，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
+      "summary": "作者：Kelly Cloonan Verizon Communications 再次上調了全年預期，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
       "originalTitle": "Verizon Lifts Outlook, Inks Amazon Deal Worth More Than $2 Billion",
       "originalSummary": "By Kelly Cloonan Verizon Communications boosted its full-year outlook again as it continues to attract new customers for its postpaid phone service. The mobile carrier also on Monday said it signed a deal valued at more than $2 billion with Amazon Web Services to supply dark fiber for agentic and generative artificial-intelligence workloads. The agreement follows a similar deal earlier this year with Alphabet&#039;s Google, which was valued at more than $1 billion. &quot;These two contracts are a clear signal that the largest builders of AI infrastructure in the world are choosing Verizon as a strategic connectivity partner,&quot; Chief Executive Dan Schulman said during a call with analysts. Schulman said Verizon is in talks with additional hyperscalers, neocloud providers and large enterprise clients to supply fiber connectivity. The company is also seeing momentum with several partners looking to use its network hubs for AI inference and edge computing, he said. Verizon gained a net 406,000 postpaid phone connections in the latest quarter, marking its strongest third-quarter performance on the closely watched metric in five years. Analysts polled by FactSet expected 195,300 postpaid phone net additions. Schulman said the company is gaining loyal, high-value customers as it shifts away from heavy subsidies to focus on other offerings, like its expanded loyalty program and its Simplicity plan, which it rolled out earlier this year. &quot;We are not buying customers. We are winning them on revenue-positive terms and keeping them longer,&quot; Schulman said during a call with analysts. The postpaid strength helped Verizon post higher third-quarter profit and revenue. Schulman, who took the helm of Verizon last October, said the latest quarterly results are proof that it&#039;s evolved into a structurally different company. &quot;Verizon is in a fundamentally better position operationally, financially and competitively,&quot; Schulman said. &quot;Our transformation has taken root and our results show it.&quot; The latest results prompted the company to raise its full-year guidance for the third consecutive quarter. Verizon now expects adjusted earnings per share of $5.04 to $5.06 for the full year, compared with its prior view of $4.99 to $5.04, and now projects total full-year postpaid phone net additions of about 1.1 million to 1.2 million, up from a previous range of 875,000 to one million. The company also raised its projection for mobility and broadband service revenue growth to be in the upper half of its prior forecast of 2.5% to 3% for the year. Wall Street projects adjusted earnings of $5 per share and postpaid phone net additions of 975,000 for the year. Verizon&#039;s third-quarter profit came in at $5.3 billion, or $1.25 a share, compared with $5.06 billion, or $1.17 a share, a year earlier. Adjusted earnings per share were $1.31, compared with analyst estimates of $1.27. Revenue ticked up 1.5% to $34.3 billion, compared with analyst estimates of $34.77 billion. Mobility and broadband service revenue rose 2.9% to $23.5 billion. Equipment revenue declined 9%, as consumers continue to hold on to their mobile devices for longer before",
       "url": "https://www.marketscreener.com/news/verizon-lifts-outlook-on-postpaid-subscriber-growth-inks-2b-amazon-deal-update-ce785cdcdd8cf224",
@@ -20836,7 +20855,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "作者：Kelly Cloonan Verizon Communications 再次上調了全年展望，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
+        "event": "作者：Kelly Cloonan Verizon Communications 再次上調了全年預期，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
         "numbers": [
           "$2 Billion",
           "$2 billion",
@@ -20844,7 +20863,7 @@
           "$5.04"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "作者：Kelly Cloonan Verizon Communications 再次上調了全年展望，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
+        "stance": "作者：Kelly Cloonan Verizon Communications 再次上調了全年預期，因為該公司繼續為其後付費電話服務吸引新客戶。這家行動營運商也在周一表示，它與亞馬遜網路服務公司簽署了一項價值超過 20 億美元的協議，為代理商和生成人工智慧工作負載提供暗光纖。該協議是繼今年稍早與 Alphabet 旗下谷歌達成的類似協議之後達成的，該協議的估值超過 10 億美元。執行長 Dan Schulman 在與分析師的電話會議上表示：“這兩份合約是一個明確的信號，表明全球最大的人工智慧基礎設施建設者正在選擇 Verizon 作為戰略連接合作夥伴。”",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -20986,7 +21005,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 以近 57 億美元收購客戶參與平台",
-      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
+      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
       "originalTitle": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
       "originalSummary": "(Bloomberg) -- Salesforce Inc. has agreed to buy Braze Inc., an artificial intelligence-powered platform for marketers, for almost $5.7 billion in enterprise value. World's Largest Retirement Community Set to Borrow $180 Million Zelenskyy Says Trump Is Pushing Ukraine, Not Putin, to Yield Eric Schmidt's 1% Anthropic Stake Set to Pay Huge Windfall Musk Plans to Gift SpaceX Shares to Kids Through Trump Accounts Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
       "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-buy-marketing-platform-braze-121214100.html",
@@ -21004,7 +21023,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
+        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
         "numbers": [
           "$5.7 Billion",
           "$5.7 billion",
@@ -21012,7 +21031,7 @@
           "1%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
+        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -22044,7 +22063,7 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "Lam Research：自我的賣出電話以來下跌了 29%，但數學已經改變（升級）(LRCX)",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Lam Research: Down 29% Since My Sell Call, But The Math Has Changed (Upgrade) (LRCX)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957338-lam-research-down-29-percent-since-my-sell-call-but-the-math-has-changed-upgrade",
@@ -22062,16 +22081,16 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [
           "29%"
         ],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -24018,7 +24037,7 @@
       "group": "高速傳輸",
       "tag": "利多",
       "title": "信條：重置已完成（評級升級）（納斯達克股票代碼：CRDO）",
-      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Credo: The Reset Is Done (Rating Upgrade) (NASDAQ:CRDO)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in CRDO over the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4957051-credo-the-reset-is-done-rating-upgrade",
@@ -24035,14 +24054,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中都沒有股票、選擇權或類似衍生性商品頭寸，但可能在未來 72 小時內透過購買股票、或購買 CRDO 中的買權或類似衍生性商品來建立有益的多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -26772,7 +26791,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Lam Research 在謹慎指引和中國收入下降的情況下下跌 12% (LRCX:NASDAQ)",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
       "originalTitle": "Lam Research retreats 12% amid cautious guidance, China revenue drop (LRCX:NASDAQ)",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Shares of Lam Research ( LRCX ), a global supplier of wafer-fabrication equipment and services, dropped almost 12% on Thursday following the company's quarterly earnings release. Management commentary flagged near-term supply constraints and a projected decline in China's revenue contribution for the coming quarter.",
       "url": "https://seekingalpha.com/news/4656207-lam-research-retreats-12-amid-cautious-guidance-china-revenue-drop",
@@ -26788,12 +26807,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "numbers": [
           "12%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度財報後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 全球晶圓製造設備和服務供應商 Lam Research (LRCX) 的股價在周四發布季度收益後下跌了近 12%。管理層評論指出，近期供應受到限制，預計中國下一季的營收貢獻將下降。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -27111,7 +27130,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "長火箭實驗室，短 AST SpaceMobile：一個擁有自己的路徑，另一個從 SpaceX 租用它",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "Long Rocket Lab, Short AST SpaceMobile: One Owns Its Path, The Other Rents It From SpaceX",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -27130,10 +27149,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -27146,7 +27165,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "如果火箭實驗室墜毀後我只能買一支太空股票，那就是這隻",
-      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
       "originalTitle": "If I Could Only Buy 1 Space Stock After the Rocket Lab Crash, It Would Be This One",
       "originalSummary": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4956583-long-rocket-lab-short-ast-spacemobile-one-owns-its-path-the-other-rents-it-from-spacex",
@@ -27162,10 +27181,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "Yoshiyoshi Hirokawa/DigitalVision via Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似的衍生品頭寸，並且沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
