@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-11-04 17:43 台灣時間",
+  "updatedAt": "2026-11-04 17:48 台灣時間",
   "historyUpdatedDate": "2026-11-04",
   "historyLastAttemptAt": "2026-11-03T16:02:38.524933+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-04",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NBIS",
+      "group": "NeoCloud／AI 算力",
+      "tag": "利空",
+      "title": "Nebius 股票：7.5% 的反彈、下調的價格目標以及必須解決 AI 上限的盈利報告 - ad-hoc-news.de",
+      "summary": "",
+      "originalTitle": "Nebius Stock: A 7.5% Bounce, a Cut Price Target, and the Earnings Report That Must Settle the AI Cap - ad-hoc-news.de",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdmpuSXBNMzNNbGsxR08zaEd0QllnZmhPVHdaSjAxSmxHWEFjV2dKdko3QnUtTVRZSHU5MkVfMDZ6cjVwWlU4U0xrX0I4NUdPV2E0VFIySC1Dd1FCQ2FkUVRoX3gxT0hJN2psWmluZTFpdjFVdkJCc0R0cm5tMnJ3X2l6MWcxeWJXYkZNQ2pMbmZLcWhTTDhxNDFQbmZYMW9RY0h3VlFNdF9RaXF3TUU4LU9pcmVITEVRQzMyYU9CRzhDU0ZQMW1SLVJKTFNDVElMOElBdjVvSnhzbjhNY29sVVRnRnVDd1I1V0pEeGNEWU1lc24yc1FoQ280NlRETTQ?oc=5",
+      "ts": "2026-11-04T09:41:03+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NBIS"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "GOOGL",
       "group": "CSP",
@@ -136,7 +169,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "SPCX",
@@ -145,29 +178,35 @@
       "title": "SpaceX 與特斯拉的合併似乎不可避免。以下有 3 件可能會妨礙你的事情",
       "summary": "A merger between these two companies is widely expected, but it isn't guaranteed to happen, and even if it does, it could take longer than anticipated.",
       "originalTitle": "A SpaceX-Tesla Merger Seems Inevitable. Here are 3 Things That Could Get in the Way",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-merger-seems-inevitable-092002778.html",
+      "originalSummary": "Many analysts and investors expect a merger to take place between Space Exploration Technologies Corp ( SPCX +3.62% ) and Tesla ( TSLA -1.32% ) , it's just a matter of when it might happen. Elon Musk is the CEO of both companies, and they're often working on overlapping projects. A merger appears to be inevitable and is likely already priced into their respective valuations. While it's likely that a merger will be announced in the near future (i.e., within the next 12 months), that doesn't mean it's a surefire thing. Here are three things that may get in the way of the merger obtaining regulatory approval.",
+      "url": "https://www.fool.com/investing/2026/11/04/a-spacex-tesla-merger-seems-inevitable-here-are-3-things-that-could-get-in-the-way/",
       "ts": "2026-11-04T09:20:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": 3.6224976167778866,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "SPCX",
         "TSLA"
       ],
-      "eventType": "",
-      "score": 18.0,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "A merger between these two companies is widely expected, but it isn't guaranteed to happen, and even if it does, it could take longer than anticipated.",
+        "numbers": [
+          "3.62%",
+          "1.32%"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "A merger between these two companies is widely expected, but it isn't guaranteed to happen, and even if it does, it could take longer than anticipated.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -256,7 +295,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "AMD",
@@ -515,7 +554,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -594,6 +633,38 @@
       "eventType": "",
       "score": 6.75,
       "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "TXN",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "今日牛市：德州儀器 (TXN)",
+      "summary": "隨著模擬半導體需求的復甦，德州儀器 (TI) 股票的表現優於人工智慧領導企業英偉達 (Nvidia)。",
+      "originalTitle": "Bull of the Day: Texas Instrument (TXN)",
+      "originalSummary": "Texas Instrument stock has outperformed AI leader Nvidia amid a recovery in analog semiconductor demand.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bull-day-texas-instrument-txn-083000958.html",
+      "ts": "2026-11-04T08:30:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 3.4666578372293255,
+      "relatedTickers": [
+        "TXN"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -765,7 +836,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Advanced Micro Devices（AMD）｜券商：Jefferies｜動作：重申｜評等：Buy｜調整原因：傑富瑞重申買入 AMD 股票，理由是伺服器 CPU 成長",
@@ -797,39 +868,6 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 10
-    },
-    {
-      "ticker": "BA",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "波音公司 10 月股價上漲 26%，但波音表現不佳：這家國防承包商的動力是什麼？",
-      "summary": "",
-      "originalTitle": "Up 26% in October as Boeing stumbles: What’s powering this defense contractor?",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/26-october-boeing-stumbles-powering-075018614.html",
-      "ts": "2026-11-04T07:50:18+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.1915621436716095,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "BA"
-      ],
-      "eventType": "",
-      "score": 3.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -840,6 +878,47 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "BA",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "波音公司 10 月股價上漲 26%，但波音表現不佳：這家國防承包商的動力是什麼？",
+      "summary": "",
+      "originalTitle": "Up 26% in October as Boeing stumbles: What’s powering this defense contractor?",
+      "originalSummary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below. Investing.com — Defense and aerospace headlines are frequently dominated by political posturing and Washington budget debates, but October's market action proved that cash flow fundamentals still drive the tape. While Boeing (NYSE:BA) sank 8.3% under the weight of manufacturing crises and balance sheet strain, Lockheed Martin (NYSE:LMT) gained 26.0% in a decisive flight to quality.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/26-october-boeing-stumbles-powering-075018614.html",
+      "ts": "2026-11-04T07:50:18+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.1915621436716095,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "BA"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "Investing.com 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。 Investing.com — 國防和航空航天頭條新聞經常被政治姿態和華盛頓預算辯論所主導，但 10 月份的市場走勢證明現金流基本面仍然在推動走勢。波音公司 (NYSE:BA) 因製造危機和資產負債表壓力而下跌 8.3%，而洛克希德馬丁 (Lockheed Martin) (NYSE:LMT) 在決定性的品質轉型中上漲了 26.0%。",
+        "numbers": [
+          "26%",
+          "8.3%",
+          "26.0%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Investing.com 和 Yahoo Finance LLC 可能透過以下連結賺取某些項目的佣金或收入。 Investing.com — 國防和航空航天頭條新聞經常被政治姿態和華盛頓預算辯論所主導，但 10 月份的市場走勢證明現金流基本面仍然在推動走勢。波音公司 (NYSE:BA) 因製造危機和資產負債表壓力而下跌 8.3%，而洛克希德馬丁 (Lockheed Martin) (NYSE:LMT) 在決定性的品質轉型中上漲了 26.0%。",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -929,7 +1008,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "伊利諾州芝加哥 – 2026 年 11 月 4 日 – 今天，Zacks Investment Ideas 專題重點介紹了 Apple AAPL 和 Palantir Technologies PLTR。尽管周一晚间公布了令人印象深刻的季度业绩，科技巨头苹果公司和 Palantir Technologies 的股价周二仍在下跌。蘋果繼續受益於強勁的 iPhone 需求及其不斷擴大的服務業務，而 Palantir 的爆炸性成長反映出其人工智慧軟體的加速採用。",
+        "event": "伊利諾州芝加哥 – 2026 年 11 月 4 日 – 今天，Zacks Investment Ideas 專題重點介紹了 Apple AAPL 和 Palantir Technologies PLTR。儘管週一晚間公佈了令人印象深刻的季度業績，科技巨頭蘋果和 Palantir Technologies 的股價週二仍在下跌。蘋果繼續受益於強勁的 iPhone 需求及其不斷擴大的服務業務，而 Palantir 的爆炸性成長反映出其人工智慧軟體的加速採用。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "伊利諾州芝加哥 – 2026 年 11 月 4 日 – 今天，Zacks Investment Ideas 專題重點介紹了 Apple AAPL 和 Palantir Technologies PLTR。儘管週一晚間公佈了令人印象深刻的季度業績，科技巨頭蘋果和 Palantir Technologies 的股價週二仍在下跌。蘋果繼續受益於強勁的 iPhone 需求及其不斷擴大的服務業務，而 Palantir 的爆炸性成長反映出其人工智慧軟體的加速採用。",
@@ -1080,7 +1159,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "AEHR",
@@ -1150,6 +1229,36 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "2027 財年第一季 - 新聞稿 - 投資者關係",
+      "summary": "",
+      "originalTitle": "FY27 Q1 - Press Releases - Investor Relations",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXNEUTdVWndDS3RFQS13VmtYUjYya2J6NTJvOU5rX29OY25MVjd0ZDFrakZJanZ6TXpmYnduckNrQ2FkaUFRaXlaR1ktNXhwdEozTUVGcVUwRDRLa3BjdkUyNDU1Skk3cnA1NnlxQWFBWG5JRUNlNU9UQjFueDM1V2pla21XZmFfWUE?oc=5",
+      "ts": "2026-11-04T07:14:01+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -1416,7 +1525,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -1584,7 +1693,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "週二股市交易中，道瓊工業指數下跌 0.4%，略低於 50 日均線。標準普爾 500 指數上漲 0.4%，那斯達克指數上漲 0.8%，但在周一暴跌後的幾天內均上漲。小型股羅素 2000 指數上漲 0.2%，脫離 50 日線附近的 200 日線。 SpaceX 上涨 3.6%，但仍低于关键水平。",
+        "event": "週二股市交易中，道瓊工業指數下跌 0.4%，略低於 50 日均線。標準普爾 500 指數上漲 0.4%，那斯達克指數上漲 0.8%，但在周一暴跌後的幾天內均上漲。小型股羅素 2000 指數上漲 0.2%，脫離 50 日線附近的 200 日線。 SpaceX 上漲 3.6%，但仍低於關鍵水準。",
         "numbers": [
           "$96.09",
           "0.4%",
@@ -1755,7 +1864,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "LITE",
@@ -2117,7 +2226,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "IBM",
@@ -2779,102 +2888,6 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NOK",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "諾基亞與 AT&T：比較週期性銷售模式與穩定收入",
-      "summary": "",
-      "originalTitle": "Nokia vs. AT&T: Comparing Cyclical Sales Patterns vs. Steady Revenue",
-      "originalSummary": "AT&T's revenue base dwarfs Nokia's by roughly five times, but Nokia's sharp Q4 spikes reveal a business model that operates on a different rhythm entirely.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nokia-vs-t-comparing-cyclical-041333865.html",
-      "ts": "2026-11-04T04:13:33+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.168674698795181,
-      "relatedTickers": [
-        "NOK"
-      ],
-      "eventType": "",
-      "score": 3.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "亞馬遜裁員更多，執行長吹捧創紀錄的利潤率和零售成長",
-      "summary": "",
-      "originalTitle": "Amazon cuts more jobs as CEO touts record margins, retail gains",
-      "originalSummary": "The e-commerce giant eliminated more positions in October, even as its overall workforce and sales grow.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-cuts-more-jobs-ceo-040700809.html",
-      "ts": "2026-11-04T04:07:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.0600089565606883,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "英偉達人工智慧天才突然去世，留下辛酸指控",
-      "summary": "",
-      "originalTitle": "The Sudden Death of an Nvidia AI Prodigy Leaves Behind Bitter Accusations",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVG5uendtNnNFc0xkbm42NUZkMVdIMVVxU1k2NEhNWXVUOUE0UEdwNFpIdV9INXdRR0QteVJzanlGUmVybWV6Nk92bnBUTlUtV2NtaDdTc0ZtcmY4ZkJGU0dBaktkbHVfXzR2MGlPWE5RMWRCZ1RUZVhneDFMNTdqTWlienlTSGowNlZVaW9vb3lBd09XU3F2VkJxcDYwNXRTZ053MmpUR19vMld2V01z?oc=5",
-      "ts": "2026-11-04T03:59:23+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
