@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-11-05 21:46 台灣時間",
+  "updatedAt": "2026-11-05 21:51 台灣時間",
   "historyUpdatedDate": "2026-11-05",
   "historyLastAttemptAt": "2026-11-04T16:23:49.566192+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-05",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
+      "tag": "利空",
+      "title": "摩根士丹利在財報發布前下調思科評級（CSCO：納斯達克）",
+      "summary": "",
+      "originalTitle": "Cisco downgraded at Morgan Stanley ahead of earnings (CSCO:NASDAQ)",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQblVDV0FwWTctMnN1SV93b1RsZ2FoVml6QTh2X1JxMlBIRE9RRWFxcGtzYkxmYXR1VjRMT2VDNnB0blF4XzV3Q19hOE9RNkVfMjVEV2NGbnpQSHBZM3M2UkpQd1RCblVKSUREREkyRllyMGg3YTV3TVBPVXE3blNacHpSUXhzdVdmVkNUWXNsSmhXTGJY?oc=5",
+      "ts": "2026-11-05T13:47:36+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "降評",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CSCO",
+          "targetCompany": "Cisco"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CSCO"
+      ],
+      "eventType": "",
+      "score": 208.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Cisco（CSCO）｜券商：Morgan Stanley｜動作：降評｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
@@ -72,7 +118,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "CSCO",
@@ -93,6 +139,38 @@
       ],
       "eventType": "",
       "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "在美國的限制下，中國的 Moonshot AI 尋求 Nvidia 晶片進入歐洲",
+      "summary": "",
+      "originalTitle": "China's Moonshot AI sought Nvidia chip access in Europe amid U.S. curbs",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUc0JXdFFrNXJHSkxKclVRQkdfMXZNbmk5akFqZDA2dWFQbXV2MUd1d2V1TFhfVW9uT2F5WXJJVHZoNUZUUEtLVFF2aWotaHBVTk9kcFpvZkFucXppMlp3YzZvaWdXVmZ3ZUZJdzFsV3kzaXBMWnpiSjJ4aUhxcVE?oc=5",
+      "ts": "2026-11-05T13:34:14+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -641,7 +719,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：AppLovin（APP）｜券商：Scotiabank｜動作：下修｜調整原因：來源未提供具體理由",
@@ -674,7 +752,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -685,8 +763,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "META",
@@ -1670,8 +1748,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "MSFT",
-      "group": "CSP",
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "微軟正在大規模執行不可重複的資產負債表支援的基礎設施預售",
       "summary": "",
@@ -1681,14 +1759,14 @@
       "ts": "2026-11-05T12:15:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.681510201731311,
+      "movePct": -1.9494413186464832,
       "relatedTickers": [
-        "MSFT",
         "ORCL",
+        "MSFT",
         "AMZN"
       ],
       "eventType": "",
-      "score": 25.5,
+      "score": 21.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2956,71 +3034,6 @@
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CLS",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "利多",
-      "title": "Zacks Research 上調天弘 (NYSE:CLS) 股票評級",
-      "summary": "",
-      "originalTitle": "Celestica (NYSE:CLS) Stock Rating Upgraded by Zacks Research",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaTd4MVlzenh4bkFqbjRNVDZUU3JFMkE5dGwxOHRUSzNIWDFuaFg3RFV4NFF1bkFhNkRwSmJmb180VFVzSTBCc2RnV0xEaWNzblV0dEdQcW0wTVR6a200UzMzRTRDVEo2ZVRYSVhtVlREV1lsNnJVeGJSYnNneDdYZERuTEJfUUNTbUQzbHJfQXpvOHFjZlUtaEdpc0ZUcG41YVg5MlFCZmdkd3ZnWFpubjJERDJhZ2p3TnNmeQ?oc=5",
-      "ts": "2026-11-05T11:33:36+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "CLS"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 9
-    },
-    {
-      "ticker": "QCOM",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "為什麼高通股票今天暴跌",
-      "summary": "",
-      "originalTitle": "Why Qualcomm stock is tumbling today",
-      "originalSummary": "Qualcomm's $2.35 Earnings Forecast Fails to Impress Wall Street",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-stock-tumbling-today-113240644.html",
-      "ts": "2026-11-05T11:32:40+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 5.32749498266738,
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "eventType": "",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
