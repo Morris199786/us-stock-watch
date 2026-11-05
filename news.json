@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 12:55 台灣時間",
+  "updatedAt": "2026-11-05 12:59 台灣時間",
   "historyUpdatedDate": "2026-11-05",
   "historyLastAttemptAt": "2026-11-04T16:23:49.566192+00:00",
   "historyItemCount": 800,
@@ -26,6 +26,38 @@
       "score": 3.0,
       "featured": true,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "AMD Stock Jumped After Its Report. I'd Wait for a Lower Price to Buy.",
+      "summary": "The chipmaker now expects its revenue to rise over 80% next year. What's a fair price to pay for that?",
+      "originalTitle": "AMD Stock Jumped After Its Report. I'd Wait for a Lower Price to Buy.",
+      "originalSummary": "The chipmaker now expects its revenue to rise over 80% next year. What's a fair price to pay for that?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumped-report-id-043701045.html",
+      "ts": "2026-11-05T04:37:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.0084728249638353,
+      "relatedTickers": [
+        "AMD"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -714,7 +746,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：TSMC（TSM）｜券商：Bernstein｜動作：上修｜目標價：$600（原 $554）｜調整原因：Bernstein 將台積電目標價從 554 美元上調至 600 美元，上漲 46 美元",
@@ -2696,7 +2728,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -2728,7 +2760,7 @@
         "VIAV"
       ],
       "eventType": "新題材",
-      "score": 10.5,
+      "score": 9.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2767,7 +2799,7 @@
         "VRT"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 9.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2869,55 +2901,6 @@
       },
       "top10": true,
       "top10Rank": 10
-    },
-    {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
-      "tag": "利空",
-      "title": "UBS 下修 AMD 目標價至 $700，維持 Buy",
-      "summary": "",
-      "originalTitle": "UBS maintains Advanced Micro Devices at Buy, lowers price target to $700 from $730",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZU5Dekc5M2dqX0pzTUpBUXhIQXFwb2hGV0JqbGRyVDRpLWhmVm11a0JnNHRfWEU5QUJ5SF9wMnBtZ1dhZEVCZWVpUG5jRjhUM3VTZ0laQzBjaWlyOGtVWXhUX1U5SHNnUVNOUDFHU3VtWFdpMGpQWjM5OEh2VkxjRVR3d0NYbFlkVks3alBLR3k4M1Q1bnV2dUVNeXB2Szd3cnhQenh4WWxLdkJweDB6eHFQX0g3MkJRclVkeS1FR2xSVHhhYkpaYnRxc3RpXzVDRmRUQ3RCUF8?oc=5",
-      "ts": "2026-11-04T22:46:32+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "UBS",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$700",
-          "oldTarget": "$730",
-          "reason": "瑞銀維持 Advanced Micro Devices 的買入評級，將目標價從 730 美元下調至 700 美元",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMD",
-          "targetCompany": "Advanced Micro Devices"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMD"
-      ],
-      "eventType": "",
-      "score": 174.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Advanced Micro Devices（AMD）｜券商：UBS｜動作：下修｜評等：Buy｜目標價：$700（原 $730）｜調整原因：瑞銀維持 Advanced Micro Devices 的買入評級，將目標價從 730 美元下調至 700 美元",
-        "numbers": [
-          "$730",
-          "$700"
-        ],
-        "why": "調整原因：瑞銀維持 Advanced Micro Devices 的買入評級，將目標價從 730 美元下調至 700 美元",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：瑞銀維持 Advanced Micro Devices 的買入評級，將目標價從 730 美元下調至 700 美元",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
