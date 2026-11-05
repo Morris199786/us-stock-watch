@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 18:45 台灣時間",
+  "updatedAt": "2026-11-05 18:50 台灣時間",
   "historyUpdatedDate": "2026-11-05",
   "historyLastAttemptAt": "2026-11-04T16:23:49.566192+00:00",
   "historyItemCount": 800,
@@ -52,8 +52,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "QCOM",
@@ -105,10 +105,59 @@
       "top10Rank": null
     },
     {
+      "ticker": "NBIS",
+      "group": "NeoCloud／AI 算力",
+      "tag": "利多",
+      "title": "Citi 調整 NBIS 目標價至 $265",
+      "summary": "主要要點花旗於 11 月 4 日將 Nebius 目標股價從 324 美元下調至 265 美元，並維持買入評級，該目標比該股價格高出 87%。",
+      "originalTitle": "Could Nebius Actually Climb 87%? Or Is Citi Totally Wrong?",
+      "originalSummary": "Key TakeawaysCiti cut its Nebius price target to $265 from $324 on Nov. 4 and kept its Buy rating, a target 87% above the stock’s price.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/could-nebius-actually-climb-87-103943458.html",
+      "ts": "2026-11-05T10:39:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -6.673700870482701,
+      "analystDetails": [
+        {
+          "broker": "Citi",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "下修",
+          "newTarget": "$265",
+          "oldTarget": "$324",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NBIS",
+          "targetCompany": "Nebius"
+        }
+      ],
+      "relatedTickers": [
+        "NBIS"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Nebius（NBIS）｜券商：Citi｜動作：下修｜評等：Buy｜目標價：$265（原 $324）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$324",
+          "$265"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
-      "title": "SpaceX-Tesla Deal Structure: $3.5T, 56% Votes [2026] - https://tech-insider.org/",
+      "title": "SpaceX-特斯拉交易結構：3.5T 美元，56% 投票 [2026] - https://tech-insider.org/",
       "summary": "",
       "originalTitle": "SpaceX-Tesla Deal Structure: $3.5T, 56% Votes [2026] - https://tech-insider.org/",
       "originalSummary": "",
@@ -125,7 +174,7 @@
       "eventType": "",
       "score": 15.75,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -177,13 +226,14 @@
       "title": "資料中心的強烈反對如何影響大型科技公司的利益",
       "summary": "The 2026 midterm election blue wave, which shifted the balance of power in Congress and across state races toward Democrats, can be seen as a repudiation of AI and the controversial data centers that provide its computing power. Data center proponents have heavily backed President Donald Trump and Republican candidates, underscored by xAI CEO Elon Musk investing hundreds of millions of dollars into Texas midterm camp",
       "originalTitle": "How the Data Center Backlash Could Play Into the Hands of Big Tech",
-      "originalSummary": "",
-      "url": "https://www.wsj.com/tech/ai/how-the-data-center-backlash-could-play-into-the-hands-of-big-tech-a37dfb29?siteid=yhoof2&yptr=yahoo",
+      "originalSummary": "The 2026 midterm election blue wave, which shifted the balance of power in Congress and across state races toward Democrats, can be seen as a repudiation of AI and the controversial data centers that provide its computing power. Data center proponents have heavily backed President Donald Trump and Republican candidates, underscored by xAI CEO Elon Musk investing hundreds of millions of dollars into Texas midterm campaigns to support the industry. But in many parts of the country, voters didn’t need to make their voices on data centers heard through candidates. They had direct initiatives on the ballot this week that would decide whether data center projects would move ahead in their districts. In line with a growing backlash against data centers and AI , voters supported about 40 election-day measures that would restrict the construction of new data centers, with only one result — in Harwood, North Dakota — favoring data center expansion.",
+      "url": "https://www.cnet.com/news/politics/data-center-ai-losses-midterms/",
       "ts": "2026-11-05T10:30:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": 6.681510201731311,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "MSFT"
       ],
@@ -192,13 +242,15 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "The 2026 midterm election blue wave, which shifted the balance of power in Congress and across state races toward Democrats, can be seen as a repudiation of AI and the controversial data centers that provide its computing power. Data center proponents have heavily backed President Donald Trump and Republican candidates, underscored by xAI CEO Elon Musk investing hundreds of millions of dollars into Texas midterm camp",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Data center proponents have heavily backed President Donald Trump and Republican candidates, underscored by xAI CEO Elon Musk investing hundreds of millions of dollars into Texas midterm camp",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -283,6 +335,38 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "中期選舉後，美國股指期貨漲跌互現，高通股價下跌，半導體股價下跌：道瓊斯、標準普爾、納斯達克、華爾街",
+      "summary": "",
+      "originalTitle": "US Stock Futures Mixed After Midterm Elections as Qualcomm Falls and Semiconductor Shares Decline: Dow Jones, S&P, Nasdaq, Wall Street",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWkVWazJXS0xiTXM3R21MY0UtV3JWbnRxWDVMOUtFX3ZqTWcxWEpRbXh0QzV2VFhKeVpCVl9WN2JfSVIyeldvTWsyaUMzZklxeDVBVzgyeWZyQnp3a0N3dnFfUlQzdWVUX0l0REVhWjZ4NEJmaVh1bUhQN1oxTVE1MWczQVN1SDhYZ1pJbGEyNWhUTHJHNkF5OWFhMA?oc=5",
+      "ts": "2026-11-05T10:23:56+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "QCOM"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -606,7 +690,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -714,7 +798,7 @@
       "group": "CSP",
       "tag": "利多",
       "title": "亞馬遜推出 Shop Direct 商家工作區",
-      "summary": "亞馬遜推出了 Shop Direct Merchant Workspace，這是一個「免費」門戶，允許符合條件的商家將其線上商店與 Amazon 和 Alexa for Shopping 服務連接起來。此自助服務入口網站使商家能夠註冊 Shop Direct、提交產品來源、管理其參與以及查看哪些產品可供亞馬遜客戶使用。",
+      "summary": "",
       "originalTitle": "Amazon launches Shop Direct Merchant Workspace",
       "originalSummary": "Amazon has introduced the Shop Direct Merchant Workspace, a \"free\" portal that allows eligible merchants to connect their online stores with Amazon and Alexa for Shopping services. The self-service portal enables merchants to register for Shop Direct, submit product feeds, manage their participation, and see which products are available to Amazon customers.",
       "url": "https://finance.yahoo.com/news/amazon-launches-shop-direct-merchant-094808920.html",
@@ -729,13 +813,13 @@
       ],
       "eventType": "新題材",
       "score": 30.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亞馬遜推出了 Shop Direct Merchant Workspace，這是一個「免費」門戶，允許符合條件的商家將其線上商店與 Amazon 和 Alexa for Shopping 服務連接起來。此自助服務入口網站使商家能夠註冊 Shop Direct、提交產品來源、管理其參與以及查看哪些產品可供亞馬遜客戶使用。",
+        "event": "亞馬遜推出了 Shop Direct Merchant Workspace，這是一個「免費」門戶，允許符合條件的商家將其線上商店與 Amazon 和 Alexa for Shopping 服務連接起來。此自助服務入口網站可讓商家註冊 Shop Direct、提交產品來源、管理其參與以及查看哪些產品可供亞馬遜客戶使用。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "亞馬遜推出了 Shop Direct Merchant Workspace，這是一個「免費」門戶，允許符合條件的商家將其線上商店與 Amazon 和 Alexa for Shopping 服務連接起來。此自助服務入口網站使商家能夠註冊 Shop Direct、提交產品來源、管理其參與以及查看哪些產品可供亞馬遜客戶使用。",
+        "stance": "亞馬遜推出了 Shop Direct Merchant Workspace，這是一個「免費」門戶，允許符合條件的商家將其線上商店與 Amazon 和 Alexa for Shopping 服務連接起來。此自助服務入口網站可讓商家註冊 Shop Direct、提交產品來源、管理其參與以及查看哪些產品可供亞馬遜客戶使用。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -820,7 +904,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -979,7 +1063,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1137,7 +1221,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Coherent (NYSE:COHR) reported a sizable earnings beat for Q1 fiscal 2027, tied to demand from AI-focused data centers. Management raised revenue and margin targets for the full fiscal year, citing stronger orders and a fuller manufacturing pipeline. The company highlighted indium phosphide laser technology, its PhotonLink platform, and a long-term agreement with a leading AI customer as key demand drivers. The raised growth and margin guidance tied to AI data center demand shows only part of...",
+        "event": "相干公司 (NYSE:COHR) 報告稱，2027 財年第一季的獲利大幅超出預期，這與以人工智慧為中心的資料中心的需求有關。管理階層提高了整個財年的收入和利潤目標，理由是訂單增加和生產線更完善。該公司強調磷化銦雷射技術、其 PhotonLink 平台以及與領先人工智慧客戶的長期協議是關鍵需求驅動因素。與人工智慧資料中心需求相關的成長和利潤指導的提高僅顯示了一部分...",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "相干公司 (NYSE:COHR) 報告稱，2027 財年第一季的獲利大幅超出預期，這與以人工智慧為中心的資料中心的需求有關。管理階層提高了整個財年的收入和利潤目標，理由是訂單增加和生產線更完善。該公司強調磷化銦雷射技術、其 PhotonLink 平台以及與領先人工智慧客戶的長期協議是關鍵需求驅動因素。與人工智慧資料中心需求相關的成長和利潤指導的提高僅顯示了一部分...",
@@ -1173,12 +1257,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "如果你支持波音公司創紀錄的積壓訂單、不斷增加的交付量和重量級國防合同，那麼最近的更新將會刺痛你。從年初開始持有波音公司意味著損失 22.3%（包括股息）。如果這個結果令人不安，那麼真正的問題比「出了什麼問題？」更尖銳。 2028 年的最初成長、利潤率和市盈率假設的哪些部分未能解釋企業內部實際發生的情況？波音公司已經採取行動。",
+        "event": "如果你支持波音公司創紀錄的積壓訂單、不斷增加的交付量和重量級國防合同，那麼最近的更新將會刺痛你。從年初持有波音公司意味著將損失 22.3%（包括股息）。如果這個結果令人不安，那麼真正的問題比「出了什麼問題？」更尖銳。 2028 年的最初成長、利潤率和市盈率假設的哪些部分未能解釋企業內部實際發生的情況？波音公司已經採取行動。",
         "numbers": [
           "22.3%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "如果你支持波音公司創紀錄的積壓訂單、不斷增加的交付量和重量級國防合同，那麼最近的更新將會刺痛你。從年初開始持有波音公司意味著損失 22.3%（包括股息）。如果這個結果令人不安，那麼真正的問題比「出了什麼問題？」更尖銳。",
+        "stance": "如果你支持波音公司創紀錄的積壓訂單、不斷增加的交付量和重量級國防合同，那麼最近的更新將會刺痛你。從年初持有波音公司意味著將損失 22.3%（包括股息）。如果這個結果令人不安，那麼真正的問題比「出了什麼問題？」更尖銳。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1702,7 +1786,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "FLEX",
@@ -1982,7 +2066,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -2144,7 +2228,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "QCOM",
@@ -2622,7 +2706,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "VIAV",
@@ -2833,80 +2917,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "RKLB",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "SpaceX 瞄準無線和人工智慧財富，火箭實驗室發射接近 100 次——是什麼推動了太空股票",
-      "summary": "",
-      "originalTitle": "SpaceX Targets Wireless And AI Riches, Rocket Lab Nears 100 Launches — What’s Moving Space Stocks",
-      "originalSummary": "SPCX advanced its Qualcomm partnership and $40 billion AI financing amid Boost Mobile talks and political risks. RKLB completed Electron's 99th flight as Neutron delays, insider sales and Iridium scrutiny stayed in focus. ASTS announced an AT&T handoff milestone and secured a 30-year Chilean concession as competition intensified.",
-      "url": "https://finance.yahoo.com/technology/articles/spacex-targets-wireless-ai-riches-060717990.html",
-      "ts": "2026-11-05T06:07:17+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.7846775675179134,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "RKLB",
-        "SPCX",
-        "QCOM"
-      ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "在 Boost Mobile 談判和政治風險的背景下，SPCX 推動了與高通的合作夥伴關係和 400 億美元的人工智慧融資。 RKLB 完成了 Electron 的第 99 次飛行，因為 Neutron 的延誤、內幕銷售和銥星的審查仍然是人們關注的焦點。隨著競爭的加劇，ASTS 宣布了 AT&T 移交里程碑，並獲得了智利 30 年的特許經營權。",
-        "numbers": [
-          "$40 billion",
-          "40 billion"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "在 Boost Mobile 談判和政治風險的背景下，SPCX 推動了與高通的合作夥伴關係和 400 億美元的人工智慧融資。 RKLB 完成了 Electron 的第 99 次飛行，因為 Neutron 的延誤、內幕銷售和銥星的審查仍然是人們關注的焦點。隨著競爭的加劇，ASTS 宣布了 AT&T 移交里程碑，並獲得了智利 30 年的特許經營權。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "APP",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "利多",
-      "title": "Applovin 公司：Btig 提高目標優先級",
-      "summary": "",
-      "originalTitle": "Applovin Corporation : Btig Raises Target Pri",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSThjaEVLOUdiNUt6cHVYVmZaV1dhaUlCRERqS3d3YmplaFRnM2V1N1hPcUJheTlGeHZmT2I2cUt5ZFFqUlc2VThFT1JiaFRMcXlLYnE4cmRUSnpQSzEzTVl6bGhFT21Ya3JxODN2VzJ1d214VmRWQ0tKYVBhcjVQM2hFQlE2T2NNbW40ZU9VLWRmYjlGQktpdHB0Y3JZMmpFb2p6RDgyWnotUQ?oc=5",
-      "ts": "2026-11-05T05:44:28+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "relatedTickers": [
-        "APP"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -2915,7 +2925,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "伊隆馬斯克支持的候選人在德州失敗後，SpaceX 和特斯拉股價暴跌",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM 。 nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T000\",\"datePublished\":\"2026-11-04T05:016\"",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM etadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"股票|投資|我們新聞|美國市場|股票精選\",\"additionalSectionentFormattedFull\":\"精選股票定價\"Full nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T000\",\"datePublished\":\"2026-11-04T05:016\"",
       "originalTitle": "SpaceX and Tesla Stocks Tumble After Elon Musk-Backed Candidates Lose in Texas",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"stocks|investing|us news|us markets over|stock picks\",\"additionalSectionContentFormattedFull\":\"stocks|investing|us news|us markets overview|stock picks\",\"authorFormatted\":\"kai nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah min\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T05:16:01+0000\",\"description\":\"AI fortunes were mixed as premarket trading opened on Wednesday.\",\"expires\":null,\"headline\":\"AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown\",\"id\":108514090,\"liveURL\":\"\\u002F2026\\u002F11\\u002F04\\u002Fai-stocks-texas-governor-data-centers.html\",\"native\":false,\"pageName\":\"108514090|2026\\u002F11\\u002F04\\u002Fai-stocks-texas-governor-data-centers\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"cnbc us team\",\"projectTeamContentFormattedFull\":\"cnbc us team\",\"relatedTagsFilteredFormatted\":\"breaking news i|wall street|business|markets|stock markets|nasdaq 100 fut |technology sele|elon musk|elon musk|breaking news m|iren ltd|united states|greg abbott|texas|government and |invesco solar e|coreweave|voting|tesla inc|oracle corp|space explorati|nebius group nv|ishares semicon|global x data c|nvidia corp|ishares expande|alphabet class |amazoncom inc|meta platforms |microsoft corp|advanced micro |robinhood marke|invesco qqq tru|ishares expande|wells fargo co|bank of america|ark innovation |elon musk|republic of geo\",\"relatedTagsFilteredFormattedFull\":\"breaking news investing|wall street|business|markets|stock markets|nasdaq 100 fut sep25|technology select sector spdr fund|elon musk|elon musk|breaking news markets|iren ltd|united states|greg abbott|texas|government and politics|invesco solar etf|coreweave|voting|tesla inc|oracle corp|space exploration technologies corp|nebius group nv|ishares semiconductor etf|global x data center digital infrastructure etf|nvidia corp|ishares expanded tech sector etf|alphabet class a|amazoncom inc|meta platforms inc|microsoft corp|advanced micro devices inc|robinhood markets inc|invesco qqq trust|ishares expanded techsoftware sector etf|wells fargo co|bank of america corp|ark innovation etf|elon musk|republic of georgia\",\"sectionHierarchyFormatted\":\"markets\",\"sectionHierarchyFormattedFull\":\"markets\",\"seoTitle\":\"SpaceX, Tesla stocks fall over 4% on Democrats big win\",\"shortDateFirstPublished\":\"11\\u002F04\\u002F2026\",\"shortDateLastPublished\":\"11\\u002F04\\u002F2026\",\"shortDatePublished\":\"11\\u002F04\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4iVwkCK\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4BFJB9U\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4ix3mI3\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002F",
       "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
@@ -2939,12 +2949,12 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM 。 nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T000\",\"datePublished\":\"2026-11-04T05:016\"",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM etadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"股票|投資|我們新聞|美國市場|股票精選\",\"additionalSectionentFormattedFull\":\"精選股票定價\"Full nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T000\",\"datePublished\":\"2026-11-04T05:016\"",
         "numbers": [
           "4%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM 。 nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:16:01+0000\",\"dateLastPublished\":\"2026-11-04T14:43:57+0000\",\"datePublished\":\"2026-11-04T000\",\"datePublished\":\"2026-11-04T05:016\"",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalM etadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"股票|投資|我們新聞|美國市場|股票精選\",\"additionalSectionentFormattedFull\":\"精選股票定價\"Full nicolschwar|sarah min\",\"authorFormattedFull\":\"kai nicolschwarz|sarah分鐘\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormFormed\":Pubwrite」 \":\"2026-11-04T05:1",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5541,7 +5551,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "資料中心需求推動獲利成長，Fabrinet 股價飆升",
-      "summary": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 一致預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果受惠於資料中心、通訊基礎設施和工業市場的廣泛需求。",
+      "summary": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 共識預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果得益於資料中心、通訊基礎設施和工業市場的廣泛需求。",
       "originalTitle": "Fabrinet Stock Surges on Earnings Beat Fueled by Data Center Demand",
       "originalSummary": "Fabrinet FN reported first-quarter fiscal 2027 non-GAAP earnings of $4.34 per share, up 48.6% year over year. The figure surpassed the Zacks Consensus Estimate by 3.58%. Revenues surged 50.7% year over year to $1.47 billion, beating the consensus mark by 5%. Results benefited from broad-based demand across data center, communications infrastructure and industrial markets. Data center revenues jumped 78% year over year to $777 million, driven by strong demand for transceivers, data center interconnect and high-performance computing products.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/fn-q1-earnings-beat-estimates-150200536.html",
@@ -5558,7 +5568,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 一致預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果受惠於資料中心、通訊基礎設施和工業市場的廣泛需求。",
+        "event": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 共識預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果得益於資料中心、通訊基礎設施和工業市場的廣泛需求。",
         "numbers": [
           "$4.34",
           "$1.47 billion",
@@ -5566,7 +5576,7 @@
           "48.6%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 一致預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果受惠於資料中心、通訊基礎設施和工業市場的廣泛需求。",
+        "stance": "Fabrinet FN 公佈的 2027 財年第一季非 GAAP 每股收益為 4.34 美元，較去年同期成長 48.6%。該數字超出 Zacks 共識預期 3.58%。營收年增 50.7% 至 14.7 億美元，超出市場預期 5%。結果得益於資料中心、通訊基礎設施和工業市場的廣泛需求。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -6399,7 +6409,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "由人工智慧驅動Boom、Marvell 和 Lumentum 宣布價值 1,150 億美元的合併",
-      "summary": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+      "summary": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
       "originalTitle": "Driven by A.I. Boom, Marvell and Lumentum Announce $115 Billion Merger",
       "originalSummary": "Marvell Technology on Monday announced a $115 billion stock swap to buy Lumentum Holdings, in a major bet that a technology known as optical networking will be crucial to the build-out of data centers for artificial intelligence. The transaction between the two Silicon Valley companies, which includes Lumentum’s debt, would rank as the largest ever by value between publicly held tech companies. Marvell makes an array of chips for networking and A.I. The 31-year-old company has been growing rapidly by acquisition since Matthew Murphy joined it as chief executive in 2016. Lumentum makes lasers and a series of other chips and components that use light to transmit data signals, a mainstay of long-distance communications known as optical networking, which is increasingly used inside data centers.",
       "url": "https://www.nytimes.com/2026/11/02/technology/marvell-lumentum-115-billion-merger-ai.html",
@@ -6417,7 +6427,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+        "event": "Marvell Technology 週一宣布以 1,150 億美元的股票互換收購 Lumentum Holdings，這是一項重大賭注，押注於一種名為光網路的技術對於人工智慧資料中心的建設至關重要。兩家矽谷公司之間的交易（其中包括 Lumentum 的債務）將成為上市科技公司之間有史以來規模最大的交易。 Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
         "numbers": [
           "$115 Billion",
           "$115 billion",
@@ -6425,7 +6435,7 @@
           "115 billion"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
+        "stance": "Marvell 生產一系列用於網路和人工智慧的晶片。自 Matthew Murphy 於 2016 年加入公司擔任執行長以來，這家擁有 31 年歷史的公司一直透過收購實現快速發展。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14542,7 +14552,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -14560,10 +14570,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14576,7 +14586,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Lumentum 股價因可能與 Marvell 合併的報導而上漲",
-      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+      "summary": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
       "originalTitle": "Lumentum stock jumps on report of possible merger with Marvell",
       "originalSummary": "Marvell Technology ( NASDAQ:MRVL ) is in advanced talks to buy Lumentum Holdings ( NASDAQ:LITE ), a maker of data center optics, and a deal could come as soon as next week. The report cited people familiar with the matter. Representatives for the two companies could not immediately be reached for comment by Bloomberg.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-sinks-while-lumentum-131639723.html",
@@ -14593,10 +14603,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "event": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購資料中心光學元件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
+        "stance": "Marvell Technology（納斯達克股票代碼：MRVL）正在就收購數據中心光學器件製造商 Lumentum Holdings（納斯達克股票代碼：LITE）進行深入談判，交易最快可能在下週達成。報道引述知情人士的話稱。彭博社未能立即聯繫到這兩家公司的代表發表評論。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -15075,7 +15085,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "駭客利用思科 SD-WAN 缺陷植入惡意軟體來竊取加密金鑰",
-      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+      "summary": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
       "originalTitle": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
       "originalSummary": "PHP2Shell security flaws now sucessfully exploited in the wild DreamHost forces password resets in ongoing \"incident\" Kali Linux 2026.3 released with 6 new tools, desktop updates Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches How to access the Dark Web using the Tor Browser How to enable Kernel-mode Hardware-enforced Stack Protection in Windows 11 How to backup and restore the Windows Registry A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware framework called KeyDrift. CVE-2026-20127 is a max-severity flaw that Cisco patched in February 2026, which allows remote attackers to gain privileged access to Catalyst SD-WAN Controller and Manager and add rogue peers. UAT-8616 has exploited the vulnerability as a zero-day since at least 2023 , and recent research also linked its exploitation to the Chinese Volt Typhoon state-sponsored hacking group.",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
@@ -15091,10 +15101,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "event": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，包含 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 中啟用程式碼和執行功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
+        "stance": "PHP2Shell 安全漏洞現已在野外成功利用 DreamHost 在持續的「事件」中強制重設密碼 Kali Linux 2026.3 發布，附帶 6 個新工具和桌面更新 關鍵「HTTP2Shell」Brotli 漏洞觸發緊急修補程式 如何使用 Tor 瀏覽器存取暗網 如何在 Windows 11 功能中啟用程式設定新硬體資料表 111 如何在功能組織被追蹤為據觀察，UAT-11473 利用 CVE-2026-20127（Cisco Catalyst SD-WAN 控制器中的身份驗證繞過缺陷）來部署名為 KeyDrift 的自訂惡意軟體框架。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -18953,7 +18963,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "美國機構批准亞馬遜Leo以115億美元收購Globalstar",
-      "summary": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+      "summary": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
       "originalTitle": "US agency approves Amazon Leo’s $11.5 billion acquisition of Globalstar",
       "originalSummary": "Key Stats for Amazon StockPrice change for Amazon stock in last 6 months: -3%$AMZN Stock Price as of Oct. 27: $25352-Week High: $287$AMZN Stock Price Target: $332__Now Live: Discover how much upside your favorite stocks could have using TIKR’s new Valuation Model (It’s free)__>>> What Happened?Amazon (AMZN:NASDAQ) got a regulatory green light for its satellite plans as the FCC approved Amazon Leo’s $11.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/fcc-approves-11-5-billion-105856064.html",
@@ -18969,7 +18979,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+        "event": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
         "numbers": [
           "$11.5 billion",
           "$25352",
@@ -18977,7 +18987,7 @@
           "$332"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票的價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間發生__>>> 上漲了什麼？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
+        "stance": "亞馬遜股票的關鍵統計數據 過去 6 個月亞馬遜股票價格變化：-3%$AMZN 股價截至 10 月 27 日：$25352 週高點：$287$AMZN 股價目標：$332__現在實時：使用 TIKR 的新估值模型（免費）了解你最喜歡的股票可以有多少空間__>> 發生了什麼空間？亞馬遜（AMZN：納斯達克）獲得了監管綠燈FCC 批准了亞馬遜 Leo 的 11 美元衛星計畫。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
@@ -23576,7 +23586,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 以近 57 億美元收購客戶參與平台",
-      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+      "summary": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
       "originalTitle": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion",
       "originalSummary": "(Bloomberg) -- Salesforce Inc. has agreed to buy Braze Inc., an artificial intelligence-powered platform for marketers, for almost $5.7 billion in enterprise value. World's Largest Retirement Community Set to Borrow $180 Million Zelenskyy Says Trump Is Pushing Ukraine, Not Putin, to Yield Eric Schmidt's 1% Anthropic Stake Set to Pay Huge Windfall Musk Plans to Gift SpaceX Shares to Kids Through Trump Accounts Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
       "url": "https://finance.yahoo.com/technology/ai/articles/salesforce-buy-marketing-platform-braze-121214100.html",
@@ -23594,7 +23604,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "event": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "numbers": [
           "$5.7 Billion",
           "$5.7 billion",
@@ -23602,7 +23612,7 @@
           "1%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能貿易而攀升",
+        "stance": "(彭博社) -- Salesforce Inc. 已同意以近 57 億美元的企業價值收購 Braze Inc.，這是一個由人工智慧驅動的行銷平台。世界上最大的退休社區將藉入 1.8 億美元 澤倫斯基稱特朗普正在推動烏克蘭而非普京讓出埃里克·施密特的 1% Anthropic 股份將支付巨額意外之財 馬斯克計劃通過特朗普賬戶向孩子們贈送 SpaceX 股票 納斯達克 100 指數在潰敗後因普京貿易復甦而攀升：人工智能交易",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
