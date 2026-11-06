@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-07 07:33 台灣時間",
+  "updatedAt": "2026-11-07 07:44 台灣時間",
   "historyUpdatedDate": "2026-11-07",
   "historyLastAttemptAt": "2026-11-06T16:02:46.678285+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-06",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google-backed miner reveals $710M profit, operating loss surges 257%",
+      "summary": "TeraWulf’s AI business is growing fast. Its earnings still require a closer look.",
+      "originalTitle": "Google-backed miner reveals $710M profit, operating loss surges 257%",
+      "originalSummary": "TeraWulf’s AI business is growing fast. Its earnings still require a closer look.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/google-backed-miner-reveals-710m-233000866.html",
+      "ts": "2026-11-06T23:30:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.782107088509032,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "ARM",
       "group": "CPU 概念股",
@@ -275,7 +307,56 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
+    },
+    {
+      "ticker": "NET",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利多",
+      "title": "JP Morgan 上修 NET 目標價至 $375，維持 Overweight",
+      "summary": "",
+      "originalTitle": "JP Morgan maintains Cloudflare at Overweight, raises price target to $375 from $350",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdldGc1lmdlZ2Y3RmcHRodDFpR1A5Qy1HZkt2RFdJbUNFTFViYUxQd2RRejlDTlZQMEhkSGI2dUVUaUpkYnFjMWdYajQ3Y3NTZGVrRDFwdXdQV1ZkTWRUZU5DMWQ5dkYzZW9LVEZ2a2Y2a1FJdTktVmN1VWtBOFI4akg5dXVFUzQtdktjNFQtZnhpUHZFR05UanJhQU1RcXRkSVdiUHZSTUJVSUNEVmFhZlR6YjFyWVZrUDNxVTA2bC1la1FPSDdqZWVRUUNqQUpUdHdZekNVdmxxdw?oc=5",
+      "ts": "2026-11-06T22:40:33+00:00",
+      "sourceType": "major_broker_global",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "JP Morgan",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "上修",
+          "newTarget": "$375",
+          "oldTarget": "$350",
+          "reason": "JP Morgan maintains Cloudflare at Overweight, raises price target to $375 from $350",
+          "reasonConfidence": "medium",
+          "targetTicker": "NET",
+          "targetCompany": "Cloudflare"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NET"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Cloudflare（NET）｜券商：JP Morgan｜動作：上修｜評等：Overweight｜目標價：$375（原 $350）｜調整原因：JP Morgan maintains Cloudflare at Overweight, raises price target to $375 from $350",
+        "numbers": [
+          "$350",
+          "$375"
+        ],
+        "why": "調整原因：JP Morgan maintains Cloudflare at Overweight, raises price target to $375 from $350",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：JP Morgan maintains Cloudflare at Overweight, raises price target to $375 from $350",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 6
     },
     {
       "ticker": "VST",
@@ -321,7 +402,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -352,6 +433,52 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "RKLB",
+      "group": "太空／國防／無人系統",
+      "tag": "利多",
+      "title": "Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+      "summary": "",
+      "originalTitle": "Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRFhZa2tXMkZSM1QtdC1UdGdhNmJjbVlPZFFfOGY4bTFHVkpBVGQ2VzBjSEo5UXVJbzhBZDlSU3J4NHkwSHhWaktSaEZ4enhIM2VPS2htTGNUZjh5dkhoRkpLZ2M5dk9BYmQxSXNvQV9oQzRjMUZ6bXZRQ1l6TU5PUlVnUkpUbnl4NlVBelRvWmFCTU8tOW1JTS1MRjVJYTZjalV4cFRMMG13SkFEQ2hyOG9B?oc=5",
+      "ts": "2026-11-06T22:29:48+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": true,
+      "movePct": 15.394651011089366,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+          "reasonConfidence": "medium",
+          "targetTicker": "RKLB",
+          "targetCompany": "Rocket Lab"
+        }
+      ],
+      "relatedTickers": [
+        "RKLB"
+      ],
+      "eventType": "",
+      "score": 214.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Rocket Lab（RKLB）｜券商：Morgan Stanley｜動作：重申｜評等：Buy｜調整原因：Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+        "numbers": [],
+        "why": "調整原因：Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Morgan Stanley Maintains Rocket Lab(RKLB.US) With Buy Rating, Maintains Target Price $105",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "META",
@@ -549,7 +676,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Vistra Corp. 2026 年第三季財報電話會議摘要",
-      "summary": "Moby 對 Vistra Corp. 2026 年第三季財報電話會議的摘要",
+      "summary": "",
       "originalTitle": "Vistra Corp. Q3 2026 Earnings Call Summary",
       "originalSummary": "Moby summary of Vistra Corp.'s Q3 2026 earnings call",
       "url": "https://finance.yahoo.com/energy/articles/vistra-corp-q3-2026-earnings-220501061.html",
@@ -562,7 +689,7 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -641,7 +768,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "英偉達股票和其他人工智慧公司在拋售後反彈",
-      "summary": "英偉達和其他受人工智慧資料中心建設影響的晶片股在遭遇大幅拋售後於週五反彈。",
+      "summary": "",
       "originalTitle": "Nvidia Stock, Other AI Names Rebound After Sell-Off",
       "originalSummary": "Nvidia and other chip stocks exposed to the AI data center buildout rebounded on Friday after a hard sell-off.",
       "url": "https://www.investors.com/news/technology/nvidia-stock-other-ai-names-rebound-after-sell-off/?src=A00220&yptr=yahoo",
@@ -654,7 +781,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -673,7 +800,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "伊隆馬斯克宣布特斯拉將減少德克薩斯州工廠的 Cyber​​truck 生產，為 Cyber​​trcab 騰出空間",
-      "summary": "特斯拉的電動卡車與其執行長一樣備受爭議，銷量未能達到預期。",
+      "summary": "",
       "originalTitle": "Elon Musk announces Tesla will wind down Cybertruck production at Texas factory to make room for Cybercab",
       "originalSummary": "",
       "url": "https://finance.yahoo.com/technology/articles/elon-musk-announces-tesla-wind-220000200.html",
@@ -687,7 +814,7 @@
       ],
       "eventType": "",
       "score": 7.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1202,8 +1329,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "OKLO",
@@ -1789,7 +1916,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -2506,7 +2633,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -2620,121 +2747,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 20.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SITM",
-      "group": "類比／電源／功率／RF",
-      "tag": "利多",
-      "title": "Rosenblatt 調整 SITM 目標價至 $900",
-      "summary": "Investing.com -- Rosenblatt has identified SiTime Corporation as its top pick in the semiconductor sector, assigning a Buy rating with a $900 price target on shares currently trading at $403.27. The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-      "originalTitle": "Rosenblatt names top semiconductor stock",
-      "originalSummary": "Investing.com -- Rosenblatt has identified SiTime Corporation as its top pick in the semiconductor sector, assigning a Buy rating with a $900 price target on shares currently trading at $403.27. The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rosenblatt-names-top-semiconductor-stock-193907140.html",
-      "ts": "2026-11-06T19:39:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 17.44084507042254,
-      "analystDetails": [
-        {
-          "broker": "Rosenblatt",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "$900",
-          "oldTarget": "",
-          "reason": "The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-          "reasonConfidence": "high",
-          "targetTicker": "SITM",
-          "targetCompany": "SiTime"
-        }
-      ],
-      "relatedTickers": [
-        "SITM"
-      ],
-      "eventType": "",
-      "score": 220.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：SiTime（SITM）｜券商：Rosenblatt｜評等：Buy｜目標價：$900｜調整原因：The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-        "numbers": [
-          "$900"
-        ],
-        "why": "調整原因：The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：The precision-timing chip maker has demonstrated exceptional growth momentum, with the firm raising its earnings estimates substantially based on better-than-expected gross margin performance.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 2
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "微軟和谷歌面臨新法案，數據中心“必須支付自己的成本”",
-      "summary": "",
-      "originalTitle": "Microsoft and Google Face a New Bill as Data Centers “Have to Pay Their Own Costs”",
-      "originalSummary": "Key TakeawaysVoters turned against new data centers in the Nov. 3 midterms, and Microsoft, Alphabet, Amazon and Meta now face rules that make them pay for their own power and grid.",
-      "url": "https://finance.yahoo.com/technology/articles/microsoft-google-face-bill-data-193517316.html",
-      "ts": "2026-11-06T19:35:17+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.8379057314735094,
-      "relatedTickers": [
-        "META",
-        "GOOGL",
-        "MSFT",
-        "AMZN"
-      ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Key TakeawaysVoters turned against new data centers in the Nov. 3 midterms, and Microsoft, Alphabet, Amazon and Meta now face rules that make them pay for their own power and grid.",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Key TakeawaysVoters turned against new data centers in the Nov. 3 midterms, and Microsoft, Alphabet, Amazon and Meta now face rules that make them pay for their own power and grid.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克指數反彈，但仍有望連續第四周下跌",
-      "summary": "",
-      "originalTitle": "Nasdaq rebounds but remains on track for fourth straight weekly decline",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5",
-      "ts": "2026-11-06T19:34:48+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
