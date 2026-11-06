@@ -1,11 +1,89 @@
 {
-  "updatedAt": "2026-11-06 21:31 台灣時間",
+  "updatedAt": "2026-11-06 21:43 台灣時間",
   "historyUpdatedDate": "2026-11-06",
   "historyLastAttemptAt": "2026-11-05T16:14:07.619836+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-06",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Cathie Wood sells $120 million in AI stock, buys Nvidia",
+      "summary": "ARK Invest added Nvidia and Rocket Lab shares during the market selloff while trimming other AI-related holdings.",
+      "originalTitle": "Cathie Wood sells $120 million in AI stock, buys Nvidia",
+      "originalSummary": "ARK Invest added Nvidia and Rocket Lab shares during the market selloff while trimming other AI-related holdings.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sells-120-million-132237793.html",
+      "ts": "2026-11-06T13:22:37+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -9.258981661919751,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SITM",
+      "group": "類比／電源／功率／RF",
+      "tag": "利空",
+      "title": "UBS 下修 SITM 目標價至 $650",
+      "summary": "",
+      "originalTitle": "SiTime (NASDAQ:SITM) Price Target Cut to $650.00 by Analysts at UBS Group",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMWhEWmlKcjE4aE4xWVJ1YzlVUUJCaUs1NzROekRrUFpfR0NZMGpseHBReGtIS1BaYnZjTFBXVWxzSDBhdkw0UHE1YVZ3aE51dC1RbERYcTc0b1lnMlU4WjdTOWVKWmJCT3pRaVpIRWFlME9TdGViS2RqQmlkQWg0ZTl4NUhQRkxjS2ZOUmsyVXVFOC1QZUtBaEdBRTgtRGVWYnhQVnpXRkcxS1J1XzItTXJ5c1NQVlJ2Y18zUjZDX0hvTWFEVTFnUVNmVQ?oc=5",
+      "ts": "2026-11-06T13:22:20+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "UBS",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "SITM",
+          "targetCompany": "SiTime"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SITM"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：SiTime（SITM）｜券商：UBS｜動作：下修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "AAOI",
       "group": "光通訊／網通",
@@ -39,7 +117,7 @@
       "eventType": "",
       "score": 202.5,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Applied Optoelectronics（AAOI）｜券商：Rosenblatt｜動作：下修｜調整原因：來源未提供具體理由",
         "numbers": [],
@@ -50,7 +128,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MCHP",
@@ -142,7 +220,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "TSLA",
@@ -211,7 +289,7 @@
       "eventType": "",
       "score": 202.5,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Microchip（MCHP）｜券商：Cantor Fitzgerald｜動作：下修｜調整原因：來源未提供具體理由",
         "numbers": [],
@@ -222,7 +300,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MCHP",
@@ -268,7 +346,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MCHP",
@@ -356,7 +434,7 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
+      "ticker": "AVGO",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Cathie Wood Just Dumped $134 Million of Broadcom and Bought Nvidia and SpaceX",
@@ -367,14 +445,14 @@
       "ts": "2026-11-06T13:06:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.258981661919751,
+      "movePct": -10.430748433083458,
       "relatedTickers": [
-        "NVDA",
+        "AVGO",
         "SPCX",
-        "AVGO"
+        "NVDA"
       ],
       "eventType": "",
-      "score": 27.0,
+      "score": 28.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -425,7 +503,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -458,8 +536,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "SNDK",
+      "group": "記憶體／儲存",
       "tag": "題材",
       "title": "Dow Jones Futures Fall, AI Stocks Nvidia, Sandisk, CoreWeave, SpaceX Bounce; Tesla To End Cybertruck Production",
       "summary": "Nvidia, CoreWeave, SpaceX plunged, but the stock market sell-off spread far beyond AI. The October jobs report looms.",
@@ -469,17 +547,17 @@
       "ts": "2026-11-06T13:01:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.258981661919751,
+      "movePct": -22.264314632735694,
       "hasArticleBody": false,
       "relatedTickers": [
-        "NVDA",
-        "SPCX",
-        "CRWV",
         "SNDK",
+        "SPCX",
+        "NVDA",
+        "CRWV",
         "TSLA"
       ],
       "eventType": "",
-      "score": 27.0,
+      "score": 30.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -495,8 +573,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "NBIS",
+      "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Nvidia Partner CoreWeave Ready To Report Q3 As AI Stocks Crumble; Nebius, Qualys Also Due",
       "summary": "Despite strong top-line growth, CoreWeave stock and Nebius have been hit hard by sellers ahead of their Q3 earnings reports.",
@@ -506,15 +584,15 @@
       "ts": "2026-11-06T13:01:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.258981661919751,
+      "movePct": -14.94488411531939,
       "hasArticleBody": false,
       "relatedTickers": [
+        "NBIS",
         "NVDA",
-        "CRWV",
-        "NBIS"
+        "CRWV"
       ],
       "eventType": "",
-      "score": 27.0,
+      "score": 28.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -530,27 +608,56 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Futures Split After Market Sell-Off. What To Do Now.",
+      "summary": "",
+      "originalTitle": "Futures Split After Market Sell-Off. What To Do Now.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONko0NmFjRU1udUJFdmdCRVBzbFpMVVFwWlR3cWY4aThIV1NrVTlKbzFjTHlNNzBwLU1tOTV1UktuSUtVMHQzc0h2UGMzdXZZQ0FwN1ZELVR0REhSSFFfcXVPbW8xN21CQXgyZENhVkZxeFh5dmpsRWVJTjJPdjlFLWR5NjU4eG9uUjFDcEZEcjUzbmFzcGpkbW9CTkVwN3hjVWZqTWdMUnZaUnFkOFJ5ZTNvWHljVjZCSDgwV2JoRXR5aE9ROFU3TXoyRVlmTkhCZ0E?oc=5",
+      "ts": "2026-11-06T13:01:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
       "tag": "題材",
       "title": "Why The Blue Tsunami Rattled AI Stocks As Microsoft, Google, Amazon Fall",
-      "summary": "",
+      "summary": "The Blue Tsunami midterms sent some AI stocks like Nvidia reeling while cloud giants rallied.",
       "originalTitle": "Why The Blue Tsunami Rattled AI Stocks As Microsoft, Google, Amazon Fall",
       "originalSummary": "The Blue Tsunami midterms sent some AI stocks like Nvidia reeling while cloud giants rallied.",
       "url": "https://www.investors.com/news/technology/why-the-blue-tsunami-rattled-ai-stocks-as-microsoft-google-amazon-fall/?src=A00220&yptr=yahoo",
       "ts": "2026-11-06T13:00:54+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.258981661919751,
+      "movePct": -3.5750269881252295,
       "relatedTickers": [
-        "NVDA",
-        "GOOGL",
         "MSFT",
+        "GOOGL",
         "AMZN"
       ],
       "eventType": "",
-      "score": 27.0,
-      "featured": false,
+      "score": 21.0,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -631,7 +738,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "AI Trade, Alphabet, Meta Lose Steam As Medical And Energy Sectors Attract Investors",
-      "summary": "Investors are rotating out of the AI trade, along with Alphabet and Meta, and into more value-oriented sectors like medical and energy.",
+      "summary": "",
       "originalTitle": "AI Trade, Alphabet, Meta Lose Steam As Medical And Energy Sectors Attract Investors",
       "originalSummary": "Investors are rotating out of the AI trade, along with Alphabet and Meta, and into more value-oriented sectors like medical and energy.",
       "url": "https://www.investors.com/how-to-invest/investors-corner/ai-trade-alphabet-meta-lose-steam-as-medical-and-energy-sectors-attract-investors/?src=A00220&yptr=yahoo",
@@ -644,7 +751,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -663,7 +770,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "Elon Musk makes stunning decision on Tesla Cybertruck's future",
-      "summary": "Elon Musk plans to shift manufacturing capacity toward the Cybercab as Tesla prepares to expand its autonomous vehicle business.",
+      "summary": "",
       "originalTitle": "Elon Musk makes stunning decision on Tesla Cybertruck's future",
       "originalSummary": "Elon Musk plans to shift manufacturing capacity toward the Cybercab as Tesla prepares to expand its autonomous vehicle business.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-makes-stunning-decision-125856406.html",
@@ -676,7 +783,7 @@
       ],
       "eventType": "",
       "score": 13.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -695,7 +802,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "‘He wants the whole bag:’ A SpaceX-Tesla merger could help Elon Musk gain major control — without hitting lofty goals",
-      "summary": "Goals such as getting one million robotaxis on the road, releasing an army of humanoid robots and establishing a human colony on Mars could fall by the wayside.",
+      "summary": "",
       "originalTitle": "‘He wants the whole bag:’ A SpaceX-Tesla merger could help Elon Musk gain major control — without hitting lofty goals",
       "originalSummary": "Goals such as getting one million robotaxis on the road, releasing an army of humanoid robots and establishing a human colony on Mars could fall by the wayside.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/wants-whole-bag-spacex-tesla-125000684.html",
@@ -709,7 +816,7 @@
       ],
       "eventType": "",
       "score": 33.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Goals such as getting one million robotaxis on the road, releasing an army of humanoid robots and establishing a human colony on Mars could fall by the wayside.",
@@ -722,8 +829,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -741,7 +848,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2318,7 +2425,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "TSLA",
@@ -2591,7 +2698,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 10,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2754,107 +2861,6 @@
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Nvidia 與 Apollo 達成 AI 資料中心交易令人驚喜",
-      "summary": "",
-      "originalTitle": "Nvidia Eyes Surprise AI Data Center Deal With Apollo",
-      "originalSummary": "Nvidia ( NVDA ) is exploring a way to expand AI computing capacity through existing property, approaching Apollo Global Management ( APO ) about converting Brightspeed telecom buildings into smaller data centers. Warning! GuruFocus has detected 3 Warning Signs with NVDA. Is NVDA fairly valued? Test your thesis with our free DCF calculator.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-eyes-surprise-ai-data-104407896.html",
-      "ts": "2026-11-06T10:44:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -9.258981661919751,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Nvidia ( NVDA ) is exploring a way to expand AI computing capacity through existing property, approaching Apollo Global Management ( APO ) about converting Brightspeed telecom buildings into smaller data centers. Warning! GuruFocus has detected 3 Warning Signs with NVDA. Is NVDA fairly valued?",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Nvidia ( NVDA ) is exploring a way to expand AI computing capacity through existing property, approaching Apollo Global Management ( APO ) about converting Brightspeed telecom buildings into smaller data centers.",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光股票現在值得買的 2 個理由（以及 1 個謹慎的理由）",
-      "summary": "",
-      "originalTitle": "2 Reasons Micron Stock Could Be a Buy Right Now (and 1 Reason for Caution)",
-      "originalSummary": "Micron has become one of the most important stocks in the AI trade. What dynamics will shape where it goes next?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-reasons-micron-stock-could-104000919.html",
-      "ts": "2026-11-06T10:40:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -17.45909988305271,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "英偉達股價遭遇 2025 年 1 月以來最糟糕的一天——人工智慧恐懼引發 4,500 億美元暴跌",
-      "summary": "",
-      "originalTitle": "Nvidia Shares Suffer Worst Day Since January 2025 -- AI Fears Trigger $450 Billion Rout",
-      "originalSummary": "Nvidia Stock Plunges as Texas Data Center Restrictions Put AI Boom at Risk",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-shares-suffer-worst-day-104000765.html",
-      "ts": "2026-11-06T10:40:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -9.258981661919751,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 18.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
