@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 06:35 台灣時間",
+  "updatedAt": "2026-11-09 06:43 台灣時間",
   "historyUpdatedDate": "2026-11-09",
   "historyLastAttemptAt": "2026-11-08T16:02:01.719451+00:00",
   "historyItemCount": 800,
@@ -67,8 +67,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "SpaceX (SPCX) Lands $45 Billion AI Deal As New Contracts Recast Its Growth Story",
       "summary": "Space Exploration Technologies (NasdaqGS:SPCX) has secured a reported US$45b AI compute agreement from Anthropic for access to its Colossus and Colossus II data centers. Anthropic is expected to pay SpaceX several billions of dollars over multiple years under the Colossus infrastructure arrangement. Alphabet's Google unit has deepened its partnership with SpaceX and plans to allocate nearly US$1b a month to Nvidia GP",
@@ -78,11 +78,11 @@
       "ts": "2026-11-08T22:06:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.782107088509032,
+      "movePct": 2.7753303964757725,
       "relatedTickers": [
+        "NVDA",
         "GOOGL",
-        "SPCX",
-        "NVDA"
+        "SPCX"
       ],
       "eventType": "跨公司事件",
       "score": 34.5,
@@ -106,11 +106,11 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "AMD",
+      "group": "CPU 概念股",
       "tag": "利空",
       "title": "What Is Meta Platforms (META) Facing As Legal Risks Rise And AI Deals Expand?",
       "summary": "Meta Platforms (NasdaqGS:META) joined Google and TikTok in suing California to block a new youth social media law targeting users under 16. Police in India registered a First Information Report against Meta after complaints over alleged child sexual abuse material on Instagram and Facebook. AMD disclosed agreements under which Meta may gain rights to about 320 million AMD shares as part of AI chip related deals. Thes",
@@ -120,14 +120,14 @@
       "ts": "2026-11-08T22:06:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.782107088509032,
+      "movePct": 11.038575667655802,
       "relatedTickers": [
+        "AMD",
         "GOOGL",
-        "META",
-        "AMD"
+        "META"
       ],
       "eventType": "新題材",
-      "score": 28.5,
+      "score": 36.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -144,7 +144,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -314,6 +314,38 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "Nvidia Board Starts Independent Investigation of Huang’s Links to Alleged Spy",
+      "summary": "The board said it has no reason to believe that either national security or Nvidia secrets were compromised.",
+      "originalTitle": "Nvidia Board Starts Independent Investigation of Huang’s Links to Alleged Spy",
+      "originalSummary": "The board said it has no reason to believe that either national security or Nvidia secrets were compromised.",
+      "url": "https://www.barrons.com/articles/nvidia-board-investigation-huang-links-foreign-agent-90d8140c?siteid=yhoof2&yptr=yahoo",
+      "ts": "2026-11-08T21:34:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.7753303964757725,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -590,7 +622,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
       "title": "Nvidia CEO Huang admits to affair, apologizes to employees as probe launched",
-      "summary": "Investing.com -- Nvidia Chief Executive Jensen Huang has apologized to employees after admitting to an affair with businesswoman Alice Huang, whom U.S. intelligence suspects is a Chinese spy. Huang told staff he was \"deeply sorry\", as the chipmaker’s board launches an independent investigation.",
+      "summary": "",
       "originalTitle": "Nvidia CEO Huang admits to affair, apologizes to employees as probe launched",
       "originalSummary": "Investing.com -- Nvidia Chief Executive Jensen Huang has apologized to employees after admitting to an affair with businesswoman Alice Huang, whom U.S. intelligence suspects is a Chinese spy. Huang told staff he was \"deeply sorry\", as the chipmaker’s board launches an independent investigation.",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-huang-admits-affair-210656939.html",
@@ -603,7 +635,7 @@
       ],
       "eventType": "新題材",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Investing.com -- Nvidia Chief Executive Jensen Huang has apologized to employees after admitting to an affair with businesswoman Alice Huang, whom U.S. intelligence suspects is a Chinese spy. Huang told staff he was \"deeply sorry\", as the chipmaker’s board launches an independent investigation.",
@@ -624,7 +656,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "英偉達將調查執行長黃仁勳與可能的中國間諜的關係",
-      "summary": "In a memo to the company, Huang admitted that he had an affair.",
+      "summary": "",
       "originalTitle": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
       "originalSummary": "In a memo to the company, Huang admitted that he had an affair.",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-investigate-ceo-jensen-huang-210011206.html",
@@ -637,7 +669,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -686,7 +718,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "NVDA",
@@ -830,7 +862,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1005,6 +1037,36 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+      "summary": "",
+      "originalTitle": "Treasury Rally Gets New Boost as Election Hammers the AI Trade",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPelZPY0tQazFGWWxNRjFac00xRWFpVE1vdVpHenVSMDNVS3c0WFpZMXk4Rkk5d2xFYU9wUVdtcGZIYWlvVU41eFZaV1RGdDU4bGE3Z1ppeVlMdTZleU13RVRRbDNVS0pDQzdQbjB5TkFjOWF0NDRxNXA3azY0UGRtM2M5SFU2cDFkUHhZMVVpSVpRM2JjeldzMzU1QnMxZDNCd1ZVcnV1eE5ROWtwZjF2Y1E1UQ?oc=5",
+      "ts": "2026-11-08T20:00:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CSCO",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -1111,7 +1173,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "通膨數據、Constellation Energy、Skydance、Applied Materials 等本週值得關注",
-      "summary": "",
+      "summary": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
       "originalTitle": "Inflation Data, Constellation Energy, Skydance, Applied Materials, and More to Watch This Week",
       "originalSummary": "This week will bring the consumer and producer price indexes, as well as earnings from Rocket Lab, Occidental, CoreWeave, and more.",
       "url": "https://www.barrons.com/articles/inflation-data-constellation-energy-skydance-applied-materials-stocks-b662c219?siteid=yhoof2&yptr=yahoo",
@@ -1124,7 +1186,7 @@
       ],
       "eventType": "",
       "score": 24.0,
-      "featured": false,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1507,7 +1569,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "CSCO",
@@ -1861,6 +1923,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "FORM",
+      "group": "半導體設備／測試",
+      "tag": "題材",
+      "title": "4DS Memory Ltd: Letter to Shareholders, Notice of AGM & Proxy Form",
+      "summary": "",
+      "originalTitle": "4DS Memory Ltd: Letter to Shareholders, Notice of AGM & Proxy Form",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWp4YTVaVEhYeldSWWF0djVxSjJNaVRmLS1mbjhZamwzS2RJOW9leGR6XzZ0WXZLWHVCTDZZanBqV0pBeWE4cU52S0UyaXVZVFFUeE1UOXk5R1NGaFRSR0ZCd1QtSF9CQkVYUEJCZEE2TF9JMEUxRXM2ZzNsRTQ3dlpnaHh0UDFYdmJIYlhMLWlmTGZVZE9GaA?oc=5",
+      "ts": "2026-11-08T17:26:42+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 13.043478260869556,
+      "relatedTickers": [
+        "FORM"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -1999,7 +2093,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 18.75,
+      "score": 16.25,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2608,107 +2702,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "QCOM",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "儘管獲利預期超出預期，為何高通股價仍下跌 9%",
-      "summary": "",
-      "originalTitle": "Why Qualcomm Stock Fell 9% Despite Beating Earnings Estimates",
-      "originalSummary": "Investors are worried the future may not be nearly as bright as management suggests, or arrive there as quickly as implied.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-qualcomm-stock-fell-9-153433192.html",
-      "ts": "2026-11-08T15:34:33+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 5.5247208931419545,
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "eventType": "",
-      "score": 11.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "蘋果領導階層可能對人工智慧策略有不同看法",
-      "summary": "",
-      "originalTitle": "Apple leadership may have differing views on AI strategy",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdXQxWGtjN0czYjB3MzRVLWZtMW1PaV9RZWFoVkpPX0xrU1FkZ2dsWXI5TDRNLXZUZzFQQkRYZ1dHUk9Tb25LazU1bFFXMG1WdXBoUnRjTXFXWGNYbjFJWGZHQUpfRXl1emJteC1mRi1iMGRJZUFQM2ZfQWsxcTUxMDV2SThTWFBvRHlDbEt6YTl1UXB5Ty1rdVlBT0JKUlFP?oc=5",
-      "ts": "2026-11-08T15:26:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 13.65,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "中期選舉後 SpaceX 股價下跌。這是買入機會嗎？",
-      "summary": "",
-      "originalTitle": "SpaceX Stock Fell After the Midterm Elections. Is This a Buying Opportunity?",
-      "originalSummary": "Space Exploration Technologies' (NASDAQ:SPCX) volatile year continues. The company's shares took a tumble after the recent midterm elections in the U.S., as the results raised concerns about increased regulatory scrutiny on various corporations, including Elon Musk's businesses. As of writing, SpaceX's shares are trading at about $125, roughly 7% below its IPO price. Is now a good time to buy the stock?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-fell-midterm-elections-152002156.html",
-      "ts": "2026-11-08T15:20:02+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 8.615110823491356,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Space Exploration Technologies' (NASDAQ:SPCX) volatile year continues. The company's shares took a tumble after the recent midterm elections in the U.S., as the results raised concerns about increased regulatory scrutiny on various corporations, including Elon Musk's businesses. As of writing, SpaceX's shares are trading at about $125, roughly 7% below its IPO price. Is now a good time to buy the stock?",
-        "numbers": [
-          "$125,",
-          "7%"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Space Exploration Technologies' (NASDAQ:SPCX) volatile year continues. The company's shares took a tumble after the recent midterm elections in the U.S., as the results raised concerns about increased regulatory scrutiny on various corporations, including Elon Musk's businesses.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
