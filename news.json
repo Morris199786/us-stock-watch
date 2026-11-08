@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08 18:59 台灣時間",
+  "updatedAt": "2026-11-08 19:04 台灣時間",
   "historyUpdatedDate": "2026-11-08",
   "historyLastAttemptAt": "2026-11-07T16:02:29.997586+00:00",
   "historyItemCount": 800,
@@ -1114,7 +1114,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1144,7 +1144,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 12.75,
+      "score": 11.05,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2303,34 +2303,50 @@
       "ticker": "PLTR",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
-      "title": "分析師設定華爾街最高價格目標之一，摩根大通預計 Palantir （納斯達克股票代碼：PLTR）有 63% 的上漲空間",
-      "summary": "",
+      "title": "JPMorgan 初評 PLTR，目標價 $262",
+      "summary": "A bold new price target suggests Palantir Technologies (NASDAQ: PLTR) could be significantly undervalued at its current trading price of $160 per share. JPMorgan Chase analyst Brian Essex initiated coverage of the data analytics firm, setting a target price of $262 per share, implying a 63% gain from current levels.",
       "originalTitle": "JPMorgan Sees 63% Upside For Palantir (NASDAQ: PLTR) As Analyst Sets One Of Wall Street's Highest Price Targets",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdFdyT0diR2V6dlVkUjRWMkREQzdHcjRBVXMtdmJucDhCaGs5US14NENnRUVWaHpCb3NOSVFSS2V1UlVPX2VralFiMzR0SktSQ3M5YzlVSmpGeU1QV1MyVHJ2bC1UNExUVjRuMlo1LVI4akNXTWZSZ1EwM05wbF81dExHTFJLMGxPdzJJM09QUkluaTdLeFVqeHBMS1p5TGQzVFE3WkswSnRoeHVZR1U5TW5GdnY1ZExVZmNydmYwSjlibHdHVC1GUFBBaXV2WWZmS1FTT3ZVRXlWMVZ0R25ta1VFODVoRWVCVngw?oc=5",
+      "originalSummary": "A bold new price target suggests Palantir Technologies (NASDAQ: PLTR) could be significantly undervalued at its current trading price of $160 per share. JPMorgan Chase analyst Brian Essex initiated coverage of the data analytics firm, setting a target price of $262 per share, implying a 63% gain from current levels.",
+      "url": "https://www.foreignpolicyjournal.com/2026/11/07/jpmorgan-sees-63-upside-for-palantir-nasdaq-pltr-as-analyst-sets-one-of-wall-streets-highest-price-targets/",
       "ts": "2026-11-07T23:49:00+00:00",
       "sourceType": "major_broker_global",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
+      "analystDetails": [
+        {
+          "broker": "JPMorgan",
+          "analyst": "",
+          "rating": "",
+          "action": "初評",
+          "newTarget": "$262",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "PLTR",
+          "targetCompany": "Palantir"
+        }
+      ],
+      "hasArticleBody": true,
       "relatedTickers": [
         "PLTR"
       ],
       "eventType": "",
-      "score": 171.6,
+      "score": 174.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：Palantir（PLTR）｜券商：JPMorgan｜動作：初評｜目標價：$262｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$262"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -2578,7 +2594,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 8.45,
+      "score": 7.15,
       "featured": false,
       "translated": true,
       "investorBrief": {
