@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 00:38 台灣時間",
+  "updatedAt": "2026-11-09 00:43 台灣時間",
   "historyUpdatedDate": "2026-11-09",
   "historyLastAttemptAt": "2026-11-08T16:02:01.719451+00:00",
   "historyItemCount": 800,
@@ -43,7 +43,7 @@
       "title": "儘管商業繁榮，華爾街仍在拋售人工智慧股票。有些東西不合時宜。",
       "summary": "Advanced Micro Devices（納斯達克股票代碼：AMD）或 Palantir（納斯達克股票代碼：PLTR）：哪種人工智慧股票更適合為退休而建立的投資組合？兩家公司剛剛公佈了創紀錄的季度業績，而且兩隻股票無論如何都在下跌。 AMD 股價過去一個月下跌 30.47%，至 449.04 美元。即使週五從 MarketWatch 所謂的「暴力」拋售中反彈，Palantir 仍下跌 17.38% 至 160.38 美元 [...]",
       "originalTitle": "Wall Street Is Dumping AI Stocks Even as Business Booms. Something Doesn’t Add Up.",
-      "originalSummary": "Advanced Micro Devices (NASDAQ:AMD) or Palantir (NASDAQ:PLTR): which AI stock better suits a portfolio built for retirement? Both companies just reported record quarters, and both stocks are falling anyway. AMD shares lost 30.47% over the past month to $449.04. Palantir fell 17.38% to $160.38, even after Friday’s rebound from what MarketWatch called a “violent” selloff […]",
+      "originalSummary": "Both AMD and Palantir just posted record quarters, yet both stocks are sinking. For a retirement portfolio with no dividends to cushion the blow, one metric decides which AI name deserves your money, and it might not be growth.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-dumping-ai-stocks-162639331.html",
       "ts": "2026-11-08T16:26:39+00:00",
       "sourceType": "ticker_feed",
@@ -59,12 +59,7 @@
       "translated": true,
       "investorBrief": {
         "event": "Advanced Micro Devices（納斯達克股票代碼：AMD）或 Palantir（納斯達克股票代碼：PLTR）：哪種人工智慧股票更適合為退休而建立的投資組合？兩家公司剛剛公佈了創紀錄的季度業績，而且兩隻股票無論如何都在下跌。 AMD 股價過去一個月下跌 30.47%，至 449.04 美元。即使週五從 MarketWatch 所謂的「暴力」拋售中反彈，Palantir 仍下跌 17.38% 至 160.38 美元 [...]",
-        "numbers": [
-          "$449.04.",
-          "$160.38,",
-          "30.47%",
-          "17.38%"
-        ],
+        "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "Advanced Micro Devices（納斯達克股票代碼：AMD）或 Palantir（納斯達克股票代碼：PLTR）：哪種人工智慧股票更適合為退休而建立的投資組合？兩家公司剛剛公佈了創紀錄的季度業績，而且兩隻股票無論如何都在下跌。 AMD 股價過去一個月下跌 30.47%，至 449.04 美元。即使週五從 MarketWatch 所謂的「暴力」拋售中反彈，Palantir 仍下跌 17.38% 至 160.38 美元 [...]",
         "watch": [
@@ -116,8 +111,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "MSFT",
-      "group": "CSP",
+      "ticker": "MU",
+      "group": "記憶體／儲存",
       "tag": "題材",
       "title": "道瓊斯期貨逼近，市場受損，大贏家破產；蘋果、亞馬遜、微軟強勢",
       "summary": "股市需要修復，而閃迪和美光似乎崩潰。蘋果、亞馬遜和微軟都在堅守。波克夏收益下降。",
@@ -127,13 +122,14 @@
       "ts": "2026-11-08T16:20:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9926669527736687,
+      "movePct": 5.120431450814311,
       "relatedTickers": [
+        "MU",
         "MSFT",
         "AMZN"
       ],
       "eventType": "",
-      "score": 27.0,
+      "score": 31.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -146,7 +142,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -350,6 +346,36 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Report: John Ternus pushing Craig Federighi to speed up Apple software engineering",
+      "summary": "",
+      "originalTitle": "Report: John Ternus pushing Craig Federighi to speed up Apple software engineering",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0tFbVh4RWcyMmN1UGhmTldkQnQ1clNEaE5wNHNmSzVUcGxteTluTFdoMlMxRURzWTQ0bEg2NnlVMWJjYm5aV0dOMnZBb3VuM202ZzdQSzZhVmZVb0I4TGJWbDZ3dXZnT0E0UUtReUcxZEttSnd6QzFnQXVJYkVGS05fTzdHY0Z5TVcxNG9yVkVnWkV6dm9GU1FUZm55LTE1SGNCWnR3?oc=5",
+      "ts": "2026-11-08T15:55:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -960,7 +986,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2083,7 +2109,7 @@
         "AMKR"
       ],
       "eventType": "",
-      "score": 3.0,
+      "score": 2.6,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2114,7 +2140,7 @@
         "GLW"
       ],
       "eventType": "",
-      "score": 3.0,
+      "score": 2.6,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2651,38 +2677,6 @@
       ],
       "eventType": "",
       "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊期貨上漲，油價下跌，甲骨文上漲； CPI通膨數據將告知聯準會",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZGdpMlBVbExibHozSndzcGVmRE9SOVdnMnJDbmFSX2NSbjRQamJhd3R6dEkxX2tlaTkwdWRjVlplWkpsQTJoamljRzhQcXZkUmhDTmgtRWY0U1RwRUlEYUdoRmVmVkktM3FDNWpyVXRFNkpEWGl5ZlhHaGNadmVKTUx5NlhlQXE1ejdTUlowM0dGM1lPRkdTb2xRV2pKczR6aWtoLXRMWG11RDlUaXRuZDc3eUh1SDBmQ2NZQ2laTzBXMGtVQ0NpVjNhU2FvZ1ItWDhQWV9n?oc=5",
-      "ts": "2026-11-08T09:01:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 14.95,
       "featured": false,
       "translated": true,
       "investorBrief": {
