@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 19:34 台灣時間",
+  "updatedAt": "2026-11-09 19:38 台灣時間",
   "historyUpdatedDate": "2026-11-09",
   "historyLastAttemptAt": "2026-11-08T16:02:01.719451+00:00",
   "historyItemCount": 800,
@@ -9,8 +9,90 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "利空",
+      "title": "Nvidia 對黃仁勳與中國間諜的關係展開調查",
+      "summary": "",
+      "originalTitle": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
+      "ts": "2026-11-09T11:31:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
       "tag": "題材",
-      "title": "Nasdaq 100, Brent crude remain under pressure as USD/JPY range trades",
+      "title": "Oppenheimer 調整 AMD 目標價至 $600",
+      "summary": "奧本海默將 AMD 評級上調至“跑贏大盤”，目標價為 600 美元，理由是伺服器和資料中心需求強勁。該公司預計到 2027 年資料中心營收將成長 135%，約佔 AMD 總銷售額的 85%。執行長蘇姿豐預計，儘管供應有限，但 2027 年全公司營收成長將超過 80%。",
+      "originalTitle": "AMD’s Server And Data Center Success Is ‘Undeniable,’ Says Oppenheimer — Sees Favorable Pricing Ahead",
+      "originalSummary": "Oppenheimer upgraded AMD to 'Outperform' with a $600 price target, citing strong server and data center demand. The firm projects data center revenue growth of 135% in 2027, accounting for about 85% of AMD's total sales. CEO Lisa Su expects company-wide revenue growth exceeding 80% in 2027, despite supply constraints.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-server-data-center-success-112947130.html",
+      "ts": "2026-11-09T11:29:47+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 11.038575667655802,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "eventType": "",
+      "score": 213.0,
+      "featured": true,
+      "translated": true,
+      "analystDetails": [
+        {
+          "broker": "Oppenheimer",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "",
+          "newTarget": "$600",
+          "oldTarget": "",
+          "reason": "強勁的伺服器和資料中心需求。",
+          "reasonConfidence": "high",
+          "targetTicker": "AMD",
+          "targetCompany": "Advanced Micro Devices"
+        }
+      ],
+      "investorBrief": {
+        "event": "被評級公司：Advanced Micro Devices（AMD）｜券商：Oppenheimer｜評等：Outperform｜目標價：$600｜調整原因：強勁的伺服器和資料中心需求。",
+        "numbers": [
+          "$600"
+        ],
+        "why": "調整原因：強勁的伺服器和資料中心需求。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：強勁的伺服器和資料中心需求。",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "美元/日圓區間交易，納斯達克 100 指數和布蘭特原油仍面臨壓力",
       "summary": "",
       "originalTitle": "Nasdaq 100, Brent crude remain under pressure as USD/JPY range trades",
       "originalSummary": "",
@@ -23,7 +105,7 @@
       "eventType": "",
       "score": 9.75,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -71,8 +153,44 @@
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "Nvidia 董事會對執行長黃仁勳間諜案展開調查。股票正在下跌。",
+      "summary": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
+      "originalTitle": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.",
+      "originalSummary": "Nvidia CEO Jensen Huang has confessed to an extramarital affair with a woman. US officials suspect her of Chinese intelligence work. This has prompted an independent board probe into whether the billionaire chipmaker's chief was targeted in an espionage operation. Nvidia 's board of directors on Sunday announced that a \"committee of independent directors\" backed by outside counsel will examine the matter. The board said it has \"no reason to believe that either national security or Nvidia secrets were compromised.\" However, they pledged the inquiry \"will examine all available information.\" Directors expressed continued \"confidence in Jensen and his leadership team,\" and the Nvidia CEO will keep leading the company throughout the probe.",
+      "url": "https://finance.yahoo.com/technology/articles/nvidia-ceo-jensen-huang-admits-091614668.html",
+      "ts": "2026-11-09T11:27:34+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.7753303964757725,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "新題材",
+      "score": 25.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
+        "numbers": [],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
       "tag": "題材",
-      "title": "President Capital Adjusts Price Target on Nvidia to $295 From $330",
+      "title": "President Capital 將 Nvidia 的目標價從 330 美元調整為 295 美元",
       "summary": "",
       "originalTitle": "President Capital Adjusts Price Target on Nvidia to $295 From $330",
       "originalSummary": "",
@@ -88,7 +206,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -102,10 +220,42 @@
       "top10Rank": 4
     },
     {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "黃仁勳面臨意外調查，英偉達股價下跌",
+      "summary": "An investigation involving the chipmaker's CEO raises leadership questions while Asian semiconductor suppliers recover.",
+      "originalTitle": "Nvidia stock falls as Jensen Huang faces unexpected probe",
+      "originalSummary": "An investigation involving the chipmaker's CEO raises leadership questions while Asian semiconductor suppliers recover.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-falls-jensen-huang-112116598.html",
+      "ts": "2026-11-09T11:21:16+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.7753303964757725,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AMZN",
       "group": "CSP",
       "tag": "題材",
-      "title": "President Capital Adjusts Price Target on Amazon.com to $406 From $311",
+      "title": "President Capital 將 Amazon.com 的目標價從 311 美元調整為 406 美元",
       "summary": "",
       "originalTitle": "President Capital Adjusts Price Target on Amazon.com to $406 From $311",
       "originalSummary": "",
@@ -121,7 +271,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -256,6 +406,48 @@
       },
       "top10": true,
       "top10Rank": 6
+    },
+    {
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "思科股票面臨巨大的獲利考驗——選擇權交易員預計將出現 8% 的波動",
+      "summary": "Cisco Systems ( NASDAQ:CSCO ) investors are preparing for a potentially volatile earnings session as options traders position for a sharp share-price reaction to the networking company's upcoming quarterly results, due Nov. 12 after the market close. Wall Street expects fiscal first-quarter revenue of about $18.118 billion , up 21.5% from the same period last year. Adjusted earnings are projected at $1.32 per share,",
+      "originalTitle": "Cisco Stock Faces a Massive Earnings Test -- Options Traders Expect 8% Swing",
+      "originalSummary": "Cisco Systems ( NASDAQ:CSCO ) investors are preparing for a potentially volatile earnings session as options traders position for a sharp share-price reaction to the networking company's upcoming quarterly results, due Nov. 12 after the market close. Wall Street expects fiscal first-quarter revenue of about $18.118 billion , up 21.5% from the same period last year. Adjusted earnings are projected at $1.32 per share, while Cisco's previous revenue forecast ranged from $18 billion to $18.2 billion. Warning! GuruFocus has detected 5 Warning Signs with CSCO. Is CSCO fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/markets/options/articles/cisco-stock-faces-massive-earnings-111259518.html",
+      "ts": "2026-11-09T11:12:59+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.9536147095695844,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "CSCO"
+      ],
+      "eventType": "新題材",
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Cisco Systems ( NASDAQ:CSCO ) investors are preparing for a potentially volatile earnings session as options traders position for a sharp share-price reaction to the networking company's upcoming quarterly results, due Nov. 12 after the market close. Wall Street expects fiscal first-quarter revenue of about $18.118 billion , up 21.5% from the same period last year. Adjusted earnings are projected at $1.32 per share,",
+        "numbers": [
+          "$18.118 billion",
+          "$1.32",
+          "$18 billion",
+          "$18.2 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Wall Street expects fiscal first-quarter revenue of about $18.118 billion , up 21.5% from the same period last year.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NBIS",
@@ -437,6 +629,41 @@
       "top10Rank": 9
     },
     {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "特斯拉計劃於 2027 年中期停止 Cyber​​truck 生產並退還未償還的客戶押金",
+      "summary": "特斯拉（納斯達克股票代碼：TSLA）計劃在大約八個月內停止生產其 Cyber​​truck 電動皮卡，執行長馬斯克確認該公司將把製造資源轉向 Cyber​​cab 自動駕駛汽車專案。 2026 年 11 月 9 日星期一，馬斯克在 X 上發文稱，特斯拉將尋求在關閉組裝之前生產盡可能多的賽博卡車",
+      "originalTitle": "Tesla Plans to End Cybertruck Production by Mid-2027 and Refund Outstanding Customer Deposits",
+      "originalSummary": "Tesla (NASDAQ:TSLA) plans to discontinue production of its Cybertruck electric pickup in approximately eight months, with Chief Executive Officer Elon Musk confirming that the company will redirect manufacturing resources toward its Cybercab autonomous vehicle programme. In a post on X on Monday, November 9, 2026, Musk said Tesla would seek to produce as many Cybertrucks as possible before shutting down the assembly line, but acknowledged that the company would be unable to fulfil all outstandin",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plans-end-cybertruck-production-110812402.html",
+      "ts": "2026-11-09T11:08:12+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.227647007477686,
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "特斯拉（納斯達克股票代碼：TSLA）計劃在大約八個月內停止生產其 Cyber​​truck 電動皮卡，執行長馬斯克確認該公司將把製造資源轉向 Cyber​​cab 自動駕駛汽車專案。 2026 年 11 月 9 日星期一，馬斯克在 X 上發文稱，特斯拉將尋求在關閉組裝之前生產盡可能多的賽博卡車",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "特斯拉（納斯達克股票代碼：TSLA）計劃在大約八個月內停止生產其 Cyber​​truck 電動皮卡，執行長馬斯克確認該公司將把製造資源轉向 Cyber​​cab 自動駕駛汽車專案。",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -452,7 +679,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -503,24 +730,24 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "MSFT",
+      "group": "CSP",
       "tag": "題材",
       "title": "Direxion Daily S&P 500 Bull 3X (SPXL) 賣出了什麼：蘋果 11 月 5 日領漲",
-      "summary": "該基金淨售出 2.629 億美元，其中蘋果、英偉達和微軟的減持幅度最大。",
+      "summary": "",
       "originalTitle": "What Direxion Daily S&P 500 Bull 3X (SPXL) Sold: Apple Leads on Nov. 5",
       "originalSummary": "The fund sold $262.9 million on net, with Apple, Nvidia and Microsoft the largest reductions.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/direxion-daily-p-500-bull-110604580.html",
       "ts": "2026-11-09T11:06:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.7753303964757725,
+      "movePct": -0.9926669527736687,
       "relatedTickers": [
-        "NVDA"
+        "MSFT"
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -539,7 +766,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "11 月 5 日，ETF 成為亞馬遜 (AMZN) 的淨賣家",
-      "summary": "11 月 5 日，ETF 出售了價值 1.151 億美元的亞馬遜股票，其中 19 家賣家對陣 55 家買家。",
+      "summary": "",
       "originalTitle": "ETFs Are Net Sellers of Amazon (AMZN) on Nov. 5",
       "originalSummary": "ETFs sold $115.1 million in Amazon stock on Nov. 5, with 19 sellers against 55 buyers.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-amazon-amzn-110304322.html",
@@ -552,7 +779,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -571,7 +798,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "台積電 (TSM) 週四新增 11 檔 ETF",
-      "summary": "ETFs bought $57.5 million of Taiwan Semiconductor (TSM) stock on Nov. 5.",
+      "summary": "",
       "originalTitle": "11 ETFs Add to Taiwan Semiconductor (TSM) on Thursday",
       "originalSummary": "ETFs bought $57.5 million of Taiwan Semiconductor (TSM) stock on Nov. 5.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/11-etfs-add-taiwan-semiconductor-110059682.html",
@@ -584,7 +811,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -636,7 +863,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "隨著民主黨中期選舉的勝利影響人工智慧貿易，美國股票投資者本週將監控關鍵科技公司的利潤和通膨",
-      "summary": "US equity market investors will focus on inflation and key earnings this week, especially CoreWeave",
+      "summary": "",
       "originalTitle": "US Equity Investors to Monitor Key Tech Earnings, Inflation This Week as Democrats Midterm Victory Hits AI Trade",
       "originalSummary": "US equity market investors will focus on inflation and key earnings this week, especially CoreWeave",
       "url": "https://finance.yahoo.com/technology/ai/articles/us-equity-investors-monitor-key-105739479.html",
@@ -649,7 +876,7 @@
       ],
       "eventType": "",
       "score": 27.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -659,42 +886,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "Nvidia 董事會對執行長黃仁勳間諜案展開調查。股票正在下跌。",
-      "summary": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
-      "originalTitle": "Nvidia Board Launches Probe In CEO Jensen Huang Spying Case. The Stock Is Falling.",
-      "originalSummary": "Nvidia CEO Jensen Huang has confessed to an extramarital affair with a woman. US officials suspect her of Chinese intelligence work. This has prompted an independent board probe into whether the billionaire chipmaker's chief was targeted in an espionage operation. Nvidia 's board of directors on Sunday announced that a \"committee of independent directors\" backed by outside counsel will examine the matter. The board said it has \"no reason to believe that either national security or Nvidia secrets were compromised.\" However, they pledged the inquiry \"will examine all available information.\" Directors expressed continued \"confidence in Jensen and his leadership team,\" and the Nvidia CEO will keep leading the company throughout the probe.",
-      "url": "https://finance.yahoo.com/technology/articles/nvidia-ceo-jensen-huang-admits-091614668.html",
-      "ts": "2026-11-09T10:57:12+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.7753303964757725,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 25.5,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "英偉達執行長黃仁勳承認與女性有婚外情。美國官員懷疑她從事中國情報工作。這促使獨立董事會調查這家億萬富翁晶片製造商的執行長是否成為間諜活動的目標。英偉達董事會週日宣布，由外部顧問支持的「獨立董事委員會」將調查此事。董事會的",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -778,7 +969,7 @@
       "originalTitle": "Dow Jones, Nasdaq, S&P 500 preview: Inflation data, earnings loom after AI rout",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOanM1WDcwTXVzamhMemItUFFhaFZxbmR1ZTJOWlVlaFV0M3h4TERrWmxkdjBWTURkanVVbngzV2dvYl9IR05lSkUzRDZPQmdyRnQxSXplRUFIOThZYzhrbWEwNktURy1aNmVhb2l1WE42OVBJVC1IMkxDc0RRYU0tTXRJWmhxUTV2MTdyVUE0RnBja3FPRzZGWVVZSi04N1BRM3JPZ3FFaTdiUWxUNk9yV2hIYkNrTkVkdXJNZmZjT2xEWFVOWFdQZnQySQ?oc=5",
-      "ts": "2026-11-09T10:41:26+00:00",
+      "ts": "2026-11-09T10:42:35+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -1091,7 +1282,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "由於投資者關注該公司一名高管可能成為外國情報目標的說法的最新消息，英偉達的股價在盤前出現下跌。欧洲新闻网观点",
+        "event": "由於投資者關注該公司一名高管可能成為外國情報目標的說法的最新消息，英偉達的股價在盤前出現下跌。歐洲新聞網觀點",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "由於投資者關注該公司一名高管可能成為外國情報目標的說法的最新消息，英偉達的股價在盤前出現下跌。歐洲新聞網觀點",
@@ -1158,7 +1349,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著台積電、英偉達及其同行幫助亞洲市場擺脫困境，並為美國期貨提供支撐，人工智慧硬體和半導體股票剛從政治擔憂轉向新的興奮。对于投资者来说，这种急剧的情绪转变可以迅速重新定价被视为赢家和被忽视的落后者。本文揭示了新聞觸發因素，並重點介紹了三隻受到這些人工智慧頭條新聞影響的股票，這些股票可能值得仔細研究。",
+        "event": "隨著台積電、英偉達及其同行幫助亞洲市場擺脫困境，並為美國期貨提供支撐，人工智慧硬體和半導體股票剛從政治擔憂轉向新的興奮。對於投資者來說，這種急劇的情緒轉變可以迅速重新定價被視為贏家和被忽視的落後者。本文揭示了新聞觸發因素，並重點介紹了三隻受到這些人工智慧頭條新聞影響的股票，這些股票可能值得仔細研究。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "隨著台積電、英偉達及其同行幫助亞洲市場擺脫困境，並為美國期貨提供支撐，人工智慧硬體和半導體股票剛從政治擔憂轉向新的興奮。對於投資者來說，這種急劇的情緒轉變可以迅速重新定價被視為贏家和被忽視的落後者。本文揭示了新聞觸發因素，並重點介紹了三隻受到這些人工智慧頭條新聞影響的股票，這些股票可能值得仔細研究。接下來涵蓋的股票只是一個起始樣本...",
@@ -1192,7 +1383,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "The company’s CEO Elon Musk confirmed the cancellation on the social media platform X, explaining that production will wind down to enable higher volumes of the Cybercab.",
+        "event": "該公司執行長馬斯克在社群媒體平台 X 上證實了這項取消，並解釋說，生產將逐漸減少，以提高 Cyber​​cab 的產量。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "stance": "該公司執行長馬斯克在社群媒體平台 X 上證實了這項取消，並解釋說，生產將逐漸減少，以提高 Cyber​​cab 的產量。",
@@ -1215,38 +1406,6 @@
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNd3RMSC1aT29ZR2NpS3FuVkxYY2o4cXRLNFBUUnlzUVhyUFF3bG9kV1k4eEJmWVgyZENTNmR4ajg1cHNkMGhPclZreVBqYkxUNm1neFZ2U0JmSEtKZFdIOXVfbEYxTEFsVE9SOWE5MldhelZ2a1pZR0NnTWNEVDhxT2RJMC1zSE8xV0Y5WG1lWlhtdTVUejIw?oc=5",
       "ts": "2026-11-09T10:06:05+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "Nvidia 對黃仁勳與中國間諜的關係展開調查",
-      "summary": "",
-      "originalTitle": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
-      "ts": "2026-11-09T10:06:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
@@ -2458,8 +2617,8 @@
         "takeaway": "調整原因：資料中心表現強勁，AI晶片銷售加速。",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 2,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2636,142 +2795,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "RKLB",
-      "group": "太空／國防／無人系統",
-      "tag": "利空",
-      "title": "火箭實驗室選擇權指南：強勁的營收成長預期能否抵銷中子火箭的延誤和收購風險？",
-      "summary": "",
-      "originalTitle": "Rocket Lab Options Guide: Can Strong Revenue Growth Expectations Offset Neutron Rocket Delays and Acquisition Risks?",
-      "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
-      "url": "https://seekingalpha.com/article/4963932-rocket-lab-q3-earnings-preview-right-business-still-priced-for-too-much-success",
-      "ts": "2026-11-09T08:19:00+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 15.394651011089366,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "RKLB"
-      ],
-      "eventType": "",
-      "score": 18.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。對於任何投資是否適合特定投資者，沒有給予任何建議或建議。",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。尋求阿爾法的揭露：過去的表現並不能保證未來的結果。對於任何投資是否適合特定投資者，沒有給予任何建議或建議。上述任何觀點或意見可能不反映Seeking Alpha的整體觀點。 Seeking Alpha 不是持牌證券交易商、經紀人或美國投資顧問或投資銀行。我們的分析師是第三方作者，包括專業投資者和個人投資者",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "隨著 Cyber​​truck 為 Cyber​​toob 讓路，TSLA 股價一夜暴跌 — 據報導 Terafab 每月生產 100 萬片晶圓",
-      "summary": "",
-      "originalTitle": "TSLA Stock Slips Overnight As Cybertruck Makes Way For Cybercab — Terafab Reportedly Eyes 1M Wafers Monthly",
-      "originalSummary": "Musk said Tesla would add an extra shift to tackle Cybertruck’s backlog before dismantling the line.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-slips-overnight-cybertruck-081522192.html",
-      "ts": "2026-11-09T08:15:22+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 4.227647007477686,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "英偉達 CEO 承認有外遇，交易員開倉 910 萬美元空頭部位",
-      "summary": "",
-      "originalTitle": "Traders open $9.1 million in Nvidia shorts as CEO admits to affair",
-      "originalSummary": "Three accounts opened roughly $9.1 million in new short positions Sunday, a review of the market’s 25 largest positions found.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/traders-open-9-1-million-081149222.html",
-      "ts": "2026-11-09T08:11:49+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.7753303964757725,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "英偉達對執行長與涉嫌中國間諜的戀情展開調查",
-      "summary": "",
-      "originalTitle": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
-      "originalSummary": "Nvidia said it had initiated an independent investigation into CEO Jensen Huang, who admitted on Sunday to having an extramarital affair with a Chinese executive suspected of spying for Beijing. He'll remain CEO pending the investigation's outcome. \"I was unfaithful to my wife,\" Huang wrote in a company-wide letter seen by Semafor. \"My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.\"",
-      "url": "https://finance.yahoo.com/technology/articles/nvidia-ceo-jensen-huang-admits-210356461.html",
-      "ts": "2026-11-09T08:10:25+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 29.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "英偉達表示，已對執行長黃仁勳展開獨立調查，黃仁勳週日承認與一名涉嫌為北京從事間諜活動的中國高管有婚外情。在調查結果出來之前，他將繼續擔任執行長。 「我對我的妻子不忠，」黃在 Semafor 看到的一封全公司範圍內的信中寫道。 「我的行為傷害了她和我們的孩子。",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "英偉達表示，已對執行長黃仁勳展開獨立調查，黃仁勳週日承認與一名涉嫌為北京從事間諜活動的中國高管有婚外情。在調查結果出來之前，他將繼續擔任執行長。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
