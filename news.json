@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10 06:48 台灣時間",
+  "updatedAt": "2026-11-10 06:52 台灣時間",
   "historyUpdatedDate": "2026-11-10",
   "historyLastAttemptAt": "2026-11-09T16:02:09.365692+00:00",
   "historyItemCount": 800,
@@ -50,7 +50,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "NET",
@@ -130,7 +130,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "RKLB",
@@ -218,6 +218,36 @@
       ],
       "eventType": "",
       "score": 10.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "亞洲股市因美國科技股上漲和石油暴跌而上漲：市場結束",
+      "summary": "",
+      "originalTitle": "Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNXVKNll2bkFUUU5EVDg4eTF6a3YwZ0pIS0d4bGFTdkItMkl3SkFCbGRiZFdzSmlidHZZN3I1YzF1VkVXYlM0dDJrRlRPeDRGYXp6cVBuRGVjbl9vNWxrdlRYLTl4NTRxMnRFcGtuOUROekFvUUsxdTE1R3IwWmRKRVlUVFpFTlY0WXNlWTZTa1hIdmV1?oc=5",
+      "ts": "2026-11-09T22:16:53+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -519,7 +549,7 @@
       ],
       "eventType": "",
       "score": 26.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -781,8 +811,8 @@
       "title": "隨著 SpaceX 推進 24B 美元德克薩斯州數據中心和天然氣工廠計劃，SPCX 股價上漲",
       "summary": "",
       "originalTitle": "SPCX Stock Rises As SpaceX Advances $24B Texas Data Center And Gas Plant Plans",
-      "originalSummary": "The Starbase City Commission is scheduled to hold a public hearing to consider the approval of a tax abatement and development agreement on Wednesday, December 9. The project would sit on an approximately 444-acre tract just east of Brownsville, between Boca Chica Boulevard and the Port of Brownsville. Estimated capital investment for the initial phases is approximately $24 billion, which may be built over multiple phases and include future expansions.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-stock-rises-spacex-advances-214647323.html",
+      "originalSummary": "The package includes an $8.3 billion senior-secured loan and bond tranches, helping fund $47.3 billion of Nvidia equipment. Chip deliveries and leases are expected to begin in early 2027, with SpaceX owing $40 billion in principal plus interest and expenses. Texas Republican U.S. Sen.Ted Cruz warned Democrats could use congressional subpoenas to target Elon Musk and other Trump-aligned executives.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spcx-slides-overnight-spacex-40b-013345637.html",
       "ts": "2026-11-09T21:46:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -790,29 +820,31 @@
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
-        "SPCX"
+        "SPCX",
+        "NVDA"
       ],
-      "eventType": "",
-      "score": 16.5,
+      "eventType": "跨公司事件",
+      "score": 27.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Starbase 城市委員會計劃於 12 月 9 日星期三舉行公開聽證會，考慮批准一項減稅和開發協議。該項目將坐落在布朗斯維爾東部約 444 英畝的土地上，位於博卡奇卡大道和布朗斯維爾港之間。初始階段的預計資本投資約為 240 億美元，可能分多個階段建設，並包括未來的擴建。",
+        "event": "該計劃包括 83 億美元的優先擔保貸款和債券部分，為 473 億美元的 Nvidia 設備提供資金。晶片交付和租賃預計將於 2027 年初開始，SpaceX 欠下 400 億美元的本金加上利息和費用。德州共和黨參議員特德·克魯茲警告民主黨可能會利用國會傳票來針對伊隆·馬斯克和其他與川普結盟的高層。",
         "numbers": [
           "$24B",
-          "$24 billion",
-          "24 billion"
+          "$8.3 billion",
+          "$47.3 billion",
+          "$40 billion"
         ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Starbase 城市委員會計劃於 12 月 9 日星期三舉行公開聽證會，考慮批准一項減稅和開發協議。該項目將坐落在布朗斯維爾東部約 444 英畝的土地上，位於博卡奇卡大道和布朗斯維爾港之間。初始階段的預計資本投資約為 240 億美元，可能分多個階段建設，並包括未來的擴建。",
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "該計劃包括 83 億美元的優先擔保貸款和債券部分，為 473 億美元的 Nvidia 設備提供資金。晶片交付和租賃預計將於 2027 年初開始，SpaceX 欠下 400 億美元的本金加上利息和費用。德州共和黨參議員特德·克魯茲警告民主黨可能會利用國會傳票來針對伊隆·馬斯克和其他與川普結盟的高層。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -918,7 +950,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "AMD",
@@ -927,8 +959,8 @@
       "title": "AMD 股價因谷歌雲端交易和華爾街升級而上漲",
       "summary": "Advanced Micro Devices（納斯達克股票代碼：AMD）股價在周一盤前交易中飆升近 4%，此前這家半導體巨頭宣布擴大與 Alphabet（GOOG、GOOGL）谷歌雲的合作夥伴關係，鞏固了其在快速增長的人工智能基礎設施市場中的地位。該交易突顯了 AMD 在圖形處理器領域與 Nvidia (NVDA) 直接競爭之外的一個重要機會：提供 CPU",
       "originalTitle": "AMD Stock Rises On Google Cloud Deal, Wall Street Upgrade",
-      "originalSummary": "AMD ( AMD ) was in focus on Wednesday after the semiconductor giant reported better-than-expected results and guidance, leading to Wall Street praising the company's data center strength. Shares rose fractionally in premarket trading, though they were well off the best levels of",
-      "url": "https://seekingalpha.com/news/4664657-amd-ticks-up-as-wall-street-praises-data-center-strength",
+      "originalSummary": "Chip stocks are bouncing hard ahead of AMD's quarterly report, but Intel's brutal guidance already proved a strong earnings beat means nothing if the outlook disappoints. Find out what AMD needs to deliver to keep the rebound alive.",
+      "url": "https://247wallst.com/investing/2026/11/03/amd-advances-5-intel-rises-4-marvell-gains-2-as-chip-stocks-bounce-ahead-of-amd-earnings/",
       "ts": "2026-11-09T21:39:22+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
@@ -938,10 +970,11 @@
       "detailSource": "article_or_same_event",
       "relatedTickers": [
         "AMD",
-        "GOOGL"
+        "GOOGL",
+        "INTC"
       ],
-      "eventType": "跨公司事件",
-      "score": 235.5,
+      "eventType": "",
+      "score": 231.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -951,14 +984,13 @@
         "stance": "Advanced Micro Devices（納斯達克股票代碼：AMD）股價在周一盤前交易中飆升近 4%，此前這家半導體巨頭宣布擴大與 Alphabet（GOOG、GOOGL）谷歌雲的合作夥伴關係，鞏固了其在快速增長的人工智能基礎設施市場中的地位。該交易突顯了 AMD 在圖形處理器領域與 Nvidia (NVDA) 直接競爭之外的一個重要機會：提供 CPU",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+          "下一季／全年財測是否再次上修或下修"
         ],
         "takeaway": "券商調整理由：Advanced Micro Devices（納斯達克股票代碼：AMD）股價在周一盤前交易中飆升近 4%，此前這家半導體巨頭宣布擴大與 Alphabet（GOOG、GOOGL）谷歌雲的合作夥伴關係，鞏固了其在快速增長的人工智能基礎設施市場中的地位。該交易突顯了 AMD 在圖形處理器領域與 Nvidia (NVDA) 直接競爭之外的一個重要機會：提供 CPU",
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "ASTS",
@@ -989,6 +1021,43 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ZETA",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Zeta Global Holdings (ZETA) 第三季獲利和收入超出預期",
+      "summary": "",
+      "originalTitle": "Zeta Global Holdings (ZETA) Tops Q3 Earnings and Revenue Estimates",
+      "originalSummary": "Zeta (ZETA) delivered earnings and revenue surprises of +35.71% and +4.72%, respectively, for the quarter ended September 2026. Do the numbers hold clues to what lies ahead for the stock?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zeta-global-holdings-zeta-tops-213504712.html",
+      "ts": "2026-11-09T21:35:04+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.479535932968104,
+      "relatedTickers": [
+        "ZETA"
+      ],
+      "eventType": "",
+      "score": 13.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "截至 2026 年 9 月的季度，Zeta (ZETA) 的盈利和收入分別令人意外地增長了 +35.71% 和 +4.72%。這些數字是否為該股的未來提供了線索？",
+        "numbers": [
+          "35.71%",
+          "4.72%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "截至 2026 年 9 月的季度，Zeta (ZETA) 的盈利和收入分別令人意外地增長了 +35.71% 和 +4.72%。這些數字是否為該股的未來提供了線索？",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -1814,8 +1883,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -2061,40 +2130,41 @@
       "group": "CSP",
       "tag": "題材",
       "title": "比爾蓋茲 Microsoft Copilot AI 預測 SOL 加密貨幣爆炸",
-      "summary": "",
+      "summary": "Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500. This outlook assumes the return of a robust cryptocurrency bull market, fueled by a hypothetical groundbreaking ...",
       "originalTitle": "Bill Gates Microsoft Copilot AI Predicts a SOL Crypto Explosion",
-      "originalSummary": "Bitcoin price is struggling to regain momentum as gold extends its recovery above $4,100. But the growing demand for scarce assets could eventually put crypto back on the radar. Gold climbed 1.4% to $4,123 per ounce, extending gains from the previous week. Meanwhile, Bitcoin slipped to $73,700, its lowest level ...",
+      "originalSummary": "Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500. This outlook assumes the return of a robust cryptocurrency bull market, fueled by a hypothetical groundbreaking ...",
       "url": "https://finance.yahoo.com/markets/crypto/articles/bill-gates-microsoft-copilot-ai-203752019.html",
       "ts": "2026-11-09T20:37:52+00:00",
       "sourceType": "ticker_feed",
-      "analystPriority": false,
+      "analystPriority": true,
       "movePct": 2.745896232637901,
+      "analystDetails": [],
       "relatedTickers": [
         "MSFT"
       ],
       "eventType": "新題材",
-      "score": 19.5,
+      "score": 214.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著金幣延續反彈至 4,100 美元以上，比特幣價格正努力恢復勢頭。但對稀缺資產不斷增長的需求最終可能會讓加密貨幣重新受到人們的關注。金價上漲 1.4%，至每盎司 4,123 美元，延續前一周的漲幅。與此同時，比特幣跌至 73,700 美元，最低水準...",
+        "event": "Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500. This outlook assumes the return of a robust cryptocurrency bull market, fueled by a hypothetical groundbreaking ...",
         "numbers": [
-          "$4,100. B",
-          "$4,123",
-          "$73,700,",
-          "1.4%"
+          "$1,000",
+          "$2,000,",
+          "$2,500."
         ],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "隨著金幣延續反彈至 4,100 美元以上，比特幣價格正努力恢復勢頭。但對稀缺資產不斷增長的需求最終可能會讓加密貨幣重新受到人們的關注。金價上漲 1.4%，至每盎司 4,123 美元，延續前一周的漲幅。與此同時，比特幣跌至 73,700 美元，最低水準...",
+        "why": "券商調整理由：Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500.",
+        "stance": "Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500.",
         "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "takeaway": "券商調整理由：Bill Gates’ Microsoft Copilot AI predicts an astonishing price target for Solana (SOL USD price) by January 1, 2027, estimating it to reach between $1,000 and $2,000, with a potential stretch target exceeding $2,500.",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 5
     },
     {
       "ticker": "ANET",
@@ -2139,7 +2209,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -2303,7 +2373,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "NVDA",
@@ -2712,77 +2782,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "BA",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "波音商用飛機公司將裁員約 5%",
-      "summary": "",
-      "originalTitle": "Boeing Commercial Airplanes to Reduce Workforce by Around 5%",
-      "originalSummary": "CEO Stephanie Pope said layoffs will be necessary to implement a revised business plan and stabilize the company’s supply chain.",
-      "url": "https://www.wsj.com/business/boeing-commercial-airplanes-to-reduce-workforce-by-around-5-86bae74b?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-11-09T19:50:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.5882352941176561,
-      "relatedTickers": [
-        "BA"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "隨著微軟的離開，股市“被甲骨文的資產負債表嚇呆了”",
-      "summary": "",
-      "originalTitle": "The Stock Market Is “Petrified of Oracle’s Balance Sheet” as Microsoft Walks Away",
-      "originalSummary": "Key TakeawaysMicrosoft is winding down a deal to rent AI computing power from Oracle, days after Oracle canceled an estimated $7 billion chip-leasing deal with Tencent. The Microsoft contract itself looks small, but losing it leaves Oracle’s backlog leaning even harder on OpenAI, which S&P says accounts for about half of it.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-petrified-oracle-balance-194858775.html",
-      "ts": "2026-11-09T19:48:58+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.745896232637901,
-      "relatedTickers": [
-        "MSFT",
-        "ORCL"
-      ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "關鍵要點在甲骨文取消與騰訊價值約 70 億美元的晶片租賃協議幾天后，微軟正在逐步終止從甲骨文租賃人工智慧運算能力的協議。微軟的合約本身看起來很小，但失去它會讓甲骨文的積壓工作更加依賴 OpenAI，標準普爾稱 OpenAI 約佔其中的一半。",
-        "numbers": [
-          "$7 billion",
-          "7 billion"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "關鍵要點在甲骨文取消與騰訊價值約 70 億美元的晶片租賃協議幾天后，微軟正在逐步終止從甲骨文租賃人工智慧運算能力的協議。微軟的合約本身看起來很小，但失去它會讓甲骨文的積壓工作更加依賴 OpenAI，標準普爾稱 OpenAI 約佔其中的一半。",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 9
     }
   ],
   "historyItems": [
