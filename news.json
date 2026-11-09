@@ -1,11 +1,98 @@
 {
-  "updatedAt": "2026-11-09 16:44 台灣時間",
+  "updatedAt": "2026-11-09 16:53 台灣時間",
   "historyUpdatedDate": "2026-11-09",
   "historyLastAttemptAt": "2026-11-08T16:02:01.719451+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-09",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "利多",
+      "title": "Oppenheimer 升評 AMD 至 Outperform by Oppenheimer，目標價至 $600",
+      "summary": "",
+      "originalTitle": "AMD Upgraded to Outperform by Oppenheimer with $600 Price Target",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORTNpdzhPcDI5Vk41Wnp4UDR5cGtJRndRdkJ2WTBTbHZTRDFmUmd0d3phbTFLcTFFWExWQUFqTVRGV3d5X1c4TXlobzNLbzZuVWdwb3BuVkhIWmgwZ2dvMlBCYTdvQnZsVW5hOHdBeGgxdmpfZURiM25BMlBEWXBUZk1qLVVEUC1IQWJpNzgxdVBxSjVRMF9tVHI0UGJqRFh6ZUlEVw?oc=5",
+      "ts": "2026-11-09T08:38:43+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Oppenheimer",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "",
+          "newTarget": "$600",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "AMD",
+          "targetCompany": "Advanced Micro Devices"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMD"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Advanced Micro Devices（AMD）｜券商：Oppenheimer｜評等：Outperform｜目標價：$600｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$600"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 5
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
+      "summary": "TSMC stock ended 4.7% higher on Monday – the chipmaker will post October sales numbers on Tuesday. Nvidia CEO Jensen Huang admitted to having an affair with a person U.S. authorities suspect to be a Chinese spy and the company has launched an investigation. Retail sentiment was 'neutral' for TSM and 'bearish' for SKHY.",
+      "originalTitle": "TSMC, SK Hynix, Samsung: Asian Chip Stocks Rise Even As Nvidia CEO Jensen Huang’s Controversy Tests Investor Confidence",
+      "originalSummary": "TSMC stock ended 4.7% higher on Monday – the chipmaker will post October sales numbers on Tuesday. Nvidia CEO Jensen Huang admitted to having an affair with a person U.S. authorities suspect to be a Chinese spy and the company has launched an investigation. Retail sentiment was 'neutral' for TSM and 'bearish' for SKHY.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-sk-hynix-samsung-asian-083520835.html",
+      "ts": "2026-11-09T08:35:20+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.7753303964757725,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA",
+        "SK HYNIX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 28.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "TSMC stock ended 4.7% higher on Monday – the chipmaker will post October sales numbers on Tuesday. Nvidia CEO Jensen Huang admitted to having an affair with a person U.S. authorities suspect to be a Chinese spy and the company has launched an investigation. Retail sentiment was 'neutral' for TSM and 'bearish' for SKHY.",
+        "numbers": [
+          "4.7%"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Nvidia CEO Jensen Huang admitted to having an affair with a person U.S.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 6
+    },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
@@ -111,7 +198,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Traders open $9.1 million in Nvidia shorts as CEO admits to affair",
-      "summary": "Three accounts opened roughly $9.1 million in new short positions Sunday, a review of the market’s 25 largest positions found.",
+      "summary": "",
       "originalTitle": "Traders open $9.1 million in Nvidia shorts as CEO admits to affair",
       "originalSummary": "Three accounts opened roughly $9.1 million in new short positions Sunday, a review of the market’s 25 largest positions found.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/traders-open-9-1-million-081149222.html",
@@ -124,7 +211,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -167,8 +254,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -201,8 +288,8 @@
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 6
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -528,27 +615,27 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "MU",
+      "group": "記憶體／儲存",
       "tag": "題材",
       "title": "Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
-      "summary": "",
+      "summary": "Zacks' Earnings Preview highlights AMAT, CSCO, BRK.B, NVDA, MU and GOOGL as key companies amid broad-based Q3 earnings growth and evolving estimate revisions.",
       "originalTitle": "Applied Materials, Cisco, Berkshire Hathaway, Nvidia, Micron and Alphabet are part of Zacks Earnings Preview",
       "originalSummary": "Zacks' Earnings Preview highlights AMAT, CSCO, BRK.B, NVDA, MU and GOOGL as key companies amid broad-based Q3 earnings growth and evolving estimate revisions.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-cisco-berkshire-hathaway-070000795.html",
       "ts": "2026-11-09T07:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.7753303964757725,
+      "movePct": 5.120431450814311,
       "relatedTickers": [
-        "NVDA",
         "MU",
+        "NVDA",
         "CSCO",
         "AMAT"
       ],
       "eventType": "",
-      "score": 24.0,
-      "featured": false,
+      "score": 28.5,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -559,8 +646,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "NBIS",
@@ -593,7 +680,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -1001,7 +1088,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "RKLB",
@@ -1021,8 +1108,40 @@
       "eventType": "",
       "analystPriority": false,
       "score": 20.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "OKLO",
+      "group": "核能／鈾",
+      "tag": "題材",
+      "title": "$Oklo Inc (OKLO.US)$ OKLO's Aurora power reactors, Groves isotope reactors, and fuel recycling business are each at different stages of growth. It’s exciting to look forward to ticking off each milestone as new achievements are announced. ✅",
+      "summary": "",
+      "originalTitle": "$Oklo Inc (OKLO.US)$ OKLO's Aurora power reactors, Groves isotope reactors, and fuel recycling business are each at different stages of growth. It’s exciting to look forward to ticking off each milestone as new achievements are announced. ✅",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWVp4WU5nOEdiOHhwenZTY3pJUVJid1pYWTNfMG8xOWI1Z3dhY2pRRDBGTU1KaHlsUFowZ2ZxclRZa1Uya3Z4UEl1R0hXTlpjVTdfOTJwM3Vkb1VTTkFWcDBCd0JUVTg2RzNtV2MtMW05Rm5mZ3lweWw5MWVfdmtickRUTWNYdHlFMjc3Z2RBREF5bWVOV20tQjlJaFdXdjdZZE5OMnMyYXY?oc=5",
+      "ts": "2026-11-09T05:23:23+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 22.65625,
+      "relatedTickers": [
+        "OKLO"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1063,7 +1182,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1100,7 +1219,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "AMD 與英特爾：半導體崩盤後的未來 3 年內，哪一支 AI 晶片股更值得持有？",
-      "summary": "AMD 和英特爾的股票在過去一個月都出現了大幅回檔。",
+      "summary": "",
       "originalTitle": "AMD vs. Intel: Which Is the Better AI Chip Stock to Own for the Next 3 Years Following the Semiconductor Crash?",
       "originalSummary": "AMD and Intel stocks have both seen major pullbacks in the past month.",
       "url": "https://finance.yahoo.com/technology/ai/articles/amd-vs-intel-better-ai-052000770.html",
@@ -1114,7 +1233,7 @@
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1125,8 +1244,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -2439,7 +2558,7 @@
         "SPCX"
       ],
       "eventType": "",
-      "score": 12.0,
+      "score": 10.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2479,7 +2598,7 @@
         "META"
       ],
       "eventType": "新題材",
-      "score": 19.5,
+      "score": 16.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2623,102 +2742,6 @@
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Nvidia's shares slide as chip giant probes CEO over spy claims",
-      "summary": "",
-      "originalTitle": "Nvidia's shares slide as chip giant probes CEO over spy claims",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5",
-      "ts": "2026-11-09T02:27:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 13.65,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "韓國表示 Nvidia 問題不會影響 GPU 供應合約",
-      "summary": "",
-      "originalTitle": "South Korea says Nvidia issues won't affect contracted GPU supplies",
-      "originalSummary": "SEOUL, Nov 9 (Reuters) - South Korea expects contracted deliveries of Nvidia graphics processing units (GPUs) to proceed without disruption despite a controversy surrounding the chipmaker's chief",
-      "url": "https://finance.yahoo.com/technology/articles/south-korea-says-nvidia-issues-022650481.html",
-      "ts": "2026-11-09T02:26:50+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.7753303964757725,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 2.6,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "SEOUL, Nov 9 (Reuters) - South Korea expects contracted deliveries of Nvidia graphics processing units (GPUs) to proceed without disruption despite a controversy surrounding the chipmaker's chief",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SEOUL, Nov 9 (Reuters) - South Korea expects contracted deliveries of Nvidia graphics processing units (GPUs) to proceed without disruption despite a controversy surrounding the chipmaker's chief",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "中國生產者通膨加速至四年多高位",
-      "summary": "",
-      "originalTitle": "China Producer Inflation Accelerates to Over Four-Year High",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcm1tR2Voci0zUnpsNlVhbzdXQ19DNDB3anhvdU9HZGRtYjE0akY0b0VHZi0xUndnYTkxOExkOHUyTmxHNnJMZzFldjRDRXFxNDE1S2ZZX014aWhxdFFqR1ExbGFEV0FDNHBuMElPOVNwZjYwY20ydlJna2hoN3N5OTJEbGRJbmxwOXZFZWdzMjd6UklTZTRabVBiNkE?oc=5",
-      "ts": "2026-11-09T02:15:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 14.95,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
