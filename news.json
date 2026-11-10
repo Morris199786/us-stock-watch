@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10 20:58 台灣時間",
+  "updatedAt": "2026-11-10 21:05 台灣時間",
   "historyUpdatedDate": "2026-11-10",
   "historyLastAttemptAt": "2026-11-09T16:02:09.365692+00:00",
   "historyItemCount": 800,
@@ -7,14 +7,65 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "ASTS",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "BofA 調整 ASTS 目標價至 $45",
+      "summary": "根據 Investing.com 報導，美國銀行強調即將進行的衛星發射、與 T-Mobile 的潛在商業協議以及其他主權衛星交易可能是 AST SpaceMobile 的催化劑。 Koyfin 表示，13 名分析師中有 5 名將該股評級為“買入”或“強力買入”，6 名分析師將該股評級為“持有”，2 名分析師將該股評級為“賣出”或“強力賣出”。 AST SpaceMobile 報告第三季收入",
+      "originalTitle": "BofA Cuts ASTS Price Target To $45 From $80 — Maintains ‘Neutral’ Rating",
+      "originalSummary": "BofA highlighted upcoming satellite launches, a potential commercial agreement with T-Mobile and additional sovereign satellite deals as possible catalysts for AST SpaceMobile, according to Investing.com. Five out of 13 analysts covering the stock rate it 'Buy' or 'Strong Buy,' while six rate it 'Hold' and two rate the stock 'Sell' or 'Strong Sell,' according to Koyfin. AST SpaceMobile reported third-quarter revenue of $42.3 million, below analyst estimates of around $46 million, on Monday, but maintained its 2026 revenue outlook of $150 million to $200 million.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-asts-price-target-125546195.html",
+      "ts": "2026-11-10T12:55:46+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 14.104546860501088,
+      "analystDetails": [
+        {
+          "broker": "BofA",
+          "analyst": "",
+          "rating": "Neutral",
+          "action": "下修",
+          "newTarget": "$45",
+          "oldTarget": "$80",
+          "reason": "週一，但仍維持 2026 年 1.5 億至 2 億美元的營收預期。",
+          "reasonConfidence": "medium",
+          "targetTicker": "ASTS",
+          "targetCompany": "AST SpaceMobile"
+        }
+      ],
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "ASTS"
+      ],
+      "eventType": "新題材",
+      "score": 222.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：AST SpaceMobile（ASTS）｜券商：BofA｜動作：下修｜評等：Neutral｜目標價：$45（原 $80）｜調整原因：週一，但仍維持 2026 年 1.5 億至 2 億美元的營收預期。",
+        "numbers": [
+          "$80",
+          "$45"
+        ],
+        "why": "調整原因：週一，但仍維持 2026 年 1.5 億至 2 億美元的營收預期。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：週一，但仍維持 2026 年 1.5 億至 2 億美元的營收預期。",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
+    {
       "ticker": "RKLB",
       "group": "太空／國防／無人系統",
       "tag": "利空",
-      "title": "Cantor Fitzgerald 下修 RKLB 目標價至 $111",
-      "summary": "",
+      "title": "Cantor Fitzgerald 下修 RKLB 目標價至 $111，維持 Buy",
+      "summary": "Key TakeawaysRocket Lab fell 12% in a week as space stocks, SpaceX and AST SpaceMobile included, slid with tech and on the midterms. Cantor Fitzgerald reiterated its Buy rating and $122 price target on Nov.",
       "originalTitle": "RKLB Maintained by Cantor Fitzgerald -- Price Target Lowered to $111",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeEFfUjBCV2ZtQkJMOHhRMGhQWGpBQlFoZDU3WHp5VmRQeUZULVVoeDl6VHpZRE1wVkp0T1U4UC1rMHByRjVqZWozN2lJc296NzE0ZGxmUFYwZVRIMm9oQzVqY1lmUDh2OG5FXzA2dVAwcUZvQ0NwVnNXQXNZYmlEMDNuN2lITTVNYnJlY1ZnQjhxaldsNEJLQk43YnB4ZXZmSF9UUExB?oc=5",
+      "originalSummary": "Key TakeawaysRocket Lab fell 12% in a week as space stocks, SpaceX and AST SpaceMobile included, slid with tech and on the midterms. Cantor Fitzgerald reiterated its Buy rating and $122 price target on Nov.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-lost-12-week-023009284.html",
       "ts": "2026-11-10T12:53:54+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -24,33 +75,113 @@
           "analyst": "",
           "rating": "",
           "action": "重申",
-          "newTarget": "",
+          "newTarget": "$122",
           "oldTarget": "",
-          "reason": "Cantor Fitzgerald 維持 RKLB 不變——目標價下調至 111 美元",
+          "reason": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。",
+          "reasonConfidence": "medium",
+          "targetTicker": "RKLB",
+          "targetCompany": "Rocket Lab"
+        },
+        {
+          "broker": "Cantor Fitzgerald",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "$122",
+          "oldTarget": "",
+          "reason": "坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。",
           "reasonConfidence": "medium",
           "targetTicker": "RKLB",
           "targetCompany": "Rocket Lab"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
-        "RKLB"
+        "RKLB",
+        "SPCX",
+        "ASTS"
       ],
       "eventType": "",
-      "score": 201.0,
+      "score": 214.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Rocket Lab（RKLB）｜券商：Cantor Fitzgerald｜動作：重申｜調整原因：Cantor Fitzgerald 維持 RKLB 不變——目標價下調至 111 美元",
-        "numbers": [],
-        "why": "調整原因：Cantor Fitzgerald 維持 RKLB 不變——目標價下調至 111 美元",
+        "event": "被評級公司：Rocket Lab（RKLB）｜券商：Cantor Fitzgerald｜動作：重申｜目標價：$122｜調整原因：坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。\n被評級公司：Rocket Lab（RKLB）｜券商：Cantor Fitzgerald｜動作：重申｜評等：Buy｜目標價：$122｜調整原因：坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。",
+        "numbers": [
+          "$122",
+          "$122"
+        ],
+        "why": "調整原因：坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Cantor Fitzgerald 維持 RKLB 不變——目標價下調至 111 美元",
+        "takeaway": "調整原因：坎托·菲茨杰拉德 (Cantor Fitzgerald) 維持 RKLB 不變——目標價下調至 111 美元 主要要點 由於 SpaceX 和 AST SpaceMobile 等太空股隨科技股和中期選舉而下滑，Rocket Lab 一周內下跌 12%。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "NET",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利空",
+      "title": "Bank of America 調整 NET 目標價至 $28",
+      "summary": "週一股市飆升，但交易部門表示，空頭回補推動了股市上漲，而今天早上的熱門消費者物價指數報告可能會結束股市上漲。 DZ Bank 的 Cloudflare 從“賣出”躍升至“買入”，富國銀行下調了 DraftKings 的評級，美國銀行將 Wix.com 的評級雙下調至“表現不佳”。 Jefferies 將 Riot Platforms 的目標價提高了一倍多，達到 28 美元，BTIG 將 MongoDB 的目標價定為 Buy 417 美元。",
+      "originalTitle": "Buy, Sell, or Hold? Tuesday’s Top Upgrades and Downgrades: Cloudflare, Deckers Outdoors, DraftKings, MongoDB, Nike, Oneok, Philip Morris International, Riot Platforms, Wix.com, and More",
+      "originalSummary": "Stocks surged Monday, but desks say short covering drove much of the rally, and a hot CPI report this morning could end it. Cloudflare jumped from Sell to Buy at DZ Bank, while Wells Fargo downgraded DraftKings and Bank of America double-downgraded Wix.com to Underperform. Jefferies more than doubled its Riot Platforms target to $28, and BTIG started MongoDB at Buy with a $417 target.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-sell-hold-tuesday-top-124706526.html",
+      "ts": "2026-11-10T12:47:06+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 9.302325581395344,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [
+        {
+          "broker": "Bank of America",
+          "analyst": "",
+          "rating": "Sell",
+          "action": "",
+          "newTarget": "$28",
+          "oldTarget": "",
+          "reason": "DZ Bank 的 Cloudflare 從“賣出”躍升至“買入”，富國銀行下調了 DraftKings 的評級，美國銀行將 Wix.com 的評級雙下調至“表現不佳”。",
+          "reasonConfidence": "medium",
+          "targetTicker": "NET",
+          "targetCompany": "Cloudflare"
+        },
+        {
+          "broker": "Jefferies",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "",
+          "newTarget": "$417",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NET",
+          "targetCompany": "Cloudflare"
+        }
+      ],
+      "relatedTickers": [
+        "NET"
+      ],
+      "eventType": "",
+      "score": 219.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Cloudflare（NET）｜券商：Bank of America｜評等：Sell｜目標價：$28｜調整原因：DZ Bank 的 Cloudflare 從“賣出”躍升至“買入”，富國銀行下調了 DraftKings 的評級，美國銀行將 Wix.com 的評級雙下調至“表現不佳”。\n被評級公司：Cloudflare（NET）｜券商：Jefferies｜評等：Buy｜目標價：$417｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$28",
+          "$417"
+        ],
+        "why": "調整原因：DZ Bank 的 Cloudflare 從“賣出”躍升至“買入”，富國銀行下調了 DraftKings 的評級，美國銀行將 Wix.com 的評級雙下調至“表現不佳”。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：DZ Bank 的 Cloudflare 從“賣出”躍升至“買入”，富國銀行下調了 DraftKings 的評級，美國銀行將 Wix.com 的評級雙下調至“表現不佳”。",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "NVDA",
@@ -92,33 +223,42 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Nebius財報前瞻：營收預估成長500%以上，華爾街最高目標價410美元",
-      "summary": "",
+      "summary": "Nebius Group ( NASDAQ:NBIS ) plans to report third-quarter 2026 results before the market opens on Thursday, Nov. 12. A live conference call is scheduled for 8 a.m. ET through the Nebius Investor Hub, where management is expected to discuss the results. Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online. They also project an adjusted loss of roughly 69 cents to $1.11 per share.",
       "originalTitle": "Nebius Earnings Preview: Revenue Expected to Grow Over 500%, Wall Street Highest Price Target at $410",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbE1wellNNzBFcGtlbmhqa1k3SHZoNnh3MlpLcEJxYk80S2tUYVRwRFlmTF9BWS1EbDNscU5hMVpRcEN6RjRQRUtIWUwwNzhIUVFZX3ZoN0ZRblN1d2RSRzUyQnNEeWZjNko4N0FMS1lRVG5zQzZzT0xhM1g5VUxOcEN5enJrdEdCZ3pyZ25WNGRsbW9mNHVMZ3Rzc1lIVUNJekloWGFGc25aaERMOGtQazN0YmpsMk05aWxOUGh2bGJRbzdGYWxmYlBOVnA4VGhTVDRRMQ?oc=5",
+      "originalSummary": "Nebius Group ( NASDAQ:NBIS ) plans to report third-quarter 2026 results before the market opens on Thursday, Nov. 12. A live conference call is scheduled for 8 a.m. ET through the Nebius Investor Hub, where management is expected to discuss the results. Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online. They also project an adjusted loss of roughly 69 cents to $1.11 per share.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-q3-earnings-preview-expect-111135990.html",
       "ts": "2026-11-10T12:45:08+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NBIS"
       ],
       "eventType": "",
-      "score": 204.0,
+      "score": 207.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Nebius Group ( NASDAQ:NBIS ) plans to report third-quarter 2026 results before the market opens on Thursday, Nov. 12. Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online. They also project an adjusted loss of roughly 69 cents to $1.11 per share.",
+        "numbers": [
+          "$410",
+          "$905 million",
+          "$907 million",
+          "$1.11"
+        ],
+        "why": "券商調整理由：Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online.",
+        "stance": "Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "券商調整理由：Analysts expect revenue of about $905 million to $907 million, which would be up more than 500% from a year earlier as new capacity comes online.",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "ASTS",
@@ -163,9 +303,44 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 6,
+      "top10": false,
+      "top10Rank": null,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "今日雲端 AI - FlowX.AI 和 Google Cloud 合作推動 AI 部署",
+      "summary": "FlowX.AI 與 Google Cloud 合作，正在推動任務關鍵型人工智慧代理的部署從試點階段進入實際生產，特別是在受監管的行業內。 FlowX.AI 最初透過 Google for Startups 計畫聯手，現已將其專業的人工智慧解決方案整合到 Google 的 Gemini 商業平台中。此次合作強調將人工智慧納入核心業務流程",
+      "originalTitle": "Cloud AI Today - FlowX.AI and Google Cloud Partner to Boost AI Deployments",
+      "originalSummary": "FlowX.AI, in collaboration with Google Cloud, is advancing the deployment of mission-critical AI agents beyond pilot stages into live production, especially within regulated industries. Initially joining forces through the Google for Startups program, FlowX.AI has integrated its specialized AI solutions into Google's Gemini platform for business. This collaboration emphasizes incorporating AI into core business processes rather than existing as supplementary tools, with governance and human...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cloud-ai-today-flowx-ai-124043727.html",
+      "ts": "2026-11-10T12:40:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.1833696186529963,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "FlowX.AI 與 Google Cloud 合作，正在推動任務關鍵型人工智慧代理的部署從試點階段進入實際生產，特別是在受監管的行業內。 FlowX.AI 最初透過 Google for Startups 計畫聯手，現已將其專業的人工智慧解決方案整合到 Google 的 Gemini 商業平台中。此次合作強調將人工智慧納入核心業務流程",
+        "numbers": [],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "FlowX.AI 與 Google Cloud 合作，正在推動任務關鍵型人工智慧代理的部署從試點階段進入實際生產，特別是在受監管的行業內。 FlowX.AI 最初透過 Google for Startups 計畫聯手，現已將其專業的人工智慧解決方案整合到 Google 的 Gemini 商業平台中。此次合作強調將人工智慧納入核心業務流程",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NXPI",
@@ -388,7 +563,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -497,6 +672,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "標準普爾 500 指數期貨盤前交易穩定； Intercorp Finl Svcs，Sanmina 負責人",
+      "summary": "",
+      "originalTitle": "S&P 500 Futures Steady in Premarket Trading; Intercorp Finl Svcs, Sanmina Lead",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMDRVRzhIcHBITU9NYlVkU1p3RnR4Rmc5NHJhZVBOTGxTQXZFUkhsSWgtMGdOVjhoWmtWSks0ek95OEhhdGtlZ0VGTXFuNGZ2TXM1RFdXclVneG9vMUs2TVVxWmx4SXQ1c1g0cUhfSDhpLUx6a2dYbGM3OVRjLWFsTHc5dUF0dkVteXp1b0FnNEtVYUZObHMwUlpjbDZkLXpfQ0pjNVBWUUwtOGhFWU1idl9IcEVMTVR1Y0E?oc=5",
+      "ts": "2026-11-10T12:31:17+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "SANM"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "RKLB",
       "group": "太空／國防／無人系統",
       "tag": "題材",
@@ -538,7 +745,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "AMD 的收入剛好超過英特爾。十年前，英特爾的規模是 12 倍",
-      "summary": "主要要點 AMD 預計第四季營收約 170 億美元，高於英特爾 150 億至 160 億美元的預測。 2016年第三季度，英特爾的營收約為AMD的12倍。",
+      "summary": "",
       "originalTitle": "AMD Just Guided to More Revenue Than Intel. A Decade Ago Intel Was 12x Its Size",
       "originalSummary": "Key TakeawaysAMD expects about $17 billion of revenue in the fourth quarter, above Intel’s $15 billion to $16 billion forecast. In the third quarter of 2016, Intel’s revenue was about 12x AMD’s.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-guided-more-revenue-122822825.html",
@@ -552,7 +759,7 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "主要要點 AMD 預計第四季營收約 170 億美元，高於英特爾 150 億至 160 億美元的預測。 2016年第三季度，英特爾的營收約為AMD的12倍。",
@@ -591,7 +798,7 @@
       ],
       "eventType": "",
       "score": 18.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -610,7 +817,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
       "title": "黃事件引發間諜調查，英偉達市值一日蒸發近 2,000 億美元",
-      "summary": "該公司表示，沒有理由相信國家安全或機密公司資訊受到損害，而中國否認了這些指控。",
+      "summary": "",
       "originalTitle": "Nvidia Lost Almost $200 Billion in Market Value on One Day as Huang Affair Sparks Espionage Investigation",
       "originalSummary": "The company says it has no reason to believe national security or confidential corporate information was compromised, while China rejected the allegations.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-lost-almost-200-billion-122601559.html",
@@ -623,7 +830,7 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -656,7 +863,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "RBC Cuts Price Target on Onto Innovation to $350 From $400, Keeps Outperform RatingOnto Innovation has an average rating of buy and mean price target of $334.17, according to analysts polled by FactSet.",
@@ -1559,7 +1766,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -1699,7 +1906,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1875,7 +2082,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 1,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2705,167 +2912,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Google的 Suncatcher 專案在軌道上產生第一個人工智慧回應 |點擊了解更多 |內褲",
-      "summary": "",
-      "originalTitle": "Google's Project Suncatcher generates first AI response from orbit | Tap to know more | Inshorts",
-      "originalSummary": "Google has put an AI chip in orbit and it is already writing poetry. The company’s Suncatcher prototype satellite went online this week. It carries the first Google Tensor Processing Units ever sent to space. Its first task after commissioning was writing a haiku about Earth. Premier Pakistan technology news website with special focus on startups, entrepreneurship and consumer products.",
-      "url": "https://www.techjuice.pk/google-suncatcher-satellite-tpu-space-ai/",
-      "ts": "2026-11-10T10:57:26+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "新題材",
-      "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "谷歌已經將人工智慧晶片送入軌道，並且已經在寫詩了。該公司的 Suncatcher 原型衛星本週上線。它攜帶著第一個被送到太空的Google張量處理單元。它投入運行後的第一個任務是寫一首關於地球的俳句。",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "谷歌已經將人工智慧晶片送入軌道，並且已經在寫詩了。該公司的 Suncatcher 原型衛星本週上線。它攜帶著第一個被送到太空的Google張量處理單元。它投入運行後的第一個任務是寫一首關於地球的俳句。巴基斯坦總理科技新聞網站，特別關注新創企業、創業和消費品。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Nvidia 執行長黃獲得更多壞消息，但 Cathie Wood 保持信念",
-      "summary": "",
-      "originalTitle": "Nvidia CEO Huang Gets More Bad News but Cathie Wood Keeps the Faith",
-      "originalSummary": "Nvidia stock was steadying despite further scrutiny on CEO Jensen Huang. Investors including Cathie Wood were buying the dip.",
-      "url": "https://www.barrons.com/articles/nvidia-stock-price-huang-cathie-wood-ef9d5868?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-11-10T10:55:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.270252893270465,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "BofA 調整 NVDA 目標價至 $350，維持 Buy",
-      "summary": "",
-      "originalTitle": "BofA reiterates Buy on Nvidia stock, keeps $350 price target",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZWVKS1I3RmVJODdkd2NKR29iQXhFc1cyTElCN1FSUWJjRHZxY0IyQnZ5MTZ6U2J0NjZCVkJrZWZOM2pTZl9NZ0RXNnpQbUdaQ0txTVQ5RzZnaG1remo5ZGpsaGc4QWE4WjdGZ1dWeE5xLWZnaVF0VXVMNkExS3lDdXJhdThZWUQ1UW16ZG5Na2hxQW85UjY0NGhNdllGbVhzWjFKRnlsZlFoczVGazdiUDhleUJoMDh1cXc?oc=5",
-      "ts": "2026-11-10T10:54:42+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "BofA",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$350",
-          "oldTarget": "",
-          "reason": "美國銀行重申買進 Nvidia 股票，維持 350 美元的目標價",
-          "reasonConfidence": "medium",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：BofA｜動作：重申｜評等：Buy｜目標價：$350｜調整原因：美國銀行重申買進 Nvidia 股票，維持 350 美元的目標價",
-        "numbers": [
-          "$350"
-        ],
-        "why": "調整原因：美國銀行重申買進 Nvidia 股票，維持 350 美元的目標價",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：美國銀行重申買進 Nvidia 股票，維持 350 美元的目標價",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "KeyBanc 重申 ORCL Overweight",
-      "summary": "",
-      "originalTitle": "KeyBanc reiterates Oracle stock Overweight rating on data center outlook",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNak95X3dSQVlmR3N1ZFlhY1pRNnM3a1VVQTI0OGttdk1OVXlTTndyWmQ5alVqYzNWcnVsWmJHVDVlSThSS284a1NHcWZsWTA1WDdfazk0eEpBN291UWhJdjNKZ2RQbmIyZk5PTlFhbnlBRHlQSFExcElua0JLeG1GR1p6dHN1MVlHY2sxZzFTVG00NzdqNnhoZzBrQkpZUDBqdHNka0RhRjZpZWZvV0hfQ1VhOEpodkdTTW1obzV4dFYteDRBUFo5RjJEXzI?oc=5",
-      "ts": "2026-11-10T10:54:42+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "KeyBanc",
-          "analyst": "",
-          "rating": "Overweight",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "KeyBanc 重申甲骨文股票對資料中心前景的增持評級",
-          "reasonConfidence": "medium",
-          "targetTicker": "ORCL",
-          "targetCompany": "Oracle"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Oracle（ORCL）｜券商：KeyBanc｜動作：重申｜評等：Overweight｜調整原因：KeyBanc 重申甲骨文股票對資料中心前景的增持評級",
-        "numbers": [],
-        "why": "調整原因：KeyBanc 重申甲骨文股票對資料中心前景的增持評級",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：KeyBanc 重申甲骨文股票對資料中心前景的增持評級",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 8
     }
   ],
   "historyItems": [
