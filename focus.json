@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-11-10 22:00 台灣時間",
+  "updatedAt": "2026-11-11 08:10 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,44 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-11-10:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-11-10",
+      "generatedAt": "2026-11-11 08:10 台灣時間",
+      "generatedAtIso": "2026-11-11T00:10:43.370420+00:00",
+      "items": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "group": "AI 運算／AI 晶片",
+          "headline": "英偉達股票（NVDA）因執行長調查而持續承受壓力；富國銀行在第三季財報公佈前降低價格目標",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -5.473778474282199,
+          "movePrice": 168.89,
+          "regularChangePct": -5.473778474282199,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.6868375865948462,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.tipranks.com/news/nvidia-stock-nvda-stays-under-pressure-amid-ceo-probe-wells-fargo-lowers-price-target-ahead-of-q3-earnings"
+            }
+          ],
+          "score": 964.2
+        }
+      ]
+    },
     {
       "key": "2026-11-10:pre",
       "session": "pre",
@@ -4558,100 +4596,6 @@
             }
           ],
           "score": 817.82
-        }
-      ]
-    },
-    {
-      "key": "2026-10-27:post",
-      "session": "post",
-      "sessionLabel": "盤後焦點",
-      "marketDate": "2026-10-27",
-      "generatedAt": "2026-10-28 08:09 台灣時間",
-      "generatedAtIso": "2026-10-28T00:09:06.988352+00:00",
-      "items": [
-        {
-          "ticker": "INTC",
-          "name": "Intel",
-          "group": "CPU 概念股",
-          "headline": "Rosenblatt 維持英特爾目標股價為 80.00 美元/股",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 3.6144578313253017,
-          "movePrice": 93.74,
-          "regularChangePct": 3.6144578313253017,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.4693834008961062,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWpNTFI2Vl9RNHR2RGhycGZSZjlFRml5Y01BaHgxOFliYk1qOHdWdFEwSldiZTFGQnN0S25BV2sxdkFMWnFVRDhWQ2J2aW1FeUtKbEFiTmNGTDl0bGc4NFA2MGpiY0RZT2dueXpDblVQM2V1U2FZaV9fc05FTWwtVGxuRmlzQmV3OEhjNEdqSWxRc3ZzVmw2SEgzaw?oc=5"
-            }
-          ],
-          "score": 940.83
-        },
-        {
-          "ticker": "STX",
-          "name": "Seagate",
-          "group": "記憶體／儲存",
-          "headline": "Rosenblatt 調整 STX 目標價至 $1,100，維持 Buy",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 3.6696108411853334,
-          "movePrice": 667.85,
-          "regularChangePct": 3.6696108411853334,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -5.487070449951337,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObDdERHY0U1pQb0gwR0MzTlhmeVZWbTlTWnhVanUyTjlTZmR6MVE3MzVZLWs3NElGdFNJbERvZ2JoWWN3UDJnZTAxYTFrZzRqUU9uS3VlUThoVE9RSXNfMXV5Z1pnN293V01Jbk5PSnVvMFdROHk3QzdDejZtakRRbndjUmEyQUFraWVUcHl2cUVYOFNCcUlHVXlxWTJjNnVncEtHazlfanI3Zy0wQ0dsb0I2bndhNTAtLUU1djg1RkRTeVd3MlB4Vm9MLWE5d0dIamVuQzh3?oc=5"
-            }
-          ],
-          "score": 940.78
-        },
-        {
-          "ticker": "GLW",
-          "name": "Corning",
-          "group": "光通訊／網通",
-          "headline": "Truist 將康寧股價目標估值下調至 175 美元",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -1.1272898074213278,
-          "movePrice": 126.3,
-          "regularChangePct": -1.1272898074213278,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.023277909738717018,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRmhCcjlsMU1jT0xKMUVYOFktLWNtSGhJUmVJVmJwdTVydWo0VEtuQnJNQWdCNkJjbFVSTExDVGRPQmF0emJVSWI0eDIwRFJxbldCNHBGVGZuNXUtaW43bGNjblpydnMzU05DU2diWjl5MDdZaUY3Vy0xbE9KcXczdVR6YTU5cW5JTWd2Nm1YWE84SmxjbUl2azV4a1BGXzBCMFgzSlBsQWhUMko1X05sNGVCZ0x5cWk2Nmc?oc=5"
-            }
-          ],
-          "score": 925.52
         }
       ]
     }
