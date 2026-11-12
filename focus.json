@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-11-12 08:03 台灣時間",
+  "updatedAt": "2026-11-12 22:03 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,191 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-11-12:pre",
+      "session": "pre",
+      "sessionLabel": "盤前焦點",
+      "marketDate": "2026-11-12",
+      "generatedAt": "2026-11-12 22:03 台灣時間",
+      "generatedAtIso": "2026-11-12T14:03:32.551518+00:00",
+      "items": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "group": "NeoCloud／AI 算力",
+          "headline": "由於債務擔憂，Argus 下調了 CoreWeave 股價目標",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [
+            "週日，富國銀行將 CoreWeave （NASDAQ：CRWV）的目標價從 160 美元下調至 115 美元，降幅為 28.1%，同時在該公司第三季財報公佈之前維持增持評級。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -13.856508145466517,
+          "movePrice": 52.3494,
+          "regularChangePct": 24.7075723373692,
+          "preMarketChangePct": -13.856508145466517,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-cuts-coreweave-target-154930100.html"
+            }
+          ],
+          "score": 1007.31
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "group": "AI 運算／AI 晶片",
+          "headline": "美銀證券將 Nvidia 的目標價從 350 美元調整至 280 美元",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -10.458757842629362,
+          "movePrice": 155.56,
+          "regularChangePct": 2.9230550486978313,
+          "preMarketChangePct": -10.458757842629362,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1JQd3VBMmctUTZ5Q1U4bjFCeXFXUWlCT0VCbUI1YkdtTU9DbS11QVA2NVBZVml1WFRVTXp4ZmVVc3d4RHdoR3BTLWVBTEJmM0p5VGpSSy0tc0VpTE05VHV0bFRkUm1NOWY4TXA4REozY1FvS2tXQnpSOHhKYUFpYlFtOU9TcEJhMElERUJUVEtvb21DWVN3aWpyWXg0b044VnpYY0h2YWVHbWdCM3pNZlBUWVA1dw?oc=5"
+            }
+          ],
+          "score": 987.55
+        },
+        {
+          "ticker": "INTC",
+          "name": "Intel",
+          "group": "CPU 概念股",
+          "headline": "美國銀行證券將英特爾目標股價從 100 美元下調至 80 美元，維持中性評級",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -4.0000000000000036,
+          "movePrice": 60.0,
+          "regularChangePct": 7.517632891794257,
+          "preMarketChangePct": -4.0000000000000036,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-cuts-asts-price-target-125546195.html"
+            }
+          ],
+          "score": 948.51
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices",
+          "group": "CPU 概念股",
+          "headline": "BofA 調整 AMD 目標價至 $700",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": 2.255380719840838,
+          "movePrice": 565.37,
+          "regularChangePct": 7.315463597368055,
+          "preMarketChangePct": 2.255380719840838,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNkhyMk4zYWxmQzZuM2MyR29jamdWVnFuSlVpZ05Yb1JJa0tRZVdhVy1BcWlnQXpSMWpJYVlxZ3d1Y3dURDRMU1BSOWd6cU5iRHNzdHNMTE84LVV5dWlQWnRQbWxraTREa2c5N29ISWJiWXp1ell6YzRSVmZFYVU0cjdiQU1TbDZuZXpJZ0tlaEttUWJXOHA2bURQNXRmeEFuTzBnamtKSlN1UmllSGxaQzI1TVROR0NhdzFpSlNFWUttYXFwcmphV2Fwd0t2R3dkajk3US1OaGJLanZj?oc=5"
+            }
+          ],
+          "score": 937.54
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "group": "NeoCloud／AI 算力",
+          "headline": "隨著營收指引減弱和人工智慧支出增加，Nebius 股價下跌",
+          "priority": 2,
+          "category": "財報／財測",
+          "bullets": [
+            "週四，人工智慧雲公司 Nebius Group NV（納斯達克股票代碼：NBIS）的股價在盤前交易中下跌 16%，至 130.50 美元，原因是收入指引疲軟和支出增加蓋過了第三季度盈利的增長。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -19.84614390070464,
+          "movePrice": 123.99,
+          "regularChangePct": 15.44029850746269,
+          "preMarketChangePct": -19.84614390070464,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/technology/ai/articles/nebius-shares-slide-revenue-guidance-133400044.html"
+            }
+          ],
+          "score": 899.26
+        },
+        {
+          "ticker": "TER",
+          "name": "Teradyne",
+          "group": "半導體設備／測試",
+          "headline": "泰瑞達 (TER) 推出 Omnyx Edge，它的價值是否仍被低估？",
+          "priority": 5,
+          "category": "產品／監管／併購",
+          "bullets": [
+            "Omnyx Edge 和新的 Jefferies 覆蓋範圍的推出是在過去一個月泰瑞達股價大幅重置之後推出的，30 天股價回報率下降了 30.8%，90 天股價回報率下降了 35.3%。",
+            "Teradyne (TER) 剛剛將新產品新聞與華爾街的新關注結合起來，推出了用於邊緣 AI 系統的 Omnyx Edge 測試平台，並吸引了 Jefferies 的新報道。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "盤前",
+          "movePct": -3.867860636616738,
+          "movePrice": 255.5,
+          "regularChangePct": 8.304808475957604,
+          "preMarketChangePct": -3.867860636616738,
+          "postMarketChangePct": null,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ter-launches-omnyx-edge-130658824.html"
+            }
+          ],
+          "score": 531.79
+        }
+      ]
+    },
     {
       "key": "2026-11-11:post",
       "session": "post",
@@ -4390,248 +4575,6 @@
             }
           ],
           "score": 920.6
-        }
-      ]
-    },
-    {
-      "key": "2026-10-29:pre",
-      "session": "pre",
-      "sessionLabel": "盤前焦點",
-      "marketDate": "2026-10-29",
-      "generatedAt": "2026-10-29 21:15 台灣時間",
-      "generatedAtIso": "2026-10-29T13:15:40.740465+00:00",
-      "items": [
-        {
-          "ticker": "COHU",
-          "name": "Cohu",
-          "group": "半導體設備／測試",
-          "headline": "Stifel 因熱測試處理程序成長而上調 Cohu 股價目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": 9.145652992096354,
-          "movePrice": 58.0,
-          "regularChangePct": 4.236955668889775,
-          "preMarketChangePct": 9.145652992096354,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN2dDY1RzUEk2ZGgyOUtTdjZqc3N3QVNfRzhvdUlUb2dmU252ODFaek1lNXZGc0RZS1ZuUzk1ZkJQT1JUYTM2VzJMYnAzSWNKMDF3Z2tiM2tHMDEyRkQ1Mmg5Sk9lY0VfN3BXcFI4QVB0cFFhWnZ4Nnowd0lPQjZVWVNmejI1UFQ4WXRhSkRiUFBfR0lSSFpMMG1hUUlSY2JoLW1mZ3NhbDQyLTRUSzN1SDdBcWVIdEFza0VHdDlzQ1ZwUnM1MmIzNA?oc=5"
-            }
-          ],
-          "score": 973.64
-        },
-        {
-          "ticker": "GEV",
-          "name": "GE Vernova",
-          "group": "電力／儲能／資料中心能源",
-          "headline": "傑富瑞因估值前景下調 GE Vernova 股價目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "燃氣渦輪機和電網設備製造商 GE Vernova（NYSE：GEV）的股價在 10 月 22 日的交易日中暴跌約 11%。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": -3.297153855790802,
-          "movePrice": 849.08,
-          "regularChangePct": -1.9048576663538541,
-          "preMarketChangePct": -3.297153855790802,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.foreignpolicyjournal.com/2026/10/25/ge-vernova-nyse-gev-shares-sink-11-but-analysts-eye-1100-price-target-by-2030/"
-            }
-          ],
-          "score": 953.19
-        },
-        {
-          "ticker": "FLEX",
-          "name": "Flex",
-          "group": "晶圓代工／封測／EMS",
-          "headline": "高盛將 Flex 的目標價從 145 美元調整為 159 美元",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": -4.568418789637752,
-          "movePrice": 88.78,
-          "regularChangePct": 11.613677264547096,
-          "preMarketChangePct": -4.568418789637752,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1hHZnA5dklHb3Z3MXdGTzVSN1hzLTYtdkpWXzRHbnAyc3BPLWtlV2l2VzhVMnJQdGcwSXZvTDduRDEtbGRpenJoTjB1c01UT3ZuOEdnX3NvaW9uQUFFUms5LXNaeklTa0RVakJhX0k5NmowVFY5ZkpEaS1qNW9uSXBPVXV4VG5uZVJ4Um1VeXl6TFJZMmdEbHF2bXZTZFJDODFpb1dvSTdNcFNVRDBSRw?oc=5"
-            }
-          ],
-          "score": 951.69
-        },
-        {
-          "ticker": "VRT",
-          "name": "Vertiv",
-          "group": "AI Server／資料中心硬體",
-          "headline": "富國銀行因執行減免而上調 Vertiv 股價目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": -3.8116407343376957,
-          "movePrice": 233.68,
-          "regularChangePct": 16.484464902186424,
-          "preMarketChangePct": -3.8116407343376957,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSmJ6WkprdmZ5aWhTcW56WFIya0I2cXJObGQ3ajVWVDhSR2VFQ003dWhPbXY1UnJuc1BwYzJCQVJrZFZUWWx5OVJFbWJHUmJTY0dvNEE0ckx5b2QwaUhNb2NzUnlpSzNqU3JRMzdYQWFsM0s4ZjNhdHl0eXB4c254WmlhZ0lwY2szVWRHMmhsQm1NVXF6VW51M0d3OVYyeGpKdjR1S2VBdWpfMGJlMU42UHZiSXlZalZfQ2xSSEljeGFwRlk?oc=5"
-            }
-          ],
-          "score": 944.4
-        },
-        {
-          "ticker": "KLAC",
-          "name": "KLA",
-          "group": "半導體設備／測試",
-          "headline": "Cantor Fitzgerald 下調 KLA（納斯達克股票代碼：KLAC）股價目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "半導體製造設備製造商 KLA Corporation（納斯達克股票代碼：KLAC）公佈的 2026 年第三季（2027 財年第一季）營收超出華爾街預期，營收年增 28.9% 至 41.4 億美元。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": 2.664231277949236,
-          "movePrice": 163.0,
-          "regularChangePct": 3.3255238838995282,
-          "preMarketChangePct": 2.664231277949236,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/kla-corporation-nasdaq-klac-q3-201213172.html"
-            }
-          ],
-          "score": 939.87
-        },
-        {
-          "ticker": "MSFT",
-          "name": "Microsoft",
-          "group": "CSP",
-          "headline": "Morgan Stanley 上修 MSFT 目標價至 $650",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": 2.0037287433381623,
-          "movePrice": 541.65,
-          "regularChangePct": -0.06022622475675421,
-          "preMarketChangePct": 2.0037287433381623,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc2lfTUk1TGc1THE2bTRaYTdYTHg0TDF2SUFLMVMxZEEyMHUyUTZEbHBEWjZRS1d6eGNCOGEzUDc0LUY0d0RMYmI0Vl8zRFc3akxqcV8zbHhSaF9GUlZaUGtmLWtpTVlVYWVxTU9aeERmTTR1Mll6QTRmVzdvZHFEOTdMQVR2WXBqOGUzR1dOblBCTW5EXzZZR1VZUTV0LWwzWDdYVVpB?oc=5"
-            }
-          ],
-          "score": 935.13
-        },
-        {
-          "ticker": "ORCL",
-          "name": "Oracle",
-          "group": "Cloud／Software／AI 應用",
-          "headline": "ORCL 由 Piper Sandler 維護——目標價保持在 225 美元",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "ORCL 由 Piper Sandler 維護——目標價保持在 225 美元"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": -1.3421890134218906,
-          "movePrice": 142.6,
-          "regularChangePct": 10.733164789703519,
-          "preMarketChangePct": -1.3421890134218906,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0tsd1VKVXlKand1Ni1TRlNhblhZQ2tNTllPR1lxdndneUhVWXBmZmlndWIzUzNrN1I4TEc5QmIybzlkMDZqNU9zNFd2X2VWZEo5MlFpaDY2UDRBX3Vma2lmUWg5Q0hQbGdCblNJSEJsaGRYdzhEOUVZRk4xLWlZYlExTUJGb1djVElkU1Q2ZDVSZGt1VlhKLXIxMDYyZw?oc=5"
-            }
-          ],
-          "score": 929.47
-        },
-        {
-          "ticker": "APH",
-          "name": "Amphenol",
-          "group": "高速傳輸",
-          "headline": "Truist Securities 將 Amphen 的目標價從 107.50 美元調整至 112 美元，維持買入評級",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "Truist Securities 將安費諾的目標價從 107.50 美元調整至 112 美元，維持買入評級 根據 FactSet 調查的分析師，安費諾的平均買入評級為買入，平均目標價為 105.89 美元。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "盤前",
-          "movePct": -1.6921936758893197,
-          "movePrice": 79.59,
-          "regularChangePct": 3.5161744022503605,
-          "preMarketChangePct": -1.6921936758893197,
-          "postMarketChangePct": null,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.marketscreener.com/news/truist-securities-adjusts-price-target-on-amphenol-to-112-from-107-50-keeps-buy-rating-ce785cd3df8ef12c"
-            }
-          ],
-          "score": 929.21
         }
       ]
     }
