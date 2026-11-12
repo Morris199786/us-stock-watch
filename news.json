@@ -1,11 +1,45 @@
 {
-  "updatedAt": "2026-11-12 16:38 台灣時間",
+  "updatedAt": "2026-11-12 16:51 台灣時間",
   "historyUpdatedDate": "2026-11-12",
   "historyLastAttemptAt": "2026-11-11T16:06:42.689965+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-12",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "由於交易員關注英偉達危機，亞洲股市下跌",
+      "summary": "Asian stocks fell Thursday as investors kept a nervous eye on tech giant Nvidia, whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
+      "originalTitle": "Asian stocks drop as traders keep eye on Nvidia crisis",
+      "originalSummary": "Asian stocks fell Thursday as investors kept a nervous eye on tech giant Nvidia, whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html",
+      "ts": "2026-11-12T08:29:25+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.9230550486978313,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "新題材",
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Asian stocks fell Thursday as investors kept a nervous eye on tech giant Nvidia, whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
+        "numbers": [],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "Asian stocks fell Thursday as investors kept a nervous eye on tech giant Nvidia, whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
     {
       "ticker": "NBIS",
       "group": "NeoCloud／AI 算力",
@@ -65,12 +99,12 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "CRWV 股票迎來自英偉達股份披露以來最好的一周——債務恐慌是否掩蓋了便宜貨？晨星也是這麼認為的",
       "summary": "晨星公司看到了買入機會，稱債務收益率擔憂被誇大了，可供部署的資金超過 200 億美元。",
@@ -80,12 +114,13 @@
       "ts": "2026-11-12T07:49:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.9230550486978313,
+      "movePct": 24.7075723373692,
       "relatedTickers": [
+        "CRWV",
         "NVDA"
       ],
-      "eventType": "",
-      "score": 12.0,
+      "eventType": "跨公司事件",
+      "score": 37.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -97,8 +132,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 4
     },
     {
       "ticker": "KTOS",
@@ -120,6 +155,36 @@
       "score": 3.0,
       "featured": true,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Oil Prices Fall as Investors Weigh U.S.-Iran Diplomacy",
+      "summary": "",
+      "originalTitle": "Oil Prices Fall as Investors Weigh U.S.-Iran Diplomacy",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZGlJbWtWZHpSYmlFQjIzNDZLb1hkZXV2dVlNazZ2aXpPSFU2QzBZb1VxeC1mZlVsVTNTTEh0eVRCZS1UZnR6ZFUwNF9YdFkydnNxZVdpTHMyYUtTQWE0TFVoQ3pLNDRvM1JWSWRDY2hmenNNR3JfT0hSWFlibnRPOVVMT0JHcUtPcHQ1TjJjWnFGV1FoRkEtS1NsVzhtSWZPeGt6bw?oc=5",
+      "ts": "2026-11-12T07:29:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -440,41 +505,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "由於交易員關注英偉達危機，亞洲股市下跌",
-      "summary": "",
-      "originalTitle": "Asian stocks drop as traders keep eye on Nvidia crisis",
-      "originalSummary": "Asian stocks fell Thursday as investors kept a nervous eye on Nvidia whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/asian-stocks-extend-gains-traders-025559054.html",
-      "ts": "2026-11-12T07:13:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.9230550486978313,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Asian stocks fell Thursday as investors kept a nervous eye on Nvidia whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Asian stocks fell Thursday as investors kept a nervous eye on Nvidia whose influential boss Jensen Huang faces a probe into an affair with a woman accused of spying for China.Traders' nerves are being tested by the crisis at Nvidia, with co-founder and CEO Huang facing the boot after he admitted a relationship with Alice Huang, a senior executive at Singapore-based data centre company Megaspeed.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "CRWD",
@@ -639,7 +670,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -658,7 +689,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "預測：今天對 SpaceX 的 1,000 美元投資到 2029 年將價值如此之多",
-      "summary": "太空探索技術公司（納斯達克股票代碼：SPCX）已迅速成為最令人興奮的成長股之一。隨著 Starlink、Starship 和人工智慧 (AI) 推動其雄心壯志，人們自然會想知道，到 2029 年，今天 1,000 美元的投資能值多少錢。首先，它有助於從 SpaceX 在火箭之外建造的東西開始。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們",
+      "summary": "",
       "originalTitle": "Prediction: $1,000 Invested in SpaceX Today Will Be Worth This Much by 2029",
       "originalSummary": "Space Exploration Technologies (NASDAQ: SPCX) has quickly become one of the most exciting growth stocks around. With Starlink, Starship, and artificial intelligence (AI) driving its ambitions, it's natural to wonder how much a $1,000 investment today could be worth by 2029. First, it helps to start with what SpaceX is building beyond rockets. Missed AI's \"Act 1\"? Act 2 Could Be 16x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-1-000-invested-spacex-065000656.html",
@@ -674,15 +705,15 @@
       ],
       "eventType": "新題材",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "太空探索技術公司（納斯達克股票代碼：SPCX）已迅速成為最令人興奮的成長股之一。隨著 Starlink、Starship 和人工智慧 (AI) 推動其雄心壯志，人們自然會想知道，到 2029 年，今天 1,000 美元的投資能值多少錢。首先，它有助於從 SpaceX 在火箭之外建造的東西開始。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們",
+        "event": "Space Exploration Technologies (NASDAQ: SPCX) has quickly become one of the most exciting growth stocks around. With Starlink, Starship, and artificial intelligence (AI) driving its ambitions, it's natural to wonder how much a $1,000 investment today could be worth by 2029. Missed AI's \"Act 1\"? Most investors think they missed the AI boat because they didn't buy Nvidia in 2005.",
         "numbers": [
           "$1,000"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索技術公司（納斯達克股票代碼：SPCX）已迅速成為最令人興奮的成長股之一。隨著 Starlink、Starship 和人工智慧 (AI) 推動其雄心壯志，人們自然會想知道，到 2029 年，今天 1,000 美元的投資能值多少錢。首先，它有助於從 SpaceX 在火箭之外建造的東西開始。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們",
+        "stance": "Space Exploration Technologies (NASDAQ: SPCX) has quickly become one of the most exciting growth stocks around. With Starlink, Starship, and artificial intelligence (AI) driving its ambitions, it's natural to wonder how much a $1,000 investment today could be worth by 2029.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -690,7 +721,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -1147,7 +1178,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "NBIS",
@@ -1186,7 +1217,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -1419,7 +1450,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -2709,62 +2740,33 @@
       "title": "如果 SpaceX 和 Tesla 合併，到 2030 年對合併後的公司投資 10,000 美元的價值如下",
       "summary": "",
       "originalTitle": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
-      "originalSummary": "",
+      "originalSummary": "Elon Musk is considering merging his two business empires under one corporate umbrella. Tesla (NASDAQ: TSLA) and Space Exploration Technologies (NASDAQ: SPCX) have both formed committees to explore the potential merits of a merger, which could lead to a proposal in the near future. This would put electric vehicles, battery packs, rocket launches, satellite internet, and artificial intelligence ( AI ) business lines under one roof.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-merge-heres-10-025000181.html",
       "ts": "2026-11-12T02:50:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -2.334195261723393,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "SPCX",
         "TSLA"
       ],
-      "eventType": "",
-      "score": 12.0,
+      "eventType": "跨公司事件",
+      "score": 34.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "據報道，英偉達準備罷免黃仁勳，華倫巴菲特 1991 年的劇本指出了前進的道路。巴菲特說他可以原諒損失，但有一件事他會毫不留情",
-      "summary": "",
-      "originalTitle": "Warren Buffett’s 1991 Playbook Points The Path Forward As Nvidia Reportedly Prepares To Oust Jensen Huang. Buffett Said He Could Forgive Losses, But There Was One Thing He Would Be Ruthless About",
-      "originalSummary": "A board with no chair, no succession plan, and a CEO under fire. When Salomon Brothers hit a similar crisis in 1991, Warren Buffett stepped in with a strict rule. Nvidia's directors may need the same one.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-1991-playbook-points-022606315.html",
-      "ts": "2026-11-12T02:26:06+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.9230550486978313,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "A board with no chair, no succession plan, and a CEO under fire. When Salomon Brothers hit a similar crisis in 1991, Warren Buffett stepped in with a strict rule. Nvidia's directors may need the same one.",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "A board with no chair, no succession plan, and a CEO under fire.",
+        "event": "Elon Musk is considering merging his two business empires under one corporate umbrella. Tesla (NASDAQ: TSLA) and Space Exploration Technologies (NASDAQ: SPCX) have both formed committees to explore the potential merits of a merger, which could lead to a proposal in the near future. This would put electric vehicles, battery packs, rocket launches, satellite internet, and artificial intelligence ( AI ) business lines under one roof.",
+        "numbers": [
+          "$10,000"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Elon Musk is considering merging his two business empires under one corporate umbrella. Tesla (NASDAQ: TSLA) and Space Exploration Technologies (NASDAQ: SPCX) have both formed committees to explore the potential merits of a merger, which could lead to a proposal in the near future.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
       "top10": false,
