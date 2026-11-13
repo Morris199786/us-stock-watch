@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13 17:37 台灣時間",
+  "updatedAt": "2026-11-13 17:49 台灣時間",
   "historyUpdatedDate": "2026-11-13",
   "historyLastAttemptAt": "2026-11-12T16:00:38.518357+00:00",
   "historyItemCount": 800,
@@ -7,11 +7,223 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Huang ouster fallout; Cisco, Applied Materials outlooks - what’s moving markets",
+      "summary": "Investing.com - Futures connected to the major U.S. stock indices edge lower, with the contract linked to the tech-heavy Nasdaq leading the declines, as tremors from outgoing Nvidia CEO Jensen Huang’s resignation rattle through global markets. Even as investors fret over the future of Nvidia, Cisco Systems and Applied Materials provide upbeat outlooks that underscore the strength of artificial intelligence demand. Mi",
+      "originalTitle": "Huang ouster fallout; Cisco, Applied Materials outlooks - what’s moving markets",
+      "originalSummary": "Investing.com - Futures connected to the major U.S. stock indices edge lower, with the contract linked to the tech-heavy Nasdaq leading the declines, as tremors from outgoing Nvidia CEO Jensen Huang’s resignation rattle through global markets. Even as investors fret over the future of Nvidia, Cisco Systems and Applied Materials provide upbeat outlooks that underscore the strength of artificial intelligence demand. Microsoft said it was still working to fix its Outlook and Teams services, while g",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/huang-ouster-fallout-cisco-applied-093548568.html",
+      "ts": "2026-11-13T09:35:48+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.2405716554188206,
+      "relatedTickers": [
+        "CSCO",
+        "MSFT",
+        "NVDA",
+        "AMAT"
+      ],
+      "eventType": "跨公司事件",
+      "score": 28.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Investing.com - Futures connected to the major U.S. stock indices edge lower, with the contract linked to the tech-heavy Nasdaq leading the declines, as tremors from outgoing Nvidia CEO Jensen Huang’s resignation rattle through global markets. Even as investors fret over the future of Nvidia, Cisco Systems and Applied Materials provide upbeat outlooks that underscore the strength of artificial intelligence demand. Mi",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "stock indices edge lower, with the contract linked to the tech-heavy Nasdaq leading the declines, as tremors from outgoing Nvidia CEO Jensen Huang’s resignation rattle through global markets. Even as investors fret over the future of Nvidia, Cisco Systems and Applied Materials provide upbeat outlooks that underscore the strength of artificial intelligence demand.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "China's $3 billion-plus pipeline of Nvidia-powered AI data centres",
+      "summary": "By Eduardo Baptista BEIJING, Nov 13 (Reuters) - A Reuters review has identified more than $3 billion in Chinese computing projects built around Nvidia's restricted processors, even as the American",
+      "originalTitle": "China's $3 billion-plus pipeline of Nvidia-powered AI data centres",
+      "originalSummary": "By Eduardo Baptista BEIJING, Nov 13 (Reuters) - A Reuters review has identified more than $3 billion in Chinese computing projects built around Nvidia's restricted processors, even as the American",
+      "url": "https://finance.yahoo.com/news/chinas-3-billion-plus-pipeline-092758838.html",
+      "ts": "2026-11-13T09:27:58+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.340067921487356,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "By Eduardo Baptista BEIJING, Nov 13 (Reuters) - A Reuters review has identified more than $3 billion in Chinese computing projects built around Nvidia's restricted processors, even as the American",
+        "numbers": [
+          "$3 billion",
+          "3 billion"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "By Eduardo Baptista BEIJING, Nov 13 (Reuters) - A Reuters review has identified more than $3 billion in Chinese computing projects built around Nvidia's restricted processors, even as the American",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利空",
+      "title": "Microsoft services outage disrupts Outlook and Teams worldwide",
+      "summary": "Server-capacity failures disrupted Exchange Online-dependent tools and connected AI services, prompting Microsoft to apply traffic restrictions and configuration reversions.",
+      "originalTitle": "Microsoft services outage disrupts Outlook and Teams worldwide",
+      "originalSummary": "Server-capacity failures disrupted Exchange Online-dependent tools and connected AI services, prompting Microsoft to apply traffic restrictions and configuration reversions.",
+      "url": "https://finance.yahoo.com/news/microsoft-services-outage-disrupts-outlook-092451146.html",
+      "ts": "2026-11-13T09:24:51+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.3597985128328096,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Server-capacity failures disrupted Exchange Online-dependent tools and connected AI services, prompting Microsoft to apply traffic restrictions and configuration reversions.",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Server-capacity failures disrupted Exchange Online-dependent tools and connected AI services, prompting Microsoft to apply traffic restrictions and configuration reversions.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "Nvidia announces CEO change as Jensen Huang resigns",
+      "summary": "Colette Kress assumes interim leadership as the company’s board launches a search for Nvidia’s next chief executive.",
+      "originalTitle": "Nvidia announces CEO change as Jensen Huang resigns",
+      "originalSummary": "Colette Kress assumes interim leadership as the company’s board launches a search for Nvidia’s next chief executive.",
+      "url": "https://finance.yahoo.com/news/nvidia-announces-ceo-change-jensen-092331169.html",
+      "ts": "2026-11-13T09:23:31+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.340067921487356,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "新題材",
+      "score": 21.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "European shares retreat from record highs after Nvidia CEO's exit",
+      "summary": "By Anjana Jayakrishnan Nair and Johann M Cherian Nov 13 (Reuters) - European shares slipped on Friday, retreating from record highs hit in the previous session, while uncertainty over the outlook for",
+      "originalTitle": "European shares retreat from record highs after Nvidia CEO's exit",
+      "originalSummary": "By Anjana Jayakrishnan Nair and Johann M Cherian Nov 13 (Reuters) - European shares slipped on Friday, retreating from record highs hit in the previous session, while uncertainty over the outlook for",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/european-shares-retreat-record-highs-092118745.html",
+      "ts": "2026-11-13T09:21:18+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.340067921487356,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "By Anjana Jayakrishnan Nair and Johann M Cherian Nov 13 (Reuters) - European shares slipped on Friday, retreating from record highs hit in the previous session, while uncertainty over the outlook for",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "By Anjana Jayakrishnan Nair and Johann M Cherian Nov 13 (Reuters) - European shares slipped on Friday, retreating from record highs hit in the previous session, while uncertainty over the outlook for",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Market Chatter: Nvidia Chips Found Inside China Data Center Linked to Alleged Spy",
+      "summary": "",
+      "originalTitle": "Market Chatter: Nvidia Chips Found Inside China Data Center Linked to Alleged Spy",
+      "originalSummary": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-nvidia-chips-found-091905624.html",
+      "ts": "2026-11-13T09:19:05+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.340067921487356,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "AI Roundup: Nvidia CEO’s Exit Dominates Headlines — CoreWeave, Cisco Results Boost AI Sentiment",
-      "summary": "Jensen Huang resigned as Nvidia CEO on Thursday, and the company appointed CFO Colette Kress as an interim replacement in an unprecedented shakeup.",
+      "summary": "",
       "originalTitle": "AI Roundup: Nvidia CEO’s Exit Dominates Headlines — CoreWeave, Cisco Results Boost AI Sentiment",
       "originalSummary": "Jensen Huang resigned as Nvidia CEO on Thursday, and the company appointed CFO Colette Kress as an interim replacement in an unprecedented shakeup.",
       "url": "https://finance.yahoo.com/technology/ai/articles/ai-roundup-nvidia-ceo-exit-091457648.html",
@@ -26,7 +238,7 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -58,6 +270,79 @@
       ],
       "eventType": "",
       "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DIOD",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "Will Strong Earnings Guidance Change Diodes Stock Narrative",
+      "summary": "Diodes Incorporated reported third quarter 2026 sales of US$532.59 million and net income of US$43.71 million, alongside full year 2026 guidance that points to higher expected revenue versus 2025. Management coupled the stronger earnings run rate with expectations for continued revenue expansion into the fourth quarter. This directly feeds into analysts revising earnings estimates and reassessing Diodes' capacity to",
+      "originalTitle": "Will Strong Earnings Guidance Change Diodes Stock Narrative",
+      "originalSummary": "Diodes Incorporated reported third quarter 2026 sales of US$532.59 million and net income of US$43.71 million, alongside full year 2026 guidance that points to higher expected revenue versus 2025. Management coupled the stronger earnings run rate with expectations for continued revenue expansion into the fourth quarter. This directly feeds into analysts revising earnings estimates and reassessing Diodes' capacity to support its ongoing product and manufacturing investments. We will now look...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strong-earnings-guidance-change-diodes-091011759.html",
+      "ts": "2026-11-13T09:10:11+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.3615645885833185,
+      "relatedTickers": [
+        "DIOD"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Diodes Incorporated reported third quarter 2026 sales of US$532.59 million and net income of US$43.71 million, alongside full year 2026 guidance that points to higher expected revenue versus 2025. Management coupled the stronger earnings run rate with expectations for continued revenue expansion into the fourth quarter. This directly feeds into analysts revising earnings estimates and reassessing Diodes' capacity to",
+        "numbers": [
+          "$532.59 million",
+          "$43.71 million",
+          "532.59 million",
+          "43.71 million"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Diodes Incorporated reported third quarter 2026 sales of US$532.59 million and net income of US$43.71 million, alongside full year 2026 guidance that points to higher expected revenue versus 2025. Management coupled the stronger earnings run rate with expectations for continued revenue expansion into the fourth quarter. This directly feeds into analysts revising earnings estimates and reassessing Diodes' capacity to",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+      "summary": "",
+      "originalTitle": "Microsoft Outlook Outage Hits Colorado Jail, Forces Families to Post Bail In Person to Secure Release",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdWJ0bC1FZjNLR0JYeHpkOTlITDFZMy1SampLZWI5dDl4eVc2X0JhRUYxZF9ERzV3c1Q3VjIxRHdHTkJwWkNuM2RLNHluZG1qVDh6YXRRMVJmcjdEbEJQM2ZxS0I5M3hTdndhRzFtUkNxVDBxZVRZeC12OVVfZk1ZYWR1ZExOVkxlRlI0anFYT3BvNFFRaUctTnNRc1Z0Vkx2OFZNdVdCaGF1d0dXcHBWQUlzaXBfOHU3blhNOWVldWk3SVotbG5CRktkQndiZGJfTi1SZDlnSlowczhGcy1LM0d6MDgzVlI1?oc=5",
+      "ts": "2026-11-13T09:09:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 15.75,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -136,6 +421,39 @@
       "detailSource": "article_or_same_event"
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "When will Microsoft Outlook be working again?",
+      "summary": "",
+      "originalTitle": "When will Microsoft Outlook be working again?",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSXQzcS1pMlJEZl9mLXhqQ1NTNGdYb193LU05dHZKYnFuR05UMGlzdjR5V3ozNFhfMGVyYmNGTWdLMW5HZHlkNzVtN0pOY0IwSmFZTDh5OHpWSWpYZ05nODhzelo5TFBORURvNHBGTkpCWDY5Mks4NHBnbkxCR2xVNUdzYzg3QU53VlltTmRRci1INlhE?oc=5",
+      "ts": "2026-11-13T09:06:51+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
@@ -194,7 +512,7 @@
       "eventType": "",
       "score": 225.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Truist｜動作：下修｜評等：Hold｜目標價：$174（原 $346）｜調整原因：Craig-Hallum also moved to 'Hold,' saying Huang's exit leaves a \"big hole\" that will be hard to fill.\n被評級公司：NVIDIA（NVDA）｜券商：Craig-Hallum｜評等：Hold｜目標價：$174｜調整原因：Craig-Hallum also moved to 'Hold,' saying Huang's exit leaves a \"big hole\" that will be hard to fill.\n被評級公司：NVIDIA（NVDA）｜券商：Truist｜評等：Hold｜目標價：$174｜調整原因：Craig-Hallum also moved to 'Hold,' saying Huang's exit leaves a \"big hole\" that will be hard to fill.",
         "numbers": [
@@ -251,6 +569,44 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Broadcom Just Gained 25% in a Week: Take Profits, or Buy More?",
+      "summary": "Key TakeawaysBroadcom stock is up 25% in the past week as chip stocks rebounded and Nvidia’s CEO exit sent investors to rivals like AMD. Nvidia’s turmoil gives AI buyers a reason to want a second supplier, and Broadcom helps design and supplies Alphabet’s custom TPU chips.",
+      "originalTitle": "Broadcom Just Gained 25% in a Week: Take Profits, or Buy More?",
+      "originalSummary": "Key TakeawaysBroadcom stock is up 25% in the past week as chip stocks rebounded and Nvidia’s CEO exit sent investors to rivals like AMD. Nvidia’s turmoil gives AI buyers a reason to want a second supplier, and Broadcom helps design and supplies Alphabet’s custom TPU chips.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-just-gained-25-week-090550086.html",
+      "ts": "2026-11-13T09:05:50+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 5.544290597300261,
+      "relatedTickers": [
+        "AVGO",
+        "NVDA",
+        "AMD"
+      ],
+      "eventType": "跨公司事件",
+      "score": 33.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Key TakeawaysBroadcom stock is up 25% in the past week as chip stocks rebounded and Nvidia’s CEO exit sent investors to rivals like AMD. Nvidia’s turmoil gives AI buyers a reason to want a second supplier, and Broadcom helps design and supplies Alphabet’s custom TPU chips.",
+        "numbers": [
+          "25%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Key TakeawaysBroadcom stock is up 25% in the past week as chip stocks rebounded and Nvidia’s CEO exit sent investors to rivals like AMD.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 9
     },
     {
       "ticker": "NVDA",
@@ -332,28 +688,28 @@
       "top10Rank": 4
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Investors Eye Europe Amid Volatility: Market Snapshot",
-      "summary": "",
+      "summary": "Investors began the week on an optimistic note with the tech sector helping stocks recover from a global selloff. They were however dealt a mixed hand. News of Anthropic's blockbuster IPO and Coreweave results helped fuel sentiment but markets also grappled with post midterm capital rotation before being hit by a scandal involving Nvidia's CEO Jensen Huang. \nThe Opening Trade spoke to market experts and industry lead",
       "originalTitle": "Investors Eye Europe Amid Volatility: Market Snapshot",
       "originalSummary": "Investors began the week on an optimistic note with the tech sector helping stocks recover from a global selloff. They were however dealt a mixed hand. News of Anthropic's blockbuster IPO and Coreweave results helped fuel sentiment but markets also grappled with post midterm capital rotation before being hit by a scandal involving Nvidia's CEO Jensen Huang. \nThe Opening Trade spoke to market experts and industry leaders as a volatile week rattled the AI trade but could see Europe benefit from re",
       "url": "https://finance.yahoo.com/video/investors-eye-europe-amid-volatility-083701746.html",
       "ts": "2026-11-13T08:37:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.340067921487356,
+      "movePct": -6.861938456475237,
       "relatedTickers": [
-        "NVDA",
-        "CRWV"
+        "CRWV",
+        "NVDA"
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": false,
+      "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "Investors began the week on an optimistic note with the tech sector helping stocks recover from a global selloff. They were however dealt a mixed hand. News of Anthropic's blockbuster IPO and Coreweave results helped fuel sentiment but markets also grappled with post midterm capital rotation before being hit by a scandal involving Nvidia's CEO Jensen Huang. The Opening Trade spoke to market experts and industry leaders as a volatile week rattled the AI trade but could see Europe benefit from re",
+        "event": "Investors began the week on an optimistic note with the tech sector helping stocks recover from a global selloff. They were however dealt a mixed hand. News of Anthropic's blockbuster IPO and Coreweave results helped fuel sentiment but markets also grappled with post midterm capital rotation before being hit by a scandal involving Nvidia's CEO Jensen Huang. The Opening Trade spoke to market experts and industry lead",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "News of Anthropic's blockbuster IPO and Coreweave results helped fuel sentiment but markets also grappled with post midterm capital rotation before being hit by a scandal involving Nvidia's CEO Jensen Huang.",
@@ -469,7 +825,7 @@
       "group": "市場重點",
       "tag": "利空",
       "title": "Outlook、Teams 和更多 Microsoft 程式因中斷而中斷",
-      "summary": "Microsoft reported an outage involving its sprawling set of software tools early Thursday afternoon. The outage, which the company said may affect business and consumer users in “any region”, has continued for at least four hours, customers reported. Between 5.15pm and 6pm the outage tracker Downdetector showed that more than 130,000 users were experiencing problems with Microsoft Outlook, which is used for email, calendars and other online tasks. Join The Irish Times on WhatsApp and stay up to date Listen to the I",
+      "summary": "",
       "originalTitle": "Outlook, Teams and More Microsoft Programs Disrupted by Outage",
       "originalSummary": "Microsoft reported an outage involving its sprawling set of software tools early Thursday afternoon. The outage, which the company said may affect business and consumer users in “any region”, has continued for at least four hours, customers reported. Between 5.15pm and 6pm the outage tracker Downdetector showed that more than 130,000 users were experiencing problems with Microsoft Outlook, which is used for email, calendars and other online tasks. Join The Irish Times on WhatsApp and stay up to date Listen to the Inside Business podcast for a look at business and economics from an Irish perspective",
       "url": "https://www.irishtimes.com/technology/big-tech/2026/11/12/microsoft-outlook-and-teams-disrupted-by-outage/",
@@ -483,7 +839,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Microsoft reported an outage involving its sprawling set of software tools early Thursday afternoon. The outage, which the company said may affect business and consumer users in “any region”, has continued for at least four hours, customers reported. Between 5.15pm and 6pm the outage tracker Downdetector showed that more than 130,000 users were experiencing problems with Microsoft Outlook, which is used for email, calendars and other online tasks. Join The Irish Times on WhatsApp and stay up to date Listen to the I",
@@ -521,7 +877,7 @@
       ],
       "eventType": "",
       "score": 12.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -614,7 +970,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "CoreWeave And 2 Other Top Insider Owned Growth Stocks",
-      "summary": "The global race to build AI infrastructure is reshaping trade, and AI related hardware is driving a large share of recent goods flows. Capital is chasing companies that can grow fast and execute in this new supply chain. That is where fast growing businesses with management heavily invested in their own shares come in. This article walks through three such stocks and explains why they may be worth considering for a w",
+      "summary": "",
       "originalTitle": "CoreWeave And 2 Other Top Insider Owned Growth Stocks",
       "originalSummary": "The global race to build AI infrastructure is reshaping trade, and AI related hardware is driving a large share of recent goods flows. Capital is chasing companies that can grow fast and execute in this new supply chain. That is where fast growing businesses with management heavily invested in their own shares come in. This article walks through three such stocks and explains why they may be worth considering for a watchlist. The three stocks highlighted here offer a compelling starting point...",
       "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-2-other-top-insider-081026284.html",
@@ -627,10 +983,10 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "The global race to build AI infrastructure is reshaping trade, and AI related hardware is driving a large share of recent goods flows. Capital is chasing companies that can grow fast and execute in this new supply chain. That is where fast growing businesses with management heavily invested in their own shares come in. This article walks through three such stocks and explains why they may be worth considering for a w",
+        "event": "The global race to build AI infrastructure is reshaping trade, and AI related hardware is driving a large share of recent goods flows. Capital is chasing companies that can grow fast and execute in this new supply chain. That is where fast growing businesses with management heavily invested in their own shares come in. This article walks through three such stocks and explains why they may be worth considering for a watchlist.",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "That is where fast growing businesses with management heavily invested in their own shares come in.",
@@ -716,7 +1072,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Key facts: CoreWeave Seeks $4B GPU Loan; AI Demand Tops Capacity",
-      "summary": "CoreWeave, a leading AI-cloud infrastructure provider, is reportedly planning to raise at least $4 billion through an investment-grade loan, according to Bloomberg Technology. This move appears to be a strategic effort to bolster the company’s financial position without resorting to high-yield debt. The proposed financing follows strong third-quarter results, with $3.66 billion in revenue and expectations of $9 billi",
+      "summary": "",
       "originalTitle": "Key facts: CoreWeave Seeks $4B GPU Loan; AI Demand Tops Capacity",
       "originalSummary": "CoreWeave, a leading AI-cloud infrastructure provider, is reportedly planning to raise at least $4 billion through an investment-grade loan, according to Bloomberg Technology. This move appears to be a strategic effort to bolster the company’s financial position without resorting to high-yield debt. The proposed financing follows strong third-quarter results, with $3.66 billion in revenue and expectations of $9 billion in customer prepayments and deposits in the coming months. This development indicates CoreWeave’s commitment to expanding its data-center capacity while managing financial leverage through secured, customer-linked financing. Observers will be keen to see if CoreWeave successfully completes the proposed loan, which could further affirm its financial strategy and reduce bankruptcy concerns. Any subsequent major customer contracts or additional financing announcements may further impact market perceptions. Additionally, monitoring CoreWeave’s revenue growth and operational cash flow will be crucial in understanding its long-term financial health and capacity expansion plans.",
       "url": "https://cryptobriefing.com/coreweave-seeks-4b-investment-grade-loan-to-boost-financial-stability/",
@@ -730,10 +1086,10 @@
       "eventType": "",
       "analystPriority": false,
       "score": 12.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "CoreWeave, a leading AI-cloud infrastructure provider, is reportedly planning to raise at least $4 billion through an investment-grade loan, according to Bloomberg Technology. This move appears to be a strategic effort to bolster the company’s financial position without resorting to high-yield debt. The proposed financing follows strong third-quarter results, with $3.66 billion in revenue and expectations of $9 billi",
+        "event": "CoreWeave, a leading AI-cloud infrastructure provider, is reportedly planning to raise at least $4 billion through an investment-grade loan, according to Bloomberg Technology. The proposed financing follows strong third-quarter results, with $3.66 billion in revenue and expectations of $9 billion in customer prepayments and deposits in the coming months. This development indicates CoreWeave’s commitment to expanding its data-center capacity while managing financial leverage through secured, customer-linked financin",
         "numbers": [
           "$4B",
           "$4 billion",
@@ -741,7 +1097,7 @@
           "$9 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "CoreWeave, a leading AI-cloud infrastructure provider, is reportedly planning to raise at least $4 billion through an investment-grade loan, according to Bloomberg Technology. This move appears to be a strategic effort to bolster the company’s financial position without resorting to high-yield debt.",
+        "stance": "This development indicates CoreWeave’s commitment to expanding its data-center capacity while managing financial leverage through secured, customer-linked financing.",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -759,7 +1115,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Space Stocks Had A Stellar Week, But SpaceX Rivals Flew Higher — What Powered LUNR, FLY, RKLB And ASTS Ahead?",
-      "summary": "Intuitive Machines beat earnings and revenue estimates, generated positive free cash flow and accelerated its lunar communications network plans. Firefly beat estimates and reported record backlog, while its AST engine agreement supported expansion plans. Rocket Lab posted record revenue and backlog, secured higher-priced Neutron contracts and approached Electron's 100th launch.",
+      "summary": "",
       "originalTitle": "Space Stocks Had A Stellar Week, But SpaceX Rivals Flew Higher — What Powered LUNR, FLY, RKLB And ASTS Ahead?",
       "originalSummary": "Intuitive Machines beat earnings and revenue estimates, generated positive free cash flow and accelerated its lunar communications network plans. Firefly beat estimates and reported record backlog, while its AST engine agreement supported expansion plans. Rocket Lab posted record revenue and backlog, secured higher-priced Neutron contracts and approached Electron's 100th launch.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/space-stocks-had-stellar-week-075154983.html",
@@ -775,7 +1131,7 @@
       ],
       "eventType": "跨公司事件",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Intuitive Machines beat earnings and revenue estimates, generated positive free cash flow and accelerated its lunar communications network plans. Firefly beat estimates and reported record backlog, while its AST engine agreement supported expansion plans. Rocket Lab posted record revenue and backlog, secured higher-priced Neutron contracts and approached Electron's 100th launch.",
@@ -796,7 +1152,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Applied (AMAT) Q4 2026 Earnings Call Transcript",
-      "summary": "Clean room capacity now gates how fast chip equipment can scale.",
+      "summary": "",
       "originalTitle": "Applied (AMAT) Q4 2026 Earnings Call Transcript",
       "originalSummary": "Clean room capacity now gates how fast chip equipment can scale.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-amat-q4-2026-earnings-074608800.html",
@@ -809,7 +1165,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -842,7 +1198,7 @@
       "eventType": "",
       "analystPriority": true,
       "score": 209.25,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "analystDetails": [],
       "investorBrief": {
@@ -902,7 +1258,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "Down 32% in a month, Super Micro trades at 6x P/E: Bargain or trap?",
-      "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+      "summary": "",
       "originalTitle": "Down 32% in a month, Super Micro trades at 6x P/E: Bargain or trap?",
       "originalSummary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/down-32-month-super-micro-073459211.html",
@@ -915,7 +1271,7 @@
       ],
       "eventType": "",
       "score": 13.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -966,7 +1322,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "At 21x earnings, Amazon is cheaper than Walmart and surging",
-      "summary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
+      "summary": "",
       "originalTitle": "At 21x earnings, Amazon is cheaper than Walmart and surging",
       "originalSummary": "Investing.com and Yahoo Finance LLC may earn commission or revenue on some items through the links below.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/21x-earnings-amazon-cheaper-walmart-073033897.html",
@@ -979,7 +1335,7 @@
       ],
       "eventType": "",
       "score": 15.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1026,7 +1382,7 @@
       "eventType": "",
       "score": 198.0,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：GE Vernova（GEV）｜券商：Evercore ISI｜目標價：$1,350｜調整原因：來源未提供具體理由",
         "numbers": [
@@ -1143,7 +1499,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "NVDA",
@@ -1813,8 +2169,8 @@
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -2503,366 +2859,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "為什麼NVDA、ALT、PLUG股票今天暴跌至52週低點？",
-      "summary": "",
-      "originalTitle": "Why Did NVDA, ALT, PLUG Stocks Plunge To 52-Week Lows Today?",
-      "originalSummary": "Nvidia, Altimmune and Plug Power plunged to 52-week lows on Thursday amid leadership turmoil, Wall Street caution and weak earnings.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-nvda-alt-plug-034434129.html",
-      "ts": "2026-11-13T03:44:34+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.340067921487356,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "Microsoft Outlook 重大故障導致 74 個國家的服務中斷",
-      "summary": "",
-      "originalTitle": "Major Microsoft Outlook outage disrupts services in 74 countries",
-      "originalSummary": "Microsoft ( MSFT) said it was working to restore access to its workplace software after customers reported problems connecting to email and other services. Updates from the company continued into the evening as some servers that had been brought back online became unresponsive again. On Thursday afternoon, Microsoft said users of Exchange Online, which powers Outlook email, as well as the company's Teams videoconferencing app and Copilot AI chatbot, may experience disruptions, according to a status update page . In a separate post on X, the company said users \"in any region\" could be affected. Microsoft said it was rerouting connection traffic across its global infrastructure and restarting affected servers. Around 7:05 p.m. ET, Microsoft said some servers were becoming unresponsive again as traffic returned, underscoring that the company had not yet fully stabilized the outage.",
-      "url": "https://finance.yahoo.com/markets/article/microsoft-outage-disrupts-outlook-teams-and-copilot-for-users-in-any-region-212333470.html",
-      "ts": "2026-11-13T03:44:22+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 23.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Microsoft ( MSFT) said it was working to restore access to its workplace software after customers reported problems connecting to email and other services. Updates from the company continued into the evening as some servers that had been brought back online became unresponsive again. On Thursday afternoon, Microsoft said users of Exchange Online, which powers Outlook email, as well as the company's Teams videoconferencing app and Copilot AI chatbot, may experience disruptions, according to a status update page . In",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Microsoft ( MSFT) said it was working to restore access to its workplace software after customers reported problems connecting to email and other services. On Thursday afternoon, Microsoft said users of Exchange Online, which powers Outlook email, as well as the company's Teams videoconferencing app and Copilot AI chatbot, may experience disruptions, according to a status update page . In a separate post on X, the company said users \"in any region\" could be affected.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "Microsoft struggles to repair global Outlook outage",
-      "summary": "",
-      "originalTitle": "Microsoft struggles to repair global Outlook outage",
-      "originalSummary": "Microsoft is yet to find a lasting fix for a global outage that has disrupted several of its widely used workplace services, leaving users unable to access emails, files and other essential tools. Although some parts of its infrastructure are gradually returning to normal, the company is still dealing with server-related problems that are preventing a complete recovery. The latest update, shared by the company is, \"We’ve monitored the status of the changes applied to improve serviceability and confirmed that change is not taking as expected. We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances\" The disruption has affected Microsoft 365 applications, including Outlook, Teams, Word, Excel, PowerPoint, SharePoint and OneDrive. Microsoft's AI assistant, Copilot, has also experienced connectivity problems. The incident has affected users across multiple regions, with complaints emerging from countries including the US, Japan and Singapore. Data from outage-monitoring platform Downdetector showed that reports concerning Outlook climbed to nearly 140,000 globally at around 18:00 GMT on Thursday. Separate figures for Microsoft 365 indicated close to 130,000 reports of disruption. Users described difficulties opening their inboxes, sending and receiving messages and accessing other Microsoft applications. What is behind the Microsoft global outage? Microsoft has gradually narrowed down the technical issue behind the disruption. In its latest updates, the company explained that some of its servers had become unavailable unexpectedly, increasing the workload on the infrastructure that remained operational. Engineers subsequently identified a problem with the mechanism responsible for establishing secure connections on affected servers. According to the company's assessment, this process was becoming overwhelmed, preventing those machines from handling incoming requests properly. Microsoft is now preparing another configuration adjustment to address the problem. Rather than deploying it across its entire infrastructure immediately, the company intends to test the change on a limited group of servers first. The affected machines will also be restarted as part of the recovery process. Since the current fixes are not working, the company is therefore investigating alternative ways to increase available capacity and manage the uneven distribution of traffic across its infrastructure. Microsoft is also reversing a recent configuration adjustment that coincided with the beginning of the outage. Engineers are monitoring whether rolling back that change helps restore normal operations. The company has cautioned that recovery may not be consistent across all services. Even applications that have started working again could experience further interruptions while engineers continue to stabilise the affected systems.",
-      "url": "https://www.firstpost.com/tech/microsoft-global-outage-struggles-to-restore-outlook-teams-copilot-disruption-continues-14059695.html",
-      "ts": "2026-11-13T03:44:22+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 23.25,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "Microsoft is yet to find a lasting fix for a global outage that has disrupted several of its widely used workplace services, leaving users unable to access emails, files and other essential tools. We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances\" The disruption has affected Microsoft 365 applications, including Outlook, Teams, Word, Excel, PowerPoint, SharePoint and OneDrive. Microsoft's AI assistant, Copilot, has also experience",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "We’re identifying alternate workstreams that can be applied to increase capacity in the face of sustained traffic management imbalances\" The disruption has affected Microsoft 365 applications, including Outlook, Teams, Word, Excel, PowerPoint, SharePoint and OneDrive.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "AMAT",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "AMAT執行長表示晶片需求強勁，補充說需要「多年」晶圓廠投資——股價在大幅上漲後小幅上漲",
-      "summary": "",
-      "originalTitle": "AMAT CEO Says Chip Demand Robust, Adds ‘Multiyear’ Fab Investments Are Needed – Shares See Modest Rise After Sharp Run-Up",
-      "originalSummary": "Applied Materials Q4 sales rose 53%; sales, profit and the Q1 forecasts were all higher than expectations. AMAT shares had climbed about 24% in four sessions through Wednesday. Retail sentiment for AMAT inched higher in the 'extremely bullish' zone. Applied Materials (AMAT) on Thursday reported better-than-expected quarterly results and said its customers were building new manufacturing plants at a breakneck pace amid record demand for semiconductors.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amat-ceo-says-chip-demand-034229308.html",
-      "ts": "2026-11-13T03:42:29+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.5764908372987736,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "AMAT"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Applied Materials Q4 sales rose 53%; sales, profit and the Q1 forecasts were all higher than expectations. AMAT shares had climbed about 24% in four sessions through Wednesday. Retail sentiment for AMAT inched higher in the 'extremely bullish' zone. Applied Materials (AMAT) on Thursday reported better-than-expected quarterly results and said its customers were building new manufacturing plants at a breakneck pace amid record demand for semiconductors.",
-        "numbers": [
-          "53%",
-          "24%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Applied Materials (AMAT) on Thursday reported better-than-expected quarterly results and said its customers were building new manufacturing plants at a breakneck pace amid record demand for semiconductors.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "隨著黃仁勳執行長傳奇的結束，NVDA 股票將迎來一年多來最糟糕的一周：零售交易商還在逢低買進嗎？",
-      "summary": "",
-      "originalTitle": "NVDA Stock Heads for Worst Week In Over A Year As Jensen Huang’s CEO Saga Ends: Are Retail Traders Still Buying The Dip?",
-      "originalSummary": "Retail traders are sharply divided about Nvidia’s future and the stock’s performance.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-heads-worst-week-032900844.html",
-      "ts": "2026-11-13T03:29:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.340067921487356,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 14.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "Microsoft Outlook 遭遇長達數小時的中斷",
-      "summary": "",
-      "originalTitle": "Microsoft Outlook experiences hours-long outage",
-      "originalSummary": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps.The disruptions, which were first reported after midday Eastern time and continued into the night, were also impacting many companies and some government operations.Nearly 130,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 p.m. EST. New reports have since fallen from that peak, but many said they couldn't send and receive emails or had trouble loading their inboxes altogether.Thousands also reported issues with Microsoft's workplace messaging app Teams, as well as its AI assistant Copilot and wider Microsoft 365 services.Users in many parts of Asia also reported issues with Microsoft platforms as of Friday midmorning in the region.In Japan, deputy chief cabinet secretary Masanao Ozaki said Friday that the Microsoft outage had affected the government's IT infrastructure and that they were “keeping a close eye on the developments.”In several notices posted on social media, Microsoft said it was investigating the disruptions and that parts of its infrastructure were “experiencing elevated load\" — which it said was partly to blame for the connectivity errors. The Redmond, Washington-based company determined a number of servers failed during automated health checks and that its alternatives to bring those servers back online were not immediately taking effect.“We're aggressively pursuing all pathways to reduce impact,” the Microsoft 365 Status account posted on X.Earlier in the day, the company said it had “successfully restored” Microsoft Teams in North America, although some users continued to report connectivity issues.___Associated Press journalist Mayuko Ono contributed from Tokyo.Copyright 2026 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.",
-      "url": "https://www.usnews.com/news/us/articles/2026-11-12/is-outlook-down-widespread-outage-hits-microsoft-apps",
-      "ts": "2026-11-13T03:29:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "新題材",
-      "score": 20.15,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps.The disruptions, which were first reported after midday Eastern time and continued into the night, were also impacting many companies and some government operations.Nearly 130,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 p.m. EST. New reports have since fallen from that peak, but",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "New reports have since fallen from that peak, but many said they couldn't send and receive emails or had trouble loading their inboxes altogether.Thousands also reported issues with Microsoft's workplace messaging app Teams, as well as its AI assistant Copilot and wider Microsoft 365 services.Users in many parts of Asia also reported issues with Microsoft platforms as of Friday midmorning in the region.In Japan, deputy chief c",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "美國電力公司 (AEP) 股票的股利看起來高於公允價值",
-      "summary": "",
-      "originalTitle": "American Electric Power Company (AEP) Stock Looks Above Fair Value On Dividends",
-      "originalSummary": "American Electric Power Company has delivered a strong share price run in recent years, and the question now is whether that move still lines up with the dividend checks investors expect to collect from here. Over the past 3 years, American Electric Power Company has returned 84.9%, which puts real weight on whether the current share price can be explained by the dividend stream alone. Fresh deals like the planned US$4b fuel cell investment tied to a long term contract with Google may...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-electric-power-company-aep-032122538.html",
-      "ts": "2026-11-13T03:21:22+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.7890611688532898,
-      "relatedTickers": [
-        "GOOGL",
-        "AEP"
-      ],
-      "eventType": "跨公司事件",
-      "score": 24.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "American Electric Power Company has delivered a strong share price run in recent years, and the question now is whether that move still lines up with the dividend checks investors expect to collect from here. Over the past 3 years, American Electric Power Company has returned 84.9%, which puts real weight on whether the current share price can be explained by the dividend stream alone. Fresh deals like the planned US$4b fuel cell investment tied to a long term contract with Google may...",
-        "numbers": [
-          "$4b",
-          "84.9%"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "American Electric Power Company has delivered a strong share price run in recent years, and the question now is whether that move still lines up with the dividend checks investors expect to collect from here. Over the past 3 years, American Electric Power Company has returned 84.9%, which puts real weight on whether the current share price can be explained by the dividend stream alone.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRDO",
-      "group": "高速傳輸",
-      "tag": "利多",
-      "title": "獲利是否超過了 Just Shift Credo (CRDO) 的投資敘事？",
-      "summary": "",
-      "originalTitle": "Did Earnings Beat Just Shift Credo’s (CRDO) Investment Narrative?",
-      "originalSummary": "Credo Technology Group helped lead an Open Compute Project workstream that produced two approved specifications standardizing enhanced optical telemetry for AI data networks, aiming to improve link reliability and automate fault handling across optical transceivers and hosts. The new OCP-backed framework formalizes Credo’s ZeroFlap host specification into community standards, which tightens the link between the firm’s product roadmap and how hyperscale AI fabrics manage link health and...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/did-earnings-beat-just-shift-032000985.html",
-      "ts": "2026-11-13T03:20:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.1314617070928512,
-      "relatedTickers": [
-        "CRDO"
-      ],
-      "eventType": "",
-      "score": 15.6,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Credo Technology Group helped lead an Open Compute Project workstream that produced two approved specifications standardizing enhanced optical telemetry for AI data networks, aiming to improve link reliability and automate fault handling across optical transceivers and hosts. The new OCP-backed framework formalizes Credo’s ZeroFlap host specification into community standards, which tightens the link between the firm’s product roadmap and how hyperscale AI fabrics manage link health and...",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Credo Technology Group helped lead an Open Compute Project workstream that produced two approved specifications standardizing enhanced optical telemetry for AI data networks, aiming to improve link reliability and automate fault handling across optical transceivers and hosts. The new OCP-backed framework formalizes Credo’s ZeroFlap host specification into community standards, which tightens the link between the firm’s product roadmap and how hyperscale AI fabrics manage link health and...",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMAT",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "強勁的人工智慧需求緩解了硬體放緩的擔憂，應用材料公司 (AMAT) 股價上漲",
-      "summary": "",
-      "originalTitle": "Applied Materials (AMAT) Stock Rises As Strong AI Demand Eases Hardware Slowdown Fears",
-      "originalSummary": "Applied Materials (NasdaqGS:AMAT) traded higher after CoreWeave reported strong earnings that eased worries about AI hardware demand. CoreWeave, a specialized cloud provider focused on AI workloads, highlighted ongoing customer spending on high-performance computing infrastructure. Investor interest rotated back into semiconductor equipment suppliers as CoreWeave's results pointed to resilient AI data center build-outs. CoreWeave's earnings relief on AI hardware demand is important, but...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-stock-rises-031945022.html",
-      "ts": "2026-11-13T03:19:45+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.5764908372987736,
-      "relatedTickers": [
-        "AMAT",
-        "CRWV"
-      ],
-      "eventType": "跨公司事件",
-      "score": 24.7,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Applied Materials (NasdaqGS:AMAT) traded higher after CoreWeave reported strong earnings that eased worries about AI hardware demand. CoreWeave, a specialized cloud provider focused on AI workloads, highlighted ongoing customer spending on high-performance computing infrastructure. Investor interest rotated back into semiconductor equipment suppliers as CoreWeave's results pointed to resilient AI data center build-outs. CoreWeave's earnings relief on AI hardware demand is important, but...",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Applied Materials (NasdaqGS:AMAT) traded higher after CoreWeave reported strong earnings that eased worries about AI hardware demand. CoreWeave's earnings relief on AI hardware demand is important, but...",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著市場試圖從英偉達潰敗中恢復過來，道瓊指數、標準普爾 500 指數、納斯達剋期貨小幅走高：SLS、MSFT、CADL、MSTR 成為焦點",
-      "summary": "",
-      "originalTitle": "Dow, S&P 500, Nasdaq Futures Edge Higher As Markets Attempt To Recover From Nvidia Rout: SLS, MSFT, CADL, MSTR In Focus",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNHFOTEZjTGZTWHBMZXZkcjFoVDRJN1RzbUdCUXBJZVVfeDh0OHFQY0txMENaVDVLR05TeHlndDk4X19FNDVrVER4UmxIN05iX1lKTkpsTE11VkZPT3NYTjRhUmVKZFdDb2RJekluQWowVTE5YlJvanY3RUVsS0NPaUI1X1ZRTmVNajZNQXFxOXY3dG8?oc=5",
-      "ts": "2026-11-13T03:07:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
