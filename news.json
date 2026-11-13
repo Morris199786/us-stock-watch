@@ -1,11 +1,50 @@
 {
-  "updatedAt": "2026-11-14 06:55 台灣時間",
+  "updatedAt": "2026-11-14 07:09 台灣時間",
   "historyUpdatedDate": "2026-11-14",
   "historyLastAttemptAt": "2026-11-13T16:04:48.270427+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-13",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
+      "summary": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
+      "originalTitle": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
+      "originalSummary": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-105451889.html",
+      "ts": "2026-11-13T22:39:54+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.009747878933754,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA",
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 27.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
+        "numbers": [
+          "118%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market?",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -679,7 +718,7 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -689,45 +728,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; SpaceX Starship Flight 15 Soon.",
-      "originalSummary": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-jones-nasdaq-p-500-105451889.html",
-      "ts": "2026-11-13T21:39:48+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.5931113334285976,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "SPCX",
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 27.0,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market? Our AI portfolio updates monthly and is outperforming the S&P 500 by 118%. See this month's list »",
-        "numbers": [
-          "118%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Investing.com -- The Nasdaq Composite rebounded Friday as some investors bought the dip in chip stocks following a punishing selloff that pushed the index into correction territory. Still guessing which stocks will beat the market?",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -2497,6 +2497,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "CBRS",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
+      "summary": "",
+      "originalTitle": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOGJmMXNzYUFFdkZHUVNaRGFrWHYyZnhXa2U5WEV2OUJsOWVEODRKZENWQ25JN3BRdnZpVTNZQzJNclc3eWZTZllhdW9Obk5MeUhfeTRIckIwNEJXRVEwWWVDa0s3M25iVUxSWUpsVm1tSWRjSmk5M243OEVTNTJ3eTlCOWR5b2pfUEhwanR0OXExVVBxLTlxZGFlZV9KaDRmVnRjUWZOU0c0RzZ0aU5hQ216dlQ0SURwZWc?oc=5",
+      "ts": "2026-11-13T19:51:47+00:00",
+      "sourceType": "active_search",
+      "movePct": 11.222506393861886,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CBRS"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 12.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -2528,50 +2561,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
-      "summary": "",
-      "originalTitle": "Cerebras Systems Outlook Strengthens on Hyperscaler Wins and Margin Upside, Wedbush Says",
-      "originalSummary": "Interested in Cerebras Systems Inc.? Here are five stocks we like better. Record Q3 performance lifted Cerebras' outlook: Core revenue rose 70% year over year to $231 million, and the company reported its first positive non-GAAP net income as a public company. It raised full-year 2026 core revenue guidance to $940 million–$960 million. Data center delays are holding back OpenAI deliveries: Cerebras said it fell behind on initial capacity commitments because of land, power and construction constraints, not chip supply. Less than 5% of the 750-megawatt commitment could face cancellation this year, and none had been canceled at the time of the call. New partnerships and capacity support future growth: A Microsoft cloud agreement brings Cerebras' hyperscaler customers to three, with revenue expected to begin in 2027. The company expects to return to its OpenAI delivery schedule in the second half of 2027 and forecasts revenue to triple in 2027.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-systems-cbrs-said-q3-011430048.html",
-      "ts": "2026-11-13T19:50:14+00:00",
-      "sourceType": "active_search",
-      "movePct": 12.22506393861893,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CBRS",
-        "MSFT"
-      ],
-      "eventType": "跨公司事件",
-      "analystPriority": false,
-      "score": 44.25,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "Record Q3 performance lifted Cerebras' outlook: Core revenue rose 70% year over year to $231 million, and the company reported its first positive non-GAAP net income as a public company. It raised full-year 2026 core revenue guidance to $940 million–$960 million. Data center delays are holding back OpenAI deliveries: Cerebras said it fell behind on initial capacity commitments because of land, power and construction constraints, not chip supply. New partnerships and capacity support future growth: A Microsoft cloud",
-        "numbers": [
-          "$231 million",
-          "$940 million",
-          "$960 million",
-          "70%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "It raised full-year 2026 core revenue guidance to $940 million–$960 million. Data center delays are holding back OpenAI deliveries: Cerebras said it fell behind on initial capacity commitments because of land, power and construction constraints, not chip supply. New partnerships and capacity support future growth: A Microsoft cloud agreement brings Cerebras' hyperscaler customers to three, with revenue expected to begin in 2027.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
