@@ -1,11 +1,85 @@
 {
-  "updatedAt": "2026-11-13 09:29 台灣時間",
+  "updatedAt": "2026-11-13 09:34 台灣時間",
   "historyUpdatedDate": "2026-11-13",
   "historyLastAttemptAt": "2026-11-12T16:00:38.518357+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-12",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "市場經受住英偉達執行長黃仁勳離職、殖利率飆升的影響，道瓊斯期貨上漲；SpaceX 與特斯拉合併交易完成",
+      "summary": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
+      "originalTitle": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
+      "originalSummary": "US stock futures traded mostly lower on Thursday, November 12, 2026, as reports concerning Nvidia's leadership and renewed uncertainty over semiconductor exports to China weighed on technology stocks. At 03:09 ET (08:09 GMT), Nasdaq 100 futures declined 0.9%, or 240 points, while S&P 500 futures fell 0.4%, or 32 points. Dow Jones futures were broadly unchanged.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-decline-nvidia-100323595.html",
+      "ts": "2026-11-13T01:23:24+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.340067921487356,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA",
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 31.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
+        "numbers": [
+          "0.9%",
+          "0.4%"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "英偉達執行長黃仁勳辭職後，CoreWeave 股價下跌近 7%",
+      "summary": "由於英偉達的領導層變動引發了對其最大晶片供應商的擔憂，這家人工智慧雲端供應商回吐了 25% 的獲利漲幅。",
+      "originalTitle": "CoreWeave stock sinks nearly 7% after Nvidia CEO Jensen Huang resigns",
+      "originalSummary": "The AI cloud provider gave back part of its 25% earnings rally as Nvidia’s leadership shakeup raised concerns about its biggest chip supplier.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-sinks-nearly-7-012201678.html",
+      "ts": "2026-11-13T01:22:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -6.861938456475237,
+      "relatedTickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 39.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -108,47 +182,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "市場經受住英偉達執行長黃仁勳離職、殖利率飆升的影響，道瓊斯期貨上漲；SpaceX 與特斯拉合併交易完成",
-      "summary": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
-      "originalTitle": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields; SpaceX-Tesla Merger Deal Close",
-      "originalSummary": "Earlier on Friday, Wall Street partially recovered from Thursday's AI-driven sell-off, with the Nasdaq Composite and S&P 500 rising. Brent crude was down 0.85% while WTI dropped 0.35% at the time of writing early on Monday. Investors will watch preliminary U.S. wholesale inventories data, a three-year Treasury note auction and comments from Federal Reserve officials.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-dow-114052138.html",
-      "ts": "2026-11-13T01:13:26+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.340067921487356,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA",
-        "SPCX",
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 42.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
-        "numbers": [
-          "0.85%",
-          "0.35%"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "週五早些時候，華爾街從週四人工智慧驅動的拋售中部分恢復，納斯達克綜合指數和標準普爾 500 指數上漲。截至週一稍早撰寫本文時，布蘭特原油下跌 0.85%，而 WTI 下跌 0.35%。投資人將關注美國初步批發庫存數據、三年期公債拍賣以及聯準會官員的評論。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -544,7 +577,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "可口可樂、迪士尼和 Under Armour 的董事會成員兼 Permira 的高級顧問卡洛琳·埃弗森 (Carolyn Everson) 討論了董事會如何回應涉及高管的指控。艾弗森与罗曼·博斯蒂克和杰西·门顿在“The Close”节目中交谈。",
+        "event": "可口可樂、迪士尼和 Under Armour 的董事會成員兼 Permira 的高級顧問卡洛琳·埃弗森 (Carolyn Everson) 討論了董事會如何回應涉及高管的指控。艾佛森與羅曼·博斯蒂克和傑西·門頓在“The Close”節目中交談。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "可口可樂、迪士尼和 Under Armour 的董事會成員兼 Permira 的高級顧問卡洛琳·埃弗森 (Carolyn Everson) 討論了董事會如何回應涉及高管的指控。艾佛森與羅曼·博斯蒂克和傑西·門頓在“The Close”節目中交談。",
@@ -927,7 +960,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "應用材料公司 2026 年第四季財報電話會議：$AMAT 收益即時更新、股票預測",
-      "summary": "在整個行業低迷的情況下，這家主要的半導體供應商將就晶片製造業提出自己的看法。",
+      "summary": "",
       "originalTitle": "Applied Materials Inc. Q4 2026 Earnings Call: Live Updates of $AMAT Earnings, Stock Forecast",
       "originalSummary": "The key semiconductor supplier will offer its own perspective on the chipmaking industry amid a industry-wide downturn.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-inc-q4-2026-234004462.html",
@@ -940,7 +973,7 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2863,45 +2896,6 @@
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Cerebras Systems (CBRS) 獲利超預期後估值可能被低估 76%",
-      "summary": "",
-      "originalTitle": "Cerebras Systems (CBRS) Could Be 76% Undervalued Following Earnings Beat",
-      "originalSummary": "Cerebras Systems (CBRS) just posted third quarter 2026 results that cleared Wall Street earnings expectations, with US$210.8 million in revenue and full year guidance lifted to a range of US$940 million to US$960 million. The latest beat and guidance hike come after a rough stretch for Cerebras Systems, with the share price down 67.5% year to date and 53.8% over 90 days, even after a sharp 7.9% 1 day and 23.7% 7 day share price rebound. This hints that sentiment may be stabilising as...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-systems-cbrs-could-76-221330430.html",
-      "ts": "2026-11-12T22:13:30+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.294420261179265,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "新題材",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Cerebras Systems (CBRS) 剛剛發布了 2026 年第三季業績，超出了華爾街的獲利預期，營收為 2.108 億美元，全年指引提升至 9.4 億美元至 9.6 億美元。在 Cerebras Systems 經歷了一段艱難的時期之後，最新的節奏和指引上調了，儘管 1 天股價大幅反彈 7.9%，7 天股價大幅反彈 23.7%，但該公司股價今年迄今已下跌 67.5%，在 90 天內下跌了 53.8%。這暗示市場情緒可能正在穩定下來…",
-        "numbers": [
-          "$210.8 million",
-          "$940 million",
-          "$960 million",
-          "76%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Cerebras Systems (CBRS) 剛剛發布了 2026 年第三季業績，超出了華爾街的獲利預期，營收為 2.108 億美元，全年指引提升至 9.4 億美元至 9.6 億美元。在 Cerebras Systems 經歷了一段艱難的時期之後，最新的節奏和指引上調了，儘管 1 天股價大幅反彈 7.9%，7 天股價大幅反彈 23.7%，但該公司股價今年迄今已下跌 67.5%，在 90 天內下跌了 53.8%。這暗示市場情緒可能正在穩定下來…",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
