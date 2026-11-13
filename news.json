@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13 12:46 台灣時間",
+  "updatedAt": "2026-11-13 12:58 台灣時間",
   "historyUpdatedDate": "2026-11-13",
   "historyLastAttemptAt": "2026-11-12T16:00:38.518357+00:00",
   "historyItemCount": 800,
@@ -171,24 +171,25 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
       "tag": "題材",
       "title": "市場經受住了英偉達執行長黃仁勳的退出，殖利率飆升，道瓊斯期貨上漲",
-      "summary": "",
+      "summary": "The stock market held up well given Nvidia CEO Jensen Huang's exit, surging yields and more. Cisco led key earnings reports late.",
       "originalTitle": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
       "originalSummary": "The stock market held up well given Nvidia CEO Jensen Huang's exit, surging yields and more. Cisco led key earnings reports late.",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-ceo-huang-exit-surging-yields-spacex-tesla-merger-deal/?src=A00220&yptr=yahoo",
       "ts": "2026-11-13T03:56:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.340067921487356,
+      "movePct": 1.2405716554188206,
       "relatedTickers": [
+        "CSCO",
         "NVDA"
       ],
       "eventType": "",
-      "score": 19.5,
-      "featured": false,
+      "score": 24.0,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -419,31 +420,35 @@
       "title": "Microsoft Outlook experiences hours-long outage",
       "summary": "",
       "originalTitle": "Microsoft Outlook experiences hours-long outage",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbjNnVTlMMkxUbnNXamxUSC1PVGUwVlJxTjhpNFF1elFCRHRUcFQ3TDRpbU94TXlVa2s2UjQ4OVdJeEpYaDVSYUpRZDhxZWNRVjJyOC1zUC1Tc0Rzc2hJNE40N0dHSWRxN1U5TnhJZHVVV013ajJVbVh0aEpFV1I0SVJJdHFzbHJ0enphWFZwdw?oc=5",
+      "originalSummary": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps.The disruptions, which were first reported after midday Eastern time and continued into the night, were also impacting many companies and some government operations.Nearly 130,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 p.m. EST. New reports have since fallen from that peak, but many said they couldn't send and receive emails or had trouble loading their inboxes altogether.Thousands also reported issues with Microsoft's workplace messaging app Teams, as well as its AI assistant Copilot and wider Microsoft 365 services.Users in many parts of Asia also reported issues with Microsoft platforms as of Friday midmorning in the region.In Japan, deputy chief cabinet secretary Masanao Ozaki said Friday that the Microsoft outage had affected the government's IT infrastructure and that they were “keeping a close eye on the developments.”In several notices posted on social media, Microsoft said it was investigating the disruptions and that parts of its infrastructure were “experiencing elevated load\" — which it said was partly to blame for the connectivity errors. The Redmond, Washington-based company determined a number of servers failed during automated health checks and that its alternatives to bring those servers back online were not immediately taking effect.“We're aggressively pursuing all pathways to reduce impact,” the Microsoft 365 Status account posted on X.Earlier in the day, the company said it had “successfully restored” Microsoft Teams in North America, although some users continued to report connectivity issues.___Associated Press journalist Mayuko Ono contributed from Tokyo.Copyright 2026 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.",
+      "url": "https://www.usnews.com/news/us/articles/2026-11-12/is-outlook-down-widespread-outage-hits-microsoft-apps",
       "ts": "2026-11-13T03:29:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "MSFT"
       ],
-      "eventType": "",
-      "score": 12.75,
+      "eventType": "新題材",
+      "score": 23.25,
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "A widespread outage hit Microsoft platforms including Outlook on Thursday, with many users encountering trouble using their email accounts and other errors across the tech giant's suite of apps.The disruptions, which were first reported after midday Eastern time and continued into the night, were also impacting many companies and some government operations.Nearly 130,000 users on outage tracker Downdetector reported problems accessing Outlook just after 1 p.m. EST. New reports have since fallen from that peak, but",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "New reports have since fallen from that peak, but many said they couldn't send and receive emails or had trouble loading their inboxes altogether.Thousands also reported issues with Microsoft's workplace messaging app Teams, as well as its AI assistant Copilot and wider Microsoft 365 services.Users in many parts of Asia also reported issues with Microsoft platforms as of Friday midmorning in the region.In Japan, deputy chief c",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "GOOGL",
@@ -1543,7 +1548,7 @@
       ],
       "eventType": "",
       "score": 211.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). The information contained herein is for informational purposes only.",
