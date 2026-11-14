@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14 17:14 台灣時間",
+  "updatedAt": "2026-11-14 17:28 台灣時間",
   "historyUpdatedDate": "2026-11-14",
   "historyLastAttemptAt": "2026-11-13T16:04:48.270427+00:00",
   "historyItemCount": 800,
@@ -7,8 +7,38 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build",
+      "summary": "",
+      "originalTitle": "U.S. Crude-Oil Stockpiles Post Unexpected Weekly Build",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS2J3b1ZXNW5aLWtYc2tscHU4YkhVbTJhZTJ6UkYwdlNVNjBnVWc2dHNFWEhraFJJOGhtYVRsQ1lWRExjOFVHYi1jRHF6VUcyems4allvRXpWZFFGWnBGZHMtUWx2ZWhuN3NvSDdGNlNINUd2YmMtUy1SMWc1d3AxU0NDN0FMNm9sdkxTZHVHRTdyWHRBNnh5UGx1Y0JjNG13eXlleQ?oc=5",
+      "ts": "2026-11-14T08:59:57+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMZN",
+      "group": "CSP",
       "tag": "題材",
       "title": "Jim Cramer: Amazon Has What “May Soon Be a $50 Billion Semiconductor Business”",
       "summary": "Key TakeawaysA day after Jensen Huang resigned as Nvidia’s CEO, Jim Cramer said Amazon has what “may soon be a $50 billion semiconductor business. ”Andy Jassy gave that number in April: chips running above $20 billion a year would bring in about $50 billion priced like a standalone chipmaker.",
@@ -18,10 +48,10 @@
       "ts": "2026-11-14T08:49:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.009747878933754,
+      "movePct": -0.29165420281183074,
       "relatedTickers": [
-        "NVDA",
-        "AMZN"
+        "AMZN",
+        "NVDA"
       ],
       "eventType": "",
       "score": 21.0,
@@ -147,8 +177,8 @@
         "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -366,8 +396,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 8
     },
     {
       "ticker": "META",
@@ -441,7 +471,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "DELL",
@@ -583,7 +613,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "CBRS",
@@ -626,7 +656,7 @@
       "group": "市場重點",
       "tag": "利空",
       "title": "Microsoft Outlook 中斷期間數千人無法收到電子郵件，辦公室也一片混亂",
-      "summary": "在您的搜尋結果中查看我們的更多報道。據網站追蹤器 DownDetector 稱，微軟的 Outlook 電子郵件系統週四下午早些時候似乎出現故障，截至週四下午 1:30 已收到超過 140,000 份故障報告。該公司擁有超過 4 億活躍用戶，表示許多伺服器意外不可用，這給剩餘的基礎設施帶來了壓力。尚不清楚",
+      "summary": "",
       "originalTitle": "No emails and office chaos for thousands during Microsoft Outlook outage",
       "originalSummary": "See more of our coverage in your search results. Microsoft’s Outlook email system appeared to be down early Thursday afternoon, with more than 140,000 outage reports as of 1:30 pm on Thursday, according to a website tracker Downdetector. The company — which has more than 400 million active users — said that a number of servers became unexpectedly unavailable which strained the remaining infrastructure. It’s not clear what impacted the servers, but they were working to get them back online.",
       "url": "https://nypost.com/2026/11/12/business/microsoft-outlook-outage-disrupts-email-for-more-than-140k-users/",
@@ -640,15 +670,15 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在您的搜尋結果中查看我們的更多報道。據網站追蹤器 DownDetector 稱，微軟的 Outlook 電子郵件系統週四下午早些時候似乎出現故障，截至週四下午 1:30 已收到超過 140,000 份故障報告。該公司擁有超過 4 億活躍用戶，表示許多伺服器意外不可用，這給剩餘的基礎設施帶來了壓力。尚不清楚",
+        "event": "See more of our coverage in your search results. Microsoft’s Outlook email system appeared to be down early Thursday afternoon, with more than 140,000 outage reports as of 1:30 pm on Thursday, according to a website tracker Downdetector. The company — which has more than 400 million active users — said that a number of servers became unexpectedly unavailable which strained the remaining infrastructure. It’s not clear what impacted the servers, but they were working to get them back online.",
         "numbers": [
           "400 million"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "在您的搜尋結果中查看我們的更多報道。據網站追蹤器 DownDetector 稱，微軟的 Outlook 電子郵件系統週四下午早些時候似乎出現故障，截至週四下午 1:30 已收到超過 140,000 份故障報告。該公司擁有超過 4 億活躍用戶，表示許多伺服器意外不可用，這給剩餘的基礎設施帶來了壓力。尚不清楚",
+        "stance": "The company — which has more than 400 million active users — said that a number of servers became unexpectedly unavailable which strained the remaining infrastructure.",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -816,7 +846,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 5.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -849,7 +879,7 @@
         "LEU"
       ],
       "eventType": "跨公司事件",
-      "score": 19.5,
+      "score": 16.9,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2520,13 +2550,14 @@
       "title": "SpaceX 星艦 15 號班機起飛，火箭實驗室為里程碑式任務做準備",
       "summary": "",
       "originalTitle": "SpaceX's Starship Flight 15 Takes Off, Rocket Lab Preps For Milestone Mission",
-      "originalSummary": "",
-      "url": "https://www.investors.com/news/spacex-starship-flight-15-launch-tower-catch-elon-musk-rocket-lab-electron-milestone-spcx-stock-rklb/?src=A00220&yptr=yahoo",
+      "originalSummary": "One of the few flights taking off tonight was SpaceX's Starship rocket. How were they allowed to do that, and what’s the goal of the mission? NBC News’ Gadi Schwartz reports.",
+      "url": "https://www.yahoo.com/news/videos/spacex-historic-test-flight-takes-001739765.html",
       "ts": "2026-11-13T23:12:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -3.9644139222725028,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "RKLB",
         "SPCX"
@@ -2536,13 +2567,15 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "One of the few flights taking off tonight was SpaceX's Starship rocket. How were they allowed to do that, and what’s the goal of the mission? NBC News’ Gadi Schwartz reports.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "One of the few flights taking off tonight was SpaceX's Starship rocket. How were they allowed to do that, and what’s the goal of the mission?",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -2753,38 +2786,6 @@
       "title": "國土安全部負責人認為微軟與美國聯邦航空局地面站沒有聯繫，並表示正在調查人工智慧的可能作用",
       "summary": "",
       "originalTitle": "DHS chief sees no Microsoft link in FAA ground stop, says possible AI role being investigated",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ3FIR1BiR0ZyRXJUMjdBeW83d1hxZFJxbnM0WkhOOGRiWWowb2gxb3VrYUhmdWVPVXFiU1AzYkZzeERRMWZSQVBkTWEtV05EN3I3dks0Y2JnTUlRSmtBOE0zYWVnZEthMlJEQ010MUJfVDkyQ1l3azdmS1FkSmxzZEQxQzFpODZSTGhnVmxMWVVBTnhjN2xpajRKOTRpdlBHSEFDb3VuLUJrWlJ2OHptWE1feERyZC11ZnVtWWpGSG0?oc=5",
-      "ts": "2026-11-13T23:04:10+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "",
-      "score": 13.65,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "國土安全部負責人認為微軟宕機和美國聯邦航空管理局地面停車之間沒有聯繫，不排除人工智慧的可能性",
-      "summary": "",
-      "originalTitle": "DHS chief sees no link between Microsoft outage and FAA ground stop, doesn’t rule out AI",
       "originalSummary": "",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ3FIR1BiR0ZyRXJUMjdBeW83d1hxZFJxbnM0WkhOOGRiWWowb2gxb3VrYUhmdWVPVXFiU1AzYkZzeERRMWZSQVBkTWEtV05EN3I3dks0Y2JnTUlRSmtBOE0zYWVnZEthMlJEQ010MUJfVDkyQ1l3azdmS1FkSmxzZEQxQzFpODZSTGhnVmxMWVVBTnhjN2xpajRKOTRpdlBHSEFDb3VuLUJrWlJ2OHptWE1feERyZC11ZnVtWWpGSG0?oc=5",
       "ts": "2026-11-13T23:04:10+00:00",
