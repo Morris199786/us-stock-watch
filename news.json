@@ -1,11 +1,91 @@
 {
-  "updatedAt": "2026-11-15 01:11 台灣時間",
+  "updatedAt": "2026-11-15 01:22 台灣時間",
   "historyUpdatedDate": "2026-11-15",
   "historyLastAttemptAt": "2026-11-14T16:16:39.522029+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-14",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; What Should You Do?",
+      "summary": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
+      "originalTitle": "Dow Jones Futures: Market Rally Shaky As Nvidia Earnings, Anthropic IPO Loom; What Should You Do?",
+      "originalSummary": "The new market rally is isn't giving clear directions. A SpaceX Starship launch is imminent. Nvidia earnings and Anthropic IPO loom.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-earnings-anthropic-ipo-spacex-starship-flight-15/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-14T17:07:23+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.009747878933754,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "HSBC 調整 NVDA 目標價至 $170",
+      "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
+      "originalTitle": "HSBC Just Downgraded Nvidia and Cut Its Target to $170",
+      "originalSummary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-just-downgraded-nvidia-cut-170353729.html",
+      "ts": "2026-11-14T17:03:53+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -2.009747878933754,
+      "analystDetails": [
+        {
+          "broker": "HSBC",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$170",
+          "oldTarget": "",
+          "reason": "HSBC Just Downgraded Nvidia and Cut Its Target to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
+          "reasonConfidence": "high",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "新題材",
+      "score": 225.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：HSBC｜目標價：$170｜調整原因：HSBC Just Downgraded Nvidia and Cut Its Target to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
+        "numbers": [
+          "$170"
+        ],
+        "why": "調整原因：HSBC Just Downgraded Nvidia and Cut Its Target to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：HSBC Just Downgraded Nvidia and Cut Its Target to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
     {
       "ticker": "NBIS",
       "group": "NeoCloud／AI 算力",
@@ -145,7 +225,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
       "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
-      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "summary": "",
       "originalTitle": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
       "originalSummary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
       "url": "https://finance.yahoo.com/technology/ai/articles/asian-governments-react-nvidia-ceo-163415812.html",
@@ -158,7 +238,7 @@
       ],
       "eventType": "",
       "score": 3.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -177,7 +257,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Super Micro 因傳播 Nvidia 醜聞而陷入困境。稱 Megaspeed“從來都不是客戶”",
-      "summary": "Super Micro Computer（納斯達克股票代碼：SMCI）目前正在回答與 Megaspeed 出口管制醜聞相關的問題，該醜聞也引起了 NVIDIA（納斯達克股票代碼：NVDA）的審查。該公司否認有任何客戶關係。 11 月 13 日，超微發言人向《財星》雜誌表示：「Megaspeed 不是、也從來不是超微的客戶。」這一否認很重要，因為超微建構了 [...]",
+      "summary": "",
       "originalTitle": "Super Micro Gets Swept Up in Spreading Nvidia Scandal. Says Megaspeed Was “Never a Customer”",
       "originalSummary": "Super Micro insists the company at the center of a Manhattan probe never bought its servers. Yet investigators are asking how its hardware reached China, and Singapore disputes how cooperative the company really was.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-gets-swept-spreading-163249295.html",
@@ -190,13 +270,13 @@
       ],
       "eventType": "",
       "score": 6.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Super Micro Computer（納斯達克股票代碼：SMCI）目前正在回答與 Megaspeed 出口管制醜聞相關的問題，該醜聞也引起了 NVIDIA（納斯達克股票代碼：NVDA）的審查。該公司否認有任何客戶關係。 11 月 13 日，超微發言人向《財星》雜誌表示：「Megaspeed 不是、也從來不是超微的客戶。」這一否認很重要，因為超微建構了 [...]",
+        "event": "Super Micro insists the company at the center of a Manhattan probe never bought its servers. Yet investigators are asking how its hardware reached China, and Singapore disputes how cooperative the company really was.",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Super Micro Computer（納斯達克股票代碼：SMCI）目前正在回答與 Megaspeed 出口管制醜聞相關的問題，該醜聞也引起了 NVIDIA（納斯達克股票代碼：NVDA）的審查。該公司否認有任何客戶關係。 11 月 13 日，超微發言人向《財星》雜誌表示：「Megaspeed 不是、也從來不是超微的客戶。」這一否認很重要，因為超微建構了 [...]",
+        "stance": "Super Micro insists the company at the center of a Manhattan probe never bought its servers. Yet investigators are asking how its hardware reached China, and Singapore disputes how cooperative the company really was.",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -545,7 +625,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "META",
@@ -765,14 +845,14 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Cerebras：崩盤後及時買入機會（評等升級）（納斯達克股票代碼：CBRS）",
-      "summary": "",
+      "summary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any inv",
       "originalTitle": "Cerebras: Timely Buying Opportunity After The Collapse (Rating Upgrade) (NASDAQ:CBRS)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOblAwZEtCMFg0SnkyREtGZjJwMjlsTUcyVExoblhxVUwxd0liRV9WX0NlQXZ0R1FpdkowMUVrUVNPZ1BIVjJ0eXpYQ2dFcDRYd1hPcVZqRGFhcm40MVZUQmVYX1JZQjlnanFHNkhFTnByLUNDREU1cW5yXzFFZm5KZDFEblRaNWp2Z0pIdlYwNzRyLWNRQlkxZFBTUzgzcGUyNHVMblJsYUltWlBzS0JVeWpmV0haaTc3SGl5S0RsN0FySnNj?oc=5",
+      "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
+      "url": "https://seekingalpha.com/article/4968201-cerebras-timely-buying-opportunity-after-collapse-upgrade",
       "ts": "2026-11-14T15:05:06+00:00",
       "sourceType": "active_search",
       "movePct": 11.222506393861886,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "CBRS"
       ],
@@ -783,16 +863,19 @@
       "translated": true,
       "analystDetails": [],
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "券商調整理由：Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions.",
+        "stance": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "券商調整理由：Analyst’s Disclosure: I/we have a beneficial long position in the shares of NVDA, MSFT either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions.",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 2,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "META",
@@ -1067,7 +1150,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "SPCX",
@@ -2387,7 +2470,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2596,10 +2679,10 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
       "title": "HSBC 調整 NVDA 目標價至 $170",
-      "summary": "",
+      "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
       "originalTitle": "HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmgwYmFWVF9FdlI0NVlJczk2MGxDeWtpUGtpNGo4bmtMWFdiOERlOHhqQ3pHclZrdXdnOVhfT01tVjFGM085RGlRMmEzaE1xNThzOUdDTlpjcF9kYWtPdUYxUDNqMEQtQW5seXgwRWlaQlNneTRsQ1NnejJZN09YcGxoanhuV2FPeFY5LUNjLTRHTVlOMzlnLXc4LWRQTThLaWlhM2s5eGRndw?oc=5",
+      "originalSummary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-just-downgraded-nvidia-cut-170353729.html",
       "ts": "2026-11-14T10:31:00+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -2611,8 +2694,8 @@
           "action": "",
           "newTarget": "$170",
           "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
+          "reason": "HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
+          "reasonConfidence": "high",
           "targetTicker": "NVDA",
           "targetCompany": "NVIDIA"
         }
@@ -2621,104 +2704,24 @@
       "relatedTickers": [
         "NVDA"
       ],
-      "eventType": "",
-      "score": 175.5,
+      "eventType": "新題材",
+      "score": 195.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：HSBC｜評等：Hold｜目標價：$170｜調整原因：來源未提供具體理由",
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：HSBC｜評等：Hold｜目標價：$170｜調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
         "numbers": [
           "$170"
         ],
-        "why": "調整原因：來源未提供具體調整理由",
+        "why": "調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
+        "takeaway": "調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "Barclays 調整 NVDA 目標價至 $210",
-      "summary": "",
-      "originalTitle": "Barclays Maintains NVIDIA(NVDA.US) With Buy Rating, Cuts Target Price to $210",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZWM3Q1FrelRNQkx0bUVwbEx4UTUtV2FOLWdTSUhOVzc2c2VicFNWZ1pOY0F0VllBcHoxU1N6VmdjT3AycXk5cG5uUW0zUXNvVHdkSEItRnVBZGZjMUxNMUQ5RlpSQm5rUjlEbEdyS25CMmJicW5HV3FlclJIUDZWWk40WnFOSmhnbzl6bnZHbDJCMEFEV1B5UUlDbVJyakRhd2xMeDlLcDFNNXRUZklj?oc=5",
-      "ts": "2026-11-14T10:31:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Barclays",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "$210",
-          "oldTarget": "",
-          "reason": "Barclays Maintains NVIDIA(NVDA.US) With Buy Rating, Cuts Target Price to $210",
-          "reasonConfidence": "medium",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 183.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Barclays｜動作：重申｜評等：Buy｜目標價：$210｜調整原因：Barclays Maintains NVIDIA(NVDA.US) With Buy Rating, Cuts Target Price to $210",
-        "numbers": [
-          "$210"
-        ],
-        "why": "調整原因：Barclays Maintains NVIDIA(NVDA.US) With Buy Rating, Cuts Target Price to $210",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Barclays Maintains NVIDIA(NVDA.US) With Buy Rating, Cuts Target Price to $210",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 4
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "馬斯克 (Elon Musk) 向 MKBHD 承認，特斯拉 Cyber​​cab 的每月訂閱費“太高”：“應該與…的成本相匹配”",
-      "summary": "",
-      "originalTitle": "Tesla Cybercab’s Monthly Subscription Is ‘Too High,’ Elon Musk Admits To MKBHD: ‘Should Match The Cost Of…’",
-      "originalSummary": "Musk suggested that Tesla could bring the fee down significantly, even as the company begins inviting select customers to purchase the fully autonomous vehicle.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-monthly-subscription-too-102018701.html",
-      "ts": "2026-11-14T10:20:18+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.8190967417285098,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Musk suggested that Tesla could bring the fee down significantly, even as the company begins inviting select customers to purchase the fully autonomous vehicle.",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Musk suggested that Tesla could bring the fee down significantly, even as the company begins inviting select customers to purchase the fully autonomous vehicle.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
+      "top10Rank": 5,
+      "detailSource": "ticker_feed_match"
     }
   ],
   "historyItems": [
