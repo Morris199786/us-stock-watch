@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 01:22 台灣時間",
+  "updatedAt": "2026-11-15 01:35 台灣時間",
   "historyUpdatedDate": "2026-11-15",
   "historyLastAttemptAt": "2026-11-14T16:16:39.522029+00:00",
   "historyItemCount": 800,
@@ -71,7 +71,7 @@
       "eventType": "新題材",
       "score": 225.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：HSBC｜目標價：$170｜調整原因：HSBC Just Downgraded Nvidia and Cut Its Target to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
         "numbers": [
@@ -358,8 +358,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -838,7 +838,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "CBRS",
@@ -1315,6 +1315,39 @@
       "score": 12.0,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "ULA scrubs Amazon satellite launch try again; Vulcan rescheduled for Sunday",
+      "summary": "",
+      "originalTitle": "ULA scrubs Amazon satellite launch try again; Vulcan rescheduled for Sunday",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTEJVSHZ6dTg0MlFwd3FXX3ZTRWl3d3F5VUsxQjlrM2p1c2VpbGVINUxkQnFCOEl6b1B1QnY1cUNHQU5icVV0OFR3RlNMaGlYLTgtaFY2eGdoR3JscEQyUXl1ZlR4akE4NEdUbEVkZWc3dzFDSTBFTE1oVDR5Rjlzek0yVVR6c2R5eDJWX3BPNDJOMVNTbjl6TlVNMXJNQVFqek1leFZRVVJNMW1qVjd2VnJ1ajZKVXpwLTR4enFaV2VJNU5vRXVKZ0dWejN3anVZX2hzNHFwemlUUG1Yb1FqbmxhRG1Kd0pTSUROdDF1RS0zbjQ4S2loM25fUE1URW0yZmpuQTFpVldLSE0?oc=5",
+      "ts": "2026-11-14T14:25:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -2440,7 +2473,7 @@
         "FN"
       ],
       "eventType": "",
-      "score": 12.0,
+      "score": 10.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2473,6 +2506,38 @@
       "score": 5.85,
       "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "FN",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "Leverage Shares 2X Long FN Daily ETF (FNG) News Flow",
+      "summary": "",
+      "originalTitle": "Leverage Shares 2X Long FN Daily ETF (FNG) News Flow",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPYk1VWGJDNFBwVnhJVTRYVGFTTTlPc1lUcG9Xa0RyeHhrUmYzTGp2dkF4Y0hpdkJmR2V2U3NnNWw1WVFQdmVmNFV0cVdrT0k0R0lQNmkwaVJqeFozOGZPWEtKZlR5ZmFWNHhQTktyYlBXV1BhUEo0aEVhZ2VXT2pfOHNSaERFSkMtQVU1djk1UTRHa3ZydVdIWlhLYWw4R1pjTGpXNTNaUk5RRnBQalZQTlU4TTRxdUVzdHpHdWNHMUp3Ujcza19OM25WbEpVSlluT1JQY0hxWnJtb3BENHRxWkc0dDJzV21USUdFLThWcGFlSFhNY0I1Zk9obEtqcGNocHBJMDY3ME9vZ2Q4OFhjZ0tCMGNENm44aXdDRHBMRHd6dXRXMWhzR1pWdGFyd0RqNTN2ek5ydHh3VlZEZnF5ZEdmRQ?oc=5",
+      "ts": "2026-11-14T11:11:43+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -7.305768306813998,
+      "relatedTickers": [
+        "FN"
+      ],
+      "eventType": "",
+      "score": 10.4,
+      "featured": false,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -2643,85 +2708,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "原油 12 月 26 日 (CL=F) 股票價格、新聞、報價和歷史",
-      "summary": "",
-      "originalTitle": "Crude Oil Dec 26 (CL=F) Stock Price, News, Quote & History",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9vb0xIM2NQRFk0TmhHMF9LYWZjb2ZDWFpMSE56RzRaMW5nVUhEZFJvMjVLdWExU25wQ1E5V0NpY2FwS2JkaTktb1hhUHJKVV9uVjBQSA?oc=5",
-      "ts": "2026-11-14T10:35:16+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "HSBC 調整 NVDA 目標價至 $170",
-      "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
-      "originalTitle": "HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170",
-      "originalSummary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-just-downgraded-nvidia-cut-170353729.html",
-      "ts": "2026-11-14T10:31:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "HSBC",
-          "analyst": "",
-          "rating": "Hold",
-          "action": "",
-          "newTarget": "$170",
-          "oldTarget": "",
-          "reason": "HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
-          "reasonConfidence": "high",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 195.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：HSBC｜評等：Hold｜目標價：$170｜調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
-        "numbers": [
-          "$170"
-        ],
-        "why": "調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：HSBC Downgrades NVIDIA(NVDA.US) to Hold Rating, Cuts Target Price to $170 Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 5,
-      "detailSource": "ticker_feed_match"
     }
   ],
   "historyItems": [
