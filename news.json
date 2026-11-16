@@ -1,11 +1,45 @@
 {
-  "updatedAt": "2026-11-17 06:48 台灣時間",
+  "updatedAt": "2026-11-17 06:58 台灣時間",
   "historyUpdatedDate": "2026-11-17",
   "historyLastAttemptAt": "2026-11-16T16:08:21.159011+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-16",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
+      "summary": "Details of Berkshire Hathaway's Q3 buys and sells came in a 13F filing after Monday's close.",
+      "originalTitle": "Berkshire Hathaway Slashes This Top 5 Stock; Nvidia Boosts SpaceX",
+      "originalSummary": "",
+      "url": "https://www.investors.com/news/berkshire-hathaway-stock-buys-sells-q3-13f-bac-nvidia-alphabet-spacex/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-16T22:39:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.120356155971761,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA",
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
@@ -35,7 +69,8 @@
         "sourceQuality": "headline_only"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": false
     },
     {
       "ticker": "SPCX",
@@ -177,7 +212,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "POET",
@@ -278,7 +313,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "ARM",
@@ -352,8 +387,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "TSEM",
@@ -618,7 +653,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -697,6 +732,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "U.S. Stocks Extend Slide on Nvidia, China Fears",
+      "summary": "",
+      "originalTitle": "U.S. Stocks Extend Slide on Nvidia, China Fears",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWFF6T2tpa2JWRXltSGhKSThhb0FaSFJ4OUpfQko5N2IzRFBraDNmdjBtaGxnWkZaMTh3a2hmSm9tcmlHMjRMU0lPcTZScHFWRHo2d0pHZlZKMUhNVGphMURVTzNCRFdTMGt2TmpzRjZBaGdpZ1hLYk14X1RQSVFuV0VPS2dPdVVTWC02VmFlVVZzTTg?oc=5",
+      "ts": "2026-11-16T21:31:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MSFT",
       "group": "CSP",
       "tag": "題材",
@@ -737,52 +804,35 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "Jefferies 調整 SNDK 目標價至 $300，維持 buy",
-      "summary": "Take-Two Interactive shares were up more than 3% ahead of Thursday's release of the much-anticipated \"Grand Theft Auto VI\" video game. Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle. GTA Online and an eventu",
+      "summary": "",
       "originalTitle": "Nvidia, Sandisk, SpaceX, L3Harris, Strategy, Tyson, and More Stocks That Explain Today’s Market",
-      "originalSummary": "Take-Two Interactive shares were up more than 3% ahead of Thursday's release of the much-anticipated \"Grand Theft Auto VI\" video game. Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle. GTA Online and an eventual PC release could provide meaningful incremental bookings into FY28, neither of which we believe is embedded in FY27 guidance. We continue to model FY27 bookings above the high end of guidance and see upside to our $10 FY28 EPS estimate as the GTA VI ecosystem scales,\" wrote analyst James Heaney. TTWO YTD mountain TTWO YTD — Fred Imbert",
-      "url": "https://www.cnbc.com/2026/11/16/stocks-moving-the-most-today-live-updates.html",
+      "originalSummary": "",
+      "url": "https://www.barrons.com/articles/stock-movers-dcfe4add?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-11-16T21:26:00+00:00",
       "sourceType": "ticker_feed",
-      "analystPriority": true,
+      "analystPriority": false,
       "movePct": -8.576174280516602,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
         "SNDK",
         "SPCX",
         "NVDA"
       ],
-      "eventType": "跨公司事件",
-      "score": 234.0,
+      "eventType": "",
+      "score": 27.0,
       "featured": false,
       "translated": true,
-      "analystDetails": [
-        {
-          "broker": "Jefferies",
-          "analyst": "",
-          "rating": "buy",
-          "action": "重申",
-          "newTarget": "$300",
-          "oldTarget": "",
-          "reason": "Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle.",
-          "reasonConfidence": "medium",
-          "targetTicker": "SNDK",
-          "targetCompany": "Sandisk"
-        }
-      ],
       "investorBrief": {
-        "event": "被評級公司：Sandisk（SNDK）｜券商：Jefferies｜動作：重申｜評等：buy｜目標價：$300｜調整原因：Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle.",
-        "numbers": [
-          "$300"
-        ],
-        "why": "調整原因：Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle.",
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Jefferies over the weekend also reiterated its buy rating and $300 price target on Take-Two, saying \"GTA VI is just the beginning.\" \"While the launch itself is well understood, we believe the bigger opportunity is the duration of the GTA VI monetization cycle.",
-        "sourceQuality": "analyst_structured"
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 1
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CAT",
@@ -1174,7 +1224,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -1449,6 +1499,36 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
+      "summary": "",
+      "originalTitle": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDJZaXFhY1pnSUd1OEp5V2NtbWc2Z2ZvUW41OU1pOGdBWVRPbllCZWhHMExvNWlsSjR3cmFsNFpjV0d1WkRGTEdUcEZNMUNfZ19lS1oxQTlDanlUMXZxZzV4NVhNd29tZWJ6bUI2a0E2SnhPSmJZRVViNUgtREpsZmVUOWN3TFFoU1BTRURIOUZCOGlkNkc0TU41TlNMeTB6b09XSk9MSE92YXBtOFh4WXd5ajFRR3Nna3YxdmxPdEg?oc=5",
+      "ts": "2026-11-16T20:52:03+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MSFT",
       "group": "CSP",
       "tag": "利空",
@@ -1592,37 +1672,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
-      "summary": "",
-      "originalTitle": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDJZaXFhY1pnSUd1OEp5V2NtbWc2Z2ZvUW41OU1pOGdBWVRPbllCZWhHMExvNWlsSjR3cmFsNFpjV0d1WkRGTEdUcEZNMUNfZ19lS1oxQTlDanlUMXZxZzV4NVhNd29tZWJ6bUI2a0E2SnhPSmJZRVViNUgtREpsZmVUOWN3TFFoU1BTRURIOUZCOGlkNkc0TU41TlNMeTB6b09XSk9MSE92YXBtOFh4WXd5ajFRR3Nna3YxdmxPdEg?oc=5",
-      "ts": "2026-11-16T20:30:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -1888,7 +1938,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "RKLB",
@@ -1921,6 +1971,52 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Morgan Stanley Cuts Nvidia Stock Price Target Ahead of Q3 Earnings, but Says ‘Risk-Reward Is Still Very Positive’",
+      "summary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive Final URL: https://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access th",
+      "originalTitle": "Morgan Stanley Cuts Nvidia Stock Price Target Ahead of Q3 Earnings, but Says ‘Risk-Reward Is Still Very Positive’",
+      "originalSummary": "Title: Just a moment... URL Source: http://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive Final URL: https://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive Warning: This page maybe requiring CAPTCHA, please make sure you are authorized to access this page. Markdown Content: www.tipranks.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.",
+      "url": "https://www.tipranks.com/news/morgan-stanley-cuts-nvidia-stock-price-target-ahead-of-q3-earnings-but-says-risk-reward-is-still-very-positive",
+      "ts": "2026-11-16T20:06:28+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 265.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Morgan Stanley｜動作：下修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
     },
     {
       "ticker": "INTC",
@@ -2577,7 +2673,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "AMZN",
@@ -2668,128 +2764,6 @@
       ],
       "eventType": "",
       "score": 22.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "由於人工智慧合作夥伴關係引起關注，Sinch (OM:SINCH) 的估值可能被低估 7%",
-      "summary": "",
-      "originalTitle": "Sinch (OM:SINCH) Could Be 7% Undervalued As AI Partnerships Draw Attention",
-      "originalSummary": "Sinch (OM:SINCH) has moved into the spotlight after announcing partnerships that plug its communications network into SpaceX Super Intelligence tools and voice AI provider Bland, aiming at secure, large scale customer interactions. These AI partnerships land after a busy spell for Sinch, with the stock posting a 43% year to date share price return to SEK43.86 and a 61% one year total shareholder return, even as the 30 day share price return declined 6%, suggesting that recent momentum may...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sinch-om-sinch-could-7-191747309.html",
-      "ts": "2026-11-16T19:17:47+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.2579972683487872,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Sinch (OM:SINCH) has moved into the spotlight after announcing partnerships that plug its communications network into SpaceX Super Intelligence tools and voice AI provider Bland, aiming at secure, large scale customer interactions. These AI partnerships land after a busy spell for Sinch, with the stock posting a 43% year to date share price return to SEK43.86 and a 61% one year total shareholder return, even as the 30 day share price return declined 6%, suggesting that recent momentum may...",
-        "numbers": [
-          "7%",
-          "43%",
-          "61%",
-          "6%"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Sinch (OM:SINCH) has moved into the spotlight after announcing partnerships that plug its communications network into SpaceX Super Intelligence tools and voice AI provider Bland, aiming at secure, large scale customer interactions. These AI partnerships land after a busy spell for Sinch, with the stock posting a 43% year to date share price return to SEK43.86 and a 61% one year total shareholder return, even as the 30 day share price return declined 6%, suggesting that recent momentum may...",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "利空",
-      "title": "Citi 下修 NBIS 目標價至 $215（原 $265），維持 Buy",
-      "summary": "Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares. The company reported \"solid\" Q3 reuslts but trimmed its near-term revenue guidance on site https://t.co/X2xxpAtxEX",
-      "originalTitle": "Citigroup maintains Nebius Group at Buy, lowers price target to $215 from $265",
-      "originalSummary": "Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares. The company reported \"solid\" Q3 reuslts but trimmed its near-term revenue guidance on site https://t.co/X2xxpAtxEX",
-      "url": "https://247wallst.com/cards/nbis-xpost-01m7janawb8m3ar0xx4jp2vbkb",
-      "ts": "2026-11-16T19:14:32+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Citi",
-          "analyst": "Tyler Radke",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$215",
-          "oldTarget": "$265",
-          "reason": "Citigroup maintains Nebius Group at Buy, lowers price target to $215 from $265 Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares.",
-          "reasonConfidence": "medium",
-          "targetTicker": "NBIS",
-          "targetCompany": "Nebius"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 205.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Nebius（NBIS）｜券商：Citi｜動作：下修｜評等：Buy｜目標價：$215（原 $265）｜調整原因：Citigroup maintains Nebius Group at Buy, lowers price target to $215 from $265 Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares.",
-        "numbers": [
-          "$265",
-          "$215"
-        ],
-        "why": "調整原因：Citigroup maintains Nebius Group at Buy, lowers price target to $215 from $265 Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Citigroup maintains Nebius Group at Buy, lowers price target to $215 from $265 Nebius $NBIS price target lowered to $215 from $265 at Citi Citi analyst Tyler Radke lowered the firm's price target on Nebius to $215 from $265 and keeps a Buy rating on the shares.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 4,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "SK海力士將向失敗的供應商付款。歸咎於隱藏的瓶頸",
-      "summary": "",
-      "originalTitle": "SK hynix will pay suppliers that fail. Blame a hidden bottleneck",
-      "originalSummary": "The promise looks generous, but SK hynix is really buying something it can’t build on its own: time.",
-      "url": "https://finance.yahoo.com/technology/articles/sk-hynix-pay-suppliers-fail-191328813.html",
-      "ts": "2026-11-16T19:13:28+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -7.8947368421052655,
-      "relatedTickers": [
-        "SK HYNIX"
-      ],
-      "eventType": "",
-      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
