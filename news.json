@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 12:03 台灣時間",
+  "updatedAt": "2026-11-16 12:11 台灣時間",
   "historyUpdatedDate": "2026-11-16",
   "historyLastAttemptAt": "2026-11-15T16:05:50.562481+00:00",
   "historyItemCount": 800,
@@ -10,12 +10,60 @@
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
+      "title": "Morgan Stanley 調整 NVDA 目標價至 $267",
+      "summary": "",
+      "originalTitle": "Major Bank Ratings | Morgan Stanley: Lowers NVIDIA Price Target to $267; Product and Supply Chain Planning Remain Relatively Solid",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbjFpQkl6REhBUFRobnJhdkFFWi1jbXRHRWtRLUJKblRUZzMyMmFfU3F3MEtOQWRvMjJ4UzNnUU9kMHRjaHVFTzFUX1JnNk9CakRfdzdoRF9pSVZmeUJaVU91Ml8yOVFvYWdzaFFtbUIxdjR2WTk3R3ZFeGU1U1FsQjhacDJzSkswT1lWYmY1LW5mZmVWd0pFTUlCLTBZVDRYZ3JEU1FfSEJEUQ?oc=5",
+      "ts": "2026-11-16T03:59:28+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$267",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Morgan Stanley｜目標價：$267｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$267"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
       "title": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
       "summary": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
       "originalTitle": "Dow Jones Futures: Techs Fall As Jensen Huang Mulls Nvidia Return; Anthropic IPO Looms",
       "originalSummary": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-earnings-anthropic-ipo-spacex-starship-flight-15/?src=A00220&yptr=yahoo",
-      "ts": "2026-11-16T03:48:06+00:00",
+      "ts": "2026-11-16T03:55:14+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -2.009747878933754,
@@ -34,6 +82,45 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Steve Jobs Went Back to Apple in 1997 and $10,000 Became $18.6 Million. Jensen Huang May Be Next",
+      "summary": "Jensen Huang has discussed returning to Nvidia, the Financial Times reported Sunday. Five leaders came back before him. When Steve Jobs went back to Apple in 1997, $10,000 became $18.6 million; when Bob Iger went back to Disney, it trailed the S&P 500.",
+      "originalTitle": "Steve Jobs Went Back to Apple in 1997 and $10,000 Became $18.6 Million. Jensen Huang May Be Next",
+      "originalSummary": "Jensen Huang has discussed returning to Nvidia, the Financial Times reported Sunday. Five leaders came back before him. When Steve Jobs went back to Apple in 1997, $10,000 became $18.6 million; when Bob Iger went back to Disney, it trailed the S&P 500.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/steve-jobs-went-back-apple-034700097.html",
+      "ts": "2026-11-16T03:47:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.009747878933754,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Jensen Huang has discussed returning to Nvidia, the Financial Times reported Sunday. Five leaders came back before him. When Steve Jobs went back to Apple in 1997, $10,000 became $18.6 million; when Bob Iger went back to Disney, it trailed the S&P 500.",
+        "numbers": [
+          "$10,000 B",
+          "$18.6 Million",
+          "$10,000 b",
+          "$18.6 million"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "Jensen Huang has discussed returning to Nvidia, the Financial Times reported Sunday. Five leaders came back before him.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -85,15 +172,48 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "CAT",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利多",
+      "title": "A Key Power Supplier to AI Data Centres Has Record Orders. Its Stock Is Down 44%",
+      "summary": "Caterpillar stock is down 44% since June, even as data center demand pushed its order backlog to a record $78 billion.",
+      "originalTitle": "A Key Power Supplier to AI Data Centres Has Record Orders. Its Stock Is Down 44%",
+      "originalSummary": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/key-power-supplier-ai-data-032819810.html",
+      "ts": "2026-11-16T03:28:19+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.8392809939201551,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CAT"
+      ],
+      "eventType": "",
+      "score": 13.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Asian chip stocks slide ahead of Nvidia earnings",
-      "summary": "Investing.com-- Asian semiconductor stocks fell on Monday as investors trimmed exposure to artificial intelligence-related shares ahead of Nvidia's quarterly earnings, with uncertainty surrounding the chipmaker's leadership transition adding to concerns over the sustainability of the AI investment boom.",
+      "summary": "",
       "originalTitle": "Asian chip stocks slide ahead of Nvidia earnings",
       "originalSummary": "Investing.com-- Asian semiconductor stocks fell on Monday as investors trimmed exposure to artificial intelligence-related shares ahead of Nvidia's quarterly earnings, with uncertainty surrounding the chipmaker's leadership transition adding to concerns over the sustainability of the AI investment boom.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/asian-chip-stocks-slide-ahead-032730415.html",
@@ -106,7 +226,7 @@
       ],
       "eventType": "",
       "score": 18.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Investing.com-- Asian semiconductor stocks fell on Monday as investors trimmed exposure to artificial intelligence-related shares ahead of Nvidia's quarterly earnings, with uncertainty surrounding the chipmaker's leadership transition adding to concerns over the sustainability of the AI investment boom.",
@@ -647,7 +767,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "NVDA",
@@ -883,8 +1003,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 8
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -981,7 +1101,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7,
+      "top10Rank": 8,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1477,7 +1597,7 @@
       "group": "CPU 概念股",
       "tag": "利多",
       "title": "Advanced Micro Devices (AMD) Deepens Quantum Push With New Research And Commercial Ties",
-      "summary": "Advanced Micro Devices (NasdaqGS:AMD) expanded its quantum computing work through new and extended partnerships with PsiQuantum, IBM and Oak Ridge National Laboratory. The collaboration with PsiQuantum focuses on applying hybrid quantum and classical computing to commercial use cases that include drug discovery. AMD is working with IBM and Oak Ridge National Laboratory on a co-design approach aimed at practical quant",
+      "summary": "",
       "originalTitle": "Advanced Micro Devices (AMD) Deepens Quantum Push With New Research And Commercial Ties",
       "originalSummary": "Advanced Micro Devices (NasdaqGS:AMD) expanded its quantum computing work through new and extended partnerships with PsiQuantum, IBM and Oak Ridge National Laboratory. The collaboration with PsiQuantum focuses on applying hybrid quantum and classical computing to commercial use cases that include drug discovery. AMD is working with IBM and Oak Ridge National Laboratory on a co-design approach aimed at practical quantum error correction for future fault-tolerant systems. AMD's deeper ties...",
       "url": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-deepens-001906359.html",
@@ -1490,10 +1610,10 @@
       ],
       "eventType": "",
       "score": 18.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "Advanced Micro Devices (NasdaqGS:AMD) expanded its quantum computing work through new and extended partnerships with PsiQuantum, IBM and Oak Ridge National Laboratory. The collaboration with PsiQuantum focuses on applying hybrid quantum and classical computing to commercial use cases that include drug discovery. AMD is working with IBM and Oak Ridge National Laboratory on a co-design approach aimed at practical quant",
+        "event": "Advanced Micro Devices (NasdaqGS:AMD) expanded its quantum computing work through new and extended partnerships with PsiQuantum, IBM and Oak Ridge National Laboratory. The collaboration with PsiQuantum focuses on applying hybrid quantum and classical computing to commercial use cases that include drug discovery. AMD is working with IBM and Oak Ridge National Laboratory on a co-design approach aimed at practical quantum error correction for future fault-tolerant systems. AMD's deeper ties...",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "Advanced Micro Devices (NasdaqGS:AMD) expanded its quantum computing work through new and extended partnerships with PsiQuantum, IBM and Oak Ridge National Laboratory. The collaboration with PsiQuantum focuses on applying hybrid quantum and classical computing to commercial use cases that include drug discovery.",
@@ -1512,7 +1632,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "波音-洛克希德公司的火箭在飛行途中失敗，摧毀了亞馬遜衛星的有效載荷",
-      "summary": "路透社布朗斯維爾 11 月 15 日 - 波音公司和洛克希德馬丁公司的合資企業聯合發射聯盟擁有的一枚火神火箭於週日從佛羅裡達州發射後不久失敗，摧毀了亞馬遜 Leo 互聯網網絡的 40 顆衛星的有效載荷，這是該公司的首次任務失敗。火箭在升空後大約 10 分鐘失敗，原因尚不清楚。",
+      "summary": "",
       "originalTitle": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
       "originalSummary": "By Joey Roulette Nov 15 (Reuters) - A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after liftoff from Florida, destroying",
       "url": "https://finance.yahoo.com/news/us-rocket-fails-launch-payload-202554696.html",
@@ -1526,13 +1646,13 @@
       ],
       "eventType": "跨公司事件",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "路透社布朗斯維爾 11 月 15 日 - 波音公司和洛克希德馬丁公司的合資企業聯合發射聯盟擁有的一枚火神火箭於週日從佛羅裡達州發射後不久失敗，摧毀了亞馬遜 Leo 互聯網網絡的 40 顆衛星的有效載荷，這是該公司的首次任務失敗。火箭在升空後大約 10 分鐘失敗，原因尚不清楚。",
+        "event": "By Joey Roulette Nov 15 (Reuters) - A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after liftoff from Florida, destroying",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "路透社布朗斯維爾 11 月 15 日 - 波音公司和洛克希德馬丁公司的合資企業聯合發射聯盟擁有的一枚火神火箭於週日從佛羅裡達州發射後不久失敗，摧毀了亞馬遜 Leo 互聯網網絡的 40 顆衛星的有效載荷，這是該公司的首次任務失敗。火箭在升空後大約 10 分鐘失敗，原因尚不清楚。",
+        "stance": "By Joey Roulette Nov 15 (Reuters) - A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after liftoff from Florida, destroying",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1645,7 +1765,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -2348,7 +2468,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -2488,7 +2608,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -2590,109 +2710,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "據報道，黃仁勳正在考慮重返英偉達，埃隆·馬斯克警告說，如果沒有他，“關鍵交易將會失敗”",
-      "summary": "",
-      "originalTitle": "Jensen Huang Reportedly Weighing Return to Nvidia as Elon Musk Warns “Critical Deals Will Be Lost” Without Him",
-      "originalSummary": "Elon Musk says Nvidia's biggest supply deals rested on a handshake, not a contract. With a Treasury Secretary demanding outsiders and a probe underway, can a comeback even happen, and what would it mean for shareholders?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-reportedly-weighing-return-205912202.html",
-      "ts": "2026-11-15T20:59:12+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.009747878933754,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Elon Musk says Nvidia's biggest supply deals rested on a handshake, not a contract. With a Treasury Secretary demanding outsiders and a probe underway, can a comeback even happen, and what would it mean for shareholders?",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "With a Treasury Secretary demanding outsiders and a probe underway, can a comeback even happen, and what would it mean for shareholders?",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "隨著比特幣跳水，道瓊斯期貨即將迎來不穩定的市場反彈；黃仁勳考慮英偉達回歸？",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures Loom For Shaky Market Rally As Bitcoin Dives; Jensen Huang Mulls Nvidia Return?",
-      "originalSummary": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-earnings-anthropic-ipo-spacex-starship-flight-15/?src=A00220&yptr=yahoo",
-      "ts": "2026-11-15T20:42:23+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.009747878933754,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 13.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "道瓊斯指數、納斯達克 100 指數和標準普爾 500 指數展望：本週主要股市新聞",
-      "summary": "",
-      "originalTitle": "Dow Jones, Nasdaq 100, and S&P 500 Outlooks: Key Stock Market News This Week",
-      "originalSummary": "Anthropic IPO Live Updates: Anthropic must face lawsuit over Claude subscription marketing, rules judgeArtificial intelligence startup Anthropic must face claims that it misled customers by advertising its premium Claude Max subscriptions as providing 5x or 20x more usage than lower-priced plans, a federal judge in California has ruled. US Magistrate Judge Alex Tse in San Francisco on Friday said the plaintiffs plausibly alleged that consumers could interpret Anthropic's marketing to mean Max subscribers would receive five or 20 times more usage than lesser-tier subscribers over the course of a month. Tse allowed claims for deceptive advertising under California's consumer state law, negligent misrepresentation and breach of contract to proceed, but dismissed other claims, including one filed under the state’s unfair competition law.",
-      "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-war-hormuz-deal-brent-crude-oil-inflation-fed-rate-nvidia-jensen-huang-marvell-tech-qualcomm-meta-micrsoft-ai-chip-stock-price-news-9th-november-2026/liveblog/135683531.cms",
-      "ts": "2026-11-15T20:30:08+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 8.45,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Anthropic IPO Live Updates: Anthropic must face lawsuit over Claude subscription marketing, rules judgeArtificial intelligence startup Anthropic must face claims that it misled customers by advertising its premium Claude Max subscriptions as providing 5x or 20x more usage than lower-priced plans, a federal judge in California has ruled. US Magistrate Judge Alex Tse in San Francisco on Friday said the plaintiffs plausibly alleged that consumers could interpret Anthropic's marketing to mean Max subscribers would rece",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "US Magistrate Judge Alex Tse in San Francisco on Friday said the plaintiffs plausibly alleged that consumers could interpret Anthropic's marketing to mean Max subscribers would receive five or 20 times more usage than lesser-tier subscribers over the course of a month.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
