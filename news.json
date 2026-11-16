@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 07:38 台灣時間",
+  "updatedAt": "2026-11-17 07:48 台灣時間",
   "historyUpdatedDate": "2026-11-17",
   "historyLastAttemptAt": "2026-11-16T16:08:21.159011+00:00",
   "historyItemCount": 800,
@@ -7,8 +7,76 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "美國採取措施限制對 Nvidia 先進人工智慧晶片的遠端訪問",
+      "summary": "",
+      "originalTitle": "US Moves to Curb Remote Access to Nvidia’s Advanced AI Chips",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3diZGZDaW14MTdtajJNSTFnMXF3MWtpODZRZDN3UVVRZXBwQllnQXFRRUFYbTAzQmJkLW1qTDAzZDhyYW54UjdBVjFrZVRzV3JiTVRTdmlybkVtRnZVSWlMTnFvYVp3dkFGeWhUVFdrUE1Na3E0WTVuekRuSm5jN1A2aDBnb1NjYXRhYmJfdjlBQWY1X093Q1hHTDM4ZzNhdlYwNVRn?oc=5",
+      "ts": "2026-11-16T23:27:28+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
+      "summary": "International Business Machines recently announced a series of quantum and AI moves, including new Nighthawk processors, a Chicago Quantum System Two deployment, multiple co-design platforms with partners such as NVIDIA, AMD, Fermilab, and Oak Ridge, and an AI agent platform collaboration with Microsoft. These projects point to IBM leaning heavily into capital-intensive, research-heavy quantum and enterprise AI infra",
+      "originalTitle": "Learn Why The Bull Case For IBM Stock Could Change Following Quantum Computing Expansion",
+      "originalSummary": "International Business Machines recently announced a series of quantum and AI moves, including new Nighthawk processors, a Chicago Quantum System Two deployment, multiple co-design platforms with partners such as NVIDIA, AMD, Fermilab, and Oak Ridge, and an AI agent platform collaboration with Microsoft. These projects point to IBM leaning heavily into capital-intensive, research-heavy quantum and enterprise AI infrastructure. This could influence long-term margins, required investment, and...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-ibm-231929118.html",
+      "ts": "2026-11-16T23:19:29+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -5.576152492229336,
+      "relatedTickers": [
+        "AMD",
+        "MSFT",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 33.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "International Business Machines recently announced a series of quantum and AI moves, including new Nighthawk processors, a Chicago Quantum System Two deployment, multiple co-design platforms with partners such as NVIDIA, AMD, Fermilab, and Oak Ridge, and an AI agent platform collaboration with Microsoft. These projects point to IBM leaning heavily into capital-intensive, research-heavy quantum and enterprise AI infra",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "International Business Machines recently announced a series of quantum and AI moves, including new Nighthawk processors, a Chicago Quantum System Two deployment, multiple co-design platforms with partners such as NVIDIA, AMD, Fermilab, and Oak Ridge, and an AI agent platform collaboration with Microsoft. These projects point to IBM leaning heavily into capital-intensive, research-heavy quantum and enterprise AI infra",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 8
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
       "tag": "題材",
       "title": "Dow Jones Futures: AMD, Nvidia, Micron Lead AI Trade Lower With Nvidia Earnings On Deck",
       "summary": "Dow Jones Futures: AMD, Nvidia stock and Micron led the AI trade lower Monday. Nvidia earnings are due after the close Tuesday.",
@@ -18,11 +86,11 @@
       "ts": "2026-11-16T23:15:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.120356155971761,
+      "movePct": -5.576152492229336,
       "relatedTickers": [
+        "AMD",
         "NVDA",
-        "MU",
-        "AMD"
+        "MU"
       ],
       "eventType": "",
       "score": 31.5,
@@ -38,7 +106,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "AAOI",
@@ -280,7 +348,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -545,38 +613,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美國採取措施限制對 Nvidia 先進人工智慧晶片的遠端訪問",
-      "summary": "",
-      "originalTitle": "US Moves to Curb Remote Access to Nvidia’s Advanced AI Chips",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3diZGZDaW14MTdtajJNSTFnMXF3MWtpODZRZDN3UVVRZXBwQllnQXFRRUFYbTAzQmJkLW1qTDAzZDhyYW54UjdBVjFrZVRzV3JiTVRTdmlybkVtRnZVSWlMTnFvYVp3dkFGeWhUVFdrUE1Na3E0WTVuekRuSm5jN1A2aDBnb1NjYXRhYmJfdjlBQWY1X093Q1hHTDM4ZzNhdlYwNVRn?oc=5",
-      "ts": "2026-11-16T22:17:40+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "題材",
@@ -683,7 +719,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "Arm Holdings (ARM) Stock Dropped, So What Is Driving Attention Now?",
-      "summary": "Arm Holdings (NasdaqGS:ARM) is back in focus after its latest earnings update, as strong top-line figures coincided with a sharp drop in quarterly profit, giving investors fresh numbers to reassess a richly valued chip designer. Recent trading tells a mixed story for Arm Holdings. The share price fell 4.63% over the last session and is down 16.36% over 30 days and 24.79% over 90 days. However, the year to date share",
+      "summary": "",
       "originalTitle": "Arm Holdings (ARM) Stock Dropped, So What Is Driving Attention Now?",
       "originalSummary": "Arm Holdings (NasdaqGS:ARM) is back in focus after its latest earnings update, as strong top-line figures coincided with a sharp drop in quarterly profit, giving investors fresh numbers to reassess a richly valued chip designer. Recent trading tells a mixed story for Arm Holdings. The share price fell 4.63% over the last session and is down 16.36% over 30 days and 24.79% over 90 days. However, the year to date share price return of 66.07% and 3 year total shareholder return of 224.69%...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-stock-dropped-221118439.html",
@@ -696,10 +732,10 @@
       ],
       "eventType": "新題材",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "Arm Holdings (NasdaqGS:ARM) is back in focus after its latest earnings update, as strong top-line figures coincided with a sharp drop in quarterly profit, giving investors fresh numbers to reassess a richly valued chip designer. Recent trading tells a mixed story for Arm Holdings. The share price fell 4.63% over the last session and is down 16.36% over 30 days and 24.79% over 90 days. However, the year to date share",
+        "event": "Arm Holdings (NasdaqGS:ARM) is back in focus after its latest earnings update, as strong top-line figures coincided with a sharp drop in quarterly profit, giving investors fresh numbers to reassess a richly valued chip designer. Recent trading tells a mixed story for Arm Holdings. The share price fell 4.63% over the last session and is down 16.36% over 30 days and 24.79% over 90 days. However, the year to date share price return of 66.07% and 3 year total shareholder return of 224.69%...",
         "numbers": [
           "4.63%",
           "16.36%",
@@ -782,8 +818,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSEM",
@@ -2365,7 +2401,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "RKLB",
@@ -2694,38 +2730,6 @@
       "score": 18.0,
       "featured": false,
       "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "POET",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "POET Technologies | 6-K: Report of foreign private issuer (related to financial reporting)",
-      "summary": "",
-      "originalTitle": "POET Technologies | 6-K: Report of foreign private issuer (related to financial reporting)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUWRLMTNYcDBJeFhyQ2Y2ZzhQeUVGTm1lbnpsNlRSRks1bzlJSXl2dEZjRjVfdF93aFFkVEQ1NG9FWGNTSFczS01fdkFrdTFQQUpvRDAzN05IcW83dVcxcnJsQ2FUdUh4bXFyR1hKNFZsSjJTc1VraV9BRy1YV3pId2RKekQ4NlBzTm9lWXo1SUh2X3BkSXI3MS1Fb1pxbjVPT3FWTUZhOTlpN0kzZGc?oc=5",
-      "ts": "2026-11-16T19:40:09+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -9.161793372319682,
-      "relatedTickers": [
-        "POET"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
