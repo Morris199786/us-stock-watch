@@ -1,43 +1,59 @@
 {
-  "updatedAt": "2026-11-16 14:14 台灣時間",
+  "updatedAt": "2026-11-16 14:23 台灣時間",
   "historyUpdatedDate": "2026-11-16",
   "historyLastAttemptAt": "2026-11-15T16:05:50.562481+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-16",
-  "top10Count": 5,
+  "top10Count": 6,
   "items": [
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
-      "title": "CLSA downgrades Nvidia stock rating on leadership concerns, cuts price target to $255",
-      "summary": "",
+      "title": "Mizuho 下修 NVDA 目標價至 $255，維持 Outperform",
+      "summary": "Nvidia (NVDA) stock fell over 7% in Thursday's pre-market session. The decline came after a 2.87% gain during regular hours, as reports about CEO Jensen Huang's possible removal rattled investors. The leadership fiasco comes just days before Nvidia's Q3 FY27 earnings on November 17 . The board is reportedly weighing Huang's future after allegations involving the CEO . Meanwhile, Wall Street remains divided on the sto",
       "originalTitle": "CLSA downgrades Nvidia stock rating on leadership concerns, cuts price target to $255",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcjNmX1dnRFlRZlFodi10M3pCdVRDeG9mUEtFVGNJQzgzeWFDWkp2RGZHUVpON1NtaFlJYl9lUk05LTQxS3ZXTzV3TFFHT3lTbGRMRDFzY1kwRF9LS2QxNVI2aUcyUVhaNGlWZTVEeng2NHdLWUFnb2dacjZza1IwcERVSXFmNWNMMnNRWU1JUmNDSkZISEhwcmFpVVd4aU11YWN5X0hXcURuN1l0czducFlwYWxkQTJBMjRUM19Hb2dVVjkzZFc5aEYzQWZncVBQbVl0V2tBUGg2QUNf?oc=5",
+      "originalSummary": "Nvidia (NVDA) stock fell over 7% in Thursday's pre-market session. The decline came after a 2.87% gain during regular hours, as reports about CEO Jensen Huang's possible removal rattled investors. The leadership fiasco comes just days before Nvidia's Q3 FY27 earnings on November 17 . The board is reportedly weighing Huang's future after allegations involving the CEO . Meanwhile, Wall Street remains divided on the stock, with several top analysts cutting their ratings. However, Mizuho maintained its Outperform rating, citing Nvidia's strong AI position despite growing leadership concerns. Overall, analysts see an average price target of $283.83, implying 63% upside.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-price-forecast-top-204543429.html",
       "ts": "2026-11-16T06:06:15+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
+      "analystDetails": [
+        {
+          "broker": "Mizuho",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "重申",
+          "newTarget": "$255",
+          "oldTarget": "",
+          "reason": "Nvidia's strong AI position despite growing leadership concerns.",
+          "reasonConfidence": "high",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
       "eventType": "",
-      "score": 202.5,
+      "score": 217.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Mizuho｜動作：重申｜評等：Outperform｜目標價：$255｜調整原因：Nvidia's strong AI position despite growing leadership concerns.",
+        "numbers": [
+          "$255"
+        ],
+        "why": "調整原因：Nvidia's strong AI position despite growing leadership concerns.",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：Nvidia's strong AI position despite growing leadership concerns.",
+        "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 1,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -72,14 +88,51 @@
       "top10Rank": null
     },
     {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "ASTS, RKLB, LUNR And FLY Fall After ULA Rocket Failure Strands 40 Amazon Satellites — Why One Analyst Wants Musk To Free Up Falcon 9 Flights",
+      "summary": "Several space stocks fell overnight late Sunday after a ULA launch failure cost Amazon 40 satellites. Amazon already uses SpaceX to launch satellites for its Starlink rival. Falcon 9 carried 72 Amazon satellites in 2025, and Amazon booked 10 more flights. Farrar said more than 100 flights could open up in 2027 if Starlink launches moved to Starship early that year and Falcon 9 kept its current pace.",
+      "originalTitle": "ASTS, RKLB, LUNR And FLY Fall After ULA Rocket Failure Strands 40 Amazon Satellites — Why One Analyst Wants Musk To Free Up Falcon 9 Flights",
+      "originalSummary": "Several space stocks fell overnight late Sunday after a ULA launch failure cost Amazon 40 satellites. Amazon already uses SpaceX to launch satellites for its Starlink rival. Falcon 9 carried 72 Amazon satellites in 2025, and Amazon booked 10 more flights. Farrar said more than 100 flights could open up in 2027 if Starlink launches moved to Starship early that year and Falcon 9 kept its current pace.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/asts-rklb-lunr-fly-fall-055834650.html",
+      "ts": "2026-11-16T05:58:34+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.29165420281183074,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "AMZN",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 34.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Several space stocks fell overnight late Sunday after a ULA launch failure cost Amazon 40 satellites. Amazon already uses SpaceX to launch satellites for its Starlink rival. Falcon 9 carried 72 Amazon satellites in 2025, and Amazon booked 10 more flights. Farrar said more than 100 flights could open up in 2027 if Starlink launches moved to Starship early that year and Falcon 9 kept its current pace.",
+        "numbers": [],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "Farrar said more than 100 flights could open up in 2027 if Starlink launches moved to Starship early that year and Falcon 9 kept its current pace.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Goldman Sachs 調整 NVDA 目標價至 $220",
-      "summary": "",
+      "summary": "Goldman Sachs analysts are pointing to Apple’s ( AAPL ) experience more than a decade ago as a useful frame for how investors may value Nvidia ( NVDA ) amid questions around leadership continuity and long-term momentum.",
       "originalTitle": "[Major Banks] Goldman Sachs Cuts NVIDIA (NVDA.US) Price Target to $220; Management Transition Seen as Limited Negative",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRkFwWmF5QnE3UkFRb2JfWHRIZjRNT3VxWmlqdE5VenVhRDZrOE9aMW5JbEtQNmlvWEZkaGVBNWlLZ2Y4dmZhc2l1a211eEVXWE54b1lLLTMteHFQeHdtMk1Hckd4MGlfRzdzTHJCanl4RHA3N2hocDJnSkFpZngxSXBORmxVZllRd21PdUU5X042YzRELU1mbHFCVmY3U2U1MHAwa1pn?oc=5",
+      "originalSummary": "Goldman Sachs analysts are pointing to Apple’s ( AAPL ) experience more than a decade ago as a useful frame for how investors may value Nvidia ( NVDA ) amid questions around leadership continuity and long-term momentum.",
+      "url": "https://seekingalpha.com/news/4671691-goldman-sachs-sees-favorable-risk-reward-in-nvidia-citing-apple-leadership-parallel",
       "ts": "2026-11-16T05:56:15+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -97,7 +150,7 @@
           "targetCompany": "NVIDIA"
         }
       ],
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
@@ -117,7 +170,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -383,7 +437,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -422,13 +476,13 @@
       "title": "The Week Ahead: Nvidia Earnings, Anthropic IPO Test AI Trade",
       "summary": "",
       "originalTitle": "The Week Ahead: Nvidia Earnings, Anthropic IPO Test AI Trade",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDFhNEp6VXhxcGFxclBtSGdSSFFDUzdrZVRXYUZmTEpsSVQ2WmxZcHU2ekpTS01HeEFZYjFzM0w3S05oTkpkdE5yVmhaT1lMaHozV2NDdHM4c0F0R1l5VWZobHgtcXd5Y01VRldVWldKcTVaQkxmcVozS24zaFA1M1Y3bzJleEIyM3ZZa0psRW9lRFFsOUFCSGhyeWpvZEg5cnFqZVlWRDlRTWJ2MVE?oc=5",
+      "originalSummary": "Nikkei 225 and Hong Kong's Hang Seng index were set to open higher Monday, with focus on key economic data out of Japan and mainland China. China is expected to release data for retail sales, industrial output and urban unemployment for October later in the day, while Japan will release economic growth data. Japan is expected to see GDP growth slow sharply to an annualized 0.3% for the third quarter, compared to 1.4% in the quarter before, according to Reuters estimates. Japan's Nikkei 225 futures contract in Chicago was at 61,320, compared with the index's previous close of 61,142.35. Futures for Hong Kong's Hang Seng index last traded at 23,722, compared with the index's last close of 23,637.6. Australia's S & P/ASX 200 was marginally lower in early trading. — Lim Hui Jie",
+      "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
       "ts": "2026-11-16T05:11:23+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
@@ -437,16 +491,23 @@
       "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Nikkei 225 and Hong Kong's Hang Seng index were set to open higher Monday, with focus on key economic data out of Japan and mainland China. China is expected to release data for retail sales, industrial output and urban unemployment for October later in the day, while Japan will release economic growth data. Japan is expected to see GDP growth slow sharply to an annualized 0.3% for the third quarter, compared to 1.4% in the quarter before, according to Reuters estimates. Japan's Nikkei 225 futures contract in Chica",
+        "numbers": [
+          "0.3%",
+          "1.4%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Australia's S & P/ASX 200 was marginally lower in early trading.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "NVDA",
@@ -554,7 +615,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3,
+      "top10Rank": 4,
       "detailSource": "article_or_same_event"
     },
     {
@@ -883,6 +944,36 @@
       ],
       "eventType": "",
       "score": 15.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "The Next Wave of Food Inflation Is Coming",
+      "summary": "",
+      "originalTitle": "The Next Wave of Food Inflation Is Coming",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOGtfSTVyazhhZjA4UEJWRVFWTlJWV0dUREtpa3pndDRsN0cyQkFiQjBpVFJ2UHFtbXA5MTMwZTFCQUhENld5QUpiV1c1ZmM5My1HNWFvYk1oOUM4ZmNXZFZCVkJRejNkbmRJTS1UbDJwV1pJd3VOd2k4d0VPNW1Rd1RTTFV4ZEluN1dsYVg4b3NjQQ?oc=5",
+      "ts": "2026-11-16T04:01:22+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -1374,7 +1465,7 @@
       ],
       "eventType": "",
       "score": 7.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2057,6 +2148,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "$超微半導體 (AMD.US)$",
+      "summary": "",
+      "originalTitle": "$Advanced Micro Devices (AMD.US)$",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOYXppUGFETmZrdTdwT3UxOTRxQUUtWGNpc3FXRUJKeWRNLUptaEFqTDFuMHBXNlVVeTNTYW1rMnhTcDdEYWdxcXJIaGxFc2s1UnY5TlFXeUlYamZCRko5MG41ZWNVUTAwdTdxRG5oem5SQ3dFeDNqT1NxNG1RZldsU295cVRZdHE2YVJ1VWI5aU1KRGN3d3JEX0dRUGRrSXo5aG5fTFVwQy13ZF9yekpYdkFPOTBPMHVaRmFiS21SSEJaNEYxUlg1M1NZV1JEVHNYdWhsWl80RDVhVy1OQk5SQjdQWmdVbENGTTdwSjExWkhIRFB5SkNBelZEalZtSzdDTTFFNEM2S1FEX2VzV3hwX3pwRklVdF81ejVXcEhZLXZBcGE2MVZLNTBWOXc5YWh6MlVOdnNTbEF6MTNNNld1NW1XQmpKQTlGeXJ5RWtFMkhpOXROZXdJWjNlRTg?oc=5",
+      "ts": "2026-11-16T01:57:35+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": -8.75448487954895,
+      "relatedTickers": [
+        "AMD"
+      ],
+      "eventType": "",
+      "score": 9.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AEHR",
       "group": "半導體設備／測試",
       "tag": "題材",
@@ -2611,103 +2734,6 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "道瓊斯期貨上漲；當黃仁勳考慮回歸時，英偉達將如何回應？",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures Rise; How Will Nvidia React As Jensen Huang Mulls Return?",
-      "originalSummary": "Nvidia earnings are due as Jensen Huang reportedly mulls a return. The Anthropic IPO is ahead.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-earnings-anthropic-ipo-spacex-starship-flight-15/?src=A00220&yptr=yahoo",
-      "ts": "2026-11-16T00:26:08+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.009747878933754,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SK Hynix",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "Samsung Electronics, SK Hynix Open Mixed as Investors Await Nvidia Results, Anthropic IPO",
-      "summary": "",
-      "originalTitle": "Samsung Electronics, SK Hynix Open Mixed as Investors Await Nvidia Results, Anthropic IPO",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DUFBlYnUwakFsOVVOOVpheDVmeW5pZHN2cV8zS3Q5Qm5DR3FtSEFmZHd0ZmE1Ty1Hc215QWZydUhTRHc5TEhmdFJmUWwwTzBVamhWT0FqMDBNTmFRdkUzSVVwbDl6VWdUaTVhSlBrZnd0NDVyWlE?oc=5",
-      "ts": "2026-11-16T00:26:00+00:00",
-      "sourceType": "active_search",
-      "movePct": -6.743421052631582,
-      "relatedTickers": [
-        "SK HYNIX",
-        "NVDA"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 27.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "$超微半導體 (AMD.US)$",
-      "summary": "",
-      "originalTitle": "$Advanced Micro Devices (AMD.US)$",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWEwyaWZ2X2xRdFB4aXJTVERNcncyckpSYVdIMmJobkR3T1hEN2Q4MEJYUC1xR21hejBnNHh4bmpYdmllZnQxTWJpcEdvekpKbUJOXzRHMmxWZ3JBVjhtWjkyUHZnb0Z3d2otTjA0VDE2NUJYcTNoRy05SVp4aTRWdTF3VktsakZDMFVCMTd5b0dUdzVvYkZaLVNxajNiZmpGM2dtNzlZQk9oUUhoM1c5SDgyZ01vYk9pYUE?oc=5",
-      "ts": "2026-11-16T00:22:00+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -8.75448487954895,
-      "relatedTickers": [
-        "AMD"
-      ],
-      "eventType": "",
-      "score": 9.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
