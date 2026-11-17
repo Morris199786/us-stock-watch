@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-18 07:29 台灣時間",
+  "updatedAt": "2026-11-18 07:39 台灣時間",
   "historyUpdatedDate": "2026-11-18",
   "historyLastAttemptAt": "2026-11-17T16:09:18.335932+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-17",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Dow Jones Futures Rise, Techs Jump As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+      "summary": "Nvidia earnings beat after the stock market broke below recent lows. Target earnings are on tap, with the Anthropic IPO set to price Wednesday night.",
+      "originalTitle": "Dow Jones Futures Rise, Techs Jump As Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+      "originalSummary": "Nvidia earnings beat after the stock market broke below recent lows. Target earnings are on tap, with the Anthropic IPO set to price Wednesday night.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-17T23:27:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.4355065966440197,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "AAOI",
       "group": "光通訊／網通",
@@ -112,6 +144,55 @@
       "top10Rank": null
     },
     {
+      "ticker": "CRWD",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利空",
+      "title": "Cantor Fitzgerald 調整 CRWD 目標價至 $275",
+      "summary": "Key TakeawaysCantor Fitzgerald raised its CrowdStrike price target to $275 from $250 on Nov. 16 and kept its Overweight rating.",
+      "originalTitle": "Cantor Fitzgerald Raises Its CrowdStrike Target to $275. Is It Still Too Low?",
+      "originalSummary": "Key TakeawaysCantor Fitzgerald raised its CrowdStrike price target to $275 from $250 on Nov. 16 and kept its Overweight rating.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cantor-fitzgerald-raises-crowdstrike-target-225511018.html",
+      "ts": "2026-11-17T22:55:11+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -1.626271224407505,
+      "analystDetails": [
+        {
+          "broker": "Cantor Fitzgerald",
+          "analyst": "",
+          "rating": "Overweight",
+          "action": "上修",
+          "newTarget": "$275",
+          "oldTarget": "$250",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRWD",
+          "targetCompany": "CrowdStrike"
+        }
+      ],
+      "relatedTickers": [
+        "CRWD"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：CrowdStrike（CRWD）｜券商：Cantor Fitzgerald｜動作：上修｜評等：Overweight｜目標價：$275（原 $250）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$250",
+          "$275"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
       "ticker": "ANET",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -191,7 +272,7 @@
       "eventType": "",
       "score": 202.5,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Broadcom（AVGO）｜券商：TD Cowen｜目標價：$425｜調整原因：來源未提供具體理由\n被評級公司：Broadcom（AVGO）｜券商：Cowen｜動作：下修｜目標價：$425（原 $475）｜調整原因：來源未提供具體理由",
         "numbers": [
@@ -303,8 +384,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "TSLA",
@@ -485,9 +566,9 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
-      "summary": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. \n\nDeirdre Bosa then sits down with Mustafa Suleyman, Microsoft's AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.\n\n'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the late",
+      "summary": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. \n\nDeirdre Bosa then sits down with Mustafa Suleyman, Microsoft's (MSFT) AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.\n\n'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how t",
       "originalTitle": "Nvidia with a positive Q3 despite SEC probing Nvidia amid Huang Scandal",
-      "originalSummary": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. \n\nDeirdre Bosa then sits down with Mustafa Suleyman, Microsoft's AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.\n\n'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries, and th",
+      "originalSummary": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. \n\nDeirdre Bosa then sits down with Mustafa Suleyman, Microsoft's (MSFT) AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.\n\n'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the latest developments in AI and technology are reshaping companies, industries,",
       "url": "https://finance.yahoo.com/video/nvidia-with-a-positive-q3-despite-sec-probing-nvidia-amid-huang-scandal-223224298.html",
       "ts": "2026-11-17T22:32:24+00:00",
       "sourceType": "ticker_feed",
@@ -502,10 +583,10 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. Deirdre Bosa then sits down with Mustafa Suleyman, Microsoft's AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview. 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how the late",
+        "event": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. Deirdre Bosa then sits down with Mustafa Suleyman, Microsoft's (MSFT) AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview. 'Deirdre Bosa Live' airs every day at 4 p.m. Tune in daily to hear how t",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. Deirdre Bosa then sits down with Mustafa Suleyman, Microsoft's AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.",
+        "stance": "Deirdre Bosa discusses Jensen Huang's statement that he would be willing to return, the SEC's post-scandal probe into Nvidia (NVDA), and Nvidia's positive earnings report. Deirdre Bosa then sits down with Mustafa Suleyman, Microsoft's (MSFT) AI chief, to discuss Microsoft's 6 new AI models, the AI competition, and the 'handoverism' worldview.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -513,7 +594,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MSFT",
@@ -587,6 +668,36 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "Nasdaq volatility shock warns against buying too early",
+      "summary": "",
+      "originalTitle": "Nasdaq volatility shock warns against buying too early",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLWk3cjk5RjZsR1puX2RmZzM1S3UzM2YzeDVuazJyUFBLVWN0YWJtRmVvTXBpQW9QMzFlcGFiLU9tREpOczVxaEJWeFRBdWpmRGI1dzhuUlFicXZzQk5DQm5HWlMzaGZaVlRlZVhSZ2tHWVJoTGk0dXZGbDd0dnF4ckJ0QlpHMnhGRERxaUJ1SHl2UE1LMXQ5QjRtaGtBUHU5eDRBaA?oc=5",
+      "ts": "2026-11-17T22:28:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "Nvidia shuts door on Jensen Huang’s return as stock pops on earnings",
       "summary": "",
       "originalTitle": "Nvidia shuts door on Jensen Huang’s return as stock pops on earnings",
@@ -648,6 +759,37 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "6 major outages in 6 days: From Outlook to the NSA, what we know so far",
+      "summary": "",
+      "originalTitle": "6 major outages in 6 days: From Outlook to the NSA, what we know so far",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRU53VUdVa1k2VUkwZ3p5WEk2TWdzMW1RdDZxclRIalFfTGpmTFZvTnQ3WjQwcU1EcGI5V3Ixdmo3VWlNTDZBUlNSdUo2eWxpaXR5Vm5GREh0MzQxRWNuTU9BR004THYxVDFTejB1bWZiaXFsc2ZBU0M0dGVWNDA2dXloMEpFRDJwRWhLZGdPS2M5SkNBQ25yYlRn?oc=5",
+      "ts": "2026-11-17T22:22:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CSCO",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -666,7 +808,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Cisco Systems is working through a reset in expectations, with fair value in current models moving from US$137.25 to US$129.96. Recent research links this shift to a mixed but constructive analyst narrative, where trimmed price targets sit alongside comments about solid execution, resilient margins, and sizeable AI and networking opportunities. As you read on, you will see how these evolving views on Cisco Systems ar",
@@ -684,14 +826,14 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "ANET",
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "Arista Networks And 2 Other High Growth Stocks To Watch",
-      "summary": "The Fed is openly wrestling with what artificial intelligence might do to productivity, jobs and inflation, which puts fast growing, financially solid companies in the spotlight. If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore. This article walks through three such high potential stocks from our screen so you can decid",
+      "summary": "",
       "originalTitle": "Arista Networks And 2 Other High Growth Stocks To Watch",
       "originalSummary": "The Fed is openly wrestling with what artificial intelligence might do to productivity, jobs and inflation, which puts fast growing, financially solid companies in the spotlight. If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore. This article walks through three such high potential stocks from our screen so you can decide which, if any, deserve a closer look. The three stocks highlighted here...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-2-other-high-220937929.html",
@@ -704,10 +846,10 @@
       ],
       "eventType": "",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "The Fed is openly wrestling with what artificial intelligence might do to productivity, jobs and inflation, which puts fast growing, financially solid companies in the spotlight. If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore. This article walks through three such high potential stocks from our screen so you can decid",
+        "event": "The Fed is openly wrestling with what artificial intelligence might do to productivity, jobs and inflation, which puts fast growing, financially solid companies in the spotlight. If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore. This article walks through three such high potential stocks from our screen so you can decide which, if any, deserve a closer look. The three stocks highlighted here...",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "If AI and automation reshape costs and demand, businesses that can grow earnings while keeping their balance sheets healthy become harder to ignore.",
@@ -932,7 +1074,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "NVDA",
@@ -968,7 +1110,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "SNDK",
@@ -1003,7 +1145,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -1505,7 +1647,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1916,7 +2058,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -1948,7 +2090,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "SPCX",
@@ -2631,144 +2773,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSM",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "人工智慧需求的激增和先進晶片製造增強了台積電 (TSM) 的成長前景",
-      "summary": "",
-      "originalTitle": "Surging AI Demand and Advanced Chipmaking Strengthens Taiwan Semiconductor Manufacturing Company Limited (TSM) Growth Outlook",
-      "originalSummary": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Taiwan Semiconductor Manufacturing Company Limited ranked 7th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong […]",
-      "url": "https://finance.yahoo.com/technology/ai/articles/surging-ai-demand-advanced-chipmaking-202155834.html",
-      "ts": "2026-11-17T20:21:55+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.684562859820595,
-      "relatedTickers": [
-        "TSM"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Taiwan Semiconductor Manufacturing Company Limited ranked 7th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong […]",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Broadcom Inc. (AVGO) 的人工智慧業務正在推動其下一階段的長期成長",
-      "summary": "",
-      "originalTitle": "Broadcom Inc. (AVGO)’s AI Business Is Fueling Its Next Phase of Long-Term Growth",
-      "originalSummary": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Broadcom Inc. ranked 8th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth potential […]",
-      "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-ai-business-202141475.html",
-      "ts": "2026-11-17T20:21:41+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.4595080983803363,
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Broadcom Inc. ranked 8th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth potential […]",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Meta Platforms, Inc. (META)：強勁的廣告成長支持其長期投資案例",
-      "summary": "",
-      "originalTitle": "Meta Platforms, Inc. (META): Strong Advertising Growth Supports Its Long-Term Investment Case",
-      "originalSummary": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Meta Platforms, Inc. ranked 9th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth […]",
-      "url": "https://finance.yahoo.com/technology/articles/meta-platforms-inc-meta-strong-202131281.html",
-      "ts": "2026-11-17T20:21:31+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.203684487795531,
-      "relatedTickers": [
-        "META"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Meta Platforms, Inc. ranked 9th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth […]",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CSCO",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "為什麼思科系統公司 (CSCO) 值得在您的長期技術觀察名單中佔有一席之地",
-      "summary": "",
-      "originalTitle": "Why Cisco Systems, Inc. (CSCO) Deserves a Place on Your Long-Term Technology Watch List",
-      "originalSummary": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Cisco Systems, Inc. ranked 10th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth […]",
-      "url": "https://finance.yahoo.com/technology/articles/why-cisco-systems-inc-csco-202117829.html",
-      "ts": "2026-11-17T20:21:17+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.6242065171392364,
-      "relatedTickers": [
-        "CSCO"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Cisco Systems, Inc. ranked 10th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth […]",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
       "top10": false,
