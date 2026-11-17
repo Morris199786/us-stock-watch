@@ -1,11 +1,93 @@
 {
-  "updatedAt": "2026-11-18 02:42 台灣時間",
+  "updatedAt": "2026-11-18 02:53 台灣時間",
   "historyUpdatedDate": "2026-11-18",
   "historyLastAttemptAt": "2026-11-17T16:09:18.335932+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-17",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "HSBC 升評 CSCO 至 Buy，目標價上修至 $133（原 $120）",
+      "summary": "Investing.com -- In a note on Tuesday, HSBC upgraded Cisco Systems (NASDAQ: CSCO) to Buy from Hold and raised its price target to $133 from $120, citing strong fiscal first-quarter results, solid growth and an attractive valuation.",
+      "originalTitle": "HSBC Upgrades Cisco Stock (CSCO) to Buy, Cites Attractive Valuation and Business Momentum",
+      "originalSummary": "Investing.com -- In a note on Tuesday, HSBC upgraded Cisco Systems (NASDAQ: CSCO) to Buy from Hold and raised its price target to $133 from $120, citing strong fiscal first-quarter results, solid growth and an attractive valuation.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-lifts-cisco-buy-strong-154446197.html",
+      "ts": "2026-11-17T18:36:44+00:00",
+      "sourceType": "tipranks_broker",
+      "analystPriority": true,
+      "detailSource": "ticker_feed_match",
+      "analystDetails": [
+        {
+          "broker": "HSBC",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "上修",
+          "newTarget": "$133",
+          "oldTarget": "$120",
+          "reason": "strong fiscal first-quarter results, solid growth and an attractive valuation.",
+          "reasonConfidence": "high",
+          "targetTicker": "CSCO",
+          "targetCompany": "Cisco"
+        }
+      ],
+      "relatedTickers": [
+        "CSCO"
+      ],
+      "eventType": "新題材",
+      "score": 265.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Cisco（CSCO）｜券商：HSBC｜動作：上修｜評等：Buy｜目標價：$133（原 $120）｜調整原因：strong fiscal first-quarter results, solid growth and an attractive valuation.",
+        "numbers": [
+          "$120",
+          "$133"
+        ],
+        "why": "調整原因：strong fiscal first-quarter results, solid growth and an attractive valuation.",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：strong fiscal first-quarter results, solid growth and an attractive valuation.",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
+    },
+    {
+      "ticker": "CRM",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "Stock Market Today: Dow Drops As Salesforce Dives; Nvidia Falls As Jensen Huang Says This (Live Coverage)",
+      "summary": "The Dow Jones index drops on the stock market today despite a retail sales surprise. Nvidia stock falls as a Jensen Huang date is set.",
+      "originalTitle": "Stock Market Today: Dow Drops As Salesforce Dives; Nvidia Falls As Jensen Huang Says This (Live Coverage)",
+      "originalSummary": "The Dow Jones index drops on the stock market today despite a retail sales surprise. Nvidia stock falls as a Jensen Huang date is set.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-retail-sales-nvidia-earnings-nvda-stock/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-17T18:30:30+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -8.003351487222455,
+      "relatedTickers": [
+        "CRM",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 27.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "ASML",
       "group": "半導體設備／測試",
@@ -18,7 +100,7 @@
       "ts": "2026-11-17T18:25:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.833410933440439,
+      "movePct": -3.1269881325149185,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -58,7 +140,7 @@
       "ts": "2026-11-17T18:20:51+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.43377063055438647,
+      "movePct": 0.13224714346169453,
       "relatedTickers": [
         "CSCO"
       ],
@@ -90,7 +172,7 @@
       "ts": "2026-11-17T18:20:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.7002136244956159,
+      "movePct": -1.2817469736529752,
       "relatedTickers": [
         "QCOM",
         "SK HYNIX"
@@ -141,6 +223,40 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
+      "summary": "",
+      "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORkZHWDR3ZUhncjV1akxHdlZHdTJwQkVTN19NODZGd3liaHlXZ2J1ejJVS1V5TGN6ejF3NElLUjVmR2FJa082Z2U4U3BoZnpuZUJ0czZRU0tfWHdMMmtwQ1luXzE4dUI5UzR0ckMzZTVrd2Eyc1RCX2N6cWF2TkgxVEQzajJtanhYYXhNODBpNXNrX25wX1hjeThhVEdodng5Wk9ydURmQ1k5aFh2ako0X005Y1NkcENsRXVwdy1rX29CWjVlOHp3RGV4NE9iRHpraDgxUk91RlZVLUNfcm1xbGNfdkVqSGRFVEUxZ1dqeDRqTmdVeEI3aXA1Zw?oc=5",
+      "ts": "2026-11-17T18:17:36+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "MSFT",
+        "CRM"
+      ],
+      "eventType": "跨公司事件",
+      "score": 32.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
       "top10": true,
       "top10Rank": 10
     },
@@ -156,7 +272,7 @@
       "ts": "2026-11-17T18:13:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1323025126254724,
+      "movePct": -2.5625038967516556,
       "relatedTickers": [
         "PLTR"
       ],
@@ -182,40 +298,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
-      "summary": "",
-      "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORkZHWDR3ZUhncjV1akxHdlZHdTJwQkVTN19NODZGd3liaHlXZ2J1ejJVS1V5TGN6ejF3NElLUjVmR2FJa082Z2U4U3BoZnpuZUJ0czZRU0tfWHdMMmtwQ1luXzE4dUI5UzR0ckMzZTVrd2Eyc1RCX2N6cWF2TkgxVEQzajJtanhYYXhNODBpNXNrX25wX1hjeThhVEdodng5Wk9ydURmQ1k5aFh2ako0X005Y1NkcENsRXVwdy1rX29CWjVlOHp3RGV4NE9iRHpraDgxUk91RlZVLUNfcm1xbGNfdkVqSGRFVEUxZ1dqeDRqTmdVeEI3aXA1Zw?oc=5",
-      "ts": "2026-11-17T18:13:34+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "MSFT",
-        "CRM"
-      ],
-      "eventType": "跨公司事件",
-      "score": 32.25,
-      "featured": true,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 9
     },
     {
       "ticker": "CRM",
@@ -262,7 +344,7 @@
       "ts": "2026-11-17T18:10:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.6467692426494827,
+      "movePct": -2.735574045831002,
       "relatedTickers": [
         "MSFT"
       ],
@@ -296,7 +378,7 @@
       "ts": "2026-11-17T18:08:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.16960831080722327,
+      "movePct": -0.736736100068891,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -333,7 +415,7 @@
       "ts": "2026-11-17T18:07:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.9520966802562443,
+      "movePct": 2.4723354688410026,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -369,42 +451,31 @@
       "group": "CSP",
       "tag": "題材",
       "title": "SpaceX Extends Its Rocket Lead. Blue Origin Isn’t Catching Up.",
-      "summary": "Space Exploration Technologies ( SPCX +2.50% ) , better known as SpaceX, dominates the headlines. Amazon ( AMZN -0.27% ) founder Jeff Bezos ' Blue Origin is chasing its shadow. But a third launch provider just quietly demonstrated something neither of them has managed for a rocket that hasn't even flown yet: genuine, documented pricing power. Rocket Lab ( RKLB -3.55% ) announced a record quarter of Neutron launch con",
+      "summary": "Starship’s historic catch and Vulcan’s failed Amazon mission highlight SpaceX’s advantage—and the shortage of reliable launch alternatives.",
       "originalTitle": "SpaceX Extends Its Rocket Lead. Blue Origin Isn’t Catching Up.",
-      "originalSummary": "Space Exploration Technologies ( SPCX +2.50% ) , better known as SpaceX, dominates the headlines. Amazon ( AMZN -0.27% ) founder Jeff Bezos ' Blue Origin is chasing its shadow. But a third launch provider just quietly demonstrated something neither of them has managed for a rocket that hasn't even flown yet: genuine, documented pricing power. Rocket Lab ( RKLB -3.55% ) announced a record quarter of Neutron launch contracts -- eight missions across five constellation operators totaling more than $515 million, including several missions sold at an elevated base price of $70 million per launch, up from $55 million. That price increase arrived before Neutron's first flight. And it was driven entirely by demand. When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 820 %* — a market-crushing outperformance compared to 207 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 17, 2026 .",
-      "url": "https://www.fool.com/investing/2026/11/16/not-spacex-not-blue-origin-the-space-stock-that-just-raised-its-launch-price-to-70-million-and-still-sold-out-rklb/",
+      "originalSummary": "",
+      "url": "https://www.barrons.com/articles/spacex-extends-rocket-lead-blue-origin-d9e88ca1?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-11-17T18:07:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.24636275460717671,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "movePct": -0.4849660523763344,
+      "hasArticleBody": false,
       "relatedTickers": [
         "AMZN",
-        "SPCX",
-        "RKLB"
+        "SPCX"
       ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
+      "eventType": "",
+      "score": 12.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "Space Exploration Technologies ( SPCX +2.50% ) , better known as SpaceX, dominates the headlines. Amazon ( AMZN -0.27% ) founder Jeff Bezos ' Blue Origin is chasing its shadow. But a third launch provider just quietly demonstrated something neither of them has managed for a rocket that hasn't even flown yet: genuine, documented pricing power. Rocket Lab ( RKLB -3.55% ) announced a record quarter of Neutron launch con",
-        "numbers": [
-          "$515 million",
-          "$70 million",
-          "$55 million",
-          "2.50%"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Space Exploration Technologies ( SPCX +2.50% ) , better known as SpaceX, dominates the headlines. Amazon ( AMZN -0.27% ) founder Jeff Bezos ' Blue Origin is chasing its shadow.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -454,7 +525,7 @@
       "ts": "2026-11-17T18:02:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6925596630790953,
+      "movePct": -0.9639681796911659,
       "relatedTickers": [
         "DELL"
       ],
@@ -491,7 +562,7 @@
       "ts": "2026-11-17T18:01:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6978711405611238,
+      "movePct": -0.7965599887212904,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -525,7 +596,7 @@
       "ts": "2026-11-17T17:59:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.7623910216270975,
+      "movePct": -3.014113000337182,
       "relatedTickers": [
         "APP"
       ],
@@ -557,7 +628,7 @@
       "ts": "2026-11-17T17:57:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1971722059173415,
+      "movePct": -2.953716189418576,
       "relatedTickers": [
         "AMD"
       ],
@@ -593,7 +664,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -674,20 +745,20 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Good News For Palantir Stock Investors",
-      "summary": "Palantir Keeps Its $440 Million NHS Contract. British Rivals Will Get Their Shot in 2029",
+      "summary": "",
       "originalTitle": "Good News For Palantir Stock Investors",
       "originalSummary": "Palantir Keeps Its $440 Million NHS Contract. British Rivals Will Get Their Shot in 2029",
       "url": "https://finance.yahoo.com/markets/stocks/articles/good-news-palantir-stock-investors-175414317.html",
       "ts": "2026-11-17T17:54:14+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1323025126254724,
+      "movePct": -2.5625038967516556,
       "relatedTickers": [
         "PLTR"
       ],
       "eventType": "",
       "score": 3.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -713,7 +784,7 @@
       "ts": "2026-11-17T17:50:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.4497410735252347,
+      "movePct": -2.3612364202642455,
       "relatedTickers": [
         "SNDK"
       ],
@@ -777,7 +848,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "MU",
@@ -791,7 +862,7 @@
       "ts": "2026-11-17T17:49:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.449166921643353,
+      "movePct": -3.049984701399122,
       "relatedTickers": [
         "MU",
         "SNDK",
@@ -825,7 +896,7 @@
       "ts": "2026-11-17T17:49:40+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.6925596630790953,
+      "movePct": -0.9639681796911659,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -853,7 +924,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "SNDK",
@@ -867,7 +938,7 @@
       "ts": "2026-11-17T17:49:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.4497410735252347,
+      "movePct": -2.3612364202642455,
       "relatedTickers": [
         "SNDK"
       ],
@@ -920,6 +991,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Dow Slides Ahead of Nvidia Earnings",
+      "summary": "",
+      "originalTitle": "Dow Slides Ahead of Nvidia Earnings",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOLWFVMlBnemRzMmd1Y3hHMzBtWFVDU3RmdTFpLVpUZUJ1aXdhZGVYNm5TclkwTlpQd1didkwyWXhDdHFQYUlwTDBDZ2hUeUx0dExHNjRvUlplUjlQNDItcXVmYmZ6eGJ5Tk9fTE12LWFuY3J1b1ZId2hEUVFSVDNuWlBRSENtZ29zTkRLZUhHWUFUS2VqcmE0MEc5Wk85TGlXblE?oc=5",
+      "ts": "2026-11-17T17:49:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
@@ -931,12 +1034,12 @@
       "ts": "2026-11-17T17:47:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.7954488202200154,
+      "movePct": -4.206902342765984,
       "relatedTickers": [
         "ORCL"
       ],
       "eventType": "",
-      "score": 6.0,
+      "score": 10.5,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -963,7 +1066,7 @@
       "ts": "2026-11-17T17:47:32+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6978711405611238,
+      "movePct": -0.7965599887212904,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -1000,7 +1103,7 @@
       "ts": "2026-11-17T17:46:19+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1323025126254724,
+      "movePct": -2.5625038967516556,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -1040,7 +1143,7 @@
       "ts": "2026-11-17T17:45:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.449166921643353,
+      "movePct": -3.049984701399122,
       "relatedTickers": [
         "MU"
       ],
@@ -1074,7 +1177,7 @@
       "ts": "2026-11-17T17:45:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -2.6467692426494827,
+      "movePct": -2.735574045831002,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -1104,7 +1207,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 2
     },
     {
       "ticker": "AVGO",
@@ -1118,7 +1221,7 @@
       "ts": "2026-11-17T17:45:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8926214757048587,
+      "movePct": 1.2113677264547151,
       "relatedTickers": [
         "AVGO"
       ],
@@ -1190,7 +1293,7 @@
       "ts": "2026-11-17T17:35:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.0908516353294253,
+      "movePct": -0.1764365091905029,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1227,7 +1330,7 @@
       "ts": "2026-11-17T17:35:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.904761904761914,
+      "movePct": -8.003351487222455,
       "relatedTickers": [
         "CRM"
       ],
@@ -1295,7 +1398,7 @@
       "ts": "2026-11-17T17:31:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1971722059173415,
+      "movePct": -2.953716189418576,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -1318,6 +1421,45 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Michael Dell Says 90% of Kids Haven't Claimed Their $250 Investment Accounts — Jim Cramer Steps In to Help Reach Families",
+      "summary": "",
+      "originalTitle": "Michael Dell Says 90% of Kids Haven't Claimed Their $250 Investment Accounts — Jim Cramer Steps In to Help Reach Families",
+      "originalSummary": "CNBC host Jim Cramer pledged to help Dell Technologies Inc. CEO Michael Dell reach millions of American families after the billionaire revealed that more than 90% of children’s investment accounts funded through his family’s $6.25 billion donation remain unclaimed. Cramer...",
+      "url": "https://finance.yahoo.com/small-business/articles/michael-dell-says-90-kids-173006554.html",
+      "ts": "2026-11-17T17:30:06+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.9639681796911659,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "CNBC host Jim Cramer pledged to help Dell Technologies Inc. CEO Michael Dell reach millions of American families after the billionaire revealed that more than 90% of children’s investment accounts funded through his family’s $6.25 billion donation remain unclaimed. Cramer...",
+        "numbers": [
+          "$250",
+          "$6.25 billion",
+          "90%",
+          "6.25 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "CEO Michael Dell reach millions of American families after the billionaire revealed that more than 90% of children’s investment accounts funded through his family’s $6.25 billion donation remain unclaimed.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -1367,7 +1509,7 @@
       "ts": "2026-11-17T17:21:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5747034689740027,
+      "movePct": -0.7439217126163356,
       "hasArticleBody": false,
       "relatedTickers": [
         "META",
@@ -1402,7 +1544,7 @@
       "ts": "2026-11-17T17:20:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8926214757048587,
+      "movePct": 1.2113677264547151,
       "relatedTickers": [
         "AVGO",
         "NVDA"
@@ -1472,7 +1614,7 @@
       "ts": "2026-11-17T17:12:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.904761904761914,
+      "movePct": -8.003351487222455,
       "relatedTickers": [
         "CRM"
       ],
@@ -1511,7 +1653,7 @@
       "ts": "2026-11-17T17:08:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1323025126254724,
+      "movePct": -2.5625038967516556,
       "relatedTickers": [
         "PLTR"
       ],
@@ -1543,7 +1685,7 @@
       "ts": "2026-11-17T17:07:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.1971722059173415,
+      "movePct": -2.953716189418576,
       "relatedTickers": [
         "AMD"
       ],
@@ -1577,7 +1719,7 @@
       "ts": "2026-11-17T17:07:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5747034689740027,
+      "movePct": -0.7439217126163356,
       "relatedTickers": [
         "META"
       ],
@@ -1641,7 +1783,7 @@
       "ts": "2026-11-17T17:02:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6925596630790953,
+      "movePct": -0.9639681796911659,
       "relatedTickers": [
         "DELL"
       ],
@@ -1680,7 +1822,7 @@
       "ts": "2026-11-17T17:02:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.7623910216270975,
+      "movePct": -3.014113000337182,
       "relatedTickers": [
         "APP"
       ],
@@ -1731,7 +1873,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "CRM",
@@ -1777,7 +1919,7 @@
       "ts": "2026-11-17T17:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.4602280005123425,
+      "movePct": -1.8444985269629788,
       "relatedTickers": [
         "NVDA"
       ],
@@ -1811,7 +1953,7 @@
       "ts": "2026-11-17T16:59:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9933314809669413,
+      "movePct": -1.4761044734648565,
       "relatedTickers": [
         "KLAC"
       ],
@@ -1944,7 +2086,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "VST",
@@ -1977,7 +2119,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "AMZN",
@@ -2029,7 +2171,7 @@
       "ts": "2026-11-17T16:50:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8926214757048587,
+      "movePct": 1.2113677264547151,
       "relatedTickers": [
         "AVGO",
         "SPCX",
@@ -2068,7 +2210,7 @@
       "ts": "2026-11-17T16:50:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.8499215617918794,
+      "movePct": -3.5732961478124436,
       "relatedTickers": [
         "RKLB"
       ],
@@ -2100,7 +2242,7 @@
       "ts": "2026-11-17T16:49:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9933314809669413,
+      "movePct": -1.4761044734648565,
       "relatedTickers": [
         "KLAC"
       ],
@@ -2218,7 +2360,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MARKET",
@@ -2298,7 +2440,7 @@
       "ts": "2026-11-17T16:33:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7787258719244461,
+      "movePct": -0.24852953359291163,
       "relatedTickers": [
         "CRDO",
         "NVDA"
@@ -2320,7 +2462,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "AMZN",
@@ -2403,7 +2545,7 @@
       "ts": "2026-11-17T16:30:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.0908516353294253,
+      "movePct": -0.1764365091905029,
       "relatedTickers": [
         "TSLA",
         "SPCX"
@@ -2441,7 +2583,7 @@
       "ts": "2026-11-17T16:29:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.3574185635438893,
+      "movePct": -3.0361458821831833,
       "hasArticleBody": false,
       "relatedTickers": [
         "INTC",
@@ -2478,7 +2620,7 @@
       "ts": "2026-11-17T16:27:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.6467692426494827,
+      "movePct": -2.735574045831002,
       "relatedTickers": [
         "MSFT",
         "GOOGL",
@@ -2551,7 +2693,7 @@
       "ts": "2026-11-17T16:20:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.170153417015355,
+      "movePct": -4.490934449093443,
       "relatedTickers": [
         "ZETA"
       ],
@@ -2615,7 +2757,7 @@
       "ts": "2026-11-17T16:14:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.9520966802562443,
+      "movePct": 2.4723354688410026,
       "relatedTickers": [
         "SPCX"
       ],
@@ -2667,145 +2809,6 @@
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "Broadcom (AVGO) has been in focus after a sharp pickup in AI chip revenue and fresh projections for its custom accelerators and networking gear, helped by investor rotation following Nvidia’s leadership change. Over the past year, Broadcom has swung between enthusiasm for its AI story and concern about financing risk, with a 90 day share price return that declined 12.26% and a 1 year total shareholder return that slipped 1.98% even as long term holders still sit on a roughly 5.6x five year...",
         "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光再次下跌。對沖基金正在如何處理股票。",
-      "summary": "",
-      "originalTitle": "Micron Drops Again. What Hedge Funds Are Doing With the Stock.",
-      "originalSummary": "Micron stock was sold by AI hedge fund Situational Awareness in the third quarter. It could be a boon for the memory-chip company.",
-      "url": "https://www.barrons.com/articles/micron-stock-price-hedge-funds-8e142dd5?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-11-17T16:14:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.449166921643353,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "人工智慧支出可能是 Alphabet 股票的一大考驗（GOOGL）",
-      "summary": "",
-      "originalTitle": "AI Spending Could Be A Big Test For Alphabet Shares (GOOGL)",
-      "originalSummary": "Alphabet is pressing ahead with heavy AI infrastructure spending while committing about $10b to Anthropic’s non voting Class N shares through a private placement tied to its IPO, alongside rising capital needs for Google Cloud and TPU build outs. The same AI push that is lifting Google Cloud demand and attracting large external customers to Alphabet’s TPUs is also pressuring free cash flow and prompting some high profile investors and ETFs to rebalance away from the stock. Next, the focus...",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-spending-could-big-test-161218419.html",
-      "ts": "2026-11-17T16:12:18+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.5163541519808357,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "新題材",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Alphabet is pressing ahead with heavy AI infrastructure spending while committing about $10b to Anthropic’s non voting Class N shares through a private placement tied to its IPO, alongside rising capital needs for Google Cloud and TPU build outs. The same AI push that is lifting Google Cloud demand and attracting large external customers to Alphabet’s TPUs is also pressuring free cash flow and prompting some high profile investors and ETFs to rebalance away from the stock. Next, the focus...",
-        "numbers": [
-          "$10b"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The same AI push that is lifting Google Cloud demand and attracting large external customers to Alphabet’s TPUs is also pressuring free cash flow and prompting some high profile investors and ETFs to rebalance away from the stock.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CIEN",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "Will Ciena (CIEN) Beat Estimates Again in Its Next Earnings Report?",
-      "summary": "",
-      "originalTitle": "Will Ciena (CIEN) Beat Estimates Again in Its Next Earnings Report?",
-      "originalSummary": "Ciena (CIEN) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-cien-beat-estimates-again-161003404.html",
-      "ts": "2026-11-17T16:10:03+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.6326292902624662,
-      "relatedTickers": [
-        "CIEN"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "Ciena (CIEN) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Ciena (CIEN) has an impressive earnings surprise history and currently possesses the right combination of the two key ingredients for a likely beat in its next quarterly report.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Microsoft Corporation (MSFT) Rose on Strong Fiscal Year-End Results and Robust Outlook",
-      "summary": "",
-      "originalTitle": "Microsoft Corporation (MSFT) Rose on Strong Fiscal Year-End Results and Robust Outlook",
-      "originalSummary": "Jensen Investment Management, a US-based asset management company, released its third-quarter 2026 investor letter for “Jensen Quality Growth Equity Strategy”. The letter can be downloaded here. The Composite aims for long-term capital appreciation. In Q3 2026, the market shifted to a more measured environment after previous gains, with investor enthusiasm for AI winners diminishing alongside […]",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-corporation-msft-rose-strong-160830177.html",
-      "ts": "2026-11-17T16:08:30+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.9073920345952575,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "Jensen Investment Management, a US-based asset management company, released its third-quarter 2026 investor letter for “Jensen Quality Growth Equity Strategy”. The letter can be downloaded here. The Composite aims for long-term capital appreciation. In Q3 2026, the market shifted to a more measured environment after previous gains, with investor enthusiasm for AI winners diminishing alongside […]",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Jensen Investment Management, a US-based asset management company, released its third-quarter 2026 investor letter for “Jensen Quality Growth Equity Strategy”.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
