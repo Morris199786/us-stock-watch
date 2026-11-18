@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 22:34 台灣時間",
+  "updatedAt": "2026-11-18 22:40 台灣時間",
   "historyUpdatedDate": "2026-11-18",
   "historyLastAttemptAt": "2026-11-17T16:09:18.335932+00:00",
   "historyItemCount": 800,
@@ -18,7 +18,7 @@
       "ts": "2026-11-18T14:28:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9486684677730404,
+      "movePct": 0.62717097645697,
       "relatedTickers": [
         "NVDA"
       ],
@@ -69,44 +69,54 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AAOI",
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "英偉達業績提振記憶體需求前景，美光和閃迪股價上漲；應用光電公司在 5.5 億美元股權計畫中表現不佳",
-      "summary": "",
+      "summary": "Sandisk sank 3% to $951 while Micron slid 2%, as memory stocks lagged a rising NASDAQ 100 on AI supply chain jitters. Jensen Huang's resignation as NVIDIA's CEO is rattling memory suppliers tied to its accelerators, despite Evercore ISI's $2,500 Sandisk target. Micron's 4x forward P/E tempts value buyers, but may signal doubts that peak earnings in cyclical memory will last.",
       "originalTitle": "Micron and Sandisk Gain as Nvidia Results Lift Memory Demand Outlook; Applied Optoelectronics Slides on $550 Million Equity Program",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oMVZLZk5Mb3ZtSi1zZUEwYnR4aXZoR1ZWMUdsWHQ0Qjlwa1liMGpMdEJLSExocUNVQVRKZThxdlFVMDFxTl9TbGpNUVlsRm1OTjlkbmZESlhld3pfRWhfejkwMFdZbzUzWVRrOUY3Sm1VVTZGU3c?oc=5",
+      "originalSummary": "Sandisk sank 3% to $951 while Micron slid 2%, as memory stocks lagged a rising NASDAQ 100 on AI supply chain jitters. Jensen Huang's resignation as NVIDIA's CEO is rattling memory suppliers tied to its accelerators, despite Evercore ISI's $2,500 Sandisk target. Micron's 4x forward P/E tempts value buyers, but may signal doubts that peak earnings in cyclical memory will last.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-micron-sk-hynix-slide-165605813.html",
       "ts": "2026-11-18T14:25:00+00:00",
       "sourceType": "active_search",
       "movePct": -7.120964175143751,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "AAOI",
         "NVDA",
         "MU",
         "SNDK"
       ],
-      "eventType": "",
+      "eventType": "跨公司事件",
       "analystPriority": false,
-      "score": 29.25,
+      "score": 42.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Sandisk sank 3% to $951 while Micron slid 2%, as memory stocks lagged a rising NASDAQ 100 on AI supply chain jitters. Jensen Huang's resignation as NVIDIA's CEO is rattling memory suppliers tied to its accelerators, despite Evercore ISI's $2,500 Sandisk target. Micron's 4x forward P/E tempts value buyers, but may signal doubts that peak earnings in cyclical memory will last.",
+        "numbers": [
+          "$550 Million",
+          "$951",
+          "$2,500",
+          "3%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Jensen Huang's resignation as NVIDIA's CEO is rattling memory suppliers tied to its accelerators, despite Evercore ISI's $2,500 Sandisk target.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 7,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "NVDA",
@@ -120,7 +130,7 @@
       "ts": "2026-11-18T14:20:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9486684677730404,
+      "movePct": 0.62717097645697,
       "relatedTickers": [
         "NVDA"
       ],
@@ -159,7 +169,7 @@
       "ts": "2026-11-18T14:20:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.15407711757269293,
+      "movePct": -0.284450063211128,
       "relatedTickers": [
         "MSFT"
       ],
@@ -193,7 +203,7 @@
       "ts": "2026-11-18T14:19:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.47445306986590996,
+      "movePct": 1.3867325335215286,
       "relatedTickers": [
         "SPCX"
       ],
@@ -222,6 +232,40 @@
       "top10Rank": null
     },
     {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "CoreWeave 表示 Nvidia “不是一個人”，但仍是重要合作夥伴",
+      "summary": "",
+      "originalTitle": "CoreWeave Says Nvidia Is ‘Not One Person,’ Remains a Key Partner",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjVpV1lLQ2tRWVcwc0RiNGdKWXhta2pZWmdST0NWS1Vka3lGX19BZ1k4bVN0eG8tY05NYWFjTG1WSk4wb0dxd1JjeExMTHhldk1TN3VvSnNNZ1RaVHE4b2hiQmxFcmxpUWpncmtsaERVVjdrVm42cTBtWnpjWHp6VjRoWTZMSGUxVndHRDd6UE12ZTRVYi1LZTEyUHNqMC1VZTVHQlh0M1RjZUk3SnJMeDJR?oc=5",
+      "ts": "2026-11-18T14:17:31+00:00",
+      "sourceType": "active_search",
+      "movePct": -4.469833633994802,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRWV",
+        "NVDA"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 27.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 10
+    },
+    {
       "ticker": "FLEX",
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
@@ -233,7 +277,7 @@
       "ts": "2026-11-18T14:13:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.228895881789584,
+      "movePct": 0.08209057326584723,
       "relatedTickers": [
         "FLEX"
       ],
@@ -255,6 +299,81 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ARM",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "AI 資料中心的成長可能會改變投資 Arm (ARM) 的理由",
+      "summary": "Arm Holdings 公佈的 2027 財年第二季營收為 1.44 億美元，淨利為 1.3 億美元，第三季營收指引為約 1.54 億美元上下 5,000 萬美元。管理層現在透過其 AGI CPU 計劃和不斷增長的雲端使用費基礎，將 Arm Holdings 與人工智慧資料中心的需求更加緊密地聯繫在一起，這重塑了投資者評估其長期收益組合的方式。我們現在看看",
+      "originalTitle": "AI Data Center Growth Might Change The Case For Investing In Arm (ARM)",
+      "originalSummary": "Arm Holdings reported past second quarter fiscal 2027 revenue of US$1.44b with net income of US$130m, alongside guidance for third quarter revenue of about US$1.54b plus or minus US$50m. Management now ties Arm Holdings more closely to artificial intelligence data center demand through its AGI CPU plans and growing cloud royalty base, which reshapes how investors assess its long-term earnings mix. We will now look at how Arm Holdings' stronger licensing and data center traction could reshape...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-data-center-growth-might-141236041.html",
+      "ts": "2026-11-18T14:12:36+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.4144173619063274,
+      "relatedTickers": [
+        "ARM"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Arm Holdings 公佈的 2027 財年第二季營收為 1.44 億美元，淨利為 1.3 億美元，第三季營收指引為約 1.54 億美元上下 5,000 萬美元。管理層現在透過其 AGI CPU 計劃和不斷增長的雲端使用費基礎，將 Arm Holdings 與人工智慧資料中心的需求更加緊密地聯繫在一起，這重塑了投資者評估其長期收益組合的方式。我們現在看看",
+        "numbers": [
+          "$1.44b",
+          "$130m",
+          "$1.54b",
+          "$50m"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Arm Holdings 公佈的 2027 財年第二季營收為 1.44 億美元，淨利為 1.3 億美元，第三季營收指引為約 1.54 億美元上下 5,000 萬美元。管理層現在透過其 AGI CPU 計劃和不斷增長的雲端使用費基礎，將 Arm Holdings 與人工智慧資料中心的需求更加緊密地聯繫在一起，這重塑了投資者評估其長期收益組合的方式。我們現在看看",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "META",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "元平台 (META) 人工智慧安全測試揭示了模擬軍事場景中的差距",
+      "summary": "Meta Platforms (NasdaqGS:META) 在獨立測試發現其 Muse Wonder AI 模型存在安全漏洞後，正面臨新的審查。研究小組 Vals AI 報告稱，Muse Wonder 和其他先進系統經常無法阻止針對平民和伊朗學校的模擬攻擊。研究發現，拒絕的情況很少見，而且在軍事風格的提示中經常被繞過，據報道，包括 Meta 在內的主要開發商都這樣做了",
+      "originalTitle": "Meta Platforms (META) AI Safety Test Exposes Gaps In Simulated Military Scenarios",
+      "originalSummary": "Meta Platforms (NasdaqGS:META) is facing fresh scrutiny after independent tests flagged safety gaps in its Muse Wonder AI model. Research group Vals AI reported that Muse Wonder and other advanced systems often failed to block simulated targeting of civilians and an Iranian school. The study found refusals were rare and frequently bypassed in military-style prompts, and major developers including Meta reportedly did not comment. The Vals AI findings on Muse Wonder's military scenario flaws...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/meta-platforms-meta-ai-safety-141225714.html",
+      "ts": "2026-11-18T14:12:25+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.1785512304684378,
+      "relatedTickers": [
+        "META"
+      ],
+      "eventType": "新題材",
+      "score": 19.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Meta Platforms (NasdaqGS:META) 在獨立測試發現其 Muse Wonder AI 模型存在安全漏洞後，正面臨新的審查。研究小組 Vals AI 報告稱，Muse Wonder 和其他先進系統經常無法阻止針對平民和伊朗學校的模擬攻擊。研究發現，拒絕的情況很少見，而且在軍事風格的提示中經常被繞過，據報道，包括 Meta 在內的主要開發商都這樣做了",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Meta Platforms (NasdaqGS:META) 在獨立測試發現其 Muse Wonder AI 模型存在安全漏洞後，正面臨新的審查。研究小組 Vals AI 報告稱，Muse Wonder 和其他先進系統經常無法阻止針對平民和伊朗學校的模擬攻擊。研究發現，拒絕的情況很少見，而且在軍事風格的提示中經常被繞過，據報道，包括 Meta 在內的主要開發商都這樣做了",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -311,7 +430,7 @@
       "ts": "2026-11-18T14:08:51+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.0126613925746115,
+      "movePct": -0.8875475471900374,
       "relatedTickers": [
         "LITE",
         "COHR",
@@ -384,7 +503,7 @@
       "ts": "2026-11-18T14:06:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.6727166276346637,
+      "movePct": 1.1826697892271643,
       "relatedTickers": [
         "AVGO",
         "NVDA"
@@ -493,7 +612,7 @@
       "ts": "2026-11-18T14:05:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.47445306986590996,
+      "movePct": 1.3867325335215286,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -536,7 +655,7 @@
       "ts": "2026-11-18T14:04:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.489307720188481,
+      "movePct": -3.3707865168539297,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -692,7 +811,7 @@
       "ts": "2026-11-18T13:55:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7830097608065856,
+      "movePct": -0.5738496192212894,
       "relatedTickers": [
         "ANET"
       ],
@@ -730,7 +849,7 @@
       ],
       "eventType": "",
       "score": 21.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -762,7 +881,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -945,21 +1064,21 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "NVIDIA 剛剛削減了其在英特爾的股份。英特爾一個月內股價下跌 40%。股票何去何從？",
-      "summary": "就在個人電腦需求下滑之際，英偉達削減了其在英特爾的股份，該股也回吐了大部分漲幅。英特爾業務中一個被忽視的部分可能講述了一個與拋售所暗示的截然不同的故事。",
+      "summary": "",
       "originalTitle": "NVIDIA Just Cut Its Intel Stake. Intel Is Down 40% in a Month. Where’s the Stock Headed?",
       "originalSummary": "NVIDIA trimmed its Intel stake just as PC demand cracked, and the stock gave back a huge chunk of its gains. One overlooked part of Intel's business may be telling a very different story than the selloff suggests.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-just-cut-intel-stake-134758211.html",
       "ts": "2026-11-18T13:47:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.232553924234181,
+      "movePct": -0.9244154431756524,
       "relatedTickers": [
         "INTC",
         "NVDA"
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "就在個人電腦需求下滑之際，英偉達削減了其在英特爾的股份，該股也回吐了大部分漲幅。英特爾業務中一個被忽視的部分可能講述了一個與拋售所暗示的截然不同的故事。",
@@ -1022,7 +1141,7 @@
       "ts": "2026-11-18T13:45:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.34514078110809976,
+      "movePct": -1.1534968210717533,
       "relatedTickers": [
         "RKLB"
       ],
@@ -1059,7 +1178,7 @@
       "ts": "2026-11-18T13:45:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8450363196125927,
+      "movePct": -0.5188516084399852,
       "relatedTickers": [
         "BE"
       ],
@@ -1096,7 +1215,7 @@
       "ts": "2026-11-18T13:45:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.6727166276346637,
+      "movePct": 1.1826697892271643,
       "relatedTickers": [
         "AVGO"
       ],
@@ -1165,7 +1284,7 @@
       "ts": "2026-11-18T13:40:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9633145912065775,
+      "movePct": -0.760438750115211,
       "relatedTickers": [
         "GLW",
         "VRT"
@@ -1264,7 +1383,7 @@
       "ts": "2026-11-18T13:37:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.5144798783217626,
+      "movePct": 0.6236844373632255,
       "relatedTickers": [
         "TSM"
       ],
@@ -1300,7 +1419,7 @@
       "ts": "2026-11-18T13:33:14+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.3097787294789498,
+      "movePct": 0.9029264810849424,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -1413,7 +1532,7 @@
       "ts": "2026-11-18T13:28:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.232553924234181,
+      "movePct": -0.9244154431756524,
       "relatedTickers": [
         "INTC"
       ],
@@ -1422,12 +1541,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "英特爾對外部代工客戶下了很大的賭注，而台積電的利潤率則超過 50%。哪家晶片製造商值得您投入資金進入下一個週期？",
+        "event": "英特爾在外部代工客戶身上下了很大的賭注，而台積電的利潤率則超過 50%。哪家晶片製造商值得您投入資金進入下一個週期？",
         "numbers": [
           "50%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "英特爾對外部代工客戶下了很大的賭注，而台積電的利潤率則超過 50%。哪家晶片製造商值得您投入資金進入下一個週期？",
+        "stance": "英特爾在外部代工客戶身上下了很大的賭注，而台積電的利潤率則超過 50%。哪家晶片製造商值得您投入資金進入下一個週期？",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -1514,7 +1633,7 @@
       "ts": "2026-11-18T13:17:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.6727166276346637,
+      "movePct": 1.1826697892271643,
       "relatedTickers": [
         "AVGO"
       ],
@@ -1612,7 +1731,7 @@
       "ts": "2026-11-18T13:15:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.35358826610789595,
+      "movePct": -0.8512310110005306,
       "relatedTickers": [
         "APH"
       ],
@@ -1644,7 +1763,7 @@
       "ts": "2026-11-18T13:15:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.844618055555558,
+      "movePct": -0.3797743055555469,
       "relatedTickers": [
         "HPE"
       ],
@@ -1653,7 +1772,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Besides Wall Street's top-and-bottom-line estimates for Hewlett Packard Enterprise (HPE), review projections for some of its key metrics to gain a deeper understanding of how the company might have fared during the quarter ended October 2026.",
+        "event": "除了華爾街對慧與企業 (HPE) 的頂線和底線預測之外，還應審查對其一些關鍵指標的預測，以更深入地了解該公司在截至 2026 年 10 月的季度中的表現。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "除了華爾街對慧與企業 (HPE) 的頂線和底線預測之外，還應審查對其一些關鍵指標的預測，以更深入地了解該公司在截至 2026 年 10 月的季度中的表現。",
@@ -1678,7 +1797,7 @@
       "ts": "2026-11-18T13:15:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.650332728372649,
+      "movePct": 1.330913490623109,
       "relatedTickers": [
         "SYM"
       ],
@@ -1986,28 +2105,31 @@
       "title": "GB News 推出僅在英國推出的服務，與亞馬遜競爭",
       "summary": "",
       "originalTitle": "GB News launches British-only rival to Amazon",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/news/gb-news-launches-british-only-130711257.html",
+      "originalSummary": "James Warrington is The Telegraph’s Media and Telecoms Editor. He writes about the fast-moving world of media, including TV, streaming and news publishing, as well as Britain’s mobile and broadband providers. He can be reached at james.warrington@telegraph.co.uk or on X @j_a_warrington GB News has launched an Amazon rival that will only sell products from British businesses. The online marketplace, called Shop GB, will allow shoppers to browse and purchase thousands of products, ranging from food and drink to clothing, jewellery and electronics. While the items can be sourced from anywhere, every seller on the site must be registered and based in the UK. Shop GB is launching before Black Friday, the major retail event that kicks off the Christmas shopping season. The site is offering discounts on a range of gaming chairs, while a large blanket printed with black-and-white images of Diana, Princess of Wales, is listed at 41pc off. Shop GB will sell items from both independent sellers and established national brands. Fashion retailer 80s Casual Classics, which specialises in retro sportswear popularised by films such as This Is England and The Business, is among the first businesses to go live on the website. Steve Smith, the founder of Poundland , who is backing the launch, said: “Having spent much of my career building British businesses, I know first-hand the hard work, commitment and determination it takes to succeed. “British entrepreneurs and business owners are an incredible asset to this country. They create jobs, generate wealth and give people opportunities and we should never underestimate the importance of supporting them.”",
+      "url": "https://www.telegraph.co.uk/business/2026/11/18/gb-news-launches-british-only-rival-to-amazon/",
       "ts": "2026-11-18T13:07:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.6130908526891474,
-      "hasArticleBody": false,
+      "movePct": 0.8433828376439578,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "AMZN"
       ],
       "eventType": "新題材",
-      "score": 16.5,
+      "score": 25.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "他撰寫的文章涉及快速發展的媒體世界，包括電視、串流媒體和新聞出版，以及英國的行動和寬頻供應商。您可以透過 james.warrington@telegraph.co.uk 或 X @j_a_warrington 聯繫他。 GB News 推出了亞馬遜競爭對手，該產品僅銷售來自英國企業的產品。 Shop GB 將於黑色星期五前推出，黑色星期五是拉開聖誕購物季序幕的主要零售活動。 Poundland 的創始人史蒂夫史密斯 (Steve Smith) 支持此次推出，他表示：「我們花了很多時間",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "詹姆斯‧沃靈頓 (James Warrington) 是《電訊報》的媒體和電信編輯。他撰寫的文章涉及快速發展的媒體世界，包括電視、串流媒體和新聞出版，以及英國的行動和寬頻供應商。您可以透過 james.warrington@telegraph.co.uk 或 X @j_a_warrington 聯繫他。 GB News 推出了亞馬遜競爭對手，該產品僅銷售來自英國企業的產品。這個名為 Shop GB 的線上市場將允許購物者瀏覽和購買數千種產品，從食品和飲料到服裝、珠寶和電子產品。雖然商品可以從任何地方採購，但網站上的每個賣家都必須在英國註冊並位於英國。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -2024,7 +2146,7 @@
       "ts": "2026-11-18T13:06:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.5710285253215606,
+      "movePct": -0.18510608002277884,
       "relatedTickers": [
         "LRCX"
       ],
@@ -2208,7 +2330,7 @@
       "ts": "2026-11-18T13:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.844618055555558,
+      "movePct": -0.3797743055555469,
       "relatedTickers": [
         "HPE"
       ],
@@ -2248,6 +2370,38 @@
       ],
       "eventType": "",
       "score": 22.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "今日股市：納斯達克、標準普爾 500 指數期貨上漲，英偉達股價在強勁的獲利報告後上漲；人擇IPO即將進行",
+      "summary": "",
+      "originalTitle": "Stock Market Today: Nasdaq, S&P 500 Futures Rise as Nvidia Shares Jump After Strong Earnings Report; Anthropic IPO on Deck",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNWVYNVZ2N0ppNmVQeDFvUHFIUG5vZmRNRUJ3R2o0WlhkUXJxVEExaHZrRWhNZHZmaTBQUDhyQXhSLXhoRng2akdubS1iMW8xOHptbWZ0Z25nMnlwSnJ6blZ0dmNnejg3MGlXSE5FSkx3czkybjNuVDc0aDd3Mk5YbDNSNlUwUi1vMlRMWU95RkUwWGNvSjhz?oc=5",
+      "ts": "2026-11-18T12:58:12+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2308,7 +2462,7 @@
       "ts": "2026-11-18T12:52:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.7352427053919595,
+      "movePct": -1.1698265429608723,
       "relatedTickers": [
         "MRVL",
         "NVDA"
@@ -2766,184 +2920,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "華爾街最準確的分析師對 3 隻股息殖利率超過 4% 的消費股票進行了權衡",
-      "summary": "",
-      "originalTitle": "Wall Street's Most Accurate Analysts Weigh In On 3 Consumer Stocks With Over 4% Dividend Yields",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNVl8wSUtadFdSTmdob0Q4NnoxNjlTYlZBREZnVzFVd0xfU280bk5DWVZvNzlQcXJfcjBacXRlbE8wRWNiN09Rc0RVbWNCV2tYQWZsNzF3dUstMjY4aGFJWDQ1YmF5TmtjSVRDdWEyaEI3d256MXRjN0NvakFOT3JmbURuMFZGMW85RjZnZXp3eFlFRDZnZGJKTV9MdThVeVVibFZPN09BdXFWUzlSSnp5N1NpRVlIY1RKWGEzWTQ1bXp2UWZISGMzZGwtQ0dfTVpQcy1zcnhpXzJCM0d4X256eDZQSTlYZnBzQ2N0WVVR?oc=5",
-      "ts": "2026-11-18T12:32:07+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "JPMorgan 調整 NVDA 目標價至 $230",
-      "summary": "",
-      "originalTitle": "JPMorgan raises Nvidia stock price target to $230 on guidance",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdVQzTV80aVpoV1JrY0t5alRiRkZrVlNRWjdrc1Mzd0dqUmtoMmRVQmw0R1JqNmpibllKSVFaVzFDbEVLdFd0MFNLLWN3MHQtblJsN3VheG1fUWRNMlV6WVJabU9Jd1ZkOEdlYS00cGNIbVhxeV9SV2s4V2hQSHZ3N0ZQQ3FFTDU4MmZudFZSV1Roclc4NFk0clk5QmVIS0g3WGtxWU1SN0kzQVp5R0ZNUWlKSUhjS2RvT3JNXw?oc=5",
-      "ts": "2026-11-18T12:31:53+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "JPMorgan",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "$230",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：JPMorgan｜動作：上修｜目標價：$230｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$230"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Raymond James 調整 NVDA 目標價至 $293",
-      "summary": "Raymond James Adjusts Price Target on Nvidia to $350 From $515Nvidia has an average rating of overweight and mean price target of $266.08, according to analysts polled by FactSet.",
-      "originalTitle": "Wedbush raises Nvidia stock price target to $293 on demand outlook",
-      "originalSummary": "Raymond James Adjusts Price Target on Nvidia to $350 From $515Nvidia has an average rating of overweight and mean price target of $266.08, according to analysts polled by FactSet.",
-      "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-nvidia-to-350-from-515-ce785eddd88cf327",
-      "ts": "2026-11-18T12:31:53+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Raymond James",
-          "analyst": "",
-          "rating": "overweight",
-          "action": "下修",
-          "newTarget": "$350",
-          "oldTarget": "$515",
-          "reason": "Wedbush 根據需求前景將 Nvidia 股價目標上調至 293 美元 Raymond James 將 Nvidia 目標價從 515 美元調整至 350 美元 根據 FactSet 調查的分析師，Nvidia 的平均評級為“增持”，平均目標價為 266.08 美元。",
-          "reasonConfidence": "medium",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Raymond James｜動作：下修｜評等：overweight｜目標價：$350（原 $515）｜調整原因：Wedbush 根據需求前景將 Nvidia 股價目標上調至 293 美元 Raymond James 將 Nvidia 目標價從 515 美元調整至 350 美元 根據 FactSet 調查的分析師，Nvidia 的平均評級為“增持”，平均目標價為 266.08 美元。",
-        "numbers": [
-          "$515",
-          "$350"
-        ],
-        "why": "調整原因：Wedbush 根據需求前景將 Nvidia 股價目標上調至 293 美元 Raymond James 將 Nvidia 目標價從 515 美元調整至 350 美元 根據 FactSet 調查的分析師，Nvidia 的平均評級為“增持”，平均目標價為 266.08 美元。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Wedbush 根據需求前景將 Nvidia 股價目標上調至 293 美元 Raymond James 將 Nvidia 目標價從 515 美元調整至 350 美元 根據 FactSet 調查的分析師，Nvidia 的平均評級為“增持”，平均目標價為 266.08 美元。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Wedbush 下修 NVDA 目標價至 $275（原 $345），維持 Outperform",
-      "summary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-      "originalTitle": "Wedbush reiterates Nvidia stock Outperform on strong demand outlook",
-      "originalSummary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-wedbush-cuts-174500655.html",
-      "ts": "2026-11-18T12:31:53+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Wedbush",
-          "analyst": "",
-          "rating": "Outperform",
-          "action": "下修",
-          "newTarget": "$275",
-          "oldTarget": "$345",
-          "reason": "Wedbush 分析師 Matt Bryson 承認，這家美國人工智慧晶片製造商的領導地位、資料中心融資和政治環境的不確定性越來越大，但他認為其潛在的成長前景仍然完好。",
-          "reasonConfidence": "high",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Wedbush｜動作：下修｜評等：Outperform｜目標價：$275（原 $345）｜調整原因：Wedbush 分析師 Matt Bryson 承認，這家美國人工智慧晶片製造商的領導地位、資料中心融資和政治環境的不確定性越來越大，但他認為其潛在的成長前景仍然完好。",
-        "numbers": [
-          "$345",
-          "$275"
-        ],
-        "why": "調整原因：Wedbush 分析師 Matt Bryson 承認，這家美國人工智慧晶片製造商的領導地位、資料中心融資和政治環境的不確定性越來越大，但他認為其潛在的成長前景仍然完好。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Wedbush 分析師 Matt Bryson 承認，這家美國人工智慧晶片製造商的領導地位、資料中心融資和政治環境的不確定性越來越大，但他認為其潛在的成長前景仍然完好。",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
     }
   ],
   "historyItems": [
@@ -3822,7 +3798,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "甲骨文執行長告訴底特律人群，人工智慧資料中心的推出犯了錯誤",
-      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
       "originalTitle": "Mistakes were made in AI data center rollout, Oracle CEO tells Detroit crowd",
       "originalSummary": "Oracle stock fell approximately 4% during Tuesday’s US trading session as investors assessed a Bloomberg report that HSBC sold roughly $300 million of construction debt tied to Oracle’s Project Jupiter data center in New Mexico at a substantial discount. The transaction, completed several weeks ago but disclosed on November 16, adds to concerns about the financing costs and construction risks associated with Oracle’s expanding AI infrastructure business. Oracle (NYSE: ORCL) traded at $114.34 at 12:05 p.m. ET on November 17, down 3.99% from Monday’s $119.09 close. The shares had already declined 4.99% on Monday, leaving them under pressure as lenders reassessed their exposure to large AI infrastructure projects. According to Bloomberg’s November 16 report , citing people familiar with the transaction, HSBC sold its portion of the $18 billion financing package at prices in the mid-80s, meaning approximately 85 cents for each dollar of face value. The sale followed Oracle’s decision to issue a force majeure notice to the project’s developer, a unit of Blue Owl Capital. Unit No: BA857 DMCC Business Centre Level No 1 Jewellery & Gemplex 3 Dubai, United Arab Emirates. International House, 10 Admirals Way, London, England, E14 9XL.",
       "url": "https://financefeeds.com/oracle-stock-hsbc-sold-its-300-million-slice-of-an-18-billion-data-center-loan-in-the-mid-80s/",
@@ -3838,7 +3814,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
         "numbers": [
           "$300 million",
           "$114.34",
@@ -3846,7 +3822,7 @@
           "$18 billion"
         ],
         "why": "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。",
-        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4433,7 +4409,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "Amkor Technology, Inc. (AMKR) 最新股票新聞和頭條",
-      "summary": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演讲将于美国东部时间下午 3:35 进行。 MST（下午 5:35）",
+      "summary": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演講將於美國東部時間下午 3:35 進行。 MST（下午 5:35）",
       "originalTitle": "Amkor Technology, Inc. (AMKR) Latest Stock News & Headlines",
       "originalSummary": "TEMPE, Ariz., November 16, 2026 --( BUSINESS WIRE )--Amkor Technology, Inc. (Nasdaq: AMKR), a leading provider of semiconductor packaging and test services, today announced its participation in the following upcoming investor conferences: UBS Global Technology and AI Conference on Tuesday, December 1, 2026. Amkor's presentation will occur at 3:35 p.m. MST (5:35 p.m. EST) in Scottsdale, Arizona.",
       "url": "https://finance.yahoo.com/technology/articles/amkor-technology-present-upcoming-conferences-130000394.html",
@@ -4450,10 +4426,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演讲将于美国东部时间下午 3:35 进行。 MST（下午 5:35）",
+        "event": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演講將於美國東部時間下午 3:35 進行。 MST（下午 5:35）",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演讲将于美国东部时间下午 3:35 进行。",
+        "stance": "亞利桑那州坦佩，2026 年 11 月 16 日 --( 美國商業資訊 ) -- 領先的半導體封裝和測試服務提供商 Amkor Technology, Inc.（納斯達克股票代碼：AMKR）今天宣布將參加以下即將舉行的投資者會議：將於 2026 年 12 月 1 日星期二舉行的瑞銀全球技術和人工智慧的會議。 Amkor 的演講將於美國東部時間下午 3:35 進行。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -5442,7 +5418,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "波音-洛克希德公司的火箭在飛行途中失敗，摧毀了亞馬遜衛星的有效載荷",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,copator:00, NY滿>\"YoY,copator:Opat00,0000,00000000,0000000044:200,0000,000,ppiiparl​​ator. ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026 -11-16T15:43:27+0000\",\"發售日期\":\"2026-11-16T15:43:27+0000\",\"描述\":\"火箭從卡納維角升空約 10 分鐘後失敗",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,coo:\"NA\",\"brand\":\"cnbc\",\"color\"n:,c,coo:\"n,coo: ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026 -11-16T15:43:27+0000\",\"發售日期\":\"2026-11-16T15:43:27+0000\",\"描述\":\"火箭從卡納維角升空約 10 分鐘後失敗",
       "originalTitle": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"aerospace defen|us news|business news|space\",\"additionalSectionContentFormattedFull\":\"aerospace defense|us news|business news|space\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026-11-16T15:43:27+0000\",\"datePublished\":\"2026-11-16T15:43:27+0000\",\"description\":\"The rocket ​failed roughly 10 minutes after liftoff from the Cape ​Canaveral Space Force Station in Florida, and ​the cause was not immediately clear.\",\"expires\":null,\"headline\":\"Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites\",\"id\":108552036,\"liveURL\":\"\\u002F2026\\u002F11\\u002F16\\u002Fboeing-lockheed-rocket-amazon-satellites.html\",\"native\":false,\"pageName\":\"108552036|2026\\u002F11\\u002F16\\u002Fboeing-lockheed-rocket-amazon-satellites\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"boeing co|lockheed martin|amazoncom inc|jeff bezos|jeff bezos|space industry|aerospace and d|business|breaking news t|science|space explorati|ishares us aero|florida|technology\",\"relatedTagsFilteredFormattedFull\":\"boeing co|lockheed martin corp|amazoncom inc|jeff bezos|jeff bezos|space industry|aerospace and defense industry|business|breaking news technology|science|space exploration technologies corp|ishares us aerospace defense etf|florida|technology\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Boeing-Lockheed rocket fails mid-flight, destroying Amazon satellites\",\"shortDateFirstPublished\":\"11\\u002F16\\u002F2026\",\"shortDateLastPublished\":\"11\\u002F16\\u002F2026\",\"shortDatePublished\":\"11\\u002F16\\u002F2026\",\"shortenedUrls\":null,\"slug\":null,\"sourceOrganizationFormatted\":\"reuters\",\"sourceOrganizationFormattedFull\":\"reuters\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites\",\"tagNameFormatted\":\"rocket from boe\",\"tagNameFormattedFull\":\"rocket from boeinglockheed firm fails midflight destroys payload of amazon satellites\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":4,\"title\":\"Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites\",\"shortestHeadline\":null,\"type\":\"wirestory\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002F2026\\u002F11\\u002F16\\u002Fboeing-lockheed-rocket-amazon-satellites.html\",\"canonicalUrlOverride\":null,\"vcpsId\":null,\"additionalSectionContent\":[{\"headline\":\"Aerospace & Defense\",\"id\":10000693,\"tagName\":\"Aerospace & Defense\",\"tagNameFormatted\":\"aerospace defen\",\"tagNameFormattedFull\":\"aerospace defense\",\"type\":\"franchise\",\"__typename\":\"tag\"},{\"headline\":\"U.S. News\",\"id\":15",
       "url": "https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html",
@@ -5460,10 +5436,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,copator:00, NY滿>\"YoY,copator:Opat00,0000,00000000,0000000044:200,0000,000,ppiiparl​​ator. ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026 -11-16T15:43:27+0000\",\"發售日期\":\"2026-11-16T15:43:27+0000\",\"描述\":\"火箭從卡納維角升空約 10 分鐘後失敗",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,coo:\"NA\",\"brand\":\"cnbc\",\"color\"n:,c,coo:\"n,coo: ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026 -11-16T15:43:27+0000\",\"發售日期\":\"2026-11-16T15:43:27+0000\",\"描述\":\"火箭從卡納維角升空約 10 分鐘後失敗",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,copator:00, NY滿>\"YoY,copator:Opat00,0000,00000000,0000000044:200,0000,000,ppiiparl​​ator. ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"202",
+        "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加幣資料\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"1502862\\\"}\"},\"additionalSectionContentFormatted\":\"航空航天def en|美國新聞|商業新聞|太空\",\"additionalSectionContentFormattedFull\":\"航空航太國防|美國新聞|商業新聞|太空\",\"authorFormatted\":\"NA\",\"authorFormattedFull\":\"NA\",\"brand\":\"cnbc\",\"color\"n,n,c,coo:\"NA\",\"brand\":\"cnbc\",\"color\"n:,c,coo:\"n,coo: ed\":\"NA\",\"dateFirstPublished\":\"2026-11-16T15:43:27+0000\",\"dateLastPublished\":\"2026 -11-16T15:43:27+0000\",\"發售日期\":\"2026-11-16",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -13462,7 +13438,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "從 SpaceX 到 Anthropic，市場為巨股上市製定了新策略",
-      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
       "originalTitle": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
       "originalSummary": "Space Exploration Technologies (SpaceX) rewrote Wall Street’s initial public offering (IPO) record books in June, and Anthropic is hoping to do the same. The developer of the Claude large language model is contending with several historical headwinds. Additionally, the bond market is sending an unmistakable message about AI companies. Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8774454/bad-news-theres-a-new-red-flag-ahead-of-the-anthropic-ipo/",
@@ -13480,10 +13456,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14078,7 +14054,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "ADI：Analog Devices Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+      "summary": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
       "originalTitle": "ADI: Analog Devices Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Analog Devices (ADI) ended the recent trading session at $397.97, demonstrating a -2.77% change from the preceding day's closing price. The stock's performance was behind the S&P 500's daily loss of 0.41%. Elsewhere, the Dow gained 0.1%, while the tech-heavy Nasdaq lost 0.91%. The semiconductor maker's shares have seen an increase of 1.32% over the last month, surpassing the Computer and Technology sector's loss of 11.52% and the S&P 500's loss of 2.64%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-adi-dipped-220001409.html",
@@ -14094,7 +14070,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "event": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "numbers": [
           "$397.97,",
           "2.77%",
@@ -14102,7 +14078,7 @@
           "0.1%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "stance": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -14175,7 +14151,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "特斯拉（TSLA）成立特別委員會審查可能的全股票合併",
-      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
       "originalTitle": "Tesla (TSLA) Forms Special Committee To Review Possible All Stock Merger",
       "originalSummary": "Tesla (NasdaqGS:TSLA) and SpaceX have each formed special committees to evaluate a potential all-stock merger, according to a new report. The review coincides with Tesla's next-generation Roadster unveiling, which has fueled fresh questions about SpaceX technology being incorporated into the vehicle. Industry analysts are split, with some highlighting possible shareholder dilution and others focusing on potential cross-company use of rocket, chip, and communication tech. The possible Tesla SpaceX all-stock merger and Roadster reveal matter, but investors should weigh Tesla on more than this headline. We have also flagged 1 other big win for Tesla. Consider widening your watchlist to other companies tied to similar long-term technology themes through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-forms-special-committee-181131688.html",
@@ -14193,10 +14169,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -14441,7 +14417,7 @@
       "group": "光通訊／網通",
       "tag": "利多",
       "title": "Viavi Solutions：Agentic AI 仍然需要眼鏡（評級升級）（納斯達克股票代碼：VIAV）",
-      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Viavi Solutions: Agentic AI Still Needs Glasses (Rating Upgrade) (NASDAQ:VIAV)",
       "originalSummary": "Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4966534-viavi-solutions-agentic-ai-still-needs-glasses-rating-upgrade",
@@ -14459,15 +14435,15 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
-        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
-        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們在上述任何公司中沒有股票、選擇權或類似衍生性商品頭寸，也沒有計劃在未來 72 小時內啟動任何此類頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -16799,7 +16775,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "會下雪嗎？東北復活節可能前往費城、紐約和華盛頓特區的最新消息",
-      "summary": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
+      "summary": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部的最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
       "originalTitle": "Will it snow? Latest on potential nor’easter headed for Philly, NYC and DC",
       "originalSummary": "An incoming storm is set to deliver the first snow of the season to parts of New England, though the Boston area will mainly contend with a cold, windswept rain starting Thursday. Several inches of wet snow are forecast for the highest elevations of Massachusetts and Northern New England. This system is set to eventually slide off the Mid-Atlantic coast late Thursday and develop into a nor’easter, bringing more rain, wind, and some wet snow through Friday. But unlike the other nor’easters we’ve seen this fall, we should avoid major impacts like coastal flooding. This one is more of an inconvenience for Greater Boston and Southern New England. • Snow — This storm holds a decent shot of delivering a coating to a couple of inches of snow along Route 2, west of I-495, and a coating to 3 inches of wet snow in a few higher-elevation spots across the Berkshires, northern Worcester County, and most of Vermont, New Hampshire, and Maine, with isolated spots seeing 3 to 6 inches across the highest terrain. • Rain — For the lower elevations and by the coast, it just won’t be that cold for widespread snow. Greater Boston should end up with about a half inch of cold, windswept rain, a lot less than what we experienced last week . The same rain scenario plays out as you head south to Cape Cod, the South Coast, and Rhode Island.",
       "url": "https://www.bostonglobe.com/2026/11/09/metro/noreaster-snow-boston-new-england/",
@@ -16816,10 +16792,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
+        "event": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部的最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
+        "stance": "即將到來的風暴將為新英格蘭部分地區帶來本季的第一場雪，不過從週四開始，波士頓地區將主要應對寒冷的大風雨。預計馬薩諸塞州和新英格蘭北部的最高海拔地區將有幾英寸的濕雪。該系統最終將於週四晚些時候從大西洋中部海岸滑落，並發展成東北風，到週五將帶來更多的降雨、風和一些濕雪。但與今年秋天我們看到的其他東北風暴不同，我們應該避免沿海洪水等重大影響。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -17258,7 +17234,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "Cohu 在 HPC 晶片測試中贏得了 Eclipse 處理程序的第四個客戶",
-      "summary": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析設備訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
+      "summary": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析裝置訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
       "originalTitle": "Cohu wins fourth customer for Eclipse handler in HPC chip testing",
       "originalSummary": "SAN DIEGO, November 10, 2026 --( BUSINESS WIRE )--Cohu, Inc. (NASDAQ: COHU), a global supplier of equipment and services optimizing semiconductor manufacturing yield and productivity, today announced that a new fabless semiconductor customer has selected Cohu's Eclipse platform for production testing of its next-generation high-performance computing (HPC) devices. The Eclipse ships with PAICe® Prescriptive software analytics tool that continuously analyzes equipment signals and behavior patterns to improve productivity. The devices will be tested at a high-volume manufacturing facility in Asia operated by a global outsourced semiconductor assembly and test (OSAT) provider.",
       "url": "https://finance.yahoo.com/technology/articles/cohu-eclipse-handler-selected-production-123000326.html",
@@ -17274,10 +17250,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析設備訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
+        "event": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析裝置訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析設備訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
+        "stance": "聖迭戈，2026 年 11 月 10 日 --( 美國商業資訊 ) -- Cohu, Inc.（納斯達克股票代碼：COHU）是一家優化半導體製造良率和生產力的設備和服務的全球供應商，今天宣布一家新的無晶圓廠半導體客戶已選擇 Cohu 的 Eclipse 平台來對其高性能設備進行計算測試。 Eclipse 隨附 PAICe® Prescriptive 軟體分析工具，可連續分析裝置訊號和行為模式以提高生產力。這些元件將在亞洲的一家大批量製造工廠進行測試，該工廠由一家全球外包半導體組裝和測試 (OSAT) 供應商營運。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -18480,7 +18456,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Rocket Lab 第三季：營收超預期，每股盈餘未達預期，公司簽署 5.15 億美元的 Neutron 發射協議",
-      "summary": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指引，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
+      "summary": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指導，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
       "originalTitle": "Rocket Lab Q3: Revenue Beat, EPS Miss, Company Signs $515 Million In Neutron Launch Deals",
       "originalSummary": "Investing.com -- Rocket Lab Corp (NASDAQ:RKLB) posted third quarter results that missed earnings expectations despite beating revenue estimates and issuing stronger-than-expected guidance, sending shares tumbling more than 5% in premarket trading Tuesday.",
       "url": "https://finance.yahoo.com/news/rocket-lab-falls-earnings-miss-222457004.html",
@@ -18497,14 +18473,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指引，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
+        "event": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指導，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
         "numbers": [
           "$515 Million",
           "5%",
           "515 Million"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指引，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
+        "stance": "Investing.com——Rocket Lab Corp（納斯達克股票代碼：RKLB）公佈的第三季度業績儘管超出了收入預期並發布了強於預期的指導，但其第三季度業績未達到盈利預期，導致周二盤前交易中股價暴跌超過 5%。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -19327,7 +19303,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "歐盟因邊境系統問題起訴 IBM 和兩家歐洲公司",
-      "summary": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+      "summary": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
       "originalTitle": "EU sues IBM, two European companies over border system woes",
       "originalSummary": "An EU agency has sued IBM, Atos and Leonardo over repeated delays by the consortium in developing its new smart border system, according to the Financial Times, which cited internal communications it saw. To view the source of this information, click here © 2026 Bloomberg L.P. All rights reserved. Used with ... Bloomberg Law provides trusted coverage of current events enhanced with legal analysis. Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world",
       "url": "https://news.bloomberglaw.com/bankruptcy-law/eu-sues-ibm-atos-leonardo-over-delays-to-border-system-ft",
@@ -19344,10 +19320,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+        "event": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+        "stance": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -20278,7 +20254,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "根據英國《金融時報》報道，歐盟因邊境系統問題起訴 IBM 和兩家歐洲公司",
-      "summary": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+      "summary": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
       "originalTitle": "EU sues IBM and two European companies over troubled border system, FT reports",
       "originalSummary": "An EU agency has sued IBM, Atos and Leonardo over repeated delays by the consortium in developing its new smart border system, according to the Financial Times, which cited internal communications it saw. To view the source of this information, click here © 2026 Bloomberg L.P. All rights reserved. Used with ... Bloomberg Law provides trusted coverage of current events enhanced with legal analysis. Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world",
       "url": "https://news.bloomberglaw.com/bankruptcy-law/eu-sues-ibm-atos-leonardo-over-delays-to-border-system-ft",
@@ -20295,10 +20271,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+        "event": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
+        "stance": "根據英國《金融時報》引述其看到的內部通訊報道，一家歐盟機構已起訴 IBM、Atos 和 Leonardo，原因是這些財團一再拖延開發新的智慧邊境系統。若要查看此資訊的來源，請按一下此處 © 2026 Bloomberg L.P. 保留所有權利。與...一起使用",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -22207,7 +22183,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Microchip Technology (MCHP) 增加了人工智慧和太空晶片，第二季銷售額達到 16.215 億美元",
-      "summary": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，旨在緊湊且功耗有限的硬體。 Vorago Technologies 推出了專為航空航天和國防等惡劣環境（包括高輻射和極端溫度）而設計的組件。第二季的強勁業績，加上 Hailo 和 Vorago 的交易，顯示 Microchip Technology 的產品組合比以前更廣泛。",
+      "summary": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，目標是緊湊且功耗有限的硬體。 Vorago Technologies 推出了專為航空航天和國防等惡劣環境（包括高輻射和極端溫度）而設計的組件。第二季的強勁業績，加上 Hailo 和 Vorago 的交易，顯示 Microchip Technology 的產品組合比以前更廣泛。",
       "originalTitle": "Microchip Technology (MCHP) Added AI And Space Chips As Q2 Hit $1,621.5 Million",
       "originalSummary": "Microchip Technology (NasdaqGS:MCHP) announced acquisitions of edge AI chip designer Hailo and radiation-hardened specialist Vorago Technologies in 2024. The Hailo purchase adds dedicated processors for accelerated AI at the device level, aimed at compact and power-limited hardware. Vorago Technologies brings components built for harsh environments such as aerospace and defense, including high radiation and extreme temperatures. Strong Q2 results, together with the Hailo and Vorago deals, indicate a broader Microchip Technology product mix than before. Our analysis turns up 2 warning signs for Microchip Technology as well. For investors tracking how AI and resilient computing are reshaping hardware suppliers, the wider trend in infrastructure stocks is worth a closer look through 52 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/technology/ai/articles/microchip-technology-mchp-added-ai-042513167.html",
@@ -22223,13 +22199,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，旨在緊湊且功耗有限的硬體。 Vorago Technologies 推出了專為航空航天和國防等惡劣環境（包括高輻射和極端溫度）而設計的組件。第二季的強勁業績，加上 Hailo 和 Vorago 的交易，顯示 Microchip Technology 的產品組合比以前更廣泛。",
+        "event": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，目標是緊湊且功耗有限的硬體。 Vorago Technologies 推出了專為航空航天和國防等惡劣環境（包括高輻射和極端溫度）而設計的組件。第二季的強勁業績，加上 Hailo 和 Vorago 的交易，顯示 Microchip Technology 的產品組合比以前更廣泛。",
         "numbers": [
           "$1,621.5 Million",
           "621.5 Million"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，旨在緊湊且功耗有限的硬體。",
+        "stance": "Microchip Technology（納斯達克股票代碼：MCHP）宣佈於 2024 年收購邊緣 AI 晶片設計公司 Hailo 和抗輻射專家 Vorago Technologies。 Hailo 的收購增加了用於在設備層級加速 AI 的專用處理器，目標是緊湊且功耗有限的硬體。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -24372,7 +24348,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Nebius：拋售測試的不僅是其估值",
-      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Nebius: The Selloff Is Testing More Than Its Valuation",
       "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of NBIS either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4963946-nebius-the-selloff-is-testing-more-than-its-valuation",
@@ -24389,10 +24365,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 NBIS 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -25131,7 +25107,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "惠普企業 (HPE) 股票展望上調後可能被低估 42%",
-      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+      "summary": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Hewlett Packard Enterprise (HPE) Stock May Be 42% Undervalued Following Raised Outlook",
       "originalSummary": "Sundry Photography/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, but may initiate a beneficial Long position through a purchase of the stock, or the purchase of call options or similar derivatives in HPE over the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4966601-post-memory-sell-off-hewlett-packard-enterprise-is-more-compelling-than-dell",
@@ -25147,12 +25123,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "event": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [
           "42%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有任何業務關係。",
+        "stance": "Sundry Photography/iStock 社論來自 Getty Images 分析師披露：我/我們在上述任何一家公司中都沒有股票、期權或類似衍生品頭寸，但可能會在未來 72 小時內通過購買 HPE 股票、或購買看漲期權或類似衍生品來建立有益的多頭寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
