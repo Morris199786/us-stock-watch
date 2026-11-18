@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 14:52 台灣時間",
+  "updatedAt": "2026-11-18 15:02 台灣時間",
   "historyUpdatedDate": "2026-11-18",
   "historyLastAttemptAt": "2026-11-17T16:09:18.335932+00:00",
   "historyItemCount": 800,
@@ -7,45 +7,97 @@
   "top10Count": 9,
   "items": [
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "Citi 調整 NVDA 目標價至 $225，維持 Buy",
       "summary": "",
-      "originalTitle": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "originalTitle": "Citi reiterates Buy rating on Nvidia stock with $225 price target",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRzlQcHpvRkJiZkxPbkt1dnV1Q25PbW50UDBnT0NzY2o1REt4WmcybV96RnItRXVkbE96MENvT21fRnlkY0xlS3Q0NUcySTlJYkNzRGVucmRUZENJbmdFM3F6aElkaktzUDhGbnhWRHVKS0VjR1h2WnhNOVhoQmVNX205aHVXNng4UWxvb2tVWEFRR0ZlT28tdWl0eG5GUEYyX1V0X3dUVHdsZ1JxZjllYUR3WnRRY0U?oc=5",
-      "ts": "2026-11-18T06:37:13+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkhObkFqVG5FX0dHZ3V5Nmw3LUp5MktFaDJSOHpBUGlGTGNPeXpVRkNueFZrZEVpRFN3S05GcHlHUzYxbVQ0WlNLN1FYLW4zVjNGaDdHdTl4RDdUbG5WR3hEQ1Ntc0JLNmFac3k3bGh1RFdjYnNoSTJ6U1dUTWc4eHJyeUpHX3VFSzBUMFNsU2RPWnpLQ2l0RTd0UFd3WjlZcmZOWndBTm9sanlRRmExYzQ5QThablZraVJpZ0NYd1ZCQQ?oc=5",
+      "ts": "2026-11-18T06:49:25+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Citi",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "重申",
+          "newTarget": "$225",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
       "eventType": "",
-      "score": 6.75,
+      "score": 202.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Citi｜動作：重申｜評等：Buy｜目標價：$225｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$225"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 1
     },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
-      "title": "Morgan Stanley lowers Nvidia stock price target on valuation",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "U.S. stock futures are trending modestly higher early Wednesday as Wall Street digests a massive earnings beat from Nvidia Corp. (NASDAQ:NVDA) alongside ongoing geopolitical tensions in the Middle East. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, are...",
+      "originalTitle": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "originalSummary": "U.S. stock futures are trending modestly higher early Wednesday as Wall Street digests a massive earnings beat from Nvidia Corp. (NASDAQ:NVDA) alongside ongoing geopolitical tensions in the Middle East. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, are...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-063713829.html",
+      "ts": "2026-11-18T06:37:13+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.4355065966440197,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "U.S. stock futures are trending modestly higher early Wednesday as Wall Street digests a massive earnings beat from Nvidia Corp. (NASDAQ:NVDA) alongside ongoing geopolitical tensions in the Middle East. The Polymarket traders, a Polygon (CRYPTO: POL) based prediction platform, are...",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "U.S. stock futures are trending modestly higher early Wednesday as Wall Street digests a massive earnings beat from Nvidia Corp.",
+        "watch": [
+          "後續是否出現可量化的營收、毛利或訂單數據"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Morgan Stanley lowers Nvidia stock price target on valuation By Investing.com",
       "summary": "",
-      "originalTitle": "Morgan Stanley lowers Nvidia stock price target on valuation",
+      "originalTitle": "Morgan Stanley lowers Nvidia stock price target on valuation By Investing.com",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTURYd3FlSjNFNURnUGcwLUZGZXZ2Rm9yS1M4TWFNVHVpQlVSdFdQYnZOdFRHa0czNnBYV0dlckE0clFxbFlJb3o2dWhPUzJSNWxtZDhvY1hrenZLVWJUUWwxYWhReHdweEtBVnBUWWdvaEYtVDlwenJLbEpFZzRQMUkzOER6NjYtU25PejktQkFyam10RlBPaFloamp6UFJ4ME13bUVzVVZCX3lmWXE5R05WMzhjYm5pWjVXYQ?oc=5",
-      "ts": "2026-11-18T06:34:56+00:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQT3AxV3JxLXlaVmZvR2ZuZ1NKX0lSWHB1RUMwbmFWVktiOG9iaXZPVUxjVG0tZ2JGTHBjVWZGS0NlWkljcGpKSlFoVjlOb2h6SUVYZk1lc2dSUVF1NGxKUHM1Q3B6cUQ1Uk1VRzVTdVBCdm1SdlgwRmpseTU4TllhbVlfUG5TeFdydjZCRlF5LXZ1dWdzOFRqUUdGQnJmaDJtT25USkw3emRKUDZMNnBtc3JhVXh3b0ZzUjg1YUpB?oc=5",
+      "ts": "2026-11-18T06:36:22+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [],
@@ -66,8 +118,57 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": true,
-      "top10Rank": 2
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Morgan Stanley lowers Nvidia stock price target on valuation",
+      "summary": "Key TakeawaysNVIDIA stock is 29% below its October high after a scandal around CEO Jensen Huang. Morgan Stanley dropped it as a Top Pick but kept its $300 target, 72% above today’s price.",
+      "originalTitle": "Morgan Stanley lowers Nvidia stock price target on valuation",
+      "originalSummary": "Key TakeawaysNVIDIA stock is 29% below its October high after a scandal around CEO Jensen Huang. Morgan Stanley dropped it as a Top Pick but kept its $300 target, 72% above today’s price.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/72-upside-nvidia-morgan-stanley-162322830.html",
+      "ts": "2026-11-18T06:34:56+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Morgan Stanley",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$300",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Morgan Stanley｜目標價：$300｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$300"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "NVDA",
@@ -112,7 +213,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 2
     },
     {
       "ticker": "SYM",
@@ -181,8 +282,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "MSFT",
@@ -259,7 +360,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Colette Kress Just Delivered Excellent News for Nvidia Investors",
-      "summary": "Nvidia passed its earnings call with flying colors.",
+      "summary": "",
       "originalTitle": "Colette Kress Just Delivered Excellent News for Nvidia Investors",
       "originalSummary": "Nvidia passed its earnings call with flying colors.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/colette-kress-just-delivered-excellent-055002130.html",
@@ -272,7 +373,7 @@
       ],
       "eventType": "",
       "score": 15.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -509,7 +610,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": false,
+      "featured": true,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1058,7 +1159,7 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "Jensen Told Cloud Executives He “Could Just Give All This Capacity to Elon.” Bad News for CoreWeave",
-      "summary": "Key TakeawaysThe Wall Street Journal reported that Jensen Huang told cloud executives Nvidia “could just give all this capacity to Elon. ”On Nvidia’s Nov.",
+      "summary": "",
       "originalTitle": "Jensen Told Cloud Executives He “Could Just Give All This Capacity to Elon.” Bad News for CoreWeave",
       "originalSummary": "",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-told-cloud-executives-could-034548548.html",
@@ -1072,7 +1173,7 @@
       ],
       "eventType": "",
       "score": 6.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1132,7 +1233,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Elon Musk Says SpaceX’s Recovered Starship Could Fly Again After Weeks of Refurbishment",
-      "summary": "SpaceX on Saturday took a big step toward making Starship reusable when it caught the spacecraft returning from orbit for the first time. \"Ship 42 could probably be reflown with a few weeks of refurbishment,\" Elon Musk wrote after looking...",
+      "summary": "",
       "originalTitle": "Elon Musk Says SpaceX’s Recovered Starship Could Fly Again After Weeks of Refurbishment",
       "originalSummary": "SpaceX on Saturday took a big step toward making Starship reusable when it caught the spacecraft returning from orbit for the first time. \"Ship 42 could probably be reflown with a few weeks of refurbishment,\" Elon Musk wrote after looking...",
       "url": "https://finance.yahoo.com/technology/articles/elon-musk-says-spacex-recovered-033005179.html",
@@ -1145,7 +1246,7 @@
       ],
       "eventType": "新題材",
       "score": 13.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "SpaceX on Saturday took a big step toward making Starship reusable when it caught the spacecraft returning from orbit for the first time. \"Ship 42 could probably be reflown with a few weeks of refurbishment,\" Elon Musk wrote after looking...",
@@ -2683,68 +2784,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Jim Cramer’s key takeaway from Nvidia’s first earnings since Huang’s resignation",
-      "summary": "",
-      "originalTitle": "Jim Cramer’s key takeaway from Nvidia’s first earnings since Huang’s resignation",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTXhYcHVidnZvbVdFTFFvdEpQSlNDY2pPMXRxaXdHcUR5N1liQlBfd0xwMlRsOEZqSEZyVDR1QlkzbkNKNkJSOXVYNnRMMC1qSTFCQ29CX3lVUTlpd0JnWEFyQUxpbHoydTVrUnlvRkRGcTdCc2NHbXN2Q2x0OEMzQTMyOE9fNnpHX0VxanA2WnExYlE0d2ZUVVJNVEhzczR3SFlLLUg5ZXppLUJXZ0Zr?oc=5",
-      "ts": "2026-11-17T23:33:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 22.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "Semiconductor Sell-Off Drives Dow's 849-Point Plunge",
-      "summary": "",
-      "originalTitle": "Semiconductor Sell-Off Drives Dow's 849-Point Plunge",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYlhBRGJfcFM1b0R1dDI4VW5QMjM3d1M4U0VTNjlNaDBWanc4LTdhMDNvajg5SDR4RS1lX0c3NU1SR2ZhSUFQcUU2WndxMlA3cGpGT3MyUWQ3c0xja0ZPNnpsb3l4T1JSYmQ5Nmo2RENfUmVYYXhiVkEyMjhZaXNJLTBzT2hOT3g2eXBSR1dR?oc=5",
-      "ts": "2026-11-17T23:30:59+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
