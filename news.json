@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 21:36 台灣時間",
+  "updatedAt": "2026-11-18 21:50 台灣時間",
   "historyUpdatedDate": "2026-11-18",
   "historyLastAttemptAt": "2026-11-17T16:09:18.335932+00:00",
   "historyItemCount": 800,
@@ -7,11 +7,257 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Bill Gurley says giving away AI is Google's 'No. 1' move against Anthropic",
+      "summary": "Anthropic is winning on price as DeepSeek and other free Chinese models win AI's traffic.",
+      "originalTitle": "Bill Gurley says giving away AI is Google's 'No. 1' move against Anthropic",
+      "originalSummary": "Anthropic is winning on price as DeepSeek and other free Chinese models win AI's traffic.",
+      "url": "https://finance.yahoo.com/markets/article/bill-gurley-says-giving-away-ai-is-googles-no-1-move-against-anthropic-133314859.html",
+      "ts": "2026-11-18T13:33:14+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.2406598054420015,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Truist 重申 NVDA Hold",
+      "summary": "",
+      "originalTitle": "Truist Securities reiterates Nvidia stock rating at Hold, $174 target",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPazEyX0pnaHpZOUVTZnNCUnExemFVM3RIVjRreDRkbkFxRTk2VnIzT1lFTnFpc01ZTHo5c2lsQkJ5RGhvUlk3dnR2Y0hlcVhzdHlqMGhGV2pSSmxBYlVWZzZvcmowckhoVllWUS1OWmRkTXNwaXRlSzBoSDcyVHN0UE9qMVRjVGd5TGJPajJwN2FXS0g1RHlJMENSUFdQd3llem5aN2dEOHhmb3I2NFJvV3ZWLWY0bndjcHR2Z2JURlpQSUZCN1E?oc=5",
+      "ts": "2026-11-18T13:30:30+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Truist",
+          "analyst": "",
+          "rating": "Hold",
+          "action": "重申",
+          "newTarget": "$174",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Truist｜動作：重申｜評等：Hold｜目標價：$174｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$174"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Intel vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy for 2027?",
+      "summary": "Intel is betting big on external foundry customers, while Taiwan Semiconductor's margins sit above 50%. Which chipmaker deserves your capital heading into the next cycle?",
+      "originalTitle": "Intel vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy for 2027?",
+      "originalSummary": "Intel is betting big on external foundry customers, while Taiwan Semiconductor's margins sit above 50%. Which chipmaker deserves your capital heading into the next cycle?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-taiwan-semiconductor-manufacturing-132801246.html",
+      "ts": "2026-11-18T13:28:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.49060279210706437,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Intel is betting big on external foundry customers, while Taiwan Semiconductor's margins sit above 50%. Which chipmaker deserves your capital heading into the next cycle?",
+        "numbers": [
+          "50%"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Intel is betting big on external foundry customers, while Taiwan Semiconductor's margins sit above 50%.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Nvidia Is in Turmoil, But Earnings Are Still Rocketing Higher. Is the Stock a Buy?",
+      "summary": "Jensen Huang resigned last week following allegations of affairs.",
+      "originalTitle": "Nvidia Is in Turmoil, But Earnings Are Still Rocketing Higher. Is the Stock a Buy?",
+      "originalSummary": "Jensen Huang resigned last week following allegations of affairs.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-turmoil-earnings-still-rocketing-132501955.html",
+      "ts": "2026-11-18T13:25:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.4355065966440197,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+      "summary": "Tech stocks rallied across the globe after Nvidia’s market-beating earnings steadied sentiment around the artificial-intelligence trade.",
+      "originalTitle": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+      "originalSummary": "Tech stocks rallied across the globe after Nvidia’s market-beating earnings steadied sentiment around the artificial-intelligence trade.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-rally-nvidia-earnings-093700969.html",
+      "ts": "2026-11-18T13:22:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.4355065966440197,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Stock Market Today: Dow Falls As Fed Official Calls For Larger Hike; Nvidia Shares Jump On Earnings (Live Coverage)",
+      "summary": "",
+      "originalTitle": "Stock Market Today: Dow Falls As Fed Official Calls For Larger Hike; Nvidia Shares Jump On Earnings (Live Coverage)",
+      "originalSummary": "The Dow Jones index fell Wednesday as a Fed official called for a \"shock\" in rate hikes. Nvidia stock jumps on strong earnings results.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-18T13:18:16+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.4355065966440197,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 25.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Broadcom Stock Has Another Growth Driver. Here’s Where I See It Going in 2027",
+      "summary": "Broadcom's business is booming, yet its shares are lagging this year. A new software engine inside enterprise data centers could change that, and the earnings math behind a bold 2027 target may surprise skeptics.",
+      "originalTitle": "Broadcom Stock Has Another Growth Driver. Here’s Where I See It Going in 2027",
+      "originalSummary": "Broadcom's business is booming, yet its shares are lagging this year. A new software engine inside enterprise data centers could change that, and the earnings math behind a bold 2027 target may surprise skeptics.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-another-growth-driver-131752727.html",
+      "ts": "2026-11-18T13:17:52+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.4595080983803363,
+      "relatedTickers": [
+        "AVGO"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Broadcom's business is booming, yet its shares are lagging this year. A new software engine inside enterprise data centers could change that, and the earnings math behind a bold 2027 target may surprise skeptics.",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Broadcom's business is booming, yet its shares are lagging this year. A new software engine inside enterprise data centers could change that, and the earnings math behind a bold 2027 target may surprise skeptics.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "道瓊斯期貨下跌，英偉達公佈財報後科技股上漲，沃勒發出「震驚」警告；人類首次公開募股即將到來",
-      "summary": "道瓊斯期貨：英偉達和塔吉特的獲利最為受關注。聯準會理事沃勒表示，通膨正在「蔓延」。 Anthropic 首次公開發行迫在眉睫。",
+      "summary": "",
       "originalTitle": "Dow Jones Futures Fall, Techs Rise After Nvidia Earnings, Waller's 'Shock' Warning; Anthropic IPO Ahead",
       "originalSummary": "Dow Jones futures: Nvidia and Target earnings topped views. Fed Gov. Waller said inflation is \"spreading out.\" The Anthropic IPO looms.",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/?src=A00220&yptr=yahoo",
@@ -24,8 +270,40 @@
       ],
       "eventType": "",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "APH",
+      "group": "高速傳輸",
+      "tag": "題材",
+      "title": "What Happens To Amphenol Stock If AI Spending Slows?",
+      "summary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+      "originalTitle": "What Happens To Amphenol Stock If AI Spending Slows?",
+      "originalSummary": "Today's big story: Anthropic IPO: Priced For 2031, Or 2036.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/happens-amphenol-stock-ai-spending-131513797.html",
+      "ts": "2026-11-18T13:15:13+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.232931194484932,
+      "relatedTickers": [
+        "APH"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -70,7 +348,7 @@
       "eventType": "",
       "score": 207.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Morgan Stanley｜動作：重申｜評等：Overweight｜調整原因：Morgan Stanley Adjusts PT on Nvidia to $260 From $267, Maintains Overweight Rating",
         "numbers": [],
@@ -81,7 +359,45 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Alphabet (GOOGL) Spinout Raised $5 Billion For AI Drug Discovery",
+      "summary": "Alphabet (NasdaqGS: GOOGL) spin out Isomorphic Labs has secured a $5b Series C round to expand AI driven drug discovery. The financing will fund the push to move Isomorphic Labs' AI designed drug candidates toward human clinical trials. Alphabet retains exposure to Isomorphic Labs' progress through its ownership stake and role as founding shareholder. The $5b Isomorphic Labs raise sits alongside other shifts in Alpha",
+      "originalTitle": "Alphabet (GOOGL) Spinout Raised $5 Billion For AI Drug Discovery",
+      "originalSummary": "Alphabet (NasdaqGS: GOOGL) spin out Isomorphic Labs has secured a $5b Series C round to expand AI driven drug discovery. The financing will fund the push to move Isomorphic Labs' AI designed drug candidates toward human clinical trials. Alphabet retains exposure to Isomorphic Labs' progress through its ownership stake and role as founding shareholder. The $5b Isomorphic Labs raise sits alongside other shifts in Alphabet's risk profile that recent research has surfaced. Our analysis turns up...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-googl-spinout-raised-5-131110047.html",
+      "ts": "2026-11-18T13:11:10+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.2406598054420015,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Alphabet (NasdaqGS: GOOGL) spin out Isomorphic Labs has secured a $5b Series C round to expand AI driven drug discovery. The financing will fund the push to move Isomorphic Labs' AI designed drug candidates toward human clinical trials. Alphabet retains exposure to Isomorphic Labs' progress through its ownership stake and role as founding shareholder. The $5b Isomorphic Labs raise sits alongside other shifts in Alpha",
+        "numbers": [
+          "$5 Billion",
+          "$5b",
+          "5 Billion"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Alphabet (NasdaqGS: GOOGL) spin out Isomorphic Labs has secured a $5b Series C round to expand AI driven drug discovery. The financing will fund the push to move Isomorphic Labs' AI designed drug candidates toward human clinical trials.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SNOW",
@@ -129,7 +445,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 5
     },
     {
       "ticker": "CRM",
@@ -251,7 +567,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 8
     },
     {
       "ticker": "LRCX",
@@ -330,6 +646,71 @@
         "watch": [],
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up",
+      "summary": "",
+      "originalTitle": "Nvidia's numbers and Anthropic anticipation drive Nasdaq futures up",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzBwR0NHNFV3YmRCS1N2TmxpODZRWHRWTUF4OUhaVVRIUnU5RkZaUjFaTURXRVhCZGlucGF2Y3MzTzlabFZ4akRDSUc4QzUzNEpHOGhHRW55cGxTdUlYVzgxN21xemcza1huekdTUUZvR2VtcVNna2JSa3l6RzFwU3c3ZFpoUWxMbU1SUHlVcjFpRWFDWjNvM1hKb0s5UHFHcDN4d0dR0gGrAUFVX3lxTE9lYWNzY0pNY2wwYktfS2oyUXJWVHNvSDh1Y2xqV2NTUXVVQTlyTEFkZjJqX0o3SnZZbTYxTWdZUFBlYi1uWFk5STVrNE5YcmdHaEtsWHl3TkgwUm9xUkRhX3pmaW9GencwQUItU0pyM3RzWWxsRWt0cU5DZl9ULW5QU2hRRk13LWN5cTRkS1lvYTZkQXhVUm44dldBRmVNRDZ3eF9rSkdSN2hJOA?oc=5",
+      "ts": "2026-11-18T13:05:24+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "US Stocks Rise as Nvidia Outlook Tempers AI Fears: Markets Wrap",
+      "summary": "",
+      "originalTitle": "US Stocks Rise as Nvidia Outlook Tempers AI Fears: Markets Wrap",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
+      "ts": "2026-11-18T13:02:38+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -473,7 +854,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Nvidia 董事會已考慮 Arm 和 Marvell 執行長接替黃仁勳",
-      "summary": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it.據報道，兩名競爭對手的芯片首席執行官都在候選名單上，三名董事希望黃仁勳回來，其中一名高管正深陷一項價值 1,150 億美元的合併案。",
+      "summary": "",
       "originalTitle": "Nvidia’s Board Has Considered the CEOs of Arm and Marvell to Replace Huang",
       "originalSummary": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it. Two rival chip CEOs reportedly sit on the shortlist, three directors want Huang back, and one of those executives is deep in a $115 billion merger.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-board-considered-ceos-arm-125250399.html",
@@ -487,16 +868,16 @@
       ],
       "eventType": "",
       "score": 18.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it.據報道，兩名競爭對手的芯片首席執行官都在候選名單上，三名董事希望黃仁勳回來，其中一名高管正深陷一項價值 1,150 億美元的合併案。",
+        "event": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it. Two rival chip CEOs reportedly sit on the shortlist, three directors want Huang back, and one of those executives is deep in a $115 billion merger.",
         "numbers": [
           "$115 billion",
           "115 billion"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Nvidia posted a blowout quarter, yet the boardroom story overshadowed it.據報道，兩名競爭對手的芯片首席執行官都在候選名單上，三名董事希望黃仁勳回來，其中一名高管正深陷一項價值 1,150 億美元的合併案。",
+        "stance": "Two rival chip CEOs reportedly sit on the shortlist, three directors want Huang back, and one of those executives is deep in a $115 billion merger.",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -591,7 +972,7 @@
       ],
       "eventType": "",
       "score": 21.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -624,7 +1005,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -670,7 +1051,7 @@
       ],
       "eventType": "",
       "score": 207.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Needham｜動作：重申｜評等：Buy｜目標價：$200｜調整原因：Needham maintains NVIDIA at Buy, keeps price target at $200",
@@ -682,6 +1063,38 @@
         "watch": [],
         "takeaway": "調整原因：Needham maintains NVIDIA at Buy, keeps price target at $200",
         "sourceQuality": "analyst_structured"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nvidia Chaos Is the Perfect Setup for Anthropic IPO",
+      "summary": "",
+      "originalTitle": "Nvidia Chaos Is the Perfect Setup for Anthropic IPO",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPN0ZXQklJZzEwYjJYZlprYkhKeWtKcS1kODRXemloVDZQWEVfenVwM3czUnJveEtMdWdlODJQZ1BocTdmeTNaUVhMZDdlbGplaUx2TVcyUUZRU0JVRFNGVWdZcXlHZlFjTC1YcU53NmNSRzA3c2JtZmp0M3NzX0pRUA?oc=5",
+      "ts": "2026-11-18T12:41:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -784,7 +1197,7 @@
       ],
       "eventType": "",
       "score": 207.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：JPMorgan｜動作：上修｜目標價：$230｜調整原因：來源未提供具體理由",
@@ -818,7 +1231,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -837,7 +1250,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Salesforce 股價能否上漲 50%？",
-      "summary": "如果對本文或基礎研究有疑問，請發送電子郵件至 help@trefis.com。",
+      "summary": "",
       "originalTitle": "Can Salesforce Stock Jump 50%?",
       "originalSummary": "For questions about this article or underlying research, email help@trefis.com.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-stock-jump-50-123445781.html",
@@ -850,7 +1263,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -895,7 +1308,7 @@
       ],
       "eventType": "",
       "score": 207.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Morgan Stanley｜動作：重申｜評等：Overweight｜調整原因：Nvidia Is Maintained at Overweight by Morgan Stanley",
@@ -925,7 +1338,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1297,8 +1710,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 9
     },
     {
       "ticker": "HPE",
@@ -1334,8 +1747,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "NVDA",
@@ -1538,7 +1951,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 7
     },
     {
       "ticker": "AVGO",
@@ -1774,6 +2187,41 @@
       "top10Rank": null
     },
     {
+      "ticker": "FLEX",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "題材",
+      "title": "Flex vs. Eaton: Which AI Power Infrastructure Stock is a Better Buy?",
+      "summary": "",
+      "originalTitle": "Flex vs. Eaton: Which AI Power Infrastructure Stock is a Better Buy?",
+      "originalSummary": "FLEX and ETN ride the AI infrastructure boom, but diverging share performance, valuations and earnings outlooks raise the question: Which stock is the better buy?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/flex-vs-eaton-ai-power-121400327.html",
+      "ts": "2026-11-18T12:14:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.286096256684489,
+      "relatedTickers": [
+        "FLEX"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "FLEX and ETN ride the AI infrastructure boom, but diverging share performance, valuations and earnings outlooks raise the question: Which stock is the better buy?",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "FLEX and ETN ride the AI infrastructure boom, but diverging share performance, valuations and earnings outlooks raise the question: Which stock is the better buy?",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "ORCL",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
@@ -1916,7 +2364,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 6
     },
     {
       "ticker": "ASML",
@@ -2022,6 +2470,38 @@
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Nasdaq futures rise as Nvidia forecast eases AI concerns ahead of Anthropic pricing",
+      "summary": "",
+      "originalTitle": "Nasdaq futures rise as Nvidia forecast eases AI concerns ahead of Anthropic pricing",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
+      "ts": "2026-11-18T12:10:52+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -2196,7 +2676,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "NVDA",
@@ -2297,8 +2777,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "GOOGL",
-      "group": "CSP",
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Billionaire David Tepper Slashes Alphabet Stake by 46% and Initiates $172M Bet on Oracle",
       "summary": "",
@@ -2308,10 +2788,10 @@
       "ts": "2026-11-18T12:00:39+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.2406598054420015,
+      "movePct": -3.4343773616592466,
       "relatedTickers": [
-        "GOOGL",
-        "ORCL"
+        "ORCL",
+        "GOOGL"
       ],
       "eventType": "",
       "score": 21.0,
@@ -2484,538 +2964,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Loop Capital 將 Nvidia 的目標價從 350 美元調整為 270 美元",
-      "summary": "雷蒙德詹姆斯 (Raymond James) 將 Nvidia 的目標價從 515 美元調整至 350 美元 根據 FactSet 調查的分析師，Nvidia 的平均評級為“增持”，平均目標價為 266.08 美元。",
-      "originalTitle": "Loop Capital Adjusts Price Target on Nvidia to $270 From $350",
-      "originalSummary": "Raymond James Adjusts Price Target on Nvidia to $350 From $515Nvidia has an average rating of overweight and mean price target of $266.08, according to analysts polled by FactSet.",
-      "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-nvidia-to-350-from-515-ce785eddd88cf327",
-      "ts": "2026-11-18T11:57:14+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Raymond James",
-          "analyst": "",
-          "rating": "overweight",
-          "action": "下修",
-          "newTarget": "$270",
-          "oldTarget": "$350",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Raymond James｜動作：下修｜評等：overweight｜目標價：$270（原 $350）｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$350",
-          "$270"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "AMAT",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "有 500 美元嗎？在最新拋售後買入這只頂級人工智慧 (AI) 晶片股",
-      "summary": "",
-      "originalTitle": "Got $500? Buy This Top Artificial Intelligence (AI) Chip Stock Following the Latest Sell-Off",
-      "originalSummary": "The semiconductor sector has witnessed turbulence in the second half of 2026, as evidenced by a 28% drop in the PHLX Semiconductor Sector since the beginning of July. The pullback has been triggered by various factors, including a September rate hike by the Federal Reserve, the possibility of further hikes to keep inflation under control, and the viability of robust artificial intelligence (AI) infrastructure spending amid a high-interest rate environment. These headwinds have crushed some top semiconductor stocks lately, including Applied Materials (NASDAQ:AMAT).",
-      "url": "https://finance.yahoo.com/technology/ai/articles/got-500-buy-top-artificial-115602119.html",
-      "ts": "2026-11-18T11:56:02+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.29122055674517533,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "AMAT"
-      ],
-      "eventType": "新題材",
-      "score": 24.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "The semiconductor sector has witnessed turbulence in the second half of 2026, as evidenced by a 28% drop in the PHLX Semiconductor Sector since the beginning of July. The pullback has been triggered by various factors, including a September rate hike by the Federal Reserve, the possibility of further hikes to keep inflation under control, and the viability of robust artificial intelligence (AI) infrastructure spending amid a high-interest rate environment. These headwinds have crushed some top semiconductor stocks",
-        "numbers": [
-          "$500",
-          "28%"
-        ],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "The semiconductor sector has witnessed turbulence in the second half of 2026, as evidenced by a 28% drop in the PHLX Semiconductor Sector since the beginning of July. The pullback has been triggered by various factors, including a September rate hike by the Federal Reserve, the possibility of further hikes to keep inflation under control, and the viability of robust artificial intelligence (AI) infrastructure spending amid a high-interest rate environment.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "Wedbush 上修 NVDA 目標價至 $275（原 $345）",
-      "summary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-      "originalTitle": "Wedbush Raises Price Target on Nvidia to $293 From $275, Keeps Outperform Rating",
-      "originalSummary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-wedbush-cuts-174500655.html",
-      "ts": "2026-11-18T11:55:44+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Wedbush",
-          "analyst": "",
-          "rating": "Outperform",
-          "action": "上修",
-          "newTarget": "$293",
-          "oldTarget": "$275",
-          "reason": "Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-          "reasonConfidence": "high",
-          "targetTicker": "NVDA",
-          "targetCompany": "NVIDIA"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Wedbush｜動作：上修｜評等：Outperform｜目標價：$293（原 $275）｜調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-        "numbers": [
-          "$275",
-          "$293"
-        ],
-        "why": "調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "SMCI",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "超微電腦股價能否暴漲50%？",
-      "summary": "",
-      "originalTitle": "Can Super Micro Computer Stock Jump 50%?",
-      "originalSummary": "For questions about this article or underlying research, email help@trefis.com.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-stock-jump-115521645.html",
-      "ts": "2026-11-18T11:55:21+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -3.53646353646353,
-      "relatedTickers": [
-        "SMCI"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CIEN",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "TD Cowen 調整 CIEN 目標價至 $375",
-      "summary": "TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-      "originalTitle": "Ciena stock: TD Cowen trims price target to $375, keeps Buy rating - ad-hoc-news.de",
-      "originalSummary": "TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-      "url": "https://www.marketscreener.com/news/td-cowen-adjusts-price-target-on-ciena-to-375-from-400-ce785edfd889f026",
-      "ts": "2026-11-18T11:53:52+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "TD Cowen",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$375",
-          "oldTarget": "$400",
-          "reason": "Ciena stock: TD Cowen trims price target to $375, keeps Buy rating - ad-hoc-news.de TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-          "reasonConfidence": "medium",
-          "targetTicker": "CIEN",
-          "targetCompany": "Ciena"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "CIEN"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Ciena（CIEN）｜券商：TD Cowen｜動作：下修｜評等：Buy｜目標價：$375（原 $400）｜調整原因：Ciena stock: TD Cowen trims price target to $375, keeps Buy rating - ad-hoc-news.de TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-        "numbers": [
-          "$400",
-          "$375"
-        ],
-        "why": "調整原因：Ciena stock: TD Cowen trims price target to $375, keeps Buy rating - ad-hoc-news.de TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Ciena stock: TD Cowen trims price target to $375, keeps Buy rating - ad-hoc-news.de TD Cowen Adjusts Price Target on Ciena to $375 From $400Ciena has an average rating of overweight and mean price target of $518.94, according to analysts polled by FactSet.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 6,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "英偉達展望緩和人工智慧擔憂，股市反彈：市場總結",
-      "summary": "",
-      "originalTitle": "Stocks Bounce as Nvidia Outlook Tempers AI Fears: Markets Wrap",
-      "originalSummary": "(Bloomberg) -- A dayslong selloff in technology stocks came to a halt after a strong outlook from Nvidia Corp. helped soothe investors’ fears over the durability of the artificial intelligence trade.",
-      "url": "https://www.swissinfo.ch/eng/stocks-bounce-as-nvidia-outlook-tempers-ai-fears%3a-markets-wrap/92397458",
-      "ts": "2026-11-18T11:50:39+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "(Bloomberg) -- A dayslong selloff in technology stocks came to a halt after a strong outlook from Nvidia Corp. helped soothe investors’ fears over the durability of the artificial intelligence trade.",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "(Bloomberg) -- A dayslong selloff in technology stocks came to a halt after a strong outlook from Nvidia Corp. helped soothe investors’ fears over the durability of the artificial intelligence trade.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "ASML",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "如果你在 12 月有 1,000 美元可投資，這 3 隻股票可以持續十年",
-      "summary": "",
-      "originalTitle": "If You Have $1,000 to Invest in December, These 3 Stocks Are Built to Last a Decade",
-      "originalSummary": "Microsoft, ASML, and TSMC each pair a competitive advantage with AI-driven demand. Here's what gives each its staying power, and the risks to watch.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-invest-december-3-115000979.html",
-      "ts": "2026-11-18T11:50:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.6832647374519394,
-      "relatedTickers": [
-        "ASML"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "AI Stocks Resume Their Slide",
-      "summary": "",
-      "originalTitle": "AI Stocks Resume Their Slide",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jMVRGNmM2LXVUalRrSEREd3VLUDl4alRBLTZDaEhhWjdCbXZJQlNxZnBhQWdvS2lrLVRESjg3LUZLRkpEQ0wtUFZVLWcwNllRX190Vm5PcHlEcndfODBubE9HZDVHVkMyYWFiMlo0YkpkVWpCdXhLaGhHZG8?oc=5",
-      "ts": "2026-11-18T11:47:27+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "英偉達第三季營收成長 103% 前 CEO 爭議不斷",
-      "summary": "",
-      "originalTitle": "Nvidia Q3 revenue rises 103% amid ex-CEO controversy",
-      "originalSummary": "The results followed controversy involving ex-CEO Jensen Huang over an alleged affair with a Chinese spy, after his departure earlier this month.",
-      "url": "https://finance.yahoo.com/news/nvidia-q3-revenue-rises-103-114702256.html",
-      "ts": "2026-11-18T11:47:02+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.43550190754408913,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "道瓊斯期貨上漲，科技股因英偉達獲利而上漲； Target Beats，Anthropic IPO 即將到來",
-      "summary": "",
-      "originalTitle": "Dow Jones Futures Rise, Techs Jump On Nvidia Earnings; Target Beats, Anthropic IPO Ahead",
-      "originalSummary": "Nvidia earnings beat after the stock market broke below recent lows. Target earnings are on tap, with the Anthropic IPO set to price Wednesday night.",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/?src=A00220&yptr=yahoo",
-      "ts": "2026-11-18T11:46:09+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.4355065966440197,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "美銀證券維持亞馬遜 (AMZN.US) 買入評級，並宣布目標價 317 美元",
-      "summary": "",
-      "originalTitle": "BofA Securities Maintains Amazon(AMZN.US) With Buy Rating, Announces Target Price $317",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaGQ5T2tPZ1JTeEJna3RIR0t6OUlvaDZLTVlkNmp0d2dZQW05YXlMUkYtUnBHaF8tRTFUVUN3Vk9vMndOZE9wY0sxVU5vNFpTSloxeG00QVR2REtoZ0o1NHZEandMaTVhNmhLYTFZdk9kYnhiWlU0U3daaVlZWTNkbTVZdjRKVDc1cWVJREhWTlEtSUtzRVN0dGdZbjhnZlNxbVBlSjdWVFlpanNTS3EzNzdSSGp4c3c?oc=5",
-      "ts": "2026-11-18T11:43:47+00:00",
-      "sourceType": "major_broker_global",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "BofA",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "BofA Securities Maintains Amazon(AMZN.US) With Buy Rating, Announces Target Price $317",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 211.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：BofA｜動作：重申｜評等：Buy｜調整原因：BofA Securities Maintains Amazon(AMZN.US) With Buy Rating, Announces Target Price $317",
-        "numbers": [],
-        "why": "調整原因：BofA Securities Maintains Amazon(AMZN.US) With Buy Rating, Announces Target Price $317",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：BofA Securities Maintains Amazon(AMZN.US) With Buy Rating, Announces Target Price $317",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 3
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著基差交易枯竭和聯準會會議紀要臨近，比特幣（BTC）價格下跌",
-      "summary": "",
-      "originalTitle": "Bitcoin (BTC) price drops as basis trade dries up and Fed minutes loom",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU1packRoM1c4R2NWdXB1dzdaWHpRVjJmU2QtMXM0dWQtT1dDTXNlalpJOXZ3R3B6WXk3S0JRU3NURkhJbUNzTmRBaEV6dERqb240d2ZZbzlrRmRScEtkc0FiUFpzcV9mRDAydE5xWkRubU5XLUNpMU1ZQXlhQV9ENDhtT3dpeDFhS2FIWmw5RkdOWG9INm14UnkyMVkycXdFNEtRNl9ScHB3V3hEOVR6TEpwMGY0ZU8t?oc=5",
-      "ts": "2026-11-18T11:42:52+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 17.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "早晨競價：AI 螢幕測試",
-      "summary": "",
-      "originalTitle": "Morning Bid: AI screen test",
-      "originalSummary": "Nov 18 (Reuters) - Amid all the trepidation about Nvidia 's upheaval, its quarterly results and projections beat expectations yet again. And yet, after another heavy down day on Wall Street, the market is hesitant to give it the benefit of the doubt. Nvidia's initial extended-hours stock ‌price reaction was a more than 4% rise, reversing Tuesday's drop, but that bounce faded.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/morning-bid-ai-screen-test-113820856.html",
-      "ts": "2026-11-18T11:38:20+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.4355065966440197,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 19.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Nov 18 (Reuters) - Amid all the trepidation about Nvidia 's upheaval, its quarterly results and projections beat expectations yet again. And yet, after another heavy down day on Wall Street, the market is hesitant to give it the benefit of the doubt. Nvidia's initial extended-hours stock ‌price reaction was a more than 4% rise, reversing Tuesday's drop, but that bounce faded.",
-        "numbers": [
-          "4%"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Nov 18 (Reuters) - Amid all the trepidation about Nvidia 's upheaval, its quarterly results and projections beat expectations yet again. And yet, after another heavy down day on Wall Street, the market is hesitant to give it the benefit of the doubt.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
-      "tag": "利多",
-      "title": "AI 晶片更新 - 透過超級運算合作夥伴釋放 AI 潛力",
-      "summary": "",
-      "originalTitle": "AI Chips Update - Unlocking AI Potential Through Supercomputing Partnerships",
-      "originalSummary": "The Lux supercomputer, developed through a collaboration between AMD, Oak Ridge National Laboratory (ORNL), and the U.S. Department of Energy (DOE), has been opened to scientific users, marking a significant advancement in AI and high-performance computing. Ranked 14th on the TOP500 list of the world's most powerful supercomputers, Lux supports the DOE's Genesis Mission by providing an AI Factory dedicated to AI-driven scientific research and engineering solutions. This system integrates...",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ai-chips-unlocking-ai-potential-113742094.html",
-      "ts": "2026-11-18T11:37:42+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.17252320139603539,
-      "relatedTickers": [
-        "AMD"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "The Lux supercomputer, developed through a collaboration between AMD, Oak Ridge National Laboratory (ORNL), and the U.S. Department of Energy (DOE), has been opened to scientific users, marking a significant advancement in AI and high-performance computing. Ranked 14th on the TOP500 list of the world's most powerful supercomputers, Lux supports the DOE's Genesis Mission by providing an AI Factory dedicated to AI-driven scientific research and engineering solutions. This system integrates...",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The Lux supercomputer, developed through a collaboration between AMD, Oak Ridge National Laboratory (ORNL), and the U.S. Department of Energy (DOE), has been opened to scientific users, marking a significant advancement in AI and high-performance computing.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
