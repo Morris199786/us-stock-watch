@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 01:51 台灣時間",
+  "updatedAt": "2026-11-19 02:01 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
@@ -18,7 +18,7 @@
       "ts": "2026-11-18T17:35:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.2582014666152173,
+      "movePct": -2.4251254341952966,
       "relatedTickers": [
         "NVDA"
       ],
@@ -26,6 +26,38 @@
       "score": 15.0,
       "featured": true,
       "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "英偉達獲利上漲乏力，股市下跌：市場結束",
+      "summary": "",
+      "originalTitle": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
+      "ts": "2026-11-18T17:34:09+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 18.75,
+      "featured": true,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -50,7 +82,7 @@
       "ts": "2026-11-18T17:33:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 1.0270711109941821,
+      "movePct": 1.2208571203072838,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -93,7 +125,7 @@
       "ts": "2026-11-18T17:32:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.5240321479224725,
+      "movePct": 2.519619687976049,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -124,46 +156,75 @@
       "top10Rank": null
     },
     {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "Nvidia’s Supply Commitments Hit $390 Billion, Mostly Memory. SK Hynix Is the Real Winner",
+      "summary": "Key TakeawaysNvidia’s supply commitments rose to $390 billion from $279 billion in its fiscal third quarter, mostly for memory it’s buying over several years. SK hynix gets more of Nvidia’s memory spending than any other supplier, and Nvidia is already its biggest customer.",
+      "originalTitle": "Nvidia’s Supply Commitments Hit $390 Billion, Mostly Memory. SK Hynix Is the Real Winner",
+      "originalSummary": "Key TakeawaysNvidia’s supply commitments rose to $390 billion from $279 billion in its fiscal third quarter, mostly for memory it’s buying over several years. SK hynix gets more of Nvidia’s memory spending than any other supplier, and Nvidia is already its biggest customer.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-supply-commitments-hit-390-172959335.html",
+      "ts": "2026-11-18T17:29:59+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.18943533697631,
+      "relatedTickers": [
+        "SK HYNIX",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 27.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Key TakeawaysNvidia’s supply commitments rose to $390 billion from $279 billion in its fiscal third quarter, mostly for memory it’s buying over several years. SK hynix gets more of Nvidia’s memory spending than any other supplier, and Nvidia is already its biggest customer.",
+        "numbers": [
+          "$390 Billion",
+          "$390 billion",
+          "$279 billion",
+          "390 Billion"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Key TakeawaysNvidia’s supply commitments rose to $390 billion from $279 billion in its fiscal third quarter, mostly for memory it’s buying over several years. SK hynix gets more of Nvidia’s memory spending than any other supplier, and Nvidia is already its biggest customer.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Anthropic’s IPO Has a Quiet Winner: SpaceX and Its $1.25 Billion-a-Month Compute Deal",
-      "summary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|enterprise|ai artificial i\",\"additionalSectionContentFormattedFull\":\"internet|enterprise|ai artificial intelligence\",\"authorFormatted\":\"ashley capoot|leslie picker\",\"authorFormatt",
+      "summary": "Key TakeawaysAnthropic is set to price its IPO on Nov. 18, raising $90.",
       "originalTitle": "Anthropic’s IPO Has a Quiet Winner: SpaceX and Its $1.25 Billion-a-Month Compute Deal",
-      "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|enterprise|ai artificial i\",\"additionalSectionContentFormattedFull\":\"internet|enterprise|ai artificial intelligence\",\"authorFormatted\":\"ashley capoot|leslie picker\",\"authorFormattedFull\":\"ashley capoot|leslie picker\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-11-18T15:15:54+0000\",\"dateLastPublished\":\"2026-11-18T17:17:44+0000\",\"datePublished\":\"2026-11-18T15:15:54+0000\",\"description\":\"Anthropic stock is set to begin trading on the Nasdaq under the ticker symbol ANT on Thursday.\",\"expires\":null,\"headline\":\"Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say\",\"id\":108552251,\"liveURL\":\"\\u002F2026\\u002F11\\u002F18\\u002Fanthropic-ipo-ai-offering-price.html\",\"native\":false,\"pageName\":\"108552251|2026\\u002F11\\u002F18\\u002Fanthropic-ipo-ai-offering-price\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"jensen huang|jensen huang|breaking news t|technology|internet|enterprise|anthropic pbc|elon musk|elon musk|artificial inte|generative ai|stock markets|dario amodei|dario amodei|nvidia corporat|amazoncom inc|microsoft corp|advanced micro |space explorati|alphabet class |invesco qqq tru|ark innovation |ishares expande|jenhsun huang\",\"relatedTagsFilteredFormattedFull\":\"jensen huang|jensen huang|breaking news technology|technology|internet|enterprise|anthropic pbc|elon musk|elon musk|artificial intelligence|generative ai|stock markets|dario amodei|dario amodei|nvidia corporation|amazoncom inc|microsoft corp|advanced micro devices inc|space exploration technologies corp|alphabet class a|invesco qqq trust|ark innovation etf|ishares expanded techsoftware sector etf|jenhsun huang\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Anthropic IPO: AI lab considers increasing offering, sources say\",\"shortDateFirstPublished\":\"11\\u002F18\\u002F2026\",\"shortDateLastPublished\":\"11\\u002F18\\u002F2026\",\"shortDatePublished\":\"11\\u002F18\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F48XUZAW\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4zoKQYN\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F3VvWK5i\"},{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F491iDMO\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4fyRl43\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F491iEAm\"}],\"slug\":\"Anthropic IPO: AI lab considers increasing the offering as investor demand surges, sources say\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Anthropic IPO: AI lab considers increasin",
-      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "originalSummary": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-quiet-winner-spacex-172621671.html",
       "ts": "2026-11-18T17:26:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9689484827099646,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "movePct": 2.1700776287932433,
+      "hasArticleBody": false,
       "relatedTickers": [
-        "SPCX",
-        "GOOGL",
-        "MSFT",
-        "META",
-        "NVDA",
-        "AMD"
+        "SPCX"
       ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
+      "eventType": "",
+      "score": 3.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|enterprise|ai artificial i\",\"additionalSectionContentFormattedFull\":\"internet|enterprise|ai artificial intelligence\",\"authorFormatted\":\"ashley capoot|leslie picker\",\"authorFormatt",
-        "numbers": [
-          "$1.25 Billion",
-          "1.25 Billion"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":\\\"\\\",\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"internet|enterprise|ai artificial i\",\"additionalSectionContentFormattedFull\":\"internet|enterprise|ai artificial intelligence\",\"authorFormatted\":\"ashley capoot|leslie picker\",\"authorFormatt",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -180,7 +241,7 @@
       "ts": "2026-11-18T17:23:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 2.833723653395759,
+      "movePct": 2.658079625292742,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -230,7 +291,7 @@
       "ts": "2026-11-18T17:19:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.7482461415113244,
+      "movePct": -3.5277610743636,
       "relatedTickers": [
         "CRWV",
         "NVDA",
@@ -267,7 +328,7 @@
       "ts": "2026-11-18T17:17:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.10426086956520919,
+      "movePct": -0.06956521739129862,
       "relatedTickers": [
         "ORCL"
       ],
@@ -335,7 +396,7 @@
       "ts": "2026-11-18T17:13:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.10426086956520919,
+      "movePct": -0.06956521739129862,
       "relatedTickers": [
         "ORCL"
       ],
@@ -354,6 +415,38 @@
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "SK hynix(SKHY) Stock Price Today | Quotes & News",
+      "summary": "",
+      "originalTitle": "SK hynix(SKHY) Stock Price Today | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxONDFRY2dyRXRDTFByNG8wdDFGd21ZSlB3THd5SmNJMHZrSzB3bG9oRkdnQVBPRjJtaHprLU1USkZiWmZaY0c4WGFRMHZPdVpZR19VNTF0ZVQ2LXBIZG85cWxZQmt5aWxJb28yRWlUcGJvSkRTSWdPYWxkSlhIeEtTVEYya2FVdzJEZUE4R1RmZ1ZYYk5OMkhqT0tYRmNWN1V1R2JrNGZ0Q1FfaHQ0UFB5MEMzTEprNXZZLUxZU0g4Y0lfX2VJbzBrLWl6cVlHek0zRHdVNVVydUp0S3hrUDBxS2JzUXNoRDB6T2lneEpnT2ZkQTlXUUtHU2pLZUZvcE92Y3ppWFBMRlFhOWlIYU1rS0ZyN2VjSVdEVEg1eDBuZEs1VTNzajRqUldvTUpmd0tNdGdEY1ZZNGk2YzFHT3RKRUs3SjRqY0lFeUtYcFBEMEtZVVBpbVZnSzI3dks?oc=5",
+      "ts": "2026-11-18T17:13:11+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 4.18943533697631,
+      "relatedTickers": [
+        "SK HYNIX"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -434,7 +527,7 @@
       "ts": "2026-11-18T17:04:20+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.3657673844080565,
+      "movePct": -1.8283596754723241,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -475,7 +568,7 @@
       "ts": "2026-11-18T17:03:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.6823677846703688,
+      "movePct": 1.6402060771738114,
       "relatedTickers": [
         "CSCO"
       ],
@@ -515,7 +608,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -541,7 +634,7 @@
       "ts": "2026-11-18T17:02:55+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -2.4108173197531557,
+      "movePct": -3.144435803522161,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -614,20 +707,20 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "今日股市：道指因升息「衝擊」擔憂而下跌； CoreWeave 翻滾（現場報導）",
-      "summary": "由於聯準會官員呼籲升息“令人震驚”，道瓊斯指數週三下跌。英偉達股價因強勁的獲利業績而上漲。",
+      "summary": "",
       "originalTitle": "Stock Market Today: Dow Drops Amid Rate-Hike 'Shock' Fears; CoreWeave Tumbles (Live Coverage)",
       "originalSummary": "The Dow Jones index falls Wednesday as a Fed official calls for a \"shock\" in rate hikes. Nvidia stock jumps on strong earnings results.",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/?src=A00220&yptr=yahoo",
       "ts": "2026-11-18T16:56:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.7482461415113244,
+      "movePct": -3.5277610743636,
       "relatedTickers": [
         "CRWV"
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -676,29 +769,29 @@
       "group": "CSP",
       "tag": "題材",
       "title": "安迪·賈西 (Andy Jassy) 表示，即使亞馬遜自己的晶片增長了三位數，英偉達多年來“仍將非常強大”",
-      "summary": "關鍵要點亞馬遜執行長安迪賈西 (Andy Jassy) 表示，只要他可以預見，英偉達的業務“將非常強勁”，同一天英偉達公佈了 103% 的收入增長。亞馬遜自己的晶片正在以三位數的速度成長，但 Jassy 預計大量 AWS 客戶會繼續要求 Nvidia。",
+      "summary": "",
       "originalTitle": "Andy Jassy Says Nvidia “Will Be Very Strong” for Years, Even as Amazon’s Own Chips Grow Triple Digits",
       "originalSummary": "Key TakeawaysAmazon CEO Andy Jassy said Nvidia’s business “will be very strong” for as long as he can foresee, the same day Nvidia reported 103% revenue growth. Amazon’s own chips are growing triple digits, but Jassy expects plenty of AWS customers to keep asking for Nvidia.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/andy-jassy-says-nvidia-very-165448843.html",
       "ts": "2026-11-18T16:54:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.1331187715692987,
+      "movePct": 3.253325061072543,
       "relatedTickers": [
         "AMZN",
         "NVDA"
       ],
       "eventType": "跨公司事件",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "關鍵要點亞馬遜執行長安迪賈西 (Andy Jassy) 表示，只要他可以預見，英偉達的業務“將非常強勁”，同一天英偉達公佈了 103% 的收入增長。亞馬遜自己的晶片正在以三位數的速度成長，但 Jassy 預計大量 AWS 客戶會繼續要求 Nvidia。",
+        "event": "Key TakeawaysAmazon CEO Andy Jassy said Nvidia’s business “will be very strong” for as long as he can foresee, the same day Nvidia reported 103% revenue growth. Amazon’s own chips are growing triple digits, but Jassy expects plenty of AWS customers to keep asking for Nvidia.",
         "numbers": [
           "103%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "關鍵要點亞馬遜執行長安迪賈西 (Andy Jassy) 表示，只要他可以預見，英偉達的業務“將非常強勁”，同一天英偉達公佈了 103% 的收入增長。亞馬遜自己的晶片正在以三位數的速度成長，但 Jassy 預計大量 AWS 客戶會繼續要求 Nvidia。",
+        "stance": "Key TakeawaysAmazon CEO Andy Jassy said Nvidia’s business “will be very strong” for as long as he can foresee, the same day Nvidia reported 103% revenue growth. Amazon’s own chips are growing triple digits, but Jassy expects plenty of AWS customers to keep asking for Nvidia.",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -721,7 +814,7 @@
       "ts": "2026-11-18T16:53:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.1331187715692987,
+      "movePct": 3.253325061072543,
       "relatedTickers": [
         "AMZN"
       ],
@@ -751,6 +844,122 @@
       "top10Rank": null
     },
     {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Sticking With This Nvidia Price Target After Beat-and-Raise Report",
+      "summary": "",
+      "originalTitle": "Sticking With This Nvidia Price Target After Beat-and-Raise Report",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZVpQQWJhcDVIUk1OTnFCNWFrenZ5NWJ1aTFnNW44NEtZY0dCcnpaQkgxeklmMklVVjA1el9leUFSRTd2b0Z4SXY3OVRHek95eDFNWUZmaXZFNlgwWkV5VWNHcXRoRXFCN3M2NXZ2M19ac3MyNGt2WVh6NkhuOHF2SHY1WlJVQlFPR0gyY3ZUZWZhVnFiblQxQVZ0TjdkQzZnM1VVZQ?oc=5",
+      "ts": "2026-11-18T16:49:00+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 6
+    },
+    {
+      "ticker": "AAOI",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent?",
+      "summary": "",
+      "originalTitle": "AAOI Rides on AI-Led Optical Demand: Can It Beat Fabrinet and Coherent?",
+      "originalSummary": "Applied Optoelectronics rides on surging AI-driven optical demand, expanding hyperscaler deals and 800G capacity, strengthening its competitive position against FN and COHR.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/aaoi-rides-ai-led-optical-164700563.html",
+      "ts": "2026-11-18T16:47:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -11.057054400707656,
+      "relatedTickers": [
+        "AAOI",
+        "COHR",
+        "FN"
+      ],
+      "eventType": "",
+      "score": 22.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "Applied Optoelectronics rides on surging AI-driven optical demand, expanding hyperscaler deals and 800G capacity, strengthening its competitive position against FN and COHR.",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Applied Optoelectronics rides on surging AI-driven optical demand, expanding hyperscaler deals and 800G capacity, strengthening its competitive position against FN and COHR.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "利多",
+      "title": "Snowflake's AI Push Fuels Revenue Growth: Can It Beat DELL & ORCL?",
+      "summary": "",
+      "originalTitle": "Snowflake's AI Push Fuels Revenue Growth: Can It Beat DELL & ORCL?",
+      "originalSummary": "Snowflake SNOW is benefiting from accelerating enterprise adoption of artificial intelligence (AI), growing demand for its AI Data Cloud platform and expanding AI-driven workloads. The company's focus on agentic AI, data modernization and cloud-based analytics strengthens its competitive position against Dell Technologies DELL and Oracle ORCL. While Dell Technologies benefits from growing demand for AI-optimized servers and infrastructure, Oracle is expanding its AI capabilities through cloud infrastructure and database offerings. Snowflake's fiscal 2027 second-quarter product revenues rose 37% year over year to $1.49 billion, marking the third consecutive quarter of accelerating growth. AI products contributed about half of the revenue growth acceleration, while rising customer adoption and platform consumption supported the rest. The company's AI offerings, including CoCo and CoWork, are witnessing strong adoption. CoCo surpassed 9,100 accounts, adding more than 2,000 net new accounts during the quarter. CoWork expanded to 5,800 accounts, reflecting nearly 11% sequential growth. Snowflake's net revenue retention rate of 126% highlights healthy customer expansion. Building on this momentum, the company recently introduced major enhancements to its CoCo coding agent and CoWork personal AI agent, enabling enterprises to automate complex workflows using governed business data. The new always-on CoCo and CoWork Bots autonomously execute tasks, requiring human intervention only for critical decisions or approvals. The innovations support integrations with Slack, Excel, Google Sheets and mobile devices, while introducing automation, memory and shared AI workflows. Snowflake also unveiled Cortex Training for customizing AI models and optimizing costs. Strong AI demand is improving Snowflake's financial outlook and helping the company stay ahead of its competitors like Dell Technologies and Oracle in the AI space. For fiscal 2027, the company raised product revenue guidance to $6.07 billion, implying 36% year-over-year growth from the previous outlook of $5.84 billion and 31% growth. Fiscal third-quarter product revenues are expected to be between $1.588 billion and $1.593 billion, indicating 37-38% growth.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/snowflakes-ai-push-fuels-revenue-164500994.html",
+      "ts": "2026-11-18T16:45:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.7230707270981203,
+      "detailSource": "yahoo_or_article_metadata",
+      "analystDetails": [],
+      "relatedTickers": [
+        "DELL",
+        "GOOGL",
+        "ORCL",
+        "SNOW"
+      ],
+      "eventType": "跨公司事件",
+      "score": 34.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "Snowflake SNOW is benefiting from accelerating enterprise adoption of artificial intelligence (AI), growing demand for its AI Data Cloud platform and expanding AI-driven workloads. Snowflake's fiscal 2027 second-quarter product revenues rose 37% year over year to $1.49 billion, marking the third consecutive quarter of accelerating growth. For fiscal 2027, the company raised product revenue guidance to $6.07 billion, implying 36% year-over-year growth from the previous outlook of $5.84 billion and 31% growth. Fiscal",
+        "numbers": [
+          "$1.49 billion",
+          "$6.07 billion",
+          "$5.84 billion",
+          "$1.588 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Snowflake SNOW is benefiting from accelerating enterprise adoption of artificial intelligence (AI), growing demand for its AI Data Cloud platform and expanding AI-driven workloads. While Dell Technologies benefits from growing demand for AI-optimized servers and infrastructure, Oracle is expanding its AI capabilities through cloud infrastructure and database offerings.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CRM",
       "group": "Cloud／Software／AI 應用",
       "tag": "利多",
@@ -762,7 +971,7 @@
       "ts": "2026-11-18T16:40:55+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -2.4958873123586356,
+      "movePct": -2.894303927616715,
       "analystDetails": [],
       "relatedTickers": [
         "CRM"
@@ -795,7 +1004,7 @@
       "ts": "2026-11-18T16:39:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.5296402139664433,
+      "movePct": 1.5039935516963476,
       "relatedTickers": [
         "SNOW"
       ],
@@ -893,7 +1102,7 @@
       "ts": "2026-11-18T16:33:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.7482461415113244,
+      "movePct": -3.5277610743636,
       "relatedTickers": [
         "CRWV"
       ],
@@ -930,7 +1139,7 @@
       "ts": "2026-11-18T16:32:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.28016053134335417,
+      "movePct": 0.08195817466118971,
       "relatedTickers": [
         "GEV"
       ],
@@ -970,44 +1179,12 @@
       "ts": "2026-11-18T16:32:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.2871517395225176,
+      "movePct": -0.14713560206939258,
       "relatedTickers": [
         "LRCX"
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "英偉達獲利上漲乏力，股市下跌：市場結束",
-      "summary": "",
-      "originalTitle": "Stocks Fall as Nvidia’s Earnings Rally Sputters: Markets Wrap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHhZZG5FcFhON3BCMkRyY201M2FVdVRTaUF2a29ScWc3ZTd4TkI1Zm44SXNOcmZoOE9tN29nalFxMllaQV9ZQVp5SFNKbFlmVWtxVmtjdGl4WVVRRnpFeVZaVjVCVGozeFVWYzF6NnM1dERENnQ5SWpLTlNsejBDS21mS2k2aUhQeHZHNU80V2dvbG9h?oc=5",
-      "ts": "2026-11-18T16:22:47+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 18.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1034,7 +1211,7 @@
       "ts": "2026-11-18T16:21:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.0270711109941821,
+      "movePct": 1.2208571203072838,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1099,7 +1276,7 @@
       "ts": "2026-11-18T16:20:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7816806133186471,
+      "movePct": 0.916971488700713,
       "relatedTickers": [
         "ONTO"
       ],
@@ -1168,7 +1345,7 @@
       "ts": "2026-11-18T16:16:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.5240321479224725,
+      "movePct": 2.519619687976049,
       "relatedTickers": [
         "VRT"
       ],
@@ -1235,7 +1412,7 @@
       "ts": "2026-11-18T16:14:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.9295267001802054,
+      "movePct": 1.114483543583411,
       "relatedTickers": [
         "COHR"
       ],
@@ -1271,7 +1448,7 @@
       "ts": "2026-11-18T16:14:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9689484827099646,
+      "movePct": 2.1700776287932433,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -1309,7 +1486,7 @@
       "ts": "2026-11-18T16:14:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.47210809102401496,
+      "movePct": -0.2281526548672641,
       "relatedTickers": [
         "MSFT"
       ],
@@ -1343,7 +1520,7 @@
       "ts": "2026-11-18T16:14:14+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.5296402139664433,
+      "movePct": 1.5039935516963476,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -1381,7 +1558,7 @@
       "ts": "2026-11-18T16:12:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9425412361790841,
+      "movePct": -1.3958673191952098,
       "relatedTickers": [
         "INTC"
       ],
@@ -1413,7 +1590,7 @@
       "ts": "2026-11-18T16:12:12+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -2.7386226339106035,
+      "movePct": -2.7230707270981203,
       "analystDetails": [],
       "relatedTickers": [
         "DELL",
@@ -1455,7 +1632,7 @@
       "ts": "2026-11-18T16:12:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.284420253868613,
+      "movePct": 2.361673387497265,
       "relatedTickers": [
         "AMD",
         "NVDA"
@@ -1522,7 +1699,7 @@
       "ts": "2026-11-18T16:11:29+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.4956158365626693,
+      "movePct": -1.654552922477992,
       "relatedTickers": [
         "LITE",
         "NVDA"
@@ -1559,7 +1736,7 @@
       "ts": "2026-11-18T16:10:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.9295267001802054,
+      "movePct": 1.114483543583411,
       "relatedTickers": [
         "COHR",
         "NVDA"
@@ -1597,7 +1774,7 @@
       "ts": "2026-11-18T16:10:20+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.32240157144076687,
+      "movePct": -0.5295072166709436,
       "relatedTickers": [
         "TER",
         "NVDA"
@@ -1635,7 +1812,7 @@
       "ts": "2026-11-18T16:10:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6451200817577885,
+      "movePct": -0.7537046499744515,
       "relatedTickers": [
         "PLTR"
       ],
@@ -1670,7 +1847,7 @@
       "ts": "2026-11-18T16:09:19+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -0.28016053134335417,
+      "movePct": 0.08195817466118971,
       "analystDetails": [],
       "relatedTickers": [
         "GEV"
@@ -1711,7 +1888,7 @@
       "ts": "2026-11-18T16:08:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.4108173197531557,
+      "movePct": -3.144435803522161,
       "relatedTickers": [
         "SNDK"
       ],
@@ -1743,7 +1920,7 @@
       "ts": "2026-11-18T16:08:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.284420253868613,
+      "movePct": 2.361673387497265,
       "relatedTickers": [
         "AMD",
         "NVDA"
@@ -1855,7 +2032,7 @@
       "ts": "2026-11-18T16:07:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.4314314799553909,
+      "movePct": -0.38780357748799954,
       "relatedTickers": [
         "META",
         "NVDA"
@@ -1986,8 +2163,8 @@
         "takeaway": "調整原因：JP Morgan maintains NVIDIA at Overweight, raises price target to $230 from $215",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 6
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -2001,7 +2178,7 @@
       "ts": "2026-11-18T16:04:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.47210809102401496,
+      "movePct": -0.2281526548672641,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2149,7 +2326,7 @@
       "ts": "2026-11-18T16:01:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.9689484827099646,
+      "movePct": 2.1700776287932433,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2189,7 +2366,7 @@
       "ts": "2026-11-18T16:01:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9425412361790841,
+      "movePct": -1.3958673191952098,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -2222,7 +2399,7 @@
       "ts": "2026-11-18T15:56:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.9304130491975768,
+      "movePct": -2.223099184425148,
       "relatedTickers": [
         "SIMO"
       ],
@@ -2357,7 +2534,7 @@
       "ts": "2026-11-18T15:53:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.4958873123586356,
+      "movePct": -2.894303927616715,
       "relatedTickers": [
         "CRM"
       ],
@@ -2389,7 +2566,7 @@
       "ts": "2026-11-18T15:52:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.3283369022127003,
+      "movePct": 0.45860099928622944,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -2454,7 +2631,7 @@
       "ts": "2026-11-18T15:51:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.2582014666152173,
+      "movePct": -2.4251254341952966,
       "relatedTickers": [
         "NVDA"
       ],
@@ -2559,7 +2736,7 @@
       "ts": "2026-11-18T15:47:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.833723653395759,
+      "movePct": 2.658079625292742,
       "relatedTickers": [
         "AVGO",
         "NVDA"
@@ -2644,7 +2821,7 @@
       "ts": "2026-11-18T15:45:55+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.4958873123586356,
+      "movePct": -2.894303927616715,
       "relatedTickers": [
         "CRM"
       ],
@@ -2702,180 +2879,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SNDK",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "讓我以 795 美元購買 SanDisk 的 3 個理由",
-      "summary": "",
-      "originalTitle": "3 Reasons Keep Me Buying SanDisk at $795",
-      "originalSummary": "SanDisk shares lost nearly 40% in a month while revenue nearly quadrupled. One investor sees a market pricing in a crash that contracts, cash flow, and buybacks suggest is not coming, and he keeps adding. What is he seeing that Wall Street is not?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-keep-buying-sandisk-154520772.html",
-      "ts": "2026-11-18T15:45:20+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.4108173197531557,
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "eventType": "",
-      "score": 3.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "SanDisk shares lost nearly 40% in a month while revenue nearly quadrupled. One investor sees a market pricing in a crash that contracts, cash flow, and buybacks suggest is not coming, and he keeps adding. What is he seeing that Wall Street is not?",
-        "numbers": [
-          "$795",
-          "40%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "SanDisk shares lost nearly 40% in a month while revenue nearly quadrupled. One investor sees a market pricing in a crash that contracts, cash flow, and buybacks suggest is not coming, and he keeps adding.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "人工智慧、資料中心需求推動 Nvidia 第三季營收達到 $115.8B",
-      "summary": "",
-      "originalTitle": "AI, data center demand drive Nvidia revenue to $115.8B in Q3",
-      "originalSummary": "NVIDIA Corporation NVDA posted third-quarter fiscal 2027 non-GAAP earnings of $2.68 per share, up 111% year over year. Earnings beat the Zacks Consensus Estimate of $2.50 by 7.20%, reflecting strong demand for artificial intelligence (AI) infrastructure and a rapid Vera Rubin rollout. Revenues surged 103% year over year to $115.84 billion, topping the consensus mark of $108.19 billion by 7.07%. Data Center sales drove top-line growth.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-beat-data-123000462.html",
-      "ts": "2026-11-18T15:44:40+00:00",
-      "sourceType": "cross_event_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 24.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "NVIDIA Corporation NVDA posted third-quarter fiscal 2027 non-GAAP earnings of $2.68 per share, up 111% year over year. Earnings beat the Zacks Consensus Estimate of $2.50 by 7.20%, reflecting strong demand for artificial intelligence (AI) infrastructure and a rapid Vera Rubin rollout. Revenues surged 103% year over year to $115.84 billion, topping the consensus mark of $108.19 billion by 7.07%. Data Center sales drove top-line growth.",
-        "numbers": [
-          "$115.8B",
-          "$2.68",
-          "$2.50 b",
-          "$115.84 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Earnings beat the Zacks Consensus Estimate of $2.50 by 7.20%, reflecting strong demand for artificial intelligence (AI) infrastructure and a rapid Vera Rubin rollout.",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著英偉達和其他人工智慧股票持續大幅波動，華爾街搖搖欲墜",
-      "summary": "",
-      "originalTitle": "Wall Street wobbles as Nvidia and other AI stocks keep swinging sharply",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU3hDeE53OWpCVkVFcFJRY0pMLU9RNWtpN01kUjl0Q3FxakMzaTJqbmppYUtnQjZCd2R4bEdCOGR0R3FfWkw3VzFFcGF5dlFnTWRXeUpsRklTQjZoNEJTV19iYUxCdHgwODhPa19qbHpweHpqNENqZ0NWaUIxdHQ5MnlwUTdxTnFpY2RKcEwxaFB5d2JEb2VPUDZvdDVtMW5UUGhERW8xYw?oc=5",
-      "ts": "2026-11-18T15:43:08+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "S&P 500 Could Hit 8,200 By End Of 2027, Says UBS — Warns Of 5,500 In ‘AI Bust’ Scenario",
-      "summary": "",
-      "originalTitle": "S&P 500 Could Hit 8,200 By End Of 2027, Says UBS — Warns Of 5,500 In ‘AI Bust’ Scenario",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWk5YZUp1MmxpYnFIVVFUcTREMFVxRDIyQmtJWXQ3V1FLUXpTVE42SWVsN041WFBlcXUzX3pJQW41UGhUVHE0ZERONnBjUWhWSjhCYnF6RDRxbnBXZVEtSkhrVVJYMU93cUN1dmVvMWdsaWlnaUFvYXNfTGRzdTJjNHc4SUdRYlJOQWc?oc=5",
-      "ts": "2026-11-18T15:42:34+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWD",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "利空",
-      "title": "上季有 29 家大型基金購買了 CrowdStrike，同時有 7 家基金出售。誰是對的？",
-      "summary": "",
-      "originalTitle": "29 Big Funds Bought CrowdStrike Last Quarter, While 7 Sold. Who’s Right?",
-      "originalSummary": "Key TakeawaysAfter adjusting for CrowdStrike’s four-for-one stock split in July, 13 big funds bought the stock in the third quarter and at least 12 sold, according to their 13Fs for the quarter ended Sept. 30.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/29-big-funds-bought-crowdstrike-154008393.html",
-      "ts": "2026-11-18T15:40:08+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 7.400491848073587,
-      "relatedTickers": [
-        "CRWD"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Key TakeawaysAfter adjusting for CrowdStrike’s four-for-one stock split in July, 13 big funds bought the stock in the third quarter and at least 12 sold, according to their 13Fs for the quarter ended Sept. 30.",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Key TakeawaysAfter adjusting for CrowdStrike’s four-for-one stock split in July, 13 big funds bought the stock in the third quarter and at least 12 sold, according to their 13Fs for the quarter ended Sept. 30.",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
       "top10": false,
