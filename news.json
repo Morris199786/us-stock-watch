@@ -1,11 +1,41 @@
 {
-  "updatedAt": "2026-11-19 07:47 台灣時間",
+  "updatedAt": "2026-11-19 07:50 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-18",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "亞洲股市將在人類首次亮相之前下跌：市場總結",
+      "summary": "",
+      "originalTitle": "Asian Stocks Set to Fall Ahead of Anthropic Debut: Markets Wrap",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMHJMMGxuVjE0QlBiMjdlLVg4Snd2RjdIVmxmMlFGX3E1cEpBS3BHaEQ0YnpUb19jc2lXMG9RQk9nSk8xSVFmN2d4VFRoSC1nQkJUdk5DTF9MWlVqRklPelgyUGpNREtJQUpEd3BTZ3A0VmVZdGRZZ21mT0x5bEdhUkd1OVVKZHNLUkRqdWY3M3VxOHBu?oc=5",
+      "ts": "2026-11-18T23:41:38+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "BA",
       "group": "太空／國防／無人系統",
@@ -208,7 +238,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 1
+      "top10Rank": 2
     },
     {
       "ticker": "MARKET",
@@ -443,33 +473,39 @@
       "group": "市場重點",
       "tag": "題材",
       "title": "穆迪將英偉達的前景從正面下調至穩定",
-      "summary": "",
+      "summary": "Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan. While the agency affirmed the chipmaker's Aa1 senior unsecured and Prime-1 short-term commercial paper ratings, it signaled that a credit upgrade is unlikely over the next 12 to 18 months as the board searches for a permanent replace",
       "originalTitle": "Moody's lowers Nvidia outlook to stable from positive",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWlBIZnFhLXNFUGNPV0Z3Y1NEMlVzWjVCX3RfX2NZLUtXVWxUZEJPb19qM1g2cXZKdGF4eFlIU3NTd0w1ekxlay1LV0tySmJ6ZmVlOUM1WXdSTENiMkJLZThQXzZzWHpzUlBpZkJvZ1A2Y3dDUlZKX190ZHFGZVpvUVdoMURxREZBb092MEtDRzZBd2hvZ2Q2MElnVQ?oc=5",
+      "originalSummary": "Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan. While the agency affirmed the chipmaker's Aa1 senior unsecured and Prime-1 short-term commercial paper ratings, it signaled that a credit upgrade is unlikely over the next 12 to 18 months as the board searches for a permanent replacement.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/moody-cuts-nvidia-credit-outlook-231405579.html",
       "ts": "2026-11-18T22:44:34+00:00",
       "sourceType": "market_search",
       "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": false,
+      "analystPriority": true,
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
       "eventType": "",
-      "score": 12.75,
+      "score": 215.25,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan. While the agency affirmed the chipmaker's Aa1 senior unsecured and Prime-1 short-term commercial paper ratings, it signaled that a credit upgrade is unlikely over the next 12 to 18 months as the board searches for a permanent replace",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "券商調整理由：Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan.",
+        "stance": "Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：Investing.com -- Moody's Ratings revised its credit outlook for NVIDIA Corporation (NASDAQ:NVDA) to stable from positive on Wednesday, citing governance uncertainty following the abrupt departure of longtime Chief Executive Officer Jensen Huang and the lack of a formal succession plan.",
+        "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 1,
+      "detailSource": "article_or_same_event",
+      "analystDetails": []
     },
     {
       "ticker": "NVDA",
@@ -678,44 +714,14 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "亞洲股市將在人類首次亮相之前下跌：市場總結",
-      "summary": "",
-      "originalTitle": "Asian Stocks Set to Fall Ahead of Anthropic Debut: Markets Wrap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMHJMMGxuVjE0QlBiMjdlLVg4Snd2RjdIVmxmMlFGX3E1cEpBS3BHaEQ0YnpUb19jc2lXMG9RQk9nSk8xSVFmN2d4VFRoSC1nQkJUdk5DTF9MWlVqRklPelgyUGpNREtJQUpEd3BTZ3A0VmVZdGRZZ21mT0x5bEdhUkd1OVVKZHNLUkRqdWY3M3VxOHBu?oc=5",
-      "ts": "2026-11-18T22:07:41+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
+      "top10Rank": 5
     },
     {
       "ticker": "CRWV",
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "今日股市，11 月 18 日：CoreWeave 下滑，因 Nvidia 的井噴盈利未能緩解債務擔憂",
-      "summary": "對人工智慧基礎設施的旺盛需求並沒有緩解投資者對跟上該行業快速擴張步伐的財務成本的擔憂。",
+      "summary": "",
       "originalTitle": "Stock Market Today, Nov. 18: CoreWeave Slides as Nvidia's Blowout Earnings Fail to Ease Debt Concerns",
       "originalSummary": "Booming demand for artificial intelligence infrastructure is doing little to alleviate investor concerns about the financial costs of keeping pace with the industry's rapid expansion.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-18-220502317.html",
@@ -729,7 +735,7 @@
       ],
       "eventType": "",
       "score": 31.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "對人工智慧基礎設施的旺盛需求並沒有緩解投資者對跟上該行業快速擴張步伐的財務成本的擔憂。",
@@ -744,7 +750,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -942,7 +948,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -1200,7 +1206,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "MRVL",
@@ -1610,8 +1616,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MU",
@@ -1740,7 +1746,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MSFT",
@@ -1858,7 +1864,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "INTC",
@@ -1998,7 +2004,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "MARKET",
@@ -2711,7 +2717,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     }
   ],
   "historyItems": [
