@@ -1,11 +1,85 @@
 {
-  "updatedAt": "2026-11-20 01:41 台灣時間",
+  "updatedAt": "2026-11-20 01:50 台灣時間",
   "historyUpdatedDate": "2026-11-20",
   "historyLastAttemptAt": "2026-11-19T16:03:48.662686+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "Microsoft’s Outlook outage didn’t end when it was fixed — a backlog of retried emails can take hours to days to clear",
+      "summary": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft’s worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started in Switzerland, according to a source familiar with the outage. Excha",
+      "originalTitle": "Microsoft’s Outlook outage didn’t end when it was fixed — a backlog of retried emails can take hours to days to clear",
+      "originalSummary": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft’s worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started in Switzerland, according to a source familiar with the outage. Exchange Online servers that power Outlook started to fall offline. The problem quickly spread to Mexico, and then to other countries around the world, as Microsoft’s failover systems tried to shift email traffic elsewhere. Within a couple of hours, more than 80 percent of Exchange servers were unresponsive. Sources tell me that Microsoft marked the outage as “sev0” in its internal incident tracking system, the highest level, which indicates a catastrophic level of service disruption. Hundreds of engineers began trying to figure out what had gone wrong, and how to restore service. It’s not unusual for servers to fail under certain circumstances, but Microsoft has a variety of systems that are supposed to route traffic toward healthy servers to keep the broader system online. In this case, the failover systems did their job, but they also spread the problem. In the early hours of the outage, engineers were analyzing crash reports, trace logs, and kernel dumps to try and find clues to the giant outage. Some servers had entered into maintenance mode and became unresponsive due to unusually high CPU loads. Engineers tried to bring servers back online, but they were almost immediately overwhelmed by traffic waiting to access the servers. Exchange servers boot up and run an OS over a network (Preboot Execution Environment), a process that allows Microsoft’s support staff and engineers to manage OS updates remotely. I understand that the sudden burst of traffic from servers being rebooted was overwhelming the systems monitoring them, causing a form of reboot loop where they kept trying and failing to come back online. As engineers continued to hunt for the root cause, Microsoft was even struggling to roll back servers to a healthy state using its usual processes of reverting recent changes. As the outside world began to wonder if this outage was related to a cyberattack or sloppy AI coding, Microsoft’s engineers were already investigating potential attack vectors and liaising with DDoS specialists to understand whether this could have been an attack. I’m told crash reports and logs quickly ruled out the possibility of an attack, and after recent rollbacks failed, Microsoft’s engineers began to take a closer look at the networking stack of the servers and discovered an unusual bug. It was unusual because the bug had been sitting on Microsoft 365 networking gateway servers since July without any impact to servers. “A latent defect caused servers to become overwhelmed and unresponsive under certain load conditions,” wrote Charles Lamanna, the leader of Microsoft’s Copilot, Agents, and Platform (CAP) team, in a post on X. The teams behind Office, Outlook, and Microsoft Teams all started reporting to Lamanna last month after the head of Office and",
+      "url": "https://www.theverge.com/tech/1035364/microsoft-outlook-outage-notepad",
+      "ts": "2026-11-19T17:34:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "新題材",
+      "score": 23.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings. But barely an hour later, one of Microsoft’s worst outages in history started to unfold, leaving employees, businesses, and many governments without access to Outlook emails for nearly 24 hours. It all started in Switzerland, according to a source familiar with the outage.",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "At 9AM last Thursday, everything seemed normal. Microsoft employees were arriving on campus, ready for a regular day of emails and meetings.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
+    {
+      "ticker": "META",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Meta’s Advertising Business Could Drive Another Major Earnings Surprise",
+      "summary": "A $9.89 billion legal settlement turned a blockbuster ad quarter into an apparent earnings miss. Meta's growth engine is still accelerating, and the gap between the headline and the reality could set up a sharp reversal.",
+      "originalTitle": "Meta’s Advertising Business Could Drive Another Major Earnings Surprise",
+      "originalSummary": "A $9.89 billion legal settlement turned a blockbuster ad quarter into an apparent earnings miss. Meta's growth engine is still accelerating, and the gap between the headline and the reality could set up a sharp reversal.",
+      "url": "https://finance.yahoo.com/media-advertising/articles/meta-advertising-business-could-drive-173348426.html",
+      "ts": "2026-11-19T17:33:48+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.0310198254323666,
+      "relatedTickers": [
+        "META"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "A $9.89 billion legal settlement turned a blockbuster ad quarter into an apparent earnings miss. Meta's growth engine is still accelerating, and the gap between the headline and the reality could set up a sharp reversal.",
+        "numbers": [
+          "$9.89 billion",
+          "9.89 billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "A $9.89 billion legal settlement turned a blockbuster ad quarter into an apparent earnings miss. Meta's growth engine is still accelerating, and the gap between the headline and the reality could set up a sharp reversal.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MU",
       "group": "記憶體／儲存",
@@ -18,7 +92,7 @@
       "ts": "2026-11-19T17:31:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.9887135423313209,
+      "movePct": -0.21693819388318714,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -44,6 +118,157 @@
       "top10Rank": null
     },
     {
+      "ticker": "BE",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "AI Winner Bloom Energy Has 35% Room To Run After Doubling: Analyst",
+      "summary": "Bloom Energy is executing on fuel cells for AI data centers, former skeptics say. But shares reversed lower.",
+      "originalTitle": "AI Winner Bloom Energy Has 35% Room To Run After Doubling: Analyst",
+      "originalSummary": "Bloom Energy is executing on fuel cells for AI data centers, former skeptics say. But shares reversed lower.",
+      "url": "https://www.investors.com/news/bloom-energy-stock-ai-power-play-room-to-run/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-19T17:29:21+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.07603228447772281,
+      "relatedTickers": [
+        "BE"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "Anthropic Just Raised $81 Billion in the Biggest IPO Ever, Ahead of SpaceX. But Is It the Better Buy?",
+      "summary": "2026 is the year of the blockbuster initial public offering (IPO). After Space Exploration Technologies ' (NASDAQ:SPCX) record-shattering debut in June, when it raised $80 billion, artificial intelligence (AI) giant Anthropic (NASDAQ:ANT) has edged it out with an $81 billion raise. Demand was so high that the company raised its share price from $70 to $83, and the company will debut with a $1.5 trillion valuation, ma",
+      "originalTitle": "Anthropic Just Raised $81 Billion in the Biggest IPO Ever, Ahead of SpaceX. But Is It the Better Buy?",
+      "originalSummary": "2026 is the year of the blockbuster initial public offering (IPO). After Space Exploration Technologies ' (NASDAQ:SPCX) record-shattering debut in June, when it raised $80 billion, artificial intelligence (AI) giant Anthropic (NASDAQ:ANT) has edged it out with an $81 billion raise. Demand was so high that the company raised its share price from $70 to $83, and the company will debut with a $1.5 trillion valuation, making it the tenth most valuable company in the U.S. based on today's prices.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-just-raised-81-billion-172901047.html",
+      "ts": "2026-11-19T17:29:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.527386759581886,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "2026 is the year of the blockbuster initial public offering (IPO). After Space Exploration Technologies ' (NASDAQ:SPCX) record-shattering debut in June, when it raised $80 billion, artificial intelligence (AI) giant Anthropic (NASDAQ:ANT) has edged it out with an $81 billion raise. Demand was so high that the company raised its share price from $70 to $83, and the company will debut with a $1.5 trillion valuation, ma",
+        "numbers": [
+          "$81 Billion",
+          "$80 billion",
+          "$81 billion",
+          "$70"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Demand was so high that the company raised its share price from $70 to $83, and the company will debut with a $1.5 trillion valuation, ma",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ARM",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Nvidia reportedly approaches Arm CEO Rene Haas in search for Jensen Huang successor",
+      "summary": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has reportedly approached Arm Holdings chief executive Rene Haas as a potential successor to Jensen Huang, as the artificial intelligence (AI) chipmaker searches for permanent leadership following the former chief executive’s departure. Recruitment firm...",
+      "originalTitle": "Nvidia reportedly approaches Arm CEO Rene Haas in search for Jensen Huang successor",
+      "originalSummary": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has reportedly approached Arm Holdings chief executive Rene Haas as a potential successor to Jensen Huang, as the artificial intelligence (AI) chipmaker searches for permanent leadership following the former chief executive’s departure. Recruitment firm...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-approaches-arm-ceo-172800614.html",
+      "ts": "2026-11-19T17:28:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -1.7673451521120542,
+      "relatedTickers": [
+        "ARM",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has reportedly approached Arm Holdings chief executive Rene Haas as a potential successor to Jensen Huang, as the artificial intelligence (AI) chipmaker searches for permanent leadership following the former chief executive’s departure. Recruitment firm...",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Nvidia Corp (NASDAQ:NVDA, XETRA:NVD) has reportedly approached Arm Holdings chief executive Rene Haas as a potential successor to Jensen Huang, as the artificial intelligence (AI) chipmaker searches for permanent leadership following the former chief executive’s departure. Recruitment firm...",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 10
+    },
+    {
+      "ticker": "MU",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "Micron Stocks Jump 6.63% as 75% of 2027 Capacity Sells Out",
+      "summary": "Micron Technology ( NASDAQ:MU ) shares jumped 6.63% to $752.01 at 9:45 a.m. ET on November 19 in regular trading, as investors reacted to management's November 18 statement that 75% of 2027 production capacity is sold out. Anthropic's final prospectus also confirmed that Micron will buy 12,048,192 Class N shares for about $1.0 billion at the $83 IPO price. Warning! GuruFocus has detected 4 Warning Signs with MU. Is M",
+      "originalTitle": "Micron Stocks Jump 6.63% as 75% of 2027 Capacity Sells Out",
+      "originalSummary": "Micron Technology ( NASDAQ:MU ) shares jumped 6.63% to $752.01 at 9:45 a.m. ET on November 19 in regular trading, as investors reacted to management's November 18 statement that 75% of 2027 production capacity is sold out. Anthropic's final prospectus also confirmed that Micron will buy 12,048,192 Class N shares for about $1.0 billion at the $83 IPO price. Warning! GuruFocus has detected 4 Warning Signs with MU. Is MU fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stocks-jump-6-63-172727188.html",
+      "ts": "2026-11-19T17:27:27+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -0.21693819388318714,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "MU"
+      ],
+      "eventType": "新題材",
+      "score": 13.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Micron Technology ( NASDAQ:MU ) shares jumped 6.63% to $752.01 at 9:45 a.m. ET on November 19 in regular trading, as investors reacted to management's November 18 statement that 75% of 2027 production capacity is sold out. Anthropic's final prospectus also confirmed that Micron will buy 12,048,192 Class N shares for about $1.0 billion at the $83 IPO price. Warning!",
+        "numbers": [
+          "$752.01",
+          "$1.0 billion",
+          "$83",
+          "6.63%"
+        ],
+        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "stance": "ET on November 19 in regular trading, as investors reacted to management's November 18 statement that 75% of 2027 production capacity is sold out.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -55,7 +280,7 @@
       "ts": "2026-11-19T17:24:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.15235824059354197,
+      "movePct": -0.8894409114997393,
       "relatedTickers": [
         "NVDA"
       ],
@@ -147,6 +372,46 @@
       "top10Rank": null
     },
     {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Intel Stocks Jump 7.87% After Foundry Signs First Outside 18A Customer",
+      "summary": "Intel ( NASDAQ:INTC ) shares jumped 7.87% to $58.98 at 9:45 a.m. ET on November 19 in regular trading, after CEO Lip-Bu Tan said at the TomorrowX Summit in Austin that Intel signed its first external customer for 18A chipmaking. Chief technology officer Pushkar Ranade clarified that the client chose the 18A-P process, which entered risk production in June. Warning! GuruFocus has detected 5 Warning Signs with INTC. Is",
+      "originalTitle": "Intel Stocks Jump 7.87% After Foundry Signs First Outside 18A Customer",
+      "originalSummary": "Intel ( NASDAQ:INTC ) shares jumped 7.87% to $58.98 at 9:45 a.m. ET on November 19 in regular trading, after CEO Lip-Bu Tan said at the TomorrowX Summit in Austin that Intel signed its first external customer for 18A chipmaking. Chief technology officer Pushkar Ranade clarified that the client chose the 18A-P process, which entered risk production in June. Warning! GuruFocus has detected 5 Warning Signs with INTC. Is INTC fairly valued? Test your thesis with our free DCF calculator.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-jump-7-87-172405695.html",
+      "ts": "2026-11-19T17:24:05+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 3.713188220230479,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "新題材",
+      "score": 13.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Intel ( NASDAQ:INTC ) shares jumped 7.87% to $58.98 at 9:45 a.m. ET on November 19 in regular trading, after CEO Lip-Bu Tan said at the TomorrowX Summit in Austin that Intel signed its first external customer for 18A chipmaking. Chief technology officer Pushkar Ranade clarified that the client chose the 18A-P process, which entered risk production in June. Warning!",
+        "numbers": [
+          "$58.98",
+          "7.87%"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "ET on November 19 in regular trading, after CEO Lip-Bu Tan said at the TomorrowX Summit in Austin that Intel signed its first external customer for 18A chipmaking.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "MSFT",
       "group": "CSP",
       "tag": "利空",
@@ -158,7 +423,7 @@
       "ts": "2026-11-19T17:22:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7224379570676787,
+      "movePct": 0.4454869803473205,
       "relatedTickers": [
         "MSFT"
       ],
@@ -182,8 +447,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "AMZN",
+      "group": "CSP",
       "tag": "題材",
       "title": "Factbox-From Amazon to Google, the deep-pocketed investors in Anthropic",
       "summary": "Nov 19 () - Anthropic’s market value hit $2 ‌trillion in its ‌Nasdaq debut on Thursday, with ​shares opening 34% above the $83 IPO price, offering a strong early ‌signal ⁠of appetite for the AI trade. Few ⁠startups have attracted as much investor interest ​as Anthropic, ​which ​is backed ‌by technology heavyweights from Alphabet to Nvidia and whose private valuation climbed to near-unprecedented heights ‌before its ​",
@@ -193,11 +458,11 @@
       "ts": "2026-11-19T17:22:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.15235824059354197,
+      "movePct": -1.2717561813699985,
       "relatedTickers": [
-        "NVDA",
+        "AMZN",
         "GOOGL",
-        "AMZN"
+        "NVDA"
       ],
       "eventType": "",
       "score": 21.0,
@@ -218,8 +483,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 8
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SPCX",
@@ -263,7 +528,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Anthropic shares soar in Nasdaq trading debut, surging 39%",
-      "summary": "Anthropic raised a record $81.3 billion, catapulting it past SpaceX, which raised $75 billion​ when it went public in June.",
+      "summary": "",
       "originalTitle": "Anthropic shares soar in Nasdaq trading debut, surging 39%",
       "originalSummary": "Anthropic raised a record $81.3 billion, catapulting it past SpaceX, which raised $75 billion​ when it went public in June.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-set-start-trading-completing-135519162.html",
@@ -276,7 +541,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -339,7 +604,7 @@
       "ts": "2026-11-19T17:15:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7246376811594235,
+      "movePct": -0.06587615283267789,
       "relatedTickers": [
         "NOK"
       ],
@@ -378,12 +643,12 @@
       "ts": "2026-11-19T17:15:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.977402195646432,
+      "movePct": -7.968649790621352,
       "relatedTickers": [
         "AMD"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -399,11 +664,46 @@
       "top10Rank": null
     },
     {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "AI Backlog Might Change The Case For Investing In Dell Technologies (DELL)",
+      "summary": "Dell Technologies expanded the Dell AI Factory with NVIDIA, adding new data orchestration tools, direct liquid cooled rack scale storage and large scale infrastructure management software designed to support AI workloads from data preparation through deployment. The push into liquid cooled exascale storage and codified AI services suggests Dell is trying to deepen its role in high value enterprise AI infrastructure r",
+      "originalTitle": "AI Backlog Might Change The Case For Investing In Dell Technologies (DELL)",
+      "originalSummary": "Dell Technologies expanded the Dell AI Factory with NVIDIA, adding new data orchestration tools, direct liquid cooled rack scale storage and large scale infrastructure management software designed to support AI workloads from data preparation through deployment. The push into liquid cooled exascale storage and codified AI services suggests Dell is trying to deepen its role in high value enterprise AI infrastructure rather than relying only on AI server volumes. We will look at how Dell...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ai-backlog-might-change-case-171345062.html",
+      "ts": "2026-11-19T17:13:45+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 2.1909233176838905,
+      "relatedTickers": [
+        "DELL",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 28.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Dell Technologies expanded the Dell AI Factory with NVIDIA, adding new data orchestration tools, direct liquid cooled rack scale storage and large scale infrastructure management software designed to support AI workloads from data preparation through deployment. The push into liquid cooled exascale storage and codified AI services suggests Dell is trying to deepen its role in high value enterprise AI infrastructure r",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Dell Technologies expanded the Dell AI Factory with NVIDIA, adding new data orchestration tools, direct liquid cooled rack scale storage and large scale infrastructure management software designed to support AI workloads from data preparation through deployment.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 6
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
-      "summary": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday. US lawmakers have been asking questions ‌about Trump's knowledge of Huang's personal life, and the pres",
+      "summary": "",
       "originalTitle": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
       "originalSummary": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday. US lawmakers have been asking questions ‌about Trump's knowledge of Huang's personal life, and the president has said he \"was amazed\" by the allegations against Huang, who is among t",
       "url": "https://finance.yahoo.com/markets/stocks/articles/trump-bought-265-000-nvidia-154558457.html",
@@ -416,16 +716,16 @@
       ],
       "eventType": "新題材",
       "score": 19.5,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday. US lawmakers have been asking questions ‌about Trump's knowledge of Huang's personal life, and the pres",
+        "event": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday. US lawmakers have been asking questions ‌about Trump's knowledge of Huang's personal life, and the president has said he \"was amazed\" by the allegations against Huang, who is among t",
         "numbers": [
           "$265,000",
           "$15,000"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday.",
+        "stance": "WASHINGTON, Nov 19 (Reuters) - US President Donald Trump bought as much as $265,000 in Nvidia stock and sold as much as $15,000 worth of the stock in September, weeks before reports surfaced of CEO Jensen Huang's ties ‌to an alleged Chinese spy, according to Trump's latest financial disclosure released on Thursday. US lawmakers have been asking questions ‌about Trump's knowledge of Huang's personal life, and the president has said he \"was amazed\" by the allegations against Huang, who is among t",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -468,25 +768,22 @@
       "top10Rank": null
     },
     {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "題材",
-      "title": "Intel Shares Jump After CEO Tan Reveals First Outside 18A Foundry Customer",
+      "title": "Meta rethinks climate goal as AI emissions soar 45%",
       "summary": "",
-      "originalTitle": "Intel Shares Jump After CEO Tan Reveals First Outside 18A Foundry Customer",
+      "originalTitle": "Meta rethinks climate goal as AI emissions soar 45%",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIcks4T2dtOFRXZ1hEZGZBbkpFcXRZNi16bHBsd2VaMUlZSXBhbVJXaEZhUXM2WDBxNm1LRV9DMzI1RGhYVXRuNVpwd3FnWW9fcFQ2TW0xVHNvZjRtT0hodTZjQ0hPZ0N6bWMzQ3FSZmF3UmhNLUE?oc=5",
-      "ts": "2026-11-19T17:05:00+00:00",
-      "sourceType": "active_search",
-      "movePct": 4.674775928297059,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "新題材",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwem1sTDFvMFZwbllnNEVJd2lsa0hqbERQQzJVTHY5NzdyQmJsM2hTcUVTaDdlcHVYZUxiMk9nMWMxYThyV1FZYi1SejJ5cXBhYkVaTnVISGN6SUo2Qk1VR0lZTGlvUQ?oc=5",
+      "ts": "2026-11-19T17:05:02+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
       "analystPriority": false,
-      "score": 20.25,
-      "featured": true,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -501,24 +798,64 @@
       "top10Rank": null
     },
     {
+      "ticker": "INTC",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Intel Shares Jump After CEO Tan Reveals First Outside 18A Foundry Customer",
+      "summary": "",
+      "originalTitle": "Intel Shares Jump After CEO Tan Reveals First Outside 18A Foundry Customer",
+      "originalSummary": "Key TakeawaysIntel shares jumped 8% after CEO Lip-Bu Tan said it signed its first outside 18A customer, with yields at 70%. It’s the best evidence yet that Intel’s foundry can win outside business.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-soars-8-first-outside-150154776.html",
+      "ts": "2026-11-19T17:05:00+00:00",
+      "sourceType": "active_search",
+      "movePct": 4.674775928297059,
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "INTC"
+      ],
+      "eventType": "新題材",
+      "analystPriority": false,
+      "score": 20.25,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "Key TakeawaysIntel shares jumped 8% after CEO Lip-Bu Tan said it signed its first outside 18A customer, with yields at 70%. It’s the best evidence yet that Intel’s foundry can win outside business.",
+        "numbers": [
+          "8%",
+          "70%"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Key TakeawaysIntel shares jumped 8% after CEO Lip-Bu Tan said it signed its first outside 18A customer, with yields at 70%.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
+    },
+    {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "TSLL 2X Tesla ETF Is Down 50% in 2026: Can It Double to $20 from Here?",
-      "summary": "Tesla has lost far less than the fund built to double its daily moves, and the gap points to a hidden math problem. Why a Tesla rebound might still leave TSLL holders stranded, and what kind of rally could actually change that?",
+      "summary": "",
       "originalTitle": "TSLL 2X Tesla ETF Is Down 50% in 2026: Can It Double to $20 from Here?",
       "originalSummary": "Tesla has lost far less than the fund built to double its daily moves, and the gap points to a hidden math problem. Why a Tesla rebound might still leave TSLL holders stranded, and what kind of rally could actually change that?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tsll-2x-tesla-etf-down-170433926.html",
       "ts": "2026-11-19T17:04:33+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6463045971020542,
+      "movePct": -1.1751276972792768,
       "relatedTickers": [
         "TSLA"
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "Tesla has lost far less than the fund built to double its daily moves, and the gap points to a hidden math problem. Why a Tesla rebound might still leave TSLL holders stranded, and what kind of rally could actually change that?",
@@ -538,36 +875,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Meta rethinks climate goal as AI emissions soar 45%",
-      "summary": "",
-      "originalTitle": "Meta rethinks climate goal as AI emissions soar 45%",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwem1sTDFvMFZwbllnNEVJd2lsa0hqbERQQzJVTHY5NzdyQmJsM2hTcUVTaDdlcHVYZUxiMk9nMWMxYThyV1FZYi1SejJ5cXBhYkVaTnVISGN6SUo2Qk1VR0lZTGlvUQ?oc=5",
-      "ts": "2026-11-19T17:03:45+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 15.75,
-      "featured": true,
-      "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "ASTS",
       "group": "太空／國防／無人系統",
       "tag": "利多",
@@ -579,7 +886,7 @@
       "ts": "2026-11-19T17:03:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 3.530796390741475,
+      "movePct": 3.1384856806590866,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -589,7 +896,7 @@
       ],
       "eventType": "跨公司事件",
       "score": 228.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "AST SpaceMobile (ASTS) has plunged 37% in a month on dilution and launch delays, yet B. Riley upgraded it to Buy with a $48 target. Firefly (FLY) surged 24% even as its new engine customer sank, while Rocket Lab (RKLB) gained 2% and SpaceX (SPCX) slipped 6%. Recovery hinges on steady BlueBird launches and avoiding heavy dilution, but $4 billion in debt and recurring launch slips keep risk high.",
@@ -617,20 +924,20 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Qualcomm vs. Taiwan Semiconductor: Diverging Revenue Trends for Major Chipmakers",
-      "summary": "TSMC's quarterly revenue has climbed in nearly every period over the past two years, while Qualcomm's has slipped, and the gap is widening fast.",
+      "summary": "",
       "originalTitle": "Qualcomm vs. Taiwan Semiconductor: Diverging Revenue Trends for Major Chipmakers",
       "originalSummary": "TSMC's quarterly revenue has climbed in nearly every period over the past two years, while Qualcomm's has slipped, and the gap is widening fast.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-vs-taiwan-semiconductor-diverging-170302009.html",
       "ts": "2026-11-19T17:03:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.272636255553474,
+      "movePct": 2.2620611976722493,
       "relatedTickers": [
         "QCOM"
       ],
       "eventType": "",
       "score": 6.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -660,7 +967,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -686,7 +993,7 @@
       "ts": "2026-11-19T16:59:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.7224379570676787,
+      "movePct": 0.4454869803473205,
       "relatedTickers": [
         "MSFT"
       ],
@@ -724,12 +1031,12 @@
       "ts": "2026-11-19T16:59:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.674775928297059,
+      "movePct": 3.713188220230479,
       "relatedTickers": [
         "INTC"
       ],
       "eventType": "新題材",
-      "score": 18.0,
+      "score": 13.5,
       "featured": false,
       "translated": false,
       "investorBrief": {
@@ -756,7 +1063,7 @@
       "ts": "2026-11-19T16:52:35+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.272636255553474,
+      "movePct": 2.2620611976722493,
       "relatedTickers": [
         "QCOM",
         "GOOGL"
@@ -780,7 +1087,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "GFS",
@@ -794,7 +1101,7 @@
       "ts": "2026-11-19T16:52:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.07532011046949005,
+      "movePct": -0.6527742907356249,
       "relatedTickers": [
         "GFS"
       ],
@@ -855,8 +1162,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMAT",
@@ -870,7 +1177,7 @@
       "ts": "2026-11-19T16:49:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.5279870369843906,
+      "movePct": -2.4589930920771996,
       "relatedTickers": [
         "AMAT"
       ],
@@ -939,12 +1246,12 @@
       "ts": "2026-11-19T16:43:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.674775928297059,
+      "movePct": 3.713188220230479,
       "relatedTickers": [
         "INTC"
       ],
       "eventType": "新題材",
-      "score": 18.0,
+      "score": 13.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1003,7 +1310,7 @@
       "ts": "2026-11-19T16:36:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.313862607980255,
+      "movePct": -3.3782394076511735,
       "relatedTickers": [
         "VRT",
         "BE",
@@ -1042,7 +1349,7 @@
       "ts": "2026-11-19T16:35:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9405162428989033,
+      "movePct": -1.6026418840659695,
       "relatedTickers": [
         "TSM"
       ],
@@ -1079,7 +1386,7 @@
       "ts": "2026-11-19T16:34:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.5451290748068613,
+      "movePct": -2.524967024684388,
       "relatedTickers": [
         "RKLB"
       ],
@@ -1113,7 +1420,7 @@
       "ts": "2026-11-19T16:34:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.5451290748068613,
+      "movePct": -2.524967024684388,
       "relatedTickers": [
         "RKLB"
       ],
@@ -1290,12 +1597,12 @@
       "ts": "2026-11-19T16:28:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.977402195646432,
+      "movePct": -7.968649790621352,
       "relatedTickers": [
         "AMD"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1355,7 +1662,7 @@
       "ts": "2026-11-19T16:26:35+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.6463045971020542,
+      "movePct": -1.1751276972792768,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1712,7 +2019,7 @@
       "ts": "2026-11-19T16:16:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 3.530796390741475,
+      "movePct": 3.1384856806590866,
       "analystDetails": [],
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
@@ -1778,7 +2085,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "TSM",
@@ -1792,7 +2099,7 @@
       "ts": "2026-11-19T16:13:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9405162428989033,
+      "movePct": -1.6026418840659695,
       "relatedTickers": [
         "TSM"
       ],
@@ -1857,7 +2164,7 @@
       "ts": "2026-11-19T16:10:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.3968253968253954,
+      "movePct": 0.11574074074074403,
       "relatedTickers": [
         "KTOS"
       ],
@@ -1895,7 +2202,7 @@
       "ts": "2026-11-19T16:10:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.5279870369843906,
+      "movePct": -2.4589930920771996,
       "relatedTickers": [
         "AMAT"
       ],
@@ -1933,7 +2240,7 @@
       "ts": "2026-11-19T16:10:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.321516399987212,
+      "movePct": 2.1909233176838905,
       "relatedTickers": [
         "DELL"
       ],
@@ -1967,7 +2274,7 @@
       "ts": "2026-11-19T16:09:12+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.5085529357373941,
+      "movePct": -0.3282478039759673,
       "relatedTickers": [
         "GLW"
       ],
@@ -2003,7 +2310,7 @@
       "ts": "2026-11-19T16:08:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 1.3978243069364904,
+      "movePct": 0.07603228447772281,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [
         {
@@ -2052,13 +2359,13 @@
       "ts": "2026-11-19T16:06:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.674775928297059,
+      "movePct": 3.713188220230479,
       "relatedTickers": [
         "INTC",
         "AMD"
       ],
       "eventType": "",
-      "score": 19.5,
+      "score": 15.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2191,7 +2498,7 @@
       "ts": "2026-11-19T16:04:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.15235824059354197,
+      "movePct": -0.8894409114997393,
       "relatedTickers": [
         "NVDA"
       ],
@@ -2355,7 +2662,7 @@
       "ts": "2026-11-19T16:01:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.9242121848739515,
+      "movePct": -1.223686974789917,
       "relatedTickers": [
         "CRM"
       ],
@@ -2441,8 +2748,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "COHR",
@@ -2456,7 +2763,7 @@
       "ts": "2026-11-19T15:57:32+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.862243939109189,
+      "movePct": 2.48073670362714,
       "relatedTickers": [
         "COHR",
         "FN"
@@ -2497,7 +2804,7 @@
       "ts": "2026-11-19T15:55:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.8710407239818974,
+      "movePct": -1.6968325791855254,
       "relatedTickers": [
         "ONDS",
         "UMAC"
@@ -2549,286 +2856,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Anthropic IPO 即時更新：納斯達剋期貨上漲近 2%——股價首日上漲 25%",
-      "summary": "",
-      "originalTitle": "Anthropic IPO Live Updates: Nasdaq Futures Up Nearly 2%—As Shares Could Pop 25% In Debut",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRXVNQzJpZnJCSE04VXQ0MFlwYmpuSXZpbWJkcjJzbDZsU0dqQXo2c3IzNHI2ZE0zSHBrVkhoMmhXRlVJYmpJejJaWVQ0aWtfc2I5UXZ5a3Byb2poc0Q4eHE5eWRKamFNRmZrYW1BM19ub3NxU3lBMkpENHBpOUxXb1I1SnJQR0h0eGxTcG9MVURTQjBXNG9aSUpKdGcwM185N2owS3JpOEYxSS1qUEt2ZlRMT0dYWkV0VEZBYXVQOVliUkpXQ0RzeUwtekI5dw?oc=5",
-      "ts": "2026-11-19T15:53:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Anthropic IPO 即時更新：首日股價可能上漲 25%",
-      "summary": "",
-      "originalTitle": "Anthropic IPO Live Updates: Shares Could Pop 25% In Debut",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRXVNQzJpZnJCSE04VXQ0MFlwYmpuSXZpbWJkcjJzbDZsU0dqQXo2c3IzNHI2ZE0zSHBrVkhoMmhXRlVJYmpJejJaWVQ0aWtfc2I5UXZ5a3Byb2poc0Q4eHE5eWRKamFNRmZrYW1BM19ub3NxU3lBMkpENHBpOUxXb1I1SnJQR0h0eGxTcG9MVURTQjBXNG9aSUpKdGcwM185N2owS3JpOEYxSS1qUEt2ZlRMT0dYWkV0VEZBYXVQOVliUkpXQ0RzeUwtekI5dw?oc=5",
-      "ts": "2026-11-19T15:53:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光科技 2027 年產量已承諾 75% 以上，但較最高水準低 44%",
-      "summary": "",
-      "originalTitle": "Micron Is 44% Below Its High With Over 75% of Its 2027 Output Already Committed",
-      "originalSummary": "Key TakeawaysMicron is 44% below its 52-week high after a 20% fall in the past month, as GF Securities warned NAND flash could move into surplus in 2027. Over 75% of Micron’s 2027 output is committed, but its contracted minimum revenue for the next 12 months covers only about an eighth of fiscal 2027 consensus.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-44-below-high-over-155213389.html",
-      "ts": "2026-11-19T15:52:13+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.9887135423313209,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 3.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Key TakeawaysMicron is 44% below its 52-week high after a 20% fall in the past month, as GF Securities warned NAND flash could move into surplus in 2027. Over 75% of Micron’s 2027 output is committed, but its contracted minimum revenue for the next 12 months covers only about an eighth of fiscal 2027 consensus.",
-        "numbers": [
-          "44%",
-          "75%",
-          "20%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Key TakeawaysMicron is 44% below its 52-week high after a 20% fall in the past month, as GF Securities warned NAND flash could move into surplus in 2027. Over 75% of Micron’s 2027 output is committed, but its contracted minimum revenue for the next 12 months covers only about an eighth of fiscal 2027 consensus.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "亞馬遜警告紐約勞工法案可能會提高訂單成本",
-      "summary": "",
-      "originalTitle": "Amazon warns New York labor bill could hike order costs",
-      "originalSummary": "Amazon warned Thursday that labor protections being considered by the New York City council \"could add up to $5 per order,\" as the retail giant rallied against legislation backed by leftist Mayor Zohran Mamdani. But Amazon claimed the legislation would result in slower and more expensive delivery for customers in New York, the United States' largest city.",
-      "url": "https://finance.yahoo.com/economy/policy/articles/amazon-warns-york-labor-bill-154951850.html",
-      "ts": "2026-11-19T15:49:51+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.5938597146485369,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Amazon warned Thursday that labor protections being considered by the New York City council \"could add up to $5 per order,\" as the retail giant rallied against legislation backed by leftist Mayor Zohran Mamdani. But Amazon claimed the legislation would result in slower and more expensive delivery for customers in New York, the United States' largest city.",
-        "numbers": [
-          "$5"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Amazon warned Thursday that labor protections being considered by the New York City council \"could add up to $5 per order,\" as the retail giant rallied against legislation backed by leftist Mayor Zohran Mamdani. But Amazon claimed the legislation would result in slower and more expensive delivery for customers in New York, the United States' largest city.",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "人工智慧巨頭 Anthropic 股票將在破紀錄的 IPO 後開始交易",
-      "summary": "",
-      "originalTitle": "AI giant Anthropic shares set to trade after record-breaking IPO",
-      "originalSummary": "Anthropic shares will begin trading on the Nasdaq on Thursday after the AI giant raised $81.3 billion in a record-breaking initial public offering, as hot demand brushed aside market jitters over the Nvidia spy scandal and fears of a tech bubble.Nvidia, the chip giant at the center of the AI investment boom and an investor in Anthropic and dozens of other AI companies, has been shaken by the resignation of chief executive Jensen Huang after a reported affair with a woman suspected by US intellig",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html",
-      "ts": "2026-11-19T15:48:25+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.0914149443561172,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Anthropic shares will begin trading on the Nasdaq on Thursday after the AI giant raised $81.3 billion in a record-breaking initial public offering, as hot demand brushed aside market jitters over the Nvidia spy scandal and fears of a tech bubble.Nvidia, the chip giant at the center of the AI investment boom and an investor in Anthropic and dozens of other AI companies, has been shaken by the resignation of chief executive Jensen Huang after a reported affair with a woman suspected by US intellig",
-        "numbers": [
-          "$81.3 billion",
-          "81.3 billion"
-        ],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Anthropic shares will begin trading on the Nasdaq on Thursday after the AI giant raised $81.3 billion in a record-breaking initial public offering, as hot demand brushed aside market jitters over the Nvidia spy scandal and fears of a tech bubble.Nvidia, the chip giant at the center of the AI investment boom and an investor in Anthropic and dozens of other AI companies, has been shaken by the resignation of chief executive Jensen Huang after a reported affair with a woman suspected by US intellig",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "Nebius (NBIS) 的機構流量：50% 的選擇權資金為買權，11 月 19 日",
-      "summary": "",
-      "originalTitle": "Institutional Flow in Nebius (NBIS): 50% of the Options Money Is in Calls, Nov 19",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMzA4TjBCRnZnWGdOUmRfbm16RV9CQmFyTG51QWpxZnlpMkc0QlNGM2NEZWpXYl9LeEprVGxScEY0eWQ5ZWhyXzJoRXJkTldsbUNKcVFvaXlzNF9HRDBjbG1QOVA0eUlycXE3Y1p2TWFYSlNIaHVqVklxTjdTQU9ibHc0clNYUW5BTWV2U28xT2ZLMnJPYU9kdXpoN09lcXhxRzQzcE9ERWZQRWpIeF82NA?oc=5",
-      "ts": "2026-11-19T15:47:45+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -4.188575168287201,
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 7.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MU",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "美光本月股價下跌 20%：這家華爾街專業人士熱衷於將價格從這裡翻兩番",
-      "summary": "",
-      "originalTitle": "Micron Cratered 20% This Month: This Wall Street Pro is Ardent That It Quadruples in Price From Here",
-      "originalSummary": "Micron keeps smashing earnings estimates, yet investors are dumping the stock as if the party is over. One analyst sees a bigger payoff than anyone else on the Street, and the case hinges on a single question about the memory cycle.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-cratered-20-month-wall-154539130.html",
-      "ts": "2026-11-19T15:45:39+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.9887135423313209,
-      "relatedTickers": [
-        "MU"
-      ],
-      "eventType": "",
-      "score": 9.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Micron keeps smashing earnings estimates, yet investors are dumping the stock as if the party is over. One analyst sees a bigger payoff than anyone else on the Street, and the case hinges on a single question about the memory cycle.",
-        "numbers": [
-          "20%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Micron keeps smashing earnings estimates, yet investors are dumping the stock as if the party is over. One analyst sees a bigger payoff than anyone else on the Street, and the case hinges on a single question about the memory cycle.",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Broadcom 的 $13.67B 季度 FCF 擊敗了 Marvell 的擴展故事，簡單明了",
-      "summary": "",
-      "originalTitle": "Broadcom’s $13.67B Quarterly FCF Beats Marvell’s Scaling Story, Plain and Simple",
-      "originalSummary": "Both chipmakers ride the same custom AI silicon wave and both raised guidance, yet one turns that demand into cash while the other keeps spending to catch up. A look at which story holds up when the cash tells the truth.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-13-67b-quarterly-fcf-154536134.html",
-      "ts": "2026-11-19T15:45:36+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.573365343877974,
-      "relatedTickers": [
-        "AVGO",
-        "MRVL"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Both chipmakers ride the same custom AI silicon wave and both raised guidance, yet one turns that demand into cash while the other keeps spending to catch up. A look at which story holds up when the cash tells the truth.",
-        "numbers": [
-          "$13.67B"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Both chipmakers ride the same custom AI silicon wave and both raised guidance, yet one turns that demand into cash while the other keeps spending to catch up.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
