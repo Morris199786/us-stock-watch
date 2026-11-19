@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 21:45 台灣時間",
+  "updatedAt": "2026-11-19 21:55 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
@@ -7,15 +7,128 @@
   "top10Count": 10,
   "items": [
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google Picks Blue Origin to Fly TPU Satellites in Q1 2029",
+      "summary": "",
+      "originalTitle": "Google Picks Blue Origin to Fly TPU Satellites in Q1 2029",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNnd5cHJYVTlBS3RsUUNMLXVtR0xHVDk4QnBOdGU3Z0s1Wm12UjVLbGYtRFBOYXdSblYwb2JEbm5ETnYzQVpHNnl5UWRfemxUdVZOclNCQV9HWkRuczJFbk9NOXQ5aUFQSnZMalY2LU9xUWlDMElCeW9fTFF0WUNkOTBKUFRDOEZScG5pRE93?oc=5",
+      "ts": "2026-11-19T13:47:22+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 9.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Wedbush 下修 NVDA 目標價至 $275（原 $345）",
+      "summary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+      "originalTitle": "Wedbush raises Nvidia stock price target to $293 on demand outlook",
+      "originalSummary": "Nvidia Corp ( NASDAQ:NVDA , XETRA:NVD ) fell 3% to $160.70 after Wedbush cut its price target to $275 from $345 but retained its 'outperform' rating. Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-fall-wedbush-cuts-174500655.html",
+      "ts": "2026-11-19T13:35:48+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Wedbush",
+          "analyst": "",
+          "rating": "outperform",
+          "action": "下修",
+          "newTarget": "$275",
+          "oldTarget": "$345",
+          "reason": "Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+          "reasonConfidence": "high",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Wedbush｜動作：下修｜評等：outperform｜目標價：$275（原 $345）｜調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+        "numbers": [
+          "$345",
+          "$275"
+        ],
+        "why": "調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Wedbush analyst Matt Bryson acknowledged growing uncertainty around the American artificial intelligence chipmaker's leadership, data centre financing and the political environment, but argued that its underlying growth prospects remain intact.",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3,
+      "detailSource": "article_or_same_event"
+    },
+    {
+      "ticker": "TSM",
+      "group": "晶圓代工／封測／EMS",
+      "tag": "題材",
+      "title": "Market Chatter: TSMC Tightening Restrictions on Chinese Chip Designers in Response to New US Rules",
+      "summary": "Taiwan Semiconductor Manufacturing (TSM) is enhancing curbs on Chinese chip designers, suspending so",
+      "originalTitle": "Market Chatter: TSMC Tightening Restrictions on Chinese Chip Designers in Response to New US Rules",
+      "originalSummary": "Taiwan Semiconductor Manufacturing (TSM) is enhancing curbs on Chinese chip designers, suspending so",
+      "url": "https://finance.yahoo.com/technology/articles/market-chatter-tsmc-tightening-restrictions-133517456.html",
+      "ts": "2026-11-19T13:35:17+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.8145903416831191,
+      "relatedTickers": [
+        "TSM"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Wedbush 調整 NVDA 目標價至 $293",
       "summary": "",
-      "originalTitle": "Wedbush raises Nvidia stock price target to $293 on demand outlook",
+      "originalTitle": "Wedbush raises Nvidia stock price target to $293 on demand outlook By Investing.com",
       "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRTVzZG5pRHRVejZHRzJHVHlyQmpsT2Q4Qk1UMzM5YnBHd2hSSTZ4R1lNWlZIQlpQLVlxbnREVGVJNk13b25HWEhmU0U2cHRkUHlZMFhVQkdVb1pMenBQUkJTR1FIM25uSFBteGRhY1RvaXh1MHVpUkhLLXlucndiajhIZFhqUDZVQkJNRU96cFhrZ3p4NXlPS2tUaFRDYlNZdFF2RzYycWdON1JOeHRIa0JsM2V6YUd4MGVJd1p2M3ZhWUVT?oc=5",
-      "ts": "2026-11-19T13:35:48+00:00",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVlJsVmhuQkQ1bTg5NW1HWHUzSTg1Uk14STE2WTUtcE1iblpJclM3dmZLZUlNOU1VZGFBNmU4ZUtfUjZXNVBTOUJ6NDNPVkRsVlpiLVZ4dUVHNHN2OUhPMjRHZS1sS0NXVVZlbjBoTnVvZ0RVdzJ5bXQ0QXZiaTFwLUFZOHRDNHdEdzkwNEZvVWpoX0VvM3Y2anZISy1HZ3FOX0g5ZXkwVVo2WnZaWXBrUEtMc2FFWTc0WkNoeFJNdnNtNE1F?oc=5",
+      "ts": "2026-11-19T13:34:52+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
       "analystDetails": [
@@ -59,31 +172,37 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Google Partners with Blue Origin for Space AI Launch",
-      "summary": "",
+      "summary": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale",
       "originalTitle": "Google Partners with Blue Origin for Space AI Launch",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNTVDMXRNb2h0cWtEWGhGeTBmUXY5QXZ4VWRkeHM2YmlYQ1NOWUp4RVFyT2g0cnhyUWpzS3lNZXVGWEhuVWJaOTFJeXllQjVmeUhUYmR3SHpxME55RHU0OVV4TW80cGRQT3pFWlhMd0U0MXRoY1VPMFNZOGF4aG1ZYWFCclMwT1FOVzBvRE1n?oc=5",
+      "originalSummary": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale of a data center rack. The mission is part of Google’s research into whether an interconnected network of solar-powered satellites could scale machine-learning compute in space. The dedicated launch also builds on Google’s continuing work with other satellite and launch partners. Blue Origin’s New Glenn specifications give the vehicle general lift ratings of 45 metric tons to low Earth orbit and more than 13 metric tons to geostationary transfer orbit. The seven-meter payload fairing provides twice the volume of smaller five-meter-class fairings, while the reusable first stage is designed for a minimum of 25 flights. Jordan Charles, senior vice president of New Glenn at Blue Origin, said the rocket’s “heavy-lift capacity and large payload volume give customers the flexibility to bring new capabilities to orbit.” For Suncatcher , that combination is intended to serve a multi-satellite deployment, moving beyond the single-prototype stage of the research. The agreement follows Google’s September 2026 Project Suncatcher prototype preview and its subsequent in-orbit TPU response . A prototype satellite launched on October 1, 2026; by October 30, 2026, Google had powered the host and TPU trays and run early machine-learning tests during commissioning. Its onboard Gemma 4 model generated a haiku, which Google described as the first AI response from a data-center-class TPU in orbit. The disclosed plan continues with thermal-stress and radiation testing, followed by a planned 2027 milestone of two interconnected satellites. Google says satellites in low Earth orbit can access near-constant sunlight and generate up to eight times more solar power than on Earth, forming Project Suncatcher’s energy rationale. Proposed future designs place dozens of TPUs on each satellite and use lasers for high-bandwidth communication over short distances between spacecraft orbiting in clusters. Beyond power generation, the proposed cluster poses cooling and communications problems. In a vacuum, chips cannot rely on airflow; engineers have tested heat pipes and radiators in a thermal vacuum chamber. The laser links must maintain high bandwidth over short distances between moving spacecraft, requiring precise knowledge of each satellite’s position relative to its neighbors. The agreement supplies a heavy-lift path for a larger research deployment, while the prototype and twin-satellite work must still establish the essentials of orbital computing: reliable chips, effective cooling and precise intersatellite communication. That sequence makes the upcoming tests central to whether Suncatcher can progress from individual machines running in orbit to a networked machine-learning system. Lyra Novan is an AI-generated research agent at Unite.AI , covering artificia",
+      "url": "https://www.unite.ai/google-plans-orbital-ai-satellite-launch-on-blue-origins-new-glenn/",
       "ts": "2026-11-19T13:33:20+00:00",
       "sourceType": "cross_event_search",
       "analystPriority": false,
       "relatedTickers": [
         "GOOGL"
       ],
-      "eventType": "",
-      "score": 24.0,
+      "eventType": "新題材",
+      "score": 31.5,
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Each satellite is designed to provide computing capacity roughly at the scale",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -157,14 +276,14 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "AST SpaceMobile Stock Climbs After B. Riley Upgrade, Analyst Says Rocket Risk Is Priced In",
-      "summary": "",
+      "summary": "Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
       "originalTitle": "AST SpaceMobile Stock Climbs After B. Riley Upgrade, Analyst Says Rocket Risk Is Priced In",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNckYxX0FZVUFwM1VOYUgzQkZiVDRLZFpuc0h4ZGxDS3N1c2RfdkdnQnl0N2JWSXgxeG1vcVFxNVg0RnRLdHVLYmFoTGxWaFQ5MjlxaHBhejhOSWk5MXRjQk15cHNId0xweUV6bG1IQ3hhOE5VZ210WlE2UEYyelhKMzAwRlBLSXFzUTBTUGx0S0hFWG8tdG5YQm9sRVRsRXNCTC0tWHI0T2JocHlJVVhPNUY2YzMwVURQQWZ5RGpTWUl0dE1DWlhHMWFTX1JKeXZFeHJGUkhLazBHOUZNV3gtckZmNA?oc=5",
+      "originalSummary": "Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-sinks-8-offering-214217709.html",
       "ts": "2026-11-19T13:21:31+00:00",
       "sourceType": "active_search",
       "movePct": -7.611453425154046,
-      "hasArticleBody": false,
+      "hasArticleBody": true,
       "relatedTickers": [
         "ASTS"
       ],
@@ -175,16 +294,21 @@
       "translated": false,
       "analystDetails": [],
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "event": "Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
+        "numbers": [
+          "8%"
+        ],
+        "why": "券商調整理由：Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
+        "stance": "Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "券商調整理由：Key TakeawaysAST SpaceMobile fell 8% today after a new filing, its second in two days, pointed to another securities sale. Selling stock near a 52-week low is the costliest way to fund the build-out.",
+        "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 2,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -315,11 +439,49 @@
       "top10Rank": null
     },
     {
+      "ticker": "MRVL",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal",
+      "summary": "The fair value estimate for Marvell Technology has been adjusted from US$317.60 to US$310.89, reflecting a modest reset in how much upside analysts see in the stock. This shift lines up with a more mixed Street narrative, as some analysts lean into Marvell's long term AI and connectivity ambitions while others focus on deal risk around Lumentum, sector volatility and a higher execution bar. In the sections that follo",
+      "originalTitle": "Marvell (MRVL) Stock Gets Fair Value Trim As Analysts Split On Lumentum Deal",
+      "originalSummary": "The fair value estimate for Marvell Technology has been adjusted from US$317.60 to US$310.89, reflecting a modest reset in how much upside analysts see in the stock. This shift lines up with a more mixed Street narrative, as some analysts lean into Marvell's long term AI and connectivity ambitions while others focus on deal risk around Lumentum, sector volatility and a higher execution bar. In the sections that follow, you will see how these moving parts shape the evolving story around...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-gets-fair-131407030.html",
+      "ts": "2026-11-19T13:14:07+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.151405136479778,
+      "relatedTickers": [
+        "MRVL",
+        "LITE"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "The fair value estimate for Marvell Technology has been adjusted from US$317.60 to US$310.89, reflecting a modest reset in how much upside analysts see in the stock. This shift lines up with a more mixed Street narrative, as some analysts lean into Marvell's long term AI and connectivity ambitions while others focus on deal risk around Lumentum, sector volatility and a higher execution bar. In the sections that follo",
+        "numbers": [
+          "$317.60",
+          "$310.89,"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "The fair value estimate for Marvell Technology has been adjusted from US$317.60 to US$310.89, reflecting a modest reset in how much upside analysts see in the stock. This shift lines up with a more mixed Street narrative, as some analysts lean into Marvell's long term AI and connectivity ambitions while others focus on deal risk around Lumentum, sector volatility and a higher execution bar.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Jim Cramer Says Investors “Would Rather Just Get Some Anthropic” Than Nvidia",
-      "summary": "NVIDIA posted blowout results, yet its stock keeps sliding while a empty CEO chair and a trillion-dollar AI newcomer pull investors elsewhere. The twist is that the rival's success may quietly depend on the chipmaker it is replacing.",
+      "summary": "",
       "originalTitle": "Jim Cramer Says Investors “Would Rather Just Get Some Anthropic” Than Nvidia",
       "originalSummary": "NVIDIA posted blowout results, yet its stock keeps sliding while a empty CEO chair and a trillion-dollar AI newcomer pull investors elsewhere. The twist is that the rival's success may quietly depend on the chipmaker it is replacing.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-investors-rather-131352897.html",
@@ -332,7 +494,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
         "event": "NVIDIA posted blowout results, yet its stock keeps sliding while a empty CEO chair and a trillion-dollar AI newcomer pull investors elsewhere. The twist is that the rival's success may quietly depend on the chipmaker it is replacing.",
@@ -390,7 +552,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "谷歌攜手藍色起源於 2029 年發射太陽能人工智慧衛星",
-      "summary": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale of a data center rack. The mission is part of Google’s research into whether an interconnected netw",
+      "summary": "",
       "originalTitle": "Google taps Blue Origin to launch solar-powered AI satellites in 2029",
       "originalSummary": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale of a data center rack. The mission is part of Google’s research into whether an interconnected network of solar-powered satellites could scale machine-learning compute in space. The dedicated launch also builds on Google’s continuing work with other satellite and launch partners. Blue Origin’s New Glenn specifications give the vehicle general lift ratings of 45 metric tons to low Earth orbit and more than 13 metric tons to geostationary transfer orbit. The seven-meter payload fairing provides twice the volume of smaller five-meter-class fairings, while the reusable first stage is designed for a minimum of 25 flights. Jordan Charles, senior vice president of New Glenn at Blue Origin, said the rocket’s “heavy-lift capacity and large payload volume give customers the flexibility to bring new capabilities to orbit.” For Suncatcher , that combination is intended to serve a multi-satellite deployment, moving beyond the single-prototype stage of the research. The agreement follows Google’s September 2026 Project Suncatcher prototype preview and its subsequent in-orbit TPU response . A prototype satellite launched on October 1, 2026; by October 30, 2026, Google had powered the host and TPU trays and run early machine-learning tests during commissioning. Its onboard Gemma 4 model generated a haiku, which Google described as the first AI response from a data-center-class TPU in orbit. The disclosed plan continues with thermal-stress and radiation testing, followed by a planned 2027 milestone of two interconnected satellites. Google says satellites in low Earth orbit can access near-constant sunlight and generate up to eight times more solar power than on Earth, forming Project Suncatcher’s energy rationale. Proposed future designs place dozens of TPUs on each satellite and use lasers for high-bandwidth communication over short distances between spacecraft orbiting in clusters. Beyond power generation, the proposed cluster poses cooling and communications problems. In a vacuum, chips cannot rely on airflow; engineers have tested heat pipes and radiators in a thermal vacuum chamber. The laser links must maintain high bandwidth over short distances between moving spacecraft, requiring precise knowledge of each satellite’s position relative to its neighbors. The agreement supplies a heavy-lift path for a larger research deployment, while the prototype and twin-satellite work must still establish the essentials of orbital computing: reliable chips, effective cooling and precise intersatellite communication. That sequence makes the upcoming tests central to whether Suncatcher can progress from individual machines running in orbit to a networked machine-learning system. Lyra Novan is an AI-generated research agent at Unite.AI , covering artificia",
       "url": "https://www.unite.ai/google-plans-orbital-ai-satellite-launch-on-blue-origins-new-glenn/",
@@ -402,10 +564,10 @@
       ],
       "eventType": "新題材",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale of a data center rack. The mission is part of Google’s research into whether an interconnected netw",
+        "event": "Google announced on November 19, 2026 that Blue Origin’s New Glenn will conduct Project Suncatcher’s first dedicated heavy-lift launch, targeted for the first quarter of 2029. The companies’ launch services agreement covers deployment of solar-powered satellites carrying Google’s Tensor Processing Units, or TPUs, into sun-synchronous orbit. Each satellite is designed to provide computing capacity roughly at the scale of a data center rack. Jordan Charles, senior vice president of New Glenn at Blue Origin, said the",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "Each satellite is designed to provide computing capacity roughly at the scale of a data center rack.",
@@ -453,7 +615,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "GOOGL",
@@ -536,7 +698,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "AMD",
@@ -634,7 +796,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Unusual Machines（UMAC）｜券商：Oppenheimer｜動作：初評｜評等：Outperform｜目標價：$30｜調整原因：來源未提供具體理由",
@@ -648,7 +810,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "GOOGL",
@@ -687,7 +849,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "博通、英偉達和美光可能會在年底前發起一場大規模的人工智慧集會",
-      "summary": "英偉達今年股價下跌，而美光在一個月內市值縮水近五分之一，但表面下的數字卻講述了一個不同的故事。這就是為什麼到 2027 年，三大人工智慧巨頭可能會被錯誤定價。",
+      "summary": "",
       "originalTitle": "Broadcom, Nvidia, and Micron Could Be Setting Up for a Massive AI Rally Before Year End",
       "originalSummary": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-nvidia-micron-could-setting-130427702.html",
@@ -702,13 +864,13 @@
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "英偉達今年股價下跌，而美光在一個月內市值縮水近五分之一，但表面下的數字卻講述了一個不同的故事。這就是為什麼到 2027 年，三大人工智慧巨頭可能會被錯誤定價。",
+        "event": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027.",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "英偉達今年股價下跌，而美光在一個月內市值縮水近五分之一，但表面下的數字卻講述了一個不同的故事。這就是為什麼到 2027 年，三大人工智慧巨頭可能會被錯誤定價。",
+        "stance": "Nvidia is down for the year while Micron just shed nearly a fifth of its value in a month, yet the numbers under the surface tell a different story. Here is why three AI giants may be mispriced heading into 2027.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1141,7 +1303,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "ASTS",
@@ -1518,8 +1680,8 @@
       "detailSource": "article_or_same_event"
     },
     {
-      "ticker": "AMD",
-      "group": "CPU 概念股",
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "David Tepper 為何退出 AMD 並開設價值 1.72 億美元的 Oracle 職位？這可能是推動這項轉變的因素",
       "summary": "",
@@ -1529,13 +1691,13 @@
       "ts": "2026-11-19T12:15:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.309787250948528,
+      "movePct": -0.9652173913043516,
       "relatedTickers": [
-        "AMD",
-        "ORCL"
+        "ORCL",
+        "AMD"
       ],
       "eventType": "跨公司事件",
-      "score": 27.0,
+      "score": 22.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1599,8 +1761,8 @@
         "takeaway": "調整原因：The revised valuation reflects concerns about slowing growth in calendar 2028, despite strong near-term demand and improving revenue...",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 5
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMD",
@@ -1789,7 +1951,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "NVDA",
@@ -2261,8 +2423,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "AVGO",
@@ -2683,144 +2845,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "還記得下雪的日子嗎？ Outlook 中斷為成年人帶來了一種",
-      "summary": "",
-      "originalTitle": "Remember snow days? The Outlook outage gave grown-ups one",
-      "originalSummary": "Dancing in the office . Switching coffee for beers . Sailing away into the unknown . Microsoft employees scrambling to fix Outlook may have had a rough Thursday. But for millions of office workers, it was the equivalent of an “adult snow day” with workers sharing more jokes than office memos. Outlook being down is the adult snowday. pic.twitter.com/hssb14vpqV",
-      "url": "https://www.seattletimes.com/business/adult-snow-day-outlook-outage-jokes-are-flooding-the-internet/",
-      "ts": "2026-11-19T11:06:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Dancing in the office . Sailing away into the unknown . Microsoft employees scrambling to fix Outlook may have had a rough Thursday. But for millions of office workers, it was the equivalent of an “adult snow day” with workers sharing more jokes than office memos.",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Dancing in the office . Switching coffee for beers .",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "B.Riley 重申買進 SharonAI 股票，並引用 Nvidia 融資路徑",
-      "summary": "",
-      "originalTitle": "B.Riley reiterates Buy on SharonAI stock, cites Nvidia financing path",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSGs4SXhVeVpZWVY1M3RkVFF1anZZSG5mTlJvMnJYM3lyZzRFV1dFUm1oVzkydUdiLUNyNml6RVExRlJQRE9nc2ZZLVozWjMtUjNsa3pZU0NPV01WbFgwb01IM1ZDNUp3UHZwMFR2Y3hzdTFFcXVtWmVqTWdQYU8wV0MzMXZ6aU90VW4yNFZKa1JoOW1YVzdtdWU3b3I1c0FTMUpqM3NmUTBhWjFrdEt4d19CYnZhSTc4SlBxVTZRTlN1Sm01UTdj?oc=5",
-      "ts": "2026-11-19T11:05:30+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "iShares 人工智慧AMD 和 Broadcom 於 11 月 17 日加入 Innovation and Tech Active ETF (BAI)",
-      "summary": "",
-      "originalTitle": "iShares A.I. Innovation and Tech Active ETF (BAI) Adds AMD and Broadcom on Nov. 17",
-      "originalSummary": "The fund bought $298.8 million of stock and sold nothing, lifting 39 positions.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-innovation-tech-active-etf-110450107.html",
-      "ts": "2026-11-19T11:04:50+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 3.6446135831381676,
-      "relatedTickers": [
-        "AVGO",
-        "AMD"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ASML",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "為什麼ASML控股（ASML）在EUV技術上的壟斷使其擁有強大的競爭優勢",
-      "summary": "我們剛剛發布了《肯費雪投資組合評論：長期成長最有信心的 10 檔科技股》榜單，思科系統公司在此榜單上排名第六。費雪資產管理公司(Fisher Asset Management)創辦人兼前執行長肯·費雪(Ken Fisher)歷來對科技股保持建設性的、以成長為導向的看法。他的投資理念以具有強勁長期成長的公司為中心[...]",
-      "originalTitle": "Why ASML Holding (ASML)’s Monopoly in EUV Technology Gives It a Powerful Competitive Advantage",
-      "originalSummary": "We just published our list, Ken Fisher Portfolio Review: 10 Highest-Conviction Technology Stocks for Long-Term Growth, and Cisco Systems, Inc. ranked 6th on this list. Ken Fisher, founder and former CEO of Fisher Asset Management, has historically maintained a constructive, growth-oriented view of technology stocks. His investment philosophy centers around companies with strong long-term growth […]",
-      "url": "https://finance.yahoo.com/technology/articles/why-asml-holding-asml-monopoly-110444090.html",
-      "ts": "2026-11-19T11:04:44+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 0.8791780841726382,
-      "analystDetails": [],
-      "relatedTickers": [
-        "ASML",
-        "CSCO"
-      ],
-      "eventType": "",
-      "score": 210.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "我們剛剛發布了《肯費雪投資組合評論：長期成長最有信心的 10 檔科技股》榜單，思科系統公司在此榜單上排名第六。費雪資產管理公司(Fisher Asset Management)創辦人兼前執行長肯·費雪(Ken Fisher)歷來對科技股保持建設性的、以成長為導向的看法。他的投資理念以具有強勁長期成長的公司為中心[...]",
-        "numbers": [],
-        "why": "券商調整理由：我們剛剛發布了《肯費雪投資組合評論：長期成長最有信心的 10 檔科技股》榜單，思科系統公司在此榜單上排名第六。費雪資產管理公司(Fisher Asset Management)創辦人兼前執行長肯·費雪(Ken Fisher)歷來對科技股保持建設性的、以成長為導向的看法。他的投資理念以具有強勁長期成長的公司為中心[...]",
-        "stance": "我們剛剛發布了《肯費雪投資組合評論：長期成長最有信心的 10 檔科技股》榜單，思科系統公司在此榜單上排名第六。費雪資產管理公司(Fisher Asset Management)創辦人兼前執行長肯·費雪(Ken Fisher)歷來對科技股保持建設性的、以成長為導向的看法。他的投資理念以具有強勁長期成長的公司為中心[...]",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：我們剛剛發布了《肯費雪投資組合評論：長期成長最有信心的 10 檔科技股》榜單，思科系統公司在此榜單上排名第六。費雪資產管理公司(Fisher Asset Management)創辦人兼前執行長肯·費雪(Ken Fisher)歷來對科技股保持建設性的、以成長為導向的看法。他的投資理念以具有強勁長期成長的公司為中心[...]",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 3
     }
   ],
   "historyItems": [
