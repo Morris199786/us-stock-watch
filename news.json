@@ -1,11 +1,59 @@
 {
-  "updatedAt": "2026-11-19 14:37 台灣時間",
+  "updatedAt": "2026-11-19 14:48 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Goldman Sachs 調整 AVGO 目標價至 $460",
+      "summary": "",
+      "originalTitle": "Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DRVVGX0JnNjZzUmpHbEF1YWctYk40eEZibmFyVUFycC1CM25WX2w2bnY0Njg2cUpvWU5ZUnVQLXpaZHQ1aUM2WGpTX1NVXzVIaVVaY2lwcUQ?oc=5",
+      "ts": "2026-11-19T06:26:04+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Goldman Sachs",
+          "analyst": "",
+          "rating": "Buy",
+          "action": "",
+          "newTarget": "$460",
+          "oldTarget": "",
+          "reason": "Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
+          "reasonConfidence": "medium",
+          "targetTicker": "AVGO",
+          "targetCompany": "Broadcom"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AVGO"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Broadcom（AVGO）｜券商：Goldman Sachs｜評等：Buy｜目標價：$460｜調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
+        "numbers": [
+          "$460"
+        ],
+        "why": "調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 3
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -39,6 +87,45 @@
       "top10Rank": null
     },
     {
+      "ticker": "CIEN",
+      "group": "光通訊／網通",
+      "tag": "利多",
+      "title": "How Does Ciena (CIEN) Change The Optical Networking Race With 800 Gb/s?",
+      "summary": "Ciena (NYSE:CIEN) and research network Internet2 set a new record for 800 Gb/s terrestrial optical transmission over 2,104 kilometers. The trial used Ciena’s WaveLogic 6 Nano coherent pluggable technology to send 800 Gb/s over Internet2’s production network infrastructure. Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data tra",
+      "originalTitle": "How Does Ciena (CIEN) Change The Optical Networking Race With 800 Gb/s?",
+      "originalSummary": "Ciena (NYSE:CIEN) and research network Internet2 set a new record for 800 Gb/s terrestrial optical transmission over 2,104 kilometers. The trial used Ciena’s WaveLogic 6 Nano coherent pluggable technology to send 800 Gb/s over Internet2’s production network infrastructure. Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data traffic. This record 800 Gb/s, 2,104 kilometer link is only part of the story...",
+      "url": "https://finance.yahoo.com/technology/articles/does-ciena-cien-change-optical-061530843.html",
+      "ts": "2026-11-19T06:15:30+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 0.6570500717468564,
+      "analystDetails": [],
+      "relatedTickers": [
+        "CIEN",
+        "COHR"
+      ],
+      "eventType": "",
+      "score": 214.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Ciena (NYSE:CIEN) and research network Internet2 set a new record for 800 Gb/s terrestrial optical transmission over 2,104 kilometers. The trial used Ciena’s WaveLogic 6 Nano coherent pluggable technology to send 800 Gb/s over Internet2’s production network infrastructure. Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data tra",
+        "numbers": [
+          "800 Gb"
+        ],
+        "why": "券商調整理由：Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data tra",
+        "stance": "Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data tra",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "券商調整理由：Internet2 expects to apply this 800 Gb/s over 2,104 kilometers capability to upgrade its backbone, targeting higher capacity for research data tra",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
       "ticker": "CRWD",
       "group": "Cloud／Software／AI 應用",
       "tag": "利空",
@@ -69,7 +156,37 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 6
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "summary": "",
+      "originalTitle": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOFpCbEJBOWtlUE0xUGYzaWlHMkhFcFBKR3puOVBUMVFFOFM3MWpVUWswb1FkLTBOT2E0Q1VpYnRWODY4MnUtWUR1eTBhZUx4QnJ6akF2NmtMNklDZVdqbXlOWmtHTHRTcEVGVUFSaFg0NVhTcEdWWkZESGNENFZ2Qlc1QkdlbHA5Vm5IZGM1TW9ZcmJPbU9WTnJ3WXgtTnZIdmdET3NPc0R0T09iVk5hVzRwYWV1N3M?oc=5",
+      "ts": "2026-11-19T06:10:52+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AMZN",
@@ -109,7 +226,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 5
     },
     {
       "ticker": "NVDA",
@@ -207,7 +324,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 4
     },
     {
       "ticker": "SPCX",
@@ -246,7 +363,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -264,7 +381,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 17.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -276,7 +393,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 8
     },
     {
       "ticker": "NOK",
@@ -310,8 +427,8 @@
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -346,7 +463,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 7
     },
     {
       "ticker": "SPCX",
@@ -386,8 +503,8 @@
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -520,7 +637,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "NVDA",
@@ -951,7 +1068,7 @@
       ],
       "eventType": "",
       "score": 7.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1002,7 +1119,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "利空",
       "title": "CrowdStrike (CRWD) 正在引起投資者的關注——原因如下",
-      "summary": "CrowdStrike Holdings Inc. (NASDAQ:CRWD) is one of the 10 Stocks Investors Are Rushing to Buy — Cybersecurity Names Dominate CrowdStrike bounced back by 7.95 percent on Wednesday to close at $237.03 apiece, mirroring the rally in technology stocks, with investor optimism bolstered by Nvidia Corp.’s better-than-expected earnings performance in the third quarter of fiscal year […]",
+      "summary": "",
       "originalTitle": "CrowdStrike (CRWD) is Getting Investor Attention — Here’s Why",
       "originalSummary": "CrowdStrike Holdings Inc. (NASDAQ:CRWD) is one of the 10 Stocks Investors Are Rushing to Buy — Cybersecurity Names Dominate CrowdStrike bounced back by 7.95 percent on Wednesday to close at $237.03 apiece, mirroring the rally in technology stocks, with investor optimism bolstered by Nvidia Corp.’s better-than-expected earnings performance in the third quarter of fiscal year […]",
       "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-getting-investor-attention-033346621.html",
@@ -1016,7 +1133,7 @@
       ],
       "eventType": "",
       "score": 30.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "CrowdStrike Holdings Inc. (NASDAQ:CRWD) is one of the 10 Stocks Investors Are Rushing to Buy — Cybersecurity Names Dominate CrowdStrike bounced back by 7.95 percent on Wednesday to close at $237.03 apiece, mirroring the rally in technology stocks, with investor optimism bolstered by Nvidia Corp.’s better-than-expected earnings performance in the third quarter of fiscal year […]",
@@ -2222,7 +2339,7 @@
         "CRWD"
       ],
       "eventType": "",
-      "score": 9.0,
+      "score": 7.8,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2254,7 +2371,7 @@
         "MSFT"
       ],
       "eventType": "",
-      "score": 12.0,
+      "score": 10.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2686,114 +2803,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "CoreWeave(CRWV) 今日股價 |行情與新聞",
-      "summary": "",
-      "originalTitle": "CoreWeave(CRWV) Stock Price Today | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOb0w5Rm1qdDY1MXhpQkJVaXA2MG5qMmVDekZnS3g0NEotQ0g3SUNMT2V3THZ3N0NWc2Z2MTVXTC1tM2JIQXRHZ1A5by1pTGV0eEdrVGFuQXFrOWVMeUhuV3FhUnZuYUJsR09pWkNaTXN1NFBpeEwzM1BCdUVvSFFHYzhySmlHSkdhS0hLTTRyMUZqM2VMUWNIbVFIdzRvZEMwVWdaakxMa2JfMmtsR2h3YWFldVI1SDY5clN4cmFleHltTmdPZ1lrOFZrdDhmLWJXYTdKR0dfOUdZRURYc3dhMW5BcVpjSU5BNzlpUHFpWWNoYkJNMzBaV1l6OHUtMXNPRDhuUnNNLVBhRmw5b3o0dHpxeXhNLXEwbVlCcDQ1Yk9KZXAtTzl5ZVFQbzhhUWs?oc=5",
-      "ts": "2026-11-18T23:49:22+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -4.12908398476649,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 6.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "摩根士丹利預測支出 460 億美元後，CoreWeave 改變融資策略",
-      "summary": "",
-      "originalTitle": "CoreWeave Changes Its Funding Strategy After Morgan Stanley’s $46 Billion Spending Forecast",
-      "originalSummary": "We recently published our list of Morgan Stanley Says These 8 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027, and CoreWeave, Inc. (NASDAQ:CRWV) ranked seventh. Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027. In its November 8 report, Buy the Drop: AI Investment Opportunities […]",
-      "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-changes-funding-strategy-morgan-234844537.html",
-      "ts": "2026-11-18T23:48:44+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.12908398476649,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We recently published our list of Morgan Stanley Says These 8 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027, and CoreWeave, Inc. (NASDAQ:CRWV) ranked seventh. Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027. In its November 8 report, Buy the Drop: AI Investment Opportunities […]",
-        "numbers": [
-          "$46 Billion",
-          "$1.6",
-          "46 Billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "ORCL",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "為什麼 Oracle 出現在摩根士丹利 1.6 兆美元的人工智慧基礎設施支出預測中？",
-      "summary": "",
-      "originalTitle": "Why Oracle Features in Morgan Stanley’s $1.6 Trillion AI Infrastructure Spending Forecast?",
-      "originalSummary": "We recently published our list of Morgan Stanley Says These 8 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027, and Oracle Corporation (NYSE:ORCL) ranked sixth. Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027. In its November 8 report, Buy the Drop: AI Investment Opportunities […]",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-oracle-features-morgan-stanley-234741005.html",
-      "ts": "2026-11-18T23:47:41+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -0.9652173913043516,
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "We recently published our list of Morgan Stanley Says These 8 Companies Will Spend $1.6 Trillion on AI Infrastructure in 2027, and Oracle Corporation (NYSE:ORCL) ranked sixth. Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027. In its November 8 report, Buy the Drop: AI Investment Opportunities […]",
-        "numbers": [
-          "$1.6"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Morgan Stanley still expects eight major companies to spend approximately $1.6 trillion on AI infrastructure in 2027.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
