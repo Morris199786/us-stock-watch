@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-11-18 22:01 台灣時間",
+  "updatedAt": "2026-11-19 08:00 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,15 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-11-18:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-11-18",
+      "generatedAt": "2026-11-19 08:00 台灣時間",
+      "generatedAtIso": "2026-11-19T00:00:13.308362+00:00",
+      "items": []
+    },
     {
       "key": "2026-11-18:pre",
       "session": "pre",
@@ -3204,184 +3213,6 @@
             }
           ],
           "score": 639.24
-        }
-      ]
-    },
-    {
-      "key": "2026-11-04:post",
-      "session": "post",
-      "sessionLabel": "盤後焦點",
-      "marketDate": "2026-11-04",
-      "generatedAt": "2026-11-05 08:07 台灣時間",
-      "generatedAtIso": "2026-11-05T00:07:06.735360+00:00",
-      "items": [
-        {
-          "ticker": "CRWV",
-          "name": "CoreWeave",
-          "group": "NeoCloud／AI 算力",
-          "headline": "花旗集團下調 CoreWeave （納斯達克股票代碼：CRWV）股票的目標價",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -9.899516189058433,
-          "movePrice": 48.42,
-          "regularChangePct": -9.899516189058433,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.1652209830648399,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaENVQkRIaFQ1bThQTnR6dkhwenVDRzNGVVh2VmNyTmNhTndybUoyMGR5RklpWXF0U1BjWHpoRm96OTFtS1dBaXg1MGNjdGFzMl9yWUdQRVl1cldkeVdKa1BRS0U5cHlyUVk2RnktM0FmbkpyOUpWdkd3WDFubi1OTGFDZTYxZktyV3AzcmNtbzJlOVZGVVdSa1hNWnQ5bWNnSUZadGluLVRlOXRubzdnTVhLR21Fc19CYV9DakJlSVh5WnZv?oc=5"
-            }
-          ],
-          "score": 980.6
-        },
-        {
-          "ticker": "NBIS",
-          "name": "Nebius",
-          "group": "NeoCloud／AI 算力",
-          "headline": "Citigroup 下修 NBIS 目標價至 $265",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -6.673700870482701,
-          "movePrice": 141.52,
-          "regularChangePct": -6.673700870482701,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.94686263425664,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOanNOc0F2enBrclhyUG5HOVRNOFQzcFJLbG1lenRYUUpjYjdjNXJTNld2YnJVMFA3cDVjMUNQdlRBdnE2MnJPWElhRmpIc0M3X1BDMDZIMkQycFlyUlhMQ2ZQTmVCNU80YjFPRGoyMVJPRU9lQjNQWGhHS3RsdGE5cWR3UXNFY0dTV1ZsaFpNa082a0tuWnNReDZBVQ?oc=5"
-            }
-          ],
-          "score": 962.32
-        },
-        {
-          "ticker": "GFS",
-          "name": "GlobalFoundries",
-          "group": "晶圓代工／封測／EMS",
-          "headline": "傑富瑞 (Jefferies) 因資本支出擔憂而下調格羅方德 (GlobalFoundries) 股價目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -5.945441827931908,
-          "movePrice": 40.34,
-          "regularChangePct": -5.945441827931908,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.02478929102629479,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUHpPSGJheHlvUWd3TVU1TTBNRGpzdjdTZ3ZESFlkN3dlTldfYVA1YkhPRVV3WWFyVG1tV2dqY3RmbnRVYmNRZ2FIMloyVWlCZ2RoUmZXY1B5UjVsMTR3dHo5QlJOWnY4a1V1NDhiNmlsSjIxcjktMUdCMEdSSzhMU0lVQU1QOGxKSlk3dENURkZuRkpkUnE0WFE0UDlTOXk1Q19qbndkVEVTY2dPNXBmWTRUSTRzcC1xSHlsSUxvMjdjQ3d1dlE?oc=5"
-            }
-          ],
-          "score": 957.16
-        },
-        {
-          "ticker": "ANET",
-          "name": "Arista Networks",
-          "group": "光通訊／網通",
-          "headline": "UBS 上修 ANET 目標價至 $291，維持 Buy",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 5.043846742393021,
-          "movePrice": 178.48,
-          "regularChangePct": 5.043846742393021,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.14567458538772282,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT1F2MHEzRnh5UzBtNnJRRGJldXZMemlySU9CTWcxOHBhMklSWWFYTUYxVGFtR3BXdFRmaE93WFd5cmEzeFhMblhsaTc3ZEZjd19rcG5odnVLaVFVYmdJUlRvZnBWZDhVVlZtR0psdUFRdHJPTGR4Nnh0SHFtekVmaXZaS2wzbTE1Q09McXQ1alVpNjFqZV9neG9WSl8wbnNuWWw4bkJjYkpvSng2Sl9PekRIc2xuWDNkWlF1aG0tTHBZb29acFptX012bE9MV00?oc=5"
-            }
-          ],
-          "score": 953.34
-        },
-        {
-          "ticker": "ALAB",
-          "name": "Astera Labs",
-          "group": "高速傳輸",
-          "headline": "UBS 下修 ALAB 目標價至 $290，維持 Neutral",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -4.430271380874917,
-          "movePrice": 223.27,
-          "regularChangePct": -4.430271380874917,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.9204102655977153,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMWx2dHctXy1nbnUzQ08wdUJCSTN2VUFJNWFCVXpPLVIzTXNBX2FzbEYxMFJWVWVHamdZalQyeDZKRmtaMnZacGg5UDE5VU5oMmFuRHBEdjczcXJ0YXRSTTB0azNDdVJqTTRhVnVzdmNOTEdDYVk1X01IUzlqVjA3eUtBNG4xVnBya0RCaVFhRFlyMlQ5R3JYbTJ1aFdWTkswdy1EZ0ZNa1dDOHlkMktoYjh1MDkxd2NWaEw3MzBBMmV1UjFQcW0xRVhLX1hNWVU?oc=5"
-            }
-          ],
-          "score": 949.53
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "group": "CPU 概念股",
-          "headline": "UBS 下修 AMD 目標價至 $700，維持 Buy",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 1.0084728249638353,
-          "movePrice": 488.78,
-          "regularChangePct": 1.0084728249638353,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.36417202013174776,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZU5Dekc5M2dqX0pzTUpBUXhIQXFwb2hGV0JqbGRyVDRpLWhmVm11a0JnNHRfWEU5QUJ5SF9wMnBtZ1dhZEVCZWVpUG5jRjhUM3VTZ0laQzBjaWlyOGtVWXhUX1U5SHNnUVNOUDFHU3VtWFdpMGpQWjM5OEh2VkxjRVR3d0NYbFlkVks3alBLR3k4M1Q1bnV2dUVNeXB2Szd3cnhQenh4WWxLdkJweDB6eHFQX0g3MkJRclVkeS1FR2xSVHhhYkpaYnRxc3RpXzVDRmRUQ3RCUF8?oc=5"
-            }
-          ],
-          "score": 929.04
         }
       ]
     }
