@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 16:47 台灣時間",
+  "updatedAt": "2026-11-19 16:57 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
@@ -26,6 +26,38 @@
       "score": 6.75,
       "featured": true,
       "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "NVDA, INTC Stocks Ease Post 5-Day Rout: After Meeting Xi Jinping, Trump Says Nvidia Blackwell Chips Could Reach China Within 2-3 Years",
+      "summary": "Blackwell is Nvidia’s previous-generation AI GPU platform. Its successor, Vera Rubin, is now in production and beginning to ship.",
+      "originalTitle": "NVDA, INTC Stocks Ease Post 5-Day Rout: After Meeting Xi Jinping, Trump Says Nvidia Blackwell Chips Could Reach China Within 2-3 Years",
+      "originalSummary": "Blackwell is Nvidia’s previous-generation AI GPU platform. Its successor, Vera Rubin, is now in production and beginning to ship.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-intc-stocks-ease-post-083356009.html",
+      "ts": "2026-11-19T08:33:56+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.8946352759552263,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -309,6 +341,44 @@
       "top10Rank": null
     },
     {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "John Moolenaar Calls Out Microsoft for ‘Playing Both Sides’ of US-China AI Race",
+      "summary": "On Wednesday, House Select Committee on China chairman John Moolenaar (R-Mich.) demanded answers from Microsoft Corp. (NASDAQ:MSFT) over a reported $500 million deal. This deal could give TikTok owner ByteDance access to OpenAI’s artificial intelligence models through Azure cloud platform. Microsoft-ByteDance AI Deal Draws Congressional Scrutiny Microsoft was nearing an agreement to provide ByteDance access to OpenAI",
+      "originalTitle": "John Moolenaar Calls Out Microsoft for ‘Playing Both Sides’ of US-China AI Race",
+      "originalSummary": "On Wednesday, House Select Committee on China chairman John Moolenaar (R-Mich.) demanded answers from Microsoft Corp. (NASDAQ:MSFT) over a reported $500 million deal. This deal could give TikTok owner ByteDance access to OpenAI’s artificial intelligence models through Azure cloud platform. Microsoft-ByteDance AI Deal Draws Congressional Scrutiny Microsoft was nearing an agreement to provide ByteDance access to OpenAI models through Azure, potentially allowing the Chinese company to use technolog",
+      "url": "https://finance.yahoo.com/technology/ai/articles/john-moolenaar-calls-microsoft-playing-073740994.html",
+      "ts": "2026-11-19T07:37:40+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.40494627054361576,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "On Wednesday, House Select Committee on China chairman John Moolenaar (R-Mich.) demanded answers from Microsoft Corp. (NASDAQ:MSFT) over a reported $500 million deal. This deal could give TikTok owner ByteDance access to OpenAI’s artificial intelligence models through Azure cloud platform. Microsoft-ByteDance AI Deal Draws Congressional Scrutiny Microsoft was nearing an agreement to provide ByteDance access to OpenAI",
+        "numbers": [
+          "$500 million",
+          "500 million"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "On Wednesday, House Select Committee on China chairman John Moolenaar (R-Mich.) demanded answers from Microsoft Corp.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "TSLA",
       "group": "EV／AI／機器人",
       "tag": "題材",
@@ -380,7 +450,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "AI 工作流程的推出是否會改變 Box (BOX) 的多頭市場？",
-      "summary": "Box 宣布了新的人工智慧驅動產品，包括用於自主代理工作流程的 Box Architect、使用 NVIDIA Nemotron 模型的 Box 上下文檢索，以及針對銀行、公共部門、媒體和娛樂的 Box for Industries 解決方案，所有這些產品均基於現有的 Box 安全和治理控制。擴大的 NVIDIA 合作和行業特定的 Box 捆綁包表明我們正在推動更高價值、以 AI 為中心的工作",
+      "summary": "",
       "originalTitle": "Does AI Workflow Launch Change The Bull Case For Box (BOX)?",
       "originalSummary": "Box announced new AI driven products including Box Architect for autonomous agent workflows, Box Context Retrieval using NVIDIA Nemotron models, and Box for Industries solutions targeting banking, public sector, and media and entertainment, all built on existing Box security and governance controls. The expanded NVIDIA collaboration and industry specific Box bundles indicate a push toward higher value, AI centric workflows on existing content. This development could affect demand for Box’s...",
       "url": "https://finance.yahoo.com/technology/ai/articles/does-ai-workflow-launch-change-071235295.html",
@@ -393,13 +463,13 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Box 宣布了新的人工智慧驅動產品，包括用於自主代理工作流程的 Box Architect、使用 NVIDIA Nemotron 模型的 Box 上下文檢索，以及針對銀行、公共部門、媒體和娛樂的 Box for Industries 解決方案，所有這些產品均基於現有的 Box 安全和治理控制。擴大的 NVIDIA 合作和行業特定的 Box 捆綁包表明我們正在推動更高價值、以 AI 為中心的工作",
+        "event": "Box announced new AI driven products including Box Architect for autonomous agent workflows, Box Context Retrieval using NVIDIA Nemotron models, and Box for Industries solutions targeting banking, public sector, and media and entertainment, all built on existing Box security and governance controls. The expanded NVIDIA collaboration and industry specific Box bundles indicate a push toward higher value, AI centric workflows on existing content. This development could affect demand for Box’s...",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Box 宣布了新的人工智慧驅動產品，包括用於自主代理工作流程的 Box Architect、使用 NVIDIA Nemotron 模型的 Box 上下文檢索，以及針對銀行、公共部門、媒體和娛樂的 Box for Industries 解決方案，所有這些產品均基於現有的 Box 安全和治理控制。擴大的 NVIDIA 合作和行業特定的 Box 捆綁包表明我們正在推動更高價值、以 AI 為中心的工作",
+        "stance": "This development could affect demand for Box’s...",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -835,7 +905,7 @@
       "eventType": "新題材",
       "analystPriority": false,
       "score": 21.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -2034,7 +2104,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 12.0,
+      "score": 10.4,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2066,7 +2136,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2718,71 +2788,6 @@
       "score": 6.5,
       "featured": false,
       "translated": false,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CBRS",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "144 表格 | Cerebras Systems(CBRS.US) 高階主管提議出售 367 萬股普通股",
-      "summary": "",
-      "originalTitle": "Form 144 | Cerebras Systems(CBRS.US) Officer Proposes to Sell 3.67 Million in Common Stocks",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaXdjODE2bHVNb05UdHR3Z181NEgtVW9VOU5wUXJNci1GYnRweXM0YkpHazNZeGR0MzdoT193SFlMNnlITm5aTmdDb3dxcmh5bl9ISXdaZUluMkhaZDZyclZ5U2VGcVc5bWxZZVpNNG9xU0RVUE1pY1ZJbk5TaUhWU2tQSllYS0o0VEhYOHZrSFplZkduRzhMVVozaUU3V3pBSExXYThpdw?oc=5",
-      "ts": "2026-11-19T01:17:00+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -9.627567671338067,
-      "relatedTickers": [
-        "CBRS"
-      ],
-      "eventType": "",
-      "score": 7.8,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSM",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "摩根士丹利將台積電目標價定為新台幣3,088元，看好2奈米產能倍增及42%隱含上漲空間",
-      "summary": "",
-      "originalTitle": "Morgan Stanley Sets TSMC Target Price at NT$3,088, Bullish on 2nm Capacity Doubling and 42% Implied Upside",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hTVN0THY1UWVXTU5Pa2tyT29oQlRtZl8ycEExVmQxZTRCOF9nVGc2T1JGdVcwbFFZN1hmQ0dWUmUzY01wZzBUa05yd2Z3bnFLMVllb1pzSzA1cEtmaXhzSm9ZUldSNk5yV2NfdExucjJOclAxOHc?oc=5",
-      "ts": "2026-11-19T01:06:00+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "TSM"
-      ],
-      "eventType": "",
-      "score": 174.2,
-      "featured": false,
-      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
