@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-19 19:24 台灣時間",
+  "updatedAt": "2026-11-19 19:32 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Google’s No. 1 Move Against Anthropic Is Free AI, per Bill Gurley. Alphabet Will Own  14% of Anthropic",
+      "summary": "Key TakeawaysBill Gurley calls free AI Google’s No. 1 move against Anthropic, and Gemini Tasks just went free.",
+      "originalTitle": "Google’s No. 1 Move Against Anthropic Is Free AI, per Bill Gurley. Alphabet Will Own  14% of Anthropic",
+      "originalSummary": "Key TakeawaysBill Gurley calls free AI Google’s No. 1 move against Anthropic, and Gemini Tasks just went free.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-no-1-move-against-111618385.html",
+      "ts": "2026-11-19T11:16:18+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 0.7994289793004983,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
@@ -109,31 +141,37 @@
       "group": "市場重點",
       "tag": "利空",
       "title": "還記得下雪的日子嗎？ Outlook 中斷為成年人帶來了一種",
-      "summary": "",
+      "summary": "Dancing in the office . Switching coffee for beers . Sailing away into the unknown . Microsoft employees scrambling to fix Outlook may have had a rough Thursday. But for millions of office workers, it was the equivalent of an “adult snow day” with workers sharing more jokes than office memos. Outlook being down is the adult snowday. pic.twitter.com/hssb14vpqV",
       "originalTitle": "Remember snow days? The Outlook outage gave grown-ups one",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa3FpQXhXS29UYkhJalprOEZqNFlqU1o0NmpPMDhSV2hOcUc3RnZPanhtOUZCR1ZIYnhmMU9CV095RXFjOGctRU9HbUlUSThSaWJhME1xRlN1ekNHR3ZpMG9xaVZDNjVqWF9qNUR2dWw4NnFGY0N3REdNYndaMS1rN0JPQUoyaE9qQ0ctN0hUVHdhbHRUMWc3cE1sVzdzZ1dxeDJRdg?oc=5",
+      "originalSummary": "Dancing in the office . Switching coffee for beers . Sailing away into the unknown . Microsoft employees scrambling to fix Outlook may have had a rough Thursday. But for millions of office workers, it was the equivalent of an “adult snow day” with workers sharing more jokes than office memos. Outlook being down is the adult snowday. pic.twitter.com/hssb14vpqV",
+      "url": "https://www.seattletimes.com/business/adult-snow-day-outlook-outage-jokes-are-flooding-the-internet/",
       "ts": "2026-11-19T11:06:00+00:00",
       "sourceType": "market_search",
       "marketWide": true,
       "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [],
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "MSFT"
+      ],
       "eventType": "",
-      "score": 6.75,
+      "score": 15.75,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "event": "Dancing in the office . Sailing away into the unknown . Microsoft employees scrambling to fix Outlook may have had a rough Thursday. But for millions of office workers, it was the equivalent of an “adult snow day” with workers sharing more jokes than office memos.",
         "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Dancing in the office . Switching coffee for beers .",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
-      "top10Rank": null
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "AVGO",
@@ -202,7 +240,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 2
     },
     {
       "ticker": "NVDA",
@@ -234,7 +272,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 3
     },
     {
       "ticker": "GLW",
@@ -512,6 +550,36 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street",
+      "summary": "",
+      "originalTitle": "US Stock Futures Rise as Anthropic Prepares for Record IPO, Fed Signals Rate Hikes and Oil Prices Advance: Dow Jones, S&P, Nasdaq, Wall Street",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPck03N1VwZkttRWdteGd4UHFsODZqMndIdm4xa0dRNWJXMHVZV1dXVVcyTFVwaGJhZ0pJZE12b1hkX0JGYWVGTy0wdTBWczdNRTlCZTRvOEZxb3BlbzN3Q0JYbnVLM0hzZXpuSGdjZ2g2VUx6RHRfSjBVb2JscW40QkEwSHdXNEtCM1JjTnBJUHNTblRrWUlmUERQZFY?oc=5",
+      "ts": "2026-11-19T10:51:38+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 17.25,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "由於聯準會暗示進一步升息，華爾街期貨在 Anthropic 創紀錄的 IPO 之前上漲：道瓊斯、標準普爾、納斯達克",
       "summary": "",
       "originalTitle": "Wall Street Futures Advance Ahead of Anthropic’s Record IPO as Fed Signals Further Rate Increases: Dow Jones, S&P, Nasdaq",
@@ -541,6 +609,38 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "利空",
+      "title": "Microsoft CEO warns AI could trigger more outages as cybersecurity risks grow",
+      "summary": "",
+      "originalTitle": "Microsoft CEO warns AI could trigger more outages as cybersecurity risks grow",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTRPT0lJVklBcWdiUDVoWXA0RVp5MkNFVkVuYk53SWJ1dERFZjY3UlBaLTF4bGVoUUdyZkNvbFVYRk0zdHliTnBKN05HTHlXUW9qTnhEMnVyQlZjV0ZDMFdPU0tnczJKYjc1c2dlRVVpeHc0VU0tUVN1cTdTdmtCX25TQU9DMGFUaDRGSTEwQ1NlVURydDBLRUwyUFhIWnFmMDZsZzhsXzNiZjVWZkZTXzV3TVZQTzA?oc=5",
+      "ts": "2026-11-19T10:50:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "利多",
       "title": "人為因素激發人工智慧熱情，美國期貨上漲：市場總結",
       "summary": "",
@@ -554,7 +654,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -573,7 +673,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Anthropic 修訂後的 S-1 顯示支出承諾為 8,950 億美元。以下是有多少資金直接流入 SpaceX 以及何時流入。",
-      "summary": "Anthropic 首次公開發行 (IPO) 是人工智慧 (AI) 投資的里程碑時刻，進一步闡明了人工智慧公司之間的相互關係。其中之一是太空探索技術公司（納斯達克股票代碼：SPCX），該公司將獲得 Anthropic 最新提交給美國證券交易委員會 (SEC) 的 9,009 億美元支出承諾中的大部分。",
+      "summary": "",
       "originalTitle": "Anthropic’s Amended S-1 Shows $895 Billion in Spending Commitments. Here’s How Much Flows Straight to SpaceX -- and When.",
       "originalSummary": "The Anthropic initial public offering (IPO) is a landmark moment for artificial intelligence (AI) investing and sheds further light on the interrelationships among AI companies. One of these is Space Exploration Technologies (NASDAQ:SPCX), which is set to receive a large share of the $900.9 billion in spending commitments outlined in Anthropic's latest Securities and Exchange Commission (SEC) filings.",
       "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-amended-1-shows-895-103502270.html",
@@ -588,10 +688,10 @@
       ],
       "eventType": "新題材",
       "score": 13.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Anthropic 首次公開發行 (IPO) 是人工智慧 (AI) 投資的里程碑時刻，進一步闡明了人工智慧公司之間的相互關係。其中之一是太空探索技術公司（納斯達克股票代碼：SPCX），該公司將獲得 Anthropic 最新提交給美國證券交易委員會 (SEC) 的 9,009 億美元支出承諾中的大部分。",
+        "event": "The Anthropic initial public offering (IPO) is a landmark moment for artificial intelligence (AI) investing and sheds further light on the interrelationships among AI companies. One of these is Space Exploration Technologies (NASDAQ:SPCX), which is set to receive a large share of the $900.9 billion in spending commitments outlined in Anthropic's latest Securities and Exchange Commission (SEC) filings.",
         "numbers": [
           "$895 Billion",
           "$900.9 billion",
@@ -599,7 +699,7 @@
           "900.9 billion"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Anthropic 首次公開發行 (IPO) 是人工智慧 (AI) 投資的里程碑時刻，進一步闡明了人工智慧公司之間的相互關係。其中之一是太空探索技術公司（納斯達克股票代碼：SPCX），該公司將獲得 Anthropic 最新提交給美國證券交易委員會 (SEC) 的 9,009 億美元支出承諾中的大部分。",
+        "stance": "The Anthropic initial public offering (IPO) is a landmark moment for artificial intelligence (AI) investing and sheds further light on the interrelationships among AI companies. One of these is Space Exploration Technologies (NASDAQ:SPCX), which is set to receive a large share of the $900.9 billion in spending commitments outlined in Anthropic's latest Securities and Exchange Commission (SEC) filings.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -640,7 +740,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 4
     },
     {
       "ticker": "MARKET",
@@ -732,8 +832,8 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "GOOGL",
@@ -872,7 +972,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9,
+      "top10Rank": 7,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1975,7 +2075,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 8
     },
     {
       "ticker": "NOK",
@@ -2007,7 +2107,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 6
     },
     {
       "ticker": "NOK",
@@ -2040,7 +2140,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 5
     },
     {
       "ticker": "NOK",
@@ -2453,8 +2553,8 @@
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2527,7 +2627,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 1,
       "detailSource": "article_or_same_event",
       "analystDetails": []
     },
@@ -2559,122 +2659,6 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "APH",
-      "group": "高速傳輸",
-      "tag": "題材",
-      "title": "安費諾 (APH) 股票預測與分析師價格目標",
-      "summary": "標題：錯誤 404：找不到頁面 URL 來源：http://www.tipranks.com/news/ampheno-aph-stock-forecast-analyst-price-targets 最終 URL：https://www.tipranks.com/news/ampheno-aph-stock-forecast-analyst-price-targets 183 返回主題 4：黑色星期五未 2030-price 標題獲得75% 折扣，享受我們有史以來最大的促銷活動，升級 NOWx x Go Ultimate75% 折扣，創意股票頂部",
-      "originalTitle": "Amphenol (APH) Stock Forecast & Analyst Price Targets",
-      "originalSummary": "",
-      "url": "https://www.tipranks.com/news/amphenol-aph-stock-forecast-analyst-price-targets",
-      "ts": "2026-11-19T06:29:38+00:00",
-      "sourceType": "tipranks_broker",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "APH"
-      ],
-      "eventType": "",
-      "score": 250.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 1,
-      "detailSource": "yahoo_or_article_metadata"
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "Goldman Sachs 調整 AVGO 目標價至 $460",
-      "summary": "",
-      "originalTitle": "Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DRVVGX0JnNjZzUmpHbEF1YWctYk40eEZibmFyVUFycC1CM25WX2w2bnY0Njg2cUpvWU5ZUnVQLXpaZHQ1aUM2WGpTX1NVXzVIaVVaY2lwcUQ?oc=5",
-      "ts": "2026-11-19T06:26:04+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Goldman Sachs",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "",
-          "newTarget": "$460",
-          "oldTarget": "",
-          "reason": "Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
-          "reasonConfidence": "medium",
-          "targetTicker": "AVGO",
-          "targetCompany": "Broadcom"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Broadcom（AVGO）｜券商：Goldman Sachs｜評等：Buy｜目標價：$460｜調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
-        "numbers": [
-          "$460"
-        ],
-        "why": "調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Goldman Sachs Cuts Broadcom Price Target to $460, Keeps Buy Rating",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 7
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "凱文·奧利裡 (Kevin O’Leary) 認為 Nvidia 的黃仁勳 (Jensen Huang) 沒有回頭路：“忘掉這件事吧……還有另一個問題”",
-      "summary": "",
-      "originalTitle": "Kevin O’Leary Sees No Way Back for Jensen Huang at Nvidia: ‘Forget About the Affairs...There’s Another Problem’",
-      "originalSummary": "Investor Kevin O’Leary sees little chance of Jensen Huang returning to Nvidia Corp (NASDAQ:NVDA), arguing that ongoing China-related investigations and political opposition could keep the former CEO from reclaiming the helm. China Investigation Could Complicate Huang’s Comeback On Wednesday, O’Leary warned that investigations into developments involving China could become a major overhang for Nvidia, pointing to Dec. 10 as the date when he expects scrutiny of the past two weeks to intensify. \"Th",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kevin-o-leary-sees-no-062559128.html",
-      "ts": "2026-11-19T06:25:59+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -2.8946352759552263,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Investor Kevin O’Leary sees little chance of Jensen Huang returning to Nvidia Corp (NASDAQ:NVDA), arguing that ongoing China-related investigations and political opposition could keep the former CEO from reclaiming the helm. China Investigation Could Complicate Huang’s Comeback On Wednesday, O’Leary warned that investigations into developments involving China could become a major overhang for Nvidia, pointing to Dec. 10 as the date when he expects scrutiny of the past two weeks to intensify. \"Th",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Investor Kevin O’Leary sees little chance of Jensen Huang returning to Nvidia Corp (NASDAQ:NVDA), arguing that ongoing China-related investigations and political opposition could keep the former CEO from reclaiming the helm. 10 as the date when he expects scrutiny of the past two weeks to intensify.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
