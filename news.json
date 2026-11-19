@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-19 22:43 台灣時間",
+  "updatedAt": "2026-11-19 22:48 台灣時間",
   "historyUpdatedDate": "2026-11-19",
   "historyLastAttemptAt": "2026-11-18T16:00:43.942843+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-19",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "Anthropic 將在完成有史以來最大規模的 IPO 後開始交易",
+      "summary": "Anthropic 籌集了創紀錄的 813 億美元資金，一躍超過 SpaceX，後者在 6 月上市時籌集了 750 億美元。",
+      "originalTitle": "Anthropic set to start trading after completing largest-ever IPO",
+      "originalSummary": "Anthropic raised a record $81.3 billion, catapulting it past SpaceX, which raised $75 billion​ when it went public in June.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-set-start-trading-completing-135519162.html",
+      "ts": "2026-11-19T14:43:03+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.3379790940766467,
+      "relatedTickers": [
+        "SPCX"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "APP",
       "group": "Cloud／Software／AI 應用",
@@ -37,7 +69,168 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
+    },
+    {
+      "ticker": "BE",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利多",
+      "title": "BMO Capital 下修 BE 目標價至 $230（原 $260）",
+      "summary": "主要要點 在 Anthropic 首次公開募股當天，BMO 資本市場將 Bloom Energy 股票評級上調至跑贏大盤，之後該股股價上漲 6%。曾經持懷疑態度的 BMO 現在喜歡 Bloom 的合約保護和里程碑付款，儘管它將目標從 260 美元下調至 230 美元。",
+      "originalTitle": "Bloom Energy Soars 6% as One-Time Skeptic BMO Upgrades on Anthropic IPO Day",
+      "originalSummary": "Key TakeawaysBloom Energy shares rose 6% after BMO Capital Markets upgraded the stock to Outperform on the day of Anthropic’s IPO. BMO, once a skeptic, now likes Bloom’s contract protections and milestone payments, though it cut its target to $230 from $260.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-soars-6-one-143423834.html",
+      "ts": "2026-11-19T14:34:23+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 6.6822277838518795,
+      "analystDetails": [
+        {
+          "broker": "BMO Capital",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "",
+          "newTarget": "$230",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "BE",
+          "targetCompany": "Bloom Energy"
+        }
+      ],
+      "relatedTickers": [
+        "BE"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Bloom Energy（BE）｜券商：BMO Capital｜評等：Outperform｜目標價：$230｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$230"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 5
+    },
+    {
+      "ticker": "STX",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "人工智慧股在 Anthropic IPO 日反彈，希捷飆漲 6%，相干公司上漲 8%",
+      "summary": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it. Seagate had no news of its own, and its swings have tracked AI sentiment more than its business.",
+      "originalTitle": "Seagate Soars 6%, Coherent Up 8% as AI Stocks Rebound on Anthropic IPO Day",
+      "originalSummary": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it. Seagate had no news of its own, and its swings have tracked AI sentiment more than its business.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-soars-6-coherent-8-143349467.html",
+      "ts": "2026-11-19T14:33:49+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 8.158538476448939,
+      "relatedTickers": [
+        "STX",
+        "COHR"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it. Seagate had no news of its own, and its swings have tracked AI sentiment more than its business.",
+        "numbers": [
+          "6%",
+          "8%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Key TakeawaysSeagate jumped 6% today as AI hardware stocks rebounded on the day of Anthropic’s IPO, and Coherent rose with it. Seagate had no news of its own, and its swings have tracked AI sentiment more than its business.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "NVIDIA 公佈收入 1,158 億美元。為什麼股價一個月內仍下跌27%？",
+      "summary": "季度井噴、CEO 意外辭職以及出口規定收緊在 NVIDIA 身上發生了衝突。一種模型將拋售視為對仍在加速的業務的折扣，但風險可能會迅速擴大。",
+      "originalTitle": "NVIDIA Posted $115.8 Billion in Revenue. Why Is the Stock Still Down 27% in a Month?",
+      "originalSummary": "A blowout quarter, a surprise CEO resignation, and tightening export rules have collided at NVIDIA. One model sees the sell-off as a discount on a business still accelerating, but the risks could widen fast.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-posted-115-8-billion-143316367.html",
+      "ts": "2026-11-19T14:33:16+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.683359830418654,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 7.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "季度井噴、CEO 意外辭職以及出口規定收緊在 NVIDIA 身上發生了衝突。一種模型將拋售視為對仍在加速的業務的折扣，但風險可能會迅速擴大。",
+        "numbers": [
+          "$115.8 Billion",
+          "27%",
+          "115.8 Billion"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "季度井噴、CEO 意外辭職以及出口規定收緊在 NVIDIA 身上發生了衝突。一種模型將拋售視為對仍在加速的業務的折扣，但風險可能會迅速擴大。",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "馬斯克 (Elon Musk) 最新呼籲特斯拉與 SpaceX 合併；解釋薪酬方案",
+      "summary": "Reports suggest Tesla (TSLA) and SpaceX (SPCX) are advancing merger talks, and a deal could be announced as early as next month. As I noted in a previous article, the merger was always a matter of when, not if , and any doubts were laid to rest during SpaceX's Q3 2026 earnings call last month. Elon Musk, who heads both companies, termed the merger a \"good idea\" during the call and said, \"there's a lot of merit to combining the companies as we are pretty much in the Super Intelligence singularity.\"",
+      "originalTitle": "Elon Musk's Latest Calls For Tesla-SpaceX Merger; Explains Pay Package",
+      "originalSummary": "Reports suggest Tesla (TSLA) and SpaceX (SPCX) are advancing merger talks, and a deal could be announced as early as next month. As I noted in a previous article, the merger was always a matter of when, not if , and any doubts were laid to rest during SpaceX's Q3 2026 earnings call last month. Elon Musk, who heads both companies, termed the merger a \"good idea\" during the call and said, \"there's a lot of merit to combining the companies as we are pretty much in the Super Intelligence singularity.\"",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-create-134206442.html",
+      "ts": "2026-11-19T14:30:51+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.3379790940766467,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "SPCX",
+        "TSLA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 40.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Reports suggest Tesla (TSLA) and SpaceX (SPCX) are advancing merger talks, and a deal could be announced as early as next month. As I noted in a previous article, the merger was always a matter of when, not if , and any doubts were laid to rest during SpaceX's Q3 2026 earnings call last month. Elon Musk, who heads both companies, termed the merger a \"good idea\" during the call and said, \"there's a lot of merit to combining the companies as we are pretty much in the Super Intelligence singularity.\"",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Elon Musk, who heads both companies, termed the merger a \"good idea\" during the call and said, \"there's a lot of merit to combining the companies as we are pretty much in the Super Intelligence singularity.\"",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SPCX",
@@ -51,7 +244,7 @@
       "ts": "2026-11-19T14:24:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.721254355400692,
+      "movePct": 1.3379790940766467,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -113,40 +306,8 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8,
+      "top10Rank": 9,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "Anthropic 將在完成有史以來最大規模的 IPO 後開始交易",
-      "summary": "Anthropic 籌集了創紀錄的 813 億美元資金，一躍超過 SpaceX，後者在 6 月上市時籌集了 750 億美元。",
-      "originalTitle": "Anthropic set to start trading after completing largest-ever IPO",
-      "originalSummary": "Anthropic raised a record $81.3 billion, catapulting it past SpaceX, which raised $75 billion​ when it went public in June.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-set-start-trading-completing-135519162.html",
-      "ts": "2026-11-19T14:19:37+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.721254355400692,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 6.0,
-      "featured": true,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -160,7 +321,7 @@
       "ts": "2026-11-19T14:18:39+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.0110625331213345,
+      "movePct": 4.683359830418654,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -203,12 +364,12 @@
       "ts": "2026-11-19T14:16:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.6802711481429107,
+      "movePct": 4.03332862590029,
       "relatedTickers": [
         "AVGO"
       ],
       "eventType": "新題材",
-      "score": 19.5,
+      "score": 24.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -269,7 +430,7 @@
       "ts": "2026-11-19T14:15:55+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.9265873015873023,
+      "movePct": 3.240740740740744,
       "relatedTickers": [
         "KTOS",
         "STX"
@@ -306,13 +467,13 @@
       "ts": "2026-11-19T14:15:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.734955185659408,
+      "movePct": 7.636912383391259,
       "relatedTickers": [
         "INTC",
         "MSFT"
       ],
       "eventType": "跨公司事件",
-      "score": 39.0,
+      "score": 40.5,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -343,7 +504,7 @@
       "ts": "2026-11-19T14:13:56+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.967481445188438,
+      "movePct": 5.7143375614713054,
       "relatedTickers": [
         "LITE",
         "COHR",
@@ -385,7 +546,7 @@
       "ts": "2026-11-19T14:12:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8504620866273367,
+      "movePct": 3.1288275247745245,
       "relatedTickers": [
         "STM"
       ],
@@ -420,7 +581,7 @@
       "ts": "2026-11-19T14:11:29+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.00580978609426,
+      "movePct": 3.837948466442831,
       "relatedTickers": [
         "AMD"
       ],
@@ -452,7 +613,7 @@
       "ts": "2026-11-19T14:11:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8289194165132425,
+      "movePct": 3.4194873247415325,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -484,7 +645,7 @@
       "ts": "2026-11-19T14:11:23+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.845988061309848,
+      "movePct": 6.4358330852014145,
       "relatedTickers": [
         "MU",
         "SNDK",
@@ -516,21 +677,21 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Redwire 因 1,500 萬美元的 AscendArc Solar 交易和 Oppenheimer 發起而股價上漲 4%； AST SpaceMobile 上漲 8%，Rocket Lab 上漲 3%",
-      "summary": "Redwire 不斷贏得合同，積壓訂單創歷史新高，但其收入卻始終未能達標。為什麼航太熱潮的供應商落後於更響亮的同行，以及什麼最終可以縮小差距，可能會決定這種反彈是否持續。",
+      "summary": "",
       "originalTitle": "Redwire Climbs 4% on $15 Million AscendArc Solar Deal and Oppenheimer Initiation; AST SpaceMobile Jumps 8%, Rocket Lab Gains 3%",
       "originalSummary": "Redwire is stacking up contract wins and a record backlog, yet its revenue keeps missing the mark. Why a supplier to the space boom lags louder peers, and what could finally close the gap, may decide whether this bounce lasts.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/redwire-climbs-4-15-million-141026658.html",
       "ts": "2026-11-19T14:10:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.173732805728281,
+      "movePct": 4.013566986998307,
       "relatedTickers": [
         "RKLB",
         "ASTS"
       ],
       "eventType": "跨公司事件",
       "score": 34.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Redwire 不斷贏得合同，積壓訂單創歷史新高，但其收入卻始終未能達標。為什麼航太熱潮的供應商落後於更響亮的同行，以及什麼最終可以縮小差距，可能會決定這種反彈是否持續。",
@@ -557,14 +718,14 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Credo 一週內股價下跌 8%，Marvell 股價下跌 8%，Bessent 呼籲 Nvidia 進行「大幅重組」。是時候購買了嗎？",
-      "summary": "主要要點 由於英偉達 (NVDA: NASDAQ) 的動盪打擊了包括 Marvell 在內的 AI 晶片股，Credo Technology (CRDO: NASDAQ) 股票在過去一周下跌了 8%。 Credo 與 Marvell Technology（MRVL：納斯達克）達成的專利和解保護了其大部分成長背後的電纜。",
+      "summary": "",
       "originalTitle": "Credo Sinks 8% in a Week, Marvell 8%, as Bessent Calls for a Nvidia “Dramatic Shakeup.” Time to Buy?",
       "originalSummary": "Key TakeawaysCredo Technology (CRDO:NASDAQ) stock fell 8% in the past week as turmoil at Nvidia (NVDA:NASDAQ) hit AI chip stocks, Marvell included. Credo’s patent settlement with Marvell Technology (MRVL:NASDAQ) protects the cables behind most of its growth.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/credo-sinks-8-week-marvell-140737811.html",
       "ts": "2026-11-19T14:07:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.321561082863813,
+      "movePct": 5.242545004809673,
       "relatedTickers": [
         "MRVL",
         "NVDA",
@@ -572,10 +733,10 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "主要要點 由於英偉達 (NVDA: NASDAQ) 的動盪打擊了包括 Marvell 在內的 AI 晶片股，Credo Technology (CRDO: NASDAQ) 股票在過去一周下跌了 8%。 Credo 與 Marvell Technology（MRVL：納斯達克）達成的專利和解保護了其大部分成長背後的電纜。",
+        "event": "主要要點 由於英偉達 (NVDA: NASDAQ) 的動盪打擊了包括 Marvell 在內的 AI 晶片股，Credo Technology (CRDO: NASDAQ) 股票在過去一周下跌了 8%。 Credo 与 Marvell Technology（MRVL：纳斯达克）达成的专利和解保护了其大部分增长背后的电缆。",
         "numbers": [
           "8%"
         ],
@@ -595,21 +756,21 @@
       "group": "半導體設備／測試",
       "tag": "利多",
       "title": "應用材料公司一週內股價下跌 7%，但客戶希望「盡快獲得」其工具",
-      "summary": "關鍵要點應用材料公司 (AMAT:NASDAQ) 過去一周下跌 15%，主要是由於 Nvidia (NVDA:NASDAQ) 周圍的晶片拋售，加上第一季指引低於共識。 Nvidia 的資料中心收入成長了一倍多，台積電 (TSM:NYSE) 批准了約 40 美元。",
+      "summary": "",
       "originalTitle": "Applied Materials Sinks 7% in a Week, but Customers Want Its Tools “As Fast as We Can Get Them”",
       "originalSummary": "Key TakeawaysApplied Materials (AMAT:NASDAQ) fell 15% in the past week, mostly in a chip selloff around Nvidia (NVDA:NASDAQ), plus a Q1 guidance below consensus. Nvidia’s data center revenue more than doubled, and TSMC (TSM:NYSE) approved about $40.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-sinks-7-week-140718136.html",
       "ts": "2026-11-19T14:07:18+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.0566279102822955,
+      "movePct": 3.738238053273446,
       "relatedTickers": [
         "AMAT",
         "NVDA"
       ],
       "eventType": "跨公司事件",
-      "score": 39.0,
-      "featured": true,
+      "score": 34.5,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "關鍵要點應用材料公司 (AMAT:NASDAQ) 過去一周下跌 15%，主要是由於 Nvidia (NVDA:NASDAQ) 周圍的晶片拋售，加上第一季指引低於共識。 Nvidia 的資料中心收入成長了一倍多，台積電 (TSM:NYSE) 批准了約 40 美元。",
@@ -636,20 +797,20 @@
       "group": "CSP",
       "tag": "利空",
       "title": "股東訴訟阻礙 Meta 的 C 類股票計劃",
-      "summary": "新股將使祖克柏在不失去投票控制權的情況下出售股票",
+      "summary": "",
       "originalTitle": "Shareholder Lawsuits Stall Meta's Class C Share Plan",
       "originalSummary": "The new shares would let Zuckerberg sell stock without losing voting control",
       "url": "https://finance.yahoo.com/markets/stocks/articles/shareholder-lawsuits-stall-metas-class-140657147.html",
       "ts": "2026-11-19T14:06:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.1226678347772356,
+      "movePct": 1.5769492845322697,
       "relatedTickers": [
         "META"
       ],
       "eventType": "",
       "score": 3.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -720,7 +881,7 @@
       "ts": "2026-11-19T14:05:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.0110625331213345,
+      "movePct": 4.683359830418654,
       "relatedTickers": [
         "NVDA"
       ],
@@ -754,7 +915,7 @@
       "ts": "2026-11-19T14:05:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.2755806878780298,
+      "movePct": 0.6808990372570767,
       "relatedTickers": [
         "CAT"
       ],
@@ -816,7 +977,7 @@
       "ts": "2026-11-19T14:03:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.6802711481429107,
+      "movePct": 4.03332862590029,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -824,7 +985,7 @@
         "GOOGL"
       ],
       "eventType": "",
-      "score": 27.0,
+      "score": 31.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -928,7 +1089,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1063,7 +1224,7 @@
       "ts": "2026-11-19T13:53:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.438351303936437,
+      "movePct": 3.340166761940422,
       "relatedTickers": [
         "MSFT"
       ],
@@ -1086,6 +1247,37 @@
       "top10Rank": null
     },
     {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "谷歌簽署首次重型 Suncatcher 任務啟動協議",
+      "summary": "",
+      "originalTitle": "Google Signs Launch Agreement for First Heavy-Lift Suncatcher Mission",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjZQRmthemtVcE9IbUhTN3U2YmxZd2MtWFowclQ5d1E0WnVJUDNLNkVScFU1S3N2OWFybTRzemlKVlVXTHBSM2NHRFhmVC1Va3F3bVRUTUcwNTRfajVwV1pUSDZCZXYtemxISFVkc1pvNWJLYzRuaHVmQXFLdlJvckVmOHVkSGtza1JHQ3VHRUlkRXVPSzk5MHNGM3Q?oc=5",
+      "ts": "2026-11-19T13:51:02+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "新題材",
+      "score": 16.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "BE",
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
@@ -1097,7 +1289,7 @@
       "ts": "2026-11-19T13:50:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.984864199207273,
+      "movePct": 6.6822277838518795,
       "relatedTickers": [
         "BE"
       ],
@@ -1166,43 +1358,6 @@
       "top10": false,
       "top10Rank": null,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "馬斯克 (Elon Musk) 最新呼籲特斯拉與 SpaceX 合併；解釋薪酬方案",
-      "summary": "",
-      "originalTitle": "Elon Musk's Latest Calls For Tesla-SpaceX Merger; Explains Pay Package",
-      "originalSummary": "Reports suggest Tesla (TSLA) and SpaceX (SPCX) are advancing merger talks, and a deal could be announced as early as next month. As I noted in a previous article, the merger was always a matter of when, not if , and any doubts were laid to rest during SpaceX's Q3 2026 earnings call last month. Elon Musk, who heads both companies, termed the merger a \"good idea\" during the call and said, \"there's a lot of merit to combining the companies as we are pretty much in the Super Intelligence singularity.\"",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-create-134206442.html",
-      "ts": "2026-11-19T13:48:42+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.534973418117369,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "TSLA",
-        "SPCX"
-      ],
-      "eventType": "跨公司事件",
-      "score": 40.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "有報導稱，特斯拉 (TSLA) 和 SpaceX (SPCX) 正在推進合併談判，交易最快可能在下個月宣布。正如我在上一篇文章中指出的那樣，合併始終是時間問題，而不是是否合併的問題，並且在 SpaceX 上個月的 2026 年第三季財報電話會議上，任何疑慮都得到了消除。兩家公司的負責人埃隆·馬斯克在電話會議中稱此次合併是一個“好主意”，並表示：“合併兩家公司有很多好處，因為我們幾乎處於超級智能奇點。”",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "有報導稱，特斯拉 (TSLA) 和 SpaceX (SPCX) 正在推進合併談判，交易最快可能在下個月宣布。正如我在上一篇文章中指出的那樣，合併始終是時間問題，而不是是否合併的問題，並且在 SpaceX 上個月的 2026 年第三季財報電話會議上，任何疑慮都得到了消除。兩家公司的負責人埃隆·馬斯克在電話會議中稱此次合併是一個“好主意”，並表示：“合併兩家公司有很多好處，因為我們幾乎處於超級智能奇點。”",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     },
     {
       "ticker": "STX",
@@ -1286,12 +1441,12 @@
       "ts": "2026-11-19T13:45:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.734955185659408,
+      "movePct": 7.636912383391259,
       "relatedTickers": [
         "INTC"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1325,7 +1480,7 @@
       "ts": "2026-11-19T13:45:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.438351303936437,
+      "movePct": 3.340166761940422,
       "relatedTickers": [
         "MSFT"
       ],
@@ -1389,7 +1544,7 @@
       "ts": "2026-11-19T13:35:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.788042579008332,
+      "movePct": 3.0633445480116928,
       "relatedTickers": [
         "TSM"
       ],
@@ -1600,7 +1755,7 @@
       "ts": "2026-11-19T13:21:51+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.2586837977142107,
+      "movePct": 1.7479644431164676,
       "relatedTickers": [
         "AMZN"
       ],
@@ -1706,7 +1861,7 @@
       "ts": "2026-11-19T13:17:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.483449095801251,
+      "movePct": 5.612915336962643,
       "relatedTickers": [
         "QCOM"
       ],
@@ -1740,7 +1895,7 @@
       "ts": "2026-11-19T13:16:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8289194165132425,
+      "movePct": 3.4194873247415325,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -1866,7 +2021,7 @@
       "ts": "2026-11-19T13:15:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.248138957816372,
+      "movePct": 4.962779156327546,
       "relatedTickers": [
         "FLNC"
       ],
@@ -1900,7 +2055,7 @@
       "ts": "2026-11-19T13:15:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.408503062987588,
+      "movePct": 2.649353369286356,
       "relatedTickers": [
         "ADI"
       ],
@@ -1935,7 +2090,7 @@
       "ts": "2026-11-19T13:15:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.088454910970698,
+      "movePct": 6.321909502839995,
       "relatedTickers": [
         "DELL"
       ],
@@ -1970,7 +2125,7 @@
       "ts": "2026-11-19T13:14:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.321561082863813,
+      "movePct": 5.242545004809673,
       "relatedTickers": [
         "MRVL",
         "LITE"
@@ -2135,7 +2290,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "GOOGL",
@@ -2149,7 +2304,7 @@
       "ts": "2026-11-19T13:11:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8289194165132425,
+      "movePct": 3.4194873247415325,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -2184,7 +2339,7 @@
       "ts": "2026-11-19T13:11:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 4.984864199207273,
+      "movePct": 6.6822277838518795,
       "analystDetails": [
         {
           "broker": "BMO Capital",
@@ -2232,7 +2387,7 @@
       "ts": "2026-11-19T13:10:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.00580978609426,
+      "movePct": 3.837948466442831,
       "relatedTickers": [
         "AMD"
       ],
@@ -2329,8 +2484,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "GOOGL",
@@ -2344,7 +2499,7 @@
       "ts": "2026-11-19T13:05:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8289194165132425,
+      "movePct": 3.4194873247415325,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -2376,14 +2531,14 @@
       "ts": "2026-11-19T13:04:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.6802711481429107,
+      "movePct": 4.03332862590029,
       "relatedTickers": [
         "AVGO",
         "NVDA",
         "MU"
       ],
       "eventType": "",
-      "score": 21.0,
+      "score": 25.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2445,7 +2600,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "GEV",
@@ -2459,7 +2614,7 @@
       "ts": "2026-11-19T13:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.503469165846851,
+      "movePct": 3.557189457878107,
       "relatedTickers": [
         "GEV"
       ],
@@ -2588,7 +2743,7 @@
       "ts": "2026-11-19T12:50:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.845988061309848,
+      "movePct": 6.4358330852014145,
       "relatedTickers": [
         "MU"
       ],
@@ -2624,7 +2779,7 @@
       "ts": "2026-11-19T12:50:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.450915826301702,
+      "movePct": 1.6618645811895316,
       "relatedTickers": [
         "CSCO"
       ],
@@ -2656,7 +2811,7 @@
       "ts": "2026-11-19T12:46:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.788042579008332,
+      "movePct": 3.0633445480116928,
       "relatedTickers": [
         "TSM"
       ],
@@ -2743,134 +2898,6 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GOOGL",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "人類股票市場的首次亮相將永遠改變人工智慧交易",
-      "summary": "",
-      "originalTitle": "Anthropic Stock Market Debut Will Change the AI Trade Forever",
-      "originalSummary": "It's all kicking off with Anthropic's IPO, Palo Alto lifting cybersecurity stocks, and outsized moves from Google parent Alphabet.",
-      "url": "https://www.barrons.com/articles/stock-market-things-to-know-today-474ff1f2?siteid=yhoof2&yptr=yahoo",
-      "ts": "2026-11-19T12:45:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 0.7994289793004983,
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "為什麼英偉達的股票沒有得到全速人為提振",
-      "summary": "",
-      "originalTitle": "Why Nvidia Stock Isn’t Getting the Full-Throttle Anthropic Boost",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM0V3d1ZlZG04SEFmUFJDc1lRZDRWMkZMMkVULVc2SlZqMmI2VUlfUW9sWS1UOFAydWxxdDBVZDZVU2FRODNxMUtTdGdKSnh1Z0tnOF90VDNzMThFUkk2dFE0Y0ZwenFLSWl5TFNKUDhod1pOU0VHT2lEbE0tUUtKN3hQNjk?oc=5",
-      "ts": "2026-11-19T12:42:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "4 股票分析師和對沖基金出乎意料地青睞特斯拉",
-      "summary": "",
-      "originalTitle": "4 Stocks Analysts and Hedge Funds Surprisingly Prefer Over Tesla",
-      "originalSummary": "Tesla keeps winning the headlines while its core profits shrink and its stock trades at a staggering multiple. Meanwhile, four quieter companies powering AI, advertising, and space are earning something Tesla can't: near-unanimous backing from the analysts and funds that watch them.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/4-stocks-analysts-hedge-funds-123906992.html",
-      "ts": "2026-11-19T12:39:06+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.534973418117369,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "特斯拉不斷成為頭條新聞，但核心利潤縮水，股價倍數驚人。與此同時，四家安靜的人工智慧、廣告和太空公司正在獲得特斯拉無法獲得的回報：來自分析師和關注它們的基金的幾乎一致支持。",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "特斯拉不斷成為頭條新聞，但核心利潤縮水，股價倍數驚人。與此同時，四家安靜的人工智慧、廣告和太空公司正在獲得特斯拉無法獲得的回報：來自分析師和關注它們的基金的幾乎一致支持。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "在 Anthropic 首次亮相之前，納斯達剋期貨因人工智慧重新樂觀而上漲",
-      "summary": "",
-      "originalTitle": "Nasdaq futures jump on renewed AI optimism ahead of Anthropic’s market debut By Reuters",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPak1YZVIxUzJDd2IzTE5nNVN0aFBwTFh6dm5pZVFkcGQtbFRwMTZfMjByOW9ELVh2cHFQT1RHYW91MWRDd3pEYVJRQUp0dXJPTEM3Z0xvVEQ4elR5ckphMTJIQW9EY2ozeFNaUHlKeGFKX29oSG9obGxqaW9yai1LYi0tWU1ybzl2SkJXTklpN25yWVctbGM5dE1IZElRSHJ5TjlPWFB4cXF3bkd2VUFJWC15VTZWbVJ2UzR5bFFRcVdlRjlpX3N4dVRPWHFfSDhRSXJzSQ?oc=5",
-      "ts": "2026-11-19T12:38:57+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
