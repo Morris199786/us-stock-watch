@@ -1,11 +1,78 @@
 {
-  "updatedAt": "2026-11-20 23:28 台灣時間",
+  "updatedAt": "2026-11-20 23:37 台灣時間",
   "historyUpdatedDate": "2026-11-20",
   "historyLastAttemptAt": "2026-11-19T16:03:48.662686+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-20",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "Stocks plunge as investors take cover amid growing uncertainty",
+      "summary": "",
+      "originalTitle": "Stocks plunge as investors take cover amid growing uncertainty",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVZjFqa0hNX2pnT1d4RGRQWEhNTDl6djZzd2sxOFZhOWE3UnUyZFpxWk1NVzJrNnpGbS02bDctT2FLMUNNdzV2ZW9lMjVrM01ZRHpBNmpycjBJSVRVaWVPdGlyazkxQWJLal9BSHo1Zw?oc=5",
+      "ts": "2026-11-20T15:23:30+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Nvidia gets more supplier capacity to meet AI demand",
+      "summary": "Nvidia suppliers Kinsus Interconnect Technology, Samsung Electro-Mechanics and Siliconware Precision Industries have agreed to increase production capacity for components in Nvidia's artificial intelligence computing platforms to help meet high demand, according to a Nov. 17 press release . Kinsus and Samsung Electro-Mechanics agreed to boost capacity for package substrates, the bases that connect chips to circuit bo",
+      "originalTitle": "Nvidia gets more supplier capacity to meet AI demand",
+      "originalSummary": "Nvidia suppliers Kinsus Interconnect Technology, Samsung Electro-Mechanics and Siliconware Precision Industries have agreed to increase production capacity for components in Nvidia's artificial intelligence computing platforms to help meet high demand, according to a Nov. 17 press release . Kinsus and Samsung Electro-Mechanics agreed to boost capacity for package substrates, the bases that connect chips to circuit boards. Siliconware Precision Industries, or SPIL, will increase production of advanced packaging, a process that stacks or places pieces of silicon side by side in a single chip package. \"With demand continuing to outpace supply, we are working closely with our partners to accelerate capacity expansion across critical components, including wafers, substrates and advanced packaging,\" Colette Kress, interim CEO and CFO, told investors in an earnings call this week .",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-gets-more-supplier-capacity-151900569.html",
+      "ts": "2026-11-20T15:19:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -5.148239484860939,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 22.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Nvidia suppliers Kinsus Interconnect Technology, Samsung Electro-Mechanics and Siliconware Precision Industries have agreed to increase production capacity for components in Nvidia's artificial intelligence computing platforms to help meet high demand, according to a Nov. 17 press release . Kinsus and Samsung Electro-Mechanics agreed to boost capacity for package substrates, the bases that connect chips to circuit bo",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Nvidia suppliers Kinsus Interconnect Technology, Samsung Electro-Mechanics and Siliconware Precision Industries have agreed to increase production capacity for components in Nvidia's artificial intelligence computing platforms to help meet high demand, according to a Nov. Kinsus and Samsung Electro-Mechanics agreed to boost capacity for package substrates, the bases that connect chips to circuit bo",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
@@ -18,7 +85,7 @@
       "ts": "2026-11-20T15:16:42+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.7884641731744,
+      "movePct": -5.148239484860939,
       "relatedTickers": [
         "NVDA"
       ],
@@ -31,6 +98,116 @@
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "\"The 8:30\" hosts Julie Hyman, Pras Subramanian, and Jake Conley discuss mounting challenges for Nvidia (NVDA) as the AI chip giant reportedly faces a California subpoena related to its chip sales in China. The panel examines the potential regulatory fallout, questions surrounding investor disclosures, and what increased scrutiny could mean for Nvidia's business.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "SpaceX Lenders Want to Stop Musk From Launching $40 Billion in Nvidia Chips Into Orbit",
+      "summary": "If SpaceX (NASDAQ:SPCX) stops paying for its new AI chips, its lenders want to be able to take them back and sell them. That gets a lot harder if Elon Musk has put them in orbit. Lenders asked for a...",
+      "originalTitle": "SpaceX Lenders Want to Stop Musk From Launching $40 Billion in Nvidia Chips Into Orbit",
+      "originalSummary": "If SpaceX (NASDAQ:SPCX) stops paying for its new AI chips, its lenders want to be able to take them back and sell them. That gets a lot harder if Elon Musk has put them in orbit. Lenders asked for a...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-lenders-want-stop-musk-151641101.html",
+      "ts": "2026-11-20T15:16:41+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -5.148239484860939,
+      "relatedTickers": [
+        "NVDA",
+        "SPCX"
+      ],
+      "eventType": "跨公司事件",
+      "score": 33.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "If SpaceX (NASDAQ:SPCX) stops paying for its new AI chips, its lenders want to be able to take them back and sell them. That gets a lot harder if Elon Musk has put them in orbit. Lenders asked for a...",
+        "numbers": [
+          "$40 Billion",
+          "40 Billion"
+        ],
+        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "stance": "If SpaceX (NASDAQ:SPCX) stops paying for its new AI chips, its lenders want to be able to take them back and sell them. That gets a lot harder if Elon Musk has put them in orbit.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GEV",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "利空",
+      "title": "Why GE Vernova Investors Could Make Sense Of ETFs Now",
+      "summary": "You can own GE Vernova directly and let your results ride on a single energy company, or you can hold it inside an exchange traded fund and spread that impact across many businesses. Simply Wall St flags risks around large one off items that can sway its reported results, and pressure from onshore wind equipment facing permitting delays and tariff uncertainty. An ETF that includes GE Vernova can mute how much those s",
+      "originalTitle": "Why GE Vernova Investors Could Make Sense Of ETFs Now",
+      "originalSummary": "You can own GE Vernova directly and let your results ride on a single energy company, or you can hold it inside an exchange traded fund and spread that impact across many businesses. Simply Wall St flags risks around large one off items that can sway its reported results, and pressure from onshore wind equipment facing permitting delays and tariff uncertainty. An ETF that includes GE Vernova can mute how much those specific issues move your portfolio, and also mutes any sharp upside from the...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-ge-vernova-investors-could-151320691.html",
+      "ts": "2026-11-20T15:13:20+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -4.738324430105245,
+      "relatedTickers": [
+        "GEV"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "You can own GE Vernova directly and let your results ride on a single energy company, or you can hold it inside an exchange traded fund and spread that impact across many businesses. Simply Wall St flags risks around large one off items that can sway its reported results, and pressure from onshore wind equipment facing permitting delays and tariff uncertainty. An ETF that includes GE Vernova can mute how much those s",
+        "numbers": [],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "You can own GE Vernova directly and let your results ride on a single energy company, or you can hold it inside an exchange traded fund and spread that impact across many businesses. Simply Wall St flags risks around large one off items that can sway its reported results, and pressure from onshore wind equipment facing permitting delays and tariff uncertainty.",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "HPE",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Is Hewlett Packard Enterprise (HPE) Undervalued Or Is Its AI And Networking Story Priced In?",
+      "summary": "Hewlett Packard Enterprise (HPE) just added veteran investment banker Jennifer Nason to its Board of Directors, a move that puts long-time adviser insight directly into the company’s governance as AI, networking and cloud reshape enterprise technology. Recent trading tells a mixed story. HPE’s share price has pulled back sharply in the near term, with a 7 day return down 9.31% and a 30 day share price return down 18.",
+      "originalTitle": "Is Hewlett Packard Enterprise (HPE) Undervalued Or Is Its AI And Networking Story Priced In?",
+      "originalSummary": "Hewlett Packard Enterprise (HPE) just added veteran investment banker Jennifer Nason to its Board of Directors, a move that puts long-time adviser insight directly into the company’s governance as AI, networking and cloud reshape enterprise technology. Recent trading tells a mixed story. HPE’s share price has pulled back sharply in the near term, with a 7 day return down 9.31% and a 30 day share price return down 18.90%. However, the year to date share price return of 88.21% and 1 year total...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hewlett-packard-enterprise-hpe-undervalued-151237679.html",
+      "ts": "2026-11-20T15:12:37+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -5.056056276104648,
+      "relatedTickers": [
+        "HPE"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Hewlett Packard Enterprise (HPE) just added veteran investment banker Jennifer Nason to its Board of Directors, a move that puts long-time adviser insight directly into the company’s governance as AI, networking and cloud reshape enterprise technology. Recent trading tells a mixed story. HPE’s share price has pulled back sharply in the near term, with a 7 day return down 9.31% and a 30 day share price return down 18.",
+        "numbers": [
+          "9.31%",
+          "18.90%",
+          "88.21%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Hewlett Packard Enterprise (HPE) just added veteran investment banker Jennifer Nason to its Board of Directors, a move that puts long-time adviser insight directly into the company’s governance as AI, networking and cloud reshape enterprise technology. Recent trading tells a mixed story.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -73,7 +250,7 @@
       "eventType": "",
       "score": 201.0,
       "featured": true,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "被評級公司：Credo（CRDO）｜券商：Stifel｜動作：重申｜調整原因：CRDO Maintains Rating by Stifel -- Price Target Lowered to $250",
         "numbers": [],
@@ -84,21 +261,95 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 8
+    },
+    {
+      "ticker": "KEYS",
+      "group": "半導體設備／測試",
+      "tag": "利多",
+      "title": "What Does Keysight Technologies (KEYS) New 6G UAV Lab Push Mean?",
+      "summary": "Keysight Technologies (NYSE: KEYS) and Cohere Technologies announced a collaboration to bring multi-UAV 6G sensing capabilities into lab environments. The partnership focuses on integrated sensing and communications emulation for fleets of unmanned aerial vehicles in controlled test setups. Researchers can use the joint platform to validate advanced 6G waveforms and multi-UAV scenarios before moving to field trials.",
+      "originalTitle": "What Does Keysight Technologies (KEYS) New 6G UAV Lab Push Mean?",
+      "originalSummary": "Keysight Technologies (NYSE: KEYS) and Cohere Technologies announced a collaboration to bring multi-UAV 6G sensing capabilities into lab environments. The partnership focuses on integrated sensing and communications emulation for fleets of unmanned aerial vehicles in controlled test setups. Researchers can use the joint platform to validate advanced 6G waveforms and multi-UAV scenarios before moving to field trials. This new multi-UAV 6G sensing collaboration between Keysight and Cohere sits...",
+      "url": "https://finance.yahoo.com/technology/articles/does-keysight-technologies-keys-6g-151052181.html",
+      "ts": "2026-11-20T15:10:52+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.5637836685381443,
+      "relatedTickers": [
+        "KEYS"
+      ],
+      "eventType": "新題材",
+      "score": 16.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Keysight Technologies (NYSE: KEYS) and Cohere Technologies announced a collaboration to bring multi-UAV 6G sensing capabilities into lab environments. The partnership focuses on integrated sensing and communications emulation for fleets of unmanned aerial vehicles in controlled test setups. Researchers can use the joint platform to validate advanced 6G waveforms and multi-UAV scenarios before moving to field trials.",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Keysight Technologies (NYSE: KEYS) and Cohere Technologies announced a collaboration to bring multi-UAV 6G sensing capabilities into lab environments. The partnership focuses on integrated sensing and communications emulation for fleets of unmanned aerial vehicles in controlled test setups.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "ASTS",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "AST SpaceMobile (ASTS), What Is Behind The Fresh Attention?",
+      "summary": "AST SpaceMobile (ASTS) has become a talking point again after reaffirming its 2026 revenue outlook of US$150 million to US$200 million, alongside a fresh joint venture in Japan and a new in-house rocket plan. Despite the reaffirmed outlook and new deals, AST SpaceMobile’s share price has been under pressure, with a 7 day share price return of down 25.94% and a 30 day share price return of down 37.88% as investors wei",
+      "originalTitle": "AST SpaceMobile (ASTS), What Is Behind The Fresh Attention?",
+      "originalSummary": "AST SpaceMobile (ASTS) has become a talking point again after reaffirming its 2026 revenue outlook of US$150 million to US$200 million, alongside a fresh joint venture in Japan and a new in-house rocket plan. Despite the reaffirmed outlook and new deals, AST SpaceMobile’s share price has been under pressure, with a 7 day share price return of down 25.94% and a 30 day share price return of down 37.88% as investors weigh dilution, launch risk, and heavy spend on the Blacklift rocket. Yet the...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-asts-behind-fresh-151017644.html",
+      "ts": "2026-11-20T15:10:17+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -3.679060665362044,
+      "relatedTickers": [
+        "ASTS"
+      ],
+      "eventType": "",
+      "score": 6.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "AST SpaceMobile (ASTS) has become a talking point again after reaffirming its 2026 revenue outlook of US$150 million to US$200 million, alongside a fresh joint venture in Japan and a new in-house rocket plan. Despite the reaffirmed outlook and new deals, AST SpaceMobile’s share price has been under pressure, with a 7 day share price return of down 25.94% and a 30 day share price return of down 37.88% as investors wei",
+        "numbers": [
+          "$150 million",
+          "$200 million",
+          "25.94%",
+          "37.88%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "AST SpaceMobile (ASTS) has become a talking point again after reaffirming its 2026 revenue outlook of US$150 million to US$200 million, alongside a fresh joint venture in Japan and a new in-house rocket plan. Despite the reaffirmed outlook and new deals, AST SpaceMobile’s share price has been under pressure, with a 7 day share price return of down 25.94% and a 30 day share price return of down 37.88% as investors wei",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "SpaceX Falls 4% on $32 Billion AI Chip Debt at Yields Topping 8% as AI Sell-Off Deepens",
-      "summary": "(Bloomberg) -- SpaceX ( SPCX ) sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come. Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outa",
+      "summary": "",
       "originalTitle": "SpaceX Falls 4% on $32 Billion AI Chip Debt at Yields Topping 8% as AI Sell-Off Deepens",
       "originalSummary": "(Bloomberg) -- SpaceX ( SPCX ) sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come. Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outages, US Says Anthropic IPO Allocates Nothing to Most Institutional Orders Anthropic Raises $107.3 Billion to Top SpaceX's Record Debut",
       "url": "https://finance.yahoo.com/technology/ai/articles/spacex-sells-32-billion-ai-234112045.html",
       "ts": "2026-11-20T15:08:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.7884641731744,
+      "movePct": -5.148239484860939,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -107,10 +358,10 @@
       ],
       "eventType": "跨公司事件",
       "score": 27.0,
-      "featured": true,
+      "featured": false,
       "translated": false,
       "investorBrief": {
-        "event": "(Bloomberg) -- SpaceX ( SPCX ) sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come. Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outa",
+        "event": "(Bloomberg) -- SpaceX ( SPCX ) sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come. Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outages, US Says Anthropic IPO Allocates Nothing to Most Institutional Orders Anthropic Raises $107.3 Bi",
         "numbers": [
           "$32 Billion",
           "$32 billion",
@@ -118,7 +369,7 @@
           "4%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "(Bloomberg) -- SpaceX ( SPCX ) sold $32 billion of bonds to fund its purchase of artificial intelligence chips on Thursday, in a complicated and relatively high-yielding transaction that may serve as a model for a wave of similar financings to come. Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outa",
+        "stance": "Modi Tries to End Trump Photo-Op in Awkward Viral Moment Costco Shoppers Are Panic-Buying Due to Outages, Analysts Say Iran Hit Key Infrastructure, Isn't Behind Tech Outages, US Says Anthropic IPO Allocates Nothing to Most Institutional Orders Anthropic Raises $107.3 Billion to Top SpaceX's Record Debut",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -134,7 +385,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "藍色起源的新格倫火箭將把谷歌人工智慧衛星發射到太空",
-      "summary": "Google has hired Blue Origin to deliver AI satellites to space, where the tech giant hopes they can harness the power of the sun to provide computing power to us here on Earth. While the first mission is still three years away, Blue Origin, the rocket company founded by Amazon billionaire Jeff Bezos, will use its New Glenn launch vehicle to deliver batches of the satellites to Earth orbit. Once deployed, experimental satellites will test what it's like to run AI systems in space. For Blue Origin, the contract is a ",
+      "summary": "Google has hired Blue Origin to deliver AI satellites to space, where the tech giant hopes they can harness the power of the sun to provide computing power to us here on Earth. While the first mission is still three years away, Blue Origin, the rocket company founded by Amazon billionaire Jeff Bezos, will use its New Glenn launch vehicle to deliver batches of the satellites to Earth orbit. Once deployed, experimental satellites will test what it's like to run AI systems in space. For Blue Origin, the contract is a",
       "originalTitle": "Blue Origin's New Glenn rocket will launch Google AI satellites to space",
       "originalSummary": "Google has hired Blue Origin to deliver AI satellites to space, where the tech giant hopes they can harness the power of the sun to provide computing power to us here on Earth. While the first mission is still three years away, Blue Origin, the rocket company founded by Amazon billionaire Jeff Bezos, will use its New Glenn launch vehicle to deliver batches of the satellites to Earth orbit. Once deployed, experimental satellites will test what it's like to run AI systems in space. For Blue Origin, the contract is a major win as the company works to get its New Glenn rocket flying again in Florida following a catastrophic explosion in May. For Google, the company hopes that by using sunlight in orbit for AI system, it will ease pressure on grounded-based resources and grids. The venture marks the latest indication that tech companies are interested in exploring the feasibility of orbital data centers amid public backlash to terrestrial facilities and the environmental impact required to operate them. Here's what to know about Blue Origin and Google's partnership. Google has selected Blue Origin to serve as a launch services provider for a series of missions it refers to as \"Project Suncatcher.\" The partnership means that the technology company has agreed to a contract with Blue Origin for the spaceflight company, which Bezos founded in 2000, to use its rockets to take Google's satellites to Earth orbit. Project Suncatcher is Google's campaign to build a constellation of satellites in space that will use artificial intelligence. Relying on solar power, each satellite will have the power of one rack at a a ground-based data center holding servers, and other hardware and power equipment. Each satellite will be equipped with AI chips called tensor processing units (TPUs,) the search giant's in-house chips built to run AI programs, Reuters reported . \"This dedicated launch builds on our ongoing work with other satellite and launch partners and represents a crucial milestone on our long-term roadmap as we expand the boundaries of what's possible for the future of compute,\" Travis Beals, Project Suncatcher senior director at Google, said in a statement posted on an online blog .",
       "url": "https://www.usatoday.com/story/tech/science/space/2026/11/20/google-blue-origin-new-glenn-ai-satellites/92875129007/",
@@ -208,7 +459,7 @@
       "ts": "2026-11-20T15:04:14+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5167657458134189,
+      "movePct": -0.6411003613474797,
       "relatedTickers": [
         "AMZN"
       ],
@@ -242,12 +493,12 @@
       "ts": "2026-11-20T15:02:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.993192828962158,
+      "movePct": -7.4899323371287245,
       "relatedTickers": [
         "AMD"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -276,7 +527,7 @@
       "ts": "2026-11-20T14:59:19+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.934407281658604,
+      "movePct": -6.465361554576332,
       "relatedTickers": [
         "SPCX"
       ],
@@ -343,8 +594,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "SPCX",
@@ -358,7 +609,7 @@
       "ts": "2026-11-20T14:55:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.934407281658604,
+      "movePct": -6.465361554576332,
       "relatedTickers": [
         "SPCX"
       ],
@@ -392,7 +643,7 @@
       "ts": "2026-11-20T14:54:46+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.755769410445668,
+      "movePct": -8.719368401382788,
       "relatedTickers": [
         "LITE",
         "COHR",
@@ -433,7 +684,7 @@
       "ts": "2026-11-20T14:53:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.4403911307906534,
+      "movePct": -3.309181174734166,
       "relatedTickers": [
         "META"
       ],
@@ -458,7 +709,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Cathie Wood 出售了 Nvidia，並在 IPO 時以 7800 萬美元的價格購買了 Anthropic",
-      "summary": "凱西伍德 (Cathie Wood) 收購了一家利潤創紀錄的晶片巨頭，擁有購買其硬體的人工智慧實驗室。她第一天的時機提出了一個問題，每個退休儲蓄者在效仿這項措施之前都應該權衡一下。",
+      "summary": "",
       "originalTitle": "Cathie Wood Sold Nvidia and Bought $78 Million of Anthropic at IPO",
       "originalSummary": "Cathie Wood trimmed a chip giant with record profits to own the AI lab that buys its hardware. Her timing on day one raises a question every retirement saver should weigh before copying the move.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sold-nvidia-bought-145242005.html",
@@ -471,16 +722,16 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "凱西伍德 (Cathie Wood) 收購了一家利潤創紀錄的晶片巨頭，擁有購買其硬體的人工智慧實驗室。她第一天的時機提出了一個問題，每個退休儲蓄者在效仿這項措施之前都應該權衡一下。",
+        "event": "Cathie Wood trimmed a chip giant with record profits to own the AI lab that buys its hardware. Her timing on day one raises a question every retirement saver should weigh before copying the move.",
         "numbers": [
           "$78 Million",
           "78 Million"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "凱西伍德 (Cathie Wood) 收購了一家利潤創紀錄的晶片巨頭，擁有購買其硬體的人工智慧實驗室。她第一天的時機提出了一個問題，每個退休儲蓄者在效仿這項措施之前都應該權衡一下。",
+        "stance": "Cathie Wood trimmed a chip giant with record profits to own the AI lab that buys its hardware. Her timing on day one raises a question every retirement saver should weigh before copying the move.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -495,14 +746,14 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "據報道，貸款機構對馬斯克的軌道人工智慧晶片計畫猶豫不決，SpaceX 股價下跌 5%，跌破 IPO 價格； Rocket Lab 股價下跌 3%，AST SpaceMobile 下跌",
-      "summary": "據報道，貸款人希望阻止伊隆馬斯克將確保其大規模人工智慧融資的晶片發射到軌道上。現在債券買家要求高額溢價，其後果令 SpaceX 股東感到不安。",
+      "summary": "",
       "originalTitle": "SpaceX Falls 5%, Breaks Below IPO Price as Lenders Reportedly Balk at Musk’s Orbital AI Chip Plans; Rocket Lab Drops 3%, AST SpaceMobile Dips",
       "originalSummary": "Lenders reportedly wanted to keep Elon Musk from launching the very chips securing his massive AI financing into orbit. Now bond buyers are demanding a steep premium, and the fallout is rattling SpaceX shareholders.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-falls-5-breaks-below-145235801.html",
       "ts": "2026-11-20T14:52:35+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.5106883702686895,
+      "movePct": -5.344185134340074,
       "relatedTickers": [
         "RKLB",
         "SPCX",
@@ -510,16 +761,16 @@
       ],
       "eventType": "跨公司事件",
       "score": 27.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "據報道，貸款人希望阻止伊隆馬斯克將確保其大規模人工智慧融資的晶片發射到軌道上。現在債券買家要求高額溢價，其後果令 SpaceX 股東感到不安。",
+        "event": "Lenders reportedly wanted to keep Elon Musk from launching the very chips securing his massive AI financing into orbit. Now bond buyers are demanding a steep premium, and the fallout is rattling SpaceX shareholders.",
         "numbers": [
           "5%",
           "3%"
         ],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "據報道，貸款人希望阻止伊隆馬斯克將確保其大規模人工智慧融資的晶片發射到軌道上。現在債券買家要求高額溢價，其後果令 SpaceX 股東感到不安。",
+        "stance": "Now bond buyers are demanding a steep premium, and the fallout is rattling SpaceX shareholders.",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -548,7 +799,7 @@
       ],
       "eventType": "",
       "score": 7.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -567,14 +818,14 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "SpaceX 在出售四分之一的英特爾股份後剛剛超越英特爾成為英偉達最大持股公司",
-      "summary": "Nvidia 最新的 13F 揭示了一種悄悄的產品組合洗牌，將客戶和競爭對手置於其資產負債表的對立面。這種轉變背後的原因很大程度上說明了人工智慧需求的下一步。",
+      "summary": "",
       "originalTitle": "SpaceX Just Passed Intel as Nvidia’s Largest Holding After It Sold a Quarter of Its Intel Stake",
       "originalSummary": "Nvidia's newest 13F reveals a quiet portfolio shuffle that puts a customer and a rival on opposite sides of its balance sheet. The reason behind the shift says a lot about where AI demand is heading next.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-just-passed-intel-nvidia-145001334.html",
       "ts": "2026-11-20T14:50:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.5574300071787404,
+      "movePct": -2.548456568557078,
       "relatedTickers": [
         "INTC",
         "SPCX",
@@ -582,13 +833,13 @@
       ],
       "eventType": "跨公司事件",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Nvidia 最新的 13F 揭示了一種悄悄的產品組合洗牌，將客戶和競爭對手置於其資產負債表的對立面。這種轉變背後的原因很大程度上說明了人工智慧需求的下一步。",
+        "event": "Nvidia's newest 13F reveals a quiet portfolio shuffle that puts a customer and a rival on opposite sides of its balance sheet. The reason behind the shift says a lot about where AI demand is heading next.",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Nvidia 最新的 13F 揭示了一種悄悄的產品組合洗牌，將客戶和競爭對手置於其資產負債表的對立面。這種轉變背後的原因很大程度上說明了人工智慧需求的下一步。",
+        "stance": "The reason behind the shift says a lot about where AI demand is heading next.",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -616,7 +867,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -635,29 +886,29 @@
       "group": "CSP",
       "tag": "題材",
       "title": "“真是個有趣的主意。”傑夫·貝佐斯 (Jeff Bezos) 價值 410 億美元的初創公司可以推動“文明財富”，但他“現在”不認為將其與亞馬遜合併",
-      "summary": "当被问及他的人工智能初创公司是否会并入亚马逊和蓝色起源时，杰夫·贝索斯一笑置之，然后谨慎地选择了自己的措辞。他的回答中的一句話暗示這扇門可能不會永遠關閉。",
+      "summary": "",
       "originalTitle": "“Such A Funny Idea.” Jeff Bezos’ $41 Billion Startup Could Drive “Civilizational Wealth,” But He Doesn’t See Merging It With Amazon “Right Now”",
       "originalSummary": "Asked whether his AI startup would fold into Amazon and Blue Origin, Jeff Bezos laughed it off, then chose his words carefully. One short phrase in his answer hints the door may not be shut for good.",
       "url": "https://finance.yahoo.com/technology/ai/articles/funny-idea-jeff-bezos-41-144919265.html",
       "ts": "2026-11-20T14:49:19+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5167657458134189,
+      "movePct": -0.6411003613474797,
       "relatedTickers": [
         "AMZN"
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "当被问及他的人工智能初创公司是否会并入亚马逊和蓝色起源时，杰夫·贝索斯一笑置之，然后谨慎地选择了自己的措辞。他的回答中的一句話暗示這扇門可能不會永遠關閉。",
+        "event": "Asked whether his AI startup would fold into Amazon and Blue Origin, Jeff Bezos laughed it off, then chose his words carefully. One short phrase in his answer hints the door may not be shut for good.",
         "numbers": [
           "$41 Billion",
           "41 Billion"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "当被问及他的人工智能初创公司是否会并入亚马逊和蓝色起源时，杰夫·贝索斯一笑置之，然后谨慎地选择了自己的措辞。他的回答中的一句話暗示這扇門可能不會永遠關閉。",
+        "stance": "Asked whether his AI startup would fold into Amazon and Blue Origin, Jeff Bezos laughed it off, then chose his words carefully. One short phrase in his answer hints the door may not be shut for good.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -679,7 +930,7 @@
       "ts": "2026-11-20T14:43:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -2.740311423306019,
+      "movePct": -2.9593226676637996,
       "analystDetails": [],
       "hasArticleBody": false,
       "relatedTickers": [
@@ -776,7 +1027,7 @@
       "ts": "2026-11-20T14:40:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.4403911307906534,
+      "movePct": -3.309181174734166,
       "relatedTickers": [
         "META",
         "SPCX"
@@ -813,7 +1064,7 @@
       "ts": "2026-11-20T14:39:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.94923179692717,
+      "movePct": -8.060565575595636,
       "relatedTickers": [
         "CRWV"
       ],
@@ -887,7 +1138,7 @@
       "ts": "2026-11-20T14:39:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.45648877013071,
+      "movePct": -7.929515418502209,
       "relatedTickers": [
         "MRVL",
         "NVDA",
@@ -930,7 +1181,7 @@
       "ts": "2026-11-20T14:33:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5167657458134189,
+      "movePct": -0.6411003613474797,
       "relatedTickers": [
         "AMZN"
       ],
@@ -998,8 +1249,8 @@
         "takeaway": "調整原因：MRVL Maintained by Stifel -- Price Target Lowered to $280",
         "sourceQuality": "analyst_structured"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 9
     },
     {
       "ticker": "OKLO",
@@ -1046,12 +1297,12 @@
       "ts": "2026-11-20T14:31:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.9719075958277426,
+      "movePct": -7.6629871376463825,
       "relatedTickers": [
         "DELL"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1246,6 +1497,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "HPE",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "HPE's Q4 Earnings Likely to Reflect Rising Demand Across All Offerings",
+      "summary": "",
+      "originalTitle": "HPE's Q4 Earnings Likely to Reflect Rising Demand Across All Offerings",
+      "originalSummary": "HPE's Q4 earnings are poised to reflect rising demand for AI compute, storage, networking and GreenLake as enterprise infrastructure investments expand.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hpes-q4-earnings-likely-reflect-142300207.html",
+      "ts": "2026-11-20T14:23:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -5.056056276104648,
+      "relatedTickers": [
+        "HPE"
+      ],
+      "eventType": "",
+      "score": 16.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "CRM",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
@@ -1257,7 +1540,7 @@
       "ts": "2026-11-20T14:22:51+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.8121760951393737,
+      "movePct": 2.9185532704162354,
       "relatedTickers": [
         "CRM"
       ],
@@ -1580,13 +1863,13 @@
       "ts": "2026-11-20T14:17:10+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.355340508275295,
+      "movePct": -4.115040245998003,
       "relatedTickers": [
         "ORCL",
         "NBIS"
       ],
       "eventType": "",
-      "score": 15.0,
+      "score": 19.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1602,6 +1885,44 @@
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "KEYS",
+      "group": "半導體設備／測試",
+      "tag": "題材",
+      "title": "KEYS Q4 Earnings Surpass Expectations on Strong AI Demand",
+      "summary": "",
+      "originalTitle": "KEYS Q4 Earnings Surpass Expectations on Strong AI Demand",
+      "originalSummary": "Keysight's Q4 fiscal 2026 earnings surge 89% as revenues jump 41%, fueled by AI infrastructure, semiconductor demand and next-generation connectivity investments.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/keys-q4-earnings-surpass-expectations-141600356.html",
+      "ts": "2026-11-20T14:16:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.5637836685381443,
+      "relatedTickers": [
+        "KEYS"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "Keysight's Q4 fiscal 2026 earnings surge 89% as revenues jump 41%, fueled by AI infrastructure, semiconductor demand and next-generation connectivity investments.",
+        "numbers": [
+          "89%",
+          "41%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Keysight's Q4 fiscal 2026 earnings surge 89% as revenues jump 41%, fueled by AI infrastructure, semiconductor demand and next-generation connectivity investments.",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -1729,7 +2050,7 @@
       "ts": "2026-11-20T14:12:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.740311423306019,
+      "movePct": -2.9593226676637996,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1761,7 +2082,7 @@
       "ts": "2026-11-20T14:09:29+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.561931521928045,
+      "movePct": -9.656885464341592,
       "relatedTickers": [
         "MU",
         "SNDK",
@@ -1836,7 +2157,7 @@
       "ts": "2026-11-20T14:09:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.561931521928045,
+      "movePct": -9.656885464341592,
       "relatedTickers": [
         "MU",
         "NVDA"
@@ -1893,8 +2214,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "AMZN",
-      "group": "CSP",
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "隨著 AI 拋售蔓延，Anthropic 第二天下跌 14%； CoreWeave 下跌 6%，亞馬遜下跌 2%",
       "summary": "",
@@ -1904,13 +2225,13 @@
       "ts": "2026-11-20T14:07:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.5167657458134189,
+      "movePct": -8.060565575595636,
       "relatedTickers": [
-        "AMZN",
-        "CRWV"
+        "CRWV",
+        "AMZN"
       ],
       "eventType": "",
-      "score": 21.0,
+      "score": 27.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1981,7 +2302,7 @@
       "ts": "2026-11-20T14:06:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.45648877013071,
+      "movePct": -7.929515418502209,
       "relatedTickers": [
         "MRVL"
       ],
@@ -2043,12 +2364,12 @@
       "ts": "2026-11-20T14:04:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.69017201191987,
+      "movePct": -7.209453279438227,
       "relatedTickers": [
         "AMAT"
       ],
       "eventType": "",
-      "score": 10.5,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2075,7 +2396,7 @@
       "ts": "2026-11-20T14:04:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.6548672566371723,
+      "movePct": -3.162415408641339,
       "relatedTickers": [
         "PLTR"
       ],
@@ -2137,7 +2458,7 @@
       "ts": "2026-11-20T14:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.9152867600028545,
+      "movePct": -2.5637836685381443,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2208,7 +2529,7 @@
       "ts": "2026-11-20T13:55:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -5.220870255257248,
+      "movePct": -5.792884539082122,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -2250,7 +2571,7 @@
       "ts": "2026-11-20T13:55:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -8.821066344096028,
+      "movePct": -9.93998325113986,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -2327,14 +2648,14 @@
       "ts": "2026-11-20T13:53:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.98816251264054,
+      "movePct": -10.606150734638042,
       "relatedTickers": [
         "BE",
         "NVDA",
         "AMD"
       ],
       "eventType": "跨公司事件",
-      "score": 34.5,
+      "score": 36.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2361,7 +2682,7 @@
       "ts": "2026-11-20T13:51:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 0.18864138069436542,
+      "movePct": -0.3491872366044535,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2425,7 +2746,7 @@
       "ts": "2026-11-20T13:49:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.5592705167173175,
+      "movePct": -4.7892877680111745,
       "relatedTickers": [
         "CRWD"
       ],
@@ -2542,7 +2863,7 @@
       "ts": "2026-11-20T13:45:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.561931521928045,
+      "movePct": -9.656885464341592,
       "relatedTickers": [
         "MU"
       ],
@@ -2576,7 +2897,7 @@
       "ts": "2026-11-20T13:45:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.58430001589068,
+      "movePct": -12.776100429048153,
       "relatedTickers": [
         "SNDK"
       ],
@@ -2596,358 +2917,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "STM",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "Roth Capital 首次對義法半導體給予買入評級，目標價為 58 美元",
-      "summary": "",
-      "originalTitle": "Roth Capital initiates coverage of STMicroelectronics at Buy, sets price target at $58",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQUVTekRjYkFIUFNHdVVXY2R6SVFTWUdGemtPOUdBa2NpTTR4RV9VQWtQSl81dDQ5dVRjQjNVY3B6TTdhSzZ3dVBwOGFyZUV3V3FXMHNLdEFYVkNSd25nclI3WWEzQnlkRE40NHhSc0ZnWkFTMUZmc1J2M1lPMTJTV1R1bXVpSmlBOWJhMENXc2dneGFSZF9Cb0pwNEdqaUFYc3RCTDRFRjN5RFU0Q1dsRWxadG16QXJCVmE4T3JwdVFMUmRXZmdwd2l2QVpTU0liNkE0dHBzamFVeXhDUVR3?oc=5",
-      "ts": "2026-11-20T13:41:09+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "STM"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SNOW",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "利空",
-      "title": "美銀證券將 Snowflake 的目標價從 470 美元下調至 400 美元，維持買入評級",
-      "summary": "BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-      "originalTitle": "BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy Rating",
-      "originalSummary": "BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-      "url": "https://www.marketscreener.com/news/bofa-securities-cuts-price-target-on-snowflake-to-400-from-470-keeps-buy-rating-ce785ed3db8af223",
-      "ts": "2026-11-20T13:34:23+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "BofA",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$400",
-          "oldTarget": "$470",
-          "reason": "BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy Rating BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-          "reasonConfidence": "medium",
-          "targetTicker": "SNOW",
-          "targetCompany": "Snowflake"
-        }
-      ],
-      "hasArticleBody": true,
-      "relatedTickers": [
-        "SNOW"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Snowflake（SNOW）｜券商：BofA｜動作：下修｜評等：Buy｜目標價：$400（原 $470）｜調整原因：BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy Rating BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-        "numbers": [
-          "$470",
-          "$400"
-        ],
-        "why": "調整原因：BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy Rating BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy Rating BofA Securities Cuts Price Target on Snowflake to $400 From $470, Keeps Buy RatingSnowflake has an average rating of buy and mean price target of $437.84, according to analysts polled by FactSet.",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 8,
-      "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "人工智慧交易出現裂痕，股市創 2023 年以來最糟糕表現：市場總結",
-      "summary": "",
-      "originalTitle": "Stocks Hit Worst Run Since 2023 as AI Trade Cracks: Markets Wrap",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUE9Bem9kWjBIcUtfa0xHOW0yQm1mV3A0VFVFZlh4X0hvWjlmckZSTDNGWlB1NGtzWFkyTTVSc0tNNW9tbUxGNURvNExmRTdTYnJyTTJtUGd1dkEyZklWR2xOSkphQ2s1d0NjZE9CRDc4SWtreWJxbDVoOFFnM2toQldLUHR5VUZFTDk4bDBXaWdodTh1?oc=5",
-      "ts": "2026-11-20T13:33:51+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 9.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "Stifel 下修 MRVL 目標價至 $280，維持 Buy",
-      "summary": "",
-      "originalTitle": "Stifel maintains Marvell Technology at Buy, lowers price target to $280 from $370",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcDRGaUFMOU81VFYzZGQtWXFsNG5NZnpaYVFBV3R0dFc5N3gxWE9LSjFmSTFsM1Y5RmZMNDJ3RnM2Y3hzbVdzT3NQUUFnSFJPSTBJcy1oeUppenQxNlFpT1hONDNicHIzNGxDVkYyTFduek0yMnNiRUhkQkRJaE9WUG8tcmh5ZDFkd0N4b05QZEVVMEpDbTVqcEZKTnkyTjRsRjNfcV9iN1dtVUd5bllDdWw2Q0FMTm44X2MycWRpTWxaMlZoZWZKNUdhN0xpQ3ZOYmhlTG9qTQ?oc=5",
-      "ts": "2026-11-20T13:31:10+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Stifel",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "下修",
-          "newTarget": "$280",
-          "oldTarget": "$370",
-          "reason": "Stifel maintains Marvell Technology at Buy, lowers price target to $280 from $370",
-          "reasonConfidence": "medium",
-          "targetTicker": "MRVL",
-          "targetCompany": "Marvell"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "MRVL"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Marvell（MRVL）｜券商：Stifel｜動作：下修｜評等：Buy｜目標價：$280（原 $370）｜調整原因：Stifel maintains Marvell Technology at Buy, lowers price target to $280 from $370",
-        "numbers": [
-          "$370",
-          "$280"
-        ],
-        "why": "調整原因：Stifel maintains Marvell Technology at Buy, lowers price target to $280 from $370",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Stifel maintains Marvell Technology at Buy, lowers price target to $280 from $370",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "DELL",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "戴爾、惠普企業重點關注感恩節週收益以及這兩家熱門零售商",
-      "summary": "",
-      "originalTitle": "Dell, HP Enterprise Highlight Thanksgiving Week Earnings, Plus These 2 Hot Retailers",
-      "originalSummary": "AI hardware giants Dell and HPE headline the Thanksgiving earnings calendar, along with retailers Best Buy, Dollar Tree and Abercrombie.",
-      "url": "https://www.investors.com/research/earnings-preview/dell-stock-hp-enterprise-earnings-best-buy-earnings/?src=A00220&yptr=yahoo",
-      "ts": "2026-11-20T13:30:12+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -6.9719075958277426,
-      "relatedTickers": [
-        "DELL"
-      ],
-      "eventType": "",
-      "score": 16.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "利多",
-      "title": "這位特斯拉分析師不再悲觀；以下是周​​五的 5 大升級",
-      "summary": "",
-      "originalTitle": "This Tesla Analyst Is No Longer Bearish; Here Are Top 5 Upgrades For Friday",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPc01YTTN0akZVc1lXZ05jVVY5VUxRUXdyTjd5czFiMGhZRmJ5NUQ1YlJFT05Lc3I2dndIWU9yTmQ3dnBsaDBGM2J2bDRhY1otRmhHSDRRNFY1aXBZMURLVnlnSWpyREFuU3Nwem1oemp4TWkyU3RTZ2pjcVJ1MUxjQ3pWVlNOYVJlZ1Fqd0hCbWp2aUtIc0Z4WTU2TlppTERrWHBpUEU1b0hEX2pjWl9xVFFGaEdpb1ZGdWdMeDlrVThPTW1tSHM1dG1LYkhSSFZ2YWVWWGQ5MWgxbG5adGc?oc=5",
-      "ts": "2026-11-20T13:29:58+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 202.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": true,
-      "top10Rank": 9
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "奧本海默提高了亞馬遜對 Anthropic 股權價值的股價目標",
-      "summary": "",
-      "originalTitle": "Oppenheimer raises Amazon stock price target on Anthropic stake value By Investing.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPclBzYUpVVGNKODhwLTVnRGtrSjBwSGpsVnA0b2FoYl94S1VacHdqd1dfVlRHMXNiaVRxZlhEc3EzVmtOU2JacjdCRWNHTHJaOVZ3bGdDZWNVemdraVRUV0lwTGF3WklicnpITF95bXdveThEV0hucXZXZFRUN083b2hRMDlvV0I0UWVzWlRKSGFFbzJDZVZDZ0E4Ymt3dU1oX1V3UHJqUUpLblprTlVRVzRDZEhHNzBUTEtfeXR5c0kyTmd5THF6X3ZR?oc=5",
-      "ts": "2026-11-20T13:29:54+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Oppenheimer",
-          "analyst": "",
-          "rating": "",
-          "action": "上修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Oppenheimer｜動作：上修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "谷歌正在將其人工智慧競爭對手轉變為晶片客戶。英偉達應該注意",
-      "summary": "",
-      "originalTitle": "Google Is Turning Its AI Rivals Into Chip Customers. Nvidia Should Pay Attention",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZEVwVVA1ZlpRM1N3MlpsNnBlNkZxa2d1QkltUjEwWkVpbUxtaTcyQ0ZzOThzNGNYdWpuNFJJQmpmMm5IY3M0My1IdnJEZmN0UVVhRXRJWG10TFRtbWxiVm43ejJTVTdKUWZlb184VmR6eFdlb3NxOXlGTU42SGwtWjl5OFdjZGNsTXpRZ2NLWHlUdGhvOExha2R3?oc=5",
-      "ts": "2026-11-20T13:29:27+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "GOOGL",
-        "NVDA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 32.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Oppenheimer 重申 AMZN Outperform",
-      "summary": "",
-      "originalTitle": "Oppenheimer Adjusts PT on Amazon.com to $310 From $285, Maintains Outperform Rating",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQczFSZndsUDBHY1hwU0U5SDU4bEdfZUhlbUJPckFqU2dzTnlLQzhwR1hqdVNCZVNuMVhTUmRncWFxQUdLTW5rSV82ZXYxWGxBWEhzYl9MYWJuT1AycHprTmtXSUhTYkVqU0lyLTdtTjhrbTVNTDdsbnIwZVR0cUNwV0o0ZVNrcnQ0RWJXUF95WG5xU1g1MjdYTTlpWUxQQVlJQ2ZOYzNSNVRMZWtnUDZRSWsxRFphR05tbzM1ZkxXY2ZBZFdBaWw4bzM5REpCZw?oc=5",
-      "ts": "2026-11-20T13:26:15+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Oppenheimer",
-          "analyst": "",
-          "rating": "Outperform",
-          "action": "重申",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "Oppenheimer Adjusts PT on Amazon.com to $310 From $285, Maintains Outperform Rating",
-          "reasonConfidence": "medium",
-          "targetTicker": "AMZN",
-          "targetCompany": "Amazon"
-        }
-      ],
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 207.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：Amazon（AMZN）｜券商：Oppenheimer｜動作：重申｜評等：Outperform｜調整原因：Oppenheimer Adjusts PT on Amazon.com to $310 From $285, Maintains Outperform Rating",
-        "numbers": [],
-        "why": "調整原因：Oppenheimer Adjusts PT on Amazon.com to $310 From $285, Maintains Outperform Rating",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Oppenheimer Adjusts PT on Amazon.com to $310 From $285, Maintains Outperform Rating",
-        "sourceQuality": "analyst_structured"
       },
       "top10": false,
       "top10Rank": null
