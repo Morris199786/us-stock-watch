@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-21 13:35 台灣時間",
+  "updatedAt": "2026-11-21 13:44 台灣時間",
   "historyUpdatedDate": "2026-11-21",
   "historyLastAttemptAt": "2026-11-20T16:09:36.101159+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-21",
-  "top10Count": 1,
+  "top10Count": 3,
   "items": [
     {
       "ticker": "MARKET",
@@ -34,7 +34,74 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
+      "top10Rank": 3
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Follow the Smart Money: 4 AI Stocks Billionaire Dan Loeb Just Bought",
+      "summary": "Hedge fund manager Dan Loeb was buying shares of Nvidia, Space Exploration Technologies, Microsoft, and Meta Platforms in Q3 2026.",
+      "originalTitle": "Follow the Smart Money: 4 AI Stocks Billionaire Dan Loeb Just Bought",
+      "originalSummary": "Hedge fund manager Dan Loeb was buying shares of Nvidia, Space Exploration Technologies, Microsoft, and Meta Platforms in Q3 2026.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/smart-money-4-ai-stocks-052002469.html",
+      "ts": "2026-11-21T05:20:02+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -14.008768324428,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 19.5,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
       "top10Rank": 1
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "Did Microsoft AI Partnership Just Shift Danaher's (DHR) Investment Narrative?",
+      "summary": "Danaher announced a partnership with Microsoft to build AI assisted, cloud based scientific instruments and lab software, with early tools such as MetaXpress Acquire AI Assistant already moving toward commercial rollout. The push toward an interoperable agent platform suggests Danaher is trying to embed its hardware more deeply into customers’ workflows, which could reinforce recurring software and consumables usage",
+      "originalTitle": "Did Microsoft AI Partnership Just Shift Danaher's (DHR) Investment Narrative?",
+      "originalSummary": "Danaher announced a partnership with Microsoft to build AI assisted, cloud based scientific instruments and lab software, with early tools such as MetaXpress Acquire AI Assistant already moving toward commercial rollout. The push toward an interoperable agent platform suggests Danaher is trying to embed its hardware more deeply into customers’ workflows, which could reinforce recurring software and consumables usage over time. Now the focus shifts to how this AI centric tie up with Microsoft...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/did-microsoft-ai-partnership-just-051538591.html",
+      "ts": "2026-11-21T05:15:38+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.765402368051384,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 18.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Danaher announced a partnership with Microsoft to build AI assisted, cloud based scientific instruments and lab software, with early tools such as MetaXpress Acquire AI Assistant already moving toward commercial rollout. The push toward an interoperable agent platform suggests Danaher is trying to embed its hardware more deeply into customers’ workflows, which could reinforce recurring software and consumables usage",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "Danaher announced a partnership with Microsoft to build AI assisted, cloud based scientific instruments and lab software, with early tools such as MetaXpress Acquire AI Assistant already moving toward commercial rollout. The push toward an interoperable agent platform suggests Danaher is trying to embed its hardware more deeply into customers’ workflows, which could reinforce recurring software and consumables usage",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 2
     },
     {
       "ticker": "SNDK",
@@ -415,8 +482,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
       "tag": "利多",
       "title": "MLPerf 最新結果公佈後，CoreWeave (CRWV) 的估值是否合理？",
       "summary": "CoreWeave (CRWV) is back in focus after publishing fresh MLPerf Training v6.1 results that feature the first multi-rack NVIDIA Vera Rubin NVL72 benchmarks from any cloud provider, highlighting its AI infrastructure capabilities. Despite CoreWeave’s latest MLPerf results and recent product launches, sentiment has cooled, with the share price at $39.46 and the stock recording a 1-day share price return of down 12.1%, a",
@@ -426,10 +493,10 @@
       "ts": "2026-11-21T03:16:12+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -14.008768324428,
+      "movePct": -12.024048096192386,
       "relatedTickers": [
-        "NVDA",
-        "CRWV"
+        "CRWV",
+        "NVDA"
       ],
       "eventType": "跨公司事件",
       "score": 42.0,
@@ -685,7 +752,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "Starlink 頻譜批准可能會改變 T Mobile 股票的遊戲規則",
-      "summary": "T-Mobile US 最近在拉斯維加斯大獎賽上啟動了其一級方程式區域合作夥伴關係，使用 20 多個 5G 連接設備、專用 5G 網路、網路切片和智慧營運指揮中心來支援賽事營運、粉絲體驗和廣播製作。同一時期，人們越來越擔心 SpaceX 的全國 800 MHz 頻譜購買和 Starlink 行動衛星審批將導致 SpaceX 的全國性 800 MHz 頻譜購買和星鏈行動衛星批准",
+      "summary": "",
       "originalTitle": "Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock",
       "originalSummary": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/starlink-spectrum-approval-could-game-021122742.html",
@@ -698,13 +765,13 @@
       ],
       "eventType": "",
       "score": 15.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "T-Mobile US 最近在拉斯維加斯大獎賽上啟動了其一級方程式區域合作夥伴關係，使用 20 多個 5G 連接設備、專用 5G 網路、網路切片和智慧營運指揮中心來支援賽事營運、粉絲體驗和廣播製作。同一時期，人們越來越擔心 SpaceX 的全國 800 MHz 頻譜購買和 Starlink 行動衛星審批將導致 SpaceX 的全國性 800 MHz 頻譜購買和星鏈行動衛星批准",
+        "event": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "T-Mobile US 最近在拉斯維加斯大獎賽上啟動了其一級方程式區域合作夥伴關係，使用 20 多個 5G 連接設備、專用 5G 網路、網路切片和智慧營運指揮中心來支援賽事營運、粉絲體驗和廣播製作。同一時期，人們越來越擔心 SpaceX 的全國 800 MHz 頻譜購買和 Starlink 行動衛星審批將導致 SpaceX 的全國性 800 MHz 頻譜購買和星鏈行動衛星批准",
+        "stance": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -811,7 +878,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "納斯達克 100 指數結束 2020 年以來最糟糕的一周，標普 500 指數因 AI 潰敗而惡化情緒，進入修正區間 — ANT、NVDA、TTWO、ZS、CRWD 成為焦點",
-      "summary": "Anthropic 首日上漲 17%，週五收盤下跌 8.5%。",
+      "summary": "",
       "originalTitle": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment —   ANT, NVDA, TTWO, ZS, CRWD In Focus",
       "originalSummary": "Anthropic closed 8.5% lower on Friday, a day after gaining 17% in its debut.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html",
@@ -824,7 +891,7 @@
       ],
       "eventType": "",
       "score": 10.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1627,6 +1694,36 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "由於科技股拋售加劇，標普 500 指數下跌 3.7%，那斯達克指數今年下跌",
+      "summary": "",
+      "originalTitle": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
+      "ts": "2026-11-20T23:29:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 5.85,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "AVGO",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -1663,8 +1760,8 @@
       "top10Rank": null
     },
     {
-      "ticker": "MSFT",
-      "group": "CSP",
+      "ticker": "IBM",
+      "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "國際商業機器（IBM）在微軟Marketplace開放Lightwell Access，它的價值還被低估嗎？",
       "summary": "",
@@ -1674,12 +1771,13 @@
       "ts": "2026-11-20T23:14:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.765402368051384,
+      "movePct": 0.25013400035733824,
       "relatedTickers": [
+        "IBM",
         "MSFT"
       ],
       "eventType": "",
-      "score": 10.4,
+      "score": 18.2,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2032,36 +2130,6 @@
         ],
         "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "由於科技股拋售加劇，標普 500 指數下跌 3.7%，那斯達克指數今年下跌",
-      "summary": "",
-      "originalTitle": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5",
-      "ts": "2026-11-20T22:40:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -2648,75 +2716,6 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "排行榜冠軍：2026 年 11 月 20 日",
-      "summary": "",
-      "originalTitle": "Chartstopper: November 20, 2026",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Ga29EWUdfYzVieExkWU1WRzNtM2xqN3VvbXpKU1pobE9wNi1oTWFnV0VuZ0FrWWVmc0FiZF9xa09VMHVPeUhPQklvUXNuaEthODVXWjd6cFJPbzhhM0FXNGJtS0ZsalExcnVfMjR3?oc=5",
-      "ts": "2026-11-20T22:00:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "億萬富翁 Dan Loeb 的「熊市數學」：人工智慧需要 2-3 兆美元的新年收入。他賣掉了亞馬遜",
-      "summary": "",
-      "originalTitle": "Billionaire Dan Loeb’s “Bear Math”: AI Needs $2-3 Trillion of New Yearly Revenue. He Sold Amazon",
-      "originalSummary": "Key TakeawaysThird Point’s Dan Loeb says $5 trillion to $7 trillion of AI spending from 2025 to 2030 needs $2 trillion to $3 trillion of new AI revenue a year to pay back. That’s a third to half of today’s roughly $6 trillion of global IT spending.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-dan-loeb-bear-math-215908050.html",
-      "ts": "2026-11-20T21:59:08+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -4.0991568558884195,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 14.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Key TakeawaysThird Point’s Dan Loeb says $5 trillion to $7 trillion of AI spending from 2025 to 2030 needs $2 trillion to $3 trillion of new AI revenue a year to pay back. That’s a third to half of today’s roughly $6 trillion of global IT spending.",
-        "numbers": [
-          "$2",
-          "$5",
-          "$7",
-          "$3"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Key TakeawaysThird Point’s Dan Loeb says $5 trillion to $7 trillion of AI spending from 2025 to 2030 needs $2 trillion to $3 trillion of new AI revenue a year to pay back. That’s a third to half of today’s roughly $6 trillion of global IT spending.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
       "top10": false,
