@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 07:28 台灣時間",
+  "updatedAt": "2026-11-22 07:33 台灣時間",
   "historyUpdatedDate": "2026-11-22",
   "historyLastAttemptAt": "2026-11-21T16:09:27.739514+00:00",
   "historyItemCount": 800,
@@ -169,7 +169,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "NVDA",
@@ -373,6 +373,54 @@
       "top10Rank": null
     },
     {
+      "ticker": "AMZN",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Oppenheimer 調整 AMZN 目標價至 $310",
+      "summary": "",
+      "originalTitle": "Amazon Stock (AMZN) Forecast – Oppenheimer Lifts Price Target to $310 After Anthropic IPO",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdU9JTkp5TV83ZXFhak1TNm9uV3pDYkpHaDdBbGFDZndkdlUwekwydjlLem1NTXNnRC1mQk1VQXZfZFRLUWdDS2Y2WnFCRzJUMWJKbkd1V1BkRUQ2SXk4WjdRSURtQjVNOTU2WGtHUFVacllBNGJ5N1FtWkVEc1ZkT1k4NUFBaHNETmE3emVzeVZSUUFBSlpYMGRBbXRBcEMyUXdsWUpXTkc5TUo0dWdXeGp6Y1g?oc=5",
+      "ts": "2026-11-21T21:35:34+00:00",
+      "sourceType": "broker_priority_scan",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Oppenheimer",
+          "analyst": "",
+          "rating": "",
+          "action": "",
+          "newTarget": "$310",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "AMZN",
+          "targetCompany": "Amazon"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Amazon（AMZN）｜券商：Oppenheimer｜目標價：$310｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$310"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -478,7 +526,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -1003,7 +1051,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1279,7 +1327,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "NVDA",
@@ -1398,7 +1446,7 @@
         "MSFT"
       ],
       "eventType": "新題材",
-      "score": 23.25,
+      "score": 20.15,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1413,8 +1461,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -1431,7 +1479,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 15.75,
+      "score": 13.65,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1547,7 +1595,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "INTC",
@@ -1815,7 +1863,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2,
+      "top10Rank": 3,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2534,7 +2582,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "AMZN",
@@ -2611,7 +2659,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "CRM",
@@ -2643,38 +2691,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 3
-    },
-    {
-      "ticker": "WOLF",
-      "group": "類比／電源／功率／RF",
-      "tag": "題材",
-      "title": "哈特福德狼群貸款 D 庫柏摩爾到伍斯特鐵路公司",
-      "summary": "",
-      "originalTitle": "HARTFORD WOLF PACK LOAN D COOPER MOORE TO WORCESTER RAILERS",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcHIxemQ2enkySE1fTkFqb0tIUkdPMUlTY1gydHpqWHFPQXFrUlBwTHNyTm82ZVliLXZ6dHVDRTc4MTZIWHFWc216bkxCSHVDSVFrY3hfZl9ZUmtzb1h0eEwyQnR5OUhMSVlocFF1c0RQMXZSTHNnUTVXLVBUcmh0MXBWakFiMGl0M3ktNm9KT21OelBsdFFMc2NxakV4UGt2OTNDSkxJdw?oc=5",
-      "ts": "2026-11-21T15:01:20+00:00",
-      "sourceType": "history_search",
-      "analystPriority": false,
-      "relatedTickers": [
-        "WOLF"
-      ],
-      "eventType": "",
-      "score": 5.2,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
+      "top10Rank": 4
     }
   ],
   "historyItems": [
@@ -15130,7 +15147,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 歷史性首次捕捉 Starship 火箭上級",
-      "summary": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。飞船在太空停留22.5小时后返回地球，这是首次通过该技术成功回收飞船。然而，这次任务只取得了部分成功，因为火箭的下部未能实现计划中的回收尝试。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
+      "summary": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。太空船在太空停留22.5小時後返回地球，這是首次透過該技術成功回收太空船。然而，這次任務只取得了部分成功，因為火箭的下部未能實現計畫中的回收嘗試。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
       "originalTitle": "SpaceX catches upper stage of Starship rocket in historic first",
       "originalSummary": "SpaceX has achieved a major milestone in its Starship programme by successfully catching the rocket's upper stage using giant mechanical arms attached to its launch tower. The spacecraft returned to Earth after spending 22.5 hours in space, marking the first successful recovery of the Ship through this technique. However, the mission was only partially successful, as the rocket's lower section failed its planned recovery attempt. Starship completes 22.5-hour flight The 124-metre-tall Starship rocket lifted off from SpaceX's Starbase launch facility in Boca Chica, Texas, at 16:47 local time on Friday. This was the 15th test flight of the spacecraft and the first attempt to recover both sections of the rocket during the same mission. After reaching space, the upper stage, known as the Ship, deployed 26 satellites for SpaceX's Starlink internet constellation. It subsequently completed 14 orbits around Earth before beginning its return journey. The moment a Starship booster exploded during an attempted landing at SpaceX’s facility today. https://t.co/HoRscWHVH0 — распад и неуважение (@VictorKvert2008) November 14, 2026 &amp;nbsp; How did SpaceX catch Starship? As the Ship approached its launch site, it hovered near the launch tower, where two enormous mechanical arms, nicknamed 'chopsticks', moved into position and secured the returning spacecraft. The arms are part of SpaceX's Mechazilla recovery system, which is designed to catch returning rocket stages instead of allowing them to land on the ground using conventional landing legs. This was the first time SpaceX successfully caught Starship's upper stage. The company had previously demonstrated the technique with its Super Heavy booster, which it had caught on three earlier test flights. What happened to Starship's booster? While the upper-stage recovery succeeded, the mission encountered a problem during the attempted recovery of the Super Heavy booster. The lower section was expected to return to the launch tower approximately six and a half minutes after liftoff. However, an automated abort system cancelled the catch attempt and diverted the booster towards the ocean. The booster hovered above the water before bursting into flames. Elon Musk later said on X that it was &quot;slightly low on fuel&quot;. Why does SpaceX want to recover both stages? SpaceX aims to make Starship completely reusable to reduce the cost of launching payloads into space. Recovering both sections would allow the company to inspect, refuel and prepare the rocket for subsequent flights. The approach builds on the company's Falcon 9 programme, whose reusable boosters have helped reduce launch costs. Why is this important for NASA's Moon mission? Starship's development is closely linked to NASA's Artemis programme. SpaceX has a contract to develop a lunar lander based on Starship that could transport astronauts to the Moon's surface. However, the company must demonstrate reliable recovery and repeated operations before Starship can fulfil its ambitious role in future lunar missions.",
       "url": "https://www.moneycontrol.com/science/22-hours-in-space-spacex-catches-starship-s-upper-stage-for-first-time-but-what-happened-to-its-booster-article-14080348.html",
@@ -15146,10 +15163,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。飞船在太空停留22.5小时后返回地球，这是首次通过该技术成功回收飞船。然而，这次任务只取得了部分成功，因为火箭的下部未能实现计划中的回收尝试。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
+        "event": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。太空船在太空停留22.5小時後返回地球，這是首次透過該技術成功回收太空船。然而，這次任務只取得了部分成功，因為火箭的下部未能實現計畫中的回收嘗試。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。飞船在太空停留22.5小时后返回地球，这是首次通过该技术成功回收飞船。然而，这次任务只取得了部分成功，因为火箭的下部未能实现计划中的回收尝试。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
+        "stance": "SpaceX 使用連接在發射塔上的巨型機械手臂成功抓住了火箭的上級，從而在其星際飛船計劃中實現了一個重要的里程碑。太空船在太空停留22.5小時後返回地球，這是首次透過該技術成功回收太空船。然而，這次任務只取得了部分成功，因為火箭的下部未能實現計畫中的回收嘗試。 Starship 完成 22.5 小時的飛行 當地時間週五 16 點 47 分，124 公尺高的 Starship 火箭從 SpaceX 位於德克薩斯州博卡奇卡的 Starbase 發射設施升空。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
