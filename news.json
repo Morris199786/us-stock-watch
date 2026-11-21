@@ -1,11 +1,81 @@
 {
-  "updatedAt": "2026-11-21 20:38 台灣時間",
+  "updatedAt": "2026-11-21 20:46 台灣時間",
   "historyUpdatedDate": "2026-11-21",
   "historyLastAttemptAt": "2026-11-20T16:09:36.101159+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-21",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "ETH news: Ether’s plunge puts a Nasdaq-listed treasury in a $54 million loan squeeze",
+      "summary": "",
+      "originalTitle": "ETH news: Ether’s plunge puts a Nasdaq-listed treasury in a $54 million loan squeeze",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNVR5MTBENWtxU0Rua256bjlYTmpSd2swZER0TV9ZNGxLWF9kM01nS0JOUUkwbThzUE9yUDNQSXRkWU52WlhqX18xN2F0VnVrUFIxcnVUeTV0Z1d3MENSUkptc0NwX0lBLVdRc2Z3MmlHaU4zSFBQNWY3ekU0S0p2NnU2R254dFlLYXRpV1Z0NzNfNGg1cGhUZHRiZDRVeWtEdVJQUHZ4NFpBZF9xaTNsaURiOUlDb0JYT0xzd1FLQ0F6WkRO?oc=5",
+      "ts": "2026-11-21T12:30:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AMD",
+      "group": "CPU 概念股",
+      "tag": "題材",
+      "title": "Supermicro Stock In Focus After AI Revenue Outlook Lift",
+      "summary": "Super Micro Computer raised its fiscal 2027 revenue outlook, expects AI related solutions to account for roughly 70% to 80% of sales, and is rolling out new AMD EPYC based all flash storage and H15 servers to support AI data center buildouts. The business plans to lift production capacity to more than 8,000 racks per month by December 2026, including over 4,000 direct liquid cooled racks, which points to a heavy oper",
+      "originalTitle": "Supermicro Stock In Focus After AI Revenue Outlook Lift",
+      "originalSummary": "Super Micro Computer raised its fiscal 2027 revenue outlook, expects AI related solutions to account for roughly 70% to 80% of sales, and is rolling out new AMD EPYC based all flash storage and H15 servers to support AI data center buildouts. The business plans to lift production capacity to more than 8,000 racks per month by December 2026, including over 4,000 direct liquid cooled racks, which points to a heavy operational commitment to large scale AI infrastructure deployments. With that...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/supermicro-stock-focus-ai-revenue-121208287.html",
+      "ts": "2026-11-21T12:12:08+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -13.24638688444163,
+      "relatedTickers": [
+        "AMD",
+        "SMCI"
+      ],
+      "eventType": "跨公司事件",
+      "score": 30.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Super Micro Computer raised its fiscal 2027 revenue outlook, expects AI related solutions to account for roughly 70% to 80% of sales, and is rolling out new AMD EPYC based all flash storage and H15 servers to support AI data center buildouts. The business plans to lift production capacity to more than 8,000 racks per month by December 2026, including over 4,000 direct liquid cooled racks, which points to a heavy oper",
+        "numbers": [
+          "70%",
+          "80%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Super Micro Computer raised its fiscal 2027 revenue outlook, expects AI related solutions to account for roughly 70% to 80% of sales, and is rolling out new AMD EPYC based all flash storage and H15 servers to support AI data center buildouts. The business plans to lift production capacity to more than 8,000 racks per month by December 2026, including over 4,000 direct liquid cooled racks, which points to a heavy oper",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 9
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -152,7 +222,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -588,8 +658,8 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MARKET",
@@ -907,7 +977,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Bloom Energy（BE）｜券商：BMO Capital｜評等：Outperform｜目標價：$230｜調整原因：來源未提供具體理由",
@@ -1239,6 +1309,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "標普 500 +1.9%，英偉達 -6.4%：為何股票分拆 [2026]",
+      "summary": "",
+      "originalTitle": "S&P 500 +1.9%, Nvidia -6.4%: Why Stocks Split [2026]",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMGlzSkFtTXNQdEx6WXNmX0xTQWtJZVkzVDZ3MXFKc1gtYWgtWnFEV2dSSHVldW5wbG1uVi1SWm5qN3hOOVhlMTR1RWFkNnk1a1dyTllTdXVwdHpEV0ZjYm55R2xmaGdXT1F2aTFreTNhWXR6UFR4dUpjLTI4N1ROMURDNUlfUFZtNllWT1NMdw?oc=5",
+      "ts": "2026-11-21T08:14:44+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "COHR",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -1275,7 +1377,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "AMZN",
@@ -2593,38 +2695,6 @@
       "top10Rank": null
     },
     {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "標普 500 +1.9%，英偉達 -6.4%：為何股票分拆 [2026]",
-      "summary": "",
-      "originalTitle": "S&P 500 +1.9%, Nvidia -6.4%: Why Stocks Split [2026]",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMGlzSkFtTXNQdEx6WXNmX0xTQWtJZVkzVDZ3MXFKc1gtYWgtWnFEV2dSSHVldW5wbG1uVi1SWm5qN3hOOVhlMTR1RWFkNnk1a1dyTllTdXVwdHpEV0ZjYm55R2xmaGdXT1F2aTFreTNhWXR6UFR4dUpjLTI4N1ROMURDNUlfUFZtNllWT1NMdw?oc=5",
-      "ts": "2026-11-21T02:15:21+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
       "ticker": "ARM",
       "group": "CPU 概念股",
       "tag": "題材",
@@ -2657,70 +2727,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "利多",
-      "title": "Starlink 頻譜批准可能會改變 T Mobile 股票的遊戲規則",
-      "summary": "",
-      "originalTitle": "Starlink Spectrum Approval Could Be A Game Changer For T Mobile Stock",
-      "originalSummary": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/starlink-spectrum-approval-could-game-021122742.html",
-      "ts": "2026-11-21T02:11:22+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -7.6861951889041435,
-      "relatedTickers": [
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 13.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
-        "numbers": [],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "T-Mobile US recently activated its Formula 1 regional partnership at the Las Vegas Grand Prix, using more than 20 5G-connected devices, a private 5G network, network slicing and a Smart Operations Command Center to support event operations, fan experience and broadcast production. In the same period, there was rising concern that SpaceX’s nationwide 800 MHz spectrum purchase and Starlink mobile satellite approvals could pressure T-Mobile US competitive position and future capital...",
-        "watch": [
-          "合作金額、出貨時程與實際營收貢獻"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克 100 指數預測：通膨加劇後 NDX 下跌，Anthropic IPO 細節公佈",
-      "summary": "",
-      "originalTitle": "Nasdaq 100 Forecast: NDX falls after hotter inflation, Anthropic IPO details announced",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON1Q2X2paSDVqZVU3OS0tRFRkZF9JZTZ2d0ZkOHJROHkyYnoyUldxbkpMLUgwRm5CeVlnUWZtMi1OUlF5ZTNVSklUelo0U0Qtb3JCcGMwbkNHSzdIZUo4dWMyWXpHdXdJaWZOZzQ2c3dabFJjUEdOYXJBZ2VpTHV1ODZ4V1l3WW0xNnBwcEdhX3pPZlJuLS1fdFhyT25VLTEzZUszeEZadWdsVHd5eGVvS2N4STlxWFdHdEFkbVN6V0F1ZGhtSDIza2xBRE4?oc=5",
-      "ts": "2026-11-21T01:55:29+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 17.55,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
