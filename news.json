@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22 21:21 台灣時間",
+  "updatedAt": "2026-11-22 21:26 台灣時間",
   "historyUpdatedDate": "2026-11-22",
   "historyLastAttemptAt": "2026-11-21T16:09:27.739514+00:00",
   "historyItemCount": 800,
@@ -377,7 +377,7 @@
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
-      "title": "A $164 Billion Fund Bought These 3 Stocks Last Quarter",
+      "title": "上季 1,640 億美元的基金購買了這 3 隻股票",
       "summary": "",
       "originalTitle": "A $164 Billion Fund Bought These 3 Stocks Last Quarter",
       "originalSummary": "Key TakeawaysA fund that manages $164 billion added heavily to Nvidia, Taiwan Semiconductor and Microsoft in the third quarter, per its latest 13F. All three stocks have fallen since Sept.",
@@ -393,7 +393,7 @@
       "eventType": "跨公司事件",
       "score": 36.0,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "重點 根據最新的 13F，管理 1,640 億美元資金的基金在第三季大幅增持了英偉達、台積電和微軟的股票。自9月以來，這三隻股票均下跌。",
         "numbers": [
@@ -1236,8 +1236,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -1894,7 +1894,7 @@
         "TSLA"
       ],
       "eventType": "",
-      "score": 24.0,
+      "score": 20.8,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1908,8 +1908,39 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "GOOGL",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "在軌資料中心：Google準備發射人工智慧衛星 - hi-Tech.ua",
+      "summary": "",
+      "originalTitle": "Data Centers in Orbit: Google Prepares AI Satellite Launch - hi-Tech.ua",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZy1naFhmcXR0NVF4ajk2NWtyNkxhcjdPcUxZMmo3cHFScGVvMHRqMGVNY2FNNWNNc2t1RTYtVXo1eWZWT0FaR3ZoTUtCTmw3UUNxSl9Mc3Z2UjIyY3ZvLTZUVTZQWC0wQXo4TnRoV3U2SVdGbmR0T1R6UnNYc3BscXlpSGxkQTQ?oc=5",
+      "ts": "2026-11-22T07:13:22+00:00",
+      "sourceType": "cross_event_search",
+      "analystPriority": false,
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "eventType": "",
+      "score": 15.6,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SMCI",
@@ -2597,36 +2628,6 @@
       ],
       "eventType": "",
       "score": 14.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "隨著市場消化全球盈餘預期，油價回落",
-      "summary": "",
-      "originalTitle": "Oil Prices Retreat as Market Digests Global Surplus Expectations",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDJZaXFhY1pnSUd1OEp5V2NtbWc2Z2ZvUW41OU1pOGdBWVRPbllCZWhHMExvNWlsSjR3cmFsNFpjV0d1WkRGTEdUcEZNMUNfZ19lS1oxQTlDanlUMXZxZzV4NVhNd29tZWJ6bUI2a0E2SnhPSmJZRVViNUgtREpsZmVUOWN3TFFoU1BTRURIOUZCOGlkNkc0TU41TlNMeTB6b09XSk9MSE92YXBtOFh4WXd5ajFRR3Nna3YxdmxPdEg?oc=5",
-      "ts": "2026-11-22T04:28:31+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
