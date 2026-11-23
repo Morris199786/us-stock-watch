@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 03:24 台灣時間",
+  "updatedAt": "2026-11-24 03:29 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
@@ -7,27 +7,61 @@
   "top10Count": 10,
   "items": [
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利多",
-      "title": "Nvidia：不要追逐 Jensen 反彈（評級升級）（納斯達克：NVDA）",
-      "summary": "",
-      "originalTitle": "Nvidia: Don't Chase The Jensen Bounce (Rating Upgrade) (NASDAQ:NVDA)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSXRoYXJQT1hyTXlWN2s1WWdVZDlZRVBIVks4dW1DTmxlY0ZHTThaQTNEZTdPdU9fbkVqbno1YWxWVnYyU3lkR2trMnBDQkpnSDBURVBBcUVoUmM3N3FCZGRZejMzVWw2YzgzWVhMM29mdnVTaUZuR3VpS3lPNjVfaTJn?oc=5",
-      "ts": "2026-11-23T19:15:45+00:00",
-      "sourceType": "active_search",
-      "movePct": 31.38691946148331,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "analystPriority": true,
-      "score": 213.75,
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利空",
+      "title": "人工智慧拋售測試市場，納斯達克和標準普爾 500 指數反彈",
+      "summary": "華爾街期貨預計週日晚間可能出現復甦，在經歷了艱難的一周導緻美國主要股指大幅下跌後，科技股領漲早盤。那斯達剋期貨上漲 2.7%，漲幅超過標準普爾 500 指數期貨上漲 2%，至 7,075 點。道瓊期貨上漲 1.4%。",
+      "originalTitle": "Nasdaq and S&P 500 Rebound as AI Selloff Tests Markets",
+      "originalSummary": "Wall Street futures pointed to a possible recovery on Sunday evening, with technology shares leading early gains after a punishing week left major U.S. indexes nursing steep losses. Nasdaq futures gained 2.7% outpacing a 2% advance in S&P 500 futures to 7,075. Dow futures added 1.4%.",
+      "url": "https://uk.finance.yahoo.com/news/p-500-nasdaq-futures-jump-111609205.html",
+      "ts": "2026-11-23T19:22:58+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [],
+      "eventType": "新題材",
+      "score": 17.25,
       "featured": true,
       "translated": true,
-      "analystDetails": [],
+      "investorBrief": {
+        "event": "華爾街期貨預計週日晚間可能出現復甦，在經歷了艱難的一周導緻美國主要股指大幅下跌後，科技股領漲早盤。那斯達剋期貨上漲 2.7%，漲幅超過標準普爾 500 指數期貨上漲 2%，至 7,075 點。道瓊期貨上漲 1.4%。",
+        "numbers": [
+          "2.7%",
+          "2%",
+          "1.4%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "華爾街期貨預計週日晚間可能出現復甦，在經歷了艱難的一周導緻美國主要股指大幅下跌後，科技股領漲早盤。那斯達剋期貨上漲 2.7%，漲幅超過標準普爾 500 指數期貨上漲 2%，至 7,075 點。道瓊期貨上漲 1.4%。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "《詹森的判斷仍然受到質疑》：華爾街分析師對黃的復出有何評價",
+      "summary": "",
+      "originalTitle": "'Jensen's judgment remains under question': What Wall Street analysts are saying about Huang's comeback",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMUl3NTFLSFA5Y1lfYmd2VFdaRExybFVhd1VhOFJiblprUmhHUHg3QWx3eHRlTHNBdExaZzNPaVZyMEhkYWdhM3JXUFV2ckJNZ1VKNUYtQzhfZUJJcU9KTDR6UXZGWTdNdTl4SldXNy1LYmJ1YzZja0U3UnFSWnNhZTFBZXdpQWlxcFp3bW15T2llR1VVNVR1NnVkZw?oc=5",
+      "ts": "2026-11-23T19:21:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": true,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -37,8 +71,116 @@
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
       },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "黃仁勳回歸英偉達考驗打破規則的特質",
+      "summary": "Nvidia（納斯達克股票代碼：NVDA）今天上午重新任命黃仁勳為首席執行官，距他辭職 11 天。該股早盤上漲逾 30%。這收復了黃仁勳於 11 月 12 日下台後失去的大部分市場。 Team Rule Breakers 推薦 Nvidia 已有大約二十年的時間，而黃仁勳長期以來一直是主要原因。",
+      "originalTitle": "Huang's Nvidia Return Tests a Rule Breaker Trait",
+      "originalSummary": "Nvidia (NASDAQ:NVDA) brought back Jensen Huang as CEO this morning, 11 days after he resigned. The stock jumped more than 30% in early trading. That regained most of the ground it had lost after Huang stepped down on Nov. 12. Team Rule Breakers has recommended Nvidia for about two decades, and Huang has long been a major reason.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/huangs-nvidia-return-tests-rule-192002439.html",
+      "ts": "2026-11-23T19:20:02+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 31.21962877399824,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "新題材",
+      "score": 28.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Nvidia（納斯達克股票代碼：NVDA）今天上午重新任命黃仁勳為首席執行官，距他辭職 11 天。該股早盤上漲逾 30%。這收復了黃仁勳於 11 月 12 日下台後失去的大部分市場。 Team Rule Breakers 推薦 Nvidia 已有大約二十年的時間，而黃仁勳長期以來一直是主要原因。",
+        "numbers": [
+          "30%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "Nvidia（納斯達克股票代碼：NVDA）今天上午重新任命黃仁勳為首席執行官，距他辭職 11 天。該股早盤上漲逾 30%。這收復了黃仁勳於 11 月 12 日下台後失去的大部分市場。 Team Rule Breakers 推薦 Nvidia 已有大約二十年的時間，而黃仁勳長期以來一直是主要原因。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "人工智慧伺服器價格上漲 20% 後，戴爾和 HPE 公佈獲利",
+      "summary": "",
+      "originalTitle": "Dell and HPE report earnings after a 20% rally on AI server price hikes",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcVIwMWJuaTNyT1l5b2NUOTJIS211eXJuR3Z4S0ZNVndWenc1ajh2X0JJMHllUHJEUmp2RjB3b1ZLdklWanA4dmthaEdnc2J2eGF2T1BsbnFobTRRa2FsNXVQSjVBSTVFT0R2MEM5WnhfUHk5bGgyaUwzQ0ZMWXZkeG1mMGhNaHRjVTFHMm9Vd0Y1dVhfQmlGTGZLb1hiZms?oc=5",
+      "ts": "2026-11-23T19:18:17+00:00",
+      "sourceType": "active_search",
+      "movePct": 21.226890151787646,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "analystPriority": false,
+      "score": 23.25,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利多",
+      "title": "Nvidia：不要追逐 Jensen 反彈（評級升級）（納斯達克：NVDA）",
+      "summary": "BING-JHEN HONG/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. The information contained herein is for informational purpos",
+      "originalTitle": "Nvidia: Don't Chase The Jensen Bounce (Rating Upgrade) (NASDAQ:NVDA)",
+      "originalSummary": "BING-JHEN HONG/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. The information contained herein is for informational purposes only. Nothing in this article should be taken as a solicitation to purchase or sell securities. Before buying or selling any stock, you should do your own research and reach your own conclusion or consult a financial advisor. Investing includes risks, including loss of principal. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
+      "url": "https://seekingalpha.com/article/4970914-nvidia-crisis-prices-wont-last-rating-upgrade",
+      "ts": "2026-11-23T19:15:45+00:00",
+      "sourceType": "active_search",
+      "movePct": 31.38691946148331,
+      "hasArticleBody": true,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "analystPriority": true,
+      "score": 222.75,
+      "featured": true,
+      "translated": true,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "BING-JHEN HONG/iStock Editorial via Getty Images Analyst’s Disclosure: I/we have no stock, option or similar derivative position in any of the companies mentioned, and no plans to initiate any such positions within the next 72 hours. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). The information contained herein is for informational purpos",
+        "numbers": [],
+        "why": "券商調整理由：The information contained herein is for informational purpos",
+        "stance": "The information contained herein is for informational purpos",
+        "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：The information contained herein is for informational purpos",
+        "sourceQuality": "body"
+      },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 4,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MSFT",
@@ -52,7 +194,7 @@
       "ts": "2026-11-23T19:13:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4921571864938485,
+      "movePct": 2.4519111698175555,
       "relatedTickers": [
         "MSFT"
       ],
@@ -75,24 +217,102 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "利空",
-      "title": "黃仁勳重新出任首席執行官，英偉達支持的人工智慧股票飆升 26%",
-      "summary": "在資料中心延誤迫使人工智慧雲端供應商降低 2026 年營收預期後，黃仁勳重返 Nvidia 提振了 Nebius 股價。",
-      "originalTitle": "Nvidia-backed AI stock soars 26% as Jensen Huang returns as CEO",
-      "originalSummary": "Jensen Huang’s return to Nvidia lifts Nebius stock after data center delays forced the AI cloud provider to lower its 2026 revenue outlook.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-ai-stock-soars-190821073.html",
-      "ts": "2026-11-23T19:08:21+00:00",
+      "ticker": "CAT",
+      "group": "電力／儲能／資料中心能源",
+      "tag": "題材",
+      "title": "由於被低估的故事成為焦點，卡特彼勒（CAT）大幅回調",
+      "summary": "儘管沒有新的企業消息，卡特彼勒 (CAT) 股價於 2026 年 11 月 20 日在人工智慧相關公司大規模回檔期間下跌 5.0% 後重新成為焦點。最近的回檔符合卡特彼勒更急劇的重置。儘管 3 年股東總回報率為 114.6%，5 年股東總回報率為",
+      "originalTitle": "Caterpillar (CAT) Falls In Broad Pullback As Undervalued Narrative Stays In Focus",
+      "originalSummary": "Caterpillar (CAT) is back in focus after the stock fell 5.0% on November 20, 2026, during a broader pullback in AI linked companies, despite no fresh corporate news. The recent pullback fits into a much sharper reset for Caterpillar. The share price has retreated 37.1% over the past 90 days and 25.7% over the past month, even though the 3 year total shareholder return of 114.6% and 5 year total shareholder return of 183.1% remain strong. Recent headlines have featured new safety technologies...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-falls-broad-pullback-191143887.html",
+      "ts": "2026-11-23T19:11:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 31.38691946148331,
+      "movePct": 7.1838573807424755,
+      "relatedTickers": [
+        "CAT"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "儘管沒有新的企業消息，卡特彼勒 (CAT) 股價於 2026 年 11 月 20 日在人工智慧相關公司大規模回檔期間下跌 5.0% 後重新成為焦點。最近的回檔符合卡特彼勒更急劇的重置。儘管 3 年股東總回報率為 114.6%，5 年股東總回報率為",
+        "numbers": [
+          "5.0%",
+          "37.1%",
+          "25.7%",
+          "114.6%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "儘管沒有新的企業消息，卡特彼勒 (CAT) 股價於 2026 年 11 月 20 日在人工智慧相關公司大規模回檔期間下跌 5.0% 後重新成為焦點。最近的回檔符合卡特彼勒更急劇的重置。儘管 3 年股東總回報率為 114.6%，5 年股東總回報率為",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "IREN (IREN) 人工智慧基礎設施反彈後，其估值可能被低估 83%",
+      "summary": "Nvidia 恢復黃仁勳擔任執行長後，IREN (NasdaqGS:IREN) 股價上漲 27.9%。對人工智慧基礎設施支出的信心重燃，吸引買家重新選擇專注於 GPU 的雲端供應商，並引發了該股的大量交易。這次飆升是在 IREN 的艱難背景下發生的，該公司股價在過去 30 天下跌了 53.67%，今年迄今下跌了 72.32%。儘管 3 年股東總回報率約為 2.3 倍，但仍反映出",
+      "originalTitle": "IREN (IREN) Could Be 83% Undervalued Following Its AI Infrastructure Rebound",
+      "originalSummary": "IREN (NasdaqGS:IREN) jumped 27.9% after Nvidia reinstated Jensen Huang as CEO. Renewed confidence in AI infrastructure spending drew buyers back to GPU focused cloud providers and sparked heavy trading in the stock. That surge comes against a rough backdrop for IREN, with the share price down 53.67% over the past 30 days and 72.32% year to date. Even though the 3 year total shareholder return of about 2.3x still reflects a very strong earlier run, recent momentum has been weak, and news flow...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-iren-could-83-undervalued-191139206.html",
+      "ts": "2026-11-23T19:11:39+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 31.21962877399824,
       "relatedTickers": [
         "NVDA"
       ],
       "eventType": "",
       "score": 21.0,
       "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Nvidia 恢復黃仁勳擔任執行長後，IREN (NasdaqGS:IREN) 股價上漲 27.9%。對人工智慧基礎設施支出的信心重燃，吸引買家重新選擇專注於 GPU 的雲端供應商，並引發了該股的大量交易。這次飆升是在 IREN 的艱難背景下發生的，該公司股價在過去 30 天下跌了 53.67%，今年迄今下跌了 72.32%。儘管 3 年股東總回報率約為 2.3 倍，但仍反映出",
+        "numbers": [
+          "83%",
+          "27.9%",
+          "53.67%",
+          "72.32%"
+        ],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "Nvidia 恢復黃仁勳擔任執行長後，IREN (NasdaqGS:IREN) 股價上漲 27.9%。對人工智慧基礎設施支出的信心重燃，吸引買家重新選擇專注於 GPU 的雲端供應商，並引發了該股的大量交易。這次飆升是在 IREN 的艱難背景下發生的，該公司股價在過去 30 天下跌了 53.67%，今年迄今下跌了 72.32%。儘管 3 年股東總回報率約為 2.3 倍，但仍反映出",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "黃仁勳重新出任首席執行官，英偉達支持的人工智慧股票飆升 26%",
+      "summary": "",
+      "originalTitle": "Nvidia-backed AI stock soars 26% as Jensen Huang returns as CEO",
+      "originalSummary": "Jensen Huang’s return to Nvidia lifts Nebius stock after data center delays forced the AI cloud provider to lower its 2026 revenue outlook.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backed-ai-stock-soars-190821073.html",
+      "ts": "2026-11-23T19:08:21+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 31.21962877399824,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -118,7 +338,7 @@
       "ts": "2026-11-23T19:07:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 15.906701708278593,
+      "movePct": 15.781865965834442,
       "relatedTickers": [
         "ARM"
       ],
@@ -191,7 +411,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -223,7 +443,7 @@
       ],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -242,7 +462,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "婚外情醜聞後，英偉達重新任命黃仁勳為首席執行官",
-      "summary": "在唐納德·川普和大部分科技業的持續壓力下，情況出現逆轉",
+      "summary": "",
       "originalTitle": "Nvidia re-appoints Jensen Huang as CEO after affair scandal",
       "originalSummary": "Reversal comes amid sustained pressure from Donald Trump and much of the tech industry",
       "url": "https://finance.yahoo.com/news/nvidia-appoints-jensen-huang-ceo-142119867.html",
@@ -255,7 +475,7 @@
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -290,7 +510,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com -- If \"heavier weight\" means more direct exposure to frontier-model success, Anthropic, PBC (ANT) wins. If it means more proven exposure to AI spending and profits, NVIDIA Corporation (NVDA) remains the stronger vehicle.",
+        "event": "Investing.com——如果「重量更重」意味著更直接接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "Investing.com——如果「重量更重」意味著更直接接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
@@ -379,7 +599,7 @@
       "ts": "2026-11-23T19:00:31+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 21.42217160212605,
+      "movePct": 21.13389015439129,
       "relatedTickers": [
         "CRWV",
         "NVDA"
@@ -583,7 +803,7 @@
       "ts": "2026-11-23T18:58:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4506422259452654,
+      "movePct": 2.3323806708058115,
       "relatedTickers": [
         "AVGO",
         "CRDO"
@@ -655,7 +875,7 @@
       "ts": "2026-11-23T18:57:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.118564742589701,
+      "movePct": 14.001560062402497,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -693,7 +913,7 @@
       "ts": "2026-11-23T18:55:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.6436717971431767,
+      "movePct": 2.640903554423635,
       "relatedTickers": [
         "CRM"
       ],
@@ -793,7 +1013,7 @@
       "ts": "2026-11-23T18:52:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 11.755114141713596,
+      "movePct": 12.007115327601547,
       "relatedTickers": [
         "ORCL"
       ],
@@ -825,7 +1045,7 @@
       "ts": "2026-11-23T18:50:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.913244014935213,
+      "movePct": 14.79401336638324,
       "relatedTickers": [
         "TSM",
         "NVDA"
@@ -937,21 +1157,21 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "隨著英偉達股價飆升，從燃料電池到鈾等人工智慧能源股大幅上漲",
-      "summary": "週一，受挫的布魯姆能源公司(Bloom Energy)領漲人工智慧能源股。但也有很多大贏家。",
+      "summary": "",
       "originalTitle": "AI Energy Stocks, From Fuel Cells To Uranium, Leap As Nvidia Soars",
       "originalSummary": "Beaten-down Bloom Energy led the relief rally among AI energy stocks on Monday. But there were plenty of big winners.",
       "url": "https://www.investors.com/news/ai-energy-stocks-bloom-vernova-oklo-rally-nvidia-rebound-trade/?src=A00220&yptr=yahoo",
       "ts": "2026-11-23T18:42:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 19.172694711707283,
+      "movePct": 18.80047756162653,
       "relatedTickers": [
         "BE",
         "NVDA"
       ],
       "eventType": "",
       "score": 30.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -997,7 +1217,7 @@
       ],
       "eventType": "",
       "score": 211.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Bernstein｜評等：Buy｜調整原因：是的，在英偉達董事會一致恢復黃仁勳擔任人工智慧晶片製造商執行長後，至少有四家公司週一將其評級轉回伯恩斯坦，分析師很快就升級了英偉達 (NVDA) 的評級，儘管華爾街認為正在進行的調查是該公司揮之不去的懸而未決的問題。",
@@ -1056,7 +1276,7 @@
       "ts": "2026-11-23T18:41:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.412308228730815,
+      "movePct": -10.55613668061367,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1092,7 +1312,7 @@
       "ts": "2026-11-23T18:40:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 19.172694711707283,
+      "movePct": 18.80047756162653,
       "relatedTickers": [
         "BE"
       ],
@@ -1124,7 +1344,7 @@
       "ts": "2026-11-23T18:40:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.412308228730815,
+      "movePct": -10.55613668061367,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1271,7 +1491,7 @@
       "ts": "2026-11-23T18:33:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.148167006109984,
+      "movePct": 6.104524294442837,
       "relatedTickers": [
         "NET",
         "PLTR",
@@ -1310,7 +1530,7 @@
       "ts": "2026-11-23T18:33:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.950883938331631,
+      "movePct": 6.858532172339693,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -1342,7 +1562,7 @@
       "ts": "2026-11-23T18:31:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.420225265375577,
+      "movePct": 4.246009237501025,
       "relatedTickers": [
         "AMZN",
         "NVDA"
@@ -1444,7 +1664,7 @@
       "ts": "2026-11-23T18:30:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 17.604078164825808,
+      "movePct": 17.051826677994917,
       "relatedTickers": [
         "TTMI",
         "NVDA"
@@ -1477,7 +1697,7 @@
       "ts": "2026-11-23T18:30:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 31.38691946148331,
+      "movePct": 31.21962877399824,
       "relatedTickers": [
         "NVDA"
       ],
@@ -1511,7 +1731,7 @@
       "ts": "2026-11-23T18:30:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 11.755114141713596,
+      "movePct": 12.007115327601547,
       "relatedTickers": [
         "ORCL"
       ],
@@ -1575,7 +1795,7 @@
       "ts": "2026-11-23T18:25:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 8.665436918193103,
+      "movePct": 8.63715270330172,
       "relatedTickers": [
         "GEV",
         "NVDA"
@@ -1585,7 +1805,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "The return of Jensen Huang to the helm of Nvidia strengthens sentiment toward the AI market and removes fears about GE Vernova orders in a potentially protracted period of uncertainty.",
+        "event": "黃仁勳重返 Nvidia 掌舵，增強了人們對人工智慧市場的信心，並消除了在可能長期不確定的時期內對 GE Vernova 訂單的擔憂。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "黃仁勳重返 Nvidia 掌舵，增強了人們對人工智慧市場的信心，並消除了在可能長期不確定的時期內對 GE Vernova 訂單的擔憂。",
@@ -1712,6 +1932,38 @@
       "top10Rank": null
     },
     {
+      "ticker": "AXTI",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "AXT Inc(AXTI) 今日股價 |行情與新聞",
+      "summary": "",
+      "originalTitle": "AXT Inc(AXTI) Stock Price Today | Quotes & News",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPeEZ0bnF3d1RQQUhlZUxhSFFvWHFPQUU4dHlwMVZYUzZwR19nWF8wY0ZlN3ZaUTlqb0drOTFKSm1PWlRTVXNnZTVJR0N1LVlZdTRmMFpfTDJYdFcxLWdkR3REVjd5VlJaLXVwNFVPb2pNOE5ZVE1mTVRjNVBvakE0aU52NkFqdmJ1R01zNHFmWThMSWpzSGhKQm5ZSFVkZkZnSWJZa0lEbGRNRXpXa2lrNDg1RC1JRl9xS2hKZ1lOZEhCTldVQ1VMUlNBWjZPbGViNUoyTGNCVU1xLW5tWkpGd0ZUVHNfZW1mU3ZCaEVnekZlNDQtcHdZTEJFd2dHTWhJZEc2RjgtMjVtTnFzekVGTmtVa2J1cTVUejFF?oc=5",
+      "ts": "2026-11-23T18:12:29+00:00",
+      "sourceType": "moomoo_public",
+      "analystPriority": false,
+      "movePct": 23.352960418711156,
+      "relatedTickers": [
+        "AXTI"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "利空",
@@ -1723,7 +1975,7 @@
       "ts": "2026-11-23T18:10:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.555990296580315,
+      "movePct": 5.438610219892004,
       "relatedTickers": [
         "SPCX"
       ],
@@ -1789,7 +2041,7 @@
       "ts": "2026-11-23T18:08:22+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.412308228730815,
+      "movePct": -10.55613668061367,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1821,7 +2073,7 @@
       "ts": "2026-11-23T18:05:42+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4921571864938485,
+      "movePct": 2.4519111698175555,
       "relatedTickers": [
         "MSFT"
       ],
@@ -1858,7 +2110,7 @@
       "ts": "2026-11-23T18:03:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.913244014935213,
+      "movePct": 14.79401336638324,
       "relatedTickers": [
         "TSM"
       ],
@@ -1892,7 +2144,7 @@
       "ts": "2026-11-23T17:55:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 15.906701708278593,
+      "movePct": 15.781865965834442,
       "relatedTickers": [
         "ARM"
       ],
@@ -1924,7 +2176,7 @@
       "ts": "2026-11-23T17:55:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 17.619398102715067,
+      "movePct": 17.251390251880938,
       "relatedTickers": [
         "MRVL"
       ],
@@ -1956,7 +2208,7 @@
       "ts": "2026-11-23T17:55:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4506422259452654,
+      "movePct": 2.3323806708058115,
       "relatedTickers": [
         "AVGO",
         "GOOGL"
@@ -1989,7 +2241,7 @@
       "ts": "2026-11-23T17:55:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 5.555990296580315,
+      "movePct": 5.438610219892004,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2026,7 +2278,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "AVGO",
@@ -2040,7 +2292,7 @@
       "ts": "2026-11-23T17:55:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4506422259452654,
+      "movePct": 2.3323806708058115,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2084,7 +2336,7 @@
       "ts": "2026-11-23T17:54:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.372237682108358,
+      "movePct": 14.061221149124226,
       "relatedTickers": [
         "LRCX"
       ],
@@ -2116,7 +2368,7 @@
       "ts": "2026-11-23T17:54:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 13.894855103591851,
+      "movePct": 13.675114826686041,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2158,7 +2410,7 @@
       "ts": "2026-11-23T17:54:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 9.948815165876779,
+      "movePct": 9.618957345971557,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [
         {
@@ -2194,7 +2446,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4
+      "top10Rank": 5
     },
     {
       "ticker": "SK Hynix",
@@ -2240,7 +2492,7 @@
       "ts": "2026-11-23T17:54:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 13.809411208323464,
+      "movePct": 13.47836367935682,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2283,7 +2535,7 @@
       "ts": "2026-11-23T17:54:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 20.501783298487265,
+      "movePct": 20.415693026687975,
       "relatedTickers": [
         "NBIS",
         "NVDA"
@@ -2316,7 +2568,7 @@
       "ts": "2026-11-23T17:54:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 17.619398102715067,
+      "movePct": 17.251390251880938,
       "relatedTickers": [
         "MRVL"
       ],
@@ -2380,7 +2632,7 @@
       "ts": "2026-11-23T17:53:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 21.42217160212605,
+      "movePct": 21.13389015439129,
       "relatedTickers": [
         "CRWV",
         "NVDA"
@@ -2413,7 +2665,7 @@
       "ts": "2026-11-23T17:53:13+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4921571864938485,
+      "movePct": 2.4519111698175555,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2445,7 +2697,7 @@
       "ts": "2026-11-23T17:53:10+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 10.234162659418766,
+      "movePct": 10.272492856645044,
       "relatedTickers": [
         "PLTR"
       ],
@@ -2477,7 +2729,7 @@
       "ts": "2026-11-23T17:53:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.555990296580315,
+      "movePct": 5.438610219892004,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -2552,7 +2804,7 @@
       "ts": "2026-11-23T17:45:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.4506422259452654,
+      "movePct": 2.3323806708058115,
       "relatedTickers": [
         "AVGO"
       ],
@@ -2572,244 +2824,6 @@
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NBIS",
-      "group": "NeoCloud／AI 算力",
-      "tag": "利空",
-      "title": "Nebius本月跌幅50%持續暴跌：這位華爾街專業人士現預測小幅調整後回報率370%",
-      "summary": "",
-      "originalTitle": "Nebius Keeps Plummeting Amid 50% Drop This Month: This Wall Street Pro Now Predicts 370% Returns After Slight Adjustment",
-      "originalSummary": "Nebius posted a blowout quarter, then watched half its value vanish in weeks. One analyst still sees a staggering rebound, but a delayed data center and a massive spending plan could decide who is right.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-keeps-plummeting-amid-50-174500369.html",
-      "ts": "2026-11-23T17:45:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 20.501783298487265,
-      "relatedTickers": [
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Nebius 公佈了一個井噴的季度業績，然後眼睜睜地看著其一半的價值在幾週內消失。一位分析師仍然認為經濟會出現驚人的反彈，但資料中心的延遲和大規模的支出計劃可能會決定誰是正確的。",
-        "numbers": [
-          "50%",
-          "370%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Nebius 公佈了一個井噴的季度業績，然後眼睜睜地看著其一半的價值在幾週內消失。一位分析師仍然認為經濟會出現驚人的反彈，但資料中心的延遲和大規模的支出計劃可能會決定誰是正確的。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "題材",
-      "title": "Cathie Wood 剛剛透過 2 個 ARK 基金購買了 2,100 萬美元的 Cerebras",
-      "summary": "",
-      "originalTitle": "Cathie Wood Just Bought $21 Million of Cerebras Across 2 ARK Funds",
-      "originalSummary": "Key TakeawaysCathie Wood’s ARK bought 256,720 shares of Cerebras on Friday across two ETFs, worth about $21 million at Friday’s close. Cerebras is 79% below its 52-week high after a report that OpenAI chose Nvidia chips for one workload, but a new Microsoft deal puts it in the running for work Microsoft also rents from Nebius.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-bought-21-174457836.html",
-      "ts": "2026-11-23T17:44:57+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 2.4921571864938485,
-      "relatedTickers": [
-        "MSFT",
-        "NVDA",
-        "NBIS"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "要點 Cathie Wood 的 ARK 週五透過兩隻 ETF 購買了 256,720 股 Cerebras 股票，週五收盤時價值約 2,100 萬美元。在有報告指出 OpenAI 選擇 Nvidia 晶片來處理一項工作負載後，Cerebras 的股價比 52 週高點低了 79%，但微軟的一項新交易將其納入微軟也從 Nebius 租用的工作負載中。",
-        "numbers": [
-          "$21 Million",
-          "$21 million",
-          "79%",
-          "21 Million"
-        ],
-        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "要點 Cathie Wood 的 ARK 週五透過兩隻 ETF 購買了 256,720 股 Cerebras 股票，週五收盤時價值約 2,100 萬美元。在有報告指出 OpenAI 選擇 Nvidia 晶片來處理一項工作負載後，Cerebras 的股價比 52 週高點低了 79%，但微軟的一項新交易將其納入微軟也從 Nebius 租用的工作負載中。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "納斯達克上漲，英偉達股價飆升，投資者為黃仁勳重新擔任執行長歡呼",
-      "summary": "",
-      "originalTitle": "Nasdaq Jumps, Nvidia Surges as Investors Cheer Jensen Huang’s Return as CEO",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbmRrWGlNNEhKN1FYMEt2NmxkREM3N2toWEt1QW9NOW5ULUt5MHpuRmdjMnI2MnpzbnFIdVdTcFhXMEJDZkNFenAxSWM5aWdaYVZyLVFwTjhFODJ0dUNIWGdmdkZ2ZFhBSnE4YjJZYXFDSWRZc3NTcHJSb0FvcEduX3Y4M1JINDZRaDlKMEZLbkJjLXRMMGM0Skt6V2FXZXlTZFV3bE93?oc=5",
-      "ts": "2026-11-23T17:37:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "DELL",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "戴爾準備報告第三季收益：您應該購買股票嗎？",
-      "summary": "",
-      "originalTitle": "DELL Gears Up to Report Q3 Earnings: Should You Buy the Stock?",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTElDVU44N0JRbFNFNTJYTFZTOGNpcWpsUjM1dE9UM2VNRjFDRk15aXB0eHp5UHpGRVpxbFlJMUptajRuUTY4aW5BSzNaOFUzUm1EYUtZanktREpHbzF6ZTl5dzhjVXI1UXpvNFhhS3REU2VFOUdhSWRtelp3SU8tSm9DY2JkbG1uZWNDWHhZekI1d0h5VUVZcGE5QTJsRGJnOUxHU1BGZm9yMk1oTXdFZVNhdV9rbkpVNXQ1enU0RjdUbnpGVWttVVRZcGlndUN3ZHpObEd4OGpySjAwelE?oc=5",
-      "ts": "2026-11-23T17:34:51+00:00",
-      "sourceType": "active_search",
-      "movePct": 22.03438601539458,
-      "relatedTickers": [
-        "DELL"
-      ],
-      "eventType": "",
-      "analystPriority": false,
-      "score": 20.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "STX",
-      "group": "記憶體／儲存",
-      "tag": "題材",
-      "title": "投資者可能低估了希捷的長期人工智慧成長機會",
-      "summary": "",
-      "originalTitle": "Investors Might Be Underestimating Seagate’s Long-Term AI Growth Opportunity",
-      "originalSummary": "Seagate's stock has already doubled this year, then slid hard in a single month. Wall Street still sees a path to far higher, and one number the CEO calls his North Star may explain why.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-might-underestimating-seagate-long-173354948.html",
-      "ts": "2026-11-23T17:33:54+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 13.336688475088089,
-      "relatedTickers": [
-        "STX"
-      ],
-      "eventType": "",
-      "score": 13.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "希捷的股價今年已經翻了一番，然後在一個月內大幅下滑。華爾街仍然看到了一條通往更高水平的道路，執行長稱之為北極星的一個數字可能可以解釋其中的原因。",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "希捷的股價今年已經翻了一番，然後在一個月內大幅下滑。華爾街仍然看到了一條通往更高水平的道路，執行長稱之為北極星的一個數字可能可以解釋其中的原因。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "槓桿股票 2 倍多頭 CRWV 每日 ETF (CRWG) 股票價格 |行情與新聞",
-      "summary": "",
-      "originalTitle": "Leverage Shares 2X Long CRWV Daily ETF (CRWG) Stock Price | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxOck1kWGlmZTNTZFpXQ3BxaWlFRldzTWpPV0F0Ry1IRGtPSFVrVDJjOGdWNEZOUWFHajJzdS0zWTVjS20tc05iNElEM2FKdHZmY05WUDZuUWxLX0pZM1lzMzBYQnBYV2lSNFVVZ3FxZGFGLTNmLXNhNHZJcmUtV0dXODJlTEEyNXFBZGFIdnc1M2RDMzFLOXRGcmJkd0JXTXNqSUs5VHpkMDRLZTRnczY5UmlCRnZva0ZaRE94UjFBYkFNRjNsdnRMM0ZuLTRrVmZiekZEc1FwbVZUZ1VBNk4zMlV3RlpnN19aQnVGNXNKNndIZDYyMmJ0RTAxZmlvUkFEWmZ4N0VxcktrOGc0bk5HM1ZXMDloRkgzNXhvbFUxcW1KWEpIZ0pFTEdGNWQ3ZTI1c3lIWS1GUUo3LXJlb0dJTUVQWDVyS1loSXZtcHJla1hQX2l5YTBvdFJmVmRHblZGdS1iZ25QMTZQTFl4aGc?oc=5",
-      "ts": "2026-11-23T17:33:24+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 20.728929384965845,
-      "relatedTickers": [
-        "CRWV"
-      ],
-      "eventType": "",
-      "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利空",
-      "title": "標準普爾 500 指數平靜地擺脫了比特幣和白銀的拋售",
-      "summary": "",
-      "originalTitle": "S&P 500 Quietly Shrugs Off the Bitcoin and Silver Selloff",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQR1NjRWV2QmdlcHA3YmlPNzgyUGd2RTBXalNHbFE5dkJjZFVEZlczdk45MW9IeUlhY3VOOXNYOU1TU1ZDS2JwS2swb1R4bVVQenM2OUZ0cF91M05TXzJIUkowdXhqSjNHUEIzbmxaSVFpaWFfX2pPQ0Jyc3FwZHVMX1JNeDZJaVpMZkZFSWhlRmVoY1RrWEl0V0h2WlhfUUt6R1U5N2gyN1VJXzQ?oc=5",
-      "ts": "2026-11-23T17:32:29+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 6.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -11814,7 +11828,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "葛萊分多計畫：Meta 計畫讓更多學生使用 Instagram",
-      "summary": "Internal Meta documents show the company planned to boost Instagram use among teens by targeting schools in an initiative it named \"Project Gryffindor.\" The project focused on growing what it called \"school communities\" in the U.S. by encouraging teens to include their school banner on their profiles and establishing a student directory that allows users to see and connect with others from their school who use the platform. Meta launched the initiative in 2025, calling it a \"school partnership program,\" and significantly expanded it in September 2026. The company said almost 17,000 schools had signed up for the program at the time.",
+      "summary": "內部 Meta 文件顯示，該公司計劃透過一項名為「Project Gryffindor」的計劃，以學校為目標，提高青少年對 Instagram 的使用。該計畫的重點是在美國發展所謂的“學校社區”，鼓勵青少年將學校橫幅添加到他們的個人資料中，並建立​​一個學生目錄，允許用戶查看學校中使用該平台的其他人並與之聯繫。 Meta 於 2025 年啟動了該計劃，稱其為“學校合作夥伴計劃”，並於 2026 年 9 月大幅擴展了該計劃。該公司表示，當時已有近 17,000 所學校簽署了該計畫。",
       "originalTitle": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
       "originalSummary": "Internal Meta documents show the company planned to boost Instagram use among teens by targeting schools in an initiative it named \"Project Gryffindor.\" The project focused on growing what it called \"school communities\" in the U.S. by encouraging teens to include their school banner on their profiles and establishing a student directory that allows users to see and connect with others from their school who use the platform. Meta launched the initiative in 2025, calling it a \"school partnership program,\" and significantly expanded it in September 2026. The company said almost 17,000 schools had signed up for the program at the time. Meta said the program sought to provide a safer experience on Instagram for children, including protecting them from bullying and online risks by allowing educators to report safety concerns to the company. Another feature gives school-related accounts the ability to post stories and notes visible to all verified students and parents in a school community. Meta said these features would help students and parents stay informed about happenings at school. The announcement gave an example of a school using the Instagram Stories feature to share a notice of basketball tryouts. However, in internal documents prior to the program's public launch, the company discussed more explicitly commercial motivations for establishing school networks. In a 2024 presentation on Project Gryffindor, Meta said that embedding in schools was a way to increase user \"acquisition,\" \"friending\" and \"invites\" to join Instagram. Gryffindor is one of the four Hogwarts school houses from the Harry Potter books. \"We believe network connections will fuel organic and unattributed acquisition,\" the project's presentation states, referring to adding new users. \"Our current strategy of relying on power user teens to get less active friends onto IG may not be effective if there are full communities of teens that have not yet joined IG,\" the presentation stated. The previously unreported Meta documents are part of evidence obtained by lawyers through discovery in a multidistrict lawsuit alleging that social media platforms are designed to be harmful to users under 18, and that the companies knew their products carried risks they failed to disclose. Meta, alongside TikTok, Google and Snap, are defendants in the cases, which were brought by children and their families, school districts and state attorneys general.",
       "url": "https://www.ualrpublicradio.org/npr-news/2026-11-18/project-gryffindor-metas-plan-to-get-more-school-kids-using-instagram",
@@ -11832,10 +11846,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "Internal Meta documents show the company planned to boost Instagram use among teens by targeting schools in an initiative it named \"Project Gryffindor.\" The project focused on growing what it called \"school communities\" in the U.S. by encouraging teens to include their school banner on their profiles and establishing a student directory that allows users to see and connect with others from their school who use the platform. Meta launched the initiative in 2025, calling it a \"school partnership program,\" and significantly expanded it in September 2026. The company said almost 17,000 schools had signed up for the program at the time.",
+        "event": "內部 Meta 文件顯示，該公司計劃透過一項名為「Project Gryffindor」的計劃，以學校為目標，提高青少年對 Instagram 的使用。該計畫的重點是在美國發展所謂的“學校社區”，鼓勵青少年將學校橫幅添加到他們的個人資料中，並建立​​一個學生目錄，允許用戶查看學校中使用該平台的其他人並與之聯繫。 Meta 於 2025 年啟動了該計劃，稱其為“學校合作夥伴計劃”，並於 2026 年 9 月大幅擴展了該計劃。該公司表示，當時已有近 17,000 所學校簽署了該計畫。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "The company said almost 17,000 schools had signed up for the program at the time.",
+        "stance": "Meta 於 2025 年啟動了該計劃，稱其為“學校合作夥伴計劃”，並於 2026 年 9 月大幅擴展了該計劃。該公司表示，當時已有近 17,000 所學校簽署了該計畫。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
