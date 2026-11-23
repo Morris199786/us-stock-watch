@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 03:55 台灣時間",
+  "updatedAt": "2026-11-24 03:59 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
@@ -18,7 +18,7 @@
       "ts": "2026-11-23T19:46:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 30.78148649725163,
+      "movePct": 31.49048036325979,
       "relatedTickers": [
         "NVDA"
       ],
@@ -39,14 +39,49 @@
       "top10Rank": null
     },
     {
+      "ticker": "MU",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "「煙霧與鏡子」：美光總裁猛烈抨擊競爭對手的 DRAM 設計。我們很快就會知道他是否正確",
+      "summary": "關鍵要點美光總裁 Scott DeBoer 稱競爭對手關於 4F2 DRAM 的言論是“霧裡看花”，並表示 3D DRAM 將獲勝。美光發明了4F2，評估了二十年，所以我認真看待他，林研和ASML也有股份。",
+      "originalTitle": "“Smoke and Mirrors”: Micron’s President Slammed Rival DRAM Designs. We’ll Know Soon if He’s Right",
+      "originalSummary": "Key TakeawaysMicron president Scott DeBoer called rivals’ talk of 4F2 DRAM “smoke and mirrors” and said 3D DRAM will win instead. Micron invented 4F2 and has evaluated it for two decades, so I take him seriously, and Lam Research and ASML have a stake too.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/smoke-mirrors-micron-president-slammed-194324637.html",
+      "ts": "2026-11-23T19:43:24+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 18.12586836218062,
+      "relatedTickers": [
+        "MU",
+        "LRCX"
+      ],
+      "eventType": "",
+      "score": 24.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "關鍵要點美光總裁 Scott DeBoer 稱競爭對手關於 4F2 DRAM 的言論是“霧裡看花”，並表示 3D DRAM 將獲勝。美光發明了4F2，評估了二十年，所以我認真看待他，林研和ASML也有股份。",
+        "numbers": [],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "關鍵要點美光總裁 Scott DeBoer 稱競爭對手關於 4F2 DRAM 的言論是“霧裡看花”，並表示 3D DRAM 將獲勝。美光發明了4F2，評估了二十年，所以我認真看待他，林研和ASML也有股份。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "VRT",
       "group": "AI Server／資料中心硬體",
       "tag": "利空",
-      "title": "Baird 剛剛將 Vertiv 評級下調至 200 美元，且與盈利無關",
-      "summary": "",
+      "title": "Baird 降評 VRT 至 Neutral，目標價下修至 $200（原 $320）",
+      "summary": "Key TakeawaysBaird downgraded Vertiv to Neutral from Outperform and cut its price target to $200 from $320, with the stock 51% below its May high. Baird says Vertiv’s near-term fundamentals remain strong and rests its case on how investors feel about AI data centers.",
       "originalTitle": "Baird Just Downgraded Vertiv With a $200 Target, and It’s Not About Earnings",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjRHMWNSZEhzc1F2Wmx2RkZsSWZEbG5HQXR0engzVUlxT283MzhRaFVRdzgyM2UyTDduNm1OZ3NSRkltWUllcVJZMEtWT3M5M1ZISTJZYzRPUkRZZU0zRW9MTlRlSEVyelFUTDFJUWhRWUJFYWdLTVFMUkRaaEpIakg0WTBqSGhaTmUyck9aYVhfaDFoMjdnZWZIVUZpOVJfSGc?oc=5",
+      "originalSummary": "Key TakeawaysBaird downgraded Vertiv to Neutral from Outperform and cut its price target to $200 from $320, with the stock 51% below its May high. Baird says Vertiv’s near-term fundamentals remain strong and rests its case on how investors feel about AI data centers.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/baird-just-downgraded-vertiv-200-193519113.html",
       "ts": "2026-11-23T19:42:22+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
@@ -54,11 +89,11 @@
         {
           "broker": "Baird",
           "analyst": "",
-          "rating": "",
-          "action": "",
+          "rating": "Neutral",
+          "action": "下修",
           "newTarget": "$200",
-          "oldTarget": "",
-          "reason": "Baird 剛剛將 Vertiv 評級下調至 200 美元，且與盈利無關",
+          "oldTarget": "$320",
+          "reason": "Baird 剛剛將 Vertiv 的評級下調至 200 美元，目標價為 200 美元，與盈利無關 關鍵要點Baird 將 Vertiv 的評級從跑贏大盤下調至中性，並將目標價從 320 美元下調至 200 美元，該股較 5 月高點低點 51%。",
           "reasonConfidence": "medium",
           "targetTicker": "VRT",
           "targetCompany": "Vertiv"
@@ -73,18 +108,20 @@
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "被評級公司：Vertiv（VRT）｜券商：Baird｜目標價：$200｜調整原因：Baird 剛剛將 Vertiv 評級下調至 200 美元，且與盈利無關",
+        "event": "被評級公司：Vertiv（VRT）｜券商：Baird｜動作：下修｜評等：Neutral｜目標價：$200（原 $320）｜調整原因：Baird 剛剛將 Vertiv 的評級下調至 200 美元，目標價為 200 美元，與盈利無關 關鍵要點Baird 將 Vertiv 的評級從跑贏大盤下調至中性，並將目標價從 320 美元下調至 200 美元，該股較 5 月高點低點 51%。",
         "numbers": [
+          "$320",
           "$200"
         ],
-        "why": "調整原因：Baird 剛剛將 Vertiv 評級下調至 200 美元，且與盈利無關",
+        "why": "調整原因：Baird 剛剛將 Vertiv 的評級下調至 200 美元，目標價為 200 美元，與盈利無關 關鍵要點Baird 將 Vertiv 的評級從跑贏大盤下調至中性，並將目標價從 320 美元下調至 200 美元，該股較 5 月高點低點 51%。",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：Baird 剛剛將 Vertiv 評級下調至 200 美元，且與盈利無關",
+        "takeaway": "調整原因：Baird 剛剛將 Vertiv 的評級下調至 200 美元，目標價為 200 美元，與盈利無關 關鍵要點Baird 將 Vertiv 的評級從跑贏大盤下調至中性，並將目標價從 320 美元下調至 200 美元，該股較 5 月高點低點 51%。",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 6,
+      "detailSource": "ticker_feed_match"
     },
     {
       "ticker": "NVDA",
@@ -98,7 +135,7 @@
       "ts": "2026-11-23T19:38:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 30.78148649725163,
+      "movePct": 31.49048036325979,
       "relatedTickers": [
         "NVDA"
       ],
@@ -121,6 +158,44 @@
       "top10Rank": null
     },
     {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "戴爾希望在簽署的人工智慧交易中獲得高達 45% 的利潤。 IREN 有一個大問題",
+      "summary": "根據英國《金融時報》報道，戴爾、HPE、聯想和 Supermicro 要求對已簽約的 AI 伺服器加價高達 45%。 IREN 同意購買約 5 美元。",
+      "originalTitle": "Dell Wants Up to 45% More on Signed AI Deals. IREN Has a Big Problem",
+      "originalSummary": "Key TakeawaysDell, HPE, Lenovo and Supermicro are asking for up to 45% more for AI servers already under contract, the Financial Times reported. IREN agreed to buy about $5.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-wants-45-more-signed-193847809.html",
+      "ts": "2026-11-23T19:38:47+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 21.1477591540177,
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "",
+      "score": 15.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "根據英國《金融時報》報道，戴爾、HPE、聯想和 Supermicro 要求對已簽約的 AI 伺服器加價高達 45%。 IREN 同意購買約 5 美元。",
+        "numbers": [
+          "$5.",
+          "45%"
+        ],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "根據英國《金融時報》報道，戴爾、HPE、聯想和 Supermicro 要求對已簽約的 AI 伺服器加價高達 45%。 IREN 同意購買約 5 美元。",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -132,7 +207,7 @@
       "ts": "2026-11-23T19:37:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 30.78148649725163,
+      "movePct": 31.49048036325979,
       "relatedTickers": [
         "NVDA"
       ],
@@ -187,6 +262,39 @@
       "top10Rank": null
     },
     {
+      "ticker": "NBIS",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "Freedom Capital Markets 維持 Nebius Group 的買入評級，目標價維持在 314 美元",
+      "summary": "",
+      "originalTitle": "Freedom Capital Markets maintains Nebius Group at Buy, keeps price target at $314",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeUtXZm5KbUVmbHVEaVVyMDFRV0w5XzR2ZGlfOXJiaTFxUFdDc3hadWdtaHhhYTA5Nnp0NHY1c3NUaVZ6VHdmZC1pVWFyS2RpX05mRFNzSndGZS1hQ0xpS2lqcDZJU2lWM1JueWdoa3FGWF95R09UWmtCV1htRjk1Q24tNTA5Zlo4aktqbHozT1BfbkJxbTRsajFLTjlRU1RLeDhQY1dlSl80dS1iZlNXNkQ0RGJoN3M4Zm0tMmU1WWFfTjBxMzlGcmNKT0lOMjNFeTMxMFRRT18?oc=5",
+      "ts": "2026-11-23T19:35:54+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NBIS"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 7
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
@@ -221,6 +329,40 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "CRWV",
+      "group": "NeoCloud／AI 算力",
+      "tag": "題材",
+      "title": "Freedom Capital Markets 維持 CoreWeave 的買入評級，目標價為 151 美元",
+      "summary": "",
+      "originalTitle": "Freedom Capital Markets maintains CoreWeave at Buy, keeps price target at $151",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWG9TMG52YlRvZE1GZnlkbldaS1N4RFhEMkdlZUtYSEM2QmdJMk5jNlhFbnpaanhXQzFndjNtOFhkTjBCOHBqZk1ZR2xWcTQ3WkZPZ3oxSXZlX3c4UUoyNmpMYzRKUk9HM0E0X2gwOTk3dHhwNWotS3ZubjlFSXlzeW90ekFDcUstWVVhd29zUlozVFlELTRUcW1UdndQU3Z1ZVlsYl9UTkF0WkxkNnhkVGVDakxWb0hLMVlBV3pIbzZaX19JRjFSXzJtbXBVUUZaMlhFRA?oc=5",
+      "ts": "2026-11-23T19:31:59+00:00",
+      "sourceType": "active_search",
+      "movePct": 20.425208807896734,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRWV"
+      ],
+      "eventType": "",
+      "analystPriority": true,
+      "score": 212.25,
+      "featured": true,
+      "translated": true,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 5
     },
     {
       "ticker": "NVDA",
@@ -398,7 +540,7 @@
       "ts": "2026-11-23T19:20:35+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.935320781032075,
+      "movePct": -10.761114016736407,
       "relatedTickers": [
         "CRWD"
       ],
@@ -611,7 +753,7 @@
       "ts": "2026-11-23T19:13:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.1278791381160733,
+      "movePct": 2.42508049203336,
       "relatedTickers": [
         "MSFT"
       ],
@@ -645,7 +787,7 @@
       "ts": "2026-11-23T19:11:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.576510921735723,
+      "movePct": 6.8527769615045475,
       "relatedTickers": [
         "CAT"
       ],
@@ -723,7 +865,7 @@
       "ts": "2026-11-23T19:08:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 18.41716885991882,
+      "movePct": 18.976755626614185,
       "relatedTickers": [
         "NBIS",
         "NVDA"
@@ -742,7 +884,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "ARM",
@@ -756,7 +898,7 @@
       "ts": "2026-11-23T19:07:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 15.252956636005255,
+      "movePct": 15.640604467805531,
       "relatedTickers": [
         "ARM"
       ],
@@ -928,10 +1070,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Investing.com——如果「更重的權重」意味著更直接地接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
+        "event": "Investing.com——如果「重量更重」意味著更直接接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "Investing.com——如果「更重的權重」意味著更直接地接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
+        "stance": "Investing.com——如果「重量更重」意味著更直接接觸前沿模式的成功，那麼 Anthropic、PBC (ANT) 會獲勝。如果這意味著人工智慧支出和利潤得到了更充分的證明，那麼 NVIDIA 公司（NVDA）仍然是更強大的工具。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1010,21 +1152,21 @@
       "group": "NeoCloud／AI 算力",
       "tag": "題材",
       "title": "黃仁勳回歸 Nvidia 重燃人工智慧股，Alphabet 飆漲 6%",
-      "summary": "主要要點 由於黃仁勳重返英偉達，引發了以台積電和 CoreWeave 等公司為首的人工智慧股上漲，Alphabet 股價上漲 6%。 Alphabet 在周五的拋售中堅守，因此其贏回的空間較小。",
+      "summary": "",
       "originalTitle": "Alphabet Soars 6% as Jensen Huang’s Return to Nvidia Reignites AI Stocks",
       "originalSummary": "Key TakeawaysAlphabet stock rose 6% as Jensen Huang’s return to Nvidia sparked a rally in AI stocks, led by names like Taiwan Semiconductor and CoreWeave. Alphabet held up in Friday’s sell-off, so it had less ground to win back.",
       "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-soars-6-jensen-huang-190031076.html",
       "ts": "2026-11-23T19:00:31+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 20.064287522146284,
+      "movePct": 20.425208807896734,
       "relatedTickers": [
         "CRWV",
         "NVDA"
       ],
       "eventType": "",
       "score": 30.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "主要要點 由於黃仁勳重返英偉達，引發了以台積電和 CoreWeave 等公司為首的人工智慧股上漲，Alphabet 股價上漲 6%。 Alphabet 在周五的拋售中堅守，因此其贏回的空間較小。",
@@ -1039,8 +1181,8 @@
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -1125,7 +1267,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1137,7 +1279,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "NVDA",
@@ -1214,21 +1356,21 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Credo Technology 與 Broadcom 相比的 AI 反彈潛力",
-      "summary": "Investing.com－反彈首選是 Credo Technology (CRDO)。它提供了人工智慧曝光、超跌動量、操作加速和反彈靈敏度的組合。",
+      "summary": "",
       "originalTitle": "Credo Technology’s AI rebound potential versus Broadcom",
       "originalSummary": "Investing.com -- The top rebound candidate is Credo Technology (CRDO). It offers a combination of AI exposure, oversold momentum, operating acceleration, and rebound sensitivity.",
       "url": "https://finance.yahoo.com/technology/ai/articles/credo-technology-ai-rebound-potential-185817118.html",
       "ts": "2026-11-23T18:58:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.7673532406951242,
+      "movePct": 1.9037153838572962,
       "relatedTickers": [
         "AVGO",
         "CRDO"
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "Investing.com－反彈首選是 Credo Technology (CRDO)。它提供了人工智慧曝光、超跌動量、操作加速和反彈靈敏度的組合。",
@@ -1286,21 +1428,21 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "INTW 2X 英特爾 ETF 一天內上漲 26%：投資人是否應該利用這檔槓桿英特爾基金回到 10 美元？",
-      "summary": "英偉達董事會改組引發的晶片股上漲使得一支英特爾基金在一個交易日內飆升了兩倍，但今年該基金幾乎沒有變動，而其追蹤的股票卻大幅上漲。如何解釋這一差距？ 10 美元的反彈能否發生？",
+      "summary": "",
       "originalTitle": "INTW 2X Intel ETF Jumps 26% in a Day: Should Investors Ride This Leveraged Intel Fund Back to $10?",
       "originalSummary": "A chip rally sparked by Nvidia's boardroom shake-up sent a 2x Intel fund soaring in a single session, yet the same fund has barely budged this year while the stock it tracks has surged. What explains the gap, and can a $10 comeback happen?",
       "url": "https://finance.yahoo.com/markets/options/articles/intw-2x-intel-etf-jumps-185745177.html",
       "ts": "2026-11-23T18:57:45+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 13.18252730109204,
+      "movePct": 13.474063962558503,
       "relatedTickers": [
         "INTC",
         "NVDA"
       ],
       "eventType": "",
       "score": 28.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "英偉達董事會改組引發的晶片股上漲使得一支英特爾基金在一個交易日內飆升了兩倍，但今年該基金幾乎沒有變動，而其追蹤的股票卻大幅上漲。如何解釋這一差距？ 10 美元的反彈能否發生？",
@@ -1331,7 +1473,7 @@
       "ts": "2026-11-23T18:55:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.2450448455320515,
+      "movePct": 2.4194441368619257,
       "relatedTickers": [
         "CRM"
       ],
@@ -1463,7 +1605,7 @@
       "ts": "2026-11-23T18:52:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 11.157228975195178,
+      "movePct": 11.834173337286291,
       "relatedTickers": [
         "ORCL"
       ],
@@ -1495,7 +1637,7 @@
       "ts": "2026-11-23T18:50:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.053528285902562,
+      "movePct": 14.323366069467557,
       "relatedTickers": [
         "TSM",
         "NVDA"
@@ -1614,7 +1756,7 @@
       "ts": "2026-11-23T18:42:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 17.78214762272634,
+      "movePct": 18.0349743661774,
       "relatedTickers": [
         "BE",
         "NVDA"
@@ -1726,7 +1868,7 @@
       "ts": "2026-11-23T18:41:05+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.935320781032075,
+      "movePct": -10.761114016736407,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1762,7 +1904,7 @@
       "ts": "2026-11-23T18:40:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 17.78214762272634,
+      "movePct": 18.0349743661774,
       "relatedTickers": [
         "BE"
       ],
@@ -1794,7 +1936,7 @@
       "ts": "2026-11-23T18:40:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -10.935320781032075,
+      "movePct": -10.761114016736407,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1844,19 +1986,19 @@
           "action": "升評",
           "newTarget": "",
           "oldTarget": "",
-          "reason": "週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-F50002F)-u002F23. -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
+          "reason": "週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-dn-nvidi​​d-i​​nity -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
           "reasonConfidence": "high",
           "targetTicker": "NVDA",
           "targetCompany": "NVIDIA"
         }
       ],
       "investorBrief": {
-        "event": "被評級公司：NVIDIA（NVDA）｜券商：Citigroup｜動作：升評｜調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-F50002F)-u002F23. -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Citigroup｜動作：升評｜調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-dn-nvidi​​d-i​​nity -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
         "numbers": [],
-        "why": "調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-F50002F)-u002F23. -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
+        "why": "調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-dn-nvidi​​d-i​​nity -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
         "stance": "",
         "watch": [],
-        "takeaway": "調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-F50002F)-u002F23. -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
+        "takeaway": "調整原因：週一，消除了在他離職前後導致股價下跌的大部分擔憂。 \",\"expires\":null,\"headline\":\"在黃仁勳卸任後，華爾街分析師爭相上調英偉達股票評級return\",\"id\":1085557475,\"liveURL\":\"\\u002F2026\\u002F11\\u002F23-u002F2026\\u002F11\\u002F23-u002F23-u-dn-nvidi​​d-i​​nity -upgraded-the-stock.html\",\"native\":false,\"pageName\":\"108557475|2026\\u002F11\\u002F23\\u002Fnvidia-has-reinstated-ceo",
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
@@ -1941,7 +2083,7 @@
       "ts": "2026-11-23T18:33:08+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.618999127145785,
+      "movePct": 5.909950538260111,
       "relatedTickers": [
         "NET",
         "PLTR",
@@ -1952,13 +2094,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "CrowdStrike、Palantir 和 Cloudflare 都創下了季度業績記錄，但其中一個承擔了這一籃子中的大部分重任。一個五年模型測試了 7,500 美元的股份是否能夠真正翻倍，以及它需要什麼場景。",
+        "event": "CrowdStrike、Palantir 和 Cloudflare 都創下了季度業績記錄，但其中一個承擔了這一籃子中的大部分重任。一個五年模型測試了 7,500 美元的股份是否能夠真正翻倍，以及它需要哪種場景。",
         "numbers": [
           "$7,500",
           "$15,000 b"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "CrowdStrike、Palantir 和 Cloudflare 都創下了季度業績記錄，但其中一個承擔了這一籃子中的大部分重任。一個五年模型測試了 7,500 美元的股份是否能夠真正翻倍，以及它需要什麼場景。",
+        "stance": "CrowdStrike、Palantir 和 Cloudflare 都創下了季度業績記錄，但其中一個承擔了這一籃子中的大部分重任。一個五年模型測試了 7,500 美元的股份是否能夠真正翻倍，以及它需要哪種場景。",
         "watch": [
           "供需是否持續，以及價格／毛利是否同步改善"
         ],
@@ -1980,7 +2122,7 @@
       "ts": "2026-11-23T18:33:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.411851181725647,
+      "movePct": 6.541143654114356,
       "relatedTickers": [
         "GOOGL"
       ],
@@ -2012,7 +2154,7 @@
       "ts": "2026-11-23T18:31:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.455959808767517,
+      "movePct": 3.7517219026010906,
       "relatedTickers": [
         "AMZN",
         "NVDA"
@@ -2114,7 +2256,7 @@
       "ts": "2026-11-23T18:30:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 15.225148683092616,
+      "movePct": 15.777400169923549,
       "relatedTickers": [
         "TTMI",
         "NVDA"
@@ -2147,7 +2289,7 @@
       "ts": "2026-11-23T18:30:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 30.78148649725163,
+      "movePct": 31.49048036325979,
       "relatedTickers": [
         "NVDA"
       ],
@@ -2181,7 +2323,7 @@
       "ts": "2026-11-23T18:30:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 11.157228975195178,
+      "movePct": 11.834173337286291,
       "relatedTickers": [
         "ORCL"
       ],
@@ -2245,7 +2387,7 @@
       "ts": "2026-11-23T18:25:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 8.126349505955698,
+      "movePct": 8.309381836901043,
       "relatedTickers": [
         "GEV",
         "NVDA"
@@ -2267,7 +2409,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "VRT",
@@ -2425,7 +2567,7 @@
       "ts": "2026-11-23T18:10:34+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.859535174896301,
+      "movePct": 5.057359730808364,
       "relatedTickers": [
         "SPCX"
       ],
@@ -2523,7 +2665,7 @@
       "ts": "2026-11-23T18:05:42+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 2.1278791381160733,
+      "movePct": 2.42508049203336,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2560,7 +2702,7 @@
       "ts": "2026-11-23T18:03:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 14.053528285902562,
+      "movePct": 14.323366069467557,
       "relatedTickers": [
         "TSM"
       ],
@@ -2569,10 +2711,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "台積電的收入正在飆升，但由於新的出口規則和利潤壓力令投資者感到不安，其股價在一個月內大幅下跌。這家晶片巨頭能否東山再起，然後再做一些事情，以及什麼是正確的？",
+        "event": "台積電的收入正在飆升，但由於新的出口規則和利潤壓力令投資者感到不安，其股價在一個月內大幅下跌。這家晶片巨頭能否東山再起，然後再做一些什麼，以及什麼是正確的？",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "台積電的收入正在飆升，但由於新的出口規則和利潤壓力令投資者感到不安，其股價在一個月內大幅下跌。這家晶片巨頭能否東山再起，然後再做一些事情，以及什麼是正確的？",
+        "stance": "台積電的收入正在飆升，但由於新的出口規則和利潤壓力令投資者感到不安，其股價在一個月內大幅下跌。這家晶片巨頭能否東山再起，然後再做一些什麼，以及什麼是正確的？",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -2594,7 +2736,7 @@
       "ts": "2026-11-23T17:55:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 15.252956636005255,
+      "movePct": 15.640604467805531,
       "relatedTickers": [
         "ARM"
       ],
@@ -2626,172 +2768,12 @@
       "ts": "2026-11-23T17:55:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 16.793424926398437,
+      "movePct": 17.100098135426876,
       "relatedTickers": [
         "MRVL"
       ],
       "eventType": "",
       "score": 15.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "AI 反彈凸顯Google雲端 103% 成長，Alphabet 股價上漲 6.97%",
-      "summary": "",
-      "originalTitle": "Alphabet Stocks Jump 6.97% as AI Rebound Spotlights Google Cloud's 103% Growth",
-      "originalSummary": "A supply-chain report on Google reshuffling its TPU suppliers hit Broadcom, not Alphabet, whose chips now feed a cloud unit growing at triple digits.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stocks-jump-6-97-175521840.html",
-      "ts": "2026-11-23T17:55:21+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.7673532406951242,
-      "relatedTickers": [
-        "AVGO",
-        "GOOGL"
-      ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "SPCX",
-      "group": "太空／國防／無人系統",
-      "tag": "題材",
-      "title": "Jefferies 初評 SPCX Buy，目標價 $210",
-      "summary": "11 月 23 日美國東部時間上午 10:40，在傑富瑞 (Jefferies) 首次給予買入評級和 210 美元目標價後，Space Exploration Technologies (NASDAQ:SPCX) 股價在常規交易中上漲 8.69%，至 138.89 美元。在發出這項呼籲的當天，黃仁勳重返英偉達後，幾乎所有科技公司的股價都在上漲，但《Motley Fool》認為，大部分漲幅是由評級而非股價上漲推動的。",
-      "originalTitle": "SpaceX Stocks Climb 8.69% as Jefferies Starts Coverage With Buy and $210 Target",
-      "originalSummary": "Space Exploration Technologies ( NASDAQ:SPCX ) shares climbed 8.69% to $138.89 at 10:40 a.m. ET in regular trading on November 23, after Jefferies initiated coverage with a Buy rating and a $210 price target. The call landed on a day when nearly every tech name was rising on Jensen Huang's return to Nvidia, but the Motley Fool argued the rating, not the rally, did most of the lifting.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-climb-8-69-175516151.html",
-      "ts": "2026-11-23T17:55:16+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 4.859535174896301,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "SPCX",
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 216.0,
-      "featured": false,
-      "translated": true,
-      "analystDetails": [
-        {
-          "broker": "Jefferies",
-          "analyst": "",
-          "rating": "Buy",
-          "action": "初評",
-          "newTarget": "$210",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "SPCX",
-          "targetCompany": "SpaceX"
-        }
-      ],
-      "investorBrief": {
-        "event": "被評級公司：SpaceX（SPCX）｜券商：Jefferies｜動作：初評｜評等：Buy｜目標價：$210｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$210"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 5
-    },
-    {
-      "ticker": "AVGO",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "谷歌 TPU 削減報告後，博通股價上漲 2.76%，但晶片漲幅落後",
-      "summary": "",
-      "originalTitle": "Broadcom Stocks Rise 2.76% but Lag Chip Rally After Google TPU Cut Report",
-      "originalSummary": "Broadcom ( NASDAQ:AVGO ) shares rose 2.76% to $312.81 at 10:40 a.m. ET in regular trading on November 23, a muted bounce while peers like Lam Research and Applied Materials jumped about 15%. The drag is a report from TF International's Ming-Chi Kuo, who said Google cut 2027 shipments of its TPU 8i chip by about 1 million units, roughly 20%, and plans to lean more on a MediaTek-designed TPU 8t, TradingKey reported. Neither company has commented, and Broadcom fell 12.19% to $304.41 on Friday. Warning! GuruFocus has detected 3 Warning Sign with AVGO. Is AVGO fairly valued? Test your thesis with our free DCF calculator.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-rise-2-76-175507027.html",
-      "ts": "2026-11-23T17:55:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 1.7673532406951242,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "AVGO",
-        "GOOGL",
-        "LRCX",
-        "AMAT"
-      ],
-      "eventType": "跨公司事件",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "11 月 23 日美國東部時間上午 10:40，博通 (NASDAQ:AVGO) 股價在常規交易中上漲 2.76%，至 312.81 美元，小幅反彈，而 Lam Research 和 Applied Materials 等同業則上漲約 15%。據 TradingKey 報導，TF International 郭明池的一份報告稱，Google將 2027 年 TPU 8i 晶片的出貨量削減了約 100 萬顆，即約 20%，併計劃更多地依賴聯發科設計的 TPU 8t。兩家公司均未發表評論，博通股價週五下跌 12.19%，至 304.41 美元。",
-        "numbers": [
-          "$312.81",
-          "$304.41",
-          "2.76%",
-          "15%"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "11 月 23 日美國東部時間上午 10:40，博通 (NASDAQ:AVGO) 股價在常規交易中上漲 2.76%，至 312.81 美元，小幅反彈，而 Lam Research 和 Applied Materials 等同業則上漲約 15%。據 TradingKey 報導，TF International 郭明池的一份報告稱，Google將 2027 年 TPU 8i 晶片的出貨量削減了約 100 萬顆，即約 20%，併計劃更多地依賴聯發科設計的 TPU 8t。兩家公司均未發表評論，博通股價週五下跌 12.19%，至 304.41 美元。警告！ GuruFocus 已偵測到 AVGO 的 3 個警訊。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "LRCX",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "晶片設備引領AI反彈 泛林股價大漲15.92%",
-      "summary": "",
-      "originalTitle": "Lam Research Stocks Soar 15.92% as Chip Equipment Leads the AI Rebound",
-      "originalSummary": "Lam guided December-quarter revenue to $8.6 billion after a 54% jump, but China still supplies 35% of sales.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lam-research-stocks-soar-15-175450399.html",
-      "ts": "2026-11-23T17:54:50+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 12.882632182026498,
-      "relatedTickers": [
-        "LRCX"
-      ],
-      "eventType": "",
-      "score": 13.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2993,7 +2975,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 股價較最高點下跌 68%，剛贏得歐洲太空總署飛行員稱號。以下是 1,000 美元的投資現在是否有意義。",
-      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
       "originalTitle": "Planet Labs Is Down 68% From Its High and Just Won a European Space Agency Pilot. Here's Whether a $1,000 Investment Makes Sense Now.",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 719 %* — a market-crushing outperformance compared to 192 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 23, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/23/planet-labs-is-down-68-from-its-high-and-just-won/",
@@ -3010,7 +2992,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "numbers": [
           "$1,000",
           "68%",
@@ -3018,7 +3000,7 @@
           "192 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -10090,7 +10072,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 與 Stoke Space 合作——以防萬一 SpaceX 真的讓獵鷹 9 號退役",
-      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
       "originalTitle": "Planet Labs Teams Up With Stoke Space -- Just In Case SpaceX Really Retires the Falcon 9",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 794 %* — a market-crushing outperformance compared to 203 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 19, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/19/planet-labs-teams-up-with-stoke-space-just-in-case-spacex-really-retires-the-falcon-9/",
@@ -10107,13 +10089,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "numbers": [
           "794 %",
           "203 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -15687,7 +15669,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "甲骨文執行長告訴底特律人群，人工智慧資料中心的推出犯了錯誤",
-      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
+      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
       "originalTitle": "Mistakes were made in AI data center rollout, Oracle CEO tells Detroit crowd",
       "originalSummary": "Oracle stock fell approximately 4% during Tuesday’s US trading session as investors assessed a Bloomberg report that HSBC sold roughly $300 million of construction debt tied to Oracle’s Project Jupiter data center in New Mexico at a substantial discount. The transaction, completed several weeks ago but disclosed on November 16, adds to concerns about the financing costs and construction risks associated with Oracle’s expanding AI infrastructure business. Oracle (NYSE: ORCL) traded at $114.34 at 12:05 p.m. ET on November 17, down 3.99% from Monday’s $119.09 close. The shares had already declined 4.99% on Monday, leaving them under pressure as lenders reassessed their exposure to large AI infrastructure projects. According to Bloomberg’s November 16 report , citing people familiar with the transaction, HSBC sold its portion of the $18 billion financing package at prices in the mid-80s, meaning approximately 85 cents for each dollar of face value. The sale followed Oracle’s decision to issue a force majeure notice to the project’s developer, a unit of Blue Owl Capital. Unit No: BA857 DMCC Business Centre Level No 1 Jewellery & Gemplex 3 Dubai, United Arab Emirates. International House, 10 Admirals Way, London, England, E14 9XL.",
       "url": "https://financefeeds.com/oracle-stock-hsbc-sold-its-300-million-slice-of-an-18-billion-data-center-loan-in-the-mid-80s/",
@@ -15703,7 +15685,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
+        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
         "numbers": [
           "$300 million",
           "$114.34",
@@ -15711,7 +15693,7 @@
           "$18 billion"
         ],
         "why": "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。",
-        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
+        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -21272,7 +21254,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "泰瑞達受益於強勁的測試需求：它能否擊敗 KLAC 和 COHU？",
-      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
       "originalTitle": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
       "originalSummary": "Teradyne TER is benefiting from strong semiconductor test demand, accelerating artificial intelligence (AI) infrastructure investments, and increasing complexity in advanced chip architectures. Rising demand for AI accelerators, high-bandwidth memory (HBM), and high-performance computing solutions is strengthening the company's growth prospects and competitive position against KLA KLAC and Cohu COHU. Teradyne reported impressive third-quarter 2026 results, with revenues surging 70% year over year to $1.31 billion. Semiconductor Test revenues increased 77% to more than $1 billion, supported by robust demand for AI accelerators, high-bandwidth memory (HBM) and power management solutions. Compute revenues grew nearly 50%, while memory revenues reached a record $301 million, reflecting strong demand for HBM and DRAM testing. Teradyne's expanding product portfolio is another key growth driver. The company's UltraFLEXplus platform is gaining traction as hyperscalers increasingly adopt dual-vendor testing strategies. Its recently introduced UltraVS64-HP, UltraPort-PCIe6 and Magnum E2 solutions strengthen its ability to address next-generation AI accelerators, high-speed connectivity and advanced memory testing requirements. Teradyne expects additional hyperscaler capacity purchases and compute-related revenue opportunities in 2027. Teradyne's expanding AI-driven opportunities and product innovations position it favorably to sustain momentum against KLAC and COHU. For the fourth quarter of 2026, Teradyne expects revenues between $1.25 billion and $1.35 billion. The midpoint of the guidance range stands at $1.30 billion.",
       "url": "https://finance.yahoo.com/technology/articles/teradyne-benefits-strong-test-demand-152000700.html",
@@ -21289,7 +21271,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "numbers": [
           "$1.31 billion",
           "$1 billion",
@@ -21297,7 +21279,7 @@
           "$1.25 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -21963,7 +21945,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Vicor Corporation (VICR) 最新股票新聞和頭條新聞",
-      "summary": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+      "summary": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
       "originalTitle": "Vicor Corporation (VICR) latest stock news and headlines",
       "originalSummary": "It has been about a month since the last earnings report for Vicor (VICR). Shares have lost about 31.8% in that time frame, underperforming the S&P 500. Will the recent negative trend continue leading up to its next earnings release, or is Vicor due for a breakout? Well, first let's take a quick look at its most recent earnings report in order to get a better handle on the recent drivers for Vicor Corporation before we dive into how investors and analysts have reacted as of late.",
       "url": "https://uk.finance.yahoo.com/news/why-vicor-vicr-down-31-153007608.html",
@@ -21979,12 +21961,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+        "event": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
         "numbers": [
           "31.8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+        "stance": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -22462,7 +22444,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室將於本週發射具有里程碑意義的第 100 枚電子火箭",
-      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
       "originalTitle": "Rocket Lab To Launch Milestone 100th Electron Rocket This Week",
       "originalSummary": "Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, marking a new global benchmark for small-lift orbital vehicles. The Electron milestone highlights Rocket Lab's record of rapid response missions and engineering focused on frequent commercial space access. CEO Peter Beck is positioning the upcoming Neutron rocket as a competitor to SpaceX by prioritizing external launch customers alongside in-house programs. The 100th Electron launch and Beck's Neutron versus Starship positioning sit against a wider set of trends our research has uncovered. Our analysis turns up 3 warning signs for Rocket Lab as well. Rocket Lab is far from the only business exposed to the buildout of space and compute capacity that underpins AI infrastructure, so it is worth comparing it with a broader peer set through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-nears-100th-020711401.html",
@@ -22479,10 +22461,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+        "stance": "Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -26086,7 +26068,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "從 SpaceX 到 Anthropic，市場為巨股上市製定了新策略",
-      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
       "originalTitle": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
       "originalSummary": "Space Exploration Technologies (SpaceX) rewrote Wall Street’s initial public offering (IPO) record books in June, and Anthropic is hoping to do the same. The developer of the Claude large language model is contending with several historical headwinds. Additionally, the bond market is sending an unmistakable message about AI companies. Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8774454/bad-news-theres-a-new-red-flag-ahead-of-the-anthropic-ipo/",
@@ -26104,10 +26086,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26615,7 +26597,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "ADI：Analog Devices Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+      "summary": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
       "originalTitle": "ADI: Analog Devices Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Analog Devices (ADI) ended the recent trading session at $397.97, demonstrating a -2.77% change from the preceding day's closing price. The stock's performance was behind the S&P 500's daily loss of 0.41%. Elsewhere, the Dow gained 0.1%, while the tech-heavy Nasdaq lost 0.91%. The semiconductor maker's shares have seen an increase of 1.32% over the last month, surpassing the Computer and Technology sector's loss of 11.52% and the S&P 500's loss of 2.64%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-adi-dipped-220001409.html",
@@ -26631,7 +26613,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "event": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "numbers": [
           "$397.97,",
           "2.77%",
@@ -26639,7 +26621,7 @@
           "0.1%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "stance": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
