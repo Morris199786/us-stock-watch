@@ -1,11 +1,51 @@
 {
-  "updatedAt": "2026-11-23 13:03 台灣時間",
+  "updatedAt": "2026-11-23 13:10 台灣時間",
   "historyUpdatedDate": "2026-11-23",
   "historyLastAttemptAt": "2026-11-22T16:04:54.353865+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-23",
   "top10Count": 0,
   "items": [
+    {
+      "ticker": "TSLA",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "Musk Says Tesla’s Real-World AI Will Get Smarter by “About an Order of Magnitude per Year”",
+      "summary": "Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualizat",
+      "originalTitle": "Musk Says Tesla’s Real-World AI Will Get Smarter by “About an Order of Magnitude per Year”",
+      "originalSummary": "Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualization fits within AI4. Two linked in-car workloads sit underneath that explanation: a model producing driving actions and a separate generative model producing the interface visualization. Together, the posts give the chip choice a concrete infrastructure context: Tesla is dividing limited compute among connected driving and visualization functions. Musk described Tesla’s approximately pixel-perfect world model as critical for synthetic data generation . Its much smaller in-car version is a conditional mean-flow model based on a recent sequence of Tesla Universal Vision Encoder, or UVE, features. Those same features feed a 3B encoder model that produces driving actions. Musk said Reality View branches from those features into a separate, roughly 1B-parameter diffusion model. The process starts with a noisy version of the preceding output and reconstructs the current visualization, creating an eight-image video chunk at 36 frames per second and the interface screen’s resolution. This work is performed every UVE frame at 18 hertz and spread across four cycles. In a follow-up post , Musk said Tesla had moved its small decoder into SRAM, leaving only half of one TRIP out of three on SoC B for Reality View. TRIP basically handles only 8-bit integers, and softmax must run in emulation mode over 28 steps. Those details apply specifically to the visualizer, not to a stated limit on driving actions. They show that Reality View’s practical budget depends on engine allocation and numerical execution as well as model size. Musk attributed the current, somewhat high Reality View latency to compute constraints and proposed interleaving newer UVE features through the diffusion transformer layers to cut roughly 35% of it. Musk described AI5 as a substantial improvement with roughly 12 times more compute. The post gives no baseline for that multiple, so it does not establish a 12-fold gain in visualization frame rate, latency or driving performance. Musk’s account separates confidence in driving capability from the practical limits of rendering Reality View. AI4 is presented as sufficient for superhuman driving, yet the visualization branch running on it still has a narrow compute allocation and only a proposed route to lower latency. The immediate rendering improvement he described depends on reorganizing vision-feature inputs within that environment, making software efficiency central to the in-car workload he detailed. Theo Nash is an AI-generated research agent at Unite.AI , covering AI infrastructure, compute, and the hardware systems that power modern artificial intelligence. His work focuses on the technical foundations behind large-scale AI workloads, including data centers, accelerators, networking, and the software stacks that tie them tog",
+      "url": "https://www.unite.ai/musk-allocates-ai5-to-optimus-leaving-tesla-cars-on-ai4/",
+      "ts": "2026-11-23T04:50:01+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -7.636013995352697,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "TSLA"
+      ],
+      "eventType": "",
+      "score": 213.0,
+      "featured": true,
+      "translated": false,
+      "analystDetails": [],
+      "investorBrief": {
+        "event": "Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualizat",
+        "numbers": [
+          "35%"
+        ],
+        "why": "券商調整理由：Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualizat",
+        "stance": "Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualizat",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "券商調整理由：Elon Musk said in an X reply on November 22, 2026, that Tesla’s AI5 computer is intended for Optimus, cars will continue using AI4, and AI4 is sufficient for superhuman driving. He was responding to an owner who asked when AI5 would reach new cars and whether to wait before upgrading from AI3. The reply followed an earlier technical post in the same discussion, where Musk explained how Tesla’s Reality View visualizat",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "MARKET",
       "group": "市場重點",
@@ -490,6 +530,36 @@
         ],
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "Meta AI head Alexandr Wang warns about AI; says: Superintelligence is coming, but how 'dangerous' it will be depends on humans as ...",
+      "summary": "",
+      "originalTitle": "Meta AI head Alexandr Wang warns about AI; says: Superintelligence is coming, but how 'dangerous' it will be depends on humans as ...",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPa25UN0V2aVNxWVdfZHY2RG9fZjl6VjhDankwd1g3Mzgwb0lEdDRZY1RaUncwQk5mMUpwcVN6dzdOdU9qRFExaUc5ajFfWnRBTWFXTjJ2Y3NiZ3MySzB0TmZVdXItdkpYOEhreHljbUs4SWNHa2M1VGxwd3JHTkVWeUNXdWtVZDJpM2tpSmF5Um1NOWRGX1poNlhGZ2FhdTIxclFkelJUeWVnN0x3WDYxUEh4THlqYmRHeUVyRkdQQ3BISDFvY2UxTEVuUFN4bTNxYlV6REV4S0NfNWhVRHlpckxqWmhXN2UwaU1aUTFQRFMtVC13Rlp0WWNOSllJdUxZNGlGWlhBckpYVVJwRThxZzV3VmVMWUR5WUN0MmRlUGlJbVRlTzVJV1c3Sm51QmY4b1E?oc=5",
+      "ts": "2026-11-23T02:41:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 15.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -1482,7 +1552,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Arm vs. Marvell Technology：2027 年哪種人工智慧股票比較值得買進？",
-      "summary": "Arm 的授權模式在行動領域佔據主導地位，而 Marvell 的網路晶片則為人工智慧資料中心提供支持，但它們的估值和風險狀況卻截然不同。",
+      "summary": "",
       "originalTitle": "Arm vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy for 2027?",
       "originalSummary": "Arm's licensing model dominates mobile, while Marvell's networking silicon powers AI data centers, but their valuations and risk profiles diverge sharply.",
       "url": "https://finance.yahoo.com/technology/ai/articles/arm-vs-marvell-technology-artificial-001005246.html",
@@ -1495,7 +1565,7 @@
       ],
       "eventType": "",
       "score": 13.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1617,7 +1687,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1647,7 +1717,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 9.75,
+      "score": 8.45,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1677,7 +1747,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 9.75,
+      "score": 8.45,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2541,68 +2611,6 @@
       ],
       "eventType": "",
       "score": 10.4,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "Tesla FSD V15 提供令人驚嘆的視覺化效果，分散了「25x」的注意力",
-      "summary": "",
-      "originalTitle": "Tesla FSD V15 Offers Stunning Visualizations That Distract From “25x”",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbkMtS0s3WUk4czhUQTFkUFpfSEdTVDItRndTYXR5QW80eUxmck9EZTBIWlJmUXYxNlhKdm4zaFhlQy1Sa1k2Mk1FbDdFQUVfQ3ZsRnpDY0RiZUUyWHZHeDZRQk9WOTV6UWhVaTVsbWt4Y0ZyV3V1dVZBQTBqd1ZkWUNrMVpyOFZrYjFseU5PVXlqQWNGQ2xVbVY1MUpuYnlfLTJLT2tKZ2Z4R0l5YTl6MmUxdTNVR1dKcldfOUdfNA?oc=5",
-      "ts": "2026-11-22T20:32:17+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "TSLA"
-      ],
-      "eventType": "",
-      "score": 5.85,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "納斯達克 100 指數接近熊市，下跌買家猶豫是否介入",
-      "summary": "",
-      "originalTitle": "Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHZubEhRQlFlOHctVERKbjNHYUJoS2ZpQk9FOEhoX1JMY2Z4LW1maVJ4OVBPRzJ1R213dW9nd0l6NmpxWXhxbDJfRHNXOVZwdHVtUk1YYjFDM2FDRUhQUElKaE5GeHlWUlBkV0RvNXhHLVloem9EUmZwdlZfeVZtN2VuQkptcGdHclBZQkhlV0tEbkxOODVqY1R4dm91azczNXBEMmpxUXNsY2J6UEVxRUpNYWUxZw?oc=5",
-      "ts": "2026-11-22T20:31:44+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
