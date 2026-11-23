@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 00:04 台灣時間",
+  "updatedAt": "2026-11-24 00:11 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
@@ -50,7 +50,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "AEP",
@@ -96,7 +96,39 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 8
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "人工智慧和間諜：英偉達醜聞的時間表",
+      "summary": "",
+      "originalTitle": "AI and spies: a timeline of the Nvidia scandal",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUnhtb29pdjRhQVdwZEdGeW1uSGNnWmdkSTAxdlBESnJuVUhNM1NPWjZGWmVkbjZqNkR0aEN0bHF5X21SNnIyRnlEbnh6cmdqbkxfX0lPR1VBS250bDM2TkpXa0Z1c2hZeWhkN1h4T3B2aXlTbWgwTzQ5RGdTLUhTbHlDcHA4Ukgta1FQTkF2MTZRSGllMEJB?oc=5",
+      "ts": "2026-11-23T15:58:15+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 15.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "INTC",
@@ -110,7 +142,7 @@
       "ts": "2026-11-23T15:55:28+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.148985959438363,
+      "movePct": 12.168486739469575,
       "relatedTickers": [
         "INTC",
         "NVDA",
@@ -140,6 +172,57 @@
       "top10Rank": null
     },
     {
+      "ticker": "DELL",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "Citi 調整 DELL 目標價至 $550，維持 Buy",
+      "summary": "戴爾科技公司（DELL，財經）定於11月24日收盤後公佈2027財年第三季財報，分析師預測，在人工智慧基礎設施需求的推動下，營收和獲利將大幅成長。华尔街分析师预计营收为493.2亿美元，同比增长82.7%，每股收益为6.62美元，而上年同期为2.59美元。",
+      "originalTitle": "Dell Faces $49 Billion Earnings Test as AI Server Costs Threaten Margins",
+      "originalSummary": "Dell Technologies ( DELL , Financials ) is slated to disclose fiscal third-quarter 2027 earnings after the market closes Nov. 24, with analysts predicting big revenue and earnings growth on the back of demand for artificial intelligence infrastructure.Wall Street analysts expect revenue of $49.32 billion, up 82.7% from a year earlier, and earnings of $6.62 per share, compared with $2.59 a year earlier.Dell's biggest growth engine is its Infrastructure Solutions Group. The business generated $31.78 billion in revenue in the second quarter, rising 89% year-over-year.Its Client Solutions Group reported $15.03 billion in revenue, increasing 20% year over year. In the second quarter, AI server sales was $16.4 billion, up 100 percent year over year.Dell also posted gross profit of $9.83 billion, up 26.3% sequentially, while profits before interest and taxes jumped 47.3% to $5.38 billion.Citi analyst Asiya Merchant recently reiterated a Buy rating but cut the price target to $550 from $600, citing doubts about the durability of AI hardware demand.The consensus rating for Dell is a Moderate Buy based on 14 Buys and seven Holds. The average analyst price target is $589.32, which represents over 112% upside.Investors will be looking for details on AI server orders, the conversion of the backlog and infrastructure operating margins when Dell reports its results Tuesday.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-faces-49-billion-earnings-155333103.html",
+      "ts": "2026-11-23T15:53:33+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 21.190921516437665,
+      "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
+      "relatedTickers": [
+        "DELL"
+      ],
+      "eventType": "新題材",
+      "score": 228.0,
+      "featured": true,
+      "translated": true,
+      "analystDetails": [
+        {
+          "broker": "Citi",
+          "analyst": "Asiya Merchant",
+          "rating": "Buy",
+          "action": "下修",
+          "newTarget": "$550",
+          "oldTarget": "$600",
+          "reason": "人工智慧基礎設施的需求。華爾街分析師預估營收為493.2億美元，年增82.7%，每股收益為6.62美元，去年同期為2.59美元。戴爾最大的成長引擎是其基礎設施解決方案集團。",
+          "reasonConfidence": "high",
+          "targetTicker": "DELL",
+          "targetCompany": "Dell"
+        }
+      ],
+      "investorBrief": {
+        "event": "被評級公司：DELL｜券商：Citi｜動作：下修｜評等：Buy｜目標價：$550（原 $600）｜調整原因：人工智慧基礎設施的需求。華爾街分析師預估營收為493.2億美元，年增82.7%，每股收益為6.62美元，去年同期為2.59美元。戴爾最大的成長引擎是其基礎設施解決方案集團。",
+        "numbers": [
+          "$600",
+          "$550"
+        ],
+        "why": "調整原因：人工智慧基礎設施的需求。華爾街分析師預估營收為493.2億美元，年增82.7%，每股收益為6.62美元，去年同期為2.59美元。戴爾最大的成長引擎是其基礎設施解決方案集團。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：人工智慧基礎設施的需求。華爾街分析師預估營收為493.2億美元，年增82.7%，每股收益為6.62美元，去年同期為2.59美元。戴爾最大的成長引擎是其基礎設施解決方案集團。",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
@@ -167,6 +250,88 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "利空",
+      "title": "黃仁勳重返 NVIDA。為什麼蘋果、博通和 Anthropic 可能面臨壓力",
+      "summary": "24/7 Wall St. 首席投资官埃里克·布莱克 (Eric Bleeker) 表示，黄仁勋重新担任 NVIDIA（纳斯达克股票代码：NVDA）首席执行官，推动股市周一上午大幅走高。 NVIDIA 股價開盤上漲 34%，至 170 美元左右，為股東恢復了超過 1 兆美元的價值。那斯達克指數上漲約 6.75%，標準普爾 500 指數上漲約 4.6%，消除了周五的大部分拋售。\n\nBleeker 專注於落後於市場的股票，幾乎所有股票",
+      "originalTitle": "Jensen Huang Returns to NVIDA. Why Apple, Broadcom, and Anthropic Could Be Under Pressure",
+      "originalSummary": "Eric Bleeker, Chief Investment Officer of 24/7 Wall St., says Jensen Huang's return as CEO of NVIDIA (NASDAQ: NVDA) sent stocks sharply higher on Monday morning. NVIDIA shares opened up 34% at about $170, restoring more than $1 trillion of value to shareholders. The NASDAQ rose about 6.75% and the S&amp;P 500 about 4.6%, erasing much of Friday's sell-off.\n\nBleeker focuses on stocks lagging a market where nearly everything is up. Apple (NASDAQ: AAPL) gained only about 1.7%, and he says a rotation",
+      "url": "https://finance.yahoo.com/video/jensen-huang-returns-nvida-why-155242009.html",
+      "ts": "2026-11-23T15:52:42+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 1.6786570743405171,
+      "relatedTickers": [
+        "AVGO",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "24/7 Wall St. 首席投资官埃里克·布莱克 (Eric Bleeker) 表示，黄仁勋重新担任 NVIDIA（纳斯达克股票代码：NVDA）首席执行官，推动股市周一上午大幅走高。 NVIDIA 股價開盤上漲 34%，至 170 美元左右，為股東恢復了超過 1 兆美元的價值。那斯達克指數上漲約 6.75%，標準普爾 500 指數上漲約 4.6%，消除了周五的大部分拋售。 Bleeker 專注於落後於市場的股票，幾乎所有股票",
+        "numbers": [
+          "$170,",
+          "$1",
+          "34%",
+          "6.75%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "24/7 Wall St. 首席投资官埃里克·布莱克 (Eric Bleeker) 表示，黄仁勋重新担任 NVIDIA（纳斯达克股票代码：NVDA）首席执行官，推动股市周一上午大幅走高。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MRVL",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "隨著黃仁勳 (Jensen Huang) 回歸 NVIDIA，美光 (Micron)、Marvell 和 Bloom Energy 等半導體股票大幅上漲",
+      "summary": "24/7 Wall St. 首席投資長 Eric Bleeker 報導了周一開盤前不久宣布的黃仁勳將重返 NVIDIA 的消息。 NVIDIA 股價上漲 31%。那斯達克指數（納斯達克股票代碼：QQQ）上漲約 5.7%，標準普爾 500 指數上漲約 4%，道瓊指數上漲 2.1%。 VanEck 半導體 ETF（納斯達克股票代碼：SMH）上漲 13%。\n\nBleeker 列出了 NVIDIA 之外漲幅最大的三隻股票。 Marvell 科技 (NASD",
+      "originalTitle": "Semiconductor Stocks like Micron, Marvell, and Bloom Energy See Massive Gains as Jensen Huang Returns to NVIDIA",
+      "originalSummary": "Eric Bleeker, Chief Investment Officer at 24/7 Wall St., covers the news that Jensen Huang is returning to NVIDIA, announced shortly before Monday's open. Shares of NVIDIA are up 31%. The Nasdaq (Nasdaq: QQQ) is up about 5.7%, the S&amp;P 500 about 4% and the Dow Jones 2.1%. The VanEck semiconductor ETF (Nasdaq: SMH) is up 13%.\n\nBleeker names three stocks with the most to gain outside NVIDIA. Marvell Technology (NASDAQ: MRVL) fell hard after big gains at the start of 2026, and Huang himself has ",
+      "url": "https://finance.yahoo.com/video/semiconductor-stocks-micron-marvell-bloom-155220564.html",
+      "ts": "2026-11-23T15:52:20+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 18.64164213280994,
+      "relatedTickers": [
+        "MRVL",
+        "BE",
+        "NVDA",
+        "MU"
+      ],
+      "eventType": "",
+      "score": 30.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "24/7 Wall St. 首席投資長 Eric Bleeker 報導了周一開盤前不久宣布的黃仁勳將重返 NVIDIA 的消息。 NVIDIA 股價上漲 31%。那斯達克指數（納斯達克股票代碼：QQQ）上漲約 5.7%，標準普爾 500 指數上漲約 4%，道瓊指數上漲 2.1%。 VanEck 半導體 ETF（納斯達克股票代碼：SMH）上漲 13%。",
+        "numbers": [
+          "31%",
+          "5.7%",
+          "4%",
+          "2.1%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "24/7 Wall St. 首席投資長 Eric Bleeker 報導了周一開盤前不久宣布的黃仁勳將重返 NVIDIA 的消息。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -208,6 +373,39 @@
       "ticker": "MU",
       "group": "記憶體／儲存",
       "tag": "題材",
+      "title": "為什麼英偉達重新聘用黃仁勳讓美光股價今天飆升",
+      "summary": "黃仁勳重新執掌英偉達，人工智慧再次一切順利。",
+      "originalTitle": "Why Nvidia Rehiring Jensen Huang Is Making Micron Stock Skyrocket Today",
+      "originalSummary": "Jensen Huang is back at the helm of Nvidia, and all's well with AI again.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-nvidia-rehiring-jensen-huang-154953570.html",
+      "ts": "2026-11-23T15:49:53+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 19.061916536307223,
+      "relatedTickers": [
+        "MU",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 30.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MU",
+      "group": "記憶體／儲存",
+      "tag": "題材",
       "title": "為什麼美光科技股今天上漲",
       "summary": "在英偉達恢復黃仁勳的職位後，美光股價上漲，緩解了人們對人工智慧放緩將打擊記憶體需求的擔憂。",
       "originalTitle": "Why Micron Stock Is Up Today",
@@ -216,7 +414,7 @@
       "ts": "2026-11-23T15:47:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 18.72505088223917,
+      "movePct": 19.061916536307223,
       "relatedTickers": [
         "MU"
       ],
@@ -248,7 +446,7 @@
       "ts": "2026-11-23T15:45:47+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 3.2310327747048673,
+      "movePct": 3.2122513002559305,
       "relatedTickers": [
         "MSFT",
         "SPCX"
@@ -317,7 +515,55 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "題材",
+      "title": "Bernstein 調整 MSFT 目標價至 $722",
+      "summary": "該公司維持跑贏大盤評級和 722 美元的目標價",
+      "originalTitle": "Bernstein Grows More Bullish on Microsoft's Enterprise AI After Ignite",
+      "originalSummary": "The firm kept an Outperform rating and its $722 price target",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bernstein-grows-more-bullish-microsofts-154443441.html",
+      "ts": "2026-11-23T15:44:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": 3.2122513002559305,
+      "analystDetails": [
+        {
+          "broker": "Bernstein",
+          "analyst": "",
+          "rating": "Outperform",
+          "action": "",
+          "newTarget": "$722",
+          "oldTarget": "",
+          "reason": "Ignite 之後 Bernstein 更加看好微軟的企業人工智慧 該公司維持跑贏大盤評級和 722 美元的目標價",
+          "reasonConfidence": "medium",
+          "targetTicker": "MSFT",
+          "targetCompany": "Microsoft"
+        }
+      ],
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "被評級公司：Microsoft（MSFT）｜券商：Bernstein｜評等：Outperform｜目標價：$722｜調整原因：Ignite 之後 Bernstein 更加看好微軟的企業人工智慧 該公司維持跑贏大盤評級和 722 美元的目標價",
+        "numbers": [
+          "$722"
+        ],
+        "why": "調整原因：Ignite 之後 Bernstein 更加看好微軟的企業人工智慧 該公司維持跑贏大盤評級和 722 美元的目標價",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：Ignite 之後 Bernstein 更加看好微軟的企業人工智慧 該公司維持跑贏大盤評級和 722 美元的目標價",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 7
     },
     {
       "ticker": "NBIS",
@@ -331,7 +577,7 @@
       "ts": "2026-11-23T15:41:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 24.02078465133439,
+      "movePct": 24.88353216086583,
       "relatedTickers": [
         "NBIS",
         "NVDA",
@@ -367,7 +613,7 @@
       "ts": "2026-11-23T15:39:57+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.436541143654122,
+      "movePct": -12.430264993026508,
       "relatedTickers": [
         "CRWD"
       ],
@@ -399,7 +645,7 @@
       "ts": "2026-11-23T15:36:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.93606087558059,
+      "movePct": 12.827354481668163,
       "relatedTickers": [
         "ORCL"
       ],
@@ -431,7 +677,7 @@
       "ts": "2026-11-23T15:33:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 4.445442299057034,
+      "movePct": 4.554493553146455,
       "analystDetails": [
         {
           "broker": "Jefferies",
@@ -466,7 +712,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 3
     },
     {
       "ticker": "MARKET",
@@ -484,7 +730,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -516,7 +762,7 @@
       "eventType": "",
       "analystPriority": false,
       "score": 20.25,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -548,7 +794,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -594,7 +840,7 @@
       ],
       "eventType": "",
       "score": 202.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：NVIDIA（NVDA）｜券商：Bernstein｜評等：Outperform｜目標價：$200｜調整原因：來源未提供具體理由",
@@ -626,7 +872,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -645,14 +891,14 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "為什麼 SpaceX 的股票今天會上漲",
-      "summary": "在 Nvidia 恢復執行長後，截至美國東部時間 11 月 23 日星期一上午 9:58，Space Exploration Technologies Corp.（納斯達克股票代碼：SPCX）股價上漲 9.7%。標準普爾 500 指數和那斯達克指數分別上漲 4% 和 5.3%。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們錯過了人工智慧這艘船，因為他們沒有在 2005 年購買 Nvidia。但根據我們的分析師的說法，我們只是處於「第一幕」的結尾——研發階段",
+      "summary": "",
       "originalTitle": "Why SpaceX Stock Is Gaining Today",
       "originalSummary": "Space Exploration Technologies Corp. (NASDAQ:SPCX) stock is up 9.7% as of 9:58 a.m. ET on Monday, Nov. 23, after Nvidia reinstated its CEO. The S&P 500 and the Nasdaq Composite are up 4% and 5.3%, respectively. Missed AI's \"Act 1\"? Act 2 Could Be 16x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we're only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-spacex-stock-gaining-today-153001455.html",
       "ts": "2026-11-23T15:30:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 6.671101025119319,
+      "movePct": 6.749354409578201,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -661,17 +907,17 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "在 Nvidia 恢復執行長後，截至美國東部時間 11 月 23 日星期一上午 9:58，Space Exploration Technologies Corp.（納斯達克股票代碼：SPCX）股價上漲 9.7%。標準普爾 500 指數和那斯達克指數分別上漲 4% 和 5.3%。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們錯過了人工智慧這艘船，因為他們沒有在 2005 年購買 Nvidia。但根據我們的分析師的說法，我們只是處於「第一幕」的結尾——研發階段",
+        "event": "截至上午 9:58，Space Exploration Technologies Corp.（NASDAQ：SPCX）股價上漲 9.7%。標準普爾 500 指數和那斯達克指數分別上漲 4% 和 5.3%。錯過了 AI 的「第一幕」？",
         "numbers": [
           "9.7%",
           "4%",
           "5.3%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "在 Nvidia 恢復執行長後，截至美國東部時間 11 月 23 日星期一上午 9:58，Space Exploration Technologies Corp.（納斯達克股票代碼：SPCX）股價上漲 9.7%。標準普爾 500 指數和那斯達克指數分別上漲 4% 和 5.3%。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們錯過了人工智慧這艘船，因為他們沒有在 2005 年購買 Nvidia。但根據我們的分析師的說法，我們只是處於「第一幕」的結尾——研發階段",
+        "stance": "在 Nvidia 恢復執行長後，截至美國東部時間 11 月 23 日星期一上午 9:58，Space Exploration Technologies Corp.（納斯達克股票代碼：SPCX）股價上漲 9.7%。標準普爾 500 指數和那斯達克指數分別上漲 4% 和 5.3%。錯過了 AI 的「第一幕」？第二幕可能會大 16 倍。大多數投資者認為他們錯過了人工智慧這艘船，因為他們沒有在 2005 年購買 Nvidia。但根據我們的分析師的說法，我們僅處於「第一幕」（研發階段）的末尾。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -693,7 +939,7 @@
       "ts": "2026-11-23T15:29:22+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.436541143654122,
+      "movePct": -12.430264993026508,
       "relatedTickers": [
         "CRWD"
       ],
@@ -725,7 +971,7 @@
       "ts": "2026-11-23T15:26:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.9999286784109485,
+      "movePct": 5.910776692104691,
       "relatedTickers": [
         "META"
       ],
@@ -867,12 +1113,12 @@
       "ts": "2026-11-23T15:22:56+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 7.14622086178478,
+      "movePct": 6.973549956832259,
       "relatedTickers": [
         "SNOW"
       ],
       "eventType": "",
-      "score": 15.0,
+      "score": 13.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -899,7 +1145,7 @@
       "ts": "2026-11-23T15:21:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 7.683969933316059,
+      "movePct": 7.877777515964102,
       "relatedTickers": [
         "AMD"
       ],
@@ -968,7 +1214,7 @@
       "ts": "2026-11-23T15:20:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 5.9999286784109485,
+      "movePct": 5.910776692104691,
       "relatedTickers": [
         "META"
       ],
@@ -1000,7 +1246,7 @@
       "ts": "2026-11-23T15:20:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 18.72505088223917,
+      "movePct": 19.061916536307223,
       "relatedTickers": [
         "MU",
         "NVDA"
@@ -1010,7 +1256,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "花旗預計全面停止與 Nvidia 相關的融資只會使 DRAM 需求減少約 12%，之後美光股價上漲 20%。美光科技已承諾 2027 年產量的 75% 以上，目前看來，更深層的蕭條即將到來。",
+        "event": "Key TakeawaysMicron rose 20% after Citi estimated a full halt to Nvidia-linked financing would cut DRAM demand only about 12%. With over 75% of its 2027 output committed, Micron trades as if a far deeper bust is coming.",
         "numbers": [
           "20%",
           "12%",
@@ -1039,7 +1285,7 @@
       "ts": "2026-11-23T15:19:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 33.99187445232214,
+      "movePct": 33.18728590775113,
       "relatedTickers": [
         "NVDA"
       ],
@@ -1073,7 +1319,7 @@
       "ts": "2026-11-23T15:19:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.733502978428103,
+      "movePct": 13.079058469724147,
       "relatedTickers": [
         "TSLA",
         "NVDA"
@@ -1108,7 +1354,7 @@
       "ts": "2026-11-23T15:18:20+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 21.458887849794994,
+      "movePct": 21.190921516437665,
       "relatedTickers": [
         "DELL"
       ],
@@ -1145,7 +1391,7 @@
       "ts": "2026-11-23T15:18:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 6.671101025119319,
+      "movePct": 6.749354409578201,
       "analystDetails": [],
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
@@ -1218,7 +1464,7 @@
       "ts": "2026-11-23T15:15:09+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 24.02078465133439,
+      "movePct": 24.88353216086583,
       "relatedTickers": [
         "NBIS",
         "NVDA",
@@ -1229,7 +1475,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "因預測 2008 年房地產市場崩盤而聞名的投資者 Michael Burry 再次成為人們關注的焦點，因為人工智慧股票的大幅拋售讓人們重新關注他對潛在人工智慧泡沫的警告。隨著 Nvidia、CoreWeave 和 Nebius 等主要人工智慧公司遭受損失，投資者對 X 的呼聲越來越高 […]",
+        "event": "Michael Burry, the investor who famously predicted the 2008 housing market crash, is back in the spotlight as a sharp selloff in artificial intelligence stocks draws renewed attention to his warnings about a potential AI bubble. The investor has become increasingly vocal on X as major AI names, including Nvidia, CoreWeave, and Nebius, have suffered […]",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "stance": "因預測 2008 年房地產市場崩盤而聞名的投資者 Michael Burry 再次成為人們關注的焦點，因為人工智慧股票的大幅拋售讓人們重新關注他對潛在人工智慧泡沫的警告。隨著 Nvidia、CoreWeave 和 Nebius 等主要人工智慧公司遭受損失，投資者對 X 的呼聲越來越高 […]",
@@ -1249,15 +1495,14 @@
       "title": "特斯拉的自動駕駛大升級恰逢其時",
       "summary": "特斯拉新版全自動駕駛軟體如何幫助該股。",
       "originalTitle": "Tesla’s Big Self-Driving Upgrade Arrives Right on Time for the Stock",
-      "originalSummary": "Tesla ( NASDAQ:TSLA ) shares climbed nearly 10% in Monday morning trading, recovering part of their previous session's losses as the electric vehicle maker began distributing a new version of its driver-assistance software. The stock reached $384.42, compared with Friday's close of $345.82.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-soars-fridays-rout-150902835.html",
+      "originalSummary": "",
+      "url": "https://www.barrons.com/articles/tesla-stock-price-fsd-version-15-full-self-driving-d6a8e538?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-11-23T15:15:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 12.733502978428103,
+      "movePct": 13.079058469724147,
       "analystDetails": [],
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1266,22 +1511,16 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "特斯拉新版全自動駕駛軟體如何幫助該股。",
-        "numbers": [
-          "$384.42,",
-          "$345.82.",
-          "10%"
-        ],
-        "why": "券商調整理由：特斯拉新版全自動駕駛軟體如何幫助該股。",
-        "stance": "特斯拉新版全自動駕駛軟體如何幫助該股。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進"
-        ],
-        "takeaway": "券商調整理由：特斯拉新版全自動駕駛軟體如何幫助該股。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "NVDA",
@@ -1327,7 +1566,7 @@
       "ts": "2026-11-23T15:14:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8713320783966259,
+      "movePct": 1.937769903665143,
       "relatedTickers": [
         "CRM"
       ],
@@ -1359,7 +1598,7 @@
       "ts": "2026-11-23T15:14:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 33.99187445232214,
+      "movePct": 33.18728590775113,
       "relatedTickers": [
         "NVDA",
         "CRWV",
@@ -1427,8 +1666,8 @@
         "takeaway": "調整原因：摩根士丹利維持美國電力公司增持評級，目標價從 130 美元上調至 139 美元",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "CRWD",
@@ -1442,7 +1681,7 @@
       "ts": "2026-11-23T15:13:21+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.436541143654122,
+      "movePct": -12.430264993026508,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1481,7 +1720,7 @@
       "ts": "2026-11-23T15:12:50+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.733502978428103,
+      "movePct": 13.079058469724147,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1549,7 +1788,7 @@
       "ts": "2026-11-23T15:11:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.436541143654122,
+      "movePct": -12.430264993026508,
       "relatedTickers": [
         "CRWD",
         "NVDA"
@@ -1646,7 +1885,7 @@
       "ts": "2026-11-23T15:09:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 7.683969933316059,
+      "movePct": 7.877777515964102,
       "relatedTickers": [
         "AMD"
       ],
@@ -1710,7 +1949,7 @@
       "ts": "2026-11-23T15:09:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": 12.733502978428103,
+      "movePct": 13.079058469724147,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [],
       "relatedTickers": [
@@ -1737,7 +1976,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 3
+      "top10Rank": 4
     },
     {
       "ticker": "VRT",
@@ -1751,7 +1990,7 @@
       "ts": "2026-11-23T15:08:12+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 13.979788257940307,
+      "movePct": 14.304619826756504,
       "relatedTickers": [
         "VRT"
       ],
@@ -1821,7 +2060,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -1836,7 +2075,7 @@
       "ts": "2026-11-23T15:04:38+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 18.72505088223917,
+      "movePct": 19.061916536307223,
       "relatedTickers": [
         "MU",
         "NVDA",
@@ -1877,7 +2116,7 @@
       "ts": "2026-11-23T15:03:53+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.733502978428103,
+      "movePct": 13.079058469724147,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1909,7 +2148,7 @@
       "ts": "2026-11-23T15:03:40+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.379709910055918,
+      "movePct": 4.343246090268216,
       "relatedTickers": [
         "AMZN"
       ],
@@ -1918,7 +2157,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "據報道，亞馬遜（納斯達克股票代碼：AMZN）已同意收購人工智慧新創公司 Decart 的關鍵技術和人員，交易價值約為 7 美元。 50億美元，因為這家科技巨頭尋求加強其人工智慧運算能力並擴大其專有Trainium處理器的商業潛力。",
+        "event": "据报道，亚马逊（纳斯达克股票代码：AMZN）已同意收购人工智能初创公司 Decart 的关键技术和人员，交易价值约为 7 美元。 50億美元，因為這家科技巨頭尋求加強其人工智慧運算能力並擴大其專有Trainium處理器的商業潛力。",
         "numbers": [
           "$7.5 Billion",
           "$7.",
@@ -1948,7 +2187,7 @@
       "ts": "2026-11-23T15:03:35+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 21.458887849794994,
+      "movePct": 21.190921516437665,
       "relatedTickers": [
         "DELL",
         "NVDA"
@@ -2050,7 +2289,7 @@
       "ts": "2026-11-23T15:00:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.379709910055918,
+      "movePct": 4.343246090268216,
       "relatedTickers": [
         "AMZN"
       ],
@@ -2155,7 +2394,7 @@
       "ts": "2026-11-23T14:56:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 24.02078465133439,
+      "movePct": 24.88353216086583,
       "relatedTickers": [
         "NBIS"
       ],
@@ -2193,7 +2432,7 @@
       "ts": "2026-11-23T14:55:30+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 12.148985959438363,
+      "movePct": 12.168486739469575,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -2338,7 +2577,7 @@
       "ts": "2026-11-23T14:51:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 4.379709910055918,
+      "movePct": 4.343246090268216,
       "relatedTickers": [
         "AMZN"
       ],
@@ -2410,12 +2649,42 @@
       "ts": "2026-11-23T14:49:26+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 7.725470763131792,
+      "movePct": 7.698216055500495,
       "relatedTickers": [
         "CLS"
       ],
       "eventType": "",
       "score": 18.0,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "利多",
+      "title": "黃仁勳回歸那斯達克 100 指數期貨暴漲 7% 後暫停",
+      "summary": "",
+      "originalTitle": "Nasdaq 100 futures halt after 7% surge on Jensen Huang’s return",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU0p2TnEyUE90QzVxQWdNeURNNXA4U05icHZlNGhvRzlNcTA1M2JaU3JidmM0eW5ZMzFqUzRXVDBhbHBBZU4tRWh1dmpFNEpRX3BET2haTjkxX1hTS0dOVnhkR3VIeTZzYUNwV1lOOEc2X0VmUlRIejQwY3FNRTduamptV0ZZYXR5Y1ZDTkhMdXdQa2J5bHZWM25GX2dIcjM5NmRma3ZmYw?oc=5",
+      "ts": "2026-11-23T14:49:11+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 6.75,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2480,7 +2749,7 @@
       "ts": "2026-11-23T14:45:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.436541143654122,
+      "movePct": -12.430264993026508,
       "relatedTickers": [
         "CRWD"
       ],
@@ -2512,7 +2781,7 @@
       "ts": "2026-11-23T14:43:03+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 1.8713320783966259,
+      "movePct": 1.937769903665143,
       "relatedTickers": [
         "CRM"
       ],
@@ -2623,10 +2892,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Roundhill Investments 首席投資策略師 Drew Pettit 與《The 8:30》主持人朱莉·海曼 (Julie Hyman) 和傑克·康利 (Jake Conley) 討論了黃仁勳重新擔任 Nvidia (NVDA) 首席執行官後可能出現的風險和訴訟。",
+        "event": "Roundhill Investments 首席投資策略師德魯·佩蒂特 (Drew Pettit) 與“The 8:30”主持人朱莉·海曼 (Julie Hyman) 和傑克·康利 (Jake Conley) 討論了黃仁勳重新擔任 Nvidia (NVDA) 首席執行官後可能出現的風險和訴訟。",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Roundhill Investments 首席投資策略師 Drew Pettit 與《The 8:30》主持人朱莉·海曼 (Julie Hyman) 和傑克·康利 (Jake Conley) 討論了黃仁勳重新擔任 Nvidia (NVDA) 首席執行官後可能出現的風險和訴訟。",
+        "stance": "Roundhill Investments 首席投資策略師德魯·佩蒂特 (Drew Pettit) 與“The 8:30”主持人朱莉·海曼 (Julie Hyman) 和傑克·康利 (Jake Conley) 討論了黃仁勳重新擔任 Nvidia (NVDA) 首席執行官後可能出現的風險和訴訟。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -2635,255 +2904,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "DELL",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "戴爾(DELL.N)開盤飆升29%；西部數據 (WDC.O) 上漲 16%。",
-      "summary": "",
-      "originalTitle": "Dell (DELL.N) surged 29% at the open; Western Digital (WDC.O) rose 16%.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQR3FMVnFaODJRTGFQNHJleW1hUFVHaEEzVm5VZV9IaFlfTUNYbUtDQndQZlp5ZjVJcW9CWngyM0RoV1V3aWVvelpuRk9uRGFOMHNGTXFWZUhGcGhJRWdvNFRJSVZERU9rX2NIV1ZkbVA2ZGpYTGZ6WTZzQVFSdFhNbE43dWhvNXVfMV9fZHhJVDJ5YUNhWVJPZ0ZmVURCdw?oc=5",
-      "ts": "2026-11-23T14:37:22+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 19.726239297791203,
-      "relatedTickers": [
-        "DELL",
-        "WDC"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "華爾街剛剛損失了 8 兆美元。聯準會仍計劃升息。",
-      "summary": "",
-      "originalTitle": "Wall Street Just Lost $8 Trillion. The Fed Still Plans To Raise Rates.",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa3NZN2h0UllXaTR6bGt1MEY1bko1N3FUVk5UNkc1QUdKdkhlUnJoQ25GcjNEaDJNdkpSMHVzd2ljS3VnQ04xYW96UHFZeGItZEo0ckF5OWJBcmlJeWFOMDFfQTRfaEZyMDhBeTNUc2RqYlktbFRFMUVlN3B4U09zdG45dTUyOTRyRFpqaDk2MDM2Nl9IWlFNaHBxQjBPWFYwMV93?oc=5",
-      "ts": "2026-11-23T14:36:27+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [],
-      "eventType": "",
-      "score": 20.25,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "VRT",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "Vertiv 表示，其 Nvidia 支援的設計可在第一年增加 30% 的 AI 輸出。這是要抓住的。",
-      "summary": "",
-      "originalTitle": "Vertiv Says Its Nvidia-Backed Designs Can Add 30% More AI Output in the First Year. Here's the Catch.",
-      "originalSummary": "Vertiv (NYSE: VRT) isn't a designer of artificial intelligence hardware or software, but the company's status as a provider of power services, cooling technologies, and other infrastructure means it's positioned to play an important role in the AI buildout. The company reported its third-quarter results at the end of October, and strong data-center demand helped the company beat sales and earnings expectations and paved the way for management to raise its full-year guidance.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/vertiv-says-nvidia-backed-designs-143600328.html",
-      "ts": "2026-11-23T14:36:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 13.979788257940307,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "VRT",
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 42.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Vertiv（NYSE：VRT）不是人工智慧硬體或軟體的設計者，但該公司作為電力服務、冷卻技術和其他基礎設施提供者的地位意味著它在人工智慧建設中發揮著重要作用。該公司於10月底公佈了第三季業績，強勁的數據中心需求幫助該公司超越了銷售和盈利預期，並為管理層提高全年指引鋪平了道路。",
-        "numbers": [
-          "30%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Vertiv（NYSE：VRT）不是人工智慧硬體或軟體的設計者，但該公司作為電力服務、冷卻技術和其他基礎設施提供者的地位意味著它在人工智慧建設中發揮著重要作用。該公司於10月底公佈了第三季業績，強勁的數據中心需求幫助該公司超越了銷售和盈利預期，並為管理層提高全年指引鋪平了道路。",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "題材",
-      "title": "美國追蹤黃愛麗在英偉達事件期間與中國間諜機構的聯繫",
-      "summary": "",
-      "originalTitle": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVzVyaXo0aXJLT2VuWXdDRlJIWEw1RDBlTWtxcG9RN2ZydEN0T2U5dnlCRnJXWFVKeVZ2X2JXUmpHUTQ5d0tCNHFGc0VKZHE4TFdVQXFId1k5YkRGU29pdF9VM3FES1ZDbEItTW9rQWRYQTVTakxtMG1uVnZwV1ZTRmc4XzV0MmtVX2NWYUhvWHM?oc=5",
-      "ts": "2026-11-23T14:35:00+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": false,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 15.75,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWD",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "利空",
-      "title": "Zscaler 因 CrowdStrike 439 億美元收購而飆升 23%：“讓人工智慧進來需要安全”",
-      "summary": "",
-      "originalTitle": "Zscaler Soars 23% on $43.9 Billion CrowdStrike Buyout: “Safety Is Required to Let AI In”",
-      "originalSummary": "Key TakeawaysZscaler jumped 23% after CrowdStrike agreed to buy it in an all-stock deal valued at about $43. 9 billion.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-soars-23-43-9-143452822.html",
-      "ts": "2026-11-23T14:34:52+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -11.436541143654122,
-      "relatedTickers": [
-        "CRWD"
-      ],
-      "eventType": "",
-      "score": 13.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "$NVIDIA (NVDA.US)$ 此後出現大量獲利了結，隨著機構開始回歸......堅持下去",
-      "summary": "",
-      "originalTitle": "$NVIDIA (NVDA.US)$ a lot of profit taking then after that, back up as institutions start to go back in.. hang on tight",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa3I2UTB6eDlZenlMZFpScGRFX3ZIbC1zazVDVDlkXy1QS0lmeXBQVlJ4OVlmcTZycWgyeHJ4RU9KTFNsUW1KR1BOMklVcTFUWGJuUkZJdmZUc2JjNGdoVWpBb2Qxb2pxZEEzV1FkczI0aGdIZGZvclFRcURMRVh3VGtFajloVE5VQ242X1p3V0lKcHhTVHZXWGZzOFNIZjhnbGZNaA?oc=5",
-      "ts": "2026-11-23T14:34:37+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": 26.40922488648132,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "FLEX",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "利空",
-      "title": "Baird 下修 FLEX 目標價至 $84，維持 Outperform",
-      "summary": "",
-      "originalTitle": "Baird maintains Flex at Outperform, lowers price target to $84 from $135",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS1lBek5obVd3YTBhWVc3YVR0Qm5yYnZNclBaWUMxY3hZT0Jod1hlVzNiMEVsSml2c05pem9GQW5nVDdSeVEzbnU5QVBpOG5WeVA3enN4dDluSVdEV19zMjZlWU5tNWNkVGFQcl85ZHJ4bzRQMnBoR1ZGdWhrZzNRNkk5dlBOMkh5c0tpVmpaazFfOERNYk1pWUl0VkVQMEdmMUMxYVkxdXVBRFltM0JmdDNndmhBMDhjcEpITFdMekdYbEw0YnY4a1JPTQ?oc=5",
-      "ts": "2026-11-23T14:34:24+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Baird",
-          "analyst": "",
-          "rating": "Outperform",
-          "action": "下修",
-          "newTarget": "$84",
-          "oldTarget": "$135",
-          "reason": "Baird 維持 Flex 的跑贏大盤評級，並將目標價從 135 美元下調至 84 美元",
-          "reasonConfidence": "medium",
-          "targetTicker": "FLEX",
-          "targetCompany": "Flex"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "FLEX"
-      ],
-      "eventType": "",
-      "score": 201.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：FLEX｜券商：Baird｜動作：下修｜評等：Outperform｜目標價：$84（原 $135）｜調整原因：Baird 維持 Flex 的跑贏大盤評級，並將目標價從 135 美元下調至 84 美元",
-        "numbers": [
-          "$135",
-          "$84"
-        ],
-        "why": "調整原因：Baird 維持 Flex 的跑贏大盤評級，並將目標價從 135 美元下調至 84 美元",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：Baird 維持 Flex 的跑贏大盤評級，並將目標價從 135 美元下調至 84 美元",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 10
     }
   ],
   "historyItems": [
@@ -3138,7 +3158,7 @@
       "ticker": "PLTR",
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
-      "title": "Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History",
+      "title": "Palantir Technologies Inc. (PLTR) 股票價格、新聞、報價和歷史",
       "summary": "",
       "originalTitle": "Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History",
       "originalSummary": "",
@@ -3152,7 +3172,7 @@
       "eventType": "",
       "score": 3.0,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -3196,7 +3216,7 @@
       "ticker": "LEU",
       "group": "核能／鈾",
       "tag": "題材",
-      "title": "Centrus Energy Corp. (LEU) stock price, news, quote and history",
+      "title": "Centrus Energy Corp. (LEU) 股票價格、新聞、報價和歷史",
       "summary": "",
       "originalTitle": "Centrus Energy Corp. (LEU) stock price, news, quote and history",
       "originalSummary": "",
@@ -3210,7 +3230,7 @@
       "eventType": "",
       "score": 3.0,
       "featured": false,
-      "translated": false,
+      "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -8518,7 +8538,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "SpaceX 為美國太空部隊發射機密有效載荷",
-      "summary": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停放在范登堡太空部隊基地東 4 號航天發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
+      "summary": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停泊在范登堡太空部隊基地東 4 號航太發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
       "originalTitle": "SpaceX launches classified payload for the U.S. Space Force",
       "originalSummary": "SpaceX's Falcon 9 rocket stands at Space Launch Complex 4 East at Vandenberg Space Force Base ahead of the launch of the USSF-317 mission. Image: SpaceX Update Nov. 20, 11:45 p.m. EDT (0445 UTC): SpaceX landed its booster on the drone ship. SpaceX launched an undisclosed number of satellites on a Falcon 9 rocket on behalf of the U.S. Space Force on Friday night. SpaceX scrubbed the launch Thursday night, but didn’t state the reason why. The mission, designated USSF-317, flew from Space Launch Complex 4 East at Vandenberg Space Force Base at 8:20 p.m. PST / 11:20 p.m. EST (0420 UTC on Saturday, Nov. 21). The rocket took off on a south-easterly trajectory upon leaving the pad. This is the latest in a series of ‘R’ missions assigned to SpaceX. So far, there have been five previous such missions which include: Following each of these launches, 23 satellites have been catalogued. To date, the U.S. Space Force hasn’t confirmed details about these satellites and has not made statements following these launches to confirm successful deployments. SpaceX launched the USSF-317 mission using the Falcon 9 first stage booster with the tail number B1100. This was its 11th flight following the launches a NROL-105-, USSF-385, and eight batches of Starlink satellites. A little more than eight minutes after liftoff, B1100 landed on the droneship, Of Course I Still Love You . This was the 235th landing on this vessel and the 679th Falcon booster landing to date. SpaceX is scheduled to launch at least two more missions for the U.S. Space Force before the end of the month.",
       "url": "https://spaceflightnow.com/2026/11/19/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-2/",
@@ -8535,10 +8555,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停放在范登堡太空部隊基地東 4 號航天發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
+        "event": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停泊在范登堡太空部隊基地東 4 號航太發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停放在范登堡太空部隊基地東 4 號航天發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
+        "stance": "在 USSF-317 任務發射之前，SpaceX 的獵鷹 9 號火箭停泊在范登堡太空部隊基地東 4 號航太發射場。圖片：SpaceX 更新，11 月 20 日晚上 11:45美國東部時間 (0445 UTC)：SpaceX 將其助推器降落在無人機船上。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -8551,7 +8571,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "SpaceX 為美國太空軍資料網路星座發射衛星",
-      "summary": "A SpaceX Falcon 9 rocket flies away from Space Launch Complex 4 East at Vandenberg Space Force Base on the USSF-317 mission on Nov. 20, 2026. Image: SpaceX Update Nov. 21: U.S.",
+      "summary": "2026 年 11 月 20 日，執行 USSF-317 任務時，一枚 SpaceX 獵鷹 9 號火箭從范登堡太空部隊基地東 4 號太空發射場起飛。圖片來源：SpaceX 11 月 21 日更新：美國",
       "originalTitle": "SpaceX launches satellites for the U.S. Space Force’s data network constellation",
       "originalSummary": "A SpaceX Falcon 9 rocket flies away from Space Launch Complex 4 East at Vandenberg Space Force Base on the USSF-317 mission on Nov. 20, 2026. Image: SpaceX Update Nov. 21: U.S. Space Force confirmed the payload for the mission. SpaceX launched an undisclosed number of satellites on a Falcon 9 rocket on behalf of the U.S. Space Force on Friday night. SpaceX scrubbed the launch Thursday night, but didn’t state the reason why. The mission, designated USSF-317, flew from Space Launch Complex 4 East at Vandenberg Space Force Base at 8:20 p.m. PST / 11:20 p.m. EST (0420 UTC on Saturday, Nov. 21). The rocket took off on a south-easterly trajectory upon leaving the pad. Following deployment, the government issued a short statement, confirming publicly for the first time the intention of a series of missions launched this year that have received an ‘R’ designation in public filings. “With three successful launches in two weeks, the Department of the Air Force is accelerating the development and launch of the Space Data Network Backbone constellation, advancing a government-owned and controlled communication system that will provide secure, high-speed data transport globally for the Joint Force,” said the Secretary of the Air Force Public Affairs in a press release. “The accelerated schedule is on track to deliver regional capability this year and global support by next year.” The Space Data Network (SDN) Backbone comes from the Portfolio Acquisition Executive (PAE) of the Space-Based Sensing and Targeting (SBST), an acquisition office within the Space Force. Back in May, the Space Force announced its award of a $2.29 billion contract to SpaceX to build a satellite constellation that “functions as an integrated network, providing robust, resilient, high-capacity, and low-latency data transport for the Joint Force.” The Space Force said back in May that the SDN Backbone would operate alongside the Space Development Agency’s Transport Layer, a constellation of data relaying satellites manufactured by Lockheed Martin, Northrop Grumman, and York Space Systems. Previously identified simply as ‘R’ missions assigned to SpaceX, these are the five previous such missions which include:",
       "url": "https://spaceflightnow.com/2026/11/19/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-2/",
@@ -8568,13 +8588,13 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "A SpaceX Falcon 9 rocket flies away from Space Launch Complex 4 East at Vandenberg Space Force Base on the USSF-317 mission on Nov. 20, 2026. Image: SpaceX Update Nov. 21: U.S.",
+        "event": "2026 年 11 月 20 日，執行 USSF-317 任務時，一枚 SpaceX 獵鷹 9 號火箭從范登堡太空部隊基地東 4 號太空發射場起飛。圖片來源：SpaceX 11 月 21 日更新：美國",
         "numbers": [
           "$2.29 billion",
           "2.29 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "A SpaceX Falcon 9 rocket flies away from Space Launch Complex 4 East at Vandenberg Space Force Base on the USSF-317 mission on Nov. 20, 2026.",
+        "stance": "2026 年 11 月 20 日，執行 USSF-317 任務時，一枚 SpaceX 獵鷹 9 號火箭從范登堡太空部隊基地東 4 號太空發射場起飛。圖片來源：SpaceX 11 月 21 日更新：美國",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -8881,7 +8901,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "亞馬遜警告紐約市每筆訂單的送貨費用可能高達 5 美元",
-      "summary": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會為每份訂單增加 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
+      "summary": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會增加每份訂單 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
       "originalTitle": "Amazon warns NYC delivery bill could add up to $5 per order",
       "originalSummary": "Amazon warned Thursday that labor protections being considered by the New York City council \"could add up to $5 per order,\" as the retail giant rallied against legislation backed by leftist Mayor Zohran Mamdani. But Amazon claimed the legislation would result in slower and more expensive delivery for customers in New York, the United States",
       "url": "https://finance.yahoo.com/economy/policy/articles/amazon-warns-york-labor-bill-154951850.html",
@@ -8897,12 +8917,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會為每份訂單增加 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
+        "event": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會增加每份訂單 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
         "numbers": [
           "$5"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會為每份訂單增加 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
+        "stance": "亞馬遜週四警告說，紐約市議會正在考慮的勞工保護措施“可能會增加每份訂單 5 美元”，因為這家零售巨頭集會反對左翼市長佐蘭·馬姆達尼 (Zohran Mamdani) 支持的立法。但亞馬遜聲稱該立法將導緻美國紐約客戶的送貨速度變慢且成本更高",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -9809,7 +9829,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "台積電和三星暫停向中國客戶供應部分晶片",
-      "summary": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國的新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
+      "summary": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
       "originalTitle": "TSMC and Samsung suspend some chip shipments to Chinese customers",
       "originalSummary": "Deliveries are paused while the chipmakers apply for licenses from the US Commerce Department, FT reported. The new U.S. rules close a route that let Chinese chip designers obtain high-performance processors through independent packaging and testing firms. Smartphone chip licenses would likely be approved, though the process could cause manufacturing delays, the report said.",
       "url": "https://finance.yahoo.com/technology/articles/tsmc-samsung-reportedly-suspend-chip-122633256.html",
@@ -9826,10 +9846,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國的新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
+        "event": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國的新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
+        "stance": "根據英國《金融時報》報道，晶片製造商在向美國商務部申請許可證期間，交貨已暫停。美國新規定關閉了中國晶片設計人員透過獨立封裝和測試公司獲得高性能處理器的途徑。報告稱，智慧型手機晶片許可證可能會獲得批准，但這一過程可能會導致生產延誤。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -12895,7 +12915,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Microchip 盈利反彈但前景疲軟",
-      "summary": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博社 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報道稱，對沖基金以有記錄以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
+      "summary": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報告對沖基金以有史以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
       "originalTitle": "Microchip’s Earnings Rebound Meets a Softer Outlook",
       "originalSummary": "We just published our list of the 10 Highest Short Interest Large-Cap Tech Stocks Right Now , and Microchip Technology Incorporated ranked 8th on the list. Technology stocks are facing a new test of investor conviction as hedge funds pull back from the artificial intelligence trade. Bloomberg reported on November 9 that hedge funds sold global technology stocks at one of the fastest weekly rates on record, citing Goldman Sachs prime brokerage data through November 6. Technology was the most heavily net-sold sector globally and in the US, with the percentage rate of selling roughly matching the benchmark set in Goldman's records dating back to 2016. The slump also resulted in the largest wave of single-stock net selling in four months.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-earnings-rebound-meets-softer-201618920.html",
@@ -12911,10 +12931,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博社 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報道稱，對沖基金以有記錄以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
+        "event": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報告對沖基金以有史以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博社 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報道稱，對沖基金以有記錄以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
+        "stance": "我們剛剛公佈了目前空頭利息最高的 10 檔大型科技股名單，Microchip Technology Incorporated 在名單上排名第八。隨著對沖基金退出人工智慧交易，科技股正面臨投資者信心的新考驗。彭博 11 月 9 日援引高盛截至 11 月 6 日的大宗經紀數據，報告對沖基金以有史以來最快的周利率之一拋售全球科技股。科技股是全球和美國淨拋售最多的板塊，拋售百分比大致與高盛自 2016 年記錄中設定的基準相符。",
         "watch": [
           "下一季／全年財測是否再次上修或下修"
         ],
@@ -13221,7 +13241,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Microsoft 和 Salesforce 宣布推出 Copilotforce，將可信賴的客戶環境和行動帶入 Microsoft AI 體驗中",
-      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
       "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
       "originalSummary": "REDMOND, Wash., and SAN FRANCISCO — Nov. 17, 2026 — Microsoft Corp. (NASDAQ: MSFT) and Salesforce Inc. (NYSE: CRM) today announced Copilotforce, a new partnership that helps employees get more done in the tools they already use by bringing Salesforce customer context, business processes and actions into Microsoft Copilot and other AI-powered productivity experiences. Unveiled at Microsoft Ignite, the partnership introduces new integrations across Microsoft Copilot, Microsoft Teams and Microsoft Fabric, including Salesforce in Copilot, a plugin available in public preview with 38+ prebuilt sales skills. Together, these capabilities help businesses move faster, reduce manual work and get more value from their existing technology investments — while maintaining the security, governance and permissions they already rely on. Bringing Salesforce workflows together with conversations, meetings and documents in Microsoft 365 means less time spent moving between systems and more time on the work that matters. Salesforce in Copilot connects customer context with the work happening across the business so employees can make more informed decisions and take action without constantly switching applications. Microsoft Work IQ, the intelligence layer powering Copilot, provides relevant context from Teams meetings, Outlook emails and documents across SharePoint and OneDrive. Work IQ and Salesforce help sellers understand not only what’s recorded in CRM, but what’s happening across customer conversations and collaboration — and what needs to happen next. Through authenticated Salesforce MCP access, sellers can securely retrieve customer information and take supported business actions within their existing Salesforce permissions. Salesforce continues to govern access and business actions, while Microsoft applies its existing enterprise compliance controls to communications and documents. Data, context and the apps where sellers work come to life in practical workflows across the sales cycle, including: With Copilot as the front door to business process, Salesforce in Copilot allows organizations to bring together Salesforce data, workflows, agents and prebuilt skills from the systems they already rely on through Copilot’s open and interoperable platform. “Through Copilotforce, we’re bringing Salesforce to the largest surface in enterprise software today, embedding trusted Salesforce context and intelligent sales workflows directly where sellers work,” said Miguel Milano, President & Chief Operating Officer, Salesforce . “By bringing together the #1 CRM with the #1 productivity surface, we’re transforming AI from a standalone tool into a powerful driver of productivity, smarter decisions and customer success.” Expanding connection in the places people work For many organizations, the work first starts in Microsoft Teams, where people share files, make decisions and hand work to each other. Sales Cloud in Teams, now available in pilot, brings Salesforce customer context directly into those conversations, so sellers can see pipeline and quota progress, get deal notifications and find briefing materials without leaving the place where decisions are already being ma",
       "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
@@ -13239,10 +13259,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -13257,7 +13277,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Microsoft 和 Salesforce 宣布推出 Copilotforce，將可信賴的客戶環境和行動帶入 Microsoft AI 體驗中",
-      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
       "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
       "originalSummary": "REDMOND, Wash., and SAN FRANCISCO — Nov. 17, 2026 — Microsoft Corp. (NASDAQ: MSFT) and Salesforce Inc. (NYSE: CRM) today announced Copilotforce, a new partnership that helps employees get more done in the tools they already use by bringing Salesforce customer context, business processes and actions into Microsoft Copilot and other AI-powered productivity experiences. Unveiled at Microsoft Ignite, the partnership introduces new integrations across Microsoft Copilot, Microsoft Teams and Microsoft Fabric, including Salesforce in Copilot, a plugin available in public preview with 38+ prebuilt sales skills. Together, these capabilities help businesses move faster, reduce manual work and get more value from their existing technology investments — while maintaining the security, governance and permissions they already rely on. Bringing Salesforce workflows together with conversations, meetings and documents in Microsoft 365 means less time spent moving between systems and more time on the work that matters. Salesforce in Copilot connects customer context with the work happening across the business so employees can make more informed decisions and take action without constantly switching applications. Microsoft Work IQ, the intelligence layer powering Copilot, provides relevant context from Teams meetings, Outlook emails and documents across SharePoint and OneDrive. Work IQ and Salesforce help sellers understand not only what’s recorded in CRM, but what’s happening across customer conversations and collaboration — and what needs to happen next. Through authenticated Salesforce MCP access, sellers can securely retrieve customer information and take supported business actions within their existing Salesforce permissions. Salesforce continues to govern access and business actions, while Microsoft applies its existing enterprise compliance controls to communications and documents. Data, context and the apps where sellers work come to life in practical workflows across the sales cycle, including: With Copilot as the front door to business process, Salesforce in Copilot allows organizations to bring together Salesforce data, workflows, agents and prebuilt skills from the systems they already rely on through Copilot’s open and interoperable platform. “Through Copilotforce, we’re bringing Salesforce to the largest surface in enterprise software today, embedding trusted Salesforce context and intelligent sales workflows directly where sellers work,” said Miguel Milano, President & Chief Operating Officer, Salesforce . “By bringing together the #1 CRM with the #1 productivity surface, we’re transforming AI from a standalone tool into a powerful driver of productivity, smarter decisions and customer success.” Expanding connection in the places people work For many organizations, the work first starts in Microsoft Teams, where people share files, make decisions and hand work to each other. Sales Cloud in Teams, now available in pilot, brings Salesforce customer context directly into those conversations, so sellers can see pipeline and quota progress, get deal notifications and find briefing materials without leaving the place where decisions are already being ma",
       "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
@@ -13274,10 +13294,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
+        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -15766,7 +15786,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "甲骨文執行長告訴底特律人群，人工智慧資料中心的推出犯了錯誤",
-      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+      "summary": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
       "originalTitle": "Mistakes were made in AI data center rollout, Oracle CEO tells Detroit crowd",
       "originalSummary": "Oracle stock fell approximately 4% during Tuesday’s US trading session as investors assessed a Bloomberg report that HSBC sold roughly $300 million of construction debt tied to Oracle’s Project Jupiter data center in New Mexico at a substantial discount. The transaction, completed several weeks ago but disclosed on November 16, adds to concerns about the financing costs and construction risks associated with Oracle’s expanding AI infrastructure business. Oracle (NYSE: ORCL) traded at $114.34 at 12:05 p.m. ET on November 17, down 3.99% from Monday’s $119.09 close. The shares had already declined 4.99% on Monday, leaving them under pressure as lenders reassessed their exposure to large AI infrastructure projects. According to Bloomberg’s November 16 report , citing people familiar with the transaction, HSBC sold its portion of the $18 billion financing package at prices in the mid-80s, meaning approximately 85 cents for each dollar of face value. The sale followed Oracle’s decision to issue a force majeure notice to the project’s developer, a unit of Blue Owl Capital. Unit No: BA857 DMCC Business Centre Level No 1 Jewellery & Gemplex 3 Dubai, United Arab Emirates. International House, 10 Admirals Way, London, England, E14 9XL.",
       "url": "https://financefeeds.com/oracle-stock-hsbc-sold-its-300-million-slice-of-an-18-billion-data-center-loan-in-the-mid-80s/",
@@ -15782,7 +15802,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+        "event": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
         "numbers": [
           "$300 million",
           "$114.34",
@@ -15790,7 +15810,7 @@
           "$18 billion"
         ],
         "why": "這代表資料中心建置可能遇到電力、施工、供應或合約時程風險。投資上應直接追蹤專案是否延後、誰承擔新增成本，以及延誤是否影響雲端容量上線與資本支出效率。",
-        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日收盤價較週一 119.09 美元下跌 3.99%。",
+        "stance": "週二美國交易時段，甲骨文股價下跌約 4%，因為投資者評估了彭博社的一份報告，該報告稱匯豐銀行以大幅折扣出售了與甲骨文位於新墨西哥州的 Project Jupiter 數據中心相關的約 3 億美元的建築債務。該交易於幾週前完成，但於 11 月 16 日披露，加劇了人們對甲骨文不斷擴大的人工智慧基礎設施業務相關的融資成本和建設風險的擔憂。甲骨文 (NYSE: ORCL) 中午 12:05 的交易價格為 114.34 美元。美國東部時間 11 月 17 日，較週一收盤價 119.09 美元下跌 3.99%。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -20319,7 +20339,7 @@
       "group": "電力／儲能／資料中心能源",
       "tag": "題材",
       "title": "Fluence Energy, Inc. (FLNC) 最新股票新聞與頭條新聞",
-      "summary": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的缺口浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
+      "summary": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的差距浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
       "originalTitle": "Fluence Energy, Inc. (FLNC) latest stock news and headlines",
       "originalSummary": "The lawsuit alleges Fluence Energy's fiscal 2026 guidance rested on contract manufacturing facilities that were not ready to produce at assumed volumes. Three heavy-volume selloffs followed as that alleged gap surfaced, and this release measures the market impact of each. NEW YORK , Nov. 12, 2026 /PRNewswire/ -- SueWallSt alerts investors in Fluence Energy, Inc. (NASDAQ: FLNC ) of a pending securities class action on behalf of purchasers of Fluence Energy securities between November 24, 2025 and September 16, 2026. Find out if you may qualify to recover losses or contact Joseph E. Levi, Esq. at [email protected] or (888) SueWallSt. FLNC closed at $28.99 on February 4, 2026, and faltered to just $18.95 the following day, a decline of $10.04 per share, or about 34.63%. The complaint highlights two further declines of about $1.02, or 7.17% on August 6, 2026 and of $1.39, or about 15.36% on September 17, 2026. To be considered for lead plaintiff, investors must file by November 27, 2026. The Market Impact of Each FLNC Disclosure Day As averred, the decline unfolded in stages because Fluence Energy reaffirmed its fiscal 2026 outlook alongside the February 4, 2026 results and again on May 6, 2026. The pleading asserts that the Company did not disclose that delivering backlog and recognizing guided revenue depended on new contract manufacturing facilities that were not completed, not operational, or not capable of the assumed volumes. It further asserts that corrective measures at the Company's contract manufacturers were not remediating the production problems. The complaint charges that the August 5, 2026 report, which blamed weaker revenue on \"production delays at new contract manufacturing facilities,\" and the September 16, 2026 update, which cited \"continuing supply chain issues affecting the Company's U.S. production,\" each partially corrected those alleged misstatements. \"Fluence Energy shareholders absorbed three heavy-volume selloffs in under eight months, and the complaint alleges each one followed news about contract manufacturing problems that had not been disclosed when guidance was set. Where an outlook is reaffirmed between those declines, investors are entitled to ask what management knew about production readiness at the time.\" -- Joseph E. Levi, Esq. Submit your information here or call (888) SueWallSt. WHY SUEWALLST: SueWallSt is powered by Levi & Korsinsky LLP. Levi & Korsinsky LLP has established itself as a nationally-recognized securities litigation firm that has secured hundreds of millions of dollars for aggrieved shareholders and built a track record of winning high-stakes cases. The firm has extensive expertise representing investors in complex securities litigation and a team of over 70 employees to serve our clients. For seven years in a row, Levi & Korsinsky has ranked in ISS Securities Class Action Services' Top 50 Report as one of the top securities litigation firms in the United States. Frequently Asked Questions About the FLNC Lawsuit",
       "url": "https://www.prnewswire.com/news-releases/flnc-deadline-suewallst-reminds-fluence-energy-inc-investors-of-upcoming-securities-class-action-deadline-302937453.html",
@@ -20336,7 +20356,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的缺口浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
+        "event": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的差距浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
         "numbers": [
           "$28.99",
           "$18.95",
@@ -20344,7 +20364,7 @@
           "$1.02,"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的缺口浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
+        "stance": "該訴訟稱，Fluence Energy 的 2026 財年指導是基於尚未準備好以假定產量生產的合約製造設施。隨著所謂的差距浮出水面，隨後出現了三次大規模拋售，本次發布衡量了每次拋售的市場影響。紐約，2026 年 11 月 12 日 /美通社/ -- SueWallSt 提醒 Fluence Energy, Inc. 的投資者",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -22106,7 +22126,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 的巨型火箭可能會讓 NASA 望塵莫及",
-      "summary": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+      "summary": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射台升空，繞著地球飛行一周，然後在 22 個半小時後垂直降落在同一個發射台上。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
       "originalTitle": "SpaceX's giant rocket may leave NASA in the dust",
       "originalSummary": "Later today, SpaceX is planning the most ambitious test yet of its massive new rocket Starship. If all goes well, it will lift off from a pad in South Texas, circle the Earth and then land vertically at the same pad 22 and a half hours later. The test would be a major milestone for a rocket that company founder Elon Musk says he hopes will one day carry astronauts to Mars. But experts say the rapid development of Starship could also end up stranding one of the company's biggest boosters over the years: NASA. That's because as SpaceX ramps up its new rocket, it has said it will stop flying a much smaller one called Falcon 9. Falcon 9 launches the company's Dragon capsule, which is currently the only American spacecraft capable of ferrying NASA astronauts to and from the International Space Station. \"Because Dragon has become such a successful and reliable vehicle, it became the de facto way for astronauts to get to orbit,\" said Caleb Henry, director of research at Quilty Space, a firm that tracks the space industry. According to a NASA announcement in September, the space agency has contracted with SpaceX for three additional flights to the International Space Station. That would only allow Dragon to fly through 2028, assuming the missions were flown consecutively in six month increments and no further flights are contracted with SpaceX.",
       "url": "https://wskg.org/npr-news/2026-11-13/spacexs-giant-rocket-may-leave-nasa-in-the-dust",
@@ -22122,10 +22142,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+        "event": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射台升空，繞著地球飛行一周，然後在 22 個半小時後垂直降落在同一個發射台上。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+        "stance": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射台升空，繞著地球飛行一周，然後在 22 個半小時後垂直降落在同一個發射台上。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -23225,7 +23245,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利多",
       "title": "Cerebras Systems 2026 年第三季營收創歷史新高，並上調全年預期",
-      "summary": "加州桑尼維爾，2026 年 11 月 12 日 (環球通訊社) -- 全球最快人工智慧基礎設施製造商 Cerebras Systems（納斯達克股票代碼：CBRS）今天公佈了截至 2026 年 9 月 30 日的第三季度財務業績。 「Cerebras 的技術仍然是無可爭議的速度冠軍，」Cerebras 聯合創始人兼執行長 Andrew Feldman 表示。 「我們為客戶提供更多方式來存取我們的技術並與我們一起擴展，無論是透過直接系統銷售、Cerebras Cloud 還是第三方雲端供應商。",
+      "summary": "加州桑尼維爾，2026 年 11 月 12 日 (環球通訊社) -- 全球最快的人工智慧基礎設施製造商 Cerebras Systems（納斯達克股票代碼：CBRS）今天公佈了截至 2026 年 9 月 30 日的第三季度財務業績。 「Cerebras 的技術仍然是無可爭議的速度冠軍，」Cerebras 聯合創始人兼執行長 Andrew Feldman 表示。 「我們為客戶提供更多方式來存取我們的技術並與我們一起擴展，無論是透過直接系統銷售、Cerebras Cloud 還是第三方雲端供應商。",
       "originalTitle": "Cerebras Systems Delivers Record Revenue in Third Quarter 2026, Raises Full-Year Outlook",
       "originalSummary": "SUNNYVALE, Calif., Nov. 12, 2026 (GLOBE NEWSWIRE) -- Cerebras Systems (NASDAQ: CBRS), maker of the world’s fastest AI infrastructure, today announced financial results for the third quarter ended September 30, 2026. “Cerebras’ technology remains the undisputed champion of speed,” said Andrew Feldman, co-founder and CEO of Cerebras. “We’re giving customers more ways to access our technology and scale with us be it through direct system sales, Cerebras Cloud or third-party cloud providers. I’m proud of our team for delivering the performance and speed customers need to build entirely new applications and expand what AI can do. That progress energizes us to do even more as we push the limits of innovation and expect to triple revenue in 2027.” “We exceeded our guidance across the board for the third quarter in a row and delivered sequential improvements on all core financial metrics,” said Bob Komin, CFO of Cerebras. “We won new marquee customers, including hyperscalers, neoclouds and large enterprises. And we saw our pipeline for high-speed AI inference increase by more than 10x in the quarter.”",
       "url": "https://markets.businessinsider.com/news/stocks/cerebras-systems-delivers-record-revenue-in-third-quarter-2026-raises-full-year-outlook-1036758050",
@@ -23241,7 +23261,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加州桑尼維爾，2026 年 11 月 12 日 (環球通訊社) -- 全球最快人工智慧基礎設施製造商 Cerebras Systems（納斯達克股票代碼：CBRS）今天公佈了截至 2026 年 9 月 30 日的第三季度財務業績。 「Cerebras 的技術仍然是無可爭議的速度冠軍，」Cerebras 聯合創始人兼執行長 Andrew Feldman 表示。 「我們為客戶提供更多方式來存取我們的技術並與我們一起擴展，無論是透過直接系統銷售、Cerebras Cloud 還是第三方雲端供應商。",
+        "event": "加州桑尼維爾，2026 年 11 月 12 日 (環球通訊社) -- 全球最快的人工智慧基礎設施製造商 Cerebras Systems（納斯達克股票代碼：CBRS）今天公佈了截至 2026 年 9 月 30 日的第三季度財務業績。 「Cerebras 的技術仍然是無可爭議的速度冠軍，」Cerebras 聯合創始人兼執行長 Andrew Feldman 表示。 「我們為客戶提供更多方式來存取我們的技術並與我們一起擴展，無論是透過直接系統銷售、Cerebras Cloud 還是第三方雲端供應商。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "stance": "「Cerebras 的技術仍然是無可爭議的速度冠軍，」Cerebras 聯合創始人兼執行長 Andrew Feldman 表示。",
@@ -23319,7 +23339,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 計畫在德州和亞利桑那州的人工智慧園區投資超過 740 億美元",
-      "summary": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
+      "summary": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
       "originalTitle": "SpaceX plans over $74 billion investment in Texas, Arizona AI campuses",
       "originalSummary": "SpaceX (SPCX) pegs its Texas and Arizona AI campuses at over $74 billion, yet the shares barely moved because most of it is planned spending. Arizona is the riskier, larger half: a roughly $50 billion campus filed through shell company Tombstone Resources, with no contract backing promised jobs or bill cuts. A December 9 Cochise County zoning hearing decides whether the $74 billion plan holds or the Arizona half falls into doubt. On November 12, 2026, SpaceX ( NASDAQ:SPCX ) put a single price on its AI expansion. In a company update, it said a supercompute facility at Starbase in Texas' Rio Grande Valley and a campus in Cochise County, Arizona, together represent more than $74 billion in planned American investment.",
       "url": "https://finance.yahoo.com/technology/ai/articles/spacex-plans-spend-74-billion-151457546.html",
@@ -23336,7 +23356,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
+        "event": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
         "numbers": [
           "$74 billion",
           "$50 billion",
@@ -23344,7 +23364,7 @@
           "50 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。",
+        "stance": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -26128,7 +26148,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "為什麼恩智浦半導體（NXPI）在最新更新後股價會上漲？",
-      "summary": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長一段時間內一直在增強。",
+      "summary": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長時期內正在增強。",
       "originalTitle": "Why Did NXP Semiconductors (NXPI) Climb After Its Latest Update?",
       "originalSummary": "NXP Semiconductors (NXPI) has just rolled out a unified robotics platform built on its Neural Axis Architecture, tying together sensing, control, AI compute and communications in one hardware and software stack. Against this backdrop, NXP Semiconductors has seen its 1 month share price return reach 19.67% and its year to date share price return reach 21.80%, while the 1 year total shareholder return of 34.39% suggests momentum has been building over a longer stretch despite recent ETF net selling activity.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-nxp-semiconductors-nxpi-051507897.html",
@@ -26144,14 +26164,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長一段時間內一直在增強。",
+        "event": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長時期內正在增強。",
         "numbers": [
           "19.67%",
           "21.80%",
           "34.39%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長一段時間內一直在增強。",
+        "stance": "恩智浦半導體 (NXPI) 剛剛推出了一個基於其神經軸架構構建的統一機器人平台，將感測、控制、人工智慧運算和通訊整合到一個硬體和軟體堆疊中。在此背景下，恩智浦半導體 1 個月股價回報率達到 19.67%，今年迄今股價回報率達到 21.80%，而 1 年股東總回報率為 34.39%，顯示儘管近期 ETF 出現淨拋售活動，但勢頭在較長時期內正在增強。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26165,7 +26185,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "從 SpaceX 到 Anthropic，市場為巨股上市製定了新策略",
-      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街首次公開發行 (IPO) 的記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
       "originalTitle": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
       "originalSummary": "Space Exploration Technologies (SpaceX) rewrote Wall Street’s initial public offering (IPO) record books in June, and Anthropic is hoping to do the same. The developer of the Claude large language model is contending with several historical headwinds. Additionally, the bond market is sending an unmistakable message about AI companies. Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8774454/bad-news-theres-a-new-red-flag-ahead-of-the-anthropic-ipo/",
@@ -26183,10 +26203,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街首次公開發行 (IPO) 的記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街首次公開發行 (IPO) 的記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26694,7 +26714,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "ADI：Analog Devices Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+      "summary": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
       "originalTitle": "ADI: Analog Devices Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Analog Devices (ADI) ended the recent trading session at $397.97, demonstrating a -2.77% change from the preceding day's closing price. The stock's performance was behind the S&P 500's daily loss of 0.41%. Elsewhere, the Dow gained 0.1%, while the tech-heavy Nasdaq lost 0.91%. The semiconductor maker's shares have seen an increase of 1.32% over the last month, surpassing the Computer and Technology sector's loss of 11.52% and the S&P 500's loss of 2.64%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-adi-dipped-220001409.html",
@@ -26710,7 +26730,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "event": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "numbers": [
           "$397.97,",
           "2.77%",
@@ -26718,7 +26738,7 @@
           "0.1%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "stance": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -26820,7 +26840,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "特斯拉（TSLA）成立特別委員會審查可能的全股票合併",
-      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
       "originalTitle": "Tesla (TSLA) Forms Special Committee To Review Possible All Stock Merger",
       "originalSummary": "Tesla (NasdaqGS:TSLA) and SpaceX have each formed special committees to evaluate a potential all-stock merger, according to a new report. The review coincides with Tesla's next-generation Roadster unveiling, which has fueled fresh questions about SpaceX technology being incorporated into the vehicle. Industry analysts are split, with some highlighting possible shareholder dilution and others focusing on potential cross-company use of rocket, chip, and communication tech. The possible Tesla SpaceX all-stock merger and Roadster reveal matter, but investors should weigh Tesla on more than this headline. We have also flagged 1 other big win for Tesla. Consider widening your watchlist to other companies tied to similar long-term technology themes through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-forms-special-committee-181131688.html",
@@ -26838,10 +26858,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
