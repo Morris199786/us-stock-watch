@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24 09:21 台灣時間",
+  "updatedAt": "2026-11-24 09:31 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
@@ -208,8 +208,8 @@
         "takeaway": "真正的投資重點是 AI 資料中心的電力需求正在變成算力擴張瓶頸。大型科技公司若開始直接參與電力供給，通常對核電、電網、電力設備與資料中心基礎建設需求偏正面。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "ASTS",
@@ -1759,8 +1759,8 @@
       "title": "思科與 OpenAI 啟動專案以保護 Agentic AI",
       "summary": "",
       "originalTitle": "Cisco, OpenAI Launch Project to Safeguard Agentic AI",
-      "originalSummary": "Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it’s all thanks to artificial intelligence . Enterprises need a better way to defend themselves, so it’s fitting that one of the world’s top AI companies, OpenAI Group PBC, together with Cisco Systems Inc., is stepping up with a solution. They’ve just announced a new, open-source and extremely ambitious initiative called the Secure Infrastructure Project, which aims to ensure that all AI computing infrastructure is secure by design and capable of defending against lightning-fast AI-driven attacks. The first project within that initiative is Shirudo, which is designed to protect infrastructure systems automatically from critical exploits before they can be patched. In a blog post, Cisco Security Chief Technology Officer and Vice President of Engineering Thomas Graf explained that the industry has always treated security as an afterthought, essentially something that’s bolted onto systems after the fact. It has gotten away with this because much of the world’s computing infrastructure was built for workflows that proceed at human speeds. But with the emergence of AI models that can discover and work out how to exploit vulnerabilities in a matter of seconds, this kind of reactive security is no longer enough. According to Graf, even now, when a major vulnerability is discovered in widely used software, it can take weeks or even months to come up with a fix and ensure that every major system is patched against it. “That timeframe is no longer acceptable given that the mean time to exploitation has become negative, meaning that a growing number of vulnerabilities are now being exploited before they are publicly disclosed,” he said. “This will only accelerate with the further evolution of AI models and cybersecurity capabilities, becoming the norm in open-weight models.” To counter these kinds of automated attacks, Cisco and OpenAI believe that infrastructure has to be rebuilt from scratch with security in mind. They argue that it’s time to abandon static defenses and embrace systems that are hardened by default, immutable and rebuildable from a previous “good” state, so users can quickly revert back in the event of an attack. To do this, infrastructure systems must be based on Trusted Platform Modules and utilize reinforcement learning techniques to safely test their own defenses so they can adapt when faced with novel cyberattacks from previously unknown vectors. Graf said the key to doing this is to secure workloads at runtime, which is why the initial focus of Cisco’s and OpenAI’s initiative is Shirudo , an evolution of the open-source Tetragon runtime security project that aims to provide autonomous defense for AI agents. Shirudo, named after the Japanese word for “shield,” is based on extended Berkeley Packet Filter or eBPF, which is a Linux kernel technology that acts like a kind of sandbox within the operating system. Similar to how JavaScript makes web browsers programmable without a restart, eBPF enables small, verified programs to run inside the Linux kernel to observe an application’s activity and modify its behavior",
-      "url": "https://siliconangle.com/2026/11/23/cisco-and-openai-launch-shirudo-an-open-source-infrastructure-shield-to-protect-against-ai-driven-cyberattacks/",
+      "originalSummary": "An industry-first open source project, Shirudo, helps systems defend themselves at machine speed Defenders can start protecting systems before a permanent patch is in place. Cisco and OpenAI are making that possible through an open source effort to build infrastructure that is secure by default and defends itself. Shirudo, an open source project built on industry-leading eBPF, helps protect running Linux systems without a reboot while teams roll out a patch. This marks a shift from human-paced policy updates to self-defending, agent-driven security. AI agents do the legwork across the full stack, from models and data to the kernel and hardware, while people keep the keys and set the boundaries.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/cisco-openai-launch-shirudo-project-212000509.html",
       "ts": "2026-11-23T22:12:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -1775,12 +1775,11 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it’s all thanks to artificial intelligence . Enterprises need a better way to defend themselves, so it’s fitting that one of the world’s top AI companies, OpenAI Group PBC, together with Cisco Systems Inc., is stepping up with a solution. They’ve just announced a new, open-source and extremely ambitious initiative called the Secure Infrastructure Project, which aims to ensure that all AI computi",
+        "event": "An industry-first open source project, Shirudo, helps systems defend themselves at machine speed Defenders can start protecting systems before a permanent patch is in place. Cisco and OpenAI are making that possible through an open source effort to build infrastructure that is secure by default and defends itself. Shirudo, an open source project built on industry-leading eBPF, helps protect running Linux systems without a reboot while teams roll out a patch. AI agents do the legwork across the full stack, from mode",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it’s all thanks to artificial intelligence . Enterprises need a better way to defend themselves, so it’s fitting that one of the world’s top AI companies, OpenAI Group PBC, together with Cisco Systems Inc., is stepping up with a solution.",
+        "stance": "An industry-first open source project, Shirudo, helps systems defend themselves at machine speed Defenders can start protecting systems before a permanent patch is in place. Cisco and OpenAI are making that possible through an open source effort to build infrastructure that is secure by default and defends itself.",
         "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
@@ -2321,6 +2320,39 @@
       "ticker": "BA",
       "group": "太空／國防／無人系統",
       "tag": "題材",
+      "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls",
+      "summary": "",
+      "originalTitle": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls",
+      "originalSummary": "Stock Market Today: The Dow Jones index surges Monday. President Trump claims a big role in Jensen Huang's return. Boeing stock takes off.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-crowdstrike-zscaler/?src=A00220&yptr=yahoo",
+      "ts": "2026-11-23T21:56:22+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.169606774007306,
+      "relatedTickers": [
+        "BA",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 25.5,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "BA",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
       "title": "今日股市：隨著黃仁勳 (Jensen Huang) 兌現 Nvidia 承諾，道瓊斯指數和納斯達克指數飆升；人為瀑布（現場報道）",
       "summary": "",
       "originalTitle": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Makes This Nvidia Promise; Anthropic Falls (Live Coverage)",
@@ -2739,50 +2771,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "HPE",
-      "group": "AI Server／資料中心硬體",
-      "tag": "題材",
-      "title": "隨著人工智慧需求增加收入和利潤，HPE 上調前景",
-      "summary": "",
-      "originalTitle": "HPE Lifts Outlook as AI Demand Boosts Revenue, Profit",
-      "originalSummary": "Server maker Hewlett-Packard Enterprise Co. posted its fastest quarterly revenue growth on record and raised its full-year forecast, but it wasn’t enough to keep up the momentum of a broader Nvidia Corp.-fueled rally, and its stock was headed lower after-hours. The company reported fourth-quarter earnings before certain costs such as stock compensation of $1.43 per share, easily beating Wall Street’s target of $1.26 per share. Revenue for the period rose 50% from the same period one year earlier, to $14.55 billion, surpassing the Street’s $14.47 billion estimate. HPE also recorded a net profit of $1.82 billion, up from just $175 million in the year-ago period. The stunning revenue growth was a reflection of the enormous demand for artificial intelligence servers and networking equipment, said President and Chief Executive Antonio Neri (pictured). “Our record performance reflects the portfolio we have built to drive durable, profitable growth for our shareholders,” he said in a statement. HPE said it’s raising its revenue expectations for fiscal 2027, which ends next October, saying it’s now targeting growth of between 27% to 35%, or sales of between $59.4 billion and $63.1 billion. Previously, the company had been looking for growth of just 13% to 17%. Neri told analysts on a conference call that the updated guidance reflects the growing demand the company is seeing for AI servers that extends well into next year. He said the company has a strong position as the AI industry shifts from a focus on training models to supporting inference workloads and AI agents. “We have a perfect portfolio to capture that inflection point across networking, cloud and AI,” Neri said, citing “the durability of the demand and the durability of our execution now with a completely different setup in our portfolio.” According to Neri, the improved outlook also reflects the company’s view that the supply of key components such as memory, flash and networking equipment will remain constrained through to the end of calendar 2028. Despite the impressive forecast, HPE couldn’t sustain the momentum of an Nvidia-inspired rally that helped its stock jump more than 17% in regular trading before the earnings report. AI stocks in general received a huge boost earlier today on the news that the chipmaker has reinstated its founder and CEO Jensen Huang . But HPE fell more than 6% after-hours. For the current quarter, HPE is looking for revenue of between $14 billion and $14.6 billion, which would represent growth of 54% at the middle of that forecast. That suggests its revenue growth is going to accelerate and set a new company record. That forecast is strong too, with Wall Street analysts looking for first-quarter sales of just $13 billion. HPE’s biggest rival in the AI server business, Dell Technologies Inc., is expected to announce its own earnings results tomorrow afternoon, along with HP, Nutanix and Workday.",
-      "url": "https://siliconangle.com/2026/11/23/hpes-stock-slides-despite-record-revenue-growth-and-upbeat-forecast/",
-      "ts": "2026-11-23T21:37:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 17.379613786360327,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
-      "relatedTickers": [
-        "HPE",
-        "NVDA"
-      ],
-      "eventType": "跨公司事件",
-      "score": 43.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "Revenue for the period rose 50% from the same period one year earlier, to $14.55 billion, surpassing the Street’s $14.47 billion estimate. HPE said it’s raising its revenue expectations for fiscal 2027, which ends next October, saying it’s now targeting growth of between 27% to 35%, or sales of between $59.4 billion and $63.1 billion. “We have a perfect portfolio to capture that inflection point across networking, cloud and AI,” Neri said, citing “the durability of the demand and the durability of our execution now",
-        "numbers": [
-          "$1.43",
-          "$1.26",
-          "$14.55 billion",
-          "$14.47 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "The stunning revenue growth was a reflection of the enormous demand for artificial intelligence servers and networking equipment, said President and Chief Executive Antonio Neri (pictured).",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 10
     }
   ],
   "historyItems": [
