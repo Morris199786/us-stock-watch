@@ -1,11 +1,43 @@
 {
-  "updatedAt": "2026-11-24 10:24 台灣時間",
+  "updatedAt": "2026-11-24 10:30 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-23",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "即時更新：川普敦促英偉達恢復黃仁勳 (Jensen Huang) 的執行長職務",
+      "summary": "",
+      "originalTitle": "Live Updates: Trump Pressed Nvidia to Reinstate Jensen Huang as C.E.O.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdnQ0LTNaSmJtV2pfeHlCZmVqWDM1QXU0TkZZcnYxS1JpTGozTVR2dVhfM013NUp2VWdoMmdFWjZtR0tUenJlOURYNGFtcmZwZjJrd2VnSjUxVnFoZk90bWhrV3d3NzNkTTlyNjM3NzZXaXZLUEdEWlV4ZGdEeUZQY0xZbzBnZUYz?oc=5",
+      "ts": "2026-11-24T02:18:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
@@ -80,6 +112,75 @@
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "HPE",
+      "group": "AI Server／資料中心硬體",
+      "tag": "題材",
+      "title": "黃仁勳回歸 Nvidia 引發 3T 美元市場反彈，納斯達克、道瓊指數、標準普爾 500 指數期貨上漲：SOXS、IBRX、HPE、TSM 成為焦點",
+      "summary": "在英偉達宣布黃仁勳將重新擔任公司總裁、執行長和董事會成員後，華爾街的樂觀情緒飆升。",
+      "originalTitle": "Nasdaq, Dow, S&P 500 Futures Gain As Jensen Huang’s Return To Nvidia Sparks $3T Market Rally: SOXS, IBRX, HPE, TSM In Focus",
+      "originalSummary": "Optimism on Wall Street soared after Nvidia announced that Huang would return as President, CEO, and board member of the company.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-dow-p-500-futures-021343688.html",
+      "ts": "2026-11-24T02:13:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 17.379613786360327,
+      "relatedTickers": [
+        "HPE",
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 30.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SPCX",
+      "group": "太空／國防／無人系統",
+      "tag": "題材",
+      "title": "特斯拉和 SPCX 反彈，馬斯克為黃仁勳的回歸歡呼——分析師指出 Nvidia 正在推動向 SpaceX 發送更多晶片",
+      "summary": "ARK 的 Brett Winton 認為，黃最終傾向於向 SpaceX 提供額外的晶片供應，而不是為仍在努力將項目上線的更廣泛的小型人工智慧基礎設施開發商提供資金。",
+      "originalTitle": "TSLA And SPCX Rally As Musk Cheers Huang’s Return — Analyst Flags Nvidia’s Push To Send SpaceX More Chips",
+      "originalSummary": "ARK’s Brett Winton believes Huang ultimately favored directing additional chip supply toward SpaceX rather than financing a broader group of smaller AI infrastructure developers still struggling to bring their projects online.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-rally-musk-cheers-021256492.html",
+      "ts": "2026-11-24T02:12:56+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 4.350888175913603,
+      "relatedTickers": [
+        "SPCX",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 33.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "ARK 的 Brett Winton 認為，黃最終傾向於向 SpaceX 提供額外的晶片供應，而不是為仍在努力將項目上線的更廣泛的小型人工智慧基礎設施開發商提供資金。",
+        "numbers": [],
+        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
+        "stance": "ARK 的 Brett Winton 認為，黃最終傾向於向 SpaceX 提供額外的晶片供應，而不是為仍在努力將項目上線的更廣泛的小型人工智慧基礎設施開發商提供資金。",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
       },
       "top10": false,
@@ -213,7 +314,7 @@
       ],
       "eventType": "",
       "score": 15.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -321,6 +422,46 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "SK Hynix",
+      "group": "記憶體／儲存",
+      "tag": "題材",
+      "title": "黃仁勳重新出任首席執行官，英偉達亞洲供應商大漲：SK海力士股價上漲8%，軟銀股價在東京上漲",
+      "summary": "黃仁勳重新擔任英偉達公司（納斯達克股票代碼：NVDA）首席執行官，導致其亞洲合作夥伴和供應商的股價週二大幅上漲。美國期貨持有量上漲，亞洲市場上漲 截至晚上 7:42 左右，標普 500 指數期貨小幅上漲 14.25 點，漲幅為 0.20%，至 7,268.75 點。美國東部時間週一。那斯達克100指數期貨上漲1,751.75點，漲幅6.97%，至26,878.25點，道瓊工業指數期貨上漲1,447點。",
+      "originalTitle": "Nvidia’s Asian Suppliers Rally as Jensen Huang Returns as CEO: SK Hynix Jumps 8%, SoftBank Shares Rise in Tokyo",
+      "originalSummary": "Jensen Huang‘s return as chief executive of Nvidia Corp. (NASDAQ:NVDA) sent shares of its Asian partners and suppliers sharply higher on Tuesday. Asian Markets Rally as US Futures Hold Gains S&P 500 futures edged up 14.25 points, or 0.20%, to 7,268.75 as of around 7:42 p.m. EST on Monday. The Nasdaq 100 futures climbed 1,751.75 points, or 6.97%, to 26,878.25, while the Dow Jones Industrial Average futures rose 1,447.98 points, or 3%, to 49,595.31. In Asia, South Korea’s KOSPI jumped 5.81%, to 4,",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-asian-suppliers-rally-jensen-012213841.html",
+      "ts": "2026-11-24T01:22:13+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 8.294930875576046,
+      "relatedTickers": [
+        "SK HYNIX",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 34.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "黃仁勳重新擔任英偉達公司（納斯達克股票代碼：NVDA）首席執行官，導致其亞洲合作夥伴和供應商的股價週二大幅上漲。美國期貨持有量上漲，亞洲市場上漲 截至晚上 7:42 左右，標普 500 指數期貨小幅上漲 14.25 點，漲幅為 0.20%，至 7,268.75 點。美國東部時間週一。那斯達克100指數期貨上漲1,751.75點，漲幅6.97%，至26,878.25點，道瓊工業指數期貨上漲1,447點。",
+        "numbers": [
+          "8%",
+          "0.20%",
+          "6.97%",
+          "3%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "黃仁勳重新擔任英偉達公司（納斯達克股票代碼：NVDA）首席執行官，導致其亞洲合作夥伴和供應商的股價週二大幅上漲。美國期貨持有量上漲，亞洲市場上漲 截至晚上 7:42 左右，標普 500 指數期貨小幅上漲 14.25 點，漲幅為 0.20%，至 7,268.75 點。美國東部時間週一。那斯達克100指數期貨上漲1,751.75點，漲幅6.97%，至26,878.25點，道瓊工業指數期貨上漲1,447點。",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -662,32 +803,29 @@
       "title": "為什麼亞馬遜的 Starlink 競爭對手正在努力追趕 SpaceX",
       "summary": "對星鏈替代方案的需求很大，但亞馬遜的衛星部門 Leo 正面臨挫折。",
       "originalTitle": "Why Amazon’s Rival to Starlink Is Struggling to Catch Up With SpaceX",
-      "originalSummary": "Amazon’s bid to give homes and businesses another satellite broadband option just lost 40 satellites before they could reach orbit. A United Launch Alliance (ULA) Vulcan rocket failed during a Nov. 15 mission carrying satellites for Amazon Leo, its planned Starlink rival. The loss adds uncertainty for businesses considering the service for remote offices or backup connectivity. It was ULA’s first complete mission failure since the company was formed in 2006. In a statement posted on X , ULA said: “Based on data received by our Launch Director, we confirm that the Vulcan vehicle launched from Space Launch Complex 41 suffered an anomaly 10 minutes into the flight and failed to deliver the Amazon mission to orbit.” It was the fifth flight of ULA’s Vulcan rocket, which has suffered technical problems on multiple missions as ULA attempts to modernize its launch capabilities to compete with SpaceX. It was also the first of 38 Vulcan launches Amazon has purchased to get its Leo satellite service operational. Amazon has previously launched satellites aboard ULA’s Atlas V rockets. Vulcan is intended to replace ULA’s older launch vehicles and support larger Amazon Leo payloads. The company has faced multiple setbacks in getting its Leo satellite network fully operational. Even before the latest mission failure, the company had experienced delays securing launch windows with ULA due to technical issues with Vulcan. Amazon’s other launch partners include Blue Origin, Arianespace, and SpaceX. Blue Origin suffered a New Glenn rocket explosion during a prelaunch ground test in May, adding uncertainty to its launch schedule. Arianespace has successfully deployed 100 Amazon satellites across three missions. Its next Amazon launch, targeting no earlier than Nov. 23, would add another 36. These setbacks complicate Amazon’s deployment plans . Before the Vulcan failure, the company was still targeting an initial service rollout later in 2026; the failure does not establish a revised launch date.",
-      "url": "https://www.techrepublic.com/article/news-amazon-leo-vulcan-launch-failure/",
+      "originalSummary": "",
+      "url": "https://www.wsj.com/tech/amazon-leo-starlink-rival-5bb0e6a0?siteid=yhoof2&yptr=yahoo",
       "ts": "2026-11-24T01:00:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": 3.4721659508953895,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
         "AMZN",
         "SPCX"
       ],
-      "eventType": "跨公司事件",
-      "score": 34.5,
+      "eventType": "",
+      "score": 12.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
-        "event": "對星鏈替代方案的需求很大，但亞馬遜的衛星部門 Leo 正面臨挫折。",
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "對星鏈替代方案的需求很大，但亞馬遜的衛星部門 Leo 正面臨挫折。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -833,7 +971,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "AST SpaceMobile 庫存獲得 FCC 批准直接設備服務",
-      "summary": "AST SpaceMobile 獲得了 FCC 批准的直接到設備衛星服務，並概述了到 2026 年底在美國、加拿大、日本、沙烏地阿拉伯和英國等主要市場實現間歇性全國覆蓋的計劃。在與 AT&T 和 Verizon 合作的支持下，監管審批和推出計劃相結合，使人們更加關注 AST SpaceMobile 的執行、資本使用和建設時間表風險",
+      "summary": "",
       "originalTitle": "AST SpaceMobile Stock Gets FCC Approval for Direct to Device Service",
       "originalSummary": "AST SpaceMobile secured FCC approval for direct-to-device satellite service and outlined plans for intermittent nationwide coverage by late 2026 across key markets including the US, Canada, Japan, Saudi Arabia and the UK. The combination of regulatory clearance and rollout plans, backed by partnerships with AT&T and Verizon, puts greater attention on AST SpaceMobile’s execution, capital use and timeline risk in building a usable space-based cellular network. We will now see how AST...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-stock-gets-fcc-002319879.html",
@@ -846,13 +984,13 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile 獲得了 FCC 批准的直接到設備衛星服務，並概述了到 2026 年底在美國、加拿大、日本、沙烏地阿拉伯和英國等主要市場實現間歇性全國覆蓋的計劃。在與 AT&T 和 Verizon 合作的支持下，監管審批和推出計劃相結合，使人們更加關注 AST SpaceMobile 的執行、資本使用和建設時間表風險",
+        "event": "AST SpaceMobile 獲得了 FCC 批准的直接到設備衛星服務，並概述了到 2026 年底在美國、加拿大、日本、沙烏地阿拉伯和英國等主要市場實現間歇性全國覆蓋的計劃。在與 AT&T 和 Verizon 合作的支持下，監管審批和推出計劃相結合，使人們更加關注 AST SpaceMobile 在建立可用的天基蜂窩網路方面的執行、資本使用和時間風險。現在我們將了解 AST 如何...",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "AST SpaceMobile 獲得了 FCC 批准的直接到設備衛星服務，並概述了到 2026 年底在美國、加拿大、日本、沙烏地阿拉伯和英國等主要市場實現間歇性全國覆蓋的計劃。在與 AT&T 和 Verizon 合作的支持下，監管審批和推出計劃相結合，使人們更加關注 AST SpaceMobile 的執行、資本使用和建設時間表風險",
+        "stance": "AST SpaceMobile 獲得了 FCC 批准的直接到設備衛星服務，並概述了到 2026 年底在美國、加拿大、日本、沙烏地阿拉伯和英國等主要市場實現間歇性全國覆蓋的計劃。在與 AT&T 和 Verizon 合作的支持下，監管審批和推出計劃相結合，使人們更加關注 AST SpaceMobile 在建立可用的天基蜂窩網路方面的執行、資本使用和時間風險。現在我們將了解 AST 如何...",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -867,7 +1005,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "利空",
       "title": "第三季業績引發利潤率爭論，CrowdStrike (CRWD) 股價下跌",
-      "summary": "CrowdStrike 的股票在發布 2027 財年第三季報告後遭受重創，下跌約 9% 至 208.97 美元，儘管該季度的網路安全規模創下了紀錄。標題很清楚。收入達 1.58 美元，年度經常性淨收入為 4.19 億美元，經常性承諾總額達 6.26 美元。短期交易者關注大幅回調。目光長遠的投資者可能會關注經常性收入引擎及其",
+      "summary": "",
       "originalTitle": "CrowdStrike (CRWD) Stock Price Drops As Q3 Results Revive Margin Debate",
       "originalSummary": "CrowdStrike stock took a hit after its Q3 FY2027 report, falling about 9% to US$208.97, even though the quarter delivered record cybersecurity scale. The headline was clear. Revenue reached US$1.58b and net new annual recurring revenue of US$419m pushed total recurring commitments to US$6.26b. Short term traders focused on the sharp pullback. Longer horizon investors may focus on that recurring revenue engine and its implications for cash generation over the next several years, particularly...",
       "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-stock-price-drops-002225750.html",
@@ -880,10 +1018,10 @@
       ],
       "eventType": "",
       "score": 9.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "CrowdStrike 的股票在發布 2027 財年第三季報告後遭受重創，下跌約 9% 至 208.97 美元，儘管該季度的網路安全規模創下了紀錄。標題很清楚。收入達 1.58 美元，年度經常性淨收入為 4.19 億美元，經常性承諾總額達 6.26 美元。短期交易者關注大幅回調。目光長遠的投資者可能會關注經常性收入引擎及其",
+        "event": "CrowdStrike 的股票在發布 2027 財年第三季報告後遭受重創，下跌約 9% 至 208.97 美元，儘管該季度的網路安全規模創下了紀錄。標題很清楚。收入達 1.58 美元，年度經常性淨收入為 4.19 億美元，經常性承諾總額達 6.26 美元。目光長遠的投資者可能會關注經常性收入引擎及其對未來幾年現金的影響，特別是...",
         "numbers": [
           "$208.97,",
           "$1.58b",
@@ -891,7 +1029,7 @@
           "$6.26b"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "CrowdStrike 的股票在發布 2027 財年第三季報告後遭受重創，下跌約 9% 至 208.97 美元，儘管該季度的網路安全規模創下了紀錄。標題很清楚。收入達 1.58 美元，年度經常性淨收入為 4.19 億美元，經常性承諾總額達 6.26 美元。短期交易者關注大幅回調。目光長遠的投資者可能會關注經常性收入引擎及其",
+        "stance": "CrowdStrike 的股票在發布 2027 財年第三季報告後遭受重創，下跌約 9% 至 208.97 美元，儘管該季度的網路安全規模創下了紀錄。標題很清楚。收入達 1.58 美元，年度經常性淨收入為 4.19 億美元，經常性承諾總額達 6.26 美元。短期交易者關注大幅回調。目光長遠的投資者可能會關注經常性收入引擎及其對未來幾年現金的影響，特別是...",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -906,7 +1044,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "國際商業機器公司 (IBM) 在新產業分析中成為智慧港口領導者",
-      "summary": "產業研究人員強調國際商業機器公司（NYSE：IBM）是全球智慧港口市場的關鍵技術供應商。新的分析强调了 IBM 在全球主要港口运营商的数字化、人工智能、区块链和网络安全项目中的作用。智能港口被描述为一个价值数十亿美元的基础设施机会，它将自动化、数据平台和可持续发展联系起来",
+      "summary": "",
       "originalTitle": "International Business Machines (IBM) Emerges As A Smart Ports Leader In New Industry Analysis",
       "originalSummary": "Industry researchers highlight International Business Machines (NYSE:IBM) as a key technology supplier in the global smart ports market. The new analysis singles out IBM's role in digitalization, AI, blockchain and cybersecurity projects across major port operators worldwide. Smart ports are described as a multibillion dollar infrastructure opportunity that links automation, data platforms and sustainability focused logistics systems. IBM's smart ports profile, described in the fresh...",
       "url": "https://finance.yahoo.com/technology/articles/international-business-machines-ibm-emerges-002113886.html",
@@ -919,13 +1057,13 @@
       ],
       "eventType": "",
       "score": 6.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "產業研究人員強調國際商業機器公司（NYSE：IBM）是全球智慧港口市場的關鍵技術供應商。新的分析强调了 IBM 在全球主要港口运营商的数字化、人工智能、区块链和网络安全项目中的作用。智能港口被描述为一个价值数十亿美元的基础设施机会，它将自动化、数据平台和可持续发展联系起来",
+        "event": "產業研究人員強調國際商業機器公司（NYSE：IBM）是全球智慧港口市場的關鍵技術供應商。新的分析強調了 IBM 在全球主要港口營運商的數位化、人工智慧、區塊鏈和網路安全項目中的作用。智慧港口被描述為一個價值數十億美元的基礎設施機會，它將自動化、數據平台和永續發展的物流系統連接起來。 IBM 的智慧型連接埠設定文件，在最新的...",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "產業研究人員強調國際商業機器公司（NYSE：IBM）是全球智慧港口市場的關鍵技術供應商。新的分析强调了 IBM 在全球主要港口运营商的数字化、人工智能、区块链和网络安全项目中的作用。智能港口被描述为一个价值数十亿美元的基础设施机会，它将自动化、数据平台和可持续发展联系起来",
+        "stance": "產業研究人員強調國際商業機器公司（NYSE：IBM）是全球智慧港口市場的關鍵技術供應商。新的分析強調了 IBM 在全球主要港口營運商的數位化、人工智慧、區塊鏈和網路安全項目中的作用。智慧港口被描述為一個價值數十億美元的基礎設施機會，它將自動化、數據平台和永續發展的物流系統連接起來。 IBM 的智慧型連接埠設定文件，在最新的...",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2576,10 +2714,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "加入俱樂部即可快速存取。在下面輸入您的電子郵件，我們將發送確認訊息，並讓您訂閱我們的電子報。提交您的資訊即表示您同意條款和條件以及隱私權政策，並且您已年滿 16 歲。",
+        "event": "加入俱樂部即可快速存取。在下面輸入您的電子郵件，我們將發送確認訊息，並讓您註冊我們的新聞通訊。提交您的資訊即表示您同意條款和條件以及隱私權政策，並且您已年滿 16 歲。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "加入俱樂部即可快速存取。在下面輸入您的電子郵件，我們將發送確認訊息，並讓您訂閱我們的電子報。提交您的資訊即表示您同意條款和條件以及隱私權政策，並且您已年滿 16 歲。",
+        "stance": "加入俱樂部即可快速存取。在下面輸入您的電子郵件，我們將發送確認訊息，並讓您註冊我們的新聞通訊。提交您的資訊即表示您同意條款和條件以及隱私權政策，並且您已年滿 16 歲。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2596,8 +2734,8 @@
       "title": "思科與 OpenAI 啟動專案以保護 Agentic AI",
       "summary": "",
       "originalTitle": "Cisco, OpenAI Launch Project to Safeguard Agentic AI",
-      "originalSummary": "An industry-first open source project, Shirudo, helps systems defend themselves at machine speed Defenders can start protecting systems before a permanent patch is in place. Cisco and OpenAI are making that possible through an open source effort to build infrastructure that is secure by default and defends itself. Shirudo, an open source project built on industry-leading eBPF, helps protect running Linux systems without a reboot while teams roll out a patch. This marks a shift from human-paced policy updates to self-defending, agent-driven security. AI agents do the legwork across the full stack, from models and data to the kernel and hardware, while people keep the keys and set the boundaries.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/cisco-openai-launch-shirudo-project-212000509.html",
+      "originalSummary": "Cybercriminals have gained the ability to discover vulnerabilities in software and take advantage of them in seconds, and it’s all thanks to artificial intelligence . Enterprises need a better way to defend themselves, so it’s fitting that one of the world’s top AI companies, OpenAI Group PBC, together with Cisco Systems Inc., is stepping up with a solution. They’ve just announced a new, open-source and extremely ambitious initiative called the Secure Infrastructure Project, which aims to ensure that all AI computing infrastructure is secure by design and capable of defending against lightning-fast AI-driven attacks. The first project within that initiative is Shirudo, which is designed to protect infrastructure systems automatically from critical exploits before they can be patched. In a blog post, Cisco Security Chief Technology Officer and Vice President of Engineering Thomas Graf explained that the industry has always treated security as an afterthought, essentially something that’s bolted onto systems after the fact. It has gotten away with this because much of the world’s computing infrastructure was built for workflows that proceed at human speeds. But with the emergence of AI models that can discover and work out how to exploit vulnerabilities in a matter of seconds, this kind of reactive security is no longer enough. According to Graf, even now, when a major vulnerability is discovered in widely used software, it can take weeks or even months to come up with a fix and ensure that every major system is patched against it. “That timeframe is no longer acceptable given that the mean time to exploitation has become negative, meaning that a growing number of vulnerabilities are now being exploited before they are publicly disclosed,” he said. “This will only accelerate with the further evolution of AI models and cybersecurity capabilities, becoming the norm in open-weight models.” To counter these kinds of automated attacks, Cisco and OpenAI believe that infrastructure has to be rebuilt from scratch with security in mind. They argue that it’s time to abandon static defenses and embrace systems that are hardened by default, immutable and rebuildable from a previous “good” state, so users can quickly revert back in the event of an attack. To do this, infrastructure systems must be based on Trusted Platform Modules and utilize reinforcement learning techniques to safely test their own defenses so they can adapt when faced with novel cyberattacks from previously unknown vectors. Graf said the key to doing this is to secure workloads at runtime, which is why the initial focus of Cisco’s and OpenAI’s initiative is Shirudo , an evolution of the open-source Tetragon runtime security project that aims to provide autonomous defense for AI agents. Shirudo, named after the Japanese word for “shield,” is based on extended Berkeley Packet Filter or eBPF, which is a Linux kernel technology that acts like a kind of sandbox within the operating system. Similar to how JavaScript makes web browsers programmable without a restart, eBPF enables small, verified programs to run inside the Linux kernel to observe an application’s activity and modify its behavior",
+      "url": "https://siliconangle.com/2026/11/23/cisco-and-openai-launch-shirudo-an-open-source-infrastructure-shield-to-protect-against-ai-driven-cyberattacks/",
       "ts": "2026-11-23T22:12:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -2612,11 +2750,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Shirudo 是業界首個開源項目，可協助系統以機器速度進行自我防禦。防御者可以在永久性補丁到位之前開始保護系統。思科和 OpenAI 正在透過開源努力建立預設安全且自我保護的基礎設施，從而使這一目標成為可能。 Shirudo 是一個基於業界領先的 eBPF 建置的開源項目，有助於保護正在運行的 Linux 系統，而無需在團隊推出修補程式時重新啟動。人工智慧代理從模式開始在整個堆疊中進行跑腿工作",
+        "event": "網路犯罪分子已經能夠在幾秒鐘內發現軟體中的漏洞並利用它們，而這一切都歸功於人工智慧。企業需要更好的方式來保護自己，因此世界頂級人工智慧公司之一 OpenAI Group PBC 與思科系統公司合作，正在加緊推出解決方案，這是理所當然的。他們剛剛宣布了一項新的開源且雄心勃勃的計劃，稱為“安全基礎設施項目”，旨在確保所有人工智慧運算",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "Shirudo 是業界首個開源項目，可協助系統以機器速度進行自我防禦。防御者可以在永久性補丁到位之前開始保護系統。思科和 OpenAI 正在透過開源努力建立預設安全且自我保護的基礎設施，從而使這一目標成為可能。 Shirudo 是一個基於業界領先的 eBPF 建置的開源項目，有助於保護正在運行的 Linux 系統，而無需在團隊推出修補程式時重新啟動。這標誌著從以人為本的策略更新到自我防禦、代理驅動的安全的轉變。人工智慧代理在整個堆疊中進行跑腿工作，從模型和數據到核心和硬件，而人們則保留密鑰並設置邊界。",
+        "stance": "網路犯罪分子已經能夠在幾秒鐘內發現軟體中的漏洞並利用它們，而這一切都歸功於人工智慧。企業需要更好的方式來保護自己，因此世界頂級人工智慧公司之一 OpenAI Group PBC 與思科系統公司合作，正在加緊推出解決方案，這是理所當然的。他們剛剛宣布了一項新的開源且雄心勃勃的計劃，稱為“安全基礎設施項目”，該計劃旨在確保所有人工智慧計算基礎設施的設計都是安全的，並且能夠防禦閃電般快速的人工智慧驅動的攻擊。該計劃中的第一個項目是 Shirudo，旨在在修補基礎設施系統之前自動保護其免受關鍵漏洞的攻擊。在部落格文章中，思科安全技術長兼工程副總裁 Thomas Graf 表示",
         "watch": [
+          "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
         "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
@@ -2644,143 +2783,6 @@
       ],
       "eventType": "",
       "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CRWV",
-      "group": "NeoCloud／AI 算力",
-      "tag": "題材",
-      "title": "今日股市，11 月 23 日：隨著 Nvidia 恢復黃仁勳 (Jensen Huang) 執行長職務，CoreWeave 飆升 22%",
-      "summary": "",
-      "originalTitle": "Stock Market Today, Nov. 23: CoreWeave Surges 22% as Nvidia Reinstates Jensen Huang as CEO",
-      "originalSummary": "Today, Nov. 23, 2026, AI cloud names rallied as CoreWeave closed sharply higher on renewed sector optimism and heavy trading volume.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-23-220910824.html",
-      "ts": "2026-11-23T22:09:10+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 22.323462414578586,
-      "relatedTickers": [
-        "CRWV",
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 30.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "STX",
-      "group": "記憶體／儲存",
-      "tag": "利多",
-      "title": "即使獲利定價豐厚，希捷 (STX) 股票看起來仍被低估",
-      "summary": "",
-      "originalTitle": "Seagate (STX) Stock Looks Undervalued Even With Rich Earnings Pricing",
-      "originalSummary": "Seagate Technology Holdings has delivered very strong long term gains for shareholders, yet the recent pullback raises a sharper question for you as an investor: how much of today’s share price is really supported by its current earnings power? Over the past 3 years, Seagate’s stock has returned a very large gain, which puts a lot of weight on whether its profit base can justify that kind of move. Recent product launches in high capacity storage, such as the FireCuda Forge line, can shape...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-stx-stock-looks-undervalued-220748479.html",
-      "ts": "2026-11-23T22:07:48+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 13.804949563466895,
-      "relatedTickers": [
-        "STX"
-      ],
-      "eventType": "新題材",
-      "score": 33.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "希捷科技控股公司為股東帶來了非常強勁的長期收益，但最近的回調給作為投資者的您提出了一個更尖銳的問題：今天的股價有多少真正是由其當前的盈利能力支撐的？在過去的三年裡，希捷的股票回報了非常大的漲幅，這極大地影響了其利潤基礎是否能夠證明這種舉措的合理性。最近推出的高容量儲存產品（例如 FireCuda Forge 系列）可以塑造...",
-        "numbers": [],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "希捷科技控股公司為股東帶來了非常強勁的長期收益，但最近的回調給作為投資者的您提出了一個更尖銳的問題：今天的股價有多少真正是由其當前的盈利能力支撐的？在過去的三年裡，希捷的股票回報了非常大的漲幅，這極大地影響了其利潤基礎是否能夠證明這種舉措的合理性。最近推出的高容量儲存產品（例如 FireCuda Forge 系列）可以塑造...",
-        "watch": [
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "特斯拉 (TSLA) 正在推進 3.5 兆美元的合併",
-      "summary": "",
-      "originalTitle": "Tesla (TSLA) Is Advancing Toward A $3.5 Trillion Merger",
-      "originalSummary": "Tesla (NasdaqGS:TSLA) plans a wide release of its Full Self-Driving v15 software with the Tesla Reality View interface in the coming weeks. Company insiders describe Tesla Reality View as a rebuilt driving visualisation system designed to give drivers a richer real time view of the car's surroundings. People familiar with discussions say Tesla and SpaceX are exploring a potential merger that could value the combined group at about US$3.5 trillion. The planned FSD v15 rollout and the...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-advancing-toward-3-220707866.html",
-      "ts": "2026-11-23T22:07:07+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 11.462610606673994,
-      "relatedTickers": [
-        "TSLA",
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "特斯拉（NasdaqGS：TSLA）計劃在未來幾週內廣泛發布具有 Tesla Reality View 介面的全自動駕駛 v15 軟體。公司內部人士將 Tesla Reality View 描述為重建的駕駛視覺化系統，旨在為駕駛員提供更豐富的汽車周圍環境即時視圖。知情人士稱，特斯拉和 SpaceX 正在探索潛在的合併，合併後集團的估值可能達到約 3.5 兆美元。計劃推出的 FSD v15 以及...",
-        "numbers": [
-          "$3.5"
-        ],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "特斯拉（NasdaqGS：TSLA）計劃在未來幾週內廣泛發布具有 Tesla Reality View 介面的全自動駕駛 v15 軟體。公司內部人士將 Tesla Reality View 描述為重建的駕駛視覺化系統，旨在為駕駛員提供更豐富的汽車周圍環境即時視圖。知情人士稱，特斯拉和 SpaceX 正在探索潛在的合併，合併後集團的估值可能達到約 3.5 兆美元。計劃推出的 FSD v15 以及...",
-        "watch": [
-          "後續是否出現可量化的營收、毛利或訂單數據"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MRVL",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "為什麼 Marvell 科技股今天大跌",
-      "summary": "",
-      "originalTitle": "Why Marvell Technology Stock Crushed it Today",
-      "originalSummary": "Good news for a major business partner and fellow shareholder was good news for the AI chipmaker.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-stock-crushed-220645377.html",
-      "ts": "2026-11-23T22:06:45+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 18.367680732744528,
-      "relatedTickers": [
-        "MRVL"
-      ],
-      "eventType": "",
-      "score": 15.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2982,7 +2984,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 股價較最高點下跌 68%，剛贏得歐洲太空總署飛行員稱號。以下是 1,000 美元的投資現在是否有意義。",
-      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
       "originalTitle": "Planet Labs Is Down 68% From Its High and Just Won a European Space Agency Pilot. Here's Whether a $1,000 Investment Makes Sense Now.",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 719 %* — a market-crushing outperformance compared to 192 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 23, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/23/planet-labs-is-down-68-from-its-high-and-just-won/",
@@ -2999,7 +3001,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "numbers": [
           "$1,000",
           "68%",
@@ -3007,7 +3009,7 @@
           "192 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -10087,7 +10089,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 與 Stoke Space 合作——以防萬一 SpaceX 真的讓獵鷹 9 號退役",
-      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
       "originalTitle": "Planet Labs Teams Up With Stoke Space -- Just In Case SpaceX Really Retires the Falcon 9",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 794 %* — a market-crushing outperformance compared to 203 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 19, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/19/planet-labs-teams-up-with-stoke-space-just-in-case-spacex-really-retires-the-falcon-9/",
@@ -10104,13 +10106,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "numbers": [
           "794 %",
           "203 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -19644,7 +19646,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 捕獲一艘星際飛船",
-      "summary": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+      "summary": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
       "originalTitle": "SpaceX Catches a Starship",
       "originalSummary": "After circling the Earth 14 times, the upper portion of Starship descended to the planet's surface and was caught by a giant pair of robotic, chopstick-like arms. However, the company failed to snatch the lower stage, which it had previously demonstrated",
       "url": "https://www.smithsonianmag.com/smart-news/spacex-catches-the-upper-stage-of-its-starship-for-the-first-time-making-the-company-one-step-closer-to-a-reusable-rocket-180989877/",
@@ -19660,10 +19662,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+        "event": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+        "stance": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -21275,7 +21277,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "泰瑞達受益於強勁的測試需求：它能否擊敗 KLAC 和 COHU？",
-      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
       "originalTitle": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
       "originalSummary": "Teradyne TER is benefiting from strong semiconductor test demand, accelerating artificial intelligence (AI) infrastructure investments, and increasing complexity in advanced chip architectures. Rising demand for AI accelerators, high-bandwidth memory (HBM), and high-performance computing solutions is strengthening the company's growth prospects and competitive position against KLA KLAC and Cohu COHU. Teradyne reported impressive third-quarter 2026 results, with revenues surging 70% year over year to $1.31 billion. Semiconductor Test revenues increased 77% to more than $1 billion, supported by robust demand for AI accelerators, high-bandwidth memory (HBM) and power management solutions. Compute revenues grew nearly 50%, while memory revenues reached a record $301 million, reflecting strong demand for HBM and DRAM testing. Teradyne's expanding product portfolio is another key growth driver. The company's UltraFLEXplus platform is gaining traction as hyperscalers increasingly adopt dual-vendor testing strategies. Its recently introduced UltraVS64-HP, UltraPort-PCIe6 and Magnum E2 solutions strengthen its ability to address next-generation AI accelerators, high-speed connectivity and advanced memory testing requirements. Teradyne expects additional hyperscaler capacity purchases and compute-related revenue opportunities in 2027. Teradyne's expanding AI-driven opportunities and product innovations position it favorably to sustain momentum against KLAC and COHU. For the fourth quarter of 2026, Teradyne expects revenues between $1.25 billion and $1.35 billion. The midpoint of the guidance range stands at $1.30 billion.",
       "url": "https://finance.yahoo.com/technology/articles/teradyne-benefits-strong-test-demand-152000700.html",
@@ -21292,7 +21294,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "numbers": [
           "$1.31 billion",
           "$1 billion",
@@ -21300,7 +21302,7 @@
           "$1.25 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -21966,7 +21968,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "Vicor Corporation (VICR) 最新股票新聞和頭條新聞",
-      "summary": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+      "summary": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
       "originalTitle": "Vicor Corporation (VICR) latest stock news and headlines",
       "originalSummary": "It has been about a month since the last earnings report for Vicor (VICR). Shares have lost about 31.8% in that time frame, underperforming the S&P 500. Will the recent negative trend continue leading up to its next earnings release, or is Vicor due for a breakout? Well, first let's take a quick look at its most recent earnings report in order to get a better handle on the recent drivers for Vicor Corporation before we dive into how investors and analysts have reacted as of late.",
       "url": "https://uk.finance.yahoo.com/news/why-vicor-vicr-down-31-153007608.html",
@@ -21982,12 +21984,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+        "event": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
         "numbers": [
           "31.8%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。最近的負面趨勢會持續到下次財報發布之前嗎？還是 Vicor 會迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
+        "stance": "自 Vicor (VICR) 上次發布收益報告以來已經過去了大約一個月。在此期間，該股下跌了約 31.8%，表現遜於標準普爾 500 指數。近期的負面趨勢會持續到下次財報發布前嗎？還是 Vicor 即將迎來突破？好吧，首先讓我們快速瀏覽一下 Vicor 公司最近的收益報告，以便更好地了解 Vicor 公司最近的驅動因素，然後再深入研究投資者和分析師最近的反應。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻"
         ],
@@ -22465,7 +22467,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室將於本週發射具有里程碑意義的第 100 枚電子火箭",
-      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
       "originalTitle": "Rocket Lab To Launch Milestone 100th Electron Rocket This Week",
       "originalSummary": "Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, marking a new global benchmark for small-lift orbital vehicles. The Electron milestone highlights Rocket Lab's record of rapid response missions and engineering focused on frequent commercial space access. CEO Peter Beck is positioning the upcoming Neutron rocket as a competitor to SpaceX by prioritizing external launch customers alongside in-house programs. The 100th Electron launch and Beck's Neutron versus Starship positioning sit against a wider set of trends our research has uncovered. Our analysis turns up 3 warning signs for Rocket Lab as well. Rocket Lab is far from the only business exposed to the buildout of space and compute capacity that underpins AI infrastructure, so it is worth comparing it with a broader peer set through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-nears-100th-020711401.html",
@@ -22482,10 +22484,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+        "stance": "Electron 的里程碑凸顯了 Rocket Lab 在快速回應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -26089,7 +26091,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "從 SpaceX 到 Anthropic，市場為巨股上市製定了新策略",
-      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
       "originalTitle": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
       "originalSummary": "Space Exploration Technologies (SpaceX) rewrote Wall Street’s initial public offering (IPO) record books in June, and Anthropic is hoping to do the same. The developer of the Claude large language model is contending with several historical headwinds. Additionally, the bond market is sending an unmistakable message about AI companies. Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8774454/bad-news-theres-a-new-red-flag-ahead-of-the-anthropic-ipo/",
@@ -26107,10 +26109,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
+        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26618,7 +26620,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "ADI：Analog Devices Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+      "summary": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
       "originalTitle": "ADI: Analog Devices Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Analog Devices (ADI) ended the recent trading session at $397.97, demonstrating a -2.77% change from the preceding day's closing price. The stock's performance was behind the S&P 500's daily loss of 0.41%. Elsewhere, the Dow gained 0.1%, while the tech-heavy Nasdaq lost 0.91%. The semiconductor maker's shares have seen an increase of 1.32% over the last month, surpassing the Computer and Technology sector's loss of 11.52% and the S&P 500's loss of 2.64%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-adi-dipped-220001409.html",
@@ -26634,7 +26636,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "event": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "numbers": [
           "$397.97,",
           "2.77%",
@@ -26642,7 +26644,7 @@
           "0.1%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "stance": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
