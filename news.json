@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-11-24 18:51 台灣時間",
+  "updatedAt": "2026-11-24 18:55 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-24",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "CRWD",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "題材",
+      "title": "富國銀行因網路擴張而下調 CrowdStrike 股價目標",
+      "summary": "",
+      "originalTitle": "Wells Fargo cuts CrowdStrike stock price target on network expansion By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaFpMS2huMnZjYjFxcURQUkFMTHJSR0tHQTh5a3NHWlJNYl94TXlPek1pYklCUnRfNm9sRzZ2dlF4Ry1WOWh1d0dsZVEzd041Qjh1cjYwT2hmX0xiZnZEcnlnY21saTY0MjZoZzYtcERfQmI5NEpxOVJvTjFUS0NJRWJ1bjR0c3c3XzVGSlVPTDhObmFlQThTUy0wYTdGc0Ytc2JvNGtJYTlmZDZTeHdiVDRWemE2SHlmZGk2djNwVEhUcndqQzJWVA?oc=5",
+      "ts": "2026-11-24T10:47:41+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Wells Fargo",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "CRWD",
+          "targetCompany": "CrowdStrike"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "CRWD"
+      ],
+      "eventType": "",
+      "score": 198.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：CrowdStrike（CRWD）｜券商：Wells Fargo｜動作：下修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 5
+    },
     {
       "ticker": "CSCO",
       "group": "光通訊／網通",
@@ -37,7 +83,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 6
     },
     {
       "ticker": "INTC",
@@ -70,7 +116,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 7
     },
     {
       "ticker": "NVDA",
@@ -103,7 +149,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 8
     },
     {
       "ticker": "META",
@@ -304,8 +350,38 @@
         "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
         "sourceQuality": "body"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "人工智慧應該是不可阻擋的。黃仁勳的短暫流放顯示繁榮並非如此。",
+      "summary": "",
+      "originalTitle": "AI is supposed to be unstoppable. Jensen Huang's brief exile suggests the boom is anything but.",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdl9HcEg2a0lFa1VBMkdpZC1ZZWFDU2NwYlNLbnRKVmtmU2tyR0lIeGlKNVlUZm02R0s5OS1qQWVNel8yVXlDV1M1dHN4ekljUHdFYVozbzBIZ2JqNVVtcU5FUkhibFJWSjlsQ3dWc1g3MVNNTlpqUU4tWXlESFJ4c3lfTmVDbjhTU3c?oc=5",
+      "ts": "2026-11-24T10:18:00+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "NVDA",
@@ -904,7 +980,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：META｜券商：JPMorgan｜動作：下修｜調整原因：來源未提供具體理由",
@@ -916,7 +992,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "NVDA",
@@ -1848,7 +1924,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "MARKET",
@@ -2689,76 +2765,6 @@
       },
       "top10": true,
       "top10Rank": 4
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "2026 年 11 月值得關注的 3 隻澳洲內部人士持有的成長型股票",
-      "summary": "",
-      "originalTitle": "Top 3 Australian Insider Owned Growth Stocks To Watch In November 2026",
-      "originalSummary": "Jensen Huang’s return as Nvidia CEO has fired up global AI enthusiasm again and lifted Asian technology markets, including Australian growth stories tied into that ecosystem. When sentiment toward high growth recovers, investors often look for businesses where management has real skin in the game. This article walks through three fast growing Australian stocks with high insider ownership from our screener, to help you focus your research. The three stocks highlighted here offer a compelling...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/top-3-australian-insider-owned-071028045.html",
-      "ts": "2026-11-24T07:10:28+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 31.482514140046213,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "黃仁勳再次擔任英偉達首席執行官，再次激發了全球人工智慧的熱情，並提振了亞洲科技市場，包括與該生態系統相關的澳洲成長故事。當高成長情緒恢復時，投資者通常會尋找管理層真正參與其中的企業。本文透過我們的篩選器介紹了三隻快速成長且內部人持股比例較高的澳洲股票，以幫助您集中研究。這裡強調的三隻股票提供了令人信服的...",
-        "numbers": [],
-        "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "黃仁勳再次擔任英偉達首席執行官，再次激發了全球人工智慧的熱情，並提振了亞洲科技市場，包括與該生態系統相關的澳洲成長故事。當高成長情緒恢復時，投資者通常會尋找管理層真正參與其中的企業。本文透過我們的篩選器介紹了三隻快速成長且內部人持股比例較高的澳洲股票，以幫助您集中研究。這裡強調的三隻股票提供了令人信服的...",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "3 隻加拿大被低估的股票，其交易價格比未來現金流價值低 45%",
-      "summary": "",
-      "originalTitle": "3 Canadian Undervalued Stocks Trading Up To 45% Below Future Cash Flow Value",
-      "originalSummary": "Asian shares have just rallied after Jensen Huang returned as Nvidia’s CEO, which has put global attention back on AI, chips and higher risk appetite. When big tech stories pull markets higher, solid Canadian companies that quietly throw off cash can lag behind in pricing. That gap creates a window. This article highlights three financially strong Canadian stocks that still appear neglected by the market. The three stocks below are just a first cut, since the full high quality undervalued...",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3-canadian-undervalued-stocks-trading-071002431.html",
-      "ts": "2026-11-24T07:10:02+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 31.482514140046213,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "新題材",
-      "score": 28.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "黃仁勳重新擔任英偉達執行長後，亞洲股市剛剛上漲，這讓全球的注意力重新回到了人工智慧、晶片和更高的風險偏好上。當大型科技故事拉動市場走高時，悄悄拋售現金的穩健加拿大公司可能會在定價方面落後。這個間隙創造了一個窗口。本文重點介紹了三隻財務實力雄厚、但似乎仍被市場忽視的加拿大股票。",
-        "numbers": [
-          "45%"
-        ],
-        "why": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "stance": "黃仁勳重新擔任英偉達執行長後，亞洲股市剛剛上漲，這讓全球的注意力重新回到了人工智慧、晶片和更高的風險偏好上。當大型科技故事拉動市場走高時，悄悄拋售現金的穩健加拿大公司可能會在定價方面落後。這個間隙創造了一個窗口。本文重點介紹了三隻財務實力雄厚、但似乎仍被市場忽視的加拿大股票。下面的三隻股票只是第一批，因為全部高品質股票都被低估了...",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "供需緊張可能帶來漲價與毛利改善，但也可能限制出貨量。要區分公司是受惠於價格提升，還是反而因缺料而無法滿足需求。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
