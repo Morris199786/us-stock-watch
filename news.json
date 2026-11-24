@@ -1,11 +1,91 @@
 {
-  "updatedAt": "2026-11-24 20:29 台灣時間",
+  "updatedAt": "2026-11-24 20:35 台灣時間",
   "historyUpdatedDate": "2026-11-24",
   "historyLastAttemptAt": "2026-11-23T16:02:02.922536+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-24",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "SYM",
+      "group": "EV／AI／機器人",
+      "tag": "題材",
+      "title": "Needham 調整 SYM 目標價至 $65",
+      "summary": "",
+      "originalTitle": "Needham raises Symbotic stock price target to $65 on strong results By Investing.com",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxON21OSWVGWEtZMllPZ1VFMDJnRW01ekFUUHVJV2lLYWdzcHFnYVlpLURmRFFQWllCOW1SOC1nNFNMTTdTYlRuMzFiRVFPUlpMWU81cDVwNno0OTJLR0lrcTZURkZnLTZUS2l1WjBZV2pxRHIwcUt0MFFTZUtvNmJkWWRya1pvV0Q2ekFyMXh5VXpCLXdjZUpjYUVlYW9MMjFweTViMS1oaVZ4RC1mckRRQ0lvbHpPMXZta25sa2tCa3NFQ054ZlE?oc=5",
+      "ts": "2026-11-24T12:29:11+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Needham",
+          "analyst": "",
+          "rating": "",
+          "action": "上修",
+          "newTarget": "$65",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "SYM",
+          "targetCompany": "Symbotic"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SYM"
+      ],
+      "eventType": "",
+      "score": 201.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Symbotic（SYM）｜券商：Needham｜動作：上修｜目標價：$65｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$65"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 8
+    },
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Anthropic 跌破 IPO 價格。威脅不是 Nvidia，而是來自內部",
+      "summary": "Anthropic stock fell below its $83 IPO price as an Axios report said staff fear unreleased AI models are unsafe to release.",
+      "originalTitle": "Anthropic Falls Below IPO Price. The Threat Wasn’t Nvidia, It Came From Inside",
+      "originalSummary": "Anthropic stock fell below its $83 IPO price as an Axios report said staff fear unreleased AI models are unsafe to release.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-falls-below-ipo-price-122810237.html",
+      "ts": "2026-11-24T12:28:10+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 31.482514140046213,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 21.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
     {
       "ticker": "ADI",
       "group": "類比／電源／功率／RF",
@@ -82,6 +162,45 @@
       },
       "top10": true,
       "top10Rank": 1
+    },
+    {
+      "ticker": "NVTS",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "獲利能否擊敗納維股票的變化",
+      "summary": "Navitas Semiconductor 最近公布的第三季度收入为 1,399 万美元，高于预期，概述了更高的第四季度指引和改善的非 GAAP 毛利率，并完成了 Claros 收购，将其目标市场扩展到数据中心和能源解决方案。該公司與 Nvidia 就 AI 資料中心的高效能電力傳輸進行合作，包括 MGX 方面的工作",
+      "originalTitle": "Can Earnings Beat Change The Case For Navitas Stock",
+      "originalSummary": "Navitas Semiconductor recently reported third quarter revenue of US$13.99 million that was above expectations, outlined higher fourth quarter guidance with improved non GAAP gross margin, and closed the Claros acquisition that expands its target market across data center and energy power solutions. The company’s collaboration with Nvidia on high efficiency power delivery for AI data centers, including work on the MGX ecosystem and 800 VDC architectures, positions Navitas Semiconductor more...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-change-case-navitas-121547987.html",
+      "ts": "2026-11-24T12:15:47+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 20.559210526315795,
+      "relatedTickers": [
+        "NVTS",
+        "NVDA"
+      ],
+      "eventType": "跨公司事件",
+      "score": 49.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "Navitas Semiconductor 最近公布的第三季度收入为 1,399 万美元，高于预期，概述了更高的第四季度指引和改善的非 GAAP 毛利率，并完成了 Claros 收购，将其目标市场扩展到数据中心和能源解决方案。該公司與 Nvidia 就 AI 資料中心的高效能電力傳輸進行合作，包括 MGX 方面的工作",
+        "numbers": [
+          "$13.99 million",
+          "13.99 million"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "Navitas Semiconductor 最近公布的第三季度收入为 1,399 万美元，高于预期，概述了更高的第四季度指引和改善的非 GAAP 毛利率，并完成了 Claros 收购，将其目标市场扩展到数据中心和能源解决方案。該公司與 Nvidia 就 AI 資料中心的高效能電力傳輸進行合作，包括 MGX 方面的工作",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "MSFT",
@@ -311,11 +430,46 @@
       "top10Rank": null
     },
     {
+      "ticker": "CSCO",
+      "group": "光通訊／網通",
+      "tag": "題材",
+      "title": "為什麼思科的粉絲在 OpenAI 安全推動後可能會關注 ETF",
+      "summary": "直接擁有思科系統公司，您就可以承擔其具體問題。 Simply Wall St 指出，有關與中國有聯繫的組織針對思科路由器的通報造成了明顯的風險。對思科系統基礎架構的成功攻擊可能會削弱客戶對其安全網路和安全產品的信任。將思科納入 CIBR、VLUE 或 FDN 等基金中，會將單一風險與許多其他風險混合在一起。那也迪爾",
+      "originalTitle": "Why Cisco Fans May Look To ETFs After Its OpenAI Security Push",
+      "originalSummary": "Own Cisco Systems directly and you carry its specific problems on your shoulders. Simply Wall St flags that reports of a China-linked group targeting Cisco routers create a clear risk. Successful attacks on Cisco Systems infrastructure could weaken customer trust in its secure networking and security products. Holding Cisco inside a fund such as CIBR, VLUE or FDN mixes that single risk with many others. That also dilutes any upside from Cisco’s successes. The fresh twist is Shirudo. Cisco and...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-cisco-fans-may-look-121037446.html",
+      "ts": "2026-11-24T12:10:37+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 6.796116504854366,
+      "relatedTickers": [
+        "CSCO"
+      ],
+      "eventType": "",
+      "score": 10.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "直接擁有思科系統公司，您就可以承擔其具體問題。 Simply Wall St 指出，有關與中國有聯繫的組織針對思科路由器的通報造成了明顯的風險。對思科系統基礎架構的成功攻擊可能會削弱客戶對其安全網路和安全產品的信任。將思科納入 CIBR、VLUE 或 FDN 等基金中，會將單一風險與許多其他風險混合在一起。那也迪爾",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "直接擁有思科系統公司，您就可以承擔其具體問題。 Simply Wall St 指出，有關與中國有聯繫的組織針對思科路由器的通報造成了明顯的風險。對思科系統基礎架構的成功攻擊可能會削弱客戶對其安全網路和安全產品的信任。將思科納入 CIBR、VLUE 或 FDN 等基金中，會將單一風險與許多其他風險混合在一起。那也迪爾",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "韋德布希表示，在黃仁勳回歸後，英偉達可能會繼續擔任人工智慧產業倡導者的角色，並關注監管政策",
-      "summary": "英偉達（NVDA）作為人工智慧產業的堅定倡導者，可以訪問這些領域",
+      "summary": "",
       "originalTitle": "Nvidia's Role as AI Industry Advocate Likely to Continue Following Huang's Return Amid Focus on Regulatory Policy, Wedbush Says",
       "originalSummary": "Nvidia's (NVDA) role as a strong advocate for the artificial intelligence industry with access to se",
       "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-apos-role-ai-industry-121020908.html",
@@ -328,7 +482,7 @@
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -370,6 +524,43 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "TXN",
+      "group": "類比／電源／功率／RF",
+      "tag": "題材",
+      "title": "德州儀器 (TI) 的懷疑者在 84% 的反彈之前犯了什麼錯",
+      "summary": "如果您在 2025 年 11 月 23 日購買了德州儀器 (TI)，然後只是袖手旁觀，那麼結果將很難忽視。過去一年持有德州儀器 (TI) 的回報率為 83.9%，其中包括股息。當時，看漲的分析師傾向於毛利率、低庫存和工業需求，而懷疑者則擔心監管、資本支出和中美摩擦。如果你正在做那個校準",
+      "originalTitle": "What Texas Instruments Doubters Got Wrong Before An 84% Rally",
+      "originalSummary": "If you had bought Texas Instruments on 23 November 2025 and simply sat on your hands, the outcome would have been hard to ignore. Holding Texas Instruments over the past year would have returned 83.9%, including dividends. At the time, bullish analysts were leaning on gross margins, low inventories and industrial demand, while skeptics worried about regulation, capex and US China friction. If you were making that call then, which side of that tradeoff would have mattered more to you? Texas...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-doubters-got-wrong-120943672.html",
+      "ts": "2026-11-24T12:09:43+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 10.403791469194301,
+      "relatedTickers": [
+        "TXN"
+      ],
+      "eventType": "",
+      "score": 13.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "如果您在 2025 年 11 月 23 日購買了德州儀器 (TI)，然後只是袖手旁觀，那麼結果將很難忽視。過去一年持有德州儀器 (TI) 的回報率為 83.9%，其中包括股息。當時，看漲的分析師傾向於毛利率、低庫存和工業需求，而懷疑者則擔心監管、資本支出和中美摩擦。如果你正在做那個校準",
+        "numbers": [
+          "84%",
+          "83.9%"
+        ],
+        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "stance": "如果您在 2025 年 11 月 23 日購買了德州儀器 (TI)，然後只是袖手旁觀，那麼結果將很難忽視。過去一年持有德州儀器 (TI) 的回報率為 83.9%，其中包括股息。當時，看漲的分析師傾向於毛利率、低庫存和工業需求，而懷疑者則擔心監管、資本支出和中美摩擦。如果你正在做那個校準",
+        "watch": [
+          "供需是否持續，以及價格／毛利是否同步改善"
+        ],
+        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
@@ -450,26 +641,27 @@
       "top10Rank": null
     },
     {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
+      "ticker": "META",
+      "group": "CSP",
       "tag": "題材",
       "title": "OpenAI 的 Greg Brockman：「世界沒有建立足夠的運算能力。」華爾街剛剛停止提高資本支出預測",
-      "summary": "",
+      "summary": "Key TakeawaysOpenAI President Greg Brockman says the world is short on compute, but analysts didn’t raise their capex forecasts for Amazon, Alphabet, Microsoft or Meta during third-quarter earnings season. Analysts expect Nvidia’s revenue to grow 71% in the fiscal year ending January 2028, faster than its biggest customers’ capex.",
       "originalTitle": "OpenAI’s Greg Brockman: “The World Is Not Building Enough Compute.” Wall Street Just Stopped Raising Capex Forecasts",
       "originalSummary": "Key TakeawaysOpenAI President Greg Brockman says the world is short on compute, but analysts didn’t raise their capex forecasts for Amazon, Alphabet, Microsoft or Meta during third-quarter earnings season. Analysts expect Nvidia’s revenue to grow 71% in the fiscal year ending January 2028, faster than its biggest customers’ capex.",
       "url": "https://finance.yahoo.com/technology/ai/articles/openai-greg-brockman-world-not-120504430.html",
       "ts": "2026-11-24T12:05:04+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": 31.482514140046213,
+      "movePct": 6.554454033235868,
       "relatedTickers": [
-        "NVDA",
+        "META",
         "MSFT",
-        "AMZN"
+        "AMZN",
+        "NVDA"
       ],
       "eventType": "跨公司事件",
-      "score": 43.5,
-      "featured": false,
+      "score": 39.0,
+      "featured": true,
       "translated": true,
       "investorBrief": {
         "event": "Key TakeawaysOpenAI President Greg Brockman says the world is short on compute, but analysts didn’t raise their capex forecasts for Amazon, Alphabet, Microsoft or Meta during third-quarter earnings season. Analysts expect Nvidia’s revenue to grow 71% in the fiscal year ending January 2028, faster than its biggest customers’ capex.",
@@ -477,7 +669,7 @@
           "71%"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "關鍵要點OpenAI 總裁 Greg Brockman 表示，世界運算能力短缺，但分析師在第三季財報季並未提高亞馬遜、Alphabet、微軟或 Meta 的資本支出預測。分析師預計，截至 2028 年 1 月的財年，英偉達的營收將成長 71%，快於其最大客戶的資本支出。",
+        "stance": "Key TakeawaysOpenAI President Greg Brockman says the world is short on compute, but analysts didn’t raise their capex forecasts for Amazon, Alphabet, Microsoft or Meta during third-quarter earnings season. Analysts expect Nvidia’s revenue to grow 71% in the fiscal year ending January 2028, faster than its biggest customers’ capex.",
         "watch": [
           "下一季／全年財測是否再次上修或下修",
           "合作金額、出貨時程與實際營收貢獻",
@@ -527,7 +719,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "題材",
       "title": "HPE 預計人工智慧利潤率將下降。下一個是戴爾嗎？",
-      "summary": "今天的大新聞：Nvidia 一天增加了 9540 億美元。黃仁勳是不是太大了而不能被解僱？",
+      "summary": "",
       "originalTitle": "HPE Expects Thinner AI Margins. Is Dell Next?",
       "originalSummary": "Today's big story: Nvidia Added $954 Billion In A Day. Is Jensen Huang Too Big To Fire.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/hpe-expects-thinner-ai-margins-120229722.html",
@@ -540,7 +732,7 @@
       ],
       "eventType": "",
       "score": 21.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -559,7 +751,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "不是蘋果。不是微軟。這是我願意購買並持有 10 年的「七雄」股票。",
-      "summary": "Alphabet’s search business is thriving, its cloud arm is surging, and now it owns a hefty piece of a $1.2 trillion AI company.",
+      "summary": "",
       "originalTitle": "Not Apple. Not Microsoft. This Is the \"Magnificent Seven\" Stock I’d Buy for a 10-Year Hold.",
       "originalSummary": "Alphabet’s search business is thriving, its cloud arm is surging, and now it owns a hefty piece of a $1.2 trillion AI company.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/not-apple-not-microsoft-magnificent-120201272.html",
@@ -572,7 +764,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -651,7 +843,7 @@
       ],
       "eventType": "",
       "score": 198.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Tesla（TSLA）｜券商：UBS｜動作：上修｜目標價：$430（原 $425）｜調整原因：來源未提供具體理由",
@@ -699,7 +891,7 @@
       ],
       "eventType": "",
       "score": 201.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "被評級公司：Amphenol（APH）｜券商：Baird｜動作：下修｜調整原因：來源未提供具體理由",
@@ -711,14 +903,14 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 9
     },
     {
       "ticker": "SPCX",
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Cathie Wood 剛剛對這只炙手可熱的太空股票下了 7,400 萬美元的賭注",
-      "summary": "根據該公司 11 月 23 日報告的每週交易披露，Cathie Wood 的 ARK Invest 使 SpaceX 成為本週最大的一筆收購，在截至 11 月 20 日的交易期間增加了約 7,440 萬美元的股票。此次收購增加了 ARK 對這家火箭和衛星公司的投資，該公司在 SpaceX 於 2026 年初上市後，成為該投資公司在其 ETF 的主要持股之一。",
+      "summary": "",
       "originalTitle": "Cathie Wood Just Made $74 Million Bet on This Red-Hot Space Stock",
       "originalSummary": "Cathie Wood's ARK Invest made SpaceX its largest purchase of the week, adding about $74.4 million in shares during the trading period ended Nov. 20, according to the firm's weekly trade disclosures reported Nov. 23. The purchase adds to ARK's exposure to the rocket and satellite company, which became one of the investment firm's major holdings across its ETFs after SpaceX went public earlier in 2026. The buying also places SpaceX at the center of Wood's latest portfolio activity.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-just-made-74-115706467.html",
@@ -733,7 +925,7 @@
       ],
       "eventType": "新題材",
       "score": 15.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "根據該公司 11 月 23 日報告的每週交易披露，Cathie Wood 的 ARK Invest 使 SpaceX 成為本週最大的一筆收購，在截至 11 月 20 日的交易期間增加了約 7,440 萬美元的股票。此次收購增加了 ARK 對這家火箭和衛星公司的投資，該公司在 SpaceX 於 2026 年初上市後，成為該投資公司在其 ETF 的主要持股之一。",
@@ -744,7 +936,7 @@
           "74.4 million"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "根據該公司 11 月 23 日報告的每週交易披露，Cathie Wood 的 ARK Invest 使 SpaceX 成為本週最大的一筆收購，在截至 11 月 20 日的交易期間增加了約 7,440 萬美元的股票。此次收購增加了 ARK 對這家火箭和衛星公司的投資，該公司在 SpaceX 於 2026 年初上市後，成為該投資公司在其 ETF 的主要持股之一。",
+        "stance": "根據該公司 11 月 23 日公佈的每週交易披露信息，Cathie Wood 的 ARK Invest 使 SpaceX 成為本週最大的一筆收購，在截至 11 月 20 日的交易期間增加了約 7440 萬美元的股票。此次收購增加了 ARK 對這家火箭和衛星公司的曝險，該公司在 SpaceX 於 2026 年初上市後，成為該投資公司在其 ETF 的主要持股之一。此次收購也將 SpaceX 置於伍德的核心。最新的投資組合活動。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -903,7 +1095,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 10
     },
     {
       "ticker": "ASML",
@@ -1035,7 +1227,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Destination XL Group, a US apparel retailer specialising in big and tall men's clothing, is expanding into AI-powered shopping through Meta's artificial intelligence (AI) agent Muse. Working alongside its digital commerce technology partner Commercetools, the retailer is using agentic commerce technology to link its menswear catalogue to AI-based shopping channels.",
+        "event": "Destination XL Group 是一家專門銷售高大男裝的美國服飾零售商，它正在透過 Meta 的人工智慧 (AI) 代理 Muse 進軍人工智慧購物領域。該零售商與其數位商務技術合作夥伴 Commercetools 合作，利用代理商務技術將其男裝目錄與基於人工智慧的購物管道連結起來。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
         "stance": "Destination XL Group 是一家專門銷售高大男裝的美國服飾零售商，它正在透過 Meta 的人工智慧 (AI) 代理 Muse 進軍人工智慧購物領域。該零售商與其數位商務技術合作夥伴 Commercetools 合作，利用代理商務技術將其男裝目錄與基於人工智慧的購物管道連結起來。",
@@ -1255,13 +1447,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Key TakeawaysIntel stock is up 73% in a year but sits 58% below its June high. Tan says Intel can’t make enough server chips, while AMD takes the orders and HP shows PC demand falling.",
+        "event": "重點 英特爾股價一年內上漲 73%，但較 6 月高點低 58%。 Tan 表示，英特爾無法生產足夠的伺服器晶片，而 AMD 則接受訂單，而惠普則顯示個人電腦需求下降。",
         "numbers": [
           "73%",
           "58%"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "Tan says Intel can’t make enough server chips, while AMD takes the orders and HP shows PC demand falling.",
+        "stance": "Tan 表示，英特爾無法生產足夠的伺服器晶片，而 AMD 則接受訂單，而惠普則顯示個人電腦需求下降。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善"
@@ -1384,8 +1576,8 @@
         "takeaway": "調整原因：Needham 維持 Symbotic 的買入評級，並將目標價從 60 美元上調至 65 美元",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "SNDK",
@@ -1866,7 +2058,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "11 月 23 日星期一，Nvidia 董事会恢复黄仁勋 (Jensen Huang) 首席执行官职务。在董事会对有关他成为外国情报工作目标的报道展开调查后，他辞职了。該股當日上漲31.5%，收在165.05美元。即便如此，Nvidia 的股价仍比 10 月 6 日创纪录的收盘价 239.24 美元低 31.0%。",
+        "event": "11 月 23 日星期一，Nvidia 董事會恢復黃仁勳 (Jensen Huang) 執行長職務。在董事會對有關他成為外國情報工作目標的報道展開調查後，他辭職了。該股當日上漲31.5%，收在165.05美元。即便如此，Nvidia 的股價仍比 10 月 6 日創紀錄的收盤價 239.24 美元低 31.0%。",
         "numbers": [
           "$165.05.",
           "$239.24.",
@@ -1937,10 +2129,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "當 CrowdStrike 公佈對競爭對手的全股票收購報價時，一隻股票下跌，另一隻股票飆升。分歧反應的背後是稀釋擔憂、利差微薄以及監管挑戰，這些挑戰可能會重塑誰將從這裡獲勝。",
+        "event": "當 CrowdStrike 公佈對競爭對手的全股票收購報價時，一隻股票下跌，另一隻股票飆升。分歧反應的背後是稀釋恐懼、利差微薄以及監管挑戰，這些挑戰可能會重塑誰將從這裡獲勝。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "當 CrowdStrike 公佈對競爭對手的全股票收購報價時，一隻股票下跌，另一隻股票飆升。分歧反應的背後是稀釋擔憂、利差微薄以及監管挑戰，這些挑戰可能會重塑誰將從這裡獲勝。",
+        "stance": "當 CrowdStrike 公佈對競爭對手的全股票收購報價時，一隻股票下跌，另一隻股票飆升。分歧反應的背後是稀釋恐懼、利差微薄以及監管挑戰，這些挑戰可能會重塑誰將從這裡獲勝。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -1971,12 +2163,12 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "人工智慧晶片巨頭英偉達 (Nvidia) 首席執行官黃仁勳 (Jensen Huang) 出人意料地復職後，其股價週一飆升 30%，繼上週科技股領跌之後，引發了整個市場的複蘇。 查看歐洲新聞",
+        "event": "在執行長黃仁勳(Jensen Huang)令人震驚地復職後，人工智慧晶片巨頭英偉達(Nvidia)的股價週一飆升30%，這引發了上週科技股領跌後整個市場的復甦。 查看歐洲新聞",
         "numbers": [
           "30%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "人工智慧晶片巨頭英偉達 (Nvidia) 首席執行官黃仁勳 (Jensen Huang) 出人意料地復職後，其股價週一飆升 30%，繼上週科技股領跌之後，引發了整個市場的複蘇。 查看歐洲新聞",
+        "stance": "在執行長黃仁勳(Jensen Huang)令人震驚地復職後，人工智慧晶片巨頭英偉達(Nvidia)的股價週一飆升30%，這引發了上週科技股領跌後整個市場的復甦。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -2328,7 +2520,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "AST SpaceMobile 正在建立一個直接連接日常智慧型手機的衛星網路。其客戶為行動電話公司，截至 9 月的 12 個月內，其美國收入達到 1.43 億美元。比去年同期增长 671%。",
+        "event": "AST SpaceMobile 正在建立一個直接連接日常智慧型手機的衛星網路。其客戶為行動電話公司，截至 9 月的 12 個月內其美國收入達到 1.43 億美元。比去年同期成長 671%。",
         "numbers": [
           "$143 million",
           "671%",
@@ -2815,191 +3007,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "CRWD",
-      "group": "Cloud／Software／AI 應用",
-      "tag": "題材",
-      "title": "富國銀行因網路擴張而下調 CrowdStrike 股價目標",
-      "summary": "",
-      "originalTitle": "Wells Fargo cuts CrowdStrike stock price target on network expansion By Investing.com",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaFpMS2huMnZjYjFxcURQUkFMTHJSR0tHQTh5a3NHWlJNYl94TXlPek1pYklCUnRfNm9sRzZ2dlF4Ry1WOWh1d0dsZVEzd041Qjh1cjYwT2hmX0xiZnZEcnlnY21saTY0MjZoZzYtcERfQmI5NEpxOVJvTjFUS0NJRWJ1bjR0c3c3XzVGSlVPTDhObmFlQThTUy0wYTdGc0Ytc2JvNGtJYTlmZDZTeHdiVDRWemE2SHlmZGk2djNwVEhUcndqQzJWVA?oc=5",
-      "ts": "2026-11-24T10:47:41+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [
-        {
-          "broker": "Wells Fargo",
-          "analyst": "",
-          "rating": "",
-          "action": "下修",
-          "newTarget": "",
-          "oldTarget": "",
-          "reason": "",
-          "reasonConfidence": "none",
-          "targetTicker": "CRWD",
-          "targetCompany": "CrowdStrike"
-        }
-      ],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "CRWD"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：CrowdStrike（CRWD）｜券商：Wells Fargo｜動作：下修｜調整原因：來源未提供具體理由",
-        "numbers": [],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSLA",
-      "group": "EV／AI／機器人",
-      "tag": "題材",
-      "title": "吉姆·查諾斯 (Jim Chanos)：特斯拉交易將「使 SpaceX 的成長率降低 60% 以上」。對 SpaceX 持有者來說是個壞消息",
-      "summary": "",
-      "originalTitle": "Jim Chanos: A Tesla Deal Would “Cut SpaceX’s Growth Rate by Over 60%.” Bad News for SpaceX Holders",
-      "originalSummary": "Key TakeawaysJim Chanos says a Tesla merger would cut SpaceX’s growth rate by over 60% and its 2027 EPS by almost 40%. Analysts’ estimates back him on growth: SpaceX alone is expected to grow revenue about 272% in 2027, against about 94% combined with Tesla.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-chanos-tesla-deal-cut-104617811.html",
-      "ts": "2026-11-24T10:46:17+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 11.462610606673994,
-      "relatedTickers": [
-        "TSLA",
-        "SPCX"
-      ],
-      "eventType": "",
-      "score": 34.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "關鍵要點吉姆·查諾斯 (Jim Chanos) 表示，特斯拉合併將使 SpaceX 的成長率降低 60% 以上，並將其 2027 年每股收益降低近 40%。分析師的預測支持他的成長：預計 SpaceX 一家公司的營收在 2027 年將成長約 272%，而特斯拉的總營收成長約 94%。",
-        "numbers": [
-          "60%",
-          "40%",
-          "272%",
-          "94%"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "關鍵要點吉姆·查諾斯 (Jim Chanos) 表示，特斯拉合併將使 SpaceX 的成長率降低 60% 以上，並將其 2027 年每股收益降低近 40%。分析師的預測支持他的成長：預計 SpaceX 一家公司的營收在 2027 年將成長約 272%，而特斯拉的總營收成長約 94%。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "GEV",
-      "group": "電力／儲能／資料中心能源",
-      "tag": "題材",
-      "title": "「沒有動力的資料中心只是一個倉庫」：GE Vernova 2026 年仍上漲 16%。現在是買入時機嗎？",
-      "summary": "",
-      "originalTitle": "“An Unpowered Data Center Is Just a Warehouse”: GE Vernova Is Still Up 16% in 2026. Time to Buy?",
-      "originalSummary": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unpowered-data-center-just-warehouse-104424624.html",
-      "ts": "2026-11-24T10:44:24+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": 8.204996210658777,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "GEV"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "CSCO",
-      "group": "光通訊／網通",
-      "tag": "題材",
-      "title": "法國巴黎銀行將思科系統的目標價從 125 美元調整為 110 美元",
-      "summary": "",
-      "originalTitle": "BNP Paribas Adjusts Price Target on Cisco Systems to $110 From $125",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQekFsbGdLZjcxc1JxUUxDdjNOMjlTcFhVVWpkZFllRndickZrNGR3TVo2Yk1pODhEUHpGR3h1dzJIS1hQTklVM0JoeTNteDIxM0UyREZBZGEyTjdWdVJGQURRTFpFdkNoUnF2WlZiYWVhTUs0QWM0Y3RwaHFEbTdLN0ZfaTd0U3Y4S0lqMXNBVmRMekV1OUltVnF1cGxoYlcxUTZDbU4zVEJOMFZSaVdHVUhSeXhpZUs0UFE?oc=5",
-      "ts": "2026-11-24T10:38:59+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "CSCO"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "INTC",
-      "group": "CPU 概念股",
-      "tag": "題材",
-      "title": "法國巴黎銀行將英特爾的目標價從 70 美元調整為 60 美元",
-      "summary": "",
-      "originalTitle": "BNP Paribas Adjusts Price Target on Intel to $60 From $70",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenFOWUxIUlh4YVlJUzlXR3VfZ0RlOUg2QmZXaVlKZ21CUng3ODEwcUYzRmZ4eGZDeWVEMms2dkN5eHVzX0FHWWEyR1lGMTVPdVJlWm91V2JvVTRXLUhWOTRtaEJZbUlZeG1MNG5SQnFQcFBZNDZtcjB5azI1NFJJX3hxRWhNOWVzYnhsVWxnTGtLbG1KR3J2VXVPLTNVNkY2b3hOdVlTSFJEdFBr?oc=5",
-      "ts": "2026-11-24T10:38:42+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "INTC"
-      ],
-      "eventType": "",
-      "score": 198.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -3188,7 +3195,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 股價較最高點下跌 68%，剛贏得歐洲太空總署飛行員稱號。以下是 1,000 美元的投資現在是否有意義。",
-      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛公佈了他們認為最適合投資者立即購買的 10 隻股票，只要您加入 Stock Advisor，即可購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
       "originalTitle": "Planet Labs Is Down 68% From Its High and Just Won a European Space Agency Pilot. Here's Whether a $1,000 Investment Makes Sense Now.",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 719 %* — a market-crushing outperformance compared to 192 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 23, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/23/planet-labs-is-down-68-from-its-high-and-just-won/",
@@ -3205,7 +3212,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛公佈了他們認為最適合投資者立即購買的 10 隻股票，只要您加入 Stock Advisor，即可購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "numbers": [
           "$1,000",
           "68%",
@@ -3213,7 +3220,7 @@
           "192 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛公佈了他們認為最適合投資者立即購買的 10 隻股票，只要您加入 Stock Advisor，即可購買。 *股票顧問於 2026 年 11 月 23 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 719%*，與標準普爾 500 指數的 192% 相比，這一表現足以壓倒市場。他們剛剛透露了他們認為最適合投資者立即購買的 10 支股票，只要您加入 Stock Advisor，就可以購買。 *股票顧問於 2026 年 11 月 23 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -4492,7 +4499,7 @@
       "group": "太空／國防／無人系統",
       "tag": "利多",
       "title": "SpaceX 為國家偵察辦公室發射情報收集衛星",
-      "summary": "一枚獵鷹 9 號火箭正準備從加州范登堡太空部隊基地的 4E 號航天發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
+      "summary": "一枚獵鷹 9 號火箭準備從加州范登堡太空部隊基地的 4E 號航太發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
       "originalTitle": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
       "originalSummary": "A Falcon 9 rocket stands poised to launch from the Space Launch Complex 4E at Vandenberg Space Force Base in California. File Photo: SpaceX Update Nov. 22, 8 a.m. EST (1300 UTC): SpaceX landed its booster at Landing Zone 4. SpaceX launched a batch of intelligence-gathering satellites to low Earth orbit on behalf of the National Reconnaissance Office on Sunday morning. Its Falcon 9 rocket took off from Vandenberg Space Force Base in California, smashing the pad turnaround record at the site by more than 23 hours. Liftoff from Space Launch Complex 4E at Vandenberg Space Force Base is scheduled for 4:23 a.m. PST (7:23 a.m. EST / 1223 UTC). It came 32 hours, 3 minutes, and 21 seconds after the launch of the USSF. The previous turnaround was set back in June at 55 hours, 48 minutes, and 21 seconds. Prior to Sunday morning, SpaceX’s overall pad turnaround record was 45 hours, set by back-to-back Starlink flights from Cape Canaveral Space Force Base in Florida in January. The mission, designated NROL-136, will add an undisclosed number of satellites to the NRO’s satellite constellation that it refers to as its proliferated architecture. This was the fourth such launch this year and the 15th to date. SpaceX launched the mission using the Falcon 9 first stage booster with the tail number B1097. This was its 14th flight following the launches of NROL-172, USSF-259, Transporter-17, Twilight, Sentinel-6B, and eight batches of Starlink satellites. Roughly 7.5 minutes after liftoff, B1097 touched down at Landing Zone 4, adjacent to the launch pad. This was the 38th landing at this site and the 680th Falcon booster landing to date.",
       "url": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
@@ -4509,10 +4516,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "一枚獵鷹 9 號火箭正準備從加州范登堡太空部隊基地的 4E 號航天發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
+        "event": "一枚獵鷹 9 號火箭準備從加州范登堡太空部隊基地的 4E 號航太發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "一枚獵鷹 9 號火箭正準備從加州范登堡太空部隊基地的 4E 號航天發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
+        "stance": "一枚獵鷹 9 號火箭準備從加州范登堡太空部隊基地的 4E 號航太發射場發射。文件照片：SpaceX 更新 11 月 22 日上午 8 點（美國東部標準時間 1300）：SpaceX 將其助推器降落在著陸區 4。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -10293,7 +10300,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "Planet Labs 與 Stoke Space 合作——以防萬一 SpaceX 真的讓獵鷹 9 號退役",
-      "summary": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+      "summary": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
       "originalTitle": "Planet Labs Teams Up With Stoke Space -- Just In Case SpaceX Really Retires the Falcon 9",
       "originalSummary": "When our analyst team has a stock tip, it can pay to listen. After all, Stock Advisor's total average return is 794 %* — a market-crushing outperformance compared to 203 % for the S&P 500. They just revealed what they believe are the 10 best stocks for investors to buy right now, available when you join Stock Advisor. *Stock Advisor returns as of November 19, 2026 .",
       "url": "https://www.fool.com/investing/2026/11/19/planet-labs-teams-up-with-stoke-space-just-in-case-spacex-really-retires-the-falcon-9/",
@@ -10310,13 +10317,13 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "event": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "numbers": [
           "794 %",
           "203 %"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "當我們的分析師團隊有股票提示時，他們可以付費聆聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
+        "stance": "當我們的分析師團隊有股票提示時，值得傾聽。畢竟，Stock Advisor 的總平均回報率為 794%* — 與標準普爾 500 指數的 203% 相比，這是一個壓倒市場的表現。他們剛剛透露了他們認為最適合投資者立即購買的 10 隻股票，當您加入 Stock Advisor 時購買。 *股票顧問於 2026 年 11 月 19 日返回。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -10533,7 +10540,7 @@
       "group": "CPU 概念股",
       "tag": "題材",
       "title": "英特爾簽署先進 18A 晶片的首個外部客戶",
-      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加元資料\" :{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|ai人工智慧|半導體|企業\",\"ad ditionalSectionContentFormattedFull\":\"技術|ai人工智慧|半導體|企業\",\"authorFormatted\":\"凱蒂·塔拉索夫\",\"authorFormattedFull\":\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublishe d\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+0000\",\"datePublished\":\"2026-11-19T000\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0110\"",
+      "summary": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加元資料\" :{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|ai人工智慧|半導體|企業\",\"ad ditionalSectionContentFormattedFull\":\"技術|ai人工智慧|半導體|企業\",\"authorFormatted\":\"凱蒂·塔拉索夫\",\"authorFormattedFull\":\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublishe d\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+0000\",\"datePublished\":\"2026-11-19T010\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0110\"",
       "originalTitle": "Intel signs first external customer for advanced 18A chips",
       "originalSummary": "var __CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"additionalMetadata\":{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"technology|ai artificial i|semiconductors|enterprise\",\"additionalSectionContentFormattedFull\":\"technology|ai artificial intelligence|semiconductors|enterprise\",\"authorFormatted\":\"katie tarasov\",\"authorFormattedFull\":\"katie tarasov\",\"brand\":\"cnbc\",\"color\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublished\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+0000\",\"datePublished\":\"2026-11-19T01:05:25+0000\",\"description\":\"Intel CEO Lip-Bu Tan said Wednesday that the company signed its first outside customer for its 18A chips.\",\"expires\":null,\"headline\":\"Intel signs first external customer for advanced 18A chips\",\"id\":108554769,\"liveURL\":\"\\u002F2026\\u002F11\\u002F18\\u002Fintel-first-18a-foundry-customer.html\",\"native\":false,\"pageName\":\"108554769|2026\\u002F11\\u002F18\\u002Fintel-first-18a-foundry-customer\",\"premium\":false,\"projectContentFormatted\":\"NA\",\"projectContentFormattedFull\":\"NA\",\"projectTeamContentFormatted\":\"NA\",\"projectTeamContentFormattedFull\":\"NA\",\"relatedTagsFilteredFormatted\":\"technology|microsoft corp|enterprise|taiwan|intel corp|taiwan semicond|spdr sp semicon|nvidia corporat|ishares semicon|amazoncom inc|alphabet class |microsoft corp|apple inc\",\"relatedTagsFilteredFormattedFull\":\"technology|microsoft corp|enterprise|taiwan|intel corp|taiwan semiconductor manufacturing company limited|spdr sp semiconductors|nvidia corporation|ishares semiconductor etf|amazoncom inc|alphabet class a|microsoft corp|apple inc\",\"sectionHierarchyFormatted\":\"us top news and|technology\",\"sectionHierarchyFormattedFull\":\"us top news and analysis|technology\",\"seoTitle\":\"Intel signs first external customer for advanced 18A chips\",\"shortDateFirstPublished\":\"11\\u002F18\\u002F2026\",\"shortDateLastPublished\":\"11\\u002F18\\u002F2026\",\"shortDatePublished\":\"11\\u002F18\\u002F2026\",\"shortenedUrls\":[{\"shareName\":\"Facebook\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4l0rW6U\"},{\"shareName\":\"Twitter\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4t6aYWK\"},{\"shareName\":\"Linkedin\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4C7MAbD\"},{\"shareName\":\"Email\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4joQk0O\"},{\"shareName\":\"SMS\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4t7fqol\"},{\"shareName\":\"AppleTV\",\"url\":\"https:\\u002F\\u002Fcnb.cx\\u002F4jlWiQ9\"}],\"slug\":\"Intel18Acustomer_20261118_Tarasov_SF\",\"sourceOrganizationFormatted\":\"cnbc us source\",\"sourceOrganizationFormattedFull\":\"cnbc us source\",\"subDomain\":\"https:\\u002F\\u002Fwww.cnbc.com\",\"subType\":null,\"tagName\":\"Intel18Acustomer_20261118_Tarasov_SF\",\"tagNameFormatted\":\"intel18acustome\",\"tagNameFormattedFull\":\"intel18acustomer20261118tarasovsf\",\"template\":\"Regular Article\",\"timeToReadInMinutes\":3,\"title\":\"Intel signs first external customer for advanced 18A chips\",\"shortestHeadline\":null,\"type\":\"cnbcnewsstory\",\"url\":\"https:\\u002F\\u002Fwww.cnbc.com\\u002F2026\\u002F11\\u002F18\\u002Fintel-first-18a-foundry-customer.html\",\"canonicalUrlOverride\":null,\"vcpsId\":null,\"additio",
       "url": "https://www.cnbc.com/2026/11/18/intel-first-18a-foundry-customer.html",
@@ -10554,7 +10561,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加元資料\" :{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|ai人工智慧|半導體|企業\",\"ad ditionalSectionContentFormattedFull\":\"技術|ai人工智慧|半導體|企業\",\"authorFormatted\":\"凱蒂·塔拉索夫\",\"authorFormattedFull\":\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublishe d\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+0000\",\"datePublished\":\"2026-11-19T000\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-",
+        "event": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加元資料\" :{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|ai人工智慧|半導體|企業\",\"ad ditionalSectionContentFormattedFull\":\"技術|ai人工智慧|半導體|企業\",\"authorFormatted\":\"凱蒂·塔拉索夫\",\"authorFormattedFull\":\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublishe d\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+0000\",\"datePublished\":\"2026-11-19T010\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-11-19T0100\",\"datePublished\":\"2026-",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "變數__CNBC_META_DATA={\"layout\":[],\"aboutThisSection\":null,\"aboutThisSectionRTE\":{\"content\":[],\"__typename\":\"body\"},\"附加元資料\" :{\"isMainOverride\":\"{\\\"oldValue\\\":1508875,\\\"newValue\\\":\\\"\\\"}\"},\"additionalSectionContentFormatted\":\"技術|ai人工智慧|半導體|企業\",\"ad ditionalSectionContentFormattedFull\":\"技術|ai人工智慧|半導體|企業\",\"authorFormatted\":\"凱蒂·塔拉索夫\",\"authorFormattedFull\":\"凱蒂tarasov\",\"品牌\":\"cnbc\",\"顏色\":null,\"contentClassification\":[],\"creatorOverwrite\":null,\"creatorOverwriteFormatted\":\"NA\",\"dateFirstPublishe d\":\"2026-11-19T01:05:25+0000\",\"dateLastPublished\":\"2026-11-19T01:05:25+000",
@@ -13345,7 +13352,7 @@
       "group": "CSP",
       "tag": "題材",
       "title": "Microsoft 和 Salesforce 宣布推出 Copilotforce，將可信賴的客戶環境和行動帶入 Microsoft AI 體驗中",
-      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
       "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
       "originalSummary": "REDMOND, Wash., and SAN FRANCISCO — Nov. 17, 2026 — Microsoft Corp. (NASDAQ: MSFT) and Salesforce Inc. (NYSE: CRM) today announced Copilotforce, a new partnership that helps employees get more done in the tools they already use by bringing Salesforce customer context, business processes and actions into Microsoft Copilot and other AI-powered productivity experiences. Unveiled at Microsoft Ignite, the partnership introduces new integrations across Microsoft Copilot, Microsoft Teams and Microsoft Fabric, including Salesforce in Copilot, a plugin available in public preview with 38+ prebuilt sales skills. Together, these capabilities help businesses move faster, reduce manual work and get more value from their existing technology investments — while maintaining the security, governance and permissions they already rely on. Bringing Salesforce workflows together with conversations, meetings and documents in Microsoft 365 means less time spent moving between systems and more time on the work that matters. Salesforce in Copilot connects customer context with the work happening across the business so employees can make more informed decisions and take action without constantly switching applications. Microsoft Work IQ, the intelligence layer powering Copilot, provides relevant context from Teams meetings, Outlook emails and documents across SharePoint and OneDrive. Work IQ and Salesforce help sellers understand not only what’s recorded in CRM, but what’s happening across customer conversations and collaboration — and what needs to happen next. Through authenticated Salesforce MCP access, sellers can securely retrieve customer information and take supported business actions within their existing Salesforce permissions. Salesforce continues to govern access and business actions, while Microsoft applies its existing enterprise compliance controls to communications and documents. Data, context and the apps where sellers work come to life in practical workflows across the sales cycle, including: With Copilot as the front door to business process, Salesforce in Copilot allows organizations to bring together Salesforce data, workflows, agents and prebuilt skills from the systems they already rely on through Copilot’s open and interoperable platform. “Through Copilotforce, we’re bringing Salesforce to the largest surface in enterprise software today, embedding trusted Salesforce context and intelligent sales workflows directly where sellers work,” said Miguel Milano, President & Chief Operating Officer, Salesforce . “By bringing together the #1 CRM with the #1 productivity surface, we’re transforming AI from a standalone tool into a powerful driver of productivity, smarter decisions and customer success.” Expanding connection in the places people work For many organizations, the work first starts in Microsoft Teams, where people share files, make decisions and hand work to each other. Sales Cloud in Teams, now available in pilot, brings Salesforce customer context directly into those conversations, so sellers can see pipeline and quota progress, get deal notifications and find briefing materials without leaving the place where decisions are already being ma",
       "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
@@ -13363,10 +13370,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -13381,7 +13388,7 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Microsoft 和 Salesforce 宣布推出 Copilotforce，將可信賴的客戶環境和行動帶入 Microsoft AI 體驗中",
-      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+      "summary": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
       "originalTitle": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
       "originalSummary": "REDMOND, Wash., and SAN FRANCISCO — Nov. 17, 2026 — Microsoft Corp. (NASDAQ: MSFT) and Salesforce Inc. (NYSE: CRM) today announced Copilotforce, a new partnership that helps employees get more done in the tools they already use by bringing Salesforce customer context, business processes and actions into Microsoft Copilot and other AI-powered productivity experiences. Unveiled at Microsoft Ignite, the partnership introduces new integrations across Microsoft Copilot, Microsoft Teams and Microsoft Fabric, including Salesforce in Copilot, a plugin available in public preview with 38+ prebuilt sales skills. Together, these capabilities help businesses move faster, reduce manual work and get more value from their existing technology investments — while maintaining the security, governance and permissions they already rely on. Bringing Salesforce workflows together with conversations, meetings and documents in Microsoft 365 means less time spent moving between systems and more time on the work that matters. Salesforce in Copilot connects customer context with the work happening across the business so employees can make more informed decisions and take action without constantly switching applications. Microsoft Work IQ, the intelligence layer powering Copilot, provides relevant context from Teams meetings, Outlook emails and documents across SharePoint and OneDrive. Work IQ and Salesforce help sellers understand not only what’s recorded in CRM, but what’s happening across customer conversations and collaboration — and what needs to happen next. Through authenticated Salesforce MCP access, sellers can securely retrieve customer information and take supported business actions within their existing Salesforce permissions. Salesforce continues to govern access and business actions, while Microsoft applies its existing enterprise compliance controls to communications and documents. Data, context and the apps where sellers work come to life in practical workflows across the sales cycle, including: With Copilot as the front door to business process, Salesforce in Copilot allows organizations to bring together Salesforce data, workflows, agents and prebuilt skills from the systems they already rely on through Copilot’s open and interoperable platform. “Through Copilotforce, we’re bringing Salesforce to the largest surface in enterprise software today, embedding trusted Salesforce context and intelligent sales workflows directly where sellers work,” said Miguel Milano, President & Chief Operating Officer, Salesforce . “By bringing together the #1 CRM with the #1 productivity surface, we’re transforming AI from a standalone tool into a powerful driver of productivity, smarter decisions and customer success.” Expanding connection in the places people work For many organizations, the work first starts in Microsoft Teams, where people share files, make decisions and hand work to each other. Sales Cloud in Teams, now available in pilot, brings Salesforce customer context directly into those conversations, so sellers can see pipeline and quota progress, get deal notifications and find briefing materials without leaving the place where decisions are already being ma",
       "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
@@ -13398,10 +13405,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+        "event": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們已經完成的工作工具",
+        "stance": "華盛頓州雷德蒙德和舊金山 - 2026 年 11 月 17 日 - 微軟公司（納斯達克股票代碼：MSFT）和 Salesforce Inc.（紐約證券交易所股票代碼：CRM）今天宣佈建立 Copilotforce，這是一項新的合作夥伴關係，透過將 Salesforce 客戶環境、業務流程和操作引入 Microsoft Copilot 和其他員工的生產力來完成更多工作體驗，已經使用他們的生產力",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -14579,7 +14586,7 @@
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "慧榮科技 (SIMO) 最新新聞稿及企業新聞",
-      "summary": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
+      "summary": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月內上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
       "originalTitle": "Silicon Motion Technology Corporation (SIMO) Latest Press Releases & Corporate News",
       "originalSummary": "Silicon Motion (SIMO) has recently been on Zacks.com's list of the most searched stocks. Therefore, you might want to consider some of the key factors that could influence the stock's performance in the near future. Shares of this chip company have returned -19.8% over the past month versus the Zacks S&P 500 composite's -3.1% change. The Zacks Computer - Integrated Systems industry, to which Silicon Motion belongs, has lost 14.8% over this period. Now the key question is: Where could the stock be headed in the near term?",
       "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-silicon-motion-130003891.html",
@@ -14595,14 +14602,14 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
+        "event": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月內上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
         "numbers": [
           "19.8%",
           "3.1%",
           "14.8%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
+        "stance": "Silicon Motion (SIMO) 最近成為 Zacks.com 搜尋次數最多的股票名單。因此，您可能需要考慮一些可能影響股票近期表現的關鍵因素。這家晶片公司的股價在過去一個月內上漲了-19.8%，而 Zacks 標準普爾 500 綜合指數的漲幅為-3.1%。 Silicon Motion 所屬的 Zacks 電腦 - 整合系統產業在此期間下跌了 14.8%。",
         "watch": [
           "後續是否出現可量化的營收、毛利或訂單數據"
         ],
@@ -19850,7 +19857,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 捕獲一艘星際飛船",
-      "summary": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+      "summary": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
       "originalTitle": "SpaceX Catches a Starship",
       "originalSummary": "After circling the Earth 14 times, the upper portion of Starship descended to the planet's surface and was caught by a giant pair of robotic, chopstick-like arms. However, the company failed to snatch the lower stage, which it had previously demonstrated",
       "url": "https://www.smithsonianmag.com/smart-news/spacex-catches-the-upper-stage-of-its-starship-for-the-first-time-making-the-company-one-step-closer-to-a-reusable-rocket-180989877/",
@@ -19866,10 +19873,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+        "event": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機械手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
+        "stance": "繞地球 14 圈後，星艦的上部下降到地球表面，並被一對巨大的筷子狀機器手臂抓住。然而，該公司未能搶佔先前展示的下層舞台",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -21481,7 +21488,7 @@
       "group": "半導體設備／測試",
       "tag": "題材",
       "title": "泰瑞達受益於強勁的測試需求：它能否擊敗 KLAC 和 COHU？",
-      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+      "summary": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
       "originalTitle": "Teradyne Benefits From Strong Test Demand: Can It Beat KLAC & COHU?",
       "originalSummary": "Teradyne TER is benefiting from strong semiconductor test demand, accelerating artificial intelligence (AI) infrastructure investments, and increasing complexity in advanced chip architectures. Rising demand for AI accelerators, high-bandwidth memory (HBM), and high-performance computing solutions is strengthening the company's growth prospects and competitive position against KLA KLAC and Cohu COHU. Teradyne reported impressive third-quarter 2026 results, with revenues surging 70% year over year to $1.31 billion. Semiconductor Test revenues increased 77% to more than $1 billion, supported by robust demand for AI accelerators, high-bandwidth memory (HBM) and power management solutions. Compute revenues grew nearly 50%, while memory revenues reached a record $301 million, reflecting strong demand for HBM and DRAM testing. Teradyne's expanding product portfolio is another key growth driver. The company's UltraFLEXplus platform is gaining traction as hyperscalers increasingly adopt dual-vendor testing strategies. Its recently introduced UltraVS64-HP, UltraPort-PCIe6 and Magnum E2 solutions strengthen its ability to address next-generation AI accelerators, high-speed connectivity and advanced memory testing requirements. Teradyne expects additional hyperscaler capacity purchases and compute-related revenue opportunities in 2027. Teradyne's expanding AI-driven opportunities and product innovations position it favorably to sustain momentum against KLAC and COHU. For the fourth quarter of 2026, Teradyne expects revenues between $1.25 billion and $1.35 billion. The midpoint of the guidance range stands at $1.30 billion.",
       "url": "https://finance.yahoo.com/technology/articles/teradyne-benefits-strong-test-demand-152000700.html",
@@ -21498,7 +21505,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "event": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "numbers": [
           "$1.31 billion",
           "$1 billion",
@@ -21506,7 +21513,7 @@
           "$1.25 billion"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達 (Teradyne) 公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
+        "stance": "Teradyne TER 受益於強勁的半導體測試需求、加速的人工智慧 (AI) 基礎設施投資以及先進晶片架構日益複雜的情況。對人工智慧加速器、高頻寬記憶體 (HBM) 和高效能運算解決方案的需求不斷增長，增強了該公司的成長前景以及相對於 KLA KLAC 和 Cohu COHU 的競爭地位。泰瑞達公佈了令人印象深刻的 2026 年第三季業績，營收年增 70% 至 13.1 億美元。在人工智慧加速器、高頻寬記憶體 (HBM) 和電源管理解決方案的強勁需求的支援下，半導體測試收入成長了 77%，達到超過 10 億美元。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "下一季／全年財測是否再次上修或下修",
@@ -21793,7 +21800,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "諾基亞聯邦解決方案授予美國戰爭部 RAPID 合同，以提高多域威脅意識",
-      "summary": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。该奖项支持 ISAC 演示的真实应用原型设计 (RAPID)，利用 5G 和 6G 基础设施进行对象检测和跟踪。",
+      "summary": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。該獎項支持 ISAC 演示的真實應用原型設計 (RAPID)，利用 5G 和 6G 基礎設施進行物件偵測和追蹤。",
       "originalTitle": "Nokia Federal Solutions awarded Department of War RAPID contract to advance multi-domain threat awareness",
       "originalSummary": "CHANTILLY, Va., 13 November 2026 | 14:00 PM Europe/Amsterdam Nokia Federal Solutions awarded Department of War RAPID contract to advance multi-domain threat awareness Press Release Nokia Federal Solutions today announced that it has been awarded a contract under the Department of War's (DoW) RAPID project, managed by the FutureG Office within the Office of the Under Secretary of War for Research and Engineering (OUSW(R&E)). The award supports Real-World Application Prototyping for ISAC Demonstration (RAPID), leveraging 5G and 6G infrastructure for object detection and tracking. Under the contract, Nokia Federal will develop, build and test integrated sensing and communications (ISAC) capabilities and demonstrate an end-to-end solution for the DoW's RAPID project. The effort supports the FutureG Office's mission by demonstrating how 5G and future 6G networks can be leveraged to improve threat detection and situational awareness, helping protect critical infrastructure against emerging threats. Built on Nokia's AI-RAN platform, the project will integrate Nokia and third-party applications for sensing and spectrum threat awareness. It will combine multiple sensing modalities and sensor fusion to help provide a more comprehensive picture of potential unmanned aerial vehicle (UAV) threats. Subcontractors supporting the effort include Nokia affiliates, Texas Tech University, DeepSig, Hidden Level and Future Technologies. \" The unmanned system threat is real. Integrated sensing and communications provides the opportunity to help protect critical infrastructure by leveraging the existing cellular networks to identify the threat. This project in partnership with Department of War is helping to advance the technology and the ecosystem to make that a reality. Steve Vogelsang, Chief Technology Officer, Nokia Federal Solutions \" \" In the FutureG Office, we are accelerating and adapting commercial wireless technologies to meet the requirements of the Department of War, and ISAC is at the forefront of this effort. Through RAPID and related initiatives, we are cultivating an open ecosystem that enables us to leverage commercial cellular infrastructure to bolster force protection and defense of critical assets against evolving UAV threats. Marlan Macklin, Deputy Principal Director for FutureG in OUSW(R&E) \" The award reinforces Nokia Federal's role in supporting the DoW FutureG Office's mission by bringing proven commercial innovation into mission-critical environments. It also highlights how commercial technologies can be applied to meet the DoW's most demanding operational requirements. Boilerplate About Nokia Nokia is a global leader in connectivity infrastructure, enabling the AI supercycle. We build networks that connect intelligence and deliver a comprehensive connectivity solution across fixed, mobile, IP, optical, core, and data center networks. With security by design, AI-driven innovation, and AI-optimized architecture, Nokia delivers trusted infrastructure that enables AI to scale and advances connectivity to secure a brighter world. About Nokia Federal Solutions Nokia Federal is a trusted partner to the U.S. Federal Government, delivering secure c",
       "url": "https://www.marketscreener.com/news/nokia-oyj-federal-solutions-awarded-department-of-war-rapid-contract-to-advance-multi-domain-threa-ce785ed9de8af227",
@@ -21810,10 +21817,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。该奖项支持 ISAC 演示的真实应用原型设计 (RAPID)，利用 5G 和 6G 基础设施进行对象检测和跟踪。",
+        "event": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。該獎項支持 ISAC 演示的真實應用原型設計 (RAPID)，利用 5G 和 6G 基礎設施進行物件偵測和追蹤。",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。该奖项支持 ISAC 演示的真实应用原型设计 (RAPID)，利用 5G 和 6G 基础设施进行对象检测和跟踪。",
+        "stance": "維吉尼亞州尚蒂伊，2026 年 11 月 13 日 | 14:00 PM 歐洲/阿姆斯特丹 諾基亞聯邦解決方案公司授予美國戰爭部 RAPID 合同，以推進多域威脅意識 新聞稿 諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的諾基亞聯邦解決方案公司今天宣布，它已獲得美國陸軍部 (DoW) RAPID 項目的一份研究，該項目由內的研究副部長辦公室管理。該獎項支持 ISAC 演示的真實應用原型設計 (RAPID)，利用 5G 和 6G 基礎設施進行物件偵測和追蹤。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "合作金額、出貨時程與實際營收貢獻",
@@ -22236,7 +22243,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 的巨型火箭可能會讓 NASA 望塵莫及",
-      "summary": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。此次测试将成为火箭的一个重要里程碑，公司创始人埃隆·马斯克表示，他希望有一天能够将宇航员送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+      "summary": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
       "originalTitle": "SpaceX's giant rocket may leave NASA in the dust",
       "originalSummary": "Later today, SpaceX is planning the most ambitious test yet of its massive new rocket Starship. If all goes well, it will lift off from a pad in South Texas, circle the Earth and then land vertically at the same pad 22 and a half hours later. The test would be a major milestone for a rocket that company founder Elon Musk says he hopes will one day carry astronauts to Mars. But experts say the rapid development of Starship could also end up stranding one of the company's biggest boosters over the years: NASA. That's because as SpaceX ramps up its new rocket, it has said it will stop flying a much smaller one called Falcon 9. Falcon 9 launches the company's Dragon capsule, which is currently the only American spacecraft capable of ferrying NASA astronauts to and from the International Space Station. \"Because Dragon has become such a successful and reliable vehicle, it became the de facto way for astronauts to get to orbit,\" said Caleb Henry, director of research at Quilty Space, a firm that tracks the space industry. According to a NASA announcement in September, the space agency has contracted with SpaceX for three additional flights to the International Space Station. That would only allow Dragon to fly through 2028, assuming the missions were flown consecutively in six month increments and no further flights are contracted with SpaceX.",
       "url": "https://wskg.org/npr-news/2026-11-13/spacexs-giant-rocket-may-leave-nasa-in-the-dust",
@@ -22252,10 +22259,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。此次测试将成为火箭的一个重要里程碑，公司创始人埃隆·马斯克表示，他希望有一天能够将宇航员送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+        "event": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。此次测试将成为火箭的一个重要里程碑，公司创始人埃隆·马斯克表示，他希望有一天能够将宇航员送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
+        "stance": "今天晚些時候，SpaceX 正計劃對其大型新型火箭星際飛船進行迄今為止最雄心勃勃的測試。如果一切順利，它將從德克薩斯州南部的一個發射場升空，環繞地球飛行，然後在 22 個半小時後垂直降落在同一個發射場。這項測試將成為火箭的一個重要里程碑，公司創辦人馬斯克表示，他希望有一天能將太空人送上火星。但專家表示，Starship 的快速發展最終也可能讓該公司多年來最大的支持者之一——美國太空總署 (NASA) 陷入困境。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -22671,7 +22678,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "火箭實驗室將於本週發射具有里程碑意義的第 100 枚電子火箭",
-      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的新全球基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+      "summary": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
       "originalTitle": "Rocket Lab To Launch Milestone 100th Electron Rocket This Week",
       "originalSummary": "Rocket Lab (NasdaqGS:RKLB) is preparing for its 100th Electron rocket launch, marking a new global benchmark for small-lift orbital vehicles. The Electron milestone highlights Rocket Lab's record of rapid response missions and engineering focused on frequent commercial space access. CEO Peter Beck is positioning the upcoming Neutron rocket as a competitor to SpaceX by prioritizing external launch customers alongside in-house programs. The 100th Electron launch and Beck's Neutron versus Starship positioning sit against a wider set of trends our research has uncovered. Our analysis turns up 3 warning signs for Rocket Lab as well. Rocket Lab is far from the only business exposed to the buildout of space and compute capacity that underpins AI infrastructure, so it is worth comparing it with a broader peer set through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-nears-100th-020711401.html",
@@ -22688,7 +22695,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的新全球基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
+        "event": "Rocket Lab（納斯達克股票代碼：RKLB）正在準備第 100 次 Electron 火箭發射，這標誌著小型升力軌道飛行器的全球新基準。 Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
         "numbers": [],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
         "stance": "Electron 的里程碑凸顯了 Rocket Lab 在快速反應任務和工程方面的記錄，重點是頻繁的商業太空訪問。執行長 Peter Beck 將即將推出的中子火箭定位為 SpaceX 的競爭對手，優先考慮外部發射客戶和內部專案。第 100 次 Electron 發射和 Beck 的中子與星際飛船定位與我們的研究發現的更廣泛的趨勢背道而馳。",
@@ -23449,7 +23456,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "SpaceX 計畫在德州和亞利桑那州的人工智慧園區投資超過 740 億美元",
-      "summary": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
+      "summary": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
       "originalTitle": "SpaceX plans over $74 billion investment in Texas, Arizona AI campuses",
       "originalSummary": "SpaceX (SPCX) pegs its Texas and Arizona AI campuses at over $74 billion, yet the shares barely moved because most of it is planned spending. Arizona is the riskier, larger half: a roughly $50 billion campus filed through shell company Tombstone Resources, with no contract backing promised jobs or bill cuts. A December 9 Cochise County zoning hearing decides whether the $74 billion plan holds or the Arizona half falls into doubt. On November 12, 2026, SpaceX ( NASDAQ:SPCX ) put a single price on its AI expansion. In a company update, it said a supercompute facility at Starbase in Texas' Rio Grande Valley and a campus in Cochise County, Arizona, together represent more than $74 billion in planned American investment.",
       "url": "https://finance.yahoo.com/technology/ai/articles/spacex-plans-spend-74-billion-151457546.html",
@@ -23466,7 +23473,7 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
+        "event": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。 2026 年 11 月 12 日，SpaceX（納斯達克股票代碼：SPCX）為其人工智慧擴張設定了單一價格。",
         "numbers": [
           "$74 billion",
           "$50 billion",
@@ -23474,7 +23481,7 @@
           "50 billion"
         ],
         "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
-        "stance": "SpaceX (SPCX) 將其德州和亞利桑那州人工智慧園區的估值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。 12 月 9 日，科奇斯縣分區聽證會將決定 740 億美元的計劃是否成立，或者亞利桑那州的一半是否會受到質疑。",
+        "stance": "SpaceX (SPCX) 預計其德州和亞利桑那州的人工智慧園區價值超過 740 億美元，但股價幾乎沒有變動，因為大部分都是計畫支出。亞利桑那州是風險較高、規模較大的一半：透過空殼公司 Tombstone Resources 備案的約 500 億美元園區，沒有合約支持承諾的就業或帳單削減。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -25801,7 +25808,7 @@
       "group": "晶圓代工／封測／EMS",
       "tag": "題材",
       "title": "台積電批准對 Anthropic、OpenAI 高達 10 億美元的投資計劃",
-      "summary": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並另外投資 5 億美元在 OpenAI 的優先股上。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
+      "summary": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並在 OpenAI 的優先股上再投資 5 億美元。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
       "originalTitle": "TSMC Approves Up to $1 Billion Investment Plan in Anthropic, OpenAI",
       "originalSummary": "Android Headlines / Tech News / TSMC Backs Anthropic and OpenAI With $1 Billion Investment TSMC’s board has approved an investment plan of up to $1 billion in two AI companies, OpenAI and Anthropic. It plans to invest $500 million in Anthropic IPO and another $500 million in OpenAI’s preferred stock. Taiwan Semiconductor Manufacturing Company (TSMC) has approved an investment of $1 billion in two AI companies, OpenAI and Anthropic. The world’s largest contract chipmaker plans to invest $500 million in each company. It looks forward to expanding financial ties with two well-known names in the AI industry, especially as AI demand grows. In a recent development, TSMC’s board has approved a $500 million investment in Anthropic’s upcoming Initial Public Offering (IPO). Moreover, the top management has also cleared an investment of up to $500 million in OpenAI preferred stock. With this financial step, the company seeks a stake in both AI companies. Anthropic has priced its IPO at between $70 and $78 per share. The tech giant is targeting a total valuation of up to $1.4 trillion. On the other hand, the Claude developer is raising another $26 billion through a separate private placement. Multiple companies worldwide are backing the funding. The list includes Alphabet’s Google, Nvidia, AMD, and Microsoft. TSMC’s investment timing is particularly noticeable because it comes amid surging demand for AI chips. It already plays an important role in the AI industry and with the following step, it wants to further strengthen its position. The company is a key supplier to Nvidia, whose graphics processors are widely used to train and run AI models. TSMC has been breaking records in terms of overall growth and revenue. For reference, it recently reported its sixth consecutive quarter of record profit last month and said demand for AI-related chips remained “extremely robust”. What’s even more surprising is that it expects its revenue to grow further by 44% in 2026. The Taiwanese company recently said that the demand is so strong that its current manufacturing capacity is falling short of fulfilling it. To address this, TSMC is investing $265 billion in manufacturing facilities in Arizona . It is also exploring projects in Texas. In a nutshell, the company is going all out on AI, whether in the form of expanding its manufacturing capacity or investing $1 billion in AI companies.",
       "url": "https://www.androidheadlines.com/2026/11/tsmc-backs-anthropic-and-openai-with-1-billion-investment.html",
@@ -25821,7 +25828,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並另外投資 5 億美元在 OpenAI 的優先股上。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
+        "event": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並在 OpenAI 的優先股上再投資 5 億美元。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
         "numbers": [
           "$1 Billion",
           "$1 billion",
@@ -25829,7 +25836,7 @@
           "$70"
         ],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並另外投資 5 億美元在 OpenAI 的優先股上。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
+        "stance": "Android Headlines / 科技新聞 / 台積電以 10 億美元投資支持 Anthropic 和 OpenAI 台積電董事會已批准對 OpenAI 和 Anthropic 兩家人工智慧公司高達 10 億美元的投資計畫。它計劃在 Anthropic IPO 中投資 5 億美元，並在 OpenAI 的優先股上再投資 5 億美元。台積電 (TSMC) 已批准對 OpenAI 和 Anthropic 兩家人工智慧公司投資 10 億美元。全球最大的合約晶片製造商計劃向每家公司投資 5 億美元。",
         "watch": [
           "合作金額、出貨時程與實際營收貢獻",
           "供需是否持續，以及價格／毛利是否同步改善",
@@ -26295,7 +26302,7 @@
       "group": "太空／國防／無人系統",
       "tag": "題材",
       "title": "從 SpaceX 到 Anthropic，市場為巨股上市製定了新策略",
-      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+      "summary": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
       "originalTitle": "From SpaceX to Anthropic, markets have a new playbook for mega-share debuts",
       "originalSummary": "Space Exploration Technologies (SpaceX) rewrote Wall Street’s initial public offering (IPO) record books in June, and Anthropic is hoping to do the same. The developer of the Claude large language model is contending with several historical headwinds. Additionally, the bond market is sending an unmistakable message about AI companies. Missed AI’s \"Act 1\"? Act 2 Could Be 15x Bigger. Most investors think they missed the AI boat because they didn't buy Nvidia in 2005. But according to our analysts, we’re only at the end of \"Act 1\"—the R&D phase. \"Act 2\" is the global rollout. Continue »",
       "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/8774454/bad-news-theres-a-new-red-flag-ahead-of-the-anthropic-ipo/",
@@ -26313,10 +26320,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+        "event": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 記錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了 AI 的「第一幕」？",
+        "stance": "太空探索科技公司 (SpaceX) 在 6 月改寫了華爾街的首次公開發行 (IPO) 紀錄，Anthropic 也希望能做到這一點。 Claude 大語言模型的開發者正在處理一些歷史阻力。此外，債券市場正在傳遞有關人工智慧公司的明確訊息。錯過了人工智慧的「第一幕」？",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -26824,7 +26831,7 @@
       "group": "類比／電源／功率／RF",
       "tag": "題材",
       "title": "ADI：Analog Devices Inc.最新股票價格、分析、新聞與交易思路",
-      "summary": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+      "summary": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
       "originalTitle": "ADI: Analog Devices Inc. Latest Stock Price, Analysis, News and Trading Ideas",
       "originalSummary": "Analog Devices (ADI) ended the recent trading session at $397.97, demonstrating a -2.77% change from the preceding day's closing price. The stock's performance was behind the S&P 500's daily loss of 0.41%. Elsewhere, the Dow gained 0.1%, while the tech-heavy Nasdaq lost 0.91%. The semiconductor maker's shares have seen an increase of 1.32% over the last month, surpassing the Computer and Technology sector's loss of 11.52% and the S&P 500's loss of 2.64%.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/why-analog-devices-adi-dipped-220001409.html",
@@ -26840,7 +26847,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "event": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "numbers": [
           "$397.97,",
           "2.77%",
@@ -26848,7 +26855,7 @@
           "0.1%"
         ],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "Analog Devices (ADI) 最近交易日收在 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
+        "stance": "Analog Devices (ADI) 最近交易日收盤價為 397.97 美元，較前一日收盤價上漲 -2.77%。該股的表現導致標準普爾 500 指數每日下跌 0.41%。其他方面，道瓊指數上漲 0.1%，而以科技股為主的那斯達克指數下跌 0.91%。這家半導體製造商的股價上個月上漲了 1.32%，超過了電腦和技術板塊 11.52% 的跌幅以及標準普爾 500 指數 2.64% 的跌幅。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進",
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
@@ -26950,7 +26957,7 @@
       "group": "EV／AI／機器人",
       "tag": "題材",
       "title": "特斯拉（TSLA）成立特別委員會審查可能的全股票合併",
-      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+      "summary": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
       "originalTitle": "Tesla (TSLA) Forms Special Committee To Review Possible All Stock Merger",
       "originalSummary": "Tesla (NasdaqGS:TSLA) and SpaceX have each formed special committees to evaluate a potential all-stock merger, according to a new report. The review coincides with Tesla's next-generation Roadster unveiling, which has fueled fresh questions about SpaceX technology being incorporated into the vehicle. Industry analysts are split, with some highlighting possible shareholder dilution and others focusing on potential cross-company use of rocket, chip, and communication tech. The possible Tesla SpaceX all-stock merger and Roadster reveal matter, but investors should weigh Tesla on more than this headline. We have also flagged 1 other big win for Tesla. Consider widening your watchlist to other companies tied to similar long-term technology themes through 53 AI infrastructure stocks .",
       "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-forms-special-committee-181131688.html",
@@ -26968,10 +26975,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "event": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "numbers": [],
         "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，有些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
+        "stance": "根據一份新報告，特斯拉（NasdaqGS：TSLA）和 SpaceX 已各自成立特別委員會來評估潛在的全股票合併。這項審查恰逢特斯拉下一代 Roadster 的發布，這引發了有關 SpaceX 技術融入該車的新問題。產業分析師意見不一，一些分析師強調可能存在股東稀釋，有些分析師則關注火箭、晶片和通訊技術的潛在跨公司使用。特斯拉 SpaceX 可能的全股票合併和 Roadster 揭示了問題，但投資者應該不僅僅關注這個標題來衡量特斯拉。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
