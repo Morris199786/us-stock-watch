@@ -1,11 +1,57 @@
 {
-  "updatedAt": "2026-11-26 01:07 台灣時間",
+  "updatedAt": "2026-11-26 01:10 台灣時間",
   "historyUpdatedDate": "2026-11-26",
   "historyLastAttemptAt": "2026-11-25T16:09:35.766267+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-25",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "SNOW",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利空",
+      "title": "花旗集團下調 Snowflake (NYSE:SNOW) 股價目標",
+      "summary": "",
+      "originalTitle": "Snowflake (NYSE:SNOW) Stock Price Target Cut by Citigroup",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdmFqSTNBLTFSc1lhYldqYmlVVmdCVGdFVUdpWFZiMm1oUjRBejRDZnJjMzRhZnVVSHg0SFJLRTZEMk1MWWszSm91M0toR01GLTE4ZHdrV0hmODJwbXk0VndPeTV5M3F2UkNTWkxGbHdSNEZIekpraXBOZ2loWEhKLXpuaTI4ZzB4WmY4dVZqZXdOU1ZqYVhmUWZZYWFwc3RfeG5YZURRSV8ycGlXb1dGUlVKcm1xOUFN?oc=5",
+      "ts": "2026-11-25T17:06:52+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [
+        {
+          "broker": "Citigroup",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "",
+          "oldTarget": "",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "SNOW",
+          "targetCompany": "Snowflake"
+        }
+      ],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "SNOW"
+      ],
+      "eventType": "",
+      "score": 202.5,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "被評級公司：Snowflake（SNOW）｜券商：Citigroup｜動作：下修｜調整原因：來源未提供具體理由",
+        "numbers": [],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 7
+    },
     {
       "ticker": "OKLO",
       "group": "核能／鈾",
@@ -18,7 +64,7 @@
       "ts": "2026-11-25T16:57:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.718749999999996,
+      "movePct": -5.989583333333326,
       "relatedTickers": [
         "OKLO"
       ],
@@ -57,13 +103,13 @@
       "ts": "2026-11-25T16:56:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.050228310502282,
+      "movePct": -6.6210045662100425,
       "relatedTickers": [
         "ORCL",
         "NBIS"
       ],
       "eventType": "跨公司事件",
-      "score": 28.5,
+      "score": 27.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -97,7 +143,7 @@
       "ts": "2026-11-25T16:52:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.563272220007964,
+      "movePct": -5.128205128205132,
       "relatedTickers": [
         "AVGO",
         "QCOM"
@@ -117,6 +163,39 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "ORCL",
+      "group": "Cloud／Software／AI 應用",
+      "tag": "利多",
+      "title": "Oracle 較 6 月高點下跌 60%。摩根大通仍看漲 200 美元",
+      "summary": "要點 J. 11 月 11 日，P. Morgan 重申了對 Oracle 的買入評級和 200 美元的目標價。",
+      "originalTitle": "Oracle Is Down 60% From Its June High. J.P. Morgan Still Sees $200",
+      "originalSummary": "Key TakeawaysJ. P. Morgan reiterated its Buy rating and $200 price target on Oracle on Nov.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-down-60-june-high-165056163.html",
+      "ts": "2026-11-25T16:50:56+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": true,
+      "movePct": -6.6210045662100425,
+      "analystDetails": [],
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 4
     },
     {
       "ticker": "NVDA",
@@ -166,7 +245,7 @@
       "ts": "2026-11-25T16:43:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.708458538456622,
+      "movePct": -8.886899814589865,
       "relatedTickers": [
         "BE"
       ],
@@ -228,7 +307,7 @@
       "ts": "2026-11-25T16:37:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.688144329896895,
+      "movePct": -6.304410080183276,
       "relatedTickers": [
         "TSM"
       ],
@@ -260,12 +339,12 @@
       "ts": "2026-11-25T16:34:49+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.609774465892425,
+      "movePct": -3.975583653731818,
       "relatedTickers": [
         "AMZN"
       ],
       "eventType": "",
-      "score": 16.5,
+      "score": 12.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -292,7 +371,7 @@
       "ts": "2026-11-25T16:33:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.7261000141092007,
+      "movePct": -2.2030516195352012,
       "relatedTickers": [
         "MSFT"
       ],
@@ -326,7 +405,7 @@
       "ts": "2026-11-25T16:32:56+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -1.0872929887014382,
+      "movePct": 0.015477480266223864,
       "relatedTickers": [
         "TXN"
       ],
@@ -358,7 +437,7 @@
       "ts": "2026-11-25T16:32:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.503649635036492,
+      "movePct": -7.512408759124078,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -393,7 +472,7 @@
       "ts": "2026-11-25T16:31:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.885824246311739,
+      "movePct": -11.25080179602309,
       "hasArticleBody": false,
       "relatedTickers": [
         "SNDK",
@@ -427,7 +506,7 @@
       "ts": "2026-11-25T16:30:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.310214034137073,
+      "movePct": -4.952926036304528,
       "relatedTickers": [
         "DELL"
       ],
@@ -496,12 +575,12 @@
       "ts": "2026-11-25T16:30:32+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.609774465892425,
+      "movePct": -3.975583653731818,
       "relatedTickers": [
         "AMZN"
       ],
       "eventType": "",
-      "score": 16.5,
+      "score": 12.0,
       "featured": true,
       "translated": true,
       "investorBrief": {
@@ -528,7 +607,7 @@
       "ts": "2026-11-25T16:30:16+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.25067951569063,
+      "movePct": -8.515567086730913,
       "relatedTickers": [
         "AMAT"
       ],
@@ -553,21 +632,21 @@
       "group": "Cloud／Software／AI 應用",
       "tag": "題材",
       "title": "Oracle、CoreWeave 面臨信貸市場的嚴厲警告",
-      "summary": "人工智慧熱潮背後正浮現出令人不安的金融訊號。",
+      "summary": "",
       "originalTitle": "Oracle, CoreWeave Face Stark Warning From Credit Markets",
       "originalSummary": "A troubling financial signal is emerging beneath the AI boom.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-coreweave-face-stark-warning-162922864.html",
       "ts": "2026-11-25T16:29:22+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.050228310502282,
+      "movePct": -6.6210045662100425,
       "relatedTickers": [
         "ORCL",
         "CRWV"
       ],
       "eventType": "",
-      "score": 21.0,
-      "featured": true,
+      "score": 19.5,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -597,7 +676,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 9.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -623,7 +702,7 @@
       "ts": "2026-11-25T16:27:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.688144329896895,
+      "movePct": -6.304410080183276,
       "relatedTickers": [
         "TSM",
         "NVDA"
@@ -656,7 +735,7 @@
       "ts": "2026-11-25T16:25:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.503649635036492,
+      "movePct": -7.512408759124078,
       "relatedTickers": [
         "INTC",
         "NVDA"
@@ -777,7 +856,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 10
     },
     {
       "ticker": "AMD",
@@ -791,7 +870,7 @@
       "ts": "2026-11-25T16:18:36+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.52106371137512,
+      "movePct": -7.19868366927191,
       "relatedTickers": [
         "AMD"
       ],
@@ -823,7 +902,7 @@
       "ts": "2026-11-25T16:13:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.635621846297472,
+      "movePct": -10.67382837763693,
       "relatedTickers": [
         "MU",
         "ORCL"
@@ -927,8 +1006,8 @@
         "takeaway": "調整原因：Salesforce 股票：TD Cowen 將目標下調至 275 美元，維持買入 - ad-hoc-news.de",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 9
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "BA",
@@ -942,7 +1021,7 @@
       "ts": "2026-11-25T16:11:39+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.4645760743321681,
+      "movePct": -0.23840088024941197,
       "relatedTickers": [
         "BA"
       ],
@@ -977,7 +1056,7 @@
       "ts": "2026-11-25T16:10:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.856529687624189,
+      "movePct": -4.53064144344647,
       "relatedTickers": [
         "SPCX"
       ],
@@ -1016,7 +1095,7 @@
       "ts": "2026-11-25T16:10:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.310214034137073,
+      "movePct": -4.952926036304528,
       "relatedTickers": [
         "DELL"
       ],
@@ -1080,7 +1159,7 @@
       "ts": "2026-11-25T16:08:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.4645760743321681,
+      "movePct": -0.23840088024941197,
       "relatedTickers": [
         "BA"
       ],
@@ -1148,7 +1227,7 @@
       "ts": "2026-11-25T16:08:25+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.310214034137073,
+      "movePct": -4.952926036304528,
       "relatedTickers": [
         "DELL"
       ],
@@ -1180,7 +1259,7 @@
       "ts": "2026-11-25T16:04:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.363367228729569,
+      "movePct": -7.6071566482172726,
       "relatedTickers": [
         "NVDA"
       ],
@@ -1216,13 +1295,45 @@
       "ts": "2026-11-25T16:02:52+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.310214034137073,
+      "movePct": -4.952926036304528,
       "hasArticleBody": false,
       "relatedTickers": [
         "DELL"
       ],
       "eventType": "",
       "score": 10.5,
+      "featured": false,
+      "translated": true,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MSFT",
+      "group": "CSP",
+      "tag": "利多",
+      "title": "PINS 與微軟的新廣告交易能否提升其競爭優勢？",
+      "summary": "",
+      "originalTitle": "Can PINS's New Microsoft Advertising Deal Boost Its Competitive Edge?",
+      "originalSummary": "Pinterest's Microsoft partnership expands advertising access, leveraging AI and commercial-intent searches to attract brands and boost monetization.",
+      "url": "https://finance.yahoo.com/media-advertising/articles/pinss-microsoft-advertising-deal-boost-155900901.html",
+      "ts": "2026-11-25T15:59:00+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -2.2030516195352012,
+      "relatedTickers": [
+        "MSFT"
+      ],
+      "eventType": "",
+      "score": 18.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1279,7 +1390,7 @@
       "ts": "2026-11-25T15:57:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.7261000141092007,
+      "movePct": -2.2030516195352012,
       "relatedTickers": [
         "MSFT"
       ],
@@ -1311,7 +1422,7 @@
       "ts": "2026-11-25T15:57:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.695857464310727,
+      "movePct": -4.153602124755618,
       "relatedTickers": [
         "SNOW"
       ],
@@ -1343,7 +1454,7 @@
       "ts": "2026-11-25T15:56:48+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.310214034137073,
+      "movePct": -4.952926036304528,
       "relatedTickers": [
         "DELL"
       ],
@@ -1414,7 +1525,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1436,7 +1547,7 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "市场正在等待美联储 2026 年最后一次会议之前的最终主要通胀数据，该数据可能会巩固下个月加息 25 个基点的可能性。個人消費支出物價指數，聯準會的",
+        "event": "市場正在等待聯準會 2026 年最後一次會議之前的最終主要通膨數據，該數據可能會鞏固下個月升息 25 個基點的可能性。個人消費支出物價指數，聯準會的",
         "numbers": [],
         "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "stance": "市場正在等待聯準會 2026 年最後一次會議之前的最終主要通膨數據，該數據可能會鞏固下個月升息 25 個基點的可能性。個人消費支出物價指數，聯準會的",
@@ -1462,7 +1573,7 @@
       "ts": "2026-11-25T15:55:37+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -9.708458538456622,
+      "movePct": -8.886899814589865,
       "detailSource": "yahoo_or_article_metadata",
       "analystDetails": [
         {
@@ -1511,7 +1622,7 @@
       "ts": "2026-11-25T15:54:18+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.635621846297472,
+      "movePct": -10.67382837763693,
       "relatedTickers": [
         "MU"
       ],
@@ -1543,7 +1654,7 @@
       "ts": "2026-11-25T15:54:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.92305292710824,
+      "movePct": -4.443953415826152,
       "relatedTickers": [
         "TSLA"
       ],
@@ -1581,7 +1692,7 @@
       "ts": "2026-11-25T15:53:19+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.130193792084096,
+      "movePct": -8.38910330103465,
       "relatedTickers": [
         "LITE",
         "COHR",
@@ -1622,7 +1733,7 @@
       "ts": "2026-11-25T15:52:54+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.12547895968263445,
+      "movePct": 0.2865280933165959,
       "relatedTickers": [
         "META",
         "AMZN"
@@ -1655,7 +1766,7 @@
       "ts": "2026-11-25T15:51:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.660153656454526,
+      "movePct": -5.088684435170265,
       "relatedTickers": [
         "CRWD"
       ],
@@ -1725,7 +1836,7 @@
       "ts": "2026-11-25T15:49:02+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -8.52106371137512,
+      "movePct": -7.19868366927191,
       "relatedTickers": [
         "AMD"
       ],
@@ -1757,7 +1868,7 @@
       "ts": "2026-11-25T15:48:58+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.4645760743321681,
+      "movePct": -0.23840088024941197,
       "relatedTickers": [
         "BA"
       ],
@@ -1795,7 +1906,7 @@
       "ts": "2026-11-25T15:48:07+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": true,
-      "movePct": -11.635621846297472,
+      "movePct": -10.67382837763693,
       "hasArticleBody": true,
       "detailSource": "article_or_same_event",
       "relatedTickers": [
@@ -1839,16 +1950,16 @@
       "ts": "2026-11-25T15:48:01+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -7.050228310502282,
+      "movePct": -6.6210045662100425,
       "relatedTickers": [
         "ORCL"
       ],
       "eventType": "",
-      "score": 12.0,
+      "score": 10.5,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "關鍵要點甲骨文的信用違約交換週二再次爆發，ZeroHedge 表示，它們現在的交易範圍比貝爾斯登 2008 年 1 月的交易範圍更廣。 Blue Owl 的基金为德克萨斯州阿比林园区甲骨文租赁提供了约 150 亿美元的融资，为期 15 年。",
+        "event": "關鍵要點甲骨文的信用違約交換週二再次爆發，ZeroHedge 表示，它們現在的交易範圍比貝爾斯登 2008 年 1 月的交易範圍更廣。 Blue Owl 的基金為德州阿比林園區甲骨文租賃提供了約 150 億美元的融資，為期 15 年。",
         "numbers": [
           "$15 Billion",
           "$15 billion",
@@ -1911,8 +2022,8 @@
         "takeaway": "調整原因：來源未提供具體調整理由",
         "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 10
+      "top10": false,
+      "top10Rank": null
     },
     {
       "ticker": "AVGO",
@@ -1926,7 +2037,7 @@
       "ts": "2026-11-25T15:46:31+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -5.563272220007964,
+      "movePct": -5.128205128205132,
       "relatedTickers": [
         "AVGO"
       ],
@@ -1958,7 +2069,7 @@
       "ts": "2026-11-25T15:45:41+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.806917143568056,
+      "movePct": -3.284399104254787,
       "relatedTickers": [
         "HPE"
       ],
@@ -1996,7 +2107,7 @@
       "ts": "2026-11-25T15:45:24+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -3.5347649963931027,
+      "movePct": -3.0002034663263233,
       "relatedTickers": [
         "CAT"
       ],
@@ -2030,7 +2141,7 @@
       "ts": "2026-11-25T15:45:15+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.437092169657426,
+      "movePct": -10.848287112561172,
       "relatedTickers": [
         "LRCX"
       ],
@@ -2124,7 +2235,7 @@
       "ts": "2026-11-25T15:43:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -9.285307156428113,
+      "movePct": -8.296390120329312,
       "relatedTickers": [
         "AXTI"
       ],
@@ -2222,7 +2333,7 @@
       "ts": "2026-11-25T15:41:59+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.856529687624189,
+      "movePct": -4.53064144344647,
       "relatedTickers": [
         "SPCX",
         "TSLA"
@@ -2289,12 +2400,12 @@
       "ts": "2026-11-25T15:41:17+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -4.609774465892425,
+      "movePct": -3.975583653731818,
       "relatedTickers": [
         "AMZN"
       ],
       "eventType": "",
-      "score": 16.5,
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2321,7 +2432,7 @@
       "ts": "2026-11-25T15:40:06+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -2.7261000141092007,
+      "movePct": -2.2030516195352012,
       "relatedTickers": [
         "MSFT"
       ],
@@ -2353,7 +2464,7 @@
       "ts": "2026-11-25T15:39:32+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -0.12547895968263445,
+      "movePct": 0.2865280933165959,
       "relatedTickers": [
         "META"
       ],
@@ -2385,7 +2496,7 @@
       "ts": "2026-11-25T15:39:27+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.885824246311739,
+      "movePct": -11.25080179602309,
       "relatedTickers": [
         "SNDK"
       ],
@@ -2502,7 +2613,7 @@
       "ts": "2026-11-25T15:36:44+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -11.885824246311739,
+      "movePct": -11.25080179602309,
       "relatedTickers": [
         "SNDK"
       ],
@@ -2534,7 +2645,7 @@
       "ts": "2026-11-25T15:36:11+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
-      "movePct": -6.727242788497511,
+      "movePct": -5.921515500800867,
       "relatedTickers": [
         "ASML"
       ],
@@ -2605,7 +2716,7 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2677,7 +2788,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 4,
+      "top10Rank": 5,
       "detailSource": "article_or_same_event"
     },
     {
@@ -2724,106 +2835,8 @@
         "sourceQuality": "analyst_structured"
       },
       "top10": true,
-      "top10Rank": 5,
+      "top10Rank": 6,
       "detailSource": "article_or_same_event"
-    },
-    {
-      "ticker": "ALAB",
-      "group": "高速傳輸",
-      "tag": "題材",
-      "title": "KLA 依靠強大的人工智慧基礎設施需求：它能擊敗 ALAB 和 TER 嗎？",
-      "summary": "",
-      "originalTitle": "KLA Rides on Strong AI Infrastructure Demand: Can It Beat ALAB & TER?",
-      "originalSummary": "KLAC's competitive position is strengthened by surging AI infrastructure investments, rising wafer inspection demand, and advanced packaging growth.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/kla-rides-strong-ai-infrastructure-153400655.html",
-      "ts": "2026-11-25T15:34:00+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -9.84385781495034,
-      "relatedTickers": [
-        "ALAB"
-      ],
-      "eventType": "",
-      "score": 12.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "TSM",
-      "group": "晶圓代工／封測／EMS",
-      "tag": "題材",
-      "title": "台灣列入美國關稅清單 台積電股價下跌 6.65%",
-      "summary": "",
-      "originalTitle": "TSMC Stocks Slide 6.65% as Taiwan Lands on US Tariff List",
-      "originalSummary": "TSMC's ADRs fell harder than its Taipei shares as Washington proposed new excess-capacity tariffs covering Taiwan.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stocks-slide-6-65-153357532.html",
-      "ts": "2026-11-25T15:33:57+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -6.688144329896895,
-      "relatedTickers": [
-        "TSM"
-      ],
-      "eventType": "",
-      "score": 21.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "NVDA",
-      "group": "AI 運算／AI 晶片",
-      "tag": "題材",
-      "title": "感恩節假期期間查看股票的投資規則",
-      "summary": "",
-      "originalTitle": "Investing rules for those checking stocks during the Thanksgiving holiday",
-      "originalSummary": "Yahoo Finance Executive Editor Brian Sozzi tells investors not to mistake a bad week for a bad strategy after a market sell-off, wild Nvidia (NVDA) swings, and Jensen Huang's return to the CEO chair, and urges discipline during the Thanksgiving holiday.",
-      "url": "https://finance.yahoo.com/video/investing-rules-for-those-checking-stocks-during-the-thanksgiving-holiday-153334098.html",
-      "ts": "2026-11-25T15:33:34+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -8.363367228729569,
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 18.0,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "雅虎財經執行編輯布萊恩·索齊 (Brian Sozzi) 告訴投資者，在市場拋售、英偉達 (NVDA) 劇烈波動以及黃仁勳重新擔任首席執行官之後，不要將糟糕的一周誤認為是糟糕的策略，並敦促在感恩節假期期間遵守紀律。",
-        "numbers": [],
-        "why": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "stance": "雅虎財經執行編輯布萊恩·索齊 (Brian Sozzi) 告訴投資者，在市場拋售、英偉達 (NVDA) 劇烈波動以及黃仁勳重新擔任首席執行官之後，不要將糟糕的一周誤認為是糟糕的策略，並敦促在感恩節假期期間遵守紀律。",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
     }
   ],
   "historyItems": [
@@ -13321,7 +13334,7 @@
       "group": "AI Server／資料中心硬體",
       "tag": "利多",
       "title": "超微電腦：市場已經走得太遠，強力買進升級",
-      "summary": "分析师披露：我/我们通过股权、期权或其他衍生品持有 SMCI 股票的有益多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+      "summary": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 SMCI 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
       "originalTitle": "Super Micro Computer: The Market Has Gone Too Far, Strong Buy Upgrade",
       "originalSummary": "Analyst’s Disclosure: I/we have a beneficial long position in the shares of SMCI either through stock ownership, options, or other derivatives. I wrote this article myself, and it expresses my own opinions. I am not receiving compensation for it (other than from Seeking Alpha). I have no business relationship with any company whose stock is mentioned in this article. Seeking Alpha's Disclosure: Past performance is no guarantee of future results. No recommendation or advice is being given as to whether any investment is suitable for a particular investor. Any views or opinions expressed above may not reflect those of Seeking Alpha as a whole. Seeking Alpha is not a licensed securities dealer, broker or US investment adviser or investment bank. Our analysts are third party authors that include both professional investors and individual investors who may not be licensed or certified by any institute or regulatory body.",
       "url": "https://seekingalpha.com/article/4970456-super-micro-computer-the-market-has-gone-too-far-strong-buy-upgrade",
@@ -13339,14 +13352,14 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "分析师披露：我/我们通过股权、期权或其他衍生品持有 SMCI 股票的有益多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "event": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 SMCI 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "numbers": [],
-        "why": "券商調整理由：分析师披露：我/我们通过股权、期权或其他衍生品持有 SMCI 股票的有益多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
-        "stance": "分析师披露：我/我们通过股权、期权或其他衍生品持有 SMCI 股票的有益多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "why": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 SMCI 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "stance": "分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 SMCI 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "watch": [
           "評級是否持續，以及後續是否有其他大型券商跟進"
         ],
-        "takeaway": "券商調整理由：分析师披露：我/我们通过股权、期权或其他衍生品持有 SMCI 股票的有益多头头寸。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
+        "takeaway": "券商調整理由：分析師揭露：我/我們透過股權、選擇權或其他衍生性商品持有 SMCI 股票的有益多頭部位。這篇文章是我自己寫的，表達了我自己的觀點。我沒有收到任何補償（除了 Seeking Alpha 的補償）。我與本文中提到的任何其股票的公司沒有業務關係。",
         "sourceQuality": "body"
       }
     },
@@ -17266,7 +17279,7 @@
       "group": "光通訊／網通",
       "tag": "題材",
       "title": "VodafoneThree 將使用 Nvidia GPU 測試諾基亞的 AI-RAN",
-      "summary": "这些试验是在 VodafoneThree 的英国网络上进行的 VodafoneThree 已与诺基亚合作，在其英国移动网络上试验 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
+      "summary": "這些試驗是在 VodafoneThree 的英國網路上進行的 VodafoneThree 已與諾基亞合作，在其英國行動網路上試驗 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
       "originalTitle": "VodafoneThree to test Nokia's AI-RAN with Nvidia GPUs",
       "originalSummary": "The trials have been carried out over VodafoneThree's UK network VodafoneThree has paired with Nokia to trial AI-RAN on its UK mobile network. According to the carrier, the trials are looking into the role that AI in the radio access network (RAN) can play in enabling VodafoneThree's mobile network to be more intelligent, responsive, and efficient.",
       "url": "https://www.datacenterdynamics.com/en/news/vodafonethree-pairs-with-nokia-nvidia-to-trial-ai-ran-in-uk/",
@@ -17284,10 +17297,10 @@
       "detailSource": "article_or_same_event",
       "translated": true,
       "investorBrief": {
-        "event": "这些试验是在 VodafoneThree 的英国网络上进行的 VodafoneThree 已与诺基亚合作，在其英国移动网络上试验 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
+        "event": "這些試驗是在 VodafoneThree 的英國網路上進行的 VodafoneThree 已與諾基亞合作，在其英國行動網路上試驗 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
         "numbers": [],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "这些试验是在 VodafoneThree 的英国网络上进行的 VodafoneThree 已与诺基亚合作，在其英国移动网络上试验 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
+        "stance": "這些試驗是在 VodafoneThree 的英國網路上進行的 VodafoneThree 已與諾基亞合作，在其英國行動網路上試驗 AI-RAN。據該業者稱，這些試驗正在研究無線接入網路（RAN）中的人工智慧在使 VodafoneThree 的行動網路更加智慧、響應迅速和高效方面可以發揮的作用。",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
