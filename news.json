@@ -1,11 +1,44 @@
 {
-  "updatedAt": "2026-11-25 10:32 台灣時間",
+  "updatedAt": "2026-11-25 10:43 台灣時間",
   "historyUpdatedDate": "2026-11-25",
   "historyLastAttemptAt": "2026-11-24T16:04:37.852537+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-24",
   "top10Count": 10,
   "items": [
+    {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Dan Ives Raises Nvidia Price Target to $250 With Jensen Huang Back - NVIDIA (NASDAQ:NVDA)",
+      "summary": "",
+      "originalTitle": "Dan Ives Raises Nvidia Price Target to $250 With Jensen Huang Back - NVIDIA (NASDAQ:NVDA)",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWDl5dU9naDMxU0M3Y09pazU4akRZYUYtVWFwVWpUaHRsQXhSWTJkTTF0RDJXUEhfc3ZYb1JhZnppd0RBQzF1NDVHbldXN2ZDVzY4TDBjb012ZXdFZzJYbHQtaXYyNWhadVZTZE9fNGEzSU9JWHhKQnN1TEZoMXI2TTFCa2k4N2tLRkJOeTZXNE56enR4ZVo0dGlIVUJzYTVUMDN0SFM3TTRYRzgweDBvN2FJY29XRTFzdVhXMUV6VE5FYmZqa0Y4?oc=5",
+      "ts": "2026-11-25T02:27:19+00:00",
+      "sourceType": "broker_search",
+      "analystPriority": true,
+      "analystDetails": [],
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 207.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
     {
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
@@ -138,16 +171,29 @@
       "ticker": "NVDA",
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
-      "title": "Wall Street Cuts Nvidia Price Targets By 25% Despite Latest Reversal",
-      "summary": "",
+      "title": "Bank of America 下修 NVDA 目標價至 $250（原 $315）",
+      "summary": "Several Wall Street firms and analysts have revised their Nvidia price targets this week. Oppenheimer cut its target to $250 from $315. Bank of America now sits at $280, down from $350 in August. The cuts came a day after Nvidia reinstated CEO Jensen Huang following a scandal. The average target of $233.36 still sits 54% above Tuesday's price near $151.",
       "originalTitle": "Wall Street Cuts Nvidia Price Targets By 25% Despite Latest Reversal",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2VWpRcU9sOGlkSUxoVDF3UlpCRG5Fbl81cWRHbjM1eFEyNEZqS085bk1icWJ4Y29kT0Q4YXFPRUtDaGpLRDg2U3VzRHQ2TTNWaUx0cF9XS3QzUDFHMG51LUxJMWRTWm9PMzdPVEhja1NjYmV1N2M0cQ?oc=5",
+      "originalSummary": "Several Wall Street firms and analysts have revised their Nvidia price targets this week. Oppenheimer cut its target to $250 from $315. Bank of America now sits at $280, down from $350 in August. The cuts came a day after Nvidia reinstated CEO Jensen Huang following a scandal. The average target of $233.36 still sits 54% above Tuesday's price near $151.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-cuts-nvidia-price-201254297.html",
       "ts": "2026-11-25T01:12:52+00:00",
       "sourceType": "broker_search",
       "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
+      "analystDetails": [
+        {
+          "broker": "Oppenheimer",
+          "analyst": "",
+          "rating": "",
+          "action": "下修",
+          "newTarget": "$250",
+          "oldTarget": "$315",
+          "reason": "",
+          "reasonConfidence": "none",
+          "targetTicker": "NVDA",
+          "targetCompany": "NVIDIA"
+        }
+      ],
+      "hasArticleBody": true,
       "relatedTickers": [
         "NVDA"
       ],
@@ -156,16 +202,20 @@
       "featured": true,
       "translated": false,
       "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "event": "被評級公司：NVIDIA（NVDA）｜券商：Oppenheimer｜動作：下修｜目標價：$250（原 $315）｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$315",
+          "$250"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
         "stance": "",
         "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
       },
-      "top10": true,
-      "top10Rank": 4
+      "top10": false,
+      "top10Rank": null,
+      "detailSource": "article_or_same_event"
     },
     {
       "ticker": "MARKET",
@@ -271,7 +321,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "利空",
       "title": "市場討論：加州 AG Bonta 將向 Nvidia 發起調查，批評聯邦處理方式",
-      "summary": "英偉達 (NVDA) 仍在接受加州調查，司法部長羅布邦塔 (Rob Bonta) 表示，他",
+      "summary": "",
       "originalTitle": "Market Chatter: California AG Bonta to Press Nvidia Probe, Criticizes Federal Handling",
       "originalSummary": "Nvidia (NVDA) remains under investigation by California, with Attorney General Rob Bonta saying he w",
       "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-california-ag-bonta-005828411.html",
@@ -284,7 +334,7 @@
       ],
       "eventType": "",
       "score": 16.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -692,7 +742,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 7
+      "top10Rank": 6
     },
     {
       "ticker": "NVDA",
@@ -789,6 +839,43 @@
       },
       "top10": false,
       "top10Rank": null
+    },
+    {
+      "ticker": "FORM",
+      "group": "半導體設備／測試",
+      "tag": "快訊",
+      "title": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2c",
+      "summary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2cd8fad4634\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-col",
+      "originalTitle": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2c",
+      "originalSummary": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2cd8fad4634\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: dark)\" content=\"#000000\"/><meta property=\"csp-nonce\" content=\"weUlPk6jZl+GeS2rYn/RIQ==\"/><title>Wall St Engine on X: &quot;ZOOM&#x27;S $ZM CEO DELIVERED HIS EARNINGS REMARKS AS AN AI AVATAR&quot; / X</title><meta name=\"robots\" content=\"index, follow\"/><meta property=\"fb:app_id\" content=\"2231777543\"/><meta property=\"og:site_name\" content=\"X (formerly Twitter)\"/><meta property=\"og:locale\" content=\"en_US\"/><meta name=\"application-name\" content=\"X (formerly Twitter)\"/><meta name=\"google-site-verification\" content=\"reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs\"/><meta name=\"facebook-domain-verification\" content=\"x6sdcc8b5ju3bh8nbm59eswogvg6t1\"/><meta http-equiv=\"onion-location\" content=\"https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/\"/><meta property=\"al:ios:app_store_id\" content=\"333903271\"/><meta property=\"al:ios:app_name\" content=\"X\"/><meta property=\"al:android:package\" content=\"com.twitter.android\"/><meta property=\"al:android:app_name\" content=\"X\"/><meta name=\"apple-itunes-app\" content=\"app-id=333903271\"/><meta name=\"apple-mobile-web-app-title\" content=\"X (formerly Twitter)\"/><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"/><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"/><meta name=\"mobile-web-app-capable\" content=\"yes\"/><meta name=\"app-version\" content=\"7d515e2e9af038e7250f720b2139a2cd8fad4634\"/><meta name=\"twitter-site-verification\" content=\"wPIsf5kwahDCDR2NmX/GxjehPhMJJycQgnvtwsYyn3AlfXhHdEe0/lbs/mYe5odE\"/><meta name=\"sentry-trace\" content=\"ba56f815181d4791863a69588c53199a-94cb28d3ebc5a5cc-0\"/><meta name=\"baggage\" content=\"sentry-environment=production,sentry-release=7d515e2e9af038e7250f720b2139a2cd8fad4634,sentry-public_key=b523016f172e2f101d4f771b022ba96c,sentry",
+      "url": "https://x.com/wallstengine/status/2125400839426830410",
+      "ts": "2026-11-25T00:00:00+00:00",
+      "sourceType": "wallstengine_x",
+      "analystPriority": false,
+      "socialSource": "Wall St Engine",
+      "socialScore": 10,
+      "relatedTickers": [
+        "FORM",
+        "GOOGL",
+        "META"
+      ],
+      "eventType": "",
+      "score": 48.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2cd8fad4634\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-col",
+        "numbers": [],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\" data-app-env=\"prod\" data-app-version=\"7d515e2e9af038e7250f720b2139a2cd8fad4634\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover\"/><meta name=\"color-scheme\" content=\"light dark\"/><meta name=\"theme-color\" media=\"(prefers-color-scheme: light)\" content=\"#FFFFFF\"/><meta name=\"theme-col",
+        "watch": [
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
+      },
+      "top10": true,
+      "top10Rank": 5
     },
     {
       "ticker": "MARKET",
@@ -1123,14 +1210,14 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 5
+      "top10Rank": 3
     },
     {
       "ticker": "MU",
       "group": "記憶體／儲存",
       "tag": "題材",
       "title": "我們今天買的 3 隻人工智慧投資股票以及為何拋售美光科技",
-      "summary": "隨著人工智慧基礎設施股票從高點回落 30% 至 80%，許多投資者正在調整他們的投資組合。 AI 投資者播客的聯合主持人 Eric Bleeker 最近分享了他在 2027 年即將到來之際買入的三隻與 AI 相關的股票，以及他為何拋售美光科技的股票。他的推薦之一是 Analog Devices，該公司是長期的行業贏家，在感測、精密裝置領域擁有全面的產品組合。",
+      "summary": "",
       "originalTitle": "3 AI Investment Stocks We’re Buying Today And Why We’re Selling On Micron",
       "originalSummary": "With AI infrastructure stocks pulling back 30% to 80% from their highs, many investors are making adjustments to their portfolio. Eric Bleeker, the co-host of The AI Investor Podcast, recently shared three AI-related stocks he's buying as we head into 2027, as well as why he is selling on Micron. Among his recommendations is  Analog Devices, a longtime industry winner with a comprehensive portfolio in sensing, precision motion, and power management that stands to capture thousands of dollars in ",
       "url": "https://finance.yahoo.com/video/3-ai-investment-stocks-buying-231904427.html",
@@ -1144,16 +1231,16 @@
       ],
       "eventType": "",
       "score": 22.5,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "隨著人工智慧基礎設施股票從高點回落 30% 至 80%，許多投資者正在調整他們的投資組合。 AI 投資者播客的聯合主持人 Eric Bleeker 最近分享了他在 2027 年即將到來之際買入的三隻與 AI 相關的股票，以及他為何拋售美光科技的股票。他的推薦之一是 Analog Devices，該公司是長期的行業贏家，在感測、精密裝置領域擁有全面的產品組合。",
+        "event": "With AI infrastructure stocks pulling back 30% to 80% from their highs, many investors are making adjustments to their portfolio. Eric Bleeker, the co-host of The AI Investor Podcast, recently shared three AI-related stocks he's buying as we head into 2027, as well as why he is selling on Micron. Among his recommendations is Analog Devices, a longtime industry winner with a comprehensive portfolio in sensing, precision motion, and power management that stands to capture thousands of dollars in",
         "numbers": [
           "30%",
           "80%"
         ],
         "why": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
-        "stance": "隨著人工智慧基礎設施股票從高點回落 30% 至 80%，許多投資者正在調整他們的投資組合。 AI 投資者播客的聯合主持人 Eric Bleeker 最近分享了他在 2027 年即將到來之際買入的三隻與 AI 相關的股票，以及他為何拋售美光科技的股票。他的推薦之一是 Analog Devices，該公司是長期的行業贏家，在感測、精密裝置領域擁有全面的產品組合。",
+        "stance": "Among his recommendations is Analog Devices, a longtime industry winner with a comprehensive portfolio in sensing, precision motion, and power management that stands to capture thousands of dollars in",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1194,7 +1281,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 9
+      "top10Rank": 8
     },
     {
       "ticker": "MARKET",
@@ -1425,6 +1512,38 @@
     {
       "ticker": "MARKET",
       "group": "市場重點",
+      "tag": "利多",
+      "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+      "summary": "",
+      "originalTitle": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVkYtS2FmcVdSQWZoN3k3ZGNUbkF1akRXOFU2VTdtLXJBV3JBZF85N2tTZFh5TUpFbHBTRThVQXhMaXpZQzh1WjZESmN5NEdxQjY1LU1EQlZkRUk1NGVfTjNFZTlONVRGaDFZY3dKZWZjVE5zMXVoRXBxNjIweUQwaXpzWW9WOTVBNHJKaEtha0ttTzhhYVZtajhmUnZXUQ?oc=5",
+      "ts": "2026-11-24T22:58:09+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 6.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
       "tag": "利空",
       "title": "納斯達克因關稅和人工智慧支出擔憂而受挫；在市場反彈嘗試期間該做什麼",
       "summary": "",
@@ -1521,7 +1640,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 8
+      "top10Rank": 7
     },
     {
       "ticker": "AMZN",
@@ -1731,7 +1850,7 @@
         "sourceQuality": "headline_only"
       },
       "top10": true,
-      "top10Rank": 6
+      "top10Rank": 4
     },
     {
       "ticker": "INTC",
@@ -1766,7 +1885,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 10
+      "top10Rank": 9
     },
     {
       "ticker": "MARKET",
@@ -2131,8 +2250,8 @@
         "takeaway": "投資上先確認這則消息是否會影響營收、毛利、訂單能見度、需求或估值。如果來源沒有量化財務資訊，就先把它視為題材訊號，而不是直接等同獲利成長。",
         "sourceQuality": "body"
       },
-      "top10": false,
-      "top10Rank": null
+      "top10": true,
+      "top10Rank": 10
     },
     {
       "ticker": "NVDA",
@@ -2349,7 +2468,7 @@
         "sourceQuality": "body"
       },
       "top10": true,
-      "top10Rank": 2
+      "top10Rank": 1
     },
     {
       "ticker": "ADI",
@@ -2358,35 +2477,28 @@
       "title": "Analog Devices 第四季財報排名第一，前景好壞參半",
       "summary": "",
       "originalTitle": "Analog Devices Tops Fiscal Q4 Views, Gives Mixed Outlook",
-      "originalSummary": "Key TakeawaysAnalog Devices shares fell 15% today after the chipmaker guided fiscal first-quarter revenue to about $4. 4 billion, roughly flat with a record fourth quarter.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-sinks-15-flat-145657931.html",
+      "originalSummary": "",
+      "url": "https://www.investors.com/news/technology/adi-stock-analog-devices-fiscal-q4-2026-report/?src=A00220&yptr=yahoo",
       "ts": "2026-11-24T21:49:43+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
       "movePct": -17.372937293729372,
-      "hasArticleBody": true,
-      "detailSource": "article_or_same_event",
+      "hasArticleBody": false,
       "relatedTickers": [
         "ADI"
       ],
-      "eventType": "新題材",
-      "score": 19.5,
+      "eventType": "",
+      "score": 12.0,
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "Key TakeawaysAnalog Devices shares fell 15% today after the chipmaker guided fiscal first-quarter revenue to about $4. 4 billion, roughly flat with a record fourth quarter.",
-        "numbers": [
-          "$4.",
-          "15%",
-          "4 billion"
-        ],
-        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "Key TakeawaysAnalog Devices shares fell 15% today after the chipmaker guided fiscal first-quarter revenue to about $4. 4 billion, roughly flat with a record fourth quarter.",
-        "watch": [
-          "下一季／全年財測是否再次上修或下修"
-        ],
-        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "sourceQuality": "body"
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
@@ -2602,116 +2714,6 @@
       },
       "top10": false,
       "top10Rank": null
-    },
-    {
-      "ticker": "MSFT",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "百思買也是受益於人工智慧熱潮的公司之一",
-      "summary": "雅虎財經執行編輯 Brian Sozzi 將百思買 (BBY) 五年來最強勁的可比銷售成長視為人工智慧需求正在透過裝置升級觸及消費者錢包的跡象，而不是透過英偉達 (NVDA)、微軟 (MSFT) 和亞馬遜 (AMZN) 的資料中心支出體現出來。",
-      "originalTitle": "Best Buy also among companies benefiting from AI boom",
-      "originalSummary": "Yahoo Finance Executive Editor Brian Sozzi  looks at Best Buy's (BBY) strongest comparable sales growth in five years as a sign that AI demand is reaching consumers' wallets through device upgrades, and not showing up through data-center spending on Nvidia (NVDA), Microsoft (MSFT), and Amazon (AMZN).",
-      "url": "https://finance.yahoo.com/video/best-buy-also-among-companies-benefiting-from-ai-boom-214456029.html",
-      "ts": "2026-11-24T21:44:56+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": 0.7370558375634495,
-      "analystDetails": [],
-      "relatedTickers": [
-        "MSFT",
-        "AMZN",
-        "NVDA"
-      ],
-      "eventType": "",
-      "score": 220.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "雅虎財經執行編輯 Brian Sozzi 將百思買 (BBY) 五年來最強勁的可比銷售成長視為人工智慧需求正在透過裝置升級觸及消費者錢包的跡象，而不是透過英偉達 (NVDA)、微軟 (MSFT) 和亞馬遜 (AMZN) 的資料中心支出體現出來。",
-        "numbers": [],
-        "why": "券商調整理由：雅虎財經執行編輯 Brian Sozzi 將百思買 (BBY) 五年來最強勁的可比銷售成長視為人工智慧需求正在透過裝置升級觸及消費者錢包的跡象，而不是透過英偉達 (NVDA)、微軟 (MSFT) 和亞馬遜 (AMZN) 的資料中心支出體現出來。",
-        "stance": "雅虎財經執行編輯 Brian Sozzi 將百思買 (BBY) 五年來最強勁的可比銷售成長視為人工智慧需求正在透過裝置升級觸及消費者錢包的跡象，而不是透過英偉達 (NVDA)、微軟 (MSFT) 和亞馬遜 (AMZN) 的資料中心支出體現出來。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "供需是否持續，以及價格／毛利是否同步改善",
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "券商調整理由：雅虎財經執行編輯 Brian Sozzi 將百思買 (BBY) 五年來最強勁的可比銷售成長視為人工智慧需求正在透過裝置升級觸及消費者錢包的跡象，而不是透過英偉達 (NVDA)、微軟 (MSFT) 和亞馬遜 (AMZN) 的資料中心支出體現出來。",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 1
-    },
-    {
-      "ticker": "META",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "Meta 推出改編版 Muse，英國金融監理機構發出人工智慧警告",
-      "summary": "",
-      "originalTitle": "UK financial watchdog delivers AI warning as Meta launches adapted Muse",
-      "originalSummary": "LONDON, Nov 24 (Reuters) - Britain's financial watchdog has warned technology and social media companies that AI agents offering financial services could face regulatory ‌action, urging companies to engage early with supervisors. The statement on Tuesday coincided ‌with Meta's launch of its Muse AI agent into the UK.",
-      "url": "https://www.yahoo.com/news/articles/ai-agents-could-trigger-financial-110122847.html",
-      "ts": "2026-11-24T21:43:20+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": false,
-      "movePct": -1.3018741633199382,
-      "relatedTickers": [
-        "META"
-      ],
-      "eventType": "新題材",
-      "score": 25.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "LONDON, Nov 24 (Reuters) - Britain's financial watchdog has warned technology and social media companies that AI agents offering financial services could face regulatory ‌action, urging companies to engage early with supervisors. The statement on Tuesday coincided ‌with Meta's launch of its Muse AI agent into the UK.",
-        "numbers": [],
-        "why": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "stance": "LONDON, Nov 24 (Reuters) - Britain's financial watchdog has warned technology and social media companies that AI agents offering financial services could face regulatory ‌action, urging companies to engage early with supervisors. The statement on Tuesday coincided ‌with Meta's launch of its Muse AI agent into the UK.",
-        "watch": [
-          "AI 需求是否能轉成實際訂單、使用量或資本支出"
-        ],
-        "takeaway": "先看新產品／核准是否會形成新的收入來源，再看量產時間、客戶採用與市場規模。只有產品發布本身，不一定等於短期 EPS 貢獻。",
-        "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "HPE",
-      "group": "AI Server／資料中心硬體",
-      "tag": "利多",
-      "title": "HPE執行長安東尼奧·內裡(Antonio Neri)透露了上調前景背後的3個驅動因素",
-      "summary": "HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。",
-      "originalTitle": "HPE CEO Antonio Neri reveals 3 drivers behind its raised outlook",
-      "originalSummary": "HPE (HPE) CEO Antonio Neri joins Yahoo Finance Executive Editor Brian Sozzi to break down the company's raised outlook, highlighting enterprise infrastructure upgrades, accelerating AI inference demand, and continued investment from hyperscalers as key growth drivers.",
-      "url": "https://finance.yahoo.com/video/hpe-ceo-antonio-neri-reveals-3-drivers-behind-its-raised-outlook-214049570.html",
-      "ts": "2026-11-24T21:40:49+00:00",
-      "sourceType": "ticker_feed",
-      "analystPriority": true,
-      "movePct": -16.305705955851735,
-      "analystDetails": [],
-      "relatedTickers": [
-        "HPE"
-      ],
-      "eventType": "",
-      "score": 214.5,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。",
-        "numbers": [],
-        "why": "券商調整理由：HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。",
-        "stance": "HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。",
-        "watch": [
-          "評級是否持續，以及後續是否有其他大型券商跟進",
-          "下一季／全年財測是否再次上修或下修",
-          "供需是否持續，以及價格／毛利是否同步改善"
-        ],
-        "takeaway": "券商調整理由：HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。",
-        "sourceQuality": "body"
-      },
-      "top10": true,
-      "top10Rank": 3
     }
   ],
   "historyItems": [
