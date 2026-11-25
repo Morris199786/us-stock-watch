@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-11-24 22:06 台灣時間",
+  "updatedAt": "2026-11-25 08:11 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,285 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-11-24:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-11-24",
+      "generatedAt": "2026-11-25 08:11 台灣時間",
+      "generatedAtIso": "2026-11-25T00:11:41.718500+00:00",
+      "items": [
+        {
+          "ticker": "MU",
+          "name": "Micron",
+          "group": "記憶體／儲存",
+          "headline": "分析師將美光科技 12 個月目標股價下調 50% 以上",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [
+            "削減目標是 2028 年，法國巴黎銀行 (BNP) 對美光 2028 年的預測比共識低 45%。",
+            "主要要點 在法國巴黎銀行下調美光科技評級且美國銀行表示已開始削減半成品預估後，美光科技、SK 海力士和 Sandisk 今天股價下跌。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -11.008902077151351,
+          "movePrice": 629.79,
+          "regularChangePct": -11.008902077151351,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.18577621111798281,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/warning-micron-investors-bank-america-201039465.html"
+            }
+          ],
+          "score": 987.02
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell",
+          "group": "AI 運算／AI 晶片",
+          "headline": "Susquehanna 調整 MRVL 目標價至 $225",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [
+            "關鍵要點薩斯奎哈納 (Susquehanna) 於 11 月 11 日將 Marvell Technology (MRVL:NASDAQ) 目標股價從 300 美元下調至 225 美元。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -9.099074202017421,
+          "movePrice": 131.57,
+          "regularChangePct": -9.099074202017421,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.5852397963061362,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/susquehanna-cut-marvell-target-225-120619952.html"
+            }
+          ],
+          "score": 975.35
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "group": "太空／國防／無人系統",
+          "headline": "Mizuho 調整 RKLB 目標價至 $40",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -7.354422728188603,
+          "movePrice": 45.98,
+          "regularChangePct": -7.354422728188603,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.36972596781208455,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.tipranks.com/news/rocket-lab-rklb-stock-slips-after-mizuho-sets-40-price-target"
+            }
+          ],
+          "score": 964.82
+        },
+        {
+          "ticker": "DELL",
+          "name": "Dell",
+          "group": "AI Server／資料中心硬體",
+          "headline": "AI 伺服器積壓量暴增 619%，戴爾股價上漲",
+          "priority": 2,
+          "category": "財報／財測",
+          "bullets": [
+            "戴爾科技公司（納斯達克股票代碼：DELL）目前積壓的AI伺服器訂單達1,320億美元，年增619%，超過其去年的全部營收，凸顯了AI基礎設施的需求規模。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -11.83302976919174,
+          "movePrice": 295.28,
+          "regularChangePct": -11.83302976919174,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 1.0101598482796126,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/technology/articles/dell-shares-rise-earnings-beat-213400130.html"
+            }
+          ],
+          "score": 877.06
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "group": "太空／國防／無人系統",
+          "headline": "加拿大皇家銀行 (RBC) 預計 SpaceX 與特斯拉的交易將於 2027 年初公佈——特斯拉股東可能會接受合併，而無需支付巨額溢價",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "bullets": [
+            "根據正在進行的 Stocktwits 民意調查，約 1,700 名受訪者中的 45% 認為 SpaceX 與特斯拉的交易將在年底前宣布。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -5.654293213348327,
+          "movePrice": 125.81,
+          "regularChangePct": -5.654293213348327,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.34536205389079644,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/rbc-expects-spacex-tesla-deal-215533238.html"
+            }
+          ],
+          "score": 740.52
+        },
+        {
+          "ticker": "AMZN",
+          "name": "Amazon",
+          "group": "CSP",
+          "headline": "亞馬遜客戶可能有資格獲得 3.095 億美元的和解。看看如何",
+          "priority": 3,
+          "category": "訂單／客戶／合作",
+          "bullets": [
+            "在近九年的時間內遇到退貨或退款問題的亞馬遜客戶可能有資格獲得 3.095 億美元的集體訴訟和解金。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -1.2138298288891458,
+          "movePrice": 252.29,
+          "regularChangePct": -1.2138298288891458,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.23056799714613607,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/small-business/articles/amazon-customers-may-qualify-309-223244752.html"
+            }
+          ],
+          "score": 714.81
+        },
+        {
+          "ticker": "HPE",
+          "name": "HPE",
+          "group": "AI Server／資料中心硬體",
+          "headline": "HPE執行長安東尼奧·內裡(Antonio Neri)透露了上調前景背後的3個驅動因素",
+          "priority": 4,
+          "category": "公司展望",
+          "bullets": [
+            "HPE (HPE) 執行長 Antonio Neri 與雅虎財經執行編輯 Brian Sozzi 一起分析了公司上調的前景，強調企業基礎設施升級、人工智慧推理需求加速以及超大規模企業的持續投資是關鍵的成長動力。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -16.305705955851735,
+          "movePrice": 40.19,
+          "regularChangePct": -16.305705955851735,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.7962179646678336,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/video/hpe-ceo-antonio-neri-reveals-3-drivers-behind-its-raised-outlook-214049570.html"
+            }
+          ],
+          "score": 721.23
+        },
+        {
+          "ticker": "ADI",
+          "name": "Analog Devices",
+          "group": "類比／電源／功率／RF",
+          "headline": "Analog Devices 第四季財報排名第一，前景好壞參半",
+          "priority": 4,
+          "category": "公司展望",
+          "bullets": [
+            "Analog Devices (NASDAQ:ADI) 股價在 11 月 24 日星期二盤前交易中下跌約 10%，此前這家半導體製造商公佈了創紀錄的季度業績，但發布的盈利預測略低於華爾街預期。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -17.372937293729372,
+          "movePrice": 312.95,
+          "regularChangePct": -17.372937293729372,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.06710337114554932,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-stock-crashes-10-173752776.html"
+            }
+          ],
+          "score": 696.45
+        },
+        {
+          "ticker": "META",
+          "name": "Meta",
+          "group": "CSP",
+          "headline": "Meta 推出改編版 Muse，英國金融監理機構發出人工智慧警告",
+          "priority": 5,
+          "category": "產品／監管／併購",
+          "bullets": [
+            "週二的聲明恰逢 Meta 在英國推出 Muse AI 代理。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -1.3018741633199382,
+          "movePrice": 589.82,
+          "regularChangePct": -1.3018741633199382,
+          "preMarketChangePct": null,
+          "postMarketChangePct": -0.4518327625377405,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://www.yahoo.com/news/articles/ai-agents-could-trigger-financial-110122847.html"
+            }
+          ],
+          "score": 514.1
+        }
+      ]
+    },
     {
       "key": "2026-11-24:pre",
       "session": "pre",
@@ -2972,44 +3251,6 @@
             }
           ],
           "score": 946.67
-        }
-      ]
-    },
-    {
-      "key": "2026-11-10:post",
-      "session": "post",
-      "sessionLabel": "盤後焦點",
-      "marketDate": "2026-11-10",
-      "generatedAt": "2026-11-11 08:10 台灣時間",
-      "generatedAtIso": "2026-11-11T00:10:43.370420+00:00",
-      "items": [
-        {
-          "ticker": "NVDA",
-          "name": "NVIDIA",
-          "group": "AI 運算／AI 晶片",
-          "headline": "英偉達股票（NVDA）因執行長調查而持續承受壓力；富國銀行在第三季財報公佈前降低價格目標",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -5.473778474282199,
-          "movePrice": 168.89,
-          "regularChangePct": -5.473778474282199,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.6868375865948462,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.tipranks.com/news/nvidia-stock-nvda-stays-under-pressure-amid-ceo-probe-wells-fargo-lowers-price-target-ahead-of-q3-earnings"
-            }
-          ],
-          "score": 964.2
         }
       ]
     }
