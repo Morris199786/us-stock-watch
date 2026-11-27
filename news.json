@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-27 13:16 台灣時間",
+  "updatedAt": "2026-11-27 13:26 台灣時間",
   "historyUpdatedDate": "2026-11-27",
   "historyLastAttemptAt": "2026-11-26T16:02:08.136490+00:00",
   "historyItemCount": 800,
   "top10Date": "2026-11-27",
-  "top10Count": 1,
+  "top10Count": 2,
   "items": [
     {
       "ticker": "MARKET",
@@ -24,6 +24,39 @@
       ],
       "eventType": "",
       "score": 6.75,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": true,
+      "top10Rank": 2
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
+      "title": "I test tablets, and the Amazon Alexa Tablets are my pick to shop during Black Friday",
+      "summary": "",
+      "originalTitle": "I test tablets, and the Amazon Alexa Tablets are my pick to shop during Black Friday",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40QllOZ0NWRjFjOVNyY0hfOEozdk5OQ0FiLWZYeGJHc0pDd3dGWUFjYWJSeTdoVDJ3QVlJMGE1OGVubFRBdUNFaWk1a0FYQ3pkUWtKRnRobTFZM2FKMmgzaVd2STlEWFV3LUZGRmtRTGNFXzdPNjdBTF9HUTlzRDQ?oc=5",
+      "ts": "2026-11-27T05:03:56+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "hasArticleBody": false,
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "eventType": "新題材",
+      "score": 14.25,
       "featured": true,
       "translated": false,
       "investorBrief": {
@@ -289,6 +322,42 @@
       "top10Rank": null
     },
     {
+      "ticker": "NVDA",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+      "summary": "Nvidia Corp. (NASDAQ:NVDA) chip sellers are reportedly barring neoclouds from buying GPUs if Chinese firms rent any capacity, after a Commerce Department rule restricting remote access to AI chips took effect Nov. 19. Commerce Rule Targets Remote Access Loophole Chip sellers relayed the message to neoclouds after the rule was announced Nov. 16, CNBC reported on Thursday, citing sources. Neoclouds are specialized clou",
+      "originalTitle": "Neoclouds Told To Choose: Nvidia Chips Or Chinese Customers",
+      "originalSummary": "Nvidia Corp. (NASDAQ:NVDA) chip sellers are reportedly barring neoclouds from buying GPUs if Chinese firms rent any capacity, after a Commerce Department rule restricting remote access to AI chips took effect Nov. 19. Commerce Rule Targets Remote Access Loophole Chip sellers relayed the message to neoclouds after the rule was announced Nov. 16, CNBC reported on Thursday, citing sources. Neoclouds are specialized cloud providers that rent out computing power built on graphics processing units (GP",
+      "url": "https://finance.yahoo.com/technology/articles/neoclouds-told-choose-nvidia-chips-041120920.html",
+      "ts": "2026-11-27T04:11:20+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": -3.9129875144806148,
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "eventType": "",
+      "score": 12.0,
+      "featured": true,
+      "translated": false,
+      "investorBrief": {
+        "event": "Nvidia Corp. (NASDAQ:NVDA) chip sellers are reportedly barring neoclouds from buying GPUs if Chinese firms rent any capacity, after a Commerce Department rule restricting remote access to AI chips took effect Nov. Commerce Rule Targets Remote Access Loophole Chip sellers relayed the message to neoclouds after the rule was announced Nov. Neoclouds are specialized clou",
+        "numbers": [],
+        "why": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "stance": "(NASDAQ:NVDA) chip sellers are reportedly barring neoclouds from buying GPUs if Chinese firms rent any capacity, after a Commerce Department rule restricting remote access to AI chips took effect Nov.",
+        "watch": [
+          "合作金額、出貨時程與實際營收貢獻",
+          "供需是否持續，以及價格／毛利是否同步改善",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "重點在於這筆合作／訂單能否轉成可量化營收，以及客戶是否具有延續性。如果能提高未來數季的訂單能見度，投資意義會高於單純題材。",
+        "sourceQuality": "body"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
       "ticker": "COHR",
       "group": "光通訊／網通",
       "tag": "題材",
@@ -341,7 +410,7 @@
       "relatedTickers": [],
       "eventType": "",
       "score": 6.75,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -587,6 +656,36 @@
       "ticker": "MARKET",
       "group": "市場重點",
       "tag": "題材",
+      "title": "Nasdaq 100 Forecast: Anthropic IPO fails to calm AI worries",
+      "summary": "",
+      "originalTitle": "Nasdaq 100 Forecast: Anthropic IPO fails to calm AI worries",
+      "originalSummary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWU8ybzlxdUlpQzh6R1hNU0hOTDF6SllWeHhHWW1FZFI3Vkx4UXpMRjZfZjVrOFNVcUdZbEM2cmQxX1BaZVJmal9waTFFV2JZcHlYUXIteUhyQmdwVUJGRGJyQ3RZN2xxa210SUhUUGV2b2dOR1pCX0ZEcG1obXdGbFZzVkNWSV9pLWNCajF4V0FVUjZNek93dEczRWxpRUFNNFp1dmN0WlEydw?oc=5",
+      "ts": "2026-11-27T03:34:44+00:00",
+      "sourceType": "market_search",
+      "marketWide": true,
+      "analystPriority": false,
+      "relatedTickers": [],
+      "eventType": "",
+      "score": 9.75,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
+        "numbers": [],
+        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
+        "stance": "",
+        "watch": [],
+        "takeaway": "來源不足，等待可驗證內文。",
+        "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "MARKET",
+      "group": "市場重點",
+      "tag": "題材",
       "title": "納斯達克指數此前從未如此多頭領先",
       "summary": "",
       "originalTitle": "The Nasdaq has never blown a bull market lead like this before",
@@ -687,7 +786,7 @@
       "group": "AI 運算／AI 晶片",
       "tag": "題材",
       "title": "Nvidia 較史上最高點下跌 35%，創下自 AI 繁榮開始以來的最大跌幅。是買入嗎？",
-      "summary": "Nvidia 現在是一個便宜的選擇。",
+      "summary": "",
       "originalTitle": "Nvidia Is Down 35% From Its All-Time High, Tied for Its Biggest Drop Since the AI Boom Began. Is It a Buy?",
       "originalSummary": "Nvidia is a bargain buy right now.",
       "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-down-35-time-high-032002712.html",
@@ -700,7 +799,7 @@
       ],
       "eventType": "",
       "score": 12.0,
-      "featured": true,
+      "featured": false,
       "translated": true,
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
@@ -1397,8 +1496,8 @@
       "title": "墨西哥希望對 SpaceX 的飛行地點擁有發言權——稱有害的火箭碎片不斷衝上其海岸",
       "summary": "",
       "originalTitle": "Mexico wants a say in where SpaceX flies — says harmful rocket debris keeps washing up on its shores",
-      "originalSummary": "The election is over, but the work of holding Texas officials accountable is just beginning. Help us pursue the truth. Every gift makes a difference. You've read articles this month. You have unlimited free articles remaining because we don't have a paywall. Independent Texas reporting needs your support. The Texas Tribune delivers fact-based journalism for Texans, by Texans — and our community of members, the readers who donate, make our work possible. Will you support our nonprofit newsroom with a donation of any amount? Choose an amount or learn more about membership .",
-      "url": "https://www.texastribune.org/2026/11/23/spacex-rocket-debris-beach-texas-mexico/",
+      "originalSummary": "While Mexican authorities and environmentalists are engaged in clean-up efforts on Tamaulipas beaches, Elon Musk’s aerospace company SpaceX is denying that an explosion after a rocket launch last week is responsible for pieces of debris found along the shoreline. Environmentalists claim to have found “thousands, possibly millions, of fragments of space debris” off the coast of Playa Bagdad and say they have evidence that it comes from the SpaceX launch last week. Mexico’s Federal Attorney for Environmental Protection (Profepa) has been investigating SpaceX’s possible responsibility and according to various news reports has indicated it will take action. In response, SpaceX issued a statement on social media saying its Mexican government contacts reported finding “very few” pieces of rocket debris on the coast. “Our partners on the ground informed us that they have found very little debris on their beach sweeps, and it is not clear that what little they have found came from SpaceX operations,” the statement said. SpaceX asserted that most social media posts about widespread debris and damage are “fabrications or deliberately intended to deceive,” while insisting that any debris that might have come from its booster “poses no chemical, biological or toxicological risks.”",
+      "url": "https://mexiconewsdaily.com/news/elon-musks-spacex-denies-responsibility-latest-space-debris-mexico-beach/",
       "ts": "2026-11-27T00:30:00+00:00",
       "sourceType": "ticker_feed",
       "analystPriority": false,
@@ -1413,10 +1512,10 @@
       "featured": false,
       "translated": true,
       "investorBrief": {
-        "event": "The election is over, but the work of holding Texas officials accountable is just beginning. Help us pursue the truth. Every gift makes a difference. You have unlimited free articles remaining because we don't have a paywall.",
+        "event": "While Mexican authorities and environmentalists are engaged in clean-up efforts on Tamaulipas beaches, Elon Musk’s aerospace company SpaceX is denying that an explosion after a rocket launch last week is responsible for pieces of debris found along the shoreline. Environmentalists claim to have found “thousands, possibly millions, of fragments of space debris” off the coast of Playa Bagdad and say they have evidence that it comes from the SpaceX launch last week. Mexico’s Federal Attorney for Environmental Protecti",
         "numbers": [],
         "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
-        "stance": "The election is over, but the work of holding Texas officials accountable is just beginning. Help us pursue the truth.",
+        "stance": "While Mexican authorities and environmentalists are engaged in clean-up efforts on Tamaulipas beaches, Elon Musk’s aerospace company SpaceX is denying that an explosion after a rocket launch last week is responsible for pieces of debris found along the shoreline. Environmentalists claim to have found “thousands, possibly millions, of fragments of space debris” off the coast of Playa Bagdad and say they have evidence that it comes from the SpaceX launch last week.",
         "watch": [
           "AI 需求是否能轉成實際訂單、使用量或資本支出"
         ],
@@ -1880,7 +1979,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1913,7 +2012,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 25.5,
+      "score": 22.1,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2625,103 +2724,6 @@
         ],
         "takeaway": "核心要判斷這件事是否真的增加 AI 算力需求、使用量、資本支出或新收入來源，而不是只停留在 AI 題材層面。",
         "sourceQuality": "body"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "AMZN",
-      "group": "CSP",
-      "tag": "利多",
-      "title": "瑪麗莎·托梅 (Marisa Tomei) 將在亞馬遜米高梅的《升級版 2》中再次扮演克萊爾·杜普里 (Claire Dupree)",
-      "summary": "",
-      "originalTitle": "Marisa Tomei Set to Reprise Claire Dupree in Amazon MGM’s ‘Upgraded 2’",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdE1DZU5UMVE2UVItSWE1N0dJTDBoMlJJQXpXVWFscUxWOTNNdWRidVZlRXJ0VmFnWlZVN0dLWFFCSGI0NFoxRjV6THlnT0daODduUTViSl9nWDN0WThOQ1ItM2RFZUZrNHY1RFhOVTh4aGJPQlZaRUtEeGFvYnd5cUNKMjhoRDNVVlp0cU9vZjFfY0ltNU1oTmlLbw?oc=5",
-      "ts": "2026-11-26T21:28:35+00:00",
-      "sourceType": "broker_search",
-      "analystPriority": true,
-      "analystDetails": [],
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "eventType": "",
-      "score": 183.3,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "LRCX",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "LRCX 261127 435.00C (LRCX261127C435000) 股票選擇權鏈 |行情與新聞",
-      "summary": "",
-      "originalTitle": "LRCX 261127 435.00C (LRCX261127C435000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00cVp0N2VYVHR5U0RadUVtUk1zODVUb05PeDBjOU9RSWMySk5rc2N2YXdRXzgwMmVwOUxRSjlqVkFiN2Q0ZHUtNnF6ZkxCY3VQNjR3Y0xrNnBiT1QtM05mVA?oc=5",
-      "ts": "2026-11-26T21:27:39+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -5.68413539967374,
-      "relatedTickers": [
-        "LRCX"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "LRCX",
-      "group": "半導體設備／測試",
-      "tag": "題材",
-      "title": "LRCX 261127 195.00P (LRCX261127P195000) 股票選擇權鏈 |行情與新聞",
-      "summary": "",
-      "originalTitle": "LRCX 261127 195.00P (LRCX261127P195000) Stock Options Chain | Quotes & News",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5fTDJYQkpfUUYtby1hczh0ZEpvZ3dSbElVdHppS0hXQ2YycDBrV1JqZzNFbEIwcFBRX201dXVDUEpIdHphMEthSFFSS09sZnFSdU1FdHlsek5NRC1zTDFKQw?oc=5",
-      "ts": "2026-11-26T21:24:43+00:00",
-      "sourceType": "moomoo_public",
-      "analystPriority": false,
-      "movePct": -5.68413539967374,
-      "relatedTickers": [
-        "LRCX"
-      ],
-      "eventType": "",
-      "score": 9.1,
-      "featured": false,
-      "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
       },
       "top10": false,
       "top10Rank": null
