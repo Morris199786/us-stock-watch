@@ -1,6 +1,6 @@
 {
   "digestVersion": "focus-catalysts-20261004",
-  "updatedAt": "2026-11-26 22:04 台灣時間",
+  "updatedAt": "2026-11-27 08:04 台灣時間",
   "schedule": {
     "pre": "美東 09:00（開盤前 30 分鐘，自動依 DST/EST）",
     "post": "台灣 08:00"
@@ -15,6 +15,167 @@
     "7 超大異動但催化待確認"
   ],
   "sessions": [
+    {
+      "key": "2026-11-26:post",
+      "session": "post",
+      "sessionLabel": "盤後焦點",
+      "marketDate": "2026-11-26",
+      "generatedAt": "2026-11-27 08:04 台灣時間",
+      "generatedAtIso": "2026-11-27T00:04:00.963415+00:00",
+      "items": [
+        {
+          "ticker": "DELL",
+          "name": "Dell",
+          "group": "AI Server／資料中心硬體",
+          "headline": "創紀錄獲利後，美國銀行將戴爾股價目標重新調整 100 美元",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [],
+          "detailStatus": "headline_only",
+          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 0.6028176645895611,
+          "movePrice": 297.06,
+          "regularChangePct": 0.6028176645895611,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 1.9928633946004304,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-resets-dell-stock-price-190300430.html"
+            }
+          ],
+          "score": 931.09
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "group": "AI 運算／AI 晶片",
+          "headline": "高盛在財報發布前重置博通 12 個月目標價格",
+          "priority": 1,
+          "category": "券商調整",
+          "bullets": [
+            "Broadcom (AVGO) 於 2026 年 6 月 3 日（第三季業績公佈後的第二天）創下 495 美元的歷史盤中新高。",
+            "今年早些時候，即 9 月，在 2026 年第三季財報發布之前，我寫了一篇有關摩根士丹利的文章，警告博通盈利的最大風險是預期，而不是基本面。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -0.07307028032416119,
+          "movePrice": 300.86,
+          "regularChangePct": -0.07307028032416119,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 1.0436747989097883,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-resets-broadcoms-12-193315984.html"
+            }
+          ],
+          "score": 928.67
+        },
+        {
+          "ticker": "ADI",
+          "name": "Analog Devices",
+          "group": "類比／電源／功率／RF",
+          "headline": "UBS 調整 ADI 目標價至 $420",
+          "priority": 2,
+          "category": "財報／財測",
+          "bullets": [
+            "儘管獲利指引疲軟，ADI 公司仍維持瑞銀目標 儘管獲利指引弱於預期，併計劃在 2027 財年將資本支出增加一倍以上，但 ADI 公司（納斯達克股票代碼：ADI）仍維持瑞銀的「買入」評級和 420 美元的目標價。",
+            "儘管獲利指引弱於預期，且計劃在 2027 財年將資本支出增加一倍以上，但 ADI 公司（納斯達克股票代碼：ADI）仍維持瑞銀集團的「買入」評級和 420 美元的目標價。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 6.440325930659863,
+          "movePrice": 333.105,
+          "regularChangePct": 6.440325930659863,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 0.830068596988931,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-keeps-ubs-target-190000090.html"
+            }
+          ],
+          "score": 856.04
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "group": "AI 運算／AI 晶片",
+          "headline": "調查懸而未決，英偉達評級上調至“持有”，前景仍保持謹慎",
+          "priority": 4,
+          "category": "公司展望",
+          "bullets": [
+            "這位分析師強調要保持謹慎，並援引尚未解決的調查表明，考慮對英偉達股票的積極前景可能還為時過早。",
+            "在此之前，英偉達最近發布了財務報告，該報告強調了收入同比大幅增長，但市場參與者由於持續存在的風險而保持警惕。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": -3.9129875144806148,
+          "movePrice": 149.3,
+          "regularChangePct": -3.9129875144806148,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 1.2860013395847192,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://cryptobriefing.com/nvidia-upgraded-to-hold-amid-unresolved-investigations-cautious-outlook-remains/"
+            }
+          ],
+          "score": 650.37
+        },
+        {
+          "ticker": "SPCX",
+          "name": "SpaceX",
+          "group": "太空／國防／無人系統",
+          "headline": "FCC 批准 100 萬個軌道資料中心衛星 SpaceX 股價上漲 1.3%",
+          "priority": 5,
+          "category": "產品／監管／併購",
+          "bullets": [
+            "截至下午 4:00，SpaceX（納斯達克股票代碼：SPCX）股價上漲 1.3%，至 127.44 美元。"
+          ],
+          "detailStatus": "body",
+          "limitation": "",
+          "reason": "",
+          "judgement": "",
+          "highlights": [],
+          "digestVersion": "focus-catalysts-20261004",
+          "moveLabel": "收盤",
+          "movePct": 1.2956044829504743,
+          "movePrice": 127.44,
+          "regularChangePct": 1.2956044829504743,
+          "preMarketChangePct": null,
+          "postMarketChangePct": 1.1927181418706967,
+          "sources": [
+            {
+              "title": "原始來源",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stocks-rise-1-3-191028542.html"
+            }
+          ],
+          "score": 510.43
+        }
+      ]
+    },
     {
       "key": "2026-11-26:pre",
       "session": "pre",
@@ -2854,256 +3015,6 @@
             }
           ],
           "score": 924.98
-        }
-      ]
-    },
-    {
-      "key": "2026-11-12:post",
-      "session": "post",
-      "sessionLabel": "盤後焦點",
-      "marketDate": "2026-11-12",
-      "generatedAt": "2026-11-13 08:03 台灣時間",
-      "generatedAtIso": "2026-11-13T00:03:05.858494+00:00",
-      "items": [
-        {
-          "ticker": "NBIS",
-          "name": "Nebius",
-          "group": "NeoCloud／AI 算力",
-          "headline": "Baird 調整 NBIS 目標價至 $200",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "Baird 維持 NEBIUS(NBIS.US) 買入評級，並將目標價下調至 200 美元"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -16.84013187665655,
-          "movePrice": 128.64,
-          "regularChangePct": -16.84013187665655,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 1.3059701492537323,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNDhNQWs1QnhSOXZsRlowQW5ieklOOU1pWWtwTEFteFF2bUN4eklScEVjMm5La0V6c0FrMUVBR0Rqeldyc04yaXA1Q1NkbTYzUURiUnh4T2p2T3RpcEdpeFotRXgzbmFqVnNGYUctMDZvTmdfQUJoQTNyaHlQNVRNeVFzS0phNlBwSmltNmtIN3ZTWTg5dHJBUWVUMndDUUU5LV9reXducDEwNHc?oc=5"
-            }
-          ],
-          "score": 1011.61
-        },
-        {
-          "ticker": "AMD",
-          "name": "Advanced Micro Devices",
-          "group": "CPU 概念股",
-          "headline": "今日股市，11 月 12 日：美國銀行將目標股價上調至 700 美元，AMD 股價上漲 5.9%",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "美國銀行將目標股價上調至 700 美元 Advanced Micro Devices（NASDAQ：AMD）是一家 CPU、GPU 和 AI 加速器設計公司，收盤價為 585.30 美元，上漲 5.86%。在英偉達領導層動盪和分析師升級後，隨著投資者轉向半導體同行，股價上漲。投資人正在關注人工智慧晶片的股價上漲和下週的英偉達報告。交易量達 5,490 萬股，較三個月平均交易量高出約 127%",
-            "CPU、GPU 和 AI 加速器設計商 Advanced Micro Devices（NASDAQ：AMD）收盤價為 585.30 美元，上漲 5.86%。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 5.860010851871955,
-          "movePrice": 585.3,
-          "regularChangePct": 5.860010851871955,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.1708525542456818,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-12-222003587.html"
-            }
-          ],
-          "score": 957.58
-        },
-        {
-          "ticker": "NVDA",
-          "name": "NVIDIA",
-          "group": "AI 運算／AI 晶片",
-          "headline": "Baird 下修 NVDA 目標價至 $200（原 $500）",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [
-            "NVDA 股票警報：為何 Baird 將 Nvidia 目標價從 500 美元下調至 200 美元"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -4.340067921487356,
-          "movePrice": 166.19,
-          "regularChangePct": -4.340067921487356,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 1.1650520488597493,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVXNwX1BMQ2xudnlVbE5GQmJoZ1JZZnlpZncydE5BZXo0Y2tmOHlRdV9ybm9EbjlTcVAxSEhkYkprNlVLNW91OG5HQjFtLUJaVEFscXlqOVFZRGRQcklCTmQyQWZ4amlsQlFVeEdobXNYelUzWGNyZTRmWXU4dmFtSXB0bzliZFMzQzdLNmlIRFE0ZUdRakgwUjNFd2VHMVUzLTBaNVpjUTVFX013OGpiSjRqLV81VlpIMmo2Q3dveWw?oc=5"
-            }
-          ],
-          "score": 949.64
-        },
-        {
-          "ticker": "TSM",
-          "name": "TSMC",
-          "group": "晶圓代工／封測／EMS",
-          "headline": "這就是伯恩斯坦 (Bernstein) 的馬克李 (Mark Li) 將台積電 (TSM) 目標價提高至 600 美元的原因",
-          "priority": 1,
-          "category": "券商調整",
-          "bullets": [],
-          "detailStatus": "headline_only",
-          "limitation": "已確認評級／目標價動作，來源未揭露具體調整理由",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -1.901536228377887,
-          "movePrice": 405.49,
-          "regularChangePct": -1.901536228377887,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 1.0592123110310991,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/why-bernstein-mark-li-raising-223454329.html"
-            }
-          ],
-          "score": 934.2
-        },
-        {
-          "ticker": "ONDS",
-          "name": "Ondas",
-          "group": "太空／國防／無人系統",
-          "headline": "Ondas (ONDS) 的定價對獲利是否抱有太大希望？",
-          "priority": 2,
-          "category": "財報／財測",
-          "bullets": [
-            "在過去三年中，該公司股價實現了約 7 倍的大幅上漲，這引發了一個問題：Ondas 已經擁有了多少盈利能力…"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -7.155322862129143,
-          "movePrice": 5.32,
-          "regularChangePct": -7.155322862129143,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.928571428571412,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-onds-pricing-too-much-232811283.html"
-            }
-          ],
-          "score": 852.06
-        },
-        {
-          "ticker": "CBRS",
-          "name": "Cerebras Systems",
-          "group": "AI 運算／AI 晶片",
-          "headline": "Cerebras Systems 因收入指引上調而飆升",
-          "priority": 2,
-          "category": "財報／財測",
-          "bullets": [
-            "Investing.com—在人工智慧運算能力需求激增的推動下，人工智慧基礎設施公司 Cerebras Systems Inc（NASDAQ：CBRS）上調全年營收預期，並公佈了超出預期的第三季度業績，週四盤後交易中股價飆升超過 16%。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -3.294420261179265,
-          "movePrice": 97.75,
-          "regularChangePct": -3.294420261179265,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 17.15948849104858,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-systems-soars-raised-revenue-221427915.html"
-            }
-          ],
-          "score": 827.05
-        },
-        {
-          "ticker": "NOK",
-          "name": "Nokia",
-          "group": "光通訊／網通",
-          "headline": "諾基亞公司（HLSE：NOKIA）贏得人工智慧網路意味著什麼？",
-          "priority": 3,
-          "category": "訂單／客戶／合作",
-          "bullets": [
-            "該協議重點關注人工智慧原生網路自動化，諾基亞提供技術來支援更高水準的營運自主權。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": -1.8957345971563955,
-          "movePrice": 8.28,
-          "regularChangePct": -1.8957345971563955,
-          "preMarketChangePct": null,
-          "postMarketChangePct": 0.36231884057973396,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://finance.yahoo.com/technology/ai/articles/does-nokia-oyj-hlse-nokia-221557502.html"
-            }
-          ],
-          "score": 718.7
-        },
-        {
-          "ticker": "CSCO",
-          "name": "Cisco",
-          "group": "光通訊／網通",
-          "headline": "思科系統公司提高了收入和利潤飆升的預期",
-          "priority": 4,
-          "category": "公司展望",
-          "bullets": [
-            "該公司目前預計全年營收在 748 億美元至 758 億美元之間，全年調整後每股收益將介於 5.47 美元至 5.53 美元之間。",
-            "受代理商人工智慧市場高需求的推動，思科系統公司在最近一個季度的營收和利潤飆升後，提高了今年的預期。"
-          ],
-          "detailStatus": "body",
-          "limitation": "",
-          "reason": "",
-          "judgement": "",
-          "highlights": [],
-          "digestVersion": "focus-catalysts-20261004",
-          "moveLabel": "收盤",
-          "movePct": 1.2405716554188206,
-          "movePrice": 102.01,
-          "regularChangePct": 1.2405716554188206,
-          "preMarketChangePct": null,
-          "postMarketChangePct": -0.3036957161062781,
-          "sources": [
-            {
-              "title": "原始來源",
-              "url": "https://www.marketscreener.com/news/cisco-systems-raises-outlook-on-soaring-1q-revenue-profit-ce785ed9d98cfe2c"
-            }
-          ],
-          "score": 614.12
         }
       ]
     }
