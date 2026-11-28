@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 16:55 台灣時間",
+  "updatedAt": "2026-11-28 17:01 台灣時間",
   "historyUpdatedDate": "2026-11-28",
   "historyLastAttemptAt": "2026-11-27T16:00:52.214293+00:00",
   "historyItemCount": 800,
@@ -463,6 +463,7 @@
       "marketWide": true,
       "analystPriority": true,
       "hasArticleBody": true,
+      "detailSource": "article_or_same_event",
       "relatedTickers": [
         "SPCX",
         "NVDA",
@@ -472,20 +473,6 @@
       "score": 231.75,
       "featured": true,
       "translated": true,
-      "investorBrief": {
-        "event": "被評級公司：MARKET｜券商：BMO Capital｜動作：重申｜評等：Outperform｜目標價：$240｜調整原因：來源未提供具體理由",
-        "numbers": [
-          "$240"
-        ],
-        "why": "調整原因：來源未提供具體調整理由",
-        "stance": "",
-        "watch": [],
-        "takeaway": "調整原因：來源未提供具體調整理由",
-        "sourceQuality": "analyst_structured"
-      },
-      "top10": true,
-      "top10Rank": 1,
-      "detailSource": "article_or_same_event",
       "analystDetails": [
         {
           "broker": "BMO Capital",
@@ -499,7 +486,20 @@
           "targetTicker": "MARKET",
           "targetCompany": "MARKET"
         }
-      ]
+      ],
+      "investorBrief": {
+        "event": "被評級公司：MARKET｜券商：BMO Capital｜動作：重申｜評等：Outperform｜目標價：$240｜調整原因：來源未提供具體理由",
+        "numbers": [
+          "$240"
+        ],
+        "why": "調整原因：來源未提供具體調整理由",
+        "stance": "",
+        "watch": [],
+        "takeaway": "調整原因：來源未提供具體調整理由",
+        "sourceQuality": "analyst_structured"
+      },
+      "top10": true,
+      "top10Rank": 1
     },
     {
       "ticker": "ONTO",
@@ -686,40 +686,6 @@
       "score": 6.75,
       "featured": false,
       "translated": true,
-      "investorBrief": {
-        "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
-        "numbers": [],
-        "why": "目前來源資訊不足，暫不推論對營收、毛利、訂單或公司展望的實際影響。",
-        "stance": "",
-        "watch": [],
-        "takeaway": "來源不足，等待可驗證內文。",
-        "sourceQuality": "headline_only"
-      },
-      "top10": false,
-      "top10Rank": null
-    },
-    {
-      "ticker": "MARKET",
-      "group": "市場重點",
-      "tag": "利多",
-      "title": "Meta Platforms: Looking Beyond Capex, At Efficiency Gains For 2027 (Upgrade)",
-      "summary": "",
-      "originalTitle": "Meta Platforms: Looking Beyond Capex, At Efficiency Gains For 2027 (Upgrade)",
-      "originalSummary": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcTFMZ1ZlRXQyalcxODFFdXNNZnJZRU80VThPTVRMb0R2VXdjX3E1Z3RvelpWdnJZYUJnQ1pMUS01cTZOOFhfalJ5aXFHLXg3WnlJaGtqNDAtT2dmVWpFQmNDS1BuZGh4QWpnaW5RS0RiWXBrckQ5a0tNcUM5bmV2dG5PYWZXR0lTSVdYQWZlcW5PbWxDcVY0WEJjcHZQSVN4bDNtby1oaS0zak93UC1IcjBNdi1HaXhfOENONg?oc=5",
-      "ts": "2026-11-28T04:50:26+00:00",
-      "sourceType": "market_search",
-      "marketWide": true,
-      "analystPriority": true,
-      "hasArticleBody": false,
-      "relatedTickers": [
-        "META"
-      ],
-      "eventType": "",
-      "score": 215.25,
-      "featured": false,
-      "translated": false,
-      "analystDetails": [],
       "investorBrief": {
         "event": "目前只取得新聞標題，尚未取得足夠內文，無法可靠補充事件細節。",
         "numbers": [],
@@ -1040,7 +1006,7 @@
       "detailSource": "article_or_same_event",
       "relatedTickers": [],
       "eventType": "",
-      "score": 12.75,
+      "score": 11.05,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -1074,7 +1040,7 @@
         "NVDA"
       ],
       "eventType": "",
-      "score": 6.75,
+      "score": 5.85,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2488,7 +2454,7 @@
       "analystPriority": false,
       "relatedTickers": [],
       "eventType": "",
-      "score": 13.65,
+      "score": 11.55,
       "featured": false,
       "translated": true,
       "investorBrief": {
@@ -2653,6 +2619,45 @@
         "watch": [],
         "takeaway": "來源不足，等待可驗證內文。",
         "sourceQuality": "headline_only"
+      },
+      "top10": false,
+      "top10Rank": null
+    },
+    {
+      "ticker": "AVGO",
+      "group": "AI 運算／AI 晶片",
+      "tag": "題材",
+      "title": "What Broadcom Stock's Google Chip Order Cut Means For Shareholders",
+      "summary": "",
+      "originalTitle": "What Broadcom Stock's Google Chip Order Cut Means For Shareholders",
+      "originalSummary": "Reports in late November indicated that Alphabet plans to trim 2027 shipments of Broadcom designed TPU AI chips by about 20%, which came alongside wider concern about whether heavy AI data center spending will generate adequate returns. The development highlights how Broadcom’s AI semiconductor outlook depends on a concentrated group of hyperscale buyers, leaving its custom chip pipeline sensitive to even incremental changes in orders from one key client. This raises questions about how...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stocks-google-chip-order-201047235.html",
+      "ts": "2026-11-27T20:10:47+00:00",
+      "sourceType": "ticker_feed",
+      "analystPriority": false,
+      "movePct": 3.8157282456956487,
+      "relatedTickers": [
+        "AVGO",
+        "GOOGL"
+      ],
+      "eventType": "跨公司事件",
+      "score": 20.9,
+      "featured": false,
+      "translated": false,
+      "investorBrief": {
+        "event": "Reports in late November indicated that Alphabet plans to trim 2027 shipments of Broadcom designed TPU AI chips by about 20%, which came alongside wider concern about whether heavy AI data center spending will generate adequate returns. The development highlights how Broadcom’s AI semiconductor outlook depends on a concentrated group of hyperscale buyers, leaving its custom chip pipeline sensitive to even incremental changes in orders from one key client. This raises questions about how...",
+        "numbers": [
+          "20%"
+        ],
+        "why": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "stance": "The development highlights how Broadcom’s AI semiconductor outlook depends on a concentrated group of hyperscale buyers, leaving its custom chip pipeline sensitive to even incremental changes in orders from one key client.",
+        "watch": [
+          "下一季／全年財測是否再次上修或下修",
+          "合作金額、出貨時程與實際營收貢獻",
+          "AI 需求是否能轉成實際訂單、使用量或資本支出"
+        ],
+        "takeaway": "這會直接影響市場對未來營收、EPS 與估值的預期。投資上比已公布的單季數字更重要的是公司接下來的財測方向、毛利與需求能見度。",
+        "sourceQuality": "body"
       },
       "top10": false,
       "top10Rank": null
